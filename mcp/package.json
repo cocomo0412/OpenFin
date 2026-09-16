@@ -1,0 +1,34 @@
+{
+  "name": "openfin-mcp",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Cloudflare Worker Remote MCP adapter for Finance ontology",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "smoke": "node scripts/smoke.mjs",
+    "verify:release": "npm run verify:integrity",
+    "verify:integrity": "node --experimental-strip-types scripts/verify-release.mjs",
+    "verify:recommendation": "node --experimental-strip-types scripts/verify-release.mjs --recommendation",
+    "live-regression": "node scripts/live-regression.mjs",
+    "soak-test": "node scripts/soak-test.mjs",
+    "canary-validate": "node scripts/canary-validate.mjs",
+    "tool-schema-contract": "node scripts/tool-schema-contract.mjs",
+    "financial-quality": "npm run financial-quality-unit",
+    "financial-quality-unit": "node --experimental-strip-types scripts/financial-quality.mjs",
+    "financial-quality-live": "node --experimental-strip-types scripts/financial-quality-live.mjs",
+    "test:mutation": "node --experimental-strip-types scripts/mutation-check.mjs",
+    "test": "npm run typecheck && node --experimental-strip-types --test tests/*.test.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "agents": "^0.12.3",
+    "zod": "^4.1.8"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260828.1",
+    "typescript": "^5.9.3",
+    "wrangler": "^4.131.1"
+  }
+}

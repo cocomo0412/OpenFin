@@ -1,0 +1,40 @@
+{
+  "name": "openfin-knowledge",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "knowledge:bootstrap": "node scripts/knowledge/bootstrap.mjs",
+    "knowledge:build": "node scripts/knowledge/build-decision-snapshots.mjs && node scripts/knowledge/review-decision-offers.mjs && node scripts/knowledge/validate-decision-receipts.mjs && node scripts/knowledge/promote-candidates.mjs && node scripts/knowledge/build.mjs",
+    "knowledge:validate": "node scripts/knowledge/validate.mjs && node scripts/knowledge/validate-rule-facts.mjs",
+    "knowledge:validate-facts": "node scripts/knowledge/validate-rule-facts.mjs",
+    "knowledge:schema-validate": "node scripts/knowledge/schema-validate.mjs",
+    "knowledge:derive-quality": "node scripts/knowledge/derive-quality.mjs",
+    "knowledge:derive-quality:check": "node scripts/knowledge/derive-quality.mjs --check",
+    "knowledge:verify-recommendation-approval": "node scripts/knowledge/verify-recommendation-approval.mjs",
+    "knowledge:verify:quality-consistency": "node scripts/knowledge/verify-quality-consistency.mjs",
+    "knowledge:review-decision-offers": "node scripts/knowledge/review-decision-offers.mjs",
+    "knowledge:promote-candidates": "node scripts/knowledge/promote-candidates.mjs",
+    "knowledge:validate-decision-receipts": "node scripts/knowledge/validate-decision-receipts.mjs",
+    "knowledge:compile-rules": "node scripts/knowledge/compile-financial-rules.mjs",
+    "knowledge:verify-public-parity": "node scripts/knowledge/verify-public-parity.mjs",
+    "knowledge:track-sources": "node scripts/knowledge/track-sources.mjs --dry-run",
+    "knowledge:track-sources:write": "node scripts/knowledge/track-sources.mjs --write",
+    "knowledge:track-sources:dry-run": "node scripts/knowledge/track-sources.mjs --dry-run",
+    "knowledge:collect-finlife-candidates": "node --env-file-if-exists=.env scripts/knowledge/collect-finlife-candidates.mjs",
+    "knowledge:collect-finlife-candidates:self-check": "node scripts/knowledge/collect-finlife-candidates.mjs --self-check",
+    "knowledge:source-impact-report": "node scripts/knowledge/source-impact-report.mjs",
+    "knowledge:vertical-slice": "node scripts/knowledge/vertical-slice-report.mjs",
+    "knowledge:decision-snapshots": "node scripts/knowledge/build-decision-snapshots.mjs",
+    "knowledge:migrate-assertion-validity": "node scripts/knowledge/migrate-assertion-validity.mjs",
+    "knowledge:prepare-vertical-slice": "node scripts/knowledge/prepare-vertical-slice.mjs",
+    "test": "npm run test:knowledge",
+    "test:knowledge": "node --test --test-concurrency=1 tests/knowledge/*.test.mjs"
+  },
+  "devDependencies": {
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1"
+  }
+}

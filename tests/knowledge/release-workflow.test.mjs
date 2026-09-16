@@ -1,0 +1,160 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import test from 'node:test';
+
+const root = new URL('../..', import.meta.url).pathname;
+const read = (name) => fs.readFileSync(`${root}/.github/workflows/${name}`, 'utf8');
+
+const shouldRollbackWorker = ({ deployWorkerFinal, promote, validatePromoted, deployPages, parity }) =>
+  deployWorkerFinal === 'success' && promote !== 'skipped' &&
+  (promote !== 'success' || validatePromoted !== 'success' || deployPages !== 'success' || parity !== 'success');
+
+const shouldRollbackPages = ({ canonical, deployPages, parity }) =>
+  canonical === 'success' &&
+  (deployPages === 'failure' || deployPages === 'cancelled' ||
+    (deployPages === 'success' && parity !== 'success'));
+
+test('production release validates the promoted Worker before Pages and retains a rollback path', () => {
+  const workflow = read('release-openfin.yml');
+  assert.match(workflow, /validate-promoted-worker:[\s\S]*MCP_URL: https:\/\/openfin-mcp\.y2kthr\.workers\.dev\/mcp/);
+  assert.match(workflow, /deploy-pages-final:\n\s+needs: \[finalize-artifact, validate-promoted-worker, post-promotion-soak\]/);
+  assert.match(workflow, /rollback-worker-on-post-promotion-failure:[\s\S]*needs\.validate-promoted-worker\.result != 'success'[\s\S]*needs\.deploy-pages-final\.result != 'success'/);
+  assert.match(workflow, /rollback-worker-on-post-promotion-failure:[\s\S]*needs\.public-parity\.result != 'success'/);
+  assert.match(workflow, /rollback-worker-on-post-promotion-failure:[\s\S]*Verify the previous Worker generation is active again[\s\S]*\.deployment_commit == \$commit[\s\S]*\.artifact_generation == \$generation/);
+  assert.doesNotMatch(workflow, /rollback-(?:worker|pages)-on-post-promotion-failure:[\s\S]*?\n\s+if: [^\n]*!cancelled\(\)/);
+  assert.match(workflow, /rollback-pages-on-post-promotion-failure:[\s\S]*?\n\s+if: [^\n]*needs\.deploy-pages-final\.result == 'cancelled'/);
+  assert.match(workflow, /rollback-pages-on-post-promotion-failure:[\s\S]*github-pages-rollback[\s\S]*Verify the previous production pointer is public again/);
+  assert.match(workflow, /Verify the previous production pointer is public again[\s\S]*cmp --silent rollback-site\/opentax\/current-release\.json[\s\S]*cmp --silent "rollback-site\/\$evidence_path"/);
+  assert.match(workflow, /Capture the current production binding and rollback artifact[\s\S]*\.production_deployed_at \/\/ \.deployed_at \/\/ \.generated_at/);
+  assert.match(workflow, /openfin-release-" \+ \$commit/);
+  assert.match(workflow, /pages_artifact_layout[\s\S]*previous-pages-check\/docs[\s\S]*previous-pages-site\/opentax\/current-release\.json[\s\S]*\.pages_generation == \$generation[\s\S]*\.worker_generation == \$generation/);
+  assert.match(workflow, /layout="\$\{\{ needs\.canonical-artifact\.outputs\.previous_pages_artifact_layout \}\}"[\s\S]*cp -a previous-pages\/docs\/\. rollback-site\//);
+  assert.match(workflow, /Verify immutable Pages mirror and Worker preview parity[\s\S]*OPENFIN_PAGES_MANIFEST_URL:[\s\S]*OPENFIN_EXPECTED_WORKER_MANIFEST_URL:/);
+  assert.match(workflow, /validate-worker-final:\n\s+needs: \[finalize-artifact, deploy-pages-final-candidate, deploy-worker-final\]/);
+  assert.match(workflow, /deploy-pages-final:[\s\S]*?permissions:\n\s+contents: read\n\s+pages: write\n\s+id-token: write/);
+  assert.doesNotMatch(workflow, /OPENFIN_(?:BUILD_AT|SCHEMA_VALIDATED_AT|PROMOTION_EVALUATED_AT|PRODUCTION_DEPLOYED_AT): \$\{\{ env\./);
+  assert.match(workflow, /Build canonical artifact once[\s\S]*test -n "\$\{OPENFIN_BUILD_AT:-\}"/);
+  assert.match(workflow, /Embed current live evidence in the final artifact[\s\S]*test -n "\$\{OPENFIN_PRODUCTION_DEPLOYED_AT:-\}"/);
+  assert.doesNotMatch(workflow, /^\s+push:/m);
+  assert.doesNotMatch(workflow, /OPENFIN_WORKER_PREVIEW_BASE_URL/);
+  assert.match(workflow, /Version Preview Alias URL:/);
+  assert.match(workflow, /sed -nE 's#\^Version Preview Alias URL:/);
+  assert.match(workflow, /validate-worker-final:[\s\S]*Validate comparison endpoint and fail-closed state[\s\S]*MCP_URL: \$\{\{ needs\.deploy-worker-final\.outputs\.worker_url \}\}\/mcp/);
+  assert.match(workflow, /validate-promoted-worker:[\s\S]*Re-run comparison endpoint and fail-closed state[\s\S]*MCP_URL: https:\/\/openfin-mcp\.y2kthr\.workers\.dev\/mcp/);
+  assert.match(workflow, /soak-worker-final:[\s\S]*LIVE_DIAGNOSTICS: "1"/);
+  assert.equal((workflow.match(/--var RUNTIME_VERSION:/g) ?? []).length, 2);
+  assert.equal((workflow.match(/--var BUILD_TIMESTAMP:/g) ?? []).length, 2);
+  assert.equal((workflow.match(/OPENFIN_REQUIRE_POSITIVE_RUNTIME="\$\(jq -r '\(\.capabilities\.comparison \/\/ "blocked"\) != "blocked"' \.\.\/release\/docs\/opentax\/finance-ontology-manifest\.json\)"/g) ?? []).length, 2);
+  assert.match(read('staging-openfin.yml'), /OPENFIN_REQUIRE_POSITIVE_RUNTIME: "true"/);
+  assert.equal((workflow.match(/pages deploy "\$upload_dir"/g) ?? []).length, 2);
+  assert.equal((workflow.match(/upload_dir="pages-upload"/g) ?? []).length, 2);
+  assert.equal((workflow.match(/\.exports\[\] \| select\(\(\.shards\? \/\/ \[\]\) \| length > 0\) \| \.path/g) ?? []).length, 2);
+  assert.equal((workflow.match(/Unsafe manifest path:/g) ?? []).length, 2);
+  assert.equal((workflow.match(/exceeds 25 MiB/g) ?? []).length, 2);
+  assert.equal((workflow.match(/OPENFIN_CLOUDFLARE_PAGES_SHARDS: "true"/g) ?? []).length, 3);
+  assert.equal((workflow.match(/LIVE_CASE_ATTEMPTS: 1/g) ?? []).length, 3);
+  assert.match(workflow, /validate-worker-final:[\s\S]*for run in 1 2 3; do[\s\S]*final-live-regression-report-\$run\.json[\s\S]*LIVE_CASE_ATTEMPTS: 1/);
+  assert.match(workflow, /validate-promoted-worker:[\s\S]*for run in 1 2 3; do[\s\S]*promoted-live-regression-report-\$run\.json[\s\S]*LIVE_METADATA_ATTEMPTS: 1[\s\S]*LIVE_CASE_ATTEMPTS: 1/);
+  assert.match(workflow, /\.status == "current" and \.test_count == 120 and \.passed_count == 120 and \.failed_count == 0 and \.skipped_count == 0 and \(\(\.retry_errors \/\/ \[\]\) \| length == 0\)/);
+  assert.equal((workflow.match(/LIVE_CASE_RETRY_DELAY_MS: 1000/g) ?? []).length, 3);
+  assert.equal((workflow.match(/if: \$\{\{ always\(\) \}\}\n\s+with:\n\s+name: openfin-live(?:-final|-promoted)?-\$\{\{ github\.sha \}\}/g) ?? []).length, 3);
+  assert.match(workflow, /name: openfin-live-final-\$\{\{ github\.sha \}\}[\s\S]*final-live-regression-report-\*\.json[\s\S]*final-live-regression-error-\*\.log/);
+  assert.equal((workflow.match(/if-no-files-found: ignore/g) ?? []).length, 5);
+  assert.match(workflow, /jq -r '\.artifact_contract\.fixture_checksum' docs\/opentax\/finance-ontology-manifest\.json/);
+  assert.doesNotMatch(workflow, /jq -r '\.fixture_checksum' docs\/opentax\/finance-ontology-manifest\.json/);
+  assert.match(workflow, /deploy-pages-final:[\s\S]*path: release\/docs/);
+  assert.match(workflow, /deploy-pages-final:[\s\S]*name: openfin-live-promoted-\$\{\{ github\.sha \}\}[\s\S]*Publish promoted production live evidence[\s\S]*publish-promoted-live-evidence\.mjs[\s\S]*actions\/upload-pages-artifact/);
+  assert.match(workflow, /public-parity:[\s\S]*name: openfin-live-promoted-\$\{\{ github\.sha \}\}[\s\S]*OPENFIN_LIVE_EVIDENCE_PATH: live\/promoted-live-regression-report\.json[\s\S]*OPENFIN_LIVE_EVIDENCE_URL: https:\/\/jhny-kor\.github\.io\/OpenFin\/opentax\/live-regression-production-current\.json[\s\S]*OPENFIN_REQUIRE_PRODUCTION_LIVE_EVIDENCE: "true"/);
+  assert.doesNotMatch(workflow.match(/validate-worker-final:[\s\S]*?\n  promote-worker:/)?.[0] || '', /OPENFIN_REQUIRE_PRODUCTION_LIVE_EVIDENCE/);
+  assert.match(workflow, /Promote the validated final Worker through 1\/10\/50\/100 percent canary stages/);
+  assert.match(workflow, /for percentage in 1 10 50 100; do/);
+  assert.match(workflow, /trap rollback ERR/);
+  assert.match(workflow, /post-promotion-soak:[\s\S]*--duration-minutes 15/);
+  assert.match(workflow, /validate-candidate:[\s\S]*for run in 1 2 3; do/);
+});
+
+test('soak and canary checks fail closed on bad traffic and runtime bindings', () => {
+  const soak = fs.readFileSync(`${root}/mcp/scripts/soak-test.mjs`, 'utf8');
+  const canary = fs.readFileSync(`${root}/mcp/scripts/canary-validate.mjs`, 'utf8');
+  assert.match(soak, /metrics\.total === 0 \|\| metrics\.http_5xx \|\| metrics\.http_4xx/);
+  assert.match(soak, /EXPECTED_DEPLOYMENT_COMMIT/);
+  assert.match(soak, /EXPECTED_GENERATION/);
+  assert.match(canary, /Cloudflare-Workers-Version-Overrides/);
+  assert.match(canary, /health\.deployment_commit !== expectedCommit/);
+  assert.match(canary, /traffic_observed > 0/);
+});
+
+test('manual live monitoring is read-only and publishes evidence as an artifact', () => {
+  const workflow = read('live-regression.yml');
+  assert.match(workflow, /permissions:\n\s+contents: read/);
+  assert.doesNotMatch(workflow, /git (?:add|commit|push)/);
+  assert.doesNotMatch(workflow, /npm run knowledge:build/);
+  assert.match(workflow, /evidence\/live-regression/);
+  assert.match(workflow, /persistence: "workflow-artifact-only"/);
+  assert.match(workflow, /--slurpfile attempt live-regression-report\.json[\s\S]*--slurpfile successful previous-successful\.json/);
+  assert.doesNotMatch(workflow, /--argjson attempt "\$\(jq -c \. live-regression-report\.json\)"/);
+  assert.match(workflow, /MCP_URL: https:\/\/openfin-mcp\.y2kthr\.workers\.dev\/mcp[\s\S]*LIVE_DIAGNOSTICS: "1"/);
+});
+
+test('live diagnostics encode non-ASCII queries before placing them in HTTP headers', () => {
+  const liveRegression = fs.readFileSync(`${root}/mcp/scripts/live-regression.mjs`, 'utf8');
+  const soak = fs.readFileSync(`${root}/mcp/scripts/soak-test.mjs`, 'utf8');
+  assert.match(liveRegression, /const diagnosticQuery = value => encodeURIComponent\(value\.slice\(0, 24\)\)/);
+  assert.match(soak, /const diagnosticQuery = value => encodeURIComponent\(value\.slice\(0, 24\)\)/);
+  assert.match(fs.readFileSync(`${root}/mcp/src/index.ts`, 'utf8'), /decodeURIComponent\(value\)/);
+});
+
+test('live diagnostics are opt-in for normal traffic and enabled on retries', () => {
+  const liveRegression = fs.readFileSync(`${root}/mcp/scripts/live-regression.mjs`, 'utf8');
+  const soak = fs.readFileSync(`${root}/mcp/scripts/soak-test.mjs`, 'utf8');
+  assert.match(liveRegression, /const diagnosticsEnabled = process\.env\.LIVE_DIAGNOSTICS === "1"/);
+  assert.match(liveRegression, /const diagnostics = diagnosticsEnabled \|\| attempt > 1/);
+  assert.match(liveRegression, /if \(diagnostics\) \{[\s\S]*x-openfin-diagnostics/);
+  assert.match(soak, /const diagnosticsEnabled = process\.env\.LIVE_DIAGNOSTICS === "1"/);
+  assert.match(soak, /\.\.\.\(diagnosticsEnabled \? \{/);
+  assert.doesNotMatch(soak, /"x-openfin-diagnostics": "1",\n\s+"x-openfin-request-id"/);
+});
+
+test('rollback contracts cover partial promotion, cancellation, and public Pages failure', () => {
+  assert.equal(shouldRollbackWorker({ deployWorkerFinal: 'success', promote: 'success', validatePromoted: 'failure', deployPages: 'skipped', parity: 'skipped' }), true);
+  assert.equal(shouldRollbackWorker({ deployWorkerFinal: 'success', promote: 'cancelled', validatePromoted: 'skipped', deployPages: 'skipped', parity: 'skipped' }), true);
+  assert.equal(shouldRollbackWorker({ deployWorkerFinal: 'success', promote: 'success', validatePromoted: 'success', deployPages: 'success', parity: 'success' }), false);
+  assert.equal(shouldRollbackWorker({ deployWorkerFinal: 'failure', promote: 'skipped', validatePromoted: 'skipped', deployPages: 'skipped', parity: 'skipped' }), false);
+
+  assert.equal(shouldRollbackPages({ canonical: 'success', deployPages: 'failure', parity: 'skipped' }), true);
+  assert.equal(shouldRollbackPages({ canonical: 'success', deployPages: 'cancelled', parity: 'cancelled' }), true);
+  assert.equal(shouldRollbackPages({ canonical: 'success', deployPages: 'success', parity: 'failure' }), true);
+  assert.equal(shouldRollbackPages({ canonical: 'success', deployPages: 'skipped', parity: 'skipped' }), false);
+  assert.equal(shouldRollbackPages({ canonical: 'failure', deployPages: 'failure', parity: 'skipped' }), false);
+});
+
+test('all workflows are manual and source tracking is report-only unless explicitly opted into a review PR', () => {
+  for (const name of fs.readdirSync(`${root}/.github/workflows`).filter(name => /\.ya?ml$/.test(name))) {
+    const workflow = read(name);
+    const trigger = workflow.match(/\non:([\s\S]*?)(?=\n[^\s#])/)[1];
+    assert.match(trigger, /workflow_dispatch:/);
+    assert.doesNotMatch(trigger, /^  (?!workflow_dispatch:)[a-z_]+:/m);
+    assert.doesNotMatch(workflow, /git push.*main/);
+  }
+  assert.equal(fs.existsSync(`${root}/.github/dependabot.yml`), false);
+  const tracker = read('track-sources.yml');
+  assert.match(tracker, /permissions:\n  contents: read/);
+  assert.match(tracker, /persist-credentials: false/);
+  assert.match(tracker, /default: report-only/);
+  assert.match(tracker, /create-review-pr/);
+  assert.match(tracker, /knowledge:track-sources -- --dry-run --report-dir/);
+  assert.match(tracker, /track-sources\.mjs --write --report-dir/);
+  assert.match(tracker, /OPENFIN_SOURCE_TRACKING_TOKEN/);
+  assert.match(tracker, /automation\/source-tracking-\$\{\{ github\.run_id \}\}/);
+  assert.doesNotMatch(tracker, /contents: write|pull-requests: write|issues: write|git push --force|git push .*main|gh issue|knowledge:build/);
+  assert.match(tracker, /retention-days: 3/);
+});
+
+test('legacy production deployment workflows are fail-closed', () => {
+  for (const name of ['deploy-pages.yml', 'deploy-mcp.yml']) {
+    const workflow = read(name);
+    assert.match(workflow, /Legacy direct .* deployment is disabled/);
+    assert.doesNotMatch(workflow, /wrangler (?:deploy|versions deploy)/);
+    assert.doesNotMatch(workflow, /actions\/deploy-pages@/);
+  }
+});

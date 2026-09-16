@@ -1,0 +1,34 @@
+import { asCapabilityStatus, asServiceAvailability } from "./capability-status.ts";
+
+export type HealthEnv = { RUNTIME_VERSION?: string; DEPLOYMENT_COMMIT?: string; BUILD_TIMESTAMP?: string; ARTIFACT_GENERATION?: string; FINANCE_MANIFEST_URL?: string };
+const record = (value: unknown): Record<string, unknown> => value && typeof value === "object" && !Array.isArray(value) ? value as Record<string, unknown> : {};
+export function runtimeContract(env: HealthEnv): { ready: boolean; reasons: string[] } {
+  const reasons = [
+    !env.RUNTIME_VERSION?.trim() ? "RUNTIME_VERSION_MISSING" : /(?:^|[-_])dev(?:$|[-_])/i.test(env.RUNTIME_VERSION) ? "RUNTIME_VERSION_DEV" : null,
+    !env.BUILD_TIMESTAMP?.trim() || !Number.isFinite(Date.parse(env.BUILD_TIMESTAMP)) ? "BUILD_TIMESTAMP_INVALID" : null,
+    !env.DEPLOYMENT_COMMIT?.trim() ? "DEPLOYMENT_COMMIT_MISSING" : null,
+    !env.ARTIFACT_GENERATION?.trim() ? "ARTIFACT_GENERATION_MISSING" : null,
+  ].filter((value): value is string => Boolean(value));
+  return { ready: reasons.length === 0, reasons };
+}
+const liveCurrent = (live: Record<string, unknown>, policy: Record<string, unknown>, deploymentCommit?: string, expectedGenerationId?: string, now = Date.now()) => {
+  const attempt = record(live.last_attempt ?? live.last_attempt_evidence ?? live);
+  const checkedAt = Date.parse(String(attempt.checked_at ?? ""));
+  const age = now - checkedAt;
+  const ttlHours = Number(policy.freshness_ttl_hours ?? 24);
+  return attempt.status === "current" && attempt.mode === (policy.required_mode ?? "live") && attempt.test_count === (policy.required_count ?? 120) && attempt.passed_count === (policy.required_count ?? 120) && attempt.failed_count === 0 && (attempt.skipped_count ?? 0) === 0 && Number.isFinite(checkedAt) && age >= 0 && age <= ttlHours * 60 * 60 * 1000 && typeof attempt.manifest_checksum === "string" && typeof attempt.loaded_index_checksum === "string" && typeof attempt.deployment_commit === "string" && attempt.deployment_commit !== "unknown" && (!deploymentCommit || attempt.deployment_commit === deploymentCommit) && (!expectedGenerationId || attempt.generation_id === expectedGenerationId);
+};
+
+export function livenessPayload(env: HealthEnv, manifestUrl: string, details: Record<string, unknown> = {}) { return { name: "finance", status: "ok", runtime_version: env.RUNTIME_VERSION ?? "openfin-mcp-unknown", deployment_commit: env.DEPLOYMENT_COMMIT ?? "unknown", build_timestamp: env.BUILD_TIMESTAMP ?? null, artifact_generation: env.ARTIFACT_GENERATION ?? null, mcp_endpoint: "/mcp", finance_manifest_url: manifestUrl, ...details }; }
+
+export function readinessPayload(input: { env: HealthEnv; manifest?: Record<string, unknown>; metadata?: Record<string, unknown>; artifactsLoaded: boolean; checksumVerified: boolean; cacheAgeMs?: number; manifestUrl: string }) {
+  const manifest = input.manifest ?? {};
+  const live = record(manifest._live_regression ?? manifest.openfin_120_live_regression);
+  const domain = record(manifest.domain_readiness);
+  const runtime = runtimeContract(input.env);
+  const coreReady = input.artifactsLoaded && input.checksumVerified && Boolean(input.metadata) && runtime.ready;
+  const compare = (name: string) => record(domain[name]).status === "limited_public_ready" ? "limited" : "blocked";
+  const manifestCapabilities = record(manifest.capabilities);
+  const capabilities = { core: coreReady ? "ready" : "blocked", search: asCapabilityStatus(manifestCapabilities.search, coreReady ? "ready" : "blocked"), fetch: coreReady ? "ready" : "blocked", discover: asCapabilityStatus(manifestCapabilities.discovery, coreReady ? "ready" : "blocked"), source_freshness: manifest.source_freshness_status === "ready" ? "ready" : manifest.source_freshness_status === "degraded" ? "limited" : "blocked", compare_deposit: compare("deposit"), compare_saving: compare("saving"), shadow: asCapabilityStatus(manifestCapabilities.shadow), owner_pilot: asCapabilityStatus(manifestCapabilities.owner_pilot), recommendation: asCapabilityStatus(manifestCapabilities.recommendation) };
+  return { name: "finance", status: coreReady ? "ready" : "blocked", ready: coreReady, capabilities, service_availability: asServiceAvailability(manifest.service_availability, "degraded"), runtime_version: input.env.RUNTIME_VERSION ?? "openfin-mcp-unknown", deployment_commit: input.env.DEPLOYMENT_COMMIT ?? "unknown", build_timestamp: input.env.BUILD_TIMESTAMP ?? null, artifact_generation: input.env.ARTIFACT_GENERATION ?? null, runtime_contract: runtime, source_head_commit: manifest.source_head_commit ?? null, release_candidate_commit: manifest.release_candidate_commit ?? null, production_commit: manifest.production_commit ?? null, production_deployed_at: manifest.production_deployed_at ?? null, production_generation: manifest.generation_id ?? null, pages_generation: manifest.generation_id ?? null, worker_generation: input.env.ARTIFACT_GENERATION ?? manifest.generation_id ?? null, release_pointer: manifest.current_release ?? null, mcp_endpoint: "/mcp", finance_manifest_url: input.manifestUrl, manifest_version: manifest.version ?? null, manifest_checksum: manifest.manifest_checksum ?? null, generation_id: manifest.generation_id ?? null, artifact_contract: manifest.artifact_contract ?? null, source_freshness_status: manifest.source_freshness_status ?? "degraded", comparison_status: manifest.comparison_status ?? "unknown", recommendation_status: manifest.recommendation_status ?? "unknown", recommendation_enabled: manifest.recommendation_enabled ?? false, blocking_reasons: [...new Set([...(Array.isArray(manifest.blocking_reasons) ? manifest.blocking_reasons : ["MANIFEST_UNAVAILABLE"]), ...runtime.reasons])], recommendation_blocking_reasons: manifest.recommendation_blocking_reasons ?? [], live_regression: Object.keys(live).length ? live : null, search_available: Boolean(input.metadata), loaded_index_checksum: input.metadata?.export_checksum ?? null, loaded_item_count: input.metadata?.item_count ?? null, cache_age_ms: input.cacheAgeMs ?? null, artifacts_loaded: input.artifactsLoaded, checksum_verified: input.checksumVerified };
+}

@@ -1,0 +1,23 @@
+name: Deploy GitHub Pages
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    if: ${{ github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Refuse legacy direct production deployment
+        run: |
+          echo 'Legacy direct Pages deployment is disabled. Run the OpenFin Immutable Release workflow.' >&2
+          exit 1

@@ -1,0 +1,94 @@
+name: OpenFin Live Regression
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  live-regression:
+    if: ${{ github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: mcp
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: mcp/package-lock.json
+      - run: npm ci
+      - name: Validate checked-in 120-case fixture
+        run: npm run live-regression -- --validate-fixture
+      - name: Run current deployment suite
+        id: live
+        run: |
+          node scripts/live-regression.mjs > ../live-regression-report.json 2> ../live-regression-error.log
+        env:
+          MCP_URL: https://openfin-mcp.y2kthr.workers.dev/mcp
+          # Capture app-level diagnostics on the first request as well as
+          # retries; edge-terminated 1102 responses remain outside Worker code.
+          LIVE_DIAGNOSTICS: "1"
+      - name: Publish current-generation evidence
+        id: publish
+        if: always()
+        working-directory: .
+        run: |
+          set -euo pipefail
+          test -s live-regression-report.json
+          mkdir -p evidence/live-regression
+          status="$(jq -r '.status // "missing"' live-regression-report.json)"
+          if [ -s evidence/live-regression/current.json ]; then
+            jq '.last_successful // (if .status == "current" then . else null end)' evidence/live-regression/current.json > previous-successful.json
+          else
+            printf 'null\n' > previous-successful.json
+          fi
+          jq -n --slurpfile attempt live-regression-report.json --slurpfile successful previous-successful.json \
+            '$attempt[0] as $a | ($successful[0] // null) as $s | $a + {last_attempt: $a, last_successful: (if $a.status == "current" and $a.failed_count == 0 and $a.skipped_count == 0 and $a.passed_count == $a.test_count then $a else $s end), gate_basis: "last_attempt"}' > evidence/live-regression/current.json
+          deployment_commit="$(jq -r '.deployment_commit // empty' live-regression-report.json)"
+          if [ -n "$deployment_commit" ]; then
+            cp live-regression-report.json "evidence/live-regression/${deployment_commit}.json"
+          else
+            cp live-regression-report.json "evidence/live-regression/attempt-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}.json"
+          fi
+          if [ "$status" = current ]; then
+            test "$(jq -r '.test_count // 0' live-regression-report.json)" = "$(jq -r '.passed_count // 0' live-regression-report.json)"
+            test "$(jq -r '.failed_count // 0' live-regression-report.json)" = 0
+            test "$(jq -r '.skipped_count // 0' live-regression-report.json)" = 0
+            test "$deployment_commit" != ""
+            generation_id="$(jq -r '.generation_id // empty' live-regression-report.json)"
+            test "${#generation_id}" = 64
+            test "$(jq -r '.semantic_unique_case_count // 0' live-regression-report.json)" = "$(jq -r '.test_count // 0' live-regression-report.json)"
+          fi
+          jq -n \
+            --arg run_id "$GITHUB_RUN_ID" \
+            --arg attempt "$GITHUB_RUN_ATTEMPT" \
+            --arg status "$status" \
+            --arg deployment_commit "$deployment_commit" \
+            '{run_id: $run_id, run_attempt: $attempt, status: $status, deployment_commit: ($deployment_commit // ""), evidence_path: "evidence/live-regression/current.json", persistence: "workflow-artifact-only"}' \
+            > evidence/live-regression/monitor-run.json
+      - name: Write separate runtime monitoring status
+        if: always()
+        working-directory: .
+        run: node scripts/knowledge/runtime-monitoring.mjs --report live-regression-report.json --output evidence/live-regression/runtime-monitoring.json
+      - name: Fail workflow when live evidence is not valid
+        if: always()
+        working-directory: .
+        run: |
+          set -euo pipefail
+          test "${{ steps.live.outcome }}" = success
+          test "${{ steps.publish.outcome }}" = success
+      - uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5
+        if: always()
+        with:
+          name: openfin-live-regression-${{ github.sha }}
+          path: |
+            live-regression-report.json
+            live-regression-error.log
+            evidence/live-regression
+          retention-days: 3
+          if-no-files-found: warn

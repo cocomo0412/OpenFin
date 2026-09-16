@@ -1,0 +1,134 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["service_availability", "capability_status_version", "domain_readiness", "generation_id", "decision_offers", "capabilities", "candidate_counts", "artifact_contract", "live_regression_evidence", "source_head_commit", "release_candidate_commit", "production_commit", "production_deployed_at"],
+  "properties": {
+    "service_availability": { "$ref": "https://jhny-kor.github.io/OpenFin/schemas/capability-status.schema.json#/$defs/service_availability" },
+    "source_head_commit": { "type": "string", "minLength": 1 },
+    "release_candidate_commit": { "type": "string", "minLength": 1 },
+    "production_commit": { "type": "string", "minLength": 1 },
+    "production_deployed_at": { "type": ["string", "null"], "format": "date-time" },
+    "live_regression_evidence": {
+      "type": "object",
+      "required": ["id", "domain", "path", "url", "export_checksum"],
+      "properties": {
+        "id": { "const": "openfin-live-regression-current" },
+        "domain": { "const": "quality" },
+        "path": { "const": "opentax/live-regression-current.json" },
+        "url": { "type": "string", "format": "uri" },
+        "export_checksum": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "source_path": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "exact_fetch_index": {
+      "type": "object",
+      "required": ["id", "domain", "path", "item_count", "row_count", "export_checksum", "content_checksum", "shards"],
+      "properties": {
+        "id": { "const": "openfin-exact-fetch-index" },
+        "domain": { "const": "fetch-exact" },
+        "path": { "const": "opentax/finance-exact-fetch-index-2026.json" },
+        "item_count": { "type": "integer", "minimum": 1 },
+        "row_count": { "type": "integer", "minimum": 1 },
+        "export_checksum": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "content_checksum": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "shards": {
+          "type": "array",
+          "minItems": 512,
+          "maxItems": 512,
+          "items": {
+            "type": "object",
+            "required": ["id", "shard_id", "path", "item_count", "export_checksum", "content_checksum"],
+            "properties": {
+              "id": { "type": "string", "pattern": "^finance-exact-fetch-index-exact-[0-1][0-9a-f]{2}$" },
+              "shard_id": { "type": "string", "pattern": "^exact-[0-1][0-9a-f]{2}$" },
+              "path": { "type": "string", "pattern": "^opentax/finance-exact-fetch-index-2026-exact-[0-1][0-9a-f]{2}\\.json$" },
+              "item_count": { "type": "integer", "minimum": 1 },
+              "export_checksum": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+              "content_checksum": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+            },
+            "additionalProperties": true
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "current_release": { "type": "object", "required": ["path", "url"], "properties": { "path": { "type": "string" }, "url": { "type": "string", "format": "uri" } }, "additionalProperties": false },
+    "legacy_compatibility": { "type": "object", "required": ["path", "url"], "properties": { "path": { "type": "string" }, "url": { "type": "string", "format": "uri" } }, "additionalProperties": false },
+    "recommendation_state": { "enum": ["blocked", "shadow", "owner_pilot", "review_ready", "limited_public", "public", "suspended"] },
+    "recommendation_state_contract_version": { "type": "string" },
+    "recommendation_approval_receipt": { "type": ["object", "null"] },
+    "owner_pilot_approval_receipt": { "type": ["object", "null"] },
+    "capability_status_version": { "const": "openfin-capability-status-v1" },
+    "capabilities": { "type": "object", "required": ["search", "discovery", "comparison", "shadow", "owner_pilot", "recommendation"], "properties": { "search": { "$ref": "https://jhny-kor.github.io/OpenFin/schemas/capability-status.schema.json#/$defs/capability_status" }, "discovery": { "$ref": "https://jhny-kor.github.io/OpenFin/schemas/capability-status.schema.json#/$defs/capability_status" }, "comparison": { "$ref": "https://jhny-kor.github.io/OpenFin/schemas/capability-status.schema.json#/$defs/capability_status" }, "shadow": { "$ref": "https://jhny-kor.github.io/OpenFin/schemas/capability-status.schema.json#/$defs/capability_status" }, "owner_pilot": { "$ref": "https://jhny-kor.github.io/OpenFin/schemas/capability-status.schema.json#/$defs/capability_status" }, "recommendation": { "$ref": "https://jhny-kor.github.io/OpenFin/schemas/capability-status.schema.json#/$defs/capability_status" } }, "additionalProperties": false },
+    "candidate_counts": { "type": "object", "additionalProperties": { "type": "object", "required": ["strict_offer_count", "strict_option_count", "structural_option_count", "comparison_eligible_candidate_count", "public_comparison_candidate_count", "shadow_recommendation_candidate_count", "owner_pilot_candidate_count", "public_recommendation_candidate_count"], "additionalProperties": true } },
+    "source_freshness_status": { "enum": ["ready", "degraded"] },
+    "decision_offers": {
+      "type": "object",
+      "required": ["id", "path", "url", "item_count", "export_checksum", "content_checksum"],
+      "properties": {
+        "id": { "const": "openfin-decision-offers" },
+        "path": { "type": "string", "pattern": "^opentax/" },
+        "url": { "type": "string", "format": "uri" },
+        "item_count": { "type": "integer", "minimum": 0 },
+        "export_checksum": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "content_checksum": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+      },
+      "additionalProperties": true
+    },
+    "domain_readiness": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["structural_candidate_count", "value_complete_candidate_count", "field_verified_candidate_count", "runtime_eligible_candidate_count", "public_candidate_count", "strict_offer_count", "comparison_eligible_candidate_count", "public_comparison_candidate_count", "shadow_recommendation_candidate_count", "owner_pilot_candidate_count", "public_recommendation_candidate_count", "status"],
+        "properties": {
+          "structural_candidate_count": { "type": "integer", "minimum": 0 },
+          "value_complete_candidate_count": { "type": "integer", "minimum": 0 },
+          "field_verified_candidate_count": { "type": "integer", "minimum": 0 },
+          "runtime_eligible_candidate_count": { "type": "integer", "minimum": 0 },
+          "public_candidate_count": { "type": "integer", "minimum": 0 },
+          "strict_offer_count": { "type": "integer", "minimum": 0 },
+          "comparison_eligible_candidate_count": { "type": "integer", "minimum": 0 },
+          "public_comparison_candidate_count": { "type": "integer", "minimum": 0 },
+          "shadow_recommendation_candidate_count": { "type": "integer", "minimum": 0 },
+          "owner_pilot_candidate_count": { "type": "integer", "minimum": 0 },
+        "public_recommendation_candidate_count": { "type": "integer", "minimum": 0 },
+        "strict_option_count": { "type": "integer", "minimum": 0 },
+        "structural_option_count": { "type": "integer", "minimum": 0 },
+          "schema_defined": { "type": "boolean" },
+        "required_field_total": { "type": ["integer", "null"], "minimum": 0 },
+        "value_complete_field_count": { "type": ["integer", "null"], "minimum": 0 },
+        "field_verified_count": { "type": ["integer", "null"], "minimum": 0 },
+        "value_field_coverage": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
+        "reviewed_assertion_coverage": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
+          "structural_value_completeness": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
+          "complete_field_count": { "type": ["integer", "null"], "minimum": 0 },
+          "status": { "enum": ["blocked", "engine_ready", "structural_only", "pilot_verified", "limited_public_ready", "domain_coverage_incomplete", "schema_not_defined"] }
+        }
+      }
+    },
+    "generation_id": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "artifact_contract": {
+      "type": "object",
+      "required": ["version", "readiness_schema_version", "generation_id", "deployment_commit", "canonical_content_checksum", "search_index_checksum", "source_status_checksum", "release_policy_checksum", "fixture_checksum", "candidate_set_checksum", "candidate_content_checksum_policy", "quality_suite_transitive_checksum", "capability_policy_checksum", "capability_status_checksum"],
+      "properties": {
+        "version": { "const": "openfin-artifact-contract-v1" },
+        "readiness_schema_version": { "const": "openfin-readiness-v2" },
+        "generation_id": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "deployment_commit": { "type": "string", "pattern": "^[0-9a-f]{40}$|^unknown$" },
+        "canonical_content_checksum": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "search_index_checksum": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "source_status_checksum": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "release_policy_checksum": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "fixture_checksum": { "type": ["string", "null"], "pattern": "^(sha256:)?[a-f0-9]{64}$" },
+        "candidate_set_checksum": { "type": "string", "pattern": "^(sha256:)?[a-f0-9]{64}$" },
+        "candidate_content_checksum_policy": { "const": "immutable_candidate_set_checksum" },
+        "quality_suite_transitive_checksum": { "type": "string", "pattern": "^(sha256:)?[a-f0-9]{64}$" },
+        "capability_policy_checksum": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "capability_status_checksum": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+      },
+      "additionalProperties": false
+    },
+    "deployment_commit": { "type": "string", "pattern": "^[0-9a-f]{40}$|^unknown$" }
+  }
+}

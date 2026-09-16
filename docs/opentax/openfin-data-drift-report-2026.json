@@ -1,0 +1,42 @@
+{
+  "version": "openfin-data-drift-report-2026.07.18.1",
+  "basis_date": "2026-07-10",
+  "live_status": "failed",
+  "live_tested_at": "2026-08-30T21:04:30.449Z",
+  "runtime_version": "openfin-mcp-dev",
+  "deployment_commit": "b6c028524f79abd236d6e8d54f026d9119ede80d",
+  "manifest_version": "KR-FINANCE-ONTOLOGY-MANIFEST-2026.07.18.1",
+  "live_case_count": 120,
+  "live_passed_count": 116,
+  "live_failed_count": 4,
+  "live_failure_count": 4,
+  "report_kind": "data-drift",
+  "product_count_added": null,
+  "product_count_removed": null,
+  "product_kind_changed": null,
+  "status_changed": null,
+  "completeness_increased": null,
+  "completeness_decreased": null,
+  "discovery_candidate_changed": null,
+  "verification_expired": null,
+  "note": "No comparable baseline was measured; change remains unknown.",
+  "export_checksum": "6d0680f31f943a68f96f5f6c340b7aa3278d91327f0d3d897b7126b6a90d4f8c",
+  "live_evidence_generation_id": "7061c38252c01e4ebb38da932722f90fd3791fdbe77a6a3dce2cb3f1b52deabf",
+  "live_expected_generation_id": "c22ba2ab620cc88cf0885b9882a96c6754362b444225beb9c97759923cf485b6",
+  "live_evidence": {
+    "path": "evidence/live-regression/current.json",
+    "checksum": "2e22a5e6bb01fdc94acab752f06a7d0f52755ef780583da8407f5de139248abd",
+    "generation_id": "7061c38252c01e4ebb38da932722f90fd3791fdbe77a6a3dce2cb3f1b52deabf",
+    "validation_status": "failed"
+  },
+  "measurement_status": "not_measured",
+  "reason": "NO_COMPARABLE_BASELINE",
+  "delta": null,
+  "quality_export_live_summary": {
+    "source": "manifest.live_regression_evidence",
+    "live_test_count": 120,
+    "live_passed_count": 116,
+    "live_failed_count": 4,
+    "generation_id": "7061c38252c01e4ebb38da932722f90fd3791fdbe77a6a3dce2cb3f1b52deabf"
+  }
+}
