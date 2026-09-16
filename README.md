@@ -1,5 +1,9 @@
 # OpenFin
 
+## cocomo0412 운영 안내
+
+홈페이지: <https://cocomo0412.github.io/OpenFin/>. 무료 Cloudflare MCP는 세금·공제 387개에 대한 `search`, `fetch`, `exports`만 제공하도록 준비했습니다. 실제 Cloudflare 배포는 진행 중이며, 전체 금융상품 비교·추천 MCP는 무료판에 포함되지 않습니다. [무료판 배포 설정](mcp/FREE-DEPLOYMENT.md)을 사용하세요. 아래의 기존 Immutable Release 설명과 `mcp/wrangler.toml`은 원본 전체판에 해당합니다.
+
 OpenFin은 금융 도메인 지식과 상품 데이터를 같은 출처·관계 계약으로 공개하는 읽기 전용 탐색기와 Cloudflare Remote MCP입니다.
 
 범위 결정은 개인 금융 플랫폼 전체를 하나의 추천기로 만드는 것이 아니라, `tax`, `public-support`, `financial-products`, `financial-reference`, `life-context` bounded context를 각각 출처·신선도·공개등급으로 운영하는 방식입니다. 현재 공개 기능은 조회·탐색 중심이며 예금·적금 비교는 제한 파일럿, 추천은 release gate와 현재 배포 세대 generation-bound 120/120 live regression을 통과하기 전까지 fail-closed입니다. 최상위 `release_status`는 호환용 deprecated alias이고, 외부 상태 판단은 `core_search_status`, `comparison_status`, `recommendation_status`를 사용합니다.
