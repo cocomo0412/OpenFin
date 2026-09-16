@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "version": "openfin-release-policy-v1",
+  "scope": "personal-finance-platform",
+  "quality_statuses": ["pilot_verified", "structural_only", "limited_public_ready", "domain_coverage_incomplete", "schema_not_defined", "blocked"],
+  "capabilities": {
+    "search": ["ready", "blocked"],
+    "discovery": ["ready", "blocked"],
+    "comparison": ["blocked", "limited_public", "public"],
+    "shadow": ["ready", "blocked"],
+    "owner_pilot": ["ready", "blocked"],
+    "recommendation": ["blocked", "shadow", "owner_pilot", "review_ready", "limited_public", "public"]
+  },
+  "candidate_count_fields": ["strict_offer_count", "strict_option_count", "structural_option_count", "comparison_eligible_candidate_count", "public_comparison_candidate_count", "shadow_recommendation_candidate_count", "owner_pilot_candidate_count", "public_recommendation_candidate_count"],
+  "live_regression": {
+    "required_count": 120,
+    "required_mode": "live",
+    "allow_skipped": false,
+    "allow_failed": false,
+    "freshness": "current",
+    "freshness_ttl_hours": 24
+  },
+  "recommendation": {
+    "public_enabled": false,
+    "public_approval_receipt": null,
+    "owner_pilot_approval_receipt": null,
+    "owner_pilot_enabled": false,
+    "state": "blocked",
+    "state_contract": "contracts/recommendation-state.json",
+    "approval_receipt_schema": "schemas/recommendation-approval-receipt.schema.json",
+    "public_requires_explicit_approval": true,
+    "candidate_checksum_scope": ["offer", "option", "rules", "assertions", "provenance", "promotion_receipt", "source_set", "policy_version", "ranking_version", "calculator_version"]
+  },
+  "source_review": {
+    "receipt_schema": "schemas/source-review-receipt.schema.json",
+    "required_categories": ["sales", "protection", "eligibility", "option_rates", "bonus_conditions", "early_termination"],
+    "official_authority_classes": ["association_official", "government_official", "law_official", "provider_official", "regulator_official"]
+  },
+  "release": {
+    "ready_requires": [
+      "manifest_integrity",
+      "canonical_validation",
+      "cross_artifact_consistency",
+      "source_registry_loaded",
+      "source_status_loaded",
+      "live_regression"
+    ],
+    "recommendation_requires": [
+      "release_status_ready",
+      "manifest_recommendation_enabled",
+      "live_regression",
+      "domain_readiness",
+      "item_readiness"
+    ],
+    "two_phase": {
+      "staging_requires": ["candidate_artifact", "quality_suite", "approval_receipt"],
+      "production_requires": ["same_generation", "same_candidate_set", "same_policy", "same_calculator", "same_quality_suite", "rollback_generation"],
+      "artifact_retention_days": 365,
+      "debug_cache_retention_days": 7
+    }
+  },
+  "domains": {
+    "deposit": {
+      "comparison": "limited_public_ready",
+      "recommendation": "blocked",
+      "required_verified_candidates": 20,
+      "required_comparison_candidates": 5,
+      "sales_verification_ttl_hours": 720,
+      "required_fields": [
+        "deposit_protection_status",
+        "join_channels",
+        "eligibility_rules",
+        "bonus_rate_rules",
+        "early_termination_rules",
+        "sales_verification_status"
+      ]
+    },
+    "saving": {
+      "comparison": "limited_public_ready",
+      "recommendation": "blocked",
+      "required_verified_candidates": 20,
+      "required_comparison_candidates": 5,
+      "sales_verification_ttl_hours": 720,
+      "required_fields": [
+        "deposit_protection_status",
+        "join_channels",
+        "eligibility_rules",
+        "bonus_rate_rules",
+        "early_termination_rules",
+        "sales_verification_status"
+      ]
+    },
+    "card": {
+      "comparison": "domain_coverage_incomplete", "recommendation": "blocked",
+      "required_fields": ["annual_fee_krw", "previous_month_spend_krw", "excluded_spend_conditions", "benefit_rate_percent", "monthly_benefit_limit_krw", "per_transaction_limit_krw", "benefit_overlap_policy"]
+    },
+    "loan": {
+      "comparison": "domain_coverage_incomplete", "recommendation": "blocked",
+      "required_fields": ["base_rate_percent", "spread_rate_percent", "interest_rate_type", "credit_limit_krw", "repayment_method", "term_months", "early_repayment_fee_policy", "collateral_or_guarantee", "eligibility_conditions", "delinquency_rate_percent", "total_cost_basis"]
+    },
+    "insurance": {
+      "comparison": "domain_coverage_incomplete", "recommendation": "blocked",
+      "required_fields": ["coverage_items", "coverage_amount_krw", "exclusions", "waiting_period_days", "reduced_benefit_period_days", "renewable", "premium_payment_term_months", "insurance_term_months", "surrender_value_condition"]
+    },
+    "pension": { "comparison": "blocked", "recommendation": "blocked" }
+  },
+  "public_surface": {
+    "card": "reference_only",
+    "loan": "reference_only",
+    "insurance": "reference_only",
+    "tax": "educational_only",
+    "public_support": "reference_only"
+  }
+}

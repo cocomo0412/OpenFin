@@ -1,0 +1,14 @@
+{
+  "$schema": "https://cocomo0412.github.io/OpenFin/schemas/capability-status.schema.json",
+  "version": "openfin-capability-status-v1",
+  "service_availability": [
+    "available",
+    "degraded",
+    "unavailable"
+  ],
+  "capability_status": [
+    "ready",
+    "limited",
+    "blocked"
+  ]
+}

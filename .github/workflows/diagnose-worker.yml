@@ -1,0 +1,138 @@
+name: Diagnose OpenFin Worker Resources
+
+on:
+  workflow_dispatch:
+    inputs:
+      candidate_url:
+        description: Version preview URL only (for example https://abc-openfin-mcp.y2kthr.workers.dev)
+        required: true
+        type: string
+      version_id:
+        description: Cloudflare Worker version UUID
+        required: true
+        type: string
+
+concurrency:
+  group: openfin-release
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  diagnose:
+    if: ${{ github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      CANDIDATE_URL: ${{ inputs.candidate_url }}
+      VERSION_ID: ${{ inputs.version_id }}
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5
+        with:
+          node-version: 22
+      - name: Validate preview target and version
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import os, re, urllib.parse
+          url = urllib.parse.urlparse(os.environ['CANDIDATE_URL'])
+          if url.username or url.password or url.port or url.path not in ('', '/') or url.query or url.fragment:
+              raise SystemExit('candidate_url must be a preview origin without credentials, port, path, or query')
+          if url.scheme != 'https' or not re.fullmatch(r'[a-z0-9-]+-openfin-mcp\.y2kthr\.workers\.dev', url.hostname or ''):
+              raise SystemExit('candidate_url must be an HTTPS version preview host')
+          if not re.fullmatch(r'[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-5][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}', os.environ['VERSION_ID']):
+              raise SystemExit('version_id must be a UUID')
+          PY
+          echo "REPORT_DIR=$RUNNER_TEMP/openfin-worker-diagnostics" >> "$GITHUB_ENV"
+          mkdir -p "$RUNNER_TEMP/openfin-worker-diagnostics"
+      - name: Capture read-only Worker settings subset
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          set +x
+          if [ -n "${CLOUDFLARE_API_TOKEN:-}" ] && [ -n "${CLOUDFLARE_ACCOUNT_ID:-}" ]; then
+            curl --silent --show-error --location --fail \
+              -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+              "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/workers/scripts/openfin-mcp/settings" \
+              | jq '{limits: .result.limits, usage_model: .result.usage_model, observability: .result.observability}' > "$REPORT_DIR/settings.json" || echo '{"error":"settings endpoint unavailable"}' > "$REPORT_DIR/settings.json"
+          else
+            echo '{"error":"Cloudflare read-only credentials unavailable"}' > "$REPORT_DIR/settings.json"
+          fi
+      - name: Attach candidate at zero percent for diagnostic requests
+        id: attach
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          set -euo pipefail
+          npx --yes wrangler@4.131.1 deployments status --name openfin-mcp --json > "$REPORT_DIR/before.json"
+          jq -e '(.versions | length) == 1 and .versions[0].percentage == 100' "$REPORT_DIR/before.json" >/dev/null
+          previous="$(jq -r '.versions[0].version_id' "$REPORT_DIR/before.json")"
+          test "$previous" != "$VERSION_ID"
+          echo "previous=$previous" >> "$GITHUB_OUTPUT"
+          npx --yes wrangler@4.131.1 versions deploy --name openfin-mcp "$previous@100%" "$VERSION_ID@0%" --message "Zero-percent bounded resource diagnostic" -y
+      - name: Capture bounded version tail
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          npx --yes wrangler@4.131.1 --version >/dev/null
+          timeout --signal=TERM 360s npx --yes wrangler@4.131.1 tail openfin-mcp --version-id "$VERSION_ID" --format json > "$REPORT_DIR/worker-tail.json" 2> "$REPORT_DIR/worker-tail.error.log" &
+          tail_pid=$!
+          sleep 8
+          probe_code=0
+          timeout --signal=TERM 300s node --input-type=module <<'JS' > "$REPORT_DIR/probe.json" || probe_code=$?
+          const origin = 'https://openfin-mcp.y2kthr.workers.dev';
+          const override = { 'Cloudflare-Workers-Version-Overrides': `openfin-mcp="${process.env.VERSION_ID}"` };
+          const originalFetch = globalThis.fetch;
+          const health = async (url, headers = {}) => {
+            const response = await originalFetch(url, { headers, signal: AbortSignal.timeout(15000) });
+            if (!response.ok) throw new Error(`Health HTTP ${response.status}`);
+            return response.json();
+          };
+          const preview = await health(`${process.env.CANDIDATE_URL.replace(/\/$/, '')}/health`);
+          const actual = await health(`${origin}/health`, override);
+          if (!preview.deployment_commit || preview.deployment_commit !== actual.deployment_commit || preview.artifact_generation !== actual.artifact_generation) throw new Error('Candidate override health parity failed');
+          globalThis.fetch = (url, options = {}) => originalFetch(url, new URL(url).origin === origin ? { ...options, headers: { ...options.headers, ...override } } : options);
+          process.env.MCP_URL = `${origin}/mcp`;
+          process.env.LIVE_DIAGNOSTICS = '1';
+          process.env.LIVE_CASE_ATTEMPTS = '1';
+          process.env.LIVE_METADATA_ATTEMPTS = '1';
+          process.env.EXPECTED_DEPLOYMENT_COMMIT = preview.deployment_commit;
+          await import('./mcp/scripts/live-regression.mjs');
+          JS
+          sleep 3
+          kill "$tail_pid" 2>/dev/null || true
+          code=0
+          wait "$tail_pid" || code=$?
+          test "$code" = 0 || test "$code" = 124 || test "$code" = 143
+          exit "$probe_code"
+      - name: Restore original production version
+        if: ${{ always() && steps.attach.outputs.previous != '' }}
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          PREVIOUS: ${{ steps.attach.outputs.previous }}
+        run: |
+          set -euo pipefail
+          npx --yes wrangler@4.131.1 versions deploy --name openfin-mcp --version-id "$PREVIOUS" --percentage 100 --message "Restore after bounded diagnostic" -y
+          npx --yes wrangler@4.131.1 deployments status --name openfin-mcp --json > "$REPORT_DIR/after.json"
+          jq -e --arg previous "$PREVIOUS" '(.versions | length) == 1 and .versions[0].percentage == 100 and .versions[0].version_id == $previous' "$REPORT_DIR/after.json"
+      - name: Summarize tail resource outcomes
+        if: always()
+        run: |
+          jq -n --slurpfile tail "$REPORT_DIR/worker-tail.json" --slurpfile probe "$REPORT_DIR/probe.json" \
+            '{tail_records: ($tail | length), probe: [($probe[]? | {status,test_count,passed_count,failed_count,transport_error_count})], resource_outcomes: [($tail[]? | {outcome, cpuTime, wallTime, exceptions} )]}' \
+            > "$REPORT_DIR/summary.json" || true
+      - uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5
+        if: always()
+        with:
+          name: openfin-worker-diagnostics-${{ github.run_id }}
+          path: ${{ env.REPORT_DIR }}
+          retention-days: 3
+          if-no-files-found: warn

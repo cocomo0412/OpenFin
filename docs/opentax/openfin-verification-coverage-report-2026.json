@@ -1,0 +1,307 @@
+{
+  "version": "openfin-verification-coverage-report-2026.07.18.1",
+  "basis_date": "2026-07-10",
+  "live_status": "failed",
+  "live_tested_at": "2026-08-30T21:04:30.449Z",
+  "runtime_version": "openfin-mcp-dev",
+  "deployment_commit": "b6c028524f79abd236d6e8d54f026d9119ede80d",
+  "manifest_version": "KR-FINANCE-ONTOLOGY-MANIFEST-2026.07.18.1",
+  "live_case_count": 120,
+  "live_passed_count": 116,
+  "live_failed_count": 4,
+  "live_failure_count": 4,
+  "report_kind": "verification-coverage",
+  "export_checksum": "9aabf23f3ce7686b284b27815ba1c7a86eee4709e9bbf6be9bd7e0cc5d33a990",
+  "live_evidence_generation_id": "7061c38252c01e4ebb38da932722f90fd3791fdbe77a6a3dce2cb3f1b52deabf",
+  "live_expected_generation_id": "c22ba2ab620cc88cf0885b9882a96c6754362b444225beb9c97759923cf485b6",
+  "live_evidence": {
+    "path": "evidence/live-regression/current.json",
+    "checksum": "2e22a5e6bb01fdc94acab752f06a7d0f52755ef780583da8407f5de139248abd",
+    "generation_id": "7061c38252c01e4ebb38da932722f90fd3791fdbe77a6a3dce2cb3f1b52deabf",
+    "validation_status": "failed"
+  },
+  "canonical_quality_source": "finance-ontology-manifest.domain_readiness",
+  "domain_readiness": [
+    {
+      "domain": "deposit",
+      "structural_candidate_count": 5,
+      "value_complete_candidate_count": 5,
+      "strict_type_schema_candidate_count": 5,
+      "strict_offer_count": 5,
+      "strict_option_count": 14,
+      "structural_option_count": 14,
+      "comparison_eligible_candidate_count": 14,
+      "public_comparison_candidate_count": 14,
+      "shadow_recommendation_candidate_count": 14,
+      "owner_pilot_candidate_count": 0,
+      "public_recommendation_candidate_count": 0,
+      "field_verified_candidate_count": 5,
+      "runtime_eligible_candidate_count": 5,
+      "public_candidate_count": 5,
+      "status": "limited_public_ready",
+      "blockers": []
+    },
+    {
+      "domain": "saving",
+      "structural_candidate_count": 5,
+      "value_complete_candidate_count": 5,
+      "strict_type_schema_candidate_count": 5,
+      "strict_offer_count": 5,
+      "strict_option_count": 19,
+      "structural_option_count": 19,
+      "comparison_eligible_candidate_count": 19,
+      "public_comparison_candidate_count": 19,
+      "shadow_recommendation_candidate_count": 19,
+      "owner_pilot_candidate_count": 0,
+      "public_recommendation_candidate_count": 0,
+      "field_verified_candidate_count": 5,
+      "runtime_eligible_candidate_count": 5,
+      "public_candidate_count": 5,
+      "status": "limited_public_ready",
+      "blockers": []
+    },
+    {
+      "domain": "card",
+      "structural_candidate_count": 1007,
+      "value_complete_candidate_count": 0,
+      "strict_type_schema_candidate_count": 0,
+      "strict_offer_count": 0,
+      "strict_option_count": 0,
+      "structural_option_count": 0,
+      "comparison_eligible_candidate_count": 0,
+      "public_comparison_candidate_count": 0,
+      "shadow_recommendation_candidate_count": 0,
+      "owner_pilot_candidate_count": 0,
+      "public_recommendation_candidate_count": 0,
+      "field_verified_candidate_count": 0,
+      "runtime_eligible_candidate_count": 0,
+      "public_candidate_count": 0,
+      "status": "domain_coverage_incomplete",
+      "blockers": [
+        "STRICT_OFFER_SNAPSHOT_MISSING"
+      ]
+    },
+    {
+      "domain": "loan",
+      "structural_candidate_count": 598,
+      "value_complete_candidate_count": 0,
+      "strict_type_schema_candidate_count": 0,
+      "strict_offer_count": 0,
+      "strict_option_count": 0,
+      "structural_option_count": 0,
+      "comparison_eligible_candidate_count": 0,
+      "public_comparison_candidate_count": 0,
+      "shadow_recommendation_candidate_count": 0,
+      "owner_pilot_candidate_count": 0,
+      "public_recommendation_candidate_count": 0,
+      "field_verified_candidate_count": 0,
+      "runtime_eligible_candidate_count": 0,
+      "public_candidate_count": 0,
+      "status": "domain_coverage_incomplete",
+      "blockers": [
+        "STRICT_OFFER_SNAPSHOT_MISSING"
+      ]
+    },
+    {
+      "domain": "insurance",
+      "structural_candidate_count": 1071,
+      "value_complete_candidate_count": 0,
+      "strict_type_schema_candidate_count": 0,
+      "strict_offer_count": 0,
+      "strict_option_count": 0,
+      "structural_option_count": 0,
+      "comparison_eligible_candidate_count": 0,
+      "public_comparison_candidate_count": 0,
+      "shadow_recommendation_candidate_count": 0,
+      "owner_pilot_candidate_count": 0,
+      "public_recommendation_candidate_count": 0,
+      "field_verified_candidate_count": 0,
+      "runtime_eligible_candidate_count": 0,
+      "public_candidate_count": 0,
+      "status": "domain_coverage_incomplete",
+      "blockers": [
+        "STRICT_OFFER_SNAPSHOT_MISSING"
+      ]
+    },
+    {
+      "domain": "pension",
+      "structural_candidate_count": 0,
+      "value_complete_candidate_count": 0,
+      "strict_type_schema_candidate_count": 0,
+      "strict_offer_count": 0,
+      "strict_option_count": 0,
+      "structural_option_count": 0,
+      "comparison_eligible_candidate_count": 0,
+      "public_comparison_candidate_count": 0,
+      "shadow_recommendation_candidate_count": 0,
+      "owner_pilot_candidate_count": 0,
+      "public_recommendation_candidate_count": 0,
+      "field_verified_candidate_count": 0,
+      "runtime_eligible_candidate_count": 0,
+      "public_candidate_count": 0,
+      "status": "blocked",
+      "blockers": [
+        "SCHEMA_NOT_DEFINED"
+      ]
+    }
+  ],
+  "strict_field_verified_candidate_count": 10,
+  "runtime_eligible_candidate_count": 10,
+  "public_recommendation_candidate_count": 0,
+  "public_comparison_candidate_count": 33,
+  "quality_export_live_summary": {
+    "source": "manifest.live_regression_evidence",
+    "live_test_count": 120,
+    "live_passed_count": 116,
+    "live_failed_count": 4,
+    "generation_id": "7061c38252c01e4ebb38da932722f90fd3791fdbe77a6a3dce2cb3f1b52deabf"
+  },
+  "legacy_overlay_summary": {
+    "deprecated": true,
+    "replacement_path": "domain_readiness",
+    "domains": [
+      {
+        "domain": "tax",
+        "verified_sales_product_count": 0,
+        "verification_evidence_product_count": 0,
+        "readiness": {},
+        "blockers": {}
+      },
+      {
+        "domain": "local-government-supports",
+        "verified_sales_product_count": 0,
+        "verification_evidence_product_count": 0,
+        "readiness": {},
+        "blockers": {}
+      },
+      {
+        "domain": "card-products",
+        "verified_sales_product_count": 11,
+        "verification_evidence_product_count": 11,
+        "readiness": {
+          "discovery": "ready",
+          "comparison_engine": "ready",
+          "comparison_data": "blocked",
+          "public_recommendation": "blocked"
+        },
+        "blockers": {
+          "verified_sales_product_count": 11,
+          "verification_evidence_product_count": 11
+        }
+      },
+      {
+        "domain": "deposit-products",
+        "verified_sales_product_count": 30,
+        "verification_evidence_product_count": 30,
+        "readiness": {
+          "discovery": "ready",
+          "comparison_engine": "ready",
+          "comparison_data": "ready",
+          "public_recommendation": "blocked"
+        },
+        "blockers": {
+          "verified_sales_product_count": 30,
+          "verification_evidence_product_count": 30
+        }
+      },
+      {
+        "domain": "saving-products",
+        "verified_sales_product_count": 30,
+        "verification_evidence_product_count": 30,
+        "readiness": {
+          "discovery": "ready",
+          "comparison_engine": "ready",
+          "comparison_data": "ready",
+          "public_recommendation": "blocked"
+        },
+        "blockers": {
+          "verified_sales_product_count": 30,
+          "verification_evidence_product_count": 30
+        }
+      },
+      {
+        "domain": "loan-products",
+        "verified_sales_product_count": 20,
+        "verification_evidence_product_count": 20,
+        "readiness": {
+          "discovery": "ready",
+          "comparison_engine": "ready",
+          "comparison_data": "ready",
+          "public_recommendation": "blocked"
+        },
+        "blockers": {
+          "verified_sales_product_count": 20,
+          "verification_evidence_product_count": 20
+        }
+      },
+      {
+        "domain": "insurance-products",
+        "verified_sales_product_count": 20,
+        "verification_evidence_product_count": 20,
+        "readiness": {
+          "discovery": "ready",
+          "comparison_engine": "ready",
+          "comparison_data": "blocked",
+          "public_recommendation": "blocked"
+        },
+        "blockers": {
+          "verified_sales_product_count": 20,
+          "verification_evidence_product_count": 20
+        }
+      },
+      {
+        "domain": "pension-products",
+        "verified_sales_product_count": 0,
+        "verification_evidence_product_count": 0,
+        "readiness": {
+          "discovery": "blocked",
+          "comparison_engine": "ready",
+          "comparison_data": "blocked",
+          "public_recommendation": "blocked"
+        },
+        "blockers": {
+          "verified_sales_product_count": 0,
+          "verification_evidence_product_count": 0
+        }
+      },
+      {
+        "domain": "tax-advantaged-accounts",
+        "verified_sales_product_count": 0,
+        "verification_evidence_product_count": 0,
+        "readiness": {
+          "discovery": "blocked",
+          "comparison_engine": "ready",
+          "comparison_data": "blocked",
+          "public_recommendation": "blocked"
+        },
+        "blockers": {
+          "verified_sales_product_count": 0,
+          "verification_evidence_product_count": 0
+        }
+      },
+      {
+        "domain": "finance-reference",
+        "verified_sales_product_count": 0,
+        "verification_evidence_product_count": 0,
+        "readiness": {
+          "discovery": "blocked",
+          "comparison_engine": "ready",
+          "comparison_data": "blocked",
+          "public_recommendation": "blocked"
+        },
+        "blockers": {
+          "verified_sales_product_count": 0,
+          "verification_evidence_product_count": 0
+        }
+      }
+    ]
+  },
+  "reviewed_assertion_coverage": {
+    "deposit": 1,
+    "saving": 1,
+    "card": 0,
+    "loan": 0,
+    "insurance": 0,
+    "pension": null
+  }
+}

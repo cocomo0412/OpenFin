@@ -1,0 +1,451 @@
+{
+  "version": "openfin-vertical-slice-v1",
+  "generated_at": "2026-07-28",
+  "source_registry_checksum": "88455443d4107f7feb69cc5a0ad589c249e17cfc8dc651cab9efad970b94bc01",
+  "canonical_content_checksum": "1d72931ff0470d911d85e77613cbc69982525a17dd19ec232d82d1c696bf2746",
+  "policy_version": "openfin-release-policy-v1",
+  "domains": {
+    "deposit": {
+      "target_verified_candidates": 20,
+      "required_fields": [
+        "deposit_protection_status",
+        "join_channels",
+        "eligibility_rules",
+        "bonus_rate_rules",
+        "early_termination_rules",
+        "sales_verification_status"
+      ],
+      "structural_candidate_count": 430,
+      "value_complete_candidate_count": 0,
+      "field_assertion_candidate_count": 0,
+      "official_field_assertion_candidate_count": 0,
+      "field_verified_candidate_count": 0,
+      "runtime_eligible_candidate_count": 0,
+      "target_shortfall": 20,
+      "status": "blocked",
+      "missing_value_counts": {
+        "deposit_protection_status": 0,
+        "join_channels": 430,
+        "eligibility_rules": 430,
+        "bonus_rate_rules": 430,
+        "early_termination_rules": 430,
+        "sales_verification_status": 0
+      },
+      "missing_assertion_counts": {
+        "deposit_protection_status": 0,
+        "join_channels": 0,
+        "eligibility_rules": 0,
+        "bonus_rate_rules": 0,
+        "early_termination_rules": 0,
+        "sales_verification_status": 0
+      },
+      "sample_blockers": [
+        {
+          "id": "finance.deposit.deposit.0010001.wr0001b",
+          "title": "우리은행 WON플러스예금",
+          "missing_values": [
+            "join_channels",
+            "eligibility_rules",
+            "bonus_rate_rules",
+            "early_termination_rules"
+          ],
+          "missing_assertions": [
+            "join_channels",
+            "eligibility_rules",
+            "bonus_rate_rules",
+            "early_termination_rules"
+          ],
+          "unverified_assertions": []
+        },
+        {
+          "id": "finance.deposit.deposit.0010002.00320342",
+          "title": "한국스탠다드차타드은행 e-그린세이브예금",
+          "missing_values": [
+            "join_channels",
+            "eligibility_rules",
+            "bonus_rate_rules",
+            "early_termination_rules"
+          ],
+          "missing_assertions": [
+            "join_channels",
+            "eligibility_rules",
+            "bonus_rate_rules",
+            "early_termination_rules"
+          ],
+          "unverified_assertions": []
+        },
+        {
+          "id": "finance.deposit.deposit.0010016.10511008001166004",
+          "title": "아이엠뱅크 iM함께예금",
+          "missing_values": [
+            "join_channels",
+            "eligibility_rules",
+            "bonus_rate_rules",
+            "early_termination_rules"
+          ],
+          "missing_assertions": [
+            "join_channels",
+            "eligibility_rules",
+            "bonus_rate_rules",
+            "early_termination_rules"
+          ],
+          "unverified_assertions": []
+        },
+        {
+          "id": "finance.deposit.deposit.0010017.01030500510002",
+          "title": "부산은행 LIVE정기예금",
+          "missing_values": [
+            "join_channels",
+            "eligibility_rules",
+            "bonus_rate_rules",
+            "early_termination_rules"
+          ],
+          "missing_assertions": [
+            "join_channels",
+            "eligibility_rules",
+            "bonus_rate_rules",
+            "early_termination_rules"
+          ],
+          "unverified_assertions": []
+        },
+        {
+          "id": "finance.deposit.deposit.0010017.01030500560002",
+          "title": "부산은행 더(The) 특판 정기예금",
+          "missing_values": [
+            "join_channels",
+            "eligibility_rules",
+            "bonus_rate_rules",
+            "early_termination_rules"
+          ],
+          "missing_assertions": [
+            "join_channels",
+            "eligibility_rules",
+            "bonus_rate_rules",
+            "early_termination_rules"
+          ],
+          "unverified_assertions": []
+        },
+        {
+          "id": "finance.deposit.deposit.0010017.01030500600002",
+          "title": "부산은행 더(The) 레벨업 정기예금",
+          "missing_values": [
+            "join_channels",
+            "eligibility_rules",
+            "bonus_rate_rules",
+            "early_termination_rules"
+          ],
+          "missing_assertions": [
+            "join_channels",
+            "eligibility_rules",
+            "bonus_rate_rules",
+            "early_termination_rules"
+          ],
+          "unverified_assertions": []
+        },
+        {
+          "id": "finance.deposit.deposit.0010019.td11300027000",
+          "title": "광주은행 미즈월복리정기예금",
+          "missing_values": [
+            "join_channels",
+            "eligibility_rules",
+            "bonus_rate_rules",
+            "early_termination_rules"
+          ],
+          "missing_assertions": [
+            "join_channels",
+            "eligibility_rules",
+            "bonus_rate_rules",
+            "early_termination_rules"
+          ],
+          "unverified_assertions": []
+        },
+        {
+          "id": "finance.deposit.deposit.0010019.td11300031000",
+          "title": "광주은행 스마트모아Dream정기예금",
+          "missing_values": [
+            "join_channels",
+            "eligibility_rules",
+            "bonus_rate_rules",
+            "early_termination_rules"
+          ],
+          "missing_assertions": [
+            "join_channels",
+            "eligibility_rules",
+            "bonus_rate_rules",
+            "early_termination_rules"
+          ],
+          "unverified_assertions": []
+        },
+        {
+          "id": "finance.deposit.deposit.0010019.td11300035000",
+          "title": "광주은행 굿스타트예금",
+          "missing_values": [
+            "join_channels",
+            "eligibility_rules",
+            "bonus_rate_rules",
+            "early_termination_rules"
+          ],
+          "missing_assertions": [
+            "join_channels",
+            "eligibility_rules",
+            "bonus_rate_rules",
+            "early_termination_rules"
+          ],
+          "unverified_assertions": []
+        },
+        {
+          "id": "finance.deposit.deposit.0010019.td11300036000",
+          "title": "광주은행 The플러스예금",
+          "missing_values": [
+            "join_channels",
+            "eligibility_rules",
+            "bonus_rate_rules",
+            "early_termination_rules"
+          ],
+          "missing_assertions": [
+            "join_channels",
+            "eligibility_rules",
+            "bonus_rate_rules",
+            "early_termination_rules"
+          ],
+          "unverified_assertions": []
+        }
+      ],
+      "strict_offer_count": 5,
+      "strict_offer_target": 20,
+      "strict_offer_shortfall": 15,
+      "strict_offer_status": "blocked"
+    },
+    "saving": {
+      "target_verified_candidates": 20,
+      "required_fields": [
+        "deposit_protection_status",
+        "join_channels",
+        "eligibility_rules",
+        "bonus_rate_rules",
+        "early_termination_rules",
+        "sales_verification_status"
+      ],
+      "structural_candidate_count": 335,
+      "value_complete_candidate_count": 0,
+      "field_assertion_candidate_count": 0,
+      "official_field_assertion_candidate_count": 0,
+      "field_verified_candidate_count": 0,
+      "runtime_eligible_candidate_count": 0,
+      "target_shortfall": 20,
+      "status": "blocked",
+      "missing_value_counts": {
+        "deposit_protection_status": 0,
+        "join_channels": 335,
+        "eligibility_rules": 335,
+        "bonus_rate_rules": 335,
+        "early_termination_rules": 335,
+        "sales_verification_status": 0
+      },
+      "missing_assertion_counts": {
+        "deposit_protection_status": 0,
+        "join_channels": 0,
+        "eligibility_rules": 0,
+        "bonus_rate_rules": 0,
+        "early_termination_rules": 0,
+        "sales_verification_status": 0
+      },
+      "sample_blockers": [
+        {
+          "id": "finance.saving.saving.0010001.wr0001f",
+          "title": "우리은행 우리SUPER주거래적금",
+          "missing_values": [
+            "join_channels",
+            "eligibility_rules",
+            "bonus_rate_rules",
+            "early_termination_rules"
+          ],
+          "missing_assertions": [
+            "join_channels",
+            "eligibility_rules",
+            "bonus_rate_rules",
+            "early_termination_rules"
+          ],
+          "unverified_assertions": [
+            "deposit_protection_status",
+            "sales_verification_status"
+          ]
+        },
+        {
+          "id": "finance.saving.saving.0010001.wr0001l",
+          "title": "우리은행 WON적금",
+          "missing_values": [
+            "join_channels",
+            "eligibility_rules",
+            "bonus_rate_rules",
+            "early_termination_rules"
+          ],
+          "missing_assertions": [
+            "join_channels",
+            "eligibility_rules",
+            "bonus_rate_rules",
+            "early_termination_rules"
+          ],
+          "unverified_assertions": [
+            "deposit_protection_status",
+            "sales_verification_status"
+          ]
+        },
+        {
+          "id": "finance.saving.saving.0010002.00266451",
+          "title": "한국스탠다드차타드은행 퍼스트가계적금",
+          "missing_values": [
+            "join_channels",
+            "eligibility_rules",
+            "bonus_rate_rules",
+            "early_termination_rules"
+          ],
+          "missing_assertions": [
+            "join_channels",
+            "eligibility_rules",
+            "bonus_rate_rules",
+            "early_termination_rules"
+          ],
+          "unverified_assertions": []
+        },
+        {
+          "id": "finance.saving.saving.0010016.10521001001166004",
+          "title": "아이엠뱅크 iM함께적금",
+          "missing_values": [
+            "join_channels",
+            "eligibility_rules",
+            "bonus_rate_rules",
+            "early_termination_rules"
+          ],
+          "missing_assertions": [
+            "join_channels",
+            "eligibility_rules",
+            "bonus_rate_rules",
+            "early_termination_rules"
+          ],
+          "unverified_assertions": []
+        },
+        {
+          "id": "finance.saving.saving.0010017.01020400490002",
+          "title": "부산은행 펫 적금",
+          "missing_values": [
+            "join_channels",
+            "eligibility_rules",
+            "bonus_rate_rules",
+            "early_termination_rules"
+          ],
+          "missing_assertions": [
+            "join_channels",
+            "eligibility_rules",
+            "bonus_rate_rules",
+            "early_termination_rules"
+          ],
+          "unverified_assertions": []
+        },
+        {
+          "id": "finance.saving.saving.0010017.01020400510001",
+          "title": "부산은행 저탄소 실천 적금",
+          "missing_values": [
+            "join_channels",
+            "eligibility_rules",
+            "bonus_rate_rules",
+            "early_termination_rules"
+          ],
+          "missing_assertions": [
+            "join_channels",
+            "eligibility_rules",
+            "bonus_rate_rules",
+            "early_termination_rules"
+          ],
+          "unverified_assertions": []
+        },
+        {
+          "id": "finance.saving.saving.0010017.01020400530001",
+          "title": "부산은행 BNK내맘대로 \n적금",
+          "missing_values": [
+            "join_channels",
+            "eligibility_rules",
+            "bonus_rate_rules",
+            "early_termination_rules"
+          ],
+          "missing_assertions": [
+            "join_channels",
+            "eligibility_rules",
+            "bonus_rate_rules",
+            "early_termination_rules"
+          ],
+          "unverified_assertions": []
+        },
+        {
+          "id": "finance.saving.saving.0010017.01020400660001",
+          "title": "부산은행 부산이라 좋다\nBig적금",
+          "missing_values": [
+            "join_channels",
+            "eligibility_rules",
+            "bonus_rate_rules",
+            "early_termination_rules"
+          ],
+          "missing_assertions": [
+            "join_channels",
+            "eligibility_rules",
+            "bonus_rate_rules",
+            "early_termination_rules"
+          ],
+          "unverified_assertions": []
+        },
+        {
+          "id": "finance.saving.saving.0010017.01020400700001",
+          "title": "부산은행 Only One 주거래 우대적금",
+          "missing_values": [
+            "join_channels",
+            "eligibility_rules",
+            "bonus_rate_rules",
+            "early_termination_rules"
+          ],
+          "missing_assertions": [
+            "join_channels",
+            "eligibility_rules",
+            "bonus_rate_rules",
+            "early_termination_rules"
+          ],
+          "unverified_assertions": []
+        },
+        {
+          "id": "finance.saving.saving.0010019.td11330029000",
+          "title": "광주은행 해피라이프_여행스케치적금V",
+          "missing_values": [
+            "join_channels",
+            "eligibility_rules",
+            "bonus_rate_rules",
+            "early_termination_rules"
+          ],
+          "missing_assertions": [
+            "join_channels",
+            "eligibility_rules",
+            "bonus_rate_rules",
+            "early_termination_rules"
+          ],
+          "unverified_assertions": [
+            "deposit_protection_status",
+            "sales_verification_status"
+          ]
+        }
+      ],
+      "strict_offer_count": 5,
+      "strict_offer_target": 20,
+      "strict_offer_shortfall": 15,
+      "strict_offer_status": "blocked"
+    }
+  },
+  "recommendation_enabled": false,
+  "recommendation_note": "This audit never promotes products. Field-level official assertions, strict OfferSnapshot objects, and current runtime evidence are required before a pilot receipt can be issued.",
+  "strict_offer_targets": {
+    "deposit": 20,
+    "saving": 20
+  },
+  "strict_offer_counts": {
+    "deposit": 5,
+    "saving": 5
+  },
+  "strict_offer_blocker": "INSUFFICIENT_SOURCE_BACKED_OFFERS"
+}
