@@ -268,7 +268,7 @@ function renderExportCards() {
       const filename = fileNameFromEntry(entry);
       const collectionMeta = collectionMetaForEntry(entry, state.manifest);
       return `
-        <article class="export-card ${meta.className}">
+        <article class="export-card ${meta.className}" data-domain="${escapeAttribute(entry.domain)}">
           <span class="domain-chip">${escapeHtml(meta.label)}</span>
           <h3>${escapeHtml(meta.short)}</h3>
           <div class="export-count">
@@ -276,8 +276,8 @@ function renderExportCards() {
             <span>items</span>
           </div>
           <p>${escapeHtml(entry.description || meta.summary)}</p>
-          <p>${formatNumber(entry.product_count || 0)} product nodes · ${escapeHtml(collectionMeta.label)} ${escapeHtml(collectionMeta.value)} · ${escapeHtml(filename)}</p>
-          <a class="export-open" href="explorer.html?domain=${escapeAttribute(entry.domain)}">탐색기에서 열기 →</a>
+          <p class="export-metadata">${formatNumber(entry.product_count || 0)} product nodes · ${escapeHtml(collectionMeta.label)} ${escapeHtml(collectionMeta.value)} · ${escapeHtml(filename)}</p>
+          <a class="export-open" href="explorer.html?domain=${escapeAttribute(entry.domain)}"><svg class="export-open-icon" viewBox="0 0 20 20" aria-hidden="true" focusable="false"><circle cx="8.5" cy="8.5" r="5.5"/><path d="m12.5 12.5 4 4"/></svg><span>탐색기에서 열기</span></a>
         </article>
       `;
     })
