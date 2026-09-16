@@ -154,7 +154,7 @@ test("freshness-filtered search resolves each shared source set once", () => {
   const start = workerSource.indexOf("function matchesSearchFilters");
   const end = workerSource.indexOf("function isRecommendationSearchEligible", start);
   const filterSource = workerSource.slice(start, end);
-  const cheapFilters = filterSource.indexOf("if (!(\n");
+  const cheapFilters = filterSource.search(/if \(!\(\r?\n/);
   const freshnessResolution = filterSource.indexOf("sourceFreshnessStatus(item, artifacts, freshnessCache)");
   assert.ok(cheapFilters >= 0);
   assert.ok(freshnessResolution > cheapFilters);

@@ -1,8 +1,9 @@
 import crypto from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 
-const root = new URL("../..", import.meta.url).pathname;
+const root = fileURLToPath(new URL("../..", import.meta.url));
 const fixturePath = path.join(root, "tests/golden/openfin-runtime-contract-120.jsonl");
 const fixture = fs.readFileSync(fixturePath, "utf8").trim().split("\n").map((line) => JSON.parse(line));
 const fixtureChecksum = crypto.createHash("sha256").update(fs.readFileSync(fixturePath)).digest("hex");
