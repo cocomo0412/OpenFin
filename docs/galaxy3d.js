@@ -9,16 +9,16 @@ const MANIFEST_URL = "./opentax/finance-ontology-manifest.json";
 const GOLDEN = 2.399963229728653;
 
 const DOMAINS = {
-  tax: { label: "세금·공제", color: "#7fe36d" },
-  "local-government-supports": { label: "지자체 지원금", color: "#42d8e8" },
-  "card-products": { label: "카드 상품", color: "#a782ff" },
-  "deposit-products": { label: "정기예금", color: "#38a7ff" },
-  "saving-products": { label: "적금", color: "#59c2ff" },
-  "loan-products": { label: "대출", color: "#f7b733" },
-  "insurance-products": { label: "보험", color: "#ff746b" },
-  "pension-products": { label: "연금저축", color: "#2dd4bf" },
-  "tax-advantaged-accounts": { label: "세제혜택 계좌", color: "#f472b6" },
-  "finance-reference": { label: "금융 기준정보", color: "#b9c6d8" },
+  tax: { label: "세금·공제", color: "#ffadd8" },
+  "local-government-supports": { label: "지자체 지원금", color: "#9df2df" },
+  "card-products": { label: "카드 상품", color: "#d4b2ff" },
+  "deposit-products": { label: "정기예금", color: "#9ddfff" },
+  "saving-products": { label: "적금", color: "#b9c0ff" },
+  "loan-products": { label: "대출", color: "#ffe6a0" },
+  "insurance-products": { label: "보험", color: "#ffc1a6" },
+  "pension-products": { label: "연금저축", color: "#cdf4aa" },
+  "tax-advantaged-accounts": { label: "세제혜택 계좌", color: "#f6b2f0" },
+  "finance-reference": { label: "금융 기준정보", color: "#a5edf5" },
 };
 
 const numberFormat = new Intl.NumberFormat("ko-KR");
@@ -137,6 +137,7 @@ function buildMaps(node) {
         col = n > 0.5 ? mixc(low, land, (n - 0.5) * 2) : mixc(darkenc(base, 0.66), low, n * 2);
         height = n;
       }
+      col = mixc(base, col, 0.14);
       const k = (j * W + i) * 4;
       aimg.data[k] = col[0];
       aimg.data[k + 1] = col[1];
@@ -156,15 +157,15 @@ function buildMaps(node) {
     const cy = s.v * H;
     const rx = Math.max(2, s.rx * W);
     const ry = Math.max(2, s.ry * H);
-    const col = s.light ? lightenc(base, 0.55) : darkenc(base, 0.55);
+    const col = s.light ? lightenc(base, 0.55) : darkenc(base, 0.15);
     for (let j = Math.max(0, (cy - ry) | 0); j < Math.min(H, (cy + ry + 1) | 0); j++) {
       for (let i = Math.max(0, (cx - rx) | 0); i < Math.min(W, (cx + rx + 1) | 0); i++) {
         const dx = (i - cx) / rx;
         const dy = (j - cy) / ry;
         const d = dx * dx + dy * dy;
         if (d < 1) {
-          const t = (1 - d) * s.strength;
-          const k = (j * W + i) * 4;
+          const t = (1 - d) * s.strength * 0.3;
+                const k = (j * W + i) * 4;
           aimg.data[k] = lerpN(aimg.data[k], col[0], t);
           aimg.data[k + 1] = lerpN(aimg.data[k + 1], col[1], t);
           aimg.data[k + 2] = lerpN(aimg.data[k + 2], col[2], t);
@@ -196,7 +197,7 @@ function buildCloudMap(seed) {
       const n = fbm(u * 6 + seed, v * 6 + seed, 5);
       const c = Math.max(0, (n - 0.52) * 3.2);
       const a = Math.min(1, c) * 235;
-      const k = (j * W + i) * 4;
+            const k = (j * W + i) * 4;
       img.data[k] = 255;
       img.data[k + 1] = 255;
       img.data[k + 2] = 255;
@@ -242,22 +243,22 @@ function labelSprite(text, count) {
   const pad = 8;
   const canvas = makeCanvas(4, 4);
   const ctx2 = canvas.getContext("2d");
-  ctx2.font = "600 26px Inter, system-ui, sans-serif";
+  ctx2.font = "700 19px \"Pretendard Variable\", sans-serif";
   const w1 = ctx2.measureText(text).width;
-  ctx2.font = "400 19px Inter, system-ui, sans-serif";
+  ctx2.font = "400 15px \"Pretendard Variable\", sans-serif";
   const w2 = ctx2.measureText(count).width;
   const w = Math.ceil(Math.max(w1, w2)) + pad * 2;
   canvas.width = w;
   canvas.height = 62;
   const c = canvas.getContext("2d");
   c.textAlign = "center";
-  c.shadowColor = "rgba(0,0,0,0.9)";
-  c.shadowBlur = 6;
-  c.font = "600 26px Inter, system-ui, sans-serif";
-  c.fillStyle = "rgba(235,243,252,0.95)";
+  c.shadowColor = "rgba(25,27,48,0.65)";
+  c.shadowBlur = 2;
+  c.font = "700 19px \"Pretendard Variable\", sans-serif";
+  c.fillStyle = "rgba(250,245,234,1)";
   c.fillText(text, w / 2, 26);
-  c.font = "400 19px Inter, system-ui, sans-serif";
-  c.fillStyle = "rgba(170,190,214,0.9)";
+  c.font = "400 15px \"Pretendard Variable\", sans-serif";
+  c.fillStyle = "rgba(209,213,232,1)";
   c.fillText(count, w / 2, 52);
   const tex = new THREE.CanvasTexture(canvas);
   tex.colorSpace = THREE.SRGBColorSpace;
@@ -296,8 +297,8 @@ const ATMO_FRAG = `
     vec3 sunDirection = normalize(-vWorldPosition);
     float fresnel = pow(1.0 - max(dot(normalDirection, viewDirection), 0.0), 3.0);
     float sunFactor = smoothstep(-0.35, 0.45, dot(normalDirection, sunDirection));
-    float alpha = fresnel * mix(0.05, 0.65, sunFactor);
-    vec3 finalColor = atmosphereColor * mix(0.35, 1.3, sunFactor);
+    float alpha = fresnel * mix(0.015, 0.14, sunFactor);
+    vec3 finalColor = atmosphereColor * mix(0.35, 0.7, sunFactor);
     gl_FragColor = vec4(finalColor, alpha);
     #include <tonemapping_fragment>
     #include <colorspace_fragment>
@@ -329,6 +330,7 @@ function buildPlanetSpec(domain, index) {
 
 /* ── main ─────────────────────────────────────────────────── */
 async function initGalaxy(root) {
+  await Promise.all([document.fonts.load('700 19px "Pretendard Variable"'), document.fonts.load('400 15px "Pretendard Variable"')]);
   const canvas = root.querySelector("canvas");
   const tooltip = root.querySelector("[data-galaxy-tooltip]");
   const legend = document.querySelector("[data-galaxy-legend]");
@@ -377,29 +379,29 @@ async function initGalaxy(root) {
   controls.autoRotateSpeed = 0.25;
 
   /* lights */
-  scene.add(new THREE.AmbientLight(0x9fb3d8, 0.65));
-  const sunLight = new THREE.PointLight(0xfff2dd, 3.2, 0, 0); // decay 0: even brightness across orbits
+  scene.add(new THREE.AmbientLight(0xffffff, 1.2));
+  const sunLight = new THREE.PointLight(0xffffff, 0.8, 0, 0); // decay 0: even brightness across orbits
   scene.add(sunLight);
 
   /* sun */
   const sun = new THREE.Mesh(
     new THREE.SphereGeometry(2, 48, 24),
-    new THREE.MeshBasicMaterial({ color: 0xeaf6ff })
+    new THREE.MeshBasicMaterial({ color: 0xffedb8, toneMapped: false })
   );
   scene.add(sun);
   const sunGlow = new THREE.Sprite(
     new THREE.SpriteMaterial({
-      map: glowTexture("rgba(190,235,255,0.95)", "rgba(90,160,255,0.28)"),
+      map: glowTexture("rgba(210,219,228,0.45)", "rgba(167,185,203,0.08)"),
       transparent: true,
       blending: THREE.AdditiveBlending,
       depthWrite: false,
     })
   );
-  sunGlow.scale.set(11, 11, 1);
+  sunGlow.scale.set(7, 7, 1);
   scene.add(sunGlow);
 
   /* stars */
-  scene.add(buildStars());
+  // Quiet cream backdrop: omit the star field.
 
   /* orbit lines + planets */
   const maxAniso = renderer.capabilities.getMaxAnisotropy();
@@ -417,20 +419,42 @@ async function initGalaxy(root) {
     node.group = group;
     scene.add(group);
 
-    const maps = buildMaps(node);
-    const albedoTex = new THREE.CanvasTexture(maps.albedo);
-    albedoTex.colorSpace = THREE.SRGBColorSpace;
-    albedoTex.anisotropy = maxAniso;
-    albedoTex.wrapS = THREE.RepeatWrapping;
-    const bumpTex = new THREE.CanvasTexture(maps.bump);
-    bumpTex.wrapS = THREE.RepeatWrapping;
-
-    const material = new THREE.MeshStandardMaterial({
-      map: albedoTex,
-      bumpMap: bumpTex,
-      bumpScale: node.planet.kind === "gas" ? 0.4 : 1.6,
-      metalness: 0,
-      roughness: node.planet.kind === "ice" ? 0.55 : 0.95,
+    // Illustrated city-pop shading: pastel base, peach light and lilac shadow.
+    const material = new THREE.ShaderMaterial({
+      uniforms: { candyColor: { value: new THREE.Color(node.color) }, banded: { value: node.planet.kind === "gas" ? 1 : 0 } },
+      vertexShader: `
+        varying vec3 vNormalView;
+        varying vec2 vPlanetUv;
+        void main() {
+          vNormalView = normalize(normalMatrix * normal);
+          vPlanetUv = uv;
+          gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
+        }
+      `,
+      fragmentShader: `
+        uniform vec3 candyColor;
+        uniform float banded;
+        varying vec3 vNormalView;
+        varying vec2 vPlanetUv;
+        void main() {
+          vec3 n = normalize(vNormalView);
+          float light = dot(n, normalize(vec3(-0.65, 0.75, 1.0)));
+          vec3 lilac = vec3(0.56, 0.40, 0.79);
+          vec3 peach = vec3(1.0, 0.78, 0.65);
+          vec3 cream = vec3(1.0, 0.94, 0.79);
+          vec3 shaded = mix(candyColor, lilac, 0.34);
+          vec3 lit = mix(candyColor, peach, 0.17);
+          vec3 col = mix(shaded, lit, smoothstep(-0.12, 0.48, light));
+          col = mix(col, cream, 0.37 * smoothstep(0.65, 0.97, light));
+          float stripe = sin(vPlanetUv.y * 38.0 + sin(vPlanetUv.x * 12.0) * 0.8);
+          col = mix(col, mix(candyColor, peach, 0.5), banded * 0.13 * smoothstep(0.3, 0.8, stripe));
+          float rim = pow(1.0 - max(n.z, 0.0), 3.0);
+          col = mix(col, cream, rim * 0.25);
+          gl_FragColor = vec4(col, 1.0);
+          #include <colorspace_fragment>
+        }
+      `,
+      toneMapped: false,
     });
     const mesh = new THREE.Mesh(new THREE.SphereGeometry(node.radius, 64, 32), material);
     mesh.userData.node = node;
@@ -454,36 +478,18 @@ async function initGalaxy(root) {
     node.atmosphere = atmosphere;
     group.add(atmosphere);
 
-    // clouds on ice worlds, drifting at their own speed
-    if (node.planet.kind === "ice") {
-      const cloudTex = new THREE.CanvasTexture(buildCloudMap(node.planet.seed + 3.7));
-      cloudTex.colorSpace = THREE.SRGBColorSpace;
-      cloudTex.wrapS = THREE.RepeatWrapping;
-      const clouds = new THREE.Mesh(
-        new THREE.SphereGeometry(node.radius * 1.02, 48, 24),
-        new THREE.MeshStandardMaterial({
-          map: cloudTex,
-          transparent: true,
-          opacity: 0.85,
-          depthWrite: false,
-          metalness: 0,
-          roughness: 1,
-        })
-      );
-      node.clouds = clouds;
-      group.add(clouds);
-    }
-
     // Saturn-style ring
     if (node.planet.ring) {
-      const ringGeo = new THREE.RingGeometry(node.radius * 1.55, node.radius * 2.6, 128, 1);
-      remapRingUv(ringGeo, node.radius * 1.55, node.radius * 2.6);
+      const ringGeo = new THREE.RingGeometry(node.radius * 1.6, node.radius * 2.25, 128, 1);
+      remapRingUv(ringGeo, node.radius * 1.6, node.radius * 2.25);
       const ringTex = new THREE.CanvasTexture(buildRingMap(node.color));
       ringTex.colorSpace = THREE.SRGBColorSpace;
       const ring = new THREE.Mesh(
         ringGeo,
         new THREE.MeshBasicMaterial({
           map: ringTex,
+          opacity: 0.65,
+          toneMapped: false,
           side: THREE.DoubleSide,
           transparent: true,
           depthWrite: false,
@@ -653,7 +659,7 @@ function buildOrbitLine(radius) {
   const geometry = new THREE.BufferGeometry().setFromPoints(points);
   return new THREE.Line(
     geometry,
-    new THREE.LineBasicMaterial({ color: 0x8aa5c8, transparent: true, opacity: 0.1 })
+    new THREE.LineBasicMaterial({ color: 0xb5b4d2, transparent: true, opacity: 0.22 })
   );
 }
 
@@ -718,7 +724,7 @@ function renderLegend(legend, nodes) {
     .map(
       (node) => `
       <a class="galaxy-chip" href="explorer.html?domain=${encodeURIComponent(node.domain)}">
-        <span class="galaxy-dot" style="background:${node.color};box-shadow:0 0 10px ${node.color}"></span>
+        <span class="galaxy-dot" style="background:${node.color};box-shadow:none"></span>
         <span class="galaxy-chip-label">${node.label}</span>
         <span class="galaxy-chip-count">${numberFormat.format(node.count)}</span>
       </a>`
