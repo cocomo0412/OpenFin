@@ -19,7 +19,7 @@
 | 저장소 | `cocomo0412/OpenFin` |
 | 브랜치 | `main` |
 | 루트 디렉터리 | `mcp` |
-| Worker 이름 | `openfin-mcp-free` |
+| Worker 이름 | `openfin` |
 | Build command | `node scripts/build-free-catalog.mjs && npm run typecheck && node --experimental-strip-types --test tests/free-catalog.test.mjs` |
 | Deploy command | `npx wrangler deploy --config wrangler.free.jsonc` |
 
@@ -48,5 +48,5 @@ node scripts/smoke-free.mjs
 
 ## 배포 상태
 
-로컬 구현·검증 완료. Cloudflare GitHub 연결 및 실제 배포는 아직 완료되지 않았습니다.
-실제 주소를 확인하기 전에는 원본 작성자의 Worker 주소를 이 서비스의 주소로 사용하지 않습니다.
+Cloudflare Free에 GitHub main 브랜치를 연결하고 배포 완료했습니다. MCP: https://openfin.cocomo0412.workers.dev/mcp (Streamable HTTP, 인증 없음). 상태: https://openfin.cocomo0412.workers.dev/health . 실제 주소에서 공식 SDK 연결·도구 목록·검색·조회·입력 제한 검사를 통과했습니다.
+배포 후 확인한 버전: 1d2aa651-adcf-4e1d-ba28-d636da3f631e. 테스트 성공은 모든 부하에서 무료 한도 충족을 보장하지 않습니다.
