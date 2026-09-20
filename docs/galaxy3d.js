@@ -243,9 +243,9 @@ function labelSprite(text, count) {
   const pad = 8;
   const canvas = makeCanvas(4, 4);
   const ctx2 = canvas.getContext("2d");
-  ctx2.font = "700 19px \"Pretendard Variable\", sans-serif";
+  ctx2.font = "700 20px \"Pretendard Variable\", sans-serif";
   const w1 = ctx2.measureText(text).width;
-  ctx2.font = "400 15px \"Pretendard Variable\", sans-serif";
+  ctx2.font = "400 16px \"Pretendard Variable\", sans-serif";
   const w2 = ctx2.measureText(count).width;
   const w = Math.ceil(Math.max(w1, w2)) + pad * 2;
   canvas.width = w;
@@ -254,10 +254,10 @@ function labelSprite(text, count) {
   c.textAlign = "center";
   c.shadowColor = "rgba(25,27,48,0.65)";
   c.shadowBlur = 2;
-  c.font = "700 19px \"Pretendard Variable\", sans-serif";
+  c.font = "700 20px \"Pretendard Variable\", sans-serif";
   c.fillStyle = "rgba(250,245,234,1)";
   c.fillText(text, w / 2, 26);
-  c.font = "400 15px \"Pretendard Variable\", sans-serif";
+  c.font = "400 16px \"Pretendard Variable\", sans-serif";
   c.fillStyle = "rgba(209,213,232,1)";
   c.fillText(count, w / 2, 52);
   const tex = new THREE.CanvasTexture(canvas);
@@ -330,7 +330,7 @@ function buildPlanetSpec(domain, index) {
 
 /* ── main ─────────────────────────────────────────────────── */
 async function initGalaxy(root) {
-  await Promise.all([document.fonts.load('700 19px "Pretendard Variable"'), document.fonts.load('400 15px "Pretendard Variable"')]);
+  await Promise.all([document.fonts.load('700 20px "Pretendard Variable"'), document.fonts.load('400 16px "Pretendard Variable"')]);
   const canvas = root.querySelector("canvas");
   const tooltip = root.querySelector("[data-galaxy-tooltip]");
   const legend = document.querySelector("[data-galaxy-legend]");
