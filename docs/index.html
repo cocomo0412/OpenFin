@@ -7,7 +7,7 @@
   <meta name="description" content="세금, 지자체 지원금, 카드, 은행, 보험, 연금저축, 세제혜택 계좌 온톨로지를 통합한 OpenFin GitHub Pages 탐색기">
   <meta name="theme-color" content="#05080d">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 3.5 27 9.8v12.4l-11 6.3-11-6.3V9.8Z' fill='%2305080d' stroke='%2373f0c1' stroke-width='2'/%3E%3Cpath d='M9.5 17.5 16 21l6.5-3.5M9.5 13.5 16 17l6.5-3.5' fill='none' stroke='%2373f0c1' stroke-width='2'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="./styles.css?v=2026.09.23.7">
+  <link rel="stylesheet" href="./styles.css?v=2026.09.23.8">
 </head>
 <body>
   <header class="site-header">
@@ -257,11 +257,11 @@
       </div>
       <article class="collection-update" aria-labelledby="collection-update-title">
         <h3 id="collection-update-title">최근 데이터 수집·검증</h3>
-        <p data-collection-result>금융회사 목록 갱신 결과를 확인 중입니다.</p>
-        <p data-resolved-collections>예금자보호 상품·국내은행 통계 수집 결과를 불러오는 중입니다.</p>
-        <p>금감원 예금·적금: 2026-09-23 은행·저축은행 전체 페이지에서 예금 432건, 적금 335건을 수집했습니다. 상품의 금리·가입조건을 온톨로지 본문과 검색 데이터에 반영했습니다. 개인별 비교·추천 검증과는 별도입니다.</p>
-        <p data-api-collection-summary>공식 API 수집 현황을 불러오는 중입니다.</p>
-        <p><a href="./api-data.html">최신 공식 API 자료 검색 →</a></p>
+        <div class="collection-entry"><strong>보호대상 금융회사</strong><p data-collection-result>금융회사 목록 갱신 결과를 확인 중입니다.</p></div>
+        <div class="collection-entry"><strong>상품·통계 수집</strong><p data-resolved-collections>예금자보호 상품·국내은행 통계 수집 결과를 불러오는 중입니다.</p></div>
+        <div class="collection-entry"><strong>예금·적금</strong><p>2026-09-23 은행·저축은행의 전체 페이지에서 예금 432건, 적금 335건을 수집했습니다. 금리와 가입조건을 본문·검색에 반영했으며, 개인별 비교·추천 검증은 별도입니다.</p></div>
+        <div class="collection-entry"><strong>공식 API 자료</strong><p data-api-collection-summary>공식 API 수집 현황을 불러오는 중입니다.</p></div>
+        <p class="collection-search"><a href="./api-data.html">최신 공식 API 자료 검색 →</a></p>
         <details><summary>API별 수집 건수·자료 기준일 보기</summary><p>수집본은 공식 API 자료 검색에 반영했습니다. 수집본 검사는 상품 내용의 정확성 검증과 다르며, 기존 온톨로지 상품과의 병합은 별도입니다.</p><div data-api-collection-list></div><a href="./opentax/collection-inventory.json">수집 현황 JSON 보기</a></details>
         <details>
           <summary>새로 수집한 보호대상 금융회사 목록 보기</summary>
@@ -278,7 +278,7 @@
       </div>
     </section>
   </main>
-  <script type="module" src="./collection-status.js?v=2026.09.23.5"></script>
+  <script type="module" src="./collection-status.js?v=2026.09.23.8"></script>
 
   <footer class="site-footer">
     <span>© 2026 cocomo0412</span>

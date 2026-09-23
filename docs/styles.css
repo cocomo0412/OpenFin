@@ -1830,9 +1830,21 @@ body::before { background: none; }
 .galaxy-sparkles, .galaxy-stage::after { z-index: 2; }
 .galaxy-stage .galaxy-fs, .galaxy-stage .galaxy-tooltip { z-index: 4; }
 .galaxy-stage .galaxy-hint { z-index: 3; bottom: 10px; padding: 7px 10px; background: linear-gradient(90deg, transparent, rgba(27,29,48,.85) 20%, rgba(27,29,48,.85) 80%, transparent); }
-.collection-update { background: #eaf1eb; border: 1px solid #d2dfd8; border-radius: 8px; padding: 24px; margin-bottom: 20px; }
-.collection-update p { line-height: 1.6; margin-block: 0.5em; }
-.collection-update h3 { margin-block: 0.5em; }
-.collection-update summary { cursor: pointer; font-weight: 700; }
+.collection-update { background: #eaf1eb; border: 1px solid #d2dfd8; border-radius: 8px; padding: 28px; margin-bottom: 20px; font-size: 15px; line-height: 1.65; }
+.collection-update p { font-size: inherit; line-height: inherit; margin: 0; overflow-wrap: anywhere; }
+.collection-update h3 { font-size: 18px; line-height: 1.4; margin: 0 0 18px; }
+.collection-entry { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 16px; padding: 12px 0; }
+.collection-entry + .collection-entry { border-top: 1px solid #d5e1d9; }
+.collection-entry > strong { font-size: inherit; font-weight: 600; color: #354e45; }
+.collection-update .collection-search { margin: 18px 0 12px; }
+.collection-update details { padding: 10px 0; }
+.collection-update details + details { border-top: 1px solid #d5e1d9; }
+.collection-update summary { cursor: pointer; font-size: inherit; font-weight: 600; }
+.collection-update details[open] > p, .collection-update details[open] > a,
+.collection-update [data-api-collection-list] p { margin-top: 10px; }
+@media (max-width: 640px) {
+  .collection-update { padding: 20px; }
+  .collection-entry { grid-template-columns: minmax(0, 1fr); gap: 4px; }
+}
 .company-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; max-height: 360px; overflow: auto; margin-top: 16px; }
 .company-list span { padding: 8px; background: #fffaf1; border-radius: 6px; }
