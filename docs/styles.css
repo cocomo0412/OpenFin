@@ -430,7 +430,8 @@ button {
 
 .section-heading h2 {
   margin: 0;
-  font-size: calc(3rem - 1px);
+  font-weight: 700;
+  font-size: calc(3rem - 2px);
   letter-spacing: 0;
 }
 
@@ -1317,7 +1318,7 @@ button {
   }
 
   .section-heading h2 {
-    font-size: calc(2.35rem - 1px);
+    font-size: calc(2.35rem - 2px);
   }
 
   .hero-map,
@@ -1419,7 +1420,7 @@ button {
   }
 
   .section-heading h2 {
-    font-size: calc(2.2rem - 1px);
+    font-size: calc(2.2rem - 2px);
   }
 
   .hero-map,
@@ -1700,12 +1701,12 @@ body::before { background: none; }
   white-space: nowrap;
   font-variant-numeric: tabular-nums;
 }
-#why-title, #exports-title, #mcp-title { font-size: calc(3rem - 3px); }
+#why-title, #exports-title, #mcp-title { font-size: calc(3rem - 4px); }
 @media (max-width: 820px) {
-  #why-title, #exports-title, #mcp-title { font-size: calc(2.35rem - 3px); }
+  #why-title, #exports-title, #mcp-title { font-size: calc(2.35rem - 4px); }
 }
 @media (max-width: 560px) {
-  #why-title, #exports-title, #mcp-title { font-size: calc(2.2rem - 3px); }
+  #why-title, #exports-title, #mcp-title { font-size: calc(2.2rem - 4px); }
 }
 
 .comparison-arrow { color: #8baba0; }
@@ -1783,9 +1784,9 @@ body::before { background: none; }
 
 .operational-section { padding-top: 96px; }
 .operational-section > .operational-status { padding-top: 0; }
-#operational-title { font-size: calc(3rem - 3px); }
-@media (max-width: 820px) { #operational-title { font-size: calc(2.35rem - 3px); } }
-@media (max-width: 560px) { #operational-title { font-size: calc(2.2rem - 3px); } }
+#operational-title { font-size: calc(3rem - 4px); }
+@media (max-width: 820px) { #operational-title { font-size: calc(2.35rem - 4px); } }
+@media (max-width: 560px) { #operational-title { font-size: calc(2.2rem - 4px); } }
 
 /* Keep equal breathing room above and below the opening section. */
 @media (min-width: 1061px) {
