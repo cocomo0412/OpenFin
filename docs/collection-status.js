@@ -5,7 +5,7 @@ try {
   const data = await response.json();
   const date = new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Seoul' }).format(new Date(data.collected_at));
   document.querySelector('[data-collection-short]').textContent = `${date} · 보호대상 금융회사 ${data.count}건 반영`;
-  result.textContent = `${date} 수집·검증 완료: 예금보험공사 보호대상 금융회사 ${data.count.toLocaleString('ko-KR')}건. 전체 페이지·건수·행번호·회사명 검증을 통과해 이 목록에 반영했습니다. 상품 전체 업데이트 날짜가 아닙니다.`;
+  result.textContent = `${date} 수집 · 예금보험공사 금융회사 ${data.count.toLocaleString('ko-KR')}건. 전체 페이지와 건수·행번호·회사명을 확인했습니다. 금융회사 목록의 수집일이며, 개별 상품의 갱신일은 아닙니다.`;
   const list = document.querySelector('[data-company-list]');
   for (const row of data.companies) {
     const item = document.createElement('span');
@@ -32,9 +32,9 @@ try {
   const kdic = inventory.datasets.find(row => row.operation === 'getProductList202607');
   const bank = inventory.datasets.find(row => row.source_id === 'source.fsc.domestic-bank-statistics');
   document.querySelector('[data-resolved-collections]').textContent = kdic && bank
-    ? `수집 오류 해결: 예금자보호 상품 ${kdic.count.toLocaleString('ko-KR')}행(JSON 응답·전체 행번호 확인), 국내은행 통계 ${bank.count.toLocaleString('ko-KR')}행(표별 총건수 확인). 수집일 ${date}. 통계·보호대상 참고자료로 반영했습니다.`
+    ? `예금자보호 상품 ${kdic.count.toLocaleString('ko-KR')}행, 국내은행 통계 ${bank.count.toLocaleString('ko-KR')}행. 수집일 ${date}. 행번호와 표별 총건수를 확인해 참고자료로 반영했습니다.`
     : '예금자보호 상품·국내은행 통계의 전체 수집 결과가 아직 확인되지 않았습니다.';
-  summary.textContent = `공식 API 자료: ${sources}개 출처 · ${inventory.datasets.length}개 수집본 · ${total.toLocaleString('ko-KR')}행. 원본 필드와 제공기관 기준일을 보존해 온톨로지와 검색 데이터에 반영했습니다. 행수는 상품 수가 아닙니다.`;
+  summary.textContent = `${sources}개 출처 · ${inventory.datasets.length}개 수집본 · ${total.toLocaleString('ko-KR')}행. 원본 항목과 제공기관 기준일을 유지해 본문·검색에 반영했습니다. 행수는 상품 수와 다릅니다.`;
   const list = document.querySelector('[data-api-collection-list]');
   for (const row of inventory.datasets) {
     const paragraph = document.createElement('p');
@@ -57,8 +57,10 @@ try {
   if(!response.ok) throw new Error('Refresh report unavailable');
   const report=await response.json();
   const paragraph=document.createElement('p');
-  paragraph.textContent=`온톨로지 반영·필드 매핑 검증: ${report.canonical_refreshed.toLocaleString('ko-KR')}개 기록. 예금 ${report.domains.deposit.current_total}개·적금 ${report.domains.saving.current_total}개·예금자보호 ${report.domains.deposit_protection.current_entities.toLocaleString('ko-KR')}개. 이번 목록에서 빠진 과거 상품은 판매 종료로 단정하지 않고 재확인 대상으로 유지합니다.`;
-  summary.insertAdjacentElement('afterend',paragraph);
+  paragraph.textContent=`${report.canonical_refreshed.toLocaleString('ko-KR')}개 기록. 예금 ${report.domains.deposit.current_total}개·적금 ${report.domains.saving.current_total}개·예금자보호 ${report.domains.deposit_protection.current_entities.toLocaleString('ko-KR')}개. 이번 목록에서 빠진 과거 상품은 판매 종료로 단정하지 않고 재확인 대상으로 유지합니다.`;
+  const entry=document.createElement('div'); entry.className='collection-entry';
+  const label=document.createElement('strong'); label.textContent='데이터 반영·검증';
+  entry.append(label,paragraph); summary.closest('.collection-entry').insertAdjacentElement('afterend',entry);
 
 } catch {
   const note=document.createElement('p');note.textContent='온톨로지 갱신 검증 보고서를 불러오지 못했습니다.';summary?.insertAdjacentElement('afterend',note);
