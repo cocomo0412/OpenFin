@@ -237,13 +237,13 @@ function updateManifestUI() {
   const productItems = exports.reduce((sum, item) => sum + Number(item.product_count || 0), 0);
   const localCount = exports.find((item) => item.domain === "local-government-supports")?.item_count || 0;
   const versionShort = String(manifest.version || "").replace("-2026.05.05.1", "");
-  const sourceReviewDate = manifest.source_review_date || manifest.basis_date || "unknown";
+  const sourceReviewDate = manifest.canonical_refresh?.collected_at?.slice(0,10) || manifest.source_review_date || manifest.basis_date || "unknown";
   const productCollectionDates = financeCollectionLabel(manifest);
 
   setText("[data-version]", manifest.version || "unknown");
   setText("[data-version-short]", versionShort || "KR-FINANCE-ONTOLOGY");
-  setText("[data-basis-date]", manifest.basis_date || "unknown");
-  setText("[data-basis-date-short]", manifest.basis_date || "unknown");
+  setText("[data-basis-date]", manifest.api_collection?.basis_date || manifest.basis_date || "unknown");
+  setText("[data-basis-date-short]", manifest.api_collection?.basis_date || manifest.basis_date || "unknown");
   setText("[data-source-review-date]", sourceReviewDate);
   setText("[data-product-collection-dates]", productCollectionDates || "미기록");
   setText("[data-total-items]", `${formatNumber(totalItems)} items`);
@@ -277,7 +277,8 @@ function renderExportCards() {
             <span>items</span>
           </div>
           <p>${escapeHtml(entry.description || meta.summary)}</p>
-          <p class="export-metadata">${formatNumber(entry.product_count || 0)} product nodes · 기존 ${escapeHtml(collectionMeta.label)} ${escapeHtml(collectionMeta.value)} · ${escapeHtml(filename)}</p>
+          <p class="export-metadata">${formatNumber(entry.product_count || 0)} product nodes · ${escapeHtml(collectionMeta.label)} ${escapeHtml(collectionMeta.value)} · ${escapeHtml(filename)}</p>
+          ${entry.catalog_refresh ? `<p class="export-metadata">API 원문 반영 ${formatNumber(entry.catalog_refresh.count)}개 · ${escapeHtml(entry.catalog_refresh.latest.slice(0,10))}<br>미갱신 항목은 기존 기준일 유지</p>` : ''}
           ${renderApiCollectionLink(entry.domain)}
           <a class="export-open" href="explorer.html?domain=${escapeAttribute(entry.domain)}"><svg class="export-open-icon" viewBox="0 0 20 20" aria-hidden="true" focusable="false"><circle cx="8.5" cy="8.5" r="5.5"/><path d="m12.5 12.5 4 4"/></svg><span>탐색기에서 열기</span></a>
         </article>
@@ -287,12 +288,16 @@ function renderExportCards() {
 }
 
 function financeCollectionLabel(manifest) {
+  if (manifest.canonical_refresh?.collected_at) {
+    return `${dateOnly(manifest.canonical_refresh.collected_at)} · API 갱신분 (분야별 수집일은 아래 카드)`;
+  }
   const labels = {
     "card-products": "카드",
     "deposit-products": "예금",
     "saving-products": "적금",
     "loan-products": "대출",
     "insurance-products": "보험",
+    "tax-advantaged-accounts": "세제혜택 계좌",
   };
   return (manifest.exports || [])
     .filter((entry) => Number(entry.product_count || 0) > 0)
@@ -380,6 +385,12 @@ async function loadDomain(domain, options = {}) {
       return;
     }
     const payload = await fetchJson(DATA_BASE + fileNameFromEntry(entry));
+    if(payload.storage_format==='openfin-sharded-export-v1') {
+      const parts=[];
+      for(let i=0;i<payload.shards.length;i+=3) parts.push(...await Promise.all(payload.shards.slice(i,i+3).map(shard=>fetchJson(DATA_BASE+fileNameFromEntry(shard)))));
+      payload.items=parts.flatMap(part=>part.items||[]);
+      payload.reference_items=parts.flatMap(part=>part.reference_items||[]);
+    }
     const items = [...(payload.reference_items || []), ...(payload.items || [])].map((item) => ({
       ...item,
       __domain: domain,
@@ -521,6 +532,7 @@ function resultItemHtml(item) {
         <span class="status-chip freshness-${escapeAttribute(freshness)}">freshness: ${escapeHtml(freshness)}</span>
         ${freshnessWarning ? `<span class="freshness-warning" role="status">⚠ 최신성 ${escapeHtml(freshness)}</span>` : ""}
         ${item.provider ? `<span>${escapeHtml(item.provider)}</span>` : ""}
+        ${item.source_listing_status === 'listed' && item.recommendation_scope === 'listing_only' ? '<span>공식 목록 수록 · 신청·가입 가능 여부 미확인</span>' : ''}
       </div>
       <p>${escapeHtml(item.description || "설명이 없습니다.")}</p>
     </button>
@@ -736,6 +748,7 @@ function renderDetail(item) {
     <h3>${escapeHtml(item.title || item.id)}</h3>
     <p class="detail-description">${escapeHtml(item.description || "설명이 없습니다.")}</p>
     ${renderCurrentApi(item)}
+    ${item.refresh_generation ? `<section class="detail-section"><h4>공식 자료 반영 · ${escapeHtml(item.refresh_generation.slice(0,10))}</h4><p>API 수집값을 본문과 검색 데이터에 반영했습니다. 제공기관의 관측·공시 기준일과 개인별 적합성 검증은 별도입니다.</p>${item.raw ? `<details><summary>반영된 원문 필드 보기</summary>${renderKvGrid(Object.entries(item.raw).map(([k,v])=>[k,typeof v==='object'?JSON.stringify(v):String(v??'미제공')]))}</details>`:''}</section>` : ''}
     ${renderEvidenceAvailability(item)}
     ${renderPopulationNotice(item)}
     ${kv.length ? renderKvGrid(kv) : ""}
@@ -752,12 +765,13 @@ function renderDetail(item) {
 function renderApiCollectionLink(domain) {
   const source = {'deposit-products':['source.fss.finlife.api','deposit'], 'saving-products':['source.fss.finlife.api','saving'],
     'loan-products':['source.data.go.kr.kinfa-loan-products',''], 'insurance-products':['source.fsc.medical-reimbursement-insurance',''],
-    'finance-reference':['source.bok.ecos','']}[domain];
+    'finance-reference':['source.bok.ecos',''], 'local-government-supports':['source.gov24.benefit-plus.local-supports','serviceList']}[domain];
   if (!source || !state.manifest.api_collection) return '<p class="export-metadata">이번 API 갱신 대상 외 · 기존 자료 유지</p>';
   return `<p class="export-metadata"><a href="api-data.html?source=${encodeURIComponent(source[0])}&operation=${encodeURIComponent(source[1])}">추가 API 수집 ${escapeHtml(state.manifest.api_collection.basis_date)} · 최신 자료 보기</a></p>`;
 }
 
 function renderCurrentApi(item) {
+  if(item.refresh_generation) return '';
   const current = state.apiLinks?.[item.id];
   if (!current) return '';
   const value = current.extracted;
@@ -1152,6 +1166,8 @@ function qualityLine(summary) {
 
 function isSearchVisible(item, query) {
   if (item.recommendation_scope === "internal_verification_candidate") return false;
+  // A public catalog listing is searchable without becoming a recommendation.
+  if (item.source_listing_status === 'listed' && item.recommendation_scope === 'listing_only') return true;
   if (!isInactiveOrUnverified(item)) return true;
   return hasInactiveIntent(query);
 }

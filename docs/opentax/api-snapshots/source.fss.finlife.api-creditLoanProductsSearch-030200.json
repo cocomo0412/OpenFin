@@ -1,0 +1,1054 @@
+{
+  "source_id": "source.fss.finlife.api",
+  "title": "금융감독원 신용대출 (030200)",
+  "source_url": "https://finlife.fss.or.kr/",
+  "collected_at": "2026-09-23T07:15:57.105Z",
+  "count": 29,
+  "items": [
+    {
+      "source_record_id": "creditLoanProductsSearch:030200:0010225:WR0001F:1",
+      "base": {
+        "dcls_month": "202609",
+        "fin_co_no": "0010225",
+        "fin_prdt_cd": "WR0001F",
+        "crdt_prdt_type": "1",
+        "kor_co_nm": "현대카드㈜",
+        "fin_prdt_nm": "일반신용대출",
+        "join_way": "인터넷,스마트폰,전화(텔레뱅킹)",
+        "cb_name": "KCB",
+        "crdt_prdt_type_nm": "일반신용대출",
+        "dcls_strt_day": "20260921",
+        "dcls_end_day": null,
+        "fin_co_subm_day": "202609111609"
+      },
+      "options": [
+        {
+          "dcls_month": "202609",
+          "fin_co_no": "0010225",
+          "fin_prdt_cd": "WR0001F",
+          "crdt_prdt_type": "1",
+          "crdt_lend_rate_type": "A",
+          "crdt_lend_rate_type_nm": "대출금리",
+          "crdt_grad_1": 11.58,
+          "crdt_grad_4": 13.31,
+          "crdt_grad_5": 15.12,
+          "crdt_grad_6": 17.74,
+          "crdt_grad_10": null,
+          "crdt_grad_11": null,
+          "crdt_grad_12": null,
+          "crdt_grad_13": null,
+          "crdt_grad_avg": 13.39
+        }
+      ]
+    },
+    {
+      "source_record_id": "creditLoanProductsSearch:030200:0010225:WR0002F:3",
+      "base": {
+        "dcls_month": "202609",
+        "fin_co_no": "0010225",
+        "fin_prdt_cd": "WR0002F",
+        "crdt_prdt_type": "3",
+        "kor_co_nm": "현대카드㈜",
+        "fin_prdt_nm": "장기카드대출",
+        "join_way": "인터넷,스마트폰,전화(텔레뱅킹)",
+        "cb_name": "KCB",
+        "crdt_prdt_type_nm": "장기카드대출(카드론)",
+        "dcls_strt_day": "20260921",
+        "dcls_end_day": null,
+        "fin_co_subm_day": "202609111628"
+      },
+      "options": [
+        {
+          "dcls_month": "202609",
+          "fin_co_no": "0010225",
+          "fin_prdt_cd": "WR0002F",
+          "crdt_prdt_type": "3",
+          "crdt_lend_rate_type": "A",
+          "crdt_lend_rate_type_nm": "대출금리",
+          "crdt_grad_1": 13.17,
+          "crdt_grad_4": 14.31,
+          "crdt_grad_5": 16.2,
+          "crdt_grad_6": 17.6,
+          "crdt_grad_10": null,
+          "crdt_grad_11": null,
+          "crdt_grad_12": null,
+          "crdt_grad_13": null,
+          "crdt_grad_avg": 15.43
+        }
+      ]
+    },
+    {
+      "source_record_id": "creditLoanProductsSearch:030200:0010226:WR0002F:3",
+      "base": {
+        "dcls_month": "202609",
+        "fin_co_no": "0010226",
+        "fin_prdt_cd": "WR0002F",
+        "crdt_prdt_type": "3",
+        "kor_co_nm": "롯데카드㈜",
+        "fin_prdt_nm": "장기카드대출",
+        "join_way": "인터넷,스마트폰,전화(텔레뱅킹),기타",
+        "cb_name": "KCB",
+        "crdt_prdt_type_nm": "장기카드대출(카드론)",
+        "dcls_strt_day": "20260921",
+        "dcls_end_day": null,
+        "fin_co_subm_day": "202609111019"
+      },
+      "options": [
+        {
+          "dcls_month": "202609",
+          "fin_co_no": "0010226",
+          "fin_prdt_cd": "WR0002F",
+          "crdt_prdt_type": "3",
+          "crdt_lend_rate_type": "A",
+          "crdt_lend_rate_type_nm": "대출금리",
+          "crdt_grad_1": 11.03,
+          "crdt_grad_4": 12.14,
+          "crdt_grad_5": 15.43,
+          "crdt_grad_6": 18.71,
+          "crdt_grad_10": 17.73,
+          "crdt_grad_11": null,
+          "crdt_grad_12": null,
+          "crdt_grad_13": null,
+          "crdt_grad_avg": 14.35
+        }
+      ]
+    },
+    {
+      "source_record_id": "creditLoanProductsSearch:030200:0010227:WR0001F:1",
+      "base": {
+        "dcls_month": "202609",
+        "fin_co_no": "0010227",
+        "fin_prdt_cd": "WR0001F",
+        "crdt_prdt_type": "1",
+        "kor_co_nm": "비씨카드㈜",
+        "fin_prdt_nm": "일반신용대출",
+        "join_way": "인터넷,스마트폰",
+        "cb_name": "NICE",
+        "crdt_prdt_type_nm": "일반신용대출",
+        "dcls_strt_day": "20260921",
+        "dcls_end_day": null,
+        "fin_co_subm_day": "202609101701"
+      },
+      "options": [
+        {
+          "dcls_month": "202609",
+          "fin_co_no": "0010227",
+          "fin_prdt_cd": "WR0001F",
+          "crdt_prdt_type": "1",
+          "crdt_lend_rate_type": "A",
+          "crdt_lend_rate_type_nm": "대출금리",
+          "crdt_grad_1": 10.01,
+          "crdt_grad_4": 11.68,
+          "crdt_grad_5": 13.41,
+          "crdt_grad_6": 16.06,
+          "crdt_grad_10": null,
+          "crdt_grad_11": null,
+          "crdt_grad_12": null,
+          "crdt_grad_13": null,
+          "crdt_grad_avg": 11.35
+        }
+      ]
+    },
+    {
+      "source_record_id": "creditLoanProductsSearch:030200:0010227:WR0002F:3",
+      "base": {
+        "dcls_month": "202609",
+        "fin_co_no": "0010227",
+        "fin_prdt_cd": "WR0002F",
+        "crdt_prdt_type": "3",
+        "kor_co_nm": "비씨카드㈜",
+        "fin_prdt_nm": "장기카드대출",
+        "join_way": "인터넷,스마트폰",
+        "cb_name": "KCB",
+        "crdt_prdt_type_nm": "장기카드대출(카드론)",
+        "dcls_strt_day": "20260921",
+        "dcls_end_day": null,
+        "fin_co_subm_day": "202609101640"
+      },
+      "options": [
+        {
+          "dcls_month": "202609",
+          "fin_co_no": "0010227",
+          "fin_prdt_cd": "WR0002F",
+          "crdt_prdt_type": "3",
+          "crdt_lend_rate_type": "A",
+          "crdt_lend_rate_type_nm": "대출금리",
+          "crdt_grad_1": 9.67,
+          "crdt_grad_4": 10.73,
+          "crdt_grad_5": 13.19,
+          "crdt_grad_6": 15.17,
+          "crdt_grad_10": 19.9,
+          "crdt_grad_11": null,
+          "crdt_grad_12": null,
+          "crdt_grad_13": null,
+          "crdt_grad_avg": 11.45
+        }
+      ]
+    },
+    {
+      "source_record_id": "creditLoanProductsSearch:030200:0010228:WR0001F:1",
+      "base": {
+        "dcls_month": "202609",
+        "fin_co_no": "0010228",
+        "fin_prdt_cd": "WR0001F",
+        "crdt_prdt_type": "1",
+        "kor_co_nm": "삼성카드㈜",
+        "fin_prdt_nm": "일반신용대출",
+        "join_way": "스마트폰",
+        "cb_name": "KCB",
+        "crdt_prdt_type_nm": "일반신용대출",
+        "dcls_strt_day": "20260921",
+        "dcls_end_day": null,
+        "fin_co_subm_day": "202609111631"
+      },
+      "options": [
+        {
+          "dcls_month": "202609",
+          "fin_co_no": "0010228",
+          "fin_prdt_cd": "WR0001F",
+          "crdt_prdt_type": "1",
+          "crdt_lend_rate_type": "A",
+          "crdt_lend_rate_type_nm": "대출금리",
+          "crdt_grad_1": 14.48,
+          "crdt_grad_4": 13.15,
+          "crdt_grad_5": 15.43,
+          "crdt_grad_6": 16.78,
+          "crdt_grad_10": 19.4,
+          "crdt_grad_11": null,
+          "crdt_grad_12": null,
+          "crdt_grad_13": null,
+          "crdt_grad_avg": 14.59
+        }
+      ]
+    },
+    {
+      "source_record_id": "creditLoanProductsSearch:030200:0010228:WR0002F:3",
+      "base": {
+        "dcls_month": "202609",
+        "fin_co_no": "0010228",
+        "fin_prdt_cd": "WR0002F",
+        "crdt_prdt_type": "3",
+        "kor_co_nm": "삼성카드㈜",
+        "fin_prdt_nm": "장기카드대출",
+        "join_way": "인터넷,스마트폰,기타",
+        "cb_name": "KCB",
+        "crdt_prdt_type_nm": "장기카드대출(카드론)",
+        "dcls_strt_day": "20260921",
+        "dcls_end_day": null,
+        "fin_co_subm_day": "202609111625"
+      },
+      "options": [
+        {
+          "dcls_month": "202609",
+          "fin_co_no": "0010228",
+          "fin_prdt_cd": "WR0002F",
+          "crdt_prdt_type": "3",
+          "crdt_lend_rate_type": "A",
+          "crdt_lend_rate_type_nm": "대출금리",
+          "crdt_grad_1": 13.72,
+          "crdt_grad_4": 12.5,
+          "crdt_grad_5": 14.58,
+          "crdt_grad_6": 17.02,
+          "crdt_grad_10": 18.48,
+          "crdt_grad_11": null,
+          "crdt_grad_12": null,
+          "crdt_grad_13": null,
+          "crdt_grad_avg": 14.28
+        }
+      ]
+    },
+    {
+      "source_record_id": "creditLoanProductsSearch:030200:0010229:WR0001F:1",
+      "base": {
+        "dcls_month": "202609",
+        "fin_co_no": "0010229",
+        "fin_prdt_cd": "WR0001F",
+        "crdt_prdt_type": "1",
+        "kor_co_nm": "신한카드㈜",
+        "fin_prdt_nm": "일반신용대출",
+        "join_way": "인터넷,스마트폰,전화(텔레뱅킹)",
+        "cb_name": "KCB",
+        "crdt_prdt_type_nm": "일반신용대출",
+        "dcls_strt_day": "20260921",
+        "dcls_end_day": null,
+        "fin_co_subm_day": "202609101331"
+      },
+      "options": [
+        {
+          "dcls_month": "202609",
+          "fin_co_no": "0010229",
+          "fin_prdt_cd": "WR0001F",
+          "crdt_prdt_type": "1",
+          "crdt_lend_rate_type": "A",
+          "crdt_lend_rate_type_nm": "대출금리",
+          "crdt_grad_1": 12.56,
+          "crdt_grad_4": 14.18,
+          "crdt_grad_5": 15.56,
+          "crdt_grad_6": 17.78,
+          "crdt_grad_10": 18.62,
+          "crdt_grad_11": null,
+          "crdt_grad_12": null,
+          "crdt_grad_13": null,
+          "crdt_grad_avg": 14.28
+        }
+      ]
+    },
+    {
+      "source_record_id": "creditLoanProductsSearch:030200:0010229:WR0002F:3",
+      "base": {
+        "dcls_month": "202609",
+        "fin_co_no": "0010229",
+        "fin_prdt_cd": "WR0002F",
+        "crdt_prdt_type": "3",
+        "kor_co_nm": "신한카드㈜",
+        "fin_prdt_nm": "장기카드대출",
+        "join_way": "인터넷,스마트폰,전화(텔레뱅킹),기타",
+        "cb_name": "KCB",
+        "crdt_prdt_type_nm": "장기카드대출(카드론)",
+        "dcls_strt_day": "20260921",
+        "dcls_end_day": null,
+        "fin_co_subm_day": "202609101341"
+      },
+      "options": [
+        {
+          "dcls_month": "202609",
+          "fin_co_no": "0010229",
+          "fin_prdt_cd": "WR0002F",
+          "crdt_prdt_type": "3",
+          "crdt_lend_rate_type": "A",
+          "crdt_lend_rate_type_nm": "대출금리",
+          "crdt_grad_1": 11.92,
+          "crdt_grad_4": 12.41,
+          "crdt_grad_5": 14.1,
+          "crdt_grad_6": 17.15,
+          "crdt_grad_10": 18.08,
+          "crdt_grad_11": null,
+          "crdt_grad_12": null,
+          "crdt_grad_13": null,
+          "crdt_grad_avg": 14.39
+        }
+      ]
+    },
+    {
+      "source_record_id": "creditLoanProductsSearch:030200:0010240:WR0001F:1",
+      "base": {
+        "dcls_month": "202609",
+        "fin_co_no": "0010240",
+        "fin_prdt_cd": "WR0001F",
+        "crdt_prdt_type": "1",
+        "kor_co_nm": "오케이캐피탈 ㈜",
+        "fin_prdt_nm": "일반신용대출",
+        "join_way": "인터넷,스마트폰",
+        "cb_name": "NICE",
+        "crdt_prdt_type_nm": "일반신용대출",
+        "dcls_strt_day": "20260921",
+        "dcls_end_day": null,
+        "fin_co_subm_day": "202609111835"
+      },
+      "options": [
+        {
+          "dcls_month": "202609",
+          "fin_co_no": "0010240",
+          "fin_prdt_cd": "WR0001F",
+          "crdt_prdt_type": "1",
+          "crdt_lend_rate_type": "A",
+          "crdt_lend_rate_type_nm": "대출금리",
+          "crdt_grad_1": null,
+          "crdt_grad_4": 19.88,
+          "crdt_grad_5": 19.89,
+          "crdt_grad_6": 19.9,
+          "crdt_grad_10": 19.9,
+          "crdt_grad_11": null,
+          "crdt_grad_12": 19.9,
+          "crdt_grad_13": 19.9,
+          "crdt_grad_avg": 19.89
+        }
+      ]
+    },
+    {
+      "source_record_id": "creditLoanProductsSearch:030200:0010245:WR0001F:1",
+      "base": {
+        "dcls_month": "202609",
+        "fin_co_no": "0010245",
+        "fin_prdt_cd": "WR0001F",
+        "crdt_prdt_type": "1",
+        "kor_co_nm": "한국캐피탈㈜",
+        "fin_prdt_nm": "일반신용대출",
+        "join_way": "영업점,인터넷,스마트폰,모집인,전화(텔레뱅킹),기타",
+        "cb_name": "NICE",
+        "crdt_prdt_type_nm": "일반신용대출",
+        "dcls_strt_day": "20260921",
+        "dcls_end_day": null,
+        "fin_co_subm_day": "202609140922"
+      },
+      "options": [
+        {
+          "dcls_month": "202609",
+          "fin_co_no": "0010245",
+          "fin_prdt_cd": "WR0001F",
+          "crdt_prdt_type": "1",
+          "crdt_lend_rate_type": "A",
+          "crdt_lend_rate_type_nm": "대출금리",
+          "crdt_grad_1": 16.98,
+          "crdt_grad_4": 17.32,
+          "crdt_grad_5": 17.52,
+          "crdt_grad_6": 17.79,
+          "crdt_grad_10": null,
+          "crdt_grad_11": null,
+          "crdt_grad_12": null,
+          "crdt_grad_13": null,
+          "crdt_grad_avg": 17.4
+        }
+      ]
+    },
+    {
+      "source_record_id": "creditLoanProductsSearch:030200:0010250:WR0001F:1",
+      "base": {
+        "dcls_month": "202609",
+        "fin_co_no": "0010250",
+        "fin_prdt_cd": "WR0001F",
+        "crdt_prdt_type": "1",
+        "kor_co_nm": "케이비캐피탈㈜",
+        "fin_prdt_nm": "일반신용대출",
+        "join_way": "영업점,인터넷,스마트폰,모집인,전화(텔레뱅킹)",
+        "cb_name": "NICE,KCB",
+        "crdt_prdt_type_nm": "일반신용대출",
+        "dcls_strt_day": "20260921",
+        "dcls_end_day": null,
+        "fin_co_subm_day": "202609101112"
+      },
+      "options": [
+        {
+          "dcls_month": "202609",
+          "fin_co_no": "0010250",
+          "fin_prdt_cd": "WR0001F",
+          "crdt_prdt_type": "1",
+          "crdt_lend_rate_type": "A",
+          "crdt_lend_rate_type_nm": "대출금리",
+          "crdt_grad_1": 10.3,
+          "crdt_grad_4": 11.09,
+          "crdt_grad_5": 12.19,
+          "crdt_grad_6": 12.05,
+          "crdt_grad_10": null,
+          "crdt_grad_11": null,
+          "crdt_grad_12": null,
+          "crdt_grad_13": null,
+          "crdt_grad_avg": 11.15
+        }
+      ]
+    },
+    {
+      "source_record_id": "creditLoanProductsSearch:030200:0010255:WR0001F:1",
+      "base": {
+        "dcls_month": "202609",
+        "fin_co_no": "0010255",
+        "fin_prdt_cd": "WR0001F",
+        "crdt_prdt_type": "1",
+        "kor_co_nm": "우리금융캐피탈㈜",
+        "fin_prdt_nm": "일반신용대출",
+        "join_way": "인터넷,스마트폰,모집인,전화(텔레뱅킹)",
+        "cb_name": "NICE",
+        "crdt_prdt_type_nm": "일반신용대출",
+        "dcls_strt_day": "20260921",
+        "dcls_end_day": null,
+        "fin_co_subm_day": "202609101458"
+      },
+      "options": [
+        {
+          "dcls_month": "202609",
+          "fin_co_no": "0010255",
+          "fin_prdt_cd": "WR0001F",
+          "crdt_prdt_type": "1",
+          "crdt_lend_rate_type": "A",
+          "crdt_lend_rate_type_nm": "대출금리",
+          "crdt_grad_1": 11.57,
+          "crdt_grad_4": 13.15,
+          "crdt_grad_5": 15.88,
+          "crdt_grad_6": 16.69,
+          "crdt_grad_10": 16.04,
+          "crdt_grad_11": null,
+          "crdt_grad_12": null,
+          "crdt_grad_13": null,
+          "crdt_grad_avg": 13.68
+        }
+      ]
+    },
+    {
+      "source_record_id": "creditLoanProductsSearch:030200:0010259:WR0001F:1",
+      "base": {
+        "dcls_month": "202609",
+        "fin_co_no": "0010259",
+        "fin_prdt_cd": "WR0001F",
+        "crdt_prdt_type": "1",
+        "kor_co_nm": "롯데캐피탈㈜",
+        "fin_prdt_nm": "일반신용대출",
+        "join_way": "영업점,인터넷,스마트폰,모집인,전화(텔레뱅킹)",
+        "cb_name": "KCB",
+        "crdt_prdt_type_nm": "일반신용대출",
+        "dcls_strt_day": "20260921",
+        "dcls_end_day": null,
+        "fin_co_subm_day": "202609101510"
+      },
+      "options": [
+        {
+          "dcls_month": "202609",
+          "fin_co_no": "0010259",
+          "fin_prdt_cd": "WR0001F",
+          "crdt_prdt_type": "1",
+          "crdt_lend_rate_type": "A",
+          "crdt_lend_rate_type_nm": "대출금리",
+          "crdt_grad_1": 13.59,
+          "crdt_grad_4": 14.72,
+          "crdt_grad_5": 15.39,
+          "crdt_grad_6": 15.6,
+          "crdt_grad_10": 15.95,
+          "crdt_grad_11": null,
+          "crdt_grad_12": null,
+          "crdt_grad_13": null,
+          "crdt_grad_avg": 15.22
+        }
+      ]
+    },
+    {
+      "source_record_id": "creditLoanProductsSearch:030200:0010267:WR0001F:1",
+      "base": {
+        "dcls_month": "202609",
+        "fin_co_no": "0010267",
+        "fin_prdt_cd": "WR0001F",
+        "crdt_prdt_type": "1",
+        "kor_co_nm": "제이비우리캐피탈㈜",
+        "fin_prdt_nm": "일반신용대출",
+        "join_way": "인터넷,스마트폰,모집인,전화(텔레뱅킹)",
+        "cb_name": "KCB",
+        "crdt_prdt_type_nm": "일반신용대출",
+        "dcls_strt_day": "20260921",
+        "dcls_end_day": null,
+        "fin_co_subm_day": "202609110903"
+      },
+      "options": [
+        {
+          "dcls_month": "202609",
+          "fin_co_no": "0010267",
+          "fin_prdt_cd": "WR0001F",
+          "crdt_prdt_type": "1",
+          "crdt_lend_rate_type": "A",
+          "crdt_lend_rate_type_nm": "대출금리",
+          "crdt_grad_1": 15.53,
+          "crdt_grad_4": 16.22,
+          "crdt_grad_5": 17.58,
+          "crdt_grad_6": 17.63,
+          "crdt_grad_10": 18.82,
+          "crdt_grad_11": null,
+          "crdt_grad_12": null,
+          "crdt_grad_13": null,
+          "crdt_grad_avg": 17.24
+        }
+      ]
+    },
+    {
+      "source_record_id": "creditLoanProductsSearch:030200:0010268:WR0001F:1",
+      "base": {
+        "dcls_month": "202609",
+        "fin_co_no": "0010268",
+        "fin_prdt_cd": "WR0001F",
+        "crdt_prdt_type": "1",
+        "kor_co_nm": "하나캐피탈㈜",
+        "fin_prdt_nm": "일반신용대출",
+        "join_way": "영업점,스마트폰,모집인",
+        "cb_name": "NICE",
+        "crdt_prdt_type_nm": "일반신용대출",
+        "dcls_strt_day": "20260921",
+        "dcls_end_day": null,
+        "fin_co_subm_day": "202609081610"
+      },
+      "options": [
+        {
+          "dcls_month": "202609",
+          "fin_co_no": "0010268",
+          "fin_prdt_cd": "WR0001F",
+          "crdt_prdt_type": "1",
+          "crdt_lend_rate_type": "A",
+          "crdt_lend_rate_type_nm": "대출금리",
+          "crdt_grad_1": 13.1,
+          "crdt_grad_4": 13.99,
+          "crdt_grad_5": 14.19,
+          "crdt_grad_6": 13.76,
+          "crdt_grad_10": null,
+          "crdt_grad_11": null,
+          "crdt_grad_12": null,
+          "crdt_grad_13": null,
+          "crdt_grad_avg": 13.9
+        }
+      ]
+    },
+    {
+      "source_record_id": "creditLoanProductsSearch:030200:0010271:WR0001F:1",
+      "base": {
+        "dcls_month": "202609",
+        "fin_co_no": "0010271",
+        "fin_prdt_cd": "WR0001F",
+        "crdt_prdt_type": "1",
+        "kor_co_nm": "현대캐피탈㈜",
+        "fin_prdt_nm": "일반신용대출",
+        "join_way": "인터넷,스마트폰,모집인,전화(텔레뱅킹)",
+        "cb_name": "KCB",
+        "crdt_prdt_type_nm": "일반신용대출",
+        "dcls_strt_day": "20260921",
+        "dcls_end_day": null,
+        "fin_co_subm_day": "202609090927"
+      },
+      "options": [
+        {
+          "dcls_month": "202609",
+          "fin_co_no": "0010271",
+          "fin_prdt_cd": "WR0001F",
+          "crdt_prdt_type": "1",
+          "crdt_lend_rate_type": "A",
+          "crdt_lend_rate_type_nm": "대출금리",
+          "crdt_grad_1": 14.24,
+          "crdt_grad_4": 15,
+          "crdt_grad_5": 15.78,
+          "crdt_grad_6": 16.8,
+          "crdt_grad_10": 17.59,
+          "crdt_grad_11": null,
+          "crdt_grad_12": null,
+          "crdt_grad_13": null,
+          "crdt_grad_avg": 15.67
+        }
+      ]
+    },
+    {
+      "source_record_id": "creditLoanProductsSearch:030200:0011766:WR0001F:1",
+      "base": {
+        "dcls_month": "202609",
+        "fin_co_no": "0011766",
+        "fin_prdt_cd": "WR0001F",
+        "crdt_prdt_type": "1",
+        "kor_co_nm": "현대커머셜㈜",
+        "fin_prdt_nm": "일반신용대출",
+        "join_way": "인터넷,스마트폰,전화(텔레뱅킹)",
+        "cb_name": "KCB",
+        "crdt_prdt_type_nm": "일반신용대출",
+        "dcls_strt_day": "20260921",
+        "dcls_end_day": null,
+        "fin_co_subm_day": "202609111358"
+      },
+      "options": [
+        {
+          "dcls_month": "202609",
+          "fin_co_no": "0011766",
+          "fin_prdt_cd": "WR0001F",
+          "crdt_prdt_type": "1",
+          "crdt_lend_rate_type": "A",
+          "crdt_lend_rate_type_nm": "대출금리",
+          "crdt_grad_1": 11.32,
+          "crdt_grad_4": 13.39,
+          "crdt_grad_5": 13.93,
+          "crdt_grad_6": 13.36,
+          "crdt_grad_10": null,
+          "crdt_grad_11": null,
+          "crdt_grad_12": null,
+          "crdt_grad_13": null,
+          "crdt_grad_avg": 13.23
+        }
+      ]
+    },
+    {
+      "source_record_id": "creditLoanProductsSearch:030200:0011797:WR0001F:1",
+      "base": {
+        "dcls_month": "202609",
+        "fin_co_no": "0011797",
+        "fin_prdt_cd": "WR0001F",
+        "crdt_prdt_type": "1",
+        "kor_co_nm": "엔에이치농협캐피탈㈜",
+        "fin_prdt_nm": "일반신용대출",
+        "join_way": "영업점,인터넷,스마트폰,모집인,전화(텔레뱅킹),기타",
+        "cb_name": "KCB",
+        "crdt_prdt_type_nm": "일반신용대출",
+        "dcls_strt_day": "20260921",
+        "dcls_end_day": null,
+        "fin_co_subm_day": "202609111636"
+      },
+      "options": [
+        {
+          "dcls_month": "202609",
+          "fin_co_no": "0011797",
+          "fin_prdt_cd": "WR0001F",
+          "crdt_prdt_type": "1",
+          "crdt_lend_rate_type": "A",
+          "crdt_lend_rate_type_nm": "대출금리",
+          "crdt_grad_1": 9.48,
+          "crdt_grad_4": 11.27,
+          "crdt_grad_5": 13.07,
+          "crdt_grad_6": 15.42,
+          "crdt_grad_10": 17.23,
+          "crdt_grad_11": null,
+          "crdt_grad_12": null,
+          "crdt_grad_13": null,
+          "crdt_grad_avg": 11.65
+        }
+      ]
+    },
+    {
+      "source_record_id": "creditLoanProductsSearch:030200:0012303:WR0001F:1",
+      "base": {
+        "dcls_month": "202609",
+        "fin_co_no": "0012303",
+        "fin_prdt_cd": "WR0001F",
+        "crdt_prdt_type": "1",
+        "kor_co_nm": "㈜아이엠캐피탈",
+        "fin_prdt_nm": "일반신용대출",
+        "join_way": "인터넷,스마트폰,모집인,기타",
+        "cb_name": "KCB",
+        "crdt_prdt_type_nm": "일반신용대출",
+        "dcls_strt_day": "20260921",
+        "dcls_end_day": null,
+        "fin_co_subm_day": "202609091000"
+      },
+      "options": [
+        {
+          "dcls_month": "202609",
+          "fin_co_no": "0012303",
+          "fin_prdt_cd": "WR0001F",
+          "crdt_prdt_type": "1",
+          "crdt_lend_rate_type": "A",
+          "crdt_lend_rate_type_nm": "대출금리",
+          "crdt_grad_1": 14.53,
+          "crdt_grad_4": 14.4,
+          "crdt_grad_5": 15.18,
+          "crdt_grad_6": 15.28,
+          "crdt_grad_10": 14.61,
+          "crdt_grad_11": null,
+          "crdt_grad_12": null,
+          "crdt_grad_13": null,
+          "crdt_grad_avg": 14.99
+        }
+      ]
+    },
+    {
+      "source_record_id": "creditLoanProductsSearch:030200:0012452:WR0001F:1",
+      "base": {
+        "dcls_month": "202609",
+        "fin_co_no": "0012452",
+        "fin_prdt_cd": "WR0001F",
+        "crdt_prdt_type": "1",
+        "kor_co_nm": "비엔케이캐피탈㈜",
+        "fin_prdt_nm": "일반신용대출",
+        "join_way": "인터넷,스마트폰,모집인",
+        "cb_name": "KCB",
+        "crdt_prdt_type_nm": "일반신용대출",
+        "dcls_strt_day": "20260921",
+        "dcls_end_day": null,
+        "fin_co_subm_day": "202609111450"
+      },
+      "options": [
+        {
+          "dcls_month": "202609",
+          "fin_co_no": "0012452",
+          "fin_prdt_cd": "WR0001F",
+          "crdt_prdt_type": "1",
+          "crdt_lend_rate_type": "A",
+          "crdt_lend_rate_type_nm": "대출금리",
+          "crdt_grad_1": 13.45,
+          "crdt_grad_4": 13.69,
+          "crdt_grad_5": 14.66,
+          "crdt_grad_6": 15.27,
+          "crdt_grad_10": 15.7,
+          "crdt_grad_11": null,
+          "crdt_grad_12": null,
+          "crdt_grad_13": null,
+          "crdt_grad_avg": 14.37
+        }
+      ]
+    },
+    {
+      "source_record_id": "creditLoanProductsSearch:030200:0012627:WR0001F:1",
+      "base": {
+        "dcls_month": "202609",
+        "fin_co_no": "0012627",
+        "fin_prdt_cd": "WR0001F",
+        "crdt_prdt_type": "1",
+        "kor_co_nm": "㈜케이비국민카드",
+        "fin_prdt_nm": "일반신용대출",
+        "join_way": "영업점,인터넷,스마트폰,전화(텔레뱅킹)",
+        "cb_name": "KCB",
+        "crdt_prdt_type_nm": "일반신용대출",
+        "dcls_strt_day": "20260921",
+        "dcls_end_day": null,
+        "fin_co_subm_day": "202609111650"
+      },
+      "options": [
+        {
+          "dcls_month": "202609",
+          "fin_co_no": "0012627",
+          "fin_prdt_cd": "WR0001F",
+          "crdt_prdt_type": "1",
+          "crdt_lend_rate_type": "A",
+          "crdt_lend_rate_type_nm": "대출금리",
+          "crdt_grad_1": 11.59,
+          "crdt_grad_4": 13.45,
+          "crdt_grad_5": 15.53,
+          "crdt_grad_6": 16.49,
+          "crdt_grad_10": 16.76,
+          "crdt_grad_11": null,
+          "crdt_grad_12": null,
+          "crdt_grad_13": null,
+          "crdt_grad_avg": 14.65
+        }
+      ]
+    },
+    {
+      "source_record_id": "creditLoanProductsSearch:030200:0012627:WR0002F:3",
+      "base": {
+        "dcls_month": "202609",
+        "fin_co_no": "0012627",
+        "fin_prdt_cd": "WR0002F",
+        "crdt_prdt_type": "3",
+        "kor_co_nm": "㈜케이비국민카드",
+        "fin_prdt_nm": "장기카드대출",
+        "join_way": "영업점,인터넷,스마트폰,전화(텔레뱅킹)",
+        "cb_name": "KCB",
+        "crdt_prdt_type_nm": "장기카드대출(카드론)",
+        "dcls_strt_day": "20260921",
+        "dcls_end_day": null,
+        "fin_co_subm_day": "202609111632"
+      },
+      "options": [
+        {
+          "dcls_month": "202609",
+          "fin_co_no": "0012627",
+          "fin_prdt_cd": "WR0002F",
+          "crdt_prdt_type": "3",
+          "crdt_lend_rate_type": "A",
+          "crdt_lend_rate_type_nm": "대출금리",
+          "crdt_grad_1": 12.6,
+          "crdt_grad_4": 12.76,
+          "crdt_grad_5": 14.16,
+          "crdt_grad_6": 16.88,
+          "crdt_grad_10": 17.98,
+          "crdt_grad_11": null,
+          "crdt_grad_12": null,
+          "crdt_grad_13": null,
+          "crdt_grad_avg": 14.13
+        }
+      ]
+    },
+    {
+      "source_record_id": "creditLoanProductsSearch:030200:0013202:WR0001F:1",
+      "base": {
+        "dcls_month": "202609",
+        "fin_co_no": "0013202",
+        "fin_prdt_cd": "WR0001F",
+        "crdt_prdt_type": "1",
+        "kor_co_nm": "메리츠캐피탈㈜",
+        "fin_prdt_nm": "일반신용대출",
+        "join_way": "전화(텔레뱅킹)",
+        "cb_name": "KCB",
+        "crdt_prdt_type_nm": "일반신용대출",
+        "dcls_strt_day": "20260921",
+        "dcls_end_day": null,
+        "fin_co_subm_day": "202609111033"
+      },
+      "options": [
+        {
+          "dcls_month": "202609",
+          "fin_co_no": "0013202",
+          "fin_prdt_cd": "WR0001F",
+          "crdt_prdt_type": "1",
+          "crdt_lend_rate_type": "A",
+          "crdt_lend_rate_type_nm": "대출금리",
+          "crdt_grad_1": 19,
+          "crdt_grad_4": 16.96,
+          "crdt_grad_5": 19.7,
+          "crdt_grad_6": 19.02,
+          "crdt_grad_10": 19.6,
+          "crdt_grad_11": null,
+          "crdt_grad_12": null,
+          "crdt_grad_13": null,
+          "crdt_grad_avg": 19.18
+        }
+      ]
+    },
+    {
+      "source_record_id": "creditLoanProductsSearch:030200:0013361:WR0001F:1",
+      "base": {
+        "dcls_month": "202609",
+        "fin_co_no": "0013361",
+        "fin_prdt_cd": "WR0001F",
+        "crdt_prdt_type": "1",
+        "kor_co_nm": "㈜우리카드",
+        "fin_prdt_nm": "일반신용대출",
+        "join_way": "인터넷,스마트폰",
+        "cb_name": "KCB",
+        "crdt_prdt_type_nm": "일반신용대출",
+        "dcls_strt_day": "20260921",
+        "dcls_end_day": null,
+        "fin_co_subm_day": "202609111105"
+      },
+      "options": [
+        {
+          "dcls_month": "202609",
+          "fin_co_no": "0013361",
+          "fin_prdt_cd": "WR0001F",
+          "crdt_prdt_type": "1",
+          "crdt_lend_rate_type": "A",
+          "crdt_lend_rate_type_nm": "대출금리",
+          "crdt_grad_1": 11.02,
+          "crdt_grad_4": null,
+          "crdt_grad_5": 18.3,
+          "crdt_grad_6": null,
+          "crdt_grad_10": null,
+          "crdt_grad_11": null,
+          "crdt_grad_12": null,
+          "crdt_grad_13": null,
+          "crdt_grad_avg": 13.32
+        }
+      ]
+    },
+    {
+      "source_record_id": "creditLoanProductsSearch:030200:0013361:WR0002F:3",
+      "base": {
+        "dcls_month": "202609",
+        "fin_co_no": "0013361",
+        "fin_prdt_cd": "WR0002F",
+        "crdt_prdt_type": "3",
+        "kor_co_nm": "㈜우리카드",
+        "fin_prdt_nm": "장기카드대출",
+        "join_way": "인터넷,스마트폰,전화(텔레뱅킹)",
+        "cb_name": "KCB",
+        "crdt_prdt_type_nm": "장기카드대출(카드론)",
+        "dcls_strt_day": "20260921",
+        "dcls_end_day": null,
+        "fin_co_subm_day": "202609111058"
+      },
+      "options": [
+        {
+          "dcls_month": "202609",
+          "fin_co_no": "0013361",
+          "fin_prdt_cd": "WR0002F",
+          "crdt_prdt_type": "3",
+          "crdt_lend_rate_type": "A",
+          "crdt_lend_rate_type_nm": "대출금리",
+          "crdt_grad_1": 9.3,
+          "crdt_grad_4": 12.72,
+          "crdt_grad_5": 15.72,
+          "crdt_grad_6": 18.4,
+          "crdt_grad_10": 19.18,
+          "crdt_grad_11": null,
+          "crdt_grad_12": null,
+          "crdt_grad_13": null,
+          "crdt_grad_avg": 14.09
+        }
+      ]
+    },
+    {
+      "source_record_id": "creditLoanProductsSearch:030200:0013640:WR0001F:1",
+      "base": {
+        "dcls_month": "202609",
+        "fin_co_no": "0013640",
+        "fin_prdt_cd": "WR0001F",
+        "crdt_prdt_type": "1",
+        "kor_co_nm": "하나카드㈜",
+        "fin_prdt_nm": "일반신용대출",
+        "join_way": "스마트폰",
+        "cb_name": "KCB",
+        "crdt_prdt_type_nm": "일반신용대출",
+        "dcls_strt_day": "20260921",
+        "dcls_end_day": null,
+        "fin_co_subm_day": "202609101056"
+      },
+      "options": [
+        {
+          "dcls_month": "202609",
+          "fin_co_no": "0013640",
+          "fin_prdt_cd": "WR0001F",
+          "crdt_prdt_type": "1",
+          "crdt_lend_rate_type": "A",
+          "crdt_lend_rate_type_nm": "대출금리",
+          "crdt_grad_1": 19.57,
+          "crdt_grad_4": 18.17,
+          "crdt_grad_5": 17.57,
+          "crdt_grad_6": 19.95,
+          "crdt_grad_10": null,
+          "crdt_grad_11": null,
+          "crdt_grad_12": null,
+          "crdt_grad_13": null,
+          "crdt_grad_avg": 18.12
+        }
+      ]
+    },
+    {
+      "source_record_id": "creditLoanProductsSearch:030200:0013640:WR0002F:3",
+      "base": {
+        "dcls_month": "202609",
+        "fin_co_no": "0013640",
+        "fin_prdt_cd": "WR0002F",
+        "crdt_prdt_type": "3",
+        "kor_co_nm": "하나카드㈜",
+        "fin_prdt_nm": "장기카드대출",
+        "join_way": "인터넷,스마트폰,전화(텔레뱅킹),기타",
+        "cb_name": "KCB",
+        "crdt_prdt_type_nm": "장기카드대출(카드론)",
+        "dcls_strt_day": "20260921",
+        "dcls_end_day": null,
+        "fin_co_subm_day": "202609101018"
+      },
+      "options": [
+        {
+          "dcls_month": "202609",
+          "fin_co_no": "0013640",
+          "fin_prdt_cd": "WR0002F",
+          "crdt_prdt_type": "3",
+          "crdt_lend_rate_type": "A",
+          "crdt_lend_rate_type_nm": "대출금리",
+          "crdt_grad_1": 13.29,
+          "crdt_grad_4": 14.05,
+          "crdt_grad_5": 15.14,
+          "crdt_grad_6": 16.41,
+          "crdt_grad_10": 17.92,
+          "crdt_grad_11": null,
+          "crdt_grad_12": null,
+          "crdt_grad_13": null,
+          "crdt_grad_avg": 14.68
+        }
+      ]
+    },
+    {
+      "source_record_id": "creditLoanProductsSearch:030200:0013706:WR0001F:1",
+      "base": {
+        "dcls_month": "202609",
+        "fin_co_no": "0013706",
+        "fin_prdt_cd": "WR0001F",
+        "crdt_prdt_type": "1",
+        "kor_co_nm": "한국투자캐피탈㈜",
+        "fin_prdt_nm": "일반신용대출",
+        "join_way": "인터넷,스마트폰,모집인,전화(텔레뱅킹)",
+        "cb_name": "NICE,KCB",
+        "crdt_prdt_type_nm": "일반신용대출",
+        "dcls_strt_day": "20260921",
+        "dcls_end_day": null,
+        "fin_co_subm_day": "202609111406"
+      },
+      "options": [
+        {
+          "dcls_month": "202609",
+          "fin_co_no": "0013706",
+          "fin_prdt_cd": "WR0001F",
+          "crdt_prdt_type": "1",
+          "crdt_lend_rate_type": "A",
+          "crdt_lend_rate_type_nm": "대출금리",
+          "crdt_grad_1": 13.25,
+          "crdt_grad_4": 13.96,
+          "crdt_grad_5": 15.12,
+          "crdt_grad_6": 16.28,
+          "crdt_grad_10": 17.89,
+          "crdt_grad_11": null,
+          "crdt_grad_12": null,
+          "crdt_grad_13": null,
+          "crdt_grad_avg": 14.94
+        }
+      ]
+    }
+  ],
+  "recommendation_eligible": false
+}

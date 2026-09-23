@@ -13,8 +13,30 @@ export const BULK_TYPES = new Set(['support-program','card-product','bank-produc
 // only one of the two is what let untyped edges accumulate unchecked before.
 export const RELATION_KEYS = ['parents','children','related','terms','deadlines','sources','requires','conflicts_with','available_in','provided_by','reference_items'];
 export const PUBLIC_BASE = 'https://cocomo0412.github.io/OpenFin/opentax';
-export const json = (p) => JSON.parse(fs.readFileSync(p, 'utf8').replace(/\r\n/g, '\n'));
-export const writeJson = (p, value) => { fs.mkdirSync(path.dirname(p), {recursive:true}); fs.writeFileSync(p, JSON.stringify(value, null, 2) + '\n'); };
+export const json = (p) => {
+  const value=JSON.parse(fs.readFileSync(p, 'utf8').replace(/\r\n/g, '\n'));
+  if(value.storage_format==='openfin-sharded-export-v1') {
+    const parts=value.shards.map(entry=>json(path.join(path.dirname(p),path.basename(entry.path))));
+    value.items=parts.flatMap(part=>part.items||[]);
+    value.reference_items=parts.flatMap(part=>part.reference_items||[]);
+  }
+  return value;
+};
+export const writeJson = (p, value) => {
+  const compact=JSON.stringify(value), text=(Buffer.byteLength(compact)>40*1024*1024 ? compact : JSON.stringify(value,null,2))+'\n';
+  writeText(p,text);
+};
+export const writeText = (p,text) => {
+  fs.mkdirSync(path.dirname(p), {recursive:true});
+  // OneDrive may briefly lock an existing file while synchronizing it.
+  for(let attempt=0;;attempt++) {
+    try { fs.writeFileSync(p,text); return; }
+    catch(error) {
+      if(process.platform!=='win32'||!['UNKNOWN','EBUSY','EPERM'].includes(error.code)||attempt>=5) throw error;
+      Atomics.wait(new Int32Array(new SharedArrayBuffer(4)),0,0,200*(attempt+1));
+    }
+  }
+};
 export const stable = (value) => {
   if (Array.isArray(value)) return `[${value.map(stable).join(',')}]`;
   if (value && typeof value === 'object') return `{${Object.keys(value).sort().map(k => `${JSON.stringify(k)}:${stable(value[k])}`).join(',')}}`;
