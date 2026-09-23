@@ -277,8 +277,12 @@ function renderExportCards() {
             <span>items</span>
           </div>
           <p>${escapeHtml(entry.description || meta.summary)}</p>
-          <p class="export-metadata">${formatNumber(entry.product_count || 0)} product nodes · ${escapeHtml(collectionMeta.label)} ${escapeHtml(collectionMeta.value)} · ${escapeHtml(filename)}</p>
-          ${entry.catalog_refresh ? `<p class="export-metadata">API 원문 반영 ${formatNumber(entry.catalog_refresh.count)}개 · ${escapeHtml(entry.catalog_refresh.latest.slice(0,10))}<br>미갱신 항목은 기존 기준일 유지</p>` : ''}
+          <p class="export-metadata">${formatNumber(entry.product_count || 0)} product nodes · ${escapeHtml(filename)}</p>
+          <p class="export-metadata export-file-date">파일 갱신일 ${escapeHtml(dateOnly(state.manifest.built_at) || '미기록')}</p>
+          ${entry.catalog_refresh
+            ? `<p class="export-metadata">최근 자료 수집 ${escapeHtml(dateOnly(entry.catalog_refresh.latest))}<br>API 원문 반영 ${formatNumber(entry.catalog_refresh.count)}개 · 일부 과거 자료 포함</p>`
+            : '<p class="export-metadata">자료 갱신 필요 · 원문 재검증 미완료</p>'}
+          <details class="export-metadata export-date-history"><summary>원자료 수집 이력</summary><p>${escapeHtml(collectionMeta.label)} ${escapeHtml(collectionMeta.value)}<br>파일 갱신일은 모든 원자료의 현행화를 뜻하지 않습니다.</p></details>
           ${renderApiCollectionLink(entry.domain)}
           <a class="export-open" href="explorer.html?domain=${escapeAttribute(entry.domain)}"><svg class="export-open-icon" viewBox="0 0 20 20" aria-hidden="true" focusable="false"><circle cx="8.5" cy="8.5" r="5.5"/><path d="m12.5 12.5 4 4"/></svg><span>탐색기에서 열기</span></a>
         </article>
@@ -329,11 +333,9 @@ function dateOnly(value) {
 
 function collectionMetaForEntry(entry, manifest) {
   const dates = collectionDatesForEntry(entry);
-  if (dates) return { label: "수집일", value: dates };
-  const builtDate = dateOnly(manifest?.built_at);
-  if (builtDate) return { label: "팩 생성일", value: builtDate };
+  if (dates) return { label: "자료 수집일", value: dates };
   const reviewDate = dateOnly(entry.source_review_date || entry.basis_date);
-  return { label: "확인일", value: reviewDate || "미기록" };
+  return { label: "원자료 기준일", value: reviewDate || "미기록" };
 }
 
 function renderLoadingTabs() {
@@ -766,8 +768,8 @@ function renderApiCollectionLink(domain) {
   const source = {'deposit-products':['source.fss.finlife.api','deposit'], 'saving-products':['source.fss.finlife.api','saving'],
     'loan-products':['source.data.go.kr.kinfa-loan-products',''], 'insurance-products':['source.fsc.medical-reimbursement-insurance',''],
     'finance-reference':['source.bok.ecos',''], 'local-government-supports':['source.gov24.benefit-plus.local-supports','serviceList']}[domain];
-  if (!source || !state.manifest.api_collection) return '<p class="export-metadata">이번 API 갱신 대상 외 · 기존 자료 유지</p>';
-  return `<p class="export-metadata"><a href="api-data.html?source=${encodeURIComponent(source[0])}&operation=${encodeURIComponent(source[1])}">추가 API 수집 ${escapeHtml(state.manifest.api_collection.basis_date)} · 최신 자료 보기</a></p>`;
+  if (!source || !state.manifest.api_collection) return '';
+  return `<p class="export-metadata"><a href="api-data.html?source=${encodeURIComponent(source[0])}&operation=${encodeURIComponent(source[1])}">관련 API 수집본 보기 · ${escapeHtml(state.manifest.api_collection.basis_date)}</a></p>`;
 }
 
 function renderCurrentApi(item) {
