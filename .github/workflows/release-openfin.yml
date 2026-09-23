@@ -883,7 +883,6 @@ jobs:
   rollback-worker-on-post-promotion-failure:
     if: ${{ false }} # Full edition disabled for free-only deployment
     needs: [canonical-artifact, promote-worker, validate-promoted-worker, post-promotion-soak, deploy-pages-final, public-parity, deploy-worker-candidate, deploy-worker-final]
-    if: ${{ false }} # Full edition disabled for free-only deployment
     runs-on: ubuntu-latest
     steps:
       - name: Roll back Worker to the captured previous version
@@ -913,7 +912,6 @@ jobs:
   rollback-pages-on-post-promotion-failure:
     if: ${{ false }} # Full edition disabled for free-only deployment
     needs: [canonical-artifact, deploy-pages-final, public-parity]
-    if: ${{ false }} # Full edition disabled for free-only deployment
     runs-on: ubuntu-latest
     permissions:
       actions: read
