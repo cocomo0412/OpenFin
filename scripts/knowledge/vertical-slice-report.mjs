@@ -74,7 +74,7 @@ for (const [domain, config] of Object.entries(policy.domains)) {
 const report = {
   version: 'openfin-vertical-slice-v1',
   generated_at: generatedAt,
-  source_registry_checksum: fs.existsSync(registryPath) ? sha256(fs.readFileSync(registryPath, 'utf8')).slice(7) : null,
+  source_registry_checksum: fs.existsSync(registryPath) ? sha256(fs.readFileSync(registryPath, 'utf8').replace(/\r\n/g, '\n')).slice(7) : null,
   canonical_content_checksum: sha256(records).slice(7),
   policy_version: policy.version,
   domains,

@@ -1,3 +1,4 @@
+import { fileURLToPath } from 'node:url';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -5,7 +6,7 @@ import path from 'node:path';
 import Ajv2020 from 'ajv/dist/2020.js';
 import addFormats from 'ajv-formats';
 
-const root = new URL('../..', import.meta.url).pathname;
+const root = fileURLToPath(new URL('../../', import.meta.url));
 const schemaDir = path.join(root, 'schemas');
 
 const validator = () => {

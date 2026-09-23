@@ -1,4 +1,4 @@
-const endpoint = (process.env.MCP_URL || "https://openfin-mcp.y2kthr.workers.dev").replace(/\/$/, "");
+const endpoint = (process.env.MCP_URL || "https://openfin.cocomo0412.workers.dev").replace(/\/$/, "");
 const workerName = process.env.CLOUDFLARE_WORKER_NAME || "openfin-mcp";
 const versionId = process.env.CANARY_VERSION_ID || "";
 const expectedCommit = process.env.EXPECTED_DEPLOYMENT_COMMIT || "";

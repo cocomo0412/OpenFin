@@ -1,6 +1,6 @@
 {
   "version": "OPENFIN-SOURCE-REGISTRY-2026.07.28.1",
-  "generated_at": "2026-09-13T14:49:48.328Z",
+  "generated_at": "2026-09-23T06:45:20.229253+00:00",
   "source_count": 155,
   "sources": [
     {
@@ -251,7 +251,9 @@
       "access": {
         "method": "api",
         "parser_id": "api:source-bok-ecos",
-        "requires_secret": true
+        "requires_secret": true,
+        "request_url": "https://ecos.bok.or.kr/api/StatisticTableList/{credential}/json/kr/1/1",
+        "credential_env": "ECOS_API_KEY"
       },
       "refresh": {
         "sla_hours": 168,
@@ -718,7 +720,14 @@
       "access": {
         "method": "api",
         "parser_id": "api:source-data-go-kr-kinfa-loan-handling-agencies",
-        "requires_secret": true
+        "requires_secret": true,
+        "request_url": "https://apis.data.go.kr/B553701/LoanProductHandlingAgencyInfoService/getLoanProductHandlingAgencyInfo",
+        "request_query": {
+          "pageNo": 1,
+          "numOfRows": 1
+        },
+        "credential_env": "DATA_GO_KR_SERVICE_KEY",
+        "credential_query_param": "serviceKey"
       },
       "refresh": {
         "sla_hours": 168,
@@ -759,7 +768,15 @@
       "access": {
         "method": "api",
         "parser_id": "api:source-data-go-kr-kinfa-loan-products",
-        "requires_secret": true
+        "requires_secret": true,
+        "request_url": "https://apis.data.go.kr/B553701/LoanProductSearchingInfo/LoanProductSearchingInfo/getLoanProductSearchingInfo",
+        "request_query": {
+          "pageNo": 1,
+          "numOfRows": 1,
+          "type": "xml"
+        },
+        "credential_env": "DATA_GO_KR_SERVICE_KEY",
+        "credential_query_param": "serviceKey"
       },
       "refresh": {
         "sla_hours": 168,
@@ -800,7 +817,14 @@
       "access": {
         "method": "api",
         "parser_id": "api:source-data-go-kr-kinfa-support-centers",
-        "requires_secret": true
+        "requires_secret": true,
+        "request_url": "https://apis.data.go.kr/B553701/TotalSupportCenterMisoBranchInfoService/getCenterMisoBranchInfo",
+        "request_query": {
+          "pageNo": 1,
+          "numOfRows": 1
+        },
+        "credential_env": "DATA_GO_KR_SERVICE_KEY",
+        "credential_query_param": "serviceKey"
       },
       "refresh": {
         "sla_hours": 168,
@@ -1038,7 +1062,14 @@
       "access": {
         "method": "api",
         "parser_id": "api:source-fsc-domestic-bank-statistics",
-        "requires_secret": true
+        "requires_secret": true,
+        "request_url": "https://apis.data.go.kr/1160100/service/GetDomeBankInfoService/getDomeBankGeneInfo",
+        "request_query": {
+          "pageNo": 1,
+          "numOfRows": 1
+        },
+        "credential_env": "DATA_GO_KR_SERVICE_KEY",
+        "credential_query_param": "serviceKey"
       },
       "refresh": {
         "sla_hours": 168,
@@ -1076,7 +1107,14 @@
       "access": {
         "method": "api",
         "parser_id": "api:source-fsc-financial-company-basic",
-        "requires_secret": true
+        "requires_secret": true,
+        "request_url": "https://apis.data.go.kr/1160100/service/GetFnCoBasiInfoService/getFnCoOutl",
+        "request_query": {
+          "pageNo": 1,
+          "numOfRows": 1
+        },
+        "credential_env": "DATA_GO_KR_SERVICE_KEY",
+        "credential_query_param": "serviceKey"
       },
       "refresh": {
         "sla_hours": 168,
@@ -1114,7 +1152,15 @@
       "access": {
         "method": "api",
         "parser_id": "api:source-fsc-financial-company-credit",
-        "requires_secret": true
+        "requires_secret": true,
+        "request_url": "https://apis.data.go.kr/1160100/service/GetFnCoFinaStatCredInfoService_V2/getFnCoBs_V2",
+        "request_query": {
+          "pageNo": 1,
+          "numOfRows": 1,
+          "resultType": "xml"
+        },
+        "credential_env": "DATA_GO_KR_SERVICE_KEY",
+        "credential_query_param": "serviceKey"
       },
       "refresh": {
         "sla_hours": 168,
@@ -1152,7 +1198,14 @@
       "access": {
         "method": "api",
         "parser_id": "api:source-fsc-financial-investment-statistics",
-        "requires_secret": true
+        "requires_secret": true,
+        "request_url": "https://apis.data.go.kr/1160100/service/GetKofiaStatisticsInfoService/getTrustScaleInfo",
+        "request_query": {
+          "pageNo": 1,
+          "numOfRows": 1
+        },
+        "credential_env": "DATA_GO_KR_SERVICE_KEY",
+        "credential_query_param": "serviceKey"
       },
       "refresh": {
         "sla_hours": 168,
@@ -1190,7 +1243,15 @@
       "access": {
         "method": "api",
         "parser_id": "api:source-fsc-fund-products-basic",
-        "requires_secret": true
+        "requires_secret": true,
+        "request_url": "https://apis.data.go.kr/1160100/service/GetFundProductInfoService/getStandardCodeInfo",
+        "request_query": {
+          "pageNo": 1,
+          "numOfRows": 1,
+          "resultType": "xml"
+        },
+        "credential_env": "DATA_GO_KR_SERVICE_KEY",
+        "credential_query_param": "serviceKey"
       },
       "refresh": {
         "sla_hours": 168,
@@ -1269,7 +1330,15 @@
       "access": {
         "method": "api",
         "parser_id": "api:source-fsc-inclusive-finance-performance",
-        "requires_secret": true
+        "requires_secret": true,
+        "request_url": "https://apis.data.go.kr/1160100/service/GetKinfaResultInfoService/getMicroCreditInfo",
+        "request_query": {
+          "pageNo": 1,
+          "numOfRows": 1,
+          "resultType": "xml"
+        },
+        "credential_env": "DATA_GO_KR_SERVICE_KEY",
+        "credential_query_param": "serviceKey"
       },
       "refresh": {
         "sla_hours": 168,
@@ -1310,7 +1379,15 @@
       "access": {
         "method": "api",
         "parser_id": "api:source-fsc-inclusive-finance-products",
-        "requires_secret": true
+        "requires_secret": true,
+        "request_url": "https://apis.data.go.kr/1160100/service/GetSmallLoanFinanceInstituteInfoService/getOrdinaryFinanceInfo",
+        "request_query": {
+          "pageNo": 1,
+          "numOfRows": 1,
+          "resultType": "xml"
+        },
+        "credential_env": "DATA_GO_KR_SERVICE_KEY",
+        "credential_query_param": "serviceKey"
       },
       "refresh": {
         "sla_hours": 168,
@@ -1424,7 +1501,15 @@
       "access": {
         "method": "api",
         "parser_id": "api:source-fsc-medical-reimbursement-insurance",
-        "requires_secret": true
+        "requires_secret": true,
+        "request_url": "https://apis.data.go.kr/1160100/service/GetMedicalReimbursementInsuranceInfoService/getInsuranceInfo",
+        "request_query": {
+          "pageNo": 1,
+          "numOfRows": 1,
+          "resultType": "xml"
+        },
+        "credential_env": "DATA_GO_KR_SERVICE_KEY",
+        "credential_query_param": "serviceKey"
       },
       "refresh": {
         "sla_hours": 168,
@@ -1504,7 +1589,15 @@
       "access": {
         "method": "api",
         "parser_id": "api:source-fsc-retirement-pension-basic",
-        "requires_secret": true
+        "requires_secret": true,
+        "request_url": "https://apis.data.go.kr/1160100/service/GetRetirementPensionInfoService/getFundInfo",
+        "request_query": {
+          "pageNo": 1,
+          "numOfRows": 1,
+          "resultType": "xml"
+        },
+        "credential_env": "DATA_GO_KR_SERVICE_KEY",
+        "credential_query_param": "serviceKey"
       },
       "refresh": {
         "sla_hours": 168,
@@ -1581,7 +1674,15 @@
       "access": {
         "method": "api",
         "parser_id": "api:source-fsc-variable-insurance-info",
-        "requires_secret": true
+        "requires_secret": true,
+        "request_url": "https://apis.data.go.kr/1160100/service/GetVariableInsuranceInfoService/getFundInfo",
+        "request_query": {
+          "pageNo": 1,
+          "numOfRows": 1,
+          "resultType": "xml"
+        },
+        "credential_env": "DATA_GO_KR_SERVICE_KEY",
+        "credential_query_param": "serviceKey"
       },
       "refresh": {
         "sla_hours": 168,
@@ -1941,7 +2042,14 @@
       "access": {
         "method": "api",
         "parser_id": "api:source-hf-bogeumjari-openapi",
-        "requires_secret": true
+        "requires_secret": true,
+        "request_url": "https://apis.data.go.kr/B551408/u-loan-rate/uloan-info",
+        "request_query": {
+          "pageNo": 1,
+          "numOfRows": 1
+        },
+        "credential_env": "DATA_GO_KR_SERVICE_KEY",
+        "credential_query_param": "serviceKey"
       },
       "refresh": {
         "sla_hours": 168,
@@ -2170,11 +2278,11 @@
         "method": "api",
         "parser_id": "api:source-kdic-insured-products",
         "requires_secret": true,
-        "request_url": "https://apis.data.go.kr/B190017/service/GetInsuredProductService202008/getProductList202008",
+        "request_url": "https://apis.data.go.kr/B190017/service/GetInsuredProductService202607/getProductList202607",
         "request_query": {
           "pageNo": 1,
           "numOfRows": 1,
-          "_type": "json"
+          "resultType": "xml"
         },
         "credential_env": "DATA_GO_KR_SERVICE_KEY",
         "credential_query_param": "serviceKey"
@@ -2184,9 +2292,9 @@
         "change_detection": "http-checksum"
       },
       "usage_terms": {
-        "license_or_terms": "이용조건 미확인 - 원문 이용약관 검토 필요",
-        "terms_status": "review_required",
-        "raw_snapshot_allowed": false
+        "license_or_terms": "공공데이터포털 이용허락범위 제한 없음 (2026-09-23 확인)",
+        "terms_status": "reviewed",
+        "raw_snapshot_allowed": true
       },
       "recommendation_eligible": false,
       "status": "active",

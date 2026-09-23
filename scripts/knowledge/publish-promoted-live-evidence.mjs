@@ -31,7 +31,7 @@ const checks = [
   [report.mode === 'live', 'promoted live mode must be live'],
   [report.test_count === 120 && report.passed_count === 120, 'promoted live result must pass 120/120'],
   [report.failed_count === 0 && report.skipped_count === 0, 'promoted live result must have zero failures and skips'],
-  [report.endpoint === 'https://openfin-mcp.y2kthr.workers.dev/mcp', 'promoted live endpoint must be production'],
+  [report.endpoint === 'https://openfin.cocomo0412.workers.dev/mcp', 'promoted live endpoint must be production'],
   [report.deployment_commit === expectedCommit, 'promoted deployment commit mismatch'],
   [manifestChecksum === sha256(manifestChecksumInput).slice(7), 'manifest checksum mismatch'],
   [pointer.manifest_checksum === manifestChecksum, 'release pointer manifest checksum mismatch'],

@@ -16,7 +16,7 @@ function sourceRegistry() {
       const file = path.join(directory, entry.name);
       if (entry.isDirectory()) walk(file);
       else if (entry.name.endsWith('.md')) {
-        const text = fs.readFileSync(file, 'utf8');
+        const text = fs.readFileSync(file, 'utf8').replace(/\r\n/g, '\n');
         const end = text.startsWith('---\n') ? text.indexOf('\n---\n', 4) : -1;
         if (end >= 0) { try { sources.push(JSON.parse(text.slice(4, end))); } catch { /* non-registry markdown */ } }
       }
@@ -36,7 +36,7 @@ const category = field => field.includes('sales') || field.includes('listing') ?
   : 'other';
 
 const registry = sourceRegistry();
-const readRows = file => fs.existsSync(file) ? fs.readFileSync(file, 'utf8').split('\n').filter(Boolean).map(JSON.parse) : [];
+const readRows = file => fs.existsSync(file) ? fs.readFileSync(file, 'utf8').replace(/\r\n/g, '\n').split('\n').filter(Boolean).map(JSON.parse) : [];
 const sameSourceObservation = (left, right) => left.source_id === right.source_id
   && left.assertion_id === right.assertion_id
   && left.observed_value_hash === right.observed_value_hash
@@ -45,7 +45,7 @@ const sameSourceObservation = (left, right) => left.source_id === right.source_i
   && JSON.stringify(left.locator) === JSON.stringify(right.locator);
 for (const domain of selectedDomains) {
   const file = path.join(decisionDir, `${domain}-offers.jsonl`);
-  const offers = fs.existsSync(file) ? fs.readFileSync(file, 'utf8').split('\n').filter(Boolean).map(JSON.parse) : [];
+  const offers = fs.existsSync(file) ? fs.readFileSync(file, 'utf8').replace(/\r\n/g, '\n').split('\n').filter(Boolean).map(JSON.parse) : [];
   const existing = new Map(readRows(path.join(outputDir, `${domain}.jsonl`)).map(row => [row.receipt_id, row]));
   const rows = [];
   for (const offer of offers) {

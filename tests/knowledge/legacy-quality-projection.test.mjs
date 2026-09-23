@@ -5,7 +5,7 @@ import test from 'node:test';
 import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
-const read = file => JSON.parse(fs.readFileSync(path.join(root, file), 'utf8'));
+const read = file => JSON.parse(fs.readFileSync(path.join(root, file), 'utf8').replace(/\r\n/g, '\n'));
 
 test('legacy financial export counts are projections of canonical domain readiness', () => {
   const manifest = read('docs/opentax/finance-ontology-manifest.json');

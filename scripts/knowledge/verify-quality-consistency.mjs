@@ -50,7 +50,7 @@ const recommendationPaths = [
 for (const root of recommendationPaths) {
   const files = fs.existsSync(root) && fs.statSync(root).isDirectory() ? fs.readdirSync(root).filter(file => file.endsWith('.ts')).map(file => path.join(root, file)) : [root];
   for (const file of files) if (fs.existsSync(file)) {
-    const text = fs.readFileSync(file, 'utf8');
+    const text = fs.readFileSync(file, 'utf8').replace(/\r\n/g, '\n');
     if (/new Date\s*\(|Date\.now\s*\(/.test(text)) failures.push(`recommendation_clock_fallback:${path.relative(ROOT, file)}`);
   }
 }

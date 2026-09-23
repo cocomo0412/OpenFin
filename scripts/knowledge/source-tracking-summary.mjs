@@ -9,7 +9,7 @@ const arg = name => {
 const reportFile = arg('--report');
 const outputFile = arg('--output');
 if (!outputFile) throw new Error('--output is required');
-const report = reportFile && fs.existsSync(reportFile) ? JSON.parse(fs.readFileSync(reportFile, 'utf8')) : null;
+const report = reportFile && fs.existsSync(reportFile) ? JSON.parse(fs.readFileSync(reportFile, 'utf8').replace(/\r\n/g, '\n')) : null;
 const reviewCount = Number(arg('--review-count') || (report ? (report.results || []).filter(item => item.status !== 'unchanged').length : 0));
 const sourceCheckOutcome = arg('--source-check-outcome');
 const delivery = arg('--delivery');

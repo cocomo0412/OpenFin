@@ -37,7 +37,15 @@
   "access": {
     "method": "api",
     "parser_id": "api:source-fsc-medical-reimbursement-insurance",
-    "requires_secret": true
+    "requires_secret": true,
+    "request_url": "https://apis.data.go.kr/1160100/service/GetMedicalReimbursementInsuranceInfoService/getInsuranceInfo",
+    "request_query": {
+      "pageNo": 1,
+      "numOfRows": 1,
+      "resultType": "xml"
+    },
+    "credential_env": "DATA_GO_KR_SERVICE_KEY",
+    "credential_query_param": "serviceKey"
   },
   "refresh": {
     "sla_hours": 168,
@@ -180,7 +188,7 @@
       "value": "2026-07-03 확인"
     }
   ],
-  "record_checksum": "sha256:85c6914de349b3770661ef28bcc8b1f3f3e4fafb635eaff21d938807ff52c997"
+  "record_checksum": "sha256:c30d828649e48b6567ae8ee411184f63a839f399e2d906b580fcff0db8121f9a"
 }
 ---
 

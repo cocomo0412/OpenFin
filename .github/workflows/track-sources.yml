@@ -41,12 +41,14 @@ jobs:
         env:
           FINLIFE_API_KEY: ${{ secrets.FINLIFE_API_KEY }}
           DATA_GO_KR_SERVICE_KEY: ${{ secrets.DATA_GO_KR_SERVICE_KEY }}
+          ECOS_API_KEY: ${{ secrets.ECOS_API_KEY }}
         run: npm run knowledge:track-sources -- --dry-run --report-dir "$REPORT_DIR"
       - name: Check sources and prepare review candidate
         if: ${{ env.MODE == 'create-review-pr' }}
         env:
           FINLIFE_API_KEY: ${{ secrets.FINLIFE_API_KEY }}
           DATA_GO_KR_SERVICE_KEY: ${{ secrets.DATA_GO_KR_SERVICE_KEY }}
+          ECOS_API_KEY: ${{ secrets.ECOS_API_KEY }}
         run: |
           node scripts/knowledge/track-sources.mjs --write --report-dir "$REPORT_DIR" --status-file "$GITHUB_WORKSPACE/docs/opentax/openfin-source-status-2026.json"
           receipt_dir="$GITHUB_WORKSPACE/evidence/source-receipts/$(date -u +%Y-%m)"

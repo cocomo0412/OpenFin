@@ -1,0 +1,494 @@
+{
+  "verified_at": "2026-09-23",
+  "sources": [
+    {
+      "id": "source.data.go.kr.kinfa-loan-handling-agencies",
+      "title": "서민금융진흥원 서민대출상품 취급기관 정보 서비스",
+      "documentation": "https://www.data.go.kr/data/15074508/openapi.do",
+      "credential_env": "DATA_GO_KR_SERVICE_KEY",
+      "format": "xml",
+      "operations": [
+        {
+          "url": "https://apis.data.go.kr/B553701/LoanProductHandlingAgencyInfoService/getLoanProductHandlingAgencyInfo",
+          "parameters": [],
+          "required": []
+        }
+      ]
+    },
+    {
+      "id": "source.data.go.kr.kinfa-loan-products",
+      "title": "서민금융진흥원 대출상품한눈에 정보 서비스",
+      "documentation": "https://www.data.go.kr/data/15106208/openapi.do?recommendDataYn=Y",
+      "credential_env": "DATA_GO_KR_SERVICE_KEY",
+      "format": "xml",
+      "operations": [
+        {
+          "url": "https://apis.data.go.kr/B553701/LoanProductSearchingInfo/LoanProductSearchingInfo/getLoanProductSearchingInfo",
+          "parameters": [
+            "serviceKey",
+            "pageNo",
+            "numOfRows",
+            "type",
+            "IRT_CTG",
+            "USGE",
+            "INST_CTG",
+            "RSD_AREA_PAMT_EQLT_ISTM",
+            "TGT_FLTR",
+            "PRD_CTG"
+          ],
+          "required": []
+        }
+      ]
+    },
+    {
+      "id": "source.data.go.kr.kinfa-support-centers",
+      "title": "서민금융진흥원 서민금융통합지원센터 현황",
+      "documentation": "https://www.data.go.kr/data/15037733/openapi.do",
+      "credential_env": "DATA_GO_KR_SERVICE_KEY",
+      "format": "xml",
+      "operations": [
+        {
+          "url": "https://apis.data.go.kr/B553701/TotalSupportCenterMisoBranchInfoService/getCenterMisoBranchInfo",
+          "parameters": [],
+          "required": []
+        }
+      ]
+    },
+    {
+      "id": "source.fsc.domestic-bank-statistics",
+      "title": "금융위원회 금융통계국내은행정보",
+      "documentation": "https://www.data.go.kr/data/15061304/openapi.do",
+      "credential_env": "DATA_GO_KR_SERVICE_KEY",
+      "format": "xml",
+      "operations": [
+        {
+          "url": "https://apis.data.go.kr/1160100/service/GetDomeBankInfoService/getDomeBankGeneInfo",
+          "parameters": [],
+          "required": []
+        }
+      ]
+    },
+    {
+      "id": "source.fsc.financial-company-basic",
+      "title": "금융위원회 금융회사기본정보",
+      "documentation": "https://www.data.go.kr/data/15043232/openapi.do",
+      "credential_env": "DATA_GO_KR_SERVICE_KEY",
+      "format": "xml",
+      "operations": [
+        {
+          "url": "https://apis.data.go.kr/1160100/service/GetFnCoBasiInfoService/getFnCoOutl",
+          "parameters": [],
+          "required": []
+        }
+      ]
+    },
+    {
+      "id": "source.fsc.financial-company-credit",
+      "title": "금융위원회 금융회사재무신용정보",
+      "documentation": "https://www.data.go.kr/data/15059594/openapi.do",
+      "credential_env": "DATA_GO_KR_SERVICE_KEY",
+      "format": "xml",
+      "operations": [
+        {
+          "url": "https://apis.data.go.kr/1160100/service/GetFnCoFinaStatCredInfoService_V2/getFnCoBs_V2",
+          "parameters": [
+            "numOfRows",
+            "pageNo",
+            "resultType",
+            "serviceKey",
+            "basDt",
+            "crno",
+            "bizYear"
+          ],
+          "required": [
+            "resultType"
+          ]
+        },
+        {
+          "url": "https://apis.data.go.kr/1160100/service/GetFnCoFinaStatCredInfoService_V2/getFnCoSummFinaStat_V2",
+          "parameters": [
+            "numOfRows",
+            "pageNo",
+            "resultType",
+            "serviceKey",
+            "basDt",
+            "crno",
+            "bizYear"
+          ],
+          "required": [
+            "resultType"
+          ]
+        },
+        {
+          "url": "https://apis.data.go.kr/1160100/service/GetFnCoFinaStatCredInfoService_V2/getFnCoIs_V2",
+          "parameters": [
+            "numOfRows",
+            "pageNo",
+            "resultType",
+            "serviceKey",
+            "basDt",
+            "crno",
+            "bizYear"
+          ],
+          "required": [
+            "resultType"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "source.fsc.financial-investment-statistics",
+      "title": "금융위원회 금융투자협회종합통계정보",
+      "documentation": "https://www.data.go.kr/data/15094809/openapi.do",
+      "credential_env": "DATA_GO_KR_SERVICE_KEY",
+      "format": "xml",
+      "operations": [
+        {
+          "url": "https://apis.data.go.kr/1160100/service/GetKofiaStatisticsInfoService/getTrustScaleInfo",
+          "parameters": [
+            "numOfRows",
+            "pageNo",
+            "basYm",
+            "bzds",
+            "tstCtg",
+            "kind"
+          ],
+          "required": []
+        },
+        {
+          "url": "https://apis.data.go.kr/1160100/service/GetKofiaStatisticsInfoService/getFundTotalNetEssetInfo",
+          "parameters": [
+            "numOfRows",
+            "pageNo",
+            "basDt",
+            "ctg",
+            "tstMthdCtg"
+          ],
+          "required": []
+        },
+        {
+          "url": "https://apis.data.go.kr/1160100/service/GetKofiaStatisticsInfoService/getCMAStatus",
+          "parameters": [
+            "numOfRows",
+            "pageNo",
+            "basDt",
+            "mngInvTgt",
+            "invrCtg"
+          ],
+          "required": []
+        },
+        {
+          "url": "https://apis.data.go.kr/1160100/service/GetKofiaStatisticsInfoService/getGrantingOfCreditBalanceInfo",
+          "parameters": [
+            "numOfRows",
+            "pageNo",
+            "basDt"
+          ],
+          "required": []
+        },
+        {
+          "url": "https://apis.data.go.kr/1160100/service/GetKofiaStatisticsInfoService/getSecuritiesMarketTotalCapitalInfo",
+          "parameters": [
+            "numOfRows",
+            "pageNo",
+            "basDt"
+          ],
+          "required": []
+        },
+        {
+          "url": "https://apis.data.go.kr/1160100/service/GetKofiaStatisticsInfoService/getDLSAndDLBInfo",
+          "parameters": [
+            "numOfRows",
+            "pageNo",
+            "basDt",
+            "ctgDlbDls",
+            "ctgPrplcPsub",
+            "presCtg"
+          ],
+          "required": []
+        },
+        {
+          "url": "https://apis.data.go.kr/1160100/service/GetKofiaStatisticsInfoService/getELSAndELBInfo",
+          "parameters": [
+            "numOfRows",
+            "pageNo",
+            "basDt",
+            "ctgElbEls",
+            "ctgPrplcPsub",
+            "presCtg"
+          ],
+          "required": []
+        },
+        {
+          "url": "https://apis.data.go.kr/1160100/service/GetKofiaStatisticsInfoService/getDerivationProductTradingInfo",
+          "parameters": [
+            "numOfRows",
+            "pageNo",
+            "basDt",
+            "byPrdGrp",
+            "actCtg",
+            "ctgBsonCntrForm",
+            "prdNm",
+            "brkPn",
+            "xchNm",
+            "byNtnl",
+            "prdGrp"
+          ],
+          "required": []
+        }
+      ]
+    },
+    {
+      "id": "source.fsc.fund-products-basic",
+      "title": "금융위원회 펀드상품기본정보",
+      "documentation": "https://www.data.go.kr/data/15094792/openapi.do",
+      "credential_env": "DATA_GO_KR_SERVICE_KEY",
+      "format": "xml",
+      "operations": [
+        {
+          "url": "https://apis.data.go.kr/1160100/service/GetFundProductInfoService/getStandardCodeInfo",
+          "parameters": [
+            "serviceKey",
+            "resultType",
+            "pageNo",
+            "numOfRows",
+            "basDt",
+            "beginBasDt",
+            "endBasDt",
+            "likeBasDt",
+            "srtnCd",
+            "fndNm",
+            "likeFndNm",
+            "ctg",
+            "fndTp"
+          ],
+          "required": []
+        }
+      ]
+    },
+    {
+      "id": "source.fsc.inclusive-finance-performance",
+      "title": "금융위원회 서민금융지원실적정보",
+      "documentation": "https://www.data.go.kr/data/15094801/openapi.do",
+      "credential_env": "DATA_GO_KR_SERVICE_KEY",
+      "format": "xml",
+      "operations": [
+        {
+          "url": "https://apis.data.go.kr/1160100/service/GetKinfaResultInfoService/getMicroCreditInfo",
+          "parameters": [
+            "serviceKey",
+            "pageNo",
+            "numOfRows",
+            "resultType",
+            "basYm",
+            "beginBasYm",
+            "endBasYm",
+            "likeBasYm",
+            "beginLnCcnt",
+            "endLnCcnt",
+            "beginLnAmt",
+            "endLnAmt"
+          ],
+          "required": []
+        },
+        {
+          "url": "https://apis.data.go.kr/1160100/service/GetKinfaResultInfoService/getSunshineLoanInfo",
+          "parameters": [
+            "serviceKey",
+            "pageNo",
+            "numOfRows",
+            "resultType",
+            "basYm",
+            "beginBasYm",
+            "endBasYm",
+            "likeBasYm",
+            "grnPrdCtg",
+            "likeGrnPrdCtg",
+            "beginGrnCcnt",
+            "endGrnCcnt",
+            "beginGrnAmt",
+            "endGrnAmt"
+          ],
+          "required": []
+        }
+      ]
+    },
+    {
+      "id": "source.fsc.inclusive-finance-products",
+      "title": "금융위원회 서민금융상품기본정보",
+      "documentation": "https://www.data.go.kr/data/15094787/openapi.do",
+      "credential_env": "DATA_GO_KR_SERVICE_KEY",
+      "format": "xml",
+      "operations": [
+        {
+          "url": "https://apis.data.go.kr/1160100/service/GetSmallLoanFinanceInstituteInfoService/getOrdinaryFinanceInfo",
+          "parameters": [
+            "serviceKey",
+            "resultType",
+            "pageNo",
+            "numOfRows",
+            "basYm",
+            "beginBasYm",
+            "endBasYm",
+            "likeBasYm",
+            "finPrdNm",
+            "likeFinPrdNm",
+            "likeUsge",
+            "likeTrgt",
+            "prdCtg",
+            "likeHdlInst",
+            "prdExisYn",
+            "lnLmt",
+            "likeLnLmt",
+            "irtCtg",
+            "irt",
+            "likeIrt",
+            "likeCv19SuprCtg"
+          ],
+          "required": []
+        }
+      ]
+    },
+    {
+      "id": "source.fsc.medical-reimbursement-insurance",
+      "title": "금융위원회 실손보험정보",
+      "documentation": "https://www.data.go.kr/data/15094797/openapi.do",
+      "credential_env": "DATA_GO_KR_SERVICE_KEY",
+      "format": "xml",
+      "operations": [
+        {
+          "url": "https://apis.data.go.kr/1160100/service/GetMedicalReimbursementInsuranceInfoService/getInsuranceInfo",
+          "parameters": [
+            "serviceKey",
+            "resultType",
+            "pageNo",
+            "numOfRows",
+            "basDt",
+            "beginBasDt",
+            "endBasDt",
+            "likeBasDt",
+            "cmpyCd",
+            "cmpyNm",
+            "likeCmpyNm",
+            "ptrn",
+            "mog",
+            "prdNm",
+            "likePrdNm",
+            "age",
+            "ofrInstNm"
+          ],
+          "required": []
+        }
+      ]
+    },
+    {
+      "id": "source.fsc.retirement-pension-basic",
+      "title": "금융위원회 퇴직연금기본정보",
+      "documentation": "https://www.data.go.kr/data/15094798/openapi.do",
+      "credential_env": "DATA_GO_KR_SERVICE_KEY",
+      "format": "xml",
+      "operations": [
+        {
+          "url": "https://apis.data.go.kr/1160100/service/GetRetirementPensionInfoService/getFundInfo",
+          "parameters": [
+            "serviceKey",
+            "resultType",
+            "pageNo",
+            "numOfRows",
+            "cmpyCd",
+            "cmpyNm",
+            "likeCmpyNm",
+            "fndNm",
+            "likeFndNm",
+            "fndCd",
+            "basDt",
+            "beginBasDt",
+            "endBasDt",
+            "likeBasDt",
+            "beginBasprc",
+            "endBasprc",
+            "ofrInstNm"
+          ],
+          "required": []
+        }
+      ]
+    },
+    {
+      "id": "source.fsc.variable-insurance-info",
+      "title": "금융위원회 변액보험기본정보",
+      "documentation": "https://www.data.go.kr/data/15094793/openapi.do",
+      "credential_env": "DATA_GO_KR_SERVICE_KEY",
+      "format": "xml",
+      "operations": [
+        {
+          "url": "https://apis.data.go.kr/1160100/service/GetVariableInsuranceInfoService/getFundInfo",
+          "parameters": [
+            "serviceKey",
+            "resultType",
+            "pageNo",
+            "numOfRows",
+            "cmpyCd",
+            "cmpyNm",
+            "likeCmpyNm",
+            "fndNm",
+            "likeFndNm",
+            "fndCd",
+            "basDt",
+            "beginBasDt",
+            "endBasDt",
+            "likeBasDt"
+          ],
+          "required": []
+        }
+      ]
+    },
+    {
+      "id": "source.hf.bogeumjari-openapi",
+      "title": "한국주택금융공사 u-보금자리론대출정보",
+      "documentation": "https://www.data.go.kr/data/15082039/openapi.do?recommendDataYn=Y",
+      "credential_env": "DATA_GO_KR_SERVICE_KEY",
+      "format": "xml",
+      "operations": [
+        {
+          "url": "https://apis.data.go.kr/B551408/u-loan-rate/uloan-info",
+          "parameters": [],
+          "required": []
+        }
+      ]
+    },
+    {
+      "id": "source.kdic.insured-products",
+      "title": "예금보험공사 예금자보호 금융상품",
+      "documentation": "https://www.data.go.kr/data/3037352/openapi.do?recommendDataYn=Y",
+      "credential_env": "DATA_GO_KR_SERVICE_KEY",
+      "format": "xml",
+      "operations": [
+        {
+          "url": "https://apis.data.go.kr/B190017/service/GetInsuredProductService202607/getProductList202607",
+          "parameters": [
+            "ServiceKey",
+            "pageNo",
+            "numOfRows",
+            "resultType",
+            "regnNm",
+            "fncIstNm",
+            "prdNm"
+          ],
+          "required": []
+        },
+        {
+          "url": "https://apis.data.go.kr/B190017/service/GetInsuredProductService202607/getCompanyList202607",
+          "parameters": [
+            "ServiceKey",
+            "pageNo",
+            "numOfRows",
+            "resultType",
+            "fncIstNm",
+            "regnNm"
+          ],
+          "required": []
+        }
+      ]
+    }
+  ]
+}

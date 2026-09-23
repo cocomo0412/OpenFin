@@ -37,7 +37,15 @@
   "access": {
     "method": "api",
     "parser_id": "api:source-fsc-fund-products-basic",
-    "requires_secret": true
+    "requires_secret": true,
+    "request_url": "https://apis.data.go.kr/1160100/service/GetFundProductInfoService/getStandardCodeInfo",
+    "request_query": {
+      "pageNo": 1,
+      "numOfRows": 1,
+      "resultType": "xml"
+    },
+    "credential_env": "DATA_GO_KR_SERVICE_KEY",
+    "credential_query_param": "serviceKey"
   },
   "refresh": {
     "sla_hours": 168,
@@ -180,7 +188,7 @@
       "value": "2026-07-03 확인"
     }
   ],
-  "record_checksum": "sha256:12bd6152412adadc257a4cee473452c453dcfd174b9768c470757129bb224835"
+  "record_checksum": "sha256:c93289d454cddc9c462b88d1dd291930b6fcdd8f5fdba47378a932b1fb03e69f"
 }
 ---
 

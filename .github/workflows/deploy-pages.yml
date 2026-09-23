@@ -19,5 +19,5 @@ jobs:
     steps:
       - name: Refuse legacy direct production deployment
         run: |
-          echo 'Legacy direct Pages deployment is disabled. Run the OpenFin Immutable Release workflow.' >&2
+          echo 'Legacy direct Pages deployment is disabled. Current Pages publication uses main /docs. Push reviewed website changes to main; do not run the disabled full-edition release.' >&2
           exit 1

@@ -1,8 +1,8 @@
 {
   "app_name": "OpenTax",
   "submission_status": "draft",
-  "mcp_endpoint": "https://openfin-mcp.y2kthr.workers.dev/mcp",
-  "health_endpoint": "https://openfin-mcp.y2kthr.workers.dev/health",
+  "mcp_endpoint": "https://openfin.cocomo0412.workers.dev/mcp",
+  "health_endpoint": "https://openfin.cocomo0412.workers.dev/health",
   "homepage_url": "https://cocomo0412.github.io/OpenFin/opentax/",
   "privacy_policy_url": "https://cocomo0412.github.io/OpenFin/opentax/privacy.html",
   "terms_url": "https://cocomo0412.github.io/OpenFin/opentax/terms.html",

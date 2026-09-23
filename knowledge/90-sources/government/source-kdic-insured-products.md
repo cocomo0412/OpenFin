@@ -38,11 +38,11 @@
     "method": "api",
     "parser_id": "api:source-kdic-insured-products",
     "requires_secret": true,
-    "request_url": "https://apis.data.go.kr/B190017/service/GetInsuredProductService202008/getProductList202008",
+    "request_url": "https://apis.data.go.kr/B190017/service/GetInsuredProductService202607/getProductList202607",
     "request_query": {
       "pageNo": 1,
       "numOfRows": 1,
-      "_type": "json"
+      "resultType": "xml"
     },
     "credential_env": "DATA_GO_KR_SERVICE_KEY",
     "credential_query_param": "serviceKey"
@@ -52,9 +52,9 @@
     "change_detection": "http-checksum"
   },
   "usage_terms": {
-    "license_or_terms": "이용조건 미확인 - 원문 이용약관 검토 필요",
-    "terms_status": "review_required",
-    "raw_snapshot_allowed": false
+    "license_or_terms": "공공데이터포털 이용허락범위 제한 없음 (2026-09-23 확인)",
+    "terms_status": "reviewed",
+    "raw_snapshot_allowed": true
   },
   "recommendation_eligible": false,
   "status": "active",
@@ -188,7 +188,7 @@
       "value": "2026-07-03 확인"
     }
   ],
-  "record_checksum": "sha256:b1671ba75eb0c0d24e3bc97c0bedcd6f6476006d46c5d9dfe760250ce09b6445"
+  "record_checksum": "sha256:440d45ee3cc458306d34d2b286bfe53eb3ddc60533ac15a355dcdca868e2370c"
 }
 ---
 

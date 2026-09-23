@@ -16561,7 +16561,7 @@
     }
   ],
   "live_summary": {
-    "mcp_url": "https://finance-mcp.y2kthr.workers.dev/mcp",
+    "mcp_url": "https://finance-mcp.cocomo0412.workers.dev/mcp",
     "live_status": "failed",
     "checked_at": "2026-08-30T21:04:30.449Z",
     "runtime_version": "openfin-mcp-dev",
@@ -16575,7 +16575,7 @@
     "failed_count": 4,
     "failures": [],
     "last_failed_at": null,
-    "endpoint": "https://openfin-mcp.y2kthr.workers.dev/mcp",
+    "endpoint": "https://openfin-mcp.historical-source.workers.dev/mcp",
     "manifest_checksum": "233a7372a7ce6b622913324decd4c3e6f1d43992bf163637a44358727811016c",
     "generation_id": "7061c38252c01e4ebb38da932722f90fd3791fdbe77a6a3dce2cb3f1b52deabf"
   },

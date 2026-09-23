@@ -8,7 +8,7 @@ permissions:
 
 jobs:
   live-regression:
-    if: ${{ github.ref == 'refs/heads/main' }}
+    if: ${{ false }} # Full edition disabled for free-only deployment
     runs-on: ubuntu-latest
     timeout-minutes: 15
     defaults:
@@ -29,7 +29,7 @@ jobs:
         run: |
           node scripts/live-regression.mjs > ../live-regression-report.json 2> ../live-regression-error.log
         env:
-          MCP_URL: https://openfin-mcp.y2kthr.workers.dev/mcp
+          MCP_URL: https://openfin.cocomo0412.workers.dev/mcp
           # Capture app-level diagnostics on the first request as well as
           # retries; edge-terminated 1102 responses remain outside Worker code.
           LIVE_DIAGNOSTICS: "1"

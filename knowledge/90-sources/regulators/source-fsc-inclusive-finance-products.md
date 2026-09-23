@@ -40,7 +40,15 @@
   "access": {
     "method": "api",
     "parser_id": "api:source-fsc-inclusive-finance-products",
-    "requires_secret": true
+    "requires_secret": true,
+    "request_url": "https://apis.data.go.kr/1160100/service/GetSmallLoanFinanceInstituteInfoService/getOrdinaryFinanceInfo",
+    "request_query": {
+      "pageNo": 1,
+      "numOfRows": 1,
+      "resultType": "xml"
+    },
+    "credential_env": "DATA_GO_KR_SERVICE_KEY",
+    "credential_query_param": "serviceKey"
   },
   "refresh": {
     "sla_hours": 168,
@@ -186,7 +194,7 @@
       "value": "2026-07-03 확인"
     }
   ],
-  "record_checksum": "sha256:3dc24e4b1eb57706cd7783bdf24f548d82c871011bb24358019b3584e12328f6"
+  "record_checksum": "sha256:84ecd84667a8a5e3d63c3598ad946ee601acabcc7034b39a8754107a4febb97e"
 }
 ---
 

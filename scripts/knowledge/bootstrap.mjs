@@ -11,13 +11,13 @@ fs.mkdirSync(BUILD_DIR, {recursive:true});
 const exports = readExports();
 const ontologyManifestPath = path.join(DOCS, 'finance-ontology-manifest.json');
 const ontologyManifest = fs.existsSync(ontologyManifestPath)
-  ? JSON.parse(fs.readFileSync(ontologyManifestPath, 'utf8')) : {};
+  ? JSON.parse(fs.readFileSync(ontologyManifestPath, 'utf8').replace(/\r\n/g, '\n')) : {};
 const apiRequiredIds = new Set((ontologyManifest.api_required_sources || [])
   .map(entry => entry?.source_id).filter(Boolean));
 const searchProjections = new Map();
 const searchShards = new Map();
 for (const file of fs.readdirSync(DOCS).filter(f => /^finance-search-index-2026-.+\.json$/.test(f))) {
-  const data = JSON.parse(fs.readFileSync(path.join(DOCS, file), 'utf8'));
+  const data = JSON.parse(fs.readFileSync(path.join(DOCS, file), 'utf8').replace(/\r\n/g, '\n'));
   const {items: _searchItems, ...searchRoot} = data;
   searchShards.set(file, searchRoot);
   for (const [position, projection] of (data.items || []).entries()) searchProjections.set(projection.id, {shard: data.shard_id, position, projection});
@@ -197,7 +197,7 @@ fs.writeFileSync(path.join(BUILD_DIR,'_index.md'), `# OpenFin canonical knowledg
 writeJson(path.join(BUILD_DIR,'export-manifests.json'), exportManifests);
 writeJson(path.join(BUILD_DIR,'search-shards.json'), Object.fromEntries([...searchShards].map(([file,data]) => [file, data])));
 if (fs.existsSync(path.join(DOCS,'finance-search-index-2026.json'))) {
-  const {shards:_shards, items:_items, compact_item_count:_compactItemCount, detail_checksum:_detailChecksum, ...searchManifestRoot} = JSON.parse(fs.readFileSync(path.join(DOCS,'finance-search-index-2026.json'),'utf8'));
+  const {shards:_shards, items:_items, compact_item_count:_compactItemCount, detail_checksum:_detailChecksum, ...searchManifestRoot} = JSON.parse(fs.readFileSync(path.join(DOCS,'finance-search-index-2026.json'),'utf8').replace(/\r\n/g, '\n'));
   writeJson(path.join(BUILD_DIR,'search-manifest.json'), searchManifestRoot);
 }
 const baselineDir = path.join('evidence','source-receipts','2026-07'); fs.mkdirSync(baselineDir,{recursive:true});

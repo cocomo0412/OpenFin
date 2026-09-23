@@ -27,5 +27,5 @@ export function runtimeMonitoring(report, evidence = {}) {
 if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href) {
   const arg = name => { const i = process.argv.indexOf(name); if (i < 0 || !process.argv[i + 1]) throw new Error(`${name} is required`); return process.argv[i + 1]; };
   const reportPath = arg('--report');
-  writeJson(arg('--output'), runtimeMonitoring(JSON.parse(fs.readFileSync(reportPath, 'utf8')), { report_path: path.basename(reportPath), workflow_run_id: process.env.GITHUB_RUN_ID ?? null }));
+  writeJson(arg('--output'), runtimeMonitoring(JSON.parse(fs.readFileSync(reportPath, 'utf8').replace(/\r\n/g, '\n')), { report_path: path.basename(reportPath), workflow_run_id: process.env.GITHUB_RUN_ID ?? null }));
 }

@@ -1,3 +1,4 @@
+import { fileURLToPath } from 'node:url';
 import fs from 'node:fs';
 import path from 'node:path';
 import { ROOT, KNOWLEDGE, DOCS, json, sha256 } from './common.mjs';
@@ -17,12 +18,12 @@ export const readCanonicalRecords = (root = KNOWLEDGE) => {
       const file = path.join(dir, entry.name);
       if (entry.isDirectory()) walk(file);
       else if (entry.name.endsWith('.jsonl')) {
-        for (const line of fs.readFileSync(file, 'utf8').split('\n')) {
+        for (const line of fs.readFileSync(file, 'utf8').replace(/\r\n/g, '\n').split('\n')) {
           if (line.trim()) records.push(JSON.parse(line));
         }
       }
       else if (entry.name.endsWith('.md')) {
-        const text = fs.readFileSync(file, 'utf8');
+        const text = fs.readFileSync(file, 'utf8').replace(/\r\n/g, '\n');
         const end = text.startsWith('---\n') ? text.indexOf('\n---\n', 4) : -1;
         if (end >= 0) { const value = JSON.parse(text.slice(4, end)); if (value?.id && !value.id.startsWith('folder.')) records.push(value); }
       }
@@ -117,13 +118,13 @@ const strictOfferVerified = (item, domain, fields, evaluationAsOf) => strictOffe
         && !assertion.conflict
         && (!Number.isFinite(validTo) || !Number.isFinite(evaluationTime) || validTo >= evaluationTime);
     })));
-const shaFile = file => fs.existsSync(file) ? sha256(fs.readFileSync(file, 'utf8')).slice(7) : null;
+const shaFile = file => fs.existsSync(file) ? sha256(fs.readFileSync(file, 'utf8').replace(/\r\n/g, '\n')).slice(7) : null;
 const promotionReceipts = () => {
   const receipts = new Map();
   const directory = path.join(ROOT, 'evidence/candidate-promotions');
   if (!fs.existsSync(directory)) return receipts;
   for (const file of fs.readdirSync(directory).filter(name => name.endsWith('.jsonl'))) {
-    for (const line of fs.readFileSync(path.join(directory, file), 'utf8').split('\n').filter(Boolean)) {
+    for (const line of fs.readFileSync(path.join(directory, file), 'utf8').replace(/\r\n/g, '\n').split('\n').filter(Boolean)) {
       const value = JSON.parse(line);
       if (value.option_id) receipts.set(value.option_id, value);
     }
@@ -374,7 +375,7 @@ const receiptProjection = value => value ? Object.fromEntries(['approval_id', 'd
   };
 };
 
-if (process.argv[1] && path.resolve(process.argv[1]) === path.resolve(new URL(import.meta.url).pathname)) {
+if (process.argv[1] && path.resolve(process.argv[1]) === path.resolve(fileURLToPath(import.meta.url))) {
   const manifestPath = path.join(DOCS, 'finance-ontology-manifest.json');
   const manifest = fs.existsSync(manifestPath) ? json(manifestPath) : {};
   const domains = manifest.domain_readiness || {};

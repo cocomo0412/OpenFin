@@ -1,8 +1,8 @@
 {
-  "status": "current",
+  "status": "stale",
   "mode": "live",
   "checked_at": "2026-07-30T09:50:42.812Z",
-  "endpoint": "https://openfin-mcp.y2kthr.workers.dev/mcp",
+  "endpoint": "https://openfin-mcp.historical-source.workers.dev/mcp",
   "runtime_version": "openfin-mcp-2026.07.28.2",
   "deployment_commit": "9273ceab0d0496b86cbb239d29edb0aaeb75c9c3",
   "generation_id": "aa349ea9e32950931a7b517f53f9bfe475749fc9908af476820548176f7e1154",
@@ -750,5 +750,6 @@
       "semantic_hash": "0a24c23cf65508c0871737a2170c6d46d9f2937303831cd45faefc6d40c1c871",
       "status": "passed"
     }
-  ]
+  ],
+  "migration_notice": "Historical upstream evidence; identity redacted. Not evidence for current deployment."
 }

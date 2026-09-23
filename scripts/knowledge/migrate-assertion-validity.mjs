@@ -12,7 +12,7 @@ const walk = directory => {
   }
 };
 const migrate = file => {
-  const records = fs.readFileSync(file, 'utf8').split('\n');
+  const records = fs.readFileSync(file, 'utf8').replace(/\r\n/g, '\n').split('\n');
   let changed = false;
   const output = records.map(line => {
     if (!line.trim()) return line;

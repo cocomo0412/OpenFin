@@ -1,13 +1,14 @@
+import { fileURLToPath } from 'node:url';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 
-const root = new URL('../..', import.meta.url).pathname;
+const root = fileURLToPath(new URL('../../', import.meta.url));
 const file = path.join(root, 'evidence/vertical-slice/busanbank-listing-candidate-collection-2026-08-30.json');
 
 test('Busan Bank official-document candidates remain unapproved', () => {
-  const evidence = JSON.parse(fs.readFileSync(file, 'utf8'));
+  const evidence = JSON.parse(fs.readFileSync(file, 'utf8').replace(/\r\n/g, '\n'));
   assert.equal(evidence.verification_status, 'official_documents_collected_unreviewed');
   assert.equal(evidence.comparison_approved, false);
   assert.equal(evidence.recommendation_approved, false);

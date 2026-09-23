@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       candidate_url:
-        description: Version preview URL only (for example https://abc-openfin-mcp.y2kthr.workers.dev)
+        description: Version preview URL only (for example https://abc-openfin.cocomo0412.workers.dev)
         required: true
         type: string
       version_id:
@@ -21,7 +21,7 @@ permissions:
 
 jobs:
   diagnose:
-    if: ${{ github.ref == 'refs/heads/main' }}
+    if: ${{ false }} # Full edition disabled for free-only deployment
     runs-on: ubuntu-latest
     timeout-minutes: 12
     env:
@@ -42,7 +42,7 @@ jobs:
           url = urllib.parse.urlparse(os.environ['CANDIDATE_URL'])
           if url.username or url.password or url.port or url.path not in ('', '/') or url.query or url.fragment:
               raise SystemExit('candidate_url must be a preview origin without credentials, port, path, or query')
-          if url.scheme != 'https' or not re.fullmatch(r'[a-z0-9-]+-openfin-mcp\.y2kthr\.workers\.dev', url.hostname or ''):
+          if url.scheme != 'https' or not re.fullmatch(r'[a-z0-9-]+-openfin\.cocomo0412\.workers\.dev', url.hostname or ''):
               raise SystemExit('candidate_url must be an HTTPS version preview host')
           if not re.fullmatch(r'[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-5][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}', os.environ['VERSION_ID']):
               raise SystemExit('version_id must be a UUID')
@@ -87,7 +87,7 @@ jobs:
           sleep 8
           probe_code=0
           timeout --signal=TERM 300s node --input-type=module <<'JS' > "$REPORT_DIR/probe.json" || probe_code=$?
-          const origin = 'https://openfin-mcp.y2kthr.workers.dev';
+          const origin = 'https://openfin.cocomo0412.workers.dev';
           const override = { 'Cloudflare-Workers-Version-Overrides': `openfin-mcp="${process.env.VERSION_ID}"` };
           const originalFetch = globalThis.fetch;
           const health = async (url, headers = {}) => {

@@ -1,15 +1,16 @@
+import { fileURLToPath } from 'node:url';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 
-const root = new URL('../..', import.meta.url).pathname;
+const root = fileURLToPath(new URL('../../', import.meta.url));
 
 test('vertical slice audit keeps deposit and saving verification fail-closed', () => {
   const output = path.join(root, 'evidence/vertical-slice/vertical-slice-report.json');
   execFileSync('node', ['scripts/knowledge/vertical-slice-report.mjs'], { cwd: root, encoding: 'utf8', maxBuffer: 10_000_000 });
-  const report = JSON.parse(fs.readFileSync(output, 'utf8'));
+  const report = JSON.parse(fs.readFileSync(output, 'utf8').replace(/\r\n/g, '\n'));
   for (const domain of ['deposit', 'saving']) {
     const state = report.domains[domain];
     assert.ok(state.structural_candidate_count >= state.value_complete_candidate_count);

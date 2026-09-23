@@ -5,7 +5,7 @@ import { ROOT, KNOWLEDGE, json } from './common.mjs';
 const contract = json(path.join(ROOT, 'contracts/recommendation-facts.json'));
 const facts = new Set(Object.keys(contract.facts || {}));
 const aliases = contract.aliases || {};
-const source = fs.readFileSync(path.join(ROOT, 'mcp/src/recommendation/context.ts'), 'utf8');
+const source = fs.readFileSync(path.join(ROOT, 'mcp/src/recommendation/context.ts'), 'utf8').replace(/\r\n/g, '\n');
 const failures = [];
 const executable = new Set();
 const visit = (value, location) => {
@@ -24,7 +24,7 @@ const walk = (directory) => {
     const file = path.join(directory, entry.name);
     if (entry.isDirectory()) walk(file);
     else if (entry.name.endsWith('.jsonl') && file.includes(`${path.sep}_decision${path.sep}`)) {
-      for (const [index, line] of fs.readFileSync(file, 'utf8').split('\n').entries()) {
+      for (const [index, line] of fs.readFileSync(file, 'utf8').replace(/\r\n/g, '\n').split('\n').entries()) {
         if (line.trim()) visit(JSON.parse(line), `${path.relative(KNOWLEDGE, file)}:${index + 1}`);
       }
     }

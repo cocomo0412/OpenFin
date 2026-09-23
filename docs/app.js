@@ -105,6 +105,7 @@ async function init() {
 
   try {
     state.manifest = await fetchJson(DATA_BASE + MANIFEST_FILE);
+    try { state.apiLinks = (await fetchJson(DATA_BASE + 'api-record-links.json')).records; } catch { state.apiLinks = {}; }
     await Promise.all([loadSourceRegistry(), loadSourceStatus()]);
     updateManifestUI();
     renderOperationalSummary();
@@ -276,7 +277,8 @@ function renderExportCards() {
             <span>items</span>
           </div>
           <p>${escapeHtml(entry.description || meta.summary)}</p>
-          <p class="export-metadata">${formatNumber(entry.product_count || 0)} product nodes · ${escapeHtml(collectionMeta.label)} ${escapeHtml(collectionMeta.value)} · ${escapeHtml(filename)}</p>
+          <p class="export-metadata">${formatNumber(entry.product_count || 0)} product nodes · 기존 ${escapeHtml(collectionMeta.label)} ${escapeHtml(collectionMeta.value)} · ${escapeHtml(filename)}</p>
+          ${renderApiCollectionLink(entry.domain)}
           <a class="export-open" href="explorer.html?domain=${escapeAttribute(entry.domain)}"><svg class="export-open-icon" viewBox="0 0 20 20" aria-hidden="true" focusable="false"><circle cx="8.5" cy="8.5" r="5.5"/><path d="m12.5 12.5 4 4"/></svg><span>탐색기에서 열기</span></a>
         </article>
       `;
@@ -733,6 +735,7 @@ function renderDetail(item) {
     <span class="domain-chip">${escapeHtml(meta.label)}</span>
     <h3>${escapeHtml(item.title || item.id)}</h3>
     <p class="detail-description">${escapeHtml(item.description || "설명이 없습니다.")}</p>
+    ${renderCurrentApi(item)}
     ${renderEvidenceAvailability(item)}
     ${renderPopulationNotice(item)}
     ${kv.length ? renderKvGrid(kv) : ""}
@@ -744,6 +747,22 @@ function renderDetail(item) {
     ${renderNeighbors(item)}
     ${renderSources(item)}
   `;
+}
+
+function renderApiCollectionLink(domain) {
+  const source = {'deposit-products':['source.fss.finlife.api','deposit'], 'saving-products':['source.fss.finlife.api','saving'],
+    'loan-products':['source.data.go.kr.kinfa-loan-products',''], 'insurance-products':['source.fsc.medical-reimbursement-insurance',''],
+    'finance-reference':['source.bok.ecos','']}[domain];
+  if (!source || !state.manifest.api_collection) return '<p class="export-metadata">이번 API 갱신 대상 외 · 기존 자료 유지</p>';
+  return `<p class="export-metadata"><a href="api-data.html?source=${encodeURIComponent(source[0])}&operation=${encodeURIComponent(source[1])}">추가 API 수집 ${escapeHtml(state.manifest.api_collection.basis_date)} · 최신 자료 보기</a></p>`;
+}
+
+function renderCurrentApi(item) {
+  const current = state.apiLinks?.[item.id];
+  if (!current) return '';
+  const value = current.extracted;
+  const url = `./api-data.html?source=source.fss.finlife.api&operation=${encodeURIComponent(current.domain)}&q=${encodeURIComponent(current.source_record_id)}`;
+  return `<section class="detail-section"><h4>최신 공식 API 공시 · ${escapeHtml(current.collected_at.slice(0, 10))} 수집</h4><p>금융회사·상품 식별자로 연결한 현재 수집본입니다. 아래 기존 온톨로지 조건과 검토일이 다를 수 있으며 추천 검증을 의미하지 않습니다.</p>${renderKvGrid([['상품명',value.product_name],['공시월',value.disclosure_month],['가입대상',value.join_member],['가입방법',value.join_way],['우대조건',value.preferential_conditions_text]])}<a href="${escapeAttribute(url)}">최신 금리·기간별 옵션 전체 보기 →</a></section>`;
 }
 
 // A category can be a real classification with no collected records yet. Say so
@@ -1063,10 +1082,10 @@ function renderOperationalSummary() {
     ${evidenceWarnings.length ? `<div class="evidence-warning operational-evidence-warning" role="status"><strong>출처 정보 확인 불가</strong><span>${evidenceWarnings.map(escapeHtml).join(" ")}</span></div>` : ""}
     ${liveWarning}
     <article>
-      <h3>API 필요</h3>
+      <h3>공식 API 출처</h3>
       <div class="operational-source-group">
         <ul class="operational-source-list">
-          ${apiRequired.map((source) => sourceRequirementHtml(source, "api")).join("") || sourceEmptyHtml("API가 필요한 기관이 없습니다.")}
+          ${apiRequired.map((source, index) => sourceRequirementHtml(source, "api", index)).join("") || sourceEmptyHtml("API가 필요한 기관이 없습니다.")}
         </ul>
       </div>
       <div class="operational-source-group">
@@ -1087,15 +1106,20 @@ function renderOperationalSummary() {
   `;
 }
 
-function sourceRequirementHtml(source, kind) {
+function sourceRequirementHtml(source, kind, index = 0) {
   if (kind === "api") {
     const metadata = sourceMetadataFor(source.source_id) || {};
     const institution = metadata.publisher || metadata.title || "기관 미상";
+    const apiTitle = source.source_id === "source.bok.ecos"
+      ? "기준금리·시장금리·환율 등 경제통계 정보"
+      : String(metadata.title || source.needed_for || "API 정보")
+          .replace(institution, "").replace(/^[\s_:·-]+/, "").trim();
+    const number = String(index + 1).padStart(2, "0");
     const siteUrl = [metadata.urls?.api, metadata.urls?.canonical, metadata.canonical_url, metadata.url]
       .find(isValidSourceUrl) || "";
     return `
       <li>
-        <strong>${escapeHtml(institution)}</strong>
+        <strong>${number}. ${escapeHtml(institution)} : ${escapeHtml(apiTitle)}</strong>
         ${siteUrl ? `<a href="${escapeAttribute(siteUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(siteUrl)}</a>` : ""}
       </li>
     `;

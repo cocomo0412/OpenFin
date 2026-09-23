@@ -24,7 +24,7 @@
 | Deploy command | `npx wrangler deploy --config wrangler.free.jsonc` |
 
 무료판 설정에는 유료 CPU 상한, 유료 바인딩, AI API, 저장소 사용이 없습니다.
-`wrangler.toml`은 원본 유료판 설정이므로 무료 배포에서 사용하지 마세요.
+`wrangler.toml`도 동일한 무료판 진입점입니다. 기본 명령과 명시적 무료 설정 모두 openfin을 사용합니다. 전체판 workflow는 비활성화되어 있습니다.
 데이터는 배포 시 포함되어 요청 중 외부 JSON 다운로드가 없습니다.
 Cloudflare 무료 일일 요청량과 CPU 제한은 그대로 적용되며 실제 배포 후 확인이 필요합니다.
 

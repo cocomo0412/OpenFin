@@ -34,13 +34,13 @@ function readKnowledge(dir) {
     const file = path.join(dir, entry.name);
     if (entry.isDirectory()) readKnowledge(file);
     else if (entry.name.endsWith('.jsonl')) {
-      for (const [index, line] of fs.readFileSync(file, 'utf8').split('\n').entries()) {
+      for (const [index, line] of fs.readFileSync(file, 'utf8').replace(/\r\n/g, '\n').split('\n').entries()) {
         if (!line.trim()) continue;
         try { records.push({ value: JSON.parse(line), file, line: index + 1 }); }
         catch { fail(`invalid JSONL: ${file}:${index + 1}`); }
       }
     } else if (entry.name.endsWith('.md')) {
-      const text = fs.readFileSync(file, 'utf8');
+      const text = fs.readFileSync(file, 'utf8').replace(/\r\n/g, '\n');
       if (!text.startsWith('---\n')) continue;
       const end = text.indexOf('\n---\n', 4);
       if (end < 0) { fail(`invalid frontmatter: ${file}`); continue; }
@@ -150,7 +150,7 @@ for (const { value: item, file } of records) {
   if (!['category','domain'].includes(item.type)) continue;
   if (item.id.startsWith('folder.')) { fail(`parallel folder taxonomy reintroduced: ${item.id}`); continue; }
   if (!item.canonical_folder) { fail(`classification node without canonical_folder: ${item.id}`); continue; }
-  const actual = path.relative(KNOWLEDGE, path.dirname(file));
+  const actual = path.relative(KNOWLEDGE, path.dirname(file)).split(path.sep).join('/');
   if (actual !== item.canonical_folder) fail(`classification node misplaced: ${item.id} declares ${item.canonical_folder} but lives in ${actual}`);
   // A class with no instances must say so. Silently empty categories make the
   // ontology look broader than the data it can actually answer from.
@@ -237,7 +237,7 @@ for (const entry of manifest.exports || []) {
     if (shardEntry.path !== `opentax/${shardFile}`) { fail(`invalid ontology shard path: ${shardEntry.path}`); continue; }
     const shardPath = path.join(DOCS, shardFile);
     if (!fs.existsSync(shardPath)) { fail(`missing ontology shard: ${shardEntry.path}`); continue; }
-    const content = fs.readFileSync(shardPath, 'utf8');
+    const content = fs.readFileSync(shardPath, 'utf8').replace(/\r\n/g, '\n');
     if (Buffer.byteLength(content) >= 25 * 1024 * 1024) fail(`ontology shard exceeds Pages limit: ${shardEntry.path}`);
     const shard = JSON.parse(content);
     if (shardEntry.content_checksum !== sha256(content).slice(7)) fail(`ontology shard content checksum mismatch: ${shardEntry.path}`);
@@ -278,7 +278,7 @@ for (const entry of manifest.quality_exports || []) {
 }
 if (!Array.isArray(search.items) || search.items.length !== search.item_count || search.compact_item_count !== search.item_count) fail('compact search root missing or incomplete');
 if (search.export_checksum !== sha256(JSON.stringify(search.items)).slice(7)) fail('compact search root checksum mismatch');
-if (search.content_checksum && search.content_checksum !== sha256(fs.readFileSync(path.join(DOCS, 'finance-search-index-2026.json'), 'utf8')).slice(7)) fail('compact search root content checksum mismatch');
+if (search.content_checksum && search.content_checksum !== sha256(fs.readFileSync(path.join(DOCS, 'finance-search-index-2026.json'), 'utf8').replace(/\r\n/g, '\n')).slice(7)) fail('compact search root content checksum mismatch');
 if ((search.shards || []).reduce((sum, shard) => sum + (shard.item_count || 0), 0) !== search.item_count) fail('search shard counts do not sum to the search root');
 for (const item of search.items || []) {
   if (!Array.isArray(item.source_ids)) fail(`compact search source ids missing: ${item.id}`);
@@ -287,7 +287,7 @@ for (const item of search.items || []) {
 }
 for (const shard of search.shards || []) {
   const shardPath = path.join(DOCS, path.basename(shard.path));
-  const shardText = fs.readFileSync(shardPath, 'utf8');
+  const shardText = fs.readFileSync(shardPath, 'utf8').replace(/\r\n/g, '\n');
   if (shard.content_checksum && shard.content_checksum !== sha256(shardText).slice(7)) fail(`search shard content checksum mismatch: ${shard.shard_id}`);
   const payload = JSON.parse(shardText);
   for (const item of payload.items || []) {
@@ -314,11 +314,11 @@ if (!hotSearch || !Array.isArray(hotSearch.shards) || hotSearch.shards.reduce((s
 } else {
   const hotRootPath = path.join(DOCS, path.basename(hotSearch.path || ''));
   if (!fs.existsSync(hotRootPath)) fail('hot search root missing');
-  else if (hotSearch.content_checksum && hotSearch.content_checksum !== sha256(fs.readFileSync(hotRootPath, 'utf8')).slice(7)) fail('hot search root content checksum mismatch');
+  else if (hotSearch.content_checksum && hotSearch.content_checksum !== sha256(fs.readFileSync(hotRootPath, 'utf8').replace(/\r\n/g, '\n')).slice(7)) fail('hot search root content checksum mismatch');
   for (const shard of hotSearch.shards) {
     const shardPath = path.join(DOCS, path.basename(shard.path));
     if (!fs.existsSync(shardPath)) { fail(`hot search shard missing: ${shard.shard_id}`); continue; }
-    const shardText = fs.readFileSync(shardPath, 'utf8');
+    const shardText = fs.readFileSync(shardPath, 'utf8').replace(/\r\n/g, '\n');
     if (shard.content_checksum && shard.content_checksum !== sha256(shardText).slice(7)) fail(`hot search shard content checksum mismatch: ${shard.shard_id}`);
     const payload = JSON.parse(shardText);
     const items = decodeHotSearchItems(payload);
@@ -337,12 +337,12 @@ if (exactFetch) {
   } else {
     const exactRootPath = path.join(DOCS, path.basename(exactFetch.path || ''));
     if (!fs.existsSync(exactRootPath)) fail('exact fetch root missing');
-    else if (exactFetch.content_checksum && exactFetch.content_checksum !== sha256(fs.readFileSync(exactRootPath, 'utf8')).slice(7)) fail('exact fetch root content checksum mismatch');
+    else if (exactFetch.content_checksum && exactFetch.content_checksum !== sha256(fs.readFileSync(exactRootPath, 'utf8').replace(/\r\n/g, '\n')).slice(7)) fail('exact fetch root content checksum mismatch');
     const exactIds = new Set();
     for (const shard of exactFetch.shards) {
       const shardPath = path.join(DOCS, path.basename(shard.path));
       if (!fs.existsSync(shardPath)) { fail(`exact fetch shard missing: ${shard.shard_id}`); continue; }
-      const shardText = fs.readFileSync(shardPath, 'utf8');
+      const shardText = fs.readFileSync(shardPath, 'utf8').replace(/\r\n/g, '\n');
       if (shard.content_checksum && shard.content_checksum !== sha256(shardText).slice(7)) fail(`exact fetch shard content checksum mismatch: ${shard.shard_id}`);
       const payload = JSON.parse(shardText);
       const items = decodeHotSearchItems(payload);

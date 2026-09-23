@@ -42,7 +42,7 @@
   },
   "validation_status": "current",
   "manifest_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-ontology-manifest.json",
-  "worker_health_url": "https://openfin-mcp.y2kthr.workers.dev/health",
+  "worker_health_url": "https://openfin.cocomo0412.workers.dev/health",
   "live_evidence": {
     "id": "openfin-live-regression-production-current",
     "domain": "quality",
