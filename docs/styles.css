@@ -692,12 +692,16 @@ button {
 }
 
 .export-card {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 14px;
   min-height: 260px;
   padding: 22px;
   transition: transform 0.18s ease, border-color 0.18s ease;
 }
+
+.export-card > .domain-chip { align-self: flex-start; }
+.export-card > .export-open { flex-shrink: 0; }
 
 .export-card button {
   justify-self: start;
