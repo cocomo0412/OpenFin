@@ -3,9 +3,15 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {ROOT,KNOWLEDGE,DOCS,json,sha256,writeJson,writeText} from './common.mjs';
 import {normalizePensionGroup} from './disclosure-normalizers.mjs';
+import {localTaxReviews} from './local-tax-reviews.mjs';
+import {publicReceipt} from './disclosure-receipts.mjs';
+import {filingTaxReviews} from './filing-tax-reviews.mjs';
+import {deadlineReviews} from './deadline-reviews.mjs';
 const sourceDir=path.join(ROOT,'.api-candidates/disclosures');
 const cards=json(path.join(sourceDir,'cards.json'));
 const insurance=json(path.join(sourceDir,'insurance.json'));
+const policyFile=path.join(sourceDir,'insurance-policy-documents.json');
+const policyDocuments=fs.existsSync(policyFile)?json(policyFile).results.filter(r=>r.receipt):[];
 const pension=json(path.join(sourceDir,'pension.json'));
 if(insurance.failures.length || pension.failures.length) throw new Error('Incomplete official disclosure collection');
 const pensionProducts=pension.groups.flatMap(normalizePensionGroup);
@@ -17,8 +23,9 @@ function walk(dir){for(const e of fs.readdirSync(dir,{withFileTypes:true})){
 }}
 walk(KNOWLEDGE);
 const changed=new Set(),added=[],report={generated_at:new Date().toISOString(),domains:{}};
-function base(old,id,title,type,parent,domain,shard){return {id:old?.id||id,title,type,description:'',parents:old?.parents||[parent],children:old?.children||[],related:old?.related||[],terms:old?.terms||[],tags:old?.tags||[],publication_memberships:old?.publication_memberships||[`korea-${domain}-ontology-2026.json`],search_shard:old?.search_shard||shard,status:'reference_only',sales_status:'unknown',recommendation_status:'reference_only',recommendation_scope:'listing_only',comparison_engine_gate_passed:false,domain_gate_passed:false};}
+function base(old,id,title,type,parent,domain,shard){return {...Object.fromEntries(['deadlines','requires','folder','basis_year'].filter(k=>old?.[k]!==undefined).map(k=>[k,old[k]])),id:old?.id||id,title,type,description:'',parents:old?.parents||[parent],children:old?.children||[],related:old?.related||[],terms:old?.terms||[],tags:old?.tags||[],publication_memberships:old?.publication_memberships||[`korea-${domain}-ontology-2026.json`],search_shard:old?.search_shard||shard,status:'reference_only',sales_status:'unknown',recommendation_status:'reference_only',recommendation_scope:'listing_only',comparison_engine_gate_passed:false,domain_gate_passed:false};}
 function finish(item,source,receipt,payload){
+ receipt=publicReceipt(receipt);
  const at=receipt.collected_at;
  Object.assign(item,{sources:[source],source_urls:[receipt.url,...(payload.provider_disclosure_urls||[])],collected_at:at,source_collected_at:at,last_source_checked_at:at,last_reviewed_at:at,reviewed_at:at,refresh_generation:at,review_scope:'공식 공시의 식별자·본문·필드 연결 확인',source_listing_status:'listed',source_freshness_status:'current',freshness_status:'current',verification_status:'listing_only',sales_verification_status:'listed_unverified'});
  const key=sha256(item.id).slice(7,31),relative=`disclosures/${key}.json`;
@@ -37,7 +44,8 @@ for(const row of cards.results.filter(r=>r.text)){
  const source=(old.sources||[]).find(s=>row.receipt.url.includes('kbcard')?s.includes('kbcard'):row.receipt.url.includes('bccard')?s.includes('bccard'):row.receipt.url.includes('samsungcard')?s.includes('samsungcard'):s.includes('carddamoa'))||old.sources[0];
  const item=base(old,old.id,row.title,'card-product',null,'card-products','card-products');
  Object.assign(item,{provider:old.provider,provider_code:old.provider_code,product_code:old.product_code,product_kind:old.product_kind,source_record_id:old.source_record_id,description:`${row.title}의 공식 상세 안내입니다. 혜택·이용조건·한도·유의사항은 수집된 상세 원문에서 확인할 수 있습니다.`,criteria:[criterion('공식 상품 상세 안내',row.text,source)]});
- finish(item,source,row.receipt,{text:row.text});put(old,item);cardUpdated++;
+ if(row.receipt.product_code)item.product_code=row.receipt.product_code;
+ finish(item,source,row.receipt,{text:row.text,scope:row.scope});put(old,item);cardUpdated++;
 }
 report.domains.cards={updated:cardUpdated,unresolved:cards.results.filter(r=>r.error).map(({id,error})=>({id,error}))};
 const oldInsurance=new Map([...byId.values()].filter(r=>r.type==='insurance-product').map(r=>[r.source_record_id,r]));
@@ -48,9 +56,12 @@ for(const group of insurance.groups)for(const row of group.products){
  if(!template)throw new Error('Insurance group template missing');
  const item=base(old,`finance.insurance.klia.current.${sha256(record).slice(7,27)}`,`${row.provider} ${row.title}`,'insurance-product',template.parents[0],'insurance-products','insurance-products');
  Object.assign(item,{provider:row.provider,product_code:row.code,product_kind:template.product_kind,source_record_id:record,description:row.coverage.join(' / '),criteria:row.coverage.map(t=>criterion('공시 보장내용·지급사유',t,source)),raw:{disclosure_cells:row.cells,document_urls:row.documents}});
- finish(item,source,row.receipt,{...row,receipt:undefined});put(old,item);old?insuranceUpdated++:insuranceAdded++;
+ const policies=policyDocuments.filter(document=>(row.provider_disclosure_urls||[]).includes(document.index_url));
+ if(policies.length)item.raw.policy_documents=policies;
+ finish(item,source,row.receipt,{...row,policy_documents:policies,receipt:undefined});put(old,item);old?insuranceUpdated++:insuranceAdded++;
 }
-report.domains.insurance={updated:insuranceUpdated,added:insuranceAdded,collected:insuranceUpdated+insuranceAdded};
+report.domains.insurance={updated:insuranceUpdated,added:insuranceAdded,collected:insuranceUpdated+insuranceAdded,
+ policy_documents_collected:policyDocuments.length,policy_clauses_fully_reviewed:false};
 let pensionCount=0;const pensionIds=new Set();
 for(const row of pensionProducts){
  const source='source.fss.integrated-pension-portal',record=row.record;
@@ -184,7 +195,80 @@ const personalAdditional=[
  ['한부모','배우자가 없고 기본공제대상 직계비속 또는 입양자가 있으면 연 100만원입니다. 부녀자공제와 동시에 해당하면 한부모공제만 적용합니다.'],
  ['공제 범위','인적공제 합계액 중 종합소득금액을 초과하는 금액은 공제하지 않습니다.']
 ];
+const housingFundRules=[
+ ['주택임차차입금','과세기간 말 무주택 세대의 법정 세대주 또는 해당 공제를 받지 않는 세대주의 세대원인 근로소득자가 일정 규모 이하 주택·주거용 오피스텔의 법정 임차차입금 원리금을 상환하면 40%를 공제합니다. 주택마련저축 공제와 합하여 연 400만원 한도입니다.'],
+ ['장기주택저당차입금 대상','과세기간 말 무주택 또는 1주택 세대의 법정 대상 근로소득자가 취득 당시 기준시가 6억원 이하 주택의 법정 장기주택저당차입금 이자를 상환한 경우입니다. 세대 전체가 2주택 이상이면 제외하며 세대원은 실제 거주 요건도 적용합니다.'],
+ ['15년 이상 기본 한도','상환기간 15년 이상은 연 800만원입니다. 주택임차차입금과 주택마련저축 공제액을 합산해 한도를 적용합니다.'],
+ ['고정금리·비거치식 특례','15년 이상이며 고정금리와 비거치식 분할상환을 모두 충족하면 연 2,000만원, 둘 중 하나이면 연 1,800만원입니다. 10년 이상이며 둘 중 하나이면 연 600만원입니다.'],
+ ['적용 시점·요건','위 금액은 현행 조문의 기준이며 차입·취득 시점에 따른 부칙 및 경과규정, 시행령상 차입 요건을 함께 확인해야 합니다. 기존 대출에 새로운 한도를 무조건 소급 적용하지 않습니다.']
+];
 const manualIncomeReviews=[
+ ['deduction.housing-funds',['52'],housingFundRules],
+ ['deduction.special-income',['52'],[
+  ['근로자 보험료','일용근로자를 제외한 근로소득자가 부담하여 지급한 건강보험료·고용보험료·노인장기요양보험료를 공제합니다.'],
+  ...housingFundRules,
+  ['공통 제한','법정 신청을 해야 하며 공제액이 해당 과세기간 합산과세 종합소득금액을 초과하면 초과분은 공제하지 않습니다.']
+ ]],
+ ['credit.earned-income',['59'],[
+  ['산출세액 130만원 이하','근로소득에 대한 종합소득 산출세액의 55%입니다.'],
+  ['산출세액 130만원 초과','71만5천원에 130만원 초과 산출세액의 30%를 더합니다.'],
+  ['총급여 3,300만원 이하 한도','74만원입니다.'],
+  ['총급여 3,300만원 초과 7,000만원 이하 한도','74만원에서 총급여의 3,300만원 초과분 × 0.008을 차감하되 최소 66만원입니다.'],
+  ['총급여 7,000만원 초과 1억2천만원 이하 한도','66만원에서 총급여의 7,000만원 초과분 × 0.5를 차감하되 최소 50만원입니다.'],
+  ['총급여 1억2천만원 초과 한도','50만원에서 총급여의 1억2천만원 초과분 × 0.5를 차감하되 최소 20만원입니다.'],
+  ['일용근로자','일용근로소득 원천징수 시 해당 산출세액의 55%를 공제합니다.']
+ ]],
+ ['credit.dividend',['17','56'],[
+  ['대상','종합소득에 합산한 배당 중 소득세법 제17조 제3항의 배당가산 대상 배당에 적용합니다. 모든 배당에 일률적으로 적용하는 공제가 아닙니다.'],
+  ['가산·공제','법정 대상 배당소득에는 10%를 소득에 가산하고 그 가산액에 해당하는 금액을 종합소득 산출세액에서 공제합니다.'],
+  ['적용 범위','종합소득 과세표준에 포함된 배당 중 금융소득 종합과세기준금액을 초과하는 부분이 대상입니다. 법인세 비과세·면제 관련 배당 등 법정 제외사항과 시행령상 공제 계산을 적용합니다.']
+ ]],
+ ['filing.withholding-tax',['128'],[
+  ['원칙','원천징수한 소득세는 징수일이 속한 달의 다음 달 10일까지 납부합니다.'],
+  ['반기납부','상시고용인원·업종 등 시행령상 요건을 충족한 원천징수의무자는 해당 반기의 마지막 달의 다음 달 10일까지 납부할 수 있습니다. 모든 사업자가 임의로 선택하는 방식은 아닙니다.'],
+  ['반기납부 제외','법인세법상 소득처분에 따른 상여·배당·기타소득, 국제조세조정법상 처분 배당 및 법에서 정한 특정 원천징수세액은 반기납부에서 제외됩니다.']
+ ]],
+ ['filing.business-income-withholding',['129'],[
+  ['일반 세율','법정 원천징수대상 사업소득의 소득세 원천징수세율은 3%입니다. 지방소득세를 합친 세율과 구분해야 하며 모든 사업소득이 원천징수 대상인 것은 아닙니다.'],
+  ['특례','외국인 직업운동가가 프로스포츠구단과 계약하여 용역을 제공하고 받는 소득은 소득세 20%를 적용합니다.']
+ ]],
+ ['filing.year-end-settlement',['137'],[
+  ['시기','원천징수의무자가 다음 연도 2월분 급여를 지급할 때 정산합니다. 퇴직자는 퇴직하는 달의 급여 지급 시 정산합니다.'],
+  ['정산 방법','근로소득금액에 신고된 소득공제를 적용하여 과세표준을 계산하고 기본세율을 적용한 뒤, 이미 원천징수한 세액과 법정 세액공제를 차감합니다. 초과 납부한 세액은 환급합니다.'],
+  ['미신고·분납','공제 신고가 없으면 본인 기본공제와 표준세액공제만 적용합니다. 추가 납부세액이 10만원을 초과하면 다음 연도 2~4월 급여에서 나누어 원천징수할 수 있습니다.']
+ ]],
+ ['filing.payment-statement-submission',['164'],[
+  ['일반 지급명세서','원칙적으로 지급일이 속하는 과세기간의 다음 연도 2월 말일까지 제출합니다.'],
+  ['3월 10일 대상','원천징수대상 사업소득, 근로소득·퇴직소득, 종교인소득 및 법정 봉사료는 다음 연도 3월 10일까지입니다.'],
+  ['일용근로소득','지급일이 속하는 달의 다음 달 말일까지 제출합니다.'],
+  ['휴업·폐업·해산','원칙적으로 해당 달의 다음다음 달 말일까지이며, 일용근로소득은 다음 달 말일까지입니다.'],
+  ['제출·간주','정보통신망 또는 전자저장매체 제출이 원칙입니다. 법정 제출 면제·서면 제출 예외와 다른 서류·간이지급명세서 제출로 갈음하는 범위가 있습니다. 간이지급명세서의 별도 제출기한과 일반 지급명세서 기한을 혼동하지 않아야 합니다.']
+ ]],
+ ['deduction.health-insurance-premium',['52'],[
+  ['대상','일용근로자를 제외한 근로소득자가 건강보험법·고용보험법·노인장기요양보험법에 따라 실제 부담하여 납부한 보험료입니다.'],
+  ['공제 범위','근로자 본인 부담액을 근로소득금액에서 공제합니다. 사용자 부담분이나 일반 보장성보험료와 구분하며, 법정 신청과 종합소득금액 한도를 적용합니다.']
+ ]],
+ ['credit.medical-expense',['59의4'],[
+  ['대상·기준','일용근로자를 제외한 근로소득자가 본인과 기본공제대상자를 위해 지급한 법정 의료비가 대상입니다. 부양가족의 나이·소득 제한을 적용하지 않으며 총급여의 3%를 초과한 지출부터 계산합니다.'],
+  ['일반 의료비','다른 특례 대상 의료비를 제외한 일반 의료비는 3% 문턱을 초과한 금액 중 연 700만원까지 15%를 공제합니다.'],
+  ['한도 특례','본인, 과세기간 개시일 현재 6세 이하, 종료일 현재 65세 이상, 장애인 및 법정 중증질환자·희귀난치성질환자·결핵환자의 의료비에는 일반 의료비의 700만원 한도를 적용하지 않습니다. 공제율은 15%입니다.'],
+  ['미숙아·선천성이상아','법정 의료비 공제율은 20%입니다.'],
+  ['난임시술','법정 난임시술비와 관련 처방 의약품 구입비의 공제율은 30%입니다.'],
+  ['중복 문턱 방지','3% 기준액은 일반 의료비, 한도 특례 의료비, 미숙아·선천성이상아, 난임시술비 순으로 미달액을 차감합니다. 각 항목에서 3%를 별도로 중복 공제하는 방식이 아닙니다.']
+ ]],
+ ['credit.education-expense',['59의4'],[
+  ['공제율·대상','일용근로자를 제외한 근로소득자가 지출한 법정 교육비의 15%입니다. 현행 조문은 기본공제대상자의 나이·소득 제한을 적용하지 않습니다. 비과세 교육비와 법정 지원금 등은 제외합니다.'],
+  ['가족 교육비 한도','배우자·직계비속·형제자매·입양자·위탁아동의 대학 교육비는 1명당 연 900만원, 취학 전 아동·초중고생은 연 300만원까지입니다. 가족의 대학원 교육비와 가족이 학자금 대출로 지급한 교육비는 제외합니다.'],
+  ['초등학생 예능·체육','과세기간 종료일 현재 9세 미만 또는 2학년 이하 초등학생의 법정 예능학원·체육시설 교육비도 포함됩니다. 모든 학원비가 대상인 것은 아니며 시행령상 시설·금액 요건을 충족해야 합니다.'],
+  ['본인 교육비','본인의 법정 학교·대학원·직업능력개발훈련 교육비와 법정 학자금 대출 원리금 상환액은 가족 교육비의 300만원·900만원 한도를 적용하지 않습니다. 연체로 인한 추가 지급액 등은 제외합니다.'],
+  ['장애인 특수교육','법정 사회복지시설·비영리법인·발달재활서비스 기관 등의 특수교육비가 대상입니다. 발달재활서비스 기관은 과세기간 종료일 현재 18세 미만인 경우만 해당합니다.']
+ ]],
+ ['credit.foreign-tax-paid',['57'],[
+  ['대상','거주자의 종합소득 또는 퇴직소득에 합산된 국외원천소득에 대해 외국에서 납부했거나 납부할 법정 외국소득세액입니다.'],
+  ['한도','해당 종합소득·퇴직소득 산출세액에 전체 소득 중 국외원천소득의 비율을 곱해 계산합니다. 감면·면제 대상 국외소득은 법정 조정을 적용합니다.'],
+  ['이월','종합소득 산출세액에서 공제하는 경우 한도 초과액은 다음 과세기간부터 10년 이내의 공제한도에서 이월공제합니다. 이월기간 종료 후 미공제액은 법정 요건에 따라 필요경비에 산입합니다. 퇴직소득 공제에 이 이월규정을 그대로 적용하지 않습니다.'],
+  ['추가 요건','조세조약상 간주납부세액과 외국법인 배당 관련 출자자 과세에는 별도 법정 요건이 있습니다. 국가별 계산·증빙 등 시행령상 절차를 확인해야 합니다.']
+ ]],
  ['deduction.personal.basic',['50'],personalBasic],
  ['deduction.personal.additional',['51'],personalAdditional],
  ['deduction.personal',['50','51'],[...personalBasic,...personalAdditional]],
@@ -213,9 +297,85 @@ for(const [id,numbers,rules] of manualIncomeReviews){
  finish(item,lawSource.id,lawSource.receipt,{reviewed_articles:numbers.map(number=>({number,text:incomeArticle(number)})),summary:item.criteria});
  put(old,item);reviewedTax.push(id);
 }
+const localLaw=json(path.join(sourceDir,'tax-sources.json')).results.find(r=>r.id==='source.law.local-tax-act.rates');
+function reviewedArticle(source,number){
+ const marker=`제${number.replace('의','조의')}${number.includes('의')?'':'조'}(`;
+ const start=source.text.indexOf(marker);if(start<0)throw new Error(`Missing ${source.id} ${marker}`);
+ const rest=source.text.slice(start+marker.length),next=rest.search(/(?<![가-힣\d])제\d+조(?:의\d+)?\(/);
+ return source.text.slice(start,next<0?undefined:start+marker.length+next);
+}
+for(const [id,numbers,rules,keepRateTable] of localTaxReviews){
+ const old=byId.get(id),item=base(old,id,old.title,old.type,null,'tax','tax');
+ const references=numbers.map(n=>`지방세법 제${n.replace('의','조의')}${n.includes('의')?'':'조'}`).join('·');
+ const retained=keepRateTable?taxQueue.facts.find(r=>r.id===id).criteria.map(({existing:c})=>({...c,source:localLaw.id,basis_source:localLaw.id,law_reference:'지방세법 제111조',condition:c.condition+'; 일반세율, 1세대 1주택 특례·조례 조정 적용 전'})):[];
+ Object.assign(item,{description:rules[0][1],criteria:[...retained,...rules.map(([label,text])=>({...criterion(label,text,localLaw.id),law_reference:references}))]});
+ finish(item,localLaw.id,localLaw.receipt,{reviewed_articles:numbers.map(number=>({number,text:reviewedArticle(localLaw,number)})),summary:item.criteria,scope:'listed summary rules reviewed; not an exhaustive tax calculator'});
+ put(old,item);reviewedTax.push(id);
+}
+for(const [id,sourceId,numbers,rules] of filingTaxReviews){
+ const source=json(path.join(sourceDir,'tax-sources.json')).results.find(r=>r.id===sourceId);
+ const old=byId.get(id),item=base(old,id,old.title,old.type,null,'tax','tax');
+ Object.assign(item,{description:old.description,criteria:rules.map(([label,text])=>criterion(label,text,sourceId))});
+ finish(item,sourceId,source.receipt,{reviewed_articles:numbers.map(number=>({number,text:reviewedArticle(source,number)})),summary:item.criteria});
+ put(old,item);reviewedTax.push(id);
+}
+const calendars=json(path.join(sourceDir,'tax-calendars-2026.json')).results;
+for(const [id,sourceId,numbers,patch] of deadlineReviews){
+ const source=json(path.join(sourceDir,'tax-sources.json')).results.find(r=>r.id===sourceId);
+ const old=byId.get(id),item=base(old,id,patch.title||old.title,old.type,null,'tax','tax');
+ const {calendar_month,...fields}=patch;
+ const calendar=calendar_month?calendars.find(r=>r.month===calendar_month):null;
+ if(calendar_month&&!calendar)throw new Error(`Missing official calendar: ${id}`);
+ Object.assign(item,{start_date:old.start_date,end_date:old.end_date,...fields,criteria:[criterion('신고·납부기한',patch.description,sourceId)]});
+ finish(item,sourceId,source.receipt,{reviewed_articles:numbers.map(number=>({number,text:reviewedArticle(source,number)})),summary:item.criteria,calendar_evidence:calendar?{source_id:'source.nts.tax-calendar.2026',receipt:publicReceipt(calendar.receipt),text:calendar.text}:undefined});
+ if(calendar){
+  item.sources.push('source.nts.tax-calendar.2026');
+  item.source_urls.push(calendar.receipt.url);
+  item.provenance.push({source_id:'source.nts.tax-calendar.2026',original_url:calendar.receipt.url,collected_at:calendar.receipt.collected_at,reviewed_at:calendar.receipt.collected_at,checksum:`sha256:${calendar.receipt.sha256}`,checksum_scope:'official-calendar-response',verification_status:'reference_only',supported_fields:['description','end_date','recurrence']});
+ }
+ put(old,item);reviewedTax.push(id);
+}
+const inheritanceLaw=json(path.join(sourceDir,'tax-sources.json')).results.find(r=>r.id==='source.law.inheritance-gift-tax-act.rates');
+for(const id of ['tax.gift','tax.inheritance','tax.inheritance-and-gift']){
+ const old=byId.get(id),item=base(old,id,old.title,old.type,null,'tax','tax');
+ const rates=[10,20,30,40,50],deductions=[0,10000000,60000000,160000000,460000000];
+ const criteria=taxQueue.facts.find(r=>r.id===id).criteria.map(({existing:c},i)=>{
+  if(c.rate_percent!==rates[i]||c.progressive_deduction_krw!==deductions[i])throw new Error(`Inheritance/gift rate table changed: ${id}`);
+  return {...c,source:inheritanceLaw.id,basis_source:inheritanceLaw.id,law_reference:'상속세 및 증여세법 제26조·제56조',condition:c.condition+'; 일반 과세표준 세율, 할증·공제·특례 적용 전'};
+ });
+ if(criteria.length!==5)throw new Error('Inheritance/gift brackets missing');
+ Object.assign(item,{description:'상속세·증여세 일반 과세표준에 적용하는 10~50% 누진세율입니다. 재산가액 자체와 공제 후 과세표준을 구분하고 세대생략 할증·세액공제·특례를 별도로 적용합니다.',criteria});
+ finish(item,inheritanceLaw.id,inheritanceLaw.receipt,{reviewed_articles:['26','56'].map(number=>({number,text:reviewedArticle(inheritanceLaw,number)})),summary:criteria});put(old,item);reviewedTax.push(id);
+}
+const vatLaw=json(path.join(sourceDir,'tax-sources.json')).results.find(r=>r.id==='source.law.value-added-tax-act.filing');
+const vatGuide=json(path.join(sourceDir,'vat-overview.json'));
+if(!vatGuide.text.includes('10,400만원')||!vatGuide.text.includes('매출세액(매출액의 10%)'))throw new Error('VAT official guide changed; review required');
+{
+ const old=byId.get('tax.value-added'),item=base(old,old.id,old.title,old.type,null,'tax','tax');
+ const rules=[
+  ['일반세율','과세표준인 공급가액에 10%를 적용해 매출세액을 계산합니다. 매출세액에 다시 10%를 곱하는 방식이 아닙니다. 영세율·면세·불공제매입세액은 별도 요건에 따릅니다.'],
+  ['간이과세 판정','원칙적으로 직전 연도 공급대가 1억400만원 미만인 개인사업자에 적용합니다. 부동산임대업·과세유흥장소의 4,800만원 기준, 배제업종, 다른 사업장 및 복수 사업장 합산, 신규사업자의 연환산 등 예외를 함께 확인합니다.'],
+  ['간이과세 산식','공급대가 × 업종별 부가가치율 × 10%에서 법정 공제세액을 뺍니다. 부가가치율 자체에 다시 15~40%를 곱하는 방식이 아닙니다. 겸영 업종은 각각 계산합니다.'],
+  ['업종별 부가가치율','소매·음식점 등 15%, 제조·농림어업·소화물 전문 운송 등 20%, 숙박업 25%, 건설·운수창고(소화물 제외)·정보통신 등 30%, 법정 금융보험 관련·전문과학기술·사업지원·부동산 관련 서비스 등 40%, 그 밖의 서비스업 30%입니다. 국세청의 세부 업종 구분을 확인합니다.'],
+  ['매입 공제','간이과세자는 적격 증빙과 제출요건을 충족한 재화·용역 공급대가의 0.5% 등을 공제합니다. 공제금액 합계가 납부세액을 초과하는 부분은 없는 것으로 봅니다.'],
+  ['납부의무 면제','해당 과세기간의 공급대가가 4,800만원 미만이면 법정 납부의무 면제를 적용합니다. 직전연도 매출 기준이 아니며, 신규·휴폐업·과세유형 전환 등은 연환산하고 제64조 가산 세액 등 예외를 구분합니다.'],
+  ['예정신고','예정부과기간 중 법정 세금계산서를 발급한 간이과세자는 예정신고 대상입니다. 일반 과세유형 판정과 예정신고 의무를 동일한 매출 구간만으로 판단하지 않습니다.']
+ ];
+ Object.assign(item,{description:'일반과세와 간이과세의 판정 기준, 매출세액 계산 및 납부의무 면제를 구분합니다. 매출액·공급가액·공급대가·매출세액은 서로 다른 기준입니다.',criteria:rules.map(([label,text])=>criterion(label,text,vatLaw.id))});
+ finish(item,vatLaw.id,vatLaw.receipt,{reviewed_articles:['30','61','63','66','69'].map(number=>({number,text:reviewedArticle(vatLaw,number)})),summary:item.criteria,official_guide:{source_id:vatGuide.id,receipt:publicReceipt(vatGuide.receipt),text:vatGuide.text}});
+ item.sources.push(vatGuide.id);item.source_urls.push(vatGuide.receipt.url);
+ put(old,item);reviewedTax.push(item.id);
+}
 report.domains.tax={reviewed_ids:reviewedTax,other_facts_reviewed:false};
 for(const id of changed){const r=byId.get(id);if(r){const normalized=JSON.parse(JSON.stringify(r));Object.keys(r).forEach(k=>delete r[k]);Object.assign(r,normalized);r.record_checksum=sha256({...r,provenance:undefined,record_checksum:undefined});}}
-for(const f of files){if(!f.rows.some(r=>changed.has(r.id)))continue;if(f.tail!==undefined)writeText(f.file,`---\n${JSON.stringify(f.rows[0],null,2)}\n---\n${f.tail}`);else writeText(f.file,f.rows.map(JSON.stringify).join('\n')+'\n');}
+for(const f of files){
+ if(!f.rows.some(r=>changed.has(r.id)))continue;
+ if(f.tail!==undefined){
+  const item=f.rows[0];
+  const tail=reviewedTax.includes(item.id)?`\n# ${item.title}\n\n${item.description}\n\n${item.criteria.map(c=>`- **${c.label}**: ${c.condition||c.basis||''}`).join('\n')}\n`:f.tail;
+  writeText(f.file,`---\n${JSON.stringify(item,null,2)}\n---\n${tail}`);
+ }else writeText(f.file,f.rows.map(JSON.stringify).join('\n')+'\n');
+}
 // New records reside in their own domain folders and use deterministic IDs.
 for(const [domain,folder] of [['insurance-products','insurance'],['pension-products','retirement/pensions']]){
  const rows=added.filter(r=>r.publication_memberships.includes(`korea-${domain}-ontology-2026.json`));

@@ -1,99 +1,57 @@
 {
-  "generated_at": "2026-09-23T09:30:20.476Z",
+  "generated_at": "2026-09-23T12:29:42.081Z",
   "domains": {
     "cards": {
-      "updated": 986,
+      "updated": 997,
       "unresolved": [
         {
-          "id": "finance.card.credit-card.롯데카드.loca-likit-2-0",
-          "error": "Product content missing"
-        },
-        {
-          "id": "finance.card.credit-card.롯데카드.디지로카-london",
-          "error": "Product content missing"
-        },
-        {
-          "id": "finance.card.credit-card.롯데카드.디지로카-paris",
-          "error": "Product content missing"
-        },
-        {
           "id": "finance.card.credit-card.비씨카드.tnt카드-220013",
-          "error": "Detail identity not matched"
+          "error": "Issuer-specific terms not published in BC common detail"
         },
         {
           "id": "finance.card.credit-card.비씨카드.독도지킴이카드-221009",
-          "error": "Detail identity not matched"
+          "error": "Issuer-specific terms not published in BC common detail"
         },
         {
           "id": "finance.card.credit-card.비씨카드.레포츠카드-212526",
-          "error": "Detail identity not matched"
+          "error": "Issuer-specific terms not published in BC common detail"
         },
         {
           "id": "finance.card.credit-card.비씨카드.비씨-다이아몬드-골프야드-카드-242266",
-          "error": "Detail identity not matched"
+          "error": "Issuer-specific terms not published in BC common detail"
         },
         {
           "id": "finance.card.credit-card.비씨카드.비씨sk카드-331012",
-          "error": "Detail identity not matched"
+          "error": "Issuer-specific terms not published in BC common detail"
         },
         {
           "id": "finance.card.credit-card.비씨카드.비씨top포인트카드-000000",
-          "error": "Detail identity not matched"
+          "error": "Issuer-specific terms not published in BC common detail"
         },
         {
           "id": "finance.card.credit-card.비씨카드.스카이패스카드-111193",
-          "error": "Detail identity not matched"
+          "error": "Issuer-specific terms not published in BC common detail"
         },
         {
           "id": "finance.card.credit-card.비씨카드.인피니트-top-카드-225005",
-          "error": "Detail identity not matched"
-        },
-        {
-          "id": "finance.card.credit-card.우리카드.카드의정석2-routine",
-          "error": "Detail identity not matched"
-        },
-        {
-          "id": "finance.card.credit-card.우리카드.카드의정석2-shopper",
-          "error": "Detail identity not matched"
-        },
-        {
-          "id": "finance.card.credit-card.우리카드.카드의정석2-super",
-          "error": "Detail identity not matched"
-        },
-        {
-          "id": "finance.card.credit-card.하나카드.원더카드-free",
-          "error": "Detail identity not matched"
+          "error": "Issuer-specific terms not published in BC common detail"
         },
         {
           "id": "finance.card.check-card.sc제일은행.부자되세요-더-마일리지-체크-232441",
-          "error": "Detail identity not matched"
-        },
-        {
-          "id": "finance.card.check-card.롯데카드.위클리-체크카드",
-          "error": "Detail identity not matched"
+          "error": "Issuer-specific terms not published in BC common detail"
         },
         {
           "id": "finance.card.check-card.비씨카드.비씨top포인트카드-000000",
-          "error": "Detail identity not matched"
-        },
-        {
-          "id": "finance.card.check-card.우리카드.위비트래블-체크카드",
-          "error": "Detail identity not matched"
-        },
-        {
-          "id": "finance.card.check-card.우리카드.카드의정석-br-everyday-check",
-          "error": "Detail identity not matched"
-        },
-        {
-          "id": "finance.card.check-card.우리카드.카드의정석-오하-check",
-          "error": "Detail identity not matched"
+          "error": "Issuer-specific terms not published in BC common detail"
         }
       ]
     },
     "insurance": {
       "updated": 1081,
       "added": 0,
-      "collected": 1081
+      "collected": 1081,
+      "policy_documents_collected": 21,
+      "policy_clauses_fully_reviewed": false
     },
     "pension": {
       "collected": 4362
@@ -109,33 +67,84 @@
         "tax.income",
         "tax.income.comprehensive",
         "tax.corporate",
+        "deduction.housing-funds",
+        "deduction.special-income",
+        "credit.earned-income",
+        "credit.dividend",
+        "filing.withholding-tax",
+        "filing.business-income-withholding",
+        "filing.year-end-settlement",
+        "filing.payment-statement-submission",
+        "deduction.health-insurance-premium",
+        "credit.medical-expense",
+        "credit.education-expense",
+        "credit.foreign-tax-paid",
         "deduction.personal.basic",
         "deduction.personal.additional",
         "deduction.personal",
         "deduction.pension-insurance",
         "credit.bookkeeping",
         "credit.insurance-premium",
-        "credit.standard"
+        "credit.standard",
+        "local.acquisition",
+        "local.automobile",
+        "local.leisure",
+        "local.local-consumption",
+        "local.local-education",
+        "local.local-income",
+        "local.property",
+        "local.regional-resource-facility",
+        "local.registration-license",
+        "local.resident",
+        "local.tobacco-consumption",
+        "filing.business-registration",
+        "filing.capital-gains-return",
+        "filing.gift-tax-return",
+        "filing.inheritance-tax-return",
+        "filing.vat-return",
+        "deadline.business-registration.application",
+        "deadline.corporate-tax.return",
+        "deadline.capital-gains.final",
+        "deadline.capital-gains.preliminary",
+        "deadline.gift.general",
+        "deadline.inheritance.resident",
+        "deadline.inheritance.nonresident",
+        "deadline.local.acquisition",
+        "deadline.local.automobile",
+        "deadline.local.income.final",
+        "deadline.local.property.first",
+        "deadline.local.property.second",
+        "deadline.local.resident",
+        "deadline.vat.general.first-final",
+        "deadline.vat.general.second-final",
+        "deadline.vat.simplified.annual",
+        "deadline.vat.simplified.preliminary",
+        "deadline.withholding.monthly",
+        "deadline.withholding.semiannual",
+        "tax.gift",
+        "tax.inheritance",
+        "tax.inheritance-and-gift",
+        "tax.value-added"
       ],
       "other_facts_reviewed": false
     }
   },
   "full_refresh_complete": false,
   "scope_notes": {
-    "cards": "Official detail text collected for 986 matched existing cards. The remaining 21 require issuer-specific detail retrieval. Numeric benefit rules are not all semantically verified.",
-    "insurance": "1,081 current comparison disclosures collected, including 84 products newly added in this refresh. Insurer disclosure links preserved. The comparison attachments can be product summaries rather than full policy terms; 60 insurer indexes were examined. Full policy texts remain incomplete.",
+    "cards": "Official detail text collected for 997 cards. Woori public JSON adapter, Lotte desktop URLs and Hana catalog identity restore 11 disclosures. Ten BC common/SC records still require issuing-bank-specific benefit terms; numeric benefit rules remain separately unverified.",
+    "insurance": "1,081 comparison disclosures retained. Twenty-one explicitly current ABL policy PDFs downloaded and text extracted; metadata and original URLs attached to matching provider-index records. Collection does not assert that every policy clause or insured variant has been semantically verified.",
     "pension": "All four official product return/fee table groups collected for 2026-Q2; 4,373 rows preserved in 4,362 stable product records.",
     "accounts": "Four account guides manually summarized, separating account eligibility and tax-exemption eligibility.",
-    "tax": "Thirteen facts manually reconciled with official sources. Remaining 117 facts require individual semantic review. Original source dates are preserved for unreviewed facts."
+    "tax": "64 facts reconciled against law text and official calendars. Includes 11 local taxes, 5 filing procedures, 19 deadline records, inheritance/gift rate tables and VAT calculation corrections. 66 facts still require rule review. Their dates are preserved."
   },
   "blockers": [
     {
       "scope": "cards",
-      "count": 21,
+      "count": 10,
       "causes": [
-        "Client-rendered detail pages need issuer-specific public endpoint adapters.",
-        "Shared BC catalog pages may omit issuing-bank benefit conditions."
-      ]
+        "BC mobile common pages omit detailed terms. Five official leaflet candidates were located and their benefit pages visually checked, but issuer/credit/check identity and intervening service changes still need verification."
+      ],
+      "candidate_evidence": "bc-leaflet-candidates-2026-09-23.json"
     },
     {
       "scope": "insurance",
@@ -147,12 +156,279 @@
     },
     {
       "scope": "tax",
-      "count": 117,
+      "count": 66,
       "causes": [
         "Article availability does not verify rule amounts, eligibility, exceptions or transitional provisions.",
         "Some rates are image tables, requiring visual comparison; collector now preserves alternative text.",
-        "Some stored source URLs return portal shells or law error pages."
+        "Some stored source URLs return portal shells or law error pages.",
+        "The NTS corporate relief overview still includes expired 2025 application windows; current statutes and transitional rules must be reconciled instead of treating a fresh page download as a 2026 rule review."
       ]
+    }
+  ],
+  "remaining_tax_facts": [
+    {
+      "id": "corporate.support.agricultural-corporation-reduction",
+      "title": "영농조합법인 등에 대한 감면"
+    },
+    {
+      "id": "corporate.support.cooperation-credit",
+      "title": "상생협력에 대한 조세지원"
+    },
+    {
+      "id": "corporate.support.crisis-area-startup-reduction",
+      "title": "위기지역 창업기업 감면"
+    },
+    {
+      "id": "corporate.support.disaster-loss-credit",
+      "title": "재해손실세액공제"
+    },
+    {
+      "id": "corporate.support.e-filing-credit",
+      "title": "전자신고 세액공제"
+    },
+    {
+      "id": "corporate.support.employment-maintenance-credit",
+      "title": "고용유지 중소기업 등에 대한 과세특례"
+    },
+    {
+      "id": "corporate.support.enterprise-city-reduction",
+      "title": "기업도시개발구역 창업기업 등 감면"
+    },
+    {
+      "id": "corporate.support.facility-investment-credit",
+      "title": "시설투자 등에 대한 세액공제"
+    },
+    {
+      "id": "corporate.support.foreign-tax-paid-credit",
+      "title": "외국납부세액공제"
+    },
+    {
+      "id": "corporate.support.good-landlord-credit",
+      "title": "상가임대료 인하 임대사업자 세액공제"
+    },
+    {
+      "id": "corporate.support.industrial-complex-reduction",
+      "title": "농공단지 등 입주 기업 감면"
+    },
+    {
+      "id": "corporate.support.jeju-zone-reduction",
+      "title": "제주첨단과학기술단지 등 입주 감면"
+    },
+    {
+      "id": "corporate.support.local-relocation-deferral",
+      "title": "지방이전 촉진 과세이연"
+    },
+    {
+      "id": "corporate.support.local-relocation-reduction",
+      "title": "공장·본사 등 지방이전 세액감면"
+    },
+    {
+      "id": "corporate.support.ma-credit",
+      "title": "M&A 활성화 지원"
+    },
+    {
+      "id": "corporate.support.minimum-tax-preference",
+      "title": "최저한세 적용한도 우대"
+    },
+    {
+      "id": "corporate.support.performance-sharing-credit",
+      "title": "성과공유 중소기업의 경영성과급 세액공제"
+    },
+    {
+      "id": "corporate.support.restructuring-deferral",
+      "title": "구조조정 및 재무구조개선 과세이연"
+    },
+    {
+      "id": "corporate.support.rnd-credit",
+      "title": "연구·인력개발비 세액공제"
+    },
+    {
+      "id": "corporate.support.rnd-grant-deferral",
+      "title": "연구개발 관련 출연금등의 과세이연"
+    },
+    {
+      "id": "corporate.support.rnd-zone-reduction",
+      "title": "연구개발특구 입주 기업 감면"
+    },
+    {
+      "id": "corporate.support.sme-special-reduction",
+      "title": "중소기업특별세액감면"
+    },
+    {
+      "id": "corporate.support.social-enterprise-reduction",
+      "title": "사회적기업 등에 대한 감면"
+    },
+    {
+      "id": "corporate.support.social-insurance-credit",
+      "title": "사회보험료 세액공제"
+    },
+    {
+      "id": "corporate.support.startup-sme-reduction",
+      "title": "창업중소기업 등에 대한 세액감면"
+    },
+    {
+      "id": "corporate.support.tech-transfer-reduction",
+      "title": "기술이전·대여 세액감면"
+    },
+    {
+      "id": "corporate.support.wage-increase-credit",
+      "title": "근로소득을 증대시킨 기업에 대한 세액공제"
+    },
+    {
+      "id": "corporate.support.winwin-payment-credit",
+      "title": "상생결제 지급금액 세액공제"
+    },
+    {
+      "id": "deadline.comprehensive-real-estate.payment",
+      "title": "종합부동산세 납부"
+    },
+    {
+      "id": "deadline.grant.regular.2025-income",
+      "title": "2025년 귀속 근로·자녀장려금 정기신청"
+    },
+    {
+      "id": "deadline.grant.semiannual.2026",
+      "title": "2026년 근로장려금 반기신청분 지급"
+    },
+    {
+      "id": "deadline.income-tax.2025-return",
+      "title": "2025년 귀속 종합소득세 확정신고"
+    },
+    {
+      "id": "deadline.vat.periodic",
+      "title": "부가가치세 신고 납부"
+    },
+    {
+      "id": "deadline.year-end-settlement",
+      "title": "근로소득 연말정산"
+    },
+    {
+      "id": "filing.grant-application",
+      "title": "근로·자녀장려금 신청"
+    },
+    {
+      "id": "filing.income-tax-return",
+      "title": "종합소득세 확정신고"
+    },
+    {
+      "id": "tax.comprehensive-real-estate",
+      "title": "종합부동산세"
+    },
+    {
+      "id": "tax.customs",
+      "title": "관세"
+    },
+    {
+      "id": "tax.education",
+      "title": "교육세"
+    },
+    {
+      "id": "tax.income.capital-gains",
+      "title": "양도소득세"
+    },
+    {
+      "id": "tax.income.retirement",
+      "title": "퇴직소득세"
+    },
+    {
+      "id": "tax.individual-consumption",
+      "title": "개별소비세"
+    },
+    {
+      "id": "tax.liquor",
+      "title": "주세"
+    },
+    {
+      "id": "tax.securities-transaction",
+      "title": "증권거래세"
+    },
+    {
+      "id": "tax.special-rural-development",
+      "title": "농어촌특별세"
+    },
+    {
+      "id": "tax.stamp",
+      "title": "인지세"
+    },
+    {
+      "id": "tax.transport-energy-environment",
+      "title": "교통·에너지·환경세"
+    },
+    {
+      "id": "deduction.credit-card-use",
+      "title": "신용카드 등 사용금액"
+    },
+    {
+      "id": "deduction.employee-stock-ownership",
+      "title": "우리사주조합 출연금"
+    },
+    {
+      "id": "deduction.employment-maintenance-worker",
+      "title": "고용유지중소기업 근로자 소득공제"
+    },
+    {
+      "id": "deduction.investment-association",
+      "title": "중소기업창업투자조합 출자 등"
+    },
+    {
+      "id": "deduction.long-term-fund",
+      "title": "장기집합투자증권저축"
+    },
+    {
+      "id": "deduction.other-income",
+      "title": "그 밖의 소득공제"
+    },
+    {
+      "id": "deduction.personal-pension-savings",
+      "title": "개인연금저축 소득공제"
+    },
+    {
+      "id": "deduction.small-business-mutual-aid",
+      "title": "소기업·소상공인 공제부금"
+    },
+    {
+      "id": "deduction.youth-long-term-fund",
+      "title": "청년형 장기집합투자증권저축"
+    },
+    {
+      "id": "credit.donation",
+      "title": "기부금 세액공제"
+    },
+    {
+      "id": "credit.housing-loan-interest",
+      "title": "주택자금차입금 이자세액공제"
+    },
+    {
+      "id": "credit.integrated-employment",
+      "title": "통합고용세액공제"
+    },
+    {
+      "id": "credit.monthly-rent",
+      "title": "월세액 세액공제"
+    },
+    {
+      "id": "credit.research-and-development",
+      "title": "연구·인력개발비 세액공제"
+    },
+    {
+      "id": "credit.special-tax",
+      "title": "특별세액공제"
+    },
+    {
+      "id": "reduction.good-landlord",
+      "title": "착한임대인 세액공제 제도"
+    },
+    {
+      "id": "reduction.sme-employment-income",
+      "title": "중소기업 취업자 소득세 감면"
+    },
+    {
+      "id": "reduction.sme-special",
+      "title": "중소기업특별세액감면"
+    },
+    {
+      "id": "reduction.startup-sme",
+      "title": "창업중소기업 등에 대한 세액감면"
     }
   ]
 }

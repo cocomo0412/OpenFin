@@ -54,5 +54,6 @@
   "provider_disclosure_urls": [
     "https://www.samsunglife.com/individual/products/disclosure/main/PDO-PRPRC010100M"
   ],
-  "document_scope": "comparison-disclosure attachments; full policy terms not verified"
+  "document_scope": "comparison-disclosure attachments; full policy terms not verified",
+  "policy_documents": []
 }

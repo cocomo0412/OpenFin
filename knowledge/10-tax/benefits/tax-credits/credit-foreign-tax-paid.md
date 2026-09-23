@@ -4,22 +4,6 @@
   "title": "외국납부세액공제",
   "type": "tax-credit",
   "description": "국외원천소득에 대한 이중과세 조정을 위한 세액공제입니다.",
-  "folder": "20_Deductions/TaxCredits",
-  "basis_year": 2026,
-  "effective_date": null,
-  "expiration_date": null,
-  "reviewed_at": "2026-05-04",
-  "source_urls": [
-    "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7987&mi=6561",
-    "https://www.law.go.kr/법령/법인세법",
-    "https://www.law.go.kr/법령/소득세법"
-  ],
-  "source_basis_dates": [
-    "2026-05-02T00:00:00.000Z",
-    "2026-05-04T00:00:00.000Z"
-  ],
-  "abolition_status": "active",
-  "revision_status": "none_announced",
   "parents": [
     "category.tax-credits"
   ],
@@ -30,324 +14,124 @@
   "terms": [
     "term.tax-credit"
   ],
-  "deadlines": [
-    "deadline.year-end-settlement",
-    "deadline.corporate-tax.return"
-  ],
-  "sources": [
-    "source.nts.corporate-tax.reliefs",
-    "source.law.corporate-tax-act.credits",
-    "source.law.income-tax-act.deductions-credits"
-  ],
-  "law_reference": "법인세법 제57조 및 소득세법 제57조",
   "tags": [
     "tax-credit"
   ],
-  "criteria": [
-    {
-      "label": "외국납부세액공제 한도",
-      "basis": "국외원천소득 관련 외국납부세액",
-      "condition": "국내 산출세액 중 국외원천소득 비율 상당액 한도",
-      "benefit": "외국납부세액과 한도액 중 작은 금액 공제",
-      "source": "source.nts.corporate-tax.reliefs",
-      "amount_formula": "min(외국납부세액, 법인세 산출세액 × 국외원천소득 / 전체 과세표준)",
-      "criteria_kind": "formula",
-      "basis_category": "official-standard",
-      "basis_definition": "해당 제도에서 대상 여부, 세율, 공제액, 한도 또는 신고기한을 판정하기 위해 공식 출처가 사용하는 기준항목입니다.",
-      "basis_lookup": "각 criterion의 출처 노드와 관련 신고·신청 서류에서 확인합니다.",
-      "selection_rule": "조건 문구와 구조화된 금액·비율·기간 필드를 함께 보고 해당 구간 또는 요건을 선택합니다.",
-      "basis_source": "source.nts.corporate-tax.reliefs",
-      "law_reference": "법인세법 제57조 및 소득세법 제57조"
-    }
-  ],
-  "structured_summary": {
-    "tax": {
-      "tax_year": 2026,
-      "rates": {},
-      "limits": {},
-      "thresholds": {},
-      "eligible_persons": [
-        "국내 산출세액 중 국외원천소득 비율 상당액 한도"
-      ],
-      "required_documents": [],
-      "filing_deadlines": [
-        "deadline.year-end-settlement",
-        "deadline.corporate-tax.return"
-      ],
-      "law_references": [
-        "법인세법 제57조 및 소득세법 제57조"
-      ]
-    }
-  },
-  "search_facets": {
-    "tax_type": "tax-credit",
-    "credit_or_deduction": "tax-credit",
-    "applicable_year": 2026,
-    "law_reference": "법인세법 제57조 및 소득세법 제57조"
-  },
-  "provenance_shard": "reference",
-  "source_registry_id": "source.nts.corporate-tax.reliefs",
-  "source_registry_status": "registered",
-  "provenance": [
-    {
-      "source_id": "source.nts.corporate-tax.reliefs",
-      "original_url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7987&mi=6561",
-      "source_record_id": null,
-      "locator": null,
-      "supported_fields": [
-        "title",
-        "type",
-        "description",
-        "folder",
-        "basis_year",
-        "reviewed_at",
-        "abolition_status",
-        "revision_status",
-        "law_reference",
-        "criteria",
-        "structured_summary",
-        "search_facets",
-        "provenance_shard",
-        "source_registry_id",
-        "source_registry_status"
-      ],
-      "source_published_at": null,
-      "source_modified_at": null,
-      "collected_at": "2026-05-04T00:00:00.000Z",
-      "reviewed_at": "2026-05-04T00:00:00.000Z",
-      "valid_from": null,
-      "valid_to": null,
-      "checksum": null,
-      "checksum_scope": null,
-      "verification_status": "reference_only"
-    },
-    {
-      "source_id": "source.law.corporate-tax-act.credits",
-      "original_url": "https://www.law.go.kr/법령/법인세법",
-      "source_record_id": null,
-      "locator": null,
-      "supported_fields": [
-        "title",
-        "type",
-        "description",
-        "folder",
-        "basis_year",
-        "reviewed_at",
-        "abolition_status",
-        "revision_status",
-        "law_reference",
-        "criteria",
-        "structured_summary",
-        "search_facets",
-        "provenance_shard",
-        "source_registry_id",
-        "source_registry_status"
-      ],
-      "source_published_at": null,
-      "source_modified_at": null,
-      "collected_at": "2026-05-04T00:00:00.000Z",
-      "reviewed_at": "2026-05-04T00:00:00.000Z",
-      "valid_from": null,
-      "valid_to": null,
-      "checksum": null,
-      "checksum_scope": null,
-      "verification_status": "reference_only"
-    },
-    {
-      "source_id": "source.law.income-tax-act.deductions-credits",
-      "original_url": "https://www.law.go.kr/법령/법인세법",
-      "source_record_id": null,
-      "locator": null,
-      "supported_fields": [
-        "title",
-        "type",
-        "description",
-        "folder",
-        "basis_year",
-        "reviewed_at",
-        "abolition_status",
-        "revision_status",
-        "law_reference",
-        "criteria",
-        "structured_summary",
-        "search_facets",
-        "provenance_shard",
-        "source_registry_id",
-        "source_registry_status"
-      ],
-      "source_published_at": null,
-      "source_modified_at": null,
-      "collected_at": "2026-05-04T00:00:00.000Z",
-      "reviewed_at": "2026-05-04T00:00:00.000Z",
-      "valid_from": null,
-      "valid_to": null,
-      "checksum": null,
-      "checksum_scope": null,
-      "verification_status": "reference_only"
-    }
-  ],
   "publication_memberships": [
     "korea-tax-ontology-2026.json"
+  ],
+  "search_shard": "reference",
+  "status": "reference_only",
+  "sales_status": "unknown",
+  "recommendation_status": "reference_only",
+  "recommendation_scope": "listing_only",
+  "comparison_engine_gate_passed": false,
+  "domain_gate_passed": false,
+  "criteria": [
+    {
+      "label": "대상",
+      "condition": "거주자의 종합소득 또는 퇴직소득에 합산된 국외원천소득에 대해 외국에서 납부했거나 납부할 법정 외국소득세액입니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.income-tax-act.deductions-credits",
+      "criteria_kind": "disclosure"
+    },
+    {
+      "label": "한도",
+      "condition": "해당 종합소득·퇴직소득 산출세액에 전체 소득 중 국외원천소득의 비율을 곱해 계산합니다. 감면·면제 대상 국외소득은 법정 조정을 적용합니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.income-tax-act.deductions-credits",
+      "criteria_kind": "disclosure"
+    },
+    {
+      "label": "이월",
+      "condition": "종합소득 산출세액에서 공제하는 경우 한도 초과액은 다음 과세기간부터 10년 이내의 공제한도에서 이월공제합니다. 이월기간 종료 후 미공제액은 법정 요건에 따라 필요경비에 산입합니다. 퇴직소득 공제에 이 이월규정을 그대로 적용하지 않습니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.income-tax-act.deductions-credits",
+      "criteria_kind": "disclosure"
+    },
+    {
+      "label": "추가 요건",
+      "condition": "조세조약상 간주납부세액과 외국법인 배당 관련 출자자 과세에는 별도 법정 요건이 있습니다. 국가별 계산·증빙 등 시행령상 절차를 확인해야 합니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.income-tax-act.deductions-credits",
+      "criteria_kind": "disclosure"
+    }
+  ],
+  "sources": [
+    "source.law.income-tax-act.deductions-credits"
+  ],
+  "source_urls": [
+    "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0"
+  ],
+  "collected_at": "2026-09-23T08:26:20.830416+00:00",
+  "source_collected_at": "2026-09-23T08:26:20.830416+00:00",
+  "last_source_checked_at": "2026-09-23T08:26:20.830416+00:00",
+  "last_reviewed_at": "2026-09-23T08:26:20.830416+00:00",
+  "reviewed_at": "2026-09-23T08:26:20.830416+00:00",
+  "refresh_generation": "2026-09-23T08:26:20.830416+00:00",
+  "review_scope": "공식 공시의 식별자·본문·필드 연결 확인",
+  "source_listing_status": "listed",
+  "source_freshness_status": "current",
+  "freshness_status": "current",
+  "verification_status": "listing_only",
+  "sales_verification_status": "listed_unverified",
+  "current_disclosure": {
+    "path": "opentax/disclosures/de88ee0098076eaf454baa98.json",
+    "checksum": "sha256:816862c0de86617d09e20b1432b8fdaa6bfd122424d5559a3410df1ed722ef69",
+    "checksum_scope": "normalized-disclosure-json",
+    "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+    "collected_at": "2026-09-23T08:26:20.830416+00:00"
+  },
+  "provenance": [
+    {
+      "source_id": "source.law.income-tax-act.deductions-credits",
+      "original_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+      "source_record_id": "credit.foreign-tax-paid",
+      "collected_at": "2026-09-23T08:26:20.830416+00:00",
+      "reviewed_at": "2026-09-23T08:26:20.830416+00:00",
+      "checksum": "sha256:75c504ac6e07a5d3eebe4ea12252fd68aeb035939f7dbee34cf260070a4d3013",
+      "checksum_scope": "official-disclosure-response",
+      "verification_status": "listing_only",
+      "supported_fields": [
+        "title",
+        "description",
+        "criteria",
+        "current_disclosure"
+      ],
+      "locator": {
+        "kind": "record-id",
+        "value": "credit.foreign-tax-paid"
+      }
+    }
   ],
   "search_projection": {
     "id": "credit.foreign-tax-paid",
     "title": "외국납부세액공제",
     "type": "tax-credit",
     "description": "국외원천소득에 대한 이중과세 조정을 위한 세액공제입니다.",
-    "provider": null,
-    "product_kind": null,
-    "search_type": null,
-    "product_status": null,
-    "sales_status": null,
-    "source_listing_status": null,
-    "sales_verification_status": null,
-    "sales_verified_at": null,
-    "condition_verification_status": null,
-    "source_freshness_status": null,
-    "status": null,
-    "status_reason": null,
-    "recommendation_status": null,
-    "recommendation_scope": null,
-    "catalog_recommendation_status": null,
-    "catalog_recommendation_scope": null,
-    "canonical_product_id": null,
-    "resolved_canonical_product_id": null,
-    "external_product_ids": [],
-    "provider_external_ids": [],
-    "provider_roles": [],
-    "source_records": [],
-    "preferred_source": null,
-    "merged_fields": {},
-    "field_provenance": {},
-    "field_conflicts": {},
-    "recommendation_model_version": "openfin-recommendation-v0.1.0",
-    "recommendation_exclusion_reasons": [],
-    "recommendation_basis_fields": [],
-    "verification_evidence": null,
-    "verification_status": null,
-    "quality_flags": [],
-    "last_verified_at": null,
-    "last_source_checked_at": null,
-    "last_reviewed_at": null,
-    "public_recommendation_exclusion_reasons": [],
-    "comparison_exclusion_reasons": [],
-    "discovery_limitations": [],
-    "missing_required_fields": [],
-    "missing_in_source_fields": [],
-    "unmapped_existing_fields": [],
-    "unverified_fields": [],
-    "discovery_evidence_fields": [],
-    "completeness_ratio": null,
-    "source_completeness_ratio": null,
-    "normalized_completeness_ratio": null,
-    "verified_completeness_ratio": null,
-    "required_field_count": null,
-    "completed_field_count": null,
-    "domain_gate_passed": null,
-    "comparison_engine_gate_passed": null,
-    "comparison_field_verification_status": null,
-    "comparison_field_verification": {},
-    "comparison_basis_fields": [],
-    "comparison_options": [],
-    "application_status": null,
-    "is_currently_applicable": null,
-    "application_open_from": null,
-    "application_open_to": null,
-    "application_window": {},
-    "jurisdiction": null,
-    "jurisdiction_code": null,
-    "jurisdiction_aliases": [],
-    "parent_jurisdiction_code": null,
-    "administrative_history": [],
-    "target_group": [],
-    "support_category": [],
-    "last_status_checked_at": null,
-    "freshness_status": null,
-    "collection_status": null,
-    "legacy_ids": [],
-    "search_aliases": [],
-    "aliases": [],
-    "export_id": "tax-ontology",
-    "source_checksum": null,
+    "status": "reference_only",
+    "sales_status": "unknown",
     "source_urls": [
-      "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7987&mi=6561",
-      "https://www.law.go.kr/법령/법인세법",
-      "https://www.law.go.kr/법령/소득세법"
+      "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0"
     ],
-    "source_basis_dates": [
-      "2026-05-02T00:00:00.000Z",
-      "2026-05-04T00:00:00.000Z"
-    ],
-    "structured_summary": {
-      "tax": {
-        "tax_year": 2026,
-        "rates": {},
-        "limits": {},
-        "thresholds": {},
-        "eligible_persons": [
-          "국내 산출세액 중 국외원천소득 비율 상당액 한도"
-        ],
-        "required_documents": [],
-        "filing_deadlines": [
-          "deadline.year-end-settlement",
-          "deadline.corporate-tax.return"
-        ],
-        "law_references": [
-          "법인세법 제57조 및 소득세법 제57조"
-        ]
-      }
-    },
-    "search_facets": {
-      "tax_type": "tax-credit",
-      "applicable_year": 2026,
-      "law_reference": "법인세법 제57조 및 소득세법 제57조"
-    },
-    "search_text": "credit.foreign-tax-paid 외국납부세액공제 tax-credit 국외원천소득에 대한 이중과세 조정을 위한 세액공제입니다. 법인세법 제57조 및 소득세법 제57조 tax-credit source.nts.",
-    "provenance_shard": "reference",
+    "freshness_status": "current",
+    "recommendation_status": "reference_only",
+    "recommendation_scope": "listing_only",
     "source_ids": [
-      "source.nts.corporate-tax.reliefs",
-      "source.law.corporate-tax-act.credits",
       "source.law.income-tax-act.deductions-credits"
-    ]
+    ],
+    "export_id": "tax-ontology",
+    "search_text": "외국납부세액공제 국외원천소득에 대한 이중과세 조정을 위한 세액공제입니다."
   },
-  "search_shard": "reference",
-  "search_position": 112,
-  "legacy_compatibility_dates": [
-    {
-      "path": [
-        "source_basis_dates",
-        0
-      ],
-      "value": "2026-05-02 확인"
-    },
-    {
-      "path": [
-        "source_basis_dates",
-        1
-      ],
-      "value": "2026-05-04 확인"
-    },
-    {
-      "path": [
-        "search_projection",
-        "source_basis_dates",
-        0
-      ],
-      "value": "2026-05-02 확인"
-    },
-    {
-      "path": [
-        "search_projection",
-        "source_basis_dates",
-        1
-      ],
-      "value": "2026-05-04 확인"
-    }
-  ],
-  "record_checksum": "sha256:ba94f4c07e0b7f662b5e6786d4ebea25506cec3ca2650ba64b36afb8afef845e"
+  "record_checksum": "sha256:f3babfb17c1bb46ad8e08ee7b7f8d9e2386a5956ab3d0b89dfab0138e5959287"
 }
 ---
 
 # 외국납부세액공제
 
 국외원천소득에 대한 이중과세 조정을 위한 세액공제입니다.
+
+- **대상**: 거주자의 종합소득 또는 퇴직소득에 합산된 국외원천소득에 대해 외국에서 납부했거나 납부할 법정 외국소득세액입니다.
+- **한도**: 해당 종합소득·퇴직소득 산출세액에 전체 소득 중 국외원천소득의 비율을 곱해 계산합니다. 감면·면제 대상 국외소득은 법정 조정을 적용합니다.
+- **이월**: 종합소득 산출세액에서 공제하는 경우 한도 초과액은 다음 과세기간부터 10년 이내의 공제한도에서 이월공제합니다. 이월기간 종료 후 미공제액은 법정 요건에 따라 필요경비에 산입합니다. 퇴직소득 공제에 이 이월규정을 그대로 적용하지 않습니다.
+- **추가 요건**: 조세조약상 간주납부세액과 외국법인 배당 관련 출자자 과세에는 별도 법정 요건이 있습니다. 국가별 계산·증빙 등 시행령상 절차를 확인해야 합니다.

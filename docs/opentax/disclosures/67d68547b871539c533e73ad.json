@@ -50,5 +50,6 @@
   "provider_disclosure_urls": [
     "https://life.miraeasset.com/micro/disclosure/product/PC-HO-080301-000000.do"
   ],
-  "document_scope": "comparison-disclosure attachments; full policy terms not verified"
+  "document_scope": "comparison-disclosure attachments; full policy terms not verified",
+  "policy_documents": []
 }

@@ -1,211 +1,120 @@
 ---
 {
+  "deadlines": [],
+  "folder": "50_Deadlines",
+  "basis_year": 2026,
   "id": "deadline.vat.general.second-final",
   "title": "부가가치세 일반과세자 2기 확정신고",
   "type": "deadline",
-  "description": "일반과세자의 제2기 과세기간은 7월 1일부터 12월 31일까지이고, 확정신고·납부기한은 다음 해 1월 1일부터 1월 25일까지입니다.",
-  "folder": "50_Deadlines",
-  "basis_year": 2026,
-  "effective_date": null,
-  "expiration_date": null,
-  "reviewed_at": "2026-05-04",
-  "source_urls": [
-    "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7806"
-  ],
-  "source_basis_dates": [
-    "2026-05-02T00:00:00.000Z"
-  ],
-  "abolition_status": "active",
-  "revision_status": "none_announced",
+  "description": "일반과세자의 2기(7~12월) 확정신고는 원칙적으로 다음 해 1월 25일까지입니다. 폐업 등 별도 과세기간과 기한은 구분합니다.",
   "parents": [
     "category.filing-calendar"
   ],
   "children": [],
   "related": [],
   "terms": [],
-  "deadlines": [],
-  "sources": [
-    "source.nts.vat.filing-duty"
-  ],
-  "law_reference": "",
   "tags": [
     "deadline"
   ],
+  "publication_memberships": [
+    "korea-tax-ontology-2026.json"
+  ],
+  "search_shard": "reference",
+  "status": "reference_only",
+  "sales_status": "unknown",
+  "recommendation_status": "reference_only",
+  "recommendation_scope": "listing_only",
+  "comparison_engine_gate_passed": false,
+  "domain_gate_passed": false,
   "start_date": "2027-01-01",
   "end_date": "2027-01-25",
   "recurrence": {
     "frequency": "annual",
     "anchor": "일반과세자 제2기 과세기간",
-    "period": "7월 1일~12월 31일",
-    "start_rule": "다음해 1월 1일",
-    "due_rule": "다음해 1월 25일까지"
+    "start_rule": "다음 해 1월 1일",
+    "due_rule": "다음 해 1월 25일; 휴일 등 기한 특례 적용"
   },
-  "provenance_shard": "reference",
-  "source_registry_id": "source.nts.vat.filing-duty",
-  "source_registry_status": "registered",
-  "provenance": [
+  "criteria": [
     {
-      "source_id": "source.nts.vat.filing-duty",
-      "original_url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7806",
-      "source_record_id": null,
-      "locator": null,
-      "supported_fields": [
-        "title",
-        "type",
-        "description",
-        "folder",
-        "basis_year",
-        "reviewed_at",
-        "abolition_status",
-        "revision_status",
-        "law_reference",
-        "start_date",
-        "end_date",
-        "recurrence",
-        "provenance_shard",
-        "source_registry_id",
-        "source_registry_status"
-      ],
-      "source_published_at": null,
-      "source_modified_at": null,
-      "collected_at": "2026-05-04T00:00:00.000Z",
-      "reviewed_at": "2026-05-04T00:00:00.000Z",
-      "valid_from": null,
-      "valid_to": null,
-      "checksum": null,
-      "checksum_scope": null,
-      "verification_status": "reference_only"
+      "label": "신고·납부기한",
+      "condition": "일반과세자의 2기(7~12월) 확정신고는 원칙적으로 다음 해 1월 25일까지입니다. 폐업 등 별도 과세기간과 기한은 구분합니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.value-added-tax-act.filing",
+      "criteria_kind": "disclosure"
     }
   ],
-  "publication_memberships": [
-    "korea-tax-ontology-2026.json"
+  "sources": [
+    "source.law.value-added-tax-act.filing"
+  ],
+  "source_urls": [
+    "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276117&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0"
+  ],
+  "collected_at": "2026-09-23T08:26:24.306633+00:00",
+  "source_collected_at": "2026-09-23T08:26:24.306633+00:00",
+  "last_source_checked_at": "2026-09-23T08:26:24.306633+00:00",
+  "last_reviewed_at": "2026-09-23T08:26:24.306633+00:00",
+  "reviewed_at": "2026-09-23T08:26:24.306633+00:00",
+  "refresh_generation": "2026-09-23T08:26:24.306633+00:00",
+  "review_scope": "공식 공시의 식별자·본문·필드 연결 확인",
+  "source_listing_status": "listed",
+  "source_freshness_status": "current",
+  "freshness_status": "current",
+  "verification_status": "listing_only",
+  "sales_verification_status": "listed_unverified",
+  "current_disclosure": {
+    "path": "opentax/disclosures/3aa5f9e8a8fe1db2de28b079.json",
+    "checksum": "sha256:864e7aceedca0198aa46ba243f29a3b775409754b5258cb021b6f0cb5096454c",
+    "checksum_scope": "normalized-disclosure-json",
+    "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276117&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+    "collected_at": "2026-09-23T08:26:24.306633+00:00"
+  },
+  "provenance": [
+    {
+      "source_id": "source.law.value-added-tax-act.filing",
+      "original_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276117&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+      "source_record_id": "deadline.vat.general.second-final",
+      "collected_at": "2026-09-23T08:26:24.306633+00:00",
+      "reviewed_at": "2026-09-23T08:26:24.306633+00:00",
+      "checksum": "sha256:5184bc889a7758b16e563761bb6f3f77e87860e9b82d856b6e2e3d2239900879",
+      "checksum_scope": "official-disclosure-response",
+      "verification_status": "listing_only",
+      "supported_fields": [
+        "title",
+        "description",
+        "criteria",
+        "current_disclosure"
+      ],
+      "locator": {
+        "kind": "record-id",
+        "value": "deadline.vat.general.second-final"
+      }
+    }
   ],
   "search_projection": {
     "id": "deadline.vat.general.second-final",
     "title": "부가가치세 일반과세자 2기 확정신고",
     "type": "deadline",
-    "description": "일반과세자의 제2기 과세기간은 7월 1일부터 12월 31일까지이고, 확정신고·납부기한은 다음 해 1월 1일부터 1월 25일까지입니다.",
-    "provider": null,
-    "product_kind": null,
-    "search_type": null,
-    "product_status": null,
-    "sales_status": null,
-    "source_listing_status": null,
-    "sales_verification_status": null,
-    "sales_verified_at": null,
-    "condition_verification_status": null,
-    "source_freshness_status": null,
-    "status": null,
-    "status_reason": null,
-    "recommendation_status": null,
-    "recommendation_scope": null,
-    "catalog_recommendation_status": null,
-    "catalog_recommendation_scope": null,
-    "canonical_product_id": null,
-    "resolved_canonical_product_id": null,
-    "external_product_ids": [],
-    "provider_external_ids": [],
-    "provider_roles": [],
-    "source_records": [],
-    "preferred_source": null,
-    "merged_fields": {},
-    "field_provenance": {},
-    "field_conflicts": {},
-    "recommendation_model_version": "openfin-recommendation-v0.1.0",
-    "recommendation_exclusion_reasons": [],
-    "recommendation_basis_fields": [],
-    "verification_evidence": null,
-    "verification_status": null,
-    "quality_flags": [],
-    "last_verified_at": null,
-    "last_source_checked_at": null,
-    "last_reviewed_at": null,
-    "public_recommendation_exclusion_reasons": [],
-    "comparison_exclusion_reasons": [],
-    "discovery_limitations": [],
-    "missing_required_fields": [],
-    "missing_in_source_fields": [],
-    "unmapped_existing_fields": [],
-    "unverified_fields": [],
-    "discovery_evidence_fields": [],
-    "completeness_ratio": null,
-    "source_completeness_ratio": null,
-    "normalized_completeness_ratio": null,
-    "verified_completeness_ratio": null,
-    "required_field_count": null,
-    "completed_field_count": null,
-    "domain_gate_passed": null,
-    "comparison_engine_gate_passed": null,
-    "comparison_field_verification_status": null,
-    "comparison_field_verification": {},
-    "comparison_basis_fields": [],
-    "comparison_options": [],
-    "application_status": null,
-    "is_currently_applicable": null,
-    "application_open_from": null,
-    "application_open_to": null,
-    "application_window": {},
-    "jurisdiction": null,
-    "jurisdiction_code": null,
-    "jurisdiction_aliases": [],
-    "parent_jurisdiction_code": null,
-    "administrative_history": [],
-    "target_group": [],
-    "support_category": [],
-    "last_status_checked_at": null,
-    "freshness_status": null,
-    "collection_status": null,
-    "legacy_ids": [],
-    "search_aliases": [],
-    "aliases": [],
-    "export_id": "tax-ontology",
-    "source_checksum": null,
+    "description": "일반과세자의 2기(7~12월) 확정신고는 원칙적으로 다음 해 1월 25일까지입니다. 폐업 등 별도 과세기간과 기한은 구분합니다.",
+    "status": "reference_only",
+    "sales_status": "unknown",
     "source_urls": [
-      "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7806"
+      "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276117&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0"
     ],
-    "source_basis_dates": [
-      "2026-05-02T00:00:00.000Z"
-    ],
-    "structured_summary": {
-      "rates": {},
-      "limits": {},
-      "periods": {},
-      "card": {},
-      "insurance": {},
-      "support": {
-        "application_window": {}
-      }
-    },
-    "search_facets": {},
-    "search_text": "deadline.vat.general.second-final 부가가치세 일반과세자 2기 확정신고 deadline 일반과세자의 제2기 과세기간은 7월 1일부터 12월 31일까지이고, 확정신고·납부기한은 다음 해 1월 ",
-    "provenance_shard": "reference",
+    "freshness_status": "current",
+    "recommendation_status": "reference_only",
+    "recommendation_scope": "listing_only",
     "source_ids": [
-      "source.nts.vat.filing-duty"
-    ]
+      "source.law.value-added-tax-act.filing"
+    ],
+    "export_id": "tax-ontology",
+    "search_text": "부가가치세 일반과세자 2기 확정신고 일반과세자의 2기(7~12월) 확정신고는 원칙적으로 다음 해 1월 25일까지입니다. 폐업 등 별도 과세기간과 기한은 구분합니다."
   },
-  "search_shard": "reference",
-  "search_position": 131,
-  "legacy_compatibility_dates": [
-    {
-      "path": [
-        "source_basis_dates",
-        0
-      ],
-      "value": "2026-05-02 확인"
-    },
-    {
-      "path": [
-        "search_projection",
-        "source_basis_dates",
-        0
-      ],
-      "value": "2026-05-02 확인"
-    }
-  ],
-  "record_checksum": "sha256:9b8cbecc8e78f771e33bd6a539d2420bd507bd364ec5c42b26ed484a1a81697c"
+  "record_checksum": "sha256:6b69637e314f7cc0b4dbc503d28c54d59d65a6b1aaeded0b1f27c41d47f70b06"
 }
 ---
 
 # 부가가치세 일반과세자 2기 확정신고
 
-일반과세자의 제2기 과세기간은 7월 1일부터 12월 31일까지이고, 확정신고·납부기한은 다음 해 1월 1일부터 1월 25일까지입니다.
+일반과세자의 2기(7~12월) 확정신고는 원칙적으로 다음 해 1월 25일까지입니다. 폐업 등 별도 과세기간과 기한은 구분합니다.
+
+- **신고·납부기한**: 일반과세자의 2기(7~12월) 확정신고는 원칙적으로 다음 해 1월 25일까지입니다. 폐업 등 별도 과세기간과 기한은 구분합니다.

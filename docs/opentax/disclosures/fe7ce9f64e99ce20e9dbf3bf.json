@@ -2,6 +2,7 @@
   "id": "finance.card.credit-card.비씨카드.아시아나클럽카드-112244",
   "source_id": "source.bccard.credit-card-list",
   "text": "카드상품 신용카드 상세보기 [BC공통] 아시아나클럽카드 [BC공통] 아시아나클럽카드 BC Master Card VISA JCB 마일리지 1,000원당 1마일 적립 연회비 브랜드/등급별 상이 60.8% 39.2% 7.5% 35.4% 38.8% 0.0% 17.5% 롯데쇼핑주식회사 현대백화점 G마켓 준법심의L-21-1755 (2021.09.29) / VI 200603-35",
+  "scope": "official product detail text; numeric rule extraction pending",
   "receipt": {
     "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=112244&mbkNo=999",
     "final_url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=112244&mbkNo=999",

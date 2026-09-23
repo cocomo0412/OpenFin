@@ -51,5 +51,6 @@
   "provider_disclosure_urls": [
     "https://www.lifeplanet.co.kr/disclosure/good/HPDA01S0.dev"
   ],
-  "document_scope": "comparison-disclosure attachments; full policy terms not verified"
+  "document_scope": "comparison-disclosure attachments; full policy terms not verified",
+  "policy_documents": []
 }

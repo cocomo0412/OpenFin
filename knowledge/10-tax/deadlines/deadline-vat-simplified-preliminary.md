@@ -1,212 +1,138 @@
 ---
 {
+  "deadlines": [],
+  "folder": "50_Deadlines",
+  "basis_year": 2026,
   "id": "deadline.vat.simplified.preliminary",
   "title": "부가가치세 간이과세자 예정신고 예외",
   "type": "deadline",
-  "description": "직전연도 공급대가 4,800만원 이상 1억400만원 미만인 간이과세자가 예정부과기간에 세금계산서를 발급한 경우 7월 1일부터 7월 25일까지 예정신고합니다.",
-  "folder": "50_Deadlines",
-  "basis_year": 2026,
-  "effective_date": null,
-  "expiration_date": null,
-  "reviewed_at": "2026-05-04",
-  "source_urls": [
-    "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7806"
-  ],
-  "source_basis_dates": [
-    "2026-05-02T00:00:00.000Z"
-  ],
-  "abolition_status": "active",
-  "revision_status": "none_announced",
+  "description": "예정부과기간에 법정 세금계산서를 발급한 간이과세자는 그 기간 종료 후 25일 이내에 예정신고합니다. 2026년 7월의 휴일 조정 기한은 7월 27일입니다.",
   "parents": [
     "category.filing-calendar"
   ],
   "children": [],
   "related": [],
   "terms": [],
-  "deadlines": [],
-  "sources": [
-    "source.nts.vat.filing-duty"
-  ],
-  "law_reference": "",
   "tags": [
     "deadline"
   ],
-  "start_date": "2026-07-01",
-  "end_date": "2026-07-25",
-  "recurrence": {
-    "frequency": "annual",
-    "anchor": "간이과세자 예정부과기간",
-    "period": "1월 1일~6월 30일",
-    "start_rule": "7월 1일",
-    "due_rule": "7월 25일까지",
-    "special_rule": "직전연도 공급대가 4,800만원 이상 1억400만원 미만이고 예정부과기간에 세금계산서를 발급한 경우"
-  },
-  "provenance_shard": "reference",
-  "source_registry_id": "source.nts.vat.filing-duty",
-  "source_registry_status": "registered",
-  "provenance": [
-    {
-      "source_id": "source.nts.vat.filing-duty",
-      "original_url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7806",
-      "source_record_id": null,
-      "locator": null,
-      "supported_fields": [
-        "title",
-        "type",
-        "description",
-        "folder",
-        "basis_year",
-        "reviewed_at",
-        "abolition_status",
-        "revision_status",
-        "law_reference",
-        "start_date",
-        "end_date",
-        "recurrence",
-        "provenance_shard",
-        "source_registry_id",
-        "source_registry_status"
-      ],
-      "source_published_at": null,
-      "source_modified_at": null,
-      "collected_at": "2026-05-04T00:00:00.000Z",
-      "reviewed_at": "2026-05-04T00:00:00.000Z",
-      "valid_from": null,
-      "valid_to": null,
-      "checksum": null,
-      "checksum_scope": null,
-      "verification_status": "reference_only"
-    }
-  ],
   "publication_memberships": [
     "korea-tax-ontology-2026.json"
+  ],
+  "search_shard": "reference",
+  "status": "reference_only",
+  "sales_status": "unknown",
+  "recommendation_status": "reference_only",
+  "recommendation_scope": "listing_only",
+  "comparison_engine_gate_passed": false,
+  "domain_gate_passed": false,
+  "start_date": "2026-07-01",
+  "end_date": "2026-07-27",
+  "recurrence": {
+    "frequency": "annual",
+    "anchor": "1월 1일~6월 30일 예정부과기간",
+    "start_rule": "7월 1일",
+    "due_rule": "기간 종료 후 25일; 휴일 등 기한 특례 적용",
+    "special_rule": "부가가치세법 제32조 또는 제36조 제3항에 따라 예정부과기간에 세금계산서를 발급한 간이과세자"
+  },
+  "criteria": [
+    {
+      "label": "신고·납부기한",
+      "condition": "예정부과기간에 법정 세금계산서를 발급한 간이과세자는 그 기간 종료 후 25일 이내에 예정신고합니다. 2026년 7월의 휴일 조정 기한은 7월 27일입니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.value-added-tax-act.filing",
+      "criteria_kind": "disclosure"
+    }
+  ],
+  "sources": [
+    "source.law.value-added-tax-act.filing",
+    "source.nts.tax-calendar.2026"
+  ],
+  "source_urls": [
+    "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276117&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+    "https://www.nts.go.kr/nts/ad/taxSchdul/selectList.do?mi=135747&taxYear=2026&taxMonth=07"
+  ],
+  "collected_at": "2026-09-23T08:26:24.306633+00:00",
+  "source_collected_at": "2026-09-23T08:26:24.306633+00:00",
+  "last_source_checked_at": "2026-09-23T08:26:24.306633+00:00",
+  "last_reviewed_at": "2026-09-23T08:26:24.306633+00:00",
+  "reviewed_at": "2026-09-23T08:26:24.306633+00:00",
+  "refresh_generation": "2026-09-23T08:26:24.306633+00:00",
+  "review_scope": "공식 공시의 식별자·본문·필드 연결 확인",
+  "source_listing_status": "listed",
+  "source_freshness_status": "current",
+  "freshness_status": "current",
+  "verification_status": "listing_only",
+  "sales_verification_status": "listed_unverified",
+  "current_disclosure": {
+    "path": "opentax/disclosures/6fc6f1a9d6f0132e002fafbd.json",
+    "checksum": "sha256:e400e38ce59bbacff5f88326452ef057d749b82f7621a6a0b42bf0ad1618f9b5",
+    "checksum_scope": "normalized-disclosure-json",
+    "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276117&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+    "collected_at": "2026-09-23T08:26:24.306633+00:00"
+  },
+  "provenance": [
+    {
+      "source_id": "source.law.value-added-tax-act.filing",
+      "original_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276117&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+      "source_record_id": "deadline.vat.simplified.preliminary",
+      "collected_at": "2026-09-23T08:26:24.306633+00:00",
+      "reviewed_at": "2026-09-23T08:26:24.306633+00:00",
+      "checksum": "sha256:5184bc889a7758b16e563761bb6f3f77e87860e9b82d856b6e2e3d2239900879",
+      "checksum_scope": "official-disclosure-response",
+      "verification_status": "listing_only",
+      "supported_fields": [
+        "title",
+        "description",
+        "criteria",
+        "current_disclosure"
+      ],
+      "locator": {
+        "kind": "record-id",
+        "value": "deadline.vat.simplified.preliminary"
+      }
+    },
+    {
+      "source_id": "source.nts.tax-calendar.2026",
+      "original_url": "https://www.nts.go.kr/nts/ad/taxSchdul/selectList.do?mi=135747&taxYear=2026&taxMonth=07",
+      "collected_at": "2026-09-23T12:24:10.387077+00:00",
+      "reviewed_at": "2026-09-23T12:24:10.387077+00:00",
+      "checksum": "sha256:d4382e992844140f99c4dbefdf1caed88bf3cc0dda855108629f45007fc64367",
+      "checksum_scope": "official-calendar-response",
+      "verification_status": "reference_only",
+      "supported_fields": [
+        "description",
+        "end_date",
+        "recurrence"
+      ]
+    }
   ],
   "search_projection": {
     "id": "deadline.vat.simplified.preliminary",
     "title": "부가가치세 간이과세자 예정신고 예외",
     "type": "deadline",
-    "description": "직전연도 공급대가 4,800만원 이상 1억400만원 미만인 간이과세자가 예정부과기간에 세금계산서를 발급한 경우 7월 1일부터 7월 25일까지 예정신고합니다.",
-    "provider": null,
-    "product_kind": null,
-    "search_type": null,
-    "product_status": null,
-    "sales_status": null,
-    "source_listing_status": null,
-    "sales_verification_status": null,
-    "sales_verified_at": null,
-    "condition_verification_status": null,
-    "source_freshness_status": null,
-    "status": null,
-    "status_reason": null,
-    "recommendation_status": null,
-    "recommendation_scope": null,
-    "catalog_recommendation_status": null,
-    "catalog_recommendation_scope": null,
-    "canonical_product_id": null,
-    "resolved_canonical_product_id": null,
-    "external_product_ids": [],
-    "provider_external_ids": [],
-    "provider_roles": [],
-    "source_records": [],
-    "preferred_source": null,
-    "merged_fields": {},
-    "field_provenance": {},
-    "field_conflicts": {},
-    "recommendation_model_version": "openfin-recommendation-v0.1.0",
-    "recommendation_exclusion_reasons": [],
-    "recommendation_basis_fields": [],
-    "verification_evidence": null,
-    "verification_status": null,
-    "quality_flags": [],
-    "last_verified_at": null,
-    "last_source_checked_at": null,
-    "last_reviewed_at": null,
-    "public_recommendation_exclusion_reasons": [],
-    "comparison_exclusion_reasons": [],
-    "discovery_limitations": [],
-    "missing_required_fields": [],
-    "missing_in_source_fields": [],
-    "unmapped_existing_fields": [],
-    "unverified_fields": [],
-    "discovery_evidence_fields": [],
-    "completeness_ratio": null,
-    "source_completeness_ratio": null,
-    "normalized_completeness_ratio": null,
-    "verified_completeness_ratio": null,
-    "required_field_count": null,
-    "completed_field_count": null,
-    "domain_gate_passed": null,
-    "comparison_engine_gate_passed": null,
-    "comparison_field_verification_status": null,
-    "comparison_field_verification": {},
-    "comparison_basis_fields": [],
-    "comparison_options": [],
-    "application_status": null,
-    "is_currently_applicable": null,
-    "application_open_from": null,
-    "application_open_to": null,
-    "application_window": {},
-    "jurisdiction": null,
-    "jurisdiction_code": null,
-    "jurisdiction_aliases": [],
-    "parent_jurisdiction_code": null,
-    "administrative_history": [],
-    "target_group": [],
-    "support_category": [],
-    "last_status_checked_at": null,
-    "freshness_status": null,
-    "collection_status": null,
-    "legacy_ids": [],
-    "search_aliases": [],
-    "aliases": [],
-    "export_id": "tax-ontology",
-    "source_checksum": null,
+    "description": "예정부과기간에 법정 세금계산서를 발급한 간이과세자는 그 기간 종료 후 25일 이내에 예정신고합니다. 2026년 7월의 휴일 조정 기한은 7월 27일입니다.",
+    "status": "reference_only",
+    "sales_status": "unknown",
     "source_urls": [
-      "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7806"
+      "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276117&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+      "https://www.nts.go.kr/nts/ad/taxSchdul/selectList.do?mi=135747&taxYear=2026&taxMonth=07"
     ],
-    "source_basis_dates": [
-      "2026-05-02T00:00:00.000Z"
-    ],
-    "structured_summary": {
-      "rates": {},
-      "limits": {},
-      "periods": {},
-      "card": {},
-      "insurance": {},
-      "support": {
-        "application_window": {}
-      }
-    },
-    "search_facets": {},
-    "search_text": "deadline.vat.simplified.preliminary 부가가치세 간이과세자 예정신고 예외 deadline 직전연도 공급대가 4,800만원 이상 1억400만원 미만인 간이과세자가 예정부과기간에 세금계산서를 ",
-    "provenance_shard": "reference",
+    "freshness_status": "current",
+    "recommendation_status": "reference_only",
+    "recommendation_scope": "listing_only",
     "source_ids": [
-      "source.nts.vat.filing-duty"
-    ]
+      "source.law.value-added-tax-act.filing"
+    ],
+    "export_id": "tax-ontology",
+    "search_text": "부가가치세 간이과세자 예정신고 예외 예정부과기간에 법정 세금계산서를 발급한 간이과세자는 그 기간 종료 후 25일 이내에 예정신고합니다. 2026년 7월의 휴일 조정 기한은 7월 27일입니다."
   },
-  "search_shard": "reference",
-  "search_position": 134,
-  "legacy_compatibility_dates": [
-    {
-      "path": [
-        "source_basis_dates",
-        0
-      ],
-      "value": "2026-05-02 확인"
-    },
-    {
-      "path": [
-        "search_projection",
-        "source_basis_dates",
-        0
-      ],
-      "value": "2026-05-02 확인"
-    }
-  ],
-  "record_checksum": "sha256:85591916dd30f135890d0e2f2b5db32ff16930396774d937b2ae7ca9b2ed6f3d"
+  "record_checksum": "sha256:d06971a6f26b52e4c393cc7387c0f65f1f807f6839499ba0ad86ea09fd664dd5"
 }
 ---
 
 # 부가가치세 간이과세자 예정신고 예외
 
-직전연도 공급대가 4,800만원 이상 1억400만원 미만인 간이과세자가 예정부과기간에 세금계산서를 발급한 경우 7월 1일부터 7월 25일까지 예정신고합니다.
+예정부과기간에 법정 세금계산서를 발급한 간이과세자는 그 기간 종료 후 25일 이내에 예정신고합니다. 2026년 7월의 휴일 조정 기한은 7월 27일입니다.
+
+- **신고·납부기한**: 예정부과기간에 법정 세금계산서를 발급한 간이과세자는 그 기간 종료 후 25일 이내에 예정신고합니다. 2026년 7월의 휴일 조정 기한은 7월 27일입니다.

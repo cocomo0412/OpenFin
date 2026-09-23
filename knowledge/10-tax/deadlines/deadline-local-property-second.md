@@ -1,24 +1,12 @@
 ---
 {
+  "deadlines": [],
+  "folder": "50_Deadlines",
+  "basis_year": 2026,
   "id": "deadline.local.property.second",
   "title": "재산세 2기분 납기",
   "type": "deadline",
-  "description": "주택분 산출세액의 나머지 2분의 1과 토지에 대한 재산세 납기는 매년 9월 16일부터 9월 30일까지입니다.",
-  "folder": "50_Deadlines",
-  "basis_year": 2026,
-  "effective_date": null,
-  "expiration_date": null,
-  "reviewed_at": "2026-07-28",
-  "source_urls": [
-    "https://www.law.go.kr/법령/지방세법",
-    "https://www.wetax.go.kr/tcp/loi/J030104M01.do"
-  ],
-  "source_basis_dates": [
-    "2026-07-28T00:00:00.000Z",
-    "2026-07-28T00:00:00.000Z"
-  ],
-  "abolition_status": "active",
-  "revision_status": "none_announced",
+  "description": "토지분과 주택분 나머지 절반의 재산세 납기는 9월 16~30일입니다. 주택 소액 세액을 조례에 따라 7월에 전액 부과한 경우는 구분합니다.",
   "parents": [
     "category.filing-calendar"
   ],
@@ -27,208 +15,108 @@
     "local.property"
   ],
   "terms": [],
-  "deadlines": [],
-  "sources": [
-    "source.law.local-tax-act.rates",
-    "source.wetax.local-tax-calendar"
-  ],
-  "law_reference": "지방세법 제115조",
   "tags": [
     "deadline"
   ],
+  "publication_memberships": [
+    "korea-tax-ontology-2026.json"
+  ],
+  "search_shard": "reference",
+  "status": "reference_only",
+  "sales_status": "unknown",
+  "recommendation_status": "reference_only",
+  "recommendation_scope": "listing_only",
+  "comparison_engine_gate_passed": false,
+  "domain_gate_passed": false,
   "start_date": "2026-09-16",
   "end_date": "2026-09-30",
   "recurrence": {
     "frequency": "annual",
     "anchor": "과세기준일 6월 1일",
-    "period": "매년 9월",
     "start_rule": "9월 16일",
-    "due_rule": "9월 30일까지"
+    "due_rule": "9월 30일"
   },
-  "provenance_shard": "reference",
-  "source_registry_id": "source.law.local-tax-act.rates",
-  "source_registry_status": "registered",
+  "criteria": [
+    {
+      "label": "신고·납부기한",
+      "condition": "토지분과 주택분 나머지 절반의 재산세 납기는 9월 16~30일입니다. 주택 소액 세액을 조례에 따라 7월에 전액 부과한 경우는 구분합니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.local-tax-act.rates",
+      "criteria_kind": "disclosure"
+    }
+  ],
+  "sources": [
+    "source.law.local-tax-act.rates"
+  ],
+  "source_urls": [
+    "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=282559&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0"
+  ],
+  "collected_at": "2026-09-23T08:26:22.571307+00:00",
+  "source_collected_at": "2026-09-23T08:26:22.571307+00:00",
+  "last_source_checked_at": "2026-09-23T08:26:22.571307+00:00",
+  "last_reviewed_at": "2026-09-23T08:26:22.571307+00:00",
+  "reviewed_at": "2026-09-23T08:26:22.571307+00:00",
+  "refresh_generation": "2026-09-23T08:26:22.571307+00:00",
+  "review_scope": "공식 공시의 식별자·본문·필드 연결 확인",
+  "source_listing_status": "listed",
+  "source_freshness_status": "current",
+  "freshness_status": "current",
+  "verification_status": "listing_only",
+  "sales_verification_status": "listed_unverified",
+  "current_disclosure": {
+    "path": "opentax/disclosures/6dfd40ab60ee93951a31a67b.json",
+    "checksum": "sha256:ff7f68292086f74be606cc14a5731efb6335bd7b7263b50388826f8f58346b9a",
+    "checksum_scope": "normalized-disclosure-json",
+    "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=282559&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+    "collected_at": "2026-09-23T08:26:22.571307+00:00"
+  },
   "provenance": [
     {
       "source_id": "source.law.local-tax-act.rates",
-      "original_url": "https://www.law.go.kr/법령/지방세법",
-      "source_record_id": null,
-      "locator": null,
+      "original_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=282559&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+      "source_record_id": "deadline.local.property.second",
+      "collected_at": "2026-09-23T08:26:22.571307+00:00",
+      "reviewed_at": "2026-09-23T08:26:22.571307+00:00",
+      "checksum": "sha256:9f5ef4724aa36b1f62bd0e36aa912309144e85c3e1bc880c960e66d467418995",
+      "checksum_scope": "official-disclosure-response",
+      "verification_status": "listing_only",
       "supported_fields": [
         "title",
-        "type",
         "description",
-        "folder",
-        "basis_year",
-        "reviewed_at",
-        "abolition_status",
-        "revision_status",
-        "law_reference",
-        "start_date",
-        "end_date",
-        "recurrence",
-        "provenance_shard",
-        "source_registry_id",
-        "source_registry_status"
+        "criteria",
+        "current_disclosure"
       ],
-      "source_published_at": null,
-      "source_modified_at": null,
-      "collected_at": "2026-07-28T00:00:00.000Z",
-      "reviewed_at": "2026-07-28T00:00:00.000Z",
-      "valid_from": null,
-      "valid_to": null,
-      "checksum": null,
-      "checksum_scope": null,
-      "verification_status": "reference_only"
-    },
-    {
-      "source_id": "source.wetax.local-tax-calendar",
-      "original_url": "https://www.wetax.go.kr/tcp/loi/J030104M01.do",
-      "source_record_id": null,
-      "locator": null,
-      "supported_fields": [
-        "title",
-        "type",
-        "description",
-        "folder",
-        "basis_year",
-        "reviewed_at",
-        "abolition_status",
-        "revision_status",
-        "law_reference",
-        "start_date",
-        "end_date",
-        "recurrence",
-        "provenance_shard",
-        "source_registry_id",
-        "source_registry_status"
-      ],
-      "source_published_at": null,
-      "source_modified_at": null,
-      "collected_at": "2026-07-28T00:00:00.000Z",
-      "reviewed_at": "2026-07-28T00:00:00.000Z",
-      "valid_from": null,
-      "valid_to": null,
-      "checksum": null,
-      "checksum_scope": null,
-      "verification_status": "reference_only"
+      "locator": {
+        "kind": "record-id",
+        "value": "deadline.local.property.second"
+      }
     }
-  ],
-  "publication_memberships": [
-    "korea-tax-ontology-2026.json"
   ],
   "search_projection": {
     "id": "deadline.local.property.second",
     "title": "재산세 2기분 납기",
     "type": "deadline",
-    "description": "주택분 산출세액의 나머지 2분의 1과 토지에 대한 재산세 납기는 매년 9월 16일부터 9월 30일까지입니다.",
-    "provider": null,
-    "product_kind": null,
-    "search_type": null,
-    "product_status": null,
-    "sales_status": null,
-    "source_listing_status": null,
-    "sales_verification_status": null,
-    "sales_verified_at": null,
-    "condition_verification_status": null,
-    "source_freshness_status": null,
-    "status": null,
-    "status_reason": null,
-    "recommendation_status": null,
-    "recommendation_scope": null,
-    "catalog_recommendation_status": null,
-    "catalog_recommendation_scope": null,
-    "canonical_product_id": null,
-    "resolved_canonical_product_id": null,
-    "external_product_ids": [],
-    "provider_external_ids": [],
-    "provider_roles": [],
-    "source_records": [],
-    "preferred_source": null,
-    "merged_fields": {},
-    "field_provenance": {},
-    "field_conflicts": {},
-    "recommendation_model_version": "openfin-recommendation-v0.1.0",
-    "recommendation_exclusion_reasons": [],
-    "recommendation_basis_fields": [],
-    "verification_evidence": null,
-    "verification_status": null,
-    "quality_flags": [],
-    "last_verified_at": null,
-    "last_source_checked_at": null,
-    "last_reviewed_at": null,
-    "public_recommendation_exclusion_reasons": [],
-    "comparison_exclusion_reasons": [],
-    "discovery_limitations": [],
-    "missing_required_fields": [],
-    "missing_in_source_fields": [],
-    "unmapped_existing_fields": [],
-    "unverified_fields": [],
-    "discovery_evidence_fields": [],
-    "completeness_ratio": null,
-    "source_completeness_ratio": null,
-    "normalized_completeness_ratio": null,
-    "verified_completeness_ratio": null,
-    "required_field_count": null,
-    "completed_field_count": null,
-    "domain_gate_passed": null,
-    "comparison_engine_gate_passed": null,
-    "comparison_field_verification_status": null,
-    "comparison_field_verification": {},
-    "comparison_basis_fields": [],
-    "comparison_options": [],
-    "application_status": null,
-    "is_currently_applicable": null,
-    "application_open_from": null,
-    "application_open_to": null,
-    "application_window": {},
-    "jurisdiction": null,
-    "jurisdiction_code": null,
-    "jurisdiction_aliases": [],
-    "parent_jurisdiction_code": null,
-    "administrative_history": [],
-    "target_group": [],
-    "support_category": [],
-    "last_status_checked_at": null,
-    "freshness_status": null,
-    "collection_status": null,
-    "legacy_ids": [],
-    "search_aliases": [],
-    "aliases": [],
-    "export_id": "tax-ontology",
-    "source_checksum": null,
+    "description": "토지분과 주택분 나머지 절반의 재산세 납기는 9월 16~30일입니다. 주택 소액 세액을 조례에 따라 7월에 전액 부과한 경우는 구분합니다.",
+    "status": "reference_only",
+    "sales_status": "unknown",
     "source_urls": [
-      "https://www.law.go.kr/법령/지방세법",
-      "https://www.wetax.go.kr/tcp/loi/J030104M01.do"
+      "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=282559&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0"
     ],
-    "source_basis_dates": [
-      "2026-07-28T00:00:00.000Z",
-      "2026-07-28T00:00:00.000Z"
-    ],
-    "structured_summary": {
-      "rates": {},
-      "limits": {},
-      "periods": {},
-      "card": {},
-      "insurance": {},
-      "support": {
-        "application_window": {}
-      }
-    },
-    "search_facets": {},
-    "search_text": "deadline.local.property.second 재산세 2기분 납기 deadline 주택분 산출세액의 나머지 2분의 1과 토지에 대한 재산세 납기는 매년 9월 16일부터 9월 30일까지입니다.",
-    "provenance_shard": "reference",
+    "freshness_status": "current",
+    "recommendation_status": "reference_only",
+    "recommendation_scope": "listing_only",
     "source_ids": [
-      "source.law.local-tax-act.rates",
-      "source.wetax.local-tax-calendar"
-    ]
+      "source.law.local-tax-act.rates"
+    ],
+    "export_id": "tax-ontology",
+    "search_text": "재산세 2기분 납기 토지분과 주택분 나머지 절반의 재산세 납기는 9월 16~30일입니다. 주택 소액 세액을 조례에 따라 7월에 전액 부과한 경우는 구분합니다."
   },
-  "search_shard": "reference",
-  "search_position": 704,
-  "record_checksum": "sha256:ec73f82f20db01c5999a1e48891188a50aa6760cd3e12339f6f124f471fa6863"
+  "record_checksum": "sha256:03f018520d44b6930cf6dd5963849e620d84cf491702bbdd9fb9c1d777363acf"
 }
 ---
 
 # 재산세 2기분 납기
 
-주택분 산출세액의 나머지 2분의 1과 토지에 대한 재산세 납기는 매년 9월 16일부터 9월 30일까지입니다.
+토지분과 주택분 나머지 절반의 재산세 납기는 9월 16~30일입니다. 주택 소액 세액을 조례에 따라 7월에 전액 부과한 경우는 구분합니다.
+
+- **신고·납부기한**: 토지분과 주택분 나머지 절반의 재산세 납기는 9월 16~30일입니다. 주택 소액 세액을 조례에 따라 7월에 전액 부과한 경우는 구분합니다.

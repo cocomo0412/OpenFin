@@ -223,7 +223,7 @@
     "source_review_date": "2026-07-10",
     "collection_dates": [],
     "product_collection_dates": [],
-    "export_checksum": "5a94720a7046b63947dda2b9b8e33c6113464bb5fcf66534400d8260073506d4",
+    "export_checksum": "a6d97c186b95bef86bfcaccbfb73d87f36bde5e13c45ceabf0ca13176ee7b980",
     "description": "MCP search 전용 경량 인덱스입니다.",
     "shards": [
       {
@@ -253,8 +253,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-search-index-2026-card-products-compact.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-search-index-2026-card-products-compact.json",
         "item_count": 1007,
-        "export_checksum": "6865b4ff2fe21af422cbbf8bb2ee673a8622f62fd5781a126010904ca73010e9",
-        "content_checksum": "879439724fc50098be20574208748fd484ba8da703a9fb1e225836828fc96992"
+        "export_checksum": "6bd89bc5b3aa4142851d07b8431a1368d75e0d45d5e1a0bba4b62ab52d6c41aa",
+        "content_checksum": "fec1357e731cc169e1e30537f89c4ef9f464c1a2880b6880e650b8b6c95a65b8"
       },
       {
         "id": "finance-search-index-deposit-protection-compact",
@@ -293,8 +293,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-search-index-2026-reference-compact.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-search-index-2026-reference-compact.json",
         "item_count": 18051,
-        "export_checksum": "89ea3ca7d90384f39b6e6bf5634c2db7c6a2414f1bc148dd74ded4ae90355610",
-        "content_checksum": "61dced573161efaca3dac992615e513d0c18a6c8fbc34ed073219c6e3b90428a"
+        "export_checksum": "f48e25bee07e9e28ee2e55114524328bf0633bdb0301ee8087765c5032de2a7e",
+        "content_checksum": "54b9cd2b5e1891c8e6756ea0852f2f4445ea782c48739aed00b323d6ff021fcf"
       },
       {
         "id": "finance-search-index-support-compact",
@@ -310,7 +310,7 @@
     "canonical_product_count": 53292,
     "duplicate_canonical_product_count": 0,
     "canonical_merge_count": 49,
-    "content_checksum": "79dfb968a84e3cf08f998b0487a296580d3e06983238f0b192580a5593e22cb8"
+    "content_checksum": "211d71d3aa07d4fd541d27952dd6ac05936273b8a9853c2cf88ef33d76ac9c0d"
   },
   "quality_exports": [
     {
@@ -324,7 +324,7 @@
       "source_review_date": "2026-07-10",
       "collection_dates": [],
       "product_collection_dates": [],
-      "export_checksum": "857fe9eb2f11a5c267b1b487d4f24e531dd1abe75491d6974022c6be20412e8f",
+      "export_checksum": "4b021e86e4c9f4d4969f7bf573f85b4fafe20e64a9a0bbef97e20aff6a9fa532",
       "description": "도메인별 품질 요약, 검색 회귀테스트, 출처 리스크, checksum을 모은 운영 감사 manifest입니다.",
       "generated_at": "2026-09-23T07:29:03.565Z"
     },
@@ -354,7 +354,7 @@
       "source_review_date": "2026-07-10",
       "collection_dates": [],
       "product_collection_dates": [],
-      "export_checksum": "26cdb817c95bd40343f07235e9fd7af4554f228901ad236e047d4814edc41772",
+      "export_checksum": "0cc3a9b65dafbbc0d72a96eacf161fbbb2518fbfdba5195805dd12329f7ae57b",
       "description": "OpenFin 품질 하위 리포트입니다.",
       "generated_at": "2026-09-23T07:29:03.565Z"
     },
@@ -369,7 +369,7 @@
       "source_review_date": "2026-07-10",
       "collection_dates": [],
       "product_collection_dates": [],
-      "export_checksum": "444c72acaf9c551acb69de30dbf50e141093642f0006def84cd542645375c515",
+      "export_checksum": "ab96ec91a1e008d5a93fc2e392bace11306c34bb65299df1165380a29ab63661",
       "description": "OpenFin 품질 하위 리포트입니다.",
       "generated_at": "2026-09-23T07:29:03.565Z"
     },
@@ -384,7 +384,7 @@
       "source_review_date": "2026-07-10",
       "collection_dates": [],
       "product_collection_dates": [],
-      "export_checksum": "acb892be00ea01c2c752003a4564235f5f8c2e450ab1949fd43ab61dc0dbcd32",
+      "export_checksum": "a8f41d322c9d384a8ced6299f76febb462c16dd77293e40149b8b4155cb95a12",
       "description": "OpenFin 품질 하위 리포트입니다.",
       "generated_at": "2026-09-23T07:29:03.565Z"
     },
@@ -399,7 +399,7 @@
       "source_review_date": "2026-07-10",
       "collection_dates": [],
       "product_collection_dates": [],
-      "export_checksum": "8e22627d3c2d44077f34b9aab63913f27f0938fe915adb47dab37300d3d018a2",
+      "export_checksum": "b92cbe7364abc998b851b6792cbfe5fa978138068a79c0ae0b53ea10a53a025c",
       "description": "OpenFin 품질 하위 리포트입니다.",
       "generated_at": "2026-09-23T07:29:03.565Z"
     },
@@ -414,7 +414,7 @@
       "source_review_date": "2026-07-10",
       "collection_dates": [],
       "product_collection_dates": [],
-      "export_checksum": "23d45cc378c9b260940fcc66af9b1ce82be203ee919187e109c864ba498c2447",
+      "export_checksum": "603b9d7eea5a30f7ac0b06409cb24252b004c29cd2ec0f204874a2896b0ac9de",
       "description": "OpenFin 품질 하위 리포트입니다.",
       "generated_at": "2026-09-23T07:29:03.565Z"
     },
@@ -429,7 +429,7 @@
       "source_review_date": "2026-07-10",
       "collection_dates": [],
       "product_collection_dates": [],
-      "export_checksum": "79c4c3a3f7c44e3d25cd3d8da62d31281957cefceaeef8cf75ecac46f7baedcf",
+      "export_checksum": "685acf6d1ca8f9bf50e0ce04531aef9b00f8d4c30ec0aaf945c8eb47d3ccddd2",
       "description": "OpenFin 품질 하위 리포트입니다.",
       "generated_at": "2026-09-23T07:29:03.565Z"
     },
@@ -444,7 +444,7 @@
       "source_review_date": "2026-07-10",
       "collection_dates": [],
       "product_collection_dates": [],
-      "export_checksum": "ff5e30c4f2747e895cea339ba08e10ac6dce7756d7b00c258e5128f5094af8c5",
+      "export_checksum": "a51ce203d6f3f7e54783631a2fec2e3749d8bfd8181135e4383fff1a99bc9951",
       "description": "OpenFin 품질 하위 리포트입니다.",
       "generated_at": "2026-09-23T07:29:03.565Z"
     },
@@ -456,7 +456,7 @@
       "web_url": "https://cocomo0412.github.io/OpenFin/opentax/openfin-provenance-coverage-report-2026.json",
       "item_count": 1,
       "generated_at": "2026-09-23T07:29:03.565Z",
-      "export_checksum": "568bd6570edf78b8b202930a235c67c58fda50c89497b6d45778cfee47b6784b",
+      "export_checksum": "44f4e81348807fb0880a5dc8e9ad974184b7d108bd8f73697aa4460c74be1ac6",
       "coverage": {
         "external_provenance_coverage_ratio": 1,
         "status": "ready"
@@ -480,11 +480,11 @@
       "product_collection_dates": [
         "2026-09-23"
       ],
-      "export_checksum": "4c58989bc08781af3fb2b2886a0c129b7aa7f1f4ad31cb0d2df069666834e1b6",
+      "export_checksum": "4bede5b75fe6254d1d278c6f271ef189762de89986510bc1481190914f104bf9",
       "description": "세금, 공제, 신고기한, 중앙 정책지원 핵심 온톨로지입니다.",
       "reference_item_count": 3,
       "catalog_refresh": {
-        "count": 13,
+        "count": 64,
         "latest": "2026-09-23T08:40:37.994428+00:00",
         "scope": "공식 API·웹 공시의 필드·식별자 반영. 제공기관 기준일과 개별 검토 범위는 별도."
       }
@@ -530,12 +530,12 @@
         "2026-07-18",
         "2026-09-23"
       ],
-      "export_checksum": "dfee5ce7907c44afc4c5692e534bc09f3b7c2cb5acf90826110a09de3f01fd45",
+      "export_checksum": "92f5daa0927c3dc35e20ac96b173b2badd97f35fc7b2a66bd60685792bfb3ccf",
       "description": "신용카드·체크카드 혜택, 전월실적, 한도, 제외조건 온톨로지입니다.",
       "reference_item_count": 1,
       "catalog_refresh": {
-        "count": 986,
-        "latest": "2026-09-23T08:32:06.762509+00:00",
+        "count": 997,
+        "latest": "2026-09-23T10:13:39.925753+00:00",
         "scope": "공식 API·웹 공시의 필드·식별자 반영. 제공기관 기준일과 개별 검토 범위는 별도."
       }
     },
@@ -636,7 +636,7 @@
         "2026-07-18",
         "2026-09-23"
       ],
-      "export_checksum": "e1fffdf95fde182d96f8d6334cff2137ef920d0bc71a6e5037e7a85e6cc83d17",
+      "export_checksum": "a79a4662eb7bfb3340354c98a9b6d8f961f253051e3f98425573018e4934c348",
       "description": "보험료, 보장, 면책, 갱신, 약관 출처 온톨로지입니다.",
       "reference_item_count": 7,
       "catalog_refresh": {
@@ -941,7 +941,7 @@
       "web_url": "https://cocomo0412.github.io/OpenFin/opentax/openfin-provenance-index-2026.json",
       "item_count": 80612,
       "generated_at": "2026-09-23T07:29:03.565Z",
-      "export_checksum": "b628933c65d3b0956aa1a7791c5b4868910aa0a74c268f57f5545bf2ef70f9c1",
+      "export_checksum": "a57cfa500476203eba8b032ea99c08f43418a35e2c8f55d20b38e96793d32e50",
       "shards": [
         {
           "id": "openfin-provenance-account-products",
@@ -973,7 +973,7 @@
           "web_url": "https://cocomo0412.github.io/OpenFin/opentax/openfin-provenance-index-2026-card-products.json",
           "item_count": 1007,
           "generated_at": "2026-09-23T07:29:03.565Z",
-          "export_checksum": "ae3dac396eb259c6c508a3631ce8439faaa7c9682874de73de6db0233ad3dfd0",
+          "export_checksum": "a30cb6bbe8f3bdbce2a496dc0c7d758136fe4b82d2413a6740dfa9791c58f086",
           "shard_id": "card-products"
         },
         {
@@ -995,7 +995,7 @@
           "web_url": "https://cocomo0412.github.io/OpenFin/opentax/openfin-provenance-index-2026-insurance-products.json",
           "item_count": 1155,
           "generated_at": "2026-09-23T07:29:03.565Z",
-          "export_checksum": "fa259ac5395fec9038c65ed07beb5abe1c670fe704d960af859f2a423b8ad2ea",
+          "export_checksum": "b272cfc5f7567032b8e15e33363160b84a70804fe421257edf97fe0d29e58bb2",
           "shard_id": "insurance-products"
         },
         {
@@ -1017,7 +1017,7 @@
           "web_url": "https://cocomo0412.github.io/OpenFin/opentax/openfin-provenance-index-2026-reference.json",
           "item_count": 17893,
           "generated_at": "2026-09-23T07:29:03.565Z",
-          "export_checksum": "a525e10053a3698063017345f706d9bfe58be30bdc604a4c5b20477ffaf612a5",
+          "export_checksum": "3c0c6d03092dd6bbf0914aae643fec5f3fd5c2c42e6aee68052a8e57189fdbeb",
           "shard_id": "reference"
         },
         {
@@ -1041,7 +1041,7 @@
       "web_url": "https://cocomo0412.github.io/OpenFin/opentax/openfin-provenance-coverage-report-2026.json",
       "item_count": 1,
       "generated_at": "2026-09-23T07:29:03.565Z",
-      "export_checksum": "568bd6570edf78b8b202930a235c67c58fda50c89497b6d45778cfee47b6784b",
+      "export_checksum": "44f4e81348807fb0880a5dc8e9ad974184b7d108bd8f73697aa4460c74be1ac6",
       "coverage": {
         "external_provenance_coverage_ratio": 1,
         "status": "ready"
@@ -1053,9 +1053,9 @@
       "path": "opentax/openfin-relationship-index-2026.json",
       "url": "https://cocomo0412.github.io/OpenFin/opentax/openfin-relationship-index-2026.json",
       "web_url": "https://cocomo0412.github.io/OpenFin/opentax/openfin-relationship-index-2026.json",
-      "item_count": 220452,
+      "item_count": 220349,
       "generated_at": "2026-09-23T07:29:03.565Z",
-      "export_checksum": "ac81cbabadff673a981ecf6a282036727beb665fb170e28aa0b0f6b74a940589"
+      "export_checksum": "2f57aa28fde033e7db6a2b7d730e9bc829dcf79659995302b8cd2a3bb8ff30bd"
     },
     "migration_manifest": {
       "id": "openfin-migration-manifest",
@@ -1075,8 +1075,8 @@
       "url": "https://cocomo0412.github.io/OpenFin/opentax/openfin-decision-offers-2026.json",
       "web_url": "https://cocomo0412.github.io/OpenFin/opentax/openfin-decision-offers-2026.json",
       "item_count": 10,
-      "export_checksum": "34d9a17447ffe8b5b1641b785eb54e3bffd18d62fc031d0767e9dba3e0f65c4d",
-      "content_checksum": "9d595d8bbe3c55fdec241753aa278ac63a9a795d336597e78aff5c8695e9b070",
+      "export_checksum": "7c0b869e2b68d7a80cbb4f5b80d56e85ce26cb7fba84d81196e994c723aba621",
+      "content_checksum": "cdb2f234febb1b27d18005a4e33cf825bd05952b0cd4ca6d72a3190eb53ba362",
       "generated_at": "2026-09-23T07:29:03.565Z"
     },
     "live_regression_evidence": {
@@ -1087,7 +1087,7 @@
       "web_url": "https://cocomo0412.github.io/OpenFin/opentax/live-regression-current.json",
       "item_count": 1,
       "generated_at": "2026-09-23T07:29:03.565Z",
-      "export_checksum": "af8f0614cbf0502fd677d6f39fb21f0814904e557f5d00e1c06f01ecc22e6014",
+      "export_checksum": "fac1d164855ff2e7d9641a13eaef3d330f9405561fcf490da024d1a4a398a521",
       "source_path": "evidence/live-regression/current.json"
     }
   },
@@ -1100,7 +1100,7 @@
     "web_url": "https://cocomo0412.github.io/OpenFin/opentax/openfin-provenance-coverage-report-2026.json",
     "item_count": 1,
     "generated_at": "2026-09-23T07:29:03.565Z",
-    "export_checksum": "568bd6570edf78b8b202930a235c67c58fda50c89497b6d45778cfee47b6784b",
+    "export_checksum": "44f4e81348807fb0880a5dc8e9ad974184b7d108bd8f73697aa4460c74be1ac6",
     "coverage": {
       "external_provenance_coverage_ratio": 1,
       "status": "ready"
@@ -1134,7 +1134,7 @@
     "web_url": "https://cocomo0412.github.io/OpenFin/opentax/openfin-provenance-index-2026.json",
     "item_count": 80612,
     "generated_at": "2026-09-23T07:29:03.565Z",
-    "export_checksum": "b628933c65d3b0956aa1a7791c5b4868910aa0a74c268f57f5545bf2ef70f9c1",
+    "export_checksum": "a57cfa500476203eba8b032ea99c08f43418a35e2c8f55d20b38e96793d32e50",
     "shards": [
       {
         "id": "openfin-provenance-account-products",
@@ -1166,7 +1166,7 @@
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/openfin-provenance-index-2026-card-products.json",
         "item_count": 1007,
         "generated_at": "2026-09-23T07:29:03.565Z",
-        "export_checksum": "ae3dac396eb259c6c508a3631ce8439faaa7c9682874de73de6db0233ad3dfd0",
+        "export_checksum": "a30cb6bbe8f3bdbce2a496dc0c7d758136fe4b82d2413a6740dfa9791c58f086",
         "shard_id": "card-products"
       },
       {
@@ -1188,7 +1188,7 @@
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/openfin-provenance-index-2026-insurance-products.json",
         "item_count": 1155,
         "generated_at": "2026-09-23T07:29:03.565Z",
-        "export_checksum": "fa259ac5395fec9038c65ed07beb5abe1c670fe704d960af859f2a423b8ad2ea",
+        "export_checksum": "b272cfc5f7567032b8e15e33363160b84a70804fe421257edf97fe0d29e58bb2",
         "shard_id": "insurance-products"
       },
       {
@@ -1210,7 +1210,7 @@
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/openfin-provenance-index-2026-reference.json",
         "item_count": 17893,
         "generated_at": "2026-09-23T07:29:03.565Z",
-        "export_checksum": "a525e10053a3698063017345f706d9bfe58be30bdc604a4c5b20477ffaf612a5",
+        "export_checksum": "3c0c6d03092dd6bbf0914aae643fec5f3fd5c2c42e6aee68052a8e57189fdbeb",
         "shard_id": "reference"
       },
       {
@@ -1232,9 +1232,9 @@
     "path": "opentax/openfin-relationship-index-2026.json",
     "url": "https://cocomo0412.github.io/OpenFin/opentax/openfin-relationship-index-2026.json",
     "web_url": "https://cocomo0412.github.io/OpenFin/opentax/openfin-relationship-index-2026.json",
-    "item_count": 220452,
+    "item_count": 220349,
     "generated_at": "2026-09-23T07:29:03.565Z",
-    "export_checksum": "ac81cbabadff673a981ecf6a282036727beb665fb170e28aa0b0f6b74a940589"
+    "export_checksum": "2f57aa28fde033e7db6a2b7d730e9bc829dcf79659995302b8cd2a3bb8ff30bd"
   },
   "provenance_coverage_ratio": 1,
   "migration_manifest": {
@@ -1414,9 +1414,9 @@
       "schema_defined": true,
       "structural_value_completeness": 0,
       "required_field_total": 7049,
-      "value_complete_field_count": 15,
+      "value_complete_field_count": 4,
       "field_verified_count": 0,
-      "value_field_coverage": 0.0021279614129663784,
+      "value_field_coverage": 0.0005674563767910342,
       "reviewed_assertion_coverage": 0,
       "complete_field_count": 0,
       "verified_candidate_count": 0,
@@ -1431,7 +1431,7 @@
         "annual_fee_krw": 1007,
         "previous_month_spend_krw": 1007,
         "excluded_spend_conditions": 1007,
-        "benefit_rate_percent": 992,
+        "benefit_rate_percent": 1003,
         "monthly_benefit_limit_krw": 1007,
         "per_transaction_limit_krw": 1007,
         "benefit_overlap_policy": 1007
@@ -1443,7 +1443,7 @@
           "lineage": "source_receipt"
         },
         "normalized": {
-          "item_count": 21,
+          "item_count": 10,
           "status": "available",
           "lineage": "decision_snapshot"
         },
@@ -1670,7 +1670,7 @@
     "public_approval_receipt_missing",
     "recommendation_state_blocked"
   ],
-  "quality_hash": "b6c9bf07115d87dabcabf1ae58126dcc5c79565fb3f62fc7511ea22da38ff41d",
+  "quality_hash": "60f40423e1ce5f5c94dceb45ef989707b68580b98b81638a2fed626a48cc1914",
   "live_regression_policy": {
     "required_count": 120,
     "required_mode": "live",
@@ -1678,21 +1678,21 @@
   },
   "comparison_status": "limited",
   "recommendation_status": "blocked",
-  "generation_id": "260fdfc431cc133997eb06a953499be7025f8a47835d917abbe7ae955c54667a",
+  "generation_id": "1ce5ce02661106137abbf375333c95d4c236b4271903676040ade45be619f972",
   "deployment_commit": "875f06b7fb19e6603dbecee7cf45b53b1ac13e6d",
   "artifact_contract": {
     "version": "openfin-artifact-contract-v1",
     "readiness_schema_version": "openfin-readiness-v2",
-    "generation_id": "260fdfc431cc133997eb06a953499be7025f8a47835d917abbe7ae955c54667a",
+    "generation_id": "1ce5ce02661106137abbf375333c95d4c236b4271903676040ade45be619f972",
     "deployment_commit": "875f06b7fb19e6603dbecee7cf45b53b1ac13e6d",
-    "canonical_content_checksum": "cfda7c073cccebb41775c06c7734c539fc56b9083d2d8391ec4fc52a60df1439",
-    "search_index_checksum": "5a94720a7046b63947dda2b9b8e33c6113464bb5fcf66534400d8260073506d4",
+    "canonical_content_checksum": "9ca073e1de85868c1de7f5ffbe037bc8f2916a0d1ce62fdffc665a4165c26c6b",
+    "search_index_checksum": "a6d97c186b95bef86bfcaccbfb73d87f36bde5e13c45ceabf0ca13176ee7b980",
     "source_status_checksum": "e11d9df11be827ffbdc97f2e3d51f2dcaa65b90b11cbce27f77568591b9890bd",
     "release_policy_checksum": "095166ae1de036d809bcd40faea1eb64a5923de290d96ca4bede21b7f17ae269",
     "capability_policy_checksum": "dfb4b5d4bac533d2a34b9c5ff0117dd0c67b49ebd2ba8e4fba2bc3a21cb6e35f",
     "capability_status_checksum": "d0dbabb559477fb8c943ef76e48afb94665d9223594e2d41aed65c4ebeaecb79",
     "fixture_checksum": "sha256:1030ce9505034216880ef47384cea521cc76000089d4b32942ba53a68c2c7989",
-    "candidate_set_checksum": "sha256:7d4d05c6fc1fb0e884690af135a4037cb6ef9847ca34eea08ed2fb274963fd86",
+    "candidate_set_checksum": "sha256:0daf3b2543ef46ec91b776b9f3e981a09f9888cd30afe89473107f933c646255",
     "candidate_content_checksum_policy": "immutable_candidate_set_checksum",
     "quality_suite_transitive_checksum": "sha256:64b626ea6c32bd2a9cd6e950df5c26245c907c8eabbb72540c423c4e401ecef5"
   },
@@ -1708,8 +1708,8 @@
     "url": "https://cocomo0412.github.io/OpenFin/opentax/openfin-decision-offers-2026.json",
     "web_url": "https://cocomo0412.github.io/OpenFin/opentax/openfin-decision-offers-2026.json",
     "item_count": 10,
-    "export_checksum": "34d9a17447ffe8b5b1641b785eb54e3bffd18d62fc031d0767e9dba3e0f65c4d",
-    "content_checksum": "9d595d8bbe3c55fdec241753aa278ac63a9a795d336597e78aff5c8695e9b070",
+    "export_checksum": "7c0b869e2b68d7a80cbb4f5b80d56e85ce26cb7fba84d81196e994c723aba621",
+    "content_checksum": "cdb2f234febb1b27d18005a4e33cf825bd05952b0cd4ca6d72a3190eb53ba362",
     "generated_at": "2026-09-23T07:29:03.565Z"
   },
   "capabilities": {
@@ -1790,7 +1790,7 @@
     "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-search-index-2026.json",
     "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-search-index-2026.json",
     "item_count": 80770,
-    "export_checksum": "c5e9d8bb623530ac9aa3e00963f5c403c9da0908b27800a8741b3e9949d4bf1f",
+    "export_checksum": "d30b6ff6f7928ff827ea4cedd5bbb4df6fc9117c1b0bc8b0b14fada28dad219d",
     "shards": [
       {
         "id": "finance-search-index-account-products",
@@ -1819,8 +1819,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-search-index-2026-card-products.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-search-index-2026-card-products.json",
         "item_count": 1007,
-        "export_checksum": "350c497032dab8f182fa2fd6dc6025ca5e1f5c60c8e22bbcf7b6fa8f58ae925e",
-        "content_checksum": "2c84b09c2edd44342d635501da1c4b949056b07bfd7dd9f342c687ab22357e45"
+        "export_checksum": "c0c366d369faba0c1de23eb8a5177cdfb750bd53f7f42e69263d65c0c5c05229",
+        "content_checksum": "b0b57dc307f9a1cec2cda9ca2438742844edff49deecf30aef2288acee33c7c0"
       },
       {
         "id": "finance-search-index-deposit-protection",
@@ -1859,8 +1859,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-search-index-2026-reference.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-search-index-2026-reference.json",
         "item_count": 18051,
-        "export_checksum": "8b7b1d6ff005343b1ea141ac89ca9af3be5323758b032c0f5700cd067df17daa",
-        "content_checksum": "5c69bacce16753353295079886b5bf89bdbc8909c38047997d061fc816dc3548"
+        "export_checksum": "69023dfc6d4a25c0f289d69dac13be616b5fbbdb2950853afc201fb3599121e2",
+        "content_checksum": "c103a6dc2b7139e7aa5909f6545846ac9abe1552af6ea65637134b80b284905f"
       },
       {
         "id": "finance-search-index-support",
@@ -1881,7 +1881,7 @@
     "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-hot-search-index-2026.json",
     "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-hot-search-index-2026.json",
     "item_count": 80770,
-    "export_checksum": "b650eb705a56855108fa2f96826b810a218cd7701512e66bea43f7d21640b9d9",
+    "export_checksum": "28a26b8a875f95733822fe1199a440ecb8e85ac51d05b9db21099244c248218e",
     "shards": [
       {
         "id": "finance-hot-search-index-account-products",
@@ -1910,8 +1910,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-hot-search-index-2026-card-products.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-hot-search-index-2026-card-products.json",
         "item_count": 1007,
-        "export_checksum": "d6c451d3aae28255ebb53f8a6c155570d2db431fbc2f9ce73c911b3dd9526eac",
-        "content_checksum": "91a66898913d87146ccda065bc27c0f22ef363982660b5e9deef4ad235351553"
+        "export_checksum": "b6d3f555329d465c91d9d6981f51e5e68087012d9335fd93f6e2e55182de8ba1",
+        "content_checksum": "30f0e396b8761fa531725fe0487932b22a5222ce62fdaa45bab816f1d93c8ac4"
       },
       {
         "id": "finance-hot-search-index-deposit-protection",
@@ -1950,8 +1950,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-hot-search-index-2026-reference.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-hot-search-index-2026-reference.json",
         "item_count": 18051,
-        "export_checksum": "b25777e0f326dd600de52ecceb28b9a8e5a3d2eadfe4a2c265fb939d247eca85",
-        "content_checksum": "83fab5877f7ab104d2251cde85812169b242959bc43ed84d759aaccc643620f8"
+        "export_checksum": "bf10a13effa51515a995334ab6407b267a413ec71f27c194eeea8f22e585000e",
+        "content_checksum": "5718be596fb7b9be72b458f9809d691d6d7120db7547238d6a911fc476b1ef94"
       },
       {
         "id": "finance-hot-search-index-support",
@@ -1964,7 +1964,7 @@
         "content_checksum": "a9f76d128975a342d86442c8e35b8f827256019c5b9303a5bb743b6711fce1d9"
       }
     ],
-    "content_checksum": "97a46a93027fcef91c5e016f92c21bfbc07d1de213135a6503d7a47b02bd6ac2"
+    "content_checksum": "6b75bcc4a4220d47ebef1eb9afcffce87b324d8f3b2465c42b35b88acfde3b5b"
   },
   "service_availability": "available",
   "source_head_commit": "875f06b7fb19e6603dbecee7cf45b53b1ac13e6d",
@@ -1987,7 +1987,7 @@
     "web_url": "https://cocomo0412.github.io/OpenFin/opentax/live-regression-current.json",
     "item_count": 1,
     "generated_at": "2026-09-23T07:29:03.565Z",
-    "export_checksum": "af8f0614cbf0502fd677d6f39fb21f0814904e557f5d00e1c06f01ecc22e6014",
+    "export_checksum": "fac1d164855ff2e7d9641a13eaef3d330f9405561fcf490da024d1a4a398a521",
     "source_path": "evidence/live-regression/current.json"
   },
   "capability_status_version": "openfin-capability-status-v1",
@@ -1998,8 +1998,8 @@
     "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026.json",
     "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026.json",
     "item_count": 80770,
-    "row_count": 147092,
-    "export_checksum": "b1e7bdce7605ab725c68da2d6f2b00a909131d774b5de6895d31d678423ebb3c",
+    "row_count": 147056,
+    "export_checksum": "724fd218678c03be7a81480af2569f8cf3e2c5689a849dc07e0a4be569e74822",
     "shards": [
       {
         "id": "finance-exact-fetch-index-exact-000",
@@ -2018,8 +2018,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-001.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-001.json",
         "item_count": 303,
-        "export_checksum": "d56619dd080635a56145b865c5e0f1e3a68d6576415c9fd7f429afd42164dff9",
-        "content_checksum": "8f1455e7b87f74a8ba6a8ecefa04d43935ebe47e14ecfb44711207d4cb68238e"
+        "export_checksum": "b2cc92dd71e6a3b3253e2f74bb5a5e90f113b73cff27f0e087917f50d74616f5",
+        "content_checksum": "6b07d6f80032abe169ddf32e482e9c8060c4bbdb088319ce5d38cfabb765700a"
       },
       {
         "id": "finance-exact-fetch-index-exact-002",
@@ -2068,8 +2068,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-006.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-006.json",
         "item_count": 317,
-        "export_checksum": "fc218f812c1e3508774be8f1935dba893d46d702e789e6ccb012f178fcd607a7",
-        "content_checksum": "bdd95f15d1c6407306f46cd3953b9ee7c0b4c65a9eb9e47b141c2415a2c29796"
+        "export_checksum": "bc11281914297ad7825b98562eb19eb9df5dc03ac48a7919276bdd1151c3392b",
+        "content_checksum": "788475bc8c943ac7b1262cf68ea86e9dcc515855dcee9feac9a7c3efef76bd62"
       },
       {
         "id": "finance-exact-fetch-index-exact-007",
@@ -2108,8 +2108,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-00a.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-00a.json",
         "item_count": 317,
-        "export_checksum": "1ec7c954e18e5741f444db2aaa53d4a0a8e758d5f36446ed539cb4858cfaa3d2",
-        "content_checksum": "7d773985855278b90b599d2afa4d388069c522e012d683c0aa3a0fed089ad021"
+        "export_checksum": "288e4d8e74eda6dd08a96c77f8eb984ef14b90c3b9271ef13993f7bf6ca29ccf",
+        "content_checksum": "25cee6e562aa9945e3131fb4477a18c649e19f33b3e7be1a73b5f2d0c7c9b440"
       },
       {
         "id": "finance-exact-fetch-index-exact-00b",
@@ -2168,8 +2168,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-010.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-010.json",
         "item_count": 302,
-        "export_checksum": "db4b063a94f30e4a5b2a5f01700a17c0b552f728f94b9a604cebe45790331cac",
-        "content_checksum": "dcfe1b19090fed149d9874b76c5acf3aa69d08f0707d20324980d5d6c614889f"
+        "export_checksum": "4eda8451fb82776e03217f5cbae94d0499314f54cfa416d12f415dacf642c90d",
+        "content_checksum": "2e11e19bc5bbeb314cbce1f26ea0a5d93399f9981c2fd68ab090a5cd0e8463e8"
       },
       {
         "id": "finance-exact-fetch-index-exact-011",
@@ -2197,9 +2197,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-013.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-013.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-013.json",
-        "item_count": 298,
-        "export_checksum": "64dda9398f2dc0f74def2c1a76ae67580395730e903438bdb0fb9020a02e89c0",
-        "content_checksum": "ac55ab5b9519c2eca99883244e04aa200afaf47d73e62a5a58dfa10b0e87ff51"
+        "item_count": 299,
+        "export_checksum": "035460d0217e377e56fd32cbb8064c6058c9fa0c26c8760b254dc8cc8140b6fc",
+        "content_checksum": "83ba6ff98924365cb916dfde2c6abbe28412763e58e3bf7392e4b631e2c10f8c"
       },
       {
         "id": "finance-exact-fetch-index-exact-014",
@@ -2207,9 +2207,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-014.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-014.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-014.json",
-        "item_count": 282,
-        "export_checksum": "a3294d77b7066cadb7829962e81f9fb2a1133551aae8ec18e50fb19271c814bf",
-        "content_checksum": "8c30902c9c7cc4e25720c211370fabe2ef3631f8c894edb5d9983b5bad7bbe44"
+        "item_count": 281,
+        "export_checksum": "b54c5ab353eabad9292c5745830c0e01d13389e72617affe7854cdf505f05761",
+        "content_checksum": "65461a4b14340c161e41cc074ef6f454c62aa3ac58353de46256eee07c730229"
       },
       {
         "id": "finance-exact-fetch-index-exact-015",
@@ -2237,9 +2237,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-017.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-017.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-017.json",
-        "item_count": 287,
-        "export_checksum": "da31ec126ddc6ec6205fed26074a05c9a6bbf15539076a589c2f10c3e23631b4",
-        "content_checksum": "d9c811e93e70cbdcfaedb2a4ba68749310a2e1b61bdbfb4f2d2d1a925fad60eb"
+        "item_count": 286,
+        "export_checksum": "103798c7078c89b796cfc6c0720113f0eecfd41009a4bbee32204dbeac0d36aa",
+        "content_checksum": "7aaafb87f7ac0941c44b9770cef45a4ee41499e75dee186f2de650a4951699fe"
       },
       {
         "id": "finance-exact-fetch-index-exact-018",
@@ -2267,9 +2267,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-01a.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-01a.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-01a.json",
-        "item_count": 281,
-        "export_checksum": "a0f5ddd4d7ba2e9ab223d15259d3c9e92a7aec98de980991eb078e940a11ffc0",
-        "content_checksum": "93a94d0772702538c9039e97912b107b6f8c0d287e454c33f53c3ed8524e85d5"
+        "item_count": 280,
+        "export_checksum": "0797828e477306e9efcfb5138912aa8d1dd1df276fa1f913308007f87f8b9cf4",
+        "content_checksum": "c8efb3a7d87e0b7718d2ba43eb21b5d3010653046c29fcc67dfb475aa32fdf05"
       },
       {
         "id": "finance-exact-fetch-index-exact-01b",
@@ -2298,8 +2298,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-01d.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-01d.json",
         "item_count": 290,
-        "export_checksum": "22ecd906497586f97a29016145b37551c726c23a1e891035c6f4f744db21414b",
-        "content_checksum": "215e05fbe02898618f0d0ab8992a7ef2decf7f8f62184c79b7f103a8e7d57601"
+        "export_checksum": "debcb69159ac601796db2b7df27fa89df59db52233b534593704d81d71ef0922",
+        "content_checksum": "5882bb6529357085ce01c0fb8aa7a2c67be83785406f205f47214bf8e370efa6"
       },
       {
         "id": "finance-exact-fetch-index-exact-01e",
@@ -2348,8 +2348,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-022.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-022.json",
         "item_count": 287,
-        "export_checksum": "566b27d79c94149d5d1e27c9059ee3a1652df934336020757c92b3a1264a9884",
-        "content_checksum": "d7e6a4c859352dfb43db07b17620ca11206b45dd16e1b383b71af98d36788af5"
+        "export_checksum": "125cb0b5757be82e45de9ffe732b2bb0f605fc6c32b2bf665ea1a0c51dc25e4a",
+        "content_checksum": "10663c864f5d10c2355a0481dfd34825b42d213a89766db8d7d52aa091e16774"
       },
       {
         "id": "finance-exact-fetch-index-exact-023",
@@ -2397,9 +2397,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-027.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-027.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-027.json",
-        "item_count": 326,
-        "export_checksum": "dee67403b60c3c4a4efe14650e89a4cbf0bc5de1710feec1128de279770e6876",
-        "content_checksum": "b1a2967efbb056e4ec5df1a903c494052e665728e2997da2be7ed626dbebcb75"
+        "item_count": 327,
+        "export_checksum": "0469b949a12635d133eb6abdab4d25443326835b5d10e15a041681b6337105d6",
+        "content_checksum": "e42618207174303e35151c301d52025d0a05af4d3504d117cce8b115dd47feba"
       },
       {
         "id": "finance-exact-fetch-index-exact-028",
@@ -2457,9 +2457,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-02d.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-02d.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-02d.json",
-        "item_count": 301,
-        "export_checksum": "c9a597da1508c8b2c882d6b15682d5579c1f9cf1ac94120a26dbf2874c567f64",
-        "content_checksum": "dcd4fe74bf03096d04a4ff5bd99cfc1adc1e85d146d388fdf769e5780af6055c"
+        "item_count": 300,
+        "export_checksum": "ee432380dfb419d607ad63d170d6d685c38c0d97205bf1223d9e38eee5bf24cc",
+        "content_checksum": "d833da77d09a1244bf149337be8eedd765de7574e6869a17b7c9346ce7706397"
       },
       {
         "id": "finance-exact-fetch-index-exact-02e",
@@ -2498,8 +2498,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-031.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-031.json",
         "item_count": 270,
-        "export_checksum": "62446695f7af4dafe1c4dffea931cc8caa9b1848c8693e45b0d0eede8837ef86",
-        "content_checksum": "043bd1a68615d53aebfd679c890abb56199a85dd4585464f01b767c93f0b2364"
+        "export_checksum": "01190383eb11acf6c1271a90963ce9f73e8fd844388d24c16e6ae660acf9f646",
+        "content_checksum": "0a41f0a03a8ae1a7d8d163f9d233ef0f190898e41eb8784af4a70f21f7c5d1e6"
       },
       {
         "id": "finance-exact-fetch-index-exact-032",
@@ -2507,9 +2507,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-032.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-032.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-032.json",
-        "item_count": 263,
-        "export_checksum": "253434be977e343e39b3cc84734acb886f8041538f9f9d7024e0eb0ecc0f2229",
-        "content_checksum": "bc82d872f0525c4125b1e8db40a975d1f43a68e7ff3591775ea634763acea35f"
+        "item_count": 262,
+        "export_checksum": "67fc1ba492b5a0ef923a2dacc2380c0fe08b0016073699f0d23945ba871a6364",
+        "content_checksum": "885c920900d89de8805873eff2c90d79c3c18914fa8963b6d37124891d83ea91"
       },
       {
         "id": "finance-exact-fetch-index-exact-033",
@@ -2518,8 +2518,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-033.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-033.json",
         "item_count": 286,
-        "export_checksum": "75d6793a551c600bcbba665cc3e5f4fd71390421c3e7f8e071e02f3cf55b0d84",
-        "content_checksum": "482462dc28528644378009f7a7ba54b44c7c4b29837668835467daa3cc25f6db"
+        "export_checksum": "f8ef84eb86101d05bd29fea3a4e31429fd881c383f37fbd5658d52be0f2c7969",
+        "content_checksum": "567980d2cbfcb49c77bb4e8881f376f0af702abe61fea1fdc57cfab3843a7d13"
       },
       {
         "id": "finance-exact-fetch-index-exact-034",
@@ -2528,8 +2528,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-034.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-034.json",
         "item_count": 261,
-        "export_checksum": "22d48da182b0cb3e4486d8c1483f44b8232f10493f43a3080c823fdf401e2006",
-        "content_checksum": "ea28fec5ef3b7f4b1a9342d84b00a3ae599a9ecedd71428c000ede4222a3fe14"
+        "export_checksum": "4aebf822bd2ff25e25c03abd0e802cbe63779a65cd967cc75699ba9cee146bf5",
+        "content_checksum": "6b85e457bccfe6dc679605f9c6835a60c1b726d69729d217c51bd279018d942f"
       },
       {
         "id": "finance-exact-fetch-index-exact-035",
@@ -2538,8 +2538,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-035.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-035.json",
         "item_count": 277,
-        "export_checksum": "323d1fbb77f9609b0b1939040a51f1265a7d5152611962f69af9c65c9d0be43f",
-        "content_checksum": "fce96de67dc39beca241e0eb735489ec763eb144c773625cd1db4e691a1af259"
+        "export_checksum": "67ae787d2f43dffef24fb6cb48c4b0febcec9935bef0713030e70fe0af71d3e9",
+        "content_checksum": "a40e1f39247058f71427b83f5082e69e792cefa5a0e078873cbb3efe0aedcc6b"
       },
       {
         "id": "finance-exact-fetch-index-exact-036",
@@ -2647,9 +2647,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-040.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-040.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-040.json",
-        "item_count": 324,
-        "export_checksum": "2326017f4ada0bef9dd1729e4cbaa485ec3ed62501e4cdc0b06f66a77ef090ad",
-        "content_checksum": "d4f3e138cfd9359df0150a7d3ae5553c9fe5166bd2493e916f2d9197517e0554"
+        "item_count": 323,
+        "export_checksum": "906ecfb54451e08b41686340f49758ebdde60cff3b57b81bce007d905d632a89",
+        "content_checksum": "91bb4bffeda70e9cf51f274339b1776b66b8b13ffb591b463c7eed75ddaaf791"
       },
       {
         "id": "finance-exact-fetch-index-exact-041",
@@ -2717,9 +2717,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-047.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-047.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-047.json",
-        "item_count": 292,
-        "export_checksum": "a5a5340e04354242f9085ee6f57663c8fa18e8513c9a78360fa23c261d38a640",
-        "content_checksum": "cc234a5f7dd3de5b06aa35ab4a98863190d1292d8048e613390c8330eadc6d69"
+        "item_count": 291,
+        "export_checksum": "6b792b2c1bdd69490a6e4ffbe4f1a05ddec53c3335b75cfa4e405b8f8cc77dfe",
+        "content_checksum": "433508396322dd878a2633b5f75d3ba4e8fb3c0cfa4cfdd0f83a133a6a4d90d1"
       },
       {
         "id": "finance-exact-fetch-index-exact-048",
@@ -2778,8 +2778,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-04d.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-04d.json",
         "item_count": 300,
-        "export_checksum": "e0ef3f860b4aeb63e5af7ae1777866f5215088c209ae2d0e02b53a701febeed3",
-        "content_checksum": "a5f7a93cf25f8cac70df17f5bf80762dcb16df5f0d83b48d8fd3773706d8f154"
+        "export_checksum": "23c20a62d6dbbfef94c5905115bdb5f09c52d4d9692b2658979cae2b2dcc47a0",
+        "content_checksum": "1ac1833c5481c22adfc3b0f06dd528b693e6d2f8932c4d0355046ba95793b7c2"
       },
       {
         "id": "finance-exact-fetch-index-exact-04e",
@@ -2798,8 +2798,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-04f.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-04f.json",
         "item_count": 310,
-        "export_checksum": "11b0d76ca9b70e3649169af08bc4e36bc55596613aabfc174eebe59dce2e5057",
-        "content_checksum": "14a97ca35d9cd18a3b15c464e8042f845b191dbd263aece8351f9cc154da6d98"
+        "export_checksum": "64dbd065bfdfc5a22cfebd4a65dba8e2255e7d78ec8f9e7e442bd8f3a8defe34",
+        "content_checksum": "b4a1632a9e4f6f11bd4a921a351a7d3f11c912b5acd2bd127a8cf29bc317aad8"
       },
       {
         "id": "finance-exact-fetch-index-exact-050",
@@ -2857,9 +2857,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-055.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-055.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-055.json",
-        "item_count": 283,
-        "export_checksum": "da97aec4e78a75826dbe9b793c1ad1405e18ca17220089818b2b94c0cd6c8f2b",
-        "content_checksum": "f349c743a43f79efdb9488f499f82ee7bebdd5d353dfb556572007cff34d81ce"
+        "item_count": 282,
+        "export_checksum": "cfa95dd04a7c9bfac09312f7c86b5c8d6dd8793c6b39d0de63b8912d32e71f45",
+        "content_checksum": "ec582c5e72d622e9dcd088f5d850dd7780a57a307cdc7889bfea7bb4a79c1dfa"
       },
       {
         "id": "finance-exact-fetch-index-exact-056",
@@ -2878,8 +2878,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-057.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-057.json",
         "item_count": 278,
-        "export_checksum": "c2ad6499ed8f9a70f4a6619c1e2a327e9960322b6d17159a4e77f3a8b6dc8f8d",
-        "content_checksum": "32b45f1aab3ee436231be0acd5e49ddba4453e9bc77bac93778f8a5bd290a52b"
+        "export_checksum": "0757fa056ffd3859b4ddfd3d1ce92bc8b04487cd126ebc86aa3d0ec21f2c27ee",
+        "content_checksum": "a47eb6b0f45386f48621983dd76777f673dae8dbca78bbc5a91b21d072e671f7"
       },
       {
         "id": "finance-exact-fetch-index-exact-058",
@@ -2917,9 +2917,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-05b.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-05b.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-05b.json",
-        "item_count": 330,
-        "export_checksum": "dc70e53e3c9e8b528587a588552db892cc3e4fe19244990e6e13e2daa181b881",
-        "content_checksum": "214da35ee9d78413037e8bf420e5b4e2ff845e2d6fbbd028a8b0cff09d5917ce"
+        "item_count": 329,
+        "export_checksum": "2f2dca1adb712f56640ab7e9bdb1d923683f05c5c06df5a4918750b48ad712ff",
+        "content_checksum": "52fe883c87c15ed1b406c72874c9899f3832e360426ab710fd28d300febb7d5f"
       },
       {
         "id": "finance-exact-fetch-index-exact-05c",
@@ -2967,9 +2967,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-060.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-060.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-060.json",
-        "item_count": 288,
-        "export_checksum": "d122f0e0c067fc30593eb8a00e72dd71028db635b5e83782ea190bd68b2cd95a",
-        "content_checksum": "1cdd3ef8bbfa7d82ff101991c67558239064c0a86eafc95ec8a2457d4ad698d5"
+        "item_count": 289,
+        "export_checksum": "27a55fc4c5a285cf96330dcc5151ab3aa893423ac76f82c051dd6d66d69205ab",
+        "content_checksum": "a7dbdc13cc1a3a79a166b376185542d74e71e499f4298e285e7ec9e8646a822b"
       },
       {
         "id": "finance-exact-fetch-index-exact-061",
@@ -2978,8 +2978,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-061.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-061.json",
         "item_count": 292,
-        "export_checksum": "7709baf24cdf7189d9b61ed012483a927632bc1e6996af1f1408f448194f85a1",
-        "content_checksum": "610e3f3a7544d5a2b07174cfd6ae19d8464e2dfaca40adfdba5f3b16caf8f08e"
+        "export_checksum": "d3f62449498d628326913770a501cec5f723bcb3cfd1b72230bdcd8e12fa627b",
+        "content_checksum": "343a64f50648e7162fdb9e77eee9cedd176d23b7a94f78b036367a39caba0836"
       },
       {
         "id": "finance-exact-fetch-index-exact-062",
@@ -3107,9 +3107,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-06e.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-06e.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-06e.json",
-        "item_count": 277,
-        "export_checksum": "6be8f5082bfe17c90f720842467727f1f70128df3fa998f15c03ef60dcfc78c0",
-        "content_checksum": "58bed3d0da746d11c2e58aaaef37d2ffad81d91b9f7e2112ed2d5ca14da84fb7"
+        "item_count": 276,
+        "export_checksum": "404a42ad2fd549e5d50a5bdf18eca233f8c5b1c3bc709ff2469f233de24f59f8",
+        "content_checksum": "93c82a0ebdf515d8710d27ce7972a3a4750acd07d002620d2fe86d5ca0aba5b0"
       },
       {
         "id": "finance-exact-fetch-index-exact-06f",
@@ -3138,8 +3138,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-071.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-071.json",
         "item_count": 294,
-        "export_checksum": "0d29731e790003c1900089a08f1b366de268fe37c71f459ebc74667b034e0cce",
-        "content_checksum": "ebf964e98ad1a0aa6a1138772c8ec9b091cd70b01e8288f57b87d4daf0cdb172"
+        "export_checksum": "6f0472c5d8e363c45b159a9588051e34a6a5a690751c2b8d0bc49500f9f39327",
+        "content_checksum": "68ceab370bc286a2a7ac3cffae7774cb2a95837fe20ce9686c1f2219f582e3dc"
       },
       {
         "id": "finance-exact-fetch-index-exact-072",
@@ -3198,8 +3198,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-077.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-077.json",
         "item_count": 277,
-        "export_checksum": "76c8c12f8318fcba9c629b800d61211af0dace96a8cf9a7dacaece0e898dffa4",
-        "content_checksum": "b68bbf3b6316b7ac8e7f50a558ae342bcf964c02fc51bc6272eb27f2910f581b"
+        "export_checksum": "6295ba3db6cab7c641bdf7c667a8f28da7659835c6206f621c4a5b8a76b4f91d",
+        "content_checksum": "3850771a73735d10a7f5b632c39c4d3e9bc663199e17d7ae4d3e87676ca76ec3"
       },
       {
         "id": "finance-exact-fetch-index-exact-078",
@@ -3218,8 +3218,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-079.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-079.json",
         "item_count": 276,
-        "export_checksum": "3ff9d00942c4b3a082200d55c32fb9b517935c7adf201bc3829275a13e4f7235",
-        "content_checksum": "43fe9e5148a52454427391f16a6baa5f02679682572d6c5c8010950ccd7af101"
+        "export_checksum": "fe841d7248dd2cbf73e12a94126b92d9bad411f3e92cea9cf4435ea862ce8d07",
+        "content_checksum": "43b3c7307e923555b8a9a154c395f553227d3cc16a0ff7787e6851d3d128a9ab"
       },
       {
         "id": "finance-exact-fetch-index-exact-07a",
@@ -3258,8 +3258,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-07d.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-07d.json",
         "item_count": 274,
-        "export_checksum": "af4d224fdc286c3693be8b99fc18906b4f45185e518a23bd8d5c0f72b6edcbae",
-        "content_checksum": "61b414ca712033370c5b2429ab2ccf0a75089fb16d0eda877b3e8c7277798d88"
+        "export_checksum": "cdb9cb0fd8f0f66c01f2d73ec1afc6c96997508e9ea12000c9bc5cb7c72f5530",
+        "content_checksum": "c3aedc7de67179f46796905da5540f02388b1a8af9b0b4c9384a0b531b88942e"
       },
       {
         "id": "finance-exact-fetch-index-exact-07e",
@@ -3358,8 +3358,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-087.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-087.json",
         "item_count": 278,
-        "export_checksum": "5e33489c6b52ec56a28f95d6a39ef4a655551f5130451ff973cb360f926602f3",
-        "content_checksum": "0b226c0d9233b069c113304beec5dd742ad892fbd8d37b7bf2bc8ae964c1b3d2"
+        "export_checksum": "cdcc1af55aed3b224c4edd70333b34feb6a582f748fde72e8e3b69b86b7c90c6",
+        "content_checksum": "8131071af3eed52ba1cd2563c8c99bd754ad5f29b40d85a22ad1bdd8e0ece790"
       },
       {
         "id": "finance-exact-fetch-index-exact-088",
@@ -3368,8 +3368,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-088.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-088.json",
         "item_count": 270,
-        "export_checksum": "c221f4c8ea174c82db1cf409189bef959235ce91f550477d01d2cab18044c15e",
-        "content_checksum": "ba2cd28fc9f72c9d71fcf8ccef84abea64112bd721d66afa01b3e0532d526499"
+        "export_checksum": "682a824d5237667b67e62222c8b21911c51d1eef34094003c214e9495058de15",
+        "content_checksum": "5a1e3151c65a8213353cce581db897a82109b266b38477a8d77e5ac850834072"
       },
       {
         "id": "finance-exact-fetch-index-exact-089",
@@ -3427,9 +3427,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-08e.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-08e.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-08e.json",
-        "item_count": 276,
-        "export_checksum": "bc96f51d011cebc64c956b1cad47dc96464f6973da323705978cf625f3560277",
-        "content_checksum": "54b8125a1942961ba9faab6c6cd81a7e202680c80086fcea42b193fe009f62c8"
+        "item_count": 275,
+        "export_checksum": "4705356772d9b2486a0f1b8e046b032afb1a26686669f64522657d32ef2a2fe7",
+        "content_checksum": "72128827de26c026df81e5da6673855181cd6c57697efef52018948ab2f7e137"
       },
       {
         "id": "finance-exact-fetch-index-exact-08f",
@@ -3448,8 +3448,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-090.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-090.json",
         "item_count": 275,
-        "export_checksum": "224f6656ab0bccbd2b81b440c1b0a16b071e79feee8744111a639c4d89252b95",
-        "content_checksum": "6ef43bdc7a0204bc67c21eee6a0fe3a638367b9e59cf209f1eaee5cad32a2e6d"
+        "export_checksum": "1223c2cdbb374c7c4fcf9bbb9f5637d1fbbd8fc2b0ac01fd88d6a01dd89212bf",
+        "content_checksum": "e412509be8e7fe529eb8cd6c4008642c01f40d050274dd9cc8de2ab4c4f8d6f0"
       },
       {
         "id": "finance-exact-fetch-index-exact-091",
@@ -3467,9 +3467,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-092.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-092.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-092.json",
-        "item_count": 283,
-        "export_checksum": "52dd0b8dd34f755ebb34e37f563dc8a00fcd37dff6db08732540bd06d6f9a19b",
-        "content_checksum": "d1eff89ca2b437893b3776b5664a976b2b8eac5d99005a3c6848f604e296b41e"
+        "item_count": 282,
+        "export_checksum": "5602e8e38ae62edb1e8dab6f26f96134e97c342679b9fc8712da5ba30e784395",
+        "content_checksum": "989cfa2ab636f417ccdf9d1fed1c4be9aeea9cd5cee97151c9ce5d2096648042"
       },
       {
         "id": "finance-exact-fetch-index-exact-093",
@@ -3527,9 +3527,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-098.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-098.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-098.json",
-        "item_count": 286,
-        "export_checksum": "a7e87d57d0bff4883920a946597b5b8da43be5de22374f5e6a28d1a3c05badd4",
-        "content_checksum": "580fa5651c9cf8d465fa0f408782b1c75facbd0bc1d51e63c62fe92457c45fe6"
+        "item_count": 285,
+        "export_checksum": "936a358fc96f4b4b0deda17fbc869f357a0afe6d8017743440ef7a76a30323f0",
+        "content_checksum": "5aa3e353ee2cb4ab579e680086ea17899f158068a462b899ebdc57ea5c0f3641"
       },
       {
         "id": "finance-exact-fetch-index-exact-099",
@@ -3567,9 +3567,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-09c.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-09c.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-09c.json",
-        "item_count": 291,
-        "export_checksum": "1e78f9cdf159b62411e893b1821ea1aef7786fe52d61b6506e283a35a145fec9",
-        "content_checksum": "f208ca87aaec10bbd17fe4e749d18121631d60a84b9979aafb2a7b93feee5c10"
+        "item_count": 290,
+        "export_checksum": "0619a146bfa5c438402c7d68fb218ae2efc0a186a22aed1e6814ea775e70b750",
+        "content_checksum": "c681a28bb5eb09aa1a1a6038265773f19b82d664104770d8fb9a85cf47eba5c2"
       },
       {
         "id": "finance-exact-fetch-index-exact-09d",
@@ -3658,8 +3658,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0a5.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0a5.json",
         "item_count": 293,
-        "export_checksum": "634fa16cc70926336290bec99d20c7728fb975978bce238750f581699e0ea38d",
-        "content_checksum": "a9d371f672f23f03abe558caf975a4d846bbaf26f2e874e2f7c22f25eae0edc6"
+        "export_checksum": "5028d81b3c6a2e44528c0a978cd07fee6cc4cf5e7e90df5d3204c72be07c2ee1",
+        "content_checksum": "daa10c9b52740318714eaa955f3697d53c16550f7e6b8d02f9ee9f9c82e94705"
       },
       {
         "id": "finance-exact-fetch-index-exact-0a6",
@@ -3698,8 +3698,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0a9.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0a9.json",
         "item_count": 274,
-        "export_checksum": "8b0938746b5656f947a146e299fb1bc2d093395080415aa888ad9fd65d27e799",
-        "content_checksum": "cd4105f83698565f17c2151482389eabae244305fd3c72b7d0b68d44b3520a1a"
+        "export_checksum": "c586ff2bf1199c3afc75d3e8f904134d5799a6eda6475eefc801f353f9836d2c",
+        "content_checksum": "f7b10d6ac16b5f44c8ad1911ce551a884d528e2de39b82b490db1c1b9b4bbbbd"
       },
       {
         "id": "finance-exact-fetch-index-exact-0aa",
@@ -3718,8 +3718,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0ab.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0ab.json",
         "item_count": 280,
-        "export_checksum": "80926e4f3ed644456fc59d65a9487fe6043766c2697190d91476224cfce491cb",
-        "content_checksum": "745c3008884e840124a9e4d4f891460ee3952d196ce873af006bb523c9feb369"
+        "export_checksum": "1b0accd33aee451c9e6cfd554434ac8c721d801fbd6d87ff0381095529e7fe1f",
+        "content_checksum": "5862a1a72b4a3b78880b4dbbc7cfc798bf971e3992731c4aadfcb626d77e5aaf"
       },
       {
         "id": "finance-exact-fetch-index-exact-0ac",
@@ -3728,8 +3728,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0ac.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0ac.json",
         "item_count": 297,
-        "export_checksum": "4f718618ea705f98f4b6189bff93f382da8c50f6f8ae333cf53a05a4dde841fb",
-        "content_checksum": "622144b5fde36bd60deb2287ccd69e4588681966d3b88b3d7174d85ad4cc71b1"
+        "export_checksum": "24a1dcf0066e5bdd2e0b173cb6841bcdb6ac49595c74ae5dd6a80381593a5db0",
+        "content_checksum": "c1e2163b3238e6e00653d8a59964e876fe6dc54643db2c2118daa5326e470b95"
       },
       {
         "id": "finance-exact-fetch-index-exact-0ad",
@@ -3748,8 +3748,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0ae.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0ae.json",
         "item_count": 277,
-        "export_checksum": "3d62a7ea94cffdc02b4e583876c0b32479f89dc077547f714f1d535655fdcedd",
-        "content_checksum": "919e4d76384ee9fb75059c4c8429c58a1d40dfb6dd7ca0c5c38f65edfbe36475"
+        "export_checksum": "fec327093935c0f6b68415365200ff0a0d732e2d189e67986903327f8b53d3d3",
+        "content_checksum": "1f4d39d4858a10c6a0bbe89e73fb27c709df3e888cb4872f007e6a726ad372c7"
       },
       {
         "id": "finance-exact-fetch-index-exact-0af",
@@ -3758,8 +3758,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0af.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0af.json",
         "item_count": 283,
-        "export_checksum": "2243065a76632c55a4206dd350bd7a0a84aeb0b2645beece65df855b973ff3e2",
-        "content_checksum": "545e3d490c59f6d44a0c9e7fc1949a4601bd19f4bb5ecc948750b466a91f5758"
+        "export_checksum": "2c829dc6e5b60f7dda7cede381085d60b0d327b98a10765de913901d04fadd3d",
+        "content_checksum": "2cce4a9f14bafa48b91abe93557c7043113c592488e48d6c9594aad2d98c0b80"
       },
       {
         "id": "finance-exact-fetch-index-exact-0b0",
@@ -3768,8 +3768,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0b0.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0b0.json",
         "item_count": 281,
-        "export_checksum": "ed080fa5717d14e1a5cf45c8daec25253363a4d2f3440efba9e6ee301b3fdd5f",
-        "content_checksum": "94e482cb9f9693f87502335412e0e16d6d96fb7d41a061d0cbc0ef366b696486"
+        "export_checksum": "e821804ae44b1bce3a87d9f7065570cbfab68efeae7a357cc51a5d52cf617970",
+        "content_checksum": "531d1ca101e9ab278c2b33f5fc02eef6e7ec578c666752b21b53576cddfd7344"
       },
       {
         "id": "finance-exact-fetch-index-exact-0b1",
@@ -3787,9 +3787,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-0b2.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0b2.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0b2.json",
-        "item_count": 281,
-        "export_checksum": "a96b87ff951b5cadb4233a884db837aaa1fbc2a5be864b932fc8bf4c098fc99e",
-        "content_checksum": "1202f399b3c524059f869d9672824c7d8bea67e9c8d005bbc43aa036fdc425a0"
+        "item_count": 282,
+        "export_checksum": "3de5a10e1cfbce978f4b150c76f8dd937b77fa62df08b2879093723fdfb15c44",
+        "content_checksum": "40bfffa89218d10912b74e4b2c51bb23058965a7008cc8f9cf51a4a14526015d"
       },
       {
         "id": "finance-exact-fetch-index-exact-0b3",
@@ -3798,8 +3798,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0b3.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0b3.json",
         "item_count": 290,
-        "export_checksum": "4cc4847c2d4126dbc7740ab03bde24fe1a76516a7501e292724e48ff1075b7ec",
-        "content_checksum": "56eac8736b2cb876a9342561ef3e9f1f73a739330e91a9891cb37ca4cd56ea77"
+        "export_checksum": "02f5e4ef46b8035fa32c52c30a72d5c63090c87e44829adff8b618d6018a66d8",
+        "content_checksum": "676289571bc3df1bf9416f2755340500c9104095bac022084c55dd2f48ee554f"
       },
       {
         "id": "finance-exact-fetch-index-exact-0b4",
@@ -3887,9 +3887,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-0bc.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0bc.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0bc.json",
-        "item_count": 322,
-        "export_checksum": "9de0fc2678338437dad3a4c3632f079971ba9f0aa413955ea334e028f071d925",
-        "content_checksum": "5e75aa4e30ee20f0d0973aacf3f7286ccf90f8877ad3b18cbfe303e9a3b5e589"
+        "item_count": 321,
+        "export_checksum": "d6e62b34f894604f1b33c0da70c738ce1d3c3c5433a4a9147ef56150e4649706",
+        "content_checksum": "cbf621c183eea43476ab0a074bb6a82d138ed75b617006c17273fdd544f8b28e"
       },
       {
         "id": "finance-exact-fetch-index-exact-0bd",
@@ -3897,9 +3897,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-0bd.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0bd.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0bd.json",
-        "item_count": 254,
-        "export_checksum": "bb9990cdfe89fbd3088abe87b976818e8673828fd1fd28b6074d1a5cea05045f",
-        "content_checksum": "6719a4599f0895b14037de287083ae78d3cdc9afafffca5c4a231ab7c5feaade"
+        "item_count": 253,
+        "export_checksum": "8176adaa1ecf42a5da8285a8d2c8fe44429cc91042f7f1320f02523bd03e64a6",
+        "content_checksum": "f60a45a33159d7eea9728adcdb587334a0a330d3763c385d34e4db68a60922d7"
       },
       {
         "id": "finance-exact-fetch-index-exact-0be",
@@ -3908,8 +3908,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0be.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0be.json",
         "item_count": 300,
-        "export_checksum": "014c4ed7f623fbe2e43246a170559f9ce58bdaff134b6402d21d018f6ba88793",
-        "content_checksum": "a481d4564b18d637a7254a347473a1c79dcc6aff19cdf703e1a9a4a364f006eb"
+        "export_checksum": "fcc9d8c9cc464b32fe0bedbe56c66409172932b25339444b3560f53da4d51d65",
+        "content_checksum": "24497d2ab300c476098a6858807ee9b92b636c79c94ba863d009791cbdeb9fab"
       },
       {
         "id": "finance-exact-fetch-index-exact-0bf",
@@ -3917,9 +3917,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-0bf.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0bf.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0bf.json",
-        "item_count": 291,
-        "export_checksum": "7ee5d07aadfbc9d67f60571ce05aa47978529f4645fb3318d82b6d904e23da64",
-        "content_checksum": "c906b77e355acec87923ca49e003fd6aca37b017b25b369477a289624d3d11e1"
+        "item_count": 292,
+        "export_checksum": "952808b9dc6df55c9685140ceaea62acdfb7041dfeeb3779c54700b742b2da6f",
+        "content_checksum": "d385c219b5e3341fdcd67c9a499dadfbdc9b5d68419d347d54a494231c89bfd6"
       },
       {
         "id": "finance-exact-fetch-index-exact-0c0",
@@ -3938,8 +3938,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0c1.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0c1.json",
         "item_count": 294,
-        "export_checksum": "09a2102307f8ec2b9afdbdd2694c85eb0b5b627c316cce6e5d6776b3132d8ef3",
-        "content_checksum": "af4d4849d51835de115521251e0c8889169a03d59f5ab262aabdf860bfc9d056"
+        "export_checksum": "9d2cdce289af9a21091fe95fc7642245a021423714ca182387c2ab9e823ed83e",
+        "content_checksum": "83e5d33252ffba012982e6d988e599f777c52b20d331a2690c04b0276cdb7855"
       },
       {
         "id": "finance-exact-fetch-index-exact-0c2",
@@ -3967,9 +3967,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-0c4.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0c4.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0c4.json",
-        "item_count": 284,
-        "export_checksum": "0fa8321f41b76a7146b2a157a90833d7584b59f7b4afaafb54c679a25ef2ad7b",
-        "content_checksum": "5ea660cf35971d97b5e6ad92de265dad726e9904c1e463c7193539340d3a821a"
+        "item_count": 283,
+        "export_checksum": "5da42332d39071faa35a86b11ffae09bed100d30c510b97f1d6c56cd8d1a851e",
+        "content_checksum": "b5e99bb608140fb352f5d7bc2b2e604ac93cddce369d06ec00277d45da201e5e"
       },
       {
         "id": "finance-exact-fetch-index-exact-0c5",
@@ -4018,8 +4018,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0c9.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0c9.json",
         "item_count": 271,
-        "export_checksum": "98c27a0eed7b9946fb4450dca0c9825f47a38d35a654401c6b2d95e83caa96e0",
-        "content_checksum": "2e785ce8d5f91ecd5a22f5e4327892991622eb726bd78b9e813ca7e02849e508"
+        "export_checksum": "f29cf24ef12daa01a66f5ebeb78ee91d5edaa5cdc5ac25950f0a2959b5f6be61",
+        "content_checksum": "4173d4428087fa12ee158c9de14e665ee539f191544d5a209f728c9d2d58ad0b"
       },
       {
         "id": "finance-exact-fetch-index-exact-0ca",
@@ -4027,9 +4027,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-0ca.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0ca.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0ca.json",
-        "item_count": 271,
-        "export_checksum": "66ac1d508819d933b04ab63b5e15384471c95d50971eb78d7cefc9ae4b6c0aff",
-        "content_checksum": "a2de8e9de86d982cedd6a0b054a2f560fac9edf123e389d79106ae1cb1715d7b"
+        "item_count": 272,
+        "export_checksum": "87d8eac57eca1b1e78335d68d6ad0e71c64a6baf9dc10b2c359e1e07c1605c10",
+        "content_checksum": "52e74d494d2affef32cb58c8d900b88f6fcf7579593e6fb843383780b2335bda"
       },
       {
         "id": "finance-exact-fetch-index-exact-0cb",
@@ -4058,8 +4058,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0cd.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0cd.json",
         "item_count": 267,
-        "export_checksum": "31aafa20b58fef4dc713beee0ab80f32e0f0dce56575fc87d497d7d0ccbf981e",
-        "content_checksum": "3593893ec6c8b38db70497d37710cedfcbafda8aab6c786014a121e8c1ecc21c"
+        "export_checksum": "b9068e46149367ae84a2c0c20f0518ebc3a5f4d5d0e689ee938f004faf14df47",
+        "content_checksum": "d0846986965d0c04602715a261b3bcfefd9989f800b7e43c26a3112ea97953ce"
       },
       {
         "id": "finance-exact-fetch-index-exact-0ce",
@@ -4108,8 +4108,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0d2.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0d2.json",
         "item_count": 293,
-        "export_checksum": "3bae22fd3622986d431ed06e3fef12f6fe895b8424615bdd73ec744728e317a5",
-        "content_checksum": "f860150aee57a3903642ff5f8f4f333a465ae21ff6536293f68fda2471c3caf9"
+        "export_checksum": "b6131c80e383e996250fff07ff8e08ed951a18fe8b1ba10ed633bb2542a7f919",
+        "content_checksum": "7b623c5536600b9012cef2c1cc5c49ceb48f92153b0afb066c8dbed9ffab0665"
       },
       {
         "id": "finance-exact-fetch-index-exact-0d3",
@@ -4138,8 +4138,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0d5.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0d5.json",
         "item_count": 256,
-        "export_checksum": "c943b5b100492ec6940bfc15736d65cd1f60f1f9fa054470557616d8c04da7f2",
-        "content_checksum": "19a80746816450aff8b389d3aa0d4bd36efcf966f71be55229add73d57384a2f"
+        "export_checksum": "4424b96b4427835078456e215da0afb0ae43f7bcb3b25b70e4d8b43df0bc2b79",
+        "content_checksum": "98fc32341650fa27d878eaf6ddbd86d6510a7a04af064e41290d2eb024a09aaa"
       },
       {
         "id": "finance-exact-fetch-index-exact-0d6",
@@ -4178,8 +4178,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0d9.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0d9.json",
         "item_count": 305,
-        "export_checksum": "ec6f89f6981bddfdc36d1bb0178183b32422a2c31552f3e0180da8f1e4311a85",
-        "content_checksum": "79997a3d0c53ea331336d15b22444335707bd23deaf7f6949dc92c05f43a2129"
+        "export_checksum": "e2a84a17887d3b9a0ed79ae2cc93bbea0e14a2e719a3bfa747814fbcf2c8a487",
+        "content_checksum": "cf3f29c91c62409fc3d472886a4182b008cff801a063a03474551117556987e4"
       },
       {
         "id": "finance-exact-fetch-index-exact-0da",
@@ -4197,9 +4197,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-0db.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0db.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0db.json",
-        "item_count": 280,
-        "export_checksum": "6bcb3a7e97f40179ac3cf66ed9e904371d1216d43944b63716fa0d1603db252d",
-        "content_checksum": "3092bbf5199f8dba50638a04750251aec782a38feb3be0572663fa5088ecff6c"
+        "item_count": 279,
+        "export_checksum": "eb420fa261c9ebc1ac27864353ca4e164c790f54baa9f6d17cd3192ab7b444ea",
+        "content_checksum": "c3ae8243125d619e19ae48bb75334c15f0927247b4e9abb6ebf5167b6b86f820"
       },
       {
         "id": "finance-exact-fetch-index-exact-0dc",
@@ -4238,8 +4238,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0df.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0df.json",
         "item_count": 309,
-        "export_checksum": "3a66b1c54501e0d8b18af9781cbc260f756022eba0aa91540caf2f4ca8ca2010",
-        "content_checksum": "22283edf33ada411bc436f5c05bce13f9401a82491833e691e220f017485b9dd"
+        "export_checksum": "716e80ba3e0a605250ca47d0b568f3c3ab5335664c19453e2567b15c835ed05e",
+        "content_checksum": "ce04b36f86f37f9deb689f0e6355f225c9a4d26b59659112dba12469d35d8368"
       },
       {
         "id": "finance-exact-fetch-index-exact-0e0",
@@ -4408,8 +4408,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0f0.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0f0.json",
         "item_count": 286,
-        "export_checksum": "f71dd79af7c65b60a91af6368e45480a633f0d3119e42864bd09891a88fb8f0e",
-        "content_checksum": "539159bcd60ea69e745978a7c23ce77029ce5ea18da341400cd0fe30951fe528"
+        "export_checksum": "288284b8dacaf88459a74609675faa606bcb3f6fe736977582a34a5c9c4e4ccd",
+        "content_checksum": "4ebfaf3283ebbb1617e22b040f022b087fb245bb248dad010ab127d654f32b7c"
       },
       {
         "id": "finance-exact-fetch-index-exact-0f1",
@@ -4418,8 +4418,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0f1.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0f1.json",
         "item_count": 283,
-        "export_checksum": "c578cc6b2f36e8b439cbc942cb9a23fc15b137ca3f304b5f204db5ad7412fedd",
-        "content_checksum": "15ba3ac7537026624622764d03107400b00e2ed2d0ab5d15e8237787aa5f0004"
+        "export_checksum": "ad91d3f956595b74dfb7d6f2461122d1e4b22d1c530e02cbdc08698bada6c934",
+        "content_checksum": "3f7ddf9df1cbcf356d4294f023b5db4bb22703fbce7b64bf84eb83ac08df407b"
       },
       {
         "id": "finance-exact-fetch-index-exact-0f2",
@@ -4428,8 +4428,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0f2.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0f2.json",
         "item_count": 304,
-        "export_checksum": "0f417a727d4acc4b8fa483422897e659cb3dc339607e761a46f502eb23da4264",
-        "content_checksum": "c2f6c3ef50e328dcb70b75b221004cd4edd92f70c0523c5e4dfb64f33cb95b7e"
+        "export_checksum": "5ff230f28e7bc2ac4c052e353476928577d624bc6b0cf8c387c6c4c71e4f06e8",
+        "content_checksum": "df5937e6f18130aa9c9fc6355d0161c2a1bc54ae5a01c5acfe39e232a3636449"
       },
       {
         "id": "finance-exact-fetch-index-exact-0f3",
@@ -4557,9 +4557,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-0ff.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0ff.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-0ff.json",
-        "item_count": 282,
-        "export_checksum": "9df0e7e274b40604c7482391ffdb76157ca1901f618dde6f6c632b7f367c6ba4",
-        "content_checksum": "b8773e0cbc51cc393b335ac7769caa84de32316d38e78e701eec939f7715e924"
+        "item_count": 283,
+        "export_checksum": "236551159782458e4370f3fcc48c651fbd6cad27923533cef37c92cfb3e66c52",
+        "content_checksum": "2ca8fd1e0514fdf904b209f620dedefe911fddc432f5dc294ff4fea953685041"
       },
       {
         "id": "finance-exact-fetch-index-exact-100",
@@ -4578,8 +4578,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-101.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-101.json",
         "item_count": 255,
-        "export_checksum": "e3aa8599b3a9cc81413a943953d0147da159c2d15c701199c3e3c67dac44bc1b",
-        "content_checksum": "035a762de2a8c2d50ce44e6b00262a0e94102ea88975045acb9e3fc42ce10c03"
+        "export_checksum": "5260ff59342225079870ad25d60f5a9a785d1f787b8678aaff710170994ebd82",
+        "content_checksum": "e20f0c151c6d711b661ccae283ece3f02f067c675cbc4b2e3a1ff553d7682431"
       },
       {
         "id": "finance-exact-fetch-index-exact-102",
@@ -4598,8 +4598,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-103.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-103.json",
         "item_count": 279,
-        "export_checksum": "8f3d64b520d583d093f78a20a2c3672f114cb7d87d5c7d45f7c461842240f7a7",
-        "content_checksum": "6aec96254455cb610c88cb1696ddb1a408d9aaff87468f10ff567f300adfd62f"
+        "export_checksum": "abc97659cf4e8ece2bf05475f6c267d2853547b4dcb60977f9ec8fa5f43c956e",
+        "content_checksum": "92152eebfb5ba4dc480dedd5c0c76828e88ffda4ea232448e5e729ada290e3d3"
       },
       {
         "id": "finance-exact-fetch-index-exact-104",
@@ -4617,9 +4617,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-105.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-105.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-105.json",
-        "item_count": 328,
-        "export_checksum": "7a7b82086b9e33329a8c1887271784d6dbab8dc94521d3d698e5a52c104acff6",
-        "content_checksum": "b88e6b32aa5996a2d22eec9ad5c5dc5943ce764a16b157a06dfb630c431c7801"
+        "item_count": 327,
+        "export_checksum": "a53fb716daaacbfc28ba1ceb490353586c186cf52201f814065dc9958166436c",
+        "content_checksum": "7f6bebbcc8c718354115be04b52e4cba82fef08371b5a3840cf0ec65f783efec"
       },
       {
         "id": "finance-exact-fetch-index-exact-106",
@@ -4628,8 +4628,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-106.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-106.json",
         "item_count": 293,
-        "export_checksum": "3038d124ff29af78f760794af7a7193b964d51953b1432d1b6f212abfbc07fbf",
-        "content_checksum": "a2ed456347bd557e6542573ab2752554c385c6d37553335e86eb7da8b981e300"
+        "export_checksum": "1f4e0f96f4e2f1991908ed644f383c32af044902b38c1903086056f13dbdac9c",
+        "content_checksum": "4601619c762c9a97dd9fc7cb9b73a870d89c9b2d0486072008e8d546e0929b0f"
       },
       {
         "id": "finance-exact-fetch-index-exact-107",
@@ -4678,8 +4678,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-10b.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-10b.json",
         "item_count": 281,
-        "export_checksum": "98c5a6d161c531ea3a7d3dfe603ed0e3da574caa3c43d22c53caea1c9fb4ff76",
-        "content_checksum": "492612fb0cc8b5774c347ef2f64a3f7ec2cb8171f7ba8e7e8929976f3ad1469b"
+        "export_checksum": "22d4842f605c51e8d22e08b3e6e7015740ba601ce178c591fc917a7cf609a7b9",
+        "content_checksum": "e8f77e96d75f4bdf82efb9b5f1eec4c14e4c6da7ed034e5bd9218f5b383bdec4"
       },
       {
         "id": "finance-exact-fetch-index-exact-10c",
@@ -4688,8 +4688,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-10c.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-10c.json",
         "item_count": 273,
-        "export_checksum": "6b678f8f079c58022d9102769590e132554d255c9030ccc808aa9f383316785e",
-        "content_checksum": "2f0a12d1a7fc6663835e571ec4e14fe74bb91e3a1ad6786001bc3d2869225a39"
+        "export_checksum": "3a9f173487d1e148a907b86df3bc67cbe93467c17b0728c9c5a6f7565eb3daaf",
+        "content_checksum": "91bb921ddb9e2320fe999f446d88c629d047d5cef1066093bb4d3e628b9d5a80"
       },
       {
         "id": "finance-exact-fetch-index-exact-10d",
@@ -4708,8 +4708,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-10e.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-10e.json",
         "item_count": 272,
-        "export_checksum": "7bc784ce623fd510aefa15b1c513ef08986bbc99b0054474f001f660328d257a",
-        "content_checksum": "b10a1982c38f9f317a3c9f29479d18d853000d75341ef389f3671e7a9b4fda7c"
+        "export_checksum": "d0d53492c4ea7932039e20e4ab0abe7392ddec201bbd960f3ae02638821e077a",
+        "content_checksum": "820f81abc55ff8634e51543438fa538a035d2106ec93a4c6373fbaa1f4e478f9"
       },
       {
         "id": "finance-exact-fetch-index-exact-10f",
@@ -4758,8 +4758,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-113.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-113.json",
         "item_count": 287,
-        "export_checksum": "bb97801e900954aae946355f80dc596a325908143d5c92f671d81679fb057dc1",
-        "content_checksum": "5cdd88dfc3f91bbf3dc4cf40df67d9b94bd973cd203b3454ad4c79da3210a203"
+        "export_checksum": "bce979a48760dc0e7f464045a2a51ec53df606b853039dbcb1605b4bd08c4472",
+        "content_checksum": "ee1668cea588acab2874aa3fcd2fc5216c5abbcee98764858e6fcf8ba022415e"
       },
       {
         "id": "finance-exact-fetch-index-exact-114",
@@ -4838,8 +4838,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-11b.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-11b.json",
         "item_count": 278,
-        "export_checksum": "b41918b544a67861111a637de0cbc55d0a89bfc732f97146307aca0a5a9ed5b9",
-        "content_checksum": "a209f899c5b271d3922efdeca54af16bb97af6abd21d0e64400fa6b811704c34"
+        "export_checksum": "a9bdacc8132487211e76639fe3a7a994963308c7cb809bfede4413b0a89c89cb",
+        "content_checksum": "ab40245c918052785d2a01d1dfc38d3834b1b23a23d83d2853348022844c3c43"
       },
       {
         "id": "finance-exact-fetch-index-exact-11c",
@@ -4868,8 +4868,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-11e.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-11e.json",
         "item_count": 333,
-        "export_checksum": "280fdc618d997e3a27a95ee0988534bb742622d64740d5135a0eb76387374695",
-        "content_checksum": "566befd1a252a8e74636a99694c9888860ec88c3808016f9171ccfef090f7163"
+        "export_checksum": "e2811d8b354dbf849bd73109f03b08315080cfd106be7eb76deec866cdcc49a9",
+        "content_checksum": "0d8def5fec8dcb6bf32bfc18a4a72ebea70cf83e2bcb167543b616da4cb50430"
       },
       {
         "id": "finance-exact-fetch-index-exact-11f",
@@ -4878,8 +4878,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-11f.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-11f.json",
         "item_count": 278,
-        "export_checksum": "614818cd99676d2d6486acef3dadf7f5ae5a1129d4607ee8afc0f1ec0db51bd1",
-        "content_checksum": "ef8969849cf29de9d8768c64a0d3dd6f0abab1b75947df9623b3651cd6b34aa8"
+        "export_checksum": "841b246dc12156a0dca6c2b099803cfac415e5dd26441cbb6e3dc7c29dabade1",
+        "content_checksum": "467840881469e526f7b751b889bbc0be6cd879f66efcd61451f994ae9380ea5f"
       },
       {
         "id": "finance-exact-fetch-index-exact-120",
@@ -4918,8 +4918,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-123.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-123.json",
         "item_count": 300,
-        "export_checksum": "258fd462230f8da0e26f0d3fffab57630ba00598744ff0264318de56790fee34",
-        "content_checksum": "f7f9a2f68919503204b2a08ce8d5decf5ccc2481983be5eeb39f36ae906e7fef"
+        "export_checksum": "880a83751dcf756445248aba10216c6300a355d76179395008b4c511c53ff3df",
+        "content_checksum": "32bd7981378fec4034f70b1d66e3652ff0911555eebac86b18ac7361d2c72ae8"
       },
       {
         "id": "finance-exact-fetch-index-exact-124",
@@ -4928,8 +4928,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-124.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-124.json",
         "item_count": 293,
-        "export_checksum": "26562856d70d00ec1501c071cf1bcc04183187924a8dd4ece1378f7fc3a39638",
-        "content_checksum": "a34577c619c44905a5b155cf92934b8333639df9e7241373467e3634f35f973f"
+        "export_checksum": "aa2b85720e472c1d130a6f2349eadbafabbd44b9ad76bef2fd3f9ea39077300a",
+        "content_checksum": "28f065627810c8c11bbef33ddad6fc619b59180ba22b5f8acfb12cb23d6deb7a"
       },
       {
         "id": "finance-exact-fetch-index-exact-125",
@@ -4947,9 +4947,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-126.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-126.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-126.json",
-        "item_count": 289,
-        "export_checksum": "fea6b2e11565967c63127a30787bef7e9a950c30de7e88adc33de09f39c5306c",
-        "content_checksum": "4f90793ee6455c2bdd6707cba83feff7e99ec485d8eab11bfafbd7cdc84d3f03"
+        "item_count": 287,
+        "export_checksum": "4c5816453fd41e65ed25fa6b32d667f0a4e99d6cb06da32b730966a76079cbc8",
+        "content_checksum": "e940df908db444edbeb3a98128070e784aa1f8f086abb69525d8d16f9c490b14"
       },
       {
         "id": "finance-exact-fetch-index-exact-127",
@@ -4968,8 +4968,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-128.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-128.json",
         "item_count": 293,
-        "export_checksum": "2da5cfd321374bacfe35801b4d620a31d99e1d1377ee9c38a5a55e777d6734dd",
-        "content_checksum": "fb304a2efb47ed1ccfb765b313412f6b22a0ca70117fcef02a53f52ffef48677"
+        "export_checksum": "73a1a2dc9e4053b26e0503f46e2540729bc5749c006e6a00ae17157f4d1ac340",
+        "content_checksum": "cb0ec281c4a1972e36e6f4f77e4b42e58f2d6a5075ff2affe1becd50c6d474b9"
       },
       {
         "id": "finance-exact-fetch-index-exact-129",
@@ -4987,9 +4987,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-12a.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-12a.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-12a.json",
-        "item_count": 255,
-        "export_checksum": "c0bd857886aa6cb40bae989cef77649e915bd64eb127c512cf68e479d5da57ed",
-        "content_checksum": "db38a2fa75187a2139399fc4a19a50664a1e67d448187fade4c92ee9b7811018"
+        "item_count": 254,
+        "export_checksum": "3c44388d200576dad9ddb0be9faf894fc75972c624c19d6452da704be0eaea65",
+        "content_checksum": "b5f45a7242a73850c8f018f2585ce4aff3eb5d93c4a4ea91957416f249533bbf"
       },
       {
         "id": "finance-exact-fetch-index-exact-12b",
@@ -5037,9 +5037,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-12f.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-12f.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-12f.json",
-        "item_count": 278,
-        "export_checksum": "8883ba86473d742ca2aa828c70c4c7a86be2daf4501ee0c614a22279d17f73ce",
-        "content_checksum": "7b9797d401950f0743d28f06ab8e35568790af0225ecf80f33bdee06d87c88d4"
+        "item_count": 277,
+        "export_checksum": "eab0d9f27d27b304e7e177d4f0f0239157f9bdce930afdd0b6ec250d58baf5f4",
+        "content_checksum": "f91d6ca1ffe9f74f58ea7c12ceb568a2ee33b9c193b0ef3670df415e80bb186d"
       },
       {
         "id": "finance-exact-fetch-index-exact-130",
@@ -5057,9 +5057,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-131.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-131.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-131.json",
-        "item_count": 273,
-        "export_checksum": "89e67167061a8c92677a6a83f1abcb395e8dcaed587a56b1352d68defc93518b",
-        "content_checksum": "448f18dd15acc51d5c7c7204203ea84e4735abba1fd2dfa5db5ca7a52762b228"
+        "item_count": 272,
+        "export_checksum": "934cf562e0b27ef2334d3c31b8c2f35d1f1aa3bec66e3fca87c0f4e416a7e10d",
+        "content_checksum": "d576fa3655d1bed3b6d738820ec7a062b9a78f45838ae28d818d58b0086f16ed"
       },
       {
         "id": "finance-exact-fetch-index-exact-132",
@@ -5088,8 +5088,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-134.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-134.json",
         "item_count": 272,
-        "export_checksum": "d039d4ee3f1a4683d4fbd609cc63ed1cb95c00bb6098a21d346f701117e7b24d",
-        "content_checksum": "b3559ebb41a79e32e162f0cb2ecbe4cbf5fd1fd9468d5498c56652caca722d39"
+        "export_checksum": "763507b4f8d30aceda895a2fcb6fe208abe93d30e77b9d55e07d48be1dcd803b",
+        "content_checksum": "ded1e4fba60464df33f9b3873d5333e7c280dd3d39a4d03e7020f89d3457e87a"
       },
       {
         "id": "finance-exact-fetch-index-exact-135",
@@ -5108,8 +5108,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-136.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-136.json",
         "item_count": 312,
-        "export_checksum": "578e4ad78283d2719bcf4e87b27b0631f6891b33b400d5e2c8b8e2bfad5803e2",
-        "content_checksum": "e18a95985a5f9e57000cf9ba2efa09e17c62b7c06c5b16239871b62d785ba0f9"
+        "export_checksum": "bc459f02a246c63d401db99406f5d5c8e13ff71ccf062145a905896bad7a53d4",
+        "content_checksum": "550e38488ad587edea612699546ca0ca0346ec6180c8b69f11b94793592102f9"
       },
       {
         "id": "finance-exact-fetch-index-exact-137",
@@ -5148,8 +5148,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-13a.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-13a.json",
         "item_count": 283,
-        "export_checksum": "f24ce5915c27c80af6c7c3d6fc0fa247037c95b9c20443b5734ed987a7bbab9d",
-        "content_checksum": "01d0e84a7166390b4db03102bd4b032d52757579abc3f5568500e6955beb123c"
+        "export_checksum": "d78a18c570e5109378dbff1b995273a6072b44405d0ae1e8fc869ab36a5af067",
+        "content_checksum": "c557316c66889f82ec97f7e6e6519ace87ba4151c67e23542996f663619aa058"
       },
       {
         "id": "finance-exact-fetch-index-exact-13b",
@@ -5158,8 +5158,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-13b.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-13b.json",
         "item_count": 281,
-        "export_checksum": "2979f9480254d8467597ffe0b9f436303a6305405c37666d95f2e5162e9f057d",
-        "content_checksum": "9e0f475ecc3d354eb291ff5b67283b2b9a1bb393a1d14faf31fa3767c6e40236"
+        "export_checksum": "115499c36dacc8be9795e8b109fb64331598b3df3c55eb8d0e69080c35db76c2",
+        "content_checksum": "b163408b52bb1f842a0eef6dcde108b2b282050eb694e963eaed3640b6831a8b"
       },
       {
         "id": "finance-exact-fetch-index-exact-13c",
@@ -5177,9 +5177,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-13d.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-13d.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-13d.json",
-        "item_count": 300,
-        "export_checksum": "90d6d0edc0d3e5fbe2be294dc832a63e8bdbf6f4a271c008dcd957b947aa49a1",
-        "content_checksum": "2c1fa3807df5ad55fe12774e542fdc73da2e1ae0a47529de3276ebd79239fb92"
+        "item_count": 299,
+        "export_checksum": "d0b69c9ea7e2a1632dfd7253877b7950adc40c6cf113b710760c54937506de0a",
+        "content_checksum": "20ad496a834f2bada42cc6ca5311f436bf2ba9f601ba756c5ab24ac4c5794d3c"
       },
       {
         "id": "finance-exact-fetch-index-exact-13e",
@@ -5207,9 +5207,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-140.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-140.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-140.json",
-        "item_count": 284,
-        "export_checksum": "e1f47ff4dc0269006120889be376d5581d56e47664532677c76b492303f8ce1d",
-        "content_checksum": "fb129101ae834fd648e95e810ac976e5d65adc641d9ccfb522b5852415ce1c43"
+        "item_count": 283,
+        "export_checksum": "30f30f0afc28e87362cc9995c2bd4d70ca6f30666c7441dc65550f342e99c34f",
+        "content_checksum": "a4228dcdcbb3dd87934cd1862a28ce7d3a7e78d3f94367eae6fd012caeff480d"
       },
       {
         "id": "finance-exact-fetch-index-exact-141",
@@ -5277,9 +5277,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-147.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-147.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-147.json",
-        "item_count": 263,
-        "export_checksum": "6d4d26474f61baeb899160713f30a7bbc977cf8fc337a5c7757887ba9d9f7f31",
-        "content_checksum": "c714a0fc718275224a32ead3c9629585604db493236ee1e26e2d11d89e02b17f"
+        "item_count": 262,
+        "export_checksum": "58cb302679ccb620b841596e01bb293de7cfef672e6ca60906f7ea29b99f5d91",
+        "content_checksum": "adbd214d79817d39a3534f368fc28499b5e9467e2a7c7ad945b78426c212279b"
       },
       {
         "id": "finance-exact-fetch-index-exact-148",
@@ -5288,8 +5288,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-148.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-148.json",
         "item_count": 277,
-        "export_checksum": "8fe25ffe6f57a80402a5efd8fa819adb2bf97548a522b403a1e34a9f412dabf9",
-        "content_checksum": "7c7b4353fc8865eb930368bf7780ed5889736f746657ef6b23bc9ab343808881"
+        "export_checksum": "0cfc59f42e381a62d8a783fbf4ecb8a1b25a61211835b4404baead473bc34d2b",
+        "content_checksum": "e823ef403ccfd5715af97213085630bffe318bcedcc6ea974ea4ad11eae52e9a"
       },
       {
         "id": "finance-exact-fetch-index-exact-149",
@@ -5298,8 +5298,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-149.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-149.json",
         "item_count": 269,
-        "export_checksum": "ea39a0028794e3edbb9ffef7fa8bb1222f0df3b823500e2bd5a988de4f6c8800",
-        "content_checksum": "28e7306fcd6e2b38c32025852e0fb0c1d510ca85d1f8bf2abe06c67aca16917a"
+        "export_checksum": "ea53c76327c149eff632179e0bd34c5984e09abf634ec3047eca7bab863abac5",
+        "content_checksum": "5317aec0bc3500ce6ec72f8dbcdfae9056ff19428984d9f1addb8a5cbf36e65e"
       },
       {
         "id": "finance-exact-fetch-index-exact-14a",
@@ -5338,8 +5338,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-14d.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-14d.json",
         "item_count": 288,
-        "export_checksum": "aa46375ad6047de3e5d3c4fa12cbde023cd3169fdce68fb73091f394df7d6896",
-        "content_checksum": "207c3acbc489693086dc198ba7b662b356b68b043a9f6f00ac41a77ec934013e"
+        "export_checksum": "afca305fe55fad7ea67b4eaff6aee76acf2dbecd85104d02b684092b14bf7384",
+        "content_checksum": "8c1052a7b4beeb82a9cabb43d70032bd18abb152d8ea5d10c09882379b301014"
       },
       {
         "id": "finance-exact-fetch-index-exact-14e",
@@ -5367,9 +5367,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-150.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-150.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-150.json",
-        "item_count": 289,
-        "export_checksum": "1750542e7bf5ec97695e82f33108e7d4521980f5aef4574f8e9cc6e7fda8fb11",
-        "content_checksum": "702b6c248e44f854fd0e1f78dd1eb1a6f58db2d4a5862a0f22845f7982c74c10"
+        "item_count": 288,
+        "export_checksum": "a4420ef162f9a696613fd3d9f2576d69ce11c530b35f4c2a732ae5147b8230e1",
+        "content_checksum": "fc73f83b33afc8be547d2b87da5c93737e8b1f910759e2a73ea7c00c96e1f81f"
       },
       {
         "id": "finance-exact-fetch-index-exact-151",
@@ -5387,9 +5387,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-152.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-152.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-152.json",
-        "item_count": 270,
-        "export_checksum": "8975ee67432c888004d1fa31f88f389a4cb0291ddcb6731797ffda12cf3d9fee",
-        "content_checksum": "5cda1d83f76feababdacfba18e7536fa3a7da50bea7fe2e4d1ad61460e4e5cca"
+        "item_count": 269,
+        "export_checksum": "110aa4d5750c116e590a49b963b290df268d1507bf81e83c15382b2050299a9c",
+        "content_checksum": "a1e799666c9214b217cc063151e2719fd5e9789b12273431ae7f8a62469e4138"
       },
       {
         "id": "finance-exact-fetch-index-exact-153",
@@ -5417,9 +5417,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-155.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-155.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-155.json",
-        "item_count": 289,
-        "export_checksum": "feaa13b982196604a589dd193cb488145177a78285749d93645ac3951c9fa26c",
-        "content_checksum": "ff1399b73d59c6a23f4cf19274f8ab75ca739a31fe9e72e3a3b4c7595a9b36d2"
+        "item_count": 288,
+        "export_checksum": "8ee1feec94591347c7fe037da86bfdd2ff59862cc7914d47897dac8054e7a264",
+        "content_checksum": "243071df4ee902e02328255f4177af8c42bf5e4c6435758d7aa01a9a1bbfe8f0"
       },
       {
         "id": "finance-exact-fetch-index-exact-156",
@@ -5448,8 +5448,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-158.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-158.json",
         "item_count": 281,
-        "export_checksum": "f470509874f4b1a004c5bfd80010f2904f43bbac8895b6d63a6ab61b001d0de1",
-        "content_checksum": "534e4ec47198d90172e12236c09b619d1588b0c261ee697aedab3fd8179f5553"
+        "export_checksum": "aab3c57999cfd38e8c4b6a11777cf0ebfdae9343b25114306cf26b1d940188c7",
+        "content_checksum": "b37fd887a4d53986a5c4595ddad9395f0bdf23b95b1b90b147277f497a3d5743"
       },
       {
         "id": "finance-exact-fetch-index-exact-159",
@@ -5468,8 +5468,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-15a.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-15a.json",
         "item_count": 308,
-        "export_checksum": "1dbda3308c8deab6def0edaffa42da169b27e4822f0f39750d34e89478e38fb9",
-        "content_checksum": "12963fb7e50f4dca49edf103355657d7642f3df627181d34776594859b9d14b8"
+        "export_checksum": "3644accd83a3af507a14735a83d37af33202114bf1c6a4c5200e2924cd6a18e6",
+        "content_checksum": "8394d9365a9d47b8ca65c7518d86f5655400f08e996a195cabdec61068fc45da"
       },
       {
         "id": "finance-exact-fetch-index-exact-15b",
@@ -5488,8 +5488,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-15c.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-15c.json",
         "item_count": 291,
-        "export_checksum": "44994c2a67f1429078626eb1e9125ba00644832bd46835a70d3035f9870797b9",
-        "content_checksum": "d4997eca1b8f0de2435079c4f3966c87c8b2eda418cd620f1201f806f93a3fd9"
+        "export_checksum": "29a0d35145f5b9adc5eed06485ec6e23f0e35e90c214d6fd99e194e63260a05e",
+        "content_checksum": "a22f5d2a3a00779dbf4e1dba22cd017da78866097821add3f5cdf912bebdc192"
       },
       {
         "id": "finance-exact-fetch-index-exact-15d",
@@ -5548,8 +5548,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-162.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-162.json",
         "item_count": 282,
-        "export_checksum": "c76cd0a9ca3d623bfd57821bd0e3a2e392abac3a9a7eb93a58240415270c35fb",
-        "content_checksum": "3d4f8523748cdf7d469edf3c7841c308ee642dd19d7189c88b9d83830b22b8fd"
+        "export_checksum": "81e2d71b52c750d4bc54515a0d782c5216bf4b0c8d55890e48d14162d5f7c4e1",
+        "content_checksum": "d33103d0cb907d09fdfd3b5995d61902a920610d7e9180ad9ebbc6815ee79ca9"
       },
       {
         "id": "finance-exact-fetch-index-exact-163",
@@ -5557,9 +5557,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-163.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-163.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-163.json",
-        "item_count": 296,
-        "export_checksum": "538454235b735c2595f47ade1b062c6e38de6ed3a9e774a118e6a7b0a4aa69a9",
-        "content_checksum": "cf70dc67aede69aa61f7badb48a4bb7ce4f483f504db5be89e8e960c260e1c55"
+        "item_count": 295,
+        "export_checksum": "c359399b8cc0d8f1654e189eca7b8d8ba425e9fe39a945c463b5d343857026ab",
+        "content_checksum": "604cdd57eb8aa9bdf843026bc4dca84bd8ca22dc32dd6c34a188649e5c1cd26a"
       },
       {
         "id": "finance-exact-fetch-index-exact-164",
@@ -5568,8 +5568,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-164.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-164.json",
         "item_count": 296,
-        "export_checksum": "1300e8a57f31eef84cc9a0dd897a6e60cd4459ca5ed7f3e04d293ba3f8383b39",
-        "content_checksum": "1f084025a718f701860a50f4c6874731b7c29ea58fbe558995609b5969bd2f0d"
+        "export_checksum": "68dd2342b320b525ff9c83e0342fddbc5123eb5f00d58c1c690294944f14d118",
+        "content_checksum": "d4b8d4772be7402d3532bc6f20c55953d44d651f6a08b477c236269f36ccb4d2"
       },
       {
         "id": "finance-exact-fetch-index-exact-165",
@@ -5617,9 +5617,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-169.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-169.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-169.json",
-        "item_count": 283,
-        "export_checksum": "542c263218add20cff26ea18859a1aa4f7cadde2f74f98443100580d064031be",
-        "content_checksum": "3ee0b5a8df2bae00c83eb28599e54ee01ce58626b673aab6f5c638bef5f89b73"
+        "item_count": 282,
+        "export_checksum": "4463ea224cf1b2a9631cc58d8cb1cdcc1a3004f9752d86f8d50e3613a6a7d8b1",
+        "content_checksum": "4decd0ca8826339c3c288bf0d7643591cc92a480536e885dc30b3a5d6f16ba06"
       },
       {
         "id": "finance-exact-fetch-index-exact-16a",
@@ -5648,8 +5648,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-16c.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-16c.json",
         "item_count": 301,
-        "export_checksum": "583331778100f9363ea896cd1c0da69ea244ed41cffb179c22aabeb9f31c0b9f",
-        "content_checksum": "9b17dbf220abed2c3de1a3b266c0177706892a940bdfd4a043d5f0a991d70203"
+        "export_checksum": "47a8634d0fb2ea4db5184e5bf30bd35db65e7c900795894910c6643f2f1931f5",
+        "content_checksum": "a3d2324c57a7098db21eb2312f95f0ccc3d9083477f10d0a8654ba925de0629f"
       },
       {
         "id": "finance-exact-fetch-index-exact-16d",
@@ -5678,8 +5678,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-16f.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-16f.json",
         "item_count": 303,
-        "export_checksum": "cff2ee7e628bd9aac67ec542252a7d04dd08195af4cf86e48167b6d430666a49",
-        "content_checksum": "ee3dfacf65369dff8282ef618fd10e58a6011b8780142db07ac49bfc9caf3214"
+        "export_checksum": "494d8d8bf44a63ec1d1cd183968ad799f87a10c963ca84ffab707df71c9f1614",
+        "content_checksum": "eb80fc7f8fba5c77ca662932a3d1b9b6fbbfdc1cf533b5c53531516f79faa4f7"
       },
       {
         "id": "finance-exact-fetch-index-exact-170",
@@ -5687,9 +5687,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-170.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-170.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-170.json",
-        "item_count": 277,
-        "export_checksum": "c4d8796296f5b85af8fbd2522481d66884de59bfd38f2080d4d51f7c2c4a08d6",
-        "content_checksum": "5cbb7203b8570b2b5fa38209301f7b5e9294b2b1701bd744dde68d064b413aed"
+        "item_count": 276,
+        "export_checksum": "144f4dd4b9c4f298e1c51d7f5f7060fc3fbeb36d73c200847ead43ff7b93302f",
+        "content_checksum": "18ab3ffecae596d151113e6cb27df19eaa71c7596320dc9635ee4009c624de78"
       },
       {
         "id": "finance-exact-fetch-index-exact-171",
@@ -5757,9 +5757,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-177.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-177.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-177.json",
-        "item_count": 278,
-        "export_checksum": "b680f23a238a8d5ee021f7dc61e1c64b441a88eec96380d6066f735681f222f8",
-        "content_checksum": "74601bfea078b5440e201706edf4a14a1e7460e11803e0606c937b4f4255aba1"
+        "item_count": 277,
+        "export_checksum": "c4894ac6bd1ba9c672a5e2228b2a63575f30c4b231b303763707bf2fe866ac94",
+        "content_checksum": "d38fdce6e7df104d5fe147d790b60ea61cbcfba184bc9d4cdb0e38bcd5c6af33"
       },
       {
         "id": "finance-exact-fetch-index-exact-178",
@@ -5787,9 +5787,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-17a.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-17a.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-17a.json",
-        "item_count": 303,
-        "export_checksum": "1f5210d2a6d630fed5b8d301827fd25092bb2c78136a2bf56cccbf3a7d150b98",
-        "content_checksum": "d49948fb33fa74982402291d93e0aa2dde9c3d4c809271263707d0834ccd3482"
+        "item_count": 304,
+        "export_checksum": "97534226e4143b3a977a4f0e08b2ad3f41b151ca4d366b909ebadc56ddc07001",
+        "content_checksum": "49db37fc01e9016c68ce2efba87f3428437f8c388f8ac1a28efe5ea863c115d6"
       },
       {
         "id": "finance-exact-fetch-index-exact-17b",
@@ -5878,8 +5878,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-183.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-183.json",
         "item_count": 288,
-        "export_checksum": "f0b475b022eb81fa682dfe6f49cf8ed857e889ac895a3355d222f4f2bf1a7481",
-        "content_checksum": "aec3c7cb82144be19fb516d160a8d961ccf44a3802c32ad6f874b0da4f487e90"
+        "export_checksum": "aa1f84fd06789ee4fea4547c4707d5f4968a6745d418022cada04352e5d5244c",
+        "content_checksum": "aff4b16c44aa592cc97f89a3ffa3c124e2eeaa572d810a1cb8f232be2d88b1c4"
       },
       {
         "id": "finance-exact-fetch-index-exact-184",
@@ -5988,8 +5988,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-18e.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-18e.json",
         "item_count": 296,
-        "export_checksum": "727f3c7aa8828aff9e22b90cdddb41730a635c65ab0b227a561f4861a4384b60",
-        "content_checksum": "93e08248a62b049109d96d4a8850c6beb47c8f1a2fbacda6b894cb10c7b858f4"
+        "export_checksum": "b47ed3a734562c59e011b2d7282e9e04ecc58fa6bd48b6a1816eebd9d3f11ff4",
+        "content_checksum": "4ad36b510824614a30f5126fbc7b7c5d9ed5be7a260211d8b6baf9459a741b50"
       },
       {
         "id": "finance-exact-fetch-index-exact-18f",
@@ -5998,8 +5998,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-18f.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-18f.json",
         "item_count": 299,
-        "export_checksum": "74ed2f1b18804d0181472027998c7fac13049865d321a05b7d636237c3aef16f",
-        "content_checksum": "f550fa478abfe8f700f53a351be47a25a90f578aa06eb61eb4cb2026b64c854c"
+        "export_checksum": "1200622fb922b3d50a465ac0749eca389c8689d92ec5aba305ecd0b8af56e3dd",
+        "content_checksum": "008482a6d17b42326f898835e7922d35edd10e6327f96f700d6bbb06ba3033a8"
       },
       {
         "id": "finance-exact-fetch-index-exact-190",
@@ -6007,9 +6007,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-190.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-190.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-190.json",
-        "item_count": 313,
-        "export_checksum": "259679680e75e50d8e539debcb0624612619fcfc32a87f8427d0faa48ffc2abd",
-        "content_checksum": "9fad3531548a31eb996b44e0bc04cd888973e46edaf00f2a3fb121f05d84407c"
+        "item_count": 312,
+        "export_checksum": "c4451290bb1b2167e3de6d09d47a07d2cdaab48b86e1e89ad56f6ceedd6d3cd4",
+        "content_checksum": "f65a846422a72143e21a4eb90693b6a9346ddf1c29cf8bc87759dcd2f20eca4a"
       },
       {
         "id": "finance-exact-fetch-index-exact-191",
@@ -6088,8 +6088,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-198.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-198.json",
         "item_count": 285,
-        "export_checksum": "8e6a0e0b228577b85fdf3a5c2211df81ef9a2dac5db5a54ee4f7d5c308dd4d71",
-        "content_checksum": "bf7fbf5d68717e8550726ed0da5e6c71503e1940df2b472dae030a6d54ba06e1"
+        "export_checksum": "b2e422fd513ed701792528c81d7c617ef6a1e15e2624aa263a9019f2f7dd4199",
+        "content_checksum": "5d4aecb1da3c0cecb9199ed0bd9c31833872bea83ad8896f860e3dbc00f60b9f"
       },
       {
         "id": "finance-exact-fetch-index-exact-199",
@@ -6097,9 +6097,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-199.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-199.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-199.json",
-        "item_count": 288,
-        "export_checksum": "e32795d40854ff7d35b5a491f78bbe764f076e30acf0fa36b1e28368ab85f73d",
-        "content_checksum": "7042fdd79c6d5b863d81a6c0f82bf79d5f9a997b56b87acf0ebf8cec1248f982"
+        "item_count": 289,
+        "export_checksum": "d7e10784221a9f12446d40d61d19eadc5a352c87770109ced729b19eb3549f12",
+        "content_checksum": "85e0e5d5fb32b21145c6b2e21278bbb4656dc290d20f9816ac1e3d23f30dc2c1"
       },
       {
         "id": "finance-exact-fetch-index-exact-19a",
@@ -6118,8 +6118,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-19b.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-19b.json",
         "item_count": 281,
-        "export_checksum": "b2f7b282f252620cafb7a504ff0543ac0ec311f50935986bbce2aa2f29d81fe8",
-        "content_checksum": "c6c6fb251ff9e4b45aa34be621641b468a89aee2461649036210dc77fc2f9b0f"
+        "export_checksum": "601720d613cfd50178a7842a70dbae6f29f69dab2160f6260d6434569cd2e6cc",
+        "content_checksum": "ac321850b0acec985d69a1c803c3b722c53efbcb679afa3fa9f7d6c0f7f69fd0"
       },
       {
         "id": "finance-exact-fetch-index-exact-19c",
@@ -6217,9 +6217,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-1a5.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1a5.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1a5.json",
-        "item_count": 302,
-        "export_checksum": "aa0875d16f042867709208a54f27a17a766f4b3a0d6e36db22c75bdd31bafa09",
-        "content_checksum": "4aef8ba60da030475748c0f64e2a33a927bee087b30763d0331f752a94da9c1f"
+        "item_count": 301,
+        "export_checksum": "68359509385e15af060dfbeed044877a302c0f67389b6ff8707fe1e0eef536aa",
+        "content_checksum": "2491b3f1c1dbdc1875cf85cfde0cad9d09f318ddc8d5a3462e3f1b89ad3f3713"
       },
       {
         "id": "finance-exact-fetch-index-exact-1a6",
@@ -6268,8 +6268,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1aa.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1aa.json",
         "item_count": 315,
-        "export_checksum": "3f6544d0cdd74436f3d612a16572acfefcb7aed222e52c28dc309b77bcf9b807",
-        "content_checksum": "1621810cb8a3616cb069f72a7b8b6d101986cd3c972c586c6c7682ff8d70c345"
+        "export_checksum": "edac50ac600de0ce02efc2f85a57f74f512b504b4e5be38a8a84111960261fc5",
+        "content_checksum": "e766fe44d1d8aa5dc680bb09fd1612f3d188f7415425943e30e4c36f3cee997e"
       },
       {
         "id": "finance-exact-fetch-index-exact-1ab",
@@ -6278,8 +6278,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1ab.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1ab.json",
         "item_count": 318,
-        "export_checksum": "cfe3eafc2497f586ba790ec9482d63c6a4b7d5f702b3c68fdcd15d6cd984487a",
-        "content_checksum": "4a7ece46c95d4e3eed33c258e900797baf732f7693762149929fbf39efd5e23d"
+        "export_checksum": "6b4fe128e9092993c43a831beb7f638349419ebcf16755a012d9dc34df9a1053",
+        "content_checksum": "463f409aa882c237cf2a97c36576451f83be67cdfa07524359c355d9dc32b066"
       },
       {
         "id": "finance-exact-fetch-index-exact-1ac",
@@ -6288,8 +6288,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1ac.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1ac.json",
         "item_count": 317,
-        "export_checksum": "49c1d9a1405e33c68f85447b19f6d506d1dbb3124e140cbc93e78a7c0e067d07",
-        "content_checksum": "6a482af0df9317029274cdff80c5a4947399f0917cb71afa203dde73a0329aec"
+        "export_checksum": "fb55c651207f3f98e49ece5a81a6f0b2a93009fce31c6b1ef9314bad4f5d3dd7",
+        "content_checksum": "5b2f80beb61304f1c41aaa94dd0c1b9de4bf8508e1c3613e018e93b53754f7ea"
       },
       {
         "id": "finance-exact-fetch-index-exact-1ad",
@@ -6407,9 +6407,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-1b8.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1b8.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1b8.json",
-        "item_count": 298,
-        "export_checksum": "10de0abddc04579519aa61f2370e58e255e11454d9d0bb548c7af6f51fccda5b",
-        "content_checksum": "aaa6580ce3298243137ea048de2ce722f19cf8aad528d075d6c2ef0dfff7da39"
+        "item_count": 297,
+        "export_checksum": "de81fea248a9cf01a2c1d2d75b2d4918f28b9df459e0d080e06089a1a2f8debd",
+        "content_checksum": "f2463b0cc25796d8abd3ff7171bf2f1a6cb8e02165913f1e3c1b1af9d1dac9b6"
       },
       {
         "id": "finance-exact-fetch-index-exact-1b9",
@@ -6417,9 +6417,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-1b9.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1b9.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1b9.json",
-        "item_count": 276,
-        "export_checksum": "dbcefff8f894e25daf5195d82d3c96e9f85c15bda2f6b6490462f7986db2f25c",
-        "content_checksum": "46a2179f9def90a31e96a029428371b8e076b19724e9060e496b757d39bda12c"
+        "item_count": 275,
+        "export_checksum": "3fc3cc1a1209da69bc52f182223978db92b0a8eec96c654a6451fc85e197fc2d",
+        "content_checksum": "882450e957c81b47d39a85c159322c69c33de7e200dbafd60ef6aa542bc99302"
       },
       {
         "id": "finance-exact-fetch-index-exact-1ba",
@@ -6438,8 +6438,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1bb.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1bb.json",
         "item_count": 287,
-        "export_checksum": "f4b50f5e8d8ba66bdc1bec9f48ada589aee3684299d1ba17a186b59a8e7ec91c",
-        "content_checksum": "607fb52f7356e2ce96512afc7504f57c304d80ac45d6a18da7f183e0d15052a1"
+        "export_checksum": "9709a76acb2f140db46ae7ecb102f60c11bc13388d5ffd3b41b82b318ac75677",
+        "content_checksum": "41ac7547b04320850e6ef9aa5211b195f42325f1a3067bf6a1308fa8ef54219c"
       },
       {
         "id": "finance-exact-fetch-index-exact-1bc",
@@ -6448,8 +6448,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1bc.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1bc.json",
         "item_count": 319,
-        "export_checksum": "35aa20c576d093e4cead3894925529e2e56659064a90c8e59f29fdec246689ab",
-        "content_checksum": "b9b4583a6899e79149a606386265bfa737bc752b713f599a81170b0df3a72595"
+        "export_checksum": "e126c2ac51d8c9f517a6a14639067b62df5a3b1c78ce502a0ad24cf2f531fb98",
+        "content_checksum": "926102f55009e81ebceb7c542594998ebcad88550f30c277faa63d965f646486"
       },
       {
         "id": "finance-exact-fetch-index-exact-1bd",
@@ -6478,8 +6478,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1bf.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1bf.json",
         "item_count": 274,
-        "export_checksum": "30c0d0bbb5ded89ddefa1157889dd2544547ef99c858ed3b18a0dd7eb41ba830",
-        "content_checksum": "5116fece7e0762d0a679f92b42b4df9a9383af70575ce44075d24676ed43477b"
+        "export_checksum": "de4d1f7a6991d12956d8ca8ec9dfe85d21f67c7a49f28a0283aee0e72c825119",
+        "content_checksum": "9579bcac8d15d8b066276099660d31b1b7ef326c829d130ee6cd0dd03cf04237"
       },
       {
         "id": "finance-exact-fetch-index-exact-1c0",
@@ -6498,8 +6498,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1c1.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1c1.json",
         "item_count": 293,
-        "export_checksum": "82f81bff64c4f17d7aeed1902359e7ff14f484f124669612bb06bb12b47cd3df",
-        "content_checksum": "8d74303b0e5c01e2ec6d6916acb9a91ad9fe68e521d7564f44ffd016812cf3b8"
+        "export_checksum": "efd8629965f838e2567f9e41e3aa25a72241ef317efa89b1f50f515999fd2619",
+        "content_checksum": "ec0a6517d9a033fe5271263b1829df6de095847c8fe054085919d1b542886fa3"
       },
       {
         "id": "finance-exact-fetch-index-exact-1c2",
@@ -6548,8 +6548,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1c6.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1c6.json",
         "item_count": 277,
-        "export_checksum": "0073f3aaea0e4ecd54289d9b3f6378bdf7740d32988ac706d7ce3dcb380ece38",
-        "content_checksum": "89eb783a33154ee05e647f2fb6319664e8cbec9bed9202345a8894667532277a"
+        "export_checksum": "b52e04f53effff6bb639daa6305f03eabbee20e9af18f1f1cf3cc4ed5ffd3578",
+        "content_checksum": "4852ec98cccd40aadaa03cec5e8708924c14a6c077426bd4cbcdbebca777094a"
       },
       {
         "id": "finance-exact-fetch-index-exact-1c7",
@@ -6558,8 +6558,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1c7.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1c7.json",
         "item_count": 282,
-        "export_checksum": "a9c92bfe78c798cfde219cb11dd056aff1dbabbf0315c4ac201edb32649b7a6d",
-        "content_checksum": "4c740f041a197e6c2593d9cbfd0ca14f9a6a49476f3c5c5e22b139ebeb71da34"
+        "export_checksum": "552bd826c0b0f585e67dcb0699cbfa21c98bbc85f9cbe9ea7da197d9f8c43888",
+        "content_checksum": "7c72454d2c831737822ace30304ef15c401476b829b31dade96733c094a14019"
       },
       {
         "id": "finance-exact-fetch-index-exact-1c8",
@@ -6578,8 +6578,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1c9.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1c9.json",
         "item_count": 288,
-        "export_checksum": "0c95cbbe0f8a164d401d25c915802d749b85aad360aad1222c96fa8b51dc30ae",
-        "content_checksum": "729f4e40f4c5270c2379986a7f72f57c1949f68218f462cabd433e5fbaf4fbd2"
+        "export_checksum": "bdaae21a60a829ee23103f3a92ac8977a74a94f304e2ed5dfdb8f73f37faf7e0",
+        "content_checksum": "9e39b3fb32de5b48dbb2b85d0aff0dbd74adfe7eb3d6d72b2398910f653e4be8"
       },
       {
         "id": "finance-exact-fetch-index-exact-1ca",
@@ -6608,8 +6608,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1cc.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1cc.json",
         "item_count": 280,
-        "export_checksum": "1a38406b6a7f79c0016b6db880bda9b7605a2feed10895f1d711413ae3a09e79",
-        "content_checksum": "946deb4b6c07878131ff3153437d631b10d79727d391e672ecfed941a38f38e2"
+        "export_checksum": "ed6f6fce26525110eee41128c315da06543cf19f9641c7358a87e8da8188d3d6",
+        "content_checksum": "9cce11584e89bb836d213af58cdefa17cc97f33b6a8d1a473edb654929f14247"
       },
       {
         "id": "finance-exact-fetch-index-exact-1cd",
@@ -6627,9 +6627,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-1ce.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1ce.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1ce.json",
-        "item_count": 325,
-        "export_checksum": "e25c8c80e0790699c2da2c047f196766a05d875344ca04c500e2634e2554f485",
-        "content_checksum": "6ae5a8ae403479a5e6957a50c8551cd30b294d115770ab6de45c5aae2f36327c"
+        "item_count": 324,
+        "export_checksum": "dca2aafb8a50808b14e7f6df46b84430fab7752e52cf61d36762e8e0cdd6ed98",
+        "content_checksum": "a93c61b50ad93569d3dc43ba867c1a3f61dbf93858b58a8d5b9a4ac1e5f751e9"
       },
       {
         "id": "finance-exact-fetch-index-exact-1cf",
@@ -6647,9 +6647,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-1d0.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1d0.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1d0.json",
-        "item_count": 299,
-        "export_checksum": "0c6932e35dc259449ac5922a51a68e667be564a1961120703683355d4a8f99e0",
-        "content_checksum": "50a7babe05100ef88b52803a7f31f526f566ae7df0fd29c5ae7eb369917b411d"
+        "item_count": 297,
+        "export_checksum": "e2bf15162aeae9db41abffca8d2bf7386c2ae01c4d307f864452e9a76da909e0",
+        "content_checksum": "1db0c7b7a9ecf8777126adddd24c59e24274cdc0193b416b5d56983199376e17"
       },
       {
         "id": "finance-exact-fetch-index-exact-1d1",
@@ -6667,9 +6667,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-1d2.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1d2.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1d2.json",
-        "item_count": 292,
-        "export_checksum": "b7064fe7916a613d1f72b22182c443364d195383f7fdc361cae0b84321aab77a",
-        "content_checksum": "276d5aa32c8f6dae2b83ab71717c46fa1639cbe2c24026590e9731894ac9657b"
+        "item_count": 291,
+        "export_checksum": "0b9586aa748a4fbd7502baf6c6a672088d6b5c4f987777c0e93a1224301c0985",
+        "content_checksum": "8b607efd2ab2ea8896847ecbb5c098e6156a7cd19654d9030bd08dda4d307fa1"
       },
       {
         "id": "finance-exact-fetch-index-exact-1d3",
@@ -6708,8 +6708,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1d6.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1d6.json",
         "item_count": 283,
-        "export_checksum": "8f57f5f6804d55477e1a9843de9743f7c360cf13609f2e7ade30b03dfbf20b88",
-        "content_checksum": "f8dbc50893a1d6f6ac4d45f3c1f05faeceaea9b4c01699c092696f6739e562bf"
+        "export_checksum": "205c1ed65eb18523ff8733bf0d2b2f78ab89219995f835c7b6c59f663575d8f3",
+        "content_checksum": "17221e3bf109c66acdcbbf21b2b56b23c00670a26329aeab4c171b4e4daf3680"
       },
       {
         "id": "finance-exact-fetch-index-exact-1d7",
@@ -6778,8 +6778,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1dd.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1dd.json",
         "item_count": 291,
-        "export_checksum": "9adaab3937772b72ba050b45cae2407526d726f91f03790c7e63cc66cef96795",
-        "content_checksum": "86a85bcb928a4328f69182b30239f1f4592639e9e5e4cb7405102f64b389082a"
+        "export_checksum": "4807170527682913eb8a177ccda77a803c5cbfa47cbb2aa5dc167e30c5912239",
+        "content_checksum": "f82392735b7960f440c3c868f0e58ee8c389fa72ea1ecd32a39d7d5b90b727ee"
       },
       {
         "id": "finance-exact-fetch-index-exact-1de",
@@ -6808,8 +6808,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1e0.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1e0.json",
         "item_count": 273,
-        "export_checksum": "ffd2039e2e5e2aa0ce53e938bed1fc775f244caefc153ff110c4a416ff7e6aba",
-        "content_checksum": "a160d1206932c8603de69b146c8468654f2b630b3fa2325c45fa63c1bee0d009"
+        "export_checksum": "3bd42f37ac65b92d4ac6792962b06d665cbd83478f8e2d6dcef4ce967899844d",
+        "content_checksum": "49e73e5ad9c81b61a5fdfedd448144fdf48e9dfa3891f52f9dce7c3f606fa1dc"
       },
       {
         "id": "finance-exact-fetch-index-exact-1e1",
@@ -6837,9 +6837,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-1e3.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1e3.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1e3.json",
-        "item_count": 278,
-        "export_checksum": "040bac509ffa16b5beb18c21bc4eb28b991ecb0c1b22dc7a96f55672b6ffd907",
-        "content_checksum": "a3d5199bc4c4cb60ff8aa5644d47285d7bcba412bd9d7faaa5843dcb5e39d3a5"
+        "item_count": 277,
+        "export_checksum": "ffb56a53b4770632f12c1e48c09d606c7ffa2fa5ac351df73d817997b9320c8e",
+        "content_checksum": "8fffbd8af6bd80b6536fd4cc55cf82b74eecdef175313ec92a1c676f8c0ff4a4"
       },
       {
         "id": "finance-exact-fetch-index-exact-1e4",
@@ -6878,8 +6878,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1e7.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1e7.json",
         "item_count": 269,
-        "export_checksum": "259b754c18f94150d8682e8fe0712650dc0359090f3675a3d3a6c18464963df7",
-        "content_checksum": "3ac876bda6c1f08d245be1c04349119ee7d166440029c7ea436f4ff8d27f04b0"
+        "export_checksum": "2bfb0a94369846b30b3670d9ea23ac30c005238dc824f97f2086f6d2dd131a5b",
+        "content_checksum": "11690a2e0ea6f956b182bc0559345afcd1b1297f05d27f3f5cae79efb17d4e3d"
       },
       {
         "id": "finance-exact-fetch-index-exact-1e8",
@@ -6888,8 +6888,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1e8.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1e8.json",
         "item_count": 287,
-        "export_checksum": "60c19d81c79391f615ac843cf635bfdc87195e2e2f1f8917dbcd60e3916b58ca",
-        "content_checksum": "21d34daa8b6592c1bcc6ebdaa804ac860e878ba97b6aac6aa585e2593ad7be2a"
+        "export_checksum": "38c7930e6baed1c53642aef9d7ea35944179cc92b564fd964c36fdcea25c553d",
+        "content_checksum": "02de2367d27d706d1e1cd328ee9f4155e1fc9abb8a9175932b233a3872075230"
       },
       {
         "id": "finance-exact-fetch-index-exact-1e9",
@@ -6897,9 +6897,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-1e9.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1e9.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1e9.json",
-        "item_count": 287,
-        "export_checksum": "0ecff4bc9020dc2788faf22e4d61c3e740a46f8a2e8ece3e6669faa5e6e6da65",
-        "content_checksum": "3c7e505463e1b55d94c5cf7a4921a96e8cb613c5f712643a65f0441f4e877394"
+        "item_count": 286,
+        "export_checksum": "523ff5838ede7a19cadee0795552bd3802f9ea1453bb97fa0083a98ccc2d5bbd",
+        "content_checksum": "a8ab4c093ddc2bc4b98f03826348ec3fcf48f683b08eccf812a63c5d495bb066"
       },
       {
         "id": "finance-exact-fetch-index-exact-1ea",
@@ -6907,9 +6907,9 @@
         "path": "opentax/finance-exact-fetch-index-2026-exact-1ea.json",
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1ea.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1ea.json",
-        "item_count": 263,
-        "export_checksum": "fc21d8173a80efeb437572dac9279252226911c37f0bc8067594d252c5eafe54",
-        "content_checksum": "0759dff1f5b84142d80b1e8f06b13b59eb2904b3a171c607fbdd0682bfc66040"
+        "item_count": 262,
+        "export_checksum": "21b93d6ef7e01beffef57d18bbed3ed3d84f3e61c7722eef283037ed90448aeb",
+        "content_checksum": "b816ffa09214bffafc48d1fdce7990f27b471dd317a18183b1a2f574c26115b6"
       },
       {
         "id": "finance-exact-fetch-index-exact-1eb",
@@ -6968,8 +6968,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1f0.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1f0.json",
         "item_count": 288,
-        "export_checksum": "8ece01e95ff4f75d876bdae8dc18468e6f3055d17ff59500165cccc2eb48f0b1",
-        "content_checksum": "9b8a61e206c39d1328eff1bd7d1b8a3ab965f28e6baab931799591528d0f04d8"
+        "export_checksum": "fb85558a848c5edda391e8229796ca89970feeef52f7463fcadd13211684ed78",
+        "content_checksum": "ccb30101e5136704275a366ce3a3184bec6d060f5d106916517fa181d1c000a6"
       },
       {
         "id": "finance-exact-fetch-index-exact-1f1",
@@ -7068,8 +7068,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1fa.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1fa.json",
         "item_count": 278,
-        "export_checksum": "1fe233ca5ff1e39b65c2043577b6724dd81cf79ffcd58c02f2c43876114b0a4c",
-        "content_checksum": "dc13557c0ec566d3d74c39f72c443ab01ff7c6a7690ed990f7ee91afb46382f1"
+        "export_checksum": "a8d3cc076a63f5d49f3251d7e40ec8b51d225396e0b88ce3ade5941a00e2e6f4",
+        "content_checksum": "52b453ccea4117b07c180a0276f4bc3441b7938c70301ec4d265527e892679d3"
       },
       {
         "id": "finance-exact-fetch-index-exact-1fb",
@@ -7098,8 +7098,8 @@
         "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1fd.json",
         "web_url": "https://cocomo0412.github.io/OpenFin/opentax/finance-exact-fetch-index-2026-exact-1fd.json",
         "item_count": 291,
-        "export_checksum": "d4e5a39801e66cbb2d9e0317d890213d2c9beb3fdd73cea03d09dace85b107fc",
-        "content_checksum": "6d50bacecafacaff166307fd0beb2160754fc90bc5ec8c57c07ec3cebef05dc1"
+        "export_checksum": "6363cf4d84ec50f182c740f82d9d3ddefaf796cd6f0735bce96810abd99858f6",
+        "content_checksum": "2b210b81b9406be0a0b892b98b19b60d6707e42bbeb4ad331891bff1528b9550"
       },
       {
         "id": "finance-exact-fetch-index-exact-1fe",
@@ -7122,7 +7122,7 @@
         "content_checksum": "ea988f8d3fda8c568dadbbb086a77afd532f21e6019ebcdada0501c238982011"
       }
     ],
-    "content_checksum": "62aabeb434b633cd015c17ff0cb4416e14504c24f346dcbdaa45ea3c3ba7aef5"
+    "content_checksum": "aa56b84337995aa2a8f114dd4da9ad9581327b31ff6559add0597070e5251482"
   },
   "api_collection": {
     "path": "opentax/collection-inventory.json",
@@ -7446,5 +7446,5 @@
     ],
     "remaining_reason": "이번 승인 API가 해당 원문의 내용을 제공하지 않거나 응답 스키마가 맞지 않아 기존 사실의 검토일을 변경하지 않았습니다."
   },
-  "manifest_checksum": "01607dc0c21c9f4c078b11e7c138321160b574c37d8947982334b3e75dc07c5f"
+  "manifest_checksum": "0a2d108715c4b2806357775bc274f2702fcd7eb462306eac9528fa198532b73d"
 }

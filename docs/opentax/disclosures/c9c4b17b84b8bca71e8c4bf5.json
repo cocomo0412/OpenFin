@@ -55,5 +55,6 @@
   "provider_disclosure_urls": [
     "https://www.heungkuklife.co.kr/front/public/saleProduct.do?searchFlgSale=Y"
   ],
-  "document_scope": "comparison-disclosure attachments; full policy terms not verified"
+  "document_scope": "comparison-disclosure attachments; full policy terms not verified",
+  "policy_documents": []
 }

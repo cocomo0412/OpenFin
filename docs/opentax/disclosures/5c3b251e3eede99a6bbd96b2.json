@@ -52,5 +52,6 @@
   "provider_disclosure_urls": [
     "https://www.hanalife.co.kr/anm/product/allProduct.do?status=on"
   ],
-  "document_scope": "comparison-disclosure attachments; full policy terms not verified"
+  "document_scope": "comparison-disclosure attachments; full policy terms not verified",
+  "policy_documents": []
 }

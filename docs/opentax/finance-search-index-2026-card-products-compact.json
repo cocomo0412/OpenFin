@@ -95,6 +95,28 @@
       ]
     },
     {
+      "id": "finance.card.check-card.롯데카드.위클리-체크카드",
+      "title": "위클리 VISA 롯데체크카드",
+      "type": "card-product",
+      "description": "위클리 VISA 롯데체크카드의 공식 상세 안내입니다. 혜택·이용조건·한도·유의사항은 수집된 상세 원문에서 확인할 수 있습니다.",
+      "search_text": "위클리 visa 롯데체크카드 롯데카드 위클리 visa 롯데체크카드의 공식 상세 안내입니다. 혜택·이용조건·한도·유의사항은 수집된 상세 원문에서 확인할 수 있습니다.",
+      "provider": "롯데카드",
+      "product_kind": "check-card",
+      "sales_status": "unknown",
+      "status": "reference_only",
+      "recommendation_status": "reference_only",
+      "recommendation_scope": "listing_only",
+      "freshness_status": "current",
+      "source_ids": [
+        "source.crefia.carddamoa"
+      ],
+      "provenance_shard": "card-products",
+      "export_id": "card-products-ontology",
+      "source_urls": [
+        "https://www.lottecard.co.kr/app/IHCDAAA_V200.do?vt_cd_knd_c=C10343-B10347"
+      ]
+    },
+    {
       "id": "finance.card.check-card.롯데카드.likit-on-체크카드",
       "title": "롯데카드 LIKIT ON 체크카드",
       "type": "card-product",
@@ -796,6 +818,72 @@
       "export_id": "card-products-ontology",
       "source_urls": [
         "https://www.bccard.com/app/card/CheckCardMain.do?gdsno=227715&mbkNo=020"
+      ]
+    },
+    {
+      "id": "finance.card.check-card.우리카드.위비트래블-체크카드",
+      "title": "위비트래블 체크카드",
+      "type": "card-product",
+      "description": "위비트래블 체크카드의 공식 상세 안내입니다. 혜택·이용조건·한도·유의사항은 수집된 상세 원문에서 확인할 수 있습니다.",
+      "search_text": "위비트래블 체크카드 우리카드 위비트래블 체크카드의 공식 상세 안내입니다. 혜택·이용조건·한도·유의사항은 수집된 상세 원문에서 확인할 수 있습니다.",
+      "provider": "우리카드",
+      "product_kind": "check-card",
+      "sales_status": "unknown",
+      "status": "reference_only",
+      "recommendation_status": "reference_only",
+      "recommendation_scope": "listing_only",
+      "freshness_status": "current",
+      "source_ids": [
+        "source.crefia.carddamoa"
+      ],
+      "provenance_shard": "card-products",
+      "export_id": "card-products-ontology",
+      "source_urls": [
+        "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103489"
+      ]
+    },
+    {
+      "id": "finance.card.check-card.우리카드.카드의정석-오하-check",
+      "title": "카드의정석 오하CHECK",
+      "type": "card-product",
+      "description": "카드의정석 오하CHECK의 공식 상세 안내입니다. 혜택·이용조건·한도·유의사항은 수집된 상세 원문에서 확인할 수 있습니다.",
+      "search_text": "카드의정석 오하check 우리카드 카드의정석 오하check의 공식 상세 안내입니다. 혜택·이용조건·한도·유의사항은 수집된 상세 원문에서 확인할 수 있습니다.",
+      "provider": "우리카드",
+      "product_kind": "check-card",
+      "sales_status": "unknown",
+      "status": "reference_only",
+      "recommendation_status": "reference_only",
+      "recommendation_scope": "listing_only",
+      "freshness_status": "current",
+      "source_ids": [
+        "source.crefia.carddamoa"
+      ],
+      "provenance_shard": "card-products",
+      "export_id": "card-products-ontology",
+      "source_urls": [
+        "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102716"
+      ]
+    },
+    {
+      "id": "finance.card.check-card.우리카드.카드의정석-br-everyday-check",
+      "title": "카드의정석 EVERYDAY CHECK",
+      "type": "card-product",
+      "description": "카드의정석 EVERYDAY CHECK의 공식 상세 안내입니다. 혜택·이용조건·한도·유의사항은 수집된 상세 원문에서 확인할 수 있습니다.",
+      "search_text": "카드의정석 everyday check 우리카드 카드의정석 everyday check의 공식 상세 안내입니다. 혜택·이용조건·한도·유의사항은 수집된 상세 원문에서 확인할 수 있습니다.",
+      "provider": "우리카드",
+      "product_kind": "check-card",
+      "sales_status": "unknown",
+      "status": "reference_only",
+      "recommendation_status": "reference_only",
+      "recommendation_scope": "listing_only",
+      "freshness_status": "current",
+      "source_ids": [
+        "source.crefia.carddamoa"
+      ],
+      "provenance_shard": "card-products",
+      "export_id": "card-products-ontology",
+      "source_urls": [
+        "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103734"
       ]
     },
     {
@@ -5529,6 +5617,72 @@
       ]
     },
     {
+      "id": "finance.card.credit-card.롯데카드.디지로카-london",
+      "title": "롯데카드 디지로카 London",
+      "type": "card-product",
+      "description": "롯데카드 디지로카 London의 공식 상세 안내입니다. 혜택·이용조건·한도·유의사항은 수집된 상세 원문에서 확인할 수 있습니다.",
+      "search_text": "롯데카드 디지로카 london 롯데카드 롯데카드 디지로카 london의 공식 상세 안내입니다. 혜택·이용조건·한도·유의사항은 수집된 상세 원문에서 확인할 수 있습니다.",
+      "provider": "롯데카드",
+      "product_kind": "credit-card",
+      "sales_status": "unknown",
+      "status": "reference_only",
+      "recommendation_status": "reference_only",
+      "recommendation_scope": "listing_only",
+      "freshness_status": "current",
+      "source_ids": [
+        "source.crefia.carddamoa"
+      ],
+      "provenance_shard": "card-products",
+      "export_id": "card-products-ontology",
+      "source_urls": [
+        "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P14718-A14718"
+      ]
+    },
+    {
+      "id": "finance.card.credit-card.롯데카드.디지로카-paris",
+      "title": "롯데카드 디지로카 Paris",
+      "type": "card-product",
+      "description": "롯데카드 디지로카 Paris의 공식 상세 안내입니다. 혜택·이용조건·한도·유의사항은 수집된 상세 원문에서 확인할 수 있습니다.",
+      "search_text": "롯데카드 디지로카 paris 롯데카드 롯데카드 디지로카 paris의 공식 상세 안내입니다. 혜택·이용조건·한도·유의사항은 수집된 상세 원문에서 확인할 수 있습니다.",
+      "provider": "롯데카드",
+      "product_kind": "credit-card",
+      "sales_status": "unknown",
+      "status": "reference_only",
+      "recommendation_status": "reference_only",
+      "recommendation_scope": "listing_only",
+      "freshness_status": "current",
+      "source_ids": [
+        "source.crefia.carddamoa"
+      ],
+      "provenance_shard": "card-products",
+      "export_id": "card-products-ontology",
+      "source_urls": [
+        "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P14728-A14728"
+      ]
+    },
+    {
+      "id": "finance.card.credit-card.롯데카드.loca-likit-2-0",
+      "title": "롯데카드 LOCA LIKIT 2.0",
+      "type": "card-product",
+      "description": "롯데카드 LOCA LIKIT 2.0의 공식 상세 안내입니다. 혜택·이용조건·한도·유의사항은 수집된 상세 원문에서 확인할 수 있습니다.",
+      "search_text": "롯데카드 loca likit 2.0 롯데카드 롯데카드 loca likit 2.0의 공식 상세 안내입니다. 혜택·이용조건·한도·유의사항은 수집된 상세 원문에서 확인할 수 있습니다.",
+      "provider": "롯데카드",
+      "product_kind": "credit-card",
+      "sales_status": "unknown",
+      "status": "reference_only",
+      "recommendation_status": "reference_only",
+      "recommendation_scope": "listing_only",
+      "freshness_status": "current",
+      "source_ids": [
+        "source.crefia.carddamoa"
+      ],
+      "provenance_shard": "card-products",
+      "export_id": "card-products-ontology",
+      "source_urls": [
+        "https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P15835-A15835"
+      ]
+    },
+    {
       "id": "finance.card.credit-card.부산은행.국민행복카드-신용-770534",
       "title": "부산은행 국민행복카드(신용)",
       "type": "card-product",
@@ -9049,6 +9203,72 @@
       ]
     },
     {
+      "id": "finance.card.credit-card.우리카드.카드의정석2-routine",
+      "title": "카드의정석2 ROUTINE",
+      "type": "card-product",
+      "description": "카드의정석2 ROUTINE의 공식 상세 안내입니다. 혜택·이용조건·한도·유의사항은 수집된 상세 원문에서 확인할 수 있습니다.",
+      "search_text": "카드의정석2 routine 우리카드 카드의정석2 routine의 공식 상세 안내입니다. 혜택·이용조건·한도·유의사항은 수집된 상세 원문에서 확인할 수 있습니다.",
+      "provider": "우리카드",
+      "product_kind": "credit-card",
+      "sales_status": "unknown",
+      "status": "reference_only",
+      "recommendation_status": "reference_only",
+      "recommendation_scope": "listing_only",
+      "freshness_status": "current",
+      "source_ids": [
+        "source.crefia.carddamoa"
+      ],
+      "provenance_shard": "card-products",
+      "export_id": "card-products-ontology",
+      "source_urls": [
+        "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=500045"
+      ]
+    },
+    {
+      "id": "finance.card.credit-card.우리카드.카드의정석2-shopper",
+      "title": "카드의정석2 SHOPPER",
+      "type": "card-product",
+      "description": "카드의정석2 SHOPPER의 공식 상세 안내입니다. 혜택·이용조건·한도·유의사항은 수집된 상세 원문에서 확인할 수 있습니다.",
+      "search_text": "카드의정석2 shopper 우리카드 카드의정석2 shopper의 공식 상세 안내입니다. 혜택·이용조건·한도·유의사항은 수집된 상세 원문에서 확인할 수 있습니다.",
+      "provider": "우리카드",
+      "product_kind": "credit-card",
+      "sales_status": "unknown",
+      "status": "reference_only",
+      "recommendation_status": "reference_only",
+      "recommendation_scope": "listing_only",
+      "freshness_status": "current",
+      "source_ids": [
+        "source.crefia.carddamoa"
+      ],
+      "provenance_shard": "card-products",
+      "export_id": "card-products-ontology",
+      "source_urls": [
+        "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104151"
+      ]
+    },
+    {
+      "id": "finance.card.credit-card.우리카드.카드의정석2-super",
+      "title": "카드의정석2 SUPER",
+      "type": "card-product",
+      "description": "카드의정석2 SUPER의 공식 상세 안내입니다. 혜택·이용조건·한도·유의사항은 수집된 상세 원문에서 확인할 수 있습니다.",
+      "search_text": "카드의정석2 super 우리카드 카드의정석2 super의 공식 상세 안내입니다. 혜택·이용조건·한도·유의사항은 수집된 상세 원문에서 확인할 수 있습니다.",
+      "provider": "우리카드",
+      "product_kind": "credit-card",
+      "sales_status": "unknown",
+      "status": "reference_only",
+      "recommendation_status": "reference_only",
+      "recommendation_scope": "listing_only",
+      "freshness_status": "current",
+      "source_ids": [
+        "source.crefia.carddamoa"
+      ],
+      "provenance_shard": "card-products",
+      "export_id": "card-products-ontology",
+      "source_urls": [
+        "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=500044"
+      ]
+    },
+    {
       "id": "finance.card.credit-card.하나카드.그린카드-373986",
       "title": "하나카드 그린카드",
       "type": "card-product",
@@ -9090,6 +9310,28 @@
       "export_id": "card-products-ontology",
       "source_urls": [
         "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=250818&mbkNo=025"
+      ]
+    },
+    {
+      "id": "finance.card.credit-card.하나카드.원더카드-free",
+      "title": "원더카드 2.0 FREE+",
+      "type": "card-product",
+      "description": "원더카드 2.0 FREE+의 공식 상세 안내입니다. 혜택·이용조건·한도·유의사항은 수집된 상세 원문에서 확인할 수 있습니다.",
+      "search_text": "원더카드 2.0 free+ 하나카드 원더카드 2.0 free+의 공식 상세 안내입니다. 혜택·이용조건·한도·유의사항은 수집된 상세 원문에서 확인할 수 있습니다.",
+      "provider": "하나카드",
+      "product_kind": "credit-card",
+      "sales_status": "unknown",
+      "status": "reference_only",
+      "recommendation_status": "reference_only",
+      "recommendation_scope": "listing_only",
+      "freshness_status": "current",
+      "source_ids": [
+        "source.crefia.carddamoa"
+      ],
+      "provenance_shard": "card-products",
+      "export_id": "card-products-ontology",
+      "source_urls": [
+        "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=16947"
       ]
     },
     {
@@ -21768,74 +22010,6 @@
       }
     },
     {
-      "id": "finance.card.check-card.롯데카드.위클리-체크카드",
-      "title": "롯데카드 위클리 체크카드",
-      "type": "card-product",
-      "description": "여신금융협회 카드다모아에 공시된 롯데카드의 체크카드 상품 '위클리 체크카드'입니다.",
-      "search_text": "finance.card.check-card.롯데카드.위클리-체크카드 롯데카드 위클리 체크카드 card-product 여신금융협회 카드다모아에 공시된 롯데카드의 체크카드 상품 '위클리 체크카드'입니다. 롯데카드 롯데카",
-      "provider": "롯데카드",
-      "product_kind": "check-card",
-      "search_type": "card",
-      "product_status": "active",
-      "sales_status": "unknown",
-      "source_listing_status": "listed",
-      "sales_verification_status": "listed_unverified",
-      "source_freshness_status": "current",
-      "status": "active",
-      "recommendation_status": "reference_only",
-      "recommendation_scope": "listing_only",
-      "canonical_product_id": "finance.canonical.롯데카드.위클리-체크카드.check-card",
-      "resolved_canonical_product_id": "finance.canonical.롯데카드.위클리-체크카드.check-card",
-      "freshness_status": "current",
-      "last_source_checked_at": "2026-07-18",
-      "last_reviewed_at": "2026-07-18",
-      "source_ids": [
-        "source.crefia.carddamoa",
-        "source.crefia.card-products"
-      ],
-      "provenance_shard": "card-products",
-      "export_id": "card-products-ontology",
-      "source_urls": [
-        "https://gongsi.crefia.or.kr/portal/carddamoa/carddamoaList",
-        "https://www.lottecard.co.kr/app/IHCDAAA_V200.do?vt_cd_knd_c=C10343-B10347",
-        "https://gongsi.crefia.or.kr/portal/financialProdInfo/cardProd"
-      ],
-      "source_basis_dates": [
-        "2026-07-18 수집",
-        "2026-07-03 확인"
-      ],
-      "discovery_evidence_fields": [
-        "benefit_amount_krw",
-        "benefit_rate_percent",
-        "benefit_type"
-      ],
-      "discovery_limitations": [
-        "sales_status_unverified"
-      ],
-      "normalized_completeness_ratio": 0.25,
-      "completeness_ratio": 0.25,
-      "verified_completeness_ratio": 0,
-      "structured_summary": {
-        "rates": {
-          "benefit_rates": [
-            0.5
-          ]
-        },
-        "limits": {},
-        "periods": {},
-        "card": {
-          "benefit_type": [
-            "point_accumulation",
-            "point_accumulation"
-          ]
-        },
-        "insurance": {},
-        "support": {
-          "application_window": {}
-        }
-      }
-    },
-    {
       "id": "finance.card.check-card.비씨카드.비씨top포인트카드-000000",
       "title": "비씨카드 비씨TOP포인트카드",
       "type": "card-product",
@@ -21896,473 +22070,6 @@
         "card": {
           "benefit_type": [
             "point_accumulation"
-          ]
-        },
-        "insurance": {},
-        "support": {
-          "application_window": {}
-        }
-      }
-    },
-    {
-      "id": "finance.card.check-card.우리카드.위비트래블-체크카드",
-      "title": "우리카드 위비트래블 체크카드",
-      "type": "card-product",
-      "description": "여신금융협회 카드다모아에 공시된 우리카드의 체크카드 상품 '위비트래블 체크카드'입니다.",
-      "search_text": "finance.card.check-card.우리카드.위비트래블-체크카드 우리카드 위비트래블 체크카드 card-product 여신금융협회 카드다모아에 공시된 우리카드의 체크카드 상품 '위비트래블 체크카드'입니다. 우리",
-      "provider": "우리카드",
-      "product_kind": "check-card",
-      "search_type": "card",
-      "product_status": "active",
-      "sales_status": "unknown",
-      "source_listing_status": "listed",
-      "sales_verification_status": "listed_unverified",
-      "source_freshness_status": "current",
-      "status": "active",
-      "recommendation_status": "reference_only",
-      "recommendation_scope": "listing_only",
-      "canonical_product_id": "finance.canonical.우리카드.위비트래블-체크카드.check-card",
-      "resolved_canonical_product_id": "finance.canonical.우리카드.위비트래블-체크카드.check-card",
-      "freshness_status": "current",
-      "last_source_checked_at": "2026-07-18",
-      "last_reviewed_at": "2026-07-18",
-      "source_ids": [
-        "source.crefia.carddamoa",
-        "source.crefia.card-products"
-      ],
-      "provenance_shard": "card-products",
-      "export_id": "card-products-ontology",
-      "source_urls": [
-        "https://gongsi.crefia.or.kr/portal/carddamoa/carddamoaList",
-        "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103489",
-        "https://gongsi.crefia.or.kr/portal/financialProdInfo/cardProd"
-      ],
-      "source_basis_dates": [
-        "2026-07-18 수집",
-        "2026-07-03 확인"
-      ],
-      "discovery_evidence_fields": [
-        "benefit_amount_krw",
-        "benefit_categories",
-        "benefit_rate_percent",
-        "benefit_type"
-      ],
-      "discovery_limitations": [
-        "sales_status_unverified"
-      ],
-      "normalized_completeness_ratio": 0.3333,
-      "completeness_ratio": 0.3333,
-      "verified_completeness_ratio": 0,
-      "structured_summary": {
-        "rates": {
-          "benefit_rates": [
-            5
-          ]
-        },
-        "limits": {},
-        "periods": {},
-        "card": {
-          "benefit_type": [
-            "point_accumulation"
-          ],
-          "benefit_categories": [
-            [
-              "쇼핑",
-              "해외"
-            ],
-            [
-              "해외"
-            ]
-          ]
-        },
-        "insurance": {},
-        "support": {
-          "application_window": {}
-        }
-      }
-    },
-    {
-      "id": "finance.card.check-card.우리카드.카드의정석-br-everyday-check",
-      "title": "우리카드 카드의정석<br>EVERYDAY CHECK",
-      "type": "card-product",
-      "description": "여신금융협회 카드다모아에 공시된 우리카드의 체크카드 상품 '카드의정석<br>EVERYDAY CHECK'입니다.",
-      "search_text": "finance.card.check-card.우리카드.카드의정석-br-everyday-check 우리카드 카드의정석<br>everyday check card-product 여신금융협회 카드다모아에 공시된 우리카드의 체",
-      "provider": "우리카드",
-      "product_kind": "check-card",
-      "search_type": "card",
-      "product_status": "active",
-      "sales_status": "unknown",
-      "source_listing_status": "listed",
-      "sales_verification_status": "listed_unverified",
-      "source_freshness_status": "current",
-      "status": "active",
-      "recommendation_status": "reference_only",
-      "recommendation_scope": "listing_only",
-      "canonical_product_id": "finance.canonical.우리카드.카드의정석-br-everyday-check.check-card",
-      "resolved_canonical_product_id": "finance.canonical.우리카드.카드의정석-br-everyday-check.check-card",
-      "freshness_status": "current",
-      "last_source_checked_at": "2026-07-18",
-      "last_reviewed_at": "2026-07-18",
-      "source_ids": [
-        "source.crefia.carddamoa",
-        "source.crefia.card-products"
-      ],
-      "provenance_shard": "card-products",
-      "export_id": "card-products-ontology",
-      "source_urls": [
-        "https://gongsi.crefia.or.kr/portal/carddamoa/carddamoaList",
-        "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103734",
-        "https://gongsi.crefia.or.kr/portal/financialProdInfo/cardProd"
-      ],
-      "source_basis_dates": [
-        "2026-07-18 수집",
-        "2026-07-03 확인"
-      ],
-      "discovery_evidence_fields": [
-        "benefit_amount_krw",
-        "benefit_categories",
-        "benefit_rate_percent",
-        "benefit_type"
-      ],
-      "discovery_limitations": [
-        "sales_status_unverified"
-      ],
-      "normalized_completeness_ratio": 0.3333,
-      "completeness_ratio": 0.3333,
-      "verified_completeness_ratio": 0,
-      "structured_summary": {
-        "rates": {
-          "benefit_rates": [
-            0.2
-          ]
-        },
-        "limits": {},
-        "periods": {},
-        "card": {
-          "benefit_type": [
-            "point_accumulation"
-          ],
-          "benefit_categories": [
-            [
-              "커피",
-              "쇼핑",
-              "주유",
-              "온라인"
-            ]
-          ]
-        },
-        "insurance": {},
-        "support": {
-          "application_window": {}
-        }
-      }
-    },
-    {
-      "id": "finance.card.check-card.우리카드.카드의정석-오하-check",
-      "title": "우리카드 카드의정석 오하 CHECK",
-      "type": "card-product",
-      "description": "여신금융협회 카드다모아에 공시된 우리카드의 체크카드 상품 '카드의정석 오하 CHECK'입니다.",
-      "search_text": "finance.card.check-card.우리카드.카드의정석-오하-check 우리카드 카드의정석 오하 check card-product 여신금융협회 카드다모아에 공시된 우리카드의 체크카드 상품 '카드의정석 오하 c",
-      "provider": "우리카드",
-      "product_kind": "check-card",
-      "search_type": "card",
-      "product_status": "active",
-      "sales_status": "unknown",
-      "source_listing_status": "listed",
-      "sales_verification_status": "listed_unverified",
-      "source_freshness_status": "current",
-      "status": "active",
-      "recommendation_status": "reference_only",
-      "recommendation_scope": "listing_only",
-      "canonical_product_id": "finance.canonical.우리카드.카드의정석-오하-check.check-card",
-      "resolved_canonical_product_id": "finance.canonical.우리카드.카드의정석-오하-check.check-card",
-      "freshness_status": "current",
-      "last_source_checked_at": "2026-07-18",
-      "last_reviewed_at": "2026-07-18",
-      "source_ids": [
-        "source.crefia.carddamoa",
-        "source.crefia.card-products"
-      ],
-      "provenance_shard": "card-products",
-      "export_id": "card-products-ontology",
-      "source_urls": [
-        "https://gongsi.crefia.or.kr/portal/carddamoa/carddamoaList",
-        "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=103489",
-        "https://gongsi.crefia.or.kr/portal/financialProdInfo/cardProd"
-      ],
-      "source_basis_dates": [
-        "2026-07-18 수집",
-        "2026-07-03 확인"
-      ],
-      "discovery_evidence_fields": [
-        "benefit_amount_krw",
-        "benefit_categories",
-        "benefit_rate_percent",
-        "benefit_type"
-      ],
-      "discovery_limitations": [
-        "sales_status_unverified"
-      ],
-      "normalized_completeness_ratio": 0.3333,
-      "completeness_ratio": 0.3333,
-      "verified_completeness_ratio": 0,
-      "structured_summary": {
-        "rates": {
-          "benefit_rates": [
-            5
-          ]
-        },
-        "limits": {},
-        "periods": {},
-        "card": {
-          "benefit_type": [
-            "point_accumulation"
-          ],
-          "benefit_categories": [
-            [
-              "커피",
-              "쇼핑",
-              "해외",
-              "통신",
-              "온라인"
-            ]
-          ]
-        },
-        "insurance": {},
-        "support": {
-          "application_window": {}
-        }
-      }
-    },
-    {
-      "id": "finance.card.credit-card.롯데카드.loca-likit-2-0",
-      "title": "롯데카드 LOCA LIKIT 2.0",
-      "type": "card-product",
-      "description": "여신금융협회 카드다모아에 공시된 롯데카드의 신용카드 상품 'LOCA LIKIT 2.0'입니다.",
-      "search_text": "finance.card.credit-card.롯데카드.loca-likit-2-0 롯데카드 loca likit 2.0 card-product 여신금융협회 카드다모아에 공시된 롯데카드의 신용카드 상품 'loca liki",
-      "provider": "롯데카드",
-      "product_kind": "credit-card",
-      "search_type": "card",
-      "product_status": "active",
-      "sales_status": "unknown",
-      "source_listing_status": "listed",
-      "sales_verification_status": "listed_unverified",
-      "source_freshness_status": "current",
-      "status": "active",
-      "recommendation_status": "reference_only",
-      "recommendation_scope": "listing_only",
-      "canonical_product_id": "finance.canonical.롯데카드.loca-likit-2-0.credit-card",
-      "resolved_canonical_product_id": "finance.canonical.롯데카드.loca-likit-2-0.credit-card",
-      "freshness_status": "current",
-      "last_source_checked_at": "2026-07-18",
-      "last_reviewed_at": "2026-07-18",
-      "source_ids": [
-        "source.crefia.carddamoa",
-        "source.crefia.card-products"
-      ],
-      "provenance_shard": "card-products",
-      "export_id": "card-products-ontology",
-      "source_urls": [
-        "https://gongsi.crefia.or.kr/portal/carddamoa/carddamoaList",
-        "https://m.lottecard.co.kr/front/card/basic/credit/info/likit2.0?brand=likit&pcYn=Y",
-        "https://gongsi.crefia.or.kr/portal/financialProdInfo/cardProd"
-      ],
-      "source_basis_dates": [
-        "2026-07-18 수집",
-        "2026-07-03 확인"
-      ],
-      "discovery_evidence_fields": [
-        "benefit_amount_krw",
-        "benefit_categories",
-        "benefit_rate_percent",
-        "benefit_type"
-      ],
-      "discovery_limitations": [
-        "sales_status_unverified"
-      ],
-      "normalized_completeness_ratio": 0.3333,
-      "completeness_ratio": 0.3333,
-      "verified_completeness_ratio": 0,
-      "structured_summary": {
-        "rates": {
-          "benefit_rates": [
-            1.2,
-            1.2
-          ]
-        },
-        "limits": {},
-        "periods": {},
-        "card": {
-          "benefit_type": [
-            "discount",
-            "discount"
-          ],
-          "benefit_categories": [
-            [
-              "해외"
-            ],
-            [
-              "해외"
-            ]
-          ]
-        },
-        "insurance": {},
-        "support": {
-          "application_window": {}
-        }
-      }
-    },
-    {
-      "id": "finance.card.credit-card.롯데카드.디지로카-london",
-      "title": "롯데카드 디지로카 London",
-      "type": "card-product",
-      "description": "여신금융협회 카드다모아에 공시된 롯데카드의 신용카드 상품 '디지로카 London'입니다.",
-      "search_text": "finance.card.credit-card.롯데카드.디지로카-london 롯데카드 디지로카 london card-product 여신금융협회 카드다모아에 공시된 롯데카드의 신용카드 상품 '디지로카 london'입니다",
-      "provider": "롯데카드",
-      "product_kind": "credit-card",
-      "search_type": "card",
-      "product_status": "active",
-      "sales_status": "unknown",
-      "source_listing_status": "listed",
-      "sales_verification_status": "listed_unverified",
-      "source_freshness_status": "current",
-      "status": "active",
-      "recommendation_status": "reference_only",
-      "recommendation_scope": "listing_only",
-      "canonical_product_id": "finance.canonical.롯데카드.디지로카-london.credit-card",
-      "resolved_canonical_product_id": "finance.canonical.롯데카드.디지로카-london.credit-card",
-      "freshness_status": "current",
-      "last_source_checked_at": "2026-07-18",
-      "last_reviewed_at": "2026-07-18",
-      "source_ids": [
-        "source.crefia.carddamoa",
-        "source.crefia.card-products"
-      ],
-      "provenance_shard": "card-products",
-      "export_id": "card-products-ontology",
-      "source_urls": [
-        "https://gongsi.crefia.or.kr/portal/carddamoa/carddamoaList",
-        "https://m.lottecard.co.kr/front/card/basic/credit/info/london?brand=city&pcYn=Y",
-        "https://gongsi.crefia.or.kr/portal/financialProdInfo/cardProd"
-      ],
-      "source_basis_dates": [
-        "2026-07-18 수집",
-        "2026-07-03 확인"
-      ],
-      "discovery_evidence_fields": [
-        "benefit_amount_krw",
-        "benefit_categories",
-        "benefit_rate_percent",
-        "benefit_type"
-      ],
-      "discovery_limitations": [
-        "sales_status_unverified"
-      ],
-      "normalized_completeness_ratio": 0.3333,
-      "completeness_ratio": 0.3333,
-      "verified_completeness_ratio": 0,
-      "structured_summary": {
-        "rates": {
-          "benefit_rates": [
-            0.7,
-            1.7
-          ]
-        },
-        "limits": {},
-        "periods": {},
-        "card": {
-          "benefit_type": [
-            "point_accumulation",
-            "point_accumulation"
-          ],
-          "benefit_categories": [
-            [
-              "해외"
-            ],
-            [
-              "해외"
-            ]
-          ]
-        },
-        "insurance": {},
-        "support": {
-          "application_window": {}
-        }
-      }
-    },
-    {
-      "id": "finance.card.credit-card.롯데카드.디지로카-paris",
-      "title": "롯데카드 디지로카 Paris",
-      "type": "card-product",
-      "description": "여신금융협회 카드다모아에 공시된 롯데카드의 신용카드 상품 '디지로카 Paris'입니다.",
-      "search_text": "finance.card.credit-card.롯데카드.디지로카-paris 롯데카드 디지로카 paris card-product 여신금융협회 카드다모아에 공시된 롯데카드의 신용카드 상품 '디지로카 paris'입니다. 롯",
-      "provider": "롯데카드",
-      "product_kind": "credit-card",
-      "search_type": "card",
-      "product_status": "active",
-      "sales_status": "unknown",
-      "source_listing_status": "listed",
-      "sales_verification_status": "listed_unverified",
-      "source_freshness_status": "current",
-      "status": "active",
-      "recommendation_status": "reference_only",
-      "recommendation_scope": "listing_only",
-      "canonical_product_id": "finance.canonical.롯데카드.디지로카-paris.credit-card",
-      "resolved_canonical_product_id": "finance.canonical.롯데카드.디지로카-paris.credit-card",
-      "freshness_status": "current",
-      "last_source_checked_at": "2026-07-18",
-      "last_reviewed_at": "2026-07-18",
-      "source_ids": [
-        "source.crefia.carddamoa",
-        "source.crefia.card-products"
-      ],
-      "provenance_shard": "card-products",
-      "export_id": "card-products-ontology",
-      "source_urls": [
-        "https://gongsi.crefia.or.kr/portal/carddamoa/carddamoaList",
-        "https://m.lottecard.co.kr/front/card/basic/credit/info/paris?brand=city&pcYn=Y",
-        "https://gongsi.crefia.or.kr/portal/financialProdInfo/cardProd"
-      ],
-      "source_basis_dates": [
-        "2026-07-18 수집",
-        "2026-07-03 확인"
-      ],
-      "discovery_evidence_fields": [
-        "benefit_amount_krw",
-        "benefit_categories",
-        "benefit_rate_percent",
-        "benefit_type"
-      ],
-      "discovery_limitations": [
-        "sales_status_unverified"
-      ],
-      "normalized_completeness_ratio": 0.3333,
-      "completeness_ratio": 0.3333,
-      "verified_completeness_ratio": 0,
-      "structured_summary": {
-        "rates": {
-          "benefit_rates": [
-            0.7,
-            5
-          ]
-        },
-        "limits": {},
-        "periods": {},
-        "card": {
-          "benefit_type": [
-            "discount",
-            "discount"
-          ],
-          "benefit_categories": [
-            [
-              "쇼핑",
-              "해외",
-              "온라인"
-            ],
-            [
-              "쇼핑",
-              "온라인"
-            ]
           ]
         },
         "insurance": {},
@@ -22898,314 +22605,7 @@
           "application_window": {}
         }
       }
-    },
-    {
-      "id": "finance.card.credit-card.우리카드.카드의정석2-routine",
-      "title": "우리카드 카드의정석2 ROUTINE",
-      "type": "card-product",
-      "description": "여신금융협회 카드다모아에 공시된 우리카드의 신용카드 상품 '카드의정석2 ROUTINE'입니다.",
-      "search_text": "finance.card.credit-card.우리카드.카드의정석2-routine 우리카드 카드의정석2 routine card-product 여신금융협회 카드다모아에 공시된 우리카드의 신용카드 상품 '카드의정석2 ro",
-      "provider": "우리카드",
-      "product_kind": "credit-card",
-      "search_type": "card",
-      "product_status": "active",
-      "sales_status": "unknown",
-      "source_listing_status": "listed",
-      "sales_verification_status": "listed_unverified",
-      "source_freshness_status": "current",
-      "status": "active",
-      "recommendation_status": "reference_only",
-      "recommendation_scope": "listing_only",
-      "canonical_product_id": "finance.canonical.우리카드.카드의정석2-routine.credit-card",
-      "resolved_canonical_product_id": "finance.canonical.우리카드.카드의정석2-routine.credit-card",
-      "freshness_status": "current",
-      "last_source_checked_at": "2026-07-18",
-      "last_reviewed_at": "2026-07-18",
-      "source_ids": [
-        "source.crefia.carddamoa",
-        "source.crefia.card-products"
-      ],
-      "provenance_shard": "card-products",
-      "export_id": "card-products-ontology",
-      "source_urls": [
-        "https://gongsi.crefia.or.kr/portal/carddamoa/carddamoaList",
-        "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=500045",
-        "https://gongsi.crefia.or.kr/portal/financialProdInfo/cardProd"
-      ],
-      "source_basis_dates": [
-        "2026-07-18 수집",
-        "2026-07-03 확인"
-      ],
-      "discovery_evidence_fields": [
-        "benefit_amount_krw",
-        "benefit_categories",
-        "benefit_rate_percent",
-        "benefit_type"
-      ],
-      "discovery_limitations": [
-        "sales_status_unverified"
-      ],
-      "normalized_completeness_ratio": 0.3333,
-      "completeness_ratio": 0.3333,
-      "verified_completeness_ratio": 0,
-      "structured_summary": {
-        "rates": {
-          "benefit_rates": [
-            15
-          ]
-        },
-        "limits": {},
-        "periods": {},
-        "card": {
-          "benefit_type": [
-            "discount",
-            "discount"
-          ],
-          "benefit_categories": [
-            [
-              "통신",
-              "구독"
-            ]
-          ]
-        },
-        "insurance": {},
-        "support": {
-          "application_window": {}
-        }
-      }
-    },
-    {
-      "id": "finance.card.credit-card.우리카드.카드의정석2-shopper",
-      "title": "우리카드 카드의정석2 SHOPPER",
-      "type": "card-product",
-      "description": "여신금융협회 카드다모아에 공시된 우리카드의 신용카드 상품 '카드의정석2 SHOPPER'입니다.",
-      "search_text": "finance.card.credit-card.우리카드.카드의정석2-shopper 우리카드 카드의정석2 shopper card-product 여신금융협회 카드다모아에 공시된 우리카드의 신용카드 상품 '카드의정석2 sh",
-      "provider": "우리카드",
-      "product_kind": "credit-card",
-      "search_type": "card",
-      "product_status": "active",
-      "sales_status": "unknown",
-      "source_listing_status": "listed",
-      "sales_verification_status": "listed_unverified",
-      "source_freshness_status": "current",
-      "status": "active",
-      "recommendation_status": "reference_only",
-      "recommendation_scope": "listing_only",
-      "canonical_product_id": "finance.canonical.우리카드.카드의정석2-shopper.credit-card",
-      "resolved_canonical_product_id": "finance.canonical.우리카드.카드의정석2-shopper.credit-card",
-      "freshness_status": "current",
-      "last_source_checked_at": "2026-07-18",
-      "last_reviewed_at": "2026-07-18",
-      "source_ids": [
-        "source.crefia.carddamoa",
-        "source.crefia.card-products"
-      ],
-      "provenance_shard": "card-products",
-      "export_id": "card-products-ontology",
-      "source_urls": [
-        "https://gongsi.crefia.or.kr/portal/carddamoa/carddamoaList",
-        "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=104151",
-        "https://gongsi.crefia.or.kr/portal/financialProdInfo/cardProd"
-      ],
-      "source_basis_dates": [
-        "2026-07-18 수집",
-        "2026-07-03 확인"
-      ],
-      "discovery_evidence_fields": [
-        "benefit_amount_krw",
-        "benefit_categories",
-        "benefit_rate_percent",
-        "benefit_type"
-      ],
-      "discovery_limitations": [
-        "sales_status_unverified"
-      ],
-      "normalized_completeness_ratio": 0.3333,
-      "completeness_ratio": 0.3333,
-      "verified_completeness_ratio": 0,
-      "structured_summary": {
-        "rates": {
-          "benefit_rates": [
-            10
-          ]
-        },
-        "limits": {},
-        "periods": {},
-        "card": {
-          "benefit_type": [
-            "discount"
-          ],
-          "benefit_categories": [
-            [
-              "쇼핑",
-              "온라인"
-            ],
-            [
-              "쇼핑"
-            ]
-          ]
-        },
-        "insurance": {},
-        "support": {
-          "application_window": {}
-        }
-      }
-    },
-    {
-      "id": "finance.card.credit-card.우리카드.카드의정석2-super",
-      "title": "우리카드 카드의정석2 SUPER",
-      "type": "card-product",
-      "description": "여신금융협회 카드다모아에 공시된 우리카드의 신용카드 상품 '카드의정석2 SUPER'입니다.",
-      "search_text": "finance.card.credit-card.우리카드.카드의정석2-super 우리카드 카드의정석2 super card-product 여신금융협회 카드다모아에 공시된 우리카드의 신용카드 상품 '카드의정석2 super'",
-      "provider": "우리카드",
-      "product_kind": "credit-card",
-      "search_type": "card",
-      "product_status": "active",
-      "sales_status": "unknown",
-      "source_listing_status": "listed",
-      "sales_verification_status": "listed_unverified",
-      "source_freshness_status": "current",
-      "status": "active",
-      "recommendation_status": "reference_only",
-      "recommendation_scope": "listing_only",
-      "canonical_product_id": "finance.canonical.우리카드.카드의정석2-super.credit-card",
-      "resolved_canonical_product_id": "finance.canonical.우리카드.카드의정석2-super.credit-card",
-      "freshness_status": "current",
-      "last_source_checked_at": "2026-07-18",
-      "last_reviewed_at": "2026-07-18",
-      "source_ids": [
-        "source.crefia.carddamoa",
-        "source.crefia.card-products"
-      ],
-      "provenance_shard": "card-products",
-      "export_id": "card-products-ontology",
-      "source_urls": [
-        "https://gongsi.crefia.or.kr/portal/carddamoa/carddamoaList",
-        "https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=500044",
-        "https://gongsi.crefia.or.kr/portal/financialProdInfo/cardProd"
-      ],
-      "source_basis_dates": [
-        "2026-07-18 수집",
-        "2026-07-03 확인"
-      ],
-      "discovery_evidence_fields": [
-        "benefit_amount_krw",
-        "benefit_categories",
-        "benefit_rate_percent",
-        "benefit_type",
-        "minimum_payment_amount",
-        "previous_month_spend_min_krw"
-      ],
-      "discovery_limitations": [
-        "sales_status_unverified"
-      ],
-      "normalized_completeness_ratio": 0.5,
-      "completeness_ratio": 0.5,
-      "verified_completeness_ratio": 0,
-      "structured_summary": {
-        "rates": {
-          "benefit_rates": [
-            2,
-            2
-          ]
-        },
-        "limits": {},
-        "periods": {},
-        "card": {
-          "previous_month_spend_min_krw": [
-            0
-          ],
-          "benefit_type": [
-            "discount",
-            "discount"
-          ],
-          "benefit_categories": [
-            [
-              "해외"
-            ]
-          ]
-        },
-        "insurance": {},
-        "support": {
-          "application_window": {}
-        }
-      }
-    },
-    {
-      "id": "finance.card.credit-card.하나카드.원더카드-free",
-      "title": "하나카드 원더카드 FREE+",
-      "type": "card-product",
-      "description": "여신금융협회 카드다모아에 공시된 하나카드의 신용카드 상품 '원더카드 FREE+'입니다.",
-      "search_text": "finance.card.credit-card.하나카드.원더카드-free 하나카드 원더카드 free+ card-product 여신금융협회 카드다모아에 공시된 하나카드의 신용카드 상품 '원더카드 free+'입니다. 하나",
-      "provider": "하나카드",
-      "product_kind": "credit-card",
-      "search_type": "card",
-      "product_status": "active",
-      "sales_status": "unknown",
-      "source_listing_status": "listed",
-      "sales_verification_status": "listed_unverified",
-      "source_freshness_status": "current",
-      "status": "active",
-      "recommendation_status": "reference_only",
-      "recommendation_scope": "listing_only",
-      "canonical_product_id": "finance.canonical.하나카드.원더카드-free.credit-card",
-      "resolved_canonical_product_id": "finance.canonical.하나카드.원더카드-free.credit-card",
-      "freshness_status": "current",
-      "last_source_checked_at": "2026-07-18",
-      "last_reviewed_at": "2026-07-18",
-      "source_ids": [
-        "source.crefia.carddamoa",
-        "source.crefia.card-products"
-      ],
-      "provenance_shard": "card-products",
-      "export_id": "card-products-ontology",
-      "source_urls": [
-        "https://gongsi.crefia.or.kr/portal/carddamoa/carddamoaList",
-        "https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=16947",
-        "https://gongsi.crefia.or.kr/portal/financialProdInfo/cardProd"
-      ],
-      "source_basis_dates": [
-        "2026-07-18 수집",
-        "2026-07-03 확인"
-      ],
-      "discovery_evidence_fields": [
-        "benefit_amount_krw",
-        "benefit_categories",
-        "benefit_rate_percent",
-        "benefit_type"
-      ],
-      "discovery_limitations": [
-        "sales_status_unverified"
-      ],
-      "normalized_completeness_ratio": 0.3333,
-      "completeness_ratio": 0.3333,
-      "verified_completeness_ratio": 0,
-      "structured_summary": {
-        "rates": {
-          "benefit_rates": [
-            0.8,
-            0.8
-          ]
-        },
-        "limits": {},
-        "periods": {},
-        "card": {
-          "benefit_type": [
-            "discount",
-            "discount"
-          ],
-          "benefit_categories": [
-            [
-              "온라인"
-            ]
-          ]
-        },
-        "insurance": {},
-        "support": {
-          "application_window": {}
-        }
-      }
     }
   ],
-  "export_checksum": "6865b4ff2fe21af422cbbf8bb2ee673a8622f62fd5781a126010904ca73010e9"
+  "export_checksum": "6bd89bc5b3aa4142851d07b8431a1368d75e0d45d5e1a0bba4b62ab52d6c41aa"
 }

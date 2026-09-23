@@ -23,7 +23,7 @@
       "canonical_merge_count": 49,
       "checksum_covered_export_count": 18,
       "broken_relation_count": 0,
-      "relationship_count": 220452,
+      "relationship_count": 220349,
       "collection_failure_sources": 136
     },
     "live_regression": {
@@ -5211,7 +5211,7 @@
       "migration_notice": "Historical upstream evidence; identity redacted. Not evidence for current deployment.",
       "evidence_path": "evidence/live-regression/current.json",
       "evidence_checksum": "e1c3d057e9c005525e6d411f7e8892d91e67e7feb3ffda9ba3e08cb22d2916ba",
-      "expected_generation_id": "260fdfc431cc133997eb06a953499be7025f8a47835d917abbe7ae955c54667a",
+      "expected_generation_id": "1ce5ce02661106137abbf375333c95d4c236b4271903676040ade45be619f972",
       "expected_fixture_checksum": "sha256:1030ce9505034216880ef47384cea521cc76000089d4b32942ba53a68c2c7989",
       "validation_status": "failed"
     },
@@ -5413,9 +5413,9 @@
           "schema_defined": true,
           "structural_value_completeness": 0,
           "required_field_total": 7049,
-          "value_complete_field_count": 15,
+          "value_complete_field_count": 4,
           "field_verified_count": 0,
-          "value_field_coverage": 0.0021279614129663784,
+          "value_field_coverage": 0.0005674563767910342,
           "reviewed_assertion_coverage": 0,
           "complete_field_count": 0,
           "verified_candidate_count": 0,
@@ -5430,7 +5430,7 @@
             "annual_fee_krw": 1007,
             "previous_month_spend_krw": 1007,
             "excluded_spend_conditions": 1007,
-            "benefit_rate_percent": 992,
+            "benefit_rate_percent": 1003,
             "monthly_benefit_limit_krw": 1007,
             "per_transaction_limit_krw": 1007,
             "benefit_overlap_policy": 1007
@@ -5442,7 +5442,7 @@
               "lineage": "source_receipt"
             },
             "normalized": {
-              "item_count": 21,
+              "item_count": 10,
               "status": "available",
               "lineage": "decision_snapshot"
             },

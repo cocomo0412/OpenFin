@@ -2,6 +2,7 @@
   "id": "finance.card.credit-card.비씨카드.carplus카드-602001",
   "source_id": "source.bccard.credit-card-list",
   "text": "카드상품 신용카드 상세보기 [BC공통] CarPlus카드 [BC공통] CarPlus카드 BC Master Card VISA JCB CarPlus 0.8% 포인트 적립 자동차 정비 및 유지 업종 최대 무이자 3개월 할부 연회비 브랜드/등급별 상이 78.6% 21.4% 0.0% 15.5% 61.2% 0.0% 23.3% 지에스25 대구옥포교항점 CJ온스타일 파리바게뜨",
+  "scope": "official product detail text; numeric rule extraction pending",
   "receipt": {
     "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=602001&mbkNo=999",
     "final_url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=602001&mbkNo=999",

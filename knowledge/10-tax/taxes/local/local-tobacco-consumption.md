@@ -1,24 +1,12 @@
 ---
 {
+  "deadlines": [],
+  "folder": "10_Taxes/Local",
+  "basis_year": 2026,
   "id": "local.tobacco-consumption",
   "title": "담배소비세",
   "type": "tax",
-  "description": "담배 반출 또는 반입에 대해 과세되는 지방 보통세입니다.",
-  "folder": "10_Taxes/Local",
-  "basis_year": 2026,
-  "effective_date": "2026-02-05",
-  "expiration_date": null,
-  "reviewed_at": "2026-05-04",
-  "source_urls": [
-    "https://www.law.go.kr/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=1000903169",
-    "https://www.law.go.kr/법령/지방세법"
-  ],
-  "source_basis_dates": [
-    "2026-02-05T00:00:00.000Z",
-    "2026-05-03T00:00:00.000Z"
-  ],
-  "abolition_status": "active",
-  "revision_status": "none_announced",
+  "description": "궐련의 담배소비세는 20개비당 1,007원이 기준이며 다른 담배 종류에는 별도 단위세액이 적용됩니다.",
   "parents": [
     "category.local-ordinary-taxes"
   ],
@@ -27,270 +15,110 @@
   "terms": [
     "term.local-tax"
   ],
-  "deadlines": [],
-  "sources": [
-    "source.local-tax-framework-act.2026.article8",
-    "source.law.local-tax-act.rates"
-  ],
-  "law_reference": "지방세기본법 제8조",
   "tags": [
     "local-tax"
   ],
-  "criteria": [
-    {
-      "label": "궐련 담배소비세",
-      "basis": "궐련 20개비",
-      "condition": "궐련 담배 반출 또는 반입",
-      "amount_krw": 1007,
-      "source": "source.law.local-tax-act.rates",
-      "criteria_kind": "reference",
-      "basis_category": "official-standard",
-      "basis_definition": "해당 제도에서 대상 여부, 세율, 공제액, 한도 또는 신고기한을 판정하기 위해 공식 출처가 사용하는 기준항목입니다.",
-      "basis_lookup": "각 criterion의 출처 노드와 관련 신고·신청 서류에서 확인합니다.",
-      "selection_rule": "조건 문구와 구조화된 금액·비율·기간 필드를 함께 보고 해당 구간 또는 요건을 선택합니다.",
-      "basis_source": "source.law.local-tax-act.rates",
-      "law_reference": "지방세기본법 제8조"
-    }
-  ],
-  "structured_summary": {
-    "tax": {
-      "tax_year": 2026,
-      "rates": {},
-      "limits": {},
-      "thresholds": {},
-      "eligible_persons": [
-        "궐련 담배 반출 또는 반입"
-      ],
-      "required_documents": [],
-      "filing_deadlines": [],
-      "law_references": [
-        "지방세기본법 제8조"
-      ]
-    }
-  },
-  "search_facets": {
-    "tax_type": "tax",
-    "applicable_year": 2026,
-    "law_reference": "지방세기본법 제8조"
-  },
-  "provenance_shard": "reference",
-  "source_registry_id": "source.local-tax-framework-act.2026.article8",
-  "source_registry_status": "registered",
-  "provenance": [
-    {
-      "source_id": "source.local-tax-framework-act.2026.article8",
-      "original_url": "https://www.law.go.kr/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=1000903169",
-      "source_record_id": null,
-      "locator": null,
-      "supported_fields": [
-        "title",
-        "type",
-        "description",
-        "folder",
-        "basis_year",
-        "effective_date",
-        "reviewed_at",
-        "abolition_status",
-        "revision_status",
-        "law_reference",
-        "criteria",
-        "structured_summary",
-        "search_facets",
-        "provenance_shard",
-        "source_registry_id",
-        "source_registry_status"
-      ],
-      "source_published_at": null,
-      "source_modified_at": null,
-      "collected_at": "2026-05-04T00:00:00.000Z",
-      "reviewed_at": "2026-05-04T00:00:00.000Z",
-      "valid_from": "2026-02-05T00:00:00.000Z",
-      "valid_to": null,
-      "checksum": null,
-      "checksum_scope": null,
-      "verification_status": "reference_only"
-    },
-    {
-      "source_id": "source.law.local-tax-act.rates",
-      "original_url": "https://www.law.go.kr/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=1000903169",
-      "source_record_id": null,
-      "locator": null,
-      "supported_fields": [
-        "title",
-        "type",
-        "description",
-        "folder",
-        "basis_year",
-        "effective_date",
-        "reviewed_at",
-        "abolition_status",
-        "revision_status",
-        "law_reference",
-        "criteria",
-        "structured_summary",
-        "search_facets",
-        "provenance_shard",
-        "source_registry_id",
-        "source_registry_status"
-      ],
-      "source_published_at": null,
-      "source_modified_at": null,
-      "collected_at": "2026-05-04T00:00:00.000Z",
-      "reviewed_at": "2026-05-04T00:00:00.000Z",
-      "valid_from": "2026-02-05T00:00:00.000Z",
-      "valid_to": null,
-      "checksum": null,
-      "checksum_scope": null,
-      "verification_status": "reference_only"
-    }
-  ],
   "publication_memberships": [
     "korea-tax-ontology-2026.json"
+  ],
+  "search_shard": "reference",
+  "status": "reference_only",
+  "sales_status": "unknown",
+  "recommendation_status": "reference_only",
+  "recommendation_scope": "listing_only",
+  "comparison_engine_gate_passed": false,
+  "domain_gate_passed": false,
+  "criteria": [
+    {
+      "label": "궐련",
+      "condition": "궐련의 담배소비세는 20개비당 1,007원이 기준이며 다른 담배 종류에는 별도 단위세액이 적용됩니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.local-tax-act.rates",
+      "criteria_kind": "disclosure",
+      "law_reference": "지방세법 제52조"
+    },
+    {
+      "label": "현행 예외",
+      "condition": "연초 또는 연초를 원료로 한 니코틴을 원료의 전부·일부로 제조한 담배가 아닌 담배에는 조문상 세율의 50%를 적용합니다. 시행령상 가감 가능 규정과 반출·반입 시점의 적용법을 확인합니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.local-tax-act.rates",
+      "criteria_kind": "disclosure",
+      "law_reference": "지방세법 제52조"
+    }
+  ],
+  "sources": [
+    "source.law.local-tax-act.rates"
+  ],
+  "source_urls": [
+    "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=282559&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0"
+  ],
+  "collected_at": "2026-09-23T08:26:22.571307+00:00",
+  "source_collected_at": "2026-09-23T08:26:22.571307+00:00",
+  "last_source_checked_at": "2026-09-23T08:26:22.571307+00:00",
+  "last_reviewed_at": "2026-09-23T08:26:22.571307+00:00",
+  "reviewed_at": "2026-09-23T08:26:22.571307+00:00",
+  "refresh_generation": "2026-09-23T08:26:22.571307+00:00",
+  "review_scope": "공식 공시의 식별자·본문·필드 연결 확인",
+  "source_listing_status": "listed",
+  "source_freshness_status": "current",
+  "freshness_status": "current",
+  "verification_status": "listing_only",
+  "sales_verification_status": "listed_unverified",
+  "current_disclosure": {
+    "path": "opentax/disclosures/6bbc2aecce1774a0f86c6759.json",
+    "checksum": "sha256:965d380ac9d18358926dd52f226c4fa0b89a6a3393f9a5420eb06cb985736d4a",
+    "checksum_scope": "normalized-disclosure-json",
+    "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=282559&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+    "collected_at": "2026-09-23T08:26:22.571307+00:00"
+  },
+  "provenance": [
+    {
+      "source_id": "source.law.local-tax-act.rates",
+      "original_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=282559&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+      "source_record_id": "local.tobacco-consumption",
+      "collected_at": "2026-09-23T08:26:22.571307+00:00",
+      "reviewed_at": "2026-09-23T08:26:22.571307+00:00",
+      "checksum": "sha256:9f5ef4724aa36b1f62bd0e36aa912309144e85c3e1bc880c960e66d467418995",
+      "checksum_scope": "official-disclosure-response",
+      "verification_status": "listing_only",
+      "supported_fields": [
+        "title",
+        "description",
+        "criteria",
+        "current_disclosure"
+      ],
+      "locator": {
+        "kind": "record-id",
+        "value": "local.tobacco-consumption"
+      }
+    }
   ],
   "search_projection": {
     "id": "local.tobacco-consumption",
     "title": "담배소비세",
     "type": "tax",
-    "description": "담배 반출 또는 반입에 대해 과세되는 지방 보통세입니다.",
-    "provider": null,
-    "product_kind": null,
-    "search_type": null,
-    "product_status": null,
-    "sales_status": null,
-    "source_listing_status": null,
-    "sales_verification_status": null,
-    "sales_verified_at": null,
-    "condition_verification_status": null,
-    "source_freshness_status": null,
-    "status": null,
-    "status_reason": null,
-    "recommendation_status": null,
-    "recommendation_scope": null,
-    "catalog_recommendation_status": null,
-    "catalog_recommendation_scope": null,
-    "canonical_product_id": null,
-    "resolved_canonical_product_id": null,
-    "external_product_ids": [],
-    "provider_external_ids": [],
-    "provider_roles": [],
-    "source_records": [],
-    "preferred_source": null,
-    "merged_fields": {},
-    "field_provenance": {},
-    "field_conflicts": {},
-    "recommendation_model_version": "openfin-recommendation-v0.1.0",
-    "recommendation_exclusion_reasons": [],
-    "recommendation_basis_fields": [],
-    "verification_evidence": null,
-    "verification_status": null,
-    "quality_flags": [],
-    "last_verified_at": null,
-    "last_source_checked_at": null,
-    "last_reviewed_at": null,
-    "public_recommendation_exclusion_reasons": [],
-    "comparison_exclusion_reasons": [],
-    "discovery_limitations": [],
-    "missing_required_fields": [],
-    "missing_in_source_fields": [],
-    "unmapped_existing_fields": [],
-    "unverified_fields": [],
-    "discovery_evidence_fields": [],
-    "completeness_ratio": null,
-    "source_completeness_ratio": null,
-    "normalized_completeness_ratio": null,
-    "verified_completeness_ratio": null,
-    "required_field_count": null,
-    "completed_field_count": null,
-    "domain_gate_passed": null,
-    "comparison_engine_gate_passed": null,
-    "comparison_field_verification_status": null,
-    "comparison_field_verification": {},
-    "comparison_basis_fields": [],
-    "comparison_options": [],
-    "application_status": null,
-    "is_currently_applicable": null,
-    "application_open_from": null,
-    "application_open_to": null,
-    "application_window": {},
-    "jurisdiction": null,
-    "jurisdiction_code": null,
-    "jurisdiction_aliases": [],
-    "parent_jurisdiction_code": null,
-    "administrative_history": [],
-    "target_group": [],
-    "support_category": [],
-    "last_status_checked_at": null,
-    "freshness_status": null,
-    "collection_status": null,
-    "legacy_ids": [],
-    "search_aliases": [],
-    "aliases": [],
-    "export_id": "tax-ontology",
-    "source_checksum": null,
+    "description": "궐련의 담배소비세는 20개비당 1,007원이 기준이며 다른 담배 종류에는 별도 단위세액이 적용됩니다.",
+    "status": "reference_only",
+    "sales_status": "unknown",
     "source_urls": [
-      "https://www.law.go.kr/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=1000903169",
-      "https://www.law.go.kr/법령/지방세법"
+      "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=282559&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0"
     ],
-    "source_basis_dates": [
-      "2026-02-05T00:00:00.000Z",
-      "2026-05-03T00:00:00.000Z"
-    ],
-    "structured_summary": {
-      "rates": {},
-      "limits": {},
-      "periods": {},
-      "card": {},
-      "insurance": {},
-      "support": {
-        "application_window": {}
-      }
-    },
-    "search_facets": {},
-    "search_text": "local.tobacco-consumption 담배소비세 tax 담배 반출 또는 반입에 대해 과세되는 지방 보통세입니다. 지방세기본법 제8조 local-tax source.local-tax-framework-act.",
-    "provenance_shard": "reference",
+    "freshness_status": "current",
+    "recommendation_status": "reference_only",
+    "recommendation_scope": "listing_only",
     "source_ids": [
-      "source.local-tax-framework-act.2026.article8",
       "source.law.local-tax-act.rates"
-    ]
+    ],
+    "export_id": "tax-ontology",
+    "search_text": "담배소비세 궐련의 담배소비세는 20개비당 1,007원이 기준이며 다른 담배 종류에는 별도 단위세액이 적용됩니다."
   },
-  "search_shard": "reference",
-  "search_position": 437,
-  "legacy_compatibility_dates": [
-    {
-      "path": [
-        "source_basis_dates",
-        0
-      ],
-      "value": "시행 2026-02-05"
-    },
-    {
-      "path": [
-        "source_basis_dates",
-        1
-      ],
-      "value": "2026-05-03 확인"
-    },
-    {
-      "path": [
-        "search_projection",
-        "source_basis_dates",
-        0
-      ],
-      "value": "시행 2026-02-05"
-    },
-    {
-      "path": [
-        "search_projection",
-        "source_basis_dates",
-        1
-      ],
-      "value": "2026-05-03 확인"
-    }
-  ],
-  "record_checksum": "sha256:02c83ce114d696e001e466a4811e895c3135d653b66c12fe46a9576af9945bbb"
+  "record_checksum": "sha256:6410e999d5b33c598d6498acb1f2d0d8f9acdc2e92098530333a79aa2e90c05f"
 }
 ---
 
 # 담배소비세
 
-담배 반출 또는 반입에 대해 과세되는 지방 보통세입니다.
+궐련의 담배소비세는 20개비당 1,007원이 기준이며 다른 담배 종류에는 별도 단위세액이 적용됩니다.
+
+- **궐련**: 궐련의 담배소비세는 20개비당 1,007원이 기준이며 다른 담배 종류에는 별도 단위세액이 적용됩니다.
+- **현행 예외**: 연초 또는 연초를 원료로 한 니코틴을 원료의 전부·일부로 제조한 담배가 아닌 담배에는 조문상 세율의 50%를 적용합니다. 시행령상 가감 가능 규정과 반출·반입 시점의 적용법을 확인합니다.

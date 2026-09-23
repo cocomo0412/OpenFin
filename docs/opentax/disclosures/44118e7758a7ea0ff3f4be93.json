@@ -50,5 +50,23 @@
   "provider_disclosure_urls": [
     "https://abllife.co.kr/st/pban/prdtPban/whlPrdt?page=1254508_1260"
   ],
-  "document_scope": "comparison-disclosure attachments; full policy terms not verified"
+  "document_scope": "comparison-disclosure attachments; full policy terms not verified",
+  "policy_documents": [
+    {
+      "index_url": "https://abllife.co.kr/st/pban/prdtPban/whlPrdt?page=1254508_1260",
+      "url": "https://abllife.co.kr/cms/pban/prdtPban/whlPrdt/__icsFiles/afieldfile/2026/04/01/20260401_NP_우리WON인터넷5대미니암보험.pdf",
+      "document_type": "policy-terms",
+      "effective_from": "2026-04-01",
+      "page_count": 165,
+      "text_characters": 179289,
+      "scope": "current policy document collected; individual clause review pending",
+      "receipt": {
+        "url": "https://abllife.co.kr/cms/pban/prdtPban/whlPrdt/__icsFiles/afieldfile/2026/04/01/20260401_NP_%EC%9A%B0%EB%A6%ACWON%EC%9D%B8%ED%84%B0%EB%84%B75%EB%8C%80%EB%AF%B8%EB%8B%88%EC%95%94%EB%B3%B4%ED%97%98.pdf",
+        "final_url": "https://abllife.co.kr/cms/pban/prdtPban/whlPrdt/__icsFiles/afieldfile/2026/04/01/20260401_NP_%EC%9A%B0%EB%A6%ACWON%EC%9D%B8%ED%84%B0%EB%84%B75%EB%8C%80%EB%AF%B8%EB%8B%88%EC%95%94%EB%B3%B4%ED%97%98.pdf",
+        "http_status": 200,
+        "collected_at": "2026-09-23T10:17:40.248398+00:00",
+        "sha256": "e828ef46ef259c42fceab07f3f9839654d8955a65d3ce3513b3cc20c6d1274a3"
+      }
+    }
+  ]
 }

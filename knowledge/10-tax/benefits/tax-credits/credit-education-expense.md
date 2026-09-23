@@ -4,23 +4,6 @@
   "title": "교육비 세액공제",
   "type": "tax-credit",
   "description": "본인과 기본공제대상자 교육비 등에 대한 특별세액공제입니다.",
-  "folder": "20_Deductions/TaxCredits",
-  "basis_year": 2026,
-  "effective_date": null,
-  "expiration_date": null,
-  "reviewed_at": "2026-05-04",
-  "source_urls": [
-    "https://kids.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7874&mi=6438",
-    "https://www.law.go.kr/법령/소득세법",
-    "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=239024&mi=40612"
-  ],
-  "source_basis_dates": [
-    "2026-05-02T00:00:00.000Z",
-    "2026-05-04T00:00:00.000Z",
-    "2026-05-03T00:00:00.000Z"
-  ],
-  "abolition_status": "active",
-  "revision_status": "none_announced",
   "parents": [
     "credit.special-tax"
   ],
@@ -35,428 +18,132 @@
   "terms": [
     "term.tax-credit"
   ],
-  "deadlines": [
-    "deadline.year-end-settlement"
-  ],
-  "sources": [
-    "source.nts.year-end-settlement.special-credit",
-    "source.law.income-tax-act.deductions-credits",
-    "source.nts.education-expense-credit"
-  ],
-  "law_reference": "소득세법 제59조의4",
   "tags": [
     "tax-credit"
   ],
-  "criteria": [
-    {
-      "label": "본인 교육비",
-      "basis": "근로자 본인 교육비",
-      "condition": "한도 없음",
-      "rate_percent": 15,
-      "source": "source.nts.education-expense-credit",
-      "criteria_kind": "rate",
-      "rate_basis": "근로자 본인 교육비",
-      "basis_category": "official-standard",
-      "basis_definition": "해당 제도에서 대상 여부, 세율, 공제액, 한도 또는 신고기한을 판정하기 위해 공식 출처가 사용하는 기준항목입니다.",
-      "basis_lookup": "각 criterion의 출처 노드와 관련 신고·신청 서류에서 확인합니다.",
-      "selection_rule": "조건 문구와 구조화된 금액·비율·기간 필드를 함께 보고 해당 구간 또는 요건을 선택합니다.",
-      "basis_source": "source.nts.education-expense-credit",
-      "law_reference": "소득세법 제59조의4",
-      "rate_label": "세액공제율",
-      "amount_formula": "근로자 본인 교육비 × 세액공제율 15%"
-    },
-    {
-      "label": "취학전·초중고 교육비",
-      "basis": "부양가족 1명당 교육비",
-      "condition": "취학전 아동, 초·중·고등학생",
-      "limit_krw": 3000000,
-      "rate_percent": 15,
-      "source": "source.nts.education-expense-credit",
-      "criteria_kind": "rate",
-      "rate_basis": "부양가족 1명당 교육비",
-      "basis_category": "official-standard",
-      "basis_definition": "해당 제도에서 대상 여부, 세율, 공제액, 한도 또는 신고기한을 판정하기 위해 공식 출처가 사용하는 기준항목입니다.",
-      "basis_lookup": "각 criterion의 출처 노드와 관련 신고·신청 서류에서 확인합니다.",
-      "selection_rule": "조건 문구와 구조화된 금액·비율·기간 필드를 함께 보고 해당 구간 또는 요건을 선택합니다.",
-      "basis_source": "source.nts.education-expense-credit",
-      "law_reference": "소득세법 제59조의4",
-      "rate_label": "세액공제율"
-    },
-    {
-      "label": "대학생 교육비",
-      "basis": "부양가족 1명당 교육비",
-      "condition": "대학생",
-      "limit_krw": 9000000,
-      "rate_percent": 15,
-      "source": "source.nts.education-expense-credit",
-      "criteria_kind": "rate",
-      "rate_basis": "부양가족 1명당 교육비",
-      "basis_category": "official-standard",
-      "basis_definition": "해당 제도에서 대상 여부, 세율, 공제액, 한도 또는 신고기한을 판정하기 위해 공식 출처가 사용하는 기준항목입니다.",
-      "basis_lookup": "각 criterion의 출처 노드와 관련 신고·신청 서류에서 확인합니다.",
-      "selection_rule": "조건 문구와 구조화된 금액·비율·기간 필드를 함께 보고 해당 구간 또는 요건을 선택합니다.",
-      "basis_source": "source.nts.education-expense-credit",
-      "law_reference": "소득세법 제59조의4",
-      "rate_label": "세액공제율"
-    },
-    {
-      "label": "장애인 특수교육비",
-      "basis": "장애인 특수교육비",
-      "condition": "직계존속 포함, 소득제한 없음",
-      "rate_percent": 15,
-      "note": "한도 없음",
-      "source": "source.nts.education-expense-credit",
-      "criteria_kind": "rate",
-      "rate_basis": "장애인 특수교육비",
-      "basis_category": "official-standard",
-      "basis_definition": "해당 제도에서 대상 여부, 세율, 공제액, 한도 또는 신고기한을 판정하기 위해 공식 출처가 사용하는 기준항목입니다.",
-      "basis_lookup": "각 criterion의 출처 노드와 관련 신고·신청 서류에서 확인합니다.",
-      "selection_rule": "조건 문구와 구조화된 금액·비율·기간 필드를 함께 보고 해당 구간 또는 요건을 선택합니다.",
-      "basis_source": "source.nts.education-expense-credit",
-      "law_reference": "소득세법 제59조의4",
-      "rate_label": "세액공제율",
-      "amount_formula": "장애인 특수교육비 × 세액공제율 15%"
-    }
-  ],
-  "structured_summary": {
-    "tax": {
-      "tax_year": 2026,
-      "rates": {
-        "criterion_1": 15,
-        "criterion_2": 15,
-        "criterion_3": 15,
-        "criterion_4": 15
-      },
-      "limits": {
-        "criterion_2": 3000000,
-        "criterion_3": 9000000
-      },
-      "thresholds": {},
-      "eligible_persons": [
-        "한도 없음",
-        "취학전 아동, 초·중·고등학생",
-        "대학생",
-        "직계존속 포함, 소득제한 없음"
-      ],
-      "required_documents": [
-        "required-document.education-payment-certificate"
-      ],
-      "filing_deadlines": [
-        "deadline.year-end-settlement"
-      ],
-      "law_references": [
-        "소득세법 제59조의4"
-      ]
-    }
-  },
-  "search_facets": {
-    "tax_type": "tax-credit",
-    "credit_or_deduction": "tax-credit",
-    "applicable_year": 2026,
-    "law_reference": "소득세법 제59조의4"
-  },
-  "provenance_shard": "reference",
-  "source_registry_id": "source.nts.year-end-settlement.special-credit",
-  "source_registry_status": "registered",
-  "provenance": [
-    {
-      "source_id": "source.nts.year-end-settlement.special-credit",
-      "original_url": "https://kids.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7874&mi=6438",
-      "source_record_id": null,
-      "locator": null,
-      "supported_fields": [
-        "title",
-        "type",
-        "description",
-        "folder",
-        "basis_year",
-        "reviewed_at",
-        "abolition_status",
-        "revision_status",
-        "law_reference",
-        "criteria",
-        "structured_summary",
-        "search_facets",
-        "provenance_shard",
-        "source_registry_id",
-        "source_registry_status"
-      ],
-      "source_published_at": null,
-      "source_modified_at": null,
-      "collected_at": "2026-05-04T00:00:00.000Z",
-      "reviewed_at": "2026-05-04T00:00:00.000Z",
-      "valid_from": null,
-      "valid_to": null,
-      "checksum": null,
-      "checksum_scope": null,
-      "verification_status": "reference_only"
-    },
-    {
-      "source_id": "source.law.income-tax-act.deductions-credits",
-      "original_url": "https://www.law.go.kr/법령/소득세법",
-      "source_record_id": null,
-      "locator": null,
-      "supported_fields": [
-        "title",
-        "type",
-        "description",
-        "folder",
-        "basis_year",
-        "reviewed_at",
-        "abolition_status",
-        "revision_status",
-        "law_reference",
-        "criteria",
-        "structured_summary",
-        "search_facets",
-        "provenance_shard",
-        "source_registry_id",
-        "source_registry_status"
-      ],
-      "source_published_at": null,
-      "source_modified_at": null,
-      "collected_at": "2026-05-04T00:00:00.000Z",
-      "reviewed_at": "2026-05-04T00:00:00.000Z",
-      "valid_from": null,
-      "valid_to": null,
-      "checksum": null,
-      "checksum_scope": null,
-      "verification_status": "reference_only"
-    },
-    {
-      "source_id": "source.nts.education-expense-credit",
-      "original_url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=239024&mi=40612",
-      "source_record_id": null,
-      "locator": null,
-      "supported_fields": [
-        "title",
-        "type",
-        "description",
-        "folder",
-        "basis_year",
-        "reviewed_at",
-        "abolition_status",
-        "revision_status",
-        "law_reference",
-        "criteria",
-        "structured_summary",
-        "search_facets",
-        "provenance_shard",
-        "source_registry_id",
-        "source_registry_status"
-      ],
-      "source_published_at": null,
-      "source_modified_at": null,
-      "collected_at": "2026-05-04T00:00:00.000Z",
-      "reviewed_at": "2026-05-04T00:00:00.000Z",
-      "valid_from": null,
-      "valid_to": null,
-      "checksum": null,
-      "checksum_scope": null,
-      "verification_status": "reference_only"
-    }
-  ],
   "publication_memberships": [
     "korea-tax-ontology-2026.json"
+  ],
+  "search_shard": "reference",
+  "status": "reference_only",
+  "sales_status": "unknown",
+  "recommendation_status": "reference_only",
+  "recommendation_scope": "listing_only",
+  "comparison_engine_gate_passed": false,
+  "domain_gate_passed": false,
+  "criteria": [
+    {
+      "label": "공제율·대상",
+      "condition": "일용근로자를 제외한 근로소득자가 지출한 법정 교육비의 15%입니다. 현행 조문은 기본공제대상자의 나이·소득 제한을 적용하지 않습니다. 비과세 교육비와 법정 지원금 등은 제외합니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.income-tax-act.deductions-credits",
+      "criteria_kind": "disclosure"
+    },
+    {
+      "label": "가족 교육비 한도",
+      "condition": "배우자·직계비속·형제자매·입양자·위탁아동의 대학 교육비는 1명당 연 900만원, 취학 전 아동·초중고생은 연 300만원까지입니다. 가족의 대학원 교육비와 가족이 학자금 대출로 지급한 교육비는 제외합니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.income-tax-act.deductions-credits",
+      "criteria_kind": "disclosure"
+    },
+    {
+      "label": "초등학생 예능·체육",
+      "condition": "과세기간 종료일 현재 9세 미만 또는 2학년 이하 초등학생의 법정 예능학원·체육시설 교육비도 포함됩니다. 모든 학원비가 대상인 것은 아니며 시행령상 시설·금액 요건을 충족해야 합니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.income-tax-act.deductions-credits",
+      "criteria_kind": "disclosure"
+    },
+    {
+      "label": "본인 교육비",
+      "condition": "본인의 법정 학교·대학원·직업능력개발훈련 교육비와 법정 학자금 대출 원리금 상환액은 가족 교육비의 300만원·900만원 한도를 적용하지 않습니다. 연체로 인한 추가 지급액 등은 제외합니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.income-tax-act.deductions-credits",
+      "criteria_kind": "disclosure"
+    },
+    {
+      "label": "장애인 특수교육",
+      "condition": "법정 사회복지시설·비영리법인·발달재활서비스 기관 등의 특수교육비가 대상입니다. 발달재활서비스 기관은 과세기간 종료일 현재 18세 미만인 경우만 해당합니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.income-tax-act.deductions-credits",
+      "criteria_kind": "disclosure"
+    }
+  ],
+  "sources": [
+    "source.law.income-tax-act.deductions-credits"
+  ],
+  "source_urls": [
+    "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0"
+  ],
+  "collected_at": "2026-09-23T08:26:20.830416+00:00",
+  "source_collected_at": "2026-09-23T08:26:20.830416+00:00",
+  "last_source_checked_at": "2026-09-23T08:26:20.830416+00:00",
+  "last_reviewed_at": "2026-09-23T08:26:20.830416+00:00",
+  "reviewed_at": "2026-09-23T08:26:20.830416+00:00",
+  "refresh_generation": "2026-09-23T08:26:20.830416+00:00",
+  "review_scope": "공식 공시의 식별자·본문·필드 연결 확인",
+  "source_listing_status": "listed",
+  "source_freshness_status": "current",
+  "freshness_status": "current",
+  "verification_status": "listing_only",
+  "sales_verification_status": "listed_unverified",
+  "current_disclosure": {
+    "path": "opentax/disclosures/899b8c3fa444c2c26be29740.json",
+    "checksum": "sha256:3ff08f077844e4095d455b4e39dd982b2e633102c61bd36042d593c6678cfeae",
+    "checksum_scope": "normalized-disclosure-json",
+    "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+    "collected_at": "2026-09-23T08:26:20.830416+00:00"
+  },
+  "provenance": [
+    {
+      "source_id": "source.law.income-tax-act.deductions-credits",
+      "original_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+      "source_record_id": "credit.education-expense",
+      "collected_at": "2026-09-23T08:26:20.830416+00:00",
+      "reviewed_at": "2026-09-23T08:26:20.830416+00:00",
+      "checksum": "sha256:75c504ac6e07a5d3eebe4ea12252fd68aeb035939f7dbee34cf260070a4d3013",
+      "checksum_scope": "official-disclosure-response",
+      "verification_status": "listing_only",
+      "supported_fields": [
+        "title",
+        "description",
+        "criteria",
+        "current_disclosure"
+      ],
+      "locator": {
+        "kind": "record-id",
+        "value": "credit.education-expense"
+      }
+    }
   ],
   "search_projection": {
     "id": "credit.education-expense",
     "title": "교육비 세액공제",
     "type": "tax-credit",
     "description": "본인과 기본공제대상자 교육비 등에 대한 특별세액공제입니다.",
-    "provider": null,
-    "product_kind": null,
-    "search_type": null,
-    "product_status": null,
-    "sales_status": null,
-    "source_listing_status": null,
-    "sales_verification_status": null,
-    "sales_verified_at": null,
-    "condition_verification_status": null,
-    "source_freshness_status": null,
-    "status": null,
-    "status_reason": null,
-    "recommendation_status": null,
-    "recommendation_scope": null,
-    "catalog_recommendation_status": null,
-    "catalog_recommendation_scope": null,
-    "canonical_product_id": null,
-    "resolved_canonical_product_id": null,
-    "external_product_ids": [],
-    "provider_external_ids": [],
-    "provider_roles": [],
-    "source_records": [],
-    "preferred_source": null,
-    "merged_fields": {},
-    "field_provenance": {},
-    "field_conflicts": {},
-    "recommendation_model_version": "openfin-recommendation-v0.1.0",
-    "recommendation_exclusion_reasons": [],
-    "recommendation_basis_fields": [],
-    "verification_evidence": null,
-    "verification_status": null,
-    "quality_flags": [],
-    "last_verified_at": null,
-    "last_source_checked_at": null,
-    "last_reviewed_at": null,
-    "public_recommendation_exclusion_reasons": [],
-    "comparison_exclusion_reasons": [],
-    "discovery_limitations": [],
-    "missing_required_fields": [],
-    "missing_in_source_fields": [],
-    "unmapped_existing_fields": [],
-    "unverified_fields": [],
-    "discovery_evidence_fields": [],
-    "completeness_ratio": null,
-    "source_completeness_ratio": null,
-    "normalized_completeness_ratio": null,
-    "verified_completeness_ratio": null,
-    "required_field_count": null,
-    "completed_field_count": null,
-    "domain_gate_passed": null,
-    "comparison_engine_gate_passed": null,
-    "comparison_field_verification_status": null,
-    "comparison_field_verification": {},
-    "comparison_basis_fields": [],
-    "comparison_options": [],
-    "application_status": null,
-    "is_currently_applicable": null,
-    "application_open_from": null,
-    "application_open_to": null,
-    "application_window": {},
-    "jurisdiction": null,
-    "jurisdiction_code": null,
-    "jurisdiction_aliases": [],
-    "parent_jurisdiction_code": null,
-    "administrative_history": [],
-    "target_group": [],
-    "support_category": [],
-    "last_status_checked_at": null,
-    "freshness_status": null,
-    "collection_status": null,
-    "legacy_ids": [],
-    "search_aliases": [
-      "교육비 세액공제 대상"
+    "status": "reference_only",
+    "sales_status": "unknown",
+    "source_urls": [
+      "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0"
     ],
-    "aliases": [
-      "교육비 세액공제 대상"
+    "freshness_status": "current",
+    "recommendation_status": "reference_only",
+    "recommendation_scope": "listing_only",
+    "source_ids": [
+      "source.law.income-tax-act.deductions-credits"
     ],
     "export_id": "tax-ontology",
-    "source_checksum": null,
-    "source_urls": [
-      "https://kids.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7874&mi=6438",
-      "https://www.law.go.kr/법령/소득세법",
-      "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=239024&mi=40612"
-    ],
-    "source_basis_dates": [
-      "2026-05-02T00:00:00.000Z",
-      "2026-05-04T00:00:00.000Z",
-      "2026-05-03T00:00:00.000Z"
-    ],
-    "structured_summary": {
-      "tax": {
-        "tax_year": 2026,
-        "rates": {
-          "criterion_1": 15,
-          "criterion_2": 15,
-          "criterion_3": 15,
-          "criterion_4": 15
-        },
-        "limits": {
-          "criterion_2": 3000000,
-          "criterion_3": 9000000
-        },
-        "thresholds": {},
-        "eligible_persons": [
-          "한도 없음",
-          "취학전 아동, 초·중·고등학생",
-          "대학생",
-          "직계존속 포함, 소득제한 없음"
-        ],
-        "required_documents": [
-          "required-document.education-payment-certificate"
-        ],
-        "filing_deadlines": [
-          "deadline.year-end-settlement"
-        ],
-        "law_references": [
-          "소득세법 제59조의4"
-        ]
-      }
-    },
-    "search_facets": {
-      "tax_type": "tax-credit",
-      "applicable_year": 2026,
-      "law_reference": "소득세법 제59조의4"
-    },
-    "search_text": "교육비 세액공제 대상 credit.education-expense 교육비 세액공제 tax-credit 본인과 기본공제대상자 교육비 등에 대한 특별세액공제입니다. 소득세법 제59조의4 tax-credit source.",
-    "provenance_shard": "reference",
-    "source_ids": [
-      "source.nts.year-end-settlement.special-credit",
-      "source.law.income-tax-act.deductions-credits",
-      "source.nts.education-expense-credit"
-    ]
+    "search_text": "교육비 세액공제 본인과 기본공제대상자 교육비 등에 대한 특별세액공제입니다."
   },
-  "search_shard": "reference",
-  "search_position": 111,
-  "legacy_compatibility_dates": [
-    {
-      "path": [
-        "source_basis_dates",
-        0
-      ],
-      "value": "2026-05-02 확인"
-    },
-    {
-      "path": [
-        "source_basis_dates",
-        1
-      ],
-      "value": "2026-05-04 확인"
-    },
-    {
-      "path": [
-        "source_basis_dates",
-        2
-      ],
-      "value": "2026-05-03 확인"
-    },
-    {
-      "path": [
-        "search_projection",
-        "source_basis_dates",
-        0
-      ],
-      "value": "2026-05-02 확인"
-    },
-    {
-      "path": [
-        "search_projection",
-        "source_basis_dates",
-        1
-      ],
-      "value": "2026-05-04 확인"
-    },
-    {
-      "path": [
-        "search_projection",
-        "source_basis_dates",
-        2
-      ],
-      "value": "2026-05-03 확인"
-    }
-  ],
-  "record_checksum": "sha256:58fefd6365e84bbd313d5b7c5bfcfc6254710d60e02be3562414954d728d044f",
-  "requires": [
-    "eligibility-rule.education-dependent-type",
-    "required-document.education-payment-certificate"
-  ],
-  "conflicts_with": [
-    "conflict-rule.education-nongrad"
-  ]
+  "record_checksum": "sha256:ee2ad3863164e3ffe60afe3b2c6a09483167bc1000a566dd2f5568662d1c3c73"
 }
 ---
 
 # 교육비 세액공제
 
 본인과 기본공제대상자 교육비 등에 대한 특별세액공제입니다.
+
+- **공제율·대상**: 일용근로자를 제외한 근로소득자가 지출한 법정 교육비의 15%입니다. 현행 조문은 기본공제대상자의 나이·소득 제한을 적용하지 않습니다. 비과세 교육비와 법정 지원금 등은 제외합니다.
+- **가족 교육비 한도**: 배우자·직계비속·형제자매·입양자·위탁아동의 대학 교육비는 1명당 연 900만원, 취학 전 아동·초중고생은 연 300만원까지입니다. 가족의 대학원 교육비와 가족이 학자금 대출로 지급한 교육비는 제외합니다.
+- **초등학생 예능·체육**: 과세기간 종료일 현재 9세 미만 또는 2학년 이하 초등학생의 법정 예능학원·체육시설 교육비도 포함됩니다. 모든 학원비가 대상인 것은 아니며 시행령상 시설·금액 요건을 충족해야 합니다.
+- **본인 교육비**: 본인의 법정 학교·대학원·직업능력개발훈련 교육비와 법정 학자금 대출 원리금 상환액은 가족 교육비의 300만원·900만원 한도를 적용하지 않습니다. 연체로 인한 추가 지급액 등은 제외합니다.
+- **장애인 특수교육**: 법정 사회복지시설·비영리법인·발달재활서비스 기관 등의 특수교육비가 대상입니다. 발달재활서비스 기관은 과세기간 종료일 현재 18세 미만인 경우만 해당합니다.
