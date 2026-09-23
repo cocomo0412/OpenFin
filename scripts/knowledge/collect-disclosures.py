@@ -68,6 +68,11 @@ def insurance_page(group, page):
             if not title or not provider or len(cells) < 8:
                 raise ValueError('Malformed product row')
             current = {'code': code, 'group': group, 'title': clean(title.text), 'provider': clean(provider.text), 'cells': [clean(c.get_text(' ', strip=True)) for c in cells[1:]], 'coverage': [], 'documents': [], 'receipt': receipt}
+            current['provider_disclosure_urls'] = list(dict.fromkeys(
+                a['href'].strip() for a in tr.select('a[href]')
+                if a['href'].strip().startswith(('https://','http://'))
+                and clean(a.get_text(' ',strip=True)) == current['title']))
+            current['document_scope'] = 'comparison-disclosure attachments; full policy terms not verified'
             for button in tr.select('button[onclick]'):
                 match = re.search(r"fn_fileDown\('([^']+)',\s*'([^']+)'\)", button['onclick'])
                 if match:
@@ -166,7 +171,7 @@ def collect_card(row):
         content = soup.select_one('#main_contents') if 'kbcard.com' in url else soup.select_one('#contents') if 'bccard.com' in url else soup.select_one('main') or soup.select_one('#content') or soup.select_one('#contents') or soup.select_one('#container') or soup.select_one('.contents')
         if content is None: return {'id':row['id'],'error':'Product content missing','receipt':receipt}
         for el in content.select('script,style,header,footer,nav'): el.decompose()
-        text = clean(content.get_text(' ',strip=True))
+        text = clean(html.unescape(content.get_text(' ',strip=True)))
         normalized = re.sub(r'[^가-힣a-zA-Z0-9]','',text).lower()
         title = BeautifulSoup(html.unescape(row['title']),'lxml').get_text().removeprefix(row.get('provider','')).strip()
         title = re.sub(r'[^가-힣a-zA-Z0-9]','',title).lower()
@@ -208,11 +213,18 @@ def collect_source(source):
             content=soup.select_one('#contents') or soup.select_one('#content') or soup.select_one('main')
         if content is None: raise ValueError('No source content selector')
         for x in content.select('script,style,header,footer,nav'): x.decompose()
+        images=[]
+        for img in content.select('img'):
+            alt=clean(img.get('alt',''))
+            if alt and img.get('src'):
+                images.append({'url':urljoin(receipt['final_url'],img['src']),'alt':alt})
+                img.replace_with(' [도표 대체텍스트: '+alt+'] ')
         text=clean(content.get_text(' ',strip=True))
-        if len(text)<150: raise ValueError('Source body empty or insufficient')
+        minimum=20 if 'law.go.kr' in source['url'] else 150
+        if len(text)<minimum: raise ValueError('Source body empty or insufficient')
         if 'law.go.kr' in source['url'] and ('오류페이지' in text or not re.search(r'제\d+조',text)):
             raise ValueError('Law endpoint returned an error or no article text')
-        return {'id':source['id'],'title':source['title'],'text':text,'receipt':receipt,'scope':'source text collection only'}
+        return {'id':source['id'],'title':source['title'],'text':text,'images':images,'receipt':receipt,'scope':'source text collection only; image alternatives require visual review'}
     except Exception as error: return {'id':source['id'],'error':str(error)}
 
 def run_tax_sources():
@@ -244,11 +256,40 @@ def run_accounts():
     (OUT/'accounts.json').write_text(json.dumps({'results':results},ensure_ascii=False,indent=2),encoding='utf-8')
     print(json.dumps({'accounts_sources':len(results)}),flush=True)
 
+def run_insurance_indexes():
+    insurance=json.loads((OUT/'insurance.json').read_text(encoding='utf-8'))
+    targets={}
+    for group in insurance['groups']:
+        for row in group['products']:
+            for url in row.get('provider_disclosure_urls',[]):
+                targets.setdefault(url,set()).add(row['provider'])
+    def collect(target):
+        url,providers=target
+        try:
+            if url.lower().endswith('.pdf'):
+                return {'url':url,'providers':sorted(providers),'direct_document':True}
+            raw,receipt=retrieve(url)
+            soup=BeautifulSoup(raw,'lxml')
+            links=[]
+            for anchor in soup.select('a[href]'):
+                href=anchor['href'].strip(); label=clean(anchor.get_text(' ',strip=True))
+                if '.pdf' in href.lower() or '약관' in label or 'filedown' in href.lower():
+                    parent=anchor.find_parent('tr') or anchor.parent
+                    links.append({'url':urljoin(receipt['final_url'],href),'label':label,'context':clean(parent.get_text(' ',strip=True))[:1200]})
+            actions=[{'action':el['onclick'],'label':clean(el.get_text(' ',strip=True))} for el in soup.select('[onclick]') if any(word in el['onclick'].lower() for word in ['filedown','.pdf','download'])]
+            for el in soup.select('script,style,header,footer,nav'):el.decompose()
+            return {'url':url,'providers':sorted(providers),'receipt':receipt,'document_links':links,'download_actions':actions,'text':clean(soup.get_text(' ',strip=True))}
+        except Exception as error:return {'url':url,'providers':sorted(providers),'error':str(error)}
+    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:results=list(pool.map(collect,targets.items()))
+    (OUT/'insurance-provider-indexes.json').write_text(json.dumps({'results':results},ensure_ascii=False,indent=2),encoding='utf-8')
+    print(json.dumps({'provider_pages':len(results),'fetched':sum('receipt' in r for r in results),'failed':sum('error' in r for r in results),'document_links':sum(len(r.get('document_links',[])) for r in results)}),flush=True)
+
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(); parser.add_argument('--insurance', action='store_true'); parser.add_argument('--pension', action='store_true'); parser.add_argument('--cards', action='store_true'); parser.add_argument('--tax-sources', action='store_true'); parser.add_argument('--accounts', action='store_true')
+    parser = argparse.ArgumentParser(); parser.add_argument('--insurance', action='store_true'); parser.add_argument('--pension', action='store_true'); parser.add_argument('--cards', action='store_true'); parser.add_argument('--tax-sources', action='store_true'); parser.add_argument('--accounts', action='store_true'); parser.add_argument('--insurance-indexes', action='store_true')
     args = parser.parse_args()
     if args.insurance: run_insurance()
     if args.pension: run_pension()
     if args.cards: run_cards()
     if args.tax_sources: run_tax_sources()
     if args.accounts: run_accounts()
+    if args.insurance_indexes: run_insurance_indexes()

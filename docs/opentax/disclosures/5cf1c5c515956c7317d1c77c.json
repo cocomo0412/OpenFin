@@ -1,0 +1,33 @@
+{
+  "id": "tax.income",
+  "source_id": "source.law.income-tax-act.deductions-credits",
+  "reviewed_article": "소득세법 제55조 제1항",
+  "table_image_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=123278409",
+  "rate_percent": [
+    6,
+    15,
+    24,
+    35,
+    38,
+    40,
+    42,
+    45
+  ],
+  "progressive_deduction_krw": [
+    0,
+    1260000,
+    5760000,
+    15440000,
+    19940000,
+    25940000,
+    35940000,
+    65940000
+  ],
+  "receipt": {
+    "url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+    "final_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+    "collected_at": "2026-09-23T08:26:20.830416+00:00",
+    "http_status": 200,
+    "sha256": "75c504ac6e07a5d3eebe4ea12252fd68aeb035939f7dbee34cf260070a4d3013"
+  }
+}

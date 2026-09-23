@@ -10897,6 +10897,28 @@
       "provenance_shard": "card-products"
     },
     {
+      "id": "finance.card.credit-card.ibk기업은행.shopping-joy-쇼핑앤조이-756545",
+      "title": "IBK기업은행 Shopping & Joy (쇼핑앤조이)",
+      "type": "card-product",
+      "description": "IBK기업은행 Shopping & Joy (쇼핑앤조이)의 공식 상세 안내입니다. 혜택·이용조건·한도·유의사항은 수집된 상세 원문에서 확인할 수 있습니다.",
+      "search_text": "ibk기업은행 shopping & joy (쇼핑앤조이) ibk기업은행 ibk기업은행 shopping & joy (쇼핑앤조이)의 공식 상세 안내입니다. 혜택·이용조건·한도·유의사항은 수집된 상세 원문에서 확인할 수 있습니다.",
+      "provider": "IBK기업은행",
+      "product_kind": "credit-card",
+      "sales_status": "unknown",
+      "status": "reference_only",
+      "recommendation_status": "reference_only",
+      "recommendation_scope": "listing_only",
+      "freshness_status": "current",
+      "source_ids": [
+        "source.bccard.credit-card-list"
+      ],
+      "export_id": "card-products-ontology",
+      "source_urls": [
+        "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=756545&mbkNo=003"
+      ],
+      "provenance_shard": "card-products"
+    },
+    {
       "id": "finance.card.credit-card.im뱅크.국민행복카드-신용-311773",
       "title": "iM뱅크 국민행복카드(신용)",
       "type": "card-product",
@@ -22543,152 +22565,6 @@
       "source_checksum": "f77dbb3e1a42f2727b99d9092c559197d0a176a2a799e8a529b17453618fc8df"
     },
     {
-      "id": "finance.card.credit-card.ibk기업은행.shopping-joy-쇼핑앤조이-756545",
-      "title": "IBK기업은행 Shopping & Joy (쇼핑앤조이)",
-      "type": "card-product",
-      "description": "비씨카드 신용카드 상품에 공시된 IBK기업은행의 신용카드 상품 'Shopping & Joy (쇼핑앤조이)'입니다.",
-      "search_text": "finance.card.credit-card.ibk기업은행.shopping-joy-쇼핑앤조이-756545 ibk기업은행 shopping & joy (쇼핑앤조이) card-product 비씨카드 신용카드 상품에 공시된",
-      "provider": "IBK기업은행",
-      "product_kind": "credit-card",
-      "search_type": "card",
-      "product_status": "active",
-      "sales_status": "unknown",
-      "source_listing_status": "listed",
-      "sales_verification_status": "listed_unverified",
-      "source_freshness_status": "current",
-      "status": "active",
-      "recommendation_status": "reference_only",
-      "recommendation_scope": "listing_only",
-      "canonical_product_id": "finance.canonical.ibk기업은행.shopping-joy-쇼핑앤조이-756545.credit-card",
-      "resolved_canonical_product_id": "finance.canonical.ibk기업은행.shopping-joy-쇼핑앤조이-756545.credit-card",
-      "freshness_status": "current",
-      "last_source_checked_at": "2026-07-18",
-      "last_reviewed_at": "2026-07-18",
-      "source_ids": [
-        "source.bccard.credit-card-list",
-        "source.crefia.card-products"
-      ],
-      "provenance_shard": "card-products",
-      "export_id": "card-products-ontology",
-      "structured_summary": {
-        "rates": {},
-        "limits": {},
-        "periods": {},
-        "card": {
-          "benefit_type": [
-            "discount"
-          ],
-          "benefit_categories": [
-            [
-              "쇼핑",
-              "온라인"
-            ]
-          ]
-        },
-        "insurance": {},
-        "support": {
-          "application_window": {}
-        }
-      },
-      "search_facets": {
-        "provider": "IBK기업은행",
-        "provider_code": "ibk기업은행",
-        "product_kind": "credit-card",
-        "search_type": "card",
-        "status": "active",
-        "recommendation_status": "reference_only",
-        "recommendation_scope": "listing_only",
-        "freshness_status": "current"
-      },
-      "source_urls": [
-        "https://www.bccard.com/app/card/CreditSearch.do",
-        "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=756545&mbkNo=003",
-        "https://www.bccard.com/images/individual/card/renew/list/card_756545.png",
-        "https://www.bccard.com/app/card/CreditCardMain.do",
-        "https://gongsi.crefia.or.kr/portal/financialProdInfo/cardProd"
-      ],
-      "source_basis_dates": [
-        "2026-07-18 수집",
-        "2026-07-03 확인"
-      ],
-      "discovery_evidence_fields": [
-        "benefit_amount_krw",
-        "benefit_categories",
-        "benefit_type"
-      ],
-      "normalized_completeness_ratio": 0.25,
-      "completeness_ratio": 0.25,
-      "verified_completeness_ratio": 0,
-      "domain_gate_passed": false,
-      "comparison_engine_gate_passed": false,
-      "comparison_basis_fields": [
-        "benefit_type",
-        "benefit_categories",
-        "benefit_amount_krw"
-      ],
-      "missing_required_fields": [
-        "annual_fee_krw",
-        "benefit_frequency_limit",
-        "benefit_rate_percent",
-        "excluded_spend",
-        "minimum_payment_amount",
-        "monthly_benefit_limit_krw",
-        "per_transaction_limit_krw",
-        "performance_excluded_spend",
-        "previous_month_spend_min_krw"
-      ],
-      "recommendation_model_version": "openfin-recommendation-v0.1.0",
-      "recommendation_exclusion_reasons": [
-        "incomplete_card_benefit_conditions"
-      ],
-      "public_recommendation_exclusion_reasons": [
-        "incomplete_card_benefit_conditions"
-      ],
-      "discovery_limitations": [
-        "sales_status_unverified"
-      ],
-      "catalog_recommendation_status": "reference_only",
-      "catalog_recommendation_scope": "listing_only",
-      "verification_status": "not_verified",
-      "source_records": [
-        {
-          "id": "finance.card.credit-card.ibk기업은행.shopping-joy-쇼핑앤조이-756545",
-          "source_record_id": "bccard:credit-card:003:756545",
-          "provider_code": "ibk기업은행",
-          "product_code": "shopping-joy-쇼핑앤조이-756545",
-          "source_urls": [
-            "https://www.bccard.com/app/card/CreditSearch.do",
-            "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=756545&mbkNo=003",
-            "https://www.bccard.com/images/individual/card/renew/list/card_756545.png",
-            "https://www.bccard.com/app/card/CreditCardMain.do",
-            "https://gongsi.crefia.or.kr/portal/financialProdInfo/cardProd"
-          ],
-          "source_basis_dates": [
-            "2026-07-18 수집",
-            "2026-07-03 확인"
-          ],
-          "collected_at": "2026-07-18",
-          "source_checksum": "c3e5c76619ad7b6baaf71a00b8d52b8b671c5630edc18f352d3eaa68d3df0933",
-          "roles": []
-        }
-      ],
-      "external_product_ids": [
-        {
-          "namespace": "official_product_code",
-          "value": "shopping-joy-쇼핑앤조이-756545"
-        },
-        {
-          "namespace": "official_source_record_id",
-          "value": "bccard:credit-card:003:756545"
-        },
-        {
-          "namespace": "bc_card_gdsno",
-          "value": "756545"
-        }
-      ],
-      "source_checksum": "c3e5c76619ad7b6baaf71a00b8d52b8b671c5630edc18f352d3eaa68d3df0933"
-    },
-    {
       "id": "finance.card.credit-card.롯데카드.loca-likit-2-0",
       "title": "롯데카드 LOCA LIKIT 2.0",
       "type": "card-product",
@@ -24848,5 +24724,5 @@
       "source_checksum": "85ba71bd00fcbd1a54ea52a645474dfbb05bfacf7bee98b54d85cddd1eb2c372"
     }
   ],
-  "export_checksum": "14abcc3551bc75bced4f51f979b680abcc7aaa897f28e215354d5662b55d2c6e"
+  "export_checksum": "350c497032dab8f182fa2fd6dc6025ca5e1f5c60c8e22bbcf7b6fa8f58ae925e"
 }

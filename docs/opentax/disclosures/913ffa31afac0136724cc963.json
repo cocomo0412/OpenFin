@@ -49,5 +49,9 @@
     "collected_at": "2026-09-23T08:20:26.132951+00:00",
     "http_status": 200,
     "sha256": "f7b7a67f1e8f2348d99f4c1ea4edf4db1cf8cf98296b005546d27848be9aa0de"
-  }
+  },
+  "provider_disclosure_urls": [
+    "https://www.heungkuklife.co.kr/front/public/saleProduct.do?searchFlgSale=Y"
+  ],
+  "document_scope": "comparison-disclosure attachments; full policy terms not verified"
 }

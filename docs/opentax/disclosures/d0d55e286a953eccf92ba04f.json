@@ -52,5 +52,9 @@
     "collected_at": "2026-09-23T08:20:28.870494+00:00",
     "http_status": 200,
     "sha256": "f629d34c8792aa6d096a1a33b1d5d9c17aedd5c9a0300bccc018e16baa9dd418"
-  }
+  },
+  "provider_disclosure_urls": [
+    "https://www.kblife.co.kr/customer-common/productList.do"
+  ],
+  "document_scope": "comparison-disclosure attachments; full policy terms not verified"
 }

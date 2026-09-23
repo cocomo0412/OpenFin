@@ -50,5 +50,9 @@
     "collected_at": "2026-09-23T08:20:34.811152+00:00",
     "http_status": 200,
     "sha256": "b83f7dc9ce5f4362e38e9cc5fdf5b1befec20872a3da63baf3bf092147aaf2a3"
-  }
+  },
+  "provider_disclosure_urls": [
+    "http://www.kyobo.com/dgt/web/product-official/all-product/search"
+  ],
+  "document_scope": "comparison-disclosure attachments; full policy terms not verified"
 }

@@ -53,5 +53,9 @@
     "collected_at": "2026-09-23T08:20:27.914072+00:00",
     "http_status": 200,
     "sha256": "d6b97759ab30de0b813ff410aba2746c2c5e414e819957ca5c5f32ea2ca7f6da"
-  }
+  },
+  "provider_disclosure_urls": [
+    "https://www.fubonhyundai.com/#CUSI150102010101"
+  ],
+  "document_scope": "comparison-disclosure attachments; full policy terms not verified"
 }

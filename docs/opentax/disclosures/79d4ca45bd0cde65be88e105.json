@@ -50,5 +50,9 @@
     "collected_at": "2026-09-23T08:20:25.471862+00:00",
     "http_status": 200,
     "sha256": "92397957b8d9cc1676fad033a2358a7ca1de2f1dfc5a88e636633a61d3ab28ea"
-  }
+  },
+  "provider_disclosure_urls": [
+    "https://www.samsunglife.com/individual/products/disclosure/sales/PDO-PRPRI010110M"
+  ],
+  "document_scope": "comparison-disclosure attachments; full policy terms not verified"
 }

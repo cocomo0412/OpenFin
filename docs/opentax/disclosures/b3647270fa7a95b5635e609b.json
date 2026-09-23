@@ -47,5 +47,9 @@
     "collected_at": "2026-09-23T08:20:30.032233+00:00",
     "http_status": 200,
     "sha256": "bee98d6b9a1c05d0a1863a6d1cdaa99a3cf56cd7e7a06f1d34363b575205262f"
-  }
+  },
+  "provider_disclosure_urls": [
+    "https://www.idblife.com/notice/product/sale"
+  ],
+  "document_scope": "comparison-disclosure attachments; full policy terms not verified"
 }

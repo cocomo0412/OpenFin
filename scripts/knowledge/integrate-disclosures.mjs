@@ -20,7 +20,7 @@ const changed=new Set(),added=[],report={generated_at:new Date().toISOString(),d
 function base(old,id,title,type,parent,domain,shard){return {id:old?.id||id,title,type,description:'',parents:old?.parents||[parent],children:old?.children||[],related:old?.related||[],terms:old?.terms||[],tags:old?.tags||[],publication_memberships:old?.publication_memberships||[`korea-${domain}-ontology-2026.json`],search_shard:old?.search_shard||shard,status:'reference_only',sales_status:'unknown',recommendation_status:'reference_only',recommendation_scope:'listing_only',comparison_engine_gate_passed:false,domain_gate_passed:false};}
 function finish(item,source,receipt,payload){
  const at=receipt.collected_at;
- Object.assign(item,{sources:[source],source_urls:[receipt.url],collected_at:at,source_collected_at:at,last_source_checked_at:at,last_reviewed_at:at,reviewed_at:at,refresh_generation:at,review_scope:'공식 공시의 식별자·본문·필드 연결 확인',source_listing_status:'listed',source_freshness_status:'current',freshness_status:'current',verification_status:'listing_only',sales_verification_status:'listed_unverified'});
+ Object.assign(item,{sources:[source],source_urls:[receipt.url,...(payload.provider_disclosure_urls||[])],collected_at:at,source_collected_at:at,last_source_checked_at:at,last_reviewed_at:at,reviewed_at:at,refresh_generation:at,review_scope:'공식 공시의 식별자·본문·필드 연결 확인',source_listing_status:'listed',source_freshness_status:'current',freshness_status:'current',verification_status:'listing_only',sales_verification_status:'listed_unverified'});
  const key=sha256(item.id).slice(7,31),relative=`disclosures/${key}.json`;
  const disclosure=JSON.parse(JSON.stringify({id:item.id,source_id:source,...payload,receipt}));
  writeJson(path.join(DOCS,relative),disclosure);
@@ -134,7 +134,86 @@ housing.description='총급여 7천만원 이하 근로자인 무주택 세대�
 housing.criteria=accountRules.housing.filter(([label])=>label.startsWith('소득공제')||label==='추징').map(([label,text])=>criterion(label,text,'source.nhuf.housing-subscription'));
 const housingReceipt=accounts.results.find(r=>r.name==='housing').receipt;
 finish(housing,'source.nhuf.housing-subscription',housingReceipt,{summary:housing.criteria});put(oldHousing,housing);
-report.domains.tax={reviewed_ids:[child.id,credit.id,housing.id],other_facts_reviewed:false};
+const reviewedTax=[child.id,credit.id,housing.id];
+// The current Article 55 rate table was visually reviewed, including its last
+// bracket whose HTML image alternative omits the fixed base amount.
+const expectedIncomeRates=[6,15,24,35,38,40,42,45];
+const expectedIncomeDeductions=[0,1260000,5760000,15440000,19940000,25940000,35940000,65940000];
+for(const id of ['tax.income','tax.income.comprehensive']){
+ const original=taxQueue.facts.find(r=>r.id===id),old=byId.get(id);
+ const criteria=original.criteria.map(({existing:c},i)=>{
+  if(c.rate_percent!==expectedIncomeRates[i]||c.progressive_deduction_krw!==expectedIncomeDeductions[i])throw new Error('Income tax table differs from reviewed values');
+  return {...c,source:lawSource.id,basis_source:lawSource.id,law_reference:'소득세법 제55조 제1항'};
+ });
+ if(criteria.length!==8)throw new Error('Income tax bracket count mismatch');
+ const item=base(old,id,old.title,old.type,null,'tax','tax');Object.assign(item,{description:old.description,criteria});
+ finish(item,lawSource.id,lawSource.receipt,{reviewed_article:'소득세법 제55조 제1항',table_image_url:'https://www.law.go.kr/LSW/flDownload.do?flSeq=123278409',rate_percent:expectedIncomeRates,progressive_deduction_krw:expectedIncomeDeductions});put(old,item);reviewedTax.push(id);
+}
+const corporateSource=json(path.join(sourceDir,'tax-sources.json')).results.find(r=>r.id==='source.nts.corporate-tax.rates');
+if(!corporateSource.text.includes('2026년 이후')||!corporateSource.text.includes('소규모법인'))throw new Error('Corporate tax source changed; review required');
+const oldCorporate=byId.get('tax.corporate'),corporate=base(oldCorporate,oldCorporate.id,oldCorporate.title,oldCorporate.type,null,'tax','tax');
+corporate.description='2026년 이후 개시 사업연도의 각 사업연도 소득에 적용되는 법인세입니다. 일반법인·소규모법인·조합법인의 세율을 구분하며 토지 등 양도소득의 추가세액은 별도입니다.';
+corporate.criteria=taxQueue.facts.find(r=>r.id===corporate.id).criteria.map(({existing:c})=>({...c,label:'일반법인 · '+c.label,condition:'영리·비영리법인의 각 사업연도 소득 일반세율(소규모법인·조합법인 특례 제외); '+c.condition,source:corporateSource.id,basis_source:corporateSource.id,law_reference:'법인세법 제55조',tax_year:2026}));
+for(const [label,condition,lower,upper,rate,deduction] of [
+ ['소규모법인','200억원 이하',0,20000000000,20,0],
+ ['소규모법인','200억원 초과 3,000억원 이하',20000000000,300000000000,22,400000000],
+ ['소규모법인','3,000억원 초과',300000000000,null,25,9400000000],
+ ['조합법인(조특법 제72조 적용)','20억원 이하',0,2000000000,9,0],
+ ['조합법인(조특법 제72조 적용)','20억원 초과',2000000000,null,15,120000000]
+])corporate.criteria.push({...criterion(label+' · '+condition,'해당 법인유형의 법정 요건을 충족하는 경우; '+condition,corporateSource.id),criteria_kind:'rate',rate_percent:rate,progressive_deduction_krw:deduction,threshold_krw_min:lower,...(upper===null?{}:{threshold_krw_max:upper}),tax_year:2026});
+finish(corporate,corporateSource.id,corporateSource.receipt,{text:corporateSource.text});put(oldCorporate,corporate);reviewedTax.push(corporate.id);
+// Manually reconciled with the current Income Tax Act, including exclusions
+// omitted from the old summaries. Store the exact article with every summary.
+function incomeArticle(number){
+ const marker=`제${number.replace('의','조의')}${number.includes('의')?'':'조'}(`;
+ const start=lawSource.text.indexOf(marker);
+ if(start<0)throw new Error(`Missing income article ${number}`);
+ const rest=lawSource.text.slice(start),next=rest.slice(marker.length).search(/제\d+조(?:의\d+)?\(/);
+ return next<0?rest:rest.slice(0,next+marker.length);
+}
+const personalBasic=[
+ ['기본공제 금액','종합소득이 있는 거주자 본인과 요건을 충족한 배우자·부양가족 1명당 연 150만원입니다.'],
+ ['배우자·부양가족 소득','해당 과세기간 소득금액 합계 100만원 이하. 근로소득만 있으면 총급여 500만원 이하를 포함합니다. 본인에게 이 소득상한을 적용하는 것은 아닙니다.'],
+ ['부양가족 나이·관계','생계를 같이 하는 직계존속은 60세 이상, 직계비속·동거 입양자는 20세 이하, 형제자매는 20세 이하 또는 60세 이상입니다. 법정 장애인은 나이 제한을 받지 않습니다.'],
+ ['기타 대상·중복 제한','법정 수급권자·위탁아동 및 장애인 직계비속 등의 배우자는 별도 법정 요건을 따릅니다. 같은 배우자·부양가족을 여러 거주자가 중복 공제할 수 없습니다.']
+];
+const personalAdditional=[
+ ['경로우대','기본공제대상자 중 70세 이상인 사람 1명당 연 100만원을 추가 공제합니다.'],
+ ['장애인','법정 장애인에 해당하는 기본공제대상자 1명당 연 200만원을 추가 공제합니다.'],
+ ['부녀자','합산 종합소득금액 3천만원 이하인 여성 중 배우자가 있거나, 배우자가 없고 기본공제대상 부양가족이 있는 세대주이면 연 50만원입니다.'],
+ ['한부모','배우자가 없고 기본공제대상 직계비속 또는 입양자가 있으면 연 100만원입니다. 부녀자공제와 동시에 해당하면 한부모공제만 적용합니다.'],
+ ['공제 범위','인적공제 합계액 중 종합소득금액을 초과하는 금액은 공제하지 않습니다.']
+];
+const manualIncomeReviews=[
+ ['deduction.personal.basic',['50'],personalBasic],
+ ['deduction.personal.additional',['51'],personalAdditional],
+ ['deduction.personal',['50','51'],[...personalBasic,...personalAdditional]],
+ ['deduction.pension-insurance',['51의3'],[
+  ['공제 대상','종합소득이 있는 거주자가 공적연금 관련법에 따라 해당 과세기간에 납입한 기여금 또는 개인부담금을 소득공제합니다.'],
+  ['공제 한계','인적공제·연금보험료공제·주택담보노후연금 이자비용공제·특별소득공제·조세특례제한법상 소득공제 합계가 종합소득금액을 초과하면 그 초과액 한도로 연금보험료공제를 받지 않은 것으로 봅니다.']
+ ]],
+ ['credit.bookkeeping',['56의2'],[
+  ['대상·계산','간편장부대상자가 확정신고 시 복식부기로 소득금액을 계산하고 법정 서류를 제출하면, 종합소득산출세액에 장부로 계산한 사업소득금액의 종합소득금액 대비 비율을 곱한 금액의 20%를 공제합니다.'],
+  ['한도','기장세액공제액은 100만원을 한도로 합니다.'],
+  ['배제 조건','장부에 따라 신고할 소득금액의 20% 이상을 누락하거나 관련 장부·증빙을 확정신고기간 종료일부터 5년간 보관하지 않으면 적용하지 않습니다. 보관에는 천재지변 등 법정 예외가 있습니다.']
+ ]],
+ ['credit.insurance-premium',['59의4'],[
+  ['보장성보험료','일용근로자를 제외한 근로소득자가 기본공제대상자를 피보험자로 하는 법정 보장성보험료를 납입하면 연 100만원 한도로 12%를 공제합니다. 만기환급금이 납입보험료를 초과하지 않는 보험이어야 합니다.'],
+  ['장애인전용 보험료','기본공제대상 장애인을 피보험자 또는 수익자로 하는 법정 장애인전용 보장성보험료는 별도로 연 100만원 한도로 15%를 공제합니다.']
+ ]],
+ ['credit.standard',['59의4'],[
+  ['근로소득자','특별소득공제·특별세액공제·월세액 세액공제를 신청하지 않은 근로소득 있는 거주자는 연 13만원을 공제합니다.'],
+  ['성실사업자','근로소득이 없고 조세특례제한법 제122조의3 세액공제를 신청하지 않은 종합소득자 중 사업용계좌 신고 등 법정 성실사업자 요건을 충족하면 연 12만원입니다.'],
+  ['그 밖의 종합소득자','근로소득이 없고 조세특례제한법 제122조의3 세액공제를 신청하지 않은 종합소득자 중 위 성실사업자에 해당하지 않으면 연 7만원입니다.']
+ ]]
+];
+for(const [id,numbers,rules] of manualIncomeReviews){
+ const old=byId.get(id),item=base(old,id,old.title,old.type,null,'tax','tax');
+ Object.assign(item,{description:old.description,criteria:rules.map(([label,text])=>criterion(label,text,lawSource.id))});
+ finish(item,lawSource.id,lawSource.receipt,{reviewed_articles:numbers.map(number=>({number,text:incomeArticle(number)})),summary:item.criteria});
+ put(old,item);reviewedTax.push(id);
+}
+report.domains.tax={reviewed_ids:reviewedTax,other_facts_reviewed:false};
 for(const id of changed){const r=byId.get(id);if(r){const normalized=JSON.parse(JSON.stringify(r));Object.keys(r).forEach(k=>delete r[k]);Object.assign(r,normalized);r.record_checksum=sha256({...r,provenance:undefined,record_checksum:undefined});}}
 for(const f of files){if(!f.rows.some(r=>changed.has(r.id)))continue;if(f.tail!==undefined)writeText(f.file,`---\n${JSON.stringify(f.rows[0],null,2)}\n---\n${f.tail}`);else writeText(f.file,f.rows.map(JSON.stringify).join('\n')+'\n');}
 // New records reside in their own domain folders and use deterministic IDs.

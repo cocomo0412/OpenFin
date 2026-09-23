@@ -23,7 +23,7 @@
       "canonical_merge_count": 49,
       "checksum_covered_export_count": 18,
       "broken_relation_count": 0,
-      "relationship_count": 220480,
+      "relationship_count": 220452,
       "collection_failure_sources": 136
     },
     "live_regression": {
@@ -5211,7 +5211,7 @@
       "migration_notice": "Historical upstream evidence; identity redacted. Not evidence for current deployment.",
       "evidence_path": "evidence/live-regression/current.json",
       "evidence_checksum": "e1c3d057e9c005525e6d411f7e8892d91e67e7feb3ffda9ba3e08cb22d2916ba",
-      "expected_generation_id": "e9caabfb0ce52ac8e64850460680229aff7f7d6ddabc5fa4d174da8c63a897e6",
+      "expected_generation_id": "260fdfc431cc133997eb06a953499be7025f8a47835d917abbe7ae955c54667a",
       "expected_fixture_checksum": "sha256:1030ce9505034216880ef47384cea521cc76000089d4b32942ba53a68c2c7989",
       "validation_status": "failed"
     },
@@ -5442,7 +5442,7 @@
               "lineage": "source_receipt"
             },
             "normalized": {
-              "item_count": 22,
+              "item_count": 21,
               "status": "available",
               "lineage": "decision_snapshot"
             },

@@ -46,5 +46,9 @@
     "collected_at": "2026-09-23T08:20:34.817882+00:00",
     "http_status": 200,
     "sha256": "def0c06af87f105ac015b40d55e75817f2e2c4c59b08ae885b9d9a0fd63a1480"
-  }
+  },
+  "provider_disclosure_urls": [
+    "https://www.myangel.co.kr/paging/WE_AC_WEPAAP020100L"
+  ],
+  "document_scope": "comparison-disclosure attachments; full policy terms not verified"
 }

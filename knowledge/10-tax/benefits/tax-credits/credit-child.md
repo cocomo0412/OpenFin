@@ -143,7 +143,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/07f710452d5086df8d3c1721.json",
-    "checksum": "sha256:7b142c29309697baf9ad66f779dc0edc8dbd35536da11ef4e194f372bb1c5d7c",
+    "checksum": "sha256:29472317a3586ac7a13511408daaa357fbd69f52a28d8f022f191ca9c70b0fef",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:20.830416+00:00"
@@ -189,7 +189,7 @@
     "export_id": "tax-ontology",
     "search_text": "자녀 세액공제 기본공제대상 자녀·손자녀 및 출산·입양에 대한 세액공제입니다. 2026년 연령 기준은 개정법 부칙과 출생연도 예외를 함께 적용합니다."
   },
-  "record_checksum": "sha256:e1fbd4471221d57029ff7ecfc3dc2413ecfd494a71604ed84138f5fa15468a3a"
+  "record_checksum": "sha256:1e7b3f3a787b2b2167be64c8d6090b85fa640d6d5fe12b070a035f7a2d280ac9"
 }
 ---
 

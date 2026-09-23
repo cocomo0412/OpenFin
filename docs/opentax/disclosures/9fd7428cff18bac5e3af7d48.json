@@ -56,5 +56,9 @@
     "collected_at": "2026-09-23T08:20:32.368072+00:00",
     "http_status": 200,
     "sha256": "b0a74ba28ed0a30b12d1742c716e57bdf5474afea352b5c97050139ef45f4ed0"
-  }
+  },
+  "provider_disclosure_urls": [
+    "https://mypage.aia.co.kr/AIAHomepage/disclosure/our-products/selling/individual.do"
+  ],
+  "document_scope": "comparison-disclosure attachments; full policy terms not verified"
 }

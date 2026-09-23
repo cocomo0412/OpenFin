@@ -47,5 +47,9 @@
     "collected_at": "2026-09-23T08:20:33.737465+00:00",
     "http_status": 200,
     "sha256": "da99c4ff5f9ce0899470ee35487b3e29019e54645bf8b984a0590104a666879a"
-  }
+  },
+  "provider_disclosure_urls": [
+    "https://www.shinhanlife.co.kr/hp/cdhi0030.do"
+  ],
+  "document_scope": "comparison-disclosure attachments; full policy terms not verified"
 }
