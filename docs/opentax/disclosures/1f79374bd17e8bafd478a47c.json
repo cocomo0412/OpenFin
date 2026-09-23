@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.0e83281e7df5b055481f5be2",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:d8cfef53c640fe6a3a2a420b",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성미국투자등급장기채권증권자투자신탁H[채권]_C-Pe",
+  "cells": [
+    "삼성자산운용",
+    "삼성미국투자등급장기채권증권자투자신탁H[채권]_C-Pe",
+    "채권형",
+    "3",
+    "2019/09/09",
+    "판매",
+    "1,910",
+    "4.57",
+    "2.65",
+    "-3.33",
+    "-",
+    "-",
+    "-1.61",
+    "0.842",
+    "삼성생명보험주식회사, 한국투자증권, 삼성증권, KB증권, 미래에셋증권 주식회사, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=153",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=153",
+    "collected_at": "2026-09-23T08:25:13.771608+00:00",
+    "http_status": 200,
+    "sha256": "c7d3d103ab049da13f0e86dc221ee273c76cd26584c88118e2bd45cacd8b9824"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성미국투자등급장기채권증권자투자신탁H[채권]_C-Pe",
+        "상품유형": "채권형",
+        "위험등급": "3",
+        "설정일": "2019/09/09",
+        "판매여부": "판매",
+        "순자산총액": "1,910",
+        "1년 연평균수익률(%)": "4.57",
+        "3년 연평균수익률(%)": "2.65",
+        "5년 연평균수익률(%)": "-3.33",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-1.61",
+        "연평균수수료율(%)": "0.842",
+        "상품 판매사": "삼성생명보험주식회사, 한국투자증권, 삼성증권, KB증권, 미래에셋증권 주식회사, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=153",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=153",
+        "collected_at": "2026-09-23T08:25:13.771608+00:00",
+        "http_status": 200,
+        "sha256": "c7d3d103ab049da13f0e86dc221ee273c76cd26584c88118e2bd45cacd8b9824"
+      }
+    }
+  ]
+}

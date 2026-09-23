@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.57236ff778055e18a0ee5fdf",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:ba230dfd77c2d61a8951bfd0",
+  "group": "3",
+  "provider": "마이다스에셋자산운용",
+  "title": "마이다스월드인베스트EMP연금증권자투자신탁(주식-재간접형)C1",
+  "cells": [
+    "마이다스에셋자산운용",
+    "마이다스월드인베스트EMP연금증권자투자신탁(주식-재간접형)C1",
+    "재간접",
+    "2",
+    "2007/12/20",
+    "판매",
+    "51,452",
+    "54.06",
+    "23.01",
+    "12.70",
+    "15.38",
+    "10.31",
+    "5.34",
+    "1.352",
+    "NH농협은행, KB증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=24",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=24",
+    "collected_at": "2026-09-23T08:22:18.924861+00:00",
+    "http_status": 200,
+    "sha256": "b35ee7e01cf74ae55687a42fa1916f5e93393124cee8f5fa68c6598a8f154f29"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "마이다스에셋자산운용",
+        "상품명": "마이다스월드인베스트EMP연금증권자투자신탁(주식-재간접형)C1",
+        "상품유형": "재간접",
+        "위험등급": "2",
+        "설정일": "2007/12/20",
+        "판매여부": "판매",
+        "순자산총액": "51,452",
+        "1년 연평균수익률(%)": "54.06",
+        "3년 연평균수익률(%)": "23.01",
+        "5년 연평균수익률(%)": "12.70",
+        "7년 연평균수익률(%)": "15.38",
+        "10년 연평균수익률(%)": "10.31",
+        "누적연평균수익률(%)": "5.34",
+        "연평균수수료율(%)": "1.352",
+        "상품 판매사": "NH농협은행, KB증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=24",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=24",
+        "collected_at": "2026-09-23T08:22:18.924861+00:00",
+        "http_status": 200,
+        "sha256": "b35ee7e01cf74ae55687a42fa1916f5e93393124cee8f5fa68c6598a8f154f29"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.1a175d2aa50b1d66d138edd4",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:1e0a1035bf1f093f33bcc169",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성미국투자등급장기채권증권자투자신탁H[채권]_C-P",
+  "cells": [
+    "삼성자산운용",
+    "삼성미국투자등급장기채권증권자투자신탁H[채권]_C-P",
+    "채권형",
+    "3",
+    "2019/09/27",
+    "판매",
+    "152",
+    "4.28",
+    "2.36",
+    "-3.61",
+    "-",
+    "-",
+    "-1.78",
+    "1.133",
+    "삼성생명보험주식회사, 한국투자증권, 삼성증권, KB증권, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=287",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=287",
+    "collected_at": "2026-09-23T08:28:14.671828+00:00",
+    "http_status": 200,
+    "sha256": "61cdab83f6931a9b654838a6bc8df871e43260a3f90af432f72382caa5e32f8c"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성미국투자등급장기채권증권자투자신탁H[채권]_C-P",
+        "상품유형": "채권형",
+        "위험등급": "3",
+        "설정일": "2019/09/27",
+        "판매여부": "판매",
+        "순자산총액": "152",
+        "1년 연평균수익률(%)": "4.28",
+        "3년 연평균수익률(%)": "2.36",
+        "5년 연평균수익률(%)": "-3.61",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-1.78",
+        "연평균수수료율(%)": "1.133",
+        "상품 판매사": "삼성생명보험주식회사, 한국투자증권, 삼성증권, KB증권, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=287",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=287",
+        "collected_at": "2026-09-23T08:28:14.671828+00:00",
+        "http_status": 200,
+        "sha256": "61cdab83f6931a9b654838a6bc8df871e43260a3f90af432f72382caa5e32f8c"
+      }
+    }
+  ]
+}

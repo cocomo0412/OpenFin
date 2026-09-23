@@ -1,0 +1,51 @@
+{
+  "id": "finance.insurance.klia.whole-life.처브라이프생명.l7702460001nn000002470002024400010244000100010244000100010002024400010001000200025zb00",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L7702460001NN000002470002024400010244000100010244000100010002024400010001000200025ZB00",
+  "group": "024400010001",
+  "title": "Chubb New 수(秀) 종신보험 무배당(해약환급금 일부지급형) 1종 일반납입형",
+  "provider": "처브라이프생명",
+  "cells": [
+    "처브라이프생명",
+    "Chubb New 수(秀) 종신보험 무배당(해약환급금 일부지급형) 1종 일반납입형",
+    "주계약",
+    "사망보험금 *지급사유 : 보험기간 중 피보험자가 사망하였을 때",
+    "10,000만원",
+    "576,000 원",
+    "521,000 원",
+    "3.30 %",
+    "-",
+    "-",
+    "132.0 %",
+    "131.9 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "체증형",
+    "무해지/저해지환급",
+    "-",
+    "-",
+    "-",
+    "-",
+    "비유니버셜",
+    "대면채널",
+    "2026-01-01",
+    "Download",
+    "보기",
+    "02-1599-4600"
+  ],
+  "coverage": [
+    "사망보험금 *지급사유 : 보험기간 중 피보험자가 사망하였을 때"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=32884&seq=18"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=16&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=16&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:34.546340+00:00",
+    "http_status": 200,
+    "sha256": "360f07266f7ee18dcb906cab7c7176ada1773bbe783e1edd47d37e89373ea616"
+  }
+}

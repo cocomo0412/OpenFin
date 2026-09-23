@@ -1,0 +1,51 @@
+{
+  "id": "finance.insurance.klia.whole-life.푸본현대생명.l171nya1a00jb030",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L171NYA1A00JB030",
+  "group": "024400010001",
+  "title": "MAX 종신보험 무배당/보증비용부과형(2404) 집중보장형",
+  "provider": "푸본현대생명",
+  "cells": [
+    "푸본현대생명",
+    "MAX 종신보험 무배당/보증비용부과형(2404) 집중보장형",
+    "주계약",
+    "사망보험금 *지급사유 : 보험기간(종신) 중 피보험자가 사망하였을 때",
+    "10,000만원",
+    "144,060 원",
+    "126,420 원",
+    "-",
+    "2.55 %",
+    "1.5 1.5",
+    "106.9 %",
+    "106.1 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "체감형",
+    "일반",
+    "보증 *보증비용 산출기준 : 계약자적립액의 연 0.60%",
+    "보증 *보증비용 산출기준 : 기본보험료 및 추가납입보험료의 2.5%, 계약자적립액의 연 1.05%",
+    "비갱신형",
+    "-",
+    "유니버셜",
+    "대면채널",
+    "2024-04-01",
+    "Download",
+    "보기",
+    "1577-3311"
+  ],
+  "coverage": [
+    "사망보험금 *지급사유 : 보험기간(종신) 중 피보험자가 사망하였을 때"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=13333&seq=18"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=16&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=16&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:34.546340+00:00",
+    "http_status": 200,
+    "sha256": "360f07266f7ee18dcb906cab7c7176ada1773bbe783e1edd47d37e89373ea616"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.eb3eda83b413ceb3dc4e24d7",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:7d01f8b7bb5afaa349965359",
+  "group": "3",
+  "provider": "신영자산운용",
+  "title": "신영밸류그로스집중투자증권투자신탁(주식) C-Pe형",
+  "cells": [
+    "신영자산운용",
+    "신영밸류그로스집중투자증권투자신탁(주식) C-Pe형",
+    "주식형",
+    "2",
+    "2024/10/24",
+    "판매",
+    "1,545",
+    "172.11",
+    "-",
+    "-",
+    "-",
+    "-",
+    "111.01",
+    "1.663",
+    "삼성증권, 대신증권주식회사, 신영증권주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=165",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=165",
+    "collected_at": "2026-09-23T08:25:30.340843+00:00",
+    "http_status": 200,
+    "sha256": "eb27c44bf92a4c1c2d3306634637a27116fea527498919025ec800a8e8707676"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신영자산운용",
+        "상품명": "신영밸류그로스집중투자증권투자신탁(주식) C-Pe형",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2024/10/24",
+        "판매여부": "판매",
+        "순자산총액": "1,545",
+        "1년 연평균수익률(%)": "172.11",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "111.01",
+        "연평균수수료율(%)": "1.663",
+        "상품 판매사": "삼성증권, 대신증권주식회사, 신영증권주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=165",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=165",
+        "collected_at": "2026-09-23T08:25:30.340843+00:00",
+        "http_status": 200,
+        "sha256": "eb27c44bf92a4c1c2d3306634637a27116fea527498919025ec800a8e8707676"
+      }
+    }
+  ]
+}

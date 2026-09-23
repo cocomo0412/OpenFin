@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.56a6c471b7c5a05b9d993435",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:025463c876c7db783dffd3cc",
+  "group": "3",
+  "provider": "NH-Amundi자산운용",
+  "title": "NH-Amundi 필승코리아30 증권투자신탁[채권혼합] Class C-P1e(연금저축)",
+  "cells": [
+    "NH-Amundi자산운용",
+    "NH-Amundi 필승코리아30 증권투자신탁[채권혼합] Class C-P1e(연금저축)",
+    "혼합채권형",
+    "4",
+    "2020/02/11",
+    "판매",
+    "6,001",
+    "51.29",
+    "20.18",
+    "11.94",
+    "-",
+    "-",
+    "12.06",
+    "0.438",
+    "디비증권주식회사, 유진투자증권주식회사, 한화투자증권주식회사, 키움증권(주), NH농협은행, 한국투자증권, 우리은행, 아이엠증권, 신영증권주식회사, 미래에셋증권 주식회사, NH투자증권, 신한투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=97",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=97",
+    "collected_at": "2026-09-23T08:23:58.370999+00:00",
+    "http_status": 200,
+    "sha256": "d8f721c3cc9637804d50233b97753563e49297abf7a30c30a5a20b80b784cb41"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "NH-Amundi자산운용",
+        "상품명": "NH-Amundi 필승코리아30 증권투자신탁[채권혼합] Class C-P1e(연금저축)",
+        "상품유형": "혼합채권형",
+        "위험등급": "4",
+        "설정일": "2020/02/11",
+        "판매여부": "판매",
+        "순자산총액": "6,001",
+        "1년 연평균수익률(%)": "51.29",
+        "3년 연평균수익률(%)": "20.18",
+        "5년 연평균수익률(%)": "11.94",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "12.06",
+        "연평균수수료율(%)": "0.438",
+        "상품 판매사": "디비증권주식회사, 유진투자증권주식회사, 한화투자증권주식회사, 키움증권(주), NH농협은행, 한국투자증권, 우리은행, 아이엠증권, 신영증권주식회사, 미래에셋증권 주식회사, NH투자증권, 신한투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=97",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=97",
+        "collected_at": "2026-09-23T08:23:58.370999+00:00",
+        "http_status": 200,
+        "sha256": "d8f721c3cc9637804d50233b97753563e49297abf7a30c30a5a20b80b784cb41"
+      }
+    }
+  ]
+}

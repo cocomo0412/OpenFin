@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.a6c940fac51d4b6e2094ae76",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:e9926e21c8e33c2546615d5e",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB BBIG 플러스 인덱스 증권 투자신탁(주식) C-Pe",
+  "cells": [
+    "KB자산운용",
+    "KB BBIG 플러스 인덱스 증권 투자신탁(주식) C-Pe",
+    "주식형",
+    "2",
+    "2020/11/30",
+    "판매",
+    "543",
+    "144.42",
+    "37.07",
+    "12.38",
+    "-",
+    "-",
+    "14.97",
+    "0.847",
+    "유진투자증권주식회사, 한화투자증권주식회사, 광주은행, 한국투자증권, KB증권, IBK투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=227",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=227",
+    "collected_at": "2026-09-23T08:26:54.096166+00:00",
+    "http_status": 200,
+    "sha256": "022c034a74238dd76d2af17d694372b423e38431c6bbcba5ea5cc5aba29ad7b9"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB BBIG 플러스 인덱스 증권 투자신탁(주식) C-Pe",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2020/11/30",
+        "판매여부": "판매",
+        "순자산총액": "543",
+        "1년 연평균수익률(%)": "144.42",
+        "3년 연평균수익률(%)": "37.07",
+        "5년 연평균수익률(%)": "12.38",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "14.97",
+        "연평균수수료율(%)": "0.847",
+        "상품 판매사": "유진투자증권주식회사, 한화투자증권주식회사, 광주은행, 한국투자증권, KB증권, IBK투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=227",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=227",
+        "collected_at": "2026-09-23T08:26:54.096166+00:00",
+        "http_status": 200,
+        "sha256": "022c034a74238dd76d2af17d694372b423e38431c6bbcba5ea5cc5aba29ad7b9"
+      }
+    }
+  ]
+}

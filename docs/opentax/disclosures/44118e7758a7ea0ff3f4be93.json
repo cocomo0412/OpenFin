@@ -1,0 +1,50 @@
+{
+  "id": "finance.insurance.klia.cancer.abl생명.l0202460004nnn0247000202440001024400010004024400010004000102440001000400010004dc930",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L0202460004NNN0247000202440001024400010004024400010004000102440001000400010004DC930",
+  "group": "024400010004",
+  "title": "(무)우리WON인터넷5대미니암보험",
+  "provider": "ABL생명",
+  "cells": [
+    "ABL생명",
+    "(무)우리WON인터넷5대미니암보험",
+    "주계약",
+    "5대암 진단급여금 *지급사유 : 피보험자가 보험기간 중 암 보장개시일 이후 \"5대암\"으로 진단이 확정되었을 때(다만, 최초 1회 한함)",
+    "1,000만원",
+    "956 원",
+    "713 원",
+    "2.50 %",
+    "-",
+    "-",
+    "101.7 %",
+    "118.8 %",
+    "36.1 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "순수보장",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "CM",
+    "2026-04-01",
+    "Download",
+    "보기",
+    "0215886500"
+  ],
+  "coverage": [
+    "5대암 진단급여금 *지급사유 : 피보험자가 보험기간 중 암 보장개시일 이후 \"5대암\"으로 진단이 확정되었을 때(다만, 최초 1회 한함)"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=30787&seq=10"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010004&pageIndex=1&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010004&pageIndex=1&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:29.333878+00:00",
+    "http_status": 200,
+    "sha256": "036b61478e236c7c041d49791add10b3a490dab2be1d799294b8ff9dac5d6ad2"
+  }
+}

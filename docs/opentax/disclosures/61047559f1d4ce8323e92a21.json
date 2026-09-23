@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.0dabf9f6f390d55c761e0005",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:6c8ba6c1fbc191a967c1dae7",
+  "group": "3",
+  "provider": "한화자산운용",
+  "title": "한화코리아레전드중소형주증권 자투자신탁(주식) 종류C-P(연금저축)",
+  "cells": [
+    "한화자산운용",
+    "한화코리아레전드중소형주증권 자투자신탁(주식) 종류C-P(연금저축)",
+    "주식형",
+    "2",
+    "2016/03/21",
+    "판매",
+    "2,244",
+    "51.91",
+    "26.99",
+    "10.28",
+    "14.71",
+    "10.49",
+    "9.56",
+    "1.344",
+    "케이프투자증권, 한화투자증권주식회사, 삼성생명보험주식회사, KB증권, KB국민은행, 미래에셋증권 주식회사, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=145",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=145",
+    "collected_at": "2026-09-23T08:25:03.410534+00:00",
+    "http_status": 200,
+    "sha256": "4667fd8e124366eb9ecd28ccc0d5490b3a888f4cebd6f86e84f9b1743d03890a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한화자산운용",
+        "상품명": "한화코리아레전드중소형주증권 자투자신탁(주식) 종류C-P(연금저축)",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2016/03/21",
+        "판매여부": "판매",
+        "순자산총액": "2,244",
+        "1년 연평균수익률(%)": "51.91",
+        "3년 연평균수익률(%)": "26.99",
+        "5년 연평균수익률(%)": "10.28",
+        "7년 연평균수익률(%)": "14.71",
+        "10년 연평균수익률(%)": "10.49",
+        "누적연평균수익률(%)": "9.56",
+        "연평균수수료율(%)": "1.344",
+        "상품 판매사": "케이프투자증권, 한화투자증권주식회사, 삼성생명보험주식회사, KB증권, KB국민은행, 미래에셋증권 주식회사, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=145",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=145",
+        "collected_at": "2026-09-23T08:25:03.410534+00:00",
+        "http_status": 200,
+        "sha256": "4667fd8e124366eb9ecd28ccc0d5490b3a888f4cebd6f86e84f9b1743d03890a"
+      }
+    }
+  ]
+}

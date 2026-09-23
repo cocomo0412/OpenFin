@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.47406520df8e49f698f3f5a1",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:51a2d1db5cde5f800834e9fd",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성 KODEX 일본부동산리츠부동산상장지수투자신탁[REITs-파생재간접형](H)",
+  "cells": [
+    "삼성자산운용",
+    "삼성 KODEX 일본부동산리츠부동산상장지수투자신탁[REITs-파생재간접형](H)",
+    "파생상품",
+    "3",
+    "2020/05/08",
+    "판매",
+    "8,781",
+    "6.29",
+    "4.97",
+    "1.64",
+    "-",
+    "-",
+    "6.45",
+    "0.416",
+    "유진투자증권주식회사, 한화투자증권주식회사, 하나증권주식회사, 키움증권(주), 메리츠증권(주), 한국투자증권, SK증권주식회사, 삼성증권, KB증권, 대신증권주식회사, 아이엠증권, 신영증권주식회사, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권, 신한투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=80",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=80",
+    "collected_at": "2026-09-23T08:23:35.626578+00:00",
+    "http_status": 200,
+    "sha256": "20f25b242f23f7a51be3d0c33eb838c9dd661370c299819726ed1ee261d35a4c"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성 KODEX 일본부동산리츠부동산상장지수투자신탁[REITs-파생재간접형](H)",
+        "상품유형": "파생상품",
+        "위험등급": "3",
+        "설정일": "2020/05/08",
+        "판매여부": "판매",
+        "순자산총액": "8,781",
+        "1년 연평균수익률(%)": "6.29",
+        "3년 연평균수익률(%)": "4.97",
+        "5년 연평균수익률(%)": "1.64",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "6.45",
+        "연평균수수료율(%)": "0.416",
+        "상품 판매사": "유진투자증권주식회사, 한화투자증권주식회사, 하나증권주식회사, 키움증권(주), 메리츠증권(주), 한국투자증권, SK증권주식회사, 삼성증권, KB증권, 대신증권주식회사, 아이엠증권, 신영증권주식회사, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권, 신한투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=80",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=80",
+        "collected_at": "2026-09-23T08:23:35.626578+00:00",
+        "http_status": 200,
+        "sha256": "20f25b242f23f7a51be3d0c33eb838c9dd661370c299819726ed1ee261d35a4c"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.f6d78931004a77060903b13e",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:557b157a2b3178c2d891ad1e",
+  "group": "3",
+  "provider": "iM에셋자산운용",
+  "title": "iM에셋월드에너지증권자투자신탁(주식-재간접형)(UH)(C-Pe)",
+  "cells": [
+    "iM에셋자산운용",
+    "iM에셋월드에너지증권자투자신탁(주식-재간접형)(UH)(C-Pe)",
+    "재간접",
+    "2",
+    "2017/11/10",
+    "판매",
+    "2,008",
+    "44.36",
+    "19.91",
+    "23.09",
+    "14.48",
+    "-",
+    "11.11",
+    "0.867",
+    "(주)우리투자증권, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=150",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=150",
+    "collected_at": "2026-09-23T08:25:09.909454+00:00",
+    "http_status": 200,
+    "sha256": "34e62dc2d5bdcccdb58a8783ba4d20c35031bb3663ebfbfee3945acb3716d2e8"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "iM에셋자산운용",
+        "상품명": "iM에셋월드에너지증권자투자신탁(주식-재간접형)(UH)(C-Pe)",
+        "상품유형": "재간접",
+        "위험등급": "2",
+        "설정일": "2017/11/10",
+        "판매여부": "판매",
+        "순자산총액": "2,008",
+        "1년 연평균수익률(%)": "44.36",
+        "3년 연평균수익률(%)": "19.91",
+        "5년 연평균수익률(%)": "23.09",
+        "7년 연평균수익률(%)": "14.48",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "11.11",
+        "연평균수수료율(%)": "0.867",
+        "상품 판매사": "(주)우리투자증권, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=150",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=150",
+        "collected_at": "2026-09-23T08:25:09.909454+00:00",
+        "http_status": 200,
+        "sha256": "34e62dc2d5bdcccdb58a8783ba4d20c35031bb3663ebfbfee3945acb3716d2e8"
+      }
+    }
+  ]
+}

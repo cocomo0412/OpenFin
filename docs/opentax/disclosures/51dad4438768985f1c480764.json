@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.131c03ce79f05e438bd9768d",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:ca60afc488bf554002c37fb8",
+  "group": "3",
+  "provider": "우리자산운용",
+  "title": "우리 PIMCO글로벌투자등급증권자투자신탁[채권_재간접형](UH)Class Pe2",
+  "cells": [
+    "우리자산운용",
+    "우리 PIMCO글로벌투자등급증권자투자신탁[채권_재간접형](UH)Class Pe2",
+    "재간접",
+    "4",
+    "2019/07/26",
+    "판매",
+    "2,408",
+    "19.78",
+    "11.27",
+    "6.71",
+    "-",
+    "-",
+    "5.15",
+    "0.577",
+    "한화투자증권주식회사, 한국투자증권, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=140",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=140",
+    "collected_at": "2026-09-23T08:24:56.988911+00:00",
+    "http_status": 200,
+    "sha256": "817811ddb654f684194eb35b2dcf65d5b6caeb76eacdce1a8e48b940de189af8"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "우리자산운용",
+        "상품명": "우리 PIMCO글로벌투자등급증권자투자신탁[채권_재간접형](UH)Class Pe2",
+        "상품유형": "재간접",
+        "위험등급": "4",
+        "설정일": "2019/07/26",
+        "판매여부": "판매",
+        "순자산총액": "2,408",
+        "1년 연평균수익률(%)": "19.78",
+        "3년 연평균수익률(%)": "11.27",
+        "5년 연평균수익률(%)": "6.71",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "5.15",
+        "연평균수수료율(%)": "0.577",
+        "상품 판매사": "한화투자증권주식회사, 한국투자증권, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=140",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=140",
+        "collected_at": "2026-09-23T08:24:56.988911+00:00",
+        "http_status": 200,
+        "sha256": "817811ddb654f684194eb35b2dcf65d5b6caeb76eacdce1a8e48b940de189af8"
+      }
+    }
+  ]
+}

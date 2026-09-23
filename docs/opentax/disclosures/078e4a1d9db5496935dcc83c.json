@@ -1,0 +1,97 @@
+{
+  "id": "finance.pension.disclosure.675b5272578c04406ae2dc56",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:e08202d6d7fedf709f30ed53",
+  "group": "4",
+  "provider": "흥국생명보험",
+  "title": "연금저축세테크연금보험",
+  "cells": [
+    "흥국생명보험",
+    "연금저축세테크연금보험",
+    "금리연동형",
+    "2003/09/03",
+    "중단",
+    "5,641",
+    "-3.47",
+    "0.29",
+    "1.23",
+    "1.61",
+    "1.85",
+    "1.46",
+    "4.037"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=46",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=46",
+    "collected_at": "2026-09-23T08:31:37.800763+00:00",
+    "http_status": 200,
+    "sha256": "b9843602ebec91763e365a732638190eb749e0c22cc7c3d4d5e03d68952407f3"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "흥국생명보험",
+        "상품명": "연금저축세테크연금보험",
+        "상품유형": "금리연동형",
+        "최초판매일": "2003/09/03",
+        "판매여부": "중단",
+        "적립금총액": "5,641",
+        "1년 연평균수익률(%)": "-3.47",
+        "3년 연평균수익률(%)": "0.29",
+        "5년 연평균수익률(%)": "1.23",
+        "7년 연평균수익률(%)": "1.61",
+        "10년 연평균수익률(%)": "1.85",
+        "누적연평균수익률(%)": "1.46",
+        "연평균수수료율(%)": "4.037"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=46",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=46",
+        "collected_at": "2026-09-23T08:31:37.800763+00:00",
+        "http_status": 200,
+        "sha256": "b9843602ebec91763e365a732638190eb749e0c22cc7c3d4d5e03d68952407f3"
+      }
+    },
+    {
+      "fields": {
+        "금융회사": "흥국생명보험",
+        "상품명": "연금저축세테크연금보험",
+        "상품유형": "금리연동형",
+        "최초판매일": "2003/09/03",
+        "판매여부": "중단",
+        "적립금총액": "3,305",
+        "1년 연평균수익률(%)": "-3.47",
+        "3년 연평균수익률(%)": "0.29",
+        "5년 연평균수익률(%)": "1.23",
+        "7년 연평균수익률(%)": "1.61",
+        "10년 연평균수익률(%)": "1.85",
+        "누적연평균수익률(%)": "1.46",
+        "연평균수수료율(%)": "4.037"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=54",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=54",
+        "collected_at": "2026-09-23T08:31:48.774967+00:00",
+        "http_status": 200,
+        "sha256": "a112ef971a2553e6d63265892577eedfacde9054722516251344fb22d46db254"
+      }
+    }
+  ]
+}

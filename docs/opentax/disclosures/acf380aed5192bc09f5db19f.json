@@ -1,0 +1,52 @@
+{
+  "id": "finance.insurance.klia.whole-life.흥국생명.l0402460001nn00000247000202440001024400010001024400010001000102440001000100010001l4207",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L0402460001NN00000247000202440001024400010001024400010001000102440001000100010001L4207",
+  "group": "024400010001",
+  "title": "(무)흥국생명 49재하늘소풍제례종신보험",
+  "provider": "흥국생명",
+  "cells": [
+    "흥국생명",
+    "(무)흥국생명 49재하늘소풍제례종신보험",
+    "주계약",
+    "기본사망보험금 *지급사유 : 피보험자가 보험기간 중 보장개시일 이후에 사망하였을 때",
+    "10,000만원",
+    "291,000 원",
+    "267,000 원",
+    "2.25 %",
+    "-",
+    "-",
+    "113.1 %",
+    "115.5 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "기본형",
+    "일반",
+    "-",
+    "-",
+    "-",
+    "-",
+    "비유니버셜",
+    "대면채널",
+    "2026-01-01",
+    "Download",
+    "보기",
+    "1588-2288"
+  ],
+  "coverage": [
+    "기본사망보험금 *지급사유 : 피보험자가 보험기간 중 보장개시일 이후에 사망하였을 때",
+    "분할사망보험금 *지급사유 : 피보험자가 보험기간 중 보장개시일 이후에 사망하였을 때 차년도 피보험자 사망일에 1회 지급"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=41981&seq=5"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=5&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=5&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:27.011293+00:00",
+    "http_status": 200,
+    "sha256": "6c04c871a79235c5acb158869d00befabdb37b58e39fb4409fe077e9f93172cc"
+  }
+}

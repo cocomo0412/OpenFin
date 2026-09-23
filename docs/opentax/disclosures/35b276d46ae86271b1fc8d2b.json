@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.3db652ad417fd713e9975cdc",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:b3c1b13bd53473e552813ea1",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성ELS인덱스증권자투자신탁HE-1호[주식-파생형]_C-P",
+  "cells": [
+    "삼성자산운용",
+    "삼성ELS인덱스증권자투자신탁HE-1호[주식-파생형]_C-P",
+    "파생상품",
+    "1",
+    "2020/01/13",
+    "판매",
+    "156",
+    "-0.09",
+    "-5.07",
+    "-5.37",
+    "-",
+    "-",
+    "-3.77",
+    "1.360",
+    "삼성증권, KB증권, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=286",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=286",
+    "collected_at": "2026-09-23T08:28:13.349960+00:00",
+    "http_status": 200,
+    "sha256": "0658ac9b2fb73f2d557e36fe716a0785924c6741aeb7fdfe869ba4bc4cb5195a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성ELS인덱스증권자투자신탁HE-1호[주식-파생형]_C-P",
+        "상품유형": "파생상품",
+        "위험등급": "1",
+        "설정일": "2020/01/13",
+        "판매여부": "판매",
+        "순자산총액": "156",
+        "1년 연평균수익률(%)": "-0.09",
+        "3년 연평균수익률(%)": "-5.07",
+        "5년 연평균수익률(%)": "-5.37",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-3.77",
+        "연평균수수료율(%)": "1.360",
+        "상품 판매사": "삼성증권, KB증권, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=286",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=286",
+        "collected_at": "2026-09-23T08:28:13.349960+00:00",
+        "http_status": 200,
+        "sha256": "0658ac9b2fb73f2d557e36fe716a0785924c6741aeb7fdfe869ba4bc4cb5195a"
+      }
+    }
+  ]
+}

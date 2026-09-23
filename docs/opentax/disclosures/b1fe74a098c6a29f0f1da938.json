@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.0544fc49f2d6a350620520d9",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:c18176ea8a7a1d325ec6066f",
+  "group": "3",
+  "provider": "카디안자산운용",
+  "title": "카디안 미국 투자적격 회사채 증권자투자신탁(H)[채권-재간접형] 클래스 C-P2(연금저축)E",
+  "cells": [
+    "카디안자산운용",
+    "카디안 미국 투자적격 회사채 증권자투자신탁(H)[채권-재간접형] 클래스 C-P2(연금저축)E",
+    "재간접",
+    "4",
+    "2018/01/10",
+    "판매",
+    "288",
+    "3.24",
+    "3.08",
+    "-1.06",
+    "0.55",
+    "-",
+    "0.90",
+    "0.794",
+    "유진투자증권주식회사, 한국투자증권, 삼성증권, KB증권, NH투자증권, 신한투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=262",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=262",
+    "collected_at": "2026-09-23T08:27:41.437341+00:00",
+    "http_status": 200,
+    "sha256": "1ffebfe71ee59b98529b4f14a36f7428731b189a17c4943d32f737a4fc011102"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "카디안자산운용",
+        "상품명": "카디안 미국 투자적격 회사채 증권자투자신탁(H)[채권-재간접형] 클래스 C-P2(연금저축)E",
+        "상품유형": "재간접",
+        "위험등급": "4",
+        "설정일": "2018/01/10",
+        "판매여부": "판매",
+        "순자산총액": "288",
+        "1년 연평균수익률(%)": "3.24",
+        "3년 연평균수익률(%)": "3.08",
+        "5년 연평균수익률(%)": "-1.06",
+        "7년 연평균수익률(%)": "0.55",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "0.90",
+        "연평균수수료율(%)": "0.794",
+        "상품 판매사": "유진투자증권주식회사, 한국투자증권, 삼성증권, KB증권, NH투자증권, 신한투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=262",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=262",
+        "collected_at": "2026-09-23T08:27:41.437341+00:00",
+        "http_status": 200,
+        "sha256": "1ffebfe71ee59b98529b4f14a36f7428731b189a17c4943d32f737a4fc011102"
+      }
+    }
+  ]
+}

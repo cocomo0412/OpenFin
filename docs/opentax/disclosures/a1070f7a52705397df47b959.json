@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.48a9c017526db4a543ac7a01",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:e24df50aa98fcb633abeda0e",
+  "group": "3",
+  "provider": "트러스톤자산운용",
+  "title": "트러스톤공모주알파증권투자신탁[채권혼합]Cp클래스",
+  "cells": [
+    "트러스톤자산운용",
+    "트러스톤공모주알파증권투자신탁[채권혼합]Cp클래스",
+    "혼합채권형",
+    "4",
+    "2016/07/27",
+    "판매",
+    "160",
+    "0.72",
+    "4.54",
+    "2.84",
+    "2.45",
+    "-",
+    "1.72",
+    "1.087",
+    "KB증권, 대신증권주식회사, 아이엠증권, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=286",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=286",
+    "collected_at": "2026-09-23T08:28:13.349960+00:00",
+    "http_status": 200,
+    "sha256": "0658ac9b2fb73f2d557e36fe716a0785924c6741aeb7fdfe869ba4bc4cb5195a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "트러스톤자산운용",
+        "상품명": "트러스톤공모주알파증권투자신탁[채권혼합]Cp클래스",
+        "상품유형": "혼합채권형",
+        "위험등급": "4",
+        "설정일": "2016/07/27",
+        "판매여부": "판매",
+        "순자산총액": "160",
+        "1년 연평균수익률(%)": "0.72",
+        "3년 연평균수익률(%)": "4.54",
+        "5년 연평균수익률(%)": "2.84",
+        "7년 연평균수익률(%)": "2.45",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "1.72",
+        "연평균수수료율(%)": "1.087",
+        "상품 판매사": "KB증권, 대신증권주식회사, 아이엠증권, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=286",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=286",
+        "collected_at": "2026-09-23T08:28:13.349960+00:00",
+        "http_status": 200,
+        "sha256": "0658ac9b2fb73f2d557e36fe716a0785924c6741aeb7fdfe869ba4bc4cb5195a"
+      }
+    }
+  ]
+}

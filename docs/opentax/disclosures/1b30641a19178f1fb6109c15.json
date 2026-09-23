@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.60912a5475515f7a3ee61034",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:ed75ddd32b1915ed0bfd5b34",
+  "group": "3",
+  "provider": "신영자산운용",
+  "title": "신영베일리기포드글로벌그로스증권자투자신탁(UH)(주식-재간접형) S-P형",
+  "cells": [
+    "신영자산운용",
+    "신영베일리기포드글로벌그로스증권자투자신탁(UH)(주식-재간접형) S-P형",
+    "재간접",
+    "1",
+    "2023/09/21",
+    "판매",
+    "247",
+    "2.90",
+    "-",
+    "-",
+    "-",
+    "-",
+    "18.15",
+    "0.619",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=269",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=269",
+    "collected_at": "2026-09-23T08:27:50.980143+00:00",
+    "http_status": 200,
+    "sha256": "cb10bdf6d31b541520b90234425b9667b1770d743d20c864d86478b3059afc15"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신영자산운용",
+        "상품명": "신영베일리기포드글로벌그로스증권자투자신탁(UH)(주식-재간접형) S-P형",
+        "상품유형": "재간접",
+        "위험등급": "1",
+        "설정일": "2023/09/21",
+        "판매여부": "판매",
+        "순자산총액": "247",
+        "1년 연평균수익률(%)": "2.90",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "18.15",
+        "연평균수수료율(%)": "0.619",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=269",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=269",
+        "collected_at": "2026-09-23T08:27:50.980143+00:00",
+        "http_status": 200,
+        "sha256": "cb10bdf6d31b541520b90234425b9667b1770d743d20c864d86478b3059afc15"
+      }
+    }
+  ]
+}

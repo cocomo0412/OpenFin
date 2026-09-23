@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.7f863386958f8bc67364c8d5",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:717a05f0c648fd556ebfa06d",
+  "group": "5",
+  "provider": "삼성화재해상보험",
+  "title": "연금저축손해보험 삼성화재 연금보험 직장인단체(2404.16)",
+  "cells": [
+    "삼성화재해상보험",
+    "연금저축손해보험 삼성화재 연금보험 직장인단체(2404.16)",
+    "금리연동형",
+    "2024/04/01",
+    "중단",
+    "7,616",
+    "-2.47",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-0.66",
+    "3.397"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=29",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=29",
+    "collected_at": "2026-09-23T08:22:15.242134+00:00",
+    "http_status": 200,
+    "sha256": "6d7e9c418a635edea37a0300c0faad49cd920f97670bb799748f30cbb574713d"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성화재해상보험",
+        "상품명": "연금저축손해보험 삼성화재 연금보험 직장인단체(2404.16)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2024/04/01",
+        "판매여부": "중단",
+        "적립금총액": "7,616",
+        "1년 연평균수익률(%)": "-2.47",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-0.66",
+        "연평균수수료율(%)": "3.397"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=29",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=29",
+        "collected_at": "2026-09-23T08:22:15.242134+00:00",
+        "http_status": 200,
+        "sha256": "6d7e9c418a635edea37a0300c0faad49cd920f97670bb799748f30cbb574713d"
+      }
+    }
+  ]
+}

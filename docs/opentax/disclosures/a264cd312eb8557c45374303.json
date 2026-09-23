@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.a2d4213360f2a7ecc8411ce6",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:9d43f4cb5d43fb2e6fae4fbb",
+  "group": "4",
+  "provider": "신한라이프생명보험",
+  "title": "신한Smart인터넷연금저축보험Ⅱ",
+  "cells": [
+    "신한라이프생명보험",
+    "신한Smart인터넷연금저축보험Ⅱ",
+    "금리연동형",
+    "2015/04/01",
+    "중단",
+    "2,951",
+    "-3.23",
+    "-0.34",
+    "0.26",
+    "0.48",
+    "0.77",
+    "0.82",
+    "4.076"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=56",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=56",
+    "collected_at": "2026-09-23T08:31:51.440817+00:00",
+    "http_status": 200,
+    "sha256": "b052531df40852fa6606bdc64176addf37d00c15a903bd2213ea045faffc5f07"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한라이프생명보험",
+        "상품명": "신한Smart인터넷연금저축보험Ⅱ",
+        "상품유형": "금리연동형",
+        "최초판매일": "2015/04/01",
+        "판매여부": "중단",
+        "적립금총액": "2,951",
+        "1년 연평균수익률(%)": "-3.23",
+        "3년 연평균수익률(%)": "-0.34",
+        "5년 연평균수익률(%)": "0.26",
+        "7년 연평균수익률(%)": "0.48",
+        "10년 연평균수익률(%)": "0.77",
+        "누적연평균수익률(%)": "0.82",
+        "연평균수수료율(%)": "4.076"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=56",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=56",
+        "collected_at": "2026-09-23T08:31:51.440817+00:00",
+        "http_status": 200,
+        "sha256": "b052531df40852fa6606bdc64176addf37d00c15a903bd2213ea045faffc5f07"
+      }
+    }
+  ]
+}

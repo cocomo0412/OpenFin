@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.4cdef76f1cb44a9cb0fa18e0",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:5d98f8dd51deaaebe7117f71",
+  "group": "3",
+  "provider": "피델리티자산운용",
+  "title": "피델리티 미달러 채권 증권 자투자신탁 UH (채권-재간접형) 종류 PRS-e",
+  "cells": [
+    "피델리티자산운용",
+    "피델리티 미달러 채권 증권 자투자신탁 UH (채권-재간접형) 종류 PRS-e",
+    "재간접",
+    "4",
+    "2020/06/11",
+    "판매",
+    "1,505",
+    "17.37",
+    "8.89",
+    "5.82",
+    "-",
+    "-",
+    "4.01",
+    "0.416",
+    "한국투자증권, KB증권, 미래에셋증권 주식회사, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=167",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=167",
+    "collected_at": "2026-09-23T08:25:32.977794+00:00",
+    "http_status": 200,
+    "sha256": "b5a724942869c292931c00d96397d9d9c711af67a7d47796a69ca4c10ef158d4"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "피델리티자산운용",
+        "상품명": "피델리티 미달러 채권 증권 자투자신탁 UH (채권-재간접형) 종류 PRS-e",
+        "상품유형": "재간접",
+        "위험등급": "4",
+        "설정일": "2020/06/11",
+        "판매여부": "판매",
+        "순자산총액": "1,505",
+        "1년 연평균수익률(%)": "17.37",
+        "3년 연평균수익률(%)": "8.89",
+        "5년 연평균수익률(%)": "5.82",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "4.01",
+        "연평균수수료율(%)": "0.416",
+        "상품 판매사": "한국투자증권, KB증권, 미래에셋증권 주식회사, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=167",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=167",
+        "collected_at": "2026-09-23T08:25:32.977794+00:00",
+        "http_status": 200,
+        "sha256": "b5a724942869c292931c00d96397d9d9c711af67a7d47796a69ca4c10ef158d4"
+      }
+    }
+  ]
+}

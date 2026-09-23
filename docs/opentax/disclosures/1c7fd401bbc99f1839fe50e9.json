@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.753c413c54ca4c40fb925b93",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:fdfab38322d37d98607efff2",
+  "group": "3",
+  "provider": "하나자산운용",
+  "title": "하나중국1등주플러스증권자투자신탁[주식]ClassC-PE",
+  "cells": [
+    "하나자산운용",
+    "하나중국1등주플러스증권자투자신탁[주식]ClassC-PE",
+    "주식형",
+    "2",
+    "2017/12/06",
+    "판매",
+    "2,853",
+    "20.43",
+    "9.10",
+    "-4.37",
+    "5.07",
+    "-",
+    "3.42",
+    "1.142",
+    "-"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=131",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=131",
+    "collected_at": "2026-09-23T08:24:45.131198+00:00",
+    "http_status": 200,
+    "sha256": "06dfc08cabdd3a001b053e177accb5ddd34cc2cc21e661840f558797693bbcf8"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "하나자산운용",
+        "상품명": "하나중국1등주플러스증권자투자신탁[주식]ClassC-PE",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2017/12/06",
+        "판매여부": "판매",
+        "순자산총액": "2,853",
+        "1년 연평균수익률(%)": "20.43",
+        "3년 연평균수익률(%)": "9.10",
+        "5년 연평균수익률(%)": "-4.37",
+        "7년 연평균수익률(%)": "5.07",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "3.42",
+        "연평균수수료율(%)": "1.142",
+        "상품 판매사": "-"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=131",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=131",
+        "collected_at": "2026-09-23T08:24:45.131198+00:00",
+        "http_status": 200,
+        "sha256": "06dfc08cabdd3a001b053e177accb5ddd34cc2cc21e661840f558797693bbcf8"
+      }
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   "source_review_date": "2026-07-10",
   "ontology_kind": "finance-search-index-shard",
   "shard_id": "reference",
-  "item_count": 18050,
+  "item_count": 18051,
   "items": [
     {
       "id": "application-channel.bokjiro",
@@ -29,6 +29,57 @@
       "provenance_shard": "reference",
       "export_id": "finance-reference-ontology",
       "source_ids": []
+    },
+    {
+      "id": "credit.child",
+      "title": "자녀 세액공제",
+      "type": "tax-credit",
+      "description": "기본공제대상 자녀·손자녀 및 출산·입양에 대한 세액공제입니다. 2026년 연령 기준은 개정법 부칙과 출생연도 예외를 함께 적용합니다.",
+      "search_text": "자녀 세액공제 기본공제대상 자녀·손자녀 및 출산·입양에 대한 세액공제입니다. 2026년 연령 기준은 개정법 부칙과 출생연도 예외를 함께 적용합니다.",
+      "sales_status": "unknown",
+      "status": "reference_only",
+      "recommendation_status": "reference_only",
+      "recommendation_scope": "listing_only",
+      "freshness_status": "current",
+      "source_ids": [
+        "source.law.income-tax-act.deductions-credits"
+      ],
+      "provenance_shard": "reference",
+      "export_id": "tax-ontology"
+    },
+    {
+      "id": "credit.pension-account",
+      "title": "연금계좌 세액공제",
+      "type": "tax-credit",
+      "description": "연금저축과 퇴직연금 납입액에 대한 세액공제입니다. 소득구간별 공제율, 납입 제외금액, ISA 만기 전환 특례를 구분합니다.",
+      "search_text": "연금계좌 세액공제 연금저축과 퇴직연금 납입액에 대한 세액공제입니다. 소득구간별 공제율, 납입 제외금액, isa 만기 전환 특례를 구분합니다.",
+      "sales_status": "unknown",
+      "status": "reference_only",
+      "recommendation_status": "reference_only",
+      "recommendation_scope": "listing_only",
+      "freshness_status": "current",
+      "source_ids": [
+        "source.law.income-tax-act.deductions-credits"
+      ],
+      "provenance_shard": "reference",
+      "export_id": "tax-ontology"
+    },
+    {
+      "id": "deduction.housing-savings",
+      "title": "주택마련저축",
+      "type": "deduction",
+      "description": "총급여 7천만원 이하 근로자인 무주택 세대주 및 그 배우자의 주택마련저축 소득공제입니다.",
+      "search_text": "주택마련저축 총급여 7천만원 이하 근로자인 무주택 세대주 및 그 배우자의 주택마련저축 소득공제입니다.",
+      "sales_status": "unknown",
+      "status": "reference_only",
+      "recommendation_status": "reference_only",
+      "recommendation_scope": "listing_only",
+      "freshness_status": "current",
+      "source_ids": [
+        "source.nhuf.housing-subscription"
+      ],
+      "provenance_shard": "reference",
+      "export_id": "tax-ontology"
     },
     {
       "id": "finance.api.000518b3688bd25ddb9ebeb0",
@@ -398483,6 +398534,14 @@
       "export_id": "finance-reference-ontology"
     },
     {
+      "id": "source.mirae.isa-guide",
+      "title": "미래에셋증권 ISA 가입자격·종류 안내",
+      "type": "source",
+      "search_text": "source.mirae.isa-guide 미래에셋증권 isa 가입자격·종류 안내 미래에셋증권",
+      "provenance_shard": "reference",
+      "source_ids": []
+    },
+    {
       "id": "source.provider.busanbank.product-documents",
       "title": "부산은행 금융상품 공식 문서",
       "type": "source",
@@ -400032,19 +400091,6 @@
       "export_id": "tax-ontology"
     },
     {
-      "id": "credit.child",
-      "title": "자녀 세액공제",
-      "type": "tax-credit",
-      "description": "자녀 수 등 요건에 따라 산출세액에서 차감되는 세액공제입니다.",
-      "search_text": "credit.child 자녀 세액공제 tax-credit 자녀 수 등 요건에 따라 산출세액에서 차감되는 세액공제입니다. 소득세법 제59조의2 tax-credit source.nts.year-end-settlement",
-      "source_ids": [
-        "source.nts.year-end-settlement.calculation",
-        "source.law.income-tax-act.deductions-credits"
-      ],
-      "provenance_shard": "reference",
-      "export_id": "tax-ontology"
-    },
-    {
       "id": "credit.donation",
       "title": "기부금 세액공제",
       "type": "tax-credit",
@@ -400171,26 +400217,6 @@
       "source_ids": [
         "source.nts.monthly-rent-credit",
         "source.law.tax-special-treatment-restriction-act.reliefs",
-        "source.nts.employee-income-statement"
-      ],
-      "provenance_shard": "reference",
-      "export_id": "tax-ontology"
-    },
-    {
-      "id": "credit.pension-account",
-      "title": "연금계좌 세액공제",
-      "type": "tax-credit",
-      "description": "연금저축, 퇴직연금계좌 납입액 등에 대한 세액공제입니다.",
-      "search_text": "연금계좌 세액공제 한도 credit.pension-account 연금계좌 세액공제 tax-credit 연금저축, 퇴직연금계좌 납입액 등에 대한 세액공제입니다. 소득세법 제59조의3 tax-credit source.n",
-      "search_aliases": [
-        "연금계좌 세액공제 한도"
-      ],
-      "aliases": [
-        "연금계좌 세액공제 한도"
-      ],
-      "source_ids": [
-        "source.nts.year-end-settlement.calculation",
-        "source.law.income-tax-act.deductions-credits",
         "source.nts.employee-income-statement"
       ],
       "provenance_shard": "reference",
@@ -400520,21 +400546,6 @@
         "source.law.income-tax-act.deductions-credits",
         "source.nts.housing-rent-principal-deduction",
         "source.nts.housing-mortgage-interest-deduction"
-      ],
-      "provenance_shard": "reference",
-      "export_id": "tax-ontology"
-    },
-    {
-      "id": "deduction.housing-savings",
-      "title": "주택마련저축",
-      "type": "deduction",
-      "description": "청약저축, 주택청약종합저축, 근로자우대저축 등 주택마련저축 소득공제입니다.",
-      "search_text": "deduction.housing-savings 주택마련저축 deduction 청약저축, 주택청약종합저축, 근로자우대저축 등 주택마련저축 소득공제입니다. 조세특례제한법 주택마련저축 소득공제 조문 income-deduc",
-      "source_ids": [
-        "source.nts.year-end-settlement.deduction-limit",
-        "source.law.income-tax-act.deductions-credits",
-        "source.nts.employee-income-statement",
-        "source.nts.housing-savings-deduction"
       ],
       "provenance_shard": "reference",
       "export_id": "tax-ontology"
@@ -407655,5 +407666,5 @@
       "source_ids": []
     }
   ],
-  "export_checksum": "76cdf621bb5f8ccbb5643ff0a10994982dc9d59c4efa58060bce735ffc9df32f"
+  "export_checksum": "ab8f7d9eddbe356397b48a01a50562722ac97d938b7adbcf743b445b4c48e58e"
 }

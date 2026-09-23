@@ -1,0 +1,52 @@
+{
+  "id": "finance.insurance.klia.term-life.삼성생명.l0302460004nnn0247000202440001024400010002024400010002000102440001000200010001p0289",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L0302460004NNN0247000202440001024400010002024400010002000102440001000200010001P0289",
+  "group": "024400010002",
+  "title": "삼성 인터넷정기보험(2601)(무배당) 만기환급형",
+  "provider": "삼성생명",
+  "cells": [
+    "삼성생명",
+    "삼성 인터넷정기보험(2601)(무배당) 만기환급형",
+    "주계약",
+    "사망보험금 *지급사유 : 피보험자가 보험기간 중 사망하였을 경우",
+    "1억원",
+    "171,000 원",
+    "118,000 원",
+    "2.25 %",
+    "-",
+    "-",
+    "116.0 %",
+    "119.3 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "기본형",
+    "만기환급",
+    "-",
+    "-",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "CM",
+    "2026-01-01",
+    "Download",
+    "보기",
+    "1588-3114"
+  ],
+  "coverage": [
+    "사망보험금 *지급사유 : 피보험자가 보험기간 중 사망하였을 경우",
+    "만기보험금 *지급사유 : 피보험자가 보험기간이 끝날 때까지 살아 있을 경우"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=42678&seq=4"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010002&pageIndex=2&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010002&pageIndex=2&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:25.477194+00:00",
+    "http_status": 200,
+    "sha256": "029ef34e567177b35a979124cbdbd55d6b4b685a65c0d7f15353a1ccc1d523d8"
+  }
+}

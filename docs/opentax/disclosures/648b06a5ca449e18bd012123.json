@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.3e8c5274b87d076f09f3487d",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:b9a0bebe5fd3c462bedc9ae8",
+  "group": "3",
+  "provider": "BNK자산운용",
+  "title": "BNK튼튼배당증권자투자신탁1호(주식) Class S-P",
+  "cells": [
+    "BNK자산운용",
+    "BNK튼튼배당증권자투자신탁1호(주식) Class S-P",
+    "주식형",
+    "2",
+    "2014/04/25",
+    "판매",
+    "666",
+    "180.83",
+    "56.66",
+    "27.77",
+    "27.49",
+    "20.32",
+    "16.98",
+    "0.751",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=214",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=214",
+    "collected_at": "2026-09-23T08:26:36.904315+00:00",
+    "http_status": 200,
+    "sha256": "884d8a6e46ac94b4e7c56db83f723f003fb6ff2d5f11dd2b46c05f0e6b8a317a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "BNK자산운용",
+        "상품명": "BNK튼튼배당증권자투자신탁1호(주식) Class S-P",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2014/04/25",
+        "판매여부": "판매",
+        "순자산총액": "666",
+        "1년 연평균수익률(%)": "180.83",
+        "3년 연평균수익률(%)": "56.66",
+        "5년 연평균수익률(%)": "27.77",
+        "7년 연평균수익률(%)": "27.49",
+        "10년 연평균수익률(%)": "20.32",
+        "누적연평균수익률(%)": "16.98",
+        "연평균수수료율(%)": "0.751",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=214",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=214",
+        "collected_at": "2026-09-23T08:26:36.904315+00:00",
+        "http_status": 200,
+        "sha256": "884d8a6e46ac94b4e7c56db83f723f003fb6ff2d5f11dd2b46c05f0e6b8a317a"
+      }
+    }
+  ]
+}

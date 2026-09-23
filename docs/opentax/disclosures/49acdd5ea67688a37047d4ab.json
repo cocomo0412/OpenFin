@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.92d6854c265d8d2a3f5748d8",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:77ed0d0aead3f7be44b24edd",
+  "group": "3",
+  "provider": "현대인베스트먼트자산운용",
+  "title": "현대인베스트먼트하이킥중소형증권자투자신탁1호(주식)S-P",
+  "cells": [
+    "현대인베스트먼트자산운용",
+    "현대인베스트먼트하이킥중소형증권자투자신탁1호(주식)S-P",
+    "주식형",
+    "2",
+    "2015/07/21",
+    "판매",
+    "122",
+    "56.40",
+    "30.33",
+    "17.03",
+    "20.61",
+    "9.80",
+    "5.41",
+    "0.993",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=293",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=293",
+    "collected_at": "2026-09-23T08:28:22.753491+00:00",
+    "http_status": 200,
+    "sha256": "f3f0607ea157e8e4fb1acb26baf85100ee1c0d922dc0e746bc413bdd377a88fd"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "현대인베스트먼트자산운용",
+        "상품명": "현대인베스트먼트하이킥중소형증권자투자신탁1호(주식)S-P",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2015/07/21",
+        "판매여부": "판매",
+        "순자산총액": "122",
+        "1년 연평균수익률(%)": "56.40",
+        "3년 연평균수익률(%)": "30.33",
+        "5년 연평균수익률(%)": "17.03",
+        "7년 연평균수익률(%)": "20.61",
+        "10년 연평균수익률(%)": "9.80",
+        "누적연평균수익률(%)": "5.41",
+        "연평균수수료율(%)": "0.993",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=293",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=293",
+        "collected_at": "2026-09-23T08:28:22.753491+00:00",
+        "http_status": 200,
+        "sha256": "f3f0607ea157e8e4fb1acb26baf85100ee1c0d922dc0e746bc413bdd377a88fd"
+      }
+    }
+  ]
+}

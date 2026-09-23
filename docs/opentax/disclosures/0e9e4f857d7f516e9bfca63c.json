@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.e751b1c926d0ccc18de9a520",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:6e534a9ff2e82487e9516311",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자인컴주는ETF모으기증권자투자신탁H(채권혼합-재간접형)(C-Pe)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자인컴주는ETF모으기증권자투자신탁H(채권혼합-재간접형)(C-Pe)",
+    "재간접",
+    "4",
+    "2025/05/29",
+    "판매",
+    "237",
+    "11.59",
+    "-",
+    "-",
+    "-",
+    "-",
+    "12.96",
+    "0.390",
+    "한국투자증권, 우리은행, KB증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=272",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=272",
+    "collected_at": "2026-09-23T08:27:54.772209+00:00",
+    "http_status": 200,
+    "sha256": "610045407a77b660c9899c76608fd7df1df1638ae78ae0cea8e14ba214f21c64"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자인컴주는ETF모으기증권자투자신탁H(채권혼합-재간접형)(C-Pe)",
+        "상품유형": "재간접",
+        "위험등급": "4",
+        "설정일": "2025/05/29",
+        "판매여부": "판매",
+        "순자산총액": "237",
+        "1년 연평균수익률(%)": "11.59",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "12.96",
+        "연평균수수료율(%)": "0.390",
+        "상품 판매사": "한국투자증권, 우리은행, KB증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=272",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=272",
+        "collected_at": "2026-09-23T08:27:54.772209+00:00",
+        "http_status": 200,
+        "sha256": "610045407a77b660c9899c76608fd7df1df1638ae78ae0cea8e14ba214f21c64"
+      }
+    }
+  ]
+}

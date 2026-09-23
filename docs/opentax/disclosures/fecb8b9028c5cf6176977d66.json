@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.1ce444139dfd2745e1886cf0",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:301ce135a095fa3d254b872b",
+  "group": "3",
+  "provider": "IBK자산운용",
+  "title": "IBK 켄쇼 4.0 레볼루션 증권 자투자신탁(H)[주식] 종류 S-P",
+  "cells": [
+    "IBK자산운용",
+    "IBK 켄쇼 4.0 레볼루션 증권 자투자신탁(H)[주식] 종류 S-P",
+    "주식형",
+    "2",
+    "2018/06/29",
+    "판매",
+    "281",
+    "19.46",
+    "15.48",
+    "0.37",
+    "9.11",
+    "-",
+    "7.90",
+    "1.007",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=263",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=263",
+    "collected_at": "2026-09-23T08:27:42.695672+00:00",
+    "http_status": 200,
+    "sha256": "6a892135e91747ff60d0e0be9f8f64c36082759581b6fc837e047d7c8eaeaf29"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "IBK자산운용",
+        "상품명": "IBK 켄쇼 4.0 레볼루션 증권 자투자신탁(H)[주식] 종류 S-P",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2018/06/29",
+        "판매여부": "판매",
+        "순자산총액": "281",
+        "1년 연평균수익률(%)": "19.46",
+        "3년 연평균수익률(%)": "15.48",
+        "5년 연평균수익률(%)": "0.37",
+        "7년 연평균수익률(%)": "9.11",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "7.90",
+        "연평균수수료율(%)": "1.007",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=263",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=263",
+        "collected_at": "2026-09-23T08:27:42.695672+00:00",
+        "http_status": 200,
+        "sha256": "6a892135e91747ff60d0e0be9f8f64c36082759581b6fc837e047d7c8eaeaf29"
+      }
+    }
+  ]
+}

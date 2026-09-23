@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.7827f5c26e5bbfe6676737aa",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:4ccbc4555712747dc29b33dd",
+  "group": "3",
+  "provider": "NH-Amundi자산운용",
+  "title": "NH-Amundi 하나로 적격 TDF 2035 증권투자신탁[주식혼합-재간접형]Class S-P1(연금저축)",
+  "cells": [
+    "NH-Amundi자산운용",
+    "NH-Amundi 하나로 적격 TDF 2035 증권투자신탁[주식혼합-재간접형]Class S-P1(연금저축)",
+    "재간접",
+    "4",
+    "2019/07/09",
+    "판매",
+    "187",
+    "24.41",
+    "16.25",
+    "9.74",
+    "-",
+    "-",
+    "9.18",
+    "0.400",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=280",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=280",
+    "collected_at": "2026-09-23T08:28:05.349187+00:00",
+    "http_status": 200,
+    "sha256": "3b24f1ab388aa929f0ee4674402ba2bd76d36e938feca4714184c49fdd97ad90"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "NH-Amundi자산운용",
+        "상품명": "NH-Amundi 하나로 적격 TDF 2035 증권투자신탁[주식혼합-재간접형]Class S-P1(연금저축)",
+        "상품유형": "재간접",
+        "위험등급": "4",
+        "설정일": "2019/07/09",
+        "판매여부": "판매",
+        "순자산총액": "187",
+        "1년 연평균수익률(%)": "24.41",
+        "3년 연평균수익률(%)": "16.25",
+        "5년 연평균수익률(%)": "9.74",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "9.18",
+        "연평균수수료율(%)": "0.400",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=280",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=280",
+        "collected_at": "2026-09-23T08:28:05.349187+00:00",
+        "http_status": 200,
+        "sha256": "3b24f1ab388aa929f0ee4674402ba2bd76d36e938feca4714184c49fdd97ad90"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.7f9a3fa9f7aeacbe34207e0d",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:8b80a548558feab46a2450ed",
+  "group": "4",
+  "provider": "아이비케이연금보험",
+  "title": "무배당 IBK 세액공제연금저축보험_1904",
+  "cells": [
+    "아이비케이연금보험",
+    "무배당 IBK 세액공제연금저축보험_1904",
+    "금리연동형",
+    "2019/04/01",
+    "중단",
+    "21,347",
+    "-4.91",
+    "-0.88",
+    "0.02",
+    "0.39",
+    "-",
+    "0.41",
+    "6.264"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=27",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=27",
+    "collected_at": "2026-09-23T08:30:57.011362+00:00",
+    "http_status": 200,
+    "sha256": "ce1feacf5ed406e414146acb7ae9dca9c876c2e932cae5e0ee053bb958fd1240"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "아이비케이연금보험",
+        "상품명": "무배당 IBK 세액공제연금저축보험_1904",
+        "상품유형": "금리연동형",
+        "최초판매일": "2019/04/01",
+        "판매여부": "중단",
+        "적립금총액": "21,347",
+        "1년 연평균수익률(%)": "-4.91",
+        "3년 연평균수익률(%)": "-0.88",
+        "5년 연평균수익률(%)": "0.02",
+        "7년 연평균수익률(%)": "0.39",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "0.41",
+        "연평균수수료율(%)": "6.264"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=27",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=27",
+        "collected_at": "2026-09-23T08:30:57.011362+00:00",
+        "http_status": 200,
+        "sha256": "ce1feacf5ed406e414146acb7ae9dca9c876c2e932cae5e0ee053bb958fd1240"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.e775dfa3941e6b8fe1de8490",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:06b6b062a22c96e0012fdb8e",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 연금 국내채권 증권 전환형 자투자신탁(채권) C",
+  "cells": [
+    "KB자산운용",
+    "KB 연금 국내채권 증권 전환형 자투자신탁(채권) C",
+    "채권형",
+    "5",
+    "2010/07/09",
+    "판매",
+    "20,450",
+    "-5.08",
+    "2.47",
+    "0.51",
+    "0.45",
+    "0.76",
+    "2.19",
+    "0.581",
+    "키움증권(주), 한국투자증권, SK증권주식회사, 삼성증권, KB증권, 대신증권주식회사, KB국민은행, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=48",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=48",
+    "collected_at": "2026-09-23T08:22:52.024341+00:00",
+    "http_status": 200,
+    "sha256": "837a7ee7bfba93ba307c4c904f42b74ff70c8520a14950c15120db2dabcca555"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 연금 국내채권 증권 전환형 자투자신탁(채권) C",
+        "상품유형": "채권형",
+        "위험등급": "5",
+        "설정일": "2010/07/09",
+        "판매여부": "판매",
+        "순자산총액": "20,450",
+        "1년 연평균수익률(%)": "-5.08",
+        "3년 연평균수익률(%)": "2.47",
+        "5년 연평균수익률(%)": "0.51",
+        "7년 연평균수익률(%)": "0.45",
+        "10년 연평균수익률(%)": "0.76",
+        "누적연평균수익률(%)": "2.19",
+        "연평균수수료율(%)": "0.581",
+        "상품 판매사": "키움증권(주), 한국투자증권, SK증권주식회사, 삼성증권, KB증권, 대신증권주식회사, KB국민은행, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=48",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=48",
+        "collected_at": "2026-09-23T08:22:52.024341+00:00",
+        "http_status": 200,
+        "sha256": "837a7ee7bfba93ba307c4c904f42b74ff70c8520a14950c15120db2dabcca555"
+      }
+    }
+  ]
+}

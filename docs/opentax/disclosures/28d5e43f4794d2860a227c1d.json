@@ -1,0 +1,51 @@
+{
+  "id": "finance.insurance.klia.whole-life.삼성생명.l033nna1a0012054",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L033NNA1A0012054",
+  "group": "024400010001",
+  "title": "삼성 The 안심 종신보험(2601)(무배당,보증비용부과형)[계약전환용]",
+  "provider": "삼성생명",
+  "cells": [
+    "삼성생명",
+    "삼성 The 안심 종신보험(2601)(무배당,보증비용부과형)[계약전환용]",
+    "주계약",
+    "사망보험금 *지급사유 : 사망하였을 경우",
+    "10,000만원",
+    "266,000 원",
+    "242,000 원",
+    "-",
+    "2.05 %",
+    "가입후 10년 이내 1.0%, 10년 초과 0.5% 가입후 10년 이내 1.0%, 10년 초과 0.5%",
+    "102.8 %",
+    "104.0 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "기본형",
+    "일반",
+    "보증 *보증비용 산출기준 : 계약자적립액의 0.35%",
+    "보증 *보증비용 산출기준 : 보험료의 0.5% / 계약자적립액의 0.80%",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "대면채널",
+    "2026-01-01",
+    "Download",
+    "보기",
+    "1588-3114"
+  ],
+  "coverage": [
+    "사망보험금 *지급사유 : 사망하였을 경우"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=14497&seq=16"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=4&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=4&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:26.342249+00:00",
+    "http_status": 200,
+    "sha256": "6c7af23ceaf7345a55ff487641eaa93ab4ddf1af2dae8276aa5dd7237042da7e"
+  }
+}

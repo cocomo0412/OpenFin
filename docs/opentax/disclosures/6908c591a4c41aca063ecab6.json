@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.af9d920b9c3c2a88966882d6",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:b6ad2d786950aea928f69da6",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋TIGER미국성장테마액티브증권자투자신탁(주식-재간접형)종류C-Pe",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋TIGER미국성장테마액티브증권자투자신탁(주식-재간접형)종류C-Pe",
+    "재간접",
+    "2",
+    "2025/03/04",
+    "판매",
+    "1,313",
+    "52.37",
+    "-",
+    "-",
+    "-",
+    "-",
+    "38.93",
+    "0.212",
+    "(주)우리투자증권, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=173",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=173",
+    "collected_at": "2026-09-23T08:25:41.143975+00:00",
+    "http_status": 200,
+    "sha256": "780fdc08447e33eaedec97b2f81b8d8daba67e0715470bbded1702e4dcb7823d"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋TIGER미국성장테마액티브증권자투자신탁(주식-재간접형)종류C-Pe",
+        "상품유형": "재간접",
+        "위험등급": "2",
+        "설정일": "2025/03/04",
+        "판매여부": "판매",
+        "순자산총액": "1,313",
+        "1년 연평균수익률(%)": "52.37",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "38.93",
+        "연평균수수료율(%)": "0.212",
+        "상품 판매사": "(주)우리투자증권, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=173",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=173",
+        "collected_at": "2026-09-23T08:25:41.143975+00:00",
+        "http_status": 200,
+        "sha256": "780fdc08447e33eaedec97b2f81b8d8daba67e0715470bbded1702e4dcb7823d"
+      }
+    }
+  ]
+}

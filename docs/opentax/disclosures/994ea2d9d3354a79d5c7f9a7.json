@@ -1,0 +1,51 @@
+{
+  "id": "finance.insurance.klia.whole-life.신한라이프생명.l1102460001nnn0247000202440001024400010001024400010001000202440001000100020002s0732",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L1102460001NNN0247000202440001024400010001024400010001000202440001000100020002S0732",
+  "group": "024400010001",
+  "title": "신한(간편가입)The든든한종신보험(무배당, 해약환급금 미지급형)(2형)_일반심사형",
+  "provider": "신한라이프생명",
+  "cells": [
+    "신한라이프생명",
+    "신한(간편가입)The든든한종신보험(무배당, 해약환급금 미지급형)(2형)_일반심사형",
+    "주계약",
+    "사망보험금 *지급사유 : 보험기간 중 피보험자가 사망하였을 때",
+    "1억원",
+    "306,600 원",
+    "261,000 원",
+    "2.60 %",
+    "-",
+    "-",
+    "100.5 %",
+    "103.7 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "체증형",
+    "무해지/저해지환급",
+    "-",
+    "-",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "대면채널",
+    "2026-07-01",
+    "Download",
+    "보기",
+    "1588-5580"
+  ],
+  "coverage": [
+    "사망보험금 *지급사유 : 보험기간 중 피보험자가 사망하였을 때"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=43076&seq=3"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=15&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=15&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:33.737465+00:00",
+    "http_status": 200,
+    "sha256": "da99c4ff5f9ce0899470ee35487b3e29019e54645bf8b984a0590104a666879a"
+  }
+}

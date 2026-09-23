@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.771f2436312d40670d2cb1e6",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:926584fe446114e25f44ee4e",
+  "group": "3",
+  "provider": "하나자산운용",
+  "title": "하나글로벌리츠부동산자투자신탁[재간접형]ClassC-P",
+  "cells": [
+    "하나자산운용",
+    "하나글로벌리츠부동산자투자신탁[재간접형]ClassC-P",
+    "부동산",
+    "3",
+    "2016/08/18",
+    "판매",
+    "886",
+    "19.72",
+    "8.52",
+    "1.17",
+    "2.35",
+    "-",
+    "2.54",
+    "1.519",
+    "유진투자증권주식회사, 한화투자증권주식회사, NH농협은행, 한국투자증권, IBK기업은행, KB증권, KB국민은행, 미래에셋증권 주식회사, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=195",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=195",
+    "collected_at": "2026-09-23T08:26:10.949151+00:00",
+    "http_status": 200,
+    "sha256": "1297610d1f95b4817d2814cdfeea24b1d8715539bd62ffbe8431653abd13c526"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "하나자산운용",
+        "상품명": "하나글로벌리츠부동산자투자신탁[재간접형]ClassC-P",
+        "상품유형": "부동산",
+        "위험등급": "3",
+        "설정일": "2016/08/18",
+        "판매여부": "판매",
+        "순자산총액": "886",
+        "1년 연평균수익률(%)": "19.72",
+        "3년 연평균수익률(%)": "8.52",
+        "5년 연평균수익률(%)": "1.17",
+        "7년 연평균수익률(%)": "2.35",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "2.54",
+        "연평균수수료율(%)": "1.519",
+        "상품 판매사": "유진투자증권주식회사, 한화투자증권주식회사, NH농협은행, 한국투자증권, IBK기업은행, KB증권, KB국민은행, 미래에셋증권 주식회사, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=195",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=195",
+        "collected_at": "2026-09-23T08:26:10.949151+00:00",
+        "http_status": 200,
+        "sha256": "1297610d1f95b4817d2814cdfeea24b1d8715539bd62ffbe8431653abd13c526"
+      }
+    }
+  ]
+}

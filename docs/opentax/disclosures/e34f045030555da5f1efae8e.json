@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.cb3f9b73aa30496f091a8e4b",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:2fe6aee8ac13b4603675361a",
+  "group": "4",
+  "provider": "교보생명보험",
+  "title": "연금저축교보First연금보험",
+  "cells": [
+    "교보생명보험",
+    "연금저축교보First연금보험",
+    "금리연동형",
+    "2015/01/01",
+    "중단",
+    "55,890",
+    "-5.59",
+    "-1.13",
+    "-0.20",
+    "0.14",
+    "0.58",
+    "0.69",
+    "6.140"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=12",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=12",
+    "collected_at": "2026-09-23T08:21:53.907522+00:00",
+    "http_status": 200,
+    "sha256": "3678588762b047af726fa34522cc58cc461a95909e7da85fc31ad53d285a5a4a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "교보생명보험",
+        "상품명": "연금저축교보First연금보험",
+        "상품유형": "금리연동형",
+        "최초판매일": "2015/01/01",
+        "판매여부": "중단",
+        "적립금총액": "55,890",
+        "1년 연평균수익률(%)": "-5.59",
+        "3년 연평균수익률(%)": "-1.13",
+        "5년 연평균수익률(%)": "-0.20",
+        "7년 연평균수익률(%)": "0.14",
+        "10년 연평균수익률(%)": "0.58",
+        "누적연평균수익률(%)": "0.69",
+        "연평균수수료율(%)": "6.140"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=12",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=12",
+        "collected_at": "2026-09-23T08:21:53.907522+00:00",
+        "http_status": 200,
+        "sha256": "3678588762b047af726fa34522cc58cc461a95909e7da85fc31ad53d285a5a4a"
+      }
+    }
+  ]
+}

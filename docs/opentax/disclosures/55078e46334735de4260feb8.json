@@ -1,0 +1,49 @@
+{
+  "id": "finance.insurance.klia.disease.교보생명.l0502460004nnn024700020244000102440001000302440001000300020244000100030002000411110",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L0502460004NNN024700020244000102440001000302440001000300020244000100030002000411110",
+  "group": "024400010003",
+  "title": "교보e마라톤보험 (무배당)",
+  "provider": "교보생명",
+  "cells": [
+    "교보생명",
+    "교보e마라톤보험 (무배당)",
+    "주계약",
+    "재해사망보험금 *지급사유 : 피보험자가 보험기간 중 재해로 사망하였을 경우",
+    "5,000만원",
+    "116 원",
+    "55 원",
+    "2.00 %",
+    "-",
+    "-",
+    "154.4 %",
+    "141.3 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "기타",
+    "순수보장",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "CM",
+    "2026-06-29",
+    "Download",
+    "보기",
+    "1588-1001"
+  ],
+  "coverage": [
+    "재해사망보험금 *지급사유 : 피보험자가 보험기간 중 재해로 사망하였을 경우"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=44567&seq=3"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010003&pageIndex=3&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010003&pageIndex=3&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:26.099063+00:00",
+    "http_status": 200,
+    "sha256": "1ac0a567ddbe12616c99e67a97a70aaeea42c468c8aa6a04900784f486fc6c11"
+  }
+}

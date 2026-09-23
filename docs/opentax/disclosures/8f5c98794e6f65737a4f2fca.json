@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.05a24a9275456f7a78d79c88",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:d8c6fd36ec7854fca794c125",
+  "group": "3",
+  "provider": "KCGI자산운용",
+  "title": "KCGI프리덤적격TDF2030증권자투자신탁[채권혼합-재간접형]종류C-Pe",
+  "cells": [
+    "KCGI자산운용",
+    "KCGI프리덤적격TDF2030증권자투자신탁[채권혼합-재간접형]종류C-Pe",
+    "재간접",
+    "4",
+    "2020/10/23",
+    "판매",
+    "28,744",
+    "27.90",
+    "15.27",
+    "8.55",
+    "-",
+    "-",
+    "10.33",
+    "0.455",
+    "(주)우리투자증권, 키움증권(주), 한국투자증권, KB증권, 미래에셋증권 주식회사, KCGI자산운용, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=38",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=38",
+    "collected_at": "2026-09-23T08:22:38.118896+00:00",
+    "http_status": 200,
+    "sha256": "491aa6232dc63336d3f457756619fdba108756d1f83395b5d49ee98fb537b7f3"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KCGI자산운용",
+        "상품명": "KCGI프리덤적격TDF2030증권자투자신탁[채권혼합-재간접형]종류C-Pe",
+        "상품유형": "재간접",
+        "위험등급": "4",
+        "설정일": "2020/10/23",
+        "판매여부": "판매",
+        "순자산총액": "28,744",
+        "1년 연평균수익률(%)": "27.90",
+        "3년 연평균수익률(%)": "15.27",
+        "5년 연평균수익률(%)": "8.55",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "10.33",
+        "연평균수수료율(%)": "0.455",
+        "상품 판매사": "(주)우리투자증권, 키움증권(주), 한국투자증권, KB증권, 미래에셋증권 주식회사, KCGI자산운용, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=38",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=38",
+        "collected_at": "2026-09-23T08:22:38.118896+00:00",
+        "http_status": 200,
+        "sha256": "491aa6232dc63336d3f457756619fdba108756d1f83395b5d49ee98fb537b7f3"
+      }
+    }
+  ]
+}

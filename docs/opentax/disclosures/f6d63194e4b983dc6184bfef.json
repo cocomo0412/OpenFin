@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.ad58d18b1813d0b69cf5cdd8",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:4e3ce9be67d5b80ea3f4e8a0",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성클래식중국본토중소형FOCUS연금증권자투자신탁H[주식]_S-P",
+  "cells": [
+    "삼성자산운용",
+    "삼성클래식중국본토중소형FOCUS연금증권자투자신탁H[주식]_S-P",
+    "주식형",
+    "2",
+    "2015/03/10",
+    "판매",
+    "471",
+    "107.26",
+    "27.56",
+    "10.55",
+    "12.49",
+    "7.07",
+    "5.85",
+    "1.134",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=236",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=236",
+    "collected_at": "2026-09-23T08:27:06.493772+00:00",
+    "http_status": 200,
+    "sha256": "29dd9659530790935ca85c1362d42c4c8efe4c7ae3e01f35e74171619c7b8882"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성클래식중국본토중소형FOCUS연금증권자투자신탁H[주식]_S-P",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2015/03/10",
+        "판매여부": "판매",
+        "순자산총액": "471",
+        "1년 연평균수익률(%)": "107.26",
+        "3년 연평균수익률(%)": "27.56",
+        "5년 연평균수익률(%)": "10.55",
+        "7년 연평균수익률(%)": "12.49",
+        "10년 연평균수익률(%)": "7.07",
+        "누적연평균수익률(%)": "5.85",
+        "연평균수수료율(%)": "1.134",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=236",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=236",
+        "collected_at": "2026-09-23T08:27:06.493772+00:00",
+        "http_status": 200,
+        "sha256": "29dd9659530790935ca85c1362d42c4c8efe4c7ae3e01f35e74171619c7b8882"
+      }
+    }
+  ]
+}

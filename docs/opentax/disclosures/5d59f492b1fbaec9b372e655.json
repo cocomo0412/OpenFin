@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.d68994539f3e7a1b08d0af3d",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:b8f7ee8e9a2076b0a49df734",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자TIF알아서평생소득증권자투자신탁(채권-재간접형)(S-P)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자TIF알아서평생소득증권자투자신탁(채권-재간접형)(S-P)",
+    "재간접",
+    "5",
+    "2018/07/30",
+    "판매",
+    "0",
+    "3.46",
+    "4.63",
+    "0.69",
+    "1.51",
+    "-",
+    "2.21",
+    "0.332",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=317",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=317",
+    "collected_at": "2026-09-23T08:28:57.457747+00:00",
+    "http_status": 200,
+    "sha256": "70b79fd337743ca01073f5b89d5c2222213a33ae2d4e19b123221728045139b0"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자TIF알아서평생소득증권자투자신탁(채권-재간접형)(S-P)",
+        "상품유형": "재간접",
+        "위험등급": "5",
+        "설정일": "2018/07/30",
+        "판매여부": "판매",
+        "순자산총액": "0",
+        "1년 연평균수익률(%)": "3.46",
+        "3년 연평균수익률(%)": "4.63",
+        "5년 연평균수익률(%)": "0.69",
+        "7년 연평균수익률(%)": "1.51",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "2.21",
+        "연평균수수료율(%)": "0.332",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=317",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=317",
+        "collected_at": "2026-09-23T08:28:57.457747+00:00",
+        "http_status": 200,
+        "sha256": "70b79fd337743ca01073f5b89d5c2222213a33ae2d4e19b123221728045139b0"
+      }
+    }
+  ]
+}

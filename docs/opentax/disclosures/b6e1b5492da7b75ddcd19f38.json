@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.1069403f0dd5209b0e40b241",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:d55b5745c653662304e2ef93",
+  "group": "3",
+  "provider": "신한자산운용",
+  "title": "신한스노우볼인컴증권투자신탁[채권혼합](종류C-pe)",
+  "cells": [
+    "신한자산운용",
+    "신한스노우볼인컴증권투자신탁[채권혼합](종류C-pe)",
+    "혼합채권형",
+    "4",
+    "2018/12/31",
+    "판매",
+    "20,870",
+    "70.59",
+    "24.90",
+    "14.55",
+    "12.03",
+    "-",
+    "11.67",
+    "0.502",
+    "한화투자증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, 아이엠증권, 신한은행, 미래에셋증권 주식회사, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=47",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=47",
+    "collected_at": "2026-09-23T08:22:50.618983+00:00",
+    "http_status": 200,
+    "sha256": "80cab51c3f39259d13903cf8b2225ae6809b300aa72304c4eaa20bcbd53fc850"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한자산운용",
+        "상품명": "신한스노우볼인컴증권투자신탁[채권혼합](종류C-pe)",
+        "상품유형": "혼합채권형",
+        "위험등급": "4",
+        "설정일": "2018/12/31",
+        "판매여부": "판매",
+        "순자산총액": "20,870",
+        "1년 연평균수익률(%)": "70.59",
+        "3년 연평균수익률(%)": "24.90",
+        "5년 연평균수익률(%)": "14.55",
+        "7년 연평균수익률(%)": "12.03",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "11.67",
+        "연평균수수료율(%)": "0.502",
+        "상품 판매사": "한화투자증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, 아이엠증권, 신한은행, 미래에셋증권 주식회사, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=47",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=47",
+        "collected_at": "2026-09-23T08:22:50.618983+00:00",
+        "http_status": 200,
+        "sha256": "80cab51c3f39259d13903cf8b2225ae6809b300aa72304c4eaa20bcbd53fc850"
+      }
+    }
+  ]
+}

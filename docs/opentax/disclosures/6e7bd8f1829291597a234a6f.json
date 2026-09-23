@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.383fc499c58c723e7442d104",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:8b63b3313e96739e78586c3b",
+  "group": "3",
+  "provider": "KCGI자산운용",
+  "title": "KCGI코리아연금증권전환형자투자신탁1호[주식]종류S-P",
+  "cells": [
+    "KCGI자산운용",
+    "KCGI코리아연금증권전환형자투자신탁1호[주식]종류S-P",
+    "주식형",
+    "2",
+    "2014/07/15",
+    "판매",
+    "2,828",
+    "135.72",
+    "58.48",
+    "26.88",
+    "28.41",
+    "17.61",
+    "15.60",
+    "0.873",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=132",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=132",
+    "collected_at": "2026-09-23T08:24:46.357858+00:00",
+    "http_status": 200,
+    "sha256": "5bf2ab85c21b8913bb535200691c887f572001b8128f128087db41027aa6fc07"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KCGI자산운용",
+        "상품명": "KCGI코리아연금증권전환형자투자신탁1호[주식]종류S-P",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2014/07/15",
+        "판매여부": "판매",
+        "순자산총액": "2,828",
+        "1년 연평균수익률(%)": "135.72",
+        "3년 연평균수익률(%)": "58.48",
+        "5년 연평균수익률(%)": "26.88",
+        "7년 연평균수익률(%)": "28.41",
+        "10년 연평균수익률(%)": "17.61",
+        "누적연평균수익률(%)": "15.60",
+        "연평균수수료율(%)": "0.873",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=132",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=132",
+        "collected_at": "2026-09-23T08:24:46.357858+00:00",
+        "http_status": 200,
+        "sha256": "5bf2ab85c21b8913bb535200691c887f572001b8128f128087db41027aa6fc07"
+      }
+    }
+  ]
+}

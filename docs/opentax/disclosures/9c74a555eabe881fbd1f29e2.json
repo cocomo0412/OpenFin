@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.f83380427bec3039d4612837",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:1:76aaa728bb81f8fb263f5062",
+  "group": "1",
+  "provider": "경남은행",
+  "title": "연금저축신탁안정형",
+  "cells": [
+    "경남은행",
+    "연금저축신탁안정형",
+    "안정형",
+    "2001/02/05",
+    "중단",
+    "18,807",
+    "2.36",
+    "3.05",
+    "2.79",
+    "2.41",
+    "2.44",
+    "3.29",
+    "6.471"
+  ],
+  "headers": [
+    "은행",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=3",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=3",
+    "collected_at": "2026-09-23T08:21:43.607429+00:00",
+    "http_status": 200,
+    "sha256": "b410058ee59979b57520628c9879670192090da652aa2aba8b23ccad412d6e5a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "경남은행",
+        "상품명": "연금저축신탁안정형",
+        "상품유형": "안정형",
+        "최초판매일": "2001/02/05",
+        "판매여부": "중단",
+        "적립금총액": "18,807",
+        "1년 연평균수익률(%)": "2.36",
+        "3년 연평균수익률(%)": "3.05",
+        "5년 연평균수익률(%)": "2.79",
+        "7년 연평균수익률(%)": "2.41",
+        "10년 연평균수익률(%)": "2.44",
+        "누적연평균수익률(%)": "3.29",
+        "연평균수수료율(%)": "6.471"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=3",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=3",
+        "collected_at": "2026-09-23T08:21:43.607429+00:00",
+        "http_status": 200,
+        "sha256": "b410058ee59979b57520628c9879670192090da652aa2aba8b23ccad412d6e5a"
+      }
+    }
+  ]
+}

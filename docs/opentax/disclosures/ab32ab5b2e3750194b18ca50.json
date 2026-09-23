@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.3312f365c76f237996ad24e0",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:6683cc5ba11f623b32de7ff1",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자ACE미국대형성장주액티브증권상장지수투자신탁(주식)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자ACE미국대형성장주액티브증권상장지수투자신탁(주식)",
+    "주식형",
+    "2",
+    "2025/11/07",
+    "판매",
+    "558",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "30.18",
+    "0.351",
+    "메리츠증권(주), 한국투자증권, 삼성증권, KB증권, 미래에셋증권 주식회사, 주식회사 카카오페이증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=224",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=224",
+    "collected_at": "2026-09-23T08:26:50.168289+00:00",
+    "http_status": 200,
+    "sha256": "21cfc7efcb5a77596737069eca2e96d33a275b66935e12e969c4533bd90498aa"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자ACE미국대형성장주액티브증권상장지수투자신탁(주식)",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2025/11/07",
+        "판매여부": "판매",
+        "순자산총액": "558",
+        "1년 연평균수익률(%)": "-",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "30.18",
+        "연평균수수료율(%)": "0.351",
+        "상품 판매사": "메리츠증권(주), 한국투자증권, 삼성증권, KB증권, 미래에셋증권 주식회사, 주식회사 카카오페이증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=224",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=224",
+        "collected_at": "2026-09-23T08:26:50.168289+00:00",
+        "http_status": 200,
+        "sha256": "21cfc7efcb5a77596737069eca2e96d33a275b66935e12e969c4533bd90498aa"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.b4e43de578e9a197564f65e1",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:3d5d2d1d61f045e4616e9d85",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋연금차이나배당커버드콜액티브증권자투자신탁1호(주식혼합)종류C-P",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋연금차이나배당커버드콜액티브증권자투자신탁1호(주식혼합)종류C-P",
+    "혼합주식형",
+    "3",
+    "2015/02/26",
+    "판매",
+    "561",
+    "6.05",
+    "7.41",
+    "-1.46",
+    "0.15",
+    "1.16",
+    "-0.16",
+    "1.395",
+    "미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=223",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=223",
+    "collected_at": "2026-09-23T08:26:48.967840+00:00",
+    "http_status": 200,
+    "sha256": "b12ac0244ea8d4ad32d5b3f6cc15886ab1170ce9c9152451f8a0366607e2860c"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋연금차이나배당커버드콜액티브증권자투자신탁1호(주식혼합)종류C-P",
+        "상품유형": "혼합주식형",
+        "위험등급": "3",
+        "설정일": "2015/02/26",
+        "판매여부": "판매",
+        "순자산총액": "561",
+        "1년 연평균수익률(%)": "6.05",
+        "3년 연평균수익률(%)": "7.41",
+        "5년 연평균수익률(%)": "-1.46",
+        "7년 연평균수익률(%)": "0.15",
+        "10년 연평균수익률(%)": "1.16",
+        "누적연평균수익률(%)": "-0.16",
+        "연평균수수료율(%)": "1.395",
+        "상품 판매사": "미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=223",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=223",
+        "collected_at": "2026-09-23T08:26:48.967840+00:00",
+        "http_status": 200,
+        "sha256": "b12ac0244ea8d4ad32d5b3f6cc15886ab1170ce9c9152451f8a0366607e2860c"
+      }
+    }
+  ]
+}

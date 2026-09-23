@@ -1,0 +1,49 @@
+{
+  "id": "finance.insurance.klia.disease.메트라이프생명.l7202460004nnn0247000202440001024400010003024400010003000202440001000300020004a0560",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L7202460004NNN0247000202440001024400010003024400010003000202440001000300020004A0560",
+  "group": "024400010003",
+  "title": "무배당 위십이지장및대장용종진단보험",
+  "provider": "메트라이프생명",
+  "cells": [
+    "메트라이프생명",
+    "무배당 위십이지장및대장용종진단보험",
+    "주계약",
+    "위, 십이지장 및 대장 양성신생물(폴립포함) 진단보험금 *지급사유 : 피보험자가 보험기간 중 “위, 십이지장 및 대장 양성신생물(폴립포함)”으로 진단확정 되었을 때 (연간 1회를 한도로 함)",
+    "100만원",
+    "7,650 원",
+    "5,410 원",
+    "2.50 %",
+    "-",
+    "-",
+    "121.3 %",
+    "131.9 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "기타",
+    "순수보장",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "CM",
+    "2024-04-01",
+    "Download",
+    "보기",
+    "1588-9600"
+  ],
+  "coverage": [
+    "위, 십이지장 및 대장 양성신생물(폴립포함) 진단보험금 *지급사유 : 피보험자가 보험기간 중 “위, 십이지장 및 대장 양성신생물(폴립포함)”으로 진단확정 되었을 때 (연간 1회를 한도로 함)"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=38861&seq=4"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010003&pageIndex=4&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010003&pageIndex=4&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:26.632543+00:00",
+    "http_status": 200,
+    "sha256": "31864b70108d2db6ac0feb77c31c163edc694123be69f6650e0e6903d2e5510a"
+  }
+}

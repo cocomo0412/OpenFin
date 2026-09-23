@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.abdf84e5e8a2278e231e32fb",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:2e217c2d77d8b5d7f4292b82",
+  "group": "5",
+  "provider": "KB손해보험",
+  "title": "연금저축미래골드보험（Ⅲ）",
+  "cells": [
+    "KB손해보험",
+    "연금저축미래골드보험（Ⅲ）",
+    "금리연동형",
+    "2001/05/07",
+    "중단",
+    "172",
+    "-7.07",
+    "-0.76",
+    "0.45",
+    "1.33",
+    "1.46",
+    "1.45",
+    "8.14"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=43",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=43",
+    "collected_at": "2026-09-23T08:31:17.220606+00:00",
+    "http_status": 200,
+    "sha256": "130edd6d4787782caad72e3bfd67e3f0ac5227b686720aca015aed0f042b542f"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB손해보험",
+        "상품명": "연금저축미래골드보험（Ⅲ）",
+        "상품유형": "금리연동형",
+        "최초판매일": "2001/05/07",
+        "판매여부": "중단",
+        "적립금총액": "172",
+        "1년 연평균수익률(%)": "-7.07",
+        "3년 연평균수익률(%)": "-0.76",
+        "5년 연평균수익률(%)": "0.45",
+        "7년 연평균수익률(%)": "1.33",
+        "10년 연평균수익률(%)": "1.46",
+        "누적연평균수익률(%)": "1.45",
+        "연평균수수료율(%)": "8.14"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=43",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=43",
+        "collected_at": "2026-09-23T08:31:17.220606+00:00",
+        "http_status": 200,
+        "sha256": "130edd6d4787782caad72e3bfd67e3f0ac5227b686720aca015aed0f042b542f"
+      }
+    }
+  ]
+}

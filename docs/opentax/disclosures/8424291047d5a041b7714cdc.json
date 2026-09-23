@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.8719d17f09e295a78dcb2ff9",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:8c9724e3e700f68e4f7caedc",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋펀드솔루션40증권전환형자투자신탁1호(채권혼합-재간접형)종류C-Pe",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋펀드솔루션40증권전환형자투자신탁1호(채권혼합-재간접형)종류C-Pe",
+    "재간접",
+    "5",
+    "2016/04/05",
+    "판매",
+    "1,512",
+    "27.19",
+    "13.91",
+    "6.67",
+    "7.41",
+    "6.20",
+    "6.05",
+    "0.661",
+    "디비증권주식회사, (주)우리투자증권, 키움증권(주), 한국투자증권, 미래에셋증권 주식회사, 미래에셋생명보험주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=166",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=166",
+    "collected_at": "2026-09-23T08:25:31.718889+00:00",
+    "http_status": 200,
+    "sha256": "118d1323a5aec9f8b6d1f8aa52ab66a3075a13306c535c59bcbdab500e31cb7a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋펀드솔루션40증권전환형자투자신탁1호(채권혼합-재간접형)종류C-Pe",
+        "상품유형": "재간접",
+        "위험등급": "5",
+        "설정일": "2016/04/05",
+        "판매여부": "판매",
+        "순자산총액": "1,512",
+        "1년 연평균수익률(%)": "27.19",
+        "3년 연평균수익률(%)": "13.91",
+        "5년 연평균수익률(%)": "6.67",
+        "7년 연평균수익률(%)": "7.41",
+        "10년 연평균수익률(%)": "6.20",
+        "누적연평균수익률(%)": "6.05",
+        "연평균수수료율(%)": "0.661",
+        "상품 판매사": "디비증권주식회사, (주)우리투자증권, 키움증권(주), 한국투자증권, 미래에셋증권 주식회사, 미래에셋생명보험주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=166",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=166",
+        "collected_at": "2026-09-23T08:25:31.718889+00:00",
+        "http_status": 200,
+        "sha256": "118d1323a5aec9f8b6d1f8aa52ab66a3075a13306c535c59bcbdab500e31cb7a"
+      }
+    }
+  ]
+}

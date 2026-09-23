@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.a3847b0b887830eb9c1a7a02",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:678217248c1a7e62e8cb3fce",
+  "group": "5",
+  "provider": "메리츠화재해상보험",
+  "title": "더블안심연금",
+  "cells": [
+    "메리츠화재해상보험",
+    "더블안심연금",
+    "금리연동형",
+    "2003/12/15",
+    "중단",
+    "32,794",
+    "-12.19",
+    "-2.95",
+    "-0.89",
+    "-0.07",
+    "0.73",
+    "0.98",
+    "9.616"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=14",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=14",
+    "collected_at": "2026-09-23T08:21:59.461093+00:00",
+    "http_status": 200,
+    "sha256": "50b459a17cf1aa675771e2fb2230b4f84d9104db9b61e944b20ed830508b14a8"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "메리츠화재해상보험",
+        "상품명": "더블안심연금",
+        "상품유형": "금리연동형",
+        "최초판매일": "2003/12/15",
+        "판매여부": "중단",
+        "적립금총액": "32,794",
+        "1년 연평균수익률(%)": "-12.19",
+        "3년 연평균수익률(%)": "-2.95",
+        "5년 연평균수익률(%)": "-0.89",
+        "7년 연평균수익률(%)": "-0.07",
+        "10년 연평균수익률(%)": "0.73",
+        "누적연평균수익률(%)": "0.98",
+        "연평균수수료율(%)": "9.616"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=14",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=14",
+        "collected_at": "2026-09-23T08:21:59.461093+00:00",
+        "http_status": 200,
+        "sha256": "50b459a17cf1aa675771e2fb2230b4f84d9104db9b61e944b20ed830508b14a8"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.5d255602a85b9643fdebca70",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:1:8d7f3cb74d890330d4f503aa",
+  "group": "1",
+  "provider": "우리은행",
+  "title": "연금신탁채권형",
+  "cells": [
+    "우리은행",
+    "연금신탁채권형",
+    "채권형",
+    "2001/02/05",
+    "중단",
+    "325,106",
+    "-0.01",
+    "2.65",
+    "2.04",
+    "1.74",
+    "1.60",
+    "2.87",
+    "5.854"
+  ],
+  "headers": [
+    "은행",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=1",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=1",
+    "collected_at": "2026-09-23T08:21:41.997535+00:00",
+    "http_status": 200,
+    "sha256": "30597bc3e64a8eea5a6a718739f41824360ed0991ca7185c8062f06be4347734"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "우리은행",
+        "상품명": "연금신탁채권형",
+        "상품유형": "채권형",
+        "최초판매일": "2001/02/05",
+        "판매여부": "중단",
+        "적립금총액": "325,106",
+        "1년 연평균수익률(%)": "-0.01",
+        "3년 연평균수익률(%)": "2.65",
+        "5년 연평균수익률(%)": "2.04",
+        "7년 연평균수익률(%)": "1.74",
+        "10년 연평균수익률(%)": "1.60",
+        "누적연평균수익률(%)": "2.87",
+        "연평균수수료율(%)": "5.854"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=1",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=1",
+        "collected_at": "2026-09-23T08:21:41.997535+00:00",
+        "http_status": 200,
+        "sha256": "30597bc3e64a8eea5a6a718739f41824360ed0991ca7185c8062f06be4347734"
+      }
+    }
+  ]
+}

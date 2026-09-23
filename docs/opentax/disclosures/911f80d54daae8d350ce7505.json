@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.1e752988bdc88c86fad74883",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:3958afe18d0372ff41e194fc",
+  "group": "4",
+  "provider": "흥국생명보험",
+  "title": "연금저축흥국생명뉴그린필드연금보험V",
+  "cells": [
+    "흥국생명보험",
+    "연금저축흥국생명뉴그린필드연금보험V",
+    "금리연동형",
+    "2018/01/01",
+    "중단",
+    "4,031",
+    "-4.71",
+    "-0.91",
+    "-0.17",
+    "0.19",
+    "-",
+    "-0.17",
+    "5.377"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=51",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=51",
+    "collected_at": "2026-09-23T08:31:44.370027+00:00",
+    "http_status": 200,
+    "sha256": "b06e7db5579e2d5453cc17d398c6775ad1d5939d3351b9deab46858c9981ad51"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "흥국생명보험",
+        "상품명": "연금저축흥국생명뉴그린필드연금보험V",
+        "상품유형": "금리연동형",
+        "최초판매일": "2018/01/01",
+        "판매여부": "중단",
+        "적립금총액": "4,031",
+        "1년 연평균수익률(%)": "-4.71",
+        "3년 연평균수익률(%)": "-0.91",
+        "5년 연평균수익률(%)": "-0.17",
+        "7년 연평균수익률(%)": "0.19",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-0.17",
+        "연평균수수료율(%)": "5.377"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=51",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=51",
+        "collected_at": "2026-09-23T08:31:44.370027+00:00",
+        "http_status": 200,
+        "sha256": "b06e7db5579e2d5453cc17d398c6775ad1d5939d3351b9deab46858c9981ad51"
+      }
+    }
+  ]
+}

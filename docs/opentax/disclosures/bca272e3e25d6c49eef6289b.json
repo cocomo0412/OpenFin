@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.1904aa14aead961c14b9d55c",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:e3caeae9c22eb6781a46ecd8",
+  "group": "3",
+  "provider": "교보악사자산운용",
+  "title": "교보악사개인용MMF1호ClassC-Pe",
+  "cells": [
+    "교보악사자산운용",
+    "교보악사개인용MMF1호ClassC-Pe",
+    "단기금융",
+    "6",
+    "2018/01/04",
+    "판매",
+    "1,206",
+    "2.49",
+    "3.09",
+    "2.77",
+    "2.27",
+    "-",
+    "2.15",
+    "0.176",
+    "(주)우리투자증권, 교보증권(주)"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=179",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=179",
+    "collected_at": "2026-09-23T08:25:49.355972+00:00",
+    "http_status": 200,
+    "sha256": "2b64cbda315fd6b3f24c92c82b85ca98b5483324ba50b78012228753f128f968"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "교보악사자산운용",
+        "상품명": "교보악사개인용MMF1호ClassC-Pe",
+        "상품유형": "단기금융",
+        "위험등급": "6",
+        "설정일": "2018/01/04",
+        "판매여부": "판매",
+        "순자산총액": "1,206",
+        "1년 연평균수익률(%)": "2.49",
+        "3년 연평균수익률(%)": "3.09",
+        "5년 연평균수익률(%)": "2.77",
+        "7년 연평균수익률(%)": "2.27",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "2.15",
+        "연평균수수료율(%)": "0.176",
+        "상품 판매사": "(주)우리투자증권, 교보증권(주)"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=179",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=179",
+        "collected_at": "2026-09-23T08:25:49.355972+00:00",
+        "http_status": 200,
+        "sha256": "2b64cbda315fd6b3f24c92c82b85ca98b5483324ba50b78012228753f128f968"
+      }
+    }
+  ]
+}

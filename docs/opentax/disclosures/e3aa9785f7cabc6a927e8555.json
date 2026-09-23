@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.eb9aac7a23b2df53e770839f",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:32ea4125595c6638cfcd18f7",
+  "group": "3",
+  "provider": "흥국자산운용",
+  "title": "흥국디딤연금플러스증권자투자신탁[혼합-재간접형]S-p",
+  "cells": [
+    "흥국자산운용",
+    "흥국디딤연금플러스증권자투자신탁[혼합-재간접형]S-p",
+    "재간접",
+    "3",
+    "2024/09/25",
+    "판매",
+    "261",
+    "20.35",
+    "-",
+    "-",
+    "-",
+    "-",
+    "14.53",
+    "0.465",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=266",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=266",
+    "collected_at": "2026-09-23T08:27:46.922727+00:00",
+    "http_status": 200,
+    "sha256": "272e92da4b65fc0ca66764ad73a0973de522d21cffb251144ba74f9628775e89"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "흥국자산운용",
+        "상품명": "흥국디딤연금플러스증권자투자신탁[혼합-재간접형]S-p",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2024/09/25",
+        "판매여부": "판매",
+        "순자산총액": "261",
+        "1년 연평균수익률(%)": "20.35",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "14.53",
+        "연평균수수료율(%)": "0.465",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=266",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=266",
+        "collected_at": "2026-09-23T08:27:46.922727+00:00",
+        "http_status": 200,
+        "sha256": "272e92da4b65fc0ca66764ad73a0973de522d21cffb251144ba74f9628775e89"
+      }
+    }
+  ]
+}

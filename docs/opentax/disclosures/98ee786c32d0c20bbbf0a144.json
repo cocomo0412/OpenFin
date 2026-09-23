@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.aebcec6db1879d1785ce1c12",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:9d83c7b2ae6fa1ffe3de1de3",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋글로벌그레이트컨슈머연금증권전환형자투자신탁1호(주식)종류C-e",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋글로벌그레이트컨슈머연금증권전환형자투자신탁1호(주식)종류C-e",
+    "주식형",
+    "2",
+    "2014/08/06",
+    "판매",
+    "22,644",
+    "3.94",
+    "13.25",
+    "1.16",
+    "6.52",
+    "7.97",
+    "6.95",
+    "1.173",
+    "디비증권주식회사, 한화투자증권주식회사, (주)우리투자증권, 키움증권(주), 광주은행, 유안타증권주식회사, 한국투자증권, 삼성증권, 교보증권(주), KB증권, 대신증권주식회사, LS증권, 아이엠증권, 신한은행, KB국민은행, 신영증권주식회사, 미래에셋증권 주식회사, IBK투자증권, NH투자증권, 신한투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=45",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=45",
+    "collected_at": "2026-09-23T08:22:47.699544+00:00",
+    "http_status": 200,
+    "sha256": "aba7b758e3cbb1b11cfa910a5425210a1f6f9dd132ed863a5cc477adb515e856"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋글로벌그레이트컨슈머연금증권전환형자투자신탁1호(주식)종류C-e",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2014/08/06",
+        "판매여부": "판매",
+        "순자산총액": "22,644",
+        "1년 연평균수익률(%)": "3.94",
+        "3년 연평균수익률(%)": "13.25",
+        "5년 연평균수익률(%)": "1.16",
+        "7년 연평균수익률(%)": "6.52",
+        "10년 연평균수익률(%)": "7.97",
+        "누적연평균수익률(%)": "6.95",
+        "연평균수수료율(%)": "1.173",
+        "상품 판매사": "디비증권주식회사, 한화투자증권주식회사, (주)우리투자증권, 키움증권(주), 광주은행, 유안타증권주식회사, 한국투자증권, 삼성증권, 교보증권(주), KB증권, 대신증권주식회사, LS증권, 아이엠증권, 신한은행, KB국민은행, 신영증권주식회사, 미래에셋증권 주식회사, IBK투자증권, NH투자증권, 신한투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=45",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=45",
+        "collected_at": "2026-09-23T08:22:47.699544+00:00",
+        "http_status": 200,
+        "sha256": "aba7b758e3cbb1b11cfa910a5425210a1f6f9dd132ed863a5cc477adb515e856"
+      }
+    }
+  ]
+}

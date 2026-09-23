@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.41309068cea5cdf8ce2f9960",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:da8bbc86674986aa6da5985d",
+  "group": "3",
+  "provider": "IBK자산운용",
+  "title": "IBK 골드마이닝 증권 자투자신탁 1호[주식] 종류 C-P",
+  "cells": [
+    "IBK자산운용",
+    "IBK 골드마이닝 증권 자투자신탁 1호[주식] 종류 C-P",
+    "주식형",
+    "1",
+    "2016/10/12",
+    "판매",
+    "588",
+    "46.61",
+    "35.28",
+    "20.34",
+    "16.96",
+    "-",
+    "13.51",
+    "1.992",
+    "유진투자증권주식회사, 한화투자증권주식회사, 광주은행, 한국투자증권, KB증권, 아이엠증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=221",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=221",
+    "collected_at": "2026-09-23T08:26:45.869869+00:00",
+    "http_status": 200,
+    "sha256": "f0836f5287bb938b0cc99496508092186efbe89ed465f4200ed81771107025f7"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "IBK자산운용",
+        "상품명": "IBK 골드마이닝 증권 자투자신탁 1호[주식] 종류 C-P",
+        "상품유형": "주식형",
+        "위험등급": "1",
+        "설정일": "2016/10/12",
+        "판매여부": "판매",
+        "순자산총액": "588",
+        "1년 연평균수익률(%)": "46.61",
+        "3년 연평균수익률(%)": "35.28",
+        "5년 연평균수익률(%)": "20.34",
+        "7년 연평균수익률(%)": "16.96",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "13.51",
+        "연평균수수료율(%)": "1.992",
+        "상품 판매사": "유진투자증권주식회사, 한화투자증권주식회사, 광주은행, 한국투자증권, KB증권, 아이엠증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=221",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=221",
+        "collected_at": "2026-09-23T08:26:45.869869+00:00",
+        "http_status": 200,
+        "sha256": "f0836f5287bb938b0cc99496508092186efbe89ed465f4200ed81771107025f7"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.7e88df06e69aae6bbb69853d",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:56efe7d27a304579e5775100",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성글로벌선진국증권자투자신탁H[주식]_S-P",
+  "cells": [
+    "삼성자산운용",
+    "삼성글로벌선진국증권자투자신탁H[주식]_S-P",
+    "주식형",
+    "3",
+    "2017/08/22",
+    "판매",
+    "382",
+    "21.66",
+    "16.10",
+    "9.85",
+    "11.41",
+    "-",
+    "10.28",
+    "0.842",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=247",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=247",
+    "collected_at": "2026-09-23T08:27:21.223359+00:00",
+    "http_status": 200,
+    "sha256": "317a0f7b77f1cfe6c959c5f6b98125fbd3bf531e31b6d233d18c4e033a3e37d9"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성글로벌선진국증권자투자신탁H[주식]_S-P",
+        "상품유형": "주식형",
+        "위험등급": "3",
+        "설정일": "2017/08/22",
+        "판매여부": "판매",
+        "순자산총액": "382",
+        "1년 연평균수익률(%)": "21.66",
+        "3년 연평균수익률(%)": "16.10",
+        "5년 연평균수익률(%)": "9.85",
+        "7년 연평균수익률(%)": "11.41",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "10.28",
+        "연평균수수료율(%)": "0.842",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=247",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=247",
+        "collected_at": "2026-09-23T08:27:21.223359+00:00",
+        "http_status": 200,
+        "sha256": "317a0f7b77f1cfe6c959c5f6b98125fbd3bf531e31b6d233d18c4e033a3e37d9"
+      }
+    }
+  ]
+}

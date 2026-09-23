@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.9e5a8be514122d4b20b60d64",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:6093a6f48eddff4f2d3cbe66",
+  "group": "3",
+  "provider": "한국투자밸류자산운용",
+  "title": "한국밸류 VITA MZ소비액티브증권상장지수투자신탁(주식)",
+  "cells": [
+    "한국투자밸류자산운용",
+    "한국밸류 VITA MZ소비액티브증권상장지수투자신탁(주식)",
+    "주식형",
+    "2",
+    "2022/03/28",
+    "중단",
+    "0",
+    "-15.20",
+    "5.20",
+    "-",
+    "-",
+    "-",
+    "-1.47",
+    "0.686",
+    "SK증권주식회사, 삼성증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=318",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=318",
+    "collected_at": "2026-09-23T08:28:59.655880+00:00",
+    "http_status": 200,
+    "sha256": "556e8b37f91a8f51c6f7774851f0b91bd323e6ec978e6f2281987fa0393bfe7a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자밸류자산운용",
+        "상품명": "한국밸류 VITA MZ소비액티브증권상장지수투자신탁(주식)",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2022/03/28",
+        "판매여부": "중단",
+        "순자산총액": "0",
+        "1년 연평균수익률(%)": "-15.20",
+        "3년 연평균수익률(%)": "5.20",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-1.47",
+        "연평균수수료율(%)": "0.686",
+        "상품 판매사": "SK증권주식회사, 삼성증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=318",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=318",
+        "collected_at": "2026-09-23T08:28:59.655880+00:00",
+        "http_status": 200,
+        "sha256": "556e8b37f91a8f51c6f7774851f0b91bd323e6ec978e6f2281987fa0393bfe7a"
+      }
+    }
+  ]
+}

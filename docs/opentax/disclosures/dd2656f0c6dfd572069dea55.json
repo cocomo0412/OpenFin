@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.6c2534a46c3070212a77fd39",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:bb9edaf1cbd9fc26057967bf",
+  "group": "5",
+  "provider": "현대해상화재보험",
+  "title": "연금저축손해보험 노후사랑보험(Hi1601)",
+  "cells": [
+    "현대해상화재보험",
+    "연금저축손해보험 노후사랑보험(Hi1601)",
+    "금리연동형",
+    "2016/01/04",
+    "중단",
+    "10,236",
+    "-7.38",
+    "-1.83",
+    "-0.75",
+    "-0.28",
+    "0.16",
+    "0.21",
+    "8.451"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=26",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=26",
+    "collected_at": "2026-09-23T08:22:11.953963+00:00",
+    "http_status": 200,
+    "sha256": "af754fc7507ed86e41b6d622ee3959d5ae45a51383e5daf04f70f930cc45ff92"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "현대해상화재보험",
+        "상품명": "연금저축손해보험 노후사랑보험(Hi1601)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2016/01/04",
+        "판매여부": "중단",
+        "적립금총액": "10,236",
+        "1년 연평균수익률(%)": "-7.38",
+        "3년 연평균수익률(%)": "-1.83",
+        "5년 연평균수익률(%)": "-0.75",
+        "7년 연평균수익률(%)": "-0.28",
+        "10년 연평균수익률(%)": "0.16",
+        "누적연평균수익률(%)": "0.21",
+        "연평균수수료율(%)": "8.451"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=26",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=26",
+        "collected_at": "2026-09-23T08:22:11.953963+00:00",
+        "http_status": 200,
+        "sha256": "af754fc7507ed86e41b6d622ee3959d5ae45a51383e5daf04f70f930cc45ff92"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.3a82c6a7778821ecfb9fd945",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:1cdbe19ec5d149bcb245162c",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 연금 재팬 인덱스 증권 자투자신탁(주식-파생형)C 클래스",
+  "cells": [
+    "KB자산운용",
+    "KB 연금 재팬 인덱스 증권 자투자신탁(주식-파생형)C 클래스",
+    "파생상품",
+    "2",
+    "2014/06/12",
+    "판매",
+    "4,237",
+    "73.19",
+    "29.71",
+    "20.67",
+    "19.43",
+    "17.02",
+    "14.15",
+    "1.205",
+    "NH농협은행, 한국투자증권, 삼성증권, KB증권, 아이엠증권, KB국민은행, NH투자증권, 하나은행, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=112",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=112",
+    "collected_at": "2026-09-23T08:24:18.925310+00:00",
+    "http_status": 200,
+    "sha256": "4ee6521d226d53ea9b647eda6d4c9956baa620528949caa3f011d5105a54582a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 연금 재팬 인덱스 증권 자투자신탁(주식-파생형)C 클래스",
+        "상품유형": "파생상품",
+        "위험등급": "2",
+        "설정일": "2014/06/12",
+        "판매여부": "판매",
+        "순자산총액": "4,237",
+        "1년 연평균수익률(%)": "73.19",
+        "3년 연평균수익률(%)": "29.71",
+        "5년 연평균수익률(%)": "20.67",
+        "7년 연평균수익률(%)": "19.43",
+        "10년 연평균수익률(%)": "17.02",
+        "누적연평균수익률(%)": "14.15",
+        "연평균수수료율(%)": "1.205",
+        "상품 판매사": "NH농협은행, 한국투자증권, 삼성증권, KB증권, 아이엠증권, KB국민은행, NH투자증권, 하나은행, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=112",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=112",
+        "collected_at": "2026-09-23T08:24:18.925310+00:00",
+        "http_status": 200,
+        "sha256": "4ee6521d226d53ea9b647eda6d4c9956baa620528949caa3f011d5105a54582a"
+      }
+    }
+  ]
+}

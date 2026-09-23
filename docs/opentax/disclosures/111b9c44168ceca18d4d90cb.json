@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.fddffc3a1f55a2ee4a648412",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:fc9ae18a407dfede392941ab",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성KODEX 미국종합채권ESG액티브증권상장지수투자신탁[채권](H)",
+  "cells": [
+    "삼성자산운용",
+    "삼성KODEX 미국종합채권ESG액티브증권상장지수투자신탁[채권](H)",
+    "채권형",
+    "5",
+    "2022/08/03",
+    "판매",
+    "2,389",
+    "2.50",
+    "3.16",
+    "-",
+    "-",
+    "-",
+    "1.46",
+    "0.234",
+    "디비증권주식회사, 한화투자증권주식회사, 하나증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, KB증권, 대신증권주식회사, 신영증권주식회사, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=140",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=140",
+    "collected_at": "2026-09-23T08:24:56.988911+00:00",
+    "http_status": 200,
+    "sha256": "817811ddb654f684194eb35b2dcf65d5b6caeb76eacdce1a8e48b940de189af8"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성KODEX 미국종합채권ESG액티브증권상장지수투자신탁[채권](H)",
+        "상품유형": "채권형",
+        "위험등급": "5",
+        "설정일": "2022/08/03",
+        "판매여부": "판매",
+        "순자산총액": "2,389",
+        "1년 연평균수익률(%)": "2.50",
+        "3년 연평균수익률(%)": "3.16",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "1.46",
+        "연평균수수료율(%)": "0.234",
+        "상품 판매사": "디비증권주식회사, 한화투자증권주식회사, 하나증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, KB증권, 대신증권주식회사, 신영증권주식회사, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=140",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=140",
+        "collected_at": "2026-09-23T08:24:56.988911+00:00",
+        "http_status": 200,
+        "sha256": "817811ddb654f684194eb35b2dcf65d5b6caeb76eacdce1a8e48b940de189af8"
+      }
+    }
+  ]
+}

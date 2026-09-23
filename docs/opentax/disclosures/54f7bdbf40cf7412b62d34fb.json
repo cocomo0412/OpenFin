@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.ab6ae39bbc25f0ffbda19186",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:adc774989def476302b6e705",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자골드플랜글로벌이머징연금증권전환형자투자신탁1호(주식)(S-P)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자골드플랜글로벌이머징연금증권전환형자투자신탁1호(주식)(S-P)",
+    "주식형",
+    "3",
+    "2014/04/23",
+    "판매",
+    "6",
+    "48.91",
+    "22.75",
+    "7.97",
+    "9.80",
+    "9.28",
+    "7.10",
+    "0.951",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=314",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=314",
+    "collected_at": "2026-09-23T08:28:52.182573+00:00",
+    "http_status": 200,
+    "sha256": "f1e7f9624ae92e31d89c43bfa9f7e66e96d117a822f4dd493ce2208e1d78be98"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자골드플랜글로벌이머징연금증권전환형자투자신탁1호(주식)(S-P)",
+        "상품유형": "주식형",
+        "위험등급": "3",
+        "설정일": "2014/04/23",
+        "판매여부": "판매",
+        "순자산총액": "6",
+        "1년 연평균수익률(%)": "48.91",
+        "3년 연평균수익률(%)": "22.75",
+        "5년 연평균수익률(%)": "7.97",
+        "7년 연평균수익률(%)": "9.80",
+        "10년 연평균수익률(%)": "9.28",
+        "누적연평균수익률(%)": "7.10",
+        "연평균수수료율(%)": "0.951",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=314",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=314",
+        "collected_at": "2026-09-23T08:28:52.182573+00:00",
+        "http_status": 200,
+        "sha256": "f1e7f9624ae92e31d89c43bfa9f7e66e96d117a822f4dd493ce2208e1d78be98"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.f0b3797830a0645c957a5215",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:9afec0cc4b968c97a40d6091",
+  "group": "3",
+  "provider": "한화자산운용",
+  "title": "한화그린히어로증권 자투자신탁(주식) C-P(연금저축)",
+  "cells": [
+    "한화자산운용",
+    "한화그린히어로증권 자투자신탁(주식) C-P(연금저축)",
+    "주식형",
+    "1",
+    "2020/10/22",
+    "판매",
+    "3,292",
+    "164.12",
+    "49.30",
+    "27.85",
+    "-",
+    "-",
+    "30.59",
+    "1.143",
+    "한화투자증권주식회사, NH농협은행, 한국투자증권, KB증권, 아이엠증권, 하나은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=124",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=124",
+    "collected_at": "2026-09-23T08:24:35.828473+00:00",
+    "http_status": 200,
+    "sha256": "733a909475947491ecf59120502a02a14c502ae605d95e167d9c29c9e720b11e"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한화자산운용",
+        "상품명": "한화그린히어로증권 자투자신탁(주식) C-P(연금저축)",
+        "상품유형": "주식형",
+        "위험등급": "1",
+        "설정일": "2020/10/22",
+        "판매여부": "판매",
+        "순자산총액": "3,292",
+        "1년 연평균수익률(%)": "164.12",
+        "3년 연평균수익률(%)": "49.30",
+        "5년 연평균수익률(%)": "27.85",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "30.59",
+        "연평균수수료율(%)": "1.143",
+        "상품 판매사": "한화투자증권주식회사, NH농협은행, 한국투자증권, KB증권, 아이엠증권, 하나은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=124",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=124",
+        "collected_at": "2026-09-23T08:24:35.828473+00:00",
+        "http_status": 200,
+        "sha256": "733a909475947491ecf59120502a02a14c502ae605d95e167d9c29c9e720b11e"
+      }
+    }
+  ]
+}

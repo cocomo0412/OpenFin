@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.394fc5607748b77fc58e107d",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:f1e3a07218c92b92cf7e3e37",
+  "group": "4",
+  "provider": "한화생명보험",
+  "title": "연금저축하이드림연금보험",
+  "cells": [
+    "한화생명보험",
+    "연금저축하이드림연금보험",
+    "금리연동형",
+    "2013/04/01",
+    "중단",
+    "34,526",
+    "-4.92",
+    "-0.71",
+    "0.02",
+    "0.35",
+    "0.62",
+    "0.87",
+    "5.794"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=21",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=21",
+    "collected_at": "2026-09-23T08:30:38.492008+00:00",
+    "http_status": 200,
+    "sha256": "37f755b6c6a54e69d9119e4d5f3ff32008671349ded9e48c8ef7f377c4cef230"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한화생명보험",
+        "상품명": "연금저축하이드림연금보험",
+        "상품유형": "금리연동형",
+        "최초판매일": "2013/04/01",
+        "판매여부": "중단",
+        "적립금총액": "34,526",
+        "1년 연평균수익률(%)": "-4.92",
+        "3년 연평균수익률(%)": "-0.71",
+        "5년 연평균수익률(%)": "0.02",
+        "7년 연평균수익률(%)": "0.35",
+        "10년 연평균수익률(%)": "0.62",
+        "누적연평균수익률(%)": "0.87",
+        "연평균수수료율(%)": "5.794"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=21",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=21",
+        "collected_at": "2026-09-23T08:30:38.492008+00:00",
+        "http_status": 200,
+        "sha256": "37f755b6c6a54e69d9119e4d5f3ff32008671349ded9e48c8ef7f377c4cef230"
+      }
+    }
+  ]
+}

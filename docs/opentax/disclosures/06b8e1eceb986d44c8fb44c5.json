@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.a0709bd041781b3e1c706ecb",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:37b36dd70ce572dda27ca7bb",
+  "group": "5",
+  "provider": "삼성화재해상보험",
+  "title": "연금저축손해보험 신소득공제단체(0711.1)",
+  "cells": [
+    "삼성화재해상보험",
+    "연금저축손해보험 신소득공제단체(0711.1)",
+    "금리연동형",
+    "2007/11/19",
+    "중단",
+    "129,479",
+    "-1.97",
+    "1.03",
+    "1.61",
+    "1.6",
+    "1.37",
+    "1.17",
+    "4.221"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=5",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=5",
+    "collected_at": "2026-09-23T08:21:50.126028+00:00",
+    "http_status": 200,
+    "sha256": "ed1c38c31b021e6c2eedef635271a39d6ab16b6a54f322ff023f7b0a2b095835"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성화재해상보험",
+        "상품명": "연금저축손해보험 신소득공제단체(0711.1)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2007/11/19",
+        "판매여부": "중단",
+        "적립금총액": "129,479",
+        "1년 연평균수익률(%)": "-1.97",
+        "3년 연평균수익률(%)": "1.03",
+        "5년 연평균수익률(%)": "1.61",
+        "7년 연평균수익률(%)": "1.6",
+        "10년 연평균수익률(%)": "1.37",
+        "누적연평균수익률(%)": "1.17",
+        "연평균수수료율(%)": "4.221"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=5",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=5",
+        "collected_at": "2026-09-23T08:21:50.126028+00:00",
+        "http_status": 200,
+        "sha256": "ed1c38c31b021e6c2eedef635271a39d6ab16b6a54f322ff023f7b0a2b095835"
+      }
+    }
+  ]
+}

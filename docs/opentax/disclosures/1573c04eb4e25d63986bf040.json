@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.20f267cfca573697f8f4af6c",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:13f09eda7b9571a44f4b34b7",
+  "group": "3",
+  "provider": "신영자산운용",
+  "title": "신영마라톤아시아밸류증권투자신탁(주식) C-Pe형",
+  "cells": [
+    "신영자산운용",
+    "신영마라톤아시아밸류증권투자신탁(주식) C-Pe형",
+    "주식형",
+    "3",
+    "2018/01/15",
+    "판매",
+    "395",
+    "63.16",
+    "32.33",
+    "13.86",
+    "14.87",
+    "-",
+    "11.41",
+    "1.264",
+    "한국투자증권, 삼성증권, 교보증권(주), 신영증권주식회사, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=246",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=246",
+    "collected_at": "2026-09-23T08:27:20.003490+00:00",
+    "http_status": 200,
+    "sha256": "f7322a4b5c2f309bc1da5a24fc075f039e256458546d9cdbbe69834545f4462f"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신영자산운용",
+        "상품명": "신영마라톤아시아밸류증권투자신탁(주식) C-Pe형",
+        "상품유형": "주식형",
+        "위험등급": "3",
+        "설정일": "2018/01/15",
+        "판매여부": "판매",
+        "순자산총액": "395",
+        "1년 연평균수익률(%)": "63.16",
+        "3년 연평균수익률(%)": "32.33",
+        "5년 연평균수익률(%)": "13.86",
+        "7년 연평균수익률(%)": "14.87",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "11.41",
+        "연평균수수료율(%)": "1.264",
+        "상품 판매사": "한국투자증권, 삼성증권, 교보증권(주), 신영증권주식회사, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=246",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=246",
+        "collected_at": "2026-09-23T08:27:20.003490+00:00",
+        "http_status": 200,
+        "sha256": "f7322a4b5c2f309bc1da5a24fc075f039e256458546d9cdbbe69834545f4462f"
+      }
+    }
+  ]
+}

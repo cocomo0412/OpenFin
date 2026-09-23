@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.54ea713c913daf1c06150990",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:2b1da1f1d533e09a625493f7",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자연금저축마이스터증권자투자신탁(주식)(C)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자연금저축마이스터증권자투자신탁(주식)(C)",
+    "주식형",
+    "2",
+    "2013/04/19",
+    "판매",
+    "223",
+    "165.93",
+    "49.58",
+    "21.59",
+    "22.91",
+    "15.79",
+    "11.97",
+    "1.409",
+    "한국투자증권, KB증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=275",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=275",
+    "collected_at": "2026-09-23T08:27:58.814214+00:00",
+    "http_status": 200,
+    "sha256": "e81062e3bb919d8d58286ad6b116f0f6f7fbac839dfa142888681139232c5503"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자연금저축마이스터증권자투자신탁(주식)(C)",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2013/04/19",
+        "판매여부": "판매",
+        "순자산총액": "223",
+        "1년 연평균수익률(%)": "165.93",
+        "3년 연평균수익률(%)": "49.58",
+        "5년 연평균수익률(%)": "21.59",
+        "7년 연평균수익률(%)": "22.91",
+        "10년 연평균수익률(%)": "15.79",
+        "누적연평균수익률(%)": "11.97",
+        "연평균수수료율(%)": "1.409",
+        "상품 판매사": "한국투자증권, KB증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=275",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=275",
+        "collected_at": "2026-09-23T08:27:58.814214+00:00",
+        "http_status": 200,
+        "sha256": "e81062e3bb919d8d58286ad6b116f0f6f7fbac839dfa142888681139232c5503"
+      }
+    }
+  ]
+}

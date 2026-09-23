@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.08a65fa7c04926040e90059d",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:f501f648d6f4bf5e79eb678b",
+  "group": "3",
+  "provider": "HDC자산운용",
+  "title": "HDC날아라공모주알파증권투자신탁(채권혼합)종류C-P2e",
+  "cells": [
+    "HDC자산운용",
+    "HDC날아라공모주알파증권투자신탁(채권혼합)종류C-P2e",
+    "혼합채권형",
+    "5",
+    "2021/11/05",
+    "판매",
+    "1,337",
+    "3.67",
+    "6.44",
+    "-",
+    "-",
+    "-",
+    "5.85",
+    "0.581",
+    "키움증권(주), 광주은행, NH농협은행, 한국투자증권, KB증권, 아이엠증권, NH투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=171",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=171",
+    "collected_at": "2026-09-23T08:25:38.325484+00:00",
+    "http_status": 200,
+    "sha256": "3decd6c8424e8871fb68d00064de439a775ea59e8722fd2697b52b3d92dc54fc"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "HDC자산운용",
+        "상품명": "HDC날아라공모주알파증권투자신탁(채권혼합)종류C-P2e",
+        "상품유형": "혼합채권형",
+        "위험등급": "5",
+        "설정일": "2021/11/05",
+        "판매여부": "판매",
+        "순자산총액": "1,337",
+        "1년 연평균수익률(%)": "3.67",
+        "3년 연평균수익률(%)": "6.44",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "5.85",
+        "연평균수수료율(%)": "0.581",
+        "상품 판매사": "키움증권(주), 광주은행, NH농협은행, 한국투자증권, KB증권, 아이엠증권, NH투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=171",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=171",
+        "collected_at": "2026-09-23T08:25:38.325484+00:00",
+        "http_status": 200,
+        "sha256": "3decd6c8424e8871fb68d00064de439a775ea59e8722fd2697b52b3d92dc54fc"
+      }
+    }
+  ]
+}

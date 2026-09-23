@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.4820f64e26836a1b6184da03",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:566c41ae734a34abee30b9f5",
+  "group": "3",
+  "provider": "마이다스에셋자산운용",
+  "title": "마이다스글로벌리더스성장주증권자투자신탁(UH)C-Pe1",
+  "cells": [
+    "마이다스에셋자산운용",
+    "마이다스글로벌리더스성장주증권자투자신탁(UH)C-Pe1",
+    "주식형",
+    "2",
+    "2021/09/27",
+    "판매",
+    "1,674",
+    "63.76",
+    "40.76",
+    "-",
+    "-",
+    "-",
+    "19.52",
+    "1.310",
+    "키움증권(주), 유안타증권주식회사, KB증권, 하나은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=160",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=160",
+    "collected_at": "2026-09-23T08:25:23.775470+00:00",
+    "http_status": 200,
+    "sha256": "d58d0c4ed4a7ec142608b79f336781091431463e6a256ea96e18a2de2900158e"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "마이다스에셋자산운용",
+        "상품명": "마이다스글로벌리더스성장주증권자투자신탁(UH)C-Pe1",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2021/09/27",
+        "판매여부": "판매",
+        "순자산총액": "1,674",
+        "1년 연평균수익률(%)": "63.76",
+        "3년 연평균수익률(%)": "40.76",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "19.52",
+        "연평균수수료율(%)": "1.310",
+        "상품 판매사": "키움증권(주), 유안타증권주식회사, KB증권, 하나은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=160",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=160",
+        "collected_at": "2026-09-23T08:25:23.775470+00:00",
+        "http_status": 200,
+        "sha256": "d58d0c4ed4a7ec142608b79f336781091431463e6a256ea96e18a2de2900158e"
+      }
+    }
+  ]
+}

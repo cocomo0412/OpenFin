@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.5258408cd318ad5be17fa40e",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:d35276d8c02eae47e94ad81b",
+  "group": "4",
+  "provider": "삼성생명보험",
+  "title": "인터넷연금저축보험2.2無",
+  "cells": [
+    "삼성생명보험",
+    "인터넷연금저축보험2.2無",
+    "금리연동형",
+    "2021/01/01",
+    "중단",
+    "24,077",
+    "-3.80",
+    "-0.39",
+    "0.27",
+    "-",
+    "-",
+    "0.36",
+    "4.800"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=25",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=25",
+    "collected_at": "2026-09-23T08:30:50.952879+00:00",
+    "http_status": 200,
+    "sha256": "ccc9a25243fcbb8f4c6fddb3ad38313326e2338743e98df03c9d93f2fb28e933"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성생명보험",
+        "상품명": "인터넷연금저축보험2.2無",
+        "상품유형": "금리연동형",
+        "최초판매일": "2021/01/01",
+        "판매여부": "중단",
+        "적립금총액": "24,077",
+        "1년 연평균수익률(%)": "-3.80",
+        "3년 연평균수익률(%)": "-0.39",
+        "5년 연평균수익률(%)": "0.27",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "0.36",
+        "연평균수수료율(%)": "4.800"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=25",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=25",
+        "collected_at": "2026-09-23T08:30:50.952879+00:00",
+        "http_status": 200,
+        "sha256": "ccc9a25243fcbb8f4c6fddb3ad38313326e2338743e98df03c9d93f2fb28e933"
+      }
+    }
+  ]
+}

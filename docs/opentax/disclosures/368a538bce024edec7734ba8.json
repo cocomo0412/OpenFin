@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.416498908ef617e655e55530",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:f7ea90660191edb6597b6ea1",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자연금저축주주환원고배당증권자투자신탁(주식)(C-e)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자연금저축주주환원고배당증권자투자신탁(주식)(C-e)",
+    "주식형",
+    "3",
+    "2016/01/18",
+    "판매",
+    "327",
+    "4.73",
+    "15.93",
+    "5.49",
+    "9.98",
+    "7.23",
+    "6.96",
+    "1.004",
+    "키움증권(주), 한국투자증권, KB증권, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=255",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=255",
+    "collected_at": "2026-09-23T08:27:32.519030+00:00",
+    "http_status": 200,
+    "sha256": "4ee50c1a29cdca868fbeac4602e357dc4ad15cdd7a1bd9d59452762f2f7cfdff"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자연금저축주주환원고배당증권자투자신탁(주식)(C-e)",
+        "상품유형": "주식형",
+        "위험등급": "3",
+        "설정일": "2016/01/18",
+        "판매여부": "판매",
+        "순자산총액": "327",
+        "1년 연평균수익률(%)": "4.73",
+        "3년 연평균수익률(%)": "15.93",
+        "5년 연평균수익률(%)": "5.49",
+        "7년 연평균수익률(%)": "9.98",
+        "10년 연평균수익률(%)": "7.23",
+        "누적연평균수익률(%)": "6.96",
+        "연평균수수료율(%)": "1.004",
+        "상품 판매사": "키움증권(주), 한국투자증권, KB증권, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=255",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=255",
+        "collected_at": "2026-09-23T08:27:32.519030+00:00",
+        "http_status": 200,
+        "sha256": "4ee50c1a29cdca868fbeac4602e357dc4ad15cdd7a1bd9d59452762f2f7cfdff"
+      }
+    }
+  ]
+}

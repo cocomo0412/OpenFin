@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.6aecca0fd3cb8a02bd37f2a5",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:dba6f4450f34e2557cf6e4e7",
+  "group": "3",
+  "provider": "BNK자산운용",
+  "title": "BNK공모주플러스10증권투자신탁1호(채권혼합) Class C-P",
+  "cells": [
+    "BNK자산운용",
+    "BNK공모주플러스10증권투자신탁1호(채권혼합) Class C-P",
+    "혼합채권형",
+    "5",
+    "2016/04/12",
+    "판매",
+    "420",
+    "3.92",
+    "4.35",
+    "2.51",
+    "2.67",
+    "2.59",
+    "2.59",
+    "0.910",
+    "한화투자증권주식회사, 한국투자증권, KB증권, 미래에셋증권 주식회사, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=243",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=243",
+    "collected_at": "2026-09-23T08:27:15.935720+00:00",
+    "http_status": 200,
+    "sha256": "5934ebf656cd481fc6829b0b3646e69282f0882a6b06969a281600c4c75490d6"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "BNK자산운용",
+        "상품명": "BNK공모주플러스10증권투자신탁1호(채권혼합) Class C-P",
+        "상품유형": "혼합채권형",
+        "위험등급": "5",
+        "설정일": "2016/04/12",
+        "판매여부": "판매",
+        "순자산총액": "420",
+        "1년 연평균수익률(%)": "3.92",
+        "3년 연평균수익률(%)": "4.35",
+        "5년 연평균수익률(%)": "2.51",
+        "7년 연평균수익률(%)": "2.67",
+        "10년 연평균수익률(%)": "2.59",
+        "누적연평균수익률(%)": "2.59",
+        "연평균수수료율(%)": "0.910",
+        "상품 판매사": "한화투자증권주식회사, 한국투자증권, KB증권, 미래에셋증권 주식회사, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=243",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=243",
+        "collected_at": "2026-09-23T08:27:15.935720+00:00",
+        "http_status": 200,
+        "sha256": "5934ebf656cd481fc6829b0b3646e69282f0882a6b06969a281600c4c75490d6"
+      }
+    }
+  ]
+}

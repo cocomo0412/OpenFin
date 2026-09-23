@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.5a33dfc1ea29c0c756fe690a",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:405af02e6fc4d4e79f84ba12",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 연금 이머징 인덱스 증권 자투자신탁(주식-파생형) C-E",
+  "cells": [
+    "KB자산운용",
+    "KB 연금 이머징 인덱스 증권 자투자신탁(주식-파생형) C-E",
+    "파생상품",
+    "2",
+    "2017/08/23",
+    "판매",
+    "135",
+    "36.83",
+    "17.03",
+    "2.60",
+    "5.48",
+    "-",
+    "3.97",
+    "0.805",
+    "한화투자증권주식회사, KB국민은행, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=291",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=291",
+    "collected_at": "2026-09-23T08:28:19.985975+00:00",
+    "http_status": 200,
+    "sha256": "9e339ac105911d00d0f8abad732dcfca1796ca54774bd11709a92c9e1b6df35a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 연금 이머징 인덱스 증권 자투자신탁(주식-파생형) C-E",
+        "상품유형": "파생상품",
+        "위험등급": "2",
+        "설정일": "2017/08/23",
+        "판매여부": "판매",
+        "순자산총액": "135",
+        "1년 연평균수익률(%)": "36.83",
+        "3년 연평균수익률(%)": "17.03",
+        "5년 연평균수익률(%)": "2.60",
+        "7년 연평균수익률(%)": "5.48",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "3.97",
+        "연평균수수료율(%)": "0.805",
+        "상품 판매사": "한화투자증권주식회사, KB국민은행, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=291",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=291",
+        "collected_at": "2026-09-23T08:28:19.985975+00:00",
+        "http_status": 200,
+        "sha256": "9e339ac105911d00d0f8abad732dcfca1796ca54774bd11709a92c9e1b6df35a"
+      }
+    }
+  ]
+}

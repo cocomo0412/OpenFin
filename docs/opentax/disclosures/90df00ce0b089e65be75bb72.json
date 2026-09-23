@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.e59fe92653a5a5bc4634f696",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:a257c5ee062568e5005db47f",
+  "group": "3",
+  "provider": "트러스톤자산운용",
+  "title": "트러스톤장기고배당연금저축증권자투자신탁[주식]Ce클래스",
+  "cells": [
+    "트러스톤자산운용",
+    "트러스톤장기고배당연금저축증권자투자신탁[주식]Ce클래스",
+    "주식형",
+    "2",
+    "2015/03/06",
+    "판매",
+    "702",
+    "184.11",
+    "56.45",
+    "28.18",
+    "26.40",
+    "18.61",
+    "15.64",
+    "0.989",
+    "NH농협은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=210",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=210",
+    "collected_at": "2026-09-23T08:26:31.649738+00:00",
+    "http_status": 200,
+    "sha256": "d38575e966344fbbb92920e3db2df19439eec4d489b8c47342901eee76d3d7d5"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "트러스톤자산운용",
+        "상품명": "트러스톤장기고배당연금저축증권자투자신탁[주식]Ce클래스",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2015/03/06",
+        "판매여부": "판매",
+        "순자산총액": "702",
+        "1년 연평균수익률(%)": "184.11",
+        "3년 연평균수익률(%)": "56.45",
+        "5년 연평균수익률(%)": "28.18",
+        "7년 연평균수익률(%)": "26.40",
+        "10년 연평균수익률(%)": "18.61",
+        "누적연평균수익률(%)": "15.64",
+        "연평균수수료율(%)": "0.989",
+        "상품 판매사": "NH농협은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=210",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=210",
+        "collected_at": "2026-09-23T08:26:31.649738+00:00",
+        "http_status": 200,
+        "sha256": "d38575e966344fbbb92920e3db2df19439eec4d489b8c47342901eee76d3d7d5"
+      }
+    }
+  ]
+}

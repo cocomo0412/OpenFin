@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.96a57e4243b73e12a6deba89",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:9a9e7d7954a46f451c02f27d",
+  "group": "3",
+  "provider": "IBK자산운용",
+  "title": "IBK 평생설계 다보스 글로벌 고배당 연금 증권 종류 C-e[주식]",
+  "cells": [
+    "IBK자산운용",
+    "IBK 평생설계 다보스 글로벌 고배당 연금 증권 종류 C-e[주식]",
+    "주식형",
+    "2",
+    "2016/06/23",
+    "판매",
+    "2,047",
+    "36.07",
+    "23.93",
+    "12.97",
+    "15.08",
+    "13.67",
+    "13.39",
+    "1.061",
+    "한국투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=149",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=149",
+    "collected_at": "2026-09-23T08:25:08.674478+00:00",
+    "http_status": 200,
+    "sha256": "79a368af4539fdc5e258c624d33941037be0527475b9bf8581b15d849b0022d1"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "IBK자산운용",
+        "상품명": "IBK 평생설계 다보스 글로벌 고배당 연금 증권 종류 C-e[주식]",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2016/06/23",
+        "판매여부": "판매",
+        "순자산총액": "2,047",
+        "1년 연평균수익률(%)": "36.07",
+        "3년 연평균수익률(%)": "23.93",
+        "5년 연평균수익률(%)": "12.97",
+        "7년 연평균수익률(%)": "15.08",
+        "10년 연평균수익률(%)": "13.67",
+        "누적연평균수익률(%)": "13.39",
+        "연평균수수료율(%)": "1.061",
+        "상품 판매사": "한국투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=149",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=149",
+        "collected_at": "2026-09-23T08:25:08.674478+00:00",
+        "http_status": 200,
+        "sha256": "79a368af4539fdc5e258c624d33941037be0527475b9bf8581b15d849b0022d1"
+      }
+    }
+  ]
+}

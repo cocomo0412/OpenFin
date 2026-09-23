@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.5a25cc02c9ce1eca2730a18e",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:a2b3fb5bc2cad3998263935c",
+  "group": "3",
+  "provider": "트러스톤자산운용",
+  "title": "트러스톤장기성장30증권자투자신탁[채권혼합]Cp클래스",
+  "cells": [
+    "트러스톤자산운용",
+    "트러스톤장기성장30증권자투자신탁[채권혼합]Cp클래스",
+    "혼합채권형",
+    "4",
+    "2013/04/19",
+    "판매",
+    "471",
+    "37.68",
+    "16.20",
+    "8.47",
+    "7.68",
+    "6.06",
+    "5.29",
+    "1.092",
+    "NH농협은행, 삼성증권, NH투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=236",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=236",
+    "collected_at": "2026-09-23T08:27:06.493772+00:00",
+    "http_status": 200,
+    "sha256": "29dd9659530790935ca85c1362d42c4c8efe4c7ae3e01f35e74171619c7b8882"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "트러스톤자산운용",
+        "상품명": "트러스톤장기성장30증권자투자신탁[채권혼합]Cp클래스",
+        "상품유형": "혼합채권형",
+        "위험등급": "4",
+        "설정일": "2013/04/19",
+        "판매여부": "판매",
+        "순자산총액": "471",
+        "1년 연평균수익률(%)": "37.68",
+        "3년 연평균수익률(%)": "16.20",
+        "5년 연평균수익률(%)": "8.47",
+        "7년 연평균수익률(%)": "7.68",
+        "10년 연평균수익률(%)": "6.06",
+        "누적연평균수익률(%)": "5.29",
+        "연평균수수료율(%)": "1.092",
+        "상품 판매사": "NH농협은행, 삼성증권, NH투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=236",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=236",
+        "collected_at": "2026-09-23T08:27:06.493772+00:00",
+        "http_status": 200,
+        "sha256": "29dd9659530790935ca85c1362d42c4c8efe4c7ae3e01f35e74171619c7b8882"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.e9893457eb62ef0bda873a8d",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:f4e27e1efa542ee1c87520f7",
+  "group": "3",
+  "provider": "피델리티자산운용",
+  "title": "피델리티 글로벌 멀티에셋 인컴 증권 자투자신탁(채권혼합-재간접형)종류S-PRS",
+  "cells": [
+    "피델리티자산운용",
+    "피델리티 글로벌 멀티에셋 인컴 증권 자투자신탁(채권혼합-재간접형)종류S-PRS",
+    "재간접",
+    "4",
+    "2014/07/03",
+    "판매",
+    "288",
+    "10.95",
+    "6.88",
+    "0.93",
+    "1.93",
+    "2.83",
+    "2.95",
+    "0.386",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=262",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=262",
+    "collected_at": "2026-09-23T08:27:41.437341+00:00",
+    "http_status": 200,
+    "sha256": "1ffebfe71ee59b98529b4f14a36f7428731b189a17c4943d32f737a4fc011102"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "피델리티자산운용",
+        "상품명": "피델리티 글로벌 멀티에셋 인컴 증권 자투자신탁(채권혼합-재간접형)종류S-PRS",
+        "상품유형": "재간접",
+        "위험등급": "4",
+        "설정일": "2014/07/03",
+        "판매여부": "판매",
+        "순자산총액": "288",
+        "1년 연평균수익률(%)": "10.95",
+        "3년 연평균수익률(%)": "6.88",
+        "5년 연평균수익률(%)": "0.93",
+        "7년 연평균수익률(%)": "1.93",
+        "10년 연평균수익률(%)": "2.83",
+        "누적연평균수익률(%)": "2.95",
+        "연평균수수료율(%)": "0.386",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=262",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=262",
+        "collected_at": "2026-09-23T08:27:41.437341+00:00",
+        "http_status": 200,
+        "sha256": "1ffebfe71ee59b98529b4f14a36f7428731b189a17c4943d32f737a4fc011102"
+      }
+    }
+  ]
+}

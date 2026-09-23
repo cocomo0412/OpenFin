@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.7b908b7df2a2d0691d0f8ff5",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:74abcc7134ef0cf8840e0995",
+  "group": "4",
+  "provider": "흥국생명보험",
+  "title": "연금저축뉴그린필드연금보험",
+  "cells": [
+    "흥국생명보험",
+    "연금저축뉴그린필드연금보험",
+    "금리연동형",
+    "2009/12/31",
+    "중단",
+    "17,452",
+    "-4.82",
+    "-0.13",
+    "0.59",
+    "0.72",
+    "0.87",
+    "1.30",
+    "3.338"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=30",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=30",
+    "collected_at": "2026-09-23T08:31:05.138335+00:00",
+    "http_status": 200,
+    "sha256": "2fc8c6efdcc41700adfa7712d5c380528c3b12293db02dcb7476fb7d15ff6d26"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "흥국생명보험",
+        "상품명": "연금저축뉴그린필드연금보험",
+        "상품유형": "금리연동형",
+        "최초판매일": "2009/12/31",
+        "판매여부": "중단",
+        "적립금총액": "17,452",
+        "1년 연평균수익률(%)": "-4.82",
+        "3년 연평균수익률(%)": "-0.13",
+        "5년 연평균수익률(%)": "0.59",
+        "7년 연평균수익률(%)": "0.72",
+        "10년 연평균수익률(%)": "0.87",
+        "누적연평균수익률(%)": "1.30",
+        "연평균수수료율(%)": "3.338"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=30",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=30",
+        "collected_at": "2026-09-23T08:31:05.138335+00:00",
+        "http_status": 200,
+        "sha256": "2fc8c6efdcc41700adfa7712d5c380528c3b12293db02dcb7476fb7d15ff6d26"
+      }
+    }
+  ]
+}

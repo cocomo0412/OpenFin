@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.0a899dc14492c8409b42dee8",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:8caef1441ce86fca495c2e9c",
+  "group": "3",
+  "provider": "마이다스에셋자산운용",
+  "title": "마이다스 단기국공채 공모주 증권 투자신탁 제1호(채권혼합)C-Pe1",
+  "cells": [
+    "마이다스에셋자산운용",
+    "마이다스 단기국공채 공모주 증권 투자신탁 제1호(채권혼합)C-Pe1",
+    "혼합채권형",
+    "5",
+    "2020/09/03",
+    "판매",
+    "313",
+    "1.19",
+    "3.50",
+    "2.94",
+    "-",
+    "-",
+    "2.93",
+    "0.530",
+    "한국투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=257",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=257",
+    "collected_at": "2026-09-23T08:27:35.016439+00:00",
+    "http_status": 200,
+    "sha256": "1964468466b6615e3c7af00331602aac45ae357b713370332dfabb5d3b950af7"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "마이다스에셋자산운용",
+        "상품명": "마이다스 단기국공채 공모주 증권 투자신탁 제1호(채권혼합)C-Pe1",
+        "상품유형": "혼합채권형",
+        "위험등급": "5",
+        "설정일": "2020/09/03",
+        "판매여부": "판매",
+        "순자산총액": "313",
+        "1년 연평균수익률(%)": "1.19",
+        "3년 연평균수익률(%)": "3.50",
+        "5년 연평균수익률(%)": "2.94",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "2.93",
+        "연평균수수료율(%)": "0.530",
+        "상품 판매사": "한국투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=257",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=257",
+        "collected_at": "2026-09-23T08:27:35.016439+00:00",
+        "http_status": 200,
+        "sha256": "1964468466b6615e3c7af00331602aac45ae357b713370332dfabb5d3b950af7"
+      }
+    }
+  ]
+}

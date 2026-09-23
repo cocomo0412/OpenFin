@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.8def4ca3511323ab6b16b9a7",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:cad69ce8a3e823da85a6b3ac",
+  "group": "5",
+  "provider": "현대해상화재보험",
+  "title": "연금저축손해보험 하이라이프()노후사랑보험(Hi1106)",
+  "cells": [
+    "현대해상화재보험",
+    "연금저축손해보험 하이라이프()노후사랑보험(Hi1106)",
+    "금리연동형",
+    "2011/06/01",
+    "중단",
+    "30,893",
+    "-4.35",
+    "-0.29",
+    "0.47",
+    "0.64",
+    "0.82",
+    "1.06",
+    "5.978"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=14",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=14",
+    "collected_at": "2026-09-23T08:21:59.461093+00:00",
+    "http_status": 200,
+    "sha256": "50b459a17cf1aa675771e2fb2230b4f84d9104db9b61e944b20ed830508b14a8"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "현대해상화재보험",
+        "상품명": "연금저축손해보험 하이라이프()노후사랑보험(Hi1106)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2011/06/01",
+        "판매여부": "중단",
+        "적립금총액": "30,893",
+        "1년 연평균수익률(%)": "-4.35",
+        "3년 연평균수익률(%)": "-0.29",
+        "5년 연평균수익률(%)": "0.47",
+        "7년 연평균수익률(%)": "0.64",
+        "10년 연평균수익률(%)": "0.82",
+        "누적연평균수익률(%)": "1.06",
+        "연평균수수료율(%)": "5.978"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=14",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=14",
+        "collected_at": "2026-09-23T08:21:59.461093+00:00",
+        "http_status": 200,
+        "sha256": "50b459a17cf1aa675771e2fb2230b4f84d9104db9b61e944b20ed830508b14a8"
+      }
+    }
+  ]
+}

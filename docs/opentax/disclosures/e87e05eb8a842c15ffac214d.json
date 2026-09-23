@@ -1,0 +1,49 @@
+{
+  "id": "finance.insurance.klia.other-protection.bnp파리바카디프생명.l782nnb1h02s9736",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L782NNB1H02S9736",
+  "group": "024400010011",
+  "title": "(무) 더세이프 대출안심보험(비갱신형)",
+  "provider": "BNP파리바카디프생명",
+  "cells": [
+    "BNP파리바카디프생명",
+    "(무) 더세이프 대출안심보험(비갱신형)",
+    "주계약",
+    "사망보험금 *지급사유 : 피보험자가 보험기간 중 사망하였을 경우",
+    "10,000만원",
+    "14,900 원",
+    "7,500 원",
+    "2.25 %",
+    "-",
+    "-",
+    "79.5 %",
+    "76.4 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "순수보장",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "방카슈랑스",
+    "2026-07-01",
+    "Download",
+    "보기",
+    "1688-1118"
+  ],
+  "coverage": [
+    "사망보험금 *지급사유 : 피보험자가 보험기간 중 사망하였을 경우",
+    "고도후유장해보험금 *지급사유 : 피보험자가 보험기간 중 발생한 동일한 재해 또는 재해 이외의 동일한 원인으로 장해분류표 중 여러 신체부위의 장해지급률을 더하여 80% 이상의 장해상태가 되었을 경우"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=14200&seq=15"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010011&pageIndex=1&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010011&pageIndex=1&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:36.821504+00:00",
+    "http_status": 200,
+    "sha256": "ff57829e84228f93a0ff93f6480e91cf0593c84b473198907d6bbc0d1fdf7b27"
+  }
+}

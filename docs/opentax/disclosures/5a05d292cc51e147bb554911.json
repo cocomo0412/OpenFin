@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.cead0e50d3ff606d98745861",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:0414e0a9517fe1ef995c6a44",
+  "group": "3",
+  "provider": "유진자산운용",
+  "title": "유진챔피언공모주증권투자신탁1호(주식혼합) Class C-P1",
+  "cells": [
+    "유진자산운용",
+    "유진챔피언공모주증권투자신탁1호(주식혼합) Class C-P1",
+    "혼합주식형",
+    "5",
+    "2020/06/18",
+    "판매",
+    "198",
+    "1.69",
+    "2.48",
+    "1.44",
+    "-",
+    "-",
+    "1.94",
+    "1.358",
+    "유진투자증권주식회사, 한화투자증권주식회사, 삼성생명보험주식회사, 한국투자증권, KB증권, KB국민은행, 하나은행, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=278",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=278",
+    "collected_at": "2026-09-23T08:28:02.564959+00:00",
+    "http_status": 200,
+    "sha256": "5bd63375a59afd12e50e543f7c79722bb7741cf98c9449388a5a9d0f60d225c9"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "유진자산운용",
+        "상품명": "유진챔피언공모주증권투자신탁1호(주식혼합) Class C-P1",
+        "상품유형": "혼합주식형",
+        "위험등급": "5",
+        "설정일": "2020/06/18",
+        "판매여부": "판매",
+        "순자산총액": "198",
+        "1년 연평균수익률(%)": "1.69",
+        "3년 연평균수익률(%)": "2.48",
+        "5년 연평균수익률(%)": "1.44",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "1.94",
+        "연평균수수료율(%)": "1.358",
+        "상품 판매사": "유진투자증권주식회사, 한화투자증권주식회사, 삼성생명보험주식회사, 한국투자증권, KB증권, KB국민은행, 하나은행, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=278",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=278",
+        "collected_at": "2026-09-23T08:28:02.564959+00:00",
+        "http_status": 200,
+        "sha256": "5bd63375a59afd12e50e543f7c79722bb7741cf98c9449388a5a9d0f60d225c9"
+      }
+    }
+  ]
+}

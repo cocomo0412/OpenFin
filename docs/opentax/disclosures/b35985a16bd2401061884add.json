@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.03abbed8f6e9653531f5802f",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:9e3d5a480bbe6cf4e73b353b",
+  "group": "5",
+  "provider": "롯데손해보험",
+  "title": "let:care 연금저축손해보험Ⅱ(2209)",
+  "cells": [
+    "롯데손해보험",
+    "let:care 연금저축손해보험Ⅱ(2209)",
+    "금리연동형",
+    "2024/01/01",
+    "중단",
+    "736",
+    "-1.96",
+    "-0.1",
+    "-",
+    "-",
+    "-",
+    "0.14",
+    "2.32"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=43",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=43",
+    "collected_at": "2026-09-23T08:31:17.220606+00:00",
+    "http_status": 200,
+    "sha256": "130edd6d4787782caad72e3bfd67e3f0ac5227b686720aca015aed0f042b542f"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "롯데손해보험",
+        "상품명": "let:care 연금저축손해보험Ⅱ(2209)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2024/01/01",
+        "판매여부": "중단",
+        "적립금총액": "736",
+        "1년 연평균수익률(%)": "-1.96",
+        "3년 연평균수익률(%)": "-0.1",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "0.14",
+        "연평균수수료율(%)": "2.32"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=43",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=43",
+        "collected_at": "2026-09-23T08:31:17.220606+00:00",
+        "http_status": 200,
+        "sha256": "130edd6d4787782caad72e3bfd67e3f0ac5227b686720aca015aed0f042b542f"
+      }
+    }
+  ]
+}

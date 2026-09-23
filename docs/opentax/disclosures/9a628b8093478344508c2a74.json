@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.830e4e32d420e51c62496c03",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:e866fb4ec3f8f499c3af14f9",
+  "group": "5",
+  "provider": "삼성화재해상보험",
+  "title": "연금저축손해보험 삼성명품 연금보험 (1004)",
+  "cells": [
+    "삼성화재해상보험",
+    "연금저축손해보험 삼성명품 연금보험 (1004)",
+    "금리연동형",
+    "2010/04/01",
+    "중단",
+    "233,653",
+    "-3.95",
+    "0.19",
+    "0.73",
+    "0.78",
+    "0.84",
+    "0.95",
+    "5.395"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=3",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=3",
+    "collected_at": "2026-09-23T08:21:47.821113+00:00",
+    "http_status": 200,
+    "sha256": "9de7da337f8a790bad424e7ac3da1caf746dfa9f4de5dc0658a73a5fc9cd6d6e"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성화재해상보험",
+        "상품명": "연금저축손해보험 삼성명품 연금보험 (1004)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2010/04/01",
+        "판매여부": "중단",
+        "적립금총액": "233,653",
+        "1년 연평균수익률(%)": "-3.95",
+        "3년 연평균수익률(%)": "0.19",
+        "5년 연평균수익률(%)": "0.73",
+        "7년 연평균수익률(%)": "0.78",
+        "10년 연평균수익률(%)": "0.84",
+        "누적연평균수익률(%)": "0.95",
+        "연평균수수료율(%)": "5.395"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=3",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=3",
+        "collected_at": "2026-09-23T08:21:47.821113+00:00",
+        "http_status": 200,
+        "sha256": "9de7da337f8a790bad424e7ac3da1caf746dfa9f4de5dc0658a73a5fc9cd6d6e"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.acdc636bfd74815b1154ae7b",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:211417053b8e2eaae3f55fb9",
+  "group": "3",
+  "provider": "우리자산운용",
+  "title": "우리파워연금증권전환형자투자신탁1호(채권)ClassC",
+  "cells": [
+    "우리자산운용",
+    "우리파워연금증권전환형자투자신탁1호(채권)ClassC",
+    "채권형",
+    "5",
+    "2001/02/01",
+    "판매",
+    "3,489",
+    "-5.33",
+    "1.35",
+    "-0.19",
+    "-0.23",
+    "0.38",
+    "2.56",
+    "0.630",
+    "케이프투자증권, (주)우리투자증권, 유안타증권주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=121",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=121",
+    "collected_at": "2026-09-23T08:24:31.975349+00:00",
+    "http_status": 200,
+    "sha256": "75e61e7476efb029e936bdab95d2b3e60ce4f6245c0dc218d7a524ac708caf81"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "우리자산운용",
+        "상품명": "우리파워연금증권전환형자투자신탁1호(채권)ClassC",
+        "상품유형": "채권형",
+        "위험등급": "5",
+        "설정일": "2001/02/01",
+        "판매여부": "판매",
+        "순자산총액": "3,489",
+        "1년 연평균수익률(%)": "-5.33",
+        "3년 연평균수익률(%)": "1.35",
+        "5년 연평균수익률(%)": "-0.19",
+        "7년 연평균수익률(%)": "-0.23",
+        "10년 연평균수익률(%)": "0.38",
+        "누적연평균수익률(%)": "2.56",
+        "연평균수수료율(%)": "0.630",
+        "상품 판매사": "케이프투자증권, (주)우리투자증권, 유안타증권주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=121",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=121",
+        "collected_at": "2026-09-23T08:24:31.975349+00:00",
+        "http_status": 200,
+        "sha256": "75e61e7476efb029e936bdab95d2b3e60ce4f6245c0dc218d7a524ac708caf81"
+      }
+    }
+  ]
+}

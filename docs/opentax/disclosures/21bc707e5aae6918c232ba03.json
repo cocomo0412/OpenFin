@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.e0f1eca7b65b5307e2f2e503",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:3944ae3a34062d7d941a4a1e",
+  "group": "3",
+  "provider": "트러스톤자산운용",
+  "title": "트러스톤밸류웨이연금저축증권자투자신탁[주식]Ce클래스",
+  "cells": [
+    "트러스톤자산운용",
+    "트러스톤밸류웨이연금저축증권자투자신탁[주식]Ce클래스",
+    "주식형",
+    "2",
+    "2014/05/21",
+    "판매",
+    "1,246",
+    "159.93",
+    "50.72",
+    "25.64",
+    "23.83",
+    "16.19",
+    "12.93",
+    "0.986",
+    "키움증권(주), 한국투자증권, 신한은행, 미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=176",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=176",
+    "collected_at": "2026-09-23T08:25:45.234062+00:00",
+    "http_status": 200,
+    "sha256": "3fb7e4c51cfd74b1ed57c83063bc8ca1a1d5fb39cfeb90eeb51c6dcb101b8dfb"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "트러스톤자산운용",
+        "상품명": "트러스톤밸류웨이연금저축증권자투자신탁[주식]Ce클래스",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2014/05/21",
+        "판매여부": "판매",
+        "순자산총액": "1,246",
+        "1년 연평균수익률(%)": "159.93",
+        "3년 연평균수익률(%)": "50.72",
+        "5년 연평균수익률(%)": "25.64",
+        "7년 연평균수익률(%)": "23.83",
+        "10년 연평균수익률(%)": "16.19",
+        "누적연평균수익률(%)": "12.93",
+        "연평균수수료율(%)": "0.986",
+        "상품 판매사": "키움증권(주), 한국투자증권, 신한은행, 미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=176",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=176",
+        "collected_at": "2026-09-23T08:25:45.234062+00:00",
+        "http_status": 200,
+        "sha256": "3fb7e4c51cfd74b1ed57c83063bc8ca1a1d5fb39cfeb90eeb51c6dcb101b8dfb"
+      }
+    }
+  ]
+}

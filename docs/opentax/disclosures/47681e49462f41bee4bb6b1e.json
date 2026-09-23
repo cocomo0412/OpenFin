@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.aaa8dc7fa80b72800e7da1c3",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:ac893b73d34de3e9ec144f80",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자K지수&테마로테이션증권투자신탁(주식-재간접형)(C-P)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자K지수&테마로테이션증권투자신탁(주식-재간접형)(C-P)",
+    "재간접",
+    "2",
+    "2026/03/03",
+    "판매",
+    "46",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "281.69",
+    "1.353",
+    "-"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=303",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=303",
+    "collected_at": "2026-09-23T08:28:35.797590+00:00",
+    "http_status": 200,
+    "sha256": "be2e67bfd8d6cbcaa3b430dca48ddcafcb357568f2d7093013516c66bfc890a3"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자K지수&테마로테이션증권투자신탁(주식-재간접형)(C-P)",
+        "상품유형": "재간접",
+        "위험등급": "2",
+        "설정일": "2026/03/03",
+        "판매여부": "판매",
+        "순자산총액": "46",
+        "1년 연평균수익률(%)": "-",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "281.69",
+        "연평균수수료율(%)": "1.353",
+        "상품 판매사": "-"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=303",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=303",
+        "collected_at": "2026-09-23T08:28:35.797590+00:00",
+        "http_status": 200,
+        "sha256": "be2e67bfd8d6cbcaa3b430dca48ddcafcb357568f2d7093013516c66bfc890a3"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.698ab0508ed5321df6d7f00f",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:b6a7210ba474f7779ef8e4c0",
+  "group": "3",
+  "provider": "NH-Amundi자산운용",
+  "title": "NH-Amundi 개인신종MMF1호 C-P1(연금저축)",
+  "cells": [
+    "NH-Amundi자산운용",
+    "NH-Amundi 개인신종MMF1호 C-P1(연금저축)",
+    "단기금융",
+    "6",
+    "2013/11/05",
+    "판매",
+    "48,537",
+    "2.39",
+    "2.96",
+    "2.63",
+    "2.13",
+    "1.88",
+    "1.86",
+    "0.415",
+    "(주)우리투자증권, NH농협은행, SK증권주식회사, 교보증권(주), NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=25",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=25",
+    "collected_at": "2026-09-23T08:22:20.099708+00:00",
+    "http_status": 200,
+    "sha256": "e62f9f9e311b0dac9c7624bebcaa6ebd66ba7510549656b0aa443223e4767de8"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "NH-Amundi자산운용",
+        "상품명": "NH-Amundi 개인신종MMF1호 C-P1(연금저축)",
+        "상품유형": "단기금융",
+        "위험등급": "6",
+        "설정일": "2013/11/05",
+        "판매여부": "판매",
+        "순자산총액": "48,537",
+        "1년 연평균수익률(%)": "2.39",
+        "3년 연평균수익률(%)": "2.96",
+        "5년 연평균수익률(%)": "2.63",
+        "7년 연평균수익률(%)": "2.13",
+        "10년 연평균수익률(%)": "1.88",
+        "누적연평균수익률(%)": "1.86",
+        "연평균수수료율(%)": "0.415",
+        "상품 판매사": "(주)우리투자증권, NH농협은행, SK증권주식회사, 교보증권(주), NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=25",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=25",
+        "collected_at": "2026-09-23T08:22:20.099708+00:00",
+        "http_status": 200,
+        "sha256": "e62f9f9e311b0dac9c7624bebcaa6ebd66ba7510549656b0aa443223e4767de8"
+      }
+    }
+  ]
+}

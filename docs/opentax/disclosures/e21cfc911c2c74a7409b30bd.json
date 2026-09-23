@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.ea80aa916b6d709829f75a25",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:997c6017c3546b990fbb25ee",
+  "group": "3",
+  "provider": "우리자산운용",
+  "title": "우리반도체BIG2플러스증권투자신탁(채권혼합)ClassS-P",
+  "cells": [
+    "우리자산운용",
+    "우리반도체BIG2플러스증권투자신탁(채권혼합)ClassS-P",
+    "혼합채권형",
+    "4",
+    "2024/06/20",
+    "판매",
+    "293",
+    "71.76",
+    "-",
+    "-",
+    "-",
+    "-",
+    "33.77",
+    "0.480",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=260",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=260",
+    "collected_at": "2026-09-23T08:27:38.997437+00:00",
+    "http_status": 200,
+    "sha256": "6e4f2280d658dbef7f15168f5ead8bb38e6f1c502d1585ac9ce0ae1696166ef0"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "우리자산운용",
+        "상품명": "우리반도체BIG2플러스증권투자신탁(채권혼합)ClassS-P",
+        "상품유형": "혼합채권형",
+        "위험등급": "4",
+        "설정일": "2024/06/20",
+        "판매여부": "판매",
+        "순자산총액": "293",
+        "1년 연평균수익률(%)": "71.76",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "33.77",
+        "연평균수수료율(%)": "0.480",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=260",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=260",
+        "collected_at": "2026-09-23T08:27:38.997437+00:00",
+        "http_status": 200,
+        "sha256": "6e4f2280d658dbef7f15168f5ead8bb38e6f1c502d1585ac9ce0ae1696166ef0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.fe2b936b1d3bf2a2ba48e380",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:1:8ad881cfe4bcb9c6e9ff17ec",
+  "group": "1",
+  "provider": "국민은행",
+  "title": "연금신탁(채권형)제1호(국민)",
+  "cells": [
+    "국민은행",
+    "연금신탁(채권형)제1호(국민)",
+    "채권형",
+    "2001/02/05",
+    "중단",
+    "121,523",
+    "-0.27",
+    "2.70",
+    "2.16",
+    "1.88",
+    "1.86",
+    "4.05",
+    "7.72"
+  ],
+  "headers": [
+    "은행",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=2",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=2",
+    "collected_at": "2026-09-23T08:21:42.780975+00:00",
+    "http_status": 200,
+    "sha256": "ed95935686d655cb59e64b1cfb4fedead59df3acc3cd246f6c663b33e01929d1"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "국민은행",
+        "상품명": "연금신탁(채권형)제1호(국민)",
+        "상품유형": "채권형",
+        "최초판매일": "2001/02/05",
+        "판매여부": "중단",
+        "적립금총액": "121,523",
+        "1년 연평균수익률(%)": "-0.27",
+        "3년 연평균수익률(%)": "2.70",
+        "5년 연평균수익률(%)": "2.16",
+        "7년 연평균수익률(%)": "1.88",
+        "10년 연평균수익률(%)": "1.86",
+        "누적연평균수익률(%)": "4.05",
+        "연평균수수료율(%)": "7.72"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=2",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=2",
+        "collected_at": "2026-09-23T08:21:42.780975+00:00",
+        "http_status": 200,
+        "sha256": "ed95935686d655cb59e64b1cfb4fedead59df3acc3cd246f6c663b33e01929d1"
+      }
+    }
+  ]
+}

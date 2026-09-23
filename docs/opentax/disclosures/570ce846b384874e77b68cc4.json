@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.22986660c817ccc4b0d86aca",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:d790e35bb1e2a8c104c4c4bc",
+  "group": "5",
+  "provider": "메리츠화재해상보험",
+  "title": "연금저축손해보험 노후생활지킴이보험1604",
+  "cells": [
+    "메리츠화재해상보험",
+    "연금저축손해보험 노후생활지킴이보험1604",
+    "금리연동형",
+    "2016/04/01",
+    "중단",
+    "19,779",
+    "-8.64",
+    "-2.26",
+    "-0.99",
+    "-0.35",
+    "0.25",
+    "0.29",
+    "8.679"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=19",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=19",
+    "collected_at": "2026-09-23T08:22:05.220553+00:00",
+    "http_status": 200,
+    "sha256": "c31dee1c2388d2e46900564b252b9bf25852a0dc11747c2d0f9d2855c5c71e51"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "메리츠화재해상보험",
+        "상품명": "연금저축손해보험 노후생활지킴이보험1604",
+        "상품유형": "금리연동형",
+        "최초판매일": "2016/04/01",
+        "판매여부": "중단",
+        "적립금총액": "19,779",
+        "1년 연평균수익률(%)": "-8.64",
+        "3년 연평균수익률(%)": "-2.26",
+        "5년 연평균수익률(%)": "-0.99",
+        "7년 연평균수익률(%)": "-0.35",
+        "10년 연평균수익률(%)": "0.25",
+        "누적연평균수익률(%)": "0.29",
+        "연평균수수료율(%)": "8.679"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=19",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=19",
+        "collected_at": "2026-09-23T08:22:05.220553+00:00",
+        "http_status": 200,
+        "sha256": "c31dee1c2388d2e46900564b252b9bf25852a0dc11747c2d0f9d2855c5c71e51"
+      }
+    }
+  ]
+}

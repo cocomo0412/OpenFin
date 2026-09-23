@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.f1139d50e1fd2bf4800fbaf8",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:62aa5f55f775e2640c65fdad",
+  "group": "3",
+  "provider": "한화자산운용",
+  "title": "한화글로벌테크히어로증권 자투자신탁(H)(주식) J-Pe(연금저축)",
+  "cells": [
+    "한화자산운용",
+    "한화글로벌테크히어로증권 자투자신탁(H)(주식) J-Pe(연금저축)",
+    "주식형",
+    "2",
+    "2021/03/25",
+    "판매",
+    "801",
+    "40.46",
+    "23.69",
+    "12.47",
+    "-",
+    "-",
+    "13.56",
+    "1.040",
+    "한화자산운용"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=201",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=201",
+    "collected_at": "2026-09-23T08:26:19.745868+00:00",
+    "http_status": 200,
+    "sha256": "92da4152ba8b448f06d713114dff223acb822480ff438fe84881a62727d9d69d"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한화자산운용",
+        "상품명": "한화글로벌테크히어로증권 자투자신탁(H)(주식) J-Pe(연금저축)",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2021/03/25",
+        "판매여부": "판매",
+        "순자산총액": "801",
+        "1년 연평균수익률(%)": "40.46",
+        "3년 연평균수익률(%)": "23.69",
+        "5년 연평균수익률(%)": "12.47",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "13.56",
+        "연평균수수료율(%)": "1.040",
+        "상품 판매사": "한화자산운용"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=201",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=201",
+        "collected_at": "2026-09-23T08:26:19.745868+00:00",
+        "http_status": 200,
+        "sha256": "92da4152ba8b448f06d713114dff223acb822480ff438fe84881a62727d9d69d"
+      }
+    }
+  ]
+}

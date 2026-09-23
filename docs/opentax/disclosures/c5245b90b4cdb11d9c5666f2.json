@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.bb8115ab91e7d73c6840c66a",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:b55d55c2bd27d051cc492a55",
+  "group": "3",
+  "provider": "키움투자자산운용",
+  "title": "키움초단기채증권투자신탁[채권] Class C-Pe",
+  "cells": [
+    "키움투자자산운용",
+    "키움초단기채증권투자신탁[채권] Class C-Pe",
+    "채권형",
+    "5",
+    "2024/03/22",
+    "판매",
+    "1,011",
+    "2.76",
+    "-",
+    "-",
+    "-",
+    "-",
+    "3.32",
+    "0.180",
+    "키움증권(주), 한국투자증권, 삼성증권, IBK기업은행, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=188",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=188",
+    "collected_at": "2026-09-23T08:26:01.123414+00:00",
+    "http_status": 200,
+    "sha256": "e72def7742f95e81b2ad92ac7cebd804dea5e50b0b1cfde8060b35dc7271b6e7"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "키움투자자산운용",
+        "상품명": "키움초단기채증권투자신탁[채권] Class C-Pe",
+        "상품유형": "채권형",
+        "위험등급": "5",
+        "설정일": "2024/03/22",
+        "판매여부": "판매",
+        "순자산총액": "1,011",
+        "1년 연평균수익률(%)": "2.76",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "3.32",
+        "연평균수수료율(%)": "0.180",
+        "상품 판매사": "키움증권(주), 한국투자증권, 삼성증권, IBK기업은행, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=188",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=188",
+        "collected_at": "2026-09-23T08:26:01.123414+00:00",
+        "http_status": 200,
+        "sha256": "e72def7742f95e81b2ad92ac7cebd804dea5e50b0b1cfde8060b35dc7271b6e7"
+      }
+    }
+  ]
+}

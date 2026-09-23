@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.f463aed877096883235d8504",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:7b931f572cc1c26476057c47",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성글로벌 Chat AI 증권자투자신탁UH[주식]_C-Pe",
+  "cells": [
+    "삼성자산운용",
+    "삼성글로벌 Chat AI 증권자투자신탁UH[주식]_C-Pe",
+    "주식형",
+    "2",
+    "2023/06/01",
+    "판매",
+    "13,158",
+    "25.81",
+    "37.30",
+    "-",
+    "-",
+    "-",
+    "36.42",
+    "1.354",
+    "한화투자증권주식회사, 키움증권(주), 유안타증권주식회사, 삼성증권, KB증권, 대신증권주식회사, KB국민은행, 미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=62",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=62",
+    "collected_at": "2026-09-23T08:23:11.083138+00:00",
+    "http_status": 200,
+    "sha256": "37635972a21705b7fae0c094e73ed45885da1773aa18beaf8fc43e1749ab3155"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성글로벌 Chat AI 증권자투자신탁UH[주식]_C-Pe",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2023/06/01",
+        "판매여부": "판매",
+        "순자산총액": "13,158",
+        "1년 연평균수익률(%)": "25.81",
+        "3년 연평균수익률(%)": "37.30",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "36.42",
+        "연평균수수료율(%)": "1.354",
+        "상품 판매사": "한화투자증권주식회사, 키움증권(주), 유안타증권주식회사, 삼성증권, KB증권, 대신증권주식회사, KB국민은행, 미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=62",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=62",
+        "collected_at": "2026-09-23T08:23:11.083138+00:00",
+        "http_status": 200,
+        "sha256": "37635972a21705b7fae0c094e73ed45885da1773aa18beaf8fc43e1749ab3155"
+      }
+    }
+  ]
+}

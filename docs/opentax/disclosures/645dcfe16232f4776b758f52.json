@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.eea77ada028d68b01a3127aa",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:94151c4ddbb519c75637f2af",
+  "group": "3",
+  "provider": "마이다스에셋자산운용",
+  "title": "마이다스 블루칩배당 증권 투자신탁 1호(주식)C-Pe1",
+  "cells": [
+    "마이다스에셋자산운용",
+    "마이다스 블루칩배당 증권 투자신탁 1호(주식)C-Pe1",
+    "주식형",
+    "2",
+    "2017/12/21",
+    "판매",
+    "1,616",
+    "186.47",
+    "53.92",
+    "28.02",
+    "27.32",
+    "-",
+    "20.37",
+    "1.076",
+    "삼성증권, KB증권, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=162",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=162",
+    "collected_at": "2026-09-23T08:25:26.171535+00:00",
+    "http_status": 200,
+    "sha256": "46b51fd6803828d1b896ab0bc22cd4389ac2d61c94bc32ad44226f09e81c9fed"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "마이다스에셋자산운용",
+        "상품명": "마이다스 블루칩배당 증권 투자신탁 1호(주식)C-Pe1",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2017/12/21",
+        "판매여부": "판매",
+        "순자산총액": "1,616",
+        "1년 연평균수익률(%)": "186.47",
+        "3년 연평균수익률(%)": "53.92",
+        "5년 연평균수익률(%)": "28.02",
+        "7년 연평균수익률(%)": "27.32",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "20.37",
+        "연평균수수료율(%)": "1.076",
+        "상품 판매사": "삼성증권, KB증권, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=162",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=162",
+        "collected_at": "2026-09-23T08:25:26.171535+00:00",
+        "http_status": 200,
+        "sha256": "46b51fd6803828d1b896ab0bc22cd4389ac2d61c94bc32ad44226f09e81c9fed"
+      }
+    }
+  ]
+}

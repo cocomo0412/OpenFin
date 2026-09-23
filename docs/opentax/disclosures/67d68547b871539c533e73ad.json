@@ -1,0 +1,50 @@
+{
+  "id": "finance.insurance.klia.cancer.미래에셋생명.l3402460004nnn0247000202440001024400010004024400010004000102440001000400010004a3641",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L3402460004NNN0247000202440001024400010004024400010004000102440001000400010004A3641",
+  "group": "024400010004",
+  "title": "온라인 더 잘고른 미니암보험 무배당",
+  "provider": "미래에셋생명",
+  "cells": [
+    "미래에셋생명",
+    "온라인 더 잘고른 미니암보험 무배당",
+    "주계약",
+    "주요암진단보험금 *지급사유 : 피보험자가 보험기간 중 ‘주요암보장개시일’이후에 ‘주요암’으로 진단 확정되었을 경우(다만, 최초 1회에 한하여 지급)",
+    "1,000만원 (단, [여성형]은 500만원)",
+    "1,796 원",
+    "3,038 원",
+    "2.00 %",
+    "-",
+    "-",
+    "109.6 %",
+    "102.2 %",
+    "62.5 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "순수보장",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "CM",
+    "2026-05-01",
+    "Download",
+    "보기",
+    "1588-0220"
+  ],
+  "coverage": [
+    "주요암진단보험금 *지급사유 : 피보험자가 보험기간 중 ‘주요암보장개시일’이후에 ‘주요암’으로 진단 확정되었을 경우(다만, 최초 1회에 한하여 지급)"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=38704&seq=4"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010004&pageIndex=2&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010004&pageIndex=2&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:30.032233+00:00",
+    "http_status": 200,
+    "sha256": "bee98d6b9a1c05d0a1863a6d1cdaa99a3cf56cd7e7a06f1d34363b575205262f"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.97c9d2dd082ba7306b3eb317",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:553a01a2acc1f6ae36ea5ab1",
+  "group": "3",
+  "provider": "BNK자산운용",
+  "title": "BNK삼성전자중소형증권투자신탁1호(주식) Class C-Pe",
+  "cells": [
+    "BNK자산운용",
+    "BNK삼성전자중소형증권투자신탁1호(주식) Class C-Pe",
+    "주식형",
+    "2",
+    "2020/12/30",
+    "판매",
+    "2,696",
+    "155.36",
+    "57.26",
+    "32.58",
+    "-",
+    "-",
+    "31.59",
+    "0.805",
+    "유진투자증권주식회사, NH농협은행, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=134",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=134",
+    "collected_at": "2026-09-23T08:24:48.826704+00:00",
+    "http_status": 200,
+    "sha256": "da67ff752b752ec6e6b4dce5267e6bfc0ba433993cd01a7192ec527380317675"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "BNK자산운용",
+        "상품명": "BNK삼성전자중소형증권투자신탁1호(주식) Class C-Pe",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2020/12/30",
+        "판매여부": "판매",
+        "순자산총액": "2,696",
+        "1년 연평균수익률(%)": "155.36",
+        "3년 연평균수익률(%)": "57.26",
+        "5년 연평균수익률(%)": "32.58",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "31.59",
+        "연평균수수료율(%)": "0.805",
+        "상품 판매사": "유진투자증권주식회사, NH농협은행, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=134",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=134",
+        "collected_at": "2026-09-23T08:24:48.826704+00:00",
+        "http_status": 200,
+        "sha256": "da67ff752b752ec6e6b4dce5267e6bfc0ba433993cd01a7192ec527380317675"
+      }
+    }
+  ]
+}

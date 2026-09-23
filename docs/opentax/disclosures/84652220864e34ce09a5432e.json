@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.89169cc471a5b61f76a911c2",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:a346aee6c2be7095bb9f2aff",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성코리아중기채권증권자투자신탁 제1호[채권]_S-P",
+  "cells": [
+    "삼성자산운용",
+    "삼성코리아중기채권증권자투자신탁 제1호[채권]_S-P",
+    "채권형",
+    "5",
+    "2017/09/20",
+    "판매",
+    "98",
+    "-5.84",
+    "2.38",
+    "0.81",
+    "0.76",
+    "-",
+    "1.11",
+    "0.244",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=297",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=297",
+    "collected_at": "2026-09-23T08:28:27.998079+00:00",
+    "http_status": 200,
+    "sha256": "a90482749b3b81e16c12842adc35cd2b6829cc603e29e30d509c45ead0c4967f"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성코리아중기채권증권자투자신탁 제1호[채권]_S-P",
+        "상품유형": "채권형",
+        "위험등급": "5",
+        "설정일": "2017/09/20",
+        "판매여부": "판매",
+        "순자산총액": "98",
+        "1년 연평균수익률(%)": "-5.84",
+        "3년 연평균수익률(%)": "2.38",
+        "5년 연평균수익률(%)": "0.81",
+        "7년 연평균수익률(%)": "0.76",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "1.11",
+        "연평균수수료율(%)": "0.244",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=297",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=297",
+        "collected_at": "2026-09-23T08:28:27.998079+00:00",
+        "http_status": 200,
+        "sha256": "a90482749b3b81e16c12842adc35cd2b6829cc603e29e30d509c45ead0c4967f"
+      }
+    }
+  ]
+}

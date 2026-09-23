@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.0ecadad6818229ef8f37acfc",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:e73db0411f71fc7f0ddc5728",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 연금 인덱스 증권 전환형 자투자신탁(주식) C-E 클래스",
+  "cells": [
+    "KB자산운용",
+    "KB 연금 인덱스 증권 전환형 자투자신탁(주식) C-E 클래스",
+    "주식형",
+    "2",
+    "2016/08/31",
+    "판매",
+    "36,674",
+    "237.38",
+    "63.01",
+    "28.55",
+    "28.54",
+    "-",
+    "20.98",
+    "0.442",
+    "키움증권(주), 한국투자증권, KB증권, KB국민은행, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=31",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=31",
+    "collected_at": "2026-09-23T08:22:28.353309+00:00",
+    "http_status": 200,
+    "sha256": "92abdb49e97031572c5162d474a31a82b22096652bad91d530f9dadbc33f0fea"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 연금 인덱스 증권 전환형 자투자신탁(주식) C-E 클래스",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2016/08/31",
+        "판매여부": "판매",
+        "순자산총액": "36,674",
+        "1년 연평균수익률(%)": "237.38",
+        "3년 연평균수익률(%)": "63.01",
+        "5년 연평균수익률(%)": "28.55",
+        "7년 연평균수익률(%)": "28.54",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "20.98",
+        "연평균수수료율(%)": "0.442",
+        "상품 판매사": "키움증권(주), 한국투자증권, KB증권, KB국민은행, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=31",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=31",
+        "collected_at": "2026-09-23T08:22:28.353309+00:00",
+        "http_status": 200,
+        "sha256": "92abdb49e97031572c5162d474a31a82b22096652bad91d530f9dadbc33f0fea"
+      }
+    }
+  ]
+}

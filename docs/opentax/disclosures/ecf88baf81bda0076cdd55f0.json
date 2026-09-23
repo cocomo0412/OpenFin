@@ -1,0 +1,51 @@
+{
+  "id": "finance.insurance.klia.accident.동양생명.l740246000102460002nnn0247000202440001024400010006024400010006000202440001000600020001l1072",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L740246000102460002NNN0247000202440001024400010006024400010006000202440001000600020001L1072",
+  "group": "024400010006",
+  "title": "(무)엔젤상해보험",
+  "provider": "동양생명",
+  "cells": [
+    "동양생명",
+    "(무)엔젤상해보험",
+    "주계약",
+    "만기보험금 *지급사유 : 피보험자가 보험기간이 끝날 때까지 살아있을 때",
+    "5,000만원",
+    "45,000 원",
+    "22,000 원",
+    "3.00 %",
+    "-",
+    "-",
+    "108.3 %",
+    "95.8 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "보험기간(1년 초과)",
+    "만기환급",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "대면채널 방카슈랑스",
+    "2024-04-01",
+    "Download",
+    "보기",
+    "1577-1004"
+  ],
+  "coverage": [
+    "만기보험금 *지급사유 : 피보험자가 보험기간이 끝날 때까지 살아있을 때",
+    "재해사망보험금 *지급사유 : 재해로 인하여 사망하였을 때",
+    "재해장해보험금 *지급사유 : 보장개시일 이후 발생한 동일한 재해로 장해분류표에서 정한 각 장해지급률에 해당하는 장해상태가 되었을 때"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=19645&seq=18"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010006&pageIndex=4&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010006&pageIndex=4&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:35.415623+00:00",
+    "http_status": 200,
+    "sha256": "03dc2a1cc0b4562b677cde165f72cad9572db23e960f43e9561ebbe303395588"
+  }
+}

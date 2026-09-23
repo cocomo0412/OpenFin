@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.cdac8778bd69ee61a3d64e34",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:facff7f65d8c7983a878e895",
+  "group": "3",
+  "provider": "BNK자산운용",
+  "title": "BNK공모주플러스10증권투자신탁1호(채권혼합) Class C-Pe",
+  "cells": [
+    "BNK자산운용",
+    "BNK공모주플러스10증권투자신탁1호(채권혼합) Class C-Pe",
+    "혼합채권형",
+    "5",
+    "2018/05/30",
+    "판매",
+    "750",
+    "4.23",
+    "4.66",
+    "2.82",
+    "2.97",
+    "-",
+    "2.93",
+    "0.610",
+    "한화투자증권주식회사, (주)우리투자증권, 키움증권(주), 한국투자증권, 미래에셋증권 주식회사, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=206",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=206",
+    "collected_at": "2026-09-23T08:26:26.387477+00:00",
+    "http_status": 200,
+    "sha256": "a6044ccfe97bc0c55ca835e3457762fb65567cb029637b4e4eee405d8d962040"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "BNK자산운용",
+        "상품명": "BNK공모주플러스10증권투자신탁1호(채권혼합) Class C-Pe",
+        "상품유형": "혼합채권형",
+        "위험등급": "5",
+        "설정일": "2018/05/30",
+        "판매여부": "판매",
+        "순자산총액": "750",
+        "1년 연평균수익률(%)": "4.23",
+        "3년 연평균수익률(%)": "4.66",
+        "5년 연평균수익률(%)": "2.82",
+        "7년 연평균수익률(%)": "2.97",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "2.93",
+        "연평균수수료율(%)": "0.610",
+        "상품 판매사": "한화투자증권주식회사, (주)우리투자증권, 키움증권(주), 한국투자증권, 미래에셋증권 주식회사, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=206",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=206",
+        "collected_at": "2026-09-23T08:26:26.387477+00:00",
+        "http_status": 200,
+        "sha256": "a6044ccfe97bc0c55ca835e3457762fb65567cb029637b4e4eee405d8d962040"
+      }
+    }
+  ]
+}

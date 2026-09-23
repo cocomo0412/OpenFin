@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.22a0dfe3e85a96c579d15df2",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:bf9141e1ec5b59aa79a1fcf6",
+  "group": "3",
+  "provider": "신한자산운용",
+  "title": "신한AI자산배분증권투자신탁(H)[주식혼합-재간접형](종류C-pe)",
+  "cells": [
+    "신한자산운용",
+    "신한AI자산배분증권투자신탁(H)[주식혼합-재간접형](종류C-pe)",
+    "재간접",
+    "4",
+    "2020/02/06",
+    "판매",
+    "360",
+    "18.96",
+    "13.52",
+    "4.57",
+    "-",
+    "-",
+    "4.60",
+    "1.099",
+    "미래에셋증권 주식회사, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=250",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=250",
+    "collected_at": "2026-09-23T08:27:25.285494+00:00",
+    "http_status": 200,
+    "sha256": "04bced0d6046e850bb38ecf395d73a5d3893b32c643e7cf0354a3a0f2c1c5937"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한자산운용",
+        "상품명": "신한AI자산배분증권투자신탁(H)[주식혼합-재간접형](종류C-pe)",
+        "상품유형": "재간접",
+        "위험등급": "4",
+        "설정일": "2020/02/06",
+        "판매여부": "판매",
+        "순자산총액": "360",
+        "1년 연평균수익률(%)": "18.96",
+        "3년 연평균수익률(%)": "13.52",
+        "5년 연평균수익률(%)": "4.57",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "4.60",
+        "연평균수수료율(%)": "1.099",
+        "상품 판매사": "미래에셋증권 주식회사, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=250",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=250",
+        "collected_at": "2026-09-23T08:27:25.285494+00:00",
+        "http_status": 200,
+        "sha256": "04bced0d6046e850bb38ecf395d73a5d3893b32c643e7cf0354a3a0f2c1c5937"
+      }
+    }
+  ]
+}

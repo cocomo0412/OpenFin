@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.27fbe4e1d74d4c49b81f54f7",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:ad10f8790e9f2920596200b5",
+  "group": "3",
+  "provider": "KCGI자산운용",
+  "title": "KCGI코리아연금증권전환형자투자신탁1호[채권]종류A",
+  "cells": [
+    "KCGI자산운용",
+    "KCGI코리아연금증권전환형자투자신탁1호[채권]종류A",
+    "채권형",
+    "5",
+    "2015/06/29",
+    "판매",
+    "102",
+    "0.47",
+    "3.38",
+    "2.06",
+    "1.83",
+    "1.83",
+    "1.90",
+    "0.302",
+    "KB증권, 대신증권주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=296",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=296",
+    "collected_at": "2026-09-23T08:28:26.430674+00:00",
+    "http_status": 200,
+    "sha256": "9ea54ebf65f534b07bae0b553014920f1259a6aeb677ae0d8287a87c595370b0"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KCGI자산운용",
+        "상품명": "KCGI코리아연금증권전환형자투자신탁1호[채권]종류A",
+        "상품유형": "채권형",
+        "위험등급": "5",
+        "설정일": "2015/06/29",
+        "판매여부": "판매",
+        "순자산총액": "102",
+        "1년 연평균수익률(%)": "0.47",
+        "3년 연평균수익률(%)": "3.38",
+        "5년 연평균수익률(%)": "2.06",
+        "7년 연평균수익률(%)": "1.83",
+        "10년 연평균수익률(%)": "1.83",
+        "누적연평균수익률(%)": "1.90",
+        "연평균수수료율(%)": "0.302",
+        "상품 판매사": "KB증권, 대신증권주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=296",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=296",
+        "collected_at": "2026-09-23T08:28:26.430674+00:00",
+        "http_status": 200,
+        "sha256": "9ea54ebf65f534b07bae0b553014920f1259a6aeb677ae0d8287a87c595370b0"
+      }
+    }
+  ]
+}

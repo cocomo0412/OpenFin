@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.a396ea1943ee2e5652e45cc8",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:59e94d82fb66ed755774fd86",
+  "group": "3",
+  "provider": "신한자산운용",
+  "title": "신한누버거버먼미국가치주증권투자신탁(H)[주식-재간접형](종류C-pe)",
+  "cells": [
+    "신한자산운용",
+    "신한누버거버먼미국가치주증권투자신탁(H)[주식-재간접형](종류C-pe)",
+    "재간접",
+    "4",
+    "2023/01/17",
+    "판매",
+    "323",
+    "30.64",
+    "13.20",
+    "-",
+    "-",
+    "-",
+    "9.91",
+    "0.705",
+    "유진투자증권주식회사, 삼성증권, IBK기업은행, KB국민은행, 미래에셋증권 주식회사, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=256",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=256",
+    "collected_at": "2026-09-23T08:27:33.752651+00:00",
+    "http_status": 200,
+    "sha256": "300507a2100ea92f88d56d1b1bd938c485dc9d34b68b71ff5fb4747cf66558af"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한자산운용",
+        "상품명": "신한누버거버먼미국가치주증권투자신탁(H)[주식-재간접형](종류C-pe)",
+        "상품유형": "재간접",
+        "위험등급": "4",
+        "설정일": "2023/01/17",
+        "판매여부": "판매",
+        "순자산총액": "323",
+        "1년 연평균수익률(%)": "30.64",
+        "3년 연평균수익률(%)": "13.20",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "9.91",
+        "연평균수수료율(%)": "0.705",
+        "상품 판매사": "유진투자증권주식회사, 삼성증권, IBK기업은행, KB국민은행, 미래에셋증권 주식회사, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=256",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=256",
+        "collected_at": "2026-09-23T08:27:33.752651+00:00",
+        "http_status": 200,
+        "sha256": "300507a2100ea92f88d56d1b1bd938c485dc9d34b68b71ff5fb4747cf66558af"
+      }
+    }
+  ]
+}

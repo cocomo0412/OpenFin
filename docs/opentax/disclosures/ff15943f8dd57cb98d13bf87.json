@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.e7f79cecf7d438839212e99f",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:de878053a72d3a164c8141c8",
+  "group": "3",
+  "provider": "우리자산운용",
+  "title": "우리지속가능ESG증권자투자신탁1호(주식)ClassC-P1e",
+  "cells": [
+    "우리자산운용",
+    "우리지속가능ESG증권자투자신탁1호(주식)ClassC-P1e",
+    "주식형",
+    "2",
+    "2021/01/15",
+    "판매",
+    "985",
+    "203.03",
+    "56.08",
+    "25.88",
+    "-",
+    "-",
+    "24.32",
+    "1.017",
+    "유진투자증권주식회사, 우리은행, 아이엠증권, KB국민은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=189",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=189",
+    "collected_at": "2026-09-23T08:26:02.337849+00:00",
+    "http_status": 200,
+    "sha256": "adef8a257520992b88ac6dcb85b700c8688763ce9154c1842458a05a9bf1c4c2"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "우리자산운용",
+        "상품명": "우리지속가능ESG증권자투자신탁1호(주식)ClassC-P1e",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2021/01/15",
+        "판매여부": "판매",
+        "순자산총액": "985",
+        "1년 연평균수익률(%)": "203.03",
+        "3년 연평균수익률(%)": "56.08",
+        "5년 연평균수익률(%)": "25.88",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "24.32",
+        "연평균수수료율(%)": "1.017",
+        "상품 판매사": "유진투자증권주식회사, 우리은행, 아이엠증권, KB국민은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=189",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=189",
+        "collected_at": "2026-09-23T08:26:02.337849+00:00",
+        "http_status": 200,
+        "sha256": "adef8a257520992b88ac6dcb85b700c8688763ce9154c1842458a05a9bf1c4c2"
+      }
+    }
+  ]
+}

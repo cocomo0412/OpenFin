@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.fc6d079829c667deff5b0ab3",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:f1c13dd59963fdd75e4af425",
+  "group": "3",
+  "provider": "NH-Amundi자산운용",
+  "title": "NH-Amundi 100년 기업 그린 코리아 증권투자신탁[주식] Class S-P1(연금저축)",
+  "cells": [
+    "NH-Amundi자산운용",
+    "NH-Amundi 100년 기업 그린 코리아 증권투자신탁[주식] Class S-P1(연금저축)",
+    "주식형",
+    "2",
+    "2020/11/18",
+    "판매",
+    "919",
+    "200.76",
+    "59.49",
+    "27.50",
+    "-",
+    "-",
+    "29.38",
+    "0.688",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=193",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=193",
+    "collected_at": "2026-09-23T08:26:08.167587+00:00",
+    "http_status": 200,
+    "sha256": "8b98862554aea6e54c3636c7423a61a9aeb240b7c24fe1ca455e2d77e77b24cd"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "NH-Amundi자산운용",
+        "상품명": "NH-Amundi 100년 기업 그린 코리아 증권투자신탁[주식] Class S-P1(연금저축)",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2020/11/18",
+        "판매여부": "판매",
+        "순자산총액": "919",
+        "1년 연평균수익률(%)": "200.76",
+        "3년 연평균수익률(%)": "59.49",
+        "5년 연평균수익률(%)": "27.50",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "29.38",
+        "연평균수수료율(%)": "0.688",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=193",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=193",
+        "collected_at": "2026-09-23T08:26:08.167587+00:00",
+        "http_status": 200,
+        "sha256": "8b98862554aea6e54c3636c7423a61a9aeb240b7c24fe1ca455e2d77e77b24cd"
+      }
+    }
+  ]
+}

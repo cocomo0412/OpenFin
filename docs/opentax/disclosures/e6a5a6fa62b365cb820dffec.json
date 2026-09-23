@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.a597aa2f78c77055fc1dc688",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:9f1aa20cf683d1db8168426c",
+  "group": "3",
+  "provider": "교보악사자산운용",
+  "title": "교보악사 내일환매 초단기우량채증권투자신탁[채권] Class C-Pe(연금)",
+  "cells": [
+    "교보악사자산운용",
+    "교보악사 내일환매 초단기우량채증권투자신탁[채권] Class C-Pe(연금)",
+    "채권형",
+    "6",
+    "2022/12/21",
+    "판매",
+    "1,667",
+    "1.81",
+    "3.35",
+    "-",
+    "-",
+    "-",
+    "3.54",
+    "0.210",
+    "(주)우리투자증권, 키움증권(주), 광주은행, 한국투자증권, 삼성증권, 교보증권(주), IBK기업은행, KB증권, 대신증권주식회사, KB국민은행, 신영증권주식회사, NH투자증권, 신한투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=161",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=161",
+    "collected_at": "2026-09-23T08:25:24.992207+00:00",
+    "http_status": 200,
+    "sha256": "8019305179cfa95c6eb11c02431c5b9fed01638c2fab72575353b0e409d246f9"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "교보악사자산운용",
+        "상품명": "교보악사 내일환매 초단기우량채증권투자신탁[채권] Class C-Pe(연금)",
+        "상품유형": "채권형",
+        "위험등급": "6",
+        "설정일": "2022/12/21",
+        "판매여부": "판매",
+        "순자산총액": "1,667",
+        "1년 연평균수익률(%)": "1.81",
+        "3년 연평균수익률(%)": "3.35",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "3.54",
+        "연평균수수료율(%)": "0.210",
+        "상품 판매사": "(주)우리투자증권, 키움증권(주), 광주은행, 한국투자증권, 삼성증권, 교보증권(주), IBK기업은행, KB증권, 대신증권주식회사, KB국민은행, 신영증권주식회사, NH투자증권, 신한투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=161",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=161",
+        "collected_at": "2026-09-23T08:25:24.992207+00:00",
+        "http_status": 200,
+        "sha256": "8019305179cfa95c6eb11c02431c5b9fed01638c2fab72575353b0e409d246f9"
+      }
+    }
+  ]
+}

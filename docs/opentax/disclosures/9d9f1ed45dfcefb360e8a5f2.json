@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.0813d79a248dd6d6e9317934",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:bcef47441d167b83c9724ac0",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자인도5대대표그룹증권투자신탁(주식)(C-P)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자인도5대대표그룹증권투자신탁(주식)(C-P)",
+    "주식형",
+    "1",
+    "2024/01/24",
+    "판매",
+    "254",
+    "-6.38",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-0.56",
+    "1.785",
+    "한화투자증권주식회사, 삼성증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=268",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=268",
+    "collected_at": "2026-09-23T08:27:49.448418+00:00",
+    "http_status": 200,
+    "sha256": "c69a44b9e6da3a4eb6b8a26e68f4ade073bd70d67cb7ef7198101fbcfc1c6646"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자인도5대대표그룹증권투자신탁(주식)(C-P)",
+        "상품유형": "주식형",
+        "위험등급": "1",
+        "설정일": "2024/01/24",
+        "판매여부": "판매",
+        "순자산총액": "254",
+        "1년 연평균수익률(%)": "-6.38",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-0.56",
+        "연평균수수료율(%)": "1.785",
+        "상품 판매사": "한화투자증권주식회사, 삼성증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=268",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=268",
+        "collected_at": "2026-09-23T08:27:49.448418+00:00",
+        "http_status": 200,
+        "sha256": "c69a44b9e6da3a4eb6b8a26e68f4ade073bd70d67cb7ef7198101fbcfc1c6646"
+      }
+    }
+  ]
+}

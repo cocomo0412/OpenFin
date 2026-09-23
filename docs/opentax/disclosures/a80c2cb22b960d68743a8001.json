@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.b97f7397af8763f76644b4df",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:95398b288b31b76da7a1e6dd",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자SSGA글로벌저변동성증권자투자신탁UH(주식)(C-P)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자SSGA글로벌저변동성증권자투자신탁UH(주식)(C-P)",
+    "주식형",
+    "4",
+    "2017/02/13",
+    "판매",
+    "954",
+    "19.73",
+    "14.90",
+    "11.29",
+    "8.89",
+    "-",
+    "8.98",
+    "1.297",
+    "한국투자증권, KB증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=191",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=191",
+    "collected_at": "2026-09-23T08:26:05.166899+00:00",
+    "http_status": 200,
+    "sha256": "eabc7532be120fb9cac084858200900563a0893766d45e4fa596a12269253c14"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자SSGA글로벌저변동성증권자투자신탁UH(주식)(C-P)",
+        "상품유형": "주식형",
+        "위험등급": "4",
+        "설정일": "2017/02/13",
+        "판매여부": "판매",
+        "순자산총액": "954",
+        "1년 연평균수익률(%)": "19.73",
+        "3년 연평균수익률(%)": "14.90",
+        "5년 연평균수익률(%)": "11.29",
+        "7년 연평균수익률(%)": "8.89",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "8.98",
+        "연평균수수료율(%)": "1.297",
+        "상품 판매사": "한국투자증권, KB증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=191",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=191",
+        "collected_at": "2026-09-23T08:26:05.166899+00:00",
+        "http_status": 200,
+        "sha256": "eabc7532be120fb9cac084858200900563a0893766d45e4fa596a12269253c14"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.390d3350f5c799f41438548a",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:c03e3349420062c6815adc4a",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성글로벌중단기채권증권자투자신탁UH[채권-재간접형]_C-Pe",
+  "cells": [
+    "삼성자산운용",
+    "삼성글로벌중단기채권증권자투자신탁UH[채권-재간접형]_C-Pe",
+    "재간접",
+    "4",
+    "2019/05/29",
+    "판매",
+    "161",
+    "17.69",
+    "10.17",
+    "8.14",
+    "6.46",
+    "-",
+    "6.12",
+    "0.403",
+    "미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=285",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=285",
+    "collected_at": "2026-09-23T08:28:12.181372+00:00",
+    "http_status": 200,
+    "sha256": "cc918aea1b1cab461c3f1310492dedbbe878f681b61455cc8f4bc9aae86e909d"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성글로벌중단기채권증권자투자신탁UH[채권-재간접형]_C-Pe",
+        "상품유형": "재간접",
+        "위험등급": "4",
+        "설정일": "2019/05/29",
+        "판매여부": "판매",
+        "순자산총액": "161",
+        "1년 연평균수익률(%)": "17.69",
+        "3년 연평균수익률(%)": "10.17",
+        "5년 연평균수익률(%)": "8.14",
+        "7년 연평균수익률(%)": "6.46",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "6.12",
+        "연평균수수료율(%)": "0.403",
+        "상품 판매사": "미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=285",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=285",
+        "collected_at": "2026-09-23T08:28:12.181372+00:00",
+        "http_status": 200,
+        "sha256": "cc918aea1b1cab461c3f1310492dedbbe878f681b61455cc8f4bc9aae86e909d"
+      }
+    }
+  ]
+}

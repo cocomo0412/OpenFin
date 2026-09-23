@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.6e8e4a2d43359260903f914f",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:9c711fb9849fc578e54b7a37",
+  "group": "3",
+  "provider": "하나자산운용",
+  "title": "하나파워e단기채증권자투자신탁[채권]ClassC-P",
+  "cells": [
+    "하나자산운용",
+    "하나파워e단기채증권자투자신탁[채권]ClassC-P",
+    "채권형",
+    "6",
+    "2017/01/31",
+    "판매",
+    "6,576",
+    "2.47",
+    "3.72",
+    "3.30",
+    "2.72",
+    "-",
+    "2.50",
+    "0.178",
+    "광주은행, 한국투자증권, KB증권, KB국민은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=93",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=93",
+    "collected_at": "2026-09-23T08:23:53.053650+00:00",
+    "http_status": 200,
+    "sha256": "412370cbe6b0d6ea868792e859a429f1ca42b5713736b92769b8b53d99d32cfa"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "하나자산운용",
+        "상품명": "하나파워e단기채증권자투자신탁[채권]ClassC-P",
+        "상품유형": "채권형",
+        "위험등급": "6",
+        "설정일": "2017/01/31",
+        "판매여부": "판매",
+        "순자산총액": "6,576",
+        "1년 연평균수익률(%)": "2.47",
+        "3년 연평균수익률(%)": "3.72",
+        "5년 연평균수익률(%)": "3.30",
+        "7년 연평균수익률(%)": "2.72",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "2.50",
+        "연평균수수료율(%)": "0.178",
+        "상품 판매사": "광주은행, 한국투자증권, KB증권, KB국민은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=93",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=93",
+        "collected_at": "2026-09-23T08:23:53.053650+00:00",
+        "http_status": 200,
+        "sha256": "412370cbe6b0d6ea868792e859a429f1ca42b5713736b92769b8b53d99d32cfa"
+      }
+    }
+  ]
+}

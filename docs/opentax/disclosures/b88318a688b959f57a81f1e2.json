@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.1b2b179e0a6d30ea77592d5b",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:2c741b6781eada7b05119263",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자ACE리츠부동산인프라액티브부동산상장지수투자신탁(재간접형)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자ACE리츠부동산인프라액티브부동산상장지수투자신탁(재간접형)",
+    "부동산",
+    "2",
+    "2026/01/19",
+    "판매",
+    "1,206",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-13.03",
+    "0.147",
+    "메리츠증권(주), 한국투자증권, 삼성증권, KB증권, 신영증권주식회사, 미래에셋증권 주식회사, 주식회사 카카오페이증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=179",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=179",
+    "collected_at": "2026-09-23T08:25:49.355972+00:00",
+    "http_status": 200,
+    "sha256": "2b64cbda315fd6b3f24c92c82b85ca98b5483324ba50b78012228753f128f968"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자ACE리츠부동산인프라액티브부동산상장지수투자신탁(재간접형)",
+        "상품유형": "부동산",
+        "위험등급": "2",
+        "설정일": "2026/01/19",
+        "판매여부": "판매",
+        "순자산총액": "1,206",
+        "1년 연평균수익률(%)": "-",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-13.03",
+        "연평균수수료율(%)": "0.147",
+        "상품 판매사": "메리츠증권(주), 한국투자증권, 삼성증권, KB증권, 신영증권주식회사, 미래에셋증권 주식회사, 주식회사 카카오페이증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=179",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=179",
+        "collected_at": "2026-09-23T08:25:49.355972+00:00",
+        "http_status": 200,
+        "sha256": "2b64cbda315fd6b3f24c92c82b85ca98b5483324ba50b78012228753f128f968"
+      }
+    }
+  ]
+}

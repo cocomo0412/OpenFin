@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.11f8704ecfdfa08b91d400d7",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:18a9d183c143edcf2bd6cf66",
+  "group": "4",
+  "provider": "흥국생명보험",
+  "title": "연금저축세테크연금보험",
+  "cells": [
+    "흥국생명보험",
+    "연금저축세테크연금보험",
+    "금리연동형",
+    "2004/03/01",
+    "중단",
+    "6,508",
+    "-3.53",
+    "0.33",
+    "1.28",
+    "1.62",
+    "1.84",
+    "1.51",
+    "4.008"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=44",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=44",
+    "collected_at": "2026-09-23T08:31:35.327606+00:00",
+    "http_status": 200,
+    "sha256": "8ac787328e2642019ee798f8747c57f471eeb45a70d5e656ad621e2a5abc7ea7"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "흥국생명보험",
+        "상품명": "연금저축세테크연금보험",
+        "상품유형": "금리연동형",
+        "최초판매일": "2004/03/01",
+        "판매여부": "중단",
+        "적립금총액": "6,508",
+        "1년 연평균수익률(%)": "-3.53",
+        "3년 연평균수익률(%)": "0.33",
+        "5년 연평균수익률(%)": "1.28",
+        "7년 연평균수익률(%)": "1.62",
+        "10년 연평균수익률(%)": "1.84",
+        "누적연평균수익률(%)": "1.51",
+        "연평균수수료율(%)": "4.008"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=44",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=44",
+        "collected_at": "2026-09-23T08:31:35.327606+00:00",
+        "http_status": 200,
+        "sha256": "8ac787328e2642019ee798f8747c57f471eeb45a70d5e656ad621e2a5abc7ea7"
+      }
+    }
+  ]
+}

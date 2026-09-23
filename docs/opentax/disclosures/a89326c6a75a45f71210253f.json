@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.783f9da20366cad7a28d5306",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:b86888d2980744d44e178d6e",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 코리아 뉴웨이브 증권 투자신탁(주식) C-P",
+  "cells": [
+    "KB자산운용",
+    "KB 코리아 뉴웨이브 증권 투자신탁(주식) C-P",
+    "주식형",
+    "2",
+    "2020/10/07",
+    "판매",
+    "4,341",
+    "139.51",
+    "37.70",
+    "17.28",
+    "-",
+    "-",
+    "20.58",
+    "1.474",
+    "디비증권주식회사, 한화투자증권주식회사, NH농협은행, 한국투자증권, SK증권주식회사, 우리은행, KB증권, 아이엠증권, KB국민은행, 미래에셋증권 주식회사, NH투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=111",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=111",
+    "collected_at": "2026-09-23T08:24:17.344893+00:00",
+    "http_status": 200,
+    "sha256": "ec1ebfd83881d89dfb9bffd837b617784cb8e2706ad254817e13e10b33c311e3"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 코리아 뉴웨이브 증권 투자신탁(주식) C-P",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2020/10/07",
+        "판매여부": "판매",
+        "순자산총액": "4,341",
+        "1년 연평균수익률(%)": "139.51",
+        "3년 연평균수익률(%)": "37.70",
+        "5년 연평균수익률(%)": "17.28",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "20.58",
+        "연평균수수료율(%)": "1.474",
+        "상품 판매사": "디비증권주식회사, 한화투자증권주식회사, NH농협은행, 한국투자증권, SK증권주식회사, 우리은행, KB증권, 아이엠증권, KB국민은행, 미래에셋증권 주식회사, NH투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=111",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=111",
+        "collected_at": "2026-09-23T08:24:17.344893+00:00",
+        "http_status": 200,
+        "sha256": "ec1ebfd83881d89dfb9bffd837b617784cb8e2706ad254817e13e10b33c311e3"
+      }
+    }
+  ]
+}

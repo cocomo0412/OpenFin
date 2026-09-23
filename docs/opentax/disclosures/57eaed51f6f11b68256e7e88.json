@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.e46a13992def9f15caca3814",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:784b541cae64d4160abef26b",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성코리아중기채권증권자투자신탁 제1호[채권]_C-Pe",
+  "cells": [
+    "삼성자산운용",
+    "삼성코리아중기채권증권자투자신탁 제1호[채권]_C-Pe",
+    "채권형",
+    "5",
+    "2019/02/11",
+    "판매",
+    "1,103",
+    "-5.90",
+    "2.31",
+    "0.74",
+    "0.70",
+    "-",
+    "1.05",
+    "0.306",
+    "디비증권주식회사, (주)우리투자증권, 키움증권(주), 삼성생명보험주식회사, 한국투자증권, 삼성증권, KB증권, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=184",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=184",
+    "collected_at": "2026-09-23T08:25:55.879294+00:00",
+    "http_status": 200,
+    "sha256": "d46a86167fa184684212c7cd9186f996fddb04b8407fa428eda9ede21f6c0ec7"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성코리아중기채권증권자투자신탁 제1호[채권]_C-Pe",
+        "상품유형": "채권형",
+        "위험등급": "5",
+        "설정일": "2019/02/11",
+        "판매여부": "판매",
+        "순자산총액": "1,103",
+        "1년 연평균수익률(%)": "-5.90",
+        "3년 연평균수익률(%)": "2.31",
+        "5년 연평균수익률(%)": "0.74",
+        "7년 연평균수익률(%)": "0.70",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "1.05",
+        "연평균수수료율(%)": "0.306",
+        "상품 판매사": "디비증권주식회사, (주)우리투자증권, 키움증권(주), 삼성생명보험주식회사, 한국투자증권, 삼성증권, KB증권, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=184",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=184",
+        "collected_at": "2026-09-23T08:25:55.879294+00:00",
+        "http_status": 200,
+        "sha256": "d46a86167fa184684212c7cd9186f996fddb04b8407fa428eda9ede21f6c0ec7"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.2859f6ed6e806bf1af3e9445",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:78c3f706f07517768dd7ce87",
+  "group": "3",
+  "provider": "유리자산운용",
+  "title": "유리글로벌Top10주식과단기채증권자투자신탁[채권혼합]_Class C-P2",
+  "cells": [
+    "유리자산운용",
+    "유리글로벌Top10주식과단기채증권자투자신탁[채권혼합]_Class C-P2",
+    "혼합채권형",
+    "4",
+    "2022/01/24",
+    "판매",
+    "225",
+    "20.19",
+    "13.70",
+    "-",
+    "-",
+    "-",
+    "9.15",
+    "0.873",
+    "NH농협은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=274",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=274",
+    "collected_at": "2026-09-23T08:27:57.637814+00:00",
+    "http_status": 200,
+    "sha256": "5cfa7136ad0ad562627ba79c69ef428ee11e11dfe71f2a34cce0d11555e89f3b"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "유리자산운용",
+        "상품명": "유리글로벌Top10주식과단기채증권자투자신탁[채권혼합]_Class C-P2",
+        "상품유형": "혼합채권형",
+        "위험등급": "4",
+        "설정일": "2022/01/24",
+        "판매여부": "판매",
+        "순자산총액": "225",
+        "1년 연평균수익률(%)": "20.19",
+        "3년 연평균수익률(%)": "13.70",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "9.15",
+        "연평균수수료율(%)": "0.873",
+        "상품 판매사": "NH농협은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=274",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=274",
+        "collected_at": "2026-09-23T08:27:57.637814+00:00",
+        "http_status": 200,
+        "sha256": "5cfa7136ad0ad562627ba79c69ef428ee11e11dfe71f2a34cce0d11555e89f3b"
+      }
+    }
+  ]
+}

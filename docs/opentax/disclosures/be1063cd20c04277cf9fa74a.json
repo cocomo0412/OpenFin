@@ -1,0 +1,37 @@
+{
+  "id": "finance.account.isa-account.fsc.trust-discretionary",
+  "source_id": "source.mirae.isa-guide",
+  "summary": [
+    {
+      "label": "가입대상",
+      "condition": "만 19세 이상 거주자 또는 직전연도 근로소득이 있는 만 15~19세 미만 거주자. 직전 3개 과세기간 중 금융소득종합과세 대상 여부 등 법정 제외요건을 확인합니다."
+    },
+    {
+      "label": "납입한도·기간",
+      "condition": "연 2천만원, 총 1억원 한도이며 미납입 한도는 이월할 수 있습니다. 의무가입기간은 3년입니다."
+    },
+    {
+      "label": "세제혜택",
+      "condition": "일반형 200만원, 서민형·농어민형 400만원까지 비과세하며 초과 순이익에 9.9%(지방소득세 포함) 분리과세가 적용됩니다. 유형별 소득·자격요건을 충족해야 합니다."
+    },
+    {
+      "label": "유형별 요건",
+      "condition": "서민형은 총급여 5천만원 또는 종합소득 3천8백만원 이하, 농어민형은 종합소득 3천8백만원 이하 등 해당 요건과 소득 귀속연도를 확인합니다."
+    },
+    {
+      "label": "중도인출",
+      "condition": "납입원금 범위에서 중도인출할 수 있으나 인출금액만큼 납입한도가 복원되지는 않습니다."
+    },
+    {
+      "label": "운용방식",
+      "condition": "중개형은 투자자가 투자상품을 선택하고, 신탁형은 운용 지시를 하며, 일임형은 금융회사가 일임 운용합니다. 유형별 투자 가능 상품과 수수료는 다릅니다."
+    }
+  ],
+  "receipt": {
+    "url": "https://securities.miraeasset.com/hks/hks4659/n02.do",
+    "final_url": "https://securities.miraeasset.com/hks/hks4659/n02.do",
+    "collected_at": "2026-09-23T08:40:38.861583+00:00",
+    "http_status": 200,
+    "sha256": "6287c3c1487b5d7a1ef676b0e7a2ce39a028822a6a352c1e4ff31633025b7f9e"
+  }
+}

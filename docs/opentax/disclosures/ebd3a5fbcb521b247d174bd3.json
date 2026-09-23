@@ -1,0 +1,51 @@
+{
+  "id": "finance.insurance.klia.whole-life.kb라이프생명.l611nnnb1a1141900",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L611NNNB1A1141900",
+  "group": "024400010001",
+  "title": "KB 달러평생보장보험 무배당(일반심사형)",
+  "provider": "KB라이프생명",
+  "cells": [
+    "KB라이프생명",
+    "KB 달러평생보장보험 무배당(일반심사형)",
+    "주계약",
+    "사망보험금 *지급사유 : 피보험자가 보험기간(종신) 중 사망하였을 때",
+    "100,000달러",
+    "248 USD",
+    "227 USD",
+    "2.75 %",
+    "-",
+    "-",
+    "95.8 %",
+    "97.5 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "기본형",
+    "일반",
+    "-",
+    "-",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "대면채널",
+    "2026-07-01",
+    "Download",
+    "보기",
+    "1588-3374"
+  ],
+  "coverage": [
+    "사망보험금 *지급사유 : 피보험자가 보험기간(종신) 중 사망하였을 때"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=13632&seq=20"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=14&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=14&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:33.298220+00:00",
+    "http_status": 200,
+    "sha256": "a140914751dcd6aacd6069cffa0586e1adc99c00e1cb2b44e73d807907c3cc79"
+  }
+}

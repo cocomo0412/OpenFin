@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.d42d8cd601d89a9d5d58ac23",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:1ae1686ba78ae585ff0996c9",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋인덱스플러스연금증권전환형자투자신탁1호(주식)종류C-e",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋인덱스플러스연금증권전환형자투자신탁1호(주식)종류C-e",
+    "주식형",
+    "1",
+    "2017/09/25",
+    "판매",
+    "11,081",
+    "231.22",
+    "61.96",
+    "27.36",
+    "27.48",
+    "-",
+    "19.34",
+    "0.549",
+    "(주)우리투자증권, 키움증권(주), 삼성증권, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=70",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=70",
+    "collected_at": "2026-09-23T08:23:22.049409+00:00",
+    "http_status": 200,
+    "sha256": "70e9d2fc830428e65d263604f6a16ae6d5b3c4fa92068e236856145da22010dc"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋인덱스플러스연금증권전환형자투자신탁1호(주식)종류C-e",
+        "상품유형": "주식형",
+        "위험등급": "1",
+        "설정일": "2017/09/25",
+        "판매여부": "판매",
+        "순자산총액": "11,081",
+        "1년 연평균수익률(%)": "231.22",
+        "3년 연평균수익률(%)": "61.96",
+        "5년 연평균수익률(%)": "27.36",
+        "7년 연평균수익률(%)": "27.48",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "19.34",
+        "연평균수수료율(%)": "0.549",
+        "상품 판매사": "(주)우리투자증권, 키움증권(주), 삼성증권, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=70",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=70",
+        "collected_at": "2026-09-23T08:23:22.049409+00:00",
+        "http_status": 200,
+        "sha256": "70e9d2fc830428e65d263604f6a16ae6d5b3c4fa92068e236856145da22010dc"
+      }
+    }
+  ]
+}

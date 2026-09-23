@@ -160,14 +160,14 @@
   "export_audit": {
     "built_at": "2026-09-23T07:29:03.565Z",
     "domain_export_count": 10,
-    "search_index_item_count": 76323,
-    "canonical_product_count": 48846,
+    "search_index_item_count": 80770,
+    "canonical_product_count": 53292,
     "duplicate_canonical_product_count": 0,
     "canonical_merge_count": 49,
     "checksum_covered_export_count": 18,
     "broken_relation_count": 0,
-    "relationship_count": 212590,
-    "collection_failure_sources": 135
+    "relationship_count": 220480,
+    "collection_failure_sources": 136
   },
   "operating_policy": {
     "allowed": [
@@ -201,12 +201,11 @@
   },
   "runtime_quality_metrics": {
     "catalog_status_counts": {
-      "active": 1886,
-      "reference_only": 73491,
-      "unknown": 355
+      "active": 256,
+      "reference_only": 79926
     },
-    "runtime_discovery_eligible_count": 26,
-    "exact_discovery_candidate_count": 15,
+    "runtime_discovery_eligible_count": 0,
+    "exact_discovery_candidate_count": 0,
     "duplicate_canonical_product_count": 0,
     "canonical_merge_count": 49,
     "exact_id_duplicate_count": 0,
@@ -5423,7 +5422,7 @@
     "migration_notice": "Historical upstream evidence; identity redacted. Not evidence for current deployment.",
     "evidence_path": "opentax/live-regression-current.json",
     "evidence_checksum": "e1c3d057e9c005525e6d411f7e8892d91e67e7feb3ffda9ba3e08cb22d2916ba",
-    "expected_generation_id": "0b94989ce6aadedc7ce1f792dc1ff7867cae9ea6bf3f75ab52eb705b7e3b9bdb",
+    "expected_generation_id": "e9caabfb0ce52ac8e64850460680229aff7f7d6ddabc5fa4d174da8c63a897e6",
     "expected_fixture_checksum": "sha256:1030ce9505034216880ef47384cea521cc76000089d4b32942ba53a68c2c7989",
     "validation_status": "failed",
     "source_evidence_path": "evidence/live-regression/current.json"
@@ -5445,7 +5444,7 @@
         "deployment_commit": "b6c028524f79abd236d6e8d54f026d9119ede80d",
         "runtime_version": "openfin-mcp-dev",
         "manifest_version": "KR-FINANCE-ONTOLOGY-MANIFEST-2026.07.18.1",
-        "live_expected_generation_id": "0b94989ce6aadedc7ce1f792dc1ff7867cae9ea6bf3f75ab52eb705b7e3b9bdb",
+        "live_expected_generation_id": "e9caabfb0ce52ac8e64850460680229aff7f7d6ddabc5fa4d174da8c63a897e6",
         "live_evidence": {
           "path": "evidence/live-regression/current.json",
           "checksum": "e1c3d057e9c005525e6d411f7e8892d91e67e7feb3ffda9ba3e08cb22d2916ba",
@@ -5478,7 +5477,7 @@
         "deployment_commit": "b6c028524f79abd236d6e8d54f026d9119ede80d",
         "runtime_version": "openfin-mcp-dev",
         "manifest_version": "KR-FINANCE-ONTOLOGY-MANIFEST-2026.07.18.1",
-        "live_expected_generation_id": "0b94989ce6aadedc7ce1f792dc1ff7867cae9ea6bf3f75ab52eb705b7e3b9bdb",
+        "live_expected_generation_id": "e9caabfb0ce52ac8e64850460680229aff7f7d6ddabc5fa4d174da8c63a897e6",
         "live_evidence": {
           "path": "evidence/live-regression/current.json",
           "checksum": "e1c3d057e9c005525e6d411f7e8892d91e67e7feb3ffda9ba3e08cb22d2916ba",
@@ -5505,7 +5504,7 @@
         "deployment_commit": "b6c028524f79abd236d6e8d54f026d9119ede80d",
         "runtime_version": "openfin-mcp-dev",
         "manifest_version": "KR-FINANCE-ONTOLOGY-MANIFEST-2026.07.18.1",
-        "live_expected_generation_id": "0b94989ce6aadedc7ce1f792dc1ff7867cae9ea6bf3f75ab52eb705b7e3b9bdb",
+        "live_expected_generation_id": "e9caabfb0ce52ac8e64850460680229aff7f7d6ddabc5fa4d174da8c63a897e6",
         "live_evidence": {
           "path": "evidence/live-regression/current.json",
           "checksum": "e1c3d057e9c005525e6d411f7e8892d91e67e7feb3ffda9ba3e08cb22d2916ba",
@@ -5530,7 +5529,7 @@
         "deployment_commit": "b6c028524f79abd236d6e8d54f026d9119ede80d",
         "runtime_version": "openfin-mcp-dev",
         "manifest_version": "KR-FINANCE-ONTOLOGY-MANIFEST-2026.07.18.1",
-        "live_expected_generation_id": "0b94989ce6aadedc7ce1f792dc1ff7867cae9ea6bf3f75ab52eb705b7e3b9bdb",
+        "live_expected_generation_id": "e9caabfb0ce52ac8e64850460680229aff7f7d6ddabc5fa4d174da8c63a897e6",
         "live_evidence": {
           "path": "evidence/live-regression/current.json",
           "checksum": "e1c3d057e9c005525e6d411f7e8892d91e67e7feb3ffda9ba3e08cb22d2916ba",
@@ -5558,7 +5557,7 @@
         "deployment_commit": "b6c028524f79abd236d6e8d54f026d9119ede80d",
         "runtime_version": "openfin-mcp-dev",
         "manifest_version": "KR-FINANCE-ONTOLOGY-MANIFEST-2026.07.18.1",
-        "live_expected_generation_id": "0b94989ce6aadedc7ce1f792dc1ff7867cae9ea6bf3f75ab52eb705b7e3b9bdb",
+        "live_expected_generation_id": "e9caabfb0ce52ac8e64850460680229aff7f7d6ddabc5fa4d174da8c63a897e6",
         "live_evidence": {
           "path": "evidence/live-regression/current.json",
           "checksum": "e1c3d057e9c005525e6d411f7e8892d91e67e7feb3ffda9ba3e08cb22d2916ba",
@@ -5583,7 +5582,7 @@
         "deployment_commit": "b6c028524f79abd236d6e8d54f026d9119ede80d",
         "runtime_version": "openfin-mcp-dev",
         "manifest_version": "KR-FINANCE-ONTOLOGY-MANIFEST-2026.07.18.1",
-        "live_expected_generation_id": "0b94989ce6aadedc7ce1f792dc1ff7867cae9ea6bf3f75ab52eb705b7e3b9bdb",
+        "live_expected_generation_id": "e9caabfb0ce52ac8e64850460680229aff7f7d6ddabc5fa4d174da8c63a897e6",
         "live_evidence": {
           "path": "evidence/live-regression/current.json",
           "checksum": "e1c3d057e9c005525e6d411f7e8892d91e67e7feb3ffda9ba3e08cb22d2916ba",
@@ -5609,7 +5608,7 @@
         "deployment_commit": "b6c028524f79abd236d6e8d54f026d9119ede80d",
         "runtime_version": "openfin-mcp-dev",
         "manifest_version": "KR-FINANCE-ONTOLOGY-MANIFEST-2026.07.18.1",
-        "live_expected_generation_id": "0b94989ce6aadedc7ce1f792dc1ff7867cae9ea6bf3f75ab52eb705b7e3b9bdb",
+        "live_expected_generation_id": "e9caabfb0ce52ac8e64850460680229aff7f7d6ddabc5fa4d174da8c63a897e6",
         "live_evidence": {
           "path": "evidence/live-regression/current.json",
           "checksum": "e1c3d057e9c005525e6d411f7e8892d91e67e7feb3ffda9ba3e08cb22d2916ba",
@@ -5622,15 +5621,15 @@
   "export_checksum": "a539451ea55234261b435971ebabc4114ac9fff05bba54fa0ef6c4004e659bdf",
   "generated_at": "2026-09-23T07:29:03.565Z",
   "canonical": {
-    "item_count": 76323,
+    "item_count": 80770,
     "decision_snapshot_count": 10,
-    "source_count": 155,
-    "product_count": 48846,
-    "canonical_product_count": 48846,
+    "source_count": 156,
+    "product_count": 53292,
+    "canonical_product_count": 53292,
     "export_count": 10,
-    "search_item_count": 76323,
-    "relationship_count": 212590,
-    "content_checksum": "5c061cc06f93fe1b17cf2e860dc0f703c4319490389670ca648853a48dc8e576"
+    "search_item_count": 80770,
+    "relationship_count": 220480,
+    "content_checksum": "c9258bfdb514c30681b4b7297e62de5437e0f9780a7dc5ef08c385ad08e89958"
   },
   "domain_readiness": {
     "deposit": {
@@ -5799,9 +5798,9 @@
       "schema_defined": true,
       "structural_value_completeness": 0,
       "required_field_total": 7049,
-      "value_complete_field_count": 526,
+      "value_complete_field_count": 15,
       "field_verified_count": 0,
-      "value_field_coverage": 0.07462051354802099,
+      "value_field_coverage": 0.0021279614129663784,
       "reviewed_assertion_coverage": 0,
       "complete_field_count": 0,
       "verified_candidate_count": 0,
@@ -5813,12 +5812,12 @@
         "STRICT_OFFER_SNAPSHOT_MISSING"
       ],
       "missing_required_fields": {
-        "annual_fee_krw": 977,
+        "annual_fee_krw": 1007,
         "previous_month_spend_krw": 1007,
         "excluded_spend_conditions": 1007,
-        "benefit_rate_percent": 593,
-        "monthly_benefit_limit_krw": 958,
-        "per_transaction_limit_krw": 974,
+        "benefit_rate_percent": 992,
+        "monthly_benefit_limit_krw": 1007,
+        "per_transaction_limit_krw": 1007,
         "benefit_overlap_policy": 1007
       },
       "data_layers": {
@@ -5828,7 +5827,7 @@
           "lineage": "source_receipt"
         },
         "normalized": {
-          "item_count": 1007,
+          "item_count": 22,
           "status": "available",
           "lineage": "decision_snapshot"
         },
@@ -5918,8 +5917,8 @@
       }
     },
     "insurance": {
-      "item_count": 1071,
-      "catalog_item_count": 1071,
+      "item_count": 1155,
+      "catalog_item_count": 1155,
       "strict_offer_count": 0,
       "strict_option_count": 0,
       "structural_option_count": 0,
@@ -5937,7 +5936,7 @@
       "required_comparison_candidates": null,
       "required_verified_candidates": null,
       "sales_verification_ttl_hours": null,
-      "structural_candidate_count": 1071,
+      "structural_candidate_count": 1155,
       "value_complete_candidate_count": 0,
       "strict_type_schema_candidate_count": 0,
       "field_verified_candidate_count": 0,
@@ -5950,10 +5949,10 @@
       "public_recommendation_candidate_count": 0,
       "schema_defined": true,
       "structural_value_completeness": 0,
-      "required_field_total": 9639,
-      "value_complete_field_count": 1042,
+      "required_field_total": 10395,
+      "value_complete_field_count": 74,
       "field_verified_count": 0,
-      "value_field_coverage": 0.10810250025936301,
+      "value_field_coverage": 0.007118807118807119,
       "reviewed_assertion_coverage": 0,
       "complete_field_count": 0,
       "verified_candidate_count": 0,
@@ -5965,24 +5964,24 @@
         "STRICT_OFFER_SNAPSHOT_MISSING"
       ],
       "missing_required_fields": {
-        "coverage_items": 1071,
-        "coverage_amount_krw": 29,
-        "exclusions": 1071,
-        "waiting_period_days": 1071,
-        "reduced_benefit_period_days": 1071,
-        "renewable": 1071,
-        "premium_payment_term_months": 1071,
-        "insurance_term_months": 1071,
-        "surrender_value_condition": 1071
+        "coverage_items": 1155,
+        "coverage_amount_krw": 1081,
+        "exclusions": 1155,
+        "waiting_period_days": 1155,
+        "reduced_benefit_period_days": 1155,
+        "renewable": 1155,
+        "premium_payment_term_months": 1155,
+        "insurance_term_months": 1155,
+        "surrender_value_condition": 1155
       },
       "data_layers": {
         "raw": {
-          "item_count": 1071,
+          "item_count": 1155,
           "status": "available",
           "lineage": "source_receipt"
         },
         "normalized": {
-          "item_count": 1071,
+          "item_count": 74,
           "status": "available",
           "lineage": "decision_snapshot"
         },
@@ -6049,27 +6048,27 @@
     }
   },
   "quality_policy_version": "openfin-release-policy-v1",
-  "quality_hash": "19e742690b7e28d4f15aaac33593a315cc7825509548479c1abe19bc8584e229",
+  "quality_hash": "ff2d1b4edd61724c4f3d2903ab884a1ead9b2c40742780bfcdb519d5af4faf7b",
   "platform_release_status": "ready",
   "comparison_release_status": "limited",
   "recommendation_release_status": "blocked",
   "core_search_status": "ready",
   "comparison_status": "limited",
   "recommendation_status": "blocked",
-  "generation_id": "0b94989ce6aadedc7ce1f792dc1ff7867cae9ea6bf3f75ab52eb705b7e3b9bdb",
+  "generation_id": "e9caabfb0ce52ac8e64850460680229aff7f7d6ddabc5fa4d174da8c63a897e6",
   "artifact_contract": {
     "version": "openfin-artifact-contract-v1",
     "readiness_schema_version": "openfin-readiness-v2",
-    "generation_id": "0b94989ce6aadedc7ce1f792dc1ff7867cae9ea6bf3f75ab52eb705b7e3b9bdb",
+    "generation_id": "e9caabfb0ce52ac8e64850460680229aff7f7d6ddabc5fa4d174da8c63a897e6",
     "deployment_commit": "875f06b7fb19e6603dbecee7cf45b53b1ac13e6d",
-    "canonical_content_checksum": "5c061cc06f93fe1b17cf2e860dc0f703c4319490389670ca648853a48dc8e576",
-    "search_index_checksum": "ea99ff3c15e89b0fcaf8e41a40fc17ec60a0dd8fa532d5cee383e8c81a499a96",
-    "source_status_checksum": "8c3d0f24ebb16459749a34ed4e919a103252b45d118b5f138f09ef850bd3f17b",
+    "canonical_content_checksum": "c9258bfdb514c30681b4b7297e62de5437e0f9780a7dc5ef08c385ad08e89958",
+    "search_index_checksum": "3ee482040578d8a343692e376d2f1d47313df574aebf7b9d1d8de9a98e67f499",
+    "source_status_checksum": "e11d9df11be827ffbdc97f2e3d51f2dcaa65b90b11cbce27f77568591b9890bd",
     "release_policy_checksum": "095166ae1de036d809bcd40faea1eb64a5923de290d96ca4bede21b7f17ae269",
     "capability_policy_checksum": "dfb4b5d4bac533d2a34b9c5ff0117dd0c67b49ebd2ba8e4fba2bc3a21cb6e35f",
     "capability_status_checksum": "d0dbabb559477fb8c943ef76e48afb94665d9223594e2d41aed65c4ebeaecb79",
     "fixture_checksum": "sha256:1030ce9505034216880ef47384cea521cc76000089d4b32942ba53a68c2c7989",
-    "candidate_set_checksum": "sha256:5357e5b68b5b58bc7dd84f391448011833a9212d5a9cbd3c46f61c23545b6d66",
+    "candidate_set_checksum": "sha256:7d4d05c6fc1fb0e884690af135a4037cb6ef9847ca34eea08ed2fb274963fd86",
     "candidate_content_checksum_policy": "immutable_candidate_set_checksum",
     "quality_suite_transitive_checksum": "sha256:64b626ea6c32bd2a9cd6e950df5c26245c907c8eabbb72540c423c4e401ecef5"
   },
@@ -6337,9 +6336,9 @@
           "schema_defined": true,
           "structural_value_completeness": 0,
           "required_field_total": 7049,
-          "value_complete_field_count": 526,
+          "value_complete_field_count": 15,
           "field_verified_count": 0,
-          "value_field_coverage": 0.07462051354802099,
+          "value_field_coverage": 0.0021279614129663784,
           "reviewed_assertion_coverage": 0,
           "complete_field_count": 0,
           "verified_candidate_count": 0,
@@ -6351,12 +6350,12 @@
             "STRICT_OFFER_SNAPSHOT_MISSING"
           ],
           "missing_required_fields": {
-            "annual_fee_krw": 977,
+            "annual_fee_krw": 1007,
             "previous_month_spend_krw": 1007,
             "excluded_spend_conditions": 1007,
-            "benefit_rate_percent": 593,
-            "monthly_benefit_limit_krw": 958,
-            "per_transaction_limit_krw": 974,
+            "benefit_rate_percent": 992,
+            "monthly_benefit_limit_krw": 1007,
+            "per_transaction_limit_krw": 1007,
             "benefit_overlap_policy": 1007
           },
           "data_layers": {
@@ -6366,7 +6365,7 @@
               "lineage": "source_receipt"
             },
             "normalized": {
-              "item_count": 1007,
+              "item_count": 22,
               "status": "available",
               "lineage": "decision_snapshot"
             },
@@ -6465,11 +6464,11 @@
       {
         "id": "insurance-readiness",
         "domain": "insurance",
-        "item_count": 1071,
-        "product_count": 1071,
+        "item_count": 1155,
+        "product_count": 1155,
         "quality_summary": {
-          "item_count": 1071,
-          "catalog_item_count": 1071,
+          "item_count": 1155,
+          "catalog_item_count": 1155,
           "strict_offer_count": 0,
           "strict_option_count": 0,
           "structural_option_count": 0,
@@ -6487,7 +6486,7 @@
           "required_comparison_candidates": null,
           "required_verified_candidates": null,
           "sales_verification_ttl_hours": null,
-          "structural_candidate_count": 1071,
+          "structural_candidate_count": 1155,
           "value_complete_candidate_count": 0,
           "strict_type_schema_candidate_count": 0,
           "field_verified_candidate_count": 0,
@@ -6500,10 +6499,10 @@
           "public_recommendation_candidate_count": 0,
           "schema_defined": true,
           "structural_value_completeness": 0,
-          "required_field_total": 9639,
-          "value_complete_field_count": 1042,
+          "required_field_total": 10395,
+          "value_complete_field_count": 74,
           "field_verified_count": 0,
-          "value_field_coverage": 0.10810250025936301,
+          "value_field_coverage": 0.007118807118807119,
           "reviewed_assertion_coverage": 0,
           "complete_field_count": 0,
           "verified_candidate_count": 0,
@@ -6515,24 +6514,24 @@
             "STRICT_OFFER_SNAPSHOT_MISSING"
           ],
           "missing_required_fields": {
-            "coverage_items": 1071,
-            "coverage_amount_krw": 29,
-            "exclusions": 1071,
-            "waiting_period_days": 1071,
-            "reduced_benefit_period_days": 1071,
-            "renewable": 1071,
-            "premium_payment_term_months": 1071,
-            "insurance_term_months": 1071,
-            "surrender_value_condition": 1071
+            "coverage_items": 1155,
+            "coverage_amount_krw": 1081,
+            "exclusions": 1155,
+            "waiting_period_days": 1155,
+            "reduced_benefit_period_days": 1155,
+            "renewable": 1155,
+            "premium_payment_term_months": 1155,
+            "insurance_term_months": 1155,
+            "surrender_value_condition": 1155
           },
           "data_layers": {
             "raw": {
-              "item_count": 1071,
+              "item_count": 1155,
               "status": "available",
               "lineage": "source_receipt"
             },
             "normalized": {
-              "item_count": 1071,
+              "item_count": 74,
               "status": "available",
               "lineage": "decision_snapshot"
             },

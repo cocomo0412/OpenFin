@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.aadee19b8df0de3745b01173",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:6e6b48ee8b4b752d01df6dbc",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자GoldmanSachs미국테크증권자투자신탁H(주식)(C-P)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자GoldmanSachs미국테크증권자투자신탁H(주식)(C-P)",
+    "주식형",
+    "2",
+    "2025/08/28",
+    "판매",
+    "8,052",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "29.40",
+    "1.406",
+    "한국투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=84",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=84",
+    "collected_at": "2026-09-23T08:23:40.975561+00:00",
+    "http_status": 200,
+    "sha256": "4aeba9021d6bc2c73c4c12f7edaa7ce50f81f11f4e931e889666b5a06bf58e16"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자GoldmanSachs미국테크증권자투자신탁H(주식)(C-P)",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2025/08/28",
+        "판매여부": "판매",
+        "순자산총액": "8,052",
+        "1년 연평균수익률(%)": "-",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "29.40",
+        "연평균수수료율(%)": "1.406",
+        "상품 판매사": "한국투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=84",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=84",
+        "collected_at": "2026-09-23T08:23:40.975561+00:00",
+        "http_status": 200,
+        "sha256": "4aeba9021d6bc2c73c4c12f7edaa7ce50f81f11f4e931e889666b5a06bf58e16"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.cd04f4d11ca794f40d13d519",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:70199f915d6b96910a29aaac",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성클래식밸류플러스연금증권자투자신탁 제1호[주식]_Ce",
+  "cells": [
+    "삼성자산운용",
+    "삼성클래식밸류플러스연금증권자투자신탁 제1호[주식]_Ce",
+    "주식형",
+    "2",
+    "2014/07/25",
+    "판매",
+    "1,887",
+    "187.90",
+    "54.54",
+    "25.50",
+    "25.60",
+    "18.42",
+    "15.50",
+    "1.047",
+    "삼성생명보험주식회사, 삼성증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=154",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=154",
+    "collected_at": "2026-09-23T08:25:15.541901+00:00",
+    "http_status": 200,
+    "sha256": "fde5f710d1614485c6fbbbc1ca1833b0a96ef186812f23fec256edbbf92a0427"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성클래식밸류플러스연금증권자투자신탁 제1호[주식]_Ce",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2014/07/25",
+        "판매여부": "판매",
+        "순자산총액": "1,887",
+        "1년 연평균수익률(%)": "187.90",
+        "3년 연평균수익률(%)": "54.54",
+        "5년 연평균수익률(%)": "25.50",
+        "7년 연평균수익률(%)": "25.60",
+        "10년 연평균수익률(%)": "18.42",
+        "누적연평균수익률(%)": "15.50",
+        "연평균수수료율(%)": "1.047",
+        "상품 판매사": "삼성생명보험주식회사, 삼성증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=154",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=154",
+        "collected_at": "2026-09-23T08:25:15.541901+00:00",
+        "http_status": 200,
+        "sha256": "fde5f710d1614485c6fbbbc1ca1833b0a96ef186812f23fec256edbbf92a0427"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.c5d335742093411475e03b5b",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:16b355cb74a000374d3646fe",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 연금 성장주 증권 전환형 자투자신탁(주식) C 클래스",
+  "cells": [
+    "KB자산운용",
+    "KB 연금 성장주 증권 전환형 자투자신탁(주식) C 클래스",
+    "주식형",
+    "2",
+    "2010/07/09",
+    "판매",
+    "123,181",
+    "194.95",
+    "57.86",
+    "27.90",
+    "27.70",
+    "20.44",
+    "13.57",
+    "1.440",
+    "키움증권(주), 한국투자증권, 삼성증권, KB증권, KB국민은행, 미래에셋증권 주식회사, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=11",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=11",
+    "collected_at": "2026-09-23T08:21:59.995626+00:00",
+    "http_status": 200,
+    "sha256": "964abcba77e6101d293ad1eca8ab2ebc07106366dad373a979957c6a2e18bc12"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 연금 성장주 증권 전환형 자투자신탁(주식) C 클래스",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2010/07/09",
+        "판매여부": "판매",
+        "순자산총액": "123,181",
+        "1년 연평균수익률(%)": "194.95",
+        "3년 연평균수익률(%)": "57.86",
+        "5년 연평균수익률(%)": "27.90",
+        "7년 연평균수익률(%)": "27.70",
+        "10년 연평균수익률(%)": "20.44",
+        "누적연평균수익률(%)": "13.57",
+        "연평균수수료율(%)": "1.440",
+        "상품 판매사": "키움증권(주), 한국투자증권, 삼성증권, KB증권, KB국민은행, 미래에셋증권 주식회사, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=11",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=11",
+        "collected_at": "2026-09-23T08:21:59.995626+00:00",
+        "http_status": 200,
+        "sha256": "964abcba77e6101d293ad1eca8ab2ebc07106366dad373a979957c6a2e18bc12"
+      }
+    }
+  ]
+}

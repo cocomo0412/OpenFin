@@ -1,0 +1,52 @@
+{
+  "id": "finance.insurance.klia.whole-life.nh농협생명.l4202460001nnn024700020244000102440001000102440001000100010244000100010001000101203",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L4202460001NNN024700020244000102440001000102440001000100010244000100010001000101203",
+  "group": "024400010001",
+  "title": "마이초이스NH종신보험(표준형,무배당)_2607",
+  "provider": "NH농협생명",
+  "cells": [
+    "NH농협생명",
+    "마이초이스NH종신보험(표준형,무배당)_2607",
+    "주계약",
+    "사망보험금 *지급사유 : 피보험자가 보험기간(종신) 중 사망하였을 경우",
+    "10,000만원",
+    "333,000 원",
+    "314,000 원",
+    "2.60 %",
+    "-",
+    "-",
+    "129.4 %",
+    "134.9 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "기본형",
+    "일반",
+    "-",
+    "-",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "대면채널",
+    "2026-07-01",
+    "Download",
+    "보기",
+    "1544-4000"
+  ],
+  "coverage": [
+    "사망보험금 *지급사유 : 피보험자가 보험기간(종신) 중 사망하였을 경우",
+    "보험료납입면제특약(주계약,무배당)_T 1종(기본형) *지급사유 : 이 특약의 보험기간 중 보장개시일 이후에 피보험자가 장해분류표(약관 참조) 중 동일한 재해 또는 재해 이외의 동일한 원인으로 여러 신체부위의 장해지급률을 더하여 장해지급률이 50% 이상인 장해상태가 되었을때"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=45912&seq=1"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=19&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=19&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:36.418391+00:00",
+    "http_status": 200,
+    "sha256": "7a6f17b81511473324395ff12749fc08606308b46073ffec9abffdea3bcede36"
+  }
+}

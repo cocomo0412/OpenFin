@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.2f2637b0be1f0606a7e979d0",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:5e5d2fece908fd0c6cb6145c",
+  "group": "3",
+  "provider": "흥국자산운용",
+  "title": "흥국공모주로우볼채움플러스증권투자신탁1호[채권혼합]C-p",
+  "cells": [
+    "흥국자산운용",
+    "흥국공모주로우볼채움플러스증권투자신탁1호[채권혼합]C-p",
+    "혼합채권형",
+    "5",
+    "2015/09/03",
+    "판매",
+    "3,233",
+    "12.96",
+    "10.39",
+    "5.95",
+    "5.63",
+    "5.25",
+    "5.25",
+    "0.620",
+    "한국투자증권, KB증권, 대신증권주식회사, 아이엠증권, 신영증권주식회사, NH투자증권, 신한투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=124",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=124",
+    "collected_at": "2026-09-23T08:24:35.828473+00:00",
+    "http_status": 200,
+    "sha256": "733a909475947491ecf59120502a02a14c502ae605d95e167d9c29c9e720b11e"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "흥국자산운용",
+        "상품명": "흥국공모주로우볼채움플러스증권투자신탁1호[채권혼합]C-p",
+        "상품유형": "혼합채권형",
+        "위험등급": "5",
+        "설정일": "2015/09/03",
+        "판매여부": "판매",
+        "순자산총액": "3,233",
+        "1년 연평균수익률(%)": "12.96",
+        "3년 연평균수익률(%)": "10.39",
+        "5년 연평균수익률(%)": "5.95",
+        "7년 연평균수익률(%)": "5.63",
+        "10년 연평균수익률(%)": "5.25",
+        "누적연평균수익률(%)": "5.25",
+        "연평균수수료율(%)": "0.620",
+        "상품 판매사": "한국투자증권, KB증권, 대신증권주식회사, 아이엠증권, 신영증권주식회사, NH투자증권, 신한투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=124",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=124",
+        "collected_at": "2026-09-23T08:24:35.828473+00:00",
+        "http_status": 200,
+        "sha256": "733a909475947491ecf59120502a02a14c502ae605d95e167d9c29c9e720b11e"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.87cccf4f8d1ee2750aca351e",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:631d79124501656317780ee3",
+  "group": "4",
+  "provider": "푸본현대생명보험",
+  "title": "현대라이프 MAX 연금저축보험 무배당",
+  "cells": [
+    "푸본현대생명보험",
+    "현대라이프 MAX 연금저축보험 무배당",
+    "금리연동형",
+    "2017/01/01",
+    "중단",
+    "5,321",
+    "-6.87",
+    "-1.54",
+    "-0.49",
+    "-0.03",
+    "-",
+    "0.32",
+    "7.549"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=48",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=48",
+    "collected_at": "2026-09-23T08:31:40.386685+00:00",
+    "http_status": 200,
+    "sha256": "805a66edd85c4f954090b5ec9db357a0bd9198b1d0bc3fb4dddaa9e53a84028a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "푸본현대생명보험",
+        "상품명": "현대라이프 MAX 연금저축보험 무배당",
+        "상품유형": "금리연동형",
+        "최초판매일": "2017/01/01",
+        "판매여부": "중단",
+        "적립금총액": "5,321",
+        "1년 연평균수익률(%)": "-6.87",
+        "3년 연평균수익률(%)": "-1.54",
+        "5년 연평균수익률(%)": "-0.49",
+        "7년 연평균수익률(%)": "-0.03",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "0.32",
+        "연평균수수료율(%)": "7.549"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=48",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=48",
+        "collected_at": "2026-09-23T08:31:40.386685+00:00",
+        "http_status": 200,
+        "sha256": "805a66edd85c4f954090b5ec9db357a0bd9198b1d0bc3fb4dddaa9e53a84028a"
+      }
+    }
+  ]
+}

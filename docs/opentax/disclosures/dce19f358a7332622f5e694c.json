@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.aa6815022cfe8370c86abecd",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:8e780a91baf360676bbe7a89",
+  "group": "3",
+  "provider": "흥국자산운용",
+  "title": "흥국HK200증권상장지수투자신탁[주식]",
+  "cells": [
+    "흥국자산운용",
+    "흥국HK200증권상장지수투자신탁[주식]",
+    "주식형",
+    "2",
+    "2024/09/09",
+    "판매",
+    "19",
+    "235.02",
+    "-",
+    "-",
+    "-",
+    "-",
+    "120.27",
+    "0.077",
+    "한화투자증권주식회사, 키움증권(주), 삼성증권, KB증권, 미래에셋증권 주식회사, 주식회사 카카오페이증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=310",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=310",
+    "collected_at": "2026-09-23T08:28:45.486853+00:00",
+    "http_status": 200,
+    "sha256": "254c2d85149422ad324e9f30991773d3ae05137b57533ac9ba0fc7ddb0a7b180"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "흥국자산운용",
+        "상품명": "흥국HK200증권상장지수투자신탁[주식]",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2024/09/09",
+        "판매여부": "판매",
+        "순자산총액": "19",
+        "1년 연평균수익률(%)": "235.02",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "120.27",
+        "연평균수수료율(%)": "0.077",
+        "상품 판매사": "한화투자증권주식회사, 키움증권(주), 삼성증권, KB증권, 미래에셋증권 주식회사, 주식회사 카카오페이증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=310",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=310",
+        "collected_at": "2026-09-23T08:28:45.486853+00:00",
+        "http_status": 200,
+        "sha256": "254c2d85149422ad324e9f30991773d3ae05137b57533ac9ba0fc7ddb0a7b180"
+      }
+    }
+  ]
+}

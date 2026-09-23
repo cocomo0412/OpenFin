@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.a70a9a6660e9dff2c0231c39",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:5b94fcd3cb5d7beac21dc31a",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋배당커버드콜액티브연금저축증권전환형자투자신탁1호(주식혼합)종류S-P",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋배당커버드콜액티브연금저축증권전환형자투자신탁1호(주식혼합)종류S-P",
+    "혼합주식형",
+    "3",
+    "2014/07/03",
+    "판매",
+    "2,441",
+    "141.04",
+    "43.24",
+    "21.47",
+    "19.47",
+    "14.22",
+    "12.61",
+    "0.807",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=140",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=140",
+    "collected_at": "2026-09-23T08:24:56.988911+00:00",
+    "http_status": 200,
+    "sha256": "817811ddb654f684194eb35b2dcf65d5b6caeb76eacdce1a8e48b940de189af8"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋배당커버드콜액티브연금저축증권전환형자투자신탁1호(주식혼합)종류S-P",
+        "상품유형": "혼합주식형",
+        "위험등급": "3",
+        "설정일": "2014/07/03",
+        "판매여부": "판매",
+        "순자산총액": "2,441",
+        "1년 연평균수익률(%)": "141.04",
+        "3년 연평균수익률(%)": "43.24",
+        "5년 연평균수익률(%)": "21.47",
+        "7년 연평균수익률(%)": "19.47",
+        "10년 연평균수익률(%)": "14.22",
+        "누적연평균수익률(%)": "12.61",
+        "연평균수수료율(%)": "0.807",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=140",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=140",
+        "collected_at": "2026-09-23T08:24:56.988911+00:00",
+        "http_status": 200,
+        "sha256": "817811ddb654f684194eb35b2dcf65d5b6caeb76eacdce1a8e48b940de189af8"
+      }
+    }
+  ]
+}

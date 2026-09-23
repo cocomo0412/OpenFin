@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.52b4649ec8a959fe61fc60e2",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:c1ea65ac79b52179d37f5613",
+  "group": "3",
+  "provider": "하나자산운용",
+  "title": "하나유럽오퍼튜니티증권자투자신탁[주식-재간접형]Class C-P",
+  "cells": [
+    "하나자산운용",
+    "하나유럽오퍼튜니티증권자투자신탁[주식-재간접형]Class C-P",
+    "재간접",
+    "3",
+    "2015/05/29",
+    "판매",
+    "291",
+    "18.66",
+    "9.70",
+    "5.35",
+    "7.82",
+    "7.15",
+    "5.88",
+    "0.914",
+    "키움증권(주), 유안타증권주식회사, 삼성증권, NH투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=261",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=261",
+    "collected_at": "2026-09-23T08:27:40.199823+00:00",
+    "http_status": 200,
+    "sha256": "02b394b2a5fe75a20a9fac7e1751e9ed281975cbfa573a4b72b8524912c4c06c"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "하나자산운용",
+        "상품명": "하나유럽오퍼튜니티증권자투자신탁[주식-재간접형]Class C-P",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2015/05/29",
+        "판매여부": "판매",
+        "순자산총액": "291",
+        "1년 연평균수익률(%)": "18.66",
+        "3년 연평균수익률(%)": "9.70",
+        "5년 연평균수익률(%)": "5.35",
+        "7년 연평균수익률(%)": "7.82",
+        "10년 연평균수익률(%)": "7.15",
+        "누적연평균수익률(%)": "5.88",
+        "연평균수수료율(%)": "0.914",
+        "상품 판매사": "키움증권(주), 유안타증권주식회사, 삼성증권, NH투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=261",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=261",
+        "collected_at": "2026-09-23T08:27:40.199823+00:00",
+        "http_status": 200,
+        "sha256": "02b394b2a5fe75a20a9fac7e1751e9ed281975cbfa573a4b72b8524912c4c06c"
+      }
+    }
+  ]
+}

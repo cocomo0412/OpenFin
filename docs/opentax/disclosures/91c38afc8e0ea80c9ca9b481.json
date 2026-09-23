@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.fac9c9ee6792487e8f92002f",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:93213b312a384876d5e753b2",
+  "group": "3",
+  "provider": "브이아이자산운용",
+  "title": "브이아이 스마일 연금 증권 전환형 자투자신탁 1호[주식혼합] C-P2",
+  "cells": [
+    "브이아이자산운용",
+    "브이아이 스마일 연금 증권 전환형 자투자신탁 1호[주식혼합] C-P2",
+    "혼합주식형",
+    "3",
+    "2001/02/05",
+    "판매",
+    "3,414",
+    "97.90",
+    "35.97",
+    "17.22",
+    "17.23",
+    "-",
+    "7.69",
+    "1.370",
+    "(주)우리투자증권, 아이엠증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=122",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=122",
+    "collected_at": "2026-09-23T08:24:33.239697+00:00",
+    "http_status": 200,
+    "sha256": "f76b18c55ae533187e67edc0c985cd73859f68e235511b14e72e1adf1150b533"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "브이아이자산운용",
+        "상품명": "브이아이 스마일 연금 증권 전환형 자투자신탁 1호[주식혼합] C-P2",
+        "상품유형": "혼합주식형",
+        "위험등급": "3",
+        "설정일": "2001/02/05",
+        "판매여부": "판매",
+        "순자산총액": "3,414",
+        "1년 연평균수익률(%)": "97.90",
+        "3년 연평균수익률(%)": "35.97",
+        "5년 연평균수익률(%)": "17.22",
+        "7년 연평균수익률(%)": "17.23",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "7.69",
+        "연평균수수료율(%)": "1.370",
+        "상품 판매사": "(주)우리투자증권, 아이엠증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=122",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=122",
+        "collected_at": "2026-09-23T08:24:33.239697+00:00",
+        "http_status": 200,
+        "sha256": "f76b18c55ae533187e67edc0c985cd73859f68e235511b14e72e1adf1150b533"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.179604cb0bae5a9b842da9f9",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:026a32d6be3b3f182ab896db",
+  "group": "3",
+  "provider": "키움투자자산운용",
+  "title": "키움글로벌차세대IT&네트워크50증권자투자신탁(H)[채권혼합] Class C-Pe",
+  "cells": [
+    "키움투자자산운용",
+    "키움글로벌차세대IT&네트워크50증권자투자신탁(H)[채권혼합] Class C-Pe",
+    "혼합채권형",
+    "4",
+    "2021/01/07",
+    "판매",
+    "557",
+    "40.99",
+    "21.41",
+    "11.12",
+    "-",
+    "-",
+    "10.82",
+    "0.863",
+    "키움증권(주)"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=224",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=224",
+    "collected_at": "2026-09-23T08:26:50.168289+00:00",
+    "http_status": 200,
+    "sha256": "21cfc7efcb5a77596737069eca2e96d33a275b66935e12e969c4533bd90498aa"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "키움투자자산운용",
+        "상품명": "키움글로벌차세대IT&네트워크50증권자투자신탁(H)[채권혼합] Class C-Pe",
+        "상품유형": "혼합채권형",
+        "위험등급": "4",
+        "설정일": "2021/01/07",
+        "판매여부": "판매",
+        "순자산총액": "557",
+        "1년 연평균수익률(%)": "40.99",
+        "3년 연평균수익률(%)": "21.41",
+        "5년 연평균수익률(%)": "11.12",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "10.82",
+        "연평균수수료율(%)": "0.863",
+        "상품 판매사": "키움증권(주)"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=224",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=224",
+        "collected_at": "2026-09-23T08:26:50.168289+00:00",
+        "http_status": 200,
+        "sha256": "21cfc7efcb5a77596737069eca2e96d33a275b66935e12e969c4533bd90498aa"
+      }
+    }
+  ]
+}

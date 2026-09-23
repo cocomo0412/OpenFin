@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.1cfefdd38bcf2eaebdead74c",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:6547bc80ded8b83fc51a9e1a",
+  "group": "3",
+  "provider": "마이다스에셋자산운용",
+  "title": "마이다스 책임투자 증권 투자신탁(주식)C-Pe1",
+  "cells": [
+    "마이다스에셋자산운용",
+    "마이다스 책임투자 증권 투자신탁(주식)C-Pe1",
+    "주식형",
+    "2",
+    "2017/10/18",
+    "판매",
+    "25,825",
+    "169.32",
+    "48.96",
+    "23.73",
+    "27.51",
+    "-",
+    "21.22",
+    "1.076",
+    "디비증권주식회사, 유진투자증권주식회사, 한화투자증권주식회사, (주)우리투자증권, 키움증권(주), 광주은행, 삼성생명보험주식회사, NH농협은행, 한국투자증권, SK증권주식회사, 삼성증권, 교보증권(주), 우리은행, KB증권, 대신증권주식회사, 신한은행, KB국민은행, 신영증권주식회사, 미래에셋증권 주식회사, NH투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=41",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=41",
+    "collected_at": "2026-09-23T08:22:42.200298+00:00",
+    "http_status": 200,
+    "sha256": "e220eee710862c48e50cb064ccf59dbca7be1b7025bac50c7caf2fbf2dda2eca"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "마이다스에셋자산운용",
+        "상품명": "마이다스 책임투자 증권 투자신탁(주식)C-Pe1",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2017/10/18",
+        "판매여부": "판매",
+        "순자산총액": "25,825",
+        "1년 연평균수익률(%)": "169.32",
+        "3년 연평균수익률(%)": "48.96",
+        "5년 연평균수익률(%)": "23.73",
+        "7년 연평균수익률(%)": "27.51",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "21.22",
+        "연평균수수료율(%)": "1.076",
+        "상품 판매사": "디비증권주식회사, 유진투자증권주식회사, 한화투자증권주식회사, (주)우리투자증권, 키움증권(주), 광주은행, 삼성생명보험주식회사, NH농협은행, 한국투자증권, SK증권주식회사, 삼성증권, 교보증권(주), 우리은행, KB증권, 대신증권주식회사, 신한은행, KB국민은행, 신영증권주식회사, 미래에셋증권 주식회사, NH투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=41",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=41",
+        "collected_at": "2026-09-23T08:22:42.200298+00:00",
+        "http_status": 200,
+        "sha256": "e220eee710862c48e50cb064ccf59dbca7be1b7025bac50c7caf2fbf2dda2eca"
+      }
+    }
+  ]
+}

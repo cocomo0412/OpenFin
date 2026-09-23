@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.91b94a253f68141a11eb4aa2",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:b91091c597e366fa547bae72",
+  "group": "3",
+  "provider": "교보악사자산운용",
+  "title": "교보악사파워글로벌인덱스증권자투자신탁1호(H)[주식혼합]ClassC-P(연금)",
+  "cells": [
+    "교보악사자산운용",
+    "교보악사파워글로벌인덱스증권자투자신탁1호(H)[주식혼합]ClassC-P(연금)",
+    "혼합주식형",
+    "3",
+    "2017/09/06",
+    "판매",
+    "640",
+    "26.73",
+    "15.92",
+    "7.24",
+    "10.07",
+    "-",
+    "8.67",
+    "1.254",
+    "광주은행, 삼성증권, IBK기업은행, KB국민은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=217",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=217",
+    "collected_at": "2026-09-23T08:26:40.602775+00:00",
+    "http_status": 200,
+    "sha256": "26a1d63cdc8223cf62b0b01037766cdec2ed26380c8666da865fc96a91be360a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "교보악사자산운용",
+        "상품명": "교보악사파워글로벌인덱스증권자투자신탁1호(H)[주식혼합]ClassC-P(연금)",
+        "상품유형": "혼합주식형",
+        "위험등급": "3",
+        "설정일": "2017/09/06",
+        "판매여부": "판매",
+        "순자산총액": "640",
+        "1년 연평균수익률(%)": "26.73",
+        "3년 연평균수익률(%)": "15.92",
+        "5년 연평균수익률(%)": "7.24",
+        "7년 연평균수익률(%)": "10.07",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "8.67",
+        "연평균수수료율(%)": "1.254",
+        "상품 판매사": "광주은행, 삼성증권, IBK기업은행, KB국민은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=217",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=217",
+        "collected_at": "2026-09-23T08:26:40.602775+00:00",
+        "http_status": 200,
+        "sha256": "26a1d63cdc8223cf62b0b01037766cdec2ed26380c8666da865fc96a91be360a"
+      }
+    }
+  ]
+}

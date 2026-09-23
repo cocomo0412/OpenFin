@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.673efe530c0fbcb7dd1a216c",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:00281103bc6bef78540afeec",
+  "group": "3",
+  "provider": "한화자산운용",
+  "title": "한화연금60증권전환형투자신탁(주식혼합) 종류C",
+  "cells": [
+    "한화자산운용",
+    "한화연금60증권전환형투자신탁(주식혼합) 종류C",
+    "혼합주식형",
+    "4",
+    "2001/02/01",
+    "판매",
+    "17,519",
+    "92.34",
+    "28.54",
+    "13.50",
+    "14.05",
+    "10.16",
+    "8.41",
+    "0.456",
+    "케이프투자증권, 한화투자증권주식회사, (주)우리투자증권, KB증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=52",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=52",
+    "collected_at": "2026-09-23T08:22:57.675216+00:00",
+    "http_status": 200,
+    "sha256": "5d657a3a1378bf60d55856bb799661d17597d10edd473796939f9796edaba9fb"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한화자산운용",
+        "상품명": "한화연금60증권전환형투자신탁(주식혼합) 종류C",
+        "상품유형": "혼합주식형",
+        "위험등급": "4",
+        "설정일": "2001/02/01",
+        "판매여부": "판매",
+        "순자산총액": "17,519",
+        "1년 연평균수익률(%)": "92.34",
+        "3년 연평균수익률(%)": "28.54",
+        "5년 연평균수익률(%)": "13.50",
+        "7년 연평균수익률(%)": "14.05",
+        "10년 연평균수익률(%)": "10.16",
+        "누적연평균수익률(%)": "8.41",
+        "연평균수수료율(%)": "0.456",
+        "상품 판매사": "케이프투자증권, 한화투자증권주식회사, (주)우리투자증권, KB증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=52",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=52",
+        "collected_at": "2026-09-23T08:22:57.675216+00:00",
+        "http_status": 200,
+        "sha256": "5d657a3a1378bf60d55856bb799661d17597d10edd473796939f9796edaba9fb"
+      }
+    }
+  ]
+}

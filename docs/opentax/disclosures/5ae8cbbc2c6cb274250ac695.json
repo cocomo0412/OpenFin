@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.66bd035b041d65f77fd9c310",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:cd78345ba9daf4cbc4b57dea",
+  "group": "3",
+  "provider": "브이자산운용",
+  "title": "브이 GB 글로벌채권EMP증권 자투자신탁[채권-재간접형] 종류C-pe",
+  "cells": [
+    "브이자산운용",
+    "브이 GB 글로벌채권EMP증권 자투자신탁[채권-재간접형] 종류C-pe",
+    "재간접",
+    "3",
+    "2025/04/14",
+    "판매",
+    "103",
+    "-3.27",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-2.36",
+    "0.946",
+    "한국투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=296",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=296",
+    "collected_at": "2026-09-23T08:28:26.430674+00:00",
+    "http_status": 200,
+    "sha256": "9ea54ebf65f534b07bae0b553014920f1259a6aeb677ae0d8287a87c595370b0"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "브이자산운용",
+        "상품명": "브이 GB 글로벌채권EMP증권 자투자신탁[채권-재간접형] 종류C-pe",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2025/04/14",
+        "판매여부": "판매",
+        "순자산총액": "103",
+        "1년 연평균수익률(%)": "-3.27",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-2.36",
+        "연평균수수료율(%)": "0.946",
+        "상품 판매사": "한국투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=296",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=296",
+        "collected_at": "2026-09-23T08:28:26.430674+00:00",
+        "http_status": 200,
+        "sha256": "9ea54ebf65f534b07bae0b553014920f1259a6aeb677ae0d8287a87c595370b0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.5e06e5ac8c3efd37db01a7c4",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:aa7acdae6f39f6f724a3d656",
+  "group": "4",
+  "provider": "신한라이프생명보험",
+  "title": "VIP참연금저축보험Ⅲ",
+  "cells": [
+    "신한라이프생명보험",
+    "VIP참연금저축보험Ⅲ",
+    "금리연동형",
+    "2015/04/01",
+    "중단",
+    "26,567",
+    "-5.13",
+    "-1.00",
+    "-0.13",
+    "0.15",
+    "0.58",
+    "0.66",
+    "5.683"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=24",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=24",
+    "collected_at": "2026-09-23T08:30:47.964581+00:00",
+    "http_status": 200,
+    "sha256": "a89ca50e67c1c6961dbb4bf61f81407fb44e63c4b109ff65d574044ff4a7273f"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한라이프생명보험",
+        "상품명": "VIP참연금저축보험Ⅲ",
+        "상품유형": "금리연동형",
+        "최초판매일": "2015/04/01",
+        "판매여부": "중단",
+        "적립금총액": "26,567",
+        "1년 연평균수익률(%)": "-5.13",
+        "3년 연평균수익률(%)": "-1.00",
+        "5년 연평균수익률(%)": "-0.13",
+        "7년 연평균수익률(%)": "0.15",
+        "10년 연평균수익률(%)": "0.58",
+        "누적연평균수익률(%)": "0.66",
+        "연평균수수료율(%)": "5.683"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=24",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=24",
+        "collected_at": "2026-09-23T08:30:47.964581+00:00",
+        "http_status": 200,
+        "sha256": "a89ca50e67c1c6961dbb4bf61f81407fb44e63c4b109ff65d574044ff4a7273f"
+      }
+    }
+  ]
+}

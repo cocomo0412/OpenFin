@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.7a4ae3444f37d2a8dbc7b4b9",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:843d2c1d319852a44f1a3096",
+  "group": "3",
+  "provider": "NH-Amundi자산운용",
+  "title": "NH-Amundi 중국본토 뉴이코노미 연금증권자투자신탁H[주식]Class C-P1",
+  "cells": [
+    "NH-Amundi자산운용",
+    "NH-Amundi 중국본토 뉴이코노미 연금증권자투자신탁H[주식]Class C-P1",
+    "주식형",
+    "2",
+    "2016/03/29",
+    "판매",
+    "1,090",
+    "13.90",
+    "7.26",
+    "-3.14",
+    "3.36",
+    "2.87",
+    "2.74",
+    "1.817",
+    "NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=185",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=185",
+    "collected_at": "2026-09-23T08:25:57.108541+00:00",
+    "http_status": 200,
+    "sha256": "ba5c17aeddedfe5634f3152aeb6a7aaaf7561b7a7319ff8c95723738e0996166"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "NH-Amundi자산운용",
+        "상품명": "NH-Amundi 중국본토 뉴이코노미 연금증권자투자신탁H[주식]Class C-P1",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2016/03/29",
+        "판매여부": "판매",
+        "순자산총액": "1,090",
+        "1년 연평균수익률(%)": "13.90",
+        "3년 연평균수익률(%)": "7.26",
+        "5년 연평균수익률(%)": "-3.14",
+        "7년 연평균수익률(%)": "3.36",
+        "10년 연평균수익률(%)": "2.87",
+        "누적연평균수익률(%)": "2.74",
+        "연평균수수료율(%)": "1.817",
+        "상품 판매사": "NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=185",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=185",
+        "collected_at": "2026-09-23T08:25:57.108541+00:00",
+        "http_status": 200,
+        "sha256": "ba5c17aeddedfe5634f3152aeb6a7aaaf7561b7a7319ff8c95723738e0996166"
+      }
+    }
+  ]
+}

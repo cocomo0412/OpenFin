@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.fa3ba30293801ba0a3b6052c",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:5f996003802b1389d31c5d18",
+  "group": "3",
+  "provider": "키움투자자산운용",
+  "title": "키움 고배당 에이스 증권 자투자신탁 제1호[주식] C-Pe",
+  "cells": [
+    "키움투자자산운용",
+    "키움 고배당 에이스 증권 자투자신탁 제1호[주식] C-Pe",
+    "주식형",
+    "2",
+    "2017/11/29",
+    "판매",
+    "576",
+    "201.25",
+    "58.97",
+    "28.69",
+    "27.50",
+    "-",
+    "19.31",
+    "1.195",
+    "(주)우리투자증권, 키움증권(주)"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=222",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=222",
+    "collected_at": "2026-09-23T08:26:47.142337+00:00",
+    "http_status": 200,
+    "sha256": "e53126dc150834d23afe067645315e7e7acdcb903a5d70dbfb7f4a5805d08533"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "키움투자자산운용",
+        "상품명": "키움 고배당 에이스 증권 자투자신탁 제1호[주식] C-Pe",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2017/11/29",
+        "판매여부": "판매",
+        "순자산총액": "576",
+        "1년 연평균수익률(%)": "201.25",
+        "3년 연평균수익률(%)": "58.97",
+        "5년 연평균수익률(%)": "28.69",
+        "7년 연평균수익률(%)": "27.50",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "19.31",
+        "연평균수수료율(%)": "1.195",
+        "상품 판매사": "(주)우리투자증권, 키움증권(주)"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=222",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=222",
+        "collected_at": "2026-09-23T08:26:47.142337+00:00",
+        "http_status": 200,
+        "sha256": "e53126dc150834d23afe067645315e7e7acdcb903a5d70dbfb7f4a5805d08533"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.bc4d0aef51622ed5a4a26cd8",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:b4885c263a290c5ccd720ca8",
+  "group": "3",
+  "provider": "유경피에스지자산운용",
+  "title": "유경 플레인바닐라 글로벌리츠인프라 부동산자투자신탁(재간접형) Class S-P",
+  "cells": [
+    "유경피에스지자산운용",
+    "유경 플레인바닐라 글로벌리츠인프라 부동산자투자신탁(재간접형) Class S-P",
+    "부동산",
+    "2",
+    "2020/09/17",
+    "판매",
+    "405",
+    "20.69",
+    "9.60",
+    "6.62",
+    "-",
+    "-",
+    "9.06",
+    "1.061",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=245",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=245",
+    "collected_at": "2026-09-23T08:27:18.312335+00:00",
+    "http_status": 200,
+    "sha256": "c364954b8fcf8247eebc3c0170c0b564f31b85d4b2128e4c246548c3c8178380"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "유경피에스지자산운용",
+        "상품명": "유경 플레인바닐라 글로벌리츠인프라 부동산자투자신탁(재간접형) Class S-P",
+        "상품유형": "부동산",
+        "위험등급": "2",
+        "설정일": "2020/09/17",
+        "판매여부": "판매",
+        "순자산총액": "405",
+        "1년 연평균수익률(%)": "20.69",
+        "3년 연평균수익률(%)": "9.60",
+        "5년 연평균수익률(%)": "6.62",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "9.06",
+        "연평균수수료율(%)": "1.061",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=245",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=245",
+        "collected_at": "2026-09-23T08:27:18.312335+00:00",
+        "http_status": 200,
+        "sha256": "c364954b8fcf8247eebc3c0170c0b564f31b85d4b2128e4c246548c3c8178380"
+      }
+    }
+  ]
+}

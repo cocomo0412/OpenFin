@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.2c29985173d0b7a019933b72",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:03b9af8d28cf776e3e861fc8",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성픽테로보틱스증권자투자신탁UH[주식-재간접형]_S-P",
+  "cells": [
+    "삼성자산운용",
+    "삼성픽테로보틱스증권자투자신탁UH[주식-재간접형]_S-P",
+    "재간접",
+    "1",
+    "2017/05/11",
+    "판매",
+    "1,138",
+    "46.64",
+    "29.00",
+    "18.11",
+    "21.78",
+    "-",
+    "19.80",
+    "0.534",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=182",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=182",
+    "collected_at": "2026-09-23T08:25:53.336275+00:00",
+    "http_status": 200,
+    "sha256": "3e3ce991db7f06125c2b6ec4dedf9180f824f022a4854af361edd2a016844ccf"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성픽테로보틱스증권자투자신탁UH[주식-재간접형]_S-P",
+        "상품유형": "재간접",
+        "위험등급": "1",
+        "설정일": "2017/05/11",
+        "판매여부": "판매",
+        "순자산총액": "1,138",
+        "1년 연평균수익률(%)": "46.64",
+        "3년 연평균수익률(%)": "29.00",
+        "5년 연평균수익률(%)": "18.11",
+        "7년 연평균수익률(%)": "21.78",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "19.80",
+        "연평균수수료율(%)": "0.534",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=182",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=182",
+        "collected_at": "2026-09-23T08:25:53.336275+00:00",
+        "http_status": 200,
+        "sha256": "3e3ce991db7f06125c2b6ec4dedf9180f824f022a4854af361edd2a016844ccf"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.7ad5c9f3c385ed9685d29327",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:738515d9b1193ef2581f91db",
+  "group": "3",
+  "provider": "한국투자밸류자산운용",
+  "title": "한국밸류10년투자중소형연금증권자투자신탁(주식)(S-P)",
+  "cells": [
+    "한국투자밸류자산운용",
+    "한국밸류10년투자중소형연금증권자투자신탁(주식)(S-P)",
+    "주식형",
+    "2",
+    "2018/04/03",
+    "판매",
+    "395",
+    "244.64",
+    "54.51",
+    "27.23",
+    "28.65",
+    "-",
+    "23.22",
+    "0.950",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=245",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=245",
+    "collected_at": "2026-09-23T08:27:18.312335+00:00",
+    "http_status": 200,
+    "sha256": "c364954b8fcf8247eebc3c0170c0b564f31b85d4b2128e4c246548c3c8178380"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자밸류자산운용",
+        "상품명": "한국밸류10년투자중소형연금증권자투자신탁(주식)(S-P)",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2018/04/03",
+        "판매여부": "판매",
+        "순자산총액": "395",
+        "1년 연평균수익률(%)": "244.64",
+        "3년 연평균수익률(%)": "54.51",
+        "5년 연평균수익률(%)": "27.23",
+        "7년 연평균수익률(%)": "28.65",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "23.22",
+        "연평균수수료율(%)": "0.950",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=245",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=245",
+        "collected_at": "2026-09-23T08:27:18.312335+00:00",
+        "http_status": 200,
+        "sha256": "c364954b8fcf8247eebc3c0170c0b564f31b85d4b2128e4c246548c3c8178380"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.69c33be3808c9632408a3612",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:971840f3387bc586f037cf23",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB스타 인도 Nifty 50 인덱스 증권 자투자신탁(주식-파생형)(H) S-P",
+  "cells": [
+    "KB자산운용",
+    "KB스타 인도 Nifty 50 인덱스 증권 자투자신탁(주식-파생형)(H) S-P",
+    "파생상품",
+    "2",
+    "2024/10/17",
+    "판매",
+    "30",
+    "-16.97",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-11.08",
+    "0.672",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=306",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=306",
+    "collected_at": "2026-09-23T08:28:39.905519+00:00",
+    "http_status": 200,
+    "sha256": "5867455a8c0189262e4e35eba76111796acff0c75e5a63e8b2a469c7d99dd81c"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB스타 인도 Nifty 50 인덱스 증권 자투자신탁(주식-파생형)(H) S-P",
+        "상품유형": "파생상품",
+        "위험등급": "2",
+        "설정일": "2024/10/17",
+        "판매여부": "판매",
+        "순자산총액": "30",
+        "1년 연평균수익률(%)": "-16.97",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-11.08",
+        "연평균수수료율(%)": "0.672",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=306",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=306",
+        "collected_at": "2026-09-23T08:28:39.905519+00:00",
+        "http_status": 200,
+        "sha256": "5867455a8c0189262e4e35eba76111796acff0c75e5a63e8b2a469c7d99dd81c"
+      }
+    }
+  ]
+}

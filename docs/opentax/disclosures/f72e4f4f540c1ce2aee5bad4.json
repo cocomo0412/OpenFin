@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.cdadb892790feff0e1f6fbb0",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:0297bb5b4a05fca51465ec93",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 액티브 배당 증권 자투자신탁(주식) C-P Class",
+  "cells": [
+    "KB자산운용",
+    "KB 액티브 배당 증권 자투자신탁(주식) C-P Class",
+    "주식형",
+    "2",
+    "2017/12/18",
+    "판매",
+    "28,418",
+    "187.36",
+    "56.13",
+    "25.52",
+    "24.02",
+    "-",
+    "17.98",
+    "1.520",
+    "한화투자증권주식회사, 한국투자증권, 삼성증권, KB증권, 대신증권주식회사, KB국민은행, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=38",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=38",
+    "collected_at": "2026-09-23T08:22:38.118896+00:00",
+    "http_status": 200,
+    "sha256": "491aa6232dc63336d3f457756619fdba108756d1f83395b5d49ee98fb537b7f3"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 액티브 배당 증권 자투자신탁(주식) C-P Class",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2017/12/18",
+        "판매여부": "판매",
+        "순자산총액": "28,418",
+        "1년 연평균수익률(%)": "187.36",
+        "3년 연평균수익률(%)": "56.13",
+        "5년 연평균수익률(%)": "25.52",
+        "7년 연평균수익률(%)": "24.02",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "17.98",
+        "연평균수수료율(%)": "1.520",
+        "상품 판매사": "한화투자증권주식회사, 한국투자증권, 삼성증권, KB증권, 대신증권주식회사, KB국민은행, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=38",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=38",
+        "collected_at": "2026-09-23T08:22:38.118896+00:00",
+        "http_status": 200,
+        "sha256": "491aa6232dc63336d3f457756619fdba108756d1f83395b5d49ee98fb537b7f3"
+      }
+    }
+  ]
+}

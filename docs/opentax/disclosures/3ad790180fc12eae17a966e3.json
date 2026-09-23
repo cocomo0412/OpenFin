@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.0dd898fac52851580ed2b209",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:f1c7eb60518715be84d4aa6e",
+  "group": "5",
+  "provider": "메리츠화재해상보험",
+  "title": "연금저축손해보험노후생활지킴이보험0804",
+  "cells": [
+    "메리츠화재해상보험",
+    "연금저축손해보험노후생활지킴이보험0804",
+    "금리연동형",
+    "2008/04/01",
+    "중단",
+    "44,201",
+    "-6.69",
+    "-1.05",
+    "0.12",
+    "0.57",
+    "0.66",
+    "0.99",
+    "6.745"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=12",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=12",
+    "collected_at": "2026-09-23T08:21:57.784792+00:00",
+    "http_status": 200,
+    "sha256": "af8a60922577895d754bbece12f0388708a34be4e9e5395f2a608d2095030d8d"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "메리츠화재해상보험",
+        "상품명": "연금저축손해보험노후생활지킴이보험0804",
+        "상품유형": "금리연동형",
+        "최초판매일": "2008/04/01",
+        "판매여부": "중단",
+        "적립금총액": "44,201",
+        "1년 연평균수익률(%)": "-6.69",
+        "3년 연평균수익률(%)": "-1.05",
+        "5년 연평균수익률(%)": "0.12",
+        "7년 연평균수익률(%)": "0.57",
+        "10년 연평균수익률(%)": "0.66",
+        "누적연평균수익률(%)": "0.99",
+        "연평균수수료율(%)": "6.745"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=12",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=12",
+        "collected_at": "2026-09-23T08:21:57.784792+00:00",
+        "http_status": 200,
+        "sha256": "af8a60922577895d754bbece12f0388708a34be4e9e5395f2a608d2095030d8d"
+      }
+    }
+  ]
+}

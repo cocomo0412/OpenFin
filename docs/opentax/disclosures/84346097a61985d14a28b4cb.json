@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.00e5d17eed300c9008acf18b",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:d292d3c27ea0326f38bd8320",
+  "group": "5",
+  "provider": "흥국화재해상보험",
+  "title": "연금저축손해보험 흥국화재 행복디딤돌보험(22.04)",
+  "cells": [
+    "흥국화재해상보험",
+    "연금저축손해보험 흥국화재 행복디딤돌보험(22.04)",
+    "금리연동형",
+    "2022/04/01",
+    "중단",
+    "1,412",
+    "-5.36",
+    "-1.27",
+    "-",
+    "-",
+    "-",
+    "-0.67",
+    "6.169"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=41",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=41",
+    "collected_at": "2026-09-23T08:31:12.356027+00:00",
+    "http_status": 200,
+    "sha256": "c398ba8c8effe3862879ae97497c17841f2a1950cf333ef5a8e0bec9c3731dd9"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "흥국화재해상보험",
+        "상품명": "연금저축손해보험 흥국화재 행복디딤돌보험(22.04)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2022/04/01",
+        "판매여부": "중단",
+        "적립금총액": "1,412",
+        "1년 연평균수익률(%)": "-5.36",
+        "3년 연평균수익률(%)": "-1.27",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-0.67",
+        "연평균수수료율(%)": "6.169"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=41",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=41",
+        "collected_at": "2026-09-23T08:31:12.356027+00:00",
+        "http_status": 200,
+        "sha256": "c398ba8c8effe3862879ae97497c17841f2a1950cf333ef5a8e0bec9c3731dd9"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.ca4bbfb1a5d438a4ca57ee2d",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:44eac9ef8dc0aad9d70011e5",
+  "group": "3",
+  "provider": "iM에셋자산운용",
+  "title": "iM에셋월드에너지증권자투자신탁(주식-재간접형)(H)(S-p)",
+  "cells": [
+    "iM에셋자산운용",
+    "iM에셋월드에너지증권자투자신탁(주식-재간접형)(H)(S-p)",
+    "재간접",
+    "2",
+    "2015/03/30",
+    "판매",
+    "292",
+    "26.11",
+    "12.46",
+    "15.12",
+    "9.04",
+    "6.05",
+    "3.72",
+    "0.763",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=261",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=261",
+    "collected_at": "2026-09-23T08:27:40.199823+00:00",
+    "http_status": 200,
+    "sha256": "02b394b2a5fe75a20a9fac7e1751e9ed281975cbfa573a4b72b8524912c4c06c"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "iM에셋자산운용",
+        "상품명": "iM에셋월드에너지증권자투자신탁(주식-재간접형)(H)(S-p)",
+        "상품유형": "재간접",
+        "위험등급": "2",
+        "설정일": "2015/03/30",
+        "판매여부": "판매",
+        "순자산총액": "292",
+        "1년 연평균수익률(%)": "26.11",
+        "3년 연평균수익률(%)": "12.46",
+        "5년 연평균수익률(%)": "15.12",
+        "7년 연평균수익률(%)": "9.04",
+        "10년 연평균수익률(%)": "6.05",
+        "누적연평균수익률(%)": "3.72",
+        "연평균수수료율(%)": "0.763",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=261",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=261",
+        "collected_at": "2026-09-23T08:27:40.199823+00:00",
+        "http_status": 200,
+        "sha256": "02b394b2a5fe75a20a9fac7e1751e9ed281975cbfa573a4b72b8524912c4c06c"
+      }
+    }
+  ]
+}

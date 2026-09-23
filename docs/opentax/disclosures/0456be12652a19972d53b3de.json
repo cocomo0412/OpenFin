@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.5e3ec32c8a7c42338af4222e",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:5b7260bd9624fa8836fb3267",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자적격TDF알아서2040증권투자신탁(주식혼합-재간접형)(C-P)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자적격TDF알아서2040증권투자신탁(주식혼합-재간접형)(C-P)",
+    "재간접",
+    "3",
+    "2017/03/10",
+    "판매",
+    "28,818",
+    "25.25",
+    "15.14",
+    "6.39",
+    "8.72",
+    "-",
+    "7.95",
+    "1.146",
+    "한화투자증권주식회사, 삼성생명보험주식회사, 한국투자증권, SK증권주식회사, 삼성증권, IBK기업은행, KB증권, 아이엠증권, 신한은행, KB국민은행, 미래에셋증권 주식회사, NH투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=38",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=38",
+    "collected_at": "2026-09-23T08:22:38.118896+00:00",
+    "http_status": 200,
+    "sha256": "491aa6232dc63336d3f457756619fdba108756d1f83395b5d49ee98fb537b7f3"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자적격TDF알아서2040증권투자신탁(주식혼합-재간접형)(C-P)",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2017/03/10",
+        "판매여부": "판매",
+        "순자산총액": "28,818",
+        "1년 연평균수익률(%)": "25.25",
+        "3년 연평균수익률(%)": "15.14",
+        "5년 연평균수익률(%)": "6.39",
+        "7년 연평균수익률(%)": "8.72",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "7.95",
+        "연평균수수료율(%)": "1.146",
+        "상품 판매사": "한화투자증권주식회사, 삼성생명보험주식회사, 한국투자증권, SK증권주식회사, 삼성증권, IBK기업은행, KB증권, 아이엠증권, 신한은행, KB국민은행, 미래에셋증권 주식회사, NH투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=38",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=38",
+        "collected_at": "2026-09-23T08:22:38.118896+00:00",
+        "http_status": 200,
+        "sha256": "491aa6232dc63336d3f457756619fdba108756d1f83395b5d49ee98fb537b7f3"
+      }
+    }
+  ]
+}

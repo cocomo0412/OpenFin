@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.5fa87a01f9803f04d62981c1",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:d9a33010bc36e0c0486c551c",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자중소밸류증권자투자신탁(주식)(C-P)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자중소밸류증권자투자신탁(주식)(C-P)",
+    "주식형",
+    "3",
+    "2013/04/10",
+    "판매",
+    "3,664",
+    "4.15",
+    "14.99",
+    "7.99",
+    "9.03",
+    "7.39",
+    "7.21",
+    "1.397",
+    "한화투자증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, 우리은행, IBK기업은행, KB증권, NH투자증권, 신한투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=118",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=118",
+    "collected_at": "2026-09-23T08:24:26.581417+00:00",
+    "http_status": 200,
+    "sha256": "aeaeb0222e465c69e31e39cc67cf54bb836df1f50fcf2d66dde5a5cf1d6383e7"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자중소밸류증권자투자신탁(주식)(C-P)",
+        "상품유형": "주식형",
+        "위험등급": "3",
+        "설정일": "2013/04/10",
+        "판매여부": "판매",
+        "순자산총액": "3,664",
+        "1년 연평균수익률(%)": "4.15",
+        "3년 연평균수익률(%)": "14.99",
+        "5년 연평균수익률(%)": "7.99",
+        "7년 연평균수익률(%)": "9.03",
+        "10년 연평균수익률(%)": "7.39",
+        "누적연평균수익률(%)": "7.21",
+        "연평균수수료율(%)": "1.397",
+        "상품 판매사": "한화투자증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, 우리은행, IBK기업은행, KB증권, NH투자증권, 신한투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=118",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=118",
+        "collected_at": "2026-09-23T08:24:26.581417+00:00",
+        "http_status": 200,
+        "sha256": "aeaeb0222e465c69e31e39cc67cf54bb836df1f50fcf2d66dde5a5cf1d6383e7"
+      }
+    }
+  ]
+}

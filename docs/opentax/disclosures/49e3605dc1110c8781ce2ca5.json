@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.ad2e5a189f947108da941e2d",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:ac831b4a789e3f1419a6b53d",
+  "group": "3",
+  "provider": "마이다스에셋자산운용",
+  "title": "마이다스 뉴트렌드 30 증권 자투자신탁(채권혼합)C-P",
+  "cells": [
+    "마이다스에셋자산운용",
+    "마이다스 뉴트렌드 30 증권 자투자신탁(채권혼합)C-P",
+    "혼합채권형",
+    "4",
+    "2015/05/08",
+    "판매",
+    "184",
+    "39.24",
+    "14.71",
+    "8.01",
+    "8.48",
+    "6.71",
+    "6.01",
+    "0.989",
+    "현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=281",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=281",
+    "collected_at": "2026-09-23T08:28:06.555681+00:00",
+    "http_status": 200,
+    "sha256": "faa17a7d5c879f678b8008c2cfe3df4456202f1d6571322d969ac9016ce491f2"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "마이다스에셋자산운용",
+        "상품명": "마이다스 뉴트렌드 30 증권 자투자신탁(채권혼합)C-P",
+        "상품유형": "혼합채권형",
+        "위험등급": "4",
+        "설정일": "2015/05/08",
+        "판매여부": "판매",
+        "순자산총액": "184",
+        "1년 연평균수익률(%)": "39.24",
+        "3년 연평균수익률(%)": "14.71",
+        "5년 연평균수익률(%)": "8.01",
+        "7년 연평균수익률(%)": "8.48",
+        "10년 연평균수익률(%)": "6.71",
+        "누적연평균수익률(%)": "6.01",
+        "연평균수수료율(%)": "0.989",
+        "상품 판매사": "현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=281",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=281",
+        "collected_at": "2026-09-23T08:28:06.555681+00:00",
+        "http_status": 200,
+        "sha256": "faa17a7d5c879f678b8008c2cfe3df4456202f1d6571322d969ac9016ce491f2"
+      }
+    }
+  ]
+}

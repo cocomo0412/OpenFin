@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.49586c3cc721ce1bced9c16f",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:c707f8c57dabf77b33b2276c",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋인도채권증권자투자신탁1호(채권)종류C-P",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋인도채권증권자투자신탁1호(채권)종류C-P",
+    "채권형",
+    "4",
+    "2017/03/02",
+    "판매",
+    "1,063",
+    "5.82",
+    "5.44",
+    "5.54",
+    "3.77",
+    "-",
+    "3.90",
+    "1.363",
+    "유진투자증권주식회사, 한화투자증권주식회사, 한국투자증권, SK증권주식회사, KB증권, 아이엠증권, 신영증권주식회사, 미래에셋증권 주식회사, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=186",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=186",
+    "collected_at": "2026-09-23T08:25:58.698440+00:00",
+    "http_status": 200,
+    "sha256": "181889a94ad997afce5071944b403df5c42da25919bfada76d3c695199baa502"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋인도채권증권자투자신탁1호(채권)종류C-P",
+        "상품유형": "채권형",
+        "위험등급": "4",
+        "설정일": "2017/03/02",
+        "판매여부": "판매",
+        "순자산총액": "1,063",
+        "1년 연평균수익률(%)": "5.82",
+        "3년 연평균수익률(%)": "5.44",
+        "5년 연평균수익률(%)": "5.54",
+        "7년 연평균수익률(%)": "3.77",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "3.90",
+        "연평균수수료율(%)": "1.363",
+        "상품 판매사": "유진투자증권주식회사, 한화투자증권주식회사, 한국투자증권, SK증권주식회사, KB증권, 아이엠증권, 신영증권주식회사, 미래에셋증권 주식회사, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=186",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=186",
+        "collected_at": "2026-09-23T08:25:58.698440+00:00",
+        "http_status": 200,
+        "sha256": "181889a94ad997afce5071944b403df5c42da25919bfada76d3c695199baa502"
+      }
+    }
+  ]
+}

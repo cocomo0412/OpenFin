@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.08e34007f18b7aa29582c417",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:a99d89ca358446c25cd0bc18",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성누버거버먼이머징단기채권증권자투자신탁H[채권-재간접형]_C-P",
+  "cells": [
+    "삼성자산운용",
+    "삼성누버거버먼이머징단기채권증권자투자신탁H[채권-재간접형]_C-P",
+    "재간접",
+    "5",
+    "2018/03/23",
+    "판매",
+    "11,066",
+    "5.15",
+    "5.93",
+    "2.06",
+    "2.03",
+    "-",
+    "2.13",
+    "0.744",
+    "한화투자증권주식회사, 삼성생명보험주식회사, NH농협은행, 삼성증권, 우리은행, KB증권, KB국민은행, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=70",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=70",
+    "collected_at": "2026-09-23T08:23:22.049409+00:00",
+    "http_status": 200,
+    "sha256": "70e9d2fc830428e65d263604f6a16ae6d5b3c4fa92068e236856145da22010dc"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성누버거버먼이머징단기채권증권자투자신탁H[채권-재간접형]_C-P",
+        "상품유형": "재간접",
+        "위험등급": "5",
+        "설정일": "2018/03/23",
+        "판매여부": "판매",
+        "순자산총액": "11,066",
+        "1년 연평균수익률(%)": "5.15",
+        "3년 연평균수익률(%)": "5.93",
+        "5년 연평균수익률(%)": "2.06",
+        "7년 연평균수익률(%)": "2.03",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "2.13",
+        "연평균수수료율(%)": "0.744",
+        "상품 판매사": "한화투자증권주식회사, 삼성생명보험주식회사, NH농협은행, 삼성증권, 우리은행, KB증권, KB국민은행, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=70",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=70",
+        "collected_at": "2026-09-23T08:23:22.049409+00:00",
+        "http_status": 200,
+        "sha256": "70e9d2fc830428e65d263604f6a16ae6d5b3c4fa92068e236856145da22010dc"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.401eb962bb3d3ea0fb7bd732",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:f36bb14be9f6fa33c9618f83",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성웰스글로벌주식EMP증권자투자신탁UH[주식-재간접형]_C-Pe",
+  "cells": [
+    "삼성자산운용",
+    "삼성웰스글로벌주식EMP증권자투자신탁UH[주식-재간접형]_C-Pe",
+    "재간접",
+    "3",
+    "2020/10/07",
+    "판매",
+    "357",
+    "40.07",
+    "25.11",
+    "16.92",
+    "-",
+    "-",
+    "18.50",
+    "0.615",
+    "KB증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=250",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=250",
+    "collected_at": "2026-09-23T08:27:25.285494+00:00",
+    "http_status": 200,
+    "sha256": "04bced0d6046e850bb38ecf395d73a5d3893b32c643e7cf0354a3a0f2c1c5937"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성웰스글로벌주식EMP증권자투자신탁UH[주식-재간접형]_C-Pe",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2020/10/07",
+        "판매여부": "판매",
+        "순자산총액": "357",
+        "1년 연평균수익률(%)": "40.07",
+        "3년 연평균수익률(%)": "25.11",
+        "5년 연평균수익률(%)": "16.92",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "18.50",
+        "연평균수수료율(%)": "0.615",
+        "상품 판매사": "KB증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=250",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=250",
+        "collected_at": "2026-09-23T08:27:25.285494+00:00",
+        "http_status": 200,
+        "sha256": "04bced0d6046e850bb38ecf395d73a5d3893b32c643e7cf0354a3a0f2c1c5937"
+      }
+    }
+  ]
+}

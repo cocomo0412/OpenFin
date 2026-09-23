@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.057b067a6965e58ae2efc9b8",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:2d3b23979b49844a46477523",
+  "group": "3",
+  "provider": "우리자산운용",
+  "title": "우리 알리안츠유럽배당증권자투자신탁[주식_재간접형](H) Class Pe2",
+  "cells": [
+    "우리자산운용",
+    "우리 알리안츠유럽배당증권자투자신탁[주식_재간접형](H) Class Pe2",
+    "재간접",
+    "3",
+    "2017/11/10",
+    "판매",
+    "364",
+    "17.68",
+    "13.83",
+    "9.65",
+    "7.55",
+    "-",
+    "5.99",
+    "0.429",
+    "키움증권(주), 한국투자증권, 삼성증권, 미래에셋증권 주식회사, NH투자증권, 하나은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=249",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=249",
+    "collected_at": "2026-09-23T08:27:23.652594+00:00",
+    "http_status": 200,
+    "sha256": "6edf5cbcacfd3afa88a4a1ae60b2b0b571778915551be2550eedab3c162c7e72"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "우리자산운용",
+        "상품명": "우리 알리안츠유럽배당증권자투자신탁[주식_재간접형](H) Class Pe2",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2017/11/10",
+        "판매여부": "판매",
+        "순자산총액": "364",
+        "1년 연평균수익률(%)": "17.68",
+        "3년 연평균수익률(%)": "13.83",
+        "5년 연평균수익률(%)": "9.65",
+        "7년 연평균수익률(%)": "7.55",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "5.99",
+        "연평균수수료율(%)": "0.429",
+        "상품 판매사": "키움증권(주), 한국투자증권, 삼성증권, 미래에셋증권 주식회사, NH투자증권, 하나은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=249",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=249",
+        "collected_at": "2026-09-23T08:27:23.652594+00:00",
+        "http_status": 200,
+        "sha256": "6edf5cbcacfd3afa88a4a1ae60b2b0b571778915551be2550eedab3c162c7e72"
+      }
+    }
+  ]
+}

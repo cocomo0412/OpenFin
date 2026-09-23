@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.a97188c065dd1c164f1546b5",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:e51586d8a02e35c682bca7f4",
+  "group": "3",
+  "provider": "삼성액티브자산운용",
+  "title": "삼성배당주장기증권투자신탁 제1호[주식](C-P)",
+  "cells": [
+    "삼성액티브자산운용",
+    "삼성배당주장기증권투자신탁 제1호[주식](C-P)",
+    "주식형",
+    "1",
+    "2017/11/08",
+    "판매",
+    "1,020",
+    "177.67",
+    "49.48",
+    "24.07",
+    "23.72",
+    "-",
+    "17.93",
+    "1.673",
+    "SK증권주식회사, 삼성증권, 아이엠증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=188",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=188",
+    "collected_at": "2026-09-23T08:26:01.123414+00:00",
+    "http_status": 200,
+    "sha256": "e72def7742f95e81b2ad92ac7cebd804dea5e50b0b1cfde8060b35dc7271b6e7"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성액티브자산운용",
+        "상품명": "삼성배당주장기증권투자신탁 제1호[주식](C-P)",
+        "상품유형": "주식형",
+        "위험등급": "1",
+        "설정일": "2017/11/08",
+        "판매여부": "판매",
+        "순자산총액": "1,020",
+        "1년 연평균수익률(%)": "177.67",
+        "3년 연평균수익률(%)": "49.48",
+        "5년 연평균수익률(%)": "24.07",
+        "7년 연평균수익률(%)": "23.72",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "17.93",
+        "연평균수수료율(%)": "1.673",
+        "상품 판매사": "SK증권주식회사, 삼성증권, 아이엠증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=188",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=188",
+        "collected_at": "2026-09-23T08:26:01.123414+00:00",
+        "http_status": 200,
+        "sha256": "e72def7742f95e81b2ad92ac7cebd804dea5e50b0b1cfde8060b35dc7271b6e7"
+      }
+    }
+  ]
+}

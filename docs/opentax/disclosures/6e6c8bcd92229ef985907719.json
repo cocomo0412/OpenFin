@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.492fd97a57e7fbb6f6913905",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:4cfe6bd2ffeb61a609505adf",
+  "group": "3",
+  "provider": "다올자산운용",
+  "title": "다올내일출금초단기채공모주증권투자신탁[채권혼합] 종류C-Pe",
+  "cells": [
+    "다올자산운용",
+    "다올내일출금초단기채공모주증권투자신탁[채권혼합] 종류C-Pe",
+    "혼합채권형",
+    "5",
+    "2024/07/15",
+    "판매",
+    "496",
+    "3.01",
+    "-",
+    "-",
+    "-",
+    "-",
+    "3.00",
+    "0.301",
+    "한화투자증권주식회사, NH농협은행, 한국투자증권, 삼성증권, 대신증권주식회사, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=233",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=233",
+    "collected_at": "2026-09-23T08:27:02.708422+00:00",
+    "http_status": 200,
+    "sha256": "103962fa427edfa65f134af3aa5a043b16c6d432de866596afe877e2eb2e92a2"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "다올자산운용",
+        "상품명": "다올내일출금초단기채공모주증권투자신탁[채권혼합] 종류C-Pe",
+        "상품유형": "혼합채권형",
+        "위험등급": "5",
+        "설정일": "2024/07/15",
+        "판매여부": "판매",
+        "순자산총액": "496",
+        "1년 연평균수익률(%)": "3.01",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "3.00",
+        "연평균수수료율(%)": "0.301",
+        "상품 판매사": "한화투자증권주식회사, NH농협은행, 한국투자증권, 삼성증권, 대신증권주식회사, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=233",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=233",
+        "collected_at": "2026-09-23T08:27:02.708422+00:00",
+        "http_status": 200,
+        "sha256": "103962fa427edfa65f134af3aa5a043b16c6d432de866596afe877e2eb2e92a2"
+      }
+    }
+  ]
+}

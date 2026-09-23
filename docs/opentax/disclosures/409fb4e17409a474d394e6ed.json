@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.6fe45d8c35c5e1fa090eeef3",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:21131e997723cb418e4e805d",
+  "group": "3",
+  "provider": "우리자산운용",
+  "title": "우리PIMCO전략적인컴증권자투자신탁[채권혼합_재간접형](H) Class P2",
+  "cells": [
+    "우리자산운용",
+    "우리PIMCO전략적인컴증권자투자신탁[채권혼합_재간접형](H) Class P2",
+    "재간접",
+    "4",
+    "2020/11/04",
+    "판매",
+    "92",
+    "10.12",
+    "6.07",
+    "0.05",
+    "-",
+    "-",
+    "0.90",
+    "0.879",
+    "현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=297",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=297",
+    "collected_at": "2026-09-23T08:28:27.998079+00:00",
+    "http_status": 200,
+    "sha256": "a90482749b3b81e16c12842adc35cd2b6829cc603e29e30d509c45ead0c4967f"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "우리자산운용",
+        "상품명": "우리PIMCO전략적인컴증권자투자신탁[채권혼합_재간접형](H) Class P2",
+        "상품유형": "재간접",
+        "위험등급": "4",
+        "설정일": "2020/11/04",
+        "판매여부": "판매",
+        "순자산총액": "92",
+        "1년 연평균수익률(%)": "10.12",
+        "3년 연평균수익률(%)": "6.07",
+        "5년 연평균수익률(%)": "0.05",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "0.90",
+        "연평균수수료율(%)": "0.879",
+        "상품 판매사": "현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=297",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=297",
+        "collected_at": "2026-09-23T08:28:27.998079+00:00",
+        "http_status": 200,
+        "sha256": "a90482749b3b81e16c12842adc35cd2b6829cc603e29e30d509c45ead0c4967f"
+      }
+    }
+  ]
+}

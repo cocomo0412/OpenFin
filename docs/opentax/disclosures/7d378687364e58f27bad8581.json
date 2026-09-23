@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.bf8a07133793a25919edea1e",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:60a6e026ed5225831f50d177",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자미국S&P500동일가중모레드림증권자투자신탁H(주식)(C-Pe)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자미국S&P500동일가중모레드림증권자투자신탁H(주식)(C-Pe)",
+    "주식형",
+    "2",
+    "2025/01/16",
+    "판매",
+    "319",
+    "14.40",
+    "-",
+    "-",
+    "-",
+    "-",
+    "10.93",
+    "0.851",
+    "광주은행, NH농협은행, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=257",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=257",
+    "collected_at": "2026-09-23T08:27:35.016439+00:00",
+    "http_status": 200,
+    "sha256": "1964468466b6615e3c7af00331602aac45ae357b713370332dfabb5d3b950af7"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자미국S&P500동일가중모레드림증권자투자신탁H(주식)(C-Pe)",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2025/01/16",
+        "판매여부": "판매",
+        "순자산총액": "319",
+        "1년 연평균수익률(%)": "14.40",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "10.93",
+        "연평균수수료율(%)": "0.851",
+        "상품 판매사": "광주은행, NH농협은행, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=257",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=257",
+        "collected_at": "2026-09-23T08:27:35.016439+00:00",
+        "http_status": 200,
+        "sha256": "1964468466b6615e3c7af00331602aac45ae357b713370332dfabb5d3b950af7"
+      }
+    }
+  ]
+}

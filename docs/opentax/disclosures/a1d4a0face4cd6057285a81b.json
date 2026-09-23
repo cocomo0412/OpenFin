@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.8752a5f9ac9450feb7f25b9e",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:f90d6af5a0a13d99d9d9afe9",
+  "group": "5",
+  "provider": "현대해상화재보험",
+  "title": "연금저축손해보험 노후사랑보험(Hi1501)",
+  "cells": [
+    "현대해상화재보험",
+    "연금저축손해보험 노후사랑보험(Hi1501)",
+    "금리연동형",
+    "2015/01/01",
+    "중단",
+    "15,344",
+    "-7.22",
+    "-1.74",
+    "-0.63",
+    "-0.19",
+    "0.28",
+    "0.44",
+    "8.258"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=22",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=22",
+    "collected_at": "2026-09-23T08:22:07.944463+00:00",
+    "http_status": 200,
+    "sha256": "8cbb7cd99a806b397879a2c5ecfda3ec920537b2f57664ad77c98391b89fc863"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "현대해상화재보험",
+        "상품명": "연금저축손해보험 노후사랑보험(Hi1501)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2015/01/01",
+        "판매여부": "중단",
+        "적립금총액": "15,344",
+        "1년 연평균수익률(%)": "-7.22",
+        "3년 연평균수익률(%)": "-1.74",
+        "5년 연평균수익률(%)": "-0.63",
+        "7년 연평균수익률(%)": "-0.19",
+        "10년 연평균수익률(%)": "0.28",
+        "누적연평균수익률(%)": "0.44",
+        "연평균수수료율(%)": "8.258"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=22",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=22",
+        "collected_at": "2026-09-23T08:22:07.944463+00:00",
+        "http_status": 200,
+        "sha256": "8cbb7cd99a806b397879a2c5ecfda3ec920537b2f57664ad77c98391b89fc863"
+      }
+    }
+  ]
+}

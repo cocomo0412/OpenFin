@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.df1cc5cb3c27d4e980f277a0",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:7cb9b6c76f0ed54994085e71",
+  "group": "3",
+  "provider": "iM에셋자산운용",
+  "title": "iM에셋월드금융주증권투자신탁(주식-재간접형)(C-Pe)",
+  "cells": [
+    "iM에셋자산운용",
+    "iM에셋월드금융주증권투자신탁(주식-재간접형)(C-Pe)",
+    "재간접",
+    "2",
+    "2018/06/15",
+    "판매",
+    "472",
+    "19.95",
+    "28.32",
+    "13.14",
+    "13.53",
+    "-",
+    "11.83",
+    "0.853",
+    "삼성증권, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=235",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=235",
+    "collected_at": "2026-09-23T08:27:05.248423+00:00",
+    "http_status": 200,
+    "sha256": "bf5c9083519ba3c0f0ab2075be6ae246ed496536dcf39f169122d95b7c33f030"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "iM에셋자산운용",
+        "상품명": "iM에셋월드금융주증권투자신탁(주식-재간접형)(C-Pe)",
+        "상품유형": "재간접",
+        "위험등급": "2",
+        "설정일": "2018/06/15",
+        "판매여부": "판매",
+        "순자산총액": "472",
+        "1년 연평균수익률(%)": "19.95",
+        "3년 연평균수익률(%)": "28.32",
+        "5년 연평균수익률(%)": "13.14",
+        "7년 연평균수익률(%)": "13.53",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "11.83",
+        "연평균수수료율(%)": "0.853",
+        "상품 판매사": "삼성증권, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=235",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=235",
+        "collected_at": "2026-09-23T08:27:05.248423+00:00",
+        "http_status": 200,
+        "sha256": "bf5c9083519ba3c0f0ab2075be6ae246ed496536dcf39f169122d95b7c33f030"
+      }
+    }
+  ]
+}

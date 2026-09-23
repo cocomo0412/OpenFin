@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.390ff32fb77bd00b86d7bb10",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:14244268e0c219cf143285c0",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋연금팬아시아컨슈머증권자투자신탁1호(주식)종류C-Pe",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋연금팬아시아컨슈머증권자투자신탁1호(주식)종류C-Pe",
+    "주식형",
+    "2",
+    "2016/08/31",
+    "판매",
+    "418",
+    "4.26",
+    "10.78",
+    "-0.43",
+    "5.94",
+    "-",
+    "7.11",
+    "1.237",
+    "KB국민은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=243",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=243",
+    "collected_at": "2026-09-23T08:27:15.935720+00:00",
+    "http_status": 200,
+    "sha256": "5934ebf656cd481fc6829b0b3646e69282f0882a6b06969a281600c4c75490d6"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋연금팬아시아컨슈머증권자투자신탁1호(주식)종류C-Pe",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2016/08/31",
+        "판매여부": "판매",
+        "순자산총액": "418",
+        "1년 연평균수익률(%)": "4.26",
+        "3년 연평균수익률(%)": "10.78",
+        "5년 연평균수익률(%)": "-0.43",
+        "7년 연평균수익률(%)": "5.94",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "7.11",
+        "연평균수수료율(%)": "1.237",
+        "상품 판매사": "KB국민은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=243",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=243",
+        "collected_at": "2026-09-23T08:27:15.935720+00:00",
+        "http_status": 200,
+        "sha256": "5934ebf656cd481fc6829b0b3646e69282f0882a6b06969a281600c4c75490d6"
+      }
+    }
+  ]
+}

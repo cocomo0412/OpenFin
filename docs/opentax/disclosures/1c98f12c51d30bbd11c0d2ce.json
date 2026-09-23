@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.1db8530eab525fabf0dca6a2",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:ce4b3ff8dd6d5cf0df9a693b",
+  "group": "4",
+  "provider": "신한라이프생명보험",
+  "title": "연금저축 참알찬연금보험Ⅲ",
+  "cells": [
+    "신한라이프생명보험",
+    "연금저축 참알찬연금보험Ⅲ",
+    "금리연동형",
+    "2009/04/01",
+    "중단",
+    "11,448",
+    "-5.26",
+    "-0.24",
+    "0.62",
+    "0.81",
+    "0.94",
+    "1.03",
+    "5.227"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=36",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=36",
+    "collected_at": "2026-09-23T08:31:19.163527+00:00",
+    "http_status": 200,
+    "sha256": "74afb85d36ef3fc17c1951a16f552ce46359603a175c888fd376959d8f58921b"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한라이프생명보험",
+        "상품명": "연금저축 참알찬연금보험Ⅲ",
+        "상품유형": "금리연동형",
+        "최초판매일": "2009/04/01",
+        "판매여부": "중단",
+        "적립금총액": "11,448",
+        "1년 연평균수익률(%)": "-5.26",
+        "3년 연평균수익률(%)": "-0.24",
+        "5년 연평균수익률(%)": "0.62",
+        "7년 연평균수익률(%)": "0.81",
+        "10년 연평균수익률(%)": "0.94",
+        "누적연평균수익률(%)": "1.03",
+        "연평균수수료율(%)": "5.227"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=36",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=36",
+        "collected_at": "2026-09-23T08:31:19.163527+00:00",
+        "http_status": 200,
+        "sha256": "74afb85d36ef3fc17c1951a16f552ce46359603a175c888fd376959d8f58921b"
+      }
+    }
+  ]
+}

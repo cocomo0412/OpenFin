@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.0fafdf782ffbad5e6ae8856f",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:33b966dfce4719cce22a7bff",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자MAN다이나믹인컴증권자투자신탁H(채권-재간접형)(C-Pe)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자MAN다이나믹인컴증권자투자신탁H(채권-재간접형)(C-Pe)",
+    "재간접",
+    "2",
+    "2024/11/18",
+    "판매",
+    "5,826",
+    "7.30",
+    "-",
+    "-",
+    "-",
+    "-",
+    "7.53",
+    "0.570",
+    "한국투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=98",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=98",
+    "collected_at": "2026-09-23T08:23:59.905147+00:00",
+    "http_status": 200,
+    "sha256": "d8a848a8181c94633972ab5018c8ab6160ccd76058ca7e7b4354a3f7b1af1a82"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자MAN다이나믹인컴증권자투자신탁H(채권-재간접형)(C-Pe)",
+        "상품유형": "재간접",
+        "위험등급": "2",
+        "설정일": "2024/11/18",
+        "판매여부": "판매",
+        "순자산총액": "5,826",
+        "1년 연평균수익률(%)": "7.30",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "7.53",
+        "연평균수수료율(%)": "0.570",
+        "상품 판매사": "한국투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=98",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=98",
+        "collected_at": "2026-09-23T08:23:59.905147+00:00",
+        "http_status": 200,
+        "sha256": "d8a848a8181c94633972ab5018c8ab6160ccd76058ca7e7b4354a3f7b1af1a82"
+      }
+    }
+  ]
+}

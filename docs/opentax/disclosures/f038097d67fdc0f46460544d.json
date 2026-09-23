@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.9ed35346a1d9cb9d2a245124",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:4c9a12c201da6d6bd90b34cf",
+  "group": "3",
+  "provider": "유진자산운용",
+  "title": "유진챔피언초단기채혼합자산투자신탁 Class C-Pe",
+  "cells": [
+    "유진자산운용",
+    "유진챔피언초단기채혼합자산투자신탁 Class C-Pe",
+    "혼합자산",
+    "5",
+    "2024/09/26",
+    "판매",
+    "195",
+    "2.98",
+    "-",
+    "-",
+    "-",
+    "-",
+    "3.26",
+    "0.224",
+    "키움증권(주), 삼성증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=278",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=278",
+    "collected_at": "2026-09-23T08:28:02.564959+00:00",
+    "http_status": 200,
+    "sha256": "5bd63375a59afd12e50e543f7c79722bb7741cf98c9449388a5a9d0f60d225c9"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "유진자산운용",
+        "상품명": "유진챔피언초단기채혼합자산투자신탁 Class C-Pe",
+        "상품유형": "혼합자산",
+        "위험등급": "5",
+        "설정일": "2024/09/26",
+        "판매여부": "판매",
+        "순자산총액": "195",
+        "1년 연평균수익률(%)": "2.98",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "3.26",
+        "연평균수수료율(%)": "0.224",
+        "상품 판매사": "키움증권(주), 삼성증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=278",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=278",
+        "collected_at": "2026-09-23T08:28:02.564959+00:00",
+        "http_status": 200,
+        "sha256": "5bd63375a59afd12e50e543f7c79722bb7741cf98c9449388a5a9d0f60d225c9"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.51b4d66f70308862eaed20b7",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:05039cc0b9b72522f7b7bc37",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋소비성장연금증권전환형자투자신탁1호(주식)종류C",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋소비성장연금증권전환형자투자신탁1호(주식)종류C",
+    "주식형",
+    "2",
+    "2012/11/19",
+    "판매",
+    "23,768",
+    "215.54",
+    "48.76",
+    "20.09",
+    "20.41",
+    "13.33",
+    "11.09",
+    "1.542",
+    "(주)우리투자증권, 키움증권(주), 유안타증권주식회사, 삼성증권, 신한은행, 미래에셋증권 주식회사, 미래에셋생명보험주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=43",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=43",
+    "collected_at": "2026-09-23T08:22:45.141587+00:00",
+    "http_status": 200,
+    "sha256": "f44d457ed0c902a8413acf1e1a9ddf7c7d2a978a4f22ebb328243615a5131cf0"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋소비성장연금증권전환형자투자신탁1호(주식)종류C",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2012/11/19",
+        "판매여부": "판매",
+        "순자산총액": "23,768",
+        "1년 연평균수익률(%)": "215.54",
+        "3년 연평균수익률(%)": "48.76",
+        "5년 연평균수익률(%)": "20.09",
+        "7년 연평균수익률(%)": "20.41",
+        "10년 연평균수익률(%)": "13.33",
+        "누적연평균수익률(%)": "11.09",
+        "연평균수수료율(%)": "1.542",
+        "상품 판매사": "(주)우리투자증권, 키움증권(주), 유안타증권주식회사, 삼성증권, 신한은행, 미래에셋증권 주식회사, 미래에셋생명보험주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=43",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=43",
+        "collected_at": "2026-09-23T08:22:45.141587+00:00",
+        "http_status": 200,
+        "sha256": "f44d457ed0c902a8413acf1e1a9ddf7c7d2a978a4f22ebb328243615a5131cf0"
+      }
+    }
+  ]
+}

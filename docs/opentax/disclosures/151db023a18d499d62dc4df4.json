@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.c046aed37038b52f17736d44",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:32d881799529906d8b7f1848",
+  "group": "3",
+  "provider": "신영자산운용",
+  "title": "신영밸류고배당증권자투자신탁(주식) S-P형",
+  "cells": [
+    "신영자산운용",
+    "신영밸류고배당증권자투자신탁(주식) S-P형",
+    "주식형",
+    "2",
+    "2022/12/21",
+    "판매",
+    "1,528",
+    "103.57",
+    "40.65",
+    "-",
+    "-",
+    "-",
+    "36.85",
+    "0.705",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=166",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=166",
+    "collected_at": "2026-09-23T08:25:31.718889+00:00",
+    "http_status": 200,
+    "sha256": "118d1323a5aec9f8b6d1f8aa52ab66a3075a13306c535c59bcbdab500e31cb7a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신영자산운용",
+        "상품명": "신영밸류고배당증권자투자신탁(주식) S-P형",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2022/12/21",
+        "판매여부": "판매",
+        "순자산총액": "1,528",
+        "1년 연평균수익률(%)": "103.57",
+        "3년 연평균수익률(%)": "40.65",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "36.85",
+        "연평균수수료율(%)": "0.705",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=166",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=166",
+        "collected_at": "2026-09-23T08:25:31.718889+00:00",
+        "http_status": 200,
+        "sha256": "118d1323a5aec9f8b6d1f8aa52ab66a3075a13306c535c59bcbdab500e31cb7a"
+      }
+    }
+  ]
+}

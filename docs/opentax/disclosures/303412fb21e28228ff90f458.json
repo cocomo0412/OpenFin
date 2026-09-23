@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.1e9943e4102eb95cb224338b",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:ce29321ea0696c4becaa01f7",
+  "group": "4",
+  "provider": "푸본현대생명보험",
+  "title": "연금저축 마이플랜 연금보험",
+  "cells": [
+    "푸본현대생명보험",
+    "연금저축 마이플랜 연금보험",
+    "금리연동형",
+    "2008/04/21",
+    "중단",
+    "65,313",
+    "-3.25",
+    "0.52",
+    "1.19",
+    "1.28",
+    "1.25",
+    "1.39",
+    "4.700"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=10",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=10",
+    "collected_at": "2026-09-23T08:21:51.681912+00:00",
+    "http_status": 200,
+    "sha256": "b5277954cdd2f7dcb6f3985a746e2a63c2a3bfb7d21c522667e414155aeaa090"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "푸본현대생명보험",
+        "상품명": "연금저축 마이플랜 연금보험",
+        "상품유형": "금리연동형",
+        "최초판매일": "2008/04/21",
+        "판매여부": "중단",
+        "적립금총액": "65,313",
+        "1년 연평균수익률(%)": "-3.25",
+        "3년 연평균수익률(%)": "0.52",
+        "5년 연평균수익률(%)": "1.19",
+        "7년 연평균수익률(%)": "1.28",
+        "10년 연평균수익률(%)": "1.25",
+        "누적연평균수익률(%)": "1.39",
+        "연평균수수료율(%)": "4.700"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=10",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=10",
+        "collected_at": "2026-09-23T08:21:51.681912+00:00",
+        "http_status": 200,
+        "sha256": "b5277954cdd2f7dcb6f3985a746e2a63c2a3bfb7d21c522667e414155aeaa090"
+      }
+    }
+  ]
+}

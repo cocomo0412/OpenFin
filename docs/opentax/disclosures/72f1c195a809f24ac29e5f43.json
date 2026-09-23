@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.58b9037a4c90678592c708f0",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:7bc03195460d5f427dadc1c7",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자미국배당귀족증권자투자신탁(주식혼합)(C-Pe)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자미국배당귀족증권자투자신탁(주식혼합)(C-Pe)",
+    "혼합주식형",
+    "3",
+    "2024/01/03",
+    "판매",
+    "11",
+    "9.05",
+    "-",
+    "-",
+    "-",
+    "-",
+    "5.65",
+    "0.778",
+    "디비증권주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=312",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=312",
+    "collected_at": "2026-09-23T08:28:49.063360+00:00",
+    "http_status": 200,
+    "sha256": "a48732f55f0da8023e8a90d83de31c5348dfb282ac6a6f94de51be7ebccb27ce"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자미국배당귀족증권자투자신탁(주식혼합)(C-Pe)",
+        "상품유형": "혼합주식형",
+        "위험등급": "3",
+        "설정일": "2024/01/03",
+        "판매여부": "판매",
+        "순자산총액": "11",
+        "1년 연평균수익률(%)": "9.05",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "5.65",
+        "연평균수수료율(%)": "0.778",
+        "상품 판매사": "디비증권주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=312",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=312",
+        "collected_at": "2026-09-23T08:28:49.063360+00:00",
+        "http_status": 200,
+        "sha256": "a48732f55f0da8023e8a90d83de31c5348dfb282ac6a6f94de51be7ebccb27ce"
+      }
+    }
+  ]
+}

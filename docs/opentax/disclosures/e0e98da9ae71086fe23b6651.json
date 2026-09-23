@@ -1,0 +1,51 @@
+{
+  "id": "finance.insurance.klia.whole-life.aia생명.l5202460001ny00000247000102440001024400010001024400010001000102440001000100010001do002",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L5202460001NY00000247000102440001024400010001024400010001000102440001000100010001DO002",
+  "group": "024400010001",
+  "title": "(무) AIA 평생 안심+ 달러 유니버셜 종신보험 2형",
+  "provider": "AIA생명",
+  "cells": [
+    "AIA생명",
+    "(무) AIA 평생 안심+ 달러 유니버셜 종신보험 2형",
+    "주계약",
+    "사망보험금 *지급사유 : 사망",
+    "100,000USD",
+    "298 USD",
+    "270 USD",
+    "-",
+    "4.74 %",
+    "연 1% 연 1%",
+    "116.3 %",
+    "117.3 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "기본형",
+    "일반",
+    "-",
+    "-",
+    "-",
+    "-",
+    "유니버셜",
+    "대면채널",
+    "2026-05-01",
+    "Download",
+    "보기",
+    "1588-8989"
+  ],
+  "coverage": [
+    "사망보험금 *지급사유 : 사망"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=40803&seq=8"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=18&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=18&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:35.714176+00:00",
+    "http_status": 200,
+    "sha256": "48a1426c16a139679bd43a99da8e1d36e2159ec726855c683b1fd8d5090b4895"
+  }
+}

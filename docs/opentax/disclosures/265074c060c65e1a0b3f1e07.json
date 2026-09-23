@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.fdca62e94bfbb56b21db6239",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:1e7953d06d269a36dcd2990e",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자골드플랜브릭스연금증권전환형자투자신탁1호(주식)(C-e)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자골드플랜브릭스연금증권전환형자투자신탁1호(주식)(C-e)",
+    "주식형",
+    "3",
+    "2017/08/07",
+    "판매",
+    "200",
+    "-3.17",
+    "6.12",
+    "-3.19",
+    "0.17",
+    "-",
+    "0.67",
+    "1.153",
+    "키움증권(주), 한국투자증권, 삼성증권, KB증권, 미래에셋증권 주식회사, 하나은행, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=278",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=278",
+    "collected_at": "2026-09-23T08:28:02.564959+00:00",
+    "http_status": 200,
+    "sha256": "5bd63375a59afd12e50e543f7c79722bb7741cf98c9449388a5a9d0f60d225c9"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자골드플랜브릭스연금증권전환형자투자신탁1호(주식)(C-e)",
+        "상품유형": "주식형",
+        "위험등급": "3",
+        "설정일": "2017/08/07",
+        "판매여부": "판매",
+        "순자산총액": "200",
+        "1년 연평균수익률(%)": "-3.17",
+        "3년 연평균수익률(%)": "6.12",
+        "5년 연평균수익률(%)": "-3.19",
+        "7년 연평균수익률(%)": "0.17",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "0.67",
+        "연평균수수료율(%)": "1.153",
+        "상품 판매사": "키움증권(주), 한국투자증권, 삼성증권, KB증권, 미래에셋증권 주식회사, 하나은행, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=278",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=278",
+        "collected_at": "2026-09-23T08:28:02.564959+00:00",
+        "http_status": 200,
+        "sha256": "5bd63375a59afd12e50e543f7c79722bb7741cf98c9449388a5a9d0f60d225c9"
+      }
+    }
+  ]
+}

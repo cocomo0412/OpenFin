@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.9873ed3dfe61dfcb4d06f2ae",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:b9ed354be9f82c4d7ebeb167",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성코리아중기채권증권자투자신탁 제1호[채권]_C-P",
+  "cells": [
+    "삼성자산운용",
+    "삼성코리아중기채권증권자투자신탁 제1호[채권]_C-P",
+    "채권형",
+    "5",
+    "2013/05/09",
+    "판매",
+    "3,754",
+    "-6.03",
+    "2.17",
+    "0.60",
+    "0.56",
+    "1.11",
+    "1.89",
+    "0.446",
+    "디비증권주식회사, 키움증권(주), 삼성생명보험주식회사, 한국투자증권, 삼성증권, KB증권, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=117",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=117",
+    "collected_at": "2026-09-23T08:24:25.347255+00:00",
+    "http_status": 200,
+    "sha256": "d891efbef8fafb3ce3d909a96e4d1822dc27f169d282b8d1bd50f600761b86f7"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성코리아중기채권증권자투자신탁 제1호[채권]_C-P",
+        "상품유형": "채권형",
+        "위험등급": "5",
+        "설정일": "2013/05/09",
+        "판매여부": "판매",
+        "순자산총액": "3,754",
+        "1년 연평균수익률(%)": "-6.03",
+        "3년 연평균수익률(%)": "2.17",
+        "5년 연평균수익률(%)": "0.60",
+        "7년 연평균수익률(%)": "0.56",
+        "10년 연평균수익률(%)": "1.11",
+        "누적연평균수익률(%)": "1.89",
+        "연평균수수료율(%)": "0.446",
+        "상품 판매사": "디비증권주식회사, 키움증권(주), 삼성생명보험주식회사, 한국투자증권, 삼성증권, KB증권, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=117",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=117",
+        "collected_at": "2026-09-23T08:24:25.347255+00:00",
+        "http_status": 200,
+        "sha256": "d891efbef8fafb3ce3d909a96e4d1822dc27f169d282b8d1bd50f600761b86f7"
+      }
+    }
+  ]
+}

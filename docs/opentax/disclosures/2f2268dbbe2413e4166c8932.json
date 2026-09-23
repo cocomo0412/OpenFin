@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.37e8e2e46326b0fb0d351746",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:f5dd9a4e2ce50cb0f54f8c23",
+  "group": "3",
+  "provider": "NH-Amundi자산운용",
+  "title": "NH-Amundi HANARO KRX300 증권 상장지수투자신탁[주식]",
+  "cells": [
+    "NH-Amundi자산운용",
+    "NH-Amundi HANARO KRX300 증권 상장지수투자신탁[주식]",
+    "주식형",
+    "2",
+    "2018/08/13",
+    "판매",
+    "9",
+    "216.04",
+    "58.56",
+    "26.65",
+    "26.94",
+    "-",
+    "23.06",
+    "0.136",
+    "한화투자증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, KB증권, 미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=313",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=313",
+    "collected_at": "2026-09-23T08:28:50.971360+00:00",
+    "http_status": 200,
+    "sha256": "4e6b6be1c1cc7513613ebad3578e80ef906f1f4f633dcbfda865f0d64c8e7390"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "NH-Amundi자산운용",
+        "상품명": "NH-Amundi HANARO KRX300 증권 상장지수투자신탁[주식]",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2018/08/13",
+        "판매여부": "판매",
+        "순자산총액": "9",
+        "1년 연평균수익률(%)": "216.04",
+        "3년 연평균수익률(%)": "58.56",
+        "5년 연평균수익률(%)": "26.65",
+        "7년 연평균수익률(%)": "26.94",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "23.06",
+        "연평균수수료율(%)": "0.136",
+        "상품 판매사": "한화투자증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, KB증권, 미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=313",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=313",
+        "collected_at": "2026-09-23T08:28:50.971360+00:00",
+        "http_status": 200,
+        "sha256": "4e6b6be1c1cc7513613ebad3578e80ef906f1f4f633dcbfda865f0d64c8e7390"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.5b3a4cccb657fb03f45a417d",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:ddf755b37e05c2c78e4a16bd",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋투자하며또박또박연금받는증권자투자신탁(채권혼합-재간접형)종류C-Pe",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋투자하며또박또박연금받는증권자투자신탁(채권혼합-재간접형)종류C-Pe",
+    "재간접",
+    "4",
+    "2025/05/19",
+    "판매",
+    "1,665",
+    "16.61",
+    "-",
+    "-",
+    "-",
+    "-",
+    "16.52",
+    "0.530",
+    "미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=161",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=161",
+    "collected_at": "2026-09-23T08:25:24.992207+00:00",
+    "http_status": 200,
+    "sha256": "8019305179cfa95c6eb11c02431c5b9fed01638c2fab72575353b0e409d246f9"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋투자하며또박또박연금받는증권자투자신탁(채권혼합-재간접형)종류C-Pe",
+        "상품유형": "재간접",
+        "위험등급": "4",
+        "설정일": "2025/05/19",
+        "판매여부": "판매",
+        "순자산총액": "1,665",
+        "1년 연평균수익률(%)": "16.61",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "16.52",
+        "연평균수수료율(%)": "0.530",
+        "상품 판매사": "미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=161",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=161",
+        "collected_at": "2026-09-23T08:25:24.992207+00:00",
+        "http_status": 200,
+        "sha256": "8019305179cfa95c6eb11c02431c5b9fed01638c2fab72575353b0e409d246f9"
+      }
+    }
+  ]
+}

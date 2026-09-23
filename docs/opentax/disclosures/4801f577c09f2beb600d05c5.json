@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.88b62f3ce8649ad80f558267",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:6cc6d87cb60dd34a4d0d1d7a",
+  "group": "3",
+  "provider": "브이자산운용",
+  "title": "브이 뉴그로쓰증권자투자신탁1호(주식) 종류C-pe",
+  "cells": [
+    "브이자산운용",
+    "브이 뉴그로쓰증권자투자신탁1호(주식) 종류C-pe",
+    "주식형",
+    "1",
+    "2017/09/07",
+    "판매",
+    "1,499",
+    "180.20",
+    "56.06",
+    "27.54",
+    "24.22",
+    "-",
+    "17.26",
+    "1.150",
+    "키움증권(주), 한국투자증권, 삼성증권, IBK기업은행, KB증권, 미래에셋증권 주식회사, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=167",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=167",
+    "collected_at": "2026-09-23T08:25:32.977794+00:00",
+    "http_status": 200,
+    "sha256": "b5a724942869c292931c00d96397d9d9c711af67a7d47796a69ca4c10ef158d4"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "브이자산운용",
+        "상품명": "브이 뉴그로쓰증권자투자신탁1호(주식) 종류C-pe",
+        "상품유형": "주식형",
+        "위험등급": "1",
+        "설정일": "2017/09/07",
+        "판매여부": "판매",
+        "순자산총액": "1,499",
+        "1년 연평균수익률(%)": "180.20",
+        "3년 연평균수익률(%)": "56.06",
+        "5년 연평균수익률(%)": "27.54",
+        "7년 연평균수익률(%)": "24.22",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "17.26",
+        "연평균수수료율(%)": "1.150",
+        "상품 판매사": "키움증권(주), 한국투자증권, 삼성증권, IBK기업은행, KB증권, 미래에셋증권 주식회사, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=167",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=167",
+        "collected_at": "2026-09-23T08:25:32.977794+00:00",
+        "http_status": 200,
+        "sha256": "b5a724942869c292931c00d96397d9d9c711af67a7d47796a69ca4c10ef158d4"
+      }
+    }
+  ]
+}

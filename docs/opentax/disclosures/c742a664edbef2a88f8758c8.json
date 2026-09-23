@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.0c7f4bfa4038fcad85942ee5",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:1b1f22801ee632e34087e91d",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성당신을위한신연금이머징다이나믹증권전환형자투자신탁 제1호[주식]",
+  "cells": [
+    "삼성자산운용",
+    "삼성당신을위한신연금이머징다이나믹증권전환형자투자신탁 제1호[주식]",
+    "주식형",
+    "3",
+    "2008/11/27",
+    "판매",
+    "1,592",
+    "36.50",
+    "22.34",
+    "4.14",
+    "11.77",
+    "10.52",
+    "6.63",
+    "3.881",
+    "(주)우리투자증권, 삼성증권, 교보증권(주)"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=164",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=164",
+    "collected_at": "2026-09-23T08:25:28.991288+00:00",
+    "http_status": 200,
+    "sha256": "11a205ab09906ee0735a1594fd5d7800d1acf06946e65e2ac94bec21e25bd071"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성당신을위한신연금이머징다이나믹증권전환형자투자신탁 제1호[주식]",
+        "상품유형": "주식형",
+        "위험등급": "3",
+        "설정일": "2008/11/27",
+        "판매여부": "판매",
+        "순자산총액": "1,592",
+        "1년 연평균수익률(%)": "36.50",
+        "3년 연평균수익률(%)": "22.34",
+        "5년 연평균수익률(%)": "4.14",
+        "7년 연평균수익률(%)": "11.77",
+        "10년 연평균수익률(%)": "10.52",
+        "누적연평균수익률(%)": "6.63",
+        "연평균수수료율(%)": "3.881",
+        "상품 판매사": "(주)우리투자증권, 삼성증권, 교보증권(주)"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=164",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=164",
+        "collected_at": "2026-09-23T08:25:28.991288+00:00",
+        "http_status": 200,
+        "sha256": "11a205ab09906ee0735a1594fd5d7800d1acf06946e65e2ac94bec21e25bd071"
+      }
+    }
+  ]
+}

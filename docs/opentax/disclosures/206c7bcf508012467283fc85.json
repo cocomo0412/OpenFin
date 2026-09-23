@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.677c6617820a223d7ef8afb6",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:71f9ab48de0e51de1ed3cd5c",
+  "group": "3",
+  "provider": "키움투자자산운용",
+  "title": "키움올바른ESG증권투자신탁제1호[주식] Class C-Pe",
+  "cells": [
+    "키움투자자산운용",
+    "키움올바른ESG증권투자신탁제1호[주식] Class C-Pe",
+    "주식형",
+    "1",
+    "2020/07/20",
+    "판매",
+    "592",
+    "190.78",
+    "53.39",
+    "25.16",
+    "-",
+    "-",
+    "30.34",
+    "0.977",
+    "한화투자증권주식회사, 키움증권(주), 한국투자증권, KB증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=221",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=221",
+    "collected_at": "2026-09-23T08:26:45.869869+00:00",
+    "http_status": 200,
+    "sha256": "f0836f5287bb938b0cc99496508092186efbe89ed465f4200ed81771107025f7"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "키움투자자산운용",
+        "상품명": "키움올바른ESG증권투자신탁제1호[주식] Class C-Pe",
+        "상품유형": "주식형",
+        "위험등급": "1",
+        "설정일": "2020/07/20",
+        "판매여부": "판매",
+        "순자산총액": "592",
+        "1년 연평균수익률(%)": "190.78",
+        "3년 연평균수익률(%)": "53.39",
+        "5년 연평균수익률(%)": "25.16",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "30.34",
+        "연평균수수료율(%)": "0.977",
+        "상품 판매사": "한화투자증권주식회사, 키움증권(주), 한국투자증권, KB증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=221",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=221",
+        "collected_at": "2026-09-23T08:26:45.869869+00:00",
+        "http_status": 200,
+        "sha256": "f0836f5287bb938b0cc99496508092186efbe89ed465f4200ed81771107025f7"
+      }
+    }
+  ]
+}

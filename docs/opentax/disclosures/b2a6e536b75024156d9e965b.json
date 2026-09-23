@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.8ebce16c175b54bb77c44f81",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:5765eefa9d7cc8c13fdb59fe",
+  "group": "5",
+  "provider": "DB손해보험",
+  "title": "연금저축손해보험 프로미라이프 연금보험1404",
+  "cells": [
+    "DB손해보험",
+    "연금저축손해보험 프로미라이프 연금보험1404",
+    "금리연동형",
+    "2014/01/09",
+    "중단",
+    "41,392",
+    "-15.25",
+    "-0.95",
+    "0.35",
+    "0.77",
+    "1.08",
+    "1.82",
+    "0.357"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=12",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=12",
+    "collected_at": "2026-09-23T08:21:57.784792+00:00",
+    "http_status": 200,
+    "sha256": "af8a60922577895d754bbece12f0388708a34be4e9e5395f2a608d2095030d8d"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "DB손해보험",
+        "상품명": "연금저축손해보험 프로미라이프 연금보험1404",
+        "상품유형": "금리연동형",
+        "최초판매일": "2014/01/09",
+        "판매여부": "중단",
+        "적립금총액": "41,392",
+        "1년 연평균수익률(%)": "-15.25",
+        "3년 연평균수익률(%)": "-0.95",
+        "5년 연평균수익률(%)": "0.35",
+        "7년 연평균수익률(%)": "0.77",
+        "10년 연평균수익률(%)": "1.08",
+        "누적연평균수익률(%)": "1.82",
+        "연평균수수료율(%)": "0.357"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=12",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=12",
+        "collected_at": "2026-09-23T08:21:57.784792+00:00",
+        "http_status": 200,
+        "sha256": "af8a60922577895d754bbece12f0388708a34be4e9e5395f2a608d2095030d8d"
+      }
+    }
+  ]
+}

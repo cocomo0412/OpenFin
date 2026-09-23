@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.3a713cae8d028e65644e93e9",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:a249293dc0a1d7c6db340e8c",
+  "group": "3",
+  "provider": "신한자산운용",
+  "title": "신한MAN글로벌투자등급채권증권투자신탁(H)[채권-재간접형](종류C-pe)",
+  "cells": [
+    "신한자산운용",
+    "신한MAN글로벌투자등급채권증권투자신탁(H)[채권-재간접형](종류C-pe)",
+    "재간접",
+    "3",
+    "2023/05/22",
+    "판매",
+    "2,280",
+    "6.57",
+    "4.75",
+    "-",
+    "-",
+    "-",
+    "5.09",
+    "0.707",
+    "한국투자증권, 삼성증권, 대신증권주식회사, 신영증권주식회사, 미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=144",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=144",
+    "collected_at": "2026-09-23T08:25:02.178956+00:00",
+    "http_status": 200,
+    "sha256": "bddbba3f154807ce201014c67facb00e455f5e527f11f33bcce1dd07abced490"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한자산운용",
+        "상품명": "신한MAN글로벌투자등급채권증권투자신탁(H)[채권-재간접형](종류C-pe)",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2023/05/22",
+        "판매여부": "판매",
+        "순자산총액": "2,280",
+        "1년 연평균수익률(%)": "6.57",
+        "3년 연평균수익률(%)": "4.75",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "5.09",
+        "연평균수수료율(%)": "0.707",
+        "상품 판매사": "한국투자증권, 삼성증권, 대신증권주식회사, 신영증권주식회사, 미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=144",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=144",
+        "collected_at": "2026-09-23T08:25:02.178956+00:00",
+        "http_status": 200,
+        "sha256": "bddbba3f154807ce201014c67facb00e455f5e527f11f33bcce1dd07abced490"
+      }
+    }
+  ]
+}

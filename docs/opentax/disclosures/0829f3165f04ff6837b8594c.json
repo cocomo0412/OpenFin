@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.cc8379d35a12e23159f4a079",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:aa4a45ef6a131824cf1fb1f8",
+  "group": "4",
+  "provider": "케이디비생명보험",
+  "title": "(무)하이브리드연금저축보험",
+  "cells": [
+    "케이디비생명보험",
+    "(무)하이브리드연금저축보험",
+    "금리연동형",
+    "2024/10/02",
+    "중단",
+    "1,978",
+    "-4.22",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-2.13",
+    "5.500"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=59",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=59",
+    "collected_at": "2026-09-23T08:31:55.733376+00:00",
+    "http_status": 200,
+    "sha256": "bd9960f3b0b74e0ed952335799c19cae07dffe2b3751e67fbfe5e6af36f47f62"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "케이디비생명보험",
+        "상품명": "(무)하이브리드연금저축보험",
+        "상품유형": "금리연동형",
+        "최초판매일": "2024/10/02",
+        "판매여부": "중단",
+        "적립금총액": "1,978",
+        "1년 연평균수익률(%)": "-4.22",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-2.13",
+        "연평균수수료율(%)": "5.500"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=59",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=59",
+        "collected_at": "2026-09-23T08:31:55.733376+00:00",
+        "http_status": 200,
+        "sha256": "bd9960f3b0b74e0ed952335799c19cae07dffe2b3751e67fbfe5e6af36f47f62"
+      }
+    }
+  ]
+}

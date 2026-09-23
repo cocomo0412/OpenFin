@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.cfabd9e0504f38cc32baec66",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:b3bc6801a9a5cc20b1b0cf87",
+  "group": "3",
+  "provider": "마이다스에셋자산운용",
+  "title": "마이다스 MIDAS 중소형액티브 증권 상장지수투자신탁(주식)",
+  "cells": [
+    "마이다스에셋자산운용",
+    "마이다스 MIDAS 중소형액티브 증권 상장지수투자신탁(주식)",
+    "주식형",
+    "2",
+    "2022/08/16",
+    "판매",
+    "13",
+    "43.36",
+    "20.80",
+    "-",
+    "-",
+    "-",
+    "18.09",
+    "0.679",
+    "한화투자증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, KB증권, 미래에셋증권 주식회사, 주식회사 카카오페이증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=311",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=311",
+    "collected_at": "2026-09-23T08:28:47.082650+00:00",
+    "http_status": 200,
+    "sha256": "3d93d15f922a15be762df385cb358c356f4e9ae2fa447acc9c27ed4e04a1668b"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "마이다스에셋자산운용",
+        "상품명": "마이다스 MIDAS 중소형액티브 증권 상장지수투자신탁(주식)",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2022/08/16",
+        "판매여부": "판매",
+        "순자산총액": "13",
+        "1년 연평균수익률(%)": "43.36",
+        "3년 연평균수익률(%)": "20.80",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "18.09",
+        "연평균수수료율(%)": "0.679",
+        "상품 판매사": "한화투자증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, KB증권, 미래에셋증권 주식회사, 주식회사 카카오페이증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=311",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=311",
+        "collected_at": "2026-09-23T08:28:47.082650+00:00",
+        "http_status": 200,
+        "sha256": "3d93d15f922a15be762df385cb358c356f4e9ae2fa447acc9c27ed4e04a1668b"
+      }
+    }
+  ]
+}

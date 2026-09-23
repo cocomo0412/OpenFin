@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.ae7ac1d5db1afd9e6c09bfd8",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:a473c6597b8a2f174a734a8e",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자신종개인용MMF3호(C-P)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자신종개인용MMF3호(C-P)",
+    "단기금융",
+    "6",
+    "2013/04/04",
+    "판매",
+    "43,189",
+    "2.60",
+    "3.15",
+    "2.74",
+    "2.23",
+    "2.00",
+    "1.98",
+    "0.266",
+    "유진투자증권주식회사, 전북은행, 유안타증권주식회사, 한국투자증권, 아이엠증권, 미래에셋증권 주식회사, NH투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=27",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=27",
+    "collected_at": "2026-09-23T08:22:22.818055+00:00",
+    "http_status": 200,
+    "sha256": "7c8db1487337c5d69dace48a97324178cc3d7c4ad31d8dbefaa19eec991537ab"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자신종개인용MMF3호(C-P)",
+        "상품유형": "단기금융",
+        "위험등급": "6",
+        "설정일": "2013/04/04",
+        "판매여부": "판매",
+        "순자산총액": "43,189",
+        "1년 연평균수익률(%)": "2.60",
+        "3년 연평균수익률(%)": "3.15",
+        "5년 연평균수익률(%)": "2.74",
+        "7년 연평균수익률(%)": "2.23",
+        "10년 연평균수익률(%)": "2.00",
+        "누적연평균수익률(%)": "1.98",
+        "연평균수수료율(%)": "0.266",
+        "상품 판매사": "유진투자증권주식회사, 전북은행, 유안타증권주식회사, 한국투자증권, 아이엠증권, 미래에셋증권 주식회사, NH투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=27",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=27",
+        "collected_at": "2026-09-23T08:22:22.818055+00:00",
+        "http_status": 200,
+        "sha256": "7c8db1487337c5d69dace48a97324178cc3d7c4ad31d8dbefaa19eec991537ab"
+      }
+    }
+  ]
+}

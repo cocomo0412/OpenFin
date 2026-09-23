@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.32a4a2676d072d85a4eb944d",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:80e7503e6412bf5ebbef9b77",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 글로벌 AI 메타버스테크 증권 자투자신탁(주식)(H) C-P",
+  "cells": [
+    "KB자산운용",
+    "KB 글로벌 AI 메타버스테크 증권 자투자신탁(주식)(H) C-P",
+    "주식형",
+    "1",
+    "2021/09/09",
+    "판매",
+    "1,253",
+    "36.35",
+    "26.44",
+    "-",
+    "-",
+    "-",
+    "9.17",
+    "1.718",
+    "한화투자증권주식회사, 한국투자증권, SK증권주식회사, KB증권, KB국민은행, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=175",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=175",
+    "collected_at": "2026-09-23T08:25:43.856575+00:00",
+    "http_status": 200,
+    "sha256": "8a06a67aedad74daa73fc0ba68f619f4529c9b8db8bf04fa494e0da23f4c7f93"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 글로벌 AI 메타버스테크 증권 자투자신탁(주식)(H) C-P",
+        "상품유형": "주식형",
+        "위험등급": "1",
+        "설정일": "2021/09/09",
+        "판매여부": "판매",
+        "순자산총액": "1,253",
+        "1년 연평균수익률(%)": "36.35",
+        "3년 연평균수익률(%)": "26.44",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "9.17",
+        "연평균수수료율(%)": "1.718",
+        "상품 판매사": "한화투자증권주식회사, 한국투자증권, SK증권주식회사, KB증권, KB국민은행, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=175",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=175",
+        "collected_at": "2026-09-23T08:25:43.856575+00:00",
+        "http_status": 200,
+        "sha256": "8a06a67aedad74daa73fc0ba68f619f4529c9b8db8bf04fa494e0da23f4c7f93"
+      }
+    }
+  ]
+}

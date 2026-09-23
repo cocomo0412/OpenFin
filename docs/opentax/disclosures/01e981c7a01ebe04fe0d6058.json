@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.2ccfed5aadfd6deeddca80ee",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:a7a2765c1d5032117dfe73a4",
+  "group": "3",
+  "provider": "하나자산운용",
+  "title": "하나신종MMF(S-26호)ClassC-P",
+  "cells": [
+    "하나자산운용",
+    "하나신종MMF(S-26호)ClassC-P",
+    "단기금융",
+    "6",
+    "2013/07/10",
+    "판매",
+    "58,648",
+    "2.61",
+    "3.07",
+    "2.63",
+    "2.12",
+    "1.91",
+    "1.92",
+    "0.268",
+    "-"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=21",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=21",
+    "collected_at": "2026-09-23T08:22:14.495254+00:00",
+    "http_status": 200,
+    "sha256": "bf4f36b38d2a92fdf606ccf9102d247b6bf036e7145211eb330d3f448c6ebb5f"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "하나자산운용",
+        "상품명": "하나신종MMF(S-26호)ClassC-P",
+        "상품유형": "단기금융",
+        "위험등급": "6",
+        "설정일": "2013/07/10",
+        "판매여부": "판매",
+        "순자산총액": "58,648",
+        "1년 연평균수익률(%)": "2.61",
+        "3년 연평균수익률(%)": "3.07",
+        "5년 연평균수익률(%)": "2.63",
+        "7년 연평균수익률(%)": "2.12",
+        "10년 연평균수익률(%)": "1.91",
+        "누적연평균수익률(%)": "1.92",
+        "연평균수수료율(%)": "0.268",
+        "상품 판매사": "-"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=21",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=21",
+        "collected_at": "2026-09-23T08:22:14.495254+00:00",
+        "http_status": 200,
+        "sha256": "bf4f36b38d2a92fdf606ccf9102d247b6bf036e7145211eb330d3f448c6ebb5f"
+      }
+    }
+  ]
+}

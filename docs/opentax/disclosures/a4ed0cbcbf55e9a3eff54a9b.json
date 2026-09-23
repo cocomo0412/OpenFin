@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.731e7cce65e135e29a9af7f6",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:cdf4ed7df90f0a6631a53dae",
+  "group": "4",
+  "provider": "신한라이프생명보험",
+  "title": "무배당 신한연금저축보험Premium",
+  "cells": [
+    "신한라이프생명보험",
+    "무배당 신한연금저축보험Premium",
+    "금리연동형",
+    "2019/01/01",
+    "중단",
+    "8,804",
+    "-2.86",
+    "-0.24",
+    "0.32",
+    "0.61",
+    "-",
+    "0.65",
+    "3.913"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=39",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=39",
+    "collected_at": "2026-09-23T08:31:24.285980+00:00",
+    "http_status": 200,
+    "sha256": "c236dc5756c3c14c5abeed6764580f5c142141cecb64d159d54a925033fee37d"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한라이프생명보험",
+        "상품명": "무배당 신한연금저축보험Premium",
+        "상품유형": "금리연동형",
+        "최초판매일": "2019/01/01",
+        "판매여부": "중단",
+        "적립금총액": "8,804",
+        "1년 연평균수익률(%)": "-2.86",
+        "3년 연평균수익률(%)": "-0.24",
+        "5년 연평균수익률(%)": "0.32",
+        "7년 연평균수익률(%)": "0.61",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "0.65",
+        "연평균수수료율(%)": "3.913"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=39",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=39",
+        "collected_at": "2026-09-23T08:31:24.285980+00:00",
+        "http_status": 200,
+        "sha256": "c236dc5756c3c14c5abeed6764580f5c142141cecb64d159d54a925033fee37d"
+      }
+    }
+  ]
+}

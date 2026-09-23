@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.9a83bbefe058da588a9e82db",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:a0a65a35602eb6632b0a5d95",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자적격TDF알아서2025증권투자신탁(채권혼합-재간접형)(S-P)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자적격TDF알아서2025증권투자신탁(채권혼합-재간접형)(S-P)",
+    "재간접",
+    "4",
+    "2019/11/05",
+    "판매",
+    "51",
+    "16.17",
+    "10.89",
+    "4.33",
+    "-",
+    "-",
+    "6.44",
+    "0.331",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=303",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=303",
+    "collected_at": "2026-09-23T08:28:35.797590+00:00",
+    "http_status": 200,
+    "sha256": "be2e67bfd8d6cbcaa3b430dca48ddcafcb357568f2d7093013516c66bfc890a3"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자적격TDF알아서2025증권투자신탁(채권혼합-재간접형)(S-P)",
+        "상품유형": "재간접",
+        "위험등급": "4",
+        "설정일": "2019/11/05",
+        "판매여부": "판매",
+        "순자산총액": "51",
+        "1년 연평균수익률(%)": "16.17",
+        "3년 연평균수익률(%)": "10.89",
+        "5년 연평균수익률(%)": "4.33",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "6.44",
+        "연평균수수료율(%)": "0.331",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=303",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=303",
+        "collected_at": "2026-09-23T08:28:35.797590+00:00",
+        "http_status": 200,
+        "sha256": "be2e67bfd8d6cbcaa3b430dca48ddcafcb357568f2d7093013516c66bfc890a3"
+      }
+    }
+  ]
+}

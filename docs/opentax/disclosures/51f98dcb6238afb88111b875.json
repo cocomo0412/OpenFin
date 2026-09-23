@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.d9eba0c76ec1e85eb567f7f5",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:d4d1c7a6bffd6ac3950a20cb",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성글로벌휴머노이드로봇증권자투자신탁H[주식]_S-P",
+  "cells": [
+    "삼성자산운용",
+    "삼성글로벌휴머노이드로봇증권자투자신탁H[주식]_S-P",
+    "주식형",
+    "2",
+    "2025/04/03",
+    "판매",
+    "900",
+    "42.47",
+    "-",
+    "-",
+    "-",
+    "-",
+    "46.75",
+    "1.175",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=194",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=194",
+    "collected_at": "2026-09-23T08:26:09.410465+00:00",
+    "http_status": 200,
+    "sha256": "a90ff2283f74ba9235a35cc2ef71e61ea8a47ab88452c9ddef90754b2e7b9eae"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성글로벌휴머노이드로봇증권자투자신탁H[주식]_S-P",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2025/04/03",
+        "판매여부": "판매",
+        "순자산총액": "900",
+        "1년 연평균수익률(%)": "42.47",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "46.75",
+        "연평균수수료율(%)": "1.175",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=194",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=194",
+        "collected_at": "2026-09-23T08:26:09.410465+00:00",
+        "http_status": 200,
+        "sha256": "a90ff2283f74ba9235a35cc2ef71e61ea8a47ab88452c9ddef90754b2e7b9eae"
+      }
+    }
+  ]
+}

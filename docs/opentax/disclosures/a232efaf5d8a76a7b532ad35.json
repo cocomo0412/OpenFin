@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.d108bc47d6712df4376a4b0d",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:2c5df76446357eb9eaf00d8f",
+  "group": "4",
+  "provider": "삼성생명보험",
+  "title": "연금저축골드연금보험1.5(사업비할인)_50인이상",
+  "cells": [
+    "삼성생명보험",
+    "연금저축골드연금보험1.5(사업비할인)_50인이상",
+    "금리연동형",
+    "2014/04/01",
+    "중단",
+    "1,504",
+    "-3.10",
+    "-0.29",
+    "0.31",
+    "0.50",
+    "0.80",
+    "0.93",
+    "4.673"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=61",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=61",
+    "collected_at": "2026-09-23T08:31:58.470416+00:00",
+    "http_status": 200,
+    "sha256": "1268e17362f5e7be593311aa37528407c7c3177e776ab9909224a411b89a0687"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성생명보험",
+        "상품명": "연금저축골드연금보험1.5(사업비할인)_50인이상",
+        "상품유형": "금리연동형",
+        "최초판매일": "2014/04/01",
+        "판매여부": "중단",
+        "적립금총액": "1,504",
+        "1년 연평균수익률(%)": "-3.10",
+        "3년 연평균수익률(%)": "-0.29",
+        "5년 연평균수익률(%)": "0.31",
+        "7년 연평균수익률(%)": "0.50",
+        "10년 연평균수익률(%)": "0.80",
+        "누적연평균수익률(%)": "0.93",
+        "연평균수수료율(%)": "4.673"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=61",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=61",
+        "collected_at": "2026-09-23T08:31:58.470416+00:00",
+        "http_status": 200,
+        "sha256": "1268e17362f5e7be593311aa37528407c7c3177e776ab9909224a411b89a0687"
+      }
+    }
+  ]
+}

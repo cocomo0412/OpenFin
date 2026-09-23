@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.4db156d7e98e22a1ead8f6ee",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:a186bd24a40e80382db30649",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 장기국채 플러스 증권 자투자신탁(채권) C-Pe 클래스",
+  "cells": [
+    "KB자산운용",
+    "KB 장기국채 플러스 증권 자투자신탁(채권) C-Pe 클래스",
+    "채권형",
+    "4",
+    "2016/09/07",
+    "판매",
+    "1,703",
+    "-11.15",
+    "1.40",
+    "-1.07",
+    "-0.86",
+    "-",
+    "-0.08",
+    "0.272",
+    "(주)우리투자증권, KB증권, KB국민은행, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=160",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=160",
+    "collected_at": "2026-09-23T08:25:23.775470+00:00",
+    "http_status": 200,
+    "sha256": "d58d0c4ed4a7ec142608b79f336781091431463e6a256ea96e18a2de2900158e"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 장기국채 플러스 증권 자투자신탁(채권) C-Pe 클래스",
+        "상품유형": "채권형",
+        "위험등급": "4",
+        "설정일": "2016/09/07",
+        "판매여부": "판매",
+        "순자산총액": "1,703",
+        "1년 연평균수익률(%)": "-11.15",
+        "3년 연평균수익률(%)": "1.40",
+        "5년 연평균수익률(%)": "-1.07",
+        "7년 연평균수익률(%)": "-0.86",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-0.08",
+        "연평균수수료율(%)": "0.272",
+        "상품 판매사": "(주)우리투자증권, KB증권, KB국민은행, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=160",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=160",
+        "collected_at": "2026-09-23T08:25:23.775470+00:00",
+        "http_status": 200,
+        "sha256": "d58d0c4ed4a7ec142608b79f336781091431463e6a256ea96e18a2de2900158e"
+      }
+    }
+  ]
+}

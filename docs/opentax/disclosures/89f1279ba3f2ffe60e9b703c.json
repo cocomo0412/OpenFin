@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.b58c6feee3540145df3a2aeb",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:7be04d702ec9aba73f34d7c8",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자골드플랜브릭스연금증권전환형자투자신탁1호(주식)(S-P)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자골드플랜브릭스연금증권전환형자투자신탁1호(주식)(S-P)",
+    "주식형",
+    "3",
+    "2014/04/23",
+    "판매",
+    "4",
+    "-2.96",
+    "6.33",
+    "-2.99",
+    "0.37",
+    "3.82",
+    "2.36",
+    "0.950",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=315",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=315",
+    "collected_at": "2026-09-23T08:28:53.383197+00:00",
+    "http_status": 200,
+    "sha256": "4ba477d6866badc12b0ab1abddc43a2837ed5aaa3760f45cd0954d430f022387"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자골드플랜브릭스연금증권전환형자투자신탁1호(주식)(S-P)",
+        "상품유형": "주식형",
+        "위험등급": "3",
+        "설정일": "2014/04/23",
+        "판매여부": "판매",
+        "순자산총액": "4",
+        "1년 연평균수익률(%)": "-2.96",
+        "3년 연평균수익률(%)": "6.33",
+        "5년 연평균수익률(%)": "-2.99",
+        "7년 연평균수익률(%)": "0.37",
+        "10년 연평균수익률(%)": "3.82",
+        "누적연평균수익률(%)": "2.36",
+        "연평균수수료율(%)": "0.950",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=315",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=315",
+        "collected_at": "2026-09-23T08:28:53.383197+00:00",
+        "http_status": 200,
+        "sha256": "4ba477d6866badc12b0ab1abddc43a2837ed5aaa3760f45cd0954d430f022387"
+      }
+    }
+  ]
+}

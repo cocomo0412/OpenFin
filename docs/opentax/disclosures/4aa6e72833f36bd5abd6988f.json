@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.e5bea74dfab4712df0501c8d",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:f62007f0928ff4e28f189bf5",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋TIGER미국나스닥넥스트100증권상장지수투자신탁(주식)",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋TIGER미국나스닥넥스트100증권상장지수투자신탁(주식)",
+    "주식형",
+    "2",
+    "2022/05/16",
+    "판매",
+    "626",
+    "61.96",
+    "26.16",
+    "-",
+    "-",
+    "-",
+    "21.19",
+    "0.676",
+    "유진투자증권주식회사, 한화투자증권주식회사, 하나증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, KB증권, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=218",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=218",
+    "collected_at": "2026-09-23T08:26:42.167577+00:00",
+    "http_status": 200,
+    "sha256": "052e3a03ba16cb5ecfdb8c01613d5577cb591cdc8e97c4f1cdf89f55d4239b97"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋TIGER미국나스닥넥스트100증권상장지수투자신탁(주식)",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2022/05/16",
+        "판매여부": "판매",
+        "순자산총액": "626",
+        "1년 연평균수익률(%)": "61.96",
+        "3년 연평균수익률(%)": "26.16",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "21.19",
+        "연평균수수료율(%)": "0.676",
+        "상품 판매사": "유진투자증권주식회사, 한화투자증권주식회사, 하나증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, KB증권, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=218",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=218",
+        "collected_at": "2026-09-23T08:26:42.167577+00:00",
+        "http_status": 200,
+        "sha256": "052e3a03ba16cb5ecfdb8c01613d5577cb591cdc8e97c4f1cdf89f55d4239b97"
+      }
+    }
+  ]
+}

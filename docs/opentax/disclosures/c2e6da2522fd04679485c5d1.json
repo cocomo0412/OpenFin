@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.163109323fd7e83a573bfba7",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:4bbb134ffc61da3730096d27",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자코리아핵심성장증권투자신탁(주식)(C-P)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자코리아핵심성장증권투자신탁(주식)(C-P)",
+    "주식형",
+    "2",
+    "2017/08/01",
+    "판매",
+    "1,831",
+    "194.14",
+    "53.93",
+    "24.80",
+    "24.73",
+    "-",
+    "17.37",
+    "1.450",
+    "한국투자증권, IBK기업은행, 아이엠증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=156",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=156",
+    "collected_at": "2026-09-23T08:25:18.070156+00:00",
+    "http_status": 200,
+    "sha256": "422a434685c78a5cc233a345291230e2f4c262eeb9b456775ed8fcf3024e545c"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자코리아핵심성장증권투자신탁(주식)(C-P)",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2017/08/01",
+        "판매여부": "판매",
+        "순자산총액": "1,831",
+        "1년 연평균수익률(%)": "194.14",
+        "3년 연평균수익률(%)": "53.93",
+        "5년 연평균수익률(%)": "24.80",
+        "7년 연평균수익률(%)": "24.73",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "17.37",
+        "연평균수수료율(%)": "1.450",
+        "상품 판매사": "한국투자증권, IBK기업은행, 아이엠증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=156",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=156",
+        "collected_at": "2026-09-23T08:25:18.070156+00:00",
+        "http_status": 200,
+        "sha256": "422a434685c78a5cc233a345291230e2f4c262eeb9b456775ed8fcf3024e545c"
+      }
+    }
+  ]
+}

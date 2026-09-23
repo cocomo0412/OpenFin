@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.f0770acabdb50b56d96099d4",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:3313fc87ce6a3f1e09bd3b6d",
+  "group": "5",
+  "provider": "흥국화재해상보험",
+  "title": "연금저축손해보험 행복디딤돌보험(1106)",
+  "cells": [
+    "흥국화재해상보험",
+    "연금저축손해보험 행복디딤돌보험(1106)",
+    "금리연동형",
+    "2011/06/01",
+    "중단",
+    "26,959",
+    "-6.02",
+    "-0.87",
+    "0.01",
+    "0.33",
+    "0.62",
+    "0.94",
+    "6.661"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=16",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=16",
+    "collected_at": "2026-09-23T08:22:01.491324+00:00",
+    "http_status": 200,
+    "sha256": "022e7f0b5ce3bbc99117ee0424302b60c1385c5b94c4f71099fc211ef28d537e"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "흥국화재해상보험",
+        "상품명": "연금저축손해보험 행복디딤돌보험(1106)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2011/06/01",
+        "판매여부": "중단",
+        "적립금총액": "26,959",
+        "1년 연평균수익률(%)": "-6.02",
+        "3년 연평균수익률(%)": "-0.87",
+        "5년 연평균수익률(%)": "0.01",
+        "7년 연평균수익률(%)": "0.33",
+        "10년 연평균수익률(%)": "0.62",
+        "누적연평균수익률(%)": "0.94",
+        "연평균수수료율(%)": "6.661"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=16",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=16",
+        "collected_at": "2026-09-23T08:22:01.491324+00:00",
+        "http_status": 200,
+        "sha256": "022e7f0b5ce3bbc99117ee0424302b60c1385c5b94c4f71099fc211ef28d537e"
+      }
+    }
+  ]
+}

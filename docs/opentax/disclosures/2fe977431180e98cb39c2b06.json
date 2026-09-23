@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.29b461bb9ef970839b18ea8e",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:26fc3871adde79866c5922d7",
+  "group": "3",
+  "provider": "신한자산운용",
+  "title": "신한해피라이프연금증권전환형자투자신탁제1호[채권](종류C1)",
+  "cells": [
+    "신한자산운용",
+    "신한해피라이프연금증권전환형자투자신탁제1호[채권](종류C1)",
+    "채권형",
+    "5",
+    "2008/06/25",
+    "판매",
+    "8,758",
+    "-5.18",
+    "1.80",
+    "0.39",
+    "0.37",
+    "0.71",
+    "2.61",
+    "0.945",
+    "키움증권(주), 교보증권(주), KB증권, 신한은행, 미래에셋증권 주식회사, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=81",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=81",
+    "collected_at": "2026-09-23T08:23:36.880306+00:00",
+    "http_status": 200,
+    "sha256": "6233adcd786e3cbf73b1f2c628447369070b125ee6e3ad627f871632a9224354"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한자산운용",
+        "상품명": "신한해피라이프연금증권전환형자투자신탁제1호[채권](종류C1)",
+        "상품유형": "채권형",
+        "위험등급": "5",
+        "설정일": "2008/06/25",
+        "판매여부": "판매",
+        "순자산총액": "8,758",
+        "1년 연평균수익률(%)": "-5.18",
+        "3년 연평균수익률(%)": "1.80",
+        "5년 연평균수익률(%)": "0.39",
+        "7년 연평균수익률(%)": "0.37",
+        "10년 연평균수익률(%)": "0.71",
+        "누적연평균수익률(%)": "2.61",
+        "연평균수수료율(%)": "0.945",
+        "상품 판매사": "키움증권(주), 교보증권(주), KB증권, 신한은행, 미래에셋증권 주식회사, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=81",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=81",
+        "collected_at": "2026-09-23T08:23:36.880306+00:00",
+        "http_status": 200,
+        "sha256": "6233adcd786e3cbf73b1f2c628447369070b125ee6e3ad627f871632a9224354"
+      }
+    }
+  ]
+}

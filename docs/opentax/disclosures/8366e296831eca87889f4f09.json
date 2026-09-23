@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.316020ee16e69caa548713c7",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:11f5d7a5d47f9c851588072a",
+  "group": "3",
+  "provider": "에셋플러스자산운용",
+  "title": "에셋플러스 글로벌리치투게더 연금증권자투자신탁1호[주식] 종류S-P",
+  "cells": [
+    "에셋플러스자산운용",
+    "에셋플러스 글로벌리치투게더 연금증권자투자신탁1호[주식] 종류S-P",
+    "주식형",
+    "2",
+    "2014/04/28",
+    "판매",
+    "36,852",
+    "55.37",
+    "29.91",
+    "15.86",
+    "19.12",
+    "17.97",
+    "16.09",
+    "1.012",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=31",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=31",
+    "collected_at": "2026-09-23T08:22:28.353309+00:00",
+    "http_status": 200,
+    "sha256": "92abdb49e97031572c5162d474a31a82b22096652bad91d530f9dadbc33f0fea"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "에셋플러스자산운용",
+        "상품명": "에셋플러스 글로벌리치투게더 연금증권자투자신탁1호[주식] 종류S-P",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2014/04/28",
+        "판매여부": "판매",
+        "순자산총액": "36,852",
+        "1년 연평균수익률(%)": "55.37",
+        "3년 연평균수익률(%)": "29.91",
+        "5년 연평균수익률(%)": "15.86",
+        "7년 연평균수익률(%)": "19.12",
+        "10년 연평균수익률(%)": "17.97",
+        "누적연평균수익률(%)": "16.09",
+        "연평균수수료율(%)": "1.012",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=31",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=31",
+        "collected_at": "2026-09-23T08:22:28.353309+00:00",
+        "http_status": 200,
+        "sha256": "92abdb49e97031572c5162d474a31a82b22096652bad91d530f9dadbc33f0fea"
+      }
+    }
+  ]
+}

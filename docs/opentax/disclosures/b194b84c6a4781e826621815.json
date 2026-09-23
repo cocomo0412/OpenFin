@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.046eebbf82af424043b37cab",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:177abd82b2e76504a9c9ed1b",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋브라질하이인컴채권연금저축증권자투자신탁[채권]종류C",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋브라질하이인컴채권연금저축증권자투자신탁[채권]종류C",
+    "채권형",
+    "3",
+    "2014/07/17",
+    "판매",
+    "2,020",
+    "28.07",
+    "9.16",
+    "7.51",
+    "4.67",
+    "4.73",
+    "1.92",
+    "0.983",
+    "유진투자증권주식회사, 한국투자증권, 미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=150",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=150",
+    "collected_at": "2026-09-23T08:25:09.909454+00:00",
+    "http_status": 200,
+    "sha256": "34e62dc2d5bdcccdb58a8783ba4d20c35031bb3663ebfbfee3945acb3716d2e8"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋브라질하이인컴채권연금저축증권자투자신탁[채권]종류C",
+        "상품유형": "채권형",
+        "위험등급": "3",
+        "설정일": "2014/07/17",
+        "판매여부": "판매",
+        "순자산총액": "2,020",
+        "1년 연평균수익률(%)": "28.07",
+        "3년 연평균수익률(%)": "9.16",
+        "5년 연평균수익률(%)": "7.51",
+        "7년 연평균수익률(%)": "4.67",
+        "10년 연평균수익률(%)": "4.73",
+        "누적연평균수익률(%)": "1.92",
+        "연평균수수료율(%)": "0.983",
+        "상품 판매사": "유진투자증권주식회사, 한국투자증권, 미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=150",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=150",
+        "collected_at": "2026-09-23T08:25:09.909454+00:00",
+        "http_status": 200,
+        "sha256": "34e62dc2d5bdcccdb58a8783ba4d20c35031bb3663ebfbfee3945acb3716d2e8"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.b9ea8e301319bccae5b6addf",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:3c50dc80558a311ff70b643b",
+  "group": "3",
+  "provider": "신한자산운용",
+  "title": "신한스마트KRX300인덱스증권자투자신탁제1호[주식-파생형](종류C-pe)",
+  "cells": [
+    "신한자산운용",
+    "신한스마트KRX300인덱스증권자투자신탁제1호[주식-파생형](종류C-pe)",
+    "파생상품",
+    "2",
+    "2018/02/08",
+    "판매",
+    "1,860",
+    "218.84",
+    "59.53",
+    "27.36",
+    "27.14",
+    "-",
+    "20.52",
+    "0.573",
+    "한화투자증권주식회사, (주)우리투자증권, 키움증권(주), 우리은행, 아이엠증권, NH투자증권, 신한투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=155",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=155",
+    "collected_at": "2026-09-23T08:25:16.772716+00:00",
+    "http_status": 200,
+    "sha256": "88ac7c39694ef5ba469c756b08948b0f91991486ed28af21d7abfec5c5b341e3"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한자산운용",
+        "상품명": "신한스마트KRX300인덱스증권자투자신탁제1호[주식-파생형](종류C-pe)",
+        "상품유형": "파생상품",
+        "위험등급": "2",
+        "설정일": "2018/02/08",
+        "판매여부": "판매",
+        "순자산총액": "1,860",
+        "1년 연평균수익률(%)": "218.84",
+        "3년 연평균수익률(%)": "59.53",
+        "5년 연평균수익률(%)": "27.36",
+        "7년 연평균수익률(%)": "27.14",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "20.52",
+        "연평균수수료율(%)": "0.573",
+        "상품 판매사": "한화투자증권주식회사, (주)우리투자증권, 키움증권(주), 우리은행, 아이엠증권, NH투자증권, 신한투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=155",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=155",
+        "collected_at": "2026-09-23T08:25:16.772716+00:00",
+        "http_status": 200,
+        "sha256": "88ac7c39694ef5ba469c756b08948b0f91991486ed28af21d7abfec5c5b341e3"
+      }
+    }
+  ]
+}

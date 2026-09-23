@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.e4175c6983d9284ce41ddcbb",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:cab70c6eb0d85138d894dba0",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성클래식연금증권전환형투자신탁 제1호[채권]_C",
+  "cells": [
+    "삼성자산운용",
+    "삼성클래식연금증권전환형투자신탁 제1호[채권]_C",
+    "채권형",
+    "5",
+    "2016/08/25",
+    "판매",
+    "25,347",
+    "-0.26",
+    "2.14",
+    "1.25",
+    "1.01",
+    "0.97",
+    "0.98",
+    "0.961",
+    "디비증권주식회사, 케이프투자증권, (주)우리투자증권, 하나증권주식회사, 키움증권(주), 삼성생명보험주식회사, 유안타증권주식회사, 한국투자증권, SK증권주식회사, 삼성증권, 교보증권(주), 우리은행, KB증권, 대신증권주식회사, LS증권, 신한은행, 미래에셋증권 주식회사, NH투자증권, 미래에셋생명보험주식회사, 신한투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=41",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=41",
+    "collected_at": "2026-09-23T08:22:42.200298+00:00",
+    "http_status": 200,
+    "sha256": "e220eee710862c48e50cb064ccf59dbca7be1b7025bac50c7caf2fbf2dda2eca"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성클래식연금증권전환형투자신탁 제1호[채권]_C",
+        "상품유형": "채권형",
+        "위험등급": "5",
+        "설정일": "2016/08/25",
+        "판매여부": "판매",
+        "순자산총액": "25,347",
+        "1년 연평균수익률(%)": "-0.26",
+        "3년 연평균수익률(%)": "2.14",
+        "5년 연평균수익률(%)": "1.25",
+        "7년 연평균수익률(%)": "1.01",
+        "10년 연평균수익률(%)": "0.97",
+        "누적연평균수익률(%)": "0.98",
+        "연평균수수료율(%)": "0.961",
+        "상품 판매사": "디비증권주식회사, 케이프투자증권, (주)우리투자증권, 하나증권주식회사, 키움증권(주), 삼성생명보험주식회사, 유안타증권주식회사, 한국투자증권, SK증권주식회사, 삼성증권, 교보증권(주), 우리은행, KB증권, 대신증권주식회사, LS증권, 신한은행, 미래에셋증권 주식회사, NH투자증권, 미래에셋생명보험주식회사, 신한투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=41",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=41",
+        "collected_at": "2026-09-23T08:22:42.200298+00:00",
+        "http_status": 200,
+        "sha256": "e220eee710862c48e50cb064ccf59dbca7be1b7025bac50c7caf2fbf2dda2eca"
+      }
+    }
+  ]
+}

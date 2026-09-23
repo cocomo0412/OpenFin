@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.b12568ec380af32444d77fb3",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:c69deee43930ec6c651e5ed6",
+  "group": "5",
+  "provider": "한화손해보험",
+  "title": "연금저축손해보험 실버드림보험(0902)",
+  "cells": [
+    "한화손해보험",
+    "연금저축손해보험 실버드림보험(0902)",
+    "금리연동형",
+    "2009/02/04",
+    "중단",
+    "5,494",
+    "-8.95",
+    "-1.96",
+    "-0.49",
+    "0.05",
+    "0.28",
+    "1.07",
+    "6.46"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=32",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=32",
+    "collected_at": "2026-09-23T08:22:18.544770+00:00",
+    "http_status": 200,
+    "sha256": "1378fc2f08bf61ec73eacbf1b129ef3ef4289b61ef78b8bc820448136720dd5e"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한화손해보험",
+        "상품명": "연금저축손해보험 실버드림보험(0902)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2009/02/04",
+        "판매여부": "중단",
+        "적립금총액": "5,494",
+        "1년 연평균수익률(%)": "-8.95",
+        "3년 연평균수익률(%)": "-1.96",
+        "5년 연평균수익률(%)": "-0.49",
+        "7년 연평균수익률(%)": "0.05",
+        "10년 연평균수익률(%)": "0.28",
+        "누적연평균수익률(%)": "1.07",
+        "연평균수수료율(%)": "6.46"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=32",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=32",
+        "collected_at": "2026-09-23T08:22:18.544770+00:00",
+        "http_status": 200,
+        "sha256": "1378fc2f08bf61ec73eacbf1b129ef3ef4289b61ef78b8bc820448136720dd5e"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.16b4704d5a985adee4fe197d",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:d46962ea9c95e619249f6464",
+  "group": "4",
+  "provider": "한화생명보험",
+  "title": "한화생명 e연금저축보험 무배당",
+  "cells": [
+    "한화생명보험",
+    "한화생명 e연금저축보험 무배당",
+    "금리연동형",
+    "2016/09/26",
+    "중단",
+    "3,310",
+    "-2.51",
+    "0.13",
+    "0.48",
+    "0.67",
+    "-",
+    "0.86",
+    "3.833"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=54",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=54",
+    "collected_at": "2026-09-23T08:31:48.774967+00:00",
+    "http_status": 200,
+    "sha256": "a112ef971a2553e6d63265892577eedfacde9054722516251344fb22d46db254"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한화생명보험",
+        "상품명": "한화생명 e연금저축보험 무배당",
+        "상품유형": "금리연동형",
+        "최초판매일": "2016/09/26",
+        "판매여부": "중단",
+        "적립금총액": "3,310",
+        "1년 연평균수익률(%)": "-2.51",
+        "3년 연평균수익률(%)": "0.13",
+        "5년 연평균수익률(%)": "0.48",
+        "7년 연평균수익률(%)": "0.67",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "0.86",
+        "연평균수수료율(%)": "3.833"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=54",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=54",
+        "collected_at": "2026-09-23T08:31:48.774967+00:00",
+        "http_status": 200,
+        "sha256": "a112ef971a2553e6d63265892577eedfacde9054722516251344fb22d46db254"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.9c90ee5fbacf74bc0b016e22",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:2d5909b32d278290ecdf81fc",
+  "group": "3",
+  "provider": "하나자산운용",
+  "title": "하나FirstClass연금증권투자신탁(제1호)[주식혼합]",
+  "cells": [
+    "하나자산운용",
+    "하나FirstClass연금증권투자신탁(제1호)[주식혼합]",
+    "혼합주식형",
+    "3",
+    "2007/01/25",
+    "판매",
+    "13,617",
+    "109.88",
+    "33.20",
+    "15.37",
+    "14.74",
+    "10.16",
+    "6.93",
+    "1.114",
+    "하나증권주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=61",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=61",
+    "collected_at": "2026-09-23T08:23:09.819729+00:00",
+    "http_status": 200,
+    "sha256": "7fcd88e567f8c51629295a865852015ba03874e14fb4904ba4444607fb506dd7"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "하나자산운용",
+        "상품명": "하나FirstClass연금증권투자신탁(제1호)[주식혼합]",
+        "상품유형": "혼합주식형",
+        "위험등급": "3",
+        "설정일": "2007/01/25",
+        "판매여부": "판매",
+        "순자산총액": "13,617",
+        "1년 연평균수익률(%)": "109.88",
+        "3년 연평균수익률(%)": "33.20",
+        "5년 연평균수익률(%)": "15.37",
+        "7년 연평균수익률(%)": "14.74",
+        "10년 연평균수익률(%)": "10.16",
+        "누적연평균수익률(%)": "6.93",
+        "연평균수수료율(%)": "1.114",
+        "상품 판매사": "하나증권주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=61",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=61",
+        "collected_at": "2026-09-23T08:23:09.819729+00:00",
+        "http_status": 200,
+        "sha256": "7fcd88e567f8c51629295a865852015ba03874e14fb4904ba4444607fb506dd7"
+      }
+    }
+  ]
+}

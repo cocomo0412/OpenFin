@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.c7b2ca77302e29b7c095bf60",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:6196ab72b7cf254aef918eb3",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성글로벌배당성장주증권자투자신탁UH[주식]_C-Pe",
+  "cells": [
+    "삼성자산운용",
+    "삼성글로벌배당성장주증권자투자신탁UH[주식]_C-Pe",
+    "주식형",
+    "3",
+    "2022/04/15",
+    "판매",
+    "2,907",
+    "36.45",
+    "21.13",
+    "-",
+    "-",
+    "-",
+    "13.90",
+    "1.114",
+    "(주)우리투자증권, 한국투자증권, 삼성증권, IBK기업은행, 신한은행, KB국민은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=130",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=130",
+    "collected_at": "2026-09-23T08:24:43.508348+00:00",
+    "http_status": 200,
+    "sha256": "5f52ed605bf527b0765e2d3b7f652df5db796d344d390f7162740e71f4c74f11"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성글로벌배당성장주증권자투자신탁UH[주식]_C-Pe",
+        "상품유형": "주식형",
+        "위험등급": "3",
+        "설정일": "2022/04/15",
+        "판매여부": "판매",
+        "순자산총액": "2,907",
+        "1년 연평균수익률(%)": "36.45",
+        "3년 연평균수익률(%)": "21.13",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "13.90",
+        "연평균수수료율(%)": "1.114",
+        "상품 판매사": "(주)우리투자증권, 한국투자증권, 삼성증권, IBK기업은행, 신한은행, KB국민은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=130",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=130",
+        "collected_at": "2026-09-23T08:24:43.508348+00:00",
+        "http_status": 200,
+        "sha256": "5f52ed605bf527b0765e2d3b7f652df5db796d344d390f7162740e71f4c74f11"
+      }
+    }
+  ]
+}

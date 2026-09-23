@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.b83ca6e67153eaad048ec73c",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:dc968fc00dc90c7811b0f20f",
+  "group": "4",
+  "provider": "에이비엘생명보험",
+  "title": "무배당 ABL인터넷연금저축보험(60세)",
+  "cells": [
+    "에이비엘생명보험",
+    "무배당 ABL인터넷연금저축보험(60세)",
+    "금리연동형",
+    "2017/10/17",
+    "중단",
+    "1,505",
+    "-2.87",
+    "-0.10",
+    "0.36",
+    "0.60",
+    "-",
+    "0.76",
+    "4.200"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=61",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=61",
+    "collected_at": "2026-09-23T08:31:58.470416+00:00",
+    "http_status": 200,
+    "sha256": "1268e17362f5e7be593311aa37528407c7c3177e776ab9909224a411b89a0687"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "에이비엘생명보험",
+        "상품명": "무배당 ABL인터넷연금저축보험(60세)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2017/10/17",
+        "판매여부": "중단",
+        "적립금총액": "1,505",
+        "1년 연평균수익률(%)": "-2.87",
+        "3년 연평균수익률(%)": "-0.10",
+        "5년 연평균수익률(%)": "0.36",
+        "7년 연평균수익률(%)": "0.60",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "0.76",
+        "연평균수수료율(%)": "4.200"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=61",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=61",
+        "collected_at": "2026-09-23T08:31:58.470416+00:00",
+        "http_status": 200,
+        "sha256": "1268e17362f5e7be593311aa37528407c7c3177e776ab9909224a411b89a0687"
+      }
+    }
+  ]
+}

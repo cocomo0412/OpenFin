@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.9e9ead07e8bb1b0c12f2225f",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:87eccabf4c017239da9064be",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자SSGA글로벌저변동성증권자투자신탁UH(주식)(S-P)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자SSGA글로벌저변동성증권자투자신탁UH(주식)(S-P)",
+    "주식형",
+    "4",
+    "2018/05/14",
+    "판매",
+    "98",
+    "20.22",
+    "15.37",
+    "11.76",
+    "9.35",
+    "-",
+    "10.43",
+    "0.916",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=296",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=296",
+    "collected_at": "2026-09-23T08:28:26.430674+00:00",
+    "http_status": 200,
+    "sha256": "9ea54ebf65f534b07bae0b553014920f1259a6aeb677ae0d8287a87c595370b0"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자SSGA글로벌저변동성증권자투자신탁UH(주식)(S-P)",
+        "상품유형": "주식형",
+        "위험등급": "4",
+        "설정일": "2018/05/14",
+        "판매여부": "판매",
+        "순자산총액": "98",
+        "1년 연평균수익률(%)": "20.22",
+        "3년 연평균수익률(%)": "15.37",
+        "5년 연평균수익률(%)": "11.76",
+        "7년 연평균수익률(%)": "9.35",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "10.43",
+        "연평균수수료율(%)": "0.916",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=296",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=296",
+        "collected_at": "2026-09-23T08:28:26.430674+00:00",
+        "http_status": 200,
+        "sha256": "9ea54ebf65f534b07bae0b553014920f1259a6aeb677ae0d8287a87c595370b0"
+      }
+    }
+  ]
+}

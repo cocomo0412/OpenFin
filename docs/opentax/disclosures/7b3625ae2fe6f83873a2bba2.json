@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.f022857888544ce319021660",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:05c052c871a281ef4ecb94d2",
+  "group": "3",
+  "provider": "카디안자산운용",
+  "title": "카디안 글로벌 리더스 증권자투자신탁[주식] 클래스C-P2(연금저축)",
+  "cells": [
+    "카디안자산운용",
+    "카디안 글로벌 리더스 증권자투자신탁[주식] 클래스C-P2(연금저축)",
+    "주식형",
+    "2",
+    "2019/07/25",
+    "판매",
+    "413",
+    "14.73",
+    "19.78",
+    "7.70",
+    "-",
+    "-",
+    "10.75",
+    "1.685",
+    "한화투자증권주식회사, 한국투자증권, 삼성증권, KB증권, KB국민은행, 미래에셋증권 주식회사, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=244",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=244",
+    "collected_at": "2026-09-23T08:27:17.138291+00:00",
+    "http_status": 200,
+    "sha256": "734a6ef7b5c5eab65a9c0ca5a1cfad8976f226910e5777f6864f21ce02a3287c"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "카디안자산운용",
+        "상품명": "카디안 글로벌 리더스 증권자투자신탁[주식] 클래스C-P2(연금저축)",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2019/07/25",
+        "판매여부": "판매",
+        "순자산총액": "413",
+        "1년 연평균수익률(%)": "14.73",
+        "3년 연평균수익률(%)": "19.78",
+        "5년 연평균수익률(%)": "7.70",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "10.75",
+        "연평균수수료율(%)": "1.685",
+        "상품 판매사": "한화투자증권주식회사, 한국투자증권, 삼성증권, KB증권, KB국민은행, 미래에셋증권 주식회사, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=244",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=244",
+        "collected_at": "2026-09-23T08:27:17.138291+00:00",
+        "http_status": 200,
+        "sha256": "734a6ef7b5c5eab65a9c0ca5a1cfad8976f226910e5777f6864f21ce02a3287c"
+      }
+    }
+  ]
+}

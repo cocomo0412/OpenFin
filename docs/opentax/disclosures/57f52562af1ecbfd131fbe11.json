@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.4a0e819bf8b66c51917abfc7",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:9027c4de7cc45c04ac6f7740",
+  "group": "3",
+  "provider": "마이다스에셋자산운용",
+  "title": "마이다스하이일드공모주알파증권투자신탁(채권혼합)C-P1",
+  "cells": [
+    "마이다스에셋자산운용",
+    "마이다스하이일드공모주알파증권투자신탁(채권혼합)C-P1",
+    "혼합채권형",
+    "5",
+    "2021/04/20",
+    "판매",
+    "251",
+    "2.98",
+    "5.44",
+    "4.75",
+    "-",
+    "-",
+    "4.60",
+    "0.926",
+    "한국투자증권, 우리은행, KB증권, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=268",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=268",
+    "collected_at": "2026-09-23T08:27:49.448418+00:00",
+    "http_status": 200,
+    "sha256": "c69a44b9e6da3a4eb6b8a26e68f4ade073bd70d67cb7ef7198101fbcfc1c6646"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "마이다스에셋자산운용",
+        "상품명": "마이다스하이일드공모주알파증권투자신탁(채권혼합)C-P1",
+        "상품유형": "혼합채권형",
+        "위험등급": "5",
+        "설정일": "2021/04/20",
+        "판매여부": "판매",
+        "순자산총액": "251",
+        "1년 연평균수익률(%)": "2.98",
+        "3년 연평균수익률(%)": "5.44",
+        "5년 연평균수익률(%)": "4.75",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "4.60",
+        "연평균수수료율(%)": "0.926",
+        "상품 판매사": "한국투자증권, 우리은행, KB증권, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=268",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=268",
+        "collected_at": "2026-09-23T08:27:49.448418+00:00",
+        "http_status": 200,
+        "sha256": "c69a44b9e6da3a4eb6b8a26e68f4ade073bd70d67cb7ef7198101fbcfc1c6646"
+      }
+    }
+  ]
+}

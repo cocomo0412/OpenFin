@@ -1,0 +1,50 @@
+{
+  "id": "finance.insurance.klia.indemnity-health.한화생명.l0102460001nny024700020244000102440001000802440001000800010244000100080001000318082",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L0102460001NNY024700020244000102440001000802440001000800010244000100080001000318082",
+  "group": "024400010008",
+  "title": "한화생명 노후실손의료비보장보험(갱신형) 무배당",
+  "provider": "한화생명",
+  "cells": [
+    "한화생명",
+    "한화생명 노후실손의료비보장보험(갱신형) 무배당",
+    "주계약",
+    "상해 *지급사유 : 피보험자가 상해로 인하여 의료기관(요양병원 제외)에 입원 또는 통원하여 치료를 받거나, 처방조제를 받은 경우",
+    "용어해설참조",
+    "1,542 원",
+    "3,045 원",
+    "2.25 %",
+    "100.0 %",
+    "100.0 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "노후실손",
+    "갱신형",
+    "Download",
+    "비유니버셜",
+    "대면채널",
+    "2026-07-01",
+    "Download",
+    "보기",
+    "1588-6363"
+  ],
+  "coverage": [
+    "상해 *지급사유 : 피보험자가 상해로 인하여 의료기관(요양병원 제외)에 입원 또는 통원하여 치료를 받거나, 처방조제를 받은 경우",
+    "질병 *지급사유 : 피보험자가 질병으로 인하여 의료기관(요양병원 제외)에 입원 또는 통원하여 치료를 받거나, 처방조제를 받은 경우",
+    "상급병실료차액보장 *지급사유 : 피보험자가 상해 또는 질병으로 인하여 상급병실에 입원하여 치료를 받은 경우",
+    "요양병원의료비 *지급사유 : 피보험자가 상해 또는 질병으로 인하여 요양병원에 입원 또는 통원하여 치료를 받거나, 처방조제를 받은 경우"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=35149&seq=6",
+    "https://pub.insure.or.kr/FileDown.do?fileNo=35148&seq=7"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010008&pageIndex=1&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010008&pageIndex=1&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:34.811152+00:00",
+    "http_status": 200,
+    "sha256": "b83f7dc9ce5f4362e38e9cc5fdf5b1befec20872a3da63baf3bf092147aaf2a3"
+  }
+}

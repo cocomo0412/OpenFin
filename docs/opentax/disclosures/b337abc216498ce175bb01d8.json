@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.cb329e5440d824ce75e31d1c",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:4c1058db3018219de3fbc961",
+  "group": "3",
+  "provider": "신한자산운용",
+  "title": "신한신종개인용MMF(종S-P)",
+  "cells": [
+    "신한자산운용",
+    "신한신종개인용MMF(종S-P)",
+    "단기금융",
+    "6",
+    "2018/07/10",
+    "판매",
+    "171",
+    "2.57",
+    "3.12",
+    "2.73",
+    "2.24",
+    "-",
+    "2.18",
+    "0.165",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=284",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=284",
+    "collected_at": "2026-09-23T08:28:10.812128+00:00",
+    "http_status": 200,
+    "sha256": "0a708d98f21edd301a110af2c2337e274fca7492e2605bd9edc00e26fc1adb05"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한자산운용",
+        "상품명": "신한신종개인용MMF(종S-P)",
+        "상품유형": "단기금융",
+        "위험등급": "6",
+        "설정일": "2018/07/10",
+        "판매여부": "판매",
+        "순자산총액": "171",
+        "1년 연평균수익률(%)": "2.57",
+        "3년 연평균수익률(%)": "3.12",
+        "5년 연평균수익률(%)": "2.73",
+        "7년 연평균수익률(%)": "2.24",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "2.18",
+        "연평균수수료율(%)": "0.165",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=284",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=284",
+        "collected_at": "2026-09-23T08:28:10.812128+00:00",
+        "http_status": 200,
+        "sha256": "0a708d98f21edd301a110af2c2337e274fca7492e2605bd9edc00e26fc1adb05"
+      }
+    }
+  ]
+}

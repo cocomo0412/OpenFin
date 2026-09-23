@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.af0a5905f41979f66efbcee0",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:da18d86ecd6aa126b61c57be",
+  "group": "3",
+  "provider": "브이아이자산운용",
+  "title": "브이아이 중국 4차산업 증권 자투자신탁 1호[주식] C-Pe2",
+  "cells": [
+    "브이아이자산운용",
+    "브이아이 중국 4차산업 증권 자투자신탁 1호[주식] C-Pe2",
+    "주식형",
+    "2",
+    "2018/01/09",
+    "판매",
+    "384",
+    "22.64",
+    "12.20",
+    "-6.46",
+    "0.13",
+    "-",
+    "-4.09",
+    "1.044",
+    "한화투자증권주식회사, 키움증권(주), 교보증권(주), 아이엠증권, 미래에셋증권 주식회사, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=247",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=247",
+    "collected_at": "2026-09-23T08:27:21.223359+00:00",
+    "http_status": 200,
+    "sha256": "317a0f7b77f1cfe6c959c5f6b98125fbd3bf531e31b6d233d18c4e033a3e37d9"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "브이아이자산운용",
+        "상품명": "브이아이 중국 4차산업 증권 자투자신탁 1호[주식] C-Pe2",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2018/01/09",
+        "판매여부": "판매",
+        "순자산총액": "384",
+        "1년 연평균수익률(%)": "22.64",
+        "3년 연평균수익률(%)": "12.20",
+        "5년 연평균수익률(%)": "-6.46",
+        "7년 연평균수익률(%)": "0.13",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-4.09",
+        "연평균수수료율(%)": "1.044",
+        "상품 판매사": "한화투자증권주식회사, 키움증권(주), 교보증권(주), 아이엠증권, 미래에셋증권 주식회사, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=247",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=247",
+        "collected_at": "2026-09-23T08:27:21.223359+00:00",
+        "http_status": 200,
+        "sha256": "317a0f7b77f1cfe6c959c5f6b98125fbd3bf531e31b6d233d18c4e033a3e37d9"
+      }
+    }
+  ]
+}

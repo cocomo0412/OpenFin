@@ -1,0 +1,50 @@
+{
+  "id": "finance.insurance.klia.disease.한화생명.l0102460001nnn024700020244000102440001000302440001000300020244000100030002000222641",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L0102460001NNN024700020244000102440001000302440001000300020244000100030002000222641",
+  "group": "024400010003",
+  "title": "한화생명 간편가입 밸류플러스보장보험2.0 무배당[1종(장기요양납입면제형)](해약환급금 일부지급형Ⅱ)",
+  "provider": "한화생명",
+  "cells": [
+    "한화생명",
+    "한화생명 간편가입 밸류플러스보장보험2.0 무배당[1종(장기요양납입면제형)](해약환급금 일부지급형Ⅱ)",
+    "주계약",
+    "사망보험금 *지급사유 : 보험기간 중 피보험자가 사망한 경우",
+    "3,000만원",
+    "291,600 원",
+    "276,900 원",
+    "2.75 %",
+    "-",
+    "-",
+    "169.8 %",
+    "179.5 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "기타",
+    "무해지/저해지환급",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "대면채널",
+    "2026-07-01",
+    "Download",
+    "보기",
+    "1588-6363"
+  ],
+  "coverage": [
+    "사망보험금 *지급사유 : 보험기간 중 피보험자가 사망한 경우",
+    "간편가입 50%장해보험료납입면제특약II 무배당 *지급사유 : 동일한 재해로 여러 신체부위의 장해지급률을 더하여 50% 이상의 장해상태가 된 경우"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=45033&seq=3"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010003&pageIndex=1&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010003&pageIndex=1&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:24.539194+00:00",
+    "http_status": 200,
+    "sha256": "41e5f665851b2d29ebb8b7f5a3f90768928e553a4ce55d68afbba7957020a0b6"
+  }
+}

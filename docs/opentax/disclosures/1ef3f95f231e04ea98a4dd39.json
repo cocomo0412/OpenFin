@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.437f9df600f5d5b514bd04d3",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:d5817b3d0bd6d46a8ba91325",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성픽테글로벌메가트렌드증권자투자신탁H[주식-재간접형]_C-P",
+  "cells": [
+    "삼성자산운용",
+    "삼성픽테글로벌메가트렌드증권자투자신탁H[주식-재간접형]_C-P",
+    "재간접",
+    "3",
+    "2016/01/15",
+    "판매",
+    "549",
+    "11.68",
+    "8.76",
+    "1.23",
+    "5.66",
+    "6.97",
+    "6.97",
+    "1.226",
+    "(주)우리투자증권, 삼성증권, 우리은행, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=226",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=226",
+    "collected_at": "2026-09-23T08:26:52.912410+00:00",
+    "http_status": 200,
+    "sha256": "529e92cacede2eab0dc3f555114cbed470cf34078d7f2d928cf4fe5c775e6860"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성픽테글로벌메가트렌드증권자투자신탁H[주식-재간접형]_C-P",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2016/01/15",
+        "판매여부": "판매",
+        "순자산총액": "549",
+        "1년 연평균수익률(%)": "11.68",
+        "3년 연평균수익률(%)": "8.76",
+        "5년 연평균수익률(%)": "1.23",
+        "7년 연평균수익률(%)": "5.66",
+        "10년 연평균수익률(%)": "6.97",
+        "누적연평균수익률(%)": "6.97",
+        "연평균수수료율(%)": "1.226",
+        "상품 판매사": "(주)우리투자증권, 삼성증권, 우리은행, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=226",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=226",
+        "collected_at": "2026-09-23T08:26:52.912410+00:00",
+        "http_status": 200,
+        "sha256": "529e92cacede2eab0dc3f555114cbed470cf34078d7f2d928cf4fe5c775e6860"
+      }
+    }
+  ]
+}

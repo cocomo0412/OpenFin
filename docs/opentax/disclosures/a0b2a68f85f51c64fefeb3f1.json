@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.417f4861ea706d531969a3bc",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:3142c043b70838f14b740160",
+  "group": "5",
+  "provider": "DB손해보험",
+  "title": "연금저축손해보험 프로미라이프 연금보험0710",
+  "cells": [
+    "DB손해보험",
+    "연금저축손해보험 프로미라이프 연금보험0710",
+    "금리연동형",
+    "2007/10/01",
+    "중단",
+    "14,302",
+    "-23.7",
+    "-0.65",
+    "1.42",
+    "1.72",
+    "1.57",
+    "1.71",
+    "0.246"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=23",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=23",
+    "collected_at": "2026-09-23T08:22:08.910673+00:00",
+    "http_status": 200,
+    "sha256": "2d489e1467d3656439358fb93e38d1af3ea797cad4d54322a058e374b0ba8eeb"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "DB손해보험",
+        "상품명": "연금저축손해보험 프로미라이프 연금보험0710",
+        "상품유형": "금리연동형",
+        "최초판매일": "2007/10/01",
+        "판매여부": "중단",
+        "적립금총액": "14,302",
+        "1년 연평균수익률(%)": "-23.7",
+        "3년 연평균수익률(%)": "-0.65",
+        "5년 연평균수익률(%)": "1.42",
+        "7년 연평균수익률(%)": "1.72",
+        "10년 연평균수익률(%)": "1.57",
+        "누적연평균수익률(%)": "1.71",
+        "연평균수수료율(%)": "0.246"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=23",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=23",
+        "collected_at": "2026-09-23T08:22:08.910673+00:00",
+        "http_status": 200,
+        "sha256": "2d489e1467d3656439358fb93e38d1af3ea797cad4d54322a058e374b0ba8eeb"
+      }
+    }
+  ]
+}

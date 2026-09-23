@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.d5c4c1aa50847412fabc0597",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:3f10246422871fbaf89b7057",
+  "group": "5",
+  "provider": "흥국화재해상보험",
+  "title": "연금저축손해보험 흥국화재 행복디딤돌보험(21.01)",
+  "cells": [
+    "흥국화재해상보험",
+    "연금저축손해보험 흥국화재 행복디딤돌보험(21.01)",
+    "금리연동형",
+    "2021/01/01",
+    "중단",
+    "4,250",
+    "-5.44",
+    "-1.31",
+    "-0.45",
+    "-",
+    "-",
+    "-0.34",
+    "6.153"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=34",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=34",
+    "collected_at": "2026-09-23T08:22:20.470147+00:00",
+    "http_status": 200,
+    "sha256": "3b10e969de0543c34588c4231d840aff91436f510696235b4eab550d81d93013"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "흥국화재해상보험",
+        "상품명": "연금저축손해보험 흥국화재 행복디딤돌보험(21.01)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2021/01/01",
+        "판매여부": "중단",
+        "적립금총액": "4,250",
+        "1년 연평균수익률(%)": "-5.44",
+        "3년 연평균수익률(%)": "-1.31",
+        "5년 연평균수익률(%)": "-0.45",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-0.34",
+        "연평균수수료율(%)": "6.153"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=34",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=34",
+        "collected_at": "2026-09-23T08:22:20.470147+00:00",
+        "http_status": 200,
+        "sha256": "3b10e969de0543c34588c4231d840aff91436f510696235b4eab550d81d93013"
+      }
+    }
+  ]
+}

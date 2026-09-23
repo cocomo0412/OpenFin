@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.211fd2ba407b1ab9776ba056",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:2c4167781fb65d8ece36903b",
+  "group": "5",
+  "provider": "삼성화재해상보험",
+  "title": "연금저축손해보험 삼성화재 다이렉트 연금저축(1601.3)",
+  "cells": [
+    "삼성화재해상보험",
+    "연금저축손해보험 삼성화재 다이렉트 연금저축(1601.3)",
+    "금리연동형",
+    "2016/01/01",
+    "중단",
+    "5,469",
+    "-4.91",
+    "-0.94",
+    "-0.22",
+    "0.07",
+    "0.47",
+    "0.51",
+    "5.5"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=32",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=32",
+    "collected_at": "2026-09-23T08:22:18.544770+00:00",
+    "http_status": 200,
+    "sha256": "1378fc2f08bf61ec73eacbf1b129ef3ef4289b61ef78b8bc820448136720dd5e"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성화재해상보험",
+        "상품명": "연금저축손해보험 삼성화재 다이렉트 연금저축(1601.3)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2016/01/01",
+        "판매여부": "중단",
+        "적립금총액": "5,469",
+        "1년 연평균수익률(%)": "-4.91",
+        "3년 연평균수익률(%)": "-0.94",
+        "5년 연평균수익률(%)": "-0.22",
+        "7년 연평균수익률(%)": "0.07",
+        "10년 연평균수익률(%)": "0.47",
+        "누적연평균수익률(%)": "0.51",
+        "연평균수수료율(%)": "5.5"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=32",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=32",
+        "collected_at": "2026-09-23T08:22:18.544770+00:00",
+        "http_status": 200,
+        "sha256": "1378fc2f08bf61ec73eacbf1b129ef3ef4289b61ef78b8bc820448136720dd5e"
+      }
+    }
+  ]
+}

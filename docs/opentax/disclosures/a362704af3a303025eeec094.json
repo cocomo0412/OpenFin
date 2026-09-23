@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.c39f214a9eca8d141c5c1bce",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:924e1fa3f8cbc30ca8f6323c",
+  "group": "3",
+  "provider": "IBK자산운용",
+  "title": "IBK KOSPI200 인덱스 증권 자투자신탁 2호[주식] 종류 S-P",
+  "cells": [
+    "IBK자산운용",
+    "IBK KOSPI200 인덱스 증권 자투자신탁 2호[주식] 종류 S-P",
+    "주식형",
+    "2",
+    "2017/12/01",
+    "판매",
+    "1,108",
+    "237.70",
+    "63.50",
+    "29.26",
+    "29.44",
+    "-",
+    "21.75",
+    "0.341",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=183",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=183",
+    "collected_at": "2026-09-23T08:25:54.584658+00:00",
+    "http_status": 200,
+    "sha256": "878b1ead51a60b81ee22e9bd321020a724bbcb130d308c190ce220685411aaea"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "IBK자산운용",
+        "상품명": "IBK KOSPI200 인덱스 증권 자투자신탁 2호[주식] 종류 S-P",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2017/12/01",
+        "판매여부": "판매",
+        "순자산총액": "1,108",
+        "1년 연평균수익률(%)": "237.70",
+        "3년 연평균수익률(%)": "63.50",
+        "5년 연평균수익률(%)": "29.26",
+        "7년 연평균수익률(%)": "29.44",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "21.75",
+        "연평균수수료율(%)": "0.341",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=183",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=183",
+        "collected_at": "2026-09-23T08:25:54.584658+00:00",
+        "http_status": 200,
+        "sha256": "878b1ead51a60b81ee22e9bd321020a724bbcb130d308c190ce220685411aaea"
+      }
+    }
+  ]
+}

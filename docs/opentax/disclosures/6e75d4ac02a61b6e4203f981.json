@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.16dc293586bc147e26184ae8",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:2301a63f2ac0e3143b81564b",
+  "group": "3",
+  "provider": "키움투자자산운용",
+  "title": "키움글로벌수소VISION증권자투자신탁(UH)[주식](C-Pe)",
+  "cells": [
+    "키움투자자산운용",
+    "키움글로벌수소VISION증권자투자신탁(UH)[주식](C-Pe)",
+    "주식형",
+    "2",
+    "2021/07/09",
+    "판매",
+    "347",
+    "105.81",
+    "19.80",
+    "-",
+    "-",
+    "-",
+    "4.30",
+    "1.119",
+    "우리은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=252",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=252",
+    "collected_at": "2026-09-23T08:27:28.189026+00:00",
+    "http_status": 200,
+    "sha256": "a8de29245b324030418751633f3ad23ed5c2fb229950ef9b9e4676caa693478c"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "키움투자자산운용",
+        "상품명": "키움글로벌수소VISION증권자투자신탁(UH)[주식](C-Pe)",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2021/07/09",
+        "판매여부": "판매",
+        "순자산총액": "347",
+        "1년 연평균수익률(%)": "105.81",
+        "3년 연평균수익률(%)": "19.80",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "4.30",
+        "연평균수수료율(%)": "1.119",
+        "상품 판매사": "우리은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=252",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=252",
+        "collected_at": "2026-09-23T08:27:28.189026+00:00",
+        "http_status": 200,
+        "sha256": "a8de29245b324030418751633f3ad23ed5c2fb229950ef9b9e4676caa693478c"
+      }
+    }
+  ]
+}

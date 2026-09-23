@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.8022c8df39fd69b5cc9a1e9e",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:8d272f8baf928bc64e899c52",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋차세대Fun인덱스증권자투자신탁[주식]종류S-P",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋차세대Fun인덱스증권자투자신탁[주식]종류S-P",
+    "주식형",
+    "1",
+    "2015/07/22",
+    "판매",
+    "2,519",
+    "257.88",
+    "67.78",
+    "30.92",
+    "30.01",
+    "22.33",
+    "20.18",
+    "0.255",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=138",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=138",
+    "collected_at": "2026-09-23T08:24:54.154014+00:00",
+    "http_status": 200,
+    "sha256": "f66f377665e76b4193a5d4ac2b7f1f9f5c736c9595c928e94cfa57bcb93ab7a1"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋차세대Fun인덱스증권자투자신탁[주식]종류S-P",
+        "상품유형": "주식형",
+        "위험등급": "1",
+        "설정일": "2015/07/22",
+        "판매여부": "판매",
+        "순자산총액": "2,519",
+        "1년 연평균수익률(%)": "257.88",
+        "3년 연평균수익률(%)": "67.78",
+        "5년 연평균수익률(%)": "30.92",
+        "7년 연평균수익률(%)": "30.01",
+        "10년 연평균수익률(%)": "22.33",
+        "누적연평균수익률(%)": "20.18",
+        "연평균수수료율(%)": "0.255",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=138",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=138",
+        "collected_at": "2026-09-23T08:24:54.154014+00:00",
+        "http_status": 200,
+        "sha256": "f66f377665e76b4193a5d4ac2b7f1f9f5c736c9595c928e94cfa57bcb93ab7a1"
+      }
+    }
+  ]
+}

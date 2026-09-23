@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.134034861372ea9d12707e20",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:0fab6bd94d03cdcc5995cfc9",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋연금중국본토증권자투자신탁1호(주식-재간접형)종류C",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋연금중국본토증권자투자신탁1호(주식-재간접형)종류C",
+    "재간접",
+    "3",
+    "2015/01/27",
+    "판매",
+    "3,002",
+    "57.67",
+    "17.31",
+    "0.76",
+    "5.38",
+    "6.18",
+    "3.14",
+    "1.395",
+    "미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=128",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=128",
+    "collected_at": "2026-09-23T08:24:41.107044+00:00",
+    "http_status": 200,
+    "sha256": "b3f825c052b64f42b289c67ead089c1870365c9b797bde179b578584a072c2e8"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋연금중국본토증권자투자신탁1호(주식-재간접형)종류C",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2015/01/27",
+        "판매여부": "판매",
+        "순자산총액": "3,002",
+        "1년 연평균수익률(%)": "57.67",
+        "3년 연평균수익률(%)": "17.31",
+        "5년 연평균수익률(%)": "0.76",
+        "7년 연평균수익률(%)": "5.38",
+        "10년 연평균수익률(%)": "6.18",
+        "누적연평균수익률(%)": "3.14",
+        "연평균수수료율(%)": "1.395",
+        "상품 판매사": "미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=128",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=128",
+        "collected_at": "2026-09-23T08:24:41.107044+00:00",
+        "http_status": 200,
+        "sha256": "b3f825c052b64f42b289c67ead089c1870365c9b797bde179b578584a072c2e8"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.342e579f27422095f3cdfe65",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:da80b33fdbe1bcb1016299de",
+  "group": "5",
+  "provider": "KB손해보험",
+  "title": "연금저축손해보험 KB멀티플러스연금보험(18.04)",
+  "cells": [
+    "KB손해보험",
+    "연금저축손해보험 KB멀티플러스연금보험(18.04)",
+    "금리연동형",
+    "2018/01/01",
+    "중단",
+    "55",
+    "-2.1",
+    "0.12",
+    "0.71",
+    "1.04",
+    "-",
+    "1.04",
+    "4.56"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=48",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=48",
+    "collected_at": "2026-09-23T08:31:28.844714+00:00",
+    "http_status": 200,
+    "sha256": "64befd4745878ac997e9682c894a2a66c56b5f4265956bbf90dccc63fec49b79"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB손해보험",
+        "상품명": "연금저축손해보험 KB멀티플러스연금보험(18.04)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2018/01/01",
+        "판매여부": "중단",
+        "적립금총액": "55",
+        "1년 연평균수익률(%)": "-2.1",
+        "3년 연평균수익률(%)": "0.12",
+        "5년 연평균수익률(%)": "0.71",
+        "7년 연평균수익률(%)": "1.04",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "1.04",
+        "연평균수수료율(%)": "4.56"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=48",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=48",
+        "collected_at": "2026-09-23T08:31:28.844714+00:00",
+        "http_status": 200,
+        "sha256": "64befd4745878ac997e9682c894a2a66c56b5f4265956bbf90dccc63fec49b79"
+      }
+    }
+  ]
+}

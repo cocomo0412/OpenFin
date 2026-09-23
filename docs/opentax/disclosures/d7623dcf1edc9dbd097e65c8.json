@@ -1,0 +1,49 @@
+{
+  "id": "finance.insurance.klia.indemnity-health.삼성생명.l031nnb1g0212692",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L031NNB1G0212692",
+  "group": "024400010008",
+  "title": "삼성 노후실손의료비보장보험(2601)(갱신형,무배당)",
+  "provider": "삼성생명",
+  "cells": [
+    "삼성생명",
+    "삼성 노후실손의료비보장보험(2601)(갱신형,무배당)",
+    "주계약",
+    "종합형 *지급사유 : 회사는 이 계약의 보험기간 중 피보험자가 상해 또는 질병으로 인하여 의료기관에 입원 또는 통원하여 치료를 받거 나 처방조제를 받은 경우에는 해당 입원의료비(상급병실료 차액을 제외한 입원실료, 입원제비용, 입원 수술비) 및 통원의료비(외래제비용, 외래수술비, 처방조제비)를 보상",
+    "용어해설 참조",
+    "19,950 원",
+    "23,450 원",
+    "2.00 %",
+    "100.0 %",
+    "100.0 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "노후실손",
+    "갱신형",
+    "Download",
+    "비유니버셜",
+    "대면채널",
+    "2026-01-01",
+    "Download",
+    "보기",
+    "1588-3114"
+  ],
+  "coverage": [
+    "종합형 *지급사유 : 회사는 이 계약의 보험기간 중 피보험자가 상해 또는 질병으로 인하여 의료기관에 입원 또는 통원하여 치료를 받거 나 처방조제를 받은 경우에는 해당 입원의료비(상급병실료 차액을 제외한 입원실료, 입원제비용, 입원 수술비) 및 통원의료비(외래제비용, 외래수술비, 처방조제비)를 보상",
+    "요양병원 실손의료비보장특약D(갱신형,무배당) *지급사유 : 회사는 이 특약의 보험기간 중 피보험자가 상해 또는 질병으로 인하여 요양병원에 입원 또는 통원하 여 치료를 받거나 처방조제를 받은 경우에는 해당 입원의료비(상급병실료 차액을 제외한 입원실료, 입원제비용, 입원수술비) 및 통원의료비(외래제비용, 외래수술비, 처방조제비)를 보상합니다.",
+    "상급병실료차액 실손의료비보장특약D(갱신형,무배당) *지급사유 : 회사는 이 특약의 보험기간 중 피보험자가 상해 또는 질병으로 인하여 병원의 상급병실에 입원하여 치료를 받은 경우에는 보상합니다."
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=15419&seq=9",
+    "https://pub.insure.or.kr/FileDown.do?fileNo=14778&seq=13"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010008&pageIndex=1&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010008&pageIndex=1&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:34.811152+00:00",
+    "http_status": 200,
+    "sha256": "b83f7dc9ce5f4362e38e9cc5fdf5b1befec20872a3da63baf3bf092147aaf2a3"
+  }
+}

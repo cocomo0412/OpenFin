@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.215ff151ea16e5573381989f",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:d0bbab1ccbad07d9b103ec7b",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성누버거버먼미국리츠부동산자투자신탁H[REITs-재간접형]_C-P",
+  "cells": [
+    "삼성자산운용",
+    "삼성누버거버먼미국리츠부동산자투자신탁H[REITs-재간접형]_C-P",
+    "부동산",
+    "2",
+    "2020/08/20",
+    "판매",
+    "129",
+    "9.95",
+    "5.41",
+    "0.17",
+    "-",
+    "-",
+    "3.82",
+    "2.211",
+    "한국투자증권, 삼성증권, KB증권, 미래에셋증권 주식회사, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=292",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=292",
+    "collected_at": "2026-09-23T08:28:21.525386+00:00",
+    "http_status": 200,
+    "sha256": "ab1911833d8f9b2aae7406a7b930ba7744d0006f60a02c7dcf6103bae10eb1ac"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성누버거버먼미국리츠부동산자투자신탁H[REITs-재간접형]_C-P",
+        "상품유형": "부동산",
+        "위험등급": "2",
+        "설정일": "2020/08/20",
+        "판매여부": "판매",
+        "순자산총액": "129",
+        "1년 연평균수익률(%)": "9.95",
+        "3년 연평균수익률(%)": "5.41",
+        "5년 연평균수익률(%)": "0.17",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "3.82",
+        "연평균수수료율(%)": "2.211",
+        "상품 판매사": "한국투자증권, 삼성증권, KB증권, 미래에셋증권 주식회사, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=292",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=292",
+        "collected_at": "2026-09-23T08:28:21.525386+00:00",
+        "http_status": 200,
+        "sha256": "ab1911833d8f9b2aae7406a7b930ba7744d0006f60a02c7dcf6103bae10eb1ac"
+      }
+    }
+  ]
+}

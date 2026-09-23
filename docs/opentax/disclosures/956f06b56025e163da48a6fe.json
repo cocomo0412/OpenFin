@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.ba65b2aee089335b26831295",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:21545515675b25fc31fe8ab0",
+  "group": "3",
+  "provider": "키움투자자산운용",
+  "title": "키움장기코어밸류증권자투자신탁제1호_C-Pe[주식]",
+  "cells": [
+    "키움투자자산운용",
+    "키움장기코어밸류증권자투자신탁제1호_C-Pe[주식]",
+    "주식형",
+    "1",
+    "2017/11/23",
+    "판매",
+    "1,835",
+    "206.40",
+    "56.27",
+    "27.97",
+    "27.74",
+    "-",
+    "20.38",
+    "0.900",
+    "키움증권(주), IBK기업은행, 신한은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=155",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=155",
+    "collected_at": "2026-09-23T08:25:16.772716+00:00",
+    "http_status": 200,
+    "sha256": "88ac7c39694ef5ba469c756b08948b0f91991486ed28af21d7abfec5c5b341e3"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "키움투자자산운용",
+        "상품명": "키움장기코어밸류증권자투자신탁제1호_C-Pe[주식]",
+        "상품유형": "주식형",
+        "위험등급": "1",
+        "설정일": "2017/11/23",
+        "판매여부": "판매",
+        "순자산총액": "1,835",
+        "1년 연평균수익률(%)": "206.40",
+        "3년 연평균수익률(%)": "56.27",
+        "5년 연평균수익률(%)": "27.97",
+        "7년 연평균수익률(%)": "27.74",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "20.38",
+        "연평균수수료율(%)": "0.900",
+        "상품 판매사": "키움증권(주), IBK기업은행, 신한은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=155",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=155",
+        "collected_at": "2026-09-23T08:25:16.772716+00:00",
+        "http_status": 200,
+        "sha256": "88ac7c39694ef5ba469c756b08948b0f91991486ed28af21d7abfec5c5b341e3"
+      }
+    }
+  ]
+}

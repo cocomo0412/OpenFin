@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.a0a5b9edde5c808f6d61983d",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:d1db1f61d4b41be3280f83dd",
+  "group": "3",
+  "provider": "iM에셋자산운용",
+  "title": "iM에셋미국달러하이일드증권투자신탁(채권-재간접형)(H)(C-p)",
+  "cells": [
+    "iM에셋자산운용",
+    "iM에셋미국달러하이일드증권투자신탁(채권-재간접형)(H)(C-p)",
+    "재간접",
+    "5",
+    "2013/12/09",
+    "판매",
+    "1,014",
+    "4.61",
+    "6.17",
+    "2.12",
+    "3.06",
+    "3.85",
+    "3.41",
+    "1.073",
+    "디비증권주식회사, 한화투자증권주식회사, 키움증권(주), 삼성증권, KB증권, 미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=188",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=188",
+    "collected_at": "2026-09-23T08:26:01.123414+00:00",
+    "http_status": 200,
+    "sha256": "e72def7742f95e81b2ad92ac7cebd804dea5e50b0b1cfde8060b35dc7271b6e7"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "iM에셋자산운용",
+        "상품명": "iM에셋미국달러하이일드증권투자신탁(채권-재간접형)(H)(C-p)",
+        "상품유형": "재간접",
+        "위험등급": "5",
+        "설정일": "2013/12/09",
+        "판매여부": "판매",
+        "순자산총액": "1,014",
+        "1년 연평균수익률(%)": "4.61",
+        "3년 연평균수익률(%)": "6.17",
+        "5년 연평균수익률(%)": "2.12",
+        "7년 연평균수익률(%)": "3.06",
+        "10년 연평균수익률(%)": "3.85",
+        "누적연평균수익률(%)": "3.41",
+        "연평균수수료율(%)": "1.073",
+        "상품 판매사": "디비증권주식회사, 한화투자증권주식회사, 키움증권(주), 삼성증권, KB증권, 미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=188",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=188",
+        "collected_at": "2026-09-23T08:26:01.123414+00:00",
+        "http_status": 200,
+        "sha256": "e72def7742f95e81b2ad92ac7cebd804dea5e50b0b1cfde8060b35dc7271b6e7"
+      }
+    }
+  ]
+}

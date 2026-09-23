@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.0e22f7d91b6ac80cde20aa27",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:3af4cbe90060f7c9ceabffda",
+  "group": "5",
+  "provider": "KB손해보험",
+  "title": "연금저축 LIG연금보험(L8.04)",
+  "cells": [
+    "KB손해보험",
+    "연금저축 LIG연금보험(L8.04)",
+    "금리연동형",
+    "2008/04/01",
+    "중단",
+    "136",
+    "-1.58",
+    "0.91",
+    "1.46",
+    "1.48",
+    "1.4",
+    "1.4",
+    "4.25"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=44",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=44",
+    "collected_at": "2026-09-23T08:31:19.635751+00:00",
+    "http_status": 200,
+    "sha256": "dc4e889c39103ffcdbf2c7380728f1f03d3652c98fcddf1240d30edee39fe094"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB손해보험",
+        "상품명": "연금저축 LIG연금보험(L8.04)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2008/04/01",
+        "판매여부": "중단",
+        "적립금총액": "136",
+        "1년 연평균수익률(%)": "-1.58",
+        "3년 연평균수익률(%)": "0.91",
+        "5년 연평균수익률(%)": "1.46",
+        "7년 연평균수익률(%)": "1.48",
+        "10년 연평균수익률(%)": "1.4",
+        "누적연평균수익률(%)": "1.4",
+        "연평균수수료율(%)": "4.25"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=44",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=44",
+        "collected_at": "2026-09-23T08:31:19.635751+00:00",
+        "http_status": 200,
+        "sha256": "dc4e889c39103ffcdbf2c7380728f1f03d3652c98fcddf1240d30edee39fe094"
+      }
+    }
+  ]
+}

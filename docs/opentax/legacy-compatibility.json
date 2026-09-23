@@ -17,14 +17,14 @@
     "export_audit": {
       "built_at": "2026-09-23T07:29:03.565Z",
       "domain_export_count": 10,
-      "search_index_item_count": 76323,
-      "canonical_product_count": 48846,
+      "search_index_item_count": 80770,
+      "canonical_product_count": 53292,
       "duplicate_canonical_product_count": 0,
       "canonical_merge_count": 49,
       "checksum_covered_export_count": 18,
       "broken_relation_count": 0,
-      "relationship_count": 212590,
-      "collection_failure_sources": 135
+      "relationship_count": 220480,
+      "collection_failure_sources": 136
     },
     "live_regression": {
       "status": "failed",
@@ -5211,7 +5211,7 @@
       "migration_notice": "Historical upstream evidence; identity redacted. Not evidence for current deployment.",
       "evidence_path": "evidence/live-regression/current.json",
       "evidence_checksum": "e1c3d057e9c005525e6d411f7e8892d91e67e7feb3ffda9ba3e08cb22d2916ba",
-      "expected_generation_id": "0b94989ce6aadedc7ce1f792dc1ff7867cae9ea6bf3f75ab52eb705b7e3b9bdb",
+      "expected_generation_id": "e9caabfb0ce52ac8e64850460680229aff7f7d6ddabc5fa4d174da8c63a897e6",
       "expected_fixture_checksum": "sha256:1030ce9505034216880ef47384cea521cc76000089d4b32942ba53a68c2c7989",
       "validation_status": "failed"
     },
@@ -5413,9 +5413,9 @@
           "schema_defined": true,
           "structural_value_completeness": 0,
           "required_field_total": 7049,
-          "value_complete_field_count": 526,
+          "value_complete_field_count": 15,
           "field_verified_count": 0,
-          "value_field_coverage": 0.07462051354802099,
+          "value_field_coverage": 0.0021279614129663784,
           "reviewed_assertion_coverage": 0,
           "complete_field_count": 0,
           "verified_candidate_count": 0,
@@ -5427,12 +5427,12 @@
             "STRICT_OFFER_SNAPSHOT_MISSING"
           ],
           "missing_required_fields": {
-            "annual_fee_krw": 977,
+            "annual_fee_krw": 1007,
             "previous_month_spend_krw": 1007,
             "excluded_spend_conditions": 1007,
-            "benefit_rate_percent": 593,
-            "monthly_benefit_limit_krw": 958,
-            "per_transaction_limit_krw": 974,
+            "benefit_rate_percent": 992,
+            "monthly_benefit_limit_krw": 1007,
+            "per_transaction_limit_krw": 1007,
             "benefit_overlap_policy": 1007
           },
           "data_layers": {
@@ -5442,7 +5442,7 @@
               "lineage": "source_receipt"
             },
             "normalized": {
-              "item_count": 1007,
+              "item_count": 22,
               "status": "available",
               "lineage": "decision_snapshot"
             },
@@ -5547,15 +5547,15 @@
       "insurance": {
         "deprecated": true,
         "replacement_path": "domain_readiness.insurance",
-        "structural_candidate_count": 1071,
+        "structural_candidate_count": 1155,
         "value_complete_candidate_count": 0,
         "field_verified_candidate_count": 0,
         "runtime_eligible_candidate_count": 0,
         "public_candidate_count": 0,
         "comparison_data": "domain_coverage_incomplete",
         "readiness": {
-          "item_count": 1071,
-          "catalog_item_count": 1071,
+          "item_count": 1155,
+          "catalog_item_count": 1155,
           "strict_offer_count": 0,
           "strict_option_count": 0,
           "structural_option_count": 0,
@@ -5573,7 +5573,7 @@
           "required_comparison_candidates": null,
           "required_verified_candidates": null,
           "sales_verification_ttl_hours": null,
-          "structural_candidate_count": 1071,
+          "structural_candidate_count": 1155,
           "value_complete_candidate_count": 0,
           "strict_type_schema_candidate_count": 0,
           "field_verified_candidate_count": 0,
@@ -5586,10 +5586,10 @@
           "public_recommendation_candidate_count": 0,
           "schema_defined": true,
           "structural_value_completeness": 0,
-          "required_field_total": 9639,
-          "value_complete_field_count": 1042,
+          "required_field_total": 10395,
+          "value_complete_field_count": 74,
           "field_verified_count": 0,
-          "value_field_coverage": 0.10810250025936301,
+          "value_field_coverage": 0.007118807118807119,
           "reviewed_assertion_coverage": 0,
           "complete_field_count": 0,
           "verified_candidate_count": 0,
@@ -5601,24 +5601,24 @@
             "STRICT_OFFER_SNAPSHOT_MISSING"
           ],
           "missing_required_fields": {
-            "coverage_items": 1071,
-            "coverage_amount_krw": 29,
-            "exclusions": 1071,
-            "waiting_period_days": 1071,
-            "reduced_benefit_period_days": 1071,
-            "renewable": 1071,
-            "premium_payment_term_months": 1071,
-            "insurance_term_months": 1071,
-            "surrender_value_condition": 1071
+            "coverage_items": 1155,
+            "coverage_amount_krw": 1081,
+            "exclusions": 1155,
+            "waiting_period_days": 1155,
+            "reduced_benefit_period_days": 1155,
+            "renewable": 1155,
+            "premium_payment_term_months": 1155,
+            "insurance_term_months": 1155,
+            "surrender_value_condition": 1155
           },
           "data_layers": {
             "raw": {
-              "item_count": 1071,
+              "item_count": 1155,
               "status": "available",
               "lineage": "source_receipt"
             },
             "normalized": {
-              "item_count": 1071,
+              "item_count": 74,
               "status": "available",
               "lineage": "decision_snapshot"
             },

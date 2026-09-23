@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.8b76892588aed4fcbb6c55e3",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:2731368f49e0b9f10b006201",
+  "group": "3",
+  "provider": "KCGI자산운용",
+  "title": "KCGI코리아연금증권전환형자투자신탁1호[주식혼합]종류C-1",
+  "cells": [
+    "KCGI자산운용",
+    "KCGI코리아연금증권전환형자투자신탁1호[주식혼합]종류C-1",
+    "혼합주식형",
+    "4",
+    "2014/05/29",
+    "판매",
+    "4,508",
+    "63.54",
+    "31.27",
+    "15.27",
+    "16.12",
+    "10.35",
+    "9.52",
+    "1.333",
+    "유안타증권주식회사, KB증권, 대신증권주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=109",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=109",
+    "collected_at": "2026-09-23T08:24:14.883091+00:00",
+    "http_status": 200,
+    "sha256": "be6e82dffcb4d6ff47a3148cd83c4fbe8c196dbd77e815349b04f71b187279a0"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KCGI자산운용",
+        "상품명": "KCGI코리아연금증권전환형자투자신탁1호[주식혼합]종류C-1",
+        "상품유형": "혼합주식형",
+        "위험등급": "4",
+        "설정일": "2014/05/29",
+        "판매여부": "판매",
+        "순자산총액": "4,508",
+        "1년 연평균수익률(%)": "63.54",
+        "3년 연평균수익률(%)": "31.27",
+        "5년 연평균수익률(%)": "15.27",
+        "7년 연평균수익률(%)": "16.12",
+        "10년 연평균수익률(%)": "10.35",
+        "누적연평균수익률(%)": "9.52",
+        "연평균수수료율(%)": "1.333",
+        "상품 판매사": "유안타증권주식회사, KB증권, 대신증권주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=109",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=109",
+        "collected_at": "2026-09-23T08:24:14.883091+00:00",
+        "http_status": 200,
+        "sha256": "be6e82dffcb4d6ff47a3148cd83c4fbe8c196dbd77e815349b04f71b187279a0"
+      }
+    }
+  ]
+}

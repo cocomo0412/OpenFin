@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.3eddd39a5a4fa871a4b65c69",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:3e9aea6d265b265a99e2c576",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자더블라인미국듀얼가치증권자투자신탁H(주식-재간접파생형)(C-Pe)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자더블라인미국듀얼가치증권자투자신탁H(주식-재간접파생형)(C-Pe)",
+    "파생상품",
+    "2",
+    "2018/07/17",
+    "판매",
+    "68",
+    "5.21",
+    "9.34",
+    "2.84",
+    "7.86",
+    "-",
+    "7.57",
+    "0.634",
+    "-"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=301",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=301",
+    "collected_at": "2026-09-23T08:28:32.989355+00:00",
+    "http_status": 200,
+    "sha256": "25540c5ea66f5fc5bb0c6fb21d9fecec8b52d0f1c5fc98191f46f6e4f01cf578"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자더블라인미국듀얼가치증권자투자신탁H(주식-재간접파생형)(C-Pe)",
+        "상품유형": "파생상품",
+        "위험등급": "2",
+        "설정일": "2018/07/17",
+        "판매여부": "판매",
+        "순자산총액": "68",
+        "1년 연평균수익률(%)": "5.21",
+        "3년 연평균수익률(%)": "9.34",
+        "5년 연평균수익률(%)": "2.84",
+        "7년 연평균수익률(%)": "7.86",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "7.57",
+        "연평균수수료율(%)": "0.634",
+        "상품 판매사": "-"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=301",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=301",
+        "collected_at": "2026-09-23T08:28:32.989355+00:00",
+        "http_status": 200,
+        "sha256": "25540c5ea66f5fc5bb0c6fb21d9fecec8b52d0f1c5fc98191f46f6e4f01cf578"
+      }
+    }
+  ]
+}

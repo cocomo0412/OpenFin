@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.c9b4e57e7a84f9c8fe38f8af",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:7548c83189038d9c599415b1",
+  "group": "3",
+  "provider": "흥국자산운용",
+  "title": "흥국HK종합채권(AA-이상)액티브증권상장지수투자신탁[채권]",
+  "cells": [
+    "흥국자산운용",
+    "흥국HK종합채권(AA-이상)액티브증권상장지수투자신탁[채권]",
+    "채권형",
+    "5",
+    "2023/11/27",
+    "판매",
+    "22",
+    "-5.10",
+    "-",
+    "-",
+    "-",
+    "-",
+    "2.13",
+    "0.054",
+    "한화투자증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, KB증권, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=309",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=309",
+    "collected_at": "2026-09-23T08:28:44.307083+00:00",
+    "http_status": 200,
+    "sha256": "f6d1f05170430d0f76ac88270e6fe2e88585cec15f0e3ee55dbc06045f4d23ce"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "흥국자산운용",
+        "상품명": "흥국HK종합채권(AA-이상)액티브증권상장지수투자신탁[채권]",
+        "상품유형": "채권형",
+        "위험등급": "5",
+        "설정일": "2023/11/27",
+        "판매여부": "판매",
+        "순자산총액": "22",
+        "1년 연평균수익률(%)": "-5.10",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "2.13",
+        "연평균수수료율(%)": "0.054",
+        "상품 판매사": "한화투자증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, KB증권, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=309",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=309",
+        "collected_at": "2026-09-23T08:28:44.307083+00:00",
+        "http_status": 200,
+        "sha256": "f6d1f05170430d0f76ac88270e6fe2e88585cec15f0e3ee55dbc06045f4d23ce"
+      }
+    }
+  ]
+}

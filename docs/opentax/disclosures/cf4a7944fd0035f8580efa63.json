@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.e49261dabc33b986d56ad2cc",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:c1ed49100d4bb970ec5c3a18",
+  "group": "3",
+  "provider": "NH-Amundi자산운용",
+  "title": "NH-Amundi 대한민국 고배당주 연금 증권 전환형 자투자신탁[주식]C-P1e",
+  "cells": [
+    "NH-Amundi자산운용",
+    "NH-Amundi 대한민국 고배당주 연금 증권 전환형 자투자신탁[주식]C-P1e",
+    "주식형",
+    "2",
+    "2017/09/25",
+    "판매",
+    "2,275",
+    "172.87",
+    "56.04",
+    "27.23",
+    "26.74",
+    "-",
+    "19.38",
+    "1.062",
+    "NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=144",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=144",
+    "collected_at": "2026-09-23T08:25:02.178956+00:00",
+    "http_status": 200,
+    "sha256": "bddbba3f154807ce201014c67facb00e455f5e527f11f33bcce1dd07abced490"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "NH-Amundi자산운용",
+        "상품명": "NH-Amundi 대한민국 고배당주 연금 증권 전환형 자투자신탁[주식]C-P1e",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2017/09/25",
+        "판매여부": "판매",
+        "순자산총액": "2,275",
+        "1년 연평균수익률(%)": "172.87",
+        "3년 연평균수익률(%)": "56.04",
+        "5년 연평균수익률(%)": "27.23",
+        "7년 연평균수익률(%)": "26.74",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "19.38",
+        "연평균수수료율(%)": "1.062",
+        "상품 판매사": "NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=144",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=144",
+        "collected_at": "2026-09-23T08:25:02.178956+00:00",
+        "http_status": 200,
+        "sha256": "bddbba3f154807ce201014c67facb00e455f5e527f11f33bcce1dd07abced490"
+      }
+    }
+  ]
+}

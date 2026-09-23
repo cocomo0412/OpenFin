@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.597007d0917a2d18ea967591",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:2ffa453df2790b201ca39844",
+  "group": "4",
+  "provider": "한화생명보험",
+  "title": "연금저축 하이드림Free연금보험",
+  "cells": [
+    "한화생명보험",
+    "연금저축 하이드림Free연금보험",
+    "금리연동형",
+    "2007/04/02",
+    "중단",
+    "217,785",
+    "-4.40",
+    "0.09",
+    "0.98",
+    "1.22",
+    "1.17",
+    "1.12",
+    "5.581"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=3",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=3",
+    "collected_at": "2026-09-23T08:21:43.965821+00:00",
+    "http_status": 200,
+    "sha256": "1ef3515612871be1194da1da73cf2970a470bdc36d811b20ff30b2056768af7a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한화생명보험",
+        "상품명": "연금저축 하이드림Free연금보험",
+        "상품유형": "금리연동형",
+        "최초판매일": "2007/04/02",
+        "판매여부": "중단",
+        "적립금총액": "217,785",
+        "1년 연평균수익률(%)": "-4.40",
+        "3년 연평균수익률(%)": "0.09",
+        "5년 연평균수익률(%)": "0.98",
+        "7년 연평균수익률(%)": "1.22",
+        "10년 연평균수익률(%)": "1.17",
+        "누적연평균수익률(%)": "1.12",
+        "연평균수수료율(%)": "5.581"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=3",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=3",
+        "collected_at": "2026-09-23T08:21:43.965821+00:00",
+        "http_status": 200,
+        "sha256": "1ef3515612871be1194da1da73cf2970a470bdc36d811b20ff30b2056768af7a"
+      }
+    }
+  ]
+}

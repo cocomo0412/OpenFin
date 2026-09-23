@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.e29e4b38aac561c06cfb1de1",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:d4386d7ebfaee8e145d0f941",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 연금 단기채 증권 전환형 자투자신탁(채권) C-E",
+  "cells": [
+    "KB자산운용",
+    "KB 연금 단기채 증권 전환형 자투자신탁(채권) C-E",
+    "채권형",
+    "6",
+    "2018/12/20",
+    "판매",
+    "339",
+    "2.43",
+    "3.68",
+    "3.11",
+    "2.65",
+    "-",
+    "2.62",
+    "0.180",
+    "KB국민은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=254",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=254",
+    "collected_at": "2026-09-23T08:27:30.747512+00:00",
+    "http_status": 200,
+    "sha256": "80c2f3d8f6d75ff520930f3c2cfa5d3577c24bd5cd2e86a32c81a79184158725"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 연금 단기채 증권 전환형 자투자신탁(채권) C-E",
+        "상품유형": "채권형",
+        "위험등급": "6",
+        "설정일": "2018/12/20",
+        "판매여부": "판매",
+        "순자산총액": "339",
+        "1년 연평균수익률(%)": "2.43",
+        "3년 연평균수익률(%)": "3.68",
+        "5년 연평균수익률(%)": "3.11",
+        "7년 연평균수익률(%)": "2.65",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "2.62",
+        "연평균수수료율(%)": "0.180",
+        "상품 판매사": "KB국민은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=254",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=254",
+        "collected_at": "2026-09-23T08:27:30.747512+00:00",
+        "http_status": 200,
+        "sha256": "80c2f3d8f6d75ff520930f3c2cfa5d3577c24bd5cd2e86a32c81a79184158725"
+      }
+    }
+  ]
+}

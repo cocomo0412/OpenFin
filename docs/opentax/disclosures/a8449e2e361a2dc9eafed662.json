@@ -1,0 +1,49 @@
+{
+  "id": "finance.insurance.klia.disease.신한라이프생명.l1102460004nnn0247000202440001024400010003024400010003000202440001000300020004s0706",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L1102460004NNN0247000202440001024400010003024400010003000202440001000300020004S0706",
+  "group": "024400010003",
+  "title": "신한SOL여성수술보험 mini(무배당)",
+  "provider": "신한라이프생명",
+  "cells": [
+    "신한라이프생명",
+    "신한SOL여성수술보험 mini(무배당)",
+    "주계약",
+    "여성다빈도 생활질병 수술급여금 *지급사유 : 보험기간 중 피보험자가 “여성다빈도생활질병”으로 진단확정 되고, 그 “여성다빈도생활질병”의 직접적인 치료를 목적으로 보험기간 중 수술을 받았을 때",
+    "1,000만원",
+    "0 원",
+    "830 원",
+    "2.10 %",
+    "-",
+    "-",
+    "0.0 %",
+    "94.9 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "기타",
+    "순수보장",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "CM",
+    "2026-07-01",
+    "Download",
+    "보기",
+    "1588-5580"
+  ],
+  "coverage": [
+    "여성다빈도 생활질병 수술급여금 *지급사유 : 보험기간 중 피보험자가 “여성다빈도생활질병”으로 진단확정 되고, 그 “여성다빈도생활질병”의 직접적인 치료를 목적으로 보험기간 중 수술을 받았을 때"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=41648&seq=4"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010003&pageIndex=5&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010003&pageIndex=5&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:27.155704+00:00",
+    "http_status": 200,
+    "sha256": "312e7a29d40cacf470fa6882f95ceb3c0eaa5c2303057398fa157f516c7eca21"
+  }
+}

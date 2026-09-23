@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.a00c1c22066ef502c3556e9f",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:13aa067c575efe01461eb69f",
+  "group": "3",
+  "provider": "신한자산운용",
+  "title": "신한단기국공채증권자투자신탁제1호[채권](종류C-p)",
+  "cells": [
+    "신한자산운용",
+    "신한단기국공채증권자투자신탁제1호[채권](종류C-p)",
+    "채권형",
+    "6",
+    "2019/06/12",
+    "판매",
+    "245",
+    "1.38",
+    "2.95",
+    "2.20",
+    "1.88",
+    "-",
+    "1.88",
+    "0.312",
+    "신한은행, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=270",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=270",
+    "collected_at": "2026-09-23T08:27:52.184255+00:00",
+    "http_status": 200,
+    "sha256": "4421eb7c7c7882b8fa83c826258b4086d9c8f377480472813f4e6290d8615c7a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한자산운용",
+        "상품명": "신한단기국공채증권자투자신탁제1호[채권](종류C-p)",
+        "상품유형": "채권형",
+        "위험등급": "6",
+        "설정일": "2019/06/12",
+        "판매여부": "판매",
+        "순자산총액": "245",
+        "1년 연평균수익률(%)": "1.38",
+        "3년 연평균수익률(%)": "2.95",
+        "5년 연평균수익률(%)": "2.20",
+        "7년 연평균수익률(%)": "1.88",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "1.88",
+        "연평균수수료율(%)": "0.312",
+        "상품 판매사": "신한은행, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=270",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=270",
+        "collected_at": "2026-09-23T08:27:52.184255+00:00",
+        "http_status": 200,
+        "sha256": "4421eb7c7c7882b8fa83c826258b4086d9c8f377480472813f4e6290d8615c7a"
+      }
+    }
+  ]
+}

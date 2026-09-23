@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.97fd9ac850a9e602f7f52deb",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:94e28f20600757ce58604880",
+  "group": "3",
+  "provider": "DB자산운용",
+  "title": "DB인모스트글로벌주도업종EMP증권자투자신탁[혼합-재간접형]종류C-PE",
+  "cells": [
+    "DB자산운용",
+    "DB인모스트글로벌주도업종EMP증권자투자신탁[혼합-재간접형]종류C-PE",
+    "재간접",
+    "2",
+    "2024/09/09",
+    "판매",
+    "3,538",
+    "51.07",
+    "-",
+    "-",
+    "-",
+    "-",
+    "33.20",
+    "1.098",
+    "한국투자증권, 삼성증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=120",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=120",
+    "collected_at": "2026-09-23T08:24:30.409190+00:00",
+    "http_status": 200,
+    "sha256": "e577d378d8af2adcc86ac81fcf42b1918a0001f069a3712b668f4661fc015c09"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "DB자산운용",
+        "상품명": "DB인모스트글로벌주도업종EMP증권자투자신탁[혼합-재간접형]종류C-PE",
+        "상품유형": "재간접",
+        "위험등급": "2",
+        "설정일": "2024/09/09",
+        "판매여부": "판매",
+        "순자산총액": "3,538",
+        "1년 연평균수익률(%)": "51.07",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "33.20",
+        "연평균수수료율(%)": "1.098",
+        "상품 판매사": "한국투자증권, 삼성증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=120",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=120",
+        "collected_at": "2026-09-23T08:24:30.409190+00:00",
+        "http_status": 200,
+        "sha256": "e577d378d8af2adcc86ac81fcf42b1918a0001f069a3712b668f4661fc015c09"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.74daa43e1fd0064a86d449b8",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:e4a19f57affbb7e56467336c",
+  "group": "3",
+  "provider": "한화자산운용",
+  "title": "한화K리츠플러스분기배당형부동산 자투자신탁(H)(리츠-재간접형) C-Pe(연금저축)",
+  "cells": [
+    "한화자산운용",
+    "한화K리츠플러스분기배당형부동산 자투자신탁(H)(리츠-재간접형) C-Pe(연금저축)",
+    "부동산",
+    "4",
+    "2020/10/28",
+    "판매",
+    "225",
+    "13.89",
+    "8.62",
+    "3.03",
+    "-",
+    "-",
+    "4.89",
+    "1.013",
+    "삼성증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=274",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=274",
+    "collected_at": "2026-09-23T08:27:57.637814+00:00",
+    "http_status": 200,
+    "sha256": "5cfa7136ad0ad562627ba79c69ef428ee11e11dfe71f2a34cce0d11555e89f3b"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한화자산운용",
+        "상품명": "한화K리츠플러스분기배당형부동산 자투자신탁(H)(리츠-재간접형) C-Pe(연금저축)",
+        "상품유형": "부동산",
+        "위험등급": "4",
+        "설정일": "2020/10/28",
+        "판매여부": "판매",
+        "순자산총액": "225",
+        "1년 연평균수익률(%)": "13.89",
+        "3년 연평균수익률(%)": "8.62",
+        "5년 연평균수익률(%)": "3.03",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "4.89",
+        "연평균수수료율(%)": "1.013",
+        "상품 판매사": "삼성증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=274",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=274",
+        "collected_at": "2026-09-23T08:27:57.637814+00:00",
+        "http_status": 200,
+        "sha256": "5cfa7136ad0ad562627ba79c69ef428ee11e11dfe71f2a34cce0d11555e89f3b"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.e48be2abbe5d66f089355ea8",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:163e0b6f7b71cc9622640d4f",
+  "group": "3",
+  "provider": "HDC자산운용",
+  "title": "HDC디딤모아주고막아주는증권투자신탁1호(채권혼합) Class C-P2",
+  "cells": [
+    "HDC자산운용",
+    "HDC디딤모아주고막아주는증권투자신탁1호(채권혼합) Class C-P2",
+    "혼합채권형",
+    "5",
+    "2018/04/27",
+    "판매",
+    "316",
+    "30.86",
+    "13.04",
+    "8.29",
+    "7.43",
+    "-",
+    "6.39",
+    "0.810",
+    "SK증권주식회사, KB증권, 아이엠증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=257",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=257",
+    "collected_at": "2026-09-23T08:27:35.016439+00:00",
+    "http_status": 200,
+    "sha256": "1964468466b6615e3c7af00331602aac45ae357b713370332dfabb5d3b950af7"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "HDC자산운용",
+        "상품명": "HDC디딤모아주고막아주는증권투자신탁1호(채권혼합) Class C-P2",
+        "상품유형": "혼합채권형",
+        "위험등급": "5",
+        "설정일": "2018/04/27",
+        "판매여부": "판매",
+        "순자산총액": "316",
+        "1년 연평균수익률(%)": "30.86",
+        "3년 연평균수익률(%)": "13.04",
+        "5년 연평균수익률(%)": "8.29",
+        "7년 연평균수익률(%)": "7.43",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "6.39",
+        "연평균수수료율(%)": "0.810",
+        "상품 판매사": "SK증권주식회사, KB증권, 아이엠증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=257",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=257",
+        "collected_at": "2026-09-23T08:27:35.016439+00:00",
+        "http_status": 200,
+        "sha256": "1964468466b6615e3c7af00331602aac45ae357b713370332dfabb5d3b950af7"
+      }
+    }
+  ]
+}

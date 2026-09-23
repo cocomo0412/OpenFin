@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.a086a48e40a7fedf77bf008d",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:8e4da3bf765446764f24b7ee",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 연금 국내외채권 증권 전환형 자투자신탁(채권) C-E 클래스",
+  "cells": [
+    "KB자산운용",
+    "KB 연금 국내외채권 증권 전환형 자투자신탁(채권) C-E 클래스",
+    "채권형",
+    "5",
+    "2017/09/13",
+    "판매",
+    "58",
+    "-0.22",
+    "3.38",
+    "1.46",
+    "1.11",
+    "-",
+    "1.04",
+    "0.608",
+    "KB증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=302",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=302",
+    "collected_at": "2026-09-23T08:28:34.580522+00:00",
+    "http_status": 200,
+    "sha256": "f0e57c04c1add6e7338fd1f822bda778313fd84fe284385b204dbf6313669fd9"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 연금 국내외채권 증권 전환형 자투자신탁(채권) C-E 클래스",
+        "상품유형": "채권형",
+        "위험등급": "5",
+        "설정일": "2017/09/13",
+        "판매여부": "판매",
+        "순자산총액": "58",
+        "1년 연평균수익률(%)": "-0.22",
+        "3년 연평균수익률(%)": "3.38",
+        "5년 연평균수익률(%)": "1.46",
+        "7년 연평균수익률(%)": "1.11",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "1.04",
+        "연평균수수료율(%)": "0.608",
+        "상품 판매사": "KB증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=302",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=302",
+        "collected_at": "2026-09-23T08:28:34.580522+00:00",
+        "http_status": 200,
+        "sha256": "f0e57c04c1add6e7338fd1f822bda778313fd84fe284385b204dbf6313669fd9"
+      }
+    }
+  ]
+}

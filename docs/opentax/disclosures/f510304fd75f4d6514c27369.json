@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.51c489e638db1f6eabfb09b7",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:aa9d30e3c54def68ec6d95d6",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 온국민 적격TDF 2055 증권 자투자신탁(주식혼합-재간접형)(H) S-P",
+  "cells": [
+    "KB자산운용",
+    "KB 온국민 적격TDF 2055 증권 자투자신탁(주식혼합-재간접형)(H) S-P",
+    "재간접",
+    "3",
+    "2020/06/03",
+    "판매",
+    "326",
+    "37.43",
+    "20.52",
+    "10.60",
+    "-",
+    "-",
+    "14.36",
+    "0.481",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=256",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=256",
+    "collected_at": "2026-09-23T08:27:33.752651+00:00",
+    "http_status": 200,
+    "sha256": "300507a2100ea92f88d56d1b1bd938c485dc9d34b68b71ff5fb4747cf66558af"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 온국민 적격TDF 2055 증권 자투자신탁(주식혼합-재간접형)(H) S-P",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2020/06/03",
+        "판매여부": "판매",
+        "순자산총액": "326",
+        "1년 연평균수익률(%)": "37.43",
+        "3년 연평균수익률(%)": "20.52",
+        "5년 연평균수익률(%)": "10.60",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "14.36",
+        "연평균수수료율(%)": "0.481",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=256",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=256",
+        "collected_at": "2026-09-23T08:27:33.752651+00:00",
+        "http_status": 200,
+        "sha256": "300507a2100ea92f88d56d1b1bd938c485dc9d34b68b71ff5fb4747cf66558af"
+      }
+    }
+  ]
+}

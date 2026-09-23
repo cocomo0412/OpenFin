@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.28a42d8938c2b8fa7afae0e5",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:7cfb4b9bb105798044d755f2",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 내일드림 초단기채 증권 투자신탁(채권) S-P",
+  "cells": [
+    "KB자산운용",
+    "KB 내일드림 초단기채 증권 투자신탁(채권) S-P",
+    "채권형",
+    "6",
+    "2023/10/23",
+    "판매",
+    "267",
+    "2.80",
+    "-",
+    "-",
+    "-",
+    "-",
+    "3.48",
+    "0.113",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=265",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=265",
+    "collected_at": "2026-09-23T08:27:45.474199+00:00",
+    "http_status": 200,
+    "sha256": "6a2a27018199453cc9f9d8eb7dc4d3510e080330df9265af299e2ed36017da21"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 내일드림 초단기채 증권 투자신탁(채권) S-P",
+        "상품유형": "채권형",
+        "위험등급": "6",
+        "설정일": "2023/10/23",
+        "판매여부": "판매",
+        "순자산총액": "267",
+        "1년 연평균수익률(%)": "2.80",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "3.48",
+        "연평균수수료율(%)": "0.113",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=265",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=265",
+        "collected_at": "2026-09-23T08:27:45.474199+00:00",
+        "http_status": 200,
+        "sha256": "6a2a27018199453cc9f9d8eb7dc4d3510e080330df9265af299e2ed36017da21"
+      }
+    }
+  ]
+}

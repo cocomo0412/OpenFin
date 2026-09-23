@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.253f6d72c7d0d6e254ca25f2",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:1194e9ab2bb22e216c42c273",
+  "group": "5",
+  "provider": "DB손해보험",
+  "title": "연금저축손해보험 프로미라이프 연금보험1303",
+  "cells": [
+    "DB손해보험",
+    "연금저축손해보험 프로미라이프 연금보험1303",
+    "금리연동형",
+    "2012/10/02",
+    "중단",
+    "152,405",
+    "-15.14",
+    "-0.64",
+    "0.68",
+    "1.11",
+    "1.37",
+    "2.16",
+    "0.318"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=5",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=5",
+    "collected_at": "2026-09-23T08:21:50.126028+00:00",
+    "http_status": 200,
+    "sha256": "ed1c38c31b021e6c2eedef635271a39d6ab16b6a54f322ff023f7b0a2b095835"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "DB손해보험",
+        "상품명": "연금저축손해보험 프로미라이프 연금보험1303",
+        "상품유형": "금리연동형",
+        "최초판매일": "2012/10/02",
+        "판매여부": "중단",
+        "적립금총액": "152,405",
+        "1년 연평균수익률(%)": "-15.14",
+        "3년 연평균수익률(%)": "-0.64",
+        "5년 연평균수익률(%)": "0.68",
+        "7년 연평균수익률(%)": "1.11",
+        "10년 연평균수익률(%)": "1.37",
+        "누적연평균수익률(%)": "2.16",
+        "연평균수수료율(%)": "0.318"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=5",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=5",
+        "collected_at": "2026-09-23T08:21:50.126028+00:00",
+        "http_status": 200,
+        "sha256": "ed1c38c31b021e6c2eedef635271a39d6ab16b6a54f322ff023f7b0a2b095835"
+      }
+    }
+  ]
+}

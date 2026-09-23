@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.2bcfe452c77d3542c1f11312",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:17a58038b754375a672b1081",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 올에셋 AI 솔루션 EMP 증권 자투자신탁(혼합-재간접형)(UH) C-P",
+  "cells": [
+    "KB자산운용",
+    "KB 올에셋 AI 솔루션 EMP 증권 자투자신탁(혼합-재간접형)(UH) C-P",
+    "재간접",
+    "3",
+    "2020/06/09",
+    "판매",
+    "2,304",
+    "35.12",
+    "18.14",
+    "11.74",
+    "-",
+    "-",
+    "11.68",
+    "1.400",
+    "KB증권, KB국민은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=143",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=143",
+    "collected_at": "2026-09-23T08:25:00.641371+00:00",
+    "http_status": 200,
+    "sha256": "cb9b16b98954bab9b80ffe877ffbb5e99e89dd8a119437a2bbb53e57fd17b5e1"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 올에셋 AI 솔루션 EMP 증권 자투자신탁(혼합-재간접형)(UH) C-P",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2020/06/09",
+        "판매여부": "판매",
+        "순자산총액": "2,304",
+        "1년 연평균수익률(%)": "35.12",
+        "3년 연평균수익률(%)": "18.14",
+        "5년 연평균수익률(%)": "11.74",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "11.68",
+        "연평균수수료율(%)": "1.400",
+        "상품 판매사": "KB증권, KB국민은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=143",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=143",
+        "collected_at": "2026-09-23T08:25:00.641371+00:00",
+        "http_status": 200,
+        "sha256": "cb9b16b98954bab9b80ffe877ffbb5e99e89dd8a119437a2bbb53e57fd17b5e1"
+      }
+    }
+  ]
+}

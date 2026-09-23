@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.937ed338a0024c88cfed0007",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:80ad85efef7afc06904b35f0",
+  "group": "3",
+  "provider": "iM에셋자산운용",
+  "title": "iM에셋글로벌주식배당프리미엄증권투자신탁(주식-재간접형)(C-Pe)",
+  "cells": [
+    "iM에셋자산운용",
+    "iM에셋글로벌주식배당프리미엄증권투자신탁(주식-재간접형)(C-Pe)",
+    "재간접",
+    "3",
+    "2017/10/27",
+    "판매",
+    "651",
+    "11.47",
+    "12.81",
+    "6.81",
+    "7.91",
+    "-",
+    "6.78",
+    "0.839",
+    "한화투자증권주식회사, 키움증권(주), 한국투자증권, 대신증권주식회사, KB국민은행, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=215",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=215",
+    "collected_at": "2026-09-23T08:26:38.129651+00:00",
+    "http_status": 200,
+    "sha256": "2cd2f5be11a4918ef375a1b1fe30f03384295dedd1ee45a3749acce2871b3a16"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "iM에셋자산운용",
+        "상품명": "iM에셋글로벌주식배당프리미엄증권투자신탁(주식-재간접형)(C-Pe)",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2017/10/27",
+        "판매여부": "판매",
+        "순자산총액": "651",
+        "1년 연평균수익률(%)": "11.47",
+        "3년 연평균수익률(%)": "12.81",
+        "5년 연평균수익률(%)": "6.81",
+        "7년 연평균수익률(%)": "7.91",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "6.78",
+        "연평균수수료율(%)": "0.839",
+        "상품 판매사": "한화투자증권주식회사, 키움증권(주), 한국투자증권, 대신증권주식회사, KB국민은행, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=215",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=215",
+        "collected_at": "2026-09-23T08:26:38.129651+00:00",
+        "http_status": 200,
+        "sha256": "2cd2f5be11a4918ef375a1b1fe30f03384295dedd1ee45a3749acce2871b3a16"
+      }
+    }
+  ]
+}

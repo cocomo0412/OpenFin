@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.787982eeb22bea5a02a2c6a9",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:1bbe2ac4d5f614762de88cf1",
+  "group": "3",
+  "provider": "머스트자산운용",
+  "title": "머스트원앤온리증권자투자신탁(사모투자재간접형) 종류 C-P",
+  "cells": [
+    "머스트자산운용",
+    "머스트원앤온리증권자투자신탁(사모투자재간접형) 종류 C-P",
+    "재간접",
+    "1",
+    "2025/02/14",
+    "판매",
+    "777",
+    "65.80",
+    "-",
+    "-",
+    "-",
+    "-",
+    "63.81",
+    "0.764",
+    "유진투자증권주식회사, 한국투자증권, 미래에셋증권 주식회사, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=203",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=203",
+    "collected_at": "2026-09-23T08:26:22.279343+00:00",
+    "http_status": 200,
+    "sha256": "6c919c64b3e27c80cef87be65b229006c290c2dd4799891b19b2d99e38db191f"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "머스트자산운용",
+        "상품명": "머스트원앤온리증권자투자신탁(사모투자재간접형) 종류 C-P",
+        "상품유형": "재간접",
+        "위험등급": "1",
+        "설정일": "2025/02/14",
+        "판매여부": "판매",
+        "순자산총액": "777",
+        "1년 연평균수익률(%)": "65.80",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "63.81",
+        "연평균수수료율(%)": "0.764",
+        "상품 판매사": "유진투자증권주식회사, 한국투자증권, 미래에셋증권 주식회사, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=203",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=203",
+        "collected_at": "2026-09-23T08:26:22.279343+00:00",
+        "http_status": 200,
+        "sha256": "6c919c64b3e27c80cef87be65b229006c290c2dd4799891b19b2d99e38db191f"
+      }
+    }
+  ]
+}

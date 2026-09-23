@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.7281e04ac5f98ebe00dad821",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:514946c2f9a186220be50f44",
+  "group": "3",
+  "provider": "유경피에스지자산운용",
+  "title": "유경PSG액티브밸류증권투자신탁(주식)Class C-P1",
+  "cells": [
+    "유경피에스지자산운용",
+    "유경PSG액티브밸류증권투자신탁(주식)Class C-P1",
+    "주식형",
+    "4",
+    "2016/08/11",
+    "판매",
+    "3,003",
+    "212.59",
+    "59.02",
+    "27.33",
+    "27.06",
+    "-",
+    "17.84",
+    "1.353",
+    "유안타증권주식회사, 한국투자증권, 대신증권주식회사, 신영증권주식회사, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=128",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=128",
+    "collected_at": "2026-09-23T08:24:41.107044+00:00",
+    "http_status": 200,
+    "sha256": "b3f825c052b64f42b289c67ead089c1870365c9b797bde179b578584a072c2e8"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "유경피에스지자산운용",
+        "상품명": "유경PSG액티브밸류증권투자신탁(주식)Class C-P1",
+        "상품유형": "주식형",
+        "위험등급": "4",
+        "설정일": "2016/08/11",
+        "판매여부": "판매",
+        "순자산총액": "3,003",
+        "1년 연평균수익률(%)": "212.59",
+        "3년 연평균수익률(%)": "59.02",
+        "5년 연평균수익률(%)": "27.33",
+        "7년 연평균수익률(%)": "27.06",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "17.84",
+        "연평균수수료율(%)": "1.353",
+        "상품 판매사": "유안타증권주식회사, 한국투자증권, 대신증권주식회사, 신영증권주식회사, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=128",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=128",
+        "collected_at": "2026-09-23T08:24:41.107044+00:00",
+        "http_status": 200,
+        "sha256": "b3f825c052b64f42b289c67ead089c1870365c9b797bde179b578584a072c2e8"
+      }
+    }
+  ]
+}

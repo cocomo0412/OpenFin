@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.d63277419a47e32dcb4103a4",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:f71e31e7c069b761ca9ddaf0",
+  "group": "5",
+  "provider": "삼성화재해상보험",
+  "title": "연금저축손해보험 삼성화재 연금보험 소득공제단체∥(1303.1)",
+  "cells": [
+    "삼성화재해상보험",
+    "연금저축손해보험 삼성화재 연금보험 소득공제단체∥(1303.1)",
+    "금리연동형",
+    "2013/03/05",
+    "중단",
+    "21,763",
+    "-3.16",
+    "-0.11",
+    "0.36",
+    "0.59",
+    "0.81",
+    "0.95",
+    "4.633"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=18",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=18",
+    "collected_at": "2026-09-23T08:22:04.317484+00:00",
+    "http_status": 200,
+    "sha256": "687482d9c0902db4d57fc9101166505382592ae6273aa1904813f163ec914b91"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성화재해상보험",
+        "상품명": "연금저축손해보험 삼성화재 연금보험 소득공제단체∥(1303.1)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2013/03/05",
+        "판매여부": "중단",
+        "적립금총액": "21,763",
+        "1년 연평균수익률(%)": "-3.16",
+        "3년 연평균수익률(%)": "-0.11",
+        "5년 연평균수익률(%)": "0.36",
+        "7년 연평균수익률(%)": "0.59",
+        "10년 연평균수익률(%)": "0.81",
+        "누적연평균수익률(%)": "0.95",
+        "연평균수수료율(%)": "4.633"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=18",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=18",
+        "collected_at": "2026-09-23T08:22:04.317484+00:00",
+        "http_status": 200,
+        "sha256": "687482d9c0902db4d57fc9101166505382592ae6273aa1904813f163ec914b91"
+      }
+    }
+  ]
+}

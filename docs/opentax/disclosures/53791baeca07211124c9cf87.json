@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.0e591ea5f8fc56ea552e4b6b",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:489639d0a5cbea663c035734",
+  "group": "3",
+  "provider": "NH-Amundi자산운용",
+  "title": "NH-Amundi 하나로 단기채 증권투자신탁[채권] Class C-P1(연금저축)",
+  "cells": [
+    "NH-Amundi자산운용",
+    "NH-Amundi 하나로 단기채 증권투자신탁[채권] Class C-P1(연금저축)",
+    "채권형",
+    "6",
+    "2018/09/20",
+    "판매",
+    "2,214",
+    "2.61",
+    "3.87",
+    "3.28",
+    "2.80",
+    "-",
+    "2.77",
+    "0.294",
+    "NH농협은행, KB국민은행, NH투자증권, 하나은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=145",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=145",
+    "collected_at": "2026-09-23T08:25:03.410534+00:00",
+    "http_status": 200,
+    "sha256": "4667fd8e124366eb9ecd28ccc0d5490b3a888f4cebd6f86e84f9b1743d03890a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "NH-Amundi자산운용",
+        "상품명": "NH-Amundi 하나로 단기채 증권투자신탁[채권] Class C-P1(연금저축)",
+        "상품유형": "채권형",
+        "위험등급": "6",
+        "설정일": "2018/09/20",
+        "판매여부": "판매",
+        "순자산총액": "2,214",
+        "1년 연평균수익률(%)": "2.61",
+        "3년 연평균수익률(%)": "3.87",
+        "5년 연평균수익률(%)": "3.28",
+        "7년 연평균수익률(%)": "2.80",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "2.77",
+        "연평균수수료율(%)": "0.294",
+        "상품 판매사": "NH농협은행, KB국민은행, NH투자증권, 하나은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=145",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=145",
+        "collected_at": "2026-09-23T08:25:03.410534+00:00",
+        "http_status": 200,
+        "sha256": "4667fd8e124366eb9ecd28ccc0d5490b3a888f4cebd6f86e84f9b1743d03890a"
+      }
+    }
+  ]
+}

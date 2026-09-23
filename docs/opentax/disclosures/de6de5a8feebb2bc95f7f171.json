@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.9f5c5a89ca3a6dd9c2e60214",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:3b7d60987f1bb972e26a43f1",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 글로벌 코어 리츠 부동산 자투자신탁(재간접형)(H) S-P",
+  "cells": [
+    "KB자산운용",
+    "KB 글로벌 코어 리츠 부동산 자투자신탁(재간접형)(H) S-P",
+    "부동산",
+    "3",
+    "2019/10/30",
+    "판매",
+    "13",
+    "12.58",
+    "6.81",
+    "0.56",
+    "-",
+    "-",
+    "1.57",
+    "0.758",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=312",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=312",
+    "collected_at": "2026-09-23T08:28:49.063360+00:00",
+    "http_status": 200,
+    "sha256": "a48732f55f0da8023e8a90d83de31c5348dfb282ac6a6f94de51be7ebccb27ce"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 글로벌 코어 리츠 부동산 자투자신탁(재간접형)(H) S-P",
+        "상품유형": "부동산",
+        "위험등급": "3",
+        "설정일": "2019/10/30",
+        "판매여부": "판매",
+        "순자산총액": "13",
+        "1년 연평균수익률(%)": "12.58",
+        "3년 연평균수익률(%)": "6.81",
+        "5년 연평균수익률(%)": "0.56",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "1.57",
+        "연평균수수료율(%)": "0.758",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=312",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=312",
+        "collected_at": "2026-09-23T08:28:49.063360+00:00",
+        "http_status": 200,
+        "sha256": "a48732f55f0da8023e8a90d83de31c5348dfb282ac6a6f94de51be7ebccb27ce"
+      }
+    }
+  ]
+}

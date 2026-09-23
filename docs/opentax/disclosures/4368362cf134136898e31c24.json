@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.f43d26a0acccfa8f26545472",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:80697d520677eda28ab63615",
+  "group": "5",
+  "provider": "흥국화재해상보험",
+  "title": "연금저축손해보험 행복디딤돌보험(1210)",
+  "cells": [
+    "흥국화재해상보험",
+    "연금저축손해보험 행복디딤돌보험(1210)",
+    "금리연동형",
+    "2012/10/02",
+    "중단",
+    "8,311",
+    "-7.1",
+    "-1.34",
+    "-0.4",
+    "-0.05",
+    "0.29",
+    "0.73",
+    "6.929"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=29",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=29",
+    "collected_at": "2026-09-23T08:22:15.242134+00:00",
+    "http_status": 200,
+    "sha256": "6d7e9c418a635edea37a0300c0faad49cd920f97670bb799748f30cbb574713d"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "흥국화재해상보험",
+        "상품명": "연금저축손해보험 행복디딤돌보험(1210)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2012/10/02",
+        "판매여부": "중단",
+        "적립금총액": "8,311",
+        "1년 연평균수익률(%)": "-7.1",
+        "3년 연평균수익률(%)": "-1.34",
+        "5년 연평균수익률(%)": "-0.4",
+        "7년 연평균수익률(%)": "-0.05",
+        "10년 연평균수익률(%)": "0.29",
+        "누적연평균수익률(%)": "0.73",
+        "연평균수수료율(%)": "6.929"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=29",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=29",
+        "collected_at": "2026-09-23T08:22:15.242134+00:00",
+        "http_status": 200,
+        "sha256": "6d7e9c418a635edea37a0300c0faad49cd920f97670bb799748f30cbb574713d"
+      }
+    }
+  ]
+}

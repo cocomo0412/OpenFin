@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.5283475989cc0ea76e2fc04b",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:a6933296fe21f6e83ffd53b1",
+  "group": "4",
+  "provider": "삼성생명보험",
+  "title": "연금저축 골드연금보험1.3",
+  "cells": [
+    "삼성생명보험",
+    "연금저축 골드연금보험1.3",
+    "금리연동형",
+    "2013/03/08",
+    "중단",
+    "31,228",
+    "-5.37",
+    "-0.88",
+    "-0.11",
+    "0.26",
+    "0.59",
+    "0.81",
+    "6.238"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=22",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=22",
+    "collected_at": "2026-09-23T08:30:41.527674+00:00",
+    "http_status": 200,
+    "sha256": "0090238d8908c351b92b7b542c6ab76581733b2cd0e104e3d14388bb62896b58"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성생명보험",
+        "상품명": "연금저축 골드연금보험1.3",
+        "상품유형": "금리연동형",
+        "최초판매일": "2013/03/08",
+        "판매여부": "중단",
+        "적립금총액": "31,228",
+        "1년 연평균수익률(%)": "-5.37",
+        "3년 연평균수익률(%)": "-0.88",
+        "5년 연평균수익률(%)": "-0.11",
+        "7년 연평균수익률(%)": "0.26",
+        "10년 연평균수익률(%)": "0.59",
+        "누적연평균수익률(%)": "0.81",
+        "연평균수수료율(%)": "6.238"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=22",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=22",
+        "collected_at": "2026-09-23T08:30:41.527674+00:00",
+        "http_status": 200,
+        "sha256": "0090238d8908c351b92b7b542c6ab76581733b2cd0e104e3d14388bb62896b58"
+      }
+    }
+  ]
+}

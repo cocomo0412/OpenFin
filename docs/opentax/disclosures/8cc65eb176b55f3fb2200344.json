@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.be97bd55657b2511a2c0b9d8",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:5a5be02b91c2261b5f879fa0",
+  "group": "3",
+  "provider": "현대자산운용",
+  "title": "현대뉴현대밸류플러스증권자투자신탁1호[주식]종류S-P",
+  "cells": [
+    "현대자산운용",
+    "현대뉴현대밸류플러스증권자투자신탁1호[주식]종류S-P",
+    "주식형",
+    "2",
+    "2018/06/19",
+    "판매",
+    "394",
+    "84.69",
+    "43.02",
+    "23.52",
+    "23.27",
+    "-",
+    "18.01",
+    "0.964",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=246",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=246",
+    "collected_at": "2026-09-23T08:27:20.003490+00:00",
+    "http_status": 200,
+    "sha256": "f7322a4b5c2f309bc1da5a24fc075f039e256458546d9cdbbe69834545f4462f"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "현대자산운용",
+        "상품명": "현대뉴현대밸류플러스증권자투자신탁1호[주식]종류S-P",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2018/06/19",
+        "판매여부": "판매",
+        "순자산총액": "394",
+        "1년 연평균수익률(%)": "84.69",
+        "3년 연평균수익률(%)": "43.02",
+        "5년 연평균수익률(%)": "23.52",
+        "7년 연평균수익률(%)": "23.27",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "18.01",
+        "연평균수수료율(%)": "0.964",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=246",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=246",
+        "collected_at": "2026-09-23T08:27:20.003490+00:00",
+        "http_status": 200,
+        "sha256": "f7322a4b5c2f309bc1da5a24fc075f039e256458546d9cdbbe69834545f4462f"
+      }
+    }
+  ]
+}

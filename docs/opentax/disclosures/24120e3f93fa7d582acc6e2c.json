@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.1c637af21abfc090746a2f55",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:a27fc88660bc9b9b72d65850",
+  "group": "3",
+  "provider": "DS자산운용",
+  "title": "디에스Maestro증권자투자신탁[주식] 종류C-Pe",
+  "cells": [
+    "DS자산운용",
+    "디에스Maestro증권자투자신탁[주식] 종류C-Pe",
+    "주식형",
+    "2",
+    "2023/07/12",
+    "판매",
+    "32,279",
+    "179.12",
+    "-",
+    "-",
+    "-",
+    "-",
+    "61.27",
+    "1.257",
+    "디비증권주식회사, 유진투자증권주식회사, 한화투자증권주식회사, (주)우리투자증권, 키움증권(주), 삼성생명보험주식회사, 유안타증권주식회사, 한국투자증권, 삼성증권, KB증권, LS증권, 미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=35",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=35",
+    "collected_at": "2026-09-23T08:22:33.907661+00:00",
+    "http_status": 200,
+    "sha256": "ffaa989bd7c43d77f4246c9e76ad8ee52fd392d4737673e9d3af670442198d4f"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "DS자산운용",
+        "상품명": "디에스Maestro증권자투자신탁[주식] 종류C-Pe",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2023/07/12",
+        "판매여부": "판매",
+        "순자산총액": "32,279",
+        "1년 연평균수익률(%)": "179.12",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "61.27",
+        "연평균수수료율(%)": "1.257",
+        "상품 판매사": "디비증권주식회사, 유진투자증권주식회사, 한화투자증권주식회사, (주)우리투자증권, 키움증권(주), 삼성생명보험주식회사, 유안타증권주식회사, 한국투자증권, 삼성증권, KB증권, LS증권, 미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=35",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=35",
+        "collected_at": "2026-09-23T08:22:33.907661+00:00",
+        "http_status": 200,
+        "sha256": "ffaa989bd7c43d77f4246c9e76ad8ee52fd392d4737673e9d3af670442198d4f"
+      }
+    }
+  ]
+}

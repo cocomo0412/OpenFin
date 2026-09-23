@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.ecade084470f29a4856d5e1f",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:12690ae80c7c0481b75e15b1",
+  "group": "3",
+  "provider": "흥국자산운용",
+  "title": "흥국공모주하이일드증권투자신탁[채권혼합]C-pe",
+  "cells": [
+    "흥국자산운용",
+    "흥국공모주하이일드증권투자신탁[채권혼합]C-pe",
+    "혼합채권형",
+    "5",
+    "2023/08/23",
+    "판매",
+    "767",
+    "1.68",
+    "-",
+    "-",
+    "-",
+    "-",
+    "5.03",
+    "0.747",
+    "(주)우리투자증권, 대신증권주식회사, 미래에셋증권 주식회사, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=205",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=205",
+    "collected_at": "2026-09-23T08:26:25.105054+00:00",
+    "http_status": 200,
+    "sha256": "28720fce32b90aa0b9d575a2bedb8b9a1f751e3bea84793fa2fc6912fa4b1d01"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "흥국자산운용",
+        "상품명": "흥국공모주하이일드증권투자신탁[채권혼합]C-pe",
+        "상품유형": "혼합채권형",
+        "위험등급": "5",
+        "설정일": "2023/08/23",
+        "판매여부": "판매",
+        "순자산총액": "767",
+        "1년 연평균수익률(%)": "1.68",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "5.03",
+        "연평균수수료율(%)": "0.747",
+        "상품 판매사": "(주)우리투자증권, 대신증권주식회사, 미래에셋증권 주식회사, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=205",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=205",
+        "collected_at": "2026-09-23T08:26:25.105054+00:00",
+        "http_status": 200,
+        "sha256": "28720fce32b90aa0b9d575a2bedb8b9a1f751e3bea84793fa2fc6912fa4b1d01"
+      }
+    }
+  ]
+}

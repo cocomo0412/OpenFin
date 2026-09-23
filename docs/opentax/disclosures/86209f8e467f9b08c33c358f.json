@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.7795dd012ee5e7dabf1d1c30",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:73f1cd9613e47b201c0e4cec",
+  "group": "3",
+  "provider": "하나자산운용",
+  "title": "하나크레딧플러스알파증권자투자신탁[채권]ClassC-PE",
+  "cells": [
+    "하나자산운용",
+    "하나크레딧플러스알파증권자투자신탁[채권]ClassC-PE",
+    "채권형",
+    "5",
+    "2024/11/01",
+    "판매",
+    "579",
+    "0.19",
+    "-",
+    "-",
+    "-",
+    "-",
+    "2.11",
+    "0.227",
+    "KB국민은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=222",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=222",
+    "collected_at": "2026-09-23T08:26:47.142337+00:00",
+    "http_status": 200,
+    "sha256": "e53126dc150834d23afe067645315e7e7acdcb903a5d70dbfb7f4a5805d08533"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "하나자산운용",
+        "상품명": "하나크레딧플러스알파증권자투자신탁[채권]ClassC-PE",
+        "상품유형": "채권형",
+        "위험등급": "5",
+        "설정일": "2024/11/01",
+        "판매여부": "판매",
+        "순자산총액": "579",
+        "1년 연평균수익률(%)": "0.19",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "2.11",
+        "연평균수수료율(%)": "0.227",
+        "상품 판매사": "KB국민은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=222",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=222",
+        "collected_at": "2026-09-23T08:26:47.142337+00:00",
+        "http_status": 200,
+        "sha256": "e53126dc150834d23afe067645315e7e7acdcb903a5d70dbfb7f4a5805d08533"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.2e2928cd37abb1adff3487d1",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:3f2d3ff9c36c63a1540f9bca",
+  "group": "4",
+  "provider": "한화생명보험",
+  "title": "한화생명 연금저축 스마트하이드림연금보험",
+  "cells": [
+    "한화생명보험",
+    "한화생명 연금저축 스마트하이드림연금보험",
+    "금리연동형",
+    "2024/04/01",
+    "중단",
+    "972",
+    "-5.22",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-1.80",
+    "6.430"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=63",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=63",
+    "collected_at": "2026-09-23T08:32:01.142191+00:00",
+    "http_status": 200,
+    "sha256": "e8fcb425896edd9c6acf338d5ba095848587b32190c51b25f19cfebac2388f32"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한화생명보험",
+        "상품명": "한화생명 연금저축 스마트하이드림연금보험",
+        "상품유형": "금리연동형",
+        "최초판매일": "2024/04/01",
+        "판매여부": "중단",
+        "적립금총액": "972",
+        "1년 연평균수익률(%)": "-5.22",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-1.80",
+        "연평균수수료율(%)": "6.430"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=63",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=63",
+        "collected_at": "2026-09-23T08:32:01.142191+00:00",
+        "http_status": 200,
+        "sha256": "e8fcb425896edd9c6acf338d5ba095848587b32190c51b25f19cfebac2388f32"
+      }
+    }
+  ]
+}

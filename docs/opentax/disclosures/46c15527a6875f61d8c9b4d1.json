@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.a46729eebf02f5d96f7330bc",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:786ef2f230bddbf3d682443c",
+  "group": "4",
+  "provider": "한화생명보험",
+  "title": "연금저축 미래로기업복지연금보험",
+  "cells": [
+    "한화생명보험",
+    "연금저축 미래로기업복지연금보험",
+    "금리연동형",
+    "2005/09/23",
+    "중단",
+    "27,228",
+    "-4.35",
+    "0.21",
+    "1.08",
+    "1.43",
+    "1.54",
+    "1.28",
+    "5.032"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=23",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=23",
+    "collected_at": "2026-09-23T08:30:44.794380+00:00",
+    "http_status": 200,
+    "sha256": "bca9e0c426b0434af10e3827ef7bd684b322c5094ad36c8958f8d0f478b98e0b"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한화생명보험",
+        "상품명": "연금저축 미래로기업복지연금보험",
+        "상품유형": "금리연동형",
+        "최초판매일": "2005/09/23",
+        "판매여부": "중단",
+        "적립금총액": "27,228",
+        "1년 연평균수익률(%)": "-4.35",
+        "3년 연평균수익률(%)": "0.21",
+        "5년 연평균수익률(%)": "1.08",
+        "7년 연평균수익률(%)": "1.43",
+        "10년 연평균수익률(%)": "1.54",
+        "누적연평균수익률(%)": "1.28",
+        "연평균수수료율(%)": "5.032"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=23",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=23",
+        "collected_at": "2026-09-23T08:30:44.794380+00:00",
+        "http_status": 200,
+        "sha256": "bca9e0c426b0434af10e3827ef7bd684b322c5094ad36c8958f8d0f478b98e0b"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.c5b3564cf416e5201a796cf1",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:1:e1f7ce4ed533610cba1e8006",
+  "group": "1",
+  "provider": "신한은행",
+  "title": "연금저축신탁 채권형제1호",
+  "cells": [
+    "신한은행",
+    "연금저축신탁 채권형제1호",
+    "채권형",
+    "2001/02/05",
+    "중단",
+    "416,990",
+    "-0.41",
+    "2.62",
+    "2.06",
+    "1.76",
+    "1.67",
+    "3.11",
+    "9.03"
+  ],
+  "headers": [
+    "은행",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=1",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=1",
+    "collected_at": "2026-09-23T08:21:41.997535+00:00",
+    "http_status": 200,
+    "sha256": "30597bc3e64a8eea5a6a718739f41824360ed0991ca7185c8062f06be4347734"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한은행",
+        "상품명": "연금저축신탁 채권형제1호",
+        "상품유형": "채권형",
+        "최초판매일": "2001/02/05",
+        "판매여부": "중단",
+        "적립금총액": "416,990",
+        "1년 연평균수익률(%)": "-0.41",
+        "3년 연평균수익률(%)": "2.62",
+        "5년 연평균수익률(%)": "2.06",
+        "7년 연평균수익률(%)": "1.76",
+        "10년 연평균수익률(%)": "1.67",
+        "누적연평균수익률(%)": "3.11",
+        "연평균수수료율(%)": "9.03"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=1",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=1",
+        "collected_at": "2026-09-23T08:21:41.997535+00:00",
+        "http_status": 200,
+        "sha256": "30597bc3e64a8eea5a6a718739f41824360ed0991ca7185c8062f06be4347734"
+      }
+    }
+  ]
+}

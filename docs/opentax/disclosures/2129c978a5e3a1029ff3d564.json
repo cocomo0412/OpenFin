@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.ff72afe2f267bf8eb6b9e081",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:c2ec1cc18779e96a43061430",
+  "group": "3",
+  "provider": "마이다스에셋자산운용",
+  "title": "마이다스 아시아 리더스 성장주 연금 증권 자투자신탁(UH)(주식)S-P",
+  "cells": [
+    "마이다스에셋자산운용",
+    "마이다스 아시아 리더스 성장주 연금 증권 자투자신탁(UH)(주식)S-P",
+    "주식형",
+    "2",
+    "2015/10/12",
+    "판매",
+    "564",
+    "105.43",
+    "44.80",
+    "18.62",
+    "24.11",
+    "20.06",
+    "18.76",
+    "0.997",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=223",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=223",
+    "collected_at": "2026-09-23T08:26:48.967840+00:00",
+    "http_status": 200,
+    "sha256": "b12ac0244ea8d4ad32d5b3f6cc15886ab1170ce9c9152451f8a0366607e2860c"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "마이다스에셋자산운용",
+        "상품명": "마이다스 아시아 리더스 성장주 연금 증권 자투자신탁(UH)(주식)S-P",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2015/10/12",
+        "판매여부": "판매",
+        "순자산총액": "564",
+        "1년 연평균수익률(%)": "105.43",
+        "3년 연평균수익률(%)": "44.80",
+        "5년 연평균수익률(%)": "18.62",
+        "7년 연평균수익률(%)": "24.11",
+        "10년 연평균수익률(%)": "20.06",
+        "누적연평균수익률(%)": "18.76",
+        "연평균수수료율(%)": "0.997",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=223",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=223",
+        "collected_at": "2026-09-23T08:26:48.967840+00:00",
+        "http_status": 200,
+        "sha256": "b12ac0244ea8d4ad32d5b3f6cc15886ab1170ce9c9152451f8a0366607e2860c"
+      }
+    }
+  ]
+}

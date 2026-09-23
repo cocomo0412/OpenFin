@@ -1,0 +1,49 @@
+{
+  "id": "finance.insurance.klia.disease.신한라이프생명.l1102460004nnn0247000202440001024400010003024400010003000202440001000300020004s0707",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L1102460004NNN0247000202440001024400010003024400010003000202440001000300020004S0707",
+  "group": "024400010003",
+  "title": "신한SOL3대폴립보험 mini(무배당)",
+  "provider": "신한라이프생명",
+  "cells": [
+    "신한라이프생명",
+    "신한SOL3대폴립보험 mini(무배당)",
+    "주계약",
+    "3대기관 양성신생물 및 폴립 수술급여금 *지급사유 : 보험기간 중 피보험자가 “3대기관 양성신생물 및 폴 립”으로 진단이 확정되고, 그 치료를 직접적인 목적 으로 보험기간 중 수술을 받았을 경우(연간 1회를 한도로 함)",
+    "500만원",
+    "1,300 원",
+    "505 원",
+    "2.10 %",
+    "-",
+    "-",
+    "138.1 %",
+    "186.0 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "기타",
+    "순수보장",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "CM",
+    "2026-07-01",
+    "Download",
+    "보기",
+    "1588-5580"
+  ],
+  "coverage": [
+    "3대기관 양성신생물 및 폴립 수술급여금 *지급사유 : 보험기간 중 피보험자가 “3대기관 양성신생물 및 폴 립”으로 진단이 확정되고, 그 치료를 직접적인 목적 으로 보험기간 중 수술을 받았을 경우(연간 1회를 한도로 함)"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=41680&seq=2"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010003&pageIndex=5&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010003&pageIndex=5&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:27.155704+00:00",
+    "http_status": 200,
+    "sha256": "312e7a29d40cacf470fa6882f95ceb3c0eaa5c2303057398fa157f516c7eca21"
+  }
+}

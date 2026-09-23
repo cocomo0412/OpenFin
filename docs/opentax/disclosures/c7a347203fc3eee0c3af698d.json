@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.0f13e6c50b887a1846c0ac01",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:1d3c77cb8e4c267fe3a49561",
+  "group": "3",
+  "provider": "얼라이언스번스틴 자산운용",
+  "title": "AB 미국 그로스 증권투자신탁(주식-재간접형) 종류형 Sp",
+  "cells": [
+    "얼라이언스번스틴 자산운용",
+    "AB 미국 그로스 증권투자신탁(주식-재간접형) 종류형 Sp",
+    "재간접",
+    "2",
+    "2014/05/14",
+    "판매",
+    "59,774",
+    "6.45",
+    "14.33",
+    "6.90",
+    "12.62",
+    "14.07",
+    "13.38",
+    "0.358",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=21",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=21",
+    "collected_at": "2026-09-23T08:22:14.495254+00:00",
+    "http_status": 200,
+    "sha256": "bf4f36b38d2a92fdf606ccf9102d247b6bf036e7145211eb330d3f448c6ebb5f"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "얼라이언스번스틴 자산운용",
+        "상품명": "AB 미국 그로스 증권투자신탁(주식-재간접형) 종류형 Sp",
+        "상품유형": "재간접",
+        "위험등급": "2",
+        "설정일": "2014/05/14",
+        "판매여부": "판매",
+        "순자산총액": "59,774",
+        "1년 연평균수익률(%)": "6.45",
+        "3년 연평균수익률(%)": "14.33",
+        "5년 연평균수익률(%)": "6.90",
+        "7년 연평균수익률(%)": "12.62",
+        "10년 연평균수익률(%)": "14.07",
+        "누적연평균수익률(%)": "13.38",
+        "연평균수수료율(%)": "0.358",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=21",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=21",
+        "collected_at": "2026-09-23T08:22:14.495254+00:00",
+        "http_status": 200,
+        "sha256": "bf4f36b38d2a92fdf606ccf9102d247b6bf036e7145211eb330d3f448c6ebb5f"
+      }
+    }
+  ]
+}

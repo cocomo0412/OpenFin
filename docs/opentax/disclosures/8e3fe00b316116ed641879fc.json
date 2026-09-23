@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.c094bf4e2e31500d42102e40",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:7b849a74df247fc2195eaf51",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB RISE 삼성전자SK하이닉스채권혼합50 증권 상장지수 투자신탁(채권혼합)",
+  "cells": [
+    "KB자산운용",
+    "KB RISE 삼성전자SK하이닉스채권혼합50 증권 상장지수 투자신탁(채권혼합)",
+    "혼합채권형",
+    "4",
+    "2026/02/25",
+    "판매",
+    "84,623",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "224.70",
+    "0.039",
+    "디비증권주식회사, 메리츠증권(주), 한국투자증권, 삼성증권, 교보증권(주), KB증권, 신영증권주식회사, 미래에셋증권 주식회사, 주식회사 카카오페이증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=16",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=16",
+    "collected_at": "2026-09-23T08:22:07.240047+00:00",
+    "http_status": 200,
+    "sha256": "dc4d69a4d9226a7389becc0f9f3253e7e533a6a263e2365b96c60d9bcdbb7f7d"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB RISE 삼성전자SK하이닉스채권혼합50 증권 상장지수 투자신탁(채권혼합)",
+        "상품유형": "혼합채권형",
+        "위험등급": "4",
+        "설정일": "2026/02/25",
+        "판매여부": "판매",
+        "순자산총액": "84,623",
+        "1년 연평균수익률(%)": "-",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "224.70",
+        "연평균수수료율(%)": "0.039",
+        "상품 판매사": "디비증권주식회사, 메리츠증권(주), 한국투자증권, 삼성증권, 교보증권(주), KB증권, 신영증권주식회사, 미래에셋증권 주식회사, 주식회사 카카오페이증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=16",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=16",
+        "collected_at": "2026-09-23T08:22:07.240047+00:00",
+        "http_status": 200,
+        "sha256": "dc4d69a4d9226a7389becc0f9f3253e7e533a6a263e2365b96c60d9bcdbb7f7d"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.9e35b2b7cb46aff86e0ffba7",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:98b57df3abff4a60acf017d8",
+  "group": "5",
+  "provider": "현대해상화재보험",
+  "title": "연금저축손해보험 현대하이라이프연금보험(Hi1404)",
+  "cells": [
+    "현대해상화재보험",
+    "연금저축손해보험 현대하이라이프연금보험(Hi1404)",
+    "금리연동형",
+    "2014/04/01",
+    "중단",
+    "5,694",
+    "-3.22",
+    "-0.24",
+    "0.36",
+    "0.56",
+    "0.82",
+    "0.97",
+    "4.598"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=31",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=31",
+    "collected_at": "2026-09-23T08:22:17.035739+00:00",
+    "http_status": 200,
+    "sha256": "c134b2cd85f29c941dc33a7b25c04ca7e84ace0e641d50f0ccbd3d6cfe22f5d0"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "현대해상화재보험",
+        "상품명": "연금저축손해보험 현대하이라이프연금보험(Hi1404)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2014/04/01",
+        "판매여부": "중단",
+        "적립금총액": "5,694",
+        "1년 연평균수익률(%)": "-3.22",
+        "3년 연평균수익률(%)": "-0.24",
+        "5년 연평균수익률(%)": "0.36",
+        "7년 연평균수익률(%)": "0.56",
+        "10년 연평균수익률(%)": "0.82",
+        "누적연평균수익률(%)": "0.97",
+        "연평균수수료율(%)": "4.598"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=31",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=31",
+        "collected_at": "2026-09-23T08:22:17.035739+00:00",
+        "http_status": 200,
+        "sha256": "c134b2cd85f29c941dc33a7b25c04ca7e84ace0e641d50f0ccbd3d6cfe22f5d0"
+      }
+    }
+  ]
+}

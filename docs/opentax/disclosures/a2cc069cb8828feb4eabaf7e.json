@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.671b75b57fbfd4386e827883",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:4f412772f938200e2773dfcb",
+  "group": "3",
+  "provider": "키움투자자산운용",
+  "title": "키움공모주스마트채움플러스증권투자신탁제1호[채권혼합] C-Pe",
+  "cells": [
+    "키움투자자산운용",
+    "키움공모주스마트채움플러스증권투자신탁제1호[채권혼합] C-Pe",
+    "혼합채권형",
+    "5",
+    "2021/01/25",
+    "판매",
+    "589",
+    "29.40",
+    "13.70",
+    "8.00",
+    "-",
+    "-",
+    "7.73",
+    "0.496",
+    "NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=221",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=221",
+    "collected_at": "2026-09-23T08:26:45.869869+00:00",
+    "http_status": 200,
+    "sha256": "f0836f5287bb938b0cc99496508092186efbe89ed465f4200ed81771107025f7"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "키움투자자산운용",
+        "상품명": "키움공모주스마트채움플러스증권투자신탁제1호[채권혼합] C-Pe",
+        "상품유형": "혼합채권형",
+        "위험등급": "5",
+        "설정일": "2021/01/25",
+        "판매여부": "판매",
+        "순자산총액": "589",
+        "1년 연평균수익률(%)": "29.40",
+        "3년 연평균수익률(%)": "13.70",
+        "5년 연평균수익률(%)": "8.00",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "7.73",
+        "연평균수수료율(%)": "0.496",
+        "상품 판매사": "NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=221",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=221",
+        "collected_at": "2026-09-23T08:26:45.869869+00:00",
+        "http_status": 200,
+        "sha256": "f0836f5287bb938b0cc99496508092186efbe89ed465f4200ed81771107025f7"
+      }
+    }
+  ]
+}

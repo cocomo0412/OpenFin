@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.0a01f6659a2d0e6e936fcbf5",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:deb5f89b4111a1bca7536ac3",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 차이나 고배당 40 증권 자투자신탁(채권혼합) C-Pe 클래스",
+  "cells": [
+    "KB자산운용",
+    "KB 차이나 고배당 40 증권 자투자신탁(채권혼합) C-Pe 클래스",
+    "혼합채권형",
+    "4",
+    "2016/08/24",
+    "판매",
+    "542",
+    "8.64",
+    "6.00",
+    "-1.04",
+    "1.68",
+    "-",
+    "2.44",
+    "0.920",
+    "한화투자증권주식회사, (주)우리투자증권, 키움증권(주), 삼성증권, KB증권, KB국민은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=227",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=227",
+    "collected_at": "2026-09-23T08:26:54.096166+00:00",
+    "http_status": 200,
+    "sha256": "022c034a74238dd76d2af17d694372b423e38431c6bbcba5ea5cc5aba29ad7b9"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 차이나 고배당 40 증권 자투자신탁(채권혼합) C-Pe 클래스",
+        "상품유형": "혼합채권형",
+        "위험등급": "4",
+        "설정일": "2016/08/24",
+        "판매여부": "판매",
+        "순자산총액": "542",
+        "1년 연평균수익률(%)": "8.64",
+        "3년 연평균수익률(%)": "6.00",
+        "5년 연평균수익률(%)": "-1.04",
+        "7년 연평균수익률(%)": "1.68",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "2.44",
+        "연평균수수료율(%)": "0.920",
+        "상품 판매사": "한화투자증권주식회사, (주)우리투자증권, 키움증권(주), 삼성증권, KB증권, KB국민은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=227",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=227",
+        "collected_at": "2026-09-23T08:26:54.096166+00:00",
+        "http_status": 200,
+        "sha256": "022c034a74238dd76d2af17d694372b423e38431c6bbcba5ea5cc5aba29ad7b9"
+      }
+    }
+  ]
+}

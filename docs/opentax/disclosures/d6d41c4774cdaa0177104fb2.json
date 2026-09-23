@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.5abfad97961828aef032ed4c",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:0419493035de2fe6e0801e64",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋브라질하이인컴채권연금저축증권자투자신탁[채권]종류S",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋브라질하이인컴채권연금저축증권자투자신탁[채권]종류S",
+    "채권형",
+    "3",
+    "2014/05/15",
+    "판매",
+    "232",
+    "28.58",
+    "9.59",
+    "7.93",
+    "5.08",
+    "5.14",
+    "2.45",
+    "0.627",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=273",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=273",
+    "collected_at": "2026-09-23T08:27:56.057187+00:00",
+    "http_status": 200,
+    "sha256": "518892277d79349357f9f81892278f1bdd49e45e68071e7ba8a8d3a0db3d5901"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋브라질하이인컴채권연금저축증권자투자신탁[채권]종류S",
+        "상품유형": "채권형",
+        "위험등급": "3",
+        "설정일": "2014/05/15",
+        "판매여부": "판매",
+        "순자산총액": "232",
+        "1년 연평균수익률(%)": "28.58",
+        "3년 연평균수익률(%)": "9.59",
+        "5년 연평균수익률(%)": "7.93",
+        "7년 연평균수익률(%)": "5.08",
+        "10년 연평균수익률(%)": "5.14",
+        "누적연평균수익률(%)": "2.45",
+        "연평균수수료율(%)": "0.627",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=273",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=273",
+        "collected_at": "2026-09-23T08:27:56.057187+00:00",
+        "http_status": 200,
+        "sha256": "518892277d79349357f9f81892278f1bdd49e45e68071e7ba8a8d3a0db3d5901"
+      }
+    }
+  ]
+}

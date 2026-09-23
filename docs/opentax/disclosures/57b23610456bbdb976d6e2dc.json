@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.3adedae60d1ecc2a46370208",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:dc6554205f91b20597f58011",
+  "group": "4",
+  "provider": "케이디비생명보험",
+  "title": "(연금저축)노후사랑연금보험(확정연금형)",
+  "cells": [
+    "케이디비생명보험",
+    "(연금저축)노후사랑연금보험(확정연금형)",
+    "금리연동형",
+    "2001/02/05",
+    "중단",
+    "1,063",
+    "-9.44",
+    "-1.72",
+    "-0.25",
+    "0.63",
+    "1.32",
+    "2.20",
+    "10.828"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=63",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=63",
+    "collected_at": "2026-09-23T08:32:01.142191+00:00",
+    "http_status": 200,
+    "sha256": "e8fcb425896edd9c6acf338d5ba095848587b32190c51b25f19cfebac2388f32"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "케이디비생명보험",
+        "상품명": "(연금저축)노후사랑연금보험(확정연금형)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2001/02/05",
+        "판매여부": "중단",
+        "적립금총액": "1,063",
+        "1년 연평균수익률(%)": "-9.44",
+        "3년 연평균수익률(%)": "-1.72",
+        "5년 연평균수익률(%)": "-0.25",
+        "7년 연평균수익률(%)": "0.63",
+        "10년 연평균수익률(%)": "1.32",
+        "누적연평균수익률(%)": "2.20",
+        "연평균수수료율(%)": "10.828"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=63",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=63",
+        "collected_at": "2026-09-23T08:32:01.142191+00:00",
+        "http_status": 200,
+        "sha256": "e8fcb425896edd9c6acf338d5ba095848587b32190c51b25f19cfebac2388f32"
+      }
+    }
+  ]
+}

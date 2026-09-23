@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.038d819d4d7ecfdc71c9e6d3",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:6538f11b4a5d307ac9a67d33",
+  "group": "3",
+  "provider": "iM에셋자산운용",
+  "title": "iM에셋차이나채권증권자투자신탁(채권-재간접형)(C-Pe)",
+  "cells": [
+    "iM에셋자산운용",
+    "iM에셋차이나채권증권자투자신탁(채권-재간접형)(C-Pe)",
+    "재간접",
+    "5",
+    "2017/09/04",
+    "판매",
+    "139",
+    "8.41",
+    "3.97",
+    "-1.06",
+    "1.26",
+    "-",
+    "1.40",
+    "0.704",
+    "한화투자증권주식회사, 키움증권(주), KB증권, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=290",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=290",
+    "collected_at": "2026-09-23T08:28:18.741597+00:00",
+    "http_status": 200,
+    "sha256": "f86707805e04929955943187ae9943dce4007e5b9fa43e65e9facd433a424208"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "iM에셋자산운용",
+        "상품명": "iM에셋차이나채권증권자투자신탁(채권-재간접형)(C-Pe)",
+        "상품유형": "재간접",
+        "위험등급": "5",
+        "설정일": "2017/09/04",
+        "판매여부": "판매",
+        "순자산총액": "139",
+        "1년 연평균수익률(%)": "8.41",
+        "3년 연평균수익률(%)": "3.97",
+        "5년 연평균수익률(%)": "-1.06",
+        "7년 연평균수익률(%)": "1.26",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "1.40",
+        "연평균수수료율(%)": "0.704",
+        "상품 판매사": "한화투자증권주식회사, 키움증권(주), KB증권, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=290",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=290",
+        "collected_at": "2026-09-23T08:28:18.741597+00:00",
+        "http_status": 200,
+        "sha256": "f86707805e04929955943187ae9943dce4007e5b9fa43e65e9facd433a424208"
+      }
+    }
+  ]
+}

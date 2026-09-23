@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.d0b1c21db08415a5aa3568d8",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:4ffb8c48a34c4e4b8cf5a1f0",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋TIGER미국달러SOFR금리액티브특별자산상장지수투자신탁(금리-파생형)(합성)",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋TIGER미국달러SOFR금리액티브특별자산상장지수투자신탁(금리-파생형)(합성)",
+    "특별자산",
+    "2",
+    "2023/05/04",
+    "판매",
+    "26,932",
+    "19.20",
+    "10.40",
+    "-",
+    "-",
+    "-",
+    "9.99",
+    "0.078",
+    "디비증권주식회사, 한화투자증권주식회사, 하나증권주식회사, 키움증권(주), 메리츠증권(주), 한국투자증권, SK증권주식회사, 삼성증권, KB증권, 대신증권주식회사, 아이엠증권, 신영증권주식회사, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권, 신한투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=40",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=40",
+    "collected_at": "2026-09-23T08:22:40.855583+00:00",
+    "http_status": 200,
+    "sha256": "323269a5d51cbe01cdc73b03c93fde9aacf58d23d1bfb16922f7bebcae848476"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋TIGER미국달러SOFR금리액티브특별자산상장지수투자신탁(금리-파생형)(합성)",
+        "상품유형": "특별자산",
+        "위험등급": "2",
+        "설정일": "2023/05/04",
+        "판매여부": "판매",
+        "순자산총액": "26,932",
+        "1년 연평균수익률(%)": "19.20",
+        "3년 연평균수익률(%)": "10.40",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "9.99",
+        "연평균수수료율(%)": "0.078",
+        "상품 판매사": "디비증권주식회사, 한화투자증권주식회사, 하나증권주식회사, 키움증권(주), 메리츠증권(주), 한국투자증권, SK증권주식회사, 삼성증권, KB증권, 대신증권주식회사, 아이엠증권, 신영증권주식회사, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권, 신한투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=40",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=40",
+        "collected_at": "2026-09-23T08:22:40.855583+00:00",
+        "http_status": 200,
+        "sha256": "323269a5d51cbe01cdc73b03c93fde9aacf58d23d1bfb16922f7bebcae848476"
+      }
+    }
+  ]
+}

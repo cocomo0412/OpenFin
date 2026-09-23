@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.59f78a9bef20e1024f76c0cb",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:13ca765f56827e4663a64c08",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성미국나스닥100인덱스증권자투자신탁UH[주식]_C-Pe",
+  "cells": [
+    "삼성자산운용",
+    "삼성미국나스닥100인덱스증권자투자신탁UH[주식]_C-Pe",
+    "주식형",
+    "2",
+    "2024/09/12",
+    "판매",
+    "2,378",
+    "49.43",
+    "-",
+    "-",
+    "-",
+    "-",
+    "38.32",
+    "0.833",
+    "삼성증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=141",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=141",
+    "collected_at": "2026-09-23T08:24:58.223379+00:00",
+    "http_status": 200,
+    "sha256": "b63b45e8891a62ef02dea59e0ea8b6b3d588c264793802f98bef209c45319fcb"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성미국나스닥100인덱스증권자투자신탁UH[주식]_C-Pe",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2024/09/12",
+        "판매여부": "판매",
+        "순자산총액": "2,378",
+        "1년 연평균수익률(%)": "49.43",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "38.32",
+        "연평균수수료율(%)": "0.833",
+        "상품 판매사": "삼성증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=141",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=141",
+        "collected_at": "2026-09-23T08:24:58.223379+00:00",
+        "http_status": 200,
+        "sha256": "b63b45e8891a62ef02dea59e0ea8b6b3d588c264793802f98bef209c45319fcb"
+      }
+    }
+  ]
+}

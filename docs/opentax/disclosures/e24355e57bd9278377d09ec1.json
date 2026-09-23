@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.aeb63edda767044fdae68026",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:617579835019552e08f3c652",
+  "group": "4",
+  "provider": "한화생명보험",
+  "title": "연금저축미래로기업복지연금보험",
+  "cells": [
+    "한화생명보험",
+    "연금저축미래로기업복지연금보험",
+    "금리연동형",
+    "2012/04/01",
+    "중단",
+    "3,295",
+    "-4.07",
+    "-0.24",
+    "0.27",
+    "0.50",
+    "0.64",
+    "0.87",
+    "5.421"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=54",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=54",
+    "collected_at": "2026-09-23T08:31:48.774967+00:00",
+    "http_status": 200,
+    "sha256": "a112ef971a2553e6d63265892577eedfacde9054722516251344fb22d46db254"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한화생명보험",
+        "상품명": "연금저축미래로기업복지연금보험",
+        "상품유형": "금리연동형",
+        "최초판매일": "2012/04/01",
+        "판매여부": "중단",
+        "적립금총액": "3,295",
+        "1년 연평균수익률(%)": "-4.07",
+        "3년 연평균수익률(%)": "-0.24",
+        "5년 연평균수익률(%)": "0.27",
+        "7년 연평균수익률(%)": "0.50",
+        "10년 연평균수익률(%)": "0.64",
+        "누적연평균수익률(%)": "0.87",
+        "연평균수수료율(%)": "5.421"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=54",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=54",
+        "collected_at": "2026-09-23T08:31:48.774967+00:00",
+        "http_status": 200,
+        "sha256": "a112ef971a2553e6d63265892577eedfacde9054722516251344fb22d46db254"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.cce0683f98444bc7a6f94183",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:0971df1011cc46b07f0efa20",
+  "group": "3",
+  "provider": "키움투자자산운용",
+  "title": "키움장대트리플플러스증권투자신탁1호[채권혼합]Class C-P",
+  "cells": [
+    "키움투자자산운용",
+    "키움장대트리플플러스증권투자신탁1호[채권혼합]Class C-P",
+    "혼합채권형",
+    "6",
+    "2016/04/12",
+    "판매",
+    "232",
+    "2.31",
+    "3.33",
+    "2.62",
+    "2.20",
+    "2.35",
+    "2.37",
+    "0.820",
+    "신영증권주식회사, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=273",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=273",
+    "collected_at": "2026-09-23T08:27:56.057187+00:00",
+    "http_status": 200,
+    "sha256": "518892277d79349357f9f81892278f1bdd49e45e68071e7ba8a8d3a0db3d5901"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "키움투자자산운용",
+        "상품명": "키움장대트리플플러스증권투자신탁1호[채권혼합]Class C-P",
+        "상품유형": "혼합채권형",
+        "위험등급": "6",
+        "설정일": "2016/04/12",
+        "판매여부": "판매",
+        "순자산총액": "232",
+        "1년 연평균수익률(%)": "2.31",
+        "3년 연평균수익률(%)": "3.33",
+        "5년 연평균수익률(%)": "2.62",
+        "7년 연평균수익률(%)": "2.20",
+        "10년 연평균수익률(%)": "2.35",
+        "누적연평균수익률(%)": "2.37",
+        "연평균수수료율(%)": "0.820",
+        "상품 판매사": "신영증권주식회사, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=273",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=273",
+        "collected_at": "2026-09-23T08:27:56.057187+00:00",
+        "http_status": 200,
+        "sha256": "518892277d79349357f9f81892278f1bdd49e45e68071e7ba8a8d3a0db3d5901"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.9995feeaaaedf60116d1f8e7",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:1f1a4de94e8b7a0351fda1e7",
+  "group": "5",
+  "provider": "DB손해보험",
+  "title": "연금저축손해보험 프로미라이프 연금보험0902",
+  "cells": [
+    "DB손해보험",
+    "연금저축손해보험 프로미라이프 연금보험0902",
+    "금리연동형",
+    "2008/04/01",
+    "중단",
+    "33,156",
+    "-23.28",
+    "-0.57",
+    "1.29",
+    "1.53",
+    "1.39",
+    "1.93",
+    "0.245"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=14",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=14",
+    "collected_at": "2026-09-23T08:21:59.461093+00:00",
+    "http_status": 200,
+    "sha256": "50b459a17cf1aa675771e2fb2230b4f84d9104db9b61e944b20ed830508b14a8"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "DB손해보험",
+        "상품명": "연금저축손해보험 프로미라이프 연금보험0902",
+        "상품유형": "금리연동형",
+        "최초판매일": "2008/04/01",
+        "판매여부": "중단",
+        "적립금총액": "33,156",
+        "1년 연평균수익률(%)": "-23.28",
+        "3년 연평균수익률(%)": "-0.57",
+        "5년 연평균수익률(%)": "1.29",
+        "7년 연평균수익률(%)": "1.53",
+        "10년 연평균수익률(%)": "1.39",
+        "누적연평균수익률(%)": "1.93",
+        "연평균수수료율(%)": "0.245"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=14",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=14",
+        "collected_at": "2026-09-23T08:21:59.461093+00:00",
+        "http_status": 200,
+        "sha256": "50b459a17cf1aa675771e2fb2230b4f84d9104db9b61e944b20ed830508b14a8"
+      }
+    }
+  ]
+}

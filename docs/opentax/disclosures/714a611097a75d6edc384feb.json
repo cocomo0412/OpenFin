@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.3e9be4f6d960841209d651a7",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:cc98ede12bc2045021c532c1",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋골드특별자산자투자신탁(금-재간접형)종류C-Pe",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋골드특별자산자투자신탁(금-재간접형)종류C-Pe",
+    "특별자산",
+    "2",
+    "2022/08/31",
+    "판매",
+    "6,287",
+    "20.41",
+    "24.50",
+    "-",
+    "-",
+    "-",
+    "20.55",
+    "0.655",
+    "미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=96",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=96",
+    "collected_at": "2026-09-23T08:23:57.107519+00:00",
+    "http_status": 200,
+    "sha256": "cda5b937b485313e2f8084cfa6e8251180d7b91c7c88eb0202e90cf16830bfd8"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋골드특별자산자투자신탁(금-재간접형)종류C-Pe",
+        "상품유형": "특별자산",
+        "위험등급": "2",
+        "설정일": "2022/08/31",
+        "판매여부": "판매",
+        "순자산총액": "6,287",
+        "1년 연평균수익률(%)": "20.41",
+        "3년 연평균수익률(%)": "24.50",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "20.55",
+        "연평균수수료율(%)": "0.655",
+        "상품 판매사": "미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=96",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=96",
+        "collected_at": "2026-09-23T08:23:57.107519+00:00",
+        "http_status": 200,
+        "sha256": "cda5b937b485313e2f8084cfa6e8251180d7b91c7c88eb0202e90cf16830bfd8"
+      }
+    }
+  ]
+}

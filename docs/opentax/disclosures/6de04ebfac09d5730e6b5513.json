@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.cd5a500fe325b138ee785f6e",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:4deaefc501d5db5711996a89",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB스타 단기 국공채 증권 자투자신탁(채권) S-P 클래스",
+  "cells": [
+    "KB자산운용",
+    "KB스타 단기 국공채 증권 자투자신탁(채권) S-P 클래스",
+    "채권형",
+    "6",
+    "2016/11/16",
+    "판매",
+    "566",
+    "1.78",
+    "3.08",
+    "2.49",
+    "2.11",
+    "-",
+    "2.00",
+    "0.191",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=223",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=223",
+    "collected_at": "2026-09-23T08:26:48.967840+00:00",
+    "http_status": 200,
+    "sha256": "b12ac0244ea8d4ad32d5b3f6cc15886ab1170ce9c9152451f8a0366607e2860c"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB스타 단기 국공채 증권 자투자신탁(채권) S-P 클래스",
+        "상품유형": "채권형",
+        "위험등급": "6",
+        "설정일": "2016/11/16",
+        "판매여부": "판매",
+        "순자산총액": "566",
+        "1년 연평균수익률(%)": "1.78",
+        "3년 연평균수익률(%)": "3.08",
+        "5년 연평균수익률(%)": "2.49",
+        "7년 연평균수익률(%)": "2.11",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "2.00",
+        "연평균수수료율(%)": "0.191",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=223",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=223",
+        "collected_at": "2026-09-23T08:26:48.967840+00:00",
+        "http_status": 200,
+        "sha256": "b12ac0244ea8d4ad32d5b3f6cc15886ab1170ce9c9152451f8a0366607e2860c"
+      }
+    }
+  ]
+}

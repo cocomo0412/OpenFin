@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.481a4604fd38081ca2abf82b",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:1:7c3ed7cbdd85f4ff5d6dbdce",
+  "group": "1",
+  "provider": "한국산업은행",
+  "title": "KDBTrust 연금저축신탁(채권형)",
+  "cells": [
+    "한국산업은행",
+    "KDBTrust 연금저축신탁(채권형)",
+    "채권형",
+    "2001/02/05",
+    "중단",
+    "97,530",
+    "-0.09",
+    "2.72",
+    "2.18",
+    "1.84",
+    "1.80",
+    "4.69",
+    "10.30"
+  ],
+  "headers": [
+    "은행",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=2",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=2",
+    "collected_at": "2026-09-23T08:21:42.780975+00:00",
+    "http_status": 200,
+    "sha256": "ed95935686d655cb59e64b1cfb4fedead59df3acc3cd246f6c663b33e01929d1"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국산업은행",
+        "상품명": "KDBTrust 연금저축신탁(채권형)",
+        "상품유형": "채권형",
+        "최초판매일": "2001/02/05",
+        "판매여부": "중단",
+        "적립금총액": "97,530",
+        "1년 연평균수익률(%)": "-0.09",
+        "3년 연평균수익률(%)": "2.72",
+        "5년 연평균수익률(%)": "2.18",
+        "7년 연평균수익률(%)": "1.84",
+        "10년 연평균수익률(%)": "1.80",
+        "누적연평균수익률(%)": "4.69",
+        "연평균수수료율(%)": "10.30"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=2",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=2",
+        "collected_at": "2026-09-23T08:21:42.780975+00:00",
+        "http_status": 200,
+        "sha256": "ed95935686d655cb59e64b1cfb4fedead59df3acc3cd246f6c663b33e01929d1"
+      }
+    }
+  ]
+}

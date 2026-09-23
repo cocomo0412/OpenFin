@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.11429b6aeccbb17b37842167",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:2285bb279ff030ccbc157ca4",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 연금 국내채권 증권 전환형 자투자신탁(채권) S-P 클래스",
+  "cells": [
+    "KB자산운용",
+    "KB 연금 국내채권 증권 전환형 자투자신탁(채권) S-P 클래스",
+    "채권형",
+    "5",
+    "2014/04/23",
+    "판매",
+    "32",
+    "-4.83",
+    "2.72",
+    "0.76",
+    "0.70",
+    "1.03",
+    "1.81",
+    "0.329",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=306",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=306",
+    "collected_at": "2026-09-23T08:28:39.905519+00:00",
+    "http_status": 200,
+    "sha256": "5867455a8c0189262e4e35eba76111796acff0c75e5a63e8b2a469c7d99dd81c"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 연금 국내채권 증권 전환형 자투자신탁(채권) S-P 클래스",
+        "상품유형": "채권형",
+        "위험등급": "5",
+        "설정일": "2014/04/23",
+        "판매여부": "판매",
+        "순자산총액": "32",
+        "1년 연평균수익률(%)": "-4.83",
+        "3년 연평균수익률(%)": "2.72",
+        "5년 연평균수익률(%)": "0.76",
+        "7년 연평균수익률(%)": "0.70",
+        "10년 연평균수익률(%)": "1.03",
+        "누적연평균수익률(%)": "1.81",
+        "연평균수수료율(%)": "0.329",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=306",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=306",
+        "collected_at": "2026-09-23T08:28:39.905519+00:00",
+        "http_status": 200,
+        "sha256": "5867455a8c0189262e4e35eba76111796acff0c75e5a63e8b2a469c7d99dd81c"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.60c0408480330a9794d18d74",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:42135fe5bf233b7044750904",
+  "group": "3",
+  "provider": "DB자산운용",
+  "title": "DB차이나본토RQFII증권자투자신탁(H)[주식]ClassC-P",
+  "cells": [
+    "DB자산운용",
+    "DB차이나본토RQFII증권자투자신탁(H)[주식]ClassC-P",
+    "주식형",
+    "2",
+    "2015/04/02",
+    "판매",
+    "7,829",
+    "25.82",
+    "10.54",
+    "-2.16",
+    "4.57",
+    "5.41",
+    "3.29",
+    "1.493",
+    "키움증권(주), 광주은행, 한국투자증권, 우리은행, KB증권, 신영증권주식회사, 미래에셋증권 주식회사, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=85",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=85",
+    "collected_at": "2026-09-23T08:23:42.290978+00:00",
+    "http_status": 200,
+    "sha256": "f67afe1bfaf9f942d44297a7a771b5d50593874d87a6d6d60f0e934a88b47ef7"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "DB자산운용",
+        "상품명": "DB차이나본토RQFII증권자투자신탁(H)[주식]ClassC-P",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2015/04/02",
+        "판매여부": "판매",
+        "순자산총액": "7,829",
+        "1년 연평균수익률(%)": "25.82",
+        "3년 연평균수익률(%)": "10.54",
+        "5년 연평균수익률(%)": "-2.16",
+        "7년 연평균수익률(%)": "4.57",
+        "10년 연평균수익률(%)": "5.41",
+        "누적연평균수익률(%)": "3.29",
+        "연평균수수료율(%)": "1.493",
+        "상품 판매사": "키움증권(주), 광주은행, 한국투자증권, 우리은행, KB증권, 신영증권주식회사, 미래에셋증권 주식회사, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=85",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=85",
+        "collected_at": "2026-09-23T08:23:42.290978+00:00",
+        "http_status": 200,
+        "sha256": "f67afe1bfaf9f942d44297a7a771b5d50593874d87a6d6d60f0e934a88b47ef7"
+      }
+    }
+  ]
+}

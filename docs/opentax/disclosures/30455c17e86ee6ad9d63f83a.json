@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.ad618eabb880f925660c9090",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:e9f6ec0001fbc05cf3a53173",
+  "group": "5",
+  "provider": "메리츠화재해상보험",
+  "title": "(무)메리츠 케어프리보험M-Basket1310연금저축은퇴케어프리",
+  "cells": [
+    "메리츠화재해상보험",
+    "(무)메리츠 케어프리보험M-Basket1310연금저축은퇴케어프리",
+    "금리연동형",
+    "2013/10/07",
+    "중단",
+    "2,974",
+    "-3.34",
+    "-0.2",
+    "0.38",
+    "0.59",
+    "0.92",
+    "1.1",
+    "4.728"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=38",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=38",
+    "collected_at": "2026-09-23T08:22:24.221302+00:00",
+    "http_status": 200,
+    "sha256": "628280ff0324a7e531b2a67435890a872ec06b3e133ea481412d086c137eb45c"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "메리츠화재해상보험",
+        "상품명": "(무)메리츠 케어프리보험M-Basket1310연금저축은퇴케어프리",
+        "상품유형": "금리연동형",
+        "최초판매일": "2013/10/07",
+        "판매여부": "중단",
+        "적립금총액": "2,974",
+        "1년 연평균수익률(%)": "-3.34",
+        "3년 연평균수익률(%)": "-0.2",
+        "5년 연평균수익률(%)": "0.38",
+        "7년 연평균수익률(%)": "0.59",
+        "10년 연평균수익률(%)": "0.92",
+        "누적연평균수익률(%)": "1.1",
+        "연평균수수료율(%)": "4.728"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=38",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=38",
+        "collected_at": "2026-09-23T08:22:24.221302+00:00",
+        "http_status": 200,
+        "sha256": "628280ff0324a7e531b2a67435890a872ec06b3e133ea481412d086c137eb45c"
+      }
+    }
+  ]
+}

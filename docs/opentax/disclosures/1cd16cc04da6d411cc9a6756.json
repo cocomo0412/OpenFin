@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.01f03a22f2376fb7e7a19d58",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:f6e8a1964778081aeadd5d86",
+  "group": "3",
+  "provider": "우리자산운용",
+  "title": "우리다같이적격TDF2025증권투자신탁(혼합-재간접형)ClassC-P1e",
+  "cells": [
+    "우리자산운용",
+    "우리다같이적격TDF2025증권투자신탁(혼합-재간접형)ClassC-P1e",
+    "재간접",
+    "4",
+    "2020/09/21",
+    "판매",
+    "197",
+    "7.67",
+    "7.95",
+    "3.53",
+    "-",
+    "-",
+    "4.88",
+    "0.383",
+    "유진투자증권주식회사, 키움증권(주), 한국투자증권, 우리은행, 미래에셋증권 주식회사, NH투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=278",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=278",
+    "collected_at": "2026-09-23T08:28:02.564959+00:00",
+    "http_status": 200,
+    "sha256": "5bd63375a59afd12e50e543f7c79722bb7741cf98c9449388a5a9d0f60d225c9"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "우리자산운용",
+        "상품명": "우리다같이적격TDF2025증권투자신탁(혼합-재간접형)ClassC-P1e",
+        "상품유형": "재간접",
+        "위험등급": "4",
+        "설정일": "2020/09/21",
+        "판매여부": "판매",
+        "순자산총액": "197",
+        "1년 연평균수익률(%)": "7.67",
+        "3년 연평균수익률(%)": "7.95",
+        "5년 연평균수익률(%)": "3.53",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "4.88",
+        "연평균수수료율(%)": "0.383",
+        "상품 판매사": "유진투자증권주식회사, 키움증권(주), 한국투자증권, 우리은행, 미래에셋증권 주식회사, NH투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=278",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=278",
+        "collected_at": "2026-09-23T08:28:02.564959+00:00",
+        "http_status": 200,
+        "sha256": "5bd63375a59afd12e50e543f7c79722bb7741cf98c9449388a5a9d0f60d225c9"
+      }
+    }
+  ]
+}

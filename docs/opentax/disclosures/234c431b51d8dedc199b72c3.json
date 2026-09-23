@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.e05a8a0b01397b25a2036406",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:7634c6e444893c6aa1ea30ac",
+  "group": "3",
+  "provider": "교보악사자산운용",
+  "title": "교보악사공모주알파30증권자투자신탁2호[채권혼합]ClassC-P2",
+  "cells": [
+    "교보악사자산운용",
+    "교보악사공모주알파30증권자투자신탁2호[채권혼합]ClassC-P2",
+    "혼합채권형",
+    "5",
+    "2015/07/31",
+    "판매",
+    "645",
+    "1.62",
+    "5.01",
+    "3.34",
+    "2.11",
+    "1.07",
+    "0.97",
+    "0.886",
+    "디비증권주식회사, 한화투자증권주식회사, 교보증권(주), 우리은행, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=216",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=216",
+    "collected_at": "2026-09-23T08:26:39.363051+00:00",
+    "http_status": 200,
+    "sha256": "1b9299261b9f828ba8eadc8f5d2129647ce7b95b2f78f7f0e4b5b8ee399dda51"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "교보악사자산운용",
+        "상품명": "교보악사공모주알파30증권자투자신탁2호[채권혼합]ClassC-P2",
+        "상품유형": "혼합채권형",
+        "위험등급": "5",
+        "설정일": "2015/07/31",
+        "판매여부": "판매",
+        "순자산총액": "645",
+        "1년 연평균수익률(%)": "1.62",
+        "3년 연평균수익률(%)": "5.01",
+        "5년 연평균수익률(%)": "3.34",
+        "7년 연평균수익률(%)": "2.11",
+        "10년 연평균수익률(%)": "1.07",
+        "누적연평균수익률(%)": "0.97",
+        "연평균수수료율(%)": "0.886",
+        "상품 판매사": "디비증권주식회사, 한화투자증권주식회사, 교보증권(주), 우리은행, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=216",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=216",
+        "collected_at": "2026-09-23T08:26:39.363051+00:00",
+        "http_status": 200,
+        "sha256": "1b9299261b9f828ba8eadc8f5d2129647ce7b95b2f78f7f0e4b5b8ee399dda51"
+      }
+    }
+  ]
+}

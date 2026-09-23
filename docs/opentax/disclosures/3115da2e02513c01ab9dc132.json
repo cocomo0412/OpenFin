@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.44615e11b7355a9846f4f593",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:f6ae2635b74ff0ebea88ee13",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋글로벌넥스트노멀증권투자신탁(주식)종류C-P",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋글로벌넥스트노멀증권투자신탁(주식)종류C-P",
+    "주식형",
+    "2",
+    "2020/06/02",
+    "판매",
+    "538",
+    "31.88",
+    "21.13",
+    "4.98",
+    "-",
+    "-",
+    "11.32",
+    "1.635",
+    "KB국민은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=228",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=228",
+    "collected_at": "2026-09-23T08:26:55.690879+00:00",
+    "http_status": 200,
+    "sha256": "b11542064ecb4f9ee092af26e91a567441ffdb0fbbc15139f6c71135d046c7c1"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋글로벌넥스트노멀증권투자신탁(주식)종류C-P",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2020/06/02",
+        "판매여부": "판매",
+        "순자산총액": "538",
+        "1년 연평균수익률(%)": "31.88",
+        "3년 연평균수익률(%)": "21.13",
+        "5년 연평균수익률(%)": "4.98",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "11.32",
+        "연평균수수료율(%)": "1.635",
+        "상품 판매사": "KB국민은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=228",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=228",
+        "collected_at": "2026-09-23T08:26:55.690879+00:00",
+        "http_status": 200,
+        "sha256": "b11542064ecb4f9ee092af26e91a567441ffdb0fbbc15139f6c71135d046c7c1"
+      }
+    }
+  ]
+}

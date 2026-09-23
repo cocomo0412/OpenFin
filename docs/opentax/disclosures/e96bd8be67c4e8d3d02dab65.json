@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.dff99de65591125c2051bfa0",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:f6ea89697f961f171769da79",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋글로벌솔루션40증권자투자신탁1호(채권혼합)종류C-P",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋글로벌솔루션40증권자투자신탁1호(채권혼합)종류C-P",
+    "혼합채권형",
+    "5",
+    "2016/10/18",
+    "판매",
+    "17,656",
+    "22.18",
+    "12.67",
+    "7.12",
+    "7.58",
+    "-",
+    "6.59",
+    "0.992",
+    "미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=52",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=52",
+    "collected_at": "2026-09-23T08:22:57.675216+00:00",
+    "http_status": 200,
+    "sha256": "5d657a3a1378bf60d55856bb799661d17597d10edd473796939f9796edaba9fb"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋글로벌솔루션40증권자투자신탁1호(채권혼합)종류C-P",
+        "상품유형": "혼합채권형",
+        "위험등급": "5",
+        "설정일": "2016/10/18",
+        "판매여부": "판매",
+        "순자산총액": "17,656",
+        "1년 연평균수익률(%)": "22.18",
+        "3년 연평균수익률(%)": "12.67",
+        "5년 연평균수익률(%)": "7.12",
+        "7년 연평균수익률(%)": "7.58",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "6.59",
+        "연평균수수료율(%)": "0.992",
+        "상품 판매사": "미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=52",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=52",
+        "collected_at": "2026-09-23T08:22:57.675216+00:00",
+        "http_status": 200,
+        "sha256": "5d657a3a1378bf60d55856bb799661d17597d10edd473796939f9796edaba9fb"
+      }
+    }
+  ]
+}

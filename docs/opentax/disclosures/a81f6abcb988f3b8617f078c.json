@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.4b5fabf7c27f3d31b1ee15e0",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:a4c231cb600e832ffe31070d",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 연금 성장주 증권 전환형 자투자신탁(주식) S-P 클래스",
+  "cells": [
+    "KB자산운용",
+    "KB 연금 성장주 증권 전환형 자투자신탁(주식) S-P 클래스",
+    "주식형",
+    "2",
+    "2014/04/23",
+    "판매",
+    "194",
+    "196.72",
+    "58.88",
+    "28.74",
+    "28.54",
+    "21.23",
+    "16.53",
+    "0.816",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=279",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=279",
+    "collected_at": "2026-09-23T08:28:04.164649+00:00",
+    "http_status": 200,
+    "sha256": "bd2009d8576c60ea73a66608fa82856517262342b9e8e068b4dd2100e6b44df1"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 연금 성장주 증권 전환형 자투자신탁(주식) S-P 클래스",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2014/04/23",
+        "판매여부": "판매",
+        "순자산총액": "194",
+        "1년 연평균수익률(%)": "196.72",
+        "3년 연평균수익률(%)": "58.88",
+        "5년 연평균수익률(%)": "28.74",
+        "7년 연평균수익률(%)": "28.54",
+        "10년 연평균수익률(%)": "21.23",
+        "누적연평균수익률(%)": "16.53",
+        "연평균수수료율(%)": "0.816",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=279",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=279",
+        "collected_at": "2026-09-23T08:28:04.164649+00:00",
+        "http_status": 200,
+        "sha256": "bd2009d8576c60ea73a66608fa82856517262342b9e8e068b4dd2100e6b44df1"
+      }
+    }
+  ]
+}

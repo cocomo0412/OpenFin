@@ -1,0 +1,51 @@
+{
+  "id": "finance.insurance.klia.term-life.신한라이프생명.l1102460001nnn0247000202440001024400010002024400010002000202440001000200020002s0688",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L1102460001NNN0247000202440001024400010002024400010002000202440001000200020002S0688",
+  "group": "024400010002",
+  "title": "신한(간편가입)위너스경영인정기보험(무배당, 해약환급금 미지급형)",
+  "provider": "신한라이프생명",
+  "cells": [
+    "신한라이프생명",
+    "신한(간편가입)위너스경영인정기보험(무배당, 해약환급금 미지급형)",
+    "주계약",
+    "사 망 보 험 금(10%체증형) *지급사유 : 보험기간 중 피보험자가 사망하였을 때",
+    "10,000만원",
+    "567,400 원",
+    "453,100 원",
+    "2.50 %",
+    "-",
+    "-",
+    "111.6 %",
+    "126.8 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "체증형",
+    "무해지/저해지환급",
+    "-",
+    "-",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "대면채널",
+    "2026-07-01",
+    "Download",
+    "보기",
+    "1588-5580"
+  ],
+  "coverage": [
+    "사 망 보 험 금(10%체증형) *지급사유 : 보험기간 중 피보험자가 사망하였을 때"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=40965&seq=6"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010002&pageIndex=8&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010002&pageIndex=8&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:29.606527+00:00",
+    "http_status": 200,
+    "sha256": "7d9e00baa882190ffa7c8aaa5f073958bc42479d6dca7894dfc3b47f83b58b76"
+  }
+}

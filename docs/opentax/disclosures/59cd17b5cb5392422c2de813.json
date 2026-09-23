@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.19df7b24bcce9ce85e495d31",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:f3b9652c0249b43864ed76b5",
+  "group": "3",
+  "provider": "우리자산운용",
+  "title": "우리프랭클린미국바이오헬스케어증권자투자신탁(주식-재간접형)ClassC-P",
+  "cells": [
+    "우리자산운용",
+    "우리프랭클린미국바이오헬스케어증권자투자신탁(주식-재간접형)ClassC-P",
+    "재간접",
+    "2",
+    "2014/02/27",
+    "판매",
+    "9,262",
+    "77.68",
+    "24.46",
+    "8.12",
+    "9.33",
+    "8.41",
+    "5.95",
+    "0.896",
+    "디비증권주식회사, 키움증권(주), 한국투자증권, 교보증권(주), 우리은행, IBK기업은행, KB증권, 미래에셋증권 주식회사, NH투자증권, 미래에셋생명보험주식회사, 신한투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=78",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=78",
+    "collected_at": "2026-09-23T08:23:32.847493+00:00",
+    "http_status": 200,
+    "sha256": "b39f7566b8e8a14ddc989754e40abf88e9d5846ee0e62609f82cf47a460891c5"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "우리자산운용",
+        "상품명": "우리프랭클린미국바이오헬스케어증권자투자신탁(주식-재간접형)ClassC-P",
+        "상품유형": "재간접",
+        "위험등급": "2",
+        "설정일": "2014/02/27",
+        "판매여부": "판매",
+        "순자산총액": "9,262",
+        "1년 연평균수익률(%)": "77.68",
+        "3년 연평균수익률(%)": "24.46",
+        "5년 연평균수익률(%)": "8.12",
+        "7년 연평균수익률(%)": "9.33",
+        "10년 연평균수익률(%)": "8.41",
+        "누적연평균수익률(%)": "5.95",
+        "연평균수수료율(%)": "0.896",
+        "상품 판매사": "디비증권주식회사, 키움증권(주), 한국투자증권, 교보증권(주), 우리은행, IBK기업은행, KB증권, 미래에셋증권 주식회사, NH투자증권, 미래에셋생명보험주식회사, 신한투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=78",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=78",
+        "collected_at": "2026-09-23T08:23:32.847493+00:00",
+        "http_status": 200,
+        "sha256": "b39f7566b8e8a14ddc989754e40abf88e9d5846ee0e62609f82cf47a460891c5"
+      }
+    }
+  ]
+}

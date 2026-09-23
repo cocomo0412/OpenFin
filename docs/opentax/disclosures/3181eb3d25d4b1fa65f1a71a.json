@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.39f6cca7a3c8dd926e2af8ba",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:5f327d1de9065849f6d55563",
+  "group": "4",
+  "provider": "교보생명보험",
+  "title": "연금저축교보기업복지연금보험",
+  "cells": [
+    "교보생명보험",
+    "연금저축교보기업복지연금보험",
+    "금리연동형",
+    "2009/03/30",
+    "중단",
+    "11,331",
+    "-4.63",
+    "-0.04",
+    "0.72",
+    "0.88",
+    "0.89",
+    "1.05",
+    "5.760"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=36",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=36",
+    "collected_at": "2026-09-23T08:31:19.163527+00:00",
+    "http_status": 200,
+    "sha256": "74afb85d36ef3fc17c1951a16f552ce46359603a175c888fd376959d8f58921b"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "교보생명보험",
+        "상품명": "연금저축교보기업복지연금보험",
+        "상품유형": "금리연동형",
+        "최초판매일": "2009/03/30",
+        "판매여부": "중단",
+        "적립금총액": "11,331",
+        "1년 연평균수익률(%)": "-4.63",
+        "3년 연평균수익률(%)": "-0.04",
+        "5년 연평균수익률(%)": "0.72",
+        "7년 연평균수익률(%)": "0.88",
+        "10년 연평균수익률(%)": "0.89",
+        "누적연평균수익률(%)": "1.05",
+        "연평균수수료율(%)": "5.760"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=36",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=36",
+        "collected_at": "2026-09-23T08:31:19.163527+00:00",
+        "http_status": 200,
+        "sha256": "74afb85d36ef3fc17c1951a16f552ce46359603a175c888fd376959d8f58921b"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.36c2aa1b2cfb2f9e36e587b2",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:bc5ce6b8a52598d95c759d11",
+  "group": "3",
+  "provider": "더제이자산운용",
+  "title": "더제이더행복코리아증권자투자신탁[주식]종류C-P",
+  "cells": [
+    "더제이자산운용",
+    "더제이더행복코리아증권자투자신탁[주식]종류C-P",
+    "주식형",
+    "2",
+    "2023/02/02",
+    "판매",
+    "2,575",
+    "215.36",
+    "57.84",
+    "-",
+    "-",
+    "-",
+    "53.25",
+    "1.649",
+    "한화투자증권주식회사, 삼성증권, 교보증권(주), KB증권, 신영증권주식회사, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=137",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=137",
+    "collected_at": "2026-09-23T08:24:52.943587+00:00",
+    "http_status": 200,
+    "sha256": "ee75e8c6dbeca55059b72b24c378bb7d01dca3693565580c348628ce3dde64fc"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "더제이자산운용",
+        "상품명": "더제이더행복코리아증권자투자신탁[주식]종류C-P",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2023/02/02",
+        "판매여부": "판매",
+        "순자산총액": "2,575",
+        "1년 연평균수익률(%)": "215.36",
+        "3년 연평균수익률(%)": "57.84",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "53.25",
+        "연평균수수료율(%)": "1.649",
+        "상품 판매사": "한화투자증권주식회사, 삼성증권, 교보증권(주), KB증권, 신영증권주식회사, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=137",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=137",
+        "collected_at": "2026-09-23T08:24:52.943587+00:00",
+        "http_status": 200,
+        "sha256": "ee75e8c6dbeca55059b72b24c378bb7d01dca3693565580c348628ce3dde64fc"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.6898aecb80d4782281b78870",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:c680f90a7a50e721b953acef",
+  "group": "3",
+  "provider": "유진자산운용",
+  "title": "유진챔피언단기채증권자투자신탁(채권) Class S-P",
+  "cells": [
+    "유진자산운용",
+    "유진챔피언단기채증권자투자신탁(채권) Class S-P",
+    "채권형",
+    "6",
+    "2016/05/09",
+    "판매",
+    "1,734",
+    "2.31",
+    "3.72",
+    "3.31",
+    "2.81",
+    "2.64",
+    "2.63",
+    "0.162",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=158",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=158",
+    "collected_at": "2026-09-23T08:25:21.175807+00:00",
+    "http_status": 200,
+    "sha256": "9ec7f44a955ba1bbde3e3a2819d208d5a3e710b7116d12869099d859e9d6c7d0"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "유진자산운용",
+        "상품명": "유진챔피언단기채증권자투자신탁(채권) Class S-P",
+        "상품유형": "채권형",
+        "위험등급": "6",
+        "설정일": "2016/05/09",
+        "판매여부": "판매",
+        "순자산총액": "1,734",
+        "1년 연평균수익률(%)": "2.31",
+        "3년 연평균수익률(%)": "3.72",
+        "5년 연평균수익률(%)": "3.31",
+        "7년 연평균수익률(%)": "2.81",
+        "10년 연평균수익률(%)": "2.64",
+        "누적연평균수익률(%)": "2.63",
+        "연평균수수료율(%)": "0.162",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=158",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=158",
+        "collected_at": "2026-09-23T08:25:21.175807+00:00",
+        "http_status": 200,
+        "sha256": "9ec7f44a955ba1bbde3e3a2819d208d5a3e710b7116d12869099d859e9d6c7d0"
+      }
+    }
+  ]
+}

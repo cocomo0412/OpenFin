@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.c2457d88c3b9cb7a32bc94be",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:9958d9f16c9a00217aa1cd79",
+  "group": "3",
+  "provider": "브이자산운용",
+  "title": "브이 뉴그로쓰증권자투자신탁1호(주식) 종류C-p",
+  "cells": [
+    "브이자산운용",
+    "브이 뉴그로쓰증권자투자신탁1호(주식) 종류C-p",
+    "주식형",
+    "1",
+    "2016/02/03",
+    "판매",
+    "1,735",
+    "179.16",
+    "55.40",
+    "26.99",
+    "23.68",
+    "16.93",
+    "15.78",
+    "1.600",
+    "한화투자증권주식회사, 한국투자증권, 삼성증권, IBK기업은행, KB증권, 미래에셋증권 주식회사, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=158",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=158",
+    "collected_at": "2026-09-23T08:25:21.175807+00:00",
+    "http_status": 200,
+    "sha256": "9ec7f44a955ba1bbde3e3a2819d208d5a3e710b7116d12869099d859e9d6c7d0"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "브이자산운용",
+        "상품명": "브이 뉴그로쓰증권자투자신탁1호(주식) 종류C-p",
+        "상품유형": "주식형",
+        "위험등급": "1",
+        "설정일": "2016/02/03",
+        "판매여부": "판매",
+        "순자산총액": "1,735",
+        "1년 연평균수익률(%)": "179.16",
+        "3년 연평균수익률(%)": "55.40",
+        "5년 연평균수익률(%)": "26.99",
+        "7년 연평균수익률(%)": "23.68",
+        "10년 연평균수익률(%)": "16.93",
+        "누적연평균수익률(%)": "15.78",
+        "연평균수수료율(%)": "1.600",
+        "상품 판매사": "한화투자증권주식회사, 한국투자증권, 삼성증권, IBK기업은행, KB증권, 미래에셋증권 주식회사, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=158",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=158",
+        "collected_at": "2026-09-23T08:25:21.175807+00:00",
+        "http_status": 200,
+        "sha256": "9ec7f44a955ba1bbde3e3a2819d208d5a3e710b7116d12869099d859e9d6c7d0"
+      }
+    }
+  ]
+}

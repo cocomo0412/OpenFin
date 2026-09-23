@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.c800ebb68f4781f5af443aea",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:1:12762dc40f5d274d6842f078",
+  "group": "1",
+  "provider": "국민은행",
+  "title": "KB실버웰빙연금신탁(안정형)",
+  "cells": [
+    "국민은행",
+    "KB실버웰빙연금신탁(안정형)",
+    "안정형",
+    "2004/05/10",
+    "중단",
+    "577,869",
+    "11.48",
+    "6.57",
+    "4.13",
+    "3.86",
+    "3.40",
+    "4.97",
+    "4.87"
+  ],
+  "headers": [
+    "은행",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=1",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=1",
+    "collected_at": "2026-09-23T08:21:41.997535+00:00",
+    "http_status": 200,
+    "sha256": "30597bc3e64a8eea5a6a718739f41824360ed0991ca7185c8062f06be4347734"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "국민은행",
+        "상품명": "KB실버웰빙연금신탁(안정형)",
+        "상품유형": "안정형",
+        "최초판매일": "2004/05/10",
+        "판매여부": "중단",
+        "적립금총액": "577,869",
+        "1년 연평균수익률(%)": "11.48",
+        "3년 연평균수익률(%)": "6.57",
+        "5년 연평균수익률(%)": "4.13",
+        "7년 연평균수익률(%)": "3.86",
+        "10년 연평균수익률(%)": "3.40",
+        "누적연평균수익률(%)": "4.97",
+        "연평균수수료율(%)": "4.87"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=1",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=1",
+        "collected_at": "2026-09-23T08:21:41.997535+00:00",
+        "http_status": 200,
+        "sha256": "30597bc3e64a8eea5a6a718739f41824360ed0991ca7185c8062f06be4347734"
+      }
+    }
+  ]
+}

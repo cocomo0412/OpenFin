@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.b209199ae5fa671322d57468",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:cdcfcc542204dce8db2eadb0",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋아시아그로스증권자투자신탁(UH)(주식-재간접형)종류C-Pe",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋아시아그로스증권자투자신탁(UH)(주식-재간접형)종류C-Pe",
+    "재간접",
+    "2",
+    "2018/07/04",
+    "판매",
+    "1,614",
+    "59.48",
+    "28.18",
+    "8.08",
+    "16.09",
+    "-",
+    "13.65",
+    "0.732",
+    "(주)우리투자증권, 한국투자증권, 미래에셋증권 주식회사, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=163",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=163",
+    "collected_at": "2026-09-23T08:25:27.781527+00:00",
+    "http_status": 200,
+    "sha256": "a7b85270a89a59cf38b2fb20fae4a9713d9db9f0ef806dd3ac5f3b1f3fdc788e"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋아시아그로스증권자투자신탁(UH)(주식-재간접형)종류C-Pe",
+        "상품유형": "재간접",
+        "위험등급": "2",
+        "설정일": "2018/07/04",
+        "판매여부": "판매",
+        "순자산총액": "1,614",
+        "1년 연평균수익률(%)": "59.48",
+        "3년 연평균수익률(%)": "28.18",
+        "5년 연평균수익률(%)": "8.08",
+        "7년 연평균수익률(%)": "16.09",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "13.65",
+        "연평균수수료율(%)": "0.732",
+        "상품 판매사": "(주)우리투자증권, 한국투자증권, 미래에셋증권 주식회사, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=163",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=163",
+        "collected_at": "2026-09-23T08:25:27.781527+00:00",
+        "http_status": 200,
+        "sha256": "a7b85270a89a59cf38b2fb20fae4a9713d9db9f0ef806dd3ac5f3b1f3fdc788e"
+      }
+    }
+  ]
+}

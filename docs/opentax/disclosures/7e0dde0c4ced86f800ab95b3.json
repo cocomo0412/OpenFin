@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.438b49b8b53372ad481444e8",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:e4a2a470e9fc145493b5ed4c",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 유럽 셀렉션 증권 자투자신탁(주식-재간접형) C-P 클래스",
+  "cells": [
+    "KB자산운용",
+    "KB 유럽 셀렉션 증권 자투자신탁(주식-재간접형) C-P 클래스",
+    "재간접",
+    "3",
+    "2017/07/14",
+    "판매",
+    "85",
+    "18.63",
+    "6.33",
+    "1.97",
+    "4.95",
+    "-",
+    "4.30",
+    "1.148",
+    "KB국민은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=298",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=298",
+    "collected_at": "2026-09-23T08:28:29.225002+00:00",
+    "http_status": 200,
+    "sha256": "c4963cc023350a54b88def5304838ea38da36c501c847326dad87c0ff5e7959e"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 유럽 셀렉션 증권 자투자신탁(주식-재간접형) C-P 클래스",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2017/07/14",
+        "판매여부": "판매",
+        "순자산총액": "85",
+        "1년 연평균수익률(%)": "18.63",
+        "3년 연평균수익률(%)": "6.33",
+        "5년 연평균수익률(%)": "1.97",
+        "7년 연평균수익률(%)": "4.95",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "4.30",
+        "연평균수수료율(%)": "1.148",
+        "상품 판매사": "KB국민은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=298",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=298",
+        "collected_at": "2026-09-23T08:28:29.225002+00:00",
+        "http_status": 200,
+        "sha256": "c4963cc023350a54b88def5304838ea38da36c501c847326dad87c0ff5e7959e"
+      }
+    }
+  ]
+}

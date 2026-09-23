@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.e6e1fef237aac09df6cd6cbe",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:c9d994d72a1a2aa8e55cf90e",
+  "group": "5",
+  "provider": "메리츠화재해상보험",
+  "title": "노후생활지킴이보험",
+  "cells": [
+    "메리츠화재해상보험",
+    "노후생활지킴이보험",
+    "금리연동형",
+    "2001/01/29",
+    "중단",
+    "27,637",
+    "-9.3",
+    "-1.85",
+    "-0.35",
+    "0.57",
+    "1.17",
+    "1.71",
+    "8.264"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=15",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=15",
+    "collected_at": "2026-09-23T08:22:00.664726+00:00",
+    "http_status": 200,
+    "sha256": "b29bd1d347ef1a3d732994473fd9e5d1ffc04eb5c2d5700cbdcd11e6162bf717"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "메리츠화재해상보험",
+        "상품명": "노후생활지킴이보험",
+        "상품유형": "금리연동형",
+        "최초판매일": "2001/01/29",
+        "판매여부": "중단",
+        "적립금총액": "27,637",
+        "1년 연평균수익률(%)": "-9.3",
+        "3년 연평균수익률(%)": "-1.85",
+        "5년 연평균수익률(%)": "-0.35",
+        "7년 연평균수익률(%)": "0.57",
+        "10년 연평균수익률(%)": "1.17",
+        "누적연평균수익률(%)": "1.71",
+        "연평균수수료율(%)": "8.264"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=15",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=15",
+        "collected_at": "2026-09-23T08:22:00.664726+00:00",
+        "http_status": 200,
+        "sha256": "b29bd1d347ef1a3d732994473fd9e5d1ffc04eb5c2d5700cbdcd11e6162bf717"
+      }
+    }
+  ]
+}

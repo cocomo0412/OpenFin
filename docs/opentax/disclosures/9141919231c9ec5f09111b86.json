@@ -1,0 +1,51 @@
+{
+  "id": "finance.insurance.klia.cancer.kb라이프생명.l6102460004nnn024700020244000102440001000402440001000400010244000100040001000421349",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L6102460004NNN024700020244000102440001000402440001000400010244000100040001000421349",
+  "group": "024400010004",
+  "title": "KB 착한암보험 무배당",
+  "provider": "KB라이프생명",
+  "cells": [
+    "KB라이프생명",
+    "KB 착한암보험 무배당",
+    "주계약",
+    "암진단 보험금 *지급사유 : 피보험자가 보험기간 중 “암보장개시 일” 이후에 “암”으로 진단확정 되었을 때 [다만, 각각 최초 1회에 한함]",
+    "3,000만원",
+    "27,600 원",
+    "15,600 원",
+    "2.50 %",
+    "-",
+    "-",
+    "97.2 %",
+    "92.4 %",
+    "106.3 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "순수보장",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "CM",
+    "2026-07-01",
+    "Download",
+    "보기",
+    "1588-3374"
+  ],
+  "coverage": [
+    "암진단 보험금 *지급사유 : 피보험자가 보험기간 중 “암보장개시 일” 이후에 “암”으로 진단확정 되었을 때 [다만, 각각 최초 1회에 한함]",
+    "암진단 보험금 *지급사유 : 피보험자가 보험기간 중 “기타피부 암”, “제자리암”, “경계성종양”, “중증갑 상선암” 이외의 “갑상선암” 및 “대장 점막내암”으로 진단확정 되었을 때 [다만, 각각 최초 1회에 한함]"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=43986&seq=2"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010004&pageIndex=3&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010004&pageIndex=3&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:30.674401+00:00",
+    "http_status": 200,
+    "sha256": "a8b783716c4a68a30affc4938c0646295639fb19404bbe9994adf035083810f7"
+  }
+}

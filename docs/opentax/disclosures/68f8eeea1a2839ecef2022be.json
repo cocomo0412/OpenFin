@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.5cd168fbf67bda2a5a0819c2",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:0653892e457bcb1ccaeeab2c",
+  "group": "4",
+  "provider": "아이비케이연금보험",
+  "title": "무배당 IBK 세액공제받는연금저축보험_2101_TM",
+  "cells": [
+    "아이비케이연금보험",
+    "무배당 IBK 세액공제받는연금저축보험_2101_TM",
+    "금리연동형",
+    "2021/01/01",
+    "중단",
+    "4,097",
+    "-6.43",
+    "-1.31",
+    "-0.26",
+    "-",
+    "-",
+    "-0.15",
+    "7.640"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=51",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=51",
+    "collected_at": "2026-09-23T08:31:44.370027+00:00",
+    "http_status": 200,
+    "sha256": "b06e7db5579e2d5453cc17d398c6775ad1d5939d3351b9deab46858c9981ad51"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "아이비케이연금보험",
+        "상품명": "무배당 IBK 세액공제받는연금저축보험_2101_TM",
+        "상품유형": "금리연동형",
+        "최초판매일": "2021/01/01",
+        "판매여부": "중단",
+        "적립금총액": "4,097",
+        "1년 연평균수익률(%)": "-6.43",
+        "3년 연평균수익률(%)": "-1.31",
+        "5년 연평균수익률(%)": "-0.26",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-0.15",
+        "연평균수수료율(%)": "7.640"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=51",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=51",
+        "collected_at": "2026-09-23T08:31:44.370027+00:00",
+        "http_status": 200,
+        "sha256": "b06e7db5579e2d5453cc17d398c6775ad1d5939d3351b9deab46858c9981ad51"
+      }
+    }
+  ]
+}

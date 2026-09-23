@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.db342f620a71191df9950d3a",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:bde9b691e43541014408f45c",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자미국배당귀족증권자투자신탁(채권혼합)(C-Pe)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자미국배당귀족증권자투자신탁(채권혼합)(C-Pe)",
+    "혼합채권형",
+    "4",
+    "2021/11/26",
+    "판매",
+    "1,246",
+    "4.63",
+    "4.91",
+    "-",
+    "-",
+    "-",
+    "3.34",
+    "0.585",
+    "광주은행, 한국투자증권, 우리은행, IBK기업은행, KB증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=176",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=176",
+    "collected_at": "2026-09-23T08:25:45.234062+00:00",
+    "http_status": 200,
+    "sha256": "3fb7e4c51cfd74b1ed57c83063bc8ca1a1d5fb39cfeb90eeb51c6dcb101b8dfb"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자미국배당귀족증권자투자신탁(채권혼합)(C-Pe)",
+        "상품유형": "혼합채권형",
+        "위험등급": "4",
+        "설정일": "2021/11/26",
+        "판매여부": "판매",
+        "순자산총액": "1,246",
+        "1년 연평균수익률(%)": "4.63",
+        "3년 연평균수익률(%)": "4.91",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "3.34",
+        "연평균수수료율(%)": "0.585",
+        "상품 판매사": "광주은행, 한국투자증권, 우리은행, IBK기업은행, KB증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=176",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=176",
+        "collected_at": "2026-09-23T08:25:45.234062+00:00",
+        "http_status": 200,
+        "sha256": "3fb7e4c51cfd74b1ed57c83063bc8ca1a1d5fb39cfeb90eeb51c6dcb101b8dfb"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.dc1d1ef775d2a86e051f28b2",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:b4f7653ae35577858e5bd74d",
+  "group": "3",
+  "provider": "신한자산운용",
+  "title": "신한미국장기국채분할매수목표전환형증권투자신탁제1호(H)[채권-재간접형](종류C-pe)",
+  "cells": [
+    "신한자산운용",
+    "신한미국장기국채분할매수목표전환형증권투자신탁제1호(H)[채권-재간접형](종류C-pe)",
+    "재간접",
+    "3",
+    "2024/09/09",
+    "판매",
+    "97",
+    "2.45",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-2.97",
+    "0.734",
+    "한국투자증권, 대신증권주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=297",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=297",
+    "collected_at": "2026-09-23T08:28:27.998079+00:00",
+    "http_status": 200,
+    "sha256": "a90482749b3b81e16c12842adc35cd2b6829cc603e29e30d509c45ead0c4967f"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한자산운용",
+        "상품명": "신한미국장기국채분할매수목표전환형증권투자신탁제1호(H)[채권-재간접형](종류C-pe)",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2024/09/09",
+        "판매여부": "판매",
+        "순자산총액": "97",
+        "1년 연평균수익률(%)": "2.45",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-2.97",
+        "연평균수수료율(%)": "0.734",
+        "상품 판매사": "한국투자증권, 대신증권주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=297",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=297",
+        "collected_at": "2026-09-23T08:28:27.998079+00:00",
+        "http_status": 200,
+        "sha256": "a90482749b3b81e16c12842adc35cd2b6829cc603e29e30d509c45ead0c4967f"
+      }
+    }
+  ]
+}

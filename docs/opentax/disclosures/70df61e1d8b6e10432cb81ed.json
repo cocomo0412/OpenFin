@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.2cf0668dfe444d7938dbd8d9",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:d08f553a5b05a4662db4fe17",
+  "group": "5",
+  "provider": "한화손해보험",
+  "title": "연금저축손해보험 실버드림보험",
+  "cells": [
+    "한화손해보험",
+    "연금저축손해보험 실버드림보험",
+    "금리연동형",
+    "2001/05/01",
+    "중단",
+    "2,785",
+    "-7",
+    "-1.62",
+    "-0.53",
+    "0.21",
+    "0.86",
+    "2.97",
+    "7.61"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=39",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=39",
+    "collected_at": "2026-09-23T08:22:25.335525+00:00",
+    "http_status": 200,
+    "sha256": "2a0d49a441a10450eee236c248137d3810400e14df0c69176e8ec6db7a5dff2e"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한화손해보험",
+        "상품명": "연금저축손해보험 실버드림보험",
+        "상품유형": "금리연동형",
+        "최초판매일": "2001/05/01",
+        "판매여부": "중단",
+        "적립금총액": "2,785",
+        "1년 연평균수익률(%)": "-7",
+        "3년 연평균수익률(%)": "-1.62",
+        "5년 연평균수익률(%)": "-0.53",
+        "7년 연평균수익률(%)": "0.21",
+        "10년 연평균수익률(%)": "0.86",
+        "누적연평균수익률(%)": "2.97",
+        "연평균수수료율(%)": "7.61"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=39",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=39",
+        "collected_at": "2026-09-23T08:22:25.335525+00:00",
+        "http_status": 200,
+        "sha256": "2a0d49a441a10450eee236c248137d3810400e14df0c69176e8ec6db7a5dff2e"
+      }
+    }
+  ]
+}

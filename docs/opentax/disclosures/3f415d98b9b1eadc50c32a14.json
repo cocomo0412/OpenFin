@@ -1,0 +1,52 @@
+{
+  "id": "finance.insurance.klia.term-life.교보생명.l0502460001nnn024700020244000102440001000202440001000200020244000100020002000411072",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L0502460001NNN024700020244000102440001000202440001000200020244000100020002000411072",
+  "group": "024400010002",
+  "title": "교보간편경영인정기보험 [2501](무배당)",
+  "provider": "교보생명",
+  "cells": [
+    "교보생명",
+    "교보간편경영인정기보험 [2501](무배당)",
+    "주계약",
+    "사망보험금 *지급사유 : 피보험자가 보험기간 중 사망하였을 경우",
+    "10,000만원",
+    "360,000 원",
+    "288,000 원",
+    "2.25 %",
+    "-",
+    "-",
+    "127.1 %",
+    "145.6 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "체증형",
+    "순수보장",
+    "-",
+    "-",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "대면채널",
+    "2026-06-29",
+    "Download",
+    "보기",
+    "02-1588-1001"
+  ],
+  "coverage": [
+    "사망보험금 *지급사유 : 피보험자가 보험기간 중 사망하였을 경우",
+    "(무)재해장해납입면제특약(간편가입형) *지급사유 : 피보험자가 보험기간 중 「약관 장해분류표 중 동 일한 재해 또는 재해 이외의 동일한 원인으로 여 러 신체부위의 장해지급률을 더하여 50% 이상인 장해상태」가 되었을 때"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=40767&seq=8"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010002&pageIndex=4&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010002&pageIndex=4&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:26.933447+00:00",
+    "http_status": 200,
+    "sha256": "a481053467c9e2c27166cc632c6b2f0e5236a05c40433d108f0fcc7529765193"
+  }
+}

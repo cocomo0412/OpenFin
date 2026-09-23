@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.9365417e9bef7d376268fcf9",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:559cf821d95119ad68ed9024",
+  "group": "4",
+  "provider": "농협생명보험",
+  "title": "세테크NH연금저축보험(무배당)_2401",
+  "cells": [
+    "농협생명보험",
+    "세테크NH연금저축보험(무배당)_2401",
+    "금리연동형",
+    "2024/01/01",
+    "중단",
+    "19,495",
+    "-4.69",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-1.22",
+    "5.950"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=29",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=29",
+    "collected_at": "2026-09-23T08:31:02.246442+00:00",
+    "http_status": 200,
+    "sha256": "2f852066dbe9d8296cc73b8766d6cd5eb9cfb32f5d35029a3e91b172b76bf487"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "농협생명보험",
+        "상품명": "세테크NH연금저축보험(무배당)_2401",
+        "상품유형": "금리연동형",
+        "최초판매일": "2024/01/01",
+        "판매여부": "중단",
+        "적립금총액": "19,495",
+        "1년 연평균수익률(%)": "-4.69",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-1.22",
+        "연평균수수료율(%)": "5.950"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=29",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=29",
+        "collected_at": "2026-09-23T08:31:02.246442+00:00",
+        "http_status": 200,
+        "sha256": "2f852066dbe9d8296cc73b8766d6cd5eb9cfb32f5d35029a3e91b172b76bf487"
+      }
+    }
+  ]
+}

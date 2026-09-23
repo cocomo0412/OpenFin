@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.b025b9d6d5306c74dafd8d47",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:72389bbf9c2fd82c424c08a9",
+  "group": "3",
+  "provider": "마이다스에셋자산운용",
+  "title": "마이다스 아시아 리더스 성장주 연금 증권 자투자신탁(UH)(주식)C",
+  "cells": [
+    "마이다스에셋자산운용",
+    "마이다스 아시아 리더스 성장주 연금 증권 자투자신탁(UH)(주식)C",
+    "주식형",
+    "2",
+    "2017/05/19",
+    "판매",
+    "1,699",
+    "104.28",
+    "43.97",
+    "17.92",
+    "23.37",
+    "-",
+    "20.09",
+    "1.554",
+    "한화투자증권주식회사, NH농협은행, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=160",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=160",
+    "collected_at": "2026-09-23T08:25:23.775470+00:00",
+    "http_status": 200,
+    "sha256": "d58d0c4ed4a7ec142608b79f336781091431463e6a256ea96e18a2de2900158e"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "마이다스에셋자산운용",
+        "상품명": "마이다스 아시아 리더스 성장주 연금 증권 자투자신탁(UH)(주식)C",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2017/05/19",
+        "판매여부": "판매",
+        "순자산총액": "1,699",
+        "1년 연평균수익률(%)": "104.28",
+        "3년 연평균수익률(%)": "43.97",
+        "5년 연평균수익률(%)": "17.92",
+        "7년 연평균수익률(%)": "23.37",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "20.09",
+        "연평균수수료율(%)": "1.554",
+        "상품 판매사": "한화투자증권주식회사, NH농협은행, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=160",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=160",
+        "collected_at": "2026-09-23T08:25:23.775470+00:00",
+        "http_status": 200,
+        "sha256": "d58d0c4ed4a7ec142608b79f336781091431463e6a256ea96e18a2de2900158e"
+      }
+    }
+  ]
+}

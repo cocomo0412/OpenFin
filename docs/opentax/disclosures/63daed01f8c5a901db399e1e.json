@@ -1,0 +1,12 @@
+{
+  "id": "finance.card.credit-card.sc제일은행.퍼스트-시그니처-스카이패스-231141",
+  "source_id": "source.bccard.credit-card-list",
+  "text": "카드상품 신용카드 상세보기 [SC제일] 퍼스트 시그니처 스카이패스 [SC제일] 퍼스트 시그니처 스카이패스 VISA 영화 인터넷 예매 시 최대 4000원 할인 전 가맹점 대한항공 마일리지 적립 GS칼텍스 주유시 리터당 50원 할인 연회비 기본연회비 120,000원 제휴연회비 10,000원 76.2% 23.8% 4.8% 14.3% 71.4% 0.0% 9.5% 씨유(CU) 남포피프광장점 씨유부산포레호텔점",
+  "receipt": {
+    "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=231141&mbkNo=023",
+    "final_url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=231141&mbkNo=023",
+    "collected_at": "2026-09-23T08:24:52.363748+00:00",
+    "http_status": 200,
+    "sha256": "9d14ab0a1dd291a120306bd4636947ffe6a38fb15b0876e98bcc6fa175328b3b"
+  }
+}

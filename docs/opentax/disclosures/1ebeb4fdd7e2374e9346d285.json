@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.0193a615fc8bf80b70f10421",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:aad2e2b181991366946efc39",
+  "group": "3",
+  "provider": "유경피에스지자산운용",
+  "title": "유경 플레인바닐라 자산배분 증권자투자신탁(채권혼합) Class C-Pe",
+  "cells": [
+    "유경피에스지자산운용",
+    "유경 플레인바닐라 자산배분 증권자투자신탁(채권혼합) Class C-Pe",
+    "혼합채권형",
+    "4",
+    "2020/07/07",
+    "판매",
+    "621",
+    "41.85",
+    "18.75",
+    "10.73",
+    "-",
+    "-",
+    "10.20",
+    "0.736",
+    "디비증권주식회사, 키움증권(주), 삼성증권, KB증권, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=218",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=218",
+    "collected_at": "2026-09-23T08:26:42.167577+00:00",
+    "http_status": 200,
+    "sha256": "052e3a03ba16cb5ecfdb8c01613d5577cb591cdc8e97c4f1cdf89f55d4239b97"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "유경피에스지자산운용",
+        "상품명": "유경 플레인바닐라 자산배분 증권자투자신탁(채권혼합) Class C-Pe",
+        "상품유형": "혼합채권형",
+        "위험등급": "4",
+        "설정일": "2020/07/07",
+        "판매여부": "판매",
+        "순자산총액": "621",
+        "1년 연평균수익률(%)": "41.85",
+        "3년 연평균수익률(%)": "18.75",
+        "5년 연평균수익률(%)": "10.73",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "10.20",
+        "연평균수수료율(%)": "0.736",
+        "상품 판매사": "디비증권주식회사, 키움증권(주), 삼성증권, KB증권, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=218",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=218",
+        "collected_at": "2026-09-23T08:26:42.167577+00:00",
+        "http_status": 200,
+        "sha256": "052e3a03ba16cb5ecfdb8c01613d5577cb591cdc8e97c4f1cdf89f55d4239b97"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.9768d6a918ef87a9acca1033",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:1143ef2073b2d7c256b48ef9",
+  "group": "3",
+  "provider": "유경피에스지자산운용",
+  "title": "유경PSG액티브밸류증권투자신탁(주식)Class C-Pe",
+  "cells": [
+    "유경피에스지자산운용",
+    "유경PSG액티브밸류증권투자신탁(주식)Class C-Pe",
+    "주식형",
+    "4",
+    "2016/08/11",
+    "판매",
+    "618",
+    "213.54",
+    "59.55",
+    "27.76",
+    "27.49",
+    "-",
+    "18.25",
+    "1.002",
+    "한국투자증권, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=219",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=219",
+    "collected_at": "2026-09-23T08:26:43.396141+00:00",
+    "http_status": 200,
+    "sha256": "c979d43e9be39444426a4fad5383fbb3371dd1f04165d22b5f1c629cdedcd2b8"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "유경피에스지자산운용",
+        "상품명": "유경PSG액티브밸류증권투자신탁(주식)Class C-Pe",
+        "상품유형": "주식형",
+        "위험등급": "4",
+        "설정일": "2016/08/11",
+        "판매여부": "판매",
+        "순자산총액": "618",
+        "1년 연평균수익률(%)": "213.54",
+        "3년 연평균수익률(%)": "59.55",
+        "5년 연평균수익률(%)": "27.76",
+        "7년 연평균수익률(%)": "27.49",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "18.25",
+        "연평균수수료율(%)": "1.002",
+        "상품 판매사": "한국투자증권, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=219",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=219",
+        "collected_at": "2026-09-23T08:26:43.396141+00:00",
+        "http_status": 200,
+        "sha256": "c979d43e9be39444426a4fad5383fbb3371dd1f04165d22b5f1c629cdedcd2b8"
+      }
+    }
+  ]
+}

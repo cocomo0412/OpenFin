@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.6fa20e20e62b4a624b77ffcc",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:eb808492ca842455ad4fb017",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 연금 코차이나 증권 전환형 자투자신탁(주식) C",
+  "cells": [
+    "KB자산운용",
+    "KB 연금 코차이나 증권 전환형 자투자신탁(주식) C",
+    "주식형",
+    "3",
+    "2010/07/09",
+    "판매",
+    "13,666",
+    "174.60",
+    "52.53",
+    "18.90",
+    "19.99",
+    "15.53",
+    "9.91",
+    "1.545",
+    "키움증권(주), 삼성증권, KB증권, KB국민은행, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=61",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=61",
+    "collected_at": "2026-09-23T08:23:09.819729+00:00",
+    "http_status": 200,
+    "sha256": "7fcd88e567f8c51629295a865852015ba03874e14fb4904ba4444607fb506dd7"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 연금 코차이나 증권 전환형 자투자신탁(주식) C",
+        "상품유형": "주식형",
+        "위험등급": "3",
+        "설정일": "2010/07/09",
+        "판매여부": "판매",
+        "순자산총액": "13,666",
+        "1년 연평균수익률(%)": "174.60",
+        "3년 연평균수익률(%)": "52.53",
+        "5년 연평균수익률(%)": "18.90",
+        "7년 연평균수익률(%)": "19.99",
+        "10년 연평균수익률(%)": "15.53",
+        "누적연평균수익률(%)": "9.91",
+        "연평균수수료율(%)": "1.545",
+        "상품 판매사": "키움증권(주), 삼성증권, KB증권, KB국민은행, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=61",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=61",
+        "collected_at": "2026-09-23T08:23:09.819729+00:00",
+        "http_status": 200,
+        "sha256": "7fcd88e567f8c51629295a865852015ba03874e14fb4904ba4444607fb506dd7"
+      }
+    }
+  ]
+}

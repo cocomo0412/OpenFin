@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.0a01a8b16202a848c8c1234a",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:e79f831dd18fea3b28c4d695",
+  "group": "3",
+  "provider": "NH-Amundi자산운용",
+  "title": "NH-Amundi 글로벌 웰스&헬스 증권자투자신탁(UH)[주식]Class C-P1(연금저축)",
+  "cells": [
+    "NH-Amundi자산운용",
+    "NH-Amundi 글로벌 웰스&헬스 증권자투자신탁(UH)[주식]Class C-P1(연금저축)",
+    "주식형",
+    "3",
+    "2016/02/26",
+    "판매",
+    "348",
+    "14.68",
+    "9.58",
+    "6.40",
+    "8.46",
+    "7.56",
+    "7.28",
+    "1.381",
+    "(주)우리투자증권, NH농협은행, 삼성증권, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=252",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=252",
+    "collected_at": "2026-09-23T08:27:28.189026+00:00",
+    "http_status": 200,
+    "sha256": "a8de29245b324030418751633f3ad23ed5c2fb229950ef9b9e4676caa693478c"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "NH-Amundi자산운용",
+        "상품명": "NH-Amundi 글로벌 웰스&헬스 증권자투자신탁(UH)[주식]Class C-P1(연금저축)",
+        "상품유형": "주식형",
+        "위험등급": "3",
+        "설정일": "2016/02/26",
+        "판매여부": "판매",
+        "순자산총액": "348",
+        "1년 연평균수익률(%)": "14.68",
+        "3년 연평균수익률(%)": "9.58",
+        "5년 연평균수익률(%)": "6.40",
+        "7년 연평균수익률(%)": "8.46",
+        "10년 연평균수익률(%)": "7.56",
+        "누적연평균수익률(%)": "7.28",
+        "연평균수수료율(%)": "1.381",
+        "상품 판매사": "(주)우리투자증권, NH농협은행, 삼성증권, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=252",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=252",
+        "collected_at": "2026-09-23T08:27:28.189026+00:00",
+        "http_status": 200,
+        "sha256": "a8de29245b324030418751633f3ad23ed5c2fb229950ef9b9e4676caa693478c"
+      }
+    }
+  ]
+}

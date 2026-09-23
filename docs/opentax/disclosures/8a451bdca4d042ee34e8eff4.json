@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.cc095eade960595443dbe524",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:380e4c38feb872724e445c12",
+  "group": "5",
+  "provider": "DB손해보험",
+  "title": "연금저축손해보험 프로미라이프 연금보험1401",
+  "cells": [
+    "DB손해보험",
+    "연금저축손해보험 프로미라이프 연금보험1401",
+    "금리연동형",
+    "2013/07/01",
+    "중단",
+    "4,436",
+    "-15.22",
+    "-0.91",
+    "0.37",
+    "0.78",
+    "1.07",
+    "1.67",
+    "0.349"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=34",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=34",
+    "collected_at": "2026-09-23T08:22:20.470147+00:00",
+    "http_status": 200,
+    "sha256": "3b10e969de0543c34588c4231d840aff91436f510696235b4eab550d81d93013"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "DB손해보험",
+        "상품명": "연금저축손해보험 프로미라이프 연금보험1401",
+        "상품유형": "금리연동형",
+        "최초판매일": "2013/07/01",
+        "판매여부": "중단",
+        "적립금총액": "4,436",
+        "1년 연평균수익률(%)": "-15.22",
+        "3년 연평균수익률(%)": "-0.91",
+        "5년 연평균수익률(%)": "0.37",
+        "7년 연평균수익률(%)": "0.78",
+        "10년 연평균수익률(%)": "1.07",
+        "누적연평균수익률(%)": "1.67",
+        "연평균수수료율(%)": "0.349"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=34",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=34",
+        "collected_at": "2026-09-23T08:22:20.470147+00:00",
+        "http_status": 200,
+        "sha256": "3b10e969de0543c34588c4231d840aff91436f510696235b4eab550d81d93013"
+      }
+    }
+  ]
+}

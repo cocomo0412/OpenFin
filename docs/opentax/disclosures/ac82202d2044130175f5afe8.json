@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.0e7a073638dce70c4377411e",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:677de29fcb941384729227e4",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성KODEX퀄리티PLUS증권상장지수투자신탁[주식]",
+  "cells": [
+    "삼성자산운용",
+    "삼성KODEX퀄리티PLUS증권상장지수투자신탁[주식]",
+    "주식형",
+    "3",
+    "2016/05/12",
+    "판매",
+    "104",
+    "-0.17",
+    "5.30",
+    "-3.68",
+    "1.10",
+    "0.54",
+    "0.22",
+    "0.352",
+    "유진투자증권주식회사, 한화투자증권주식회사, 하나증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, KB증권, 미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=295",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=295",
+    "collected_at": "2026-09-23T08:28:25.187796+00:00",
+    "http_status": 200,
+    "sha256": "542df5c9622e3cea85cac042bc9ca65123331d0c8a42214dfff57919928a7ff6"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성KODEX퀄리티PLUS증권상장지수투자신탁[주식]",
+        "상품유형": "주식형",
+        "위험등급": "3",
+        "설정일": "2016/05/12",
+        "판매여부": "판매",
+        "순자산총액": "104",
+        "1년 연평균수익률(%)": "-0.17",
+        "3년 연평균수익률(%)": "5.30",
+        "5년 연평균수익률(%)": "-3.68",
+        "7년 연평균수익률(%)": "1.10",
+        "10년 연평균수익률(%)": "0.54",
+        "누적연평균수익률(%)": "0.22",
+        "연평균수수료율(%)": "0.352",
+        "상품 판매사": "유진투자증권주식회사, 한화투자증권주식회사, 하나증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, KB증권, 미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=295",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=295",
+        "collected_at": "2026-09-23T08:28:25.187796+00:00",
+        "http_status": 200,
+        "sha256": "542df5c9622e3cea85cac042bc9ca65123331d0c8a42214dfff57919928a7ff6"
+      }
+    }
+  ]
+}

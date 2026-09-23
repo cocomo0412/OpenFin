@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.943dd6d29f0caaa1a3a4d051",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:09e7db101e64b169837476c6",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋글로벌그레이트컨슈머연금증권전환형자투자신탁1호(주식)종류S-P",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋글로벌그레이트컨슈머연금증권전환형자투자신탁1호(주식)종류S-P",
+    "주식형",
+    "2",
+    "2014/07/07",
+    "판매",
+    "1,211",
+    "4.04",
+    "13.35",
+    "1.25",
+    "6.62",
+    "8.07",
+    "6.74",
+    "1.093",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=178",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=178",
+    "collected_at": "2026-09-23T08:25:48.070445+00:00",
+    "http_status": 200,
+    "sha256": "871d5552a2233cef148de0355805375d7f4172d981be275610addda69420d6ea"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋글로벌그레이트컨슈머연금증권전환형자투자신탁1호(주식)종류S-P",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2014/07/07",
+        "판매여부": "판매",
+        "순자산총액": "1,211",
+        "1년 연평균수익률(%)": "4.04",
+        "3년 연평균수익률(%)": "13.35",
+        "5년 연평균수익률(%)": "1.25",
+        "7년 연평균수익률(%)": "6.62",
+        "10년 연평균수익률(%)": "8.07",
+        "누적연평균수익률(%)": "6.74",
+        "연평균수수료율(%)": "1.093",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=178",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=178",
+        "collected_at": "2026-09-23T08:25:48.070445+00:00",
+        "http_status": 200,
+        "sha256": "871d5552a2233cef148de0355805375d7f4172d981be275610addda69420d6ea"
+      }
+    }
+  ]
+}

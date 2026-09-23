@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.53deba97396d5434adee4841",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:bcdbc2a128f2a88a064ec5f4",
+  "group": "3",
+  "provider": "신한자산운용",
+  "title": "신한얼리버드증권자투자신탁[주식](종류C-pe)",
+  "cells": [
+    "신한자산운용",
+    "신한얼리버드증권자투자신탁[주식](종류C-pe)",
+    "주식형",
+    "2",
+    "2018/07/19",
+    "판매",
+    "1,044",
+    "186.96",
+    "50.03",
+    "23.31",
+    "26.67",
+    "-",
+    "24.23",
+    "1.152",
+    "전북은행, (주)우리투자증권, 한국투자증권, 미래에셋증권 주식회사, IBK투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=187",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=187",
+    "collected_at": "2026-09-23T08:25:59.890248+00:00",
+    "http_status": 200,
+    "sha256": "213c04f1a79bb9c498cd1db9424848fdfd40b318123b05525ba7d2725e75840b"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한자산운용",
+        "상품명": "신한얼리버드증권자투자신탁[주식](종류C-pe)",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2018/07/19",
+        "판매여부": "판매",
+        "순자산총액": "1,044",
+        "1년 연평균수익률(%)": "186.96",
+        "3년 연평균수익률(%)": "50.03",
+        "5년 연평균수익률(%)": "23.31",
+        "7년 연평균수익률(%)": "26.67",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "24.23",
+        "연평균수수료율(%)": "1.152",
+        "상품 판매사": "전북은행, (주)우리투자증권, 한국투자증권, 미래에셋증권 주식회사, IBK투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=187",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=187",
+        "collected_at": "2026-09-23T08:25:59.890248+00:00",
+        "http_status": 200,
+        "sha256": "213c04f1a79bb9c498cd1db9424848fdfd40b318123b05525ba7d2725e75840b"
+      }
+    }
+  ]
+}

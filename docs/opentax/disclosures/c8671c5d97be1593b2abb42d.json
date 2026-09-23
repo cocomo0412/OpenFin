@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.15d21b2f94e8446d2c7a36ea",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:60aacad11ddac59d6cded67f",
+  "group": "3",
+  "provider": "NH-Amundi자산운용",
+  "title": "NH-Amundi 차세대리더 증권투자신탁[주식] Class C-P1e(연금저축)",
+  "cells": [
+    "NH-Amundi자산운용",
+    "NH-Amundi 차세대리더 증권투자신탁[주식] Class C-P1e(연금저축)",
+    "주식형",
+    "1",
+    "2017/09/21",
+    "판매",
+    "3,723",
+    "223.91",
+    "61.72",
+    "28.87",
+    "28.49",
+    "-",
+    "20.61",
+    "0.992",
+    "신한은행, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=118",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=118",
+    "collected_at": "2026-09-23T08:24:26.581417+00:00",
+    "http_status": 200,
+    "sha256": "aeaeb0222e465c69e31e39cc67cf54bb836df1f50fcf2d66dde5a5cf1d6383e7"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "NH-Amundi자산운용",
+        "상품명": "NH-Amundi 차세대리더 증권투자신탁[주식] Class C-P1e(연금저축)",
+        "상품유형": "주식형",
+        "위험등급": "1",
+        "설정일": "2017/09/21",
+        "판매여부": "판매",
+        "순자산총액": "3,723",
+        "1년 연평균수익률(%)": "223.91",
+        "3년 연평균수익률(%)": "61.72",
+        "5년 연평균수익률(%)": "28.87",
+        "7년 연평균수익률(%)": "28.49",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "20.61",
+        "연평균수수료율(%)": "0.992",
+        "상품 판매사": "신한은행, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=118",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=118",
+        "collected_at": "2026-09-23T08:24:26.581417+00:00",
+        "http_status": 200,
+        "sha256": "aeaeb0222e465c69e31e39cc67cf54bb836df1f50fcf2d66dde5a5cf1d6383e7"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.01405c0c53d9d38bdaae3185",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:e2afc6d6907c054e82f4283c",
+  "group": "5",
+  "provider": "흥국화재해상보험",
+  "title": "연금저축손해보험 행복디딤돌보험(1104)",
+  "cells": [
+    "흥국화재해상보험",
+    "연금저축손해보험 행복디딤돌보험(1104)",
+    "금리연동형",
+    "2011/04/01",
+    "중단",
+    "3,630",
+    "-6.01",
+    "-0.84",
+    "0.05",
+    "0.35",
+    "0.63",
+    "0.94",
+    "6.622"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=36",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=36",
+    "collected_at": "2026-09-23T08:22:22.216897+00:00",
+    "http_status": 200,
+    "sha256": "22efb625182f01d5afa49b8e5637fda91b2cd418650e8ed8966d67c1ebca3257"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "흥국화재해상보험",
+        "상품명": "연금저축손해보험 행복디딤돌보험(1104)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2011/04/01",
+        "판매여부": "중단",
+        "적립금총액": "3,630",
+        "1년 연평균수익률(%)": "-6.01",
+        "3년 연평균수익률(%)": "-0.84",
+        "5년 연평균수익률(%)": "0.05",
+        "7년 연평균수익률(%)": "0.35",
+        "10년 연평균수익률(%)": "0.63",
+        "누적연평균수익률(%)": "0.94",
+        "연평균수수료율(%)": "6.622"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=36",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=36",
+        "collected_at": "2026-09-23T08:22:22.216897+00:00",
+        "http_status": 200,
+        "sha256": "22efb625182f01d5afa49b8e5637fda91b2cd418650e8ed8966d67c1ebca3257"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.d9e8943300ceb056d3a6a039",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:29498d9495b0a78ec9b645ac",
+  "group": "3",
+  "provider": "유경피에스지자산운용",
+  "title": "유경PSG 좋은생각자산배분형증권투자신탁(주식혼합형)Class C-Pe",
+  "cells": [
+    "유경피에스지자산운용",
+    "유경PSG 좋은생각자산배분형증권투자신탁(주식혼합형)Class C-Pe",
+    "혼합주식형",
+    "2",
+    "2016/08/05",
+    "판매",
+    "3,773",
+    "177.08",
+    "55.75",
+    "26.01",
+    "25.71",
+    "-",
+    "17.75",
+    "1.096",
+    "한화투자증권주식회사, 키움증권(주), 한국투자증권, 아이엠증권, 신한은행, 미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=117",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=117",
+    "collected_at": "2026-09-23T08:24:25.347255+00:00",
+    "http_status": 200,
+    "sha256": "d891efbef8fafb3ce3d909a96e4d1822dc27f169d282b8d1bd50f600761b86f7"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "유경피에스지자산운용",
+        "상품명": "유경PSG 좋은생각자산배분형증권투자신탁(주식혼합형)Class C-Pe",
+        "상품유형": "혼합주식형",
+        "위험등급": "2",
+        "설정일": "2016/08/05",
+        "판매여부": "판매",
+        "순자산총액": "3,773",
+        "1년 연평균수익률(%)": "177.08",
+        "3년 연평균수익률(%)": "55.75",
+        "5년 연평균수익률(%)": "26.01",
+        "7년 연평균수익률(%)": "25.71",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "17.75",
+        "연평균수수료율(%)": "1.096",
+        "상품 판매사": "한화투자증권주식회사, 키움증권(주), 한국투자증권, 아이엠증권, 신한은행, 미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=117",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=117",
+        "collected_at": "2026-09-23T08:24:25.347255+00:00",
+        "http_status": 200,
+        "sha256": "d891efbef8fafb3ce3d909a96e4d1822dc27f169d282b8d1bd50f600761b86f7"
+      }
+    }
+  ]
+}

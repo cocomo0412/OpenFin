@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.4e82af35683ced52fe5f931d",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:9d3ab489ec674d6e5bd93ed3",
+  "group": "3",
+  "provider": "다올자산운용",
+  "title": "다올블록딜공모주하이일드증권투자신탁[채권혼합] 종류S-P",
+  "cells": [
+    "다올자산운용",
+    "다올블록딜공모주하이일드증권투자신탁[채권혼합] 종류S-P",
+    "혼합채권형",
+    "5",
+    "2019/05/08",
+    "판매",
+    "413",
+    "3.02",
+    "5.17",
+    "3.97",
+    "4.25",
+    "-",
+    "4.10",
+    "0.668",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=243",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=243",
+    "collected_at": "2026-09-23T08:27:15.935720+00:00",
+    "http_status": 200,
+    "sha256": "5934ebf656cd481fc6829b0b3646e69282f0882a6b06969a281600c4c75490d6"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "다올자산운용",
+        "상품명": "다올블록딜공모주하이일드증권투자신탁[채권혼합] 종류S-P",
+        "상품유형": "혼합채권형",
+        "위험등급": "5",
+        "설정일": "2019/05/08",
+        "판매여부": "판매",
+        "순자산총액": "413",
+        "1년 연평균수익률(%)": "3.02",
+        "3년 연평균수익률(%)": "5.17",
+        "5년 연평균수익률(%)": "3.97",
+        "7년 연평균수익률(%)": "4.25",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "4.10",
+        "연평균수수료율(%)": "0.668",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=243",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=243",
+        "collected_at": "2026-09-23T08:27:15.935720+00:00",
+        "http_status": 200,
+        "sha256": "5934ebf656cd481fc6829b0b3646e69282f0882a6b06969a281600c4c75490d6"
+      }
+    }
+  ]
+}

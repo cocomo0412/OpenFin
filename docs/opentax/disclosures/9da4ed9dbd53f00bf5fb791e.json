@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.9391beddfedb762bb475864b",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:003881e27bffca8f7d372d9a",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋글로벌넥스트노멀증권투자신탁(주식)종류C-Pe",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋글로벌넥스트노멀증권투자신탁(주식)종류C-Pe",
+    "주식형",
+    "2",
+    "2020/06/09",
+    "판매",
+    "579",
+    "32.39",
+    "21.60",
+    "5.39",
+    "-",
+    "-",
+    "11.50",
+    "1.261",
+    "(주)우리투자증권, KB국민은행, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=222",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=222",
+    "collected_at": "2026-09-23T08:26:47.142337+00:00",
+    "http_status": 200,
+    "sha256": "e53126dc150834d23afe067645315e7e7acdcb903a5d70dbfb7f4a5805d08533"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋글로벌넥스트노멀증권투자신탁(주식)종류C-Pe",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2020/06/09",
+        "판매여부": "판매",
+        "순자산총액": "579",
+        "1년 연평균수익률(%)": "32.39",
+        "3년 연평균수익률(%)": "21.60",
+        "5년 연평균수익률(%)": "5.39",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "11.50",
+        "연평균수수료율(%)": "1.261",
+        "상품 판매사": "(주)우리투자증권, KB국민은행, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=222",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=222",
+        "collected_at": "2026-09-23T08:26:47.142337+00:00",
+        "http_status": 200,
+        "sha256": "e53126dc150834d23afe067645315e7e7acdcb903a5d70dbfb7f4a5805d08533"
+      }
+    }
+  ]
+}

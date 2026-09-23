@@ -5,7 +5,7 @@
   "type": "category",
   "canonical_folder": "30-financial-products/retirement/pensions",
   "population_status": "populated",
-  "description": "연금저축, 퇴직연금, IRP, 연금보험의 수익률, 수수료, 위험등급, 판매사별 적립금과 운용상품 정보를 연결하는 축입니다.",
+  "description": "연금저축 상품별 수익률·수수료율 공시와 공식 원문을 확인합니다. 수익률의 기준 분기와 자료 수집일을 구분합니다.",
   "basis_year": 2026,
   "reviewed_at": "2026-07-10",
   "abolition_status": "active",
@@ -305,7 +305,8 @@
       "value": "2026-07-03 확인"
     }
   ],
-  "record_checksum": "sha256:722fbca3f2cf9ac8f4b317c58afde08771d95bb4179cccdef1ab6387e967a826"
+  "record_checksum": "sha256:de78f54cc85085af75ee7f74d2f036eabe90863e3f9177699935f7c1de663920",
+  "population_reason": "금융감독원 통합연금포털의 상품별 수익률·수수료율 공시 반영"
 }
 ---
 

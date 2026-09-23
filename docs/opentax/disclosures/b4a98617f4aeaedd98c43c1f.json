@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.7a9f225da6e4a80ce07b3b9c",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:370f2c13585d0b40f1fb97fd",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 온국민 평생소득 TIF 20 증권 자투자신탁(채권혼합-재간접형) S-P",
+  "cells": [
+    "KB자산운용",
+    "KB 온국민 평생소득 TIF 20 증권 자투자신탁(채권혼합-재간접형) S-P",
+    "재간접",
+    "4",
+    "2018/03/07",
+    "판매",
+    "4",
+    "12.87",
+    "8.33",
+    "2.85",
+    "3.53",
+    "-",
+    "3.63",
+    "0.291",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=315",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=315",
+    "collected_at": "2026-09-23T08:28:53.383197+00:00",
+    "http_status": 200,
+    "sha256": "4ba477d6866badc12b0ab1abddc43a2837ed5aaa3760f45cd0954d430f022387"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 온국민 평생소득 TIF 20 증권 자투자신탁(채권혼합-재간접형) S-P",
+        "상품유형": "재간접",
+        "위험등급": "4",
+        "설정일": "2018/03/07",
+        "판매여부": "판매",
+        "순자산총액": "4",
+        "1년 연평균수익률(%)": "12.87",
+        "3년 연평균수익률(%)": "8.33",
+        "5년 연평균수익률(%)": "2.85",
+        "7년 연평균수익률(%)": "3.53",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "3.63",
+        "연평균수수료율(%)": "0.291",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=315",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=315",
+        "collected_at": "2026-09-23T08:28:53.383197+00:00",
+        "http_status": 200,
+        "sha256": "4ba477d6866badc12b0ab1abddc43a2837ed5aaa3760f45cd0954d430f022387"
+      }
+    }
+  ]
+}

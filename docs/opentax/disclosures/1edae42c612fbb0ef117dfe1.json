@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.910c9c0fbc8b3f86d53cb82a",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:669bed22373ed0a0e796bb4a",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자차이나AI빅테크플러스증권투자신탁(주식)(C-Pe)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자차이나AI빅테크플러스증권투자신탁(주식)(C-Pe)",
+    "주식형",
+    "2",
+    "2018/04/24",
+    "판매",
+    "707",
+    "45.41",
+    "13.66",
+    "-3.96",
+    "5.83",
+    "-",
+    "3.20",
+    "1.316",
+    "한국투자증권, KB증권, 대신증권주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=210",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=210",
+    "collected_at": "2026-09-23T08:26:31.649738+00:00",
+    "http_status": 200,
+    "sha256": "d38575e966344fbbb92920e3db2df19439eec4d489b8c47342901eee76d3d7d5"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자차이나AI빅테크플러스증권투자신탁(주식)(C-Pe)",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2018/04/24",
+        "판매여부": "판매",
+        "순자산총액": "707",
+        "1년 연평균수익률(%)": "45.41",
+        "3년 연평균수익률(%)": "13.66",
+        "5년 연평균수익률(%)": "-3.96",
+        "7년 연평균수익률(%)": "5.83",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "3.20",
+        "연평균수수료율(%)": "1.316",
+        "상품 판매사": "한국투자증권, KB증권, 대신증권주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=210",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=210",
+        "collected_at": "2026-09-23T08:26:31.649738+00:00",
+        "http_status": 200,
+        "sha256": "d38575e966344fbbb92920e3db2df19439eec4d489b8c47342901eee76d3d7d5"
+      }
+    }
+  ]
+}

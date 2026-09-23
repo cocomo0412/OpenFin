@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.8e6834d87ac562a48f59162e",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:be9b3c452dccf9be2d31bafa",
+  "group": "3",
+  "provider": "브이아이자산운용",
+  "title": "브이아이 혁신기업투자 증권 투자신탁 1호[주식] C-Pe2",
+  "cells": [
+    "브이아이자산운용",
+    "브이아이 혁신기업투자 증권 투자신탁 1호[주식] C-Pe2",
+    "주식형",
+    "2",
+    "2020/07/17",
+    "판매",
+    "890",
+    "156.71",
+    "67.60",
+    "31.77",
+    "-",
+    "-",
+    "34.63",
+    "1.103",
+    "키움증권(주), 아이엠증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=195",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=195",
+    "collected_at": "2026-09-23T08:26:10.949151+00:00",
+    "http_status": 200,
+    "sha256": "1297610d1f95b4817d2814cdfeea24b1d8715539bd62ffbe8431653abd13c526"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "브이아이자산운용",
+        "상품명": "브이아이 혁신기업투자 증권 투자신탁 1호[주식] C-Pe2",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2020/07/17",
+        "판매여부": "판매",
+        "순자산총액": "890",
+        "1년 연평균수익률(%)": "156.71",
+        "3년 연평균수익률(%)": "67.60",
+        "5년 연평균수익률(%)": "31.77",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "34.63",
+        "연평균수수료율(%)": "1.103",
+        "상품 판매사": "키움증권(주), 아이엠증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=195",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=195",
+        "collected_at": "2026-09-23T08:26:10.949151+00:00",
+        "http_status": 200,
+        "sha256": "1297610d1f95b4817d2814cdfeea24b1d8715539bd62ffbe8431653abd13c526"
+      }
+    }
+  ]
+}

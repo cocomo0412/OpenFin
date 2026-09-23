@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.c50900b756695e015fcf3835",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:9f737f0cc6fcca7ce4bf8698",
+  "group": "3",
+  "provider": "마이다스에셋자산운용",
+  "title": "마이다스 우량채권 증권 자투자신탁 제1호(채권)C-Pe1",
+  "cells": [
+    "마이다스에셋자산운용",
+    "마이다스 우량채권 증권 자투자신탁 제1호(채권)C-Pe1",
+    "채권형",
+    "5",
+    "2019/10/21",
+    "판매",
+    "2,165",
+    "1.49",
+    "4.15",
+    "3.18",
+    "-",
+    "-",
+    "2.98",
+    "0.236",
+    "유진투자증권주식회사, (주)우리투자증권, 키움증권(주), 한국투자증권, 삼성증권, 교보증권(주), KB증권, 미래에셋증권 주식회사, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=146",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=146",
+    "collected_at": "2026-09-23T08:25:04.657821+00:00",
+    "http_status": 200,
+    "sha256": "4b80d4838a654ba48fbb7f7dcdfd1b94c3912e8427920287345833a59d8ff564"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "마이다스에셋자산운용",
+        "상품명": "마이다스 우량채권 증권 자투자신탁 제1호(채권)C-Pe1",
+        "상품유형": "채권형",
+        "위험등급": "5",
+        "설정일": "2019/10/21",
+        "판매여부": "판매",
+        "순자산총액": "2,165",
+        "1년 연평균수익률(%)": "1.49",
+        "3년 연평균수익률(%)": "4.15",
+        "5년 연평균수익률(%)": "3.18",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "2.98",
+        "연평균수수료율(%)": "0.236",
+        "상품 판매사": "유진투자증권주식회사, (주)우리투자증권, 키움증권(주), 한국투자증권, 삼성증권, 교보증권(주), KB증권, 미래에셋증권 주식회사, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=146",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=146",
+        "collected_at": "2026-09-23T08:25:04.657821+00:00",
+        "http_status": 200,
+        "sha256": "4b80d4838a654ba48fbb7f7dcdfd1b94c3912e8427920287345833a59d8ff564"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.92ef04fff3e80999d96fc521",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:a1df6b8534fd43eed5bb12fe",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋상생플러스증권자투자신탁(채권혼합)종류C-Pe",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋상생플러스증권자투자신탁(채권혼합)종류C-Pe",
+    "혼합채권형",
+    "5",
+    "2020/05/07",
+    "판매",
+    "309",
+    "17.31",
+    "9.67",
+    "3.72",
+    "-",
+    "-",
+    "5.49",
+    "0.505",
+    "전북은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=258",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=258",
+    "collected_at": "2026-09-23T08:27:36.234623+00:00",
+    "http_status": 200,
+    "sha256": "d9c37f52f28239a2cf248d2cc691f50d72f5a466a34c70e9a46e667001e42a6a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋상생플러스증권자투자신탁(채권혼합)종류C-Pe",
+        "상품유형": "혼합채권형",
+        "위험등급": "5",
+        "설정일": "2020/05/07",
+        "판매여부": "판매",
+        "순자산총액": "309",
+        "1년 연평균수익률(%)": "17.31",
+        "3년 연평균수익률(%)": "9.67",
+        "5년 연평균수익률(%)": "3.72",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "5.49",
+        "연평균수수료율(%)": "0.505",
+        "상품 판매사": "전북은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=258",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=258",
+        "collected_at": "2026-09-23T08:27:36.234623+00:00",
+        "http_status": 200,
+        "sha256": "d9c37f52f28239a2cf248d2cc691f50d72f5a466a34c70e9a46e667001e42a6a"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.fff82a34d187252332e0e91e",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:28db716d8a0f86507390d4c7",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB스타 코스닥150 인덱스 증권 자투자신탁(주식-파생형) S-P 클래스",
+  "cells": [
+    "KB자산운용",
+    "KB스타 코스닥150 인덱스 증권 자투자신탁(주식-파생형) S-P 클래스",
+    "파생상품",
+    "1",
+    "2017/09/05",
+    "판매",
+    "557",
+    "30.84",
+    "8.85",
+    "3.85",
+    "8.61",
+    "-",
+    "7.00",
+    "0.644",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=224",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=224",
+    "collected_at": "2026-09-23T08:26:50.168289+00:00",
+    "http_status": 200,
+    "sha256": "21cfc7efcb5a77596737069eca2e96d33a275b66935e12e969c4533bd90498aa"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB스타 코스닥150 인덱스 증권 자투자신탁(주식-파생형) S-P 클래스",
+        "상품유형": "파생상품",
+        "위험등급": "1",
+        "설정일": "2017/09/05",
+        "판매여부": "판매",
+        "순자산총액": "557",
+        "1년 연평균수익률(%)": "30.84",
+        "3년 연평균수익률(%)": "8.85",
+        "5년 연평균수익률(%)": "3.85",
+        "7년 연평균수익률(%)": "8.61",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "7.00",
+        "연평균수수료율(%)": "0.644",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=224",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=224",
+        "collected_at": "2026-09-23T08:26:50.168289+00:00",
+        "http_status": 200,
+        "sha256": "21cfc7efcb5a77596737069eca2e96d33a275b66935e12e969c4533bd90498aa"
+      }
+    }
+  ]
+}

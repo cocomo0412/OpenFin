@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.fdfa77fd9680af765f43b557",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:27282d8d07c950765b50b537",
+  "group": "3",
+  "provider": "우리자산운용",
+  "title": "우리 알리안츠유럽배당증권자투자신탁[주식_재간접형](H) Class P2",
+  "cells": [
+    "우리자산운용",
+    "우리 알리안츠유럽배당증권자투자신탁[주식_재간접형](H) Class P2",
+    "재간접",
+    "3",
+    "2014/09/17",
+    "판매",
+    "1,905",
+    "17.32",
+    "13.49",
+    "9.32",
+    "7.22",
+    "6.86",
+    "5.73",
+    "0.719",
+    "삼성증권, 아이엠증권, 미래에셋증권 주식회사, NH투자증권, 미래에셋생명보험주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=153",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=153",
+    "collected_at": "2026-09-23T08:25:13.771608+00:00",
+    "http_status": 200,
+    "sha256": "c7d3d103ab049da13f0e86dc221ee273c76cd26584c88118e2bd45cacd8b9824"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "우리자산운용",
+        "상품명": "우리 알리안츠유럽배당증권자투자신탁[주식_재간접형](H) Class P2",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2014/09/17",
+        "판매여부": "판매",
+        "순자산총액": "1,905",
+        "1년 연평균수익률(%)": "17.32",
+        "3년 연평균수익률(%)": "13.49",
+        "5년 연평균수익률(%)": "9.32",
+        "7년 연평균수익률(%)": "7.22",
+        "10년 연평균수익률(%)": "6.86",
+        "누적연평균수익률(%)": "5.73",
+        "연평균수수료율(%)": "0.719",
+        "상품 판매사": "삼성증권, 아이엠증권, 미래에셋증권 주식회사, NH투자증권, 미래에셋생명보험주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=153",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=153",
+        "collected_at": "2026-09-23T08:25:13.771608+00:00",
+        "http_status": 200,
+        "sha256": "c7d3d103ab049da13f0e86dc221ee273c76cd26584c88118e2bd45cacd8b9824"
+      }
+    }
+  ]
+}

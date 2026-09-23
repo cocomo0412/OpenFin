@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.ac03b2a1a6e986b98c0c37ac",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:37cfd7c8413d667ec7228045",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋하나1Q연금증권자투자신탁1호(주식혼합-재간접형)종류C-e",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋하나1Q연금증권자투자신탁1호(주식혼합-재간접형)종류C-e",
+    "재간접",
+    "4",
+    "2016/03/21",
+    "판매",
+    "2,583",
+    "36.73",
+    "20.67",
+    "11.81",
+    "11.28",
+    "8.83",
+    "8.56",
+    "0.833",
+    "-"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=136",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=136",
+    "collected_at": "2026-09-23T08:24:51.698736+00:00",
+    "http_status": 200,
+    "sha256": "47e38e691b503ec99a10b23fd932c5c0496d98c6dfb217caa345c3fc192f7176"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋하나1Q연금증권자투자신탁1호(주식혼합-재간접형)종류C-e",
+        "상품유형": "재간접",
+        "위험등급": "4",
+        "설정일": "2016/03/21",
+        "판매여부": "판매",
+        "순자산총액": "2,583",
+        "1년 연평균수익률(%)": "36.73",
+        "3년 연평균수익률(%)": "20.67",
+        "5년 연평균수익률(%)": "11.81",
+        "7년 연평균수익률(%)": "11.28",
+        "10년 연평균수익률(%)": "8.83",
+        "누적연평균수익률(%)": "8.56",
+        "연평균수수료율(%)": "0.833",
+        "상품 판매사": "-"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=136",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=136",
+        "collected_at": "2026-09-23T08:24:51.698736+00:00",
+        "http_status": 200,
+        "sha256": "47e38e691b503ec99a10b23fd932c5c0496d98c6dfb217caa345c3fc192f7176"
+      }
+    }
+  ]
+}

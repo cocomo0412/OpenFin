@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.ff574e485482a0813c0bcbd8",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:5922134219b63d64bba207c7",
+  "group": "3",
+  "provider": "키움투자자산운용",
+  "title": "키움연금알파인덱스전환형증권자투자신탁1호[주식]",
+  "cells": [
+    "키움투자자산운용",
+    "키움연금알파인덱스전환형증권자투자신탁1호[주식]",
+    "주식형",
+    "2",
+    "2012/01/11",
+    "판매",
+    "6,588",
+    "235.30",
+    "63.22",
+    "28.62",
+    "28.50",
+    "21.07",
+    "14.64",
+    "0.335",
+    "(주)우리투자증권, 키움증권(주)"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=93",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=93",
+    "collected_at": "2026-09-23T08:23:53.053650+00:00",
+    "http_status": 200,
+    "sha256": "412370cbe6b0d6ea868792e859a429f1ca42b5713736b92769b8b53d99d32cfa"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "키움투자자산운용",
+        "상품명": "키움연금알파인덱스전환형증권자투자신탁1호[주식]",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2012/01/11",
+        "판매여부": "판매",
+        "순자산총액": "6,588",
+        "1년 연평균수익률(%)": "235.30",
+        "3년 연평균수익률(%)": "63.22",
+        "5년 연평균수익률(%)": "28.62",
+        "7년 연평균수익률(%)": "28.50",
+        "10년 연평균수익률(%)": "21.07",
+        "누적연평균수익률(%)": "14.64",
+        "연평균수수료율(%)": "0.335",
+        "상품 판매사": "(주)우리투자증권, 키움증권(주)"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=93",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=93",
+        "collected_at": "2026-09-23T08:23:53.053650+00:00",
+        "http_status": 200,
+        "sha256": "412370cbe6b0d6ea868792e859a429f1ca42b5713736b92769b8b53d99d32cfa"
+      }
+    }
+  ]
+}

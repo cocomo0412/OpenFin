@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.2183a15fc2d13ebfc29426cd",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:816ff71071c17e21ac23b828",
+  "group": "5",
+  "provider": "삼성화재해상보험",
+  "title": "연금저축손해보험무배당삼성화재연금보험아름다운생활(1611.3)",
+  "cells": [
+    "삼성화재해상보험",
+    "연금저축손해보험무배당삼성화재연금보험아름다운생활(1611.3)",
+    "금리연동형",
+    "2016/11/01",
+    "중단",
+    "19,361",
+    "-4.42",
+    "-0.71",
+    "-0.15",
+    "0.21",
+    "-",
+    "0.52",
+    "5.215"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=20",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=20",
+    "collected_at": "2026-09-23T08:22:06.095965+00:00",
+    "http_status": 200,
+    "sha256": "6bebb78285a5df65a99e8f11e8d8f14cd2ade667632ffb218f0def560e2f8e29"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성화재해상보험",
+        "상품명": "연금저축손해보험무배당삼성화재연금보험아름다운생활(1611.3)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2016/11/01",
+        "판매여부": "중단",
+        "적립금총액": "19,361",
+        "1년 연평균수익률(%)": "-4.42",
+        "3년 연평균수익률(%)": "-0.71",
+        "5년 연평균수익률(%)": "-0.15",
+        "7년 연평균수익률(%)": "0.21",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "0.52",
+        "연평균수수료율(%)": "5.215"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=20",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=20",
+        "collected_at": "2026-09-23T08:22:06.095965+00:00",
+        "http_status": 200,
+        "sha256": "6bebb78285a5df65a99e8f11e8d8f14cd2ade667632ffb218f0def560e2f8e29"
+      }
+    }
+  ]
+}

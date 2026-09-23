@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.d79239f30ab232c8f7189cbb",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:05a60536a18cde5039d984c2",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋글로벌솔루션증권자투자신탁2호(주식-재간접형)종류C-P",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋글로벌솔루션증권자투자신탁2호(주식-재간접형)종류C-P",
+    "재간접",
+    "4",
+    "2017/07/27",
+    "판매",
+    "1,243",
+    "63.57",
+    "29.89",
+    "16.89",
+    "16.95",
+    "-",
+    "13.41",
+    "1.131",
+    "NH농협은행, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=176",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=176",
+    "collected_at": "2026-09-23T08:25:45.234062+00:00",
+    "http_status": 200,
+    "sha256": "3fb7e4c51cfd74b1ed57c83063bc8ca1a1d5fb39cfeb90eeb51c6dcb101b8dfb"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋글로벌솔루션증권자투자신탁2호(주식-재간접형)종류C-P",
+        "상품유형": "재간접",
+        "위험등급": "4",
+        "설정일": "2017/07/27",
+        "판매여부": "판매",
+        "순자산총액": "1,243",
+        "1년 연평균수익률(%)": "63.57",
+        "3년 연평균수익률(%)": "29.89",
+        "5년 연평균수익률(%)": "16.89",
+        "7년 연평균수익률(%)": "16.95",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "13.41",
+        "연평균수수료율(%)": "1.131",
+        "상품 판매사": "NH농협은행, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=176",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=176",
+        "collected_at": "2026-09-23T08:25:45.234062+00:00",
+        "http_status": 200,
+        "sha256": "3fb7e4c51cfd74b1ed57c83063bc8ca1a1d5fb39cfeb90eeb51c6dcb101b8dfb"
+      }
+    }
+  ]
+}

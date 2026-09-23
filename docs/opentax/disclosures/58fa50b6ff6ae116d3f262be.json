@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.46972fa8b8abffd6e7b9e9eb",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:5f3f8438c5b1f5a14979800b",
+  "group": "3",
+  "provider": "브이아이자산운용",
+  "title": "브이아이 스마일 연금 증권 전환형 자투자신탁 1호[국공채] C-P2",
+  "cells": [
+    "브이아이자산운용",
+    "브이아이 스마일 연금 증권 전환형 자투자신탁 1호[국공채] C-P2",
+    "채권형",
+    "4",
+    "2001/02/05",
+    "판매",
+    "1,871",
+    "-4.08",
+    "3.56",
+    "1.14",
+    "0.84",
+    "-",
+    "2.30",
+    "0.950",
+    "(주)우리투자증권, 아이엠증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=154",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=154",
+    "collected_at": "2026-09-23T08:25:15.541901+00:00",
+    "http_status": 200,
+    "sha256": "fde5f710d1614485c6fbbbc1ca1833b0a96ef186812f23fec256edbbf92a0427"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "브이아이자산운용",
+        "상품명": "브이아이 스마일 연금 증권 전환형 자투자신탁 1호[국공채] C-P2",
+        "상품유형": "채권형",
+        "위험등급": "4",
+        "설정일": "2001/02/05",
+        "판매여부": "판매",
+        "순자산총액": "1,871",
+        "1년 연평균수익률(%)": "-4.08",
+        "3년 연평균수익률(%)": "3.56",
+        "5년 연평균수익률(%)": "1.14",
+        "7년 연평균수익률(%)": "0.84",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "2.30",
+        "연평균수수료율(%)": "0.950",
+        "상품 판매사": "(주)우리투자증권, 아이엠증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=154",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=154",
+        "collected_at": "2026-09-23T08:25:15.541901+00:00",
+        "http_status": 200,
+        "sha256": "fde5f710d1614485c6fbbbc1ca1833b0a96ef186812f23fec256edbbf92a0427"
+      }
+    }
+  ]
+}

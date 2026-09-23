@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.3aee1161f89e790465bf0071",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:55b5c5f6fb6bf4e8d7c66820",
+  "group": "3",
+  "provider": "키움투자자산운용",
+  "title": "키움 KIWOOM KRX100 상장지수증권투자신탁[주식]",
+  "cells": [
+    "키움투자자산운용",
+    "키움 KIWOOM KRX100 상장지수증권투자신탁[주식]",
+    "주식형",
+    "2",
+    "2008/01/22",
+    "판매",
+    "548",
+    "240.64",
+    "62.68",
+    "27.91",
+    "27.48",
+    "20.90",
+    "12.48",
+    "0.253",
+    "유진투자증권주식회사, 한화투자증권주식회사, 하나증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, KB증권, 대신증권주식회사, 신영증권주식회사, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=226",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=226",
+    "collected_at": "2026-09-23T08:26:52.912410+00:00",
+    "http_status": 200,
+    "sha256": "529e92cacede2eab0dc3f555114cbed470cf34078d7f2d928cf4fe5c775e6860"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "키움투자자산운용",
+        "상품명": "키움 KIWOOM KRX100 상장지수증권투자신탁[주식]",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2008/01/22",
+        "판매여부": "판매",
+        "순자산총액": "548",
+        "1년 연평균수익률(%)": "240.64",
+        "3년 연평균수익률(%)": "62.68",
+        "5년 연평균수익률(%)": "27.91",
+        "7년 연평균수익률(%)": "27.48",
+        "10년 연평균수익률(%)": "20.90",
+        "누적연평균수익률(%)": "12.48",
+        "연평균수수료율(%)": "0.253",
+        "상품 판매사": "유진투자증권주식회사, 한화투자증권주식회사, 하나증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, KB증권, 대신증권주식회사, 신영증권주식회사, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=226",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=226",
+        "collected_at": "2026-09-23T08:26:52.912410+00:00",
+        "http_status": 200,
+        "sha256": "529e92cacede2eab0dc3f555114cbed470cf34078d7f2d928cf4fe5c775e6860"
+      }
+    }
+  ]
+}

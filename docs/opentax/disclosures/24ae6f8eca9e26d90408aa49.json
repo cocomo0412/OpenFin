@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.5e65a31571cf5a5731f610e1",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:551965bdbc8bd0452f34b309",
+  "group": "3",
+  "provider": "iM에셋자산운용",
+  "title": "iM에셋 똑똑 개인 MMF 1호 C-P2",
+  "cells": [
+    "iM에셋자산운용",
+    "iM에셋 똑똑 개인 MMF 1호 C-P2",
+    "단기금융",
+    "6",
+    "2020/05/15",
+    "판매",
+    "966",
+    "2.35",
+    "2.90",
+    "2.55",
+    "-",
+    "-",
+    "2.17",
+    "0.366",
+    "아이엠증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=191",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=191",
+    "collected_at": "2026-09-23T08:26:05.166899+00:00",
+    "http_status": 200,
+    "sha256": "eabc7532be120fb9cac084858200900563a0893766d45e4fa596a12269253c14"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "iM에셋자산운용",
+        "상품명": "iM에셋 똑똑 개인 MMF 1호 C-P2",
+        "상품유형": "단기금융",
+        "위험등급": "6",
+        "설정일": "2020/05/15",
+        "판매여부": "판매",
+        "순자산총액": "966",
+        "1년 연평균수익률(%)": "2.35",
+        "3년 연평균수익률(%)": "2.90",
+        "5년 연평균수익률(%)": "2.55",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "2.17",
+        "연평균수수료율(%)": "0.366",
+        "상품 판매사": "아이엠증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=191",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=191",
+        "collected_at": "2026-09-23T08:26:05.166899+00:00",
+        "http_status": 200,
+        "sha256": "eabc7532be120fb9cac084858200900563a0893766d45e4fa596a12269253c14"
+      }
+    }
+  ]
+}

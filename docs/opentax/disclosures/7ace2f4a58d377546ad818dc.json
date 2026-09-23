@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.9fac91639d8e94e4da7ca952",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:983a30f76ba5e1854c2f3fb5",
+  "group": "3",
+  "provider": "신한자산운용",
+  "title": "신한글로벌탄소중립솔루션증권투자신탁(H)[주식](종류C-p)",
+  "cells": [
+    "신한자산운용",
+    "신한글로벌탄소중립솔루션증권투자신탁(H)[주식](종류C-p)",
+    "주식형",
+    "2",
+    "2021/11/03",
+    "판매",
+    "695",
+    "114.02",
+    "43.67",
+    "-",
+    "-",
+    "-",
+    "20.35",
+    "1.677",
+    "광주은행, 한국투자증권, KB국민은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=211",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=211",
+    "collected_at": "2026-09-23T08:26:32.882757+00:00",
+    "http_status": 200,
+    "sha256": "abe966b6e3dad68f63efac35a635efb2e1b3cde043b2d58496959db2d5db35f7"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한자산운용",
+        "상품명": "신한글로벌탄소중립솔루션증권투자신탁(H)[주식](종류C-p)",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2021/11/03",
+        "판매여부": "판매",
+        "순자산총액": "695",
+        "1년 연평균수익률(%)": "114.02",
+        "3년 연평균수익률(%)": "43.67",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "20.35",
+        "연평균수수료율(%)": "1.677",
+        "상품 판매사": "광주은행, 한국투자증권, KB국민은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=211",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=211",
+        "collected_at": "2026-09-23T08:26:32.882757+00:00",
+        "http_status": 200,
+        "sha256": "abe966b6e3dad68f63efac35a635efb2e1b3cde043b2d58496959db2d5db35f7"
+      }
+    }
+  ]
+}

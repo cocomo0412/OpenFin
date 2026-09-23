@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.fc16571603663c6ac5f9cbfe",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:4719f3b7a391a0e66e0fb4c1",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성글로벌선진국증권자투자신탁H[주식]_C-Pe",
+  "cells": [
+    "삼성자산운용",
+    "삼성글로벌선진국증권자투자신탁H[주식]_C-Pe",
+    "주식형",
+    "3",
+    "2017/07/19",
+    "판매",
+    "9,135",
+    "21.54",
+    "15.98",
+    "9.74",
+    "11.30",
+    "-",
+    "9.85",
+    "0.945",
+    "(주)우리투자증권, 키움증권(주), 광주은행, 한국투자증권, 삼성증권, 우리은행, IBK기업은행, KB증권, 신한은행, KB국민은행, NH투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=79",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=79",
+    "collected_at": "2026-09-23T08:23:34.035069+00:00",
+    "http_status": 200,
+    "sha256": "678387e66e2003c416b6c712e99a081568bdc523e9be71e0541ab07be132d6c0"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성글로벌선진국증권자투자신탁H[주식]_C-Pe",
+        "상품유형": "주식형",
+        "위험등급": "3",
+        "설정일": "2017/07/19",
+        "판매여부": "판매",
+        "순자산총액": "9,135",
+        "1년 연평균수익률(%)": "21.54",
+        "3년 연평균수익률(%)": "15.98",
+        "5년 연평균수익률(%)": "9.74",
+        "7년 연평균수익률(%)": "11.30",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "9.85",
+        "연평균수수료율(%)": "0.945",
+        "상품 판매사": "(주)우리투자증권, 키움증권(주), 광주은행, 한국투자증권, 삼성증권, 우리은행, IBK기업은행, KB증권, 신한은행, KB국민은행, NH투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=79",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=79",
+        "collected_at": "2026-09-23T08:23:34.035069+00:00",
+        "http_status": 200,
+        "sha256": "678387e66e2003c416b6c712e99a081568bdc523e9be71e0541ab07be132d6c0"
+      }
+    }
+  ]
+}

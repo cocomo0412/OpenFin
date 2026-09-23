@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.b48f5e7cdc931f00302c8982",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:4c9fb28dc71372bd1fa04632",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋유럽블루칩인덱스증권자투자신탁1호(주식)종류C-P",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋유럽블루칩인덱스증권자투자신탁1호(주식)종류C-P",
+    "주식형",
+    "3",
+    "2013/08/28",
+    "판매",
+    "805",
+    "22.54",
+    "13.83",
+    "11.67",
+    "10.72",
+    "9.88",
+    "8.04",
+    "1.459",
+    "(주)우리투자증권, 키움증권(주), 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=201",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=201",
+    "collected_at": "2026-09-23T08:26:19.745868+00:00",
+    "http_status": 200,
+    "sha256": "92da4152ba8b448f06d713114dff223acb822480ff438fe84881a62727d9d69d"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋유럽블루칩인덱스증권자투자신탁1호(주식)종류C-P",
+        "상품유형": "주식형",
+        "위험등급": "3",
+        "설정일": "2013/08/28",
+        "판매여부": "판매",
+        "순자산총액": "805",
+        "1년 연평균수익률(%)": "22.54",
+        "3년 연평균수익률(%)": "13.83",
+        "5년 연평균수익률(%)": "11.67",
+        "7년 연평균수익률(%)": "10.72",
+        "10년 연평균수익률(%)": "9.88",
+        "누적연평균수익률(%)": "8.04",
+        "연평균수수료율(%)": "1.459",
+        "상품 판매사": "(주)우리투자증권, 키움증권(주), 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=201",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=201",
+        "collected_at": "2026-09-23T08:26:19.745868+00:00",
+        "http_status": 200,
+        "sha256": "92da4152ba8b448f06d713114dff223acb822480ff438fe84881a62727d9d69d"
+      }
+    }
+  ]
+}

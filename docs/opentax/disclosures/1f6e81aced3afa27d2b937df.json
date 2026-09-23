@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.30cf5372fb4c02f4c99ef191",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:c3fe505aacabd476b07f931d",
+  "group": "3",
+  "provider": "신한자산운용",
+  "title": "신한개인용MMF제2호(종류S-P)",
+  "cells": [
+    "신한자산운용",
+    "신한개인용MMF제2호(종류S-P)",
+    "단기금융",
+    "6",
+    "2014/04/23",
+    "판매",
+    "372",
+    "2.58",
+    "3.19",
+    "2.77",
+    "2.27",
+    "2.03",
+    "1.97",
+    "0.214",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=248",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=248",
+    "collected_at": "2026-09-23T08:27:22.446039+00:00",
+    "http_status": 200,
+    "sha256": "3d20357589f90fe3db06953c80b857017d99e42ebf26443d10b6b2dceeea503a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한자산운용",
+        "상품명": "신한개인용MMF제2호(종류S-P)",
+        "상품유형": "단기금융",
+        "위험등급": "6",
+        "설정일": "2014/04/23",
+        "판매여부": "판매",
+        "순자산총액": "372",
+        "1년 연평균수익률(%)": "2.58",
+        "3년 연평균수익률(%)": "3.19",
+        "5년 연평균수익률(%)": "2.77",
+        "7년 연평균수익률(%)": "2.27",
+        "10년 연평균수익률(%)": "2.03",
+        "누적연평균수익률(%)": "1.97",
+        "연평균수수료율(%)": "0.214",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=248",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=248",
+        "collected_at": "2026-09-23T08:27:22.446039+00:00",
+        "http_status": 200,
+        "sha256": "3d20357589f90fe3db06953c80b857017d99e42ebf26443d10b6b2dceeea503a"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.6cb57142bb8e6e39da8f7fd7",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:2c526e42fe43e98584b08091",
+  "group": "4",
+  "provider": "아이비케이연금보험",
+  "title": "무배당 연금저축 IBK나만의연금보험_1701_TM",
+  "cells": [
+    "아이비케이연금보험",
+    "무배당 연금저축 IBK나만의연금보험_1701_TM",
+    "금리연동형",
+    "2017/01/01",
+    "중단",
+    "3,634",
+    "-5.87",
+    "-1.08",
+    "-0.17",
+    "0.25",
+    "-",
+    "0.57",
+    "6.759"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=53",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=53",
+    "collected_at": "2026-09-23T08:31:47.214906+00:00",
+    "http_status": 200,
+    "sha256": "de449d6cd2af7aef23d19a9d076c779249f1218290860594ee499f6caa478ec0"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "아이비케이연금보험",
+        "상품명": "무배당 연금저축 IBK나만의연금보험_1701_TM",
+        "상품유형": "금리연동형",
+        "최초판매일": "2017/01/01",
+        "판매여부": "중단",
+        "적립금총액": "3,634",
+        "1년 연평균수익률(%)": "-5.87",
+        "3년 연평균수익률(%)": "-1.08",
+        "5년 연평균수익률(%)": "-0.17",
+        "7년 연평균수익률(%)": "0.25",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "0.57",
+        "연평균수수료율(%)": "6.759"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=53",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=53",
+        "collected_at": "2026-09-23T08:31:47.214906+00:00",
+        "http_status": 200,
+        "sha256": "de449d6cd2af7aef23d19a9d076c779249f1218290860594ee499f6caa478ec0"
+      }
+    }
+  ]
+}

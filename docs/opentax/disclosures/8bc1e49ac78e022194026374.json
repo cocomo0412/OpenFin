@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.f1f0c56c513f84b34e3d87c3",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:9c6ef8d80b062986e1f881ca",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자신종개인용MMF3호(S-P)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자신종개인용MMF3호(S-P)",
+    "단기금융",
+    "6",
+    "2014/04/22",
+    "판매",
+    "4,588",
+    "2.74",
+    "3.29",
+    "2.88",
+    "2.37",
+    "2.13",
+    "2.09",
+    "0.136",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=107",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=107",
+    "collected_at": "2026-09-23T08:24:12.415180+00:00",
+    "http_status": 200,
+    "sha256": "026dc58d7f4bc4633e4600a7389fe37596085a7706588836375cabccea40fe52"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자신종개인용MMF3호(S-P)",
+        "상품유형": "단기금융",
+        "위험등급": "6",
+        "설정일": "2014/04/22",
+        "판매여부": "판매",
+        "순자산총액": "4,588",
+        "1년 연평균수익률(%)": "2.74",
+        "3년 연평균수익률(%)": "3.29",
+        "5년 연평균수익률(%)": "2.88",
+        "7년 연평균수익률(%)": "2.37",
+        "10년 연평균수익률(%)": "2.13",
+        "누적연평균수익률(%)": "2.09",
+        "연평균수수료율(%)": "0.136",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=107",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=107",
+        "collected_at": "2026-09-23T08:24:12.415180+00:00",
+        "http_status": 200,
+        "sha256": "026dc58d7f4bc4633e4600a7389fe37596085a7706588836375cabccea40fe52"
+      }
+    }
+  ]
+}

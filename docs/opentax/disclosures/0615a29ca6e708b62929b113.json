@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.8cc5058051583724d691c012",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:6684faba745a6acffbada39f",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자미국하이일드증권자투자신탁H(채권-재간접형)(C-Pe)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자미국하이일드증권자투자신탁H(채권-재간접형)(C-Pe)",
+    "재간접",
+    "2",
+    "2025/05/19",
+    "판매",
+    "0",
+    "3.41",
+    "-",
+    "-",
+    "-",
+    "-",
+    "4.34",
+    "0.567",
+    "-"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=316",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=316",
+    "collected_at": "2026-09-23T08:28:56.188219+00:00",
+    "http_status": 200,
+    "sha256": "2bd5d0839f9b9103f056c3262bd6569850910b0d325085606c1633b8f1c90164"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자미국하이일드증권자투자신탁H(채권-재간접형)(C-Pe)",
+        "상품유형": "재간접",
+        "위험등급": "2",
+        "설정일": "2025/05/19",
+        "판매여부": "판매",
+        "순자산총액": "0",
+        "1년 연평균수익률(%)": "3.41",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "4.34",
+        "연평균수수료율(%)": "0.567",
+        "상품 판매사": "-"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=316",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=316",
+        "collected_at": "2026-09-23T08:28:56.188219+00:00",
+        "http_status": 200,
+        "sha256": "2bd5d0839f9b9103f056c3262bd6569850910b0d325085606c1633b8f1c90164"
+      }
+    }
+  ]
+}

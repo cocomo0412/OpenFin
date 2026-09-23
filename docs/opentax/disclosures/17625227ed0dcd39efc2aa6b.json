@@ -1,0 +1,97 @@
+{
+  "id": "finance.pension.disclosure.8f58cf79988df8b8921af975",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:945bb39f11dd5377b03615d3",
+  "group": "5",
+  "provider": "KB손해보험",
+  "title": "(유)LIG플래티넘연금보험",
+  "cells": [
+    "KB손해보험",
+    "(유)LIG플래티넘연금보험",
+    "금리연동형",
+    "2009/11/16",
+    "중단",
+    "124",
+    "-7.76",
+    "-1.18",
+    "-0.04",
+    "0.35",
+    "0.64",
+    "1.06",
+    "8.27"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=45",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=45",
+    "collected_at": "2026-09-23T08:31:21.639058+00:00",
+    "http_status": 200,
+    "sha256": "385f58c3f7af17af8026391da643e62bb529cf14893f815a2beebec648fde416"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB손해보험",
+        "상품명": "(유)LIG플래티넘연금보험",
+        "상품유형": "금리연동형",
+        "최초판매일": "2009/11/16",
+        "판매여부": "중단",
+        "적립금총액": "124",
+        "1년 연평균수익률(%)": "-7.76",
+        "3년 연평균수익률(%)": "-1.18",
+        "5년 연평균수익률(%)": "-0.04",
+        "7년 연평균수익률(%)": "0.35",
+        "10년 연평균수익률(%)": "0.64",
+        "누적연평균수익률(%)": "1.06",
+        "연평균수수료율(%)": "8.27"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=45",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=45",
+        "collected_at": "2026-09-23T08:31:21.639058+00:00",
+        "http_status": 200,
+        "sha256": "385f58c3f7af17af8026391da643e62bb529cf14893f815a2beebec648fde416"
+      }
+    },
+    {
+      "fields": {
+        "금융회사": "KB손해보험",
+        "상품명": "(유)LIG플래티넘연금보험",
+        "상품유형": "금리연동형",
+        "최초판매일": "2009/11/16",
+        "판매여부": "중단",
+        "적립금총액": "119",
+        "1년 연평균수익률(%)": "-8.09",
+        "3년 연평균수익률(%)": "-1.19",
+        "5년 연평균수익률(%)": "-0.07",
+        "7년 연평균수익률(%)": "0.34",
+        "10년 연평균수익률(%)": "0.64",
+        "누적연평균수익률(%)": "1.08",
+        "연평균수수료율(%)": "8.18"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=45",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=45",
+        "collected_at": "2026-09-23T08:31:21.639058+00:00",
+        "http_status": 200,
+        "sha256": "385f58c3f7af17af8026391da643e62bb529cf14893f815a2beebec648fde416"
+      }
+    }
+  ]
+}

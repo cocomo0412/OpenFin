@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.87a7663021043fb2cc116d8c",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:1d6e82f7fed5586b38fc6fb9",
+  "group": "4",
+  "provider": "삼성생명보험",
+  "title": "연금저축골드연금보험1.8(사업비할인)_50인이상",
+  "cells": [
+    "삼성생명보험",
+    "연금저축골드연금보험1.8(사업비할인)_50인이상",
+    "금리연동형",
+    "2015/09/01",
+    "중단",
+    "180",
+    "-3.88",
+    "-0.51",
+    "0.12",
+    "0.38",
+    "0.69",
+    "0.73",
+    "5.010"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=66",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=66",
+    "collected_at": "2026-09-23T08:32:05.484646+00:00",
+    "http_status": 200,
+    "sha256": "c32a8ebd65536cf21de6d3bd40b86cca4216c2a1f5f594fefd60816decf0724a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성생명보험",
+        "상품명": "연금저축골드연금보험1.8(사업비할인)_50인이상",
+        "상품유형": "금리연동형",
+        "최초판매일": "2015/09/01",
+        "판매여부": "중단",
+        "적립금총액": "180",
+        "1년 연평균수익률(%)": "-3.88",
+        "3년 연평균수익률(%)": "-0.51",
+        "5년 연평균수익률(%)": "0.12",
+        "7년 연평균수익률(%)": "0.38",
+        "10년 연평균수익률(%)": "0.69",
+        "누적연평균수익률(%)": "0.73",
+        "연평균수수료율(%)": "5.010"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=66",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=66",
+        "collected_at": "2026-09-23T08:32:05.484646+00:00",
+        "http_status": 200,
+        "sha256": "c32a8ebd65536cf21de6d3bd40b86cca4216c2a1f5f594fefd60816decf0724a"
+      }
+    }
+  ]
+}

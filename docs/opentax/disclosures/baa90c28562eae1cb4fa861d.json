@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.0321db5775b787a5768c88e0",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:5d0f9b0f5630c29be3d265b0",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 코리아 밸류업 액티브 증권 자투자신탁(주식) C-Pe",
+  "cells": [
+    "KB자산운용",
+    "KB 코리아 밸류업 액티브 증권 자투자신탁(주식) C-Pe",
+    "주식형",
+    "2",
+    "2024/11/07",
+    "판매",
+    "42,217",
+    "259.15",
+    "-",
+    "-",
+    "-",
+    "-",
+    "150.65",
+    "1.135",
+    "한화투자증권주식회사, 한국투자증권, 우리은행, KB증권, KB국민은행, 미래에셋증권 주식회사, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=27",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=27",
+    "collected_at": "2026-09-23T08:22:22.818055+00:00",
+    "http_status": 200,
+    "sha256": "7c8db1487337c5d69dace48a97324178cc3d7c4ad31d8dbefaa19eec991537ab"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 코리아 밸류업 액티브 증권 자투자신탁(주식) C-Pe",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2024/11/07",
+        "판매여부": "판매",
+        "순자산총액": "42,217",
+        "1년 연평균수익률(%)": "259.15",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "150.65",
+        "연평균수수료율(%)": "1.135",
+        "상품 판매사": "한화투자증권주식회사, 한국투자증권, 우리은행, KB증권, KB국민은행, 미래에셋증권 주식회사, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=27",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=27",
+        "collected_at": "2026-09-23T08:22:22.818055+00:00",
+        "http_status": 200,
+        "sha256": "7c8db1487337c5d69dace48a97324178cc3d7c4ad31d8dbefaa19eec991537ab"
+      }
+    }
+  ]
+}

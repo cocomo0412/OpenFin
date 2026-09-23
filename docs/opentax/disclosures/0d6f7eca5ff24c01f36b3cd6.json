@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.1b2d480bc60699778b234e6f",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:be02f48a45a7acf539a4f7b9",
+  "group": "3",
+  "provider": "신한자산운용",
+  "title": "신한해피라이프연금브릭스증권전환형자투자신탁제1호(H)[주식](종류C1)",
+  "cells": [
+    "신한자산운용",
+    "신한해피라이프연금브릭스증권전환형자투자신탁제1호(H)[주식](종류C1)",
+    "주식형",
+    "3",
+    "2008/06/25",
+    "판매",
+    "4,456",
+    "3.16",
+    "6.68",
+    "-3.94",
+    "2.61",
+    "4.80",
+    "-0.20",
+    "1.705",
+    "키움증권(주), 교보증권(주), 신한은행, 미래에셋증권 주식회사, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=109",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=109",
+    "collected_at": "2026-09-23T08:24:14.883091+00:00",
+    "http_status": 200,
+    "sha256": "be6e82dffcb4d6ff47a3148cd83c4fbe8c196dbd77e815349b04f71b187279a0"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한자산운용",
+        "상품명": "신한해피라이프연금브릭스증권전환형자투자신탁제1호(H)[주식](종류C1)",
+        "상품유형": "주식형",
+        "위험등급": "3",
+        "설정일": "2008/06/25",
+        "판매여부": "판매",
+        "순자산총액": "4,456",
+        "1년 연평균수익률(%)": "3.16",
+        "3년 연평균수익률(%)": "6.68",
+        "5년 연평균수익률(%)": "-3.94",
+        "7년 연평균수익률(%)": "2.61",
+        "10년 연평균수익률(%)": "4.80",
+        "누적연평균수익률(%)": "-0.20",
+        "연평균수수료율(%)": "1.705",
+        "상품 판매사": "키움증권(주), 교보증권(주), 신한은행, 미래에셋증권 주식회사, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=109",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=109",
+        "collected_at": "2026-09-23T08:24:14.883091+00:00",
+        "http_status": 200,
+        "sha256": "be6e82dffcb4d6ff47a3148cd83c4fbe8c196dbd77e815349b04f71b187279a0"
+      }
+    }
+  ]
+}

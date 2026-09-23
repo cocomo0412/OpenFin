@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.f734dc594b3d8b80347d5c2e",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:ae007ff85c2fd6b915caf207",
+  "group": "5",
+  "provider": "메리츠화재해상보험",
+  "title": "연금저축손해보험노후생활지킴이보험0710",
+  "cells": [
+    "메리츠화재해상보험",
+    "연금저축손해보험노후생활지킴이보험0710",
+    "금리연동형",
+    "2007/09/01",
+    "중단",
+    "27,757",
+    "-7.4",
+    "-1.23",
+    "0.01",
+    "0.52",
+    "0.67",
+    "0.94",
+    "8.184"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=15",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=15",
+    "collected_at": "2026-09-23T08:22:00.664726+00:00",
+    "http_status": 200,
+    "sha256": "b29bd1d347ef1a3d732994473fd9e5d1ffc04eb5c2d5700cbdcd11e6162bf717"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "메리츠화재해상보험",
+        "상품명": "연금저축손해보험노후생활지킴이보험0710",
+        "상품유형": "금리연동형",
+        "최초판매일": "2007/09/01",
+        "판매여부": "중단",
+        "적립금총액": "27,757",
+        "1년 연평균수익률(%)": "-7.4",
+        "3년 연평균수익률(%)": "-1.23",
+        "5년 연평균수익률(%)": "0.01",
+        "7년 연평균수익률(%)": "0.52",
+        "10년 연평균수익률(%)": "0.67",
+        "누적연평균수익률(%)": "0.94",
+        "연평균수수료율(%)": "8.184"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=15",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=15",
+        "collected_at": "2026-09-23T08:22:00.664726+00:00",
+        "http_status": 200,
+        "sha256": "b29bd1d347ef1a3d732994473fd9e5d1ffc04eb5c2d5700cbdcd11e6162bf717"
+      }
+    }
+  ]
+}

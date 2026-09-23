@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.866ab65502c2c43b35c44fcb",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:188e791ec52f0aa4e0a7ab21",
+  "group": "3",
+  "provider": "카디안자산운용",
+  "title": "카디안 연금저축 코리아 리더스 증권자투자신탁[주식] 클래스 C",
+  "cells": [
+    "카디안자산운용",
+    "카디안 연금저축 코리아 리더스 증권자투자신탁[주식] 클래스 C",
+    "주식형",
+    "2",
+    "2014/11/19",
+    "판매",
+    "2,501",
+    "206.89",
+    "55.85",
+    "24.30",
+    "25.31",
+    "16.09",
+    "13.75",
+    "1.537",
+    "한국투자증권, 삼성증권, 미래에셋증권 주식회사, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=138",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=138",
+    "collected_at": "2026-09-23T08:24:54.154014+00:00",
+    "http_status": 200,
+    "sha256": "f66f377665e76b4193a5d4ac2b7f1f9f5c736c9595c928e94cfa57bcb93ab7a1"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "카디안자산운용",
+        "상품명": "카디안 연금저축 코리아 리더스 증권자투자신탁[주식] 클래스 C",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2014/11/19",
+        "판매여부": "판매",
+        "순자산총액": "2,501",
+        "1년 연평균수익률(%)": "206.89",
+        "3년 연평균수익률(%)": "55.85",
+        "5년 연평균수익률(%)": "24.30",
+        "7년 연평균수익률(%)": "25.31",
+        "10년 연평균수익률(%)": "16.09",
+        "누적연평균수익률(%)": "13.75",
+        "연평균수수료율(%)": "1.537",
+        "상품 판매사": "한국투자증권, 삼성증권, 미래에셋증권 주식회사, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=138",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=138",
+        "collected_at": "2026-09-23T08:24:54.154014+00:00",
+        "http_status": 200,
+        "sha256": "f66f377665e76b4193a5d4ac2b7f1f9f5c736c9595c928e94cfa57bcb93ab7a1"
+      }
+    }
+  ]
+}

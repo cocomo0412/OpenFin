@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.7f9f4e5893c8c05e5f9dce89",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:45827a23b4ed82b0e20bf197",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋전략배분적격TDF2045혼합자산자투자신탁종류C-Pe",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋전략배분적격TDF2045혼합자산자투자신탁종류C-Pe",
+    "혼합자산",
+    "3",
+    "2017/03/21",
+    "판매",
+    "136,336",
+    "33.05",
+    "18.77",
+    "9.65",
+    "11.94",
+    "-",
+    "10.76",
+    "0.777",
+    "디비증권주식회사, 한화투자증권주식회사, 전북은행, (주)우리투자증권, 키움증권(주), 한국투자증권, SK증권주식회사, 삼성증권, 교보증권(주), 우리은행, KB증권, 대신증권주식회사, LS증권, 신한은행, KB국민은행, 신영증권주식회사, 미래에셋증권 주식회사, NH투자증권, 신한투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=10",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=10",
+    "collected_at": "2026-09-23T08:21:57.932430+00:00",
+    "http_status": 200,
+    "sha256": "58ef7f5412dae6f7d8710ea039beff4ed198e46b8bd52bc3b2d9f183ade6aeed"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋전략배분적격TDF2045혼합자산자투자신탁종류C-Pe",
+        "상품유형": "혼합자산",
+        "위험등급": "3",
+        "설정일": "2017/03/21",
+        "판매여부": "판매",
+        "순자산총액": "136,336",
+        "1년 연평균수익률(%)": "33.05",
+        "3년 연평균수익률(%)": "18.77",
+        "5년 연평균수익률(%)": "9.65",
+        "7년 연평균수익률(%)": "11.94",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "10.76",
+        "연평균수수료율(%)": "0.777",
+        "상품 판매사": "디비증권주식회사, 한화투자증권주식회사, 전북은행, (주)우리투자증권, 키움증권(주), 한국투자증권, SK증권주식회사, 삼성증권, 교보증권(주), 우리은행, KB증권, 대신증권주식회사, LS증권, 신한은행, KB국민은행, 신영증권주식회사, 미래에셋증권 주식회사, NH투자증권, 신한투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=10",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=10",
+        "collected_at": "2026-09-23T08:21:57.932430+00:00",
+        "http_status": 200,
+        "sha256": "58ef7f5412dae6f7d8710ea039beff4ed198e46b8bd52bc3b2d9f183ade6aeed"
+      }
+    }
+  ]
+}

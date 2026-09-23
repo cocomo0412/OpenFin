@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.fee0ba619ffc25cf3c1953b3",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:a0b9598b154d8628f9e64bf4",
+  "group": "4",
+  "provider": "케이디비생명보험",
+  "title": "(연금저축)New-노후사랑연금보험(확정연금형)",
+  "cells": [
+    "케이디비생명보험",
+    "(연금저축)New-노후사랑연금보험(확정연금형)",
+    "금리연동형",
+    "2005/01/13",
+    "중단",
+    "7,892",
+    "-4.05",
+    "0.84",
+    "1.90",
+    "2.22",
+    "2.46",
+    "2.41",
+    "4.546"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=41",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=41",
+    "collected_at": "2026-09-23T08:31:29.190563+00:00",
+    "http_status": 200,
+    "sha256": "840dbad5a1750926fb39c1dadf496d61d8e4ef3a7fcceb1342ff34329fa2796b"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "케이디비생명보험",
+        "상품명": "(연금저축)New-노후사랑연금보험(확정연금형)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2005/01/13",
+        "판매여부": "중단",
+        "적립금총액": "7,892",
+        "1년 연평균수익률(%)": "-4.05",
+        "3년 연평균수익률(%)": "0.84",
+        "5년 연평균수익률(%)": "1.90",
+        "7년 연평균수익률(%)": "2.22",
+        "10년 연평균수익률(%)": "2.46",
+        "누적연평균수익률(%)": "2.41",
+        "연평균수수료율(%)": "4.546"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=41",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=41",
+        "collected_at": "2026-09-23T08:31:29.190563+00:00",
+        "http_status": 200,
+        "sha256": "840dbad5a1750926fb39c1dadf496d61d8e4ef3a7fcceb1342ff34329fa2796b"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.1b3b1979fe00f59a46d4e82a",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:7d46b13bed216494202f8c5f",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB스타 중기 국공채 증권 자투자신탁(채권) C-Pe 클래스",
+  "cells": [
+    "KB자산운용",
+    "KB스타 중기 국공채 증권 자투자신탁(채권) C-Pe 클래스",
+    "채권형",
+    "5",
+    "2017/11/09",
+    "판매",
+    "2,616",
+    "-2.14",
+    "2.71",
+    "1.09",
+    "1.07",
+    "-",
+    "1.61",
+    "0.321",
+    "디비증권주식회사, 한화투자증권주식회사, (주)우리투자증권, 광주은행, NH농협은행, 한국투자증권, 우리은행, KB증권, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=136",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=136",
+    "collected_at": "2026-09-23T08:24:51.698736+00:00",
+    "http_status": 200,
+    "sha256": "47e38e691b503ec99a10b23fd932c5c0496d98c6dfb217caa345c3fc192f7176"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB스타 중기 국공채 증권 자투자신탁(채권) C-Pe 클래스",
+        "상품유형": "채권형",
+        "위험등급": "5",
+        "설정일": "2017/11/09",
+        "판매여부": "판매",
+        "순자산총액": "2,616",
+        "1년 연평균수익률(%)": "-2.14",
+        "3년 연평균수익률(%)": "2.71",
+        "5년 연평균수익률(%)": "1.09",
+        "7년 연평균수익률(%)": "1.07",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "1.61",
+        "연평균수수료율(%)": "0.321",
+        "상품 판매사": "디비증권주식회사, 한화투자증권주식회사, (주)우리투자증권, 광주은행, NH농협은행, 한국투자증권, 우리은행, KB증권, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=136",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=136",
+        "collected_at": "2026-09-23T08:24:51.698736+00:00",
+        "http_status": 200,
+        "sha256": "47e38e691b503ec99a10b23fd932c5c0496d98c6dfb217caa345c3fc192f7176"
+      }
+    }
+  ]
+}

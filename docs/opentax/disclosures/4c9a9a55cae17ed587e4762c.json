@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.8a4b177ee3505216dd356cf7",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:8277db3b6cbb967dfa7af936",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성KODEX 차이나CSI300증권상장지수투자신탁[주식-파생형]",
+  "cells": [
+    "삼성자산운용",
+    "삼성KODEX 차이나CSI300증권상장지수투자신탁[주식-파생형]",
+    "파생상품",
+    "2",
+    "2017/11/29",
+    "판매",
+    "63,300",
+    "54.92",
+    "19.32",
+    "6.01",
+    "10.05",
+    "-",
+    "7.99",
+    "0.203",
+    "디비증권주식회사, 유진투자증권주식회사, 한화투자증권주식회사, 하나증권주식회사, 키움증권(주), 메리츠증권(주), 유안타증권주식회사, 한국투자증권, SK증권주식회사, 삼성증권, 교보증권(주), KB증권, 대신증권주식회사, 아이엠증권, 신영증권주식회사, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권, 신한투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=20",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=20",
+    "collected_at": "2026-09-23T08:22:12.830856+00:00",
+    "http_status": 200,
+    "sha256": "c64641e6bd30430d15bbe5c6a9e79c9d460debecbc4b0dcdf8b1562bc65dfa3c"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성KODEX 차이나CSI300증권상장지수투자신탁[주식-파생형]",
+        "상품유형": "파생상품",
+        "위험등급": "2",
+        "설정일": "2017/11/29",
+        "판매여부": "판매",
+        "순자산총액": "63,300",
+        "1년 연평균수익률(%)": "54.92",
+        "3년 연평균수익률(%)": "19.32",
+        "5년 연평균수익률(%)": "6.01",
+        "7년 연평균수익률(%)": "10.05",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "7.99",
+        "연평균수수료율(%)": "0.203",
+        "상품 판매사": "디비증권주식회사, 유진투자증권주식회사, 한화투자증권주식회사, 하나증권주식회사, 키움증권(주), 메리츠증권(주), 유안타증권주식회사, 한국투자증권, SK증권주식회사, 삼성증권, 교보증권(주), KB증권, 대신증권주식회사, 아이엠증권, 신영증권주식회사, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권, 신한투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=20",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=20",
+        "collected_at": "2026-09-23T08:22:12.830856+00:00",
+        "http_status": 200,
+        "sha256": "c64641e6bd30430d15bbe5c6a9e79c9d460debecbc4b0dcdf8b1562bc65dfa3c"
+      }
+    }
+  ]
+}

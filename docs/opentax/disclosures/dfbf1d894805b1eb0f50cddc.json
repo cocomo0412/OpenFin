@@ -1,0 +1,49 @@
+{
+  "id": "finance.insurance.klia.accident.메트라이프생명.l7202460004nnn0247000202440001024400010006024400010006000102440001000600010004a0549",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L7202460004NNN0247000202440001024400010006024400010006000102440001000600010004A0549",
+  "group": "024400010006",
+  "title": "무배당 메트라이프 교통재해사망보험",
+  "provider": "메트라이프생명",
+  "cells": [
+    "메트라이프생명",
+    "무배당 메트라이프 교통재해사망보험",
+    "주계약",
+    "교통재해사망보험금 *지급사유 : 보험 기간 중 별표 3 (교통재해사고)에서 정하는 교통재해 (이하 “교통재해”라 합니다)를 직접적인 원인으로 하여 사망하였을 때",
+    "1,000만원",
+    "1,100 원",
+    "600 원",
+    "2.30 %",
+    "-",
+    "-",
+    "140.6 %",
+    "354.6 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "보험기간(1년 이하)",
+    "순수보장",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "CM",
+    "2024-04-01",
+    "Download",
+    "보기",
+    "1588-9600"
+  ],
+  "coverage": [
+    "교통재해사망보험금 *지급사유 : 보험 기간 중 별표 3 (교통재해사고)에서 정하는 교통재해 (이하 “교통재해”라 합니다)를 직접적인 원인으로 하여 사망하였을 때"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=38890&seq=4"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010006&pageIndex=4&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010006&pageIndex=4&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:35.415623+00:00",
+    "http_status": 200,
+    "sha256": "03dc2a1cc0b4562b677cde165f72cad9572db23e960f43e9561ebbe303395588"
+  }
+}

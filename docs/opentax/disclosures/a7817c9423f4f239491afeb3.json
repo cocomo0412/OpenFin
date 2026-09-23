@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.be54cdbb9facc5a15e93ecdf",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:4c039b8f532db731a394b9ca",
+  "group": "3",
+  "provider": "하나자산운용",
+  "title": "하나더넥스트적격TDF2030증권투자신탁[주식혼합-재간접형]Class C-P",
+  "cells": [
+    "하나자산운용",
+    "하나더넥스트적격TDF2030증권투자신탁[주식혼합-재간접형]Class C-P",
+    "재간접",
+    "3",
+    "2025/03/11",
+    "판매",
+    "431",
+    "30.49",
+    "-",
+    "-",
+    "-",
+    "-",
+    "23.49",
+    "0.597",
+    "-"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=241",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=241",
+    "collected_at": "2026-09-23T08:27:13.111012+00:00",
+    "http_status": 200,
+    "sha256": "a69be701f8dc73d71e407e4d140cd09e843d079e7070a25a7ee0543dc225e4ab"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "하나자산운용",
+        "상품명": "하나더넥스트적격TDF2030증권투자신탁[주식혼합-재간접형]Class C-P",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2025/03/11",
+        "판매여부": "판매",
+        "순자산총액": "431",
+        "1년 연평균수익률(%)": "30.49",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "23.49",
+        "연평균수수료율(%)": "0.597",
+        "상품 판매사": "-"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=241",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=241",
+        "collected_at": "2026-09-23T08:27:13.111012+00:00",
+        "http_status": 200,
+        "sha256": "a69be701f8dc73d71e407e4d140cd09e843d079e7070a25a7ee0543dc225e4ab"
+      }
+    }
+  ]
+}

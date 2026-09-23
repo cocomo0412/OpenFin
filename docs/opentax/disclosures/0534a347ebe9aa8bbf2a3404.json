@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.fde34b1cdfcec84758d4a974",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:f955e9321ce57a5da1fdb3cf",
+  "group": "4",
+  "provider": "케이디비생명보험",
+  "title": "(연금저축)자유적립연금보험",
+  "cells": [
+    "케이디비생명보험",
+    "(연금저축)자유적립연금보험",
+    "금리연동형",
+    "2012/07/02",
+    "중단",
+    "9,290",
+    "-5.11",
+    "-0.61",
+    "0.11",
+    "0.48",
+    "0.83",
+    "1.14",
+    "5.107"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=38",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=38",
+    "collected_at": "2026-09-23T08:31:22.401706+00:00",
+    "http_status": 200,
+    "sha256": "2513e7080b06f9ee64913f188e7a110b97a54abcc17e553c017f6dd1961bef57"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "케이디비생명보험",
+        "상품명": "(연금저축)자유적립연금보험",
+        "상품유형": "금리연동형",
+        "최초판매일": "2012/07/02",
+        "판매여부": "중단",
+        "적립금총액": "9,290",
+        "1년 연평균수익률(%)": "-5.11",
+        "3년 연평균수익률(%)": "-0.61",
+        "5년 연평균수익률(%)": "0.11",
+        "7년 연평균수익률(%)": "0.48",
+        "10년 연평균수익률(%)": "0.83",
+        "누적연평균수익률(%)": "1.14",
+        "연평균수수료율(%)": "5.107"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=38",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=38",
+        "collected_at": "2026-09-23T08:31:22.401706+00:00",
+        "http_status": 200,
+        "sha256": "2513e7080b06f9ee64913f188e7a110b97a54abcc17e553c017f6dd1961bef57"
+      }
+    }
+  ]
+}

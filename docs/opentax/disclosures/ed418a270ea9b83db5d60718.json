@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.67fdd5893d0b3893f11a3cb5",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:d0fa4d6642e3393fe4beb10b",
+  "group": "3",
+  "provider": "타임폴리오자산운용",
+  "title": "타임폴리오위드타임증권자투자신탁(사모투자재간접형)종류C-P",
+  "cells": [
+    "타임폴리오자산운용",
+    "타임폴리오위드타임증권자투자신탁(사모투자재간접형)종류C-P",
+    "재간접",
+    "3",
+    "2019/09/23",
+    "판매",
+    "8,041",
+    "48.01",
+    "21.58",
+    "16.13",
+    "-",
+    "-",
+    "17.88",
+    "0.843",
+    "유진투자증권주식회사, SK증권주식회사, KB증권, 아이엠증권, 신영증권주식회사, 미래에셋증권 주식회사, IBK투자증권, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=84",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=84",
+    "collected_at": "2026-09-23T08:23:40.975561+00:00",
+    "http_status": 200,
+    "sha256": "4aeba9021d6bc2c73c4c12f7edaa7ce50f81f11f4e931e889666b5a06bf58e16"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "타임폴리오자산운용",
+        "상품명": "타임폴리오위드타임증권자투자신탁(사모투자재간접형)종류C-P",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2019/09/23",
+        "판매여부": "판매",
+        "순자산총액": "8,041",
+        "1년 연평균수익률(%)": "48.01",
+        "3년 연평균수익률(%)": "21.58",
+        "5년 연평균수익률(%)": "16.13",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "17.88",
+        "연평균수수료율(%)": "0.843",
+        "상품 판매사": "유진투자증권주식회사, SK증권주식회사, KB증권, 아이엠증권, 신영증권주식회사, 미래에셋증권 주식회사, IBK투자증권, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=84",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=84",
+        "collected_at": "2026-09-23T08:23:40.975561+00:00",
+        "http_status": 200,
+        "sha256": "4aeba9021d6bc2c73c4c12f7edaa7ce50f81f11f4e931e889666b5a06bf58e16"
+      }
+    }
+  ]
+}

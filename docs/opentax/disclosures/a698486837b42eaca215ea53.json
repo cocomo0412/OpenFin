@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.829ff93be42e19c6362a5b54",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:59b34b8bea546d3be3c687e1",
+  "group": "3",
+  "provider": "키움투자자산운용",
+  "title": "키움 KIWOOM 국고채상장지수증권투자신탁[채권]",
+  "cells": [
+    "키움투자자산운용",
+    "키움 KIWOOM 국고채상장지수증권투자신탁[채권]",
+    "채권형",
+    "5",
+    "2009/07/28",
+    "판매",
+    "556",
+    "-0.43",
+    "2.84",
+    "1.61",
+    "1.52",
+    "1.53",
+    "2.70",
+    "0.190",
+    "한화투자증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, KB증권, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=224",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=224",
+    "collected_at": "2026-09-23T08:26:50.168289+00:00",
+    "http_status": 200,
+    "sha256": "21cfc7efcb5a77596737069eca2e96d33a275b66935e12e969c4533bd90498aa"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "키움투자자산운용",
+        "상품명": "키움 KIWOOM 국고채상장지수증권투자신탁[채권]",
+        "상품유형": "채권형",
+        "위험등급": "5",
+        "설정일": "2009/07/28",
+        "판매여부": "판매",
+        "순자산총액": "556",
+        "1년 연평균수익률(%)": "-0.43",
+        "3년 연평균수익률(%)": "2.84",
+        "5년 연평균수익률(%)": "1.61",
+        "7년 연평균수익률(%)": "1.52",
+        "10년 연평균수익률(%)": "1.53",
+        "누적연평균수익률(%)": "2.70",
+        "연평균수수료율(%)": "0.190",
+        "상품 판매사": "한화투자증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, KB증권, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=224",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=224",
+        "collected_at": "2026-09-23T08:26:50.168289+00:00",
+        "http_status": 200,
+        "sha256": "21cfc7efcb5a77596737069eca2e96d33a275b66935e12e969c4533bd90498aa"
+      }
+    }
+  ]
+}

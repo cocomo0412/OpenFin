@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.bbf609396d06f3e6e0f004c2",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:d0d447b3d38e9308ad468611",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성KODEX콩선물특별자산상장지수투자신탁[콩-파생형](H)",
+  "cells": [
+    "삼성자산운용",
+    "삼성KODEX콩선물특별자산상장지수투자신탁[콩-파생형](H)",
+    "파생상품",
+    "2",
+    "2011/03/11",
+    "판매",
+    "252",
+    "3.66",
+    "-7.22",
+    "-0.50",
+    "4.51",
+    "-1.25",
+    "0.82",
+    "0.739",
+    "유진투자증권주식회사, 한화투자증권주식회사, 하나증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, KB증권, 대신증권주식회사, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=268",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=268",
+    "collected_at": "2026-09-23T08:27:49.448418+00:00",
+    "http_status": 200,
+    "sha256": "c69a44b9e6da3a4eb6b8a26e68f4ade073bd70d67cb7ef7198101fbcfc1c6646"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성KODEX콩선물특별자산상장지수투자신탁[콩-파생형](H)",
+        "상품유형": "파생상품",
+        "위험등급": "2",
+        "설정일": "2011/03/11",
+        "판매여부": "판매",
+        "순자산총액": "252",
+        "1년 연평균수익률(%)": "3.66",
+        "3년 연평균수익률(%)": "-7.22",
+        "5년 연평균수익률(%)": "-0.50",
+        "7년 연평균수익률(%)": "4.51",
+        "10년 연평균수익률(%)": "-1.25",
+        "누적연평균수익률(%)": "0.82",
+        "연평균수수료율(%)": "0.739",
+        "상품 판매사": "유진투자증권주식회사, 한화투자증권주식회사, 하나증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, KB증권, 대신증권주식회사, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=268",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=268",
+        "collected_at": "2026-09-23T08:27:49.448418+00:00",
+        "http_status": 200,
+        "sha256": "c69a44b9e6da3a4eb6b8a26e68f4ade073bd70d67cb7ef7198101fbcfc1c6646"
+      }
+    }
+  ]
+}

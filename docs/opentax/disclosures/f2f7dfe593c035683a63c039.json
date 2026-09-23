@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.ec94921a64170c0a0e17d43d",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:7b9348a589d1811400f3ebbd",
+  "group": "5",
+  "provider": "KB손해보험",
+  "title": "연금저축손해보험 KB멀티플러스연금보험(16.01)",
+  "cells": [
+    "KB손해보험",
+    "연금저축손해보험 KB멀티플러스연금보험(16.01)",
+    "금리연동형",
+    "2015/06/24",
+    "중단",
+    "73",
+    "-5.27",
+    "-0.78",
+    "0.04",
+    "0.44",
+    "0.81",
+    "0.83",
+    "7.19"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=48",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=48",
+    "collected_at": "2026-09-23T08:31:28.844714+00:00",
+    "http_status": 200,
+    "sha256": "64befd4745878ac997e9682c894a2a66c56b5f4265956bbf90dccc63fec49b79"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB손해보험",
+        "상품명": "연금저축손해보험 KB멀티플러스연금보험(16.01)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2015/06/24",
+        "판매여부": "중단",
+        "적립금총액": "73",
+        "1년 연평균수익률(%)": "-5.27",
+        "3년 연평균수익률(%)": "-0.78",
+        "5년 연평균수익률(%)": "0.04",
+        "7년 연평균수익률(%)": "0.44",
+        "10년 연평균수익률(%)": "0.81",
+        "누적연평균수익률(%)": "0.83",
+        "연평균수수료율(%)": "7.19"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=48",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=48",
+        "collected_at": "2026-09-23T08:31:28.844714+00:00",
+        "http_status": 200,
+        "sha256": "64befd4745878ac997e9682c894a2a66c56b5f4265956bbf90dccc63fec49b79"
+      }
+    }
+  ]
+}

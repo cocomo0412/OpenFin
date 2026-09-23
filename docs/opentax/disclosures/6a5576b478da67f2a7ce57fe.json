@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.69561d5a01bbd2eb1e05fe8e",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:4fab3d8b44753c3724cef71a",
+  "group": "3",
+  "provider": "KCGI자산운용",
+  "title": "KCGI코리아연금증권전환형자투자신탁1호[채권]종류C-1",
+  "cells": [
+    "KCGI자산운용",
+    "KCGI코리아연금증권전환형자투자신탁1호[채권]종류C-1",
+    "채권형",
+    "5",
+    "2009/11/27",
+    "판매",
+    "729",
+    "0.42",
+    "3.33",
+    "2.00",
+    "1.77",
+    "1.78",
+    "2.37",
+    "0.352",
+    "한화투자증권주식회사, (주)우리투자증권, 유안타증권주식회사, KB증권, 대신증권주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=208",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=208",
+    "collected_at": "2026-09-23T08:26:28.845809+00:00",
+    "http_status": 200,
+    "sha256": "73e6f78e621fe43c8311b76be9a1c5cfe5ae7f10bd30a9bb6501749c33e13a30"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KCGI자산운용",
+        "상품명": "KCGI코리아연금증권전환형자투자신탁1호[채권]종류C-1",
+        "상품유형": "채권형",
+        "위험등급": "5",
+        "설정일": "2009/11/27",
+        "판매여부": "판매",
+        "순자산총액": "729",
+        "1년 연평균수익률(%)": "0.42",
+        "3년 연평균수익률(%)": "3.33",
+        "5년 연평균수익률(%)": "2.00",
+        "7년 연평균수익률(%)": "1.77",
+        "10년 연평균수익률(%)": "1.78",
+        "누적연평균수익률(%)": "2.37",
+        "연평균수수료율(%)": "0.352",
+        "상품 판매사": "한화투자증권주식회사, (주)우리투자증권, 유안타증권주식회사, KB증권, 대신증권주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=208",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=208",
+        "collected_at": "2026-09-23T08:26:28.845809+00:00",
+        "http_status": 200,
+        "sha256": "73e6f78e621fe43c8311b76be9a1c5cfe5ae7f10bd30a9bb6501749c33e13a30"
+      }
+    }
+  ]
+}

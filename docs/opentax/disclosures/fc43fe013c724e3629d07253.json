@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.1fdcaca6c24117f5d15110e1",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:c83aef83776dee06ed6c735f",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자연금저축주주환원고배당증권자투자신탁(주식)(C)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자연금저축주주환원고배당증권자투자신탁(주식)(C)",
+    "주식형",
+    "3",
+    "2016/01/18",
+    "판매",
+    "80",
+    "4.23",
+    "15.38",
+    "4.99",
+    "9.46",
+    "6.72",
+    "6.46",
+    "1.432",
+    "(주)우리투자증권, KB증권, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=299",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=299",
+    "collected_at": "2026-09-23T08:28:30.441277+00:00",
+    "http_status": 200,
+    "sha256": "92c4aa881b36ba1a43c064d97156f34efca7677321d17ca61b143f5de19d044c"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자연금저축주주환원고배당증권자투자신탁(주식)(C)",
+        "상품유형": "주식형",
+        "위험등급": "3",
+        "설정일": "2016/01/18",
+        "판매여부": "판매",
+        "순자산총액": "80",
+        "1년 연평균수익률(%)": "4.23",
+        "3년 연평균수익률(%)": "15.38",
+        "5년 연평균수익률(%)": "4.99",
+        "7년 연평균수익률(%)": "9.46",
+        "10년 연평균수익률(%)": "6.72",
+        "누적연평균수익률(%)": "6.46",
+        "연평균수수료율(%)": "1.432",
+        "상품 판매사": "(주)우리투자증권, KB증권, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=299",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=299",
+        "collected_at": "2026-09-23T08:28:30.441277+00:00",
+        "http_status": 200,
+        "sha256": "92c4aa881b36ba1a43c064d97156f34efca7677321d17ca61b143f5de19d044c"
+      }
+    }
+  ]
+}

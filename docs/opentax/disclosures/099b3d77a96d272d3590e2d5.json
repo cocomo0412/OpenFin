@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.1366744ec34a084f10aea036",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:86285ff84bee50188a150e5c",
+  "group": "5",
+  "provider": "롯데손해보험",
+  "title": "연금저축손해보험롯데3L명품연금보험(1104)",
+  "cells": [
+    "롯데손해보험",
+    "연금저축손해보험롯데3L명품연금보험(1104)",
+    "금리연동형",
+    "2011/06/01",
+    "중단",
+    "36,453",
+    "-8.23",
+    "-1.57",
+    "-0.39",
+    "0.03",
+    "0.4",
+    "0.79",
+    "7.85"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=13",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=13",
+    "collected_at": "2026-09-23T08:21:58.653383+00:00",
+    "http_status": 200,
+    "sha256": "f3070e990240651d619b7ec91b1f5626e82bc5ee53c7364c30399e0b7b594241"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "롯데손해보험",
+        "상품명": "연금저축손해보험롯데3L명품연금보험(1104)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2011/06/01",
+        "판매여부": "중단",
+        "적립금총액": "36,453",
+        "1년 연평균수익률(%)": "-8.23",
+        "3년 연평균수익률(%)": "-1.57",
+        "5년 연평균수익률(%)": "-0.39",
+        "7년 연평균수익률(%)": "0.03",
+        "10년 연평균수익률(%)": "0.4",
+        "누적연평균수익률(%)": "0.79",
+        "연평균수수료율(%)": "7.85"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=13",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=13",
+        "collected_at": "2026-09-23T08:21:58.653383+00:00",
+        "http_status": 200,
+        "sha256": "f3070e990240651d619b7ec91b1f5626e82bc5ee53c7364c30399e0b7b594241"
+      }
+    }
+  ]
+}

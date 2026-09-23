@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.7eed13141bbcc1c3306c2551",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:c718be643a91172dfbbbf75e",
+  "group": "3",
+  "provider": "우리자산운용",
+  "title": "우리프랭클린인디아증권자투자신탁(UH)(주식-재간접형)ClassC-P",
+  "cells": [
+    "우리자산운용",
+    "우리프랭클린인디아증권자투자신탁(UH)(주식-재간접형)ClassC-P",
+    "재간접",
+    "2",
+    "2015/02/27",
+    "판매",
+    "4,626",
+    "-6.03",
+    "9.02",
+    "10.04",
+    "10.23",
+    "9.20",
+    "7.76",
+    "0.995",
+    "한화투자증권주식회사, (주)우리투자증권, KB증권, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=107",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=107",
+    "collected_at": "2026-09-23T08:24:12.415180+00:00",
+    "http_status": 200,
+    "sha256": "026dc58d7f4bc4633e4600a7389fe37596085a7706588836375cabccea40fe52"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "우리자산운용",
+        "상품명": "우리프랭클린인디아증권자투자신탁(UH)(주식-재간접형)ClassC-P",
+        "상품유형": "재간접",
+        "위험등급": "2",
+        "설정일": "2015/02/27",
+        "판매여부": "판매",
+        "순자산총액": "4,626",
+        "1년 연평균수익률(%)": "-6.03",
+        "3년 연평균수익률(%)": "9.02",
+        "5년 연평균수익률(%)": "10.04",
+        "7년 연평균수익률(%)": "10.23",
+        "10년 연평균수익률(%)": "9.20",
+        "누적연평균수익률(%)": "7.76",
+        "연평균수수료율(%)": "0.995",
+        "상품 판매사": "한화투자증권주식회사, (주)우리투자증권, KB증권, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=107",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=107",
+        "collected_at": "2026-09-23T08:24:12.415180+00:00",
+        "http_status": 200,
+        "sha256": "026dc58d7f4bc4633e4600a7389fe37596085a7706588836375cabccea40fe52"
+      }
+    }
+  ]
+}

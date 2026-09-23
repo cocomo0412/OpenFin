@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.a8e0dc9de86a923d2f5068c1",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:2b8d69243586c6f5f375ecd4",
+  "group": "4",
+  "provider": "미래에셋생명보험",
+  "title": "연금저축SAVE연금보험III,Ⅳ,1104",
+  "cells": [
+    "미래에셋생명보험",
+    "연금저축SAVE연금보험III,Ⅳ,1104",
+    "금리연동형",
+    "2009/12/31",
+    "중단",
+    "286,891",
+    "-4.83",
+    "-0.09",
+    "0.61",
+    "0.71",
+    "0.81",
+    "0.99",
+    "4.594"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=2",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=2",
+    "collected_at": "2026-09-23T08:21:43.107456+00:00",
+    "http_status": 200,
+    "sha256": "ecb2ab95b06c6d36c8cec92f0547da8fb5668b0f2a21fbd9971b26a29ce3ecd5"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋생명보험",
+        "상품명": "연금저축SAVE연금보험III,Ⅳ,1104",
+        "상품유형": "금리연동형",
+        "최초판매일": "2009/12/31",
+        "판매여부": "중단",
+        "적립금총액": "286,891",
+        "1년 연평균수익률(%)": "-4.83",
+        "3년 연평균수익률(%)": "-0.09",
+        "5년 연평균수익률(%)": "0.61",
+        "7년 연평균수익률(%)": "0.71",
+        "10년 연평균수익률(%)": "0.81",
+        "누적연평균수익률(%)": "0.99",
+        "연평균수수료율(%)": "4.594"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=2",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=2",
+        "collected_at": "2026-09-23T08:21:43.107456+00:00",
+        "http_status": 200,
+        "sha256": "ecb2ab95b06c6d36c8cec92f0547da8fb5668b0f2a21fbd9971b26a29ce3ecd5"
+      }
+    }
+  ]
+}

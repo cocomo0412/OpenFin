@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.8f8c92c7d8993300666f4f8c",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:c1caa93737f8eafb01b2eb93",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성미국투자등급장기채권증권자투자신탁UH[채권]_S-P",
+  "cells": [
+    "삼성자산운용",
+    "삼성미국투자등급장기채권증권자투자신탁UH[채권]_S-P",
+    "채권형",
+    "3",
+    "2019/09/25",
+    "판매",
+    "144",
+    "21.16",
+    "10.49",
+    "4.75",
+    "-",
+    "-",
+    "3.88",
+    "0.641",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=289",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=289",
+    "collected_at": "2026-09-23T08:28:17.416763+00:00",
+    "http_status": 200,
+    "sha256": "c6ee9857c2a9ed12129329a618a160b11e04d042121c3dccf38c26561d3a5997"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성미국투자등급장기채권증권자투자신탁UH[채권]_S-P",
+        "상품유형": "채권형",
+        "위험등급": "3",
+        "설정일": "2019/09/25",
+        "판매여부": "판매",
+        "순자산총액": "144",
+        "1년 연평균수익률(%)": "21.16",
+        "3년 연평균수익률(%)": "10.49",
+        "5년 연평균수익률(%)": "4.75",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "3.88",
+        "연평균수수료율(%)": "0.641",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=289",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=289",
+        "collected_at": "2026-09-23T08:28:17.416763+00:00",
+        "http_status": 200,
+        "sha256": "c6ee9857c2a9ed12129329a618a160b11e04d042121c3dccf38c26561d3a5997"
+      }
+    }
+  ]
+}

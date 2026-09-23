@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.c6d233daf3e8a55ff238c10d",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:5a5e9aa63c40dd9f42b9a3f4",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋전략배분적격TDF2055혼합자산자투자신탁종류C-Pe",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋전략배분적격TDF2055혼합자산자투자신탁종류C-Pe",
+    "혼합자산",
+    "2",
+    "2024/07/05",
+    "판매",
+    "2,705",
+    "32.35",
+    "-",
+    "-",
+    "-",
+    "-",
+    "18.42",
+    "0.875",
+    "KB증권, 신영증권주식회사, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=134",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=134",
+    "collected_at": "2026-09-23T08:24:48.826704+00:00",
+    "http_status": 200,
+    "sha256": "da67ff752b752ec6e6b4dce5267e6bfc0ba433993cd01a7192ec527380317675"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋전략배분적격TDF2055혼합자산자투자신탁종류C-Pe",
+        "상품유형": "혼합자산",
+        "위험등급": "2",
+        "설정일": "2024/07/05",
+        "판매여부": "판매",
+        "순자산총액": "2,705",
+        "1년 연평균수익률(%)": "32.35",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "18.42",
+        "연평균수수료율(%)": "0.875",
+        "상품 판매사": "KB증권, 신영증권주식회사, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=134",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=134",
+        "collected_at": "2026-09-23T08:24:48.826704+00:00",
+        "http_status": 200,
+        "sha256": "da67ff752b752ec6e6b4dce5267e6bfc0ba433993cd01a7192ec527380317675"
+      }
+    }
+  ]
+}

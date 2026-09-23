@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.c4e90649dc9aa3db17ad2f36",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:590ea26fd390b0732eaabae3",
+  "group": "3",
+  "provider": "마이다스에셋자산운용",
+  "title": "마이다스기본적격TDF2030혼합자산자투자신탁 C-Pe1",
+  "cells": [
+    "마이다스에셋자산운용",
+    "마이다스기본적격TDF2030혼합자산자투자신탁 C-Pe1",
+    "혼합자산",
+    "4",
+    "2023/04/24",
+    "판매",
+    "789",
+    "35.13",
+    "18.72",
+    "-",
+    "-",
+    "-",
+    "18.29",
+    "0.419",
+    "교보증권(주), KB증권, 미래에셋증권 주식회사, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=202",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=202",
+    "collected_at": "2026-09-23T08:26:21.010469+00:00",
+    "http_status": 200,
+    "sha256": "50b3d824a345a016b0c6e0c023175afaa2cd7a42dde38b21218fa3a58d747546"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "마이다스에셋자산운용",
+        "상품명": "마이다스기본적격TDF2030혼합자산자투자신탁 C-Pe1",
+        "상품유형": "혼합자산",
+        "위험등급": "4",
+        "설정일": "2023/04/24",
+        "판매여부": "판매",
+        "순자산총액": "789",
+        "1년 연평균수익률(%)": "35.13",
+        "3년 연평균수익률(%)": "18.72",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "18.29",
+        "연평균수수료율(%)": "0.419",
+        "상품 판매사": "교보증권(주), KB증권, 미래에셋증권 주식회사, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=202",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=202",
+        "collected_at": "2026-09-23T08:26:21.010469+00:00",
+        "http_status": 200,
+        "sha256": "50b3d824a345a016b0c6e0c023175afaa2cd7a42dde38b21218fa3a58d747546"
+      }
+    }
+  ]
+}

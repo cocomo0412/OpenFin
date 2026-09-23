@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.77f1a17a1ef9026d12187720",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:7dcfef075f3e0f5cd3bb5ed3",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자네비게이터중국본토증권자투자신탁H(주식)(S-P)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자네비게이터중국본토증권자투자신탁H(주식)(S-P)",
+    "주식형",
+    "2",
+    "2020/07/15",
+    "판매",
+    "0",
+    "45.53",
+    "13.06",
+    "0.16",
+    "-",
+    "-",
+    "3.43",
+    "1.171",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=319",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=319",
+    "collected_at": "2026-09-23T08:29:01.976295+00:00",
+    "http_status": 200,
+    "sha256": "3d7d48dbcd2d2856758ee5f7121dbcb999e94a3231eeb35c21d343c23de04a0f"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자네비게이터중국본토증권자투자신탁H(주식)(S-P)",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2020/07/15",
+        "판매여부": "판매",
+        "순자산총액": "0",
+        "1년 연평균수익률(%)": "45.53",
+        "3년 연평균수익률(%)": "13.06",
+        "5년 연평균수익률(%)": "0.16",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "3.43",
+        "연평균수수료율(%)": "1.171",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=319",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=319",
+        "collected_at": "2026-09-23T08:29:01.976295+00:00",
+        "http_status": 200,
+        "sha256": "3d7d48dbcd2d2856758ee5f7121dbcb999e94a3231eeb35c21d343c23de04a0f"
+      }
+    }
+  ]
+}

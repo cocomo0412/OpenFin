@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.18c243f4837e73341ed12585",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:2098b4c589389a30f06bc2d2",
+  "group": "4",
+  "provider": "미래에셋생명보험",
+  "title": "연금저축 SAVE PLUS연금보험1604",
+  "cells": [
+    "미래에셋생명보험",
+    "연금저축 SAVE PLUS연금보험1604",
+    "금리연동형",
+    "2016/04/01",
+    "중단",
+    "10,466",
+    "-5.87",
+    "-1.33",
+    "-0.41",
+    "0.02",
+    "0.44",
+    "0.47",
+    "6.265"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=37",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=37",
+    "collected_at": "2026-09-23T08:31:20.842775+00:00",
+    "http_status": 200,
+    "sha256": "160e5a1d56238fe735ca45dd0e79e7f6a203c92a18f28695879d6fa85b4cf36a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋생명보험",
+        "상품명": "연금저축 SAVE PLUS연금보험1604",
+        "상품유형": "금리연동형",
+        "최초판매일": "2016/04/01",
+        "판매여부": "중단",
+        "적립금총액": "10,466",
+        "1년 연평균수익률(%)": "-5.87",
+        "3년 연평균수익률(%)": "-1.33",
+        "5년 연평균수익률(%)": "-0.41",
+        "7년 연평균수익률(%)": "0.02",
+        "10년 연평균수익률(%)": "0.44",
+        "누적연평균수익률(%)": "0.47",
+        "연평균수수료율(%)": "6.265"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=37",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=37",
+        "collected_at": "2026-09-23T08:31:20.842775+00:00",
+        "http_status": 200,
+        "sha256": "160e5a1d56238fe735ca45dd0e79e7f6a203c92a18f28695879d6fa85b4cf36a"
+      }
+    }
+  ]
+}

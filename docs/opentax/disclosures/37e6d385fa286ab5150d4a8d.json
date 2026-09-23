@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.fe8520528659ced3c4da709f",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:6c9f477535d1af446f769e87",
+  "group": "3",
+  "provider": "유리자산운용",
+  "title": "유리차이나백마주뉴웨이브증권투자신탁[주식]_C/C-P2e",
+  "cells": [
+    "유리자산운용",
+    "유리차이나백마주뉴웨이브증권투자신탁[주식]_C/C-P2e",
+    "주식형",
+    "2",
+    "2021/11/15",
+    "판매",
+    "151",
+    "72.25",
+    "17.10",
+    "-",
+    "-",
+    "-",
+    "-0.65",
+    "1.226",
+    "한국투자증권, 삼성증권, KB증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=287",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=287",
+    "collected_at": "2026-09-23T08:28:14.671828+00:00",
+    "http_status": 200,
+    "sha256": "61cdab83f6931a9b654838a6bc8df871e43260a3f90af432f72382caa5e32f8c"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "유리자산운용",
+        "상품명": "유리차이나백마주뉴웨이브증권투자신탁[주식]_C/C-P2e",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2021/11/15",
+        "판매여부": "판매",
+        "순자산총액": "151",
+        "1년 연평균수익률(%)": "72.25",
+        "3년 연평균수익률(%)": "17.10",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-0.65",
+        "연평균수수료율(%)": "1.226",
+        "상품 판매사": "한국투자증권, 삼성증권, KB증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=287",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=287",
+        "collected_at": "2026-09-23T08:28:14.671828+00:00",
+        "http_status": 200,
+        "sha256": "61cdab83f6931a9b654838a6bc8df871e43260a3f90af432f72382caa5e32f8c"
+      }
+    }
+  ]
+}

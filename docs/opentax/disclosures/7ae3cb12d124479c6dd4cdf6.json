@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.d4b185fe18309d58e4d3f8b0",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:49a3bac35b9016a0e265ed48",
+  "group": "3",
+  "provider": "에셋플러스자산운용",
+  "title": "에셋플러스-알파브릿지 AI기반 S&P500 성장 포커스30 증권투자신탁(주식) 종류 C-Pe",
+  "cells": [
+    "에셋플러스자산운용",
+    "에셋플러스-알파브릿지 AI기반 S&P500 성장 포커스30 증권투자신탁(주식) 종류 C-Pe",
+    "주식형",
+    "2",
+    "2024/09/04",
+    "판매",
+    "780",
+    "39.63",
+    "-",
+    "-",
+    "-",
+    "-",
+    "30.15",
+    "1.058",
+    "키움증권(주), 교보증권(주), 에셋플러스자산운용(주), 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=203",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=203",
+    "collected_at": "2026-09-23T08:26:22.279343+00:00",
+    "http_status": 200,
+    "sha256": "6c919c64b3e27c80cef87be65b229006c290c2dd4799891b19b2d99e38db191f"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "에셋플러스자산운용",
+        "상품명": "에셋플러스-알파브릿지 AI기반 S&P500 성장 포커스30 증권투자신탁(주식) 종류 C-Pe",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2024/09/04",
+        "판매여부": "판매",
+        "순자산총액": "780",
+        "1년 연평균수익률(%)": "39.63",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "30.15",
+        "연평균수수료율(%)": "1.058",
+        "상품 판매사": "키움증권(주), 교보증권(주), 에셋플러스자산운용(주), 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=203",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=203",
+        "collected_at": "2026-09-23T08:26:22.279343+00:00",
+        "http_status": 200,
+        "sha256": "6c919c64b3e27c80cef87be65b229006c290c2dd4799891b19b2d99e38db191f"
+      }
+    }
+  ]
+}

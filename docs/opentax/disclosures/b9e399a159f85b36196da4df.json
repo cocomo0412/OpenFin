@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.a5757f54f056a3e7fe3641b8",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:50917011e9f5ede9be42a74b",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋펀드솔루션40증권전환형자투자신탁1호(채권혼합-재간접형)종류C-P",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋펀드솔루션40증권전환형자투자신탁1호(채권혼합-재간접형)종류C-P",
+    "재간접",
+    "5",
+    "2015/09/18",
+    "판매",
+    "5,006",
+    "26.73",
+    "13.48",
+    "6.27",
+    "7.00",
+    "5.80",
+    "5.28",
+    "1.010",
+    "키움증권(주), 유안타증권주식회사, 한국투자증권, 미래에셋증권 주식회사, 미래에셋생명보험주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=103",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=103",
+    "collected_at": "2026-09-23T08:24:06.709498+00:00",
+    "http_status": 200,
+    "sha256": "d1994cb31ed1fd4c7a39771ca053b5394fd2ad1bedf80eb1d44d6fad6d07d2d0"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋펀드솔루션40증권전환형자투자신탁1호(채권혼합-재간접형)종류C-P",
+        "상품유형": "재간접",
+        "위험등급": "5",
+        "설정일": "2015/09/18",
+        "판매여부": "판매",
+        "순자산총액": "5,006",
+        "1년 연평균수익률(%)": "26.73",
+        "3년 연평균수익률(%)": "13.48",
+        "5년 연평균수익률(%)": "6.27",
+        "7년 연평균수익률(%)": "7.00",
+        "10년 연평균수익률(%)": "5.80",
+        "누적연평균수익률(%)": "5.28",
+        "연평균수수료율(%)": "1.010",
+        "상품 판매사": "키움증권(주), 유안타증권주식회사, 한국투자증권, 미래에셋증권 주식회사, 미래에셋생명보험주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=103",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=103",
+        "collected_at": "2026-09-23T08:24:06.709498+00:00",
+        "http_status": 200,
+        "sha256": "d1994cb31ed1fd4c7a39771ca053b5394fd2ad1bedf80eb1d44d6fad6d07d2d0"
+      }
+    }
+  ]
+}

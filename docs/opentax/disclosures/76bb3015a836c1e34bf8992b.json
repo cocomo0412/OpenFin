@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.1aaa8f66fbeeb53d37ba244e",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:529b13c29ca8b9a2e5ff20c8",
+  "group": "3",
+  "provider": "키움투자자산운용",
+  "title": "키움글로벌구독경제증권자투자신탁(H)[주식] Class C-P",
+  "cells": [
+    "키움투자자산운용",
+    "키움글로벌구독경제증권자투자신탁(H)[주식] Class C-P",
+    "주식형",
+    "2",
+    "2020/05/25",
+    "판매",
+    "676",
+    "48.52",
+    "32.69",
+    "14.83",
+    "-",
+    "-",
+    "18.26",
+    "1.595",
+    "디비증권주식회사, 한화투자증권주식회사, 한국투자증권, 삼성증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=213",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=213",
+    "collected_at": "2026-09-23T08:26:35.358969+00:00",
+    "http_status": 200,
+    "sha256": "0a27de6b8364e6e1a83dbb8f8f531d14668d3baf047ff5af8d84d8a259a1910b"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "키움투자자산운용",
+        "상품명": "키움글로벌구독경제증권자투자신탁(H)[주식] Class C-P",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2020/05/25",
+        "판매여부": "판매",
+        "순자산총액": "676",
+        "1년 연평균수익률(%)": "48.52",
+        "3년 연평균수익률(%)": "32.69",
+        "5년 연평균수익률(%)": "14.83",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "18.26",
+        "연평균수수료율(%)": "1.595",
+        "상품 판매사": "디비증권주식회사, 한화투자증권주식회사, 한국투자증권, 삼성증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=213",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=213",
+        "collected_at": "2026-09-23T08:26:35.358969+00:00",
+        "http_status": 200,
+        "sha256": "0a27de6b8364e6e1a83dbb8f8f531d14668d3baf047ff5af8d84d8a259a1910b"
+      }
+    }
+  ]
+}

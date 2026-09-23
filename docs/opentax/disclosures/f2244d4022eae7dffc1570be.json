@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.57dedbdaa69af0d53f67a316",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:1:71f956e03e701182e7408c62",
+  "group": "1",
+  "provider": "제주은행",
+  "title": "연금저축신탁채권형1호",
+  "cells": [
+    "제주은행",
+    "연금저축신탁채권형1호",
+    "채권형",
+    "2001/04/21",
+    "중단",
+    "5,151",
+    "1.86",
+    "0.92",
+    "0.72",
+    "0.50",
+    "0.36",
+    "0.19",
+    "0.015"
+  ],
+  "headers": [
+    "은행",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=4",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=4",
+    "collected_at": "2026-09-23T08:21:44.710385+00:00",
+    "http_status": 200,
+    "sha256": "73cf47c520c5f68c75d407177bc4120c10559e90435bc0c85bd9fa225d5df459"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "제주은행",
+        "상품명": "연금저축신탁채권형1호",
+        "상품유형": "채권형",
+        "최초판매일": "2001/04/21",
+        "판매여부": "중단",
+        "적립금총액": "5,151",
+        "1년 연평균수익률(%)": "1.86",
+        "3년 연평균수익률(%)": "0.92",
+        "5년 연평균수익률(%)": "0.72",
+        "7년 연평균수익률(%)": "0.50",
+        "10년 연평균수익률(%)": "0.36",
+        "누적연평균수익률(%)": "0.19",
+        "연평균수수료율(%)": "0.015"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=4",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=4",
+        "collected_at": "2026-09-23T08:21:44.710385+00:00",
+        "http_status": 200,
+        "sha256": "73cf47c520c5f68c75d407177bc4120c10559e90435bc0c85bd9fa225d5df459"
+      }
+    }
+  ]
+}

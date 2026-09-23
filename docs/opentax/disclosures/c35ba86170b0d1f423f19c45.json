@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.9d5db6fdc2faf8f4ebb59d0b",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:4ef83ef132293edead4d4f11",
+  "group": "3",
+  "provider": "현대자산운용",
+  "title": "현대강소기업증권자투자신탁1호[주식]종류S-P",
+  "cells": [
+    "현대자산운용",
+    "현대강소기업증권자투자신탁1호[주식]종류S-P",
+    "주식형",
+    "1",
+    "2017/07/27",
+    "판매",
+    "1,084",
+    "84.85",
+    "16.77",
+    "15.05",
+    "20.59",
+    "-",
+    "13.65",
+    "0.584",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=185",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=185",
+    "collected_at": "2026-09-23T08:25:57.108541+00:00",
+    "http_status": 200,
+    "sha256": "ba5c17aeddedfe5634f3152aeb6a7aaaf7561b7a7319ff8c95723738e0996166"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "현대자산운용",
+        "상품명": "현대강소기업증권자투자신탁1호[주식]종류S-P",
+        "상품유형": "주식형",
+        "위험등급": "1",
+        "설정일": "2017/07/27",
+        "판매여부": "판매",
+        "순자산총액": "1,084",
+        "1년 연평균수익률(%)": "84.85",
+        "3년 연평균수익률(%)": "16.77",
+        "5년 연평균수익률(%)": "15.05",
+        "7년 연평균수익률(%)": "20.59",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "13.65",
+        "연평균수수료율(%)": "0.584",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=185",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=185",
+        "collected_at": "2026-09-23T08:25:57.108541+00:00",
+        "http_status": 200,
+        "sha256": "ba5c17aeddedfe5634f3152aeb6a7aaaf7561b7a7319ff8c95723738e0996166"
+      }
+    }
+  ]
+}

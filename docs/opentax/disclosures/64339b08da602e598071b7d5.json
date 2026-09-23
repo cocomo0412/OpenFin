@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.7df59b4510d1bbcb4f597efd",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:e69c6d7970f5d56ce244a6b5",
+  "group": "3",
+  "provider": "카디안자산운용",
+  "title": "카디안 개인 신종 MMF 제1호[국공채] 클래스C-P2(연금저축)E",
+  "cells": [
+    "카디안자산운용",
+    "카디안 개인 신종 MMF 제1호[국공채] 클래스C-P2(연금저축)E",
+    "단기금융",
+    "6",
+    "2017/08/11",
+    "판매",
+    "804",
+    "2.44",
+    "2.92",
+    "2.47",
+    "1.98",
+    "-",
+    "1.85",
+    "0.263",
+    "-"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=201",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=201",
+    "collected_at": "2026-09-23T08:26:19.745868+00:00",
+    "http_status": 200,
+    "sha256": "92da4152ba8b448f06d713114dff223acb822480ff438fe84881a62727d9d69d"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "카디안자산운용",
+        "상품명": "카디안 개인 신종 MMF 제1호[국공채] 클래스C-P2(연금저축)E",
+        "상품유형": "단기금융",
+        "위험등급": "6",
+        "설정일": "2017/08/11",
+        "판매여부": "판매",
+        "순자산총액": "804",
+        "1년 연평균수익률(%)": "2.44",
+        "3년 연평균수익률(%)": "2.92",
+        "5년 연평균수익률(%)": "2.47",
+        "7년 연평균수익률(%)": "1.98",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "1.85",
+        "연평균수수료율(%)": "0.263",
+        "상품 판매사": "-"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=201",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=201",
+        "collected_at": "2026-09-23T08:26:19.745868+00:00",
+        "http_status": 200,
+        "sha256": "92da4152ba8b448f06d713114dff223acb822480ff438fe84881a62727d9d69d"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "finance.insurance.klia.current.4c3fe2b7eb717a6ee5a1",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L7102460001NNN024700020244000102440001000302440001000300020244000100030002000426H02",
+  "group": "024400010003",
+  "title": "(무)기후건강 보장보험(2407)(2형:기후종합형)",
+  "provider": "DB생명",
+  "cells": [
+    "DB생명",
+    "(무)기후건강 보장보험(2407)(2형:기후종합형)",
+    "주계약",
+    "온열질환 진단비 *지급사유 : 보험기간 중 피보험자가 “온열질환”으로 진단이 확정된 경우(연간1회한)",
+    "1,000만원",
+    "3,960 원",
+    "5,590 원",
+    "3.00 %",
+    "-",
+    "-",
+    "103.6 %",
+    "98.8 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "기타",
+    "순수보장",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "대면채널",
+    "2026-08-01",
+    "Download",
+    "보기",
+    "1588-3131"
+  ],
+  "coverage": [
+    "온열질환 진단비 *지급사유 : 보험기간 중 피보험자가 “온열질환”으로 진단이 확정된 경우(연간1회한)",
+    "한랭질환 진단비 *지급사유 : 보험기간 중 피보험자가 “한랭질환”으로 진단이 확정된 경우(연간1회한)",
+    "독감 항바이러스제 치료비 *지급사유 : 보험기간 중 피보험자가 “독감(인플루엔자)”으로 진단 확정되고 그 치료를 직접적인 목적으로 “독감 항바이러스제”를 처방받은 경우(연간1회한)"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=46093&seq=1"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010003&pageIndex=4&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010003&pageIndex=4&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:26.632543+00:00",
+    "http_status": 200,
+    "sha256": "31864b70108d2db6ac0feb77c31c163edc694123be69f6650e0e6903d2e5510a"
+  }
+}

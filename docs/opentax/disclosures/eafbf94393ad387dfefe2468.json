@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.66326ab8f84a21a43194b6e4",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:e0718611298c8ca14457cd31",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB ESG 성장 리더스 증권 자투자신탁(주식) C-Pe",
+  "cells": [
+    "KB자산운용",
+    "KB ESG 성장 리더스 증권 자투자신탁(주식) C-Pe",
+    "주식형",
+    "1",
+    "2019/05/15",
+    "판매",
+    "9,486",
+    "165.29",
+    "57.85",
+    "25.69",
+    "25.51",
+    "-",
+    "25.26",
+    "1.163",
+    "KB증권, KB국민은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=77",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=77",
+    "collected_at": "2026-09-23T08:23:31.588747+00:00",
+    "http_status": 200,
+    "sha256": "94858be0791f25fbbdcc46a344abe341053b9d373fc7d6f2dcd5460d2184b1e9"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB ESG 성장 리더스 증권 자투자신탁(주식) C-Pe",
+        "상품유형": "주식형",
+        "위험등급": "1",
+        "설정일": "2019/05/15",
+        "판매여부": "판매",
+        "순자산총액": "9,486",
+        "1년 연평균수익률(%)": "165.29",
+        "3년 연평균수익률(%)": "57.85",
+        "5년 연평균수익률(%)": "25.69",
+        "7년 연평균수익률(%)": "25.51",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "25.26",
+        "연평균수수료율(%)": "1.163",
+        "상품 판매사": "KB증권, KB국민은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=77",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=77",
+        "collected_at": "2026-09-23T08:23:31.588747+00:00",
+        "http_status": 200,
+        "sha256": "94858be0791f25fbbdcc46a344abe341053b9d373fc7d6f2dcd5460d2184b1e9"
+      }
+    }
+  ]
+}

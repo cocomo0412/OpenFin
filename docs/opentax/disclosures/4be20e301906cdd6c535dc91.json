@@ -1,0 +1,52 @@
+{
+  "id": "finance.insurance.klia.whole-life.kdb생명.l330246000102460003nn0000024700020244000102440001000102440001000100020244000100010002000202370",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L330246000102460003NN0000024700020244000102440001000102440001000100020244000100010002000202370",
+  "group": "024400010001",
+  "title": "무심사 버팀목 종신보험(무)",
+  "provider": "KDB생명",
+  "cells": [
+    "KDB생명",
+    "무심사 버팀목 종신보험(무)",
+    "주계약",
+    "사망보험금Ⅰ *지급사유 : 보험기간 중 피보험자가 계약일로부터 3년이 되는 계약해당일 전일 이전에 재해이외의 원인으로 사망하였을 때",
+    "5,000만원",
+    "838,500 원",
+    "770,000 원",
+    "2.50 %",
+    "-",
+    "-",
+    "104.0 %",
+    "111.7 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "체증형",
+    "무해지/저해지환급",
+    "-",
+    "-",
+    "-",
+    "-",
+    "비유니버셜",
+    "대면채널 TM",
+    "2026-01-01",
+    "Download",
+    "보기",
+    "1588-4040"
+  ],
+  "coverage": [
+    "사망보험금Ⅰ *지급사유 : 보험기간 중 피보험자가 계약일로부터 3년이 되는 계약해당일 전일 이전에 재해이외의 원인으로 사망하였을 때",
+    "사망보험금Ⅱ *지급사유 : 보험기간 중 피보험자가 재해를 직접적인 원인으로 사망하거나, 계약일로부터 3년이 되는 계약해당일 이후에 재해이외의 원인으로 사망하였을 때"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=41826&seq=4"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=9&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=9&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:29.799201+00:00",
+    "http_status": 200,
+    "sha256": "17bd8a6d58473cc0f4cf50d984066a2980961e0b76c4fe9cdd4e71f20d14327f"
+  }
+}

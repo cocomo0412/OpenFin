@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.0881b44050767c255e33d7c9",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:3840542ffa927b2d4a083bc3",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋ETF로자산배분적격TDF2050증권자투자신탁(주식혼합-재간접형)종류C-P",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋ETF로자산배분적격TDF2050증권자투자신탁(주식혼합-재간접형)종류C-P",
+    "재간접",
+    "3",
+    "2020/07/23",
+    "판매",
+    "833",
+    "31.77",
+    "18.14",
+    "9.18",
+    "-",
+    "-",
+    "11.31",
+    "1.165",
+    "한화투자증권주식회사, KB증권, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=199",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=199",
+    "collected_at": "2026-09-23T08:26:15.847223+00:00",
+    "http_status": 200,
+    "sha256": "fd3f9d0cb85476594bd403d0bec30f0146d7a3780574e713c083fefa33541e19"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋ETF로자산배분적격TDF2050증권자투자신탁(주식혼합-재간접형)종류C-P",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2020/07/23",
+        "판매여부": "판매",
+        "순자산총액": "833",
+        "1년 연평균수익률(%)": "31.77",
+        "3년 연평균수익률(%)": "18.14",
+        "5년 연평균수익률(%)": "9.18",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "11.31",
+        "연평균수수료율(%)": "1.165",
+        "상품 판매사": "한화투자증권주식회사, KB증권, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=199",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=199",
+        "collected_at": "2026-09-23T08:26:15.847223+00:00",
+        "http_status": 200,
+        "sha256": "fd3f9d0cb85476594bd403d0bec30f0146d7a3780574e713c083fefa33541e19"
+      }
+    }
+  ]
+}

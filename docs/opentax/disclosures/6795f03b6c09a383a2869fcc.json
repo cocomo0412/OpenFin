@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.b84deeb4b37d4764eb6c65c6",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:094501c800d9a0045fea2335",
+  "group": "4",
+  "provider": "농협생명보험",
+  "title": "NHe세테크연금저축보험(무배당)",
+  "cells": [
+    "농협생명보험",
+    "NHe세테크연금저축보험(무배당)",
+    "금리연동형",
+    "2025/01/01",
+    "판매",
+    "1,238",
+    "-3.36",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-1.88",
+    "4.590"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=62",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=62",
+    "collected_at": "2026-09-23T08:31:59.591805+00:00",
+    "http_status": 200,
+    "sha256": "f1de159a591c55fe75f515b207eb40dbef08f1e62d54408d8dae3e3a59951f60"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "농협생명보험",
+        "상품명": "NHe세테크연금저축보험(무배당)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2025/01/01",
+        "판매여부": "판매",
+        "적립금총액": "1,238",
+        "1년 연평균수익률(%)": "-3.36",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-1.88",
+        "연평균수수료율(%)": "4.590"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=62",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=62",
+        "collected_at": "2026-09-23T08:31:59.591805+00:00",
+        "http_status": 200,
+        "sha256": "f1de159a591c55fe75f515b207eb40dbef08f1e62d54408d8dae3e3a59951f60"
+      }
+    }
+  ]
+}

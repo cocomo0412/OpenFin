@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.bd7ff84cd38d410b0829ed38",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:1f35018b5ae6287f9168d79c",
+  "group": "5",
+  "provider": "한화손해보험",
+  "title": "연금저축손해보험 골드연금보험2504",
+  "cells": [
+    "한화손해보험",
+    "연금저축손해보험 골드연금보험2504",
+    "금리연동형",
+    "2025/04/01",
+    "중단",
+    "515",
+    "-4.19",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-3.72",
+    "5.37"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=43",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=43",
+    "collected_at": "2026-09-23T08:31:17.220606+00:00",
+    "http_status": 200,
+    "sha256": "130edd6d4787782caad72e3bfd67e3f0ac5227b686720aca015aed0f042b542f"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한화손해보험",
+        "상품명": "연금저축손해보험 골드연금보험2504",
+        "상품유형": "금리연동형",
+        "최초판매일": "2025/04/01",
+        "판매여부": "중단",
+        "적립금총액": "515",
+        "1년 연평균수익률(%)": "-4.19",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-3.72",
+        "연평균수수료율(%)": "5.37"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=43",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=43",
+        "collected_at": "2026-09-23T08:31:17.220606+00:00",
+        "http_status": 200,
+        "sha256": "130edd6d4787782caad72e3bfd67e3f0ac5227b686720aca015aed0f042b542f"
+      }
+    }
+  ]
+}

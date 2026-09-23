@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.1f61b519d1359b01737d6937",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:3ff8f5c9f2bddaf5da53b879",
+  "group": "4",
+  "provider": "케이디비생명보험",
+  "title": "연금저축 KDB연금보험",
+  "cells": [
+    "케이디비생명보험",
+    "연금저축 KDB연금보험",
+    "금리연동형",
+    "2013/04/01",
+    "중단",
+    "7,914",
+    "-5.30",
+    "-0.80",
+    "0.06",
+    "0.51",
+    "0.85",
+    "1.04",
+    "4.653"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=41",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=41",
+    "collected_at": "2026-09-23T08:31:29.190563+00:00",
+    "http_status": 200,
+    "sha256": "840dbad5a1750926fb39c1dadf496d61d8e4ef3a7fcceb1342ff34329fa2796b"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "케이디비생명보험",
+        "상품명": "연금저축 KDB연금보험",
+        "상품유형": "금리연동형",
+        "최초판매일": "2013/04/01",
+        "판매여부": "중단",
+        "적립금총액": "7,914",
+        "1년 연평균수익률(%)": "-5.30",
+        "3년 연평균수익률(%)": "-0.80",
+        "5년 연평균수익률(%)": "0.06",
+        "7년 연평균수익률(%)": "0.51",
+        "10년 연평균수익률(%)": "0.85",
+        "누적연평균수익률(%)": "1.04",
+        "연평균수수료율(%)": "4.653"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=41",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=41",
+        "collected_at": "2026-09-23T08:31:29.190563+00:00",
+        "http_status": 200,
+        "sha256": "840dbad5a1750926fb39c1dadf496d61d8e4ef3a7fcceb1342ff34329fa2796b"
+      }
+    }
+  ]
+}

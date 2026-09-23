@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.5b34903a3c8aa408116398e0",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:d03e93d52578299d5abfc02f",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성신종MMF종류형제D2호(C-P)",
+  "cells": [
+    "삼성자산운용",
+    "삼성신종MMF종류형제D2호(C-P)",
+    "단기금융",
+    "6",
+    "2013/05/21",
+    "판매",
+    "1,645,585",
+    "2.25",
+    "2.82",
+    "2.48",
+    "1.98",
+    "1.75",
+    "1.74",
+    "0.486",
+    "(주)우리투자증권, 삼성증권, 대신증권주식회사, 신한은행, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=1",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=1",
+    "collected_at": "2026-09-23T08:21:42.462384+00:00",
+    "http_status": 200,
+    "sha256": "2017c17e34e6457b84c0b365eb6f692cb4334b611a24bd0b5eb68d606e5735c6"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성신종MMF종류형제D2호(C-P)",
+        "상품유형": "단기금융",
+        "위험등급": "6",
+        "설정일": "2013/05/21",
+        "판매여부": "판매",
+        "순자산총액": "1,645,585",
+        "1년 연평균수익률(%)": "2.25",
+        "3년 연평균수익률(%)": "2.82",
+        "5년 연평균수익률(%)": "2.48",
+        "7년 연평균수익률(%)": "1.98",
+        "10년 연평균수익률(%)": "1.75",
+        "누적연평균수익률(%)": "1.74",
+        "연평균수수료율(%)": "0.486",
+        "상품 판매사": "(주)우리투자증권, 삼성증권, 대신증권주식회사, 신한은행, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=1",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=1",
+        "collected_at": "2026-09-23T08:21:42.462384+00:00",
+        "http_status": 200,
+        "sha256": "2017c17e34e6457b84c0b365eb6f692cb4334b611a24bd0b5eb68d606e5735c6"
+      }
+    }
+  ]
+}

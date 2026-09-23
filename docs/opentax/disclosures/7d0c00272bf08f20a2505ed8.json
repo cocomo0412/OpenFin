@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.687dbc194f3292e7b302bc37",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:2dccbb660446d1805555f1a9",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 연금 가치배당40 증권 자투자신탁(채권혼합) S-P 클래스",
+  "cells": [
+    "KB자산운용",
+    "KB 연금 가치배당40 증권 자투자신탁(채권혼합) S-P 클래스",
+    "혼합채권형",
+    "4",
+    "2015/03/05",
+    "판매",
+    "182",
+    "49.57",
+    "20.73",
+    "9.82",
+    "8.98",
+    "6.82",
+    "6.11",
+    "0.633",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=282",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=282",
+    "collected_at": "2026-09-23T08:28:07.749161+00:00",
+    "http_status": 200,
+    "sha256": "8b50e4d886163ce81ab0e0e0b79995fcccc537870041e37f10b7364e63e85c9f"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 연금 가치배당40 증권 자투자신탁(채권혼합) S-P 클래스",
+        "상품유형": "혼합채권형",
+        "위험등급": "4",
+        "설정일": "2015/03/05",
+        "판매여부": "판매",
+        "순자산총액": "182",
+        "1년 연평균수익률(%)": "49.57",
+        "3년 연평균수익률(%)": "20.73",
+        "5년 연평균수익률(%)": "9.82",
+        "7년 연평균수익률(%)": "8.98",
+        "10년 연평균수익률(%)": "6.82",
+        "누적연평균수익률(%)": "6.11",
+        "연평균수수료율(%)": "0.633",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=282",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=282",
+        "collected_at": "2026-09-23T08:28:07.749161+00:00",
+        "http_status": 200,
+        "sha256": "8b50e4d886163ce81ab0e0e0b79995fcccc537870041e37f10b7364e63e85c9f"
+      }
+    }
+  ]
+}

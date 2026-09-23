@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.85055d799c1f1b5581e1ef16",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:e73fd83203cdffc846916d9a",
+  "group": "3",
+  "provider": "브이자산운용",
+  "title": "브이 코어셀렉트증권 자투자신탁1호(주식) 종류C-p",
+  "cells": [
+    "브이자산운용",
+    "브이 코어셀렉트증권 자투자신탁1호(주식) 종류C-p",
+    "주식형",
+    "2",
+    "2017/12/22",
+    "판매",
+    "1,315",
+    "217.99",
+    "62.89",
+    "28.52",
+    "26.25",
+    "-",
+    "18.88",
+    "1.568",
+    "KB국민은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=172",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=172",
+    "collected_at": "2026-09-23T08:25:39.898216+00:00",
+    "http_status": 200,
+    "sha256": "41876bd21f8113107446a6026898a28a5afb14008a6c618337806805136cef4c"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "브이자산운용",
+        "상품명": "브이 코어셀렉트증권 자투자신탁1호(주식) 종류C-p",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2017/12/22",
+        "판매여부": "판매",
+        "순자산총액": "1,315",
+        "1년 연평균수익률(%)": "217.99",
+        "3년 연평균수익률(%)": "62.89",
+        "5년 연평균수익률(%)": "28.52",
+        "7년 연평균수익률(%)": "26.25",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "18.88",
+        "연평균수수료율(%)": "1.568",
+        "상품 판매사": "KB국민은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=172",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=172",
+        "collected_at": "2026-09-23T08:25:39.898216+00:00",
+        "http_status": 200,
+        "sha256": "41876bd21f8113107446a6026898a28a5afb14008a6c618337806805136cef4c"
+      }
+    }
+  ]
+}

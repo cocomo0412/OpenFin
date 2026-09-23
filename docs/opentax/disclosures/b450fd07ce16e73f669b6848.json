@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.26a9d50913b54c278d4d0e93",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:69bd9205431038ae5756c550",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성클래식아세안연금증권전환형자투자신탁 제1호[주식]_S-P",
+  "cells": [
+    "삼성자산운용",
+    "삼성클래식아세안연금증권전환형자투자신탁 제1호[주식]_S-P",
+    "주식형",
+    "3",
+    "2016/08/30",
+    "판매",
+    "194",
+    "26.69",
+    "16.51",
+    "9.69",
+    "8.87",
+    "-",
+    "7.39",
+    "1.045",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=279",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=279",
+    "collected_at": "2026-09-23T08:28:04.164649+00:00",
+    "http_status": 200,
+    "sha256": "bd2009d8576c60ea73a66608fa82856517262342b9e8e068b4dd2100e6b44df1"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성클래식아세안연금증권전환형자투자신탁 제1호[주식]_S-P",
+        "상품유형": "주식형",
+        "위험등급": "3",
+        "설정일": "2016/08/30",
+        "판매여부": "판매",
+        "순자산총액": "194",
+        "1년 연평균수익률(%)": "26.69",
+        "3년 연평균수익률(%)": "16.51",
+        "5년 연평균수익률(%)": "9.69",
+        "7년 연평균수익률(%)": "8.87",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "7.39",
+        "연평균수수료율(%)": "1.045",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=279",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=279",
+        "collected_at": "2026-09-23T08:28:04.164649+00:00",
+        "http_status": 200,
+        "sha256": "bd2009d8576c60ea73a66608fa82856517262342b9e8e068b4dd2100e6b44df1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.918e69695ec4c49bddb102f5",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:c03d1eee1a697c9ca4980b71",
+  "group": "3",
+  "provider": "하나자산운용",
+  "title": "하나올차이나증권자투자신탁[주식-재간접형]ClassC-PE",
+  "cells": [
+    "하나자산운용",
+    "하나올차이나증권자투자신탁[주식-재간접형]ClassC-PE",
+    "재간접",
+    "2",
+    "2019/12/23",
+    "판매",
+    "119",
+    "-4.34",
+    "1.19",
+    "-10.91",
+    "-",
+    "-",
+    "-5.86",
+    "0.665",
+    "유진투자증권주식회사, 한국투자증권, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=294",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=294",
+    "collected_at": "2026-09-23T08:28:23.954291+00:00",
+    "http_status": 200,
+    "sha256": "d8e2effcc932645f868aa43005748c547504f952ebc92dc7496ef24503505847"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "하나자산운용",
+        "상품명": "하나올차이나증권자투자신탁[주식-재간접형]ClassC-PE",
+        "상품유형": "재간접",
+        "위험등급": "2",
+        "설정일": "2019/12/23",
+        "판매여부": "판매",
+        "순자산총액": "119",
+        "1년 연평균수익률(%)": "-4.34",
+        "3년 연평균수익률(%)": "1.19",
+        "5년 연평균수익률(%)": "-10.91",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-5.86",
+        "연평균수수료율(%)": "0.665",
+        "상품 판매사": "유진투자증권주식회사, 한국투자증권, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=294",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=294",
+        "collected_at": "2026-09-23T08:28:23.954291+00:00",
+        "http_status": 200,
+        "sha256": "d8e2effcc932645f868aa43005748c547504f952ebc92dc7496ef24503505847"
+      }
+    }
+  ]
+}

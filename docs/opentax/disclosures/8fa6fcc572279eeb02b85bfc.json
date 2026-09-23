@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.1f58218bd77deaa096ecd497",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:438611676ae4d5142a2d0e5b",
+  "group": "3",
+  "provider": "피델리티자산운용",
+  "title": "피델리티 연금 유럽 하이일드 증권 전환형 자투자신탁 (채권-재간접형) 종류 C",
+  "cells": [
+    "피델리티자산운용",
+    "피델리티 연금 유럽 하이일드 증권 전환형 자투자신탁 (채권-재간접형) 종류 C",
+    "재간접",
+    "5",
+    "2012/12/28",
+    "판매",
+    "2,086",
+    "3.48",
+    "6.66",
+    "2.37",
+    "2.82",
+    "3.56",
+    "3.99",
+    "0.730",
+    "한화투자증권주식회사, 한국투자증권, 삼성증권, 우리은행, KB증권, 신영증권주식회사, 미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=148",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=148",
+    "collected_at": "2026-09-23T08:25:07.098569+00:00",
+    "http_status": 200,
+    "sha256": "577470391fabeb827590e3c9cb509658ef562811ede03c236e5724c0ef602a49"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "피델리티자산운용",
+        "상품명": "피델리티 연금 유럽 하이일드 증권 전환형 자투자신탁 (채권-재간접형) 종류 C",
+        "상품유형": "재간접",
+        "위험등급": "5",
+        "설정일": "2012/12/28",
+        "판매여부": "판매",
+        "순자산총액": "2,086",
+        "1년 연평균수익률(%)": "3.48",
+        "3년 연평균수익률(%)": "6.66",
+        "5년 연평균수익률(%)": "2.37",
+        "7년 연평균수익률(%)": "2.82",
+        "10년 연평균수익률(%)": "3.56",
+        "누적연평균수익률(%)": "3.99",
+        "연평균수수료율(%)": "0.730",
+        "상품 판매사": "한화투자증권주식회사, 한국투자증권, 삼성증권, 우리은행, KB증권, 신영증권주식회사, 미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=148",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=148",
+        "collected_at": "2026-09-23T08:25:07.098569+00:00",
+        "http_status": 200,
+        "sha256": "577470391fabeb827590e3c9cb509658ef562811ede03c236e5724c0ef602a49"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.a16c340c220ed4862c7d5b43",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:ee1c077e580be1e0013cd4ce",
+  "group": "3",
+  "provider": "마이다스에셋자산운용",
+  "title": "마이다스 책임투자 증권 투자신탁(주식)S-P",
+  "cells": [
+    "마이다스에셋자산운용",
+    "마이다스 책임투자 증권 투자신탁(주식)S-P",
+    "주식형",
+    "2",
+    "2016/06/30",
+    "판매",
+    "2,337",
+    "169.73",
+    "49.21",
+    "23.93",
+    "27.73",
+    "22.08",
+    "22.13",
+    "0.913",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=142",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=142",
+    "collected_at": "2026-09-23T08:24:59.437471+00:00",
+    "http_status": 200,
+    "sha256": "0fb517e43a471a7ff7d2972666e75020b50ef31309af8beafac1e5273cacd556"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "마이다스에셋자산운용",
+        "상품명": "마이다스 책임투자 증권 투자신탁(주식)S-P",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2016/06/30",
+        "판매여부": "판매",
+        "순자산총액": "2,337",
+        "1년 연평균수익률(%)": "169.73",
+        "3년 연평균수익률(%)": "49.21",
+        "5년 연평균수익률(%)": "23.93",
+        "7년 연평균수익률(%)": "27.73",
+        "10년 연평균수익률(%)": "22.08",
+        "누적연평균수익률(%)": "22.13",
+        "연평균수수료율(%)": "0.913",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=142",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=142",
+        "collected_at": "2026-09-23T08:24:59.437471+00:00",
+        "http_status": 200,
+        "sha256": "0fb517e43a471a7ff7d2972666e75020b50ef31309af8beafac1e5273cacd556"
+      }
+    }
+  ]
+}

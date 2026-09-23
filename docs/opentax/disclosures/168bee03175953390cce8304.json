@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.f723e50c67ebf8a8acc1e01a",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:ae8a4fada52d75e321e4e56f",
+  "group": "4",
+  "provider": "흥국생명보험",
+  "title": "연금저축드림테크연금보험B1",
+  "cells": [
+    "흥국생명보험",
+    "연금저축드림테크연금보험B1",
+    "금리연동형",
+    "2013/04/01",
+    "중단",
+    "3,827",
+    "-3.98",
+    "-0.30",
+    "0.35",
+    "0.63",
+    "0.84",
+    "1.01",
+    "4.303"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=52",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=52",
+    "collected_at": "2026-09-23T08:31:45.578256+00:00",
+    "http_status": 200,
+    "sha256": "6744c4d5c8d55b9becaa0f5f51733d65ed932b708424c8ad3636b819eb69f3a5"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "흥국생명보험",
+        "상품명": "연금저축드림테크연금보험B1",
+        "상품유형": "금리연동형",
+        "최초판매일": "2013/04/01",
+        "판매여부": "중단",
+        "적립금총액": "3,827",
+        "1년 연평균수익률(%)": "-3.98",
+        "3년 연평균수익률(%)": "-0.30",
+        "5년 연평균수익률(%)": "0.35",
+        "7년 연평균수익률(%)": "0.63",
+        "10년 연평균수익률(%)": "0.84",
+        "누적연평균수익률(%)": "1.01",
+        "연평균수수료율(%)": "4.303"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=52",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=52",
+        "collected_at": "2026-09-23T08:31:45.578256+00:00",
+        "http_status": 200,
+        "sha256": "6744c4d5c8d55b9becaa0f5f51733d65ed932b708424c8ad3636b819eb69f3a5"
+      }
+    }
+  ]
+}

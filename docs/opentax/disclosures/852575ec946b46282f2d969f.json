@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.733cfd9335639ffcf340cc0e",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:2f2a5f95293764b18bb94608",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB KoVIC 아시아 증권 투자신탁(주식-재간접형) C-Pe",
+  "cells": [
+    "KB자산운용",
+    "KB KoVIC 아시아 증권 투자신탁(주식-재간접형) C-Pe",
+    "재간접",
+    "3",
+    "2018/02/28",
+    "판매",
+    "158",
+    "69.99",
+    "26.44",
+    "9.30",
+    "11.94",
+    "-",
+    "8.77",
+    "0.906",
+    "KB증권, KB국민은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=286",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=286",
+    "collected_at": "2026-09-23T08:28:13.349960+00:00",
+    "http_status": 200,
+    "sha256": "0658ac9b2fb73f2d557e36fe716a0785924c6741aeb7fdfe869ba4bc4cb5195a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB KoVIC 아시아 증권 투자신탁(주식-재간접형) C-Pe",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2018/02/28",
+        "판매여부": "판매",
+        "순자산총액": "158",
+        "1년 연평균수익률(%)": "69.99",
+        "3년 연평균수익률(%)": "26.44",
+        "5년 연평균수익률(%)": "9.30",
+        "7년 연평균수익률(%)": "11.94",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "8.77",
+        "연평균수수료율(%)": "0.906",
+        "상품 판매사": "KB증권, KB국민은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=286",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=286",
+        "collected_at": "2026-09-23T08:28:13.349960+00:00",
+        "http_status": 200,
+        "sha256": "0658ac9b2fb73f2d557e36fe716a0785924c6741aeb7fdfe869ba4bc4cb5195a"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.335ef516fe3dd705cf6f587a",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:b0543b85a7ed74a0051ef477",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋글로벌혁신기업ESG증권자투자신탁(주식)종류C-Pe",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋글로벌혁신기업ESG증권자투자신탁(주식)종류C-Pe",
+    "주식형",
+    "2",
+    "2021/01/18",
+    "판매",
+    "474",
+    "17.25",
+    "18.75",
+    "5.91",
+    "-",
+    "-",
+    "5.97",
+    "1.330",
+    "한화투자증권주식회사, 우리은행, 미래에셋증권 주식회사, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=235",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=235",
+    "collected_at": "2026-09-23T08:27:05.248423+00:00",
+    "http_status": 200,
+    "sha256": "bf5c9083519ba3c0f0ab2075be6ae246ed496536dcf39f169122d95b7c33f030"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋글로벌혁신기업ESG증권자투자신탁(주식)종류C-Pe",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2021/01/18",
+        "판매여부": "판매",
+        "순자산총액": "474",
+        "1년 연평균수익률(%)": "17.25",
+        "3년 연평균수익률(%)": "18.75",
+        "5년 연평균수익률(%)": "5.91",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "5.97",
+        "연평균수수료율(%)": "1.330",
+        "상품 판매사": "한화투자증권주식회사, 우리은행, 미래에셋증권 주식회사, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=235",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=235",
+        "collected_at": "2026-09-23T08:27:05.248423+00:00",
+        "http_status": 200,
+        "sha256": "bf5c9083519ba3c0f0ab2075be6ae246ed496536dcf39f169122d95b7c33f030"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.e07f2230700c37fc838c9eae",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:59adc281e55eff7707648ff9",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋다이와일본밸류중소형증권자투자신탁1호(H)(주식)종류C-P",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋다이와일본밸류중소형증권자투자신탁1호(H)(주식)종류C-P",
+    "주식형",
+    "3",
+    "2015/08/17",
+    "판매",
+    "758",
+    "53.41",
+    "26.67",
+    "19.23",
+    "16.58",
+    "13.06",
+    "10.84",
+    "1.867",
+    "한화투자증권주식회사, 한국투자증권, KB국민은행, 미래에셋증권 주식회사, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=206",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=206",
+    "collected_at": "2026-09-23T08:26:26.387477+00:00",
+    "http_status": 200,
+    "sha256": "a6044ccfe97bc0c55ca835e3457762fb65567cb029637b4e4eee405d8d962040"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋다이와일본밸류중소형증권자투자신탁1호(H)(주식)종류C-P",
+        "상품유형": "주식형",
+        "위험등급": "3",
+        "설정일": "2015/08/17",
+        "판매여부": "판매",
+        "순자산총액": "758",
+        "1년 연평균수익률(%)": "53.41",
+        "3년 연평균수익률(%)": "26.67",
+        "5년 연평균수익률(%)": "19.23",
+        "7년 연평균수익률(%)": "16.58",
+        "10년 연평균수익률(%)": "13.06",
+        "누적연평균수익률(%)": "10.84",
+        "연평균수수료율(%)": "1.867",
+        "상품 판매사": "한화투자증권주식회사, 한국투자증권, KB국민은행, 미래에셋증권 주식회사, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=206",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=206",
+        "collected_at": "2026-09-23T08:26:26.387477+00:00",
+        "http_status": 200,
+        "sha256": "a6044ccfe97bc0c55ca835e3457762fb65567cb029637b4e4eee405d8d962040"
+      }
+    }
+  ]
+}

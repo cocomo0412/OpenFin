@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.7145ca8f649bb7566fd44e78",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:437d08f9c38d8744c70235e7",
+  "group": "3",
+  "provider": "신한자산운용",
+  "title": "신한커버드콜인덱스증권자투자신탁[주식혼합-파생형](종류C-pe)",
+  "cells": [
+    "신한자산운용",
+    "신한커버드콜인덱스증권자투자신탁[주식혼합-파생형](종류C-pe)",
+    "파생상품",
+    "2",
+    "2017/09/11",
+    "판매",
+    "519",
+    "57.90",
+    "23.54",
+    "10.21",
+    "9.77",
+    "-",
+    "7.38",
+    "0.942",
+    "유진투자증권주식회사, 키움증권(주), 광주은행, 한국투자증권, 아이엠증권, 신한은행, 하나은행, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=230",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=230",
+    "collected_at": "2026-09-23T08:26:58.306063+00:00",
+    "http_status": 200,
+    "sha256": "6b43db25ec0985545aff73d3b566daffe9f679498c627e8b63e7cca9333958ae"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한자산운용",
+        "상품명": "신한커버드콜인덱스증권자투자신탁[주식혼합-파생형](종류C-pe)",
+        "상품유형": "파생상품",
+        "위험등급": "2",
+        "설정일": "2017/09/11",
+        "판매여부": "판매",
+        "순자산총액": "519",
+        "1년 연평균수익률(%)": "57.90",
+        "3년 연평균수익률(%)": "23.54",
+        "5년 연평균수익률(%)": "10.21",
+        "7년 연평균수익률(%)": "9.77",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "7.38",
+        "연평균수수료율(%)": "0.942",
+        "상품 판매사": "유진투자증권주식회사, 키움증권(주), 광주은행, 한국투자증권, 아이엠증권, 신한은행, 하나은행, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=230",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=230",
+        "collected_at": "2026-09-23T08:26:58.306063+00:00",
+        "http_status": 200,
+        "sha256": "6b43db25ec0985545aff73d3b566daffe9f679498c627e8b63e7cca9333958ae"
+      }
+    }
+  ]
+}

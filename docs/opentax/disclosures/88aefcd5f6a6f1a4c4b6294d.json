@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.a5e08f0fd196a451fc5d4d8e",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:2433cdd9e47e9a84d48e72b7",
+  "group": "3",
+  "provider": "흥국자산운용",
+  "title": "흥국디딤연금플러스증권자투자신탁[혼합-재간접형]C-pe",
+  "cells": [
+    "흥국자산운용",
+    "흥국디딤연금플러스증권자투자신탁[혼합-재간접형]C-pe",
+    "재간접",
+    "3",
+    "2024/09/25",
+    "판매",
+    "590",
+    "20.32",
+    "-",
+    "-",
+    "-",
+    "-",
+    "14.51",
+    "0.486",
+    "삼성증권, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=221",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=221",
+    "collected_at": "2026-09-23T08:26:45.869869+00:00",
+    "http_status": 200,
+    "sha256": "f0836f5287bb938b0cc99496508092186efbe89ed465f4200ed81771107025f7"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "흥국자산운용",
+        "상품명": "흥국디딤연금플러스증권자투자신탁[혼합-재간접형]C-pe",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2024/09/25",
+        "판매여부": "판매",
+        "순자산총액": "590",
+        "1년 연평균수익률(%)": "20.32",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "14.51",
+        "연평균수수료율(%)": "0.486",
+        "상품 판매사": "삼성증권, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=221",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=221",
+        "collected_at": "2026-09-23T08:26:45.869869+00:00",
+        "http_status": 200,
+        "sha256": "f0836f5287bb938b0cc99496508092186efbe89ed465f4200ed81771107025f7"
+      }
+    }
+  ]
+}

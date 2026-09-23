@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.cab01f2d202480bc2012ff13",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:60177af95785ea2f4cbefc63",
+  "group": "4",
+  "provider": "케이디비생명보험",
+  "title": "연금저축 무배당 KDB다이렉트연금보험",
+  "cells": [
+    "케이디비생명보험",
+    "연금저축 무배당 KDB다이렉트연금보험",
+    "금리연동형",
+    "2015/04/01",
+    "중단",
+    "13,711",
+    "-2.57",
+    "0.18",
+    "0.68",
+    "0.90",
+    "1.15",
+    "1.18",
+    "3.384"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=33",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=33",
+    "collected_at": "2026-09-23T08:31:12.115659+00:00",
+    "http_status": 200,
+    "sha256": "77ff121652d37e35c4f4813762246255167aa580d52fd75f846de36ca57ec97b"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "케이디비생명보험",
+        "상품명": "연금저축 무배당 KDB다이렉트연금보험",
+        "상품유형": "금리연동형",
+        "최초판매일": "2015/04/01",
+        "판매여부": "중단",
+        "적립금총액": "13,711",
+        "1년 연평균수익률(%)": "-2.57",
+        "3년 연평균수익률(%)": "0.18",
+        "5년 연평균수익률(%)": "0.68",
+        "7년 연평균수익률(%)": "0.90",
+        "10년 연평균수익률(%)": "1.15",
+        "누적연평균수익률(%)": "1.18",
+        "연평균수수료율(%)": "3.384"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=33",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=33",
+        "collected_at": "2026-09-23T08:31:12.115659+00:00",
+        "http_status": 200,
+        "sha256": "77ff121652d37e35c4f4813762246255167aa580d52fd75f846de36ca57ec97b"
+      }
+    }
+  ]
+}

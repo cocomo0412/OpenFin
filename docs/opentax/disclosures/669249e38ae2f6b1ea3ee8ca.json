@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.85ceb712de43c3f3677ba3aa",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:eb4e5bd06bddd8d02f5a9e25",
+  "group": "4",
+  "provider": "에이비엘생명보험",
+  "title": "무)ABL인터넷연금저축보험",
+  "cells": [
+    "에이비엘생명보험",
+    "무)ABL인터넷연금저축보험",
+    "금리연동형",
+    "2024/04/01",
+    "중단",
+    "233",
+    "-3.26",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-1.73",
+    "4.500"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=66",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=66",
+    "collected_at": "2026-09-23T08:32:05.484646+00:00",
+    "http_status": 200,
+    "sha256": "c32a8ebd65536cf21de6d3bd40b86cca4216c2a1f5f594fefd60816decf0724a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "에이비엘생명보험",
+        "상품명": "무)ABL인터넷연금저축보험",
+        "상품유형": "금리연동형",
+        "최초판매일": "2024/04/01",
+        "판매여부": "중단",
+        "적립금총액": "233",
+        "1년 연평균수익률(%)": "-3.26",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-1.73",
+        "연평균수수료율(%)": "4.500"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=66",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=66",
+        "collected_at": "2026-09-23T08:32:05.484646+00:00",
+        "http_status": 200,
+        "sha256": "c32a8ebd65536cf21de6d3bd40b86cca4216c2a1f5f594fefd60816decf0724a"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.cede9d2bae503073ac64fc0f",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:5d22fa5d7b08cc817884fc2c",
+  "group": "3",
+  "provider": "한화자산운용",
+  "title": "한화 LIFEPLUS 적격TDF 2060 증권 자투자신탁(주식혼합-재간접형) C-Pe(연금저축)",
+  "cells": [
+    "한화자산운용",
+    "한화 LIFEPLUS 적격TDF 2060 증권 자투자신탁(주식혼합-재간접형) C-Pe(연금저축)",
+    "재간접",
+    "2",
+    "2024/12/30",
+    "판매",
+    "511",
+    "40.59",
+    "-",
+    "-",
+    "-",
+    "-",
+    "27.80",
+    "0.816",
+    "한화투자증권주식회사, 삼성증권, KB증권, 신영증권주식회사, 미래에셋증권 주식회사, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=231",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=231",
+    "collected_at": "2026-09-23T08:26:59.927834+00:00",
+    "http_status": 200,
+    "sha256": "5377f5954ab66b3f8c7709328b4d16f784ec4a31114c6c7c05f7cd46b8cd61db"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한화자산운용",
+        "상품명": "한화 LIFEPLUS 적격TDF 2060 증권 자투자신탁(주식혼합-재간접형) C-Pe(연금저축)",
+        "상품유형": "재간접",
+        "위험등급": "2",
+        "설정일": "2024/12/30",
+        "판매여부": "판매",
+        "순자산총액": "511",
+        "1년 연평균수익률(%)": "40.59",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "27.80",
+        "연평균수수료율(%)": "0.816",
+        "상품 판매사": "한화투자증권주식회사, 삼성증권, KB증권, 신영증권주식회사, 미래에셋증권 주식회사, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=231",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=231",
+        "collected_at": "2026-09-23T08:26:59.927834+00:00",
+        "http_status": 200,
+        "sha256": "5377f5954ab66b3f8c7709328b4d16f784ec4a31114c6c7c05f7cd46b8cd61db"
+      }
+    }
+  ]
+}

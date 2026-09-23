@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.c6d78b6b45cf04b6f0cb1ab2",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:0edf5091e5353cd056519e42",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자다이나믹헤지인컴증권자투자신탁(채권-재간접형)(C-P)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자다이나믹헤지인컴증권자투자신탁(채권-재간접형)(C-P)",
+    "재간접",
+    "4",
+    "2020/02/24",
+    "판매",
+    "28",
+    "0.96",
+    "0.85",
+    "-1.11",
+    "-",
+    "-",
+    "-1.18",
+    "0.836",
+    "IBK기업은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=307",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=307",
+    "collected_at": "2026-09-23T08:28:41.407599+00:00",
+    "http_status": 200,
+    "sha256": "6fed9eb0e0d424415054c63be336de9d67e6abc12f542bd9efeb64fd947c7a01"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자다이나믹헤지인컴증권자투자신탁(채권-재간접형)(C-P)",
+        "상품유형": "재간접",
+        "위험등급": "4",
+        "설정일": "2020/02/24",
+        "판매여부": "판매",
+        "순자산총액": "28",
+        "1년 연평균수익률(%)": "0.96",
+        "3년 연평균수익률(%)": "0.85",
+        "5년 연평균수익률(%)": "-1.11",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-1.18",
+        "연평균수수료율(%)": "0.836",
+        "상품 판매사": "IBK기업은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=307",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=307",
+        "collected_at": "2026-09-23T08:28:41.407599+00:00",
+        "http_status": 200,
+        "sha256": "6fed9eb0e0d424415054c63be336de9d67e6abc12f542bd9efeb64fd947c7a01"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.5b8ed37220c3224f9f6729d5",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:a4d83dddfa89702db5a4ef87",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자SSGA글로벌저변동성증권자투자신탁H(주식)(C-Pe)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자SSGA글로벌저변동성증권자투자신탁H(주식)(C-Pe)",
+    "주식형",
+    "4",
+    "2018/08/24",
+    "판매",
+    "848",
+    "9.33",
+    "10.10",
+    "6.69",
+    "5.74",
+    "-",
+    "6.09",
+    "1.032",
+    "광주은행, 한국투자증권, KB증권, KB국민은행, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=197",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=197",
+    "collected_at": "2026-09-23T08:26:13.378895+00:00",
+    "http_status": 200,
+    "sha256": "109aff352f9d070985f76742f09bb9981855e2dac318889e83fd5d0b85318c56"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자SSGA글로벌저변동성증권자투자신탁H(주식)(C-Pe)",
+        "상품유형": "주식형",
+        "위험등급": "4",
+        "설정일": "2018/08/24",
+        "판매여부": "판매",
+        "순자산총액": "848",
+        "1년 연평균수익률(%)": "9.33",
+        "3년 연평균수익률(%)": "10.10",
+        "5년 연평균수익률(%)": "6.69",
+        "7년 연평균수익률(%)": "5.74",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "6.09",
+        "연평균수수료율(%)": "1.032",
+        "상품 판매사": "광주은행, 한국투자증권, KB증권, KB국민은행, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=197",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=197",
+        "collected_at": "2026-09-23T08:26:13.378895+00:00",
+        "http_status": 200,
+        "sha256": "109aff352f9d070985f76742f09bb9981855e2dac318889e83fd5d0b85318c56"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.91626e8dc75e41e7993eab84",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:6526e6975006a83f73f4585c",
+  "group": "3",
+  "provider": "신한자산운용",
+  "title": "신한BEST개인용MMF제1호(종류C-p)",
+  "cells": [
+    "신한자산운용",
+    "신한BEST개인용MMF제1호(종류C-p)",
+    "단기금융",
+    "6",
+    "2013/11/04",
+    "판매",
+    "19,328",
+    "2.44",
+    "3.01",
+    "2.61",
+    "2.08",
+    "1.78",
+    "1.73",
+    "0.295",
+    "신한은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=50",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=50",
+    "collected_at": "2026-09-23T08:22:54.867998+00:00",
+    "http_status": 200,
+    "sha256": "8136a8af2da6fcd0d36c071fc75a7c0a82d85ac762432ba4ba60c67063085c30"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한자산운용",
+        "상품명": "신한BEST개인용MMF제1호(종류C-p)",
+        "상품유형": "단기금융",
+        "위험등급": "6",
+        "설정일": "2013/11/04",
+        "판매여부": "판매",
+        "순자산총액": "19,328",
+        "1년 연평균수익률(%)": "2.44",
+        "3년 연평균수익률(%)": "3.01",
+        "5년 연평균수익률(%)": "2.61",
+        "7년 연평균수익률(%)": "2.08",
+        "10년 연평균수익률(%)": "1.78",
+        "누적연평균수익률(%)": "1.73",
+        "연평균수수료율(%)": "0.295",
+        "상품 판매사": "신한은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=50",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=50",
+        "collected_at": "2026-09-23T08:22:54.867998+00:00",
+        "http_status": 200,
+        "sha256": "8136a8af2da6fcd0d36c071fc75a7c0a82d85ac762432ba4ba60c67063085c30"
+      }
+    }
+  ]
+}

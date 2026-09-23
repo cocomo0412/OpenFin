@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.f7da97d57bb3191664a8adbb",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:8f784415f836d7878367b284",
+  "group": "5",
+  "provider": "삼성화재해상보험",
+  "title": "연금저축손해보험 삼성명품 연금보험(1204)",
+  "cells": [
+    "삼성화재해상보험",
+    "연금저축손해보험 삼성명품 연금보험(1204)",
+    "금리연동형",
+    "2012/04/01",
+    "중단",
+    "104,462",
+    "-4.62",
+    "-0.46",
+    "0.14",
+    "0.41",
+    "0.68",
+    "0.91",
+    "5.619"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=6",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=6",
+    "collected_at": "2026-09-23T08:21:51.081105+00:00",
+    "http_status": 200,
+    "sha256": "ddb5b85d12fd2692ff9ee137fbc61fa16169a9503c93b8c9f366903cc5e0f790"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성화재해상보험",
+        "상품명": "연금저축손해보험 삼성명품 연금보험(1204)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2012/04/01",
+        "판매여부": "중단",
+        "적립금총액": "104,462",
+        "1년 연평균수익률(%)": "-4.62",
+        "3년 연평균수익률(%)": "-0.46",
+        "5년 연평균수익률(%)": "0.14",
+        "7년 연평균수익률(%)": "0.41",
+        "10년 연평균수익률(%)": "0.68",
+        "누적연평균수익률(%)": "0.91",
+        "연평균수수료율(%)": "5.619"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=6",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=6",
+        "collected_at": "2026-09-23T08:21:51.081105+00:00",
+        "http_status": 200,
+        "sha256": "ddb5b85d12fd2692ff9ee137fbc61fa16169a9503c93b8c9f366903cc5e0f790"
+      }
+    }
+  ]
+}

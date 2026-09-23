@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.75e5720fa868e4d9f8a7e644",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:5aafddad8bddffae716f6cad",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 장기국채 플러스 증권 자투자신탁(채권) S-P 클래스",
+  "cells": [
+    "KB자산운용",
+    "KB 장기국채 플러스 증권 자투자신탁(채권) S-P 클래스",
+    "채권형",
+    "4",
+    "2024/06/27",
+    "판매",
+    "9",
+    "-11.06",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-2.00",
+    "0.185",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=313",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=313",
+    "collected_at": "2026-09-23T08:28:50.971360+00:00",
+    "http_status": 200,
+    "sha256": "4e6b6be1c1cc7513613ebad3578e80ef906f1f4f633dcbfda865f0d64c8e7390"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 장기국채 플러스 증권 자투자신탁(채권) S-P 클래스",
+        "상품유형": "채권형",
+        "위험등급": "4",
+        "설정일": "2024/06/27",
+        "판매여부": "판매",
+        "순자산총액": "9",
+        "1년 연평균수익률(%)": "-11.06",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-2.00",
+        "연평균수수료율(%)": "0.185",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=313",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=313",
+        "collected_at": "2026-09-23T08:28:50.971360+00:00",
+        "http_status": 200,
+        "sha256": "4e6b6be1c1cc7513613ebad3578e80ef906f1f4f633dcbfda865f0d64c8e7390"
+      }
+    }
+  ]
+}

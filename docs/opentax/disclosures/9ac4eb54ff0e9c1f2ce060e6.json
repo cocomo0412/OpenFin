@@ -1,0 +1,49 @@
+{
+  "id": "finance.insurance.klia.disease.삼성생명.l0302460001nnn0247000202440001024400010003024400010003000202440001000300020004p0578",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L0302460001NNN0247000202440001024400010003024400010003000202440001000300020004P0578",
+  "group": "024400010003",
+  "title": "삼성 스마트보장보험(2501)(무배당)",
+  "provider": "삼성생명",
+  "cells": [
+    "삼성생명",
+    "삼성 스마트보장보험(2501)(무배당)",
+    "주계약",
+    "특정법정감염병 진단보험금 *지급사유 : 보험기간 중 “특정법정감염병”으로 진단이 확정되었을 때(1회당)",
+    "1,000만원",
+    "80 원",
+    "80 원",
+    "2.00 %",
+    "-",
+    "-",
+    "92.8 %",
+    "106.1 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "기타",
+    "순수보장",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "대면채널",
+    "2025-01-01",
+    "Download",
+    "보기",
+    "1588-3114"
+  ],
+  "coverage": [
+    "특정법정감염병 진단보험금 *지급사유 : 보험기간 중 “특정법정감염병”으로 진단이 확정되었을 때(1회당)"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=22559&seq=12"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010003&pageIndex=2&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010003&pageIndex=2&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:25.471862+00:00",
+    "http_status": 200,
+    "sha256": "92397957b8d9cc1676fad033a2358a7ca1de2f1dfc5a88e636633a61d3ab28ea"
+  }
+}

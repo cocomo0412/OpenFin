@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.78acf3202841fe30143e7b41",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:459ae9e037dccef216547453",
+  "group": "3",
+  "provider": "한화자산운용",
+  "title": "한화글로벌리츠부동산 자투자신탁2호(리츠-재간접형) 종류 C-Pe(연금저축)",
+  "cells": [
+    "한화자산운용",
+    "한화글로벌리츠부동산 자투자신탁2호(리츠-재간접형) 종류 C-Pe(연금저축)",
+    "부동산",
+    "3",
+    "2017/09/01",
+    "판매",
+    "238",
+    "17.37",
+    "9.40",
+    "2.19",
+    "2.52",
+    "-",
+    "2.78",
+    "0.991",
+    "키움증권(주), 한국투자증권, 삼성증권, 미래에셋증권 주식회사, IBK투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=272",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=272",
+    "collected_at": "2026-09-23T08:27:54.772209+00:00",
+    "http_status": 200,
+    "sha256": "610045407a77b660c9899c76608fd7df1df1638ae78ae0cea8e14ba214f21c64"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한화자산운용",
+        "상품명": "한화글로벌리츠부동산 자투자신탁2호(리츠-재간접형) 종류 C-Pe(연금저축)",
+        "상품유형": "부동산",
+        "위험등급": "3",
+        "설정일": "2017/09/01",
+        "판매여부": "판매",
+        "순자산총액": "238",
+        "1년 연평균수익률(%)": "17.37",
+        "3년 연평균수익률(%)": "9.40",
+        "5년 연평균수익률(%)": "2.19",
+        "7년 연평균수익률(%)": "2.52",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "2.78",
+        "연평균수수료율(%)": "0.991",
+        "상품 판매사": "키움증권(주), 한국투자증권, 삼성증권, 미래에셋증권 주식회사, IBK투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=272",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=272",
+        "collected_at": "2026-09-23T08:27:54.772209+00:00",
+        "http_status": 200,
+        "sha256": "610045407a77b660c9899c76608fd7df1df1638ae78ae0cea8e14ba214f21c64"
+      }
+    }
+  ]
+}

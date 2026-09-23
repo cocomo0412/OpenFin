@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.d5b693b1984bc1c5c5e3b60e",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:2dcff7756b843e5546ad1512",
+  "group": "4",
+  "provider": "케이디비생명보험",
+  "title": "(연금저축)New-노후사랑연금보험(확정연금형)",
+  "cells": [
+    "케이디비생명보험",
+    "(연금저축)New-노후사랑연금보험(확정연금형)",
+    "금리연동형",
+    "2004/04/19",
+    "중단",
+    "854",
+    "-9.23",
+    "-1.11",
+    "0.80",
+    "1.44",
+    "1.99",
+    "2.26",
+    "9.970"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=63",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=63",
+    "collected_at": "2026-09-23T08:32:01.142191+00:00",
+    "http_status": 200,
+    "sha256": "e8fcb425896edd9c6acf338d5ba095848587b32190c51b25f19cfebac2388f32"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "케이디비생명보험",
+        "상품명": "(연금저축)New-노후사랑연금보험(확정연금형)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2004/04/19",
+        "판매여부": "중단",
+        "적립금총액": "854",
+        "1년 연평균수익률(%)": "-9.23",
+        "3년 연평균수익률(%)": "-1.11",
+        "5년 연평균수익률(%)": "0.80",
+        "7년 연평균수익률(%)": "1.44",
+        "10년 연평균수익률(%)": "1.99",
+        "누적연평균수익률(%)": "2.26",
+        "연평균수수료율(%)": "9.970"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=63",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=63",
+        "collected_at": "2026-09-23T08:32:01.142191+00:00",
+        "http_status": 200,
+        "sha256": "e8fcb425896edd9c6acf338d5ba095848587b32190c51b25f19cfebac2388f32"
+      }
+    }
+  ]
+}

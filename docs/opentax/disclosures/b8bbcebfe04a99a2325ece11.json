@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.35c23f2a0e5bda278a93dc74",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:c6a6dbd1509a3a983bac5b3b",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB스타 골드 특별자산 투자신탁(금-파생형)C-Pe",
+  "cells": [
+    "KB자산운용",
+    "KB스타 골드 특별자산 투자신탁(금-파생형)C-Pe",
+    "파생상품",
+    "2",
+    "2017/03/14",
+    "판매",
+    "10,336",
+    "17.43",
+    "22.16",
+    "13.42",
+    "11.83",
+    "-",
+    "9.95",
+    "1.000",
+    "유진투자증권주식회사, 케이프투자증권, 한화투자증권주식회사, (주)우리투자증권, 키움증권(주), 한국투자증권, 삼성증권, 우리은행, KB증권, 아이엠증권, KB국민은행, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=73",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=73",
+    "collected_at": "2026-09-23T08:23:26.146244+00:00",
+    "http_status": 200,
+    "sha256": "0a19d63059530c15b8cb1b32056f3e07aa37176282d52d5d58bc67b714e57196"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB스타 골드 특별자산 투자신탁(금-파생형)C-Pe",
+        "상품유형": "파생상품",
+        "위험등급": "2",
+        "설정일": "2017/03/14",
+        "판매여부": "판매",
+        "순자산총액": "10,336",
+        "1년 연평균수익률(%)": "17.43",
+        "3년 연평균수익률(%)": "22.16",
+        "5년 연평균수익률(%)": "13.42",
+        "7년 연평균수익률(%)": "11.83",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "9.95",
+        "연평균수수료율(%)": "1.000",
+        "상품 판매사": "유진투자증권주식회사, 케이프투자증권, 한화투자증권주식회사, (주)우리투자증권, 키움증권(주), 한국투자증권, 삼성증권, 우리은행, KB증권, 아이엠증권, KB국민은행, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=73",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=73",
+        "collected_at": "2026-09-23T08:23:26.146244+00:00",
+        "http_status": 200,
+        "sha256": "0a19d63059530c15b8cb1b32056f3e07aa37176282d52d5d58bc67b714e57196"
+      }
+    }
+  ]
+}

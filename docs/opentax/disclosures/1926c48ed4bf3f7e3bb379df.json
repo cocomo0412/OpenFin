@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.fb29365522c51c4a3ecc11fb",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:677b33ffb1398f4905adeb84",
+  "group": "3",
+  "provider": "KCGI자산운용",
+  "title": "KCGI코리아연금증권전환형자투자신탁1호[주식혼합]종류A",
+  "cells": [
+    "KCGI자산운용",
+    "KCGI코리아연금증권전환형자투자신탁1호[주식혼합]종류A",
+    "혼합주식형",
+    "4",
+    "2010/06/25",
+    "판매",
+    "3,064",
+    "64.40",
+    "31.97",
+    "15.89",
+    "16.76",
+    "10.95",
+    "8.50",
+    "0.783",
+    "(주)우리투자증권, 키움증권(주), 교보증권(주), KB증권, 대신증권주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=127",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=127",
+    "collected_at": "2026-09-23T08:24:39.872616+00:00",
+    "http_status": 200,
+    "sha256": "e9b4e36d965481680b45ff8f3d7b17708913a93a1226ccc3bfe1db33b684bf0c"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KCGI자산운용",
+        "상품명": "KCGI코리아연금증권전환형자투자신탁1호[주식혼합]종류A",
+        "상품유형": "혼합주식형",
+        "위험등급": "4",
+        "설정일": "2010/06/25",
+        "판매여부": "판매",
+        "순자산총액": "3,064",
+        "1년 연평균수익률(%)": "64.40",
+        "3년 연평균수익률(%)": "31.97",
+        "5년 연평균수익률(%)": "15.89",
+        "7년 연평균수익률(%)": "16.76",
+        "10년 연평균수익률(%)": "10.95",
+        "누적연평균수익률(%)": "8.50",
+        "연평균수수료율(%)": "0.783",
+        "상품 판매사": "(주)우리투자증권, 키움증권(주), 교보증권(주), KB증권, 대신증권주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=127",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=127",
+        "collected_at": "2026-09-23T08:24:39.872616+00:00",
+        "http_status": 200,
+        "sha256": "e9b4e36d965481680b45ff8f3d7b17708913a93a1226ccc3bfe1db33b684bf0c"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.17fbff9bd84323146a152df6",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:6eaf7c8769557cae031cdd81",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 연금 성장주50 증권 전환형 자투자신탁(채권혼합) S-P 클래스",
+  "cells": [
+    "KB자산운용",
+    "KB 연금 성장주50 증권 전환형 자투자신탁(채권혼합) S-P 클래스",
+    "혼합채권형",
+    "4",
+    "2014/04/23",
+    "판매",
+    "246",
+    "66.44",
+    "27.21",
+    "13.64",
+    "13.76",
+    "10.69",
+    "8.98",
+    "0.631",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=269",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=269",
+    "collected_at": "2026-09-23T08:27:50.980143+00:00",
+    "http_status": 200,
+    "sha256": "cb10bdf6d31b541520b90234425b9667b1770d743d20c864d86478b3059afc15"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 연금 성장주50 증권 전환형 자투자신탁(채권혼합) S-P 클래스",
+        "상품유형": "혼합채권형",
+        "위험등급": "4",
+        "설정일": "2014/04/23",
+        "판매여부": "판매",
+        "순자산총액": "246",
+        "1년 연평균수익률(%)": "66.44",
+        "3년 연평균수익률(%)": "27.21",
+        "5년 연평균수익률(%)": "13.64",
+        "7년 연평균수익률(%)": "13.76",
+        "10년 연평균수익률(%)": "10.69",
+        "누적연평균수익률(%)": "8.98",
+        "연평균수수료율(%)": "0.631",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=269",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=269",
+        "collected_at": "2026-09-23T08:27:50.980143+00:00",
+        "http_status": 200,
+        "sha256": "cb10bdf6d31b541520b90234425b9667b1770d743d20c864d86478b3059afc15"
+      }
+    }
+  ]
+}

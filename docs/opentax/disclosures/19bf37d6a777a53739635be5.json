@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.81a0f721d16c49a470ce3e02",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:2af103c910df57d4baf0e727",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자글로벌우주기술&방산증권자투자신탁UH(주식)(C-Pe)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자글로벌우주기술&방산증권자투자신탁UH(주식)(C-Pe)",
+    "주식형",
+    "2",
+    "2025/02/20",
+    "판매",
+    "2,438",
+    "51.17",
+    "-",
+    "-",
+    "-",
+    "-",
+    "43.35",
+    "1.198",
+    "디비증권주식회사, NH농협은행, 유안타증권주식회사, 아이엠증권, 미래에셋증권 주식회사, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=140",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=140",
+    "collected_at": "2026-09-23T08:24:56.988911+00:00",
+    "http_status": 200,
+    "sha256": "817811ddb654f684194eb35b2dcf65d5b6caeb76eacdce1a8e48b940de189af8"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자글로벌우주기술&방산증권자투자신탁UH(주식)(C-Pe)",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2025/02/20",
+        "판매여부": "판매",
+        "순자산총액": "2,438",
+        "1년 연평균수익률(%)": "51.17",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "43.35",
+        "연평균수수료율(%)": "1.198",
+        "상품 판매사": "디비증권주식회사, NH농협은행, 유안타증권주식회사, 아이엠증권, 미래에셋증권 주식회사, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=140",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=140",
+        "collected_at": "2026-09-23T08:24:56.988911+00:00",
+        "http_status": 200,
+        "sha256": "817811ddb654f684194eb35b2dcf65d5b6caeb76eacdce1a8e48b940de189af8"
+      }
+    }
+  ]
+}

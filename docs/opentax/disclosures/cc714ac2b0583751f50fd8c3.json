@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.f28e48a5e8b7e1be86fdc4a7",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:67f38596a2dc2a74a9af1f51",
+  "group": "5",
+  "provider": "현대해상화재보험",
+  "title": "연금저축손해보험 하이라이프노후웰스보험(Hi0910)",
+  "cells": [
+    "현대해상화재보험",
+    "연금저축손해보험 하이라이프노후웰스보험(Hi0910)",
+    "금리연동형",
+    "2009/10/01",
+    "중단",
+    "279,276",
+    "-6.99",
+    "-0.72",
+    "0.21",
+    "0.46",
+    "0.65",
+    "1.05",
+    "7.163"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=3",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=3",
+    "collected_at": "2026-09-23T08:21:47.821113+00:00",
+    "http_status": 200,
+    "sha256": "9de7da337f8a790bad424e7ac3da1caf746dfa9f4de5dc0658a73a5fc9cd6d6e"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "현대해상화재보험",
+        "상품명": "연금저축손해보험 하이라이프노후웰스보험(Hi0910)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2009/10/01",
+        "판매여부": "중단",
+        "적립금총액": "279,276",
+        "1년 연평균수익률(%)": "-6.99",
+        "3년 연평균수익률(%)": "-0.72",
+        "5년 연평균수익률(%)": "0.21",
+        "7년 연평균수익률(%)": "0.46",
+        "10년 연평균수익률(%)": "0.65",
+        "누적연평균수익률(%)": "1.05",
+        "연평균수수료율(%)": "7.163"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=3",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=3",
+        "collected_at": "2026-09-23T08:21:47.821113+00:00",
+        "http_status": 200,
+        "sha256": "9de7da337f8a790bad424e7ac3da1caf746dfa9f4de5dc0658a73a5fc9cd6d6e"
+      }
+    }
+  ]
+}

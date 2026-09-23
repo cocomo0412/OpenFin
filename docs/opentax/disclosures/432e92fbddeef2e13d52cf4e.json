@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.5a9fbea5d1c55700fc173c69",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:db5fe0f0888ff8b45bf5e45c",
+  "group": "3",
+  "provider": "신한자산운용",
+  "title": "신한BEST개인용MMF제1호(종류 S-P)",
+  "cells": [
+    "신한자산운용",
+    "신한BEST개인용MMF제1호(종류 S-P)",
+    "단기금융",
+    "6",
+    "2014/04/23",
+    "판매",
+    "301",
+    "2.59",
+    "3.16",
+    "2.76",
+    "2.25",
+    "1.99",
+    "1.79",
+    "0.152",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=259",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=259",
+    "collected_at": "2026-09-23T08:27:37.413060+00:00",
+    "http_status": 200,
+    "sha256": "1409d104e8028e6bd05b8e8aa186e7695ad06e82870053e8fe2dea5e95390260"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한자산운용",
+        "상품명": "신한BEST개인용MMF제1호(종류 S-P)",
+        "상품유형": "단기금융",
+        "위험등급": "6",
+        "설정일": "2014/04/23",
+        "판매여부": "판매",
+        "순자산총액": "301",
+        "1년 연평균수익률(%)": "2.59",
+        "3년 연평균수익률(%)": "3.16",
+        "5년 연평균수익률(%)": "2.76",
+        "7년 연평균수익률(%)": "2.25",
+        "10년 연평균수익률(%)": "1.99",
+        "누적연평균수익률(%)": "1.79",
+        "연평균수수료율(%)": "0.152",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=259",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=259",
+        "collected_at": "2026-09-23T08:27:37.413060+00:00",
+        "http_status": 200,
+        "sha256": "1409d104e8028e6bd05b8e8aa186e7695ad06e82870053e8fe2dea5e95390260"
+      }
+    }
+  ]
+}

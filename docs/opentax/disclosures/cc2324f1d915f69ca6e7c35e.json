@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.b752c6c07c279c2ce1dd3125",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:97bf3ec0b2d394dd17e1b3ce",
+  "group": "5",
+  "provider": "삼성화재해상보험",
+  "title": "연금저축손해보험 삼성화재 다이렉트연금저축(1704.5)",
+  "cells": [
+    "삼성화재해상보험",
+    "연금저축손해보험 삼성화재 다이렉트연금저축(1704.5)",
+    "금리연동형",
+    "2017/04/01",
+    "중단",
+    "6,174",
+    "-3.03",
+    "-0.34",
+    "0.01",
+    "0.26",
+    "-",
+    "0.45",
+    "3.859"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=31",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=31",
+    "collected_at": "2026-09-23T08:22:17.035739+00:00",
+    "http_status": 200,
+    "sha256": "c134b2cd85f29c941dc33a7b25c04ca7e84ace0e641d50f0ccbd3d6cfe22f5d0"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성화재해상보험",
+        "상품명": "연금저축손해보험 삼성화재 다이렉트연금저축(1704.5)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2017/04/01",
+        "판매여부": "중단",
+        "적립금총액": "6,174",
+        "1년 연평균수익률(%)": "-3.03",
+        "3년 연평균수익률(%)": "-0.34",
+        "5년 연평균수익률(%)": "0.01",
+        "7년 연평균수익률(%)": "0.26",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "0.45",
+        "연평균수수료율(%)": "3.859"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=31",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=31",
+        "collected_at": "2026-09-23T08:22:17.035739+00:00",
+        "http_status": 200,
+        "sha256": "c134b2cd85f29c941dc33a7b25c04ca7e84ace0e641d50f0ccbd3d6cfe22f5d0"
+      }
+    }
+  ]
+}

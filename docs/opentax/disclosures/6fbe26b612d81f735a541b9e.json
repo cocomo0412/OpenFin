@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.490caf08a64d0601ffea4040",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:c3a6294b3f54e8a3f81fdc72",
+  "group": "5",
+  "provider": "메리츠화재해상보험",
+  "title": "연금저축손해보험 노후생활지킴이보험1407",
+  "cells": [
+    "메리츠화재해상보험",
+    "연금저축손해보험 노후생활지킴이보험1407",
+    "금리연동형",
+    "2014/07/01",
+    "중단",
+    "10,812",
+    "-5.68",
+    "-1.09",
+    "-0.13",
+    "0.22",
+    "0.7",
+    "0.91",
+    "6.536"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=26",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=26",
+    "collected_at": "2026-09-23T08:22:11.953963+00:00",
+    "http_status": 200,
+    "sha256": "af754fc7507ed86e41b6d622ee3959d5ae45a51383e5daf04f70f930cc45ff92"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "메리츠화재해상보험",
+        "상품명": "연금저축손해보험 노후생활지킴이보험1407",
+        "상품유형": "금리연동형",
+        "최초판매일": "2014/07/01",
+        "판매여부": "중단",
+        "적립금총액": "10,812",
+        "1년 연평균수익률(%)": "-5.68",
+        "3년 연평균수익률(%)": "-1.09",
+        "5년 연평균수익률(%)": "-0.13",
+        "7년 연평균수익률(%)": "0.22",
+        "10년 연평균수익률(%)": "0.7",
+        "누적연평균수익률(%)": "0.91",
+        "연평균수수료율(%)": "6.536"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=26",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=26",
+        "collected_at": "2026-09-23T08:22:11.953963+00:00",
+        "http_status": 200,
+        "sha256": "af754fc7507ed86e41b6d622ee3959d5ae45a51383e5daf04f70f930cc45ff92"
+      }
+    }
+  ]
+}

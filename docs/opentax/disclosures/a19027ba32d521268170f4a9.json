@@ -1,0 +1,50 @@
+{
+  "id": "finance.insurance.klia.cancer.메트라이프생명.l7202460004nnn024700020244000102440001000402440001000400010244000100040001000411831",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L7202460004NNN024700020244000102440001000402440001000400010244000100040001000411831",
+  "group": "024400010004",
+  "title": "무배당 메트라이프 간암및췌장암진단보험",
+  "provider": "메트라이프생명",
+  "cells": [
+    "메트라이프생명",
+    "무배당 메트라이프 간암및췌장암진단보험",
+    "주계약",
+    "간암 및 췌장암 진단보험금 *지급사유 : 피보험자가 보험기간 중 암보장개시일 이후에“간암 및 췌장암”으로 진단 확정되었을 때 (최초 1회에 한하여 지급)",
+    "500만원",
+    "1,900 원",
+    "1,100 원",
+    "2.30 %",
+    "-",
+    "-",
+    "134.3 %",
+    "170.5 %",
+    "14.9 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "순수보장",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "CM",
+    "2024-04-01",
+    "Download",
+    "보기",
+    "1588-9600"
+  ],
+  "coverage": [
+    "간암 및 췌장암 진단보험금 *지급사유 : 피보험자가 보험기간 중 암보장개시일 이후에“간암 및 췌장암”으로 진단 확정되었을 때 (최초 1회에 한하여 지급)"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=38863&seq=4"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010004&pageIndex=3&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010004&pageIndex=3&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:30.674401+00:00",
+    "http_status": 200,
+    "sha256": "a8b783716c4a68a30affc4938c0646295639fb19404bbe9994adf035083810f7"
+  }
+}

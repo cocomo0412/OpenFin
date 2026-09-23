@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.3e4f3925824f744c6271dd2c",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:c2615eadca58e69b67c63b06",
+  "group": "3",
+  "provider": "다올자산운용",
+  "title": "다올글로벌멀티에셋인컴EMP증권자투자신탁[혼합-재간접형] 종류C-P",
+  "cells": [
+    "다올자산운용",
+    "다올글로벌멀티에셋인컴EMP증권자투자신탁[혼합-재간접형] 종류C-P",
+    "재간접",
+    "2",
+    "2019/11/22",
+    "판매",
+    "814",
+    "20.54",
+    "8.36",
+    "1.22",
+    "-",
+    "-",
+    "3.91",
+    "1.264",
+    "한화투자증권주식회사, 삼성생명보험주식회사, 한국투자증권, 삼성증권, 아이엠증권, KB국민은행, 신영증권주식회사, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=200",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=200",
+    "collected_at": "2026-09-23T08:26:17.542985+00:00",
+    "http_status": 200,
+    "sha256": "8e9de74b34f42ece403e44d6236a3fe6dfaf54524a1f0b426a1b6ebb4b432ce8"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "다올자산운용",
+        "상품명": "다올글로벌멀티에셋인컴EMP증권자투자신탁[혼합-재간접형] 종류C-P",
+        "상품유형": "재간접",
+        "위험등급": "2",
+        "설정일": "2019/11/22",
+        "판매여부": "판매",
+        "순자산총액": "814",
+        "1년 연평균수익률(%)": "20.54",
+        "3년 연평균수익률(%)": "8.36",
+        "5년 연평균수익률(%)": "1.22",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "3.91",
+        "연평균수수료율(%)": "1.264",
+        "상품 판매사": "한화투자증권주식회사, 삼성생명보험주식회사, 한국투자증권, 삼성증권, 아이엠증권, KB국민은행, 신영증권주식회사, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=200",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=200",
+        "collected_at": "2026-09-23T08:26:17.542985+00:00",
+        "http_status": 200,
+        "sha256": "8e9de74b34f42ece403e44d6236a3fe6dfaf54524a1f0b426a1b6ebb4b432ce8"
+      }
+    }
+  ]
+}

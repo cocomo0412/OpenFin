@@ -1,0 +1,51 @@
+{
+  "id": "finance.insurance.klia.whole-life.푸본현대생명.l1702460001nn00000247000202440001024400010001024400010001000202440001000100020002li001",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L1702460001NN00000247000202440001024400010001024400010001000202440001000100020002LI001",
+  "group": "024400010001",
+  "title": "MAX 종신보험 원픽 간편가입 무배당/해약환급금 일부지급형(2603)",
+  "provider": "푸본현대생명",
+  "cells": [
+    "푸본현대생명",
+    "MAX 종신보험 원픽 간편가입 무배당/해약환급금 일부지급형(2603)",
+    "주계약",
+    "사망보험금 *지급사유 : 보험기간(종신) 중 피보험자가 사망하였을 경우",
+    "10,000만원",
+    "524,000 원",
+    "504,000 원",
+    "2.50 %",
+    "-",
+    "-",
+    "159.6 %",
+    "173.0 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "체증형",
+    "무해지/저해지환급",
+    "-",
+    "-",
+    "-",
+    "-",
+    "비유니버셜",
+    "대면채널",
+    "2026-03-01",
+    "Download",
+    "보기",
+    "1577-3311"
+  ],
+  "coverage": [
+    "사망보험금 *지급사유 : 보험기간(종신) 중 피보험자가 사망하였을 경우"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=32896&seq=17"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=17&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=17&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:35.026056+00:00",
+    "http_status": 200,
+    "sha256": "54288044548b6c15049e39e4a444a114e90fe5dd1c09ee8e19810b0a7eb1a6ff"
+  }
+}

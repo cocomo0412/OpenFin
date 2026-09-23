@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.af2dc7eff1677cf4b7020324",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:4974e8d55e25dc173f0967e3",
+  "group": "3",
+  "provider": "카디안자산운용",
+  "title": "카디안 미국 뱅크론 특별자산자투자신탁(UH)[대출채권-재간접형] 클래스C-P2(연금저축)E",
+  "cells": [
+    "카디안자산운용",
+    "카디안 미국 뱅크론 특별자산자투자신탁(UH)[대출채권-재간접형] 클래스C-P2(연금저축)E",
+    "특별자산",
+    "3",
+    "2017/09/19",
+    "판매",
+    "491",
+    "17.48",
+    "11.51",
+    "10.29",
+    "6.81",
+    "-",
+    "6.10",
+    "0.714",
+    "키움증권(주), 한국투자증권, 삼성증권, KB증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=233",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=233",
+    "collected_at": "2026-09-23T08:27:02.708422+00:00",
+    "http_status": 200,
+    "sha256": "103962fa427edfa65f134af3aa5a043b16c6d432de866596afe877e2eb2e92a2"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "카디안자산운용",
+        "상품명": "카디안 미국 뱅크론 특별자산자투자신탁(UH)[대출채권-재간접형] 클래스C-P2(연금저축)E",
+        "상품유형": "특별자산",
+        "위험등급": "3",
+        "설정일": "2017/09/19",
+        "판매여부": "판매",
+        "순자산총액": "491",
+        "1년 연평균수익률(%)": "17.48",
+        "3년 연평균수익률(%)": "11.51",
+        "5년 연평균수익률(%)": "10.29",
+        "7년 연평균수익률(%)": "6.81",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "6.10",
+        "연평균수수료율(%)": "0.714",
+        "상품 판매사": "키움증권(주), 한국투자증권, 삼성증권, KB증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=233",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=233",
+        "collected_at": "2026-09-23T08:27:02.708422+00:00",
+        "http_status": 200,
+        "sha256": "103962fa427edfa65f134af3aa5a043b16c6d432de866596afe877e2eb2e92a2"
+      }
+    }
+  ]
+}

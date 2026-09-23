@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.5f64a6692799a5e7305a294d",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:f8f223c0580575676dd06766",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자삼성전자&하이닉스플러스증권투자신탁(주식)(C-P)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자삼성전자&하이닉스플러스증권투자신탁(주식)(C-P)",
+    "주식형",
+    "2",
+    "2026/04/20",
+    "판매",
+    "178",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "650.05",
+    "1.647",
+    "-"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=282",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=282",
+    "collected_at": "2026-09-23T08:28:07.749161+00:00",
+    "http_status": 200,
+    "sha256": "8b50e4d886163ce81ab0e0e0b79995fcccc537870041e37f10b7364e63e85c9f"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자삼성전자&하이닉스플러스증권투자신탁(주식)(C-P)",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2026/04/20",
+        "판매여부": "판매",
+        "순자산총액": "178",
+        "1년 연평균수익률(%)": "-",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "650.05",
+        "연평균수수료율(%)": "1.647",
+        "상품 판매사": "-"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=282",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=282",
+        "collected_at": "2026-09-23T08:28:07.749161+00:00",
+        "http_status": 200,
+        "sha256": "8b50e4d886163ce81ab0e0e0b79995fcccc537870041e37f10b7364e63e85c9f"
+      }
+    }
+  ]
+}

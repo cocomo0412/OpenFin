@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.e5fb26afedbd64ad40d0157b",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:f798c7a41e7bc46098176882",
+  "group": "5",
+  "provider": "DB손해보험",
+  "title": "연금저축손해보험 유배당 다이렉트 연금보험2301(CM)",
+  "cells": [
+    "DB손해보험",
+    "연금저축손해보험 유배당 다이렉트 연금보험2301(CM)",
+    "금리연동형",
+    "2023/01/01",
+    "중단",
+    "22,472",
+    "-0.39",
+    "0.9",
+    "-",
+    "-",
+    "-",
+    "1.48",
+    "0.679"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=18",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=18",
+    "collected_at": "2026-09-23T08:22:04.317484+00:00",
+    "http_status": 200,
+    "sha256": "687482d9c0902db4d57fc9101166505382592ae6273aa1904813f163ec914b91"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "DB손해보험",
+        "상품명": "연금저축손해보험 유배당 다이렉트 연금보험2301(CM)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2023/01/01",
+        "판매여부": "중단",
+        "적립금총액": "22,472",
+        "1년 연평균수익률(%)": "-0.39",
+        "3년 연평균수익률(%)": "0.9",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "1.48",
+        "연평균수수료율(%)": "0.679"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=18",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=18",
+        "collected_at": "2026-09-23T08:22:04.317484+00:00",
+        "http_status": 200,
+        "sha256": "687482d9c0902db4d57fc9101166505382592ae6273aa1904813f163ec914b91"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.fd19881297a4c10adbb09d11",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:8c27183f09aa6f8de6d314a5",
+  "group": "3",
+  "provider": "키움투자자산운용",
+  "title": "키움슈로더글로벌가치주인컴증권자투자신탁[주식-재간접형] Class S-P",
+  "cells": [
+    "키움투자자산운용",
+    "키움슈로더글로벌가치주인컴증권자투자신탁[주식-재간접형] Class S-P",
+    "재간접",
+    "3",
+    "2014/12/04",
+    "판매",
+    "325",
+    "16.96",
+    "10.45",
+    "6.15",
+    "5.91",
+    "6.16",
+    "4.64",
+    "0.393",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=256",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=256",
+    "collected_at": "2026-09-23T08:27:33.752651+00:00",
+    "http_status": 200,
+    "sha256": "300507a2100ea92f88d56d1b1bd938c485dc9d34b68b71ff5fb4747cf66558af"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "키움투자자산운용",
+        "상품명": "키움슈로더글로벌가치주인컴증권자투자신탁[주식-재간접형] Class S-P",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2014/12/04",
+        "판매여부": "판매",
+        "순자산총액": "325",
+        "1년 연평균수익률(%)": "16.96",
+        "3년 연평균수익률(%)": "10.45",
+        "5년 연평균수익률(%)": "6.15",
+        "7년 연평균수익률(%)": "5.91",
+        "10년 연평균수익률(%)": "6.16",
+        "누적연평균수익률(%)": "4.64",
+        "연평균수수료율(%)": "0.393",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=256",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=256",
+        "collected_at": "2026-09-23T08:27:33.752651+00:00",
+        "http_status": 200,
+        "sha256": "300507a2100ea92f88d56d1b1bd938c485dc9d34b68b71ff5fb4747cf66558af"
+      }
+    }
+  ]
+}

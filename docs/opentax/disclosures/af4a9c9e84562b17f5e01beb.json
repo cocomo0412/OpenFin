@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.2d8186738df98bfa5d9cd57e",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:c795897b162081f07c0f8c12",
+  "group": "3",
+  "provider": "키움투자자산운용",
+  "title": "키움단기국공채코어밸류20증권자투자신탁제1호[채권혼합]C-P",
+  "cells": [
+    "키움투자자산운용",
+    "키움단기국공채코어밸류20증권자투자신탁제1호[채권혼합]C-P",
+    "혼합채권형",
+    "5",
+    "2015/06/24",
+    "판매",
+    "395",
+    "23.76",
+    "10.40",
+    "6.16",
+    "5.73",
+    "4.19",
+    "3.78",
+    "1.126",
+    "키움증권(주), 신한은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=246",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=246",
+    "collected_at": "2026-09-23T08:27:20.003490+00:00",
+    "http_status": 200,
+    "sha256": "f7322a4b5c2f309bc1da5a24fc075f039e256458546d9cdbbe69834545f4462f"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "키움투자자산운용",
+        "상품명": "키움단기국공채코어밸류20증권자투자신탁제1호[채권혼합]C-P",
+        "상품유형": "혼합채권형",
+        "위험등급": "5",
+        "설정일": "2015/06/24",
+        "판매여부": "판매",
+        "순자산총액": "395",
+        "1년 연평균수익률(%)": "23.76",
+        "3년 연평균수익률(%)": "10.40",
+        "5년 연평균수익률(%)": "6.16",
+        "7년 연평균수익률(%)": "5.73",
+        "10년 연평균수익률(%)": "4.19",
+        "누적연평균수익률(%)": "3.78",
+        "연평균수수료율(%)": "1.126",
+        "상품 판매사": "키움증권(주), 신한은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=246",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=246",
+        "collected_at": "2026-09-23T08:27:20.003490+00:00",
+        "http_status": 200,
+        "sha256": "f7322a4b5c2f309bc1da5a24fc075f039e256458546d9cdbbe69834545f4462f"
+      }
+    }
+  ]
+}

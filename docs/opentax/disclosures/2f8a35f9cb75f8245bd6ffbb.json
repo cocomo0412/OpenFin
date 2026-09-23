@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.97c78646fd077924b51e8d44",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:a17598ff3bfbc089d428ac58",
+  "group": "3",
+  "provider": "한화자산운용",
+  "title": "한화 연금증권전환형 자투자신탁(주식) 종류C",
+  "cells": [
+    "한화자산운용",
+    "한화 연금증권전환형 자투자신탁(주식) 종류C",
+    "주식형",
+    "2",
+    "2001/02/01",
+    "판매",
+    "377,075",
+    "176.57",
+    "50.94",
+    "25.33",
+    "25.88",
+    "17.17",
+    "12.45",
+    "0.703",
+    "유진투자증권주식회사, 케이프투자증권, 한화투자증권주식회사, SK증권주식회사, KB증권, 대신증권주식회사, 미래에셋증권 주식회사, IBK투자증권, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=4",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=4",
+    "collected_at": "2026-09-23T08:21:47.054632+00:00",
+    "http_status": 200,
+    "sha256": "8d185779b423d8d947a374b1151def8322cae7635f508b24584b7f7b16d7876e"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한화자산운용",
+        "상품명": "한화 연금증권전환형 자투자신탁(주식) 종류C",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2001/02/01",
+        "판매여부": "판매",
+        "순자산총액": "377,075",
+        "1년 연평균수익률(%)": "176.57",
+        "3년 연평균수익률(%)": "50.94",
+        "5년 연평균수익률(%)": "25.33",
+        "7년 연평균수익률(%)": "25.88",
+        "10년 연평균수익률(%)": "17.17",
+        "누적연평균수익률(%)": "12.45",
+        "연평균수수료율(%)": "0.703",
+        "상품 판매사": "유진투자증권주식회사, 케이프투자증권, 한화투자증권주식회사, SK증권주식회사, KB증권, 대신증권주식회사, 미래에셋증권 주식회사, IBK투자증권, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=4",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=4",
+        "collected_at": "2026-09-23T08:21:47.054632+00:00",
+        "http_status": 200,
+        "sha256": "8d185779b423d8d947a374b1151def8322cae7635f508b24584b7f7b16d7876e"
+      }
+    }
+  ]
+}

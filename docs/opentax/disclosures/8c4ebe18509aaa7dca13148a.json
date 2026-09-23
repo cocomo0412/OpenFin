@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.756fe0d20a0d5344587ef471",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:7fbf215ed7802ec15a6a395c",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 온국민 평생소득 TIF 40 증권 자투자신탁(채권혼합-재간접형) C-Pe",
+  "cells": [
+    "KB자산운용",
+    "KB 온국민 평생소득 TIF 40 증권 자투자신탁(채권혼합-재간접형) C-Pe",
+    "재간접",
+    "4",
+    "2018/03/23",
+    "판매",
+    "74",
+    "10.85",
+    "7.84",
+    "2.94",
+    "4.28",
+    "-",
+    "4.03",
+    "0.400",
+    "우리은행, KB증권, KB국민은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=300",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=300",
+    "collected_at": "2026-09-23T08:28:31.761439+00:00",
+    "http_status": 200,
+    "sha256": "dd74f2c92bd53f83047a0f470a9ea0e4cce72ae5a84e9cde88205404225b29e1"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 온국민 평생소득 TIF 40 증권 자투자신탁(채권혼합-재간접형) C-Pe",
+        "상품유형": "재간접",
+        "위험등급": "4",
+        "설정일": "2018/03/23",
+        "판매여부": "판매",
+        "순자산총액": "74",
+        "1년 연평균수익률(%)": "10.85",
+        "3년 연평균수익률(%)": "7.84",
+        "5년 연평균수익률(%)": "2.94",
+        "7년 연평균수익률(%)": "4.28",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "4.03",
+        "연평균수수료율(%)": "0.400",
+        "상품 판매사": "우리은행, KB증권, KB국민은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=300",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=300",
+        "collected_at": "2026-09-23T08:28:31.761439+00:00",
+        "http_status": 200,
+        "sha256": "dd74f2c92bd53f83047a0f470a9ea0e4cce72ae5a84e9cde88205404225b29e1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.87e9d093ebbe54bc640247c0",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:b801ca1557fa9b239cef5d9c",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋밸런스TRF성장형혼합자산자투자신탁(재간접형)종류C-Pe",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋밸런스TRF성장형혼합자산자투자신탁(재간접형)종류C-Pe",
+    "혼합자산",
+    "4",
+    "2022/09/20",
+    "판매",
+    "345",
+    "37.77",
+    "20.88",
+    "-",
+    "-",
+    "-",
+    "15.55",
+    "0.650",
+    "미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=252",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=252",
+    "collected_at": "2026-09-23T08:27:28.189026+00:00",
+    "http_status": 200,
+    "sha256": "a8de29245b324030418751633f3ad23ed5c2fb229950ef9b9e4676caa693478c"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋밸런스TRF성장형혼합자산자투자신탁(재간접형)종류C-Pe",
+        "상품유형": "혼합자산",
+        "위험등급": "4",
+        "설정일": "2022/09/20",
+        "판매여부": "판매",
+        "순자산총액": "345",
+        "1년 연평균수익률(%)": "37.77",
+        "3년 연평균수익률(%)": "20.88",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "15.55",
+        "연평균수수료율(%)": "0.650",
+        "상품 판매사": "미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=252",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=252",
+        "collected_at": "2026-09-23T08:27:28.189026+00:00",
+        "http_status": 200,
+        "sha256": "a8de29245b324030418751633f3ad23ed5c2fb229950ef9b9e4676caa693478c"
+      }
+    }
+  ]
+}

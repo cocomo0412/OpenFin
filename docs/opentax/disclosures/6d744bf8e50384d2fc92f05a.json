@@ -1,0 +1,51 @@
+{
+  "id": "finance.insurance.klia.accident.nh농협생명.l4202460002nnn024700020244000102440001000602440001000600020244000100060002000401156",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L4202460002NNN024700020244000102440001000602440001000600020244000100060002000401156",
+  "group": "024400010006",
+  "title": "NH모두안심재해보험(무배당)",
+  "provider": "NH농협생명",
+  "cells": [
+    "NH농협생명",
+    "NH모두안심재해보험(무배당)",
+    "주계약",
+    "재해사망보험금 *지급사유 : 피보험자가 보험기간 중 재해로 사망한 경우",
+    "3,000만원",
+    "1,530 원",
+    "684 원",
+    "2.50 %",
+    "-",
+    "-",
+    "319.5 %",
+    "481.2 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "보험기간(1년 초과)",
+    "순수보장",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "방카슈랑스",
+    "2025-08-04",
+    "Download",
+    "보기",
+    "1544-4000"
+  ],
+  "coverage": [
+    "재해사망보험금 *지급사유 : 피보험자가 보험기간 중 재해로 사망한 경우",
+    "모두안심 재해장해연금특약(무배당) *지급사유 : 피보험자가 이 특약의 보험기간 중 동일한 재해로 여러 신체부위의 장해지급률을 더하여 50%이상인 장해상태가 되었을때 (다만, 최초발생 1회에 한하여 지급) ※이외 보장담보는 상품요약서 참조",
+    "모두안심 응급실내원특약(무배당) *지급사유 : 피보험자가 이 특약의 보험기간 중 ‘응급실 내원 진료비 대상자(응급환자)’에 해당 되었을 때"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=42795&seq=2"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010006&pageIndex=6&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010006&pageIndex=6&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:36.668081+00:00",
+    "http_status": 200,
+    "sha256": "6bfffc750c800707e2e76e6278dcd70cf5c42d4eea8263705f92452c3aa8ff77"
+  }
+}

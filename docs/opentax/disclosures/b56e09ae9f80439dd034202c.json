@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.73f09b4a4adcd7cf79dc5c9b",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:bc3023288f0820a5f764dccc",
+  "group": "3",
+  "provider": "브이아이자산운용",
+  "title": "브이아이 켄드리엄 글로벌 4차산업 증권 자투자신탁 UH[주식-재간접형] C-P2",
+  "cells": [
+    "브이아이자산운용",
+    "브이아이 켄드리엄 글로벌 4차산업 증권 자투자신탁 UH[주식-재간접형] C-P2",
+    "재간접",
+    "2",
+    "2019/07/05",
+    "판매",
+    "1,552",
+    "67.78",
+    "32.39",
+    "20.36",
+    "-",
+    "-",
+    "22.04",
+    "0.981",
+    "한국투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=165",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=165",
+    "collected_at": "2026-09-23T08:25:30.340843+00:00",
+    "http_status": 200,
+    "sha256": "eb27c44bf92a4c1c2d3306634637a27116fea527498919025ec800a8e8707676"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "브이아이자산운용",
+        "상품명": "브이아이 켄드리엄 글로벌 4차산업 증권 자투자신탁 UH[주식-재간접형] C-P2",
+        "상품유형": "재간접",
+        "위험등급": "2",
+        "설정일": "2019/07/05",
+        "판매여부": "판매",
+        "순자산총액": "1,552",
+        "1년 연평균수익률(%)": "67.78",
+        "3년 연평균수익률(%)": "32.39",
+        "5년 연평균수익률(%)": "20.36",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "22.04",
+        "연평균수수료율(%)": "0.981",
+        "상품 판매사": "한국투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=165",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=165",
+        "collected_at": "2026-09-23T08:25:30.340843+00:00",
+        "http_status": 200,
+        "sha256": "eb27c44bf92a4c1c2d3306634637a27116fea527498919025ec800a8e8707676"
+      }
+    }
+  ]
+}

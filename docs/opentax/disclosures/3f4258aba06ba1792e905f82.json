@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.253591d2effa3cdc9271937a",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:4b9957f7109e8478c1d548c1",
+  "group": "3",
+  "provider": "우리자산운용",
+  "title": "우리템플턴연금저축글로벌증권자투자신탁(채권-재간접형)ClassC-e",
+  "cells": [
+    "우리자산운용",
+    "우리템플턴연금저축글로벌증권자투자신탁(채권-재간접형)ClassC-e",
+    "재간접",
+    "4",
+    "2014/01/23",
+    "판매",
+    "324",
+    "3.19",
+    "0.87",
+    "-1.34",
+    "-2.15",
+    "-0.45",
+    "-0.83",
+    "0.667",
+    "한국투자증권, 삼성증권, 미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=256",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=256",
+    "collected_at": "2026-09-23T08:27:33.752651+00:00",
+    "http_status": 200,
+    "sha256": "300507a2100ea92f88d56d1b1bd938c485dc9d34b68b71ff5fb4747cf66558af"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "우리자산운용",
+        "상품명": "우리템플턴연금저축글로벌증권자투자신탁(채권-재간접형)ClassC-e",
+        "상품유형": "재간접",
+        "위험등급": "4",
+        "설정일": "2014/01/23",
+        "판매여부": "판매",
+        "순자산총액": "324",
+        "1년 연평균수익률(%)": "3.19",
+        "3년 연평균수익률(%)": "0.87",
+        "5년 연평균수익률(%)": "-1.34",
+        "7년 연평균수익률(%)": "-2.15",
+        "10년 연평균수익률(%)": "-0.45",
+        "누적연평균수익률(%)": "-0.83",
+        "연평균수수료율(%)": "0.667",
+        "상품 판매사": "한국투자증권, 삼성증권, 미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=256",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=256",
+        "collected_at": "2026-09-23T08:27:33.752651+00:00",
+        "http_status": 200,
+        "sha256": "300507a2100ea92f88d56d1b1bd938c485dc9d34b68b71ff5fb4747cf66558af"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.570806689771c372e2eb0b6a",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:4e6a8b674bcfa914f4bd9668",
+  "group": "4",
+  "provider": "아이엠라이프생명보험",
+  "title": "연금저축 우리희망플러스연금보험 Ⅱ",
+  "cells": [
+    "아이엠라이프생명보험",
+    "연금저축 우리희망플러스연금보험 Ⅱ",
+    "금리연동형",
+    "2009/12/31",
+    "중단",
+    "7,508",
+    "-3.99",
+    "0.02",
+    "0.72",
+    "0.87",
+    "1.02",
+    "1.03",
+    "4.923"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=42",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=42",
+    "collected_at": "2026-09-23T08:31:31.676828+00:00",
+    "http_status": 200,
+    "sha256": "69d5de0e807b319fd53e8d65f246c618fe2958dbffae33a11ff8edc07c07a333"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "아이엠라이프생명보험",
+        "상품명": "연금저축 우리희망플러스연금보험 Ⅱ",
+        "상품유형": "금리연동형",
+        "최초판매일": "2009/12/31",
+        "판매여부": "중단",
+        "적립금총액": "7,508",
+        "1년 연평균수익률(%)": "-3.99",
+        "3년 연평균수익률(%)": "0.02",
+        "5년 연평균수익률(%)": "0.72",
+        "7년 연평균수익률(%)": "0.87",
+        "10년 연평균수익률(%)": "1.02",
+        "누적연평균수익률(%)": "1.03",
+        "연평균수수료율(%)": "4.923"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=42",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=42",
+        "collected_at": "2026-09-23T08:31:31.676828+00:00",
+        "http_status": 200,
+        "sha256": "69d5de0e807b319fd53e8d65f246c618fe2958dbffae33a11ff8edc07c07a333"
+      }
+    }
+  ]
+}

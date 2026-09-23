@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.cf9d9c348bf2dc4dc83b1747",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:203f504e6619ecdba909e652",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성미국그로스증권자투자신탁UH[주식-재간접형]_C-P",
+  "cells": [
+    "삼성자산운용",
+    "삼성미국그로스증권자투자신탁UH[주식-재간접형]_C-P",
+    "재간접",
+    "2",
+    "2019/11/15",
+    "판매",
+    "754",
+    "25.03",
+    "24.68",
+    "14.58",
+    "-",
+    "-",
+    "18.20",
+    "1.231",
+    "한국투자증권, 신영증권주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=206",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=206",
+    "collected_at": "2026-09-23T08:26:26.387477+00:00",
+    "http_status": 200,
+    "sha256": "a6044ccfe97bc0c55ca835e3457762fb65567cb029637b4e4eee405d8d962040"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성미국그로스증권자투자신탁UH[주식-재간접형]_C-P",
+        "상품유형": "재간접",
+        "위험등급": "2",
+        "설정일": "2019/11/15",
+        "판매여부": "판매",
+        "순자산총액": "754",
+        "1년 연평균수익률(%)": "25.03",
+        "3년 연평균수익률(%)": "24.68",
+        "5년 연평균수익률(%)": "14.58",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "18.20",
+        "연평균수수료율(%)": "1.231",
+        "상품 판매사": "한국투자증권, 신영증권주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=206",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=206",
+        "collected_at": "2026-09-23T08:26:26.387477+00:00",
+        "http_status": 200,
+        "sha256": "a6044ccfe97bc0c55ca835e3457762fb65567cb029637b4e4eee405d8d962040"
+      }
+    }
+  ]
+}

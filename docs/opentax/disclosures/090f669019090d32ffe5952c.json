@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.e751361459d23b34ca48b1c0",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:4d141659a45637b718e5178e",
+  "group": "3",
+  "provider": "다올자산운용",
+  "title": "다올주주환원증권투자신탁[주식] 종류C-Pe",
+  "cells": [
+    "다올자산운용",
+    "다올주주환원증권투자신탁[주식] 종류C-Pe",
+    "주식형",
+    "2",
+    "2025/06/27",
+    "판매",
+    "1,200",
+    "139.60",
+    "-",
+    "-",
+    "-",
+    "-",
+    "139.98",
+    "1.051",
+    "한국투자증권, 삼성증권, KB증권, 대신증권주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=179",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=179",
+    "collected_at": "2026-09-23T08:25:49.355972+00:00",
+    "http_status": 200,
+    "sha256": "2b64cbda315fd6b3f24c92c82b85ca98b5483324ba50b78012228753f128f968"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "다올자산운용",
+        "상품명": "다올주주환원증권투자신탁[주식] 종류C-Pe",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2025/06/27",
+        "판매여부": "판매",
+        "순자산총액": "1,200",
+        "1년 연평균수익률(%)": "139.60",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "139.98",
+        "연평균수수료율(%)": "1.051",
+        "상품 판매사": "한국투자증권, 삼성증권, KB증권, 대신증권주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=179",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=179",
+        "collected_at": "2026-09-23T08:25:49.355972+00:00",
+        "http_status": 200,
+        "sha256": "2b64cbda315fd6b3f24c92c82b85ca98b5483324ba50b78012228753f128f968"
+      }
+    }
+  ]
+}

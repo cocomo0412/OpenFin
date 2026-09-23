@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.0302af8702f0a500185d94c6",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:1b595ce3f2bb0a2260c6f66b",
+  "group": "3",
+  "provider": "DB자산운용",
+  "title": "DB차이나바이오헬스케어증권자투자신탁(UH)[주식]종류C-PE",
+  "cells": [
+    "DB자산운용",
+    "DB차이나바이오헬스케어증권자투자신탁(UH)[주식]종류C-PE",
+    "주식형",
+    "1",
+    "2019/05/13",
+    "판매",
+    "1,950",
+    "1.26",
+    "3.67",
+    "-10.01",
+    "4.02",
+    "-",
+    "3.89",
+    "1.271",
+    "디비증권주식회사, 한화투자증권주식회사, 키움증권(주), 한국투자증권, 교보증권(주), KB증권, 대신증권주식회사, 아이엠증권, 미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=152",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=152",
+    "collected_at": "2026-09-23T08:25:12.436061+00:00",
+    "http_status": 200,
+    "sha256": "62f411265d5bcd50e9dbf3b6f636c6986937fc7eec867f8065257138c1389082"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "DB자산운용",
+        "상품명": "DB차이나바이오헬스케어증권자투자신탁(UH)[주식]종류C-PE",
+        "상품유형": "주식형",
+        "위험등급": "1",
+        "설정일": "2019/05/13",
+        "판매여부": "판매",
+        "순자산총액": "1,950",
+        "1년 연평균수익률(%)": "1.26",
+        "3년 연평균수익률(%)": "3.67",
+        "5년 연평균수익률(%)": "-10.01",
+        "7년 연평균수익률(%)": "4.02",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "3.89",
+        "연평균수수료율(%)": "1.271",
+        "상품 판매사": "디비증권주식회사, 한화투자증권주식회사, 키움증권(주), 한국투자증권, 교보증권(주), KB증권, 대신증권주식회사, 아이엠증권, 미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=152",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=152",
+        "collected_at": "2026-09-23T08:25:12.436061+00:00",
+        "http_status": 200,
+        "sha256": "62f411265d5bcd50e9dbf3b6f636c6986937fc7eec867f8065257138c1389082"
+      }
+    }
+  ]
+}

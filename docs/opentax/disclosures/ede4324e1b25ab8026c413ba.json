@@ -1,0 +1,51 @@
+{
+  "id": "finance.insurance.klia.whole-life.kb라이프생명.l6102460001nn0000024700020244000102440001000102440001000100020244000100010002000240661",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L6102460001NN0000024700020244000102440001000102440001000100020244000100010002000240661",
+  "group": "024400010001",
+  "title": "KB 약속플러스 종신보험 무배당(해약환급금 일부지급형)(간편심사형) 1종",
+  "provider": "KB라이프생명",
+  "cells": [
+    "KB라이프생명",
+    "KB 약속플러스 종신보험 무배당(해약환급금 일부지급형)(간편심사형) 1종",
+    "주계약",
+    "사망보험금 *지급사유 : 피보험자가 보험기간(종신) 중 사망하였을 때",
+    "1억원",
+    "1,652,000 원",
+    "1,614,000 원",
+    "2.70 %",
+    "-",
+    "-",
+    "178.7 %",
+    "191.6 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "체증형",
+    "무해지/저해지환급",
+    "-",
+    "-",
+    "-",
+    "-",
+    "비유니버셜",
+    "대면채널",
+    "2026-04-01",
+    "Download",
+    "보기",
+    "1588-3374"
+  ],
+  "coverage": [
+    "사망보험금 *지급사유 : 피보험자가 보험기간(종신) 중 사망하였을 때"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=40740&seq=5"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=14&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=14&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:33.298220+00:00",
+    "http_status": 200,
+    "sha256": "a140914751dcd6aacd6069cffa0586e1adc99c00e1cb2b44e73d807907c3cc79"
+  }
+}

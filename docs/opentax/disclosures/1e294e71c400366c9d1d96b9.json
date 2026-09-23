@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.3bf3f17519a36ef2c01bd60f",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:6e09b9b7636a8b72ebc72959",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성 글로벌 EMP 적격TDF 2035 증권자투자신탁[주식혼합-재간접형]_S-P",
+  "cells": [
+    "삼성자산운용",
+    "삼성 글로벌 EMP 적격TDF 2035 증권자투자신탁[주식혼합-재간접형]_S-P",
+    "재간접",
+    "4",
+    "2020/05/25",
+    "판매",
+    "234",
+    "22.01",
+    "14.23",
+    "7.57",
+    "-",
+    "-",
+    "9.76",
+    "0.287",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=272",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=272",
+    "collected_at": "2026-09-23T08:27:54.772209+00:00",
+    "http_status": 200,
+    "sha256": "610045407a77b660c9899c76608fd7df1df1638ae78ae0cea8e14ba214f21c64"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성 글로벌 EMP 적격TDF 2035 증권자투자신탁[주식혼합-재간접형]_S-P",
+        "상품유형": "재간접",
+        "위험등급": "4",
+        "설정일": "2020/05/25",
+        "판매여부": "판매",
+        "순자산총액": "234",
+        "1년 연평균수익률(%)": "22.01",
+        "3년 연평균수익률(%)": "14.23",
+        "5년 연평균수익률(%)": "7.57",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "9.76",
+        "연평균수수료율(%)": "0.287",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=272",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=272",
+        "collected_at": "2026-09-23T08:27:54.772209+00:00",
+        "http_status": 200,
+        "sha256": "610045407a77b660c9899c76608fd7df1df1638ae78ae0cea8e14ba214f21c64"
+      }
+    }
+  ]
+}

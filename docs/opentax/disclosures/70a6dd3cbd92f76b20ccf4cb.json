@@ -1,0 +1,55 @@
+{
+  "id": "finance.insurance.klia.term-life.aia생명.l5202460003nnn0247000202440001024400010002024400010002000102440001000200010004r8002",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L5202460003NNN0247000202440001024400010002024400010002000102440001000200010004R8002",
+  "group": "024400010002",
+  "title": "(무) 뇌심 바로케어 건강보험 2형",
+  "provider": "AIA생명",
+  "cells": [
+    "AIA생명",
+    "(무) 뇌심 바로케어 건강보험 2형",
+    "주계약",
+    "사망보험금 *지급사유 : 사망",
+    "300만원",
+    "5,370 원",
+    "4,320 원",
+    "2.25 %",
+    "-",
+    "-",
+    "74.5 %",
+    "68.5 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "기본형",
+    "순수보장",
+    "-",
+    "-",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "TM",
+    "2026-07-01",
+    "Download",
+    "보기",
+    "1588-9898"
+  ],
+  "coverage": [
+    "사망보험금 *지급사유 : 사망",
+    "(무) 바로보장 뇌졸중진단특약 (갱신형) 2형 *지급사유 : 뇌졸중 진단 최초1회한",
+    "(무) 뉴 뇌혈관질환진단특약 (갱신형) 2형 *지급사유 : 뇌혈관질환 진단 최초1회한",
+    "(무) 바로보장 급성심근경색증진단특약 (갱신형) 2형 *지급사유 : 급성심근경색증 진단 최초1회한",
+    "(무) 심뇌혈관질환 주요치료특약 (갱신형) 2형 *지급사유 : 심뇌혈관질환 수술 연간 1회한 ※이외 보장담보는 상품요약서 참조"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=45058&seq=2"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010002&pageIndex=10&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010002&pageIndex=10&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:30.995434+00:00",
+    "http_status": 200,
+    "sha256": "e86acfcdb599432de5ed45f4f00835e98b6c38c55f1c24ae345974acc0f67ed2"
+  }
+}

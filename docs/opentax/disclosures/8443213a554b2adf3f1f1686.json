@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.2b65066a07c63cfd666ed935",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:82b172652aaeb93a61ba3df2",
+  "group": "5",
+  "provider": "삼성화재해상보험",
+  "title": "연금저축손해보험노후보장설계5",
+  "cells": [
+    "삼성화재해상보험",
+    "연금저축손해보험노후보장설계5",
+    "금리연동형",
+    "2003/10/01",
+    "중단",
+    "149,428",
+    "-8.42",
+    "-1.57",
+    "0.02",
+    "0.62",
+    "1.1",
+    "0.89",
+    "7.982"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=5",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=5",
+    "collected_at": "2026-09-23T08:21:50.126028+00:00",
+    "http_status": 200,
+    "sha256": "ed1c38c31b021e6c2eedef635271a39d6ab16b6a54f322ff023f7b0a2b095835"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성화재해상보험",
+        "상품명": "연금저축손해보험노후보장설계5",
+        "상품유형": "금리연동형",
+        "최초판매일": "2003/10/01",
+        "판매여부": "중단",
+        "적립금총액": "149,428",
+        "1년 연평균수익률(%)": "-8.42",
+        "3년 연평균수익률(%)": "-1.57",
+        "5년 연평균수익률(%)": "0.02",
+        "7년 연평균수익률(%)": "0.62",
+        "10년 연평균수익률(%)": "1.1",
+        "누적연평균수익률(%)": "0.89",
+        "연평균수수료율(%)": "7.982"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=5",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=5",
+        "collected_at": "2026-09-23T08:21:50.126028+00:00",
+        "http_status": 200,
+        "sha256": "ed1c38c31b021e6c2eedef635271a39d6ab16b6a54f322ff023f7b0a2b095835"
+      }
+    }
+  ]
+}

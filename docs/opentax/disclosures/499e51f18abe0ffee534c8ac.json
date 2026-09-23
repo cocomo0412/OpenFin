@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.802ae554b7aa3720e5675255",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:e31eed55952b3bf6c761b5b1",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성 글로벌 EMP 적격TDF 2055 증권자투자신탁[주식혼합-재간접형]_C-Pe",
+  "cells": [
+    "삼성자산운용",
+    "삼성 글로벌 EMP 적격TDF 2055 증권자투자신탁[주식혼합-재간접형]_C-Pe",
+    "재간접",
+    "3",
+    "2020/05/22",
+    "판매",
+    "4,767",
+    "27.29",
+    "16.97",
+    "8.90",
+    "-",
+    "-",
+    "11.28",
+    "0.673",
+    "삼성증권, KB증권, 미래에셋증권 주식회사, NH투자증권, 신한투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=106",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=106",
+    "collected_at": "2026-09-23T08:24:10.874639+00:00",
+    "http_status": 200,
+    "sha256": "b4fa443d16c48cc74b2dff5532661b0a5550f515ff2a8c2dad3bfeea404a0818"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성 글로벌 EMP 적격TDF 2055 증권자투자신탁[주식혼합-재간접형]_C-Pe",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2020/05/22",
+        "판매여부": "판매",
+        "순자산총액": "4,767",
+        "1년 연평균수익률(%)": "27.29",
+        "3년 연평균수익률(%)": "16.97",
+        "5년 연평균수익률(%)": "8.90",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "11.28",
+        "연평균수수료율(%)": "0.673",
+        "상품 판매사": "삼성증권, KB증권, 미래에셋증권 주식회사, NH투자증권, 신한투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=106",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=106",
+        "collected_at": "2026-09-23T08:24:10.874639+00:00",
+        "http_status": 200,
+        "sha256": "b4fa443d16c48cc74b2dff5532661b0a5550f515ff2a8c2dad3bfeea404a0818"
+      }
+    }
+  ]
+}

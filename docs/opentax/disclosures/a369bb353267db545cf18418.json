@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.219734ef0879f2854b3f7b3b",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:284f925dba6dcaec3317c2fe",
+  "group": "3",
+  "provider": "HDC자산운용",
+  "title": "HDC오토스탁증권투자신탁1호(채권혼합) 종류 C-P2e",
+  "cells": [
+    "HDC자산운용",
+    "HDC오토스탁증권투자신탁1호(채권혼합) 종류 C-P2e",
+    "혼합채권형",
+    "4",
+    "2023/10/25",
+    "판매",
+    "307",
+    "5.52",
+    "-",
+    "-",
+    "-",
+    "-",
+    "4.54",
+    "0.986",
+    "한화투자증권주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=258",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=258",
+    "collected_at": "2026-09-23T08:27:36.234623+00:00",
+    "http_status": 200,
+    "sha256": "d9c37f52f28239a2cf248d2cc691f50d72f5a466a34c70e9a46e667001e42a6a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "HDC자산운용",
+        "상품명": "HDC오토스탁증권투자신탁1호(채권혼합) 종류 C-P2e",
+        "상품유형": "혼합채권형",
+        "위험등급": "4",
+        "설정일": "2023/10/25",
+        "판매여부": "판매",
+        "순자산총액": "307",
+        "1년 연평균수익률(%)": "5.52",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "4.54",
+        "연평균수수료율(%)": "0.986",
+        "상품 판매사": "한화투자증권주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=258",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=258",
+        "collected_at": "2026-09-23T08:27:36.234623+00:00",
+        "http_status": 200,
+        "sha256": "d9c37f52f28239a2cf248d2cc691f50d72f5a466a34c70e9a46e667001e42a6a"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "finance.insurance.klia.term-life.삼성생명.l0302460004nnn024700020244000102440001000202440001000200010244000100020001000471311",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L0302460004NNN024700020244000102440001000202440001000200010244000100020001000471311",
+  "group": "024400010002",
+  "title": "삼성 인생금융 대출안심보험(2403)(무배당) 1종(담보대출 플랜)",
+  "provider": "삼성생명",
+  "cells": [
+    "삼성생명",
+    "삼성 인생금융 대출안심보험(2403)(무배당) 1종(담보대출 플랜)",
+    "주계약",
+    "사망보험금 *지급사유 : 피보험자가 보험기간 중 사망하였을 경우",
+    "1억원",
+    "10,800 원",
+    "6,400 원",
+    "2.50 %",
+    "-",
+    "-",
+    "118.1 %",
+    "107.0 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "기본형",
+    "순수보장",
+    "-",
+    "-",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "CM",
+    "2024-03-04",
+    "Download",
+    "보기",
+    "1588-3114"
+  ],
+  "coverage": [
+    "사망보험금 *지급사유 : 피보험자가 보험기간 중 사망하였을 경우"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=36405&seq=5"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010002&pageIndex=2&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010002&pageIndex=2&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:25.477194+00:00",
+    "http_status": 200,
+    "sha256": "029ef34e567177b35a979124cbdbd55d6b4b685a65c0d7f15353a1ccc1d523d8"
+  }
+}

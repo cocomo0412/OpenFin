@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.4a446df76b376ac38c8b76a7",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:dc51e76a9c60efa9770cede7",
+  "group": "3",
+  "provider": "하나자산운용",
+  "title": "하나더넥스트적격TDF2050증권투자신탁[주식혼합-재간접형]Class C-PE",
+  "cells": [
+    "하나자산운용",
+    "하나더넥스트적격TDF2050증권투자신탁[주식혼합-재간접형]Class C-PE",
+    "재간접",
+    "2",
+    "2024/11/06",
+    "판매",
+    "1,030",
+    "39.42",
+    "-",
+    "-",
+    "-",
+    "-",
+    "27.48",
+    "0.551",
+    "삼성증권, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=187",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=187",
+    "collected_at": "2026-09-23T08:25:59.890248+00:00",
+    "http_status": 200,
+    "sha256": "213c04f1a79bb9c498cd1db9424848fdfd40b318123b05525ba7d2725e75840b"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "하나자산운용",
+        "상품명": "하나더넥스트적격TDF2050증권투자신탁[주식혼합-재간접형]Class C-PE",
+        "상품유형": "재간접",
+        "위험등급": "2",
+        "설정일": "2024/11/06",
+        "판매여부": "판매",
+        "순자산총액": "1,030",
+        "1년 연평균수익률(%)": "39.42",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "27.48",
+        "연평균수수료율(%)": "0.551",
+        "상품 판매사": "삼성증권, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=187",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=187",
+        "collected_at": "2026-09-23T08:25:59.890248+00:00",
+        "http_status": 200,
+        "sha256": "213c04f1a79bb9c498cd1db9424848fdfd40b318123b05525ba7d2725e75840b"
+      }
+    }
+  ]
+}

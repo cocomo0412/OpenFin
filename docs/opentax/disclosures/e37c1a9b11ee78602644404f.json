@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.f9b5f28025991ad8b808b598",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:839be37fa93620bf316303d8",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자차이나베트남증권투자신탁1호(주식)(C-P)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자차이나베트남증권투자신탁1호(주식)(C-P)",
+    "주식형",
+    "3",
+    "2018/01/31",
+    "판매",
+    "29",
+    "12.85",
+    "9.24",
+    "-3.42",
+    "3.95",
+    "-",
+    "-0.20",
+    "1.594",
+    "신영증권주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=307",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=307",
+    "collected_at": "2026-09-23T08:28:41.407599+00:00",
+    "http_status": 200,
+    "sha256": "6fed9eb0e0d424415054c63be336de9d67e6abc12f542bd9efeb64fd947c7a01"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자차이나베트남증권투자신탁1호(주식)(C-P)",
+        "상품유형": "주식형",
+        "위험등급": "3",
+        "설정일": "2018/01/31",
+        "판매여부": "판매",
+        "순자산총액": "29",
+        "1년 연평균수익률(%)": "12.85",
+        "3년 연평균수익률(%)": "9.24",
+        "5년 연평균수익률(%)": "-3.42",
+        "7년 연평균수익률(%)": "3.95",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-0.20",
+        "연평균수수료율(%)": "1.594",
+        "상품 판매사": "신영증권주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=307",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=307",
+        "collected_at": "2026-09-23T08:28:41.407599+00:00",
+        "http_status": 200,
+        "sha256": "6fed9eb0e0d424415054c63be336de9d67e6abc12f542bd9efeb64fd947c7a01"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.db4ae398f9d4ee9e091fb625",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:d72db6d5ec96894cc7c6217e",
+  "group": "3",
+  "provider": "타임폴리오자산운용",
+  "title": "타임폴리오위드타임증권자투자신탁(사모투자재간접형)종류C-Pe",
+  "cells": [
+    "타임폴리오자산운용",
+    "타임폴리오위드타임증권자투자신탁(사모투자재간접형)종류C-Pe",
+    "재간접",
+    "3",
+    "2019/09/23",
+    "판매",
+    "31,494",
+    "48.58",
+    "22.05",
+    "16.59",
+    "-",
+    "-",
+    "18.34",
+    "0.457",
+    "디비증권주식회사, 유진투자증권주식회사, 키움증권(주), 유안타증권주식회사, 한국투자증권, SK증권주식회사, 삼성증권, 교보증권(주), KB증권, 아이엠증권, 신영증권주식회사, 미래에셋증권 주식회사, IBK투자증권, NH투자증권, 신한투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=35",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=35",
+    "collected_at": "2026-09-23T08:22:33.907661+00:00",
+    "http_status": 200,
+    "sha256": "ffaa989bd7c43d77f4246c9e76ad8ee52fd392d4737673e9d3af670442198d4f"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "타임폴리오자산운용",
+        "상품명": "타임폴리오위드타임증권자투자신탁(사모투자재간접형)종류C-Pe",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2019/09/23",
+        "판매여부": "판매",
+        "순자산총액": "31,494",
+        "1년 연평균수익률(%)": "48.58",
+        "3년 연평균수익률(%)": "22.05",
+        "5년 연평균수익률(%)": "16.59",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "18.34",
+        "연평균수수료율(%)": "0.457",
+        "상품 판매사": "디비증권주식회사, 유진투자증권주식회사, 키움증권(주), 유안타증권주식회사, 한국투자증권, SK증권주식회사, 삼성증권, 교보증권(주), KB증권, 아이엠증권, 신영증권주식회사, 미래에셋증권 주식회사, IBK투자증권, NH투자증권, 신한투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=35",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=35",
+        "collected_at": "2026-09-23T08:22:33.907661+00:00",
+        "http_status": 200,
+        "sha256": "ffaa989bd7c43d77f4246c9e76ad8ee52fd392d4737673e9d3af670442198d4f"
+      }
+    }
+  ]
+}

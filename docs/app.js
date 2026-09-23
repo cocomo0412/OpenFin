@@ -280,7 +280,7 @@ function renderExportCards() {
           <p class="export-metadata">${formatNumber(entry.product_count || 0)} product nodes · ${escapeHtml(filename)}</p>
           <p class="export-metadata export-file-date">파일 갱신일 ${escapeHtml(dateOnly(state.manifest.built_at) || '미기록')}</p>
           ${entry.catalog_refresh
-            ? `<p class="export-metadata">최근 자료 수집 ${escapeHtml(dateOnly(entry.catalog_refresh.latest))}<br>API 원문 반영 ${formatNumber(entry.catalog_refresh.count)}개 · 일부 과거 자료 포함</p>`
+            ? `<p class="export-metadata">최근 자료 수집 ${escapeHtml(dateOnly(entry.catalog_refresh.latest))}<br>공식 자료 반영 ${formatNumber(entry.catalog_refresh.count)}개 · 일부 과거 자료 포함</p>`
             : '<p class="export-metadata">자료 갱신 필요 · 원문 재검증 미완료</p>'}
           <details class="export-metadata export-date-history"><summary>원자료 수집 이력</summary><p>${escapeHtml(collectionMeta.label)} ${escapeHtml(collectionMeta.value)}<br>파일 갱신일은 모든 원자료의 현행화를 뜻하지 않습니다.</p></details>
           ${renderApiCollectionLink(entry.domain)}
@@ -750,7 +750,7 @@ function renderDetail(item) {
     <h3>${escapeHtml(item.title || item.id)}</h3>
     <p class="detail-description">${escapeHtml(item.description || "설명이 없습니다.")}</p>
     ${renderCurrentApi(item)}
-    ${item.refresh_generation ? `<section class="detail-section"><h4>공식 자료 반영 · ${escapeHtml(item.refresh_generation.slice(0,10))}</h4><p>API 수집값을 본문과 검색 데이터에 반영했습니다. 제공기관의 관측·공시 기준일과 개인별 적합성 검증은 별도입니다.</p>${item.raw ? `<details><summary>반영된 원문 필드 보기</summary>${renderKvGrid(Object.entries(item.raw).map(([k,v])=>[k,typeof v==='object'?JSON.stringify(v):String(v??'미제공')]))}</details>`:''}</section>` : ''}
+    ${item.refresh_generation ? `<section class="detail-section"><h4>공식 자료 반영 · ${escapeHtml(item.refresh_generation.slice(0,10))}</h4><p>공식 API·공시 자료를 본문과 검색 데이터에 반영했습니다. 제공기관의 관측·공시 기준일과 개인별 적합성 검증은 별도입니다.</p>${item.raw ? `<details><summary>반영된 원문 필드 보기</summary>${renderKvGrid(Object.entries(item.raw).map(([k,v])=>[k,typeof v==='object'?JSON.stringify(v):String(v??'미제공')]))}</details>`:''}</section>` : ''}
     ${renderEvidenceAvailability(item)}
     ${renderPopulationNotice(item)}
     ${kv.length ? renderKvGrid(kv) : ""}

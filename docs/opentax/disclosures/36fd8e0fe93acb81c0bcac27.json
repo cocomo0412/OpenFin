@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.38d652e893e058f1cdad8be3",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:7583332ea46cb82f5171d5a4",
+  "group": "3",
+  "provider": "NH-Amundi자산운용",
+  "title": "NH-Amundi 4차산업혁명 연금 증권 전환형 자투자신탁[주식]C-P1",
+  "cells": [
+    "NH-Amundi자산운용",
+    "NH-Amundi 4차산업혁명 연금 증권 전환형 자투자신탁[주식]C-P1",
+    "주식형",
+    "2",
+    "2010/10/04",
+    "판매",
+    "11,772",
+    "186.10",
+    "56.06",
+    "25.60",
+    "26.47",
+    "-",
+    "9.25",
+    "1.535",
+    "(주)우리투자증권, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=67",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=67",
+    "collected_at": "2026-09-23T08:23:17.913312+00:00",
+    "http_status": 200,
+    "sha256": "53dafcdfd2c5e1f4a33ed511ec06c2ee4835bc0b984e16925a07616e97d522cc"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "NH-Amundi자산운용",
+        "상품명": "NH-Amundi 4차산업혁명 연금 증권 전환형 자투자신탁[주식]C-P1",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2010/10/04",
+        "판매여부": "판매",
+        "순자산총액": "11,772",
+        "1년 연평균수익률(%)": "186.10",
+        "3년 연평균수익률(%)": "56.06",
+        "5년 연평균수익률(%)": "25.60",
+        "7년 연평균수익률(%)": "26.47",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "9.25",
+        "연평균수수료율(%)": "1.535",
+        "상품 판매사": "(주)우리투자증권, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=67",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=67",
+        "collected_at": "2026-09-23T08:23:17.913312+00:00",
+        "http_status": 200,
+        "sha256": "53dafcdfd2c5e1f4a33ed511ec06c2ee4835bc0b984e16925a07616e97d522cc"
+      }
+    }
+  ]
+}

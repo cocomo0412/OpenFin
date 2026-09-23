@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.612b98296628f3c556c0f92c",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:45efa3e6226fdd0d4e2da0ab",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성클래식차이나본토연금증권자투자신탁UH[주식]_Ce",
+  "cells": [
+    "삼성자산운용",
+    "삼성클래식차이나본토연금증권자투자신탁UH[주식]_Ce",
+    "주식형",
+    "2",
+    "2016/02/11",
+    "판매",
+    "440",
+    "34.00",
+    "15.96",
+    "2.94",
+    "7.23",
+    "6.55",
+    "6.67",
+    "1.249",
+    "삼성증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=239",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=239",
+    "collected_at": "2026-09-23T08:27:10.713404+00:00",
+    "http_status": 200,
+    "sha256": "a8f0a8add737a410f0ab404cee4245d53a34ac145aba39299ea07a0e5517e233"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성클래식차이나본토연금증권자투자신탁UH[주식]_Ce",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2016/02/11",
+        "판매여부": "판매",
+        "순자산총액": "440",
+        "1년 연평균수익률(%)": "34.00",
+        "3년 연평균수익률(%)": "15.96",
+        "5년 연평균수익률(%)": "2.94",
+        "7년 연평균수익률(%)": "7.23",
+        "10년 연평균수익률(%)": "6.55",
+        "누적연평균수익률(%)": "6.67",
+        "연평균수수료율(%)": "1.249",
+        "상품 판매사": "삼성증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=239",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=239",
+        "collected_at": "2026-09-23T08:27:10.713404+00:00",
+        "http_status": 200,
+        "sha256": "a8f0a8add737a410f0ab404cee4245d53a34ac145aba39299ea07a0e5517e233"
+      }
+    }
+  ]
+}

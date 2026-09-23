@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.14cb555f0f686d5c10801c58",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:9c1ac371feafc989b7f1419b",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성클래식30연금증권전환형자투자신탁 제1호[채권혼합]_Ce",
+  "cells": [
+    "삼성자산운용",
+    "삼성클래식30연금증권전환형자투자신탁 제1호[채권혼합]_Ce",
+    "혼합채권형",
+    "4",
+    "2016/08/31",
+    "판매",
+    "10,474",
+    "36.18",
+    "15.38",
+    "8.08",
+    "7.95",
+    "-",
+    "6.07",
+    "0.661",
+    "키움증권(주), 삼성생명보험주식회사, 한국투자증권, 삼성증권, KB증권, KB국민은행, 미래에셋증권 주식회사, NH투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=72",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=72",
+    "collected_at": "2026-09-23T08:23:24.496138+00:00",
+    "http_status": 200,
+    "sha256": "a59fb5dfde4f18afd4676782fb05d71c54e04154f4284fc3b89c5fa1f6653ddf"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성클래식30연금증권전환형자투자신탁 제1호[채권혼합]_Ce",
+        "상품유형": "혼합채권형",
+        "위험등급": "4",
+        "설정일": "2016/08/31",
+        "판매여부": "판매",
+        "순자산총액": "10,474",
+        "1년 연평균수익률(%)": "36.18",
+        "3년 연평균수익률(%)": "15.38",
+        "5년 연평균수익률(%)": "8.08",
+        "7년 연평균수익률(%)": "7.95",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "6.07",
+        "연평균수수료율(%)": "0.661",
+        "상품 판매사": "키움증권(주), 삼성생명보험주식회사, 한국투자증권, 삼성증권, KB증권, KB국민은행, 미래에셋증권 주식회사, NH투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=72",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=72",
+        "collected_at": "2026-09-23T08:23:24.496138+00:00",
+        "http_status": 200,
+        "sha256": "a59fb5dfde4f18afd4676782fb05d71c54e04154f4284fc3b89c5fa1f6653ddf"
+      }
+    }
+  ]
+}

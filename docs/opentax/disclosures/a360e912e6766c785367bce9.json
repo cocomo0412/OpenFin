@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.377224b37bc7dce676388a10",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:2be622596797fad81bf2c80a",
+  "group": "3",
+  "provider": "카디안자산운용",
+  "title": "카디안 골드 리치 특별자산투자신탁[금-파생형] 클래스 S-P2(연금저축)",
+  "cells": [
+    "카디안자산운용",
+    "카디안 골드 리치 특별자산투자신탁[금-파생형] 클래스 S-P2(연금저축)",
+    "파생상품",
+    "2",
+    "2017/12/05",
+    "판매",
+    "611",
+    "14.52",
+    "22.27",
+    "13.28",
+    "12.10",
+    "-",
+    "10.46",
+    "0.848",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=219",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=219",
+    "collected_at": "2026-09-23T08:26:43.396141+00:00",
+    "http_status": 200,
+    "sha256": "c979d43e9be39444426a4fad5383fbb3371dd1f04165d22b5f1c629cdedcd2b8"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "카디안자산운용",
+        "상품명": "카디안 골드 리치 특별자산투자신탁[금-파생형] 클래스 S-P2(연금저축)",
+        "상품유형": "파생상품",
+        "위험등급": "2",
+        "설정일": "2017/12/05",
+        "판매여부": "판매",
+        "순자산총액": "611",
+        "1년 연평균수익률(%)": "14.52",
+        "3년 연평균수익률(%)": "22.27",
+        "5년 연평균수익률(%)": "13.28",
+        "7년 연평균수익률(%)": "12.10",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "10.46",
+        "연평균수수료율(%)": "0.848",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=219",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=219",
+        "collected_at": "2026-09-23T08:26:43.396141+00:00",
+        "http_status": 200,
+        "sha256": "c979d43e9be39444426a4fad5383fbb3371dd1f04165d22b5f1c629cdedcd2b8"
+      }
+    }
+  ]
+}

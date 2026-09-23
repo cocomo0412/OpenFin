@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.d00fa4a6829424dbf0adf1d7",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:bbff4bc0a5515c9254137515",
+  "group": "3",
+  "provider": "키움투자자산운용",
+  "title": "키움 행복연금 차이나인덱스 증권 전환형 자투자신탁 제1호[주식-파생재간접형]",
+  "cells": [
+    "키움투자자산운용",
+    "키움 행복연금 차이나인덱스 증권 전환형 자투자신탁 제1호[주식-파생재간접형]",
+    "파생상품",
+    "2",
+    "2007/11/01",
+    "판매",
+    "1,123",
+    "4.65",
+    "9.18",
+    "-4.82",
+    "-1.43",
+    "1.31",
+    "-3.69",
+    "1.233",
+    "케이프투자증권, (주)우리투자증권, 키움증권(주), 교보증권(주), 우리은행, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=182",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=182",
+    "collected_at": "2026-09-23T08:25:53.336275+00:00",
+    "http_status": 200,
+    "sha256": "3e3ce991db7f06125c2b6ec4dedf9180f824f022a4854af361edd2a016844ccf"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "키움투자자산운용",
+        "상품명": "키움 행복연금 차이나인덱스 증권 전환형 자투자신탁 제1호[주식-파생재간접형]",
+        "상품유형": "파생상품",
+        "위험등급": "2",
+        "설정일": "2007/11/01",
+        "판매여부": "판매",
+        "순자산총액": "1,123",
+        "1년 연평균수익률(%)": "4.65",
+        "3년 연평균수익률(%)": "9.18",
+        "5년 연평균수익률(%)": "-4.82",
+        "7년 연평균수익률(%)": "-1.43",
+        "10년 연평균수익률(%)": "1.31",
+        "누적연평균수익률(%)": "-3.69",
+        "연평균수수료율(%)": "1.233",
+        "상품 판매사": "케이프투자증권, (주)우리투자증권, 키움증권(주), 교보증권(주), 우리은행, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=182",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=182",
+        "collected_at": "2026-09-23T08:25:53.336275+00:00",
+        "http_status": 200,
+        "sha256": "3e3ce991db7f06125c2b6ec4dedf9180f824f022a4854af361edd2a016844ccf"
+      }
+    }
+  ]
+}

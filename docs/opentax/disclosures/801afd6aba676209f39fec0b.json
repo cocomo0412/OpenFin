@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.e016f83ee83df3553707cace",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:b50d8fbf9886d93aed3c6ad6",
+  "group": "3",
+  "provider": "우리자산운용",
+  "title": "우리WON종합채권(AA-이상)액티브증권상장지수투자신탁(채권)",
+  "cells": [
+    "우리자산운용",
+    "우리WON종합채권(AA-이상)액티브증권상장지수투자신탁(채권)",
+    "채권형",
+    "5",
+    "2024/08/02",
+    "판매",
+    "4",
+    "-5.01",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-0.72",
+    "0.064",
+    "한화투자증권주식회사, 한국투자증권, 삼성증권, KB증권, 미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=315",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=315",
+    "collected_at": "2026-09-23T08:28:53.383197+00:00",
+    "http_status": 200,
+    "sha256": "4ba477d6866badc12b0ab1abddc43a2837ed5aaa3760f45cd0954d430f022387"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "우리자산운용",
+        "상품명": "우리WON종합채권(AA-이상)액티브증권상장지수투자신탁(채권)",
+        "상품유형": "채권형",
+        "위험등급": "5",
+        "설정일": "2024/08/02",
+        "판매여부": "판매",
+        "순자산총액": "4",
+        "1년 연평균수익률(%)": "-5.01",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-0.72",
+        "연평균수수료율(%)": "0.064",
+        "상품 판매사": "한화투자증권주식회사, 한국투자증권, 삼성증권, KB증권, 미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=315",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=315",
+        "collected_at": "2026-09-23T08:28:53.383197+00:00",
+        "http_status": 200,
+        "sha256": "4ba477d6866badc12b0ab1abddc43a2837ed5aaa3760f45cd0954d430f022387"
+      }
+    }
+  ]
+}

@@ -150,10 +150,10 @@ for (const file of legacyFiles) {
   }
   const {export_checksum:_oldChecksum, reference_items:_oldReferences, ...root} = meta.root;
   const output = {...root, item_count:items.length + referenceItems.length, reference_item_count:referenceItems.length, items};
-  output.product_count=items.filter(item=>['account-product','bank-product','card-product','insurance-product'].includes(item.type)).length;
+  output.product_count=items.filter(item=>['account-product','bank-product','card-product','insurance-product'].includes(item.type)||(item.type==='financial-product'&&item.product_kind==='pension-savings')).length;
   const refreshedItems=items.filter(item=>item.refresh_generation);
   if(refreshedItems.length) {
-    output.catalog_refresh={count:refreshedItems.length,latest:refreshedItems.map(item=>item.refresh_generation).sort().at(-1),scope:'API 필드·식별자 검증. 미갱신 항목과 제공기관 기준일은 별도.'};
+    output.catalog_refresh={count:refreshedItems.length,latest:refreshedItems.map(item=>item.refresh_generation).sort().at(-1),scope:'공식 API·웹 공시의 필드·식별자 반영. 제공기관 기준일과 개별 검토 범위는 별도.'};
     output.collection_dates=[...new Set(items.map(item=>item.collected_at).filter(Boolean).map(value=>String(value).slice(0,10)))].sort();
     output.product_collection_dates=output.collection_dates;
   }

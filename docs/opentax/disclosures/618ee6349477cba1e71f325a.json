@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.54ae6cadba9b467c2b6780d4",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:71775c00a8e2b538642435de",
+  "group": "3",
+  "provider": "트러스톤자산운용",
+  "title": "트러스톤다이나믹코리아30연금저축증권자투자신탁[채권혼합]C클래스",
+  "cells": [
+    "트러스톤자산운용",
+    "트러스톤다이나믹코리아30연금저축증권자투자신탁[채권혼합]C클래스",
+    "혼합채권형",
+    "5",
+    "2013/04/26",
+    "판매",
+    "1,783",
+    "18.67",
+    "7.31",
+    "3.43",
+    "3.58",
+    "3.23",
+    "3.02",
+    "0.854",
+    "광주은행, 삼성생명보험주식회사, 한국투자증권, 삼성증권, 우리은행, KB증권, 아이엠증권, NH투자증권, 하나은행, 신한투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=157",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=157",
+    "collected_at": "2026-09-23T08:25:19.495914+00:00",
+    "http_status": 200,
+    "sha256": "f7391a8adf9320f8a4b5f8f6b6d974c571a244821f732ebbfd4a26a8ca727397"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "트러스톤자산운용",
+        "상품명": "트러스톤다이나믹코리아30연금저축증권자투자신탁[채권혼합]C클래스",
+        "상품유형": "혼합채권형",
+        "위험등급": "5",
+        "설정일": "2013/04/26",
+        "판매여부": "판매",
+        "순자산총액": "1,783",
+        "1년 연평균수익률(%)": "18.67",
+        "3년 연평균수익률(%)": "7.31",
+        "5년 연평균수익률(%)": "3.43",
+        "7년 연평균수익률(%)": "3.58",
+        "10년 연평균수익률(%)": "3.23",
+        "누적연평균수익률(%)": "3.02",
+        "연평균수수료율(%)": "0.854",
+        "상품 판매사": "광주은행, 삼성생명보험주식회사, 한국투자증권, 삼성증권, 우리은행, KB증권, 아이엠증권, NH투자증권, 하나은행, 신한투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=157",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=157",
+        "collected_at": "2026-09-23T08:25:19.495914+00:00",
+        "http_status": 200,
+        "sha256": "f7391a8adf9320f8a4b5f8f6b6d974c571a244821f732ebbfd4a26a8ca727397"
+      }
+    }
+  ]
+}
