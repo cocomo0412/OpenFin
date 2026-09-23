@@ -6,11 +6,11 @@ Last updated: 2026-05-05
 ## App Identity
 
 - Name: OpenTax
-- Public MCP URL: `https://openfin-mcp.y2kthr.workers.dev/mcp`
-- Health URL: `https://openfin-mcp.y2kthr.workers.dev/health`
-- Readiness URL: `https://openfin-mcp.y2kthr.workers.dev/ready`
-- Homepage: `https://jhny-kor.github.io/OpenFin/`
-- Repository: `https://github.com/jhny-kor/OpenFin`
+- Public MCP URL: `https://openfin.cocomo0412.workers.dev/mcp`
+- Health URL: `https://openfin.cocomo0412.workers.dev/health`
+- Readiness URL: `https://openfin.cocomo0412.workers.dev/ready`
+- Homepage: `https://cocomo0412.github.io/OpenFin/`
+- Repository: `https://github.com/cocomo0412/OpenFin`
 
 ## Short Description
 

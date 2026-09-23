@@ -1,11 +1,12 @@
+import { fileURLToPath } from 'node:url';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 
-const root = new URL('../..', import.meta.url).pathname;
-const read = name => fs.readFileSync(path.join(root, 'knowledge/30-financial-products/banking/_decision', name), 'utf8').split('\n').filter(Boolean).map(JSON.parse);
+const root = fileURLToPath(new URL('../../', import.meta.url));
+const read = name => fs.readFileSync(path.join(root, 'knowledge/30-financial-products/banking/_decision', name), 'utf8').replace(/\r\n/g, '\n').split('\n').filter(Boolean).map(JSON.parse);
 
 test('strict decision snapshots preserve source options and meet the reviewed five plus five target', () => {
   execFileSync(process.execPath, ['scripts/knowledge/build-decision-snapshots.mjs'], { cwd: root, encoding: 'utf8' });
@@ -36,7 +37,7 @@ test('strict decision snapshots preserve source options and meet the reviewed fi
   assert.equal(report.blocker, 'INSUFFICIENT_SOURCE_BACKED_OFFERS');
   // The snapshot is an input to the downstream review, schema, and promotion
   // receipts; leave the checked-in artifact chain internally consistent.
-  execFileSync('npm', ['run', 'knowledge:build'], { cwd: root, encoding: 'utf8', maxBuffer: 10_000_000 });
+  for (const script of ['build-decision-snapshots', 'review-decision-offers', 'validate-decision-receipts', 'promote-candidates', 'build']) execFileSync(process.execPath, [`scripts/knowledge/${script}.mjs`], { cwd: root, encoding: 'utf8', maxBuffer: 10_000_000 });
   const receiptCount = ['deposit-offers.jsonl', 'saving-offers.jsonl']
     .flatMap(read)
     .flatMap(offer => offer.options)

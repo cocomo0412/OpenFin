@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://jhny-kor.github.io/OpenFin/schemas/provenance.schema.json",
+  "$id": "https://cocomo0412.github.io/OpenFin/schemas/provenance.schema.json",
   "title": "OpenFin provenance assertion",
   "type": "object",
   "required": ["source_id", "original_url", "collected_at", "reviewed_at", "supported_fields", "verification_status"],

@@ -1,9 +1,10 @@
+import { fileURLToPath } from 'node:url';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import test from 'node:test';
 import vm from 'node:vm';
 
-const root = new URL('../..', import.meta.url).pathname;
+const root = fileURLToPath(new URL('../../', import.meta.url));
 
 function appContext() {
   const context = vm.createContext({
@@ -22,7 +23,7 @@ function appContext() {
     },
     window: { location: { search: '', hash: '' }, setTimeout, clearTimeout },
   });
-  vm.runInContext(fs.readFileSync(`${root}/docs/app.js`, 'utf8'), context, { filename: 'docs/app.js' });
+  vm.runInContext(fs.readFileSync(`${root}/docs/app.js`, 'utf8').replace(/\r\n/g, '\n'), context, { filename: 'docs/app.js' });
   return context;
 }
 
@@ -59,7 +60,7 @@ test('global explorer loads compact search first and hydrates only the selected 
 });
 
 test('query-only explorer startup does not retain the tax fallback', () => {
-  const source = fs.readFileSync(`${root}/docs/app.js`, 'utf8');
+  const source = fs.readFileSync(`${root}/docs/app.js`, 'utf8').replace(/\r\n/g, '\n');
   assert.match(source, /paramQuery && !paramDomain/);
   assert.match(source, /도메인을 선택하거나 검색어를 입력하세요/);
   assert.doesNotMatch(source, /else if \(hasExplorer\) \{\s*await loadDomain\("tax"\)/);

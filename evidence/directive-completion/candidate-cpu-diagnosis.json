@@ -1,5 +1,5 @@
 {
-  "run_url": "https://github.com/jhny-kor/OpenFin/actions/runs/34767592820",
+  "run_url": "https://github.com/historical-source/OpenFin/actions/runs/34767592820",
   "candidate_version": "4c2aeaa0-62d8-4a0a-90d0-5519f4a017b8",
   "regression": {
     "status": "failed",
@@ -41,5 +41,6 @@
       "version_id": "8f8d72b6-93c3-4173-8ec6-54beae3657a9",
       "percentage": 100
     }
-  ]
+  ],
+  "migration_notice": "Historical upstream evidence; identity redacted. Not evidence for current deployment."
 }

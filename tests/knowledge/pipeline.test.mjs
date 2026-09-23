@@ -1,3 +1,4 @@
+import { fileURLToPath } from 'node:url';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -8,7 +9,7 @@ import crypto from 'node:crypto';
 import { execFile, execFileSync } from 'node:child_process';
 import { promisify } from 'node:util';
 
-const root = new URL('../..', import.meta.url).pathname;
+const root = fileURLToPath(new URL('../../', import.meta.url));
 const baseline = JSON.parse(fs.readFileSync(path.join(root, 'contracts/data-baseline.json')));
 const hash = file => crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex');
 const stable = value => Array.isArray(value) ? `[${value.map(stable).join(',')}]` : value && typeof value === 'object' ? `{${Object.keys(value).sort().map(key => `${JSON.stringify(key)}:${stable(value[key])}`).join(',')}}` : JSON.stringify(value);
@@ -53,10 +54,10 @@ test('source tracker detects change, conflict, and outage without mutating dry-r
       {id:'source.test.gone',status:'unchanged',checked_at:'2026-07-20T00:00:00Z',etag:'gone-v1',checksum:oldChecksum('last known body'),last_successful_checked_at:'2026-07-20T00:00:00Z'},
     ];
     fs.writeFileSync(statusPath, JSON.stringify({ statuses: oldStatuses }));
-    const before = fs.readFileSync(statusPath, 'utf8');
+    const before = fs.readFileSync(statusPath, 'utf8').replace(/\r\n/g, '\n');
     const { stdout } = await execFileAsync('node', ['scripts/knowledge/track-sources.mjs','--dry-run','--force','--registry',registryPath,'--status-file',statusPath,'--report-dir',reportDir,'--timeout-ms','2000'], { cwd: root, encoding: 'utf8' });
     const result = JSON.parse(stdout);
-    const report = JSON.parse(fs.readFileSync(path.join(reportDir, 'source-status-report.json'), 'utf8'));
+    const report = JSON.parse(fs.readFileSync(path.join(reportDir, 'source-status-report.json'), 'utf8').replace(/\r\n/g, '\n'));
     const byId = new Map(report.results.map(status => [status.id, status]));
     assert.equal(result.dry_run, true);
     assert.equal(result.checked_source_count, 4);
@@ -79,10 +80,10 @@ test('source tracker detects change, conflict, and outage without mutating dry-r
     assert.equal(changed.observed_checksum, oldChecksum('new changed body'));
     assert.equal(changed.observed_etag, 'v2');
     assert.equal(changed.last_successful_checked_at, oldStatuses[0].last_successful_checked_at);
-    assert.equal(fs.readFileSync(statusPath, 'utf8'), before);
+    assert.equal(fs.readFileSync(statusPath, 'utf8').replace(/\r\n/g, '\n'), before);
 
     await execFileAsync('node', ['scripts/knowledge/track-sources.mjs','--write','--force','--registry',registryPath,'--status-file',statusPath,'--report-dir',reportDir,'--timeout-ms','2000'], { cwd: root, encoding: 'utf8' });
-    const persisted = JSON.parse(fs.readFileSync(statusPath, 'utf8'));
+    const persisted = JSON.parse(fs.readFileSync(statusPath, 'utf8').replace(/\r\n/g, '\n'));
     const persistedChanged = persisted.statuses.find(status => status.id === 'source.test.changed');
     assert.equal(persistedChanged.status, 'changed');
     assert.equal(persistedChanged.checksum, oldStatuses[0].checksum);
@@ -99,7 +100,7 @@ test('source tracker injects configured API credentials without persisting them'
     const url = new URL(request.url, 'http://127.0.0.1');
     authenticated ||= url.searchParams.get('auth') === 'test-secret';
     response.statusCode = 200;
-    response.end('{"ok":true}');
+    response.end('{"result":{"err_cd":"000"}}');
   });
   await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
   const tempDir = fs.mkdtempSync(path.join(os.tmpdir(), 'openfin-secret-tracker-'));
@@ -118,7 +119,7 @@ test('source tracker injects configured API credentials without persisting them'
     const result = JSON.parse(stdout);
     assert.equal(authenticated, true);
     assert.equal(result.status_counts.unchanged, 1);
-    const report = fs.readFileSync(path.join(reportDir, 'source-status-report.json'), 'utf8');
+    const report = fs.readFileSync(path.join(reportDir, 'source-status-report.json'), 'utf8').replace(/\r\n/g, '\n');
     assert.equal(JSON.parse(report).results[0].authenticated, true);
     assert.equal(report.includes('test-secret'), false);
   } finally {
@@ -162,7 +163,7 @@ test('canonical dates are ISO while compatibility exports preserve legacy labels
       const file = path.join(directory, entry.name);
       if (entry.isDirectory()) visit(file);
       else if (entry.name.endsWith('.md')) {
-        const text = fs.readFileSync(file, 'utf8');
+        const text = fs.readFileSync(file, 'utf8').replace(/\r\n/g, '\n');
         const end = text.indexOf('\n---\n', 4);
         if (text.startsWith('---\n') && end > 0) {
           const value = JSON.parse(text.slice(4, end));
@@ -195,11 +196,13 @@ test('deterministic build leaves public artifacts byte-identical', () => {
     for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
       const file = path.join(directory, entry.name);
       if (entry.isDirectory()) visit(file);
-      else if (entry.name.endsWith('.jsonl')) for (const line of fs.readFileSync(file, 'utf8').split('\n').filter(Boolean)) receiptDates.push(JSON.parse(line).checked_at);
+      else if (entry.name.endsWith('.jsonl')) for (const line of fs.readFileSync(file, 'utf8').replace(/\r\n/g, '\n').split('\n').filter(Boolean)) receiptDates.push(JSON.parse(line).checked_at);
     }
   };
   visit(receipts);
-  const expectedBuildAt = process.env.OPENFIN_BUILD_AT || receiptDates.filter(Boolean).sort().at(-1);
+  const inventoryPath = path.join(docs, 'collection-inventory.json');
+  const collectionDates = fs.existsSync(inventoryPath) ? JSON.parse(fs.readFileSync(inventoryPath)).datasets.map(entry => entry.collected_at) : [];
+  const expectedBuildAt = process.env.OPENFIN_BUILD_AT || [...receiptDates, ...collectionDates].filter(Boolean).sort().at(-1);
   const manifest = JSON.parse(fs.readFileSync(path.join(docs, 'finance-ontology-manifest.json')));
   assert.equal(manifest.built_at, expectedBuildAt);
   const ontologyShardFiles = fs.readdirSync(docs).filter(file => /^korea-.*-ontology-2026-shard-\d+\.json$/.test(file));

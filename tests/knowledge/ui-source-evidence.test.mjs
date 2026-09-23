@@ -1,9 +1,10 @@
+import { fileURLToPath } from 'node:url';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import test from 'node:test';
 import vm from 'node:vm';
 
-const root = new URL('../..', import.meta.url).pathname;
+const root = fileURLToPath(new URL('../../', import.meta.url));
 
 function appContext() {
   const context = vm.createContext({
@@ -26,7 +27,7 @@ function appContext() {
       clearTimeout,
     },
   });
-  vm.runInContext(fs.readFileSync(`${root}/docs/app.js`, 'utf8'), context, { filename: 'docs/app.js' });
+  vm.runInContext(fs.readFileSync(`${root}/docs/app.js`, 'utf8').replace(/\r\n/g, '\n'), context, { filename: 'docs/app.js' });
   return context;
 }
 

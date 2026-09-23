@@ -1,8 +1,8 @@
 {
-  "status": "current",
+  "status": "stale",
   "mode": "live",
   "checked_at": "2026-07-29T21:57:39.611Z",
-  "endpoint": "https://openfin-mcp.y2kthr.workers.dev/mcp",
+  "endpoint": "https://openfin-mcp.historical-source.workers.dev/mcp",
   "runtime_version": "openfin-mcp-2026.07.28.2",
   "deployment_commit": "65034ffb2564af438c2146766d499f2cce5228e6",
   "manifest_version": "KR-FINANCE-ONTOLOGY-MANIFEST-2026.07.18.1",
@@ -495,5 +495,6 @@
       "case_id": "live-120",
       "status": "passed"
     }
-  ]
+  ],
+  "migration_notice": "Historical upstream evidence; identity redacted. Not evidence for current deployment."
 }

@@ -1,3 +1,4 @@
+import { fileURLToPath } from 'node:url';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import os from 'node:os';
@@ -5,7 +6,7 @@ import path from 'node:path';
 import test from 'node:test';
 import { execFileSync } from 'node:child_process';
 
-const root = new URL('../..', import.meta.url).pathname;
+const root = fileURLToPath(new URL('../../', import.meta.url));
 
 test('source impact is fail-closed for stale, unreachable, and collection failure sources', () => {
   const tempDir = fs.mkdtempSync(path.join(os.tmpdir(), 'openfin-source-impact-'));
@@ -18,7 +19,7 @@ test('source impact is fail-closed for stale, unreachable, and collection failur
       { id: 'source.nhuf.housing-subscription', status: 'collection_failure', freshness_status: 'stale' },
     ] }));
     execFileSync('node', ['scripts/knowledge/source-impact-report.mjs', '--status-report', statusPath, '--output', outputPath], { cwd: root, encoding: 'utf8' });
-    const report = JSON.parse(fs.readFileSync(outputPath, 'utf8'));
+    const report = JSON.parse(fs.readFileSync(outputPath, 'utf8').replace(/\r\n/g, '\n'));
     assert.equal(report.review_source_count, 3);
     assert.equal(report.sources.length, 3);
     for (const source of report.sources) {

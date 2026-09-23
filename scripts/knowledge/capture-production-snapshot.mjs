@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { sha256 } from './common.mjs';
 
-const base = 'https://jhny-kor.github.io/OpenFin/';
+const base = 'https://cocomo0412.github.io/OpenFin/';
 const hash = bytes => crypto.createHash('sha256').update(bytes).digest('hex');
 const safePath = value => typeof value === 'string' && /^[\w./-]+$/.test(value) && !value.startsWith('/') && !value.split('/').includes('..');
 const descriptors = value => {
@@ -48,7 +48,7 @@ assert.equal(sha256(manifestBody).slice(7), manifest_checksum, 'manifest digest'
 assert.equal(pointer.manifest_checksum, manifest_checksum, 'pointer digest');
 for (const field of ['production_generation', 'pages_generation', 'worker_generation']) assert.equal(pointer[field], manifest.generation_id, field);
 assert.match(pointer.production_commit, /^[a-f0-9]{40}$/);
-const tree = JSON.parse(await read(`https://api.github.com/repos/jhny-kor/OpenFin/git/trees/${pointer.production_commit}?recursive=1`));
+const tree = JSON.parse(await read(`https://api.github.com/repos/cocomo0412/OpenFin/git/trees/${pointer.production_commit}?recursive=1`));
 assert.equal(tree.truncated, false);
 // Use the deployed source tree for static assets; manifest descriptors enumerate
 // generated shards which may not have been committed to that source tree.

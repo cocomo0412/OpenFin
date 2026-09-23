@@ -37,7 +37,9 @@
   "access": {
     "method": "api",
     "parser_id": "api:source-bok-ecos",
-    "requires_secret": true
+    "requires_secret": true,
+    "request_url": "https://ecos.bok.or.kr/api/StatisticTableList/{credential}/json/kr/1/1",
+    "credential_env": "ECOS_API_KEY"
   },
   "refresh": {
     "sla_hours": 168,
@@ -180,7 +182,7 @@
       "value": "2026-07-03 확인"
     }
   ],
-  "record_checksum": "sha256:b9fa85f78efb43940aad95021c6de3e69984561b8733e7106c595f5a02b8e76e"
+  "record_checksum": "sha256:1aa979e97ea232160d8a8cbdcc757f2dd061e9dd75c423f87c0d9437fd2c809c"
 }
 ---
 

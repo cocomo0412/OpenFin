@@ -40,7 +40,15 @@
   "access": {
     "method": "api",
     "parser_id": "api:source-data-go-kr-kinfa-loan-products",
-    "requires_secret": true
+    "requires_secret": true,
+    "request_url": "https://apis.data.go.kr/B553701/LoanProductSearchingInfo/LoanProductSearchingInfo/getLoanProductSearchingInfo",
+    "request_query": {
+      "pageNo": 1,
+      "numOfRows": 1,
+      "type": "xml"
+    },
+    "credential_env": "DATA_GO_KR_SERVICE_KEY",
+    "credential_query_param": "serviceKey"
   },
   "refresh": {
     "sla_hours": 168,
@@ -186,7 +194,7 @@
       "value": "2026-07-03 확인"
     }
   ],
-  "record_checksum": "sha256:1f3e9151f0025c23e8446421af40fb5ab83023a7db2d0026a654aef3e8ba96be"
+  "record_checksum": "sha256:9610cef4cbd741730b43e197bde119f9c22226d4495e2dec3023b430ab7d7c0f"
 }
 ---
 

@@ -16,7 +16,7 @@ const pointerPath = path.join(docs, 'opentax/current-release.json');
 const manifestPath = path.join(docs, 'opentax/finance-ontology-manifest.json');
 const outputName = 'live-regression-production-current.json';
 const outputPath = path.join(docs, `opentax/${outputName}`);
-const publicUrl = `https://jhny-kor.github.io/OpenFin/opentax/${outputName}`;
+const publicUrl = `https://cocomo0412.github.io/OpenFin/opentax/${outputName}`;
 const report = json(reportPath);
 const pointer = json(pointerPath);
 const manifest = json(manifestPath);
@@ -31,7 +31,7 @@ const checks = [
   [report.mode === 'live', 'promoted live mode must be live'],
   [report.test_count === 120 && report.passed_count === 120, 'promoted live result must pass 120/120'],
   [report.failed_count === 0 && report.skipped_count === 0, 'promoted live result must have zero failures and skips'],
-  [report.endpoint === 'https://openfin-mcp.y2kthr.workers.dev/mcp', 'promoted live endpoint must be production'],
+  [report.endpoint === 'https://openfin.cocomo0412.workers.dev/mcp', 'promoted live endpoint must be production'],
   [report.deployment_commit === expectedCommit, 'promoted deployment commit mismatch'],
   [manifestChecksum === sha256(manifestChecksumInput).slice(7), 'manifest checksum mismatch'],
   [pointer.manifest_checksum === manifestChecksum, 'release pointer manifest checksum mismatch'],

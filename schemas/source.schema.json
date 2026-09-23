@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://jhny-kor.github.io/OpenFin/schemas/source.schema.json",
+  "$id": "https://cocomo0412.github.io/OpenFin/schemas/source.schema.json",
   "title": "OpenFin source registry record",
   "type": "object",
   "required": ["id", "type", "title", "publisher", "authority_class", "domains", "urls", "access", "refresh", "usage_terms", "recommendation_eligible", "status"],

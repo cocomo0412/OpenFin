@@ -38,7 +38,15 @@
   "access": {
     "method": "api",
     "parser_id": "api:source-fsc-retirement-pension-basic",
-    "requires_secret": true
+    "requires_secret": true,
+    "request_url": "https://apis.data.go.kr/1160100/service/GetRetirementPensionInfoService/getFundInfo",
+    "request_query": {
+      "pageNo": 1,
+      "numOfRows": 1,
+      "resultType": "xml"
+    },
+    "credential_env": "DATA_GO_KR_SERVICE_KEY",
+    "credential_query_param": "serviceKey"
   },
   "refresh": {
     "sla_hours": 168,
@@ -182,7 +190,7 @@
       "value": "2026-07-03 확인"
     }
   ],
-  "record_checksum": "sha256:d68f2e390a3b789734917acfd0d698ee217e186b0546d7c0c0f8e86e2879fb76"
+  "record_checksum": "sha256:e4f99d01f5ad797fd0fa99b3e07b9f695165037b4e5513177af4886ff9c3f949"
 }
 ---
 

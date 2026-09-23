@@ -37,7 +37,7 @@ permissions:
 
 jobs:
   financial-quality-staging-positive:
-    if: ${{ github.ref == 'refs/heads/main' }}
+    if: ${{ false }} # Full edition disabled for free-only deployment
     runs-on: ubuntu-latest
     timeout-minutes: 20
     defaults:

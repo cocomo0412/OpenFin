@@ -68,9 +68,10 @@ const sourceRequest = source => {
   if (access.requires_secret && !secret) return { error: 'source requires a configured secret' };
   const rawUrl = access.request_url || source.urls?.api || source.urls?.canonical;
   if (!rawUrl) return { error: 'source has no request URL' };
-  const url = new URL(rawUrl);
+  const pathCredential = rawUrl.includes('{credential}');
+  const url = new URL(rawUrl.replace('{credential}', encodeURIComponent(secret || '')));
   for (const [key, value] of Object.entries(access.request_query || {})) url.searchParams.set(key, String(value));
-  if (secret) url.searchParams.set(access.credential_query_param || 'serviceKey', secret);
+  if (secret && !pathCredential) url.searchParams.set(access.credential_query_param || 'serviceKey', secret);
   return { url: url.toString() };
 };
 
@@ -82,7 +83,7 @@ async function fetchWithTimeout(url, options) {
     return await fetch(url, {
       ...options,
       headers: {
-        'user-agent': 'OpenFinSourceTracker/2026.07 (+https://jhny-kor.github.io/OpenFin/)',
+        'user-agent': 'OpenFinSourceTracker/2026.07 (+https://cocomo0412.github.io/OpenFin/)',
         accept: 'text/html,application/json,application/pdf;q=0.9,*/*;q=0.8',
         ...(options.headers || {}),
       },
@@ -164,6 +165,17 @@ async function checkSource(source) {
     if (!get.ok) return failedStatus(source, old, 'unreachable', `http-${get.status}`, { method: 'GET', http_status: get.status });
 
     const { body, truncated, bytes } = await readBody(get);
+    if (source.access?.method === 'api') {
+      let code = body.match(/<(?:resultCode|returnReasonCode)>([^<]+)</)?.[1];
+      try {
+        const data = JSON.parse(body);
+        code = data.result?.err_cd ?? data.response?.header?.resultCode ?? data.RESULT?.CODE ?? code;
+        if (data.StatisticTableList?.row) code = '00';
+      } catch { /* XML providers are checked above. */ }
+      if (!['00', '000', '0000', 'INFO-000'].includes(String(code))) {
+        return failedStatus(source, old, 'unreachable', 'api-business-error', { http_status: get.status, error: 'Provider rejected the request or returned an unsupported response. Check utilization approval and credentials.' });
+      }
+    }
     const etag = get.headers.get('etag') || head.headers.get('etag') || null;
     const lastModified = get.headers.get('last-modified') || head.headers.get('last-modified') || null;
     const checksum = sha256(normalizeBody(body));
@@ -226,7 +238,7 @@ async function checkSource(source) {
       error: undefined,
     };
   } catch (error) {
-    return failedStatus(source, old, 'unreachable', error.name === 'AbortError' ? 'timeout' : 'fetch-error', { error: String(error.message || error) });
+    return failedStatus(source, old, 'unreachable', error.name === 'AbortError' ? 'timeout' : 'fetch-error', { error: 'Source request failed; request URLs and credentials are omitted.' });
   }
 }
 

@@ -18,7 +18,7 @@ const failures = [];
 for (const domain of ['deposit', 'saving']) {
   const file = path.join(decisionDir, `${domain}-offers.jsonl`);
   if (!fs.existsSync(file)) continue;
-  const offers = fs.readFileSync(file, 'utf8').split('\n').filter(Boolean).map(JSON.parse).map(offer => ({
+  const offers = fs.readFileSync(file, 'utf8').replace(/\r\n/g, '\n').split('\n').filter(Boolean).map(JSON.parse).map(offer => ({
     ...offer,
     options: (offer.options || []).map(option => {
       const valid = Boolean(validateOption?.(option));

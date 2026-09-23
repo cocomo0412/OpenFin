@@ -1,12 +1,13 @@
 import assert from 'node:assert/strict';
 import path from 'node:path';
+import { collectPages } from './api-pagination.mjs';
 import { ROOT, sha256, writeJson } from './common.mjs';
 
 const key = process.env.FINLIFE_API_KEY?.trim();
 const kdicKey = process.env.DATA_GO_KR_SERVICE_KEY?.trim();
 
 const collectedAt = new Date().toISOString();
-const output = path.join(ROOT, 'evidence/vertical-slice/finlife-candidate-collection.json');
+const output = process.argv.includes('--catalog-only') ? path.join(ROOT, '.api-candidates/finlife-catalog.json') : path.join(ROOT, 'evidence/vertical-slice/finlife-candidate-collection.json');
 const configs = {
   deposit: { endpoint: 'depositProductsSearch.json', minimum: 'minimum_deposit_krw', maximum: 'maximum_deposit_krw' },
   saving: { endpoint: 'savingProductsSearch.json', minimum: 'monthly_payment_min_krw', maximum: 'monthly_payment_max_krw' },
@@ -25,14 +26,14 @@ if (process.argv.includes('--self-check')) {
   process.exit(0);
 }
 if (!key) throw new Error('FINLIFE_API_KEY is required');
-if (!kdicKey) throw new Error('DATA_GO_KR_SERVICE_KEY is required');
+if (!kdicKey && !process.argv.includes('--catalog-only')) throw new Error('DATA_GO_KR_SERVICE_KEY is required');
 
-const request = async endpoint => {
+const request = async (endpoint, group, pageNo) => {
   const url = new URL(`https://finlife.fss.or.kr/finlifeapi/${endpoint}`);
   url.searchParams.set('auth', key);
-  url.searchParams.set('topFinGrpNo', '020000');
-  url.searchParams.set('pageNo', '1');
-  const response = await fetch(url);
+  url.searchParams.set('topFinGrpNo', group);
+  url.searchParams.set('pageNo', String(pageNo));
+  const response = await fetch(url, { signal: AbortSignal.timeout(15_000) });
   if (!response.ok) throw new Error(`${endpoint}: HTTP ${response.status}`);
   const result = (await response.json()).result;
   if (result?.err_cd !== '000') throw new Error(`${endpoint}: ${result?.err_cd ?? 'invalid response'}`);
@@ -42,16 +43,18 @@ const request = async endpoint => {
 const requestKdicProduct = async candidate => {
   for (let attempt = 1; attempt <= 3; attempt += 1) {
     try {
-      const url = new URL('https://apis.data.go.kr/B190017/service/GetInsuredProductService202008/getProductList202008');
-      for (const [name, value] of Object.entries({ serviceKey: kdicKey, pageNo: 1, numOfRows: 100, prdNm: candidate.extracted.product_name })) url.searchParams.set(name, String(value));
+      return await collectPages(async page => {
+      const url = new URL('https://apis.data.go.kr/B190017/service/GetInsuredProductService202607/getProductList202607');
+      for (const [name, value] of Object.entries({ serviceKey: kdicKey, pageNo: page, numOfRows: 100, prdNm: candidate.extracted.product_name })) url.searchParams.set(name, String(value));
       const response = await fetch(url, { signal: AbortSignal.timeout(10_000) });
       const body = await response.text();
       const resultCode = body.match(/<resultCode>([^<]+)<\/resultCode>/)?.[1];
       if (response.ok && resultCode === '00') return {
-        totalCount: Number(body.match(/<totalCount>(\d+)<\/totalCount>/)?.[1] || 0),
+        total: Number(body.match(/<totalCount>(\d+)<\/totalCount>/)?.[1] || 0),
         items: [...body.matchAll(/<item>([\s\S]*?)<\/item>/g)].map(match => tags(match[1])),
       };
-      if (attempt === 3 || response.status < 500) throw new Error(`HTTP ${response.status}, result ${resultCode || 'unknown'}`);
+      throw new Error(`HTTP ${response.status}, result ${resultCode || 'unknown'}`);
+      }).then(items => ({ items }));
     } catch (error) {
       if (attempt === 3) throw new Error(`KDIC ${candidate.extracted.product_name}: ${error.message || error}`);
     }
@@ -83,8 +86,8 @@ const collectKdic = async candidates => {
   return { queriedItemCount, matches, failures };
 };
 
-const normalize = (domain, config, base, options) => {
-  const recordId = `${config.endpoint.replace('.json', '')}:020000:${base.fin_co_no}:${base.fin_prdt_cd}`;
+const normalize = (domain, config, base, options, group) => {
+  const recordId = `${config.endpoint.replace('.json', '')}:${group}:${base.fin_co_no}:${base.fin_prdt_cd}`;
   const extracted = {
     provider_code: base.fin_co_no,
     provider: base.kor_co_nm,
@@ -127,34 +130,46 @@ const normalize = (domain, config, base, options) => {
 };
 
 const domains = {};
+// Both bank and savings-bank groups; never silently stop at the first page.
+const groups = (process.env.FINLIFE_GROUPS || '020000,030300').split(',');
+if (groups.some(group => !/^[0-9]{6}$/.test(group))) throw new Error('Invalid FINLIFE_GROUPS');
 for (const [domain, config] of Object.entries(configs)) {
-  const result = await request(config.endpoint);
-  const options = new Map();
-  for (const option of result.optionList || []) {
-    const id = `${option.fin_co_no}:${option.fin_prdt_cd}`;
-    if (!options.has(id)) options.set(id, []);
-    options.get(id).push(option);
+  const candidates = [];
+  let availableCount = 0;
+  for (const group of groups) {
+    const records = await collectPages(async page => {
+      const result = await request(config.endpoint, group, page);
+      const options = new Map();
+      for (const option of result.optionList || []) {
+        const id = `${option.fin_co_no}:${option.fin_prdt_cd}`;
+        if (!options.has(id)) options.set(id, []);
+        options.get(id).push(option);
+      }
+      return {
+        total: Number(result.total_count),
+        items: (result.baseList || []).map(base => normalize(domain, config, base,
+          options.get(`${base.fin_co_no}:${base.fin_prdt_cd}`) || [], group)),
+      };
+    });
+    availableCount += records.length;
+    candidates.push(...records);
   }
-  const candidates = (result.baseList || [])
-    .filter(base => options.has(`${base.fin_co_no}:${base.fin_prdt_cd}`))
-    .sort((a, b) => Number(Boolean(b.max_limit)) - Number(Boolean(a.max_limit)) || `${a.fin_co_no}:${a.fin_prdt_cd}`.localeCompare(`${b.fin_co_no}:${b.fin_prdt_cd}`))
-    .map(base => normalize(domain, config, base, options.get(`${base.fin_co_no}:${base.fin_prdt_cd}`)));
-  if (candidates.length < 20) throw new Error(`${domain}: expected at least 20 candidates, received ${candidates.length}`);
-  domains[domain] = { available_count: result.total_count, candidate_pool_count: candidates.length, selected_count: 0, candidates };
+  const unique = [...new Map(candidates.map(item => [item.source_record_id, item])).values()];
+  domains[domain] = { available_count: availableCount, candidate_pool_count: unique.length, selected_count: unique.length, candidates: unique };
 }
 
 const candidates = Object.values(domains).flatMap(state => state.candidates);
-const kdic = await collectKdic(candidates);
+const kdic = process.argv.includes('--catalog-only') ? { matches: new Map(), queriedItemCount: 0, failures: [], skipped: true } : await collectKdic(candidates);
 for (const state of Object.values(domains)) for (const candidate of state.candidates) {
   const matches = kdic.matches.get(candidate.source_record_id) || [];
   if (!matches.length) {
-    candidate.protection_evidence = { status: 'not_matched_requires_manual_review' };
+    candidate.protection_evidence = { status: kdic.skipped ? 'not_checked' : 'not_matched_requires_manual_review' };
     continue;
   }
   candidate.protection_evidence = {
     status: 'listed_match_unreviewed',
     source_id: 'source.kdic.insured-products',
-    original_url: 'https://apis.data.go.kr/B190017/service/GetInsuredProductService202008/getProductList202008',
+    original_url: 'https://apis.data.go.kr/B190017/service/GetInsuredProductService202607/getProductList202607',
     source_record_ids: matches.map(match => match.num),
     registered_at: matches.map(match => match.regDate).filter(Boolean).sort().at(-1) || null,
     locator: { kind: 'record', value: `fncIstNm=${matches[0].fncIstNm};prdNm=${matches[0].prdNm}` },
@@ -164,8 +179,7 @@ for (const state of Object.values(domains)) for (const candidate of state.candid
 }
 for (const state of Object.values(domains)) {
   state.candidates.sort((a, b) => Number(b.protection_evidence.status === 'listed_match_unreviewed') - Number(a.protection_evidence.status === 'listed_match_unreviewed'));
-  state.alternates = state.candidates.slice(20);
-  state.candidates = state.candidates.slice(0, 20);
+  state.alternates = [];
   state.selected_count = state.candidates.length;
 }
 const protectionMatchCount = Object.values(domains).flatMap(state => state.candidates).filter(candidate => candidate.protection_evidence.status === 'listed_match_unreviewed').length;
@@ -176,11 +190,11 @@ const artifact = {
   source_id: 'source.fss.finlife.api',
   raw_snapshot_stored: false,
   credential_persisted: false,
-  kdic_query_count: candidates.length,
+  kdic_query_count: kdic.skipped ? 0 : candidates.length,
   kdic_queried_item_count: kdic.queriedItemCount,
   kdic_failures: kdic.failures,
   protection_match_count: protectionMatchCount,
   domains,
 };
-writeJson(output, artifact);
-console.log(JSON.stringify({ output, collected_at: collectedAt, deposit: domains.deposit.selected_count, saving: domains.saving.selected_count, kdic_query_count: candidates.length, kdic_queried_item_count: kdic.queriedItemCount, kdic_failure_count: kdic.failures.length, protection_match_count: protectionMatchCount, credential_persisted: false }, null, 2));
+if (process.argv.includes('--write')) writeJson(output, artifact);
+console.log(JSON.stringify({ output: process.argv.includes('--write') ? output : null, collected_at: collectedAt, deposit: domains.deposit.selected_count, saving: domains.saving.selected_count, kdic_query_count: kdic.skipped ? 0 : candidates.length, kdic_queried_item_count: kdic.queriedItemCount, kdic_failure_count: kdic.failures.length, protection_match_count: protectionMatchCount, credential_persisted: false }, null, 2));

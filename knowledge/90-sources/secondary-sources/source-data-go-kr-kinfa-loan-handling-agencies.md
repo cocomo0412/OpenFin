@@ -40,7 +40,14 @@
   "access": {
     "method": "api",
     "parser_id": "api:source-data-go-kr-kinfa-loan-handling-agencies",
-    "requires_secret": true
+    "requires_secret": true,
+    "request_url": "https://apis.data.go.kr/B553701/LoanProductHandlingAgencyInfoService/getLoanProductHandlingAgencyInfo",
+    "request_query": {
+      "pageNo": 1,
+      "numOfRows": 1
+    },
+    "credential_env": "DATA_GO_KR_SERVICE_KEY",
+    "credential_query_param": "serviceKey"
   },
   "refresh": {
     "sla_hours": 168,
@@ -186,7 +193,7 @@
       "value": "2026-07-03 확인"
     }
   ],
-  "record_checksum": "sha256:421b78ecbfd3f2607781817332bf26309c49efe35c6af898ecdabdfc387b653b"
+  "record_checksum": "sha256:a0d850a564b3e71d6195784c19231922dc76a19eb641a601587124df39ff157c"
 }
 ---
 

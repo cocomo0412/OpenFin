@@ -37,7 +37,15 @@
   "access": {
     "method": "api",
     "parser_id": "api:source-fsc-financial-company-credit",
-    "requires_secret": true
+    "requires_secret": true,
+    "request_url": "https://apis.data.go.kr/1160100/service/GetFnCoFinaStatCredInfoService_V2/getFnCoBs_V2",
+    "request_query": {
+      "pageNo": 1,
+      "numOfRows": 1,
+      "resultType": "xml"
+    },
+    "credential_env": "DATA_GO_KR_SERVICE_KEY",
+    "credential_query_param": "serviceKey"
   },
   "refresh": {
     "sla_hours": 168,
@@ -180,7 +188,7 @@
       "value": "2026-07-03 확인"
     }
   ],
-  "record_checksum": "sha256:89b01a8a63f65a0f13a204192ac2914706137bf585922bb1fad582a2f80355a3"
+  "record_checksum": "sha256:d1e50357703947c5c0b225e4f2c8ecec26a4aa0abc52f1b64437abdd1d7fad01"
 }
 ---
 

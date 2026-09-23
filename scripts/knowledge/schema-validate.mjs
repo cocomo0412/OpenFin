@@ -18,12 +18,12 @@ ajv.addSchema(liveFixtureSchema);
 for (const file of ['bank-product.schema.json', 'deposit.schema.json', 'saving.schema.json', 'loan.schema.json', 'card-product.schema.json', 'card.schema.json', 'insurance-product.schema.json', 'insurance.schema.json', 'support-program.schema.json', 'eligibility-rule.schema.json', 'bonus-rate-rule.schema.json', 'early-termination-rule.schema.json', 'offer-option.schema.json', 'financial-offer.schema.json', 'deposit-offer.schema.json', 'saving-offer.schema.json']) {
   ajv.addSchema(json(path.join(schemaDir, 'types', file)), `types/${file}`);
 }
-const validateEntity = ajv.getSchema('https://jhny-kor.github.io/OpenFin/schemas/entity.schema.json');
-const validateSource = ajv.getSchema('https://jhny-kor.github.io/OpenFin/schemas/source.schema.json');
-const relationValidator = ajv.getSchema('https://jhny-kor.github.io/OpenFin/schemas/relation.schema.json');
+const validateEntity = ajv.getSchema('https://cocomo0412.github.io/OpenFin/schemas/entity.schema.json');
+const validateSource = ajv.getSchema('https://cocomo0412.github.io/OpenFin/schemas/source.schema.json');
+const relationValidator = ajv.getSchema('https://cocomo0412.github.io/OpenFin/schemas/relation.schema.json');
 const validateManifest = ajv.getSchema('finance-ontology-manifest.schema.json');
 const validateCapabilityManifest = ajv.getSchema('manifest.schema.json');
-const validateCapabilityStatus = ajv.getSchema('https://jhny-kor.github.io/OpenFin/schemas/capability-status.schema.json');
+const validateCapabilityStatus = ajv.getSchema('https://cocomo0412.github.io/OpenFin/schemas/capability-status.schema.json');
 const validateApproval = ajv.getSchema('recommendation-approval-receipt.schema.json');
 const validateFinancialQualityApproval = ajv.getSchema('financial-quality-approval-receipt.schema.json');
 const validatePromotion = ajv.getSchema('candidate-promotion-receipt.schema.json');
@@ -35,13 +35,13 @@ const validateLiveCase = ajv.getSchema(liveFixtureSchema.$id);
 const decisionOffers = [];
 for (const domain of ['deposit', 'saving']) {
   const file = path.join(KNOWLEDGE, '30-financial-products', 'banking', '_decision', `${domain}-offers.jsonl`);
-  if (fs.existsSync(file)) decisionOffers.push(...fs.readFileSync(file, 'utf8').split('\n').filter(Boolean).map(JSON.parse));
+  if (fs.existsSync(file)) decisionOffers.push(...fs.readFileSync(file, 'utf8').replace(/\r\n/g, '\n').split('\n').filter(Boolean).map(JSON.parse));
 }
 const optionById = new Map(decisionOffers.flatMap(offer => (offer.options || []).map(option => [option.option_id, { offer, option }])));
 const validateQualityDescriptors = (descriptorName, expectedStatus) => {
   const descriptorPath = path.join(ROOT, 'tests/golden', descriptorName);
   if (!fs.existsSync(descriptorPath)) { failures.push(`${descriptorPath}: missing quality descriptor`); return; }
-  const descriptors = fs.readFileSync(descriptorPath, 'utf8').split('\n').filter(Boolean).map((line, index) => {
+  const descriptors = fs.readFileSync(descriptorPath, 'utf8').replace(/\r\n/g, '\n').split('\n').filter(Boolean).map((line, index) => {
     try { return { value: JSON.parse(line), line: index + 1 }; }
     catch (error) { failures.push(`${descriptorPath}:${index + 1}: ${error.message}`); return null; }
   }).filter(Boolean);
@@ -55,7 +55,7 @@ const validateQualityDescriptors = (descriptorName, expectedStatus) => {
     }
     const sourcePath = path.join(ROOT, 'tests/golden', value.source_fixture);
     if (!fs.existsSync(sourcePath)) { failures.push(`${descriptorPath}:${line}: missing source fixture ${value.source_fixture}`); continue; }
-    const rows = fs.readFileSync(sourcePath, 'utf8').split('\n').filter(Boolean).map((row, rowIndex) => {
+    const rows = fs.readFileSync(sourcePath, 'utf8').replace(/\r\n/g, '\n').split('\n').filter(Boolean).map((row, rowIndex) => {
       try { return { value: JSON.parse(row), line: rowIndex + 1 }; }
       catch (error) { failures.push(`${sourcePath}:${rowIndex + 1}: ${error.message}`); return null; }
     }).filter(Boolean);
@@ -74,7 +74,7 @@ validateQualityDescriptors('openfin-comparison-live.jsonl', 'positive_compare');
 validateQualityDescriptors('openfin-recommendation-shadow-live.jsonl', 'shadow_rank');
 const liveFixturePath = path.join(ROOT, 'tests/golden/openfin-runtime-contract-120.jsonl');
 if (fs.existsSync(liveFixturePath)) {
-  const liveCases = fs.readFileSync(liveFixturePath, 'utf8').split('\n').filter(Boolean).map((line, index) => {
+  const liveCases = fs.readFileSync(liveFixturePath, 'utf8').replace(/\r\n/g, '\n').split('\n').filter(Boolean).map((line, index) => {
     try { return { value: JSON.parse(line), line: index + 1 }; } catch (error) { failures.push(`${liveFixturePath}:${index + 1}: ${error.message}`); return null; }
   }).filter(Boolean);
   const liveIds = new Set();
@@ -91,12 +91,12 @@ const walk = dir => {
     const file = path.join(dir, entry.name);
     if (entry.isDirectory()) walk(file);
     else if (entry.name.endsWith('.jsonl')) {
-      for (const [index, line] of fs.readFileSync(file, 'utf8').split('\n').entries()) {
+      for (const [index, line] of fs.readFileSync(file, 'utf8').replace(/\r\n/g, '\n').split('\n').entries()) {
         if (!line.trim()) continue;
         try { entities.push({ value: JSON.parse(line), file: `${file}:${index + 1}` }); } catch (error) { failures.push(`${file}:${index + 1}: ${error.message}`); }
       }
     } else if (entry.name.endsWith('.md')) {
-      const text = fs.readFileSync(file, 'utf8');
+      const text = fs.readFileSync(file, 'utf8').replace(/\r\n/g, '\n');
       if (!text.startsWith('---\n')) continue;
       const end = text.indexOf('\n---\n', 4);
       if (end < 0) { failures.push(`${file}: missing frontmatter terminator`); continue; }
@@ -146,7 +146,7 @@ if (fs.existsSync(financialQualityApprovalDir)) for (const file of fs.readdirSyn
 }
 const promotionDir = path.join(ROOT, 'evidence/candidate-promotions');
 if (fs.existsSync(promotionDir)) for (const file of fs.readdirSync(promotionDir).filter(name => name.endsWith('.jsonl'))) {
-  for (const [index, line] of fs.readFileSync(path.join(promotionDir, file), 'utf8').split('\n').entries()) {
+  for (const [index, line] of fs.readFileSync(path.join(promotionDir, file), 'utf8').replace(/\r\n/g, '\n').split('\n').entries()) {
     if (!line.trim()) continue;
     try {
       const value = JSON.parse(line);
@@ -173,7 +173,7 @@ if (fs.existsSync(promotionDir)) for (const file of fs.readdirSync(promotionDir)
 }
 const sourceReviewDir = path.join(ROOT, 'evidence/source-reviews');
 if (fs.existsSync(sourceReviewDir)) for (const file of fs.readdirSync(sourceReviewDir).filter(name => name.endsWith('.jsonl'))) {
-  for (const [index, line] of fs.readFileSync(path.join(sourceReviewDir, file), 'utf8').split('\n').entries()) {
+  for (const [index, line] of fs.readFileSync(path.join(sourceReviewDir, file), 'utf8').replace(/\r\n/g, '\n').split('\n').entries()) {
     if (!line.trim()) continue;
     try {
       const value = JSON.parse(line);

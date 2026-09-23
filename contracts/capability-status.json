@@ -1,5 +1,5 @@
 {
-  "$schema": "https://jhny-kor.github.io/OpenFin/schemas/capability-status.schema.json",
+  "$schema": "https://cocomo0412.github.io/OpenFin/schemas/capability-status.schema.json",
   "version": "openfin-capability-status-v1",
   "service_availability": [
     "available",

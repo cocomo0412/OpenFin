@@ -1,8 +1,8 @@
 {
   "version": "openfin-vertical-slice-v1",
   "generated_at": "2026-07-28",
-  "source_registry_checksum": "88455443d4107f7feb69cc5a0ad589c249e17cfc8dc651cab9efad970b94bc01",
-  "canonical_content_checksum": "1d72931ff0470d911d85e77613cbc69982525a17dd19ec232d82d1c696bf2746",
+  "source_registry_checksum": "0ab12f4f10077a6ae2ba017f7f5fc95e5cc6bc039eb51a2b88de08fdbe420835",
+  "canonical_content_checksum": "d5d9154f7b861350562e7142b83a9964ead01b02896ef5bfc9e8b177a34d6022",
   "policy_version": "openfin-release-policy-v1",
   "domains": {
     "deposit": {

@@ -37,7 +37,14 @@
   "access": {
     "method": "api",
     "parser_id": "api:source-fsc-financial-company-basic",
-    "requires_secret": true
+    "requires_secret": true,
+    "request_url": "https://apis.data.go.kr/1160100/service/GetFnCoBasiInfoService/getFnCoOutl",
+    "request_query": {
+      "pageNo": 1,
+      "numOfRows": 1
+    },
+    "credential_env": "DATA_GO_KR_SERVICE_KEY",
+    "credential_query_param": "serviceKey"
   },
   "refresh": {
     "sla_hours": 168,
@@ -180,7 +187,7 @@
       "value": "2026-07-03 확인"
     }
   ],
-  "record_checksum": "sha256:0696814fbbf644f2780b6cf4050122a39c85849220138b85a378753893b68154"
+  "record_checksum": "sha256:2bce328b33c70992d3f59bd313ea522120390d550e0576231e7e66506a864ed2"
 }
 ---
 

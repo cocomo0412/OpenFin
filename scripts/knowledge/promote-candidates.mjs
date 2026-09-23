@@ -22,7 +22,7 @@ const decisionDir = path.join(KNOWLEDGE, '30-financial-products', 'banking', '_d
 const evaluatedAt = process.env.OPENFIN_PROMOTION_EVALUATED_AT || new Date().toISOString();
 const comparisonProfile = resolveAssertionProfile({ profile: process.env.OPENFIN_COMPARISON_PROFILE, comparison_mode: process.env.OPENFIN_COMPARISON_MODE });
 
-const readRows = file => fs.existsSync(file) ? fs.readFileSync(file, 'utf8').split('\n').filter(Boolean).map(JSON.parse) : [];
+const readRows = file => fs.existsSync(file) ? fs.readFileSync(file, 'utf8').replace(/\r\n/g, '\n').split('\n').filter(Boolean).map(JSON.parse) : [];
 const readReviewRows = () => fs.existsSync(reviewDir)
   ? fs.readdirSync(reviewDir).filter(file => file.endsWith('.jsonl')).flatMap(file => readRows(path.join(reviewDir, file)))
   : [];

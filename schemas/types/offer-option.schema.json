@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://jhny-kor.github.io/OpenFin/schemas/types/offer-option.schema.json",
+  "$id": "https://cocomo0412.github.io/OpenFin/schemas/types/offer-option.schema.json",
   "title": "OpenFin strict financial offer option",
   "type": "object",
   "required": ["option_id", "type", "term_months", "base_rate_percent", "maximum_rate_percent", "interest_method", "field_assertions"],

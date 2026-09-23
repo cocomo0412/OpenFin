@@ -1,9 +1,10 @@
+import { fileURLToPath } from 'node:url';
 import crypto from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
 import { readBodyText, transportErrorCount as countTransportErrors } from "./live-regression-transport.mjs";
 
-const root = new URL("../..", import.meta.url).pathname;
+const root = fileURLToPath(new URL("../../", import.meta.url));
 const fixturePath = path.join(root, "tests/golden/openfin-runtime-contract-120.jsonl");
 const fixture = fs.readFileSync(fixturePath, "utf8").trim().split("\n").map((line) => JSON.parse(line));
 const checksum = crypto.createHash("sha256").update(fs.readFileSync(fixturePath)).digest("hex");
@@ -26,7 +27,7 @@ const duplicateSemanticCount = semanticHashes.length - new Set(semanticHashes).s
 if (fixture.length !== 120 || invalid.length || duplicateSemanticCount || duplicateSemanticQueries || invalidCategories.length || invalidSemanticDomains.length || invalidSemanticContracts) throw new Error(`fixture must contain 120 unique cases and the required semantic domain coverage; got ${fixture.length}, invalid ${invalid.length}, duplicate_semantics ${duplicateSemanticCount}, duplicate_semantic_queries ${duplicateSemanticQueries}, invalid_semantic_contracts ${invalidSemanticContracts}, categories ${invalidCategories.join(",")}, semantic_domains ${invalidSemanticDomains.join(",")}`);
 if (process.argv.includes("--validate-fixture")) { console.log(JSON.stringify({ ok: true, case_count: fixture.length, semantic_unique_case_count: new Set(semanticHashes).size, semantic_case_count: Object.values(semanticCounts).reduce((sum, count) => sum + count, 0), duplicate_ids: 0, duplicate_semantic_cases: duplicateSemanticCount, category_counts: categoryCounts, semantic_domain_counts: semanticCounts, fixture_checksum: `sha256:${checksum}` }, null, 2)); process.exit(0); }
 
-const endpoint = (process.env.MCP_URL || "https://openfin-mcp.y2kthr.workers.dev/mcp").replace(/\/$/, "");
+const endpoint = (process.env.MCP_URL || "https://openfin.cocomo0412.workers.dev/mcp").replace(/\/$/, "");
 const base = endpoint.replace(/\/mcp$/, "");
 const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 const metadataAttempts = Number(process.env.LIVE_METADATA_ATTEMPTS || 60);

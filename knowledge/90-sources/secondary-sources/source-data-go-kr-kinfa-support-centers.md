@@ -40,7 +40,14 @@
   "access": {
     "method": "api",
     "parser_id": "api:source-data-go-kr-kinfa-support-centers",
-    "requires_secret": true
+    "requires_secret": true,
+    "request_url": "https://apis.data.go.kr/B553701/TotalSupportCenterMisoBranchInfoService/getCenterMisoBranchInfo",
+    "request_query": {
+      "pageNo": 1,
+      "numOfRows": 1
+    },
+    "credential_env": "DATA_GO_KR_SERVICE_KEY",
+    "credential_query_param": "serviceKey"
   },
   "refresh": {
     "sla_hours": 168,
@@ -186,7 +193,7 @@
       "value": "2026-07-03 확인"
     }
   ],
-  "record_checksum": "sha256:7f0df6d8ec421a66e830cd74812be392c497fbd4a0ed21c972fa6d8829dfcdaa"
+  "record_checksum": "sha256:77c8aed36c03104e23ef625d486ca94373e58465d83b5fe7591fb5d5803cbeab"
 }
 ---
 

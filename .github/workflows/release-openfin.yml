@@ -12,7 +12,7 @@ concurrency:
 
 jobs:
   canonical-artifact:
-    if: ${{ github.ref == 'refs/heads/main' }}
+    if: ${{ false }} # Full edition disabled for free-only deployment
     runs-on: ubuntu-latest
     permissions:
       actions: read
@@ -37,7 +37,7 @@ jobs:
         run: |
           set -euo pipefail
           curl --fail --silent --show-error --location --retry 3 \
-            https://jhny-kor.github.io/OpenFin/opentax/current-release.json \
+            https://cocomo0412.github.io/OpenFin/opentax/current-release.json \
             --output current-production.json
           jq -e '
             (.production_commit | test("^[0-9a-f]{40}$")) and
@@ -56,7 +56,7 @@ jobs:
           echo "OPENFIN_CURRENT_PRODUCTION_GENERATION=$production_generation" >> "$GITHUB_ENV"
           echo "OPENFIN_CURRENT_PAGES_GENERATION=$(jq -r '.pages_generation' current-production.json)" >> "$GITHUB_ENV"
           echo "OPENFIN_CURRENT_WORKER_GENERATION=$(jq -r '.worker_generation' current-production.json)" >> "$GITHUB_ENV"
-          curl --fail --silent --show-error --location --retry 3 https://openfin-mcp.y2kthr.workers.dev/health --output current-worker-health.json
+          curl --fail --silent --show-error --location --retry 3 https://openfin.cocomo0412.workers.dev/health --output current-worker-health.json
           jq -e --arg commit "$production_commit" --arg generation "$(jq -r '.worker_generation' current-production.json)" '(.deployment_commit == $commit) and (.generation_id == $generation)' current-worker-health.json >/dev/null
           artifacts="$(gh api --paginate --slurp "repos/$GITHUB_REPOSITORY/actions/artifacts?per_page=100")"
           pages_artifact="$(jq -c --arg commit "$production_commit" '
@@ -174,6 +174,7 @@ jobs:
           retention-days: 7
 
   deploy-pages-staging:
+    if: ${{ false }} # Full edition disabled for free-only deployment
     needs: canonical-artifact
     runs-on: ubuntu-latest
     outputs:
@@ -222,6 +223,7 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
 
   deploy-worker-candidate:
+    if: ${{ false }} # Full edition disabled for free-only deployment
     needs: [canonical-artifact, deploy-pages-staging]
     runs-on: ubuntu-latest
     outputs:
@@ -286,6 +288,7 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
 
   validate-candidate:
+    if: ${{ false }} # Full edition disabled for free-only deployment
     needs: [canonical-artifact, deploy-worker-candidate]
     runs-on: ubuntu-latest
     timeout-minutes: 40
@@ -364,6 +367,7 @@ jobs:
           retention-days: 7
 
   deploy-pages-final-candidate:
+    if: ${{ false }} # Full edition disabled for free-only deployment
     needs: finalize-artifact
     runs-on: ubuntu-latest
     outputs:
@@ -411,6 +415,7 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
 
   deploy-worker-final:
+    if: ${{ false }} # Full edition disabled for free-only deployment
     needs: [finalize-artifact, deploy-pages-final-candidate, deploy-worker-candidate]
     runs-on: ubuntu-latest
     outputs:
@@ -459,6 +464,7 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
 
   validate-worker-final:
+    if: ${{ false }} # Full edition disabled for free-only deployment
     needs: [finalize-artifact, deploy-pages-final-candidate, deploy-worker-final]
     runs-on: ubuntu-latest
     timeout-minutes: 40
@@ -522,7 +528,7 @@ jobs:
           OPENFIN_WORKER_HEALTH_URL: ${{ needs.deploy-worker-final.outputs.worker_url }}/health
           OPENFIN_LIVE_EVIDENCE_URL: ${{ needs.deploy-pages-final-candidate.outputs.page_url }}/opentax/live-regression-current.json
           OPENFIN_EXPECTED_WORKER_MANIFEST_URL: ${{ needs.deploy-pages-final-candidate.outputs.page_url }}/opentax/finance-ontology-manifest.json
-          OPENFIN_CANONICAL_MANIFEST_URL: https://jhny-kor.github.io/OpenFin/opentax/finance-ontology-manifest.json
+          OPENFIN_CANONICAL_MANIFEST_URL: https://cocomo0412.github.io/OpenFin/opentax/finance-ontology-manifest.json
           OPENFIN_LIVE_EVIDENCE_PATH: ../live-regression-report.json
           OPENFIN_PARITY_ATTEMPTS: 12
           OPENFIN_PARITY_DELAY_MS: 5000
@@ -539,6 +545,7 @@ jobs:
           retention-days: 7
 
   promote-worker:
+    if: ${{ false }} # Full edition disabled for free-only deployment
     needs: [deploy-worker-final, validate-worker-final, soak-worker-final]
     runs-on: ubuntu-latest
     outputs:
@@ -579,6 +586,7 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
 
   post-promotion-soak:
+    if: ${{ false }} # Full edition disabled for free-only deployment
     needs: [deploy-pages-final-candidate, deploy-worker-final, promote-worker, validate-promoted-worker]
     runs-on: ubuntu-latest
     timeout-minutes: 25
@@ -596,7 +604,7 @@ jobs:
       - name: Run the 15-minute post-promotion soak
         run: npm run soak-test -- --duration-minutes 15 --concurrency 4 > ../post-promotion-soak-report.json
         env:
-          MCP_URL: https://openfin-mcp.y2kthr.workers.dev/mcp
+          MCP_URL: https://openfin.cocomo0412.workers.dev/mcp
           EXPECTED_DEPLOYMENT_COMMIT: ${{ github.sha }}
           EXPECTED_GENERATION: ${{ needs.deploy-worker-final.outputs.generation }}
           LIVE_REQUEST_TIMEOUT_MS: 15000
@@ -610,6 +618,7 @@ jobs:
           retention-days: 7
 
   soak-worker-final:
+    if: ${{ false }} # Full edition disabled for free-only deployment
     needs: [deploy-pages-final-candidate, deploy-worker-final, validate-worker-final]
     runs-on: ubuntu-latest
     timeout-minutes: 40
@@ -641,6 +650,7 @@ jobs:
           retention-days: 7
 
   validate-promoted-worker:
+    if: ${{ false }} # Full edition disabled for free-only deployment
     needs: [deploy-pages-final-candidate, deploy-worker-final, promote-worker]
     runs-on: ubuntu-latest
     timeout-minutes: 40
@@ -662,24 +672,24 @@ jobs:
       - name: Validate promoted Worker health and readiness
         run: npm run smoke
         env:
-          MCP_URL: https://openfin-mcp.y2kthr.workers.dev
+          MCP_URL: https://openfin.cocomo0412.workers.dev
           EXPECTED_DEPLOYMENT_COMMIT: ${{ github.sha }}
           SMOKE_ATTEMPTS: 12
           SMOKE_DELAY_MS: 5000
       - name: Validate promoted Worker tools/list schema
         run: npm run tool-schema-contract
         env:
-          MCP_URL: https://openfin-mcp.y2kthr.workers.dev/mcp
+          MCP_URL: https://openfin.cocomo0412.workers.dev/mcp
       - name: Re-run comparison endpoint and fail-closed state
         run: OPENFIN_REQUIRE_POSITIVE_RUNTIME="$(jq -r '(.capabilities.comparison // "blocked") != "blocked"' ../release/docs/opentax/finance-ontology-manifest.json)" npm run financial-quality-live
         env:
-          MCP_URL: https://openfin-mcp.y2kthr.workers.dev/mcp
+          MCP_URL: https://openfin.cocomo0412.workers.dev/mcp
       - name: Validate promoted Worker binding and 120-case regression
         run: |
           set -euo pipefail
           expected_url="${{ needs.deploy-pages-final-candidate.outputs.page_url }}/opentax/finance-ontology-manifest.json"
           expected_generation="$(jq -r '.generation_id' ../release/docs/opentax/finance-ontology-manifest.json)"
-          health="$(curl --fail --silent --show-error --location --retry 3 https://openfin-mcp.y2kthr.workers.dev/health)"
+          health="$(curl --fail --silent --show-error --location --retry 3 https://openfin.cocomo0412.workers.dev/health)"
           test "$(jq -r '.deployment_commit' <<< "$health")" = "$GITHUB_SHA"
           test "$(jq -r '.generation_id' <<< "$health")" = "$expected_generation"
           test "$(jq -r '.finance_manifest_url' <<< "$health")" = "$expected_url"
@@ -694,7 +704,7 @@ jobs:
           cp ../promoted-live-regression-error-3.log ../promoted-live-regression-error.log
           exit "$result"
         env:
-          MCP_URL: https://openfin-mcp.y2kthr.workers.dev/mcp
+          MCP_URL: https://openfin.cocomo0412.workers.dev/mcp
           LIVE_METADATA_ATTEMPTS: 1
           LIVE_METADATA_DELAY_MS: 1000
           LIVE_REQUEST_TIMEOUT_MS: 15000
@@ -714,6 +724,7 @@ jobs:
           retention-days: 7
 
   deploy-pages-final:
+    if: ${{ false }} # Full edition disabled for free-only deployment
     needs: [finalize-artifact, validate-promoted-worker, post-promotion-soak]
     runs-on: ubuntu-latest
     permissions:
@@ -750,6 +761,7 @@ jobs:
           artifact_name: github-pages-final
 
   finalize-artifact:
+    if: ${{ false }} # Full edition disabled for free-only deployment
     needs: [canonical-artifact, deploy-worker-candidate, validate-candidate]
     runs-on: ubuntu-latest
     steps:
@@ -836,6 +848,7 @@ jobs:
           retention-days: 7
 
   public-parity:
+    if: ${{ false }} # Full edition disabled for free-only deployment
     needs: [deploy-pages-final-candidate, deploy-pages-final, promote-worker, validate-worker-final, validate-promoted-worker]
     runs-on: ubuntu-latest
     steps:
@@ -856,20 +869,21 @@ jobs:
         env:
           OPENFIN_LOCAL_MANIFEST_PATH: release/docs/opentax/finance-ontology-manifest.json
           OPENFIN_LIVE_EVIDENCE_PATH: live/promoted-live-regression-report.json
-          OPENFIN_LIVE_EVIDENCE_URL: https://jhny-kor.github.io/OpenFin/opentax/live-regression-production-current.json
+          OPENFIN_LIVE_EVIDENCE_URL: https://cocomo0412.github.io/OpenFin/opentax/live-regression-production-current.json
           OPENFIN_REQUIRE_PRODUCTION_LIVE_EVIDENCE: "true"
           OPENFIN_EXPECTED_WORKER_MANIFEST_URL: ${{ needs.deploy-pages-final-candidate.outputs.page_url }}/opentax/finance-ontology-manifest.json
-          OPENFIN_CANONICAL_MANIFEST_URL: https://jhny-kor.github.io/OpenFin/opentax/finance-ontology-manifest.json
+          OPENFIN_CANONICAL_MANIFEST_URL: https://cocomo0412.github.io/OpenFin/opentax/finance-ontology-manifest.json
       - name: Verify production Worker remains bound to the immutable final artifact
         run: |
           set -euo pipefail
           expected="${{ needs.deploy-pages-final-candidate.outputs.page_url }}/opentax/finance-ontology-manifest.json"
-          actual="$(curl --fail --silent --show-error --location --retry 3 https://openfin-mcp.y2kthr.workers.dev/health | jq -r '.finance_manifest_url // empty')"
+          actual="$(curl --fail --silent --show-error --location --retry 3 https://openfin.cocomo0412.workers.dev/health | jq -r '.finance_manifest_url // empty')"
           test "$actual" = "$expected"
 
   rollback-worker-on-post-promotion-failure:
+    if: ${{ false }} # Full edition disabled for free-only deployment
     needs: [canonical-artifact, promote-worker, validate-promoted-worker, post-promotion-soak, deploy-pages-final, public-parity, deploy-worker-candidate, deploy-worker-final]
-    if: ${{ always() && needs.deploy-worker-final.result == 'success' && needs.promote-worker.result != 'skipped' && (needs.promote-worker.result != 'success' || needs.validate-promoted-worker.result != 'success' || needs.post-promotion-soak.result != 'success' || needs.deploy-pages-final.result != 'success' || needs.public-parity.result != 'success') }}
+    if: ${{ false }} # Full edition disabled for free-only deployment
     runs-on: ubuntu-latest
     steps:
       - name: Roll back Worker to the captured previous version
@@ -885,7 +899,7 @@ jobs:
         run: |
           set -euo pipefail
           for attempt in $(seq 1 12); do
-            if health="$(curl --fail --silent --show-error --location "https://openfin-mcp.y2kthr.workers.dev/health?openfin_rollback=$GITHUB_RUN_ID-$attempt")" &&
+            if health="$(curl --fail --silent --show-error --location "https://openfin.cocomo0412.workers.dev/health?openfin_rollback=$GITHUB_RUN_ID-$attempt")" &&
               jq -e --arg commit "${{ needs.canonical-artifact.outputs.previous_production_commit }}" --arg generation "${{ needs.canonical-artifact.outputs.previous_production_generation }}" '
                 (.deployment_commit == $commit) and
                 (.artifact_generation == $generation)
@@ -897,8 +911,9 @@ jobs:
           exit 1
 
   rollback-pages-on-post-promotion-failure:
+    if: ${{ false }} # Full edition disabled for free-only deployment
     needs: [canonical-artifact, deploy-pages-final, public-parity]
-    if: ${{ always() && needs.canonical-artifact.result == 'success' && (needs.deploy-pages-final.result == 'failure' || needs.deploy-pages-final.result == 'cancelled' || (needs.deploy-pages-final.result == 'success' && needs.public-parity.result != 'success')) }}
+    if: ${{ false }} # Full edition disabled for free-only deployment
     runs-on: ubuntu-latest
     permissions:
       actions: read
@@ -957,8 +972,8 @@ jobs:
           case "$evidence_path" in opentax/*) ;; *) exit 1 ;; esac
           test -f "rollback-site/$evidence_path"
           for attempt in $(seq 1 12); do
-            if curl --fail --silent --show-error --location "https://jhny-kor.github.io/OpenFin/opentax/current-release.json?openfin_rollback=$GITHUB_RUN_ID-$attempt" --output "$public_pointer" &&
-              curl --fail --silent --show-error --location "https://jhny-kor.github.io/OpenFin/$evidence_path?openfin_rollback=$GITHUB_RUN_ID-$attempt" --output "$public_evidence" &&
+            if curl --fail --silent --show-error --location "https://cocomo0412.github.io/OpenFin/opentax/current-release.json?openfin_rollback=$GITHUB_RUN_ID-$attempt" --output "$public_pointer" &&
+              curl --fail --silent --show-error --location "https://cocomo0412.github.io/OpenFin/$evidence_path?openfin_rollback=$GITHUB_RUN_ID-$attempt" --output "$public_evidence" &&
               cmp --silent rollback-site/opentax/current-release.json "$public_pointer" &&
               cmp --silent "rollback-site/$evidence_path" "$public_evidence"; then
               exit 0

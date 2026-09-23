@@ -9,9 +9,9 @@ const loadCanonical = () => {
     for (const entry of fs.readdirSync(dir, {withFileTypes:true})) {
       const p = path.join(dir, entry.name);
       if (entry.isDirectory()) walk(p);
-      else if (entry.name.endsWith('.jsonl')) for (const line of fs.readFileSync(p,'utf8').split('\n').filter(Boolean)) records.push(JSON.parse(line));
+      else if (entry.name.endsWith('.jsonl')) for (const line of fs.readFileSync(p,'utf8').replace(/\r\n/g, '\n').split('\n').filter(Boolean)) records.push(JSON.parse(line));
       else if (entry.name.endsWith('.md')) {
-        const text = fs.readFileSync(p,'utf8'); if (!text.startsWith('---\n')) continue;
+        const text = fs.readFileSync(p,'utf8').replace(/\r\n/g, '\n'); if (!text.startsWith('---\n')) continue;
         const end = text.indexOf('\n---\n', 4); if (end < 0) continue;
         try {
           const value = JSON.parse(text.slice(4,end));
@@ -57,7 +57,7 @@ const withSourceReviewDates = item => {
 const receiptRows = [];
 const receiptRoot = path.join(ROOT, 'evidence/source-receipts');
 if (fs.existsSync(receiptRoot)) {
-  const walkReceipts = dir => { for (const entry of fs.readdirSync(dir,{withFileTypes:true})) { const file=path.join(dir,entry.name); if(entry.isDirectory()) walkReceipts(file); else if(entry.name.endsWith('.jsonl')) for(const line of fs.readFileSync(file,'utf8').split('\n').filter(Boolean)) receiptRows.push(JSON.parse(line)); } };
+  const walkReceipts = dir => { for (const entry of fs.readdirSync(dir,{withFileTypes:true})) { const file=path.join(dir,entry.name); if(entry.isDirectory()) walkReceipts(file); else if(entry.name.endsWith('.jsonl')) for(const line of fs.readFileSync(file,'utf8').replace(/\r\n/g, '\n').split('\n').filter(Boolean)) receiptRows.push(JSON.parse(line)); } };
   walkReceipts(receiptRoot);
 }
 // Build metadata is deterministic and describes the latest collected/reviewed
@@ -68,7 +68,10 @@ const receiptSnapshotDates = receiptRows.map(receipt => {
   return Number.isNaN(date.getTime()) ? null : date.toISOString();
 }).filter(Boolean);
 const sourceSnapshotDates = [...catalog.flatMap(item => [item.source_collected_at, item.last_verified_at, item.reviewed_at]).map(value => isoDate(value)).filter(Boolean), ...receiptSnapshotDates].sort();
-const now = process.env.OPENFIN_BUILD_AT || sourceSnapshotDates.at(-1) || 'unknown';
+const collectionPath = path.join(DOCS, 'collection-inventory.json');
+const currentCollection = fs.existsSync(collectionPath) ? json(collectionPath) : null;
+const collectionDates = (currentCollection?.datasets || []).map(entry => entry.collected_at).filter(Boolean);
+const now = process.env.OPENFIN_BUILD_AT || [...sourceSnapshotDates, ...collectionDates].sort().at(-1) || 'unknown';
 const artifactEntry = (id, domain, file, payload, itemCount, extra = {}) => ({id, domain, path:`opentax/${file}`, url:`${PUBLIC_BASE}/${file}`, web_url:`${PUBLIC_BASE}/${file}`, item_count:itemCount, generated_at:now, export_checksum:sha256(payload).slice(7), ...extra});
 const writeCompact = (file, payload) => { fs.mkdirSync(path.dirname(file), {recursive:true}); fs.writeFileSync(file, JSON.stringify(payload) + '\n'); };
 const ONTOLOGY_SHARD_MAX_BYTES = 25 * 1024 * 1024;
@@ -110,7 +113,7 @@ const writeOntologyShards = (file, output) => {
     const shardFile = `${file.replace(/\.json$/, '')}-shard-${String(index + 1).padStart(3, '0')}.json`;
     const shardPath = path.join(DOCS, shardFile);
     writeJson(shardPath, shard);
-    const content_checksum = sha256(fs.readFileSync(shardPath, 'utf8')).slice(7);
+    const content_checksum = sha256(fs.readFileSync(shardPath, 'utf8').replace(/\r\n/g, '\n')).slice(7);
     return {id:`${output.id || file}-shard-${String(index + 1).padStart(3, '0')}`, shard_id:`${file}-shard-${String(index + 1).padStart(3, '0')}`, path:`opentax/${shardFile}`, url:`${PUBLIC_BASE}/${shardFile}`, web_url:`${PUBLIC_BASE}/${shardFile}`, item_count:shard.item_count, reference_item_count:shard.reference_item_count, export_checksum:shard.export_checksum, content_checksum};
   });
 };
@@ -126,7 +129,7 @@ const decisionOfferEntry = {
   web_url: `${PUBLIC_BASE}/openfin-decision-offers-2026.json`,
   item_count: decisionOffers.length,
   export_checksum: sha256(decisionOfferPayload).slice(7),
-  content_checksum: sha256(fs.readFileSync(decisionOfferPath, 'utf8')).slice(7),
+  content_checksum: sha256(fs.readFileSync(decisionOfferPath, 'utf8').replace(/\r\n/g, '\n')).slice(7),
   generated_at: now,
 };
 const legacyFiles = Object.keys(manifests).sort();
@@ -349,7 +352,7 @@ const writeHotSearchShard = (meta, items, {
   const file = `${filePrefix}-${meta.shard_id}.json`;
   const outputPath = path.join(DOCS, file);
   writeCompact(outputPath, output);
-  const content_checksum = sha256(fs.readFileSync(outputPath, 'utf8')).slice(7);
+  const content_checksum = sha256(fs.readFileSync(outputPath, 'utf8').replace(/\r\n/g, '\n')).slice(7);
   outputs.push({
     id: `${idPrefix}-${meta.shard_id}`,
     shard_id: meta.shard_id,
@@ -379,7 +382,7 @@ for (const [file, meta] of Object.entries(searchFiles).sort(([a],[b])=>a.localeC
   const outFile = file;
   const outPath = path.join(DOCS,outFile);
   writeJson(outPath, output);
-  const content_checksum = sha256(fs.readFileSync(outPath, 'utf8')).slice(7);
+  const content_checksum = sha256(fs.readFileSync(outPath, 'utf8').replace(/\r\n/g, '\n')).slice(7);
   detailShardOutputs.push({id:`finance-search-index-${meta.shard_id}`, shard_id:meta.shard_id, path:`opentax/${outFile}`, url:`${PUBLIC_BASE}/${outFile}`, web_url:`${PUBLIC_BASE}/${outFile}`, item_count:items.length, export_checksum:output.export_checksum, content_checksum});
 
   const compactFields = ['bank-products', 'card-products', 'insurance-products'].includes(meta.shard_id) ? discoverySearchFields : compactSearchFields;
@@ -392,7 +395,7 @@ for (const [file, meta] of Object.entries(searchFiles).sort(([a],[b])=>a.localeC
   const compactFile = file.replace(/\.json$/, '-compact.json');
   const compactPath = path.join(DOCS, compactFile);
   writeJson(compactPath, compactOutput);
-  const compactContentChecksum = sha256(fs.readFileSync(compactPath, 'utf8')).slice(7);
+  const compactContentChecksum = sha256(fs.readFileSync(compactPath, 'utf8').replace(/\r\n/g, '\n')).slice(7);
   shardOutputs.push({id:`finance-search-index-${meta.shard_id}-compact`, shard_id:meta.shard_id, path:`opentax/${compactFile}`, url:`${PUBLIC_BASE}/${compactFile}`, web_url:`${PUBLIC_BASE}/${compactFile}`, item_count:compactItems.length, export_checksum:compactOutput.export_checksum, content_checksum:compactContentChecksum});
   writeHotSearchShard(meta, items);
 }
@@ -403,13 +406,13 @@ for (const file of fs.readdirSync(DOCS).filter(f=>/^finance-search-index-2026-.+
   const output = {version:data.version, basis_date:data.basis_date, source_review_date:data.source_review_date, ontology_kind:data.ontology_kind, shard_id:data.shard_id, item_count:0, items:[], export_checksum:sha256(JSON.stringify([])).slice(7)};
   const outPath = path.join(DOCS,file);
   writeJson(outPath, output);
-  const content_checksum = sha256(fs.readFileSync(outPath, 'utf8')).slice(7);
+  const content_checksum = sha256(fs.readFileSync(outPath, 'utf8').replace(/\r\n/g, '\n')).slice(7);
   detailShardOutputs.push({id:`finance-search-index-${data.shard_id}`, shard_id:data.shard_id, path:`opentax/${file}`, url:`${PUBLIC_BASE}/${file}`, web_url:`${PUBLIC_BASE}/${file}`, item_count:0, export_checksum:output.export_checksum, content_checksum});
   const compactFile = file.replace(/\.json$/, '-compact.json');
   const compactPath = path.join(DOCS, compactFile);
   const compactOutput = {...output};
   writeJson(compactPath, compactOutput);
-  const compactContentChecksum = sha256(fs.readFileSync(compactPath, 'utf8')).slice(7);
+  const compactContentChecksum = sha256(fs.readFileSync(compactPath, 'utf8').replace(/\r\n/g, '\n')).slice(7);
   shardOutputs.push({id:`finance-search-index-${data.shard_id}-compact`, shard_id:data.shard_id, path:`opentax/${compactFile}`, url:`${PUBLIC_BASE}/${compactFile}`, web_url:`${PUBLIC_BASE}/${compactFile}`, item_count:0, export_checksum:compactOutput.export_checksum, content_checksum:compactContentChecksum});
   writeHotSearchShard(data, []);
 }
@@ -482,7 +485,7 @@ const exactFetchIndex = {
 };
 const exactFetchRootPath = path.join(DOCS, 'finance-exact-fetch-index-2026.json');
 writeCompact(exactFetchRootPath, exactFetchIndex);
-exactFetchIndex.content_checksum = sha256(fs.readFileSync(exactFetchRootPath, 'utf8')).slice(7);
+exactFetchIndex.content_checksum = sha256(fs.readFileSync(exactFetchRootPath, 'utf8').replace(/\r\n/g, '\n')).slice(7);
 const hotSearchIndex = {
   id: 'openfin-hot-search-index',
   domain: 'search-hot',
@@ -495,10 +498,10 @@ const hotSearchIndex = {
 };
 const hotSearchRootPath = path.join(DOCS, 'finance-hot-search-index-2026.json');
 writeCompact(hotSearchRootPath, hotSearchIndex);
-hotSearchIndex.content_checksum = sha256(fs.readFileSync(hotSearchRootPath, 'utf8')).slice(7);
+hotSearchIndex.content_checksum = sha256(fs.readFileSync(hotSearchRootPath, 'utf8').replace(/\r\n/g, '\n')).slice(7);
 const searchRootPath = path.join(DOCS,'finance-search-index-2026.json');
 writeCompact(searchRootPath, searchManifest);
-const searchContentChecksum = sha256(fs.readFileSync(searchRootPath, 'utf8')).slice(7);
+const searchContentChecksum = sha256(fs.readFileSync(searchRootPath, 'utf8').replace(/\r\n/g, '\n')).slice(7);
 const sourceRows = catalog.filter(i=>i.type==='source').sort((a,b)=>a.id.localeCompare(b.id));
 const sourceRegistry = sourceRows.map(source => {
   const urls = [...new Set([source.urls?.canonical, source.urls?.api, source.urls?.documentation, ...(source.urls?.all || []), ...(source.source_urls || [])].filter(validUrl))];
@@ -598,6 +601,12 @@ const migrationArtifact = {version:'OPENFIN-MIGRATION-2026.07.28.1', generated_a
 writeJson(path.join(DOCS,'openfin-migration-manifest-2026.json'), migrationArtifact);
 const manifest = json(path.join(DOCS,'finance-ontology-manifest.json'));
 manifest.built_at=now; manifest.operational_base_url=PUBLIC_BASE; manifest.artifacts={...(manifest.artifacts||{})};
+if (currentCollection) {
+  manifest.api_collection = {path:'opentax/collection-inventory.json', basis_date:currentCollection.snapshot_basis_date,
+    dataset_count:currentCollection.datasets.length, record_count:currentCollection.datasets.reduce((sum, entry) => sum + entry.count, 0),
+    checksum:sha256(currentCollection), identity_linked_products:currentCollection.product_link_count || 0,
+    scope:'Official API reference snapshots and exact product identity links; original ontology review dates remain unchanged.'};
+}
 const releasePointerPath = path.join(DOCS, 'current-release.json');
 const previousReleasePointer = fs.existsSync(releasePointerPath) ? json(releasePointerPath) : {};
 const releaseState = process.env.OPENFIN_RELEASE_STATE === 'promoted' ? 'promoted' : 'candidate';
@@ -738,9 +747,9 @@ const artifactContract = {
   canonical_content_checksum: quality.canonical.content_checksum,
   search_index_checksum: searchManifest.export_checksum,
   source_status_checksum: sha256(sourceStatusArtifact).slice(7),
-  release_policy_checksum: sha256(fs.readFileSync(path.join(ROOT, 'contracts/release-policy.json'), 'utf8')).slice(7),
-  capability_policy_checksum: sha256(fs.readFileSync(path.join(ROOT, 'contracts/capability-policy.json'), 'utf8')).slice(7),
-  capability_status_checksum: sha256(fs.readFileSync(path.join(ROOT, 'contracts/capability-status.json'), 'utf8')).slice(7),
+  release_policy_checksum: sha256(fs.readFileSync(path.join(ROOT, 'contracts/release-policy.json'), 'utf8').replace(/\r\n/g, '\n')).slice(7),
+  capability_policy_checksum: sha256(fs.readFileSync(path.join(ROOT, 'contracts/capability-policy.json'), 'utf8').replace(/\r\n/g, '\n')).slice(7),
+  capability_status_checksum: sha256(fs.readFileSync(path.join(ROOT, 'contracts/capability-status.json'), 'utf8').replace(/\r\n/g, '\n')).slice(7),
   fixture_checksum: quality.fixture_checksum,
   candidate_set_checksum: candidateSetChecksum(decisionOffers),
   candidate_content_checksum_policy: 'immutable_candidate_set_checksum',
@@ -1001,7 +1010,7 @@ delete manifest.search_index.quality_summary;
 manifest.detail_search_index=detailSearchIndex;
 manifest.hot_search_index=hotSearchIndex;
 manifest.exact_fetch_index=exactFetchIndex;
-const rewriteOperational = value => typeof value === 'string' ? value.replaceAll('https://jhny-kor.github.io/TaxMeter/opentax/', `${PUBLIC_BASE}/`).replaceAll('https://raw.githubusercontent.com/jhny-kor/TaxMeter/main/ontology/exports/', `${PUBLIC_BASE}/`) : Array.isArray(value) ? value.map(rewriteOperational) : value && typeof value === 'object' ? Object.fromEntries(Object.entries(value).map(([k,v])=>[k,rewriteOperational(v)])) : value;
+const rewriteOperational = value => typeof value === 'string' ? value.replaceAll('https://cocomo0412.github.io/TaxMeter/opentax/', `${PUBLIC_BASE}/`).replaceAll('https://raw.githubusercontent.com/cocomo0412/TaxMeter/main/ontology/exports/', `${PUBLIC_BASE}/`) : Array.isArray(value) ? value.map(rewriteOperational) : value && typeof value === 'object' ? Object.fromEntries(Object.entries(value).map(([k,v])=>[k,rewriteOperational(v)])) : value;
 const rewrittenManifest = rewriteOperational(manifest); for (const key of Object.keys(manifest)) delete manifest[key]; Object.assign(manifest, rewrittenManifest);
 delete manifest.manifest_checksum;
 const manifestChecksumInput = {...manifest};
@@ -1044,7 +1053,7 @@ const currentRelease = {
   artifact_contract: manifest.artifact_contract,
   validation_status: liveRegressionArtifact.validation_status ?? 'unknown',
   manifest_url: `${PUBLIC_BASE}/finance-ontology-manifest.json`,
-  worker_health_url: 'https://openfin-mcp.y2kthr.workers.dev/health',
+  worker_health_url: 'https://openfin.cocomo0412.workers.dev/health',
   live_evidence: manifest.live_regression_evidence,
   live_evidence_path: manifest.live_regression_evidence.path,
   live_evidence_url: manifest.live_regression_evidence.url,
@@ -1055,7 +1064,7 @@ const currentRelease = {
 if (releaseState === 'promoted' || process.env.OPENFIN_WRITE_CANDIDATE_POINTER === 'true') writeJson(releasePointerPath, currentRelease);
 if (releaseState === 'promoted') {
   const historyPath = path.join(DOCS, 'production-release-history.jsonl');
-  const existingHistory = fs.existsSync(historyPath) ? fs.readFileSync(historyPath, 'utf8').split('\n').filter(Boolean) : [];
+  const existingHistory = fs.existsSync(historyPath) ? fs.readFileSync(historyPath, 'utf8').replace(/\r\n/g, '\n').split('\n').filter(Boolean) : [];
   const alreadyRecorded = existingHistory.some(line => {
     try { const entry = JSON.parse(line); return entry.generation_id === currentRelease.generation_id || entry.candidate_commit === currentRelease.candidate_commit; }
     catch { return false; }

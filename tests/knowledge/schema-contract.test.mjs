@@ -1,3 +1,4 @@
+import { fileURLToPath } from 'node:url';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -5,7 +6,7 @@ import path from 'node:path';
 import Ajv2020 from 'ajv/dist/2020.js';
 import addFormats from 'ajv-formats';
 
-const root = new URL('../..', import.meta.url).pathname;
+const root = fileURLToPath(new URL('../../', import.meta.url));
 const schemaDir = path.join(root, 'schemas');
 
 const validator = () => {
@@ -27,7 +28,7 @@ const valid = {
 };
 
 test('decision-critical bank products require strict fields and assertions', () => {
-  const validate = validator().getSchema('https://jhny-kor.github.io/OpenFin/schemas/entity.schema.json');
+  const validate = validator().getSchema('https://cocomo0412.github.io/OpenFin/schemas/entity.schema.json');
   assert.equal(validate(valid), true, JSON.stringify(validate.errors));
   const invalid = { ...valid };
   delete invalid.early_termination_condition;
@@ -36,7 +37,7 @@ test('decision-critical bank products require strict fields and assertions', () 
 });
 
 test('decision-critical card, loan, and insurance schemas reject incomplete decision contracts', () => {
-  const validate = validator().getSchema('https://jhny-kor.github.io/OpenFin/schemas/entity.schema.json');
+  const validate = validator().getSchema('https://cocomo0412.github.io/OpenFin/schemas/entity.schema.json');
   const assertion = valid.field_assertions;
   const provenance = valid.provenance;
   const products = [
@@ -51,7 +52,7 @@ test('decision-critical card, loan, and insurance schemas reject incomplete deci
 });
 
 test('strict offers require rule predicate, effect, and validity assertions', () => {
-  const validate = validator().getSchema('https://jhny-kor.github.io/OpenFin/schemas/types/deposit-offer.schema.json');
+  const validate = validator().getSchema('https://cocomo0412.github.io/OpenFin/schemas/types/deposit-offer.schema.json');
   const assertion = field => ({ field, source_id: 'source.test.bank', original_url: 'https://example.com/product', locator: { kind: 'jsonpath', value: `$.${field}` }, observed_at: '2026-07-30T00:00:00Z', valid_from: '2026-07-30T00:00:00Z', valid_to: null, value_hash: 'sha256:' + 'a'.repeat(64), verification_status: 'verified', freshness_status: 'current', conflict: false, verification_method: 'official_source_record_reviewed' });
   const earlyAssertions = ['predicate', 'effect', 'valid_from', 'valid_to'].map(field => assertion(`early.${field}`));
   const offer = {

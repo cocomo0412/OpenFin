@@ -793,9 +793,9 @@ button {
 
 .connector-endpoint,
 .connector-steps li {
-  border: 1px solid var(--line);
+  border: 1px solid #d2dfd8;
   border-radius: var(--radius);
-  background: var(--panel);
+  background: #eaf1eb;
 }
 
 .connector-endpoint {
@@ -1824,3 +1824,9 @@ body::before { background: none; }
 .galaxy-sparkles, .galaxy-stage::after { z-index: 2; }
 .galaxy-stage .galaxy-fs, .galaxy-stage .galaxy-tooltip { z-index: 4; }
 .galaxy-stage .galaxy-hint { z-index: 3; bottom: 10px; padding: 7px 10px; background: linear-gradient(90deg, transparent, rgba(27,29,48,.85) 20%, rgba(27,29,48,.85) 80%, transparent); }
+.collection-update { background: #eaf1eb; border: 1px solid #d2dfd8; border-radius: 8px; padding: 24px; margin-bottom: 20px; }
+.collection-update p { line-height: 1.6; margin-block: 0.5em; }
+.collection-update h3 { margin-block: 0.5em; }
+.collection-update summary { cursor: pointer; font-weight: 700; }
+.company-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; max-height: 360px; overflow: auto; margin-top: 16px; }
+.company-list span { padding: 8px; background: #fffaf1; border-radius: 6px; }

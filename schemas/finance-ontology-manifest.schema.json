@@ -3,7 +3,7 @@
   "type": "object",
   "required": ["service_availability", "capability_status_version", "domain_readiness", "generation_id", "decision_offers", "capabilities", "candidate_counts", "artifact_contract", "live_regression_evidence", "source_head_commit", "release_candidate_commit", "production_commit", "production_deployed_at"],
   "properties": {
-    "service_availability": { "$ref": "https://jhny-kor.github.io/OpenFin/schemas/capability-status.schema.json#/$defs/service_availability" },
+    "service_availability": { "$ref": "https://cocomo0412.github.io/OpenFin/schemas/capability-status.schema.json#/$defs/service_availability" },
     "source_head_commit": { "type": "string", "minLength": 1 },
     "release_candidate_commit": { "type": "string", "minLength": 1 },
     "production_commit": { "type": "string", "minLength": 1 },
@@ -60,7 +60,7 @@
     "recommendation_approval_receipt": { "type": ["object", "null"] },
     "owner_pilot_approval_receipt": { "type": ["object", "null"] },
     "capability_status_version": { "const": "openfin-capability-status-v1" },
-    "capabilities": { "type": "object", "required": ["search", "discovery", "comparison", "shadow", "owner_pilot", "recommendation"], "properties": { "search": { "$ref": "https://jhny-kor.github.io/OpenFin/schemas/capability-status.schema.json#/$defs/capability_status" }, "discovery": { "$ref": "https://jhny-kor.github.io/OpenFin/schemas/capability-status.schema.json#/$defs/capability_status" }, "comparison": { "$ref": "https://jhny-kor.github.io/OpenFin/schemas/capability-status.schema.json#/$defs/capability_status" }, "shadow": { "$ref": "https://jhny-kor.github.io/OpenFin/schemas/capability-status.schema.json#/$defs/capability_status" }, "owner_pilot": { "$ref": "https://jhny-kor.github.io/OpenFin/schemas/capability-status.schema.json#/$defs/capability_status" }, "recommendation": { "$ref": "https://jhny-kor.github.io/OpenFin/schemas/capability-status.schema.json#/$defs/capability_status" } }, "additionalProperties": false },
+    "capabilities": { "type": "object", "required": ["search", "discovery", "comparison", "shadow", "owner_pilot", "recommendation"], "properties": { "search": { "$ref": "https://cocomo0412.github.io/OpenFin/schemas/capability-status.schema.json#/$defs/capability_status" }, "discovery": { "$ref": "https://cocomo0412.github.io/OpenFin/schemas/capability-status.schema.json#/$defs/capability_status" }, "comparison": { "$ref": "https://cocomo0412.github.io/OpenFin/schemas/capability-status.schema.json#/$defs/capability_status" }, "shadow": { "$ref": "https://cocomo0412.github.io/OpenFin/schemas/capability-status.schema.json#/$defs/capability_status" }, "owner_pilot": { "$ref": "https://cocomo0412.github.io/OpenFin/schemas/capability-status.schema.json#/$defs/capability_status" }, "recommendation": { "$ref": "https://cocomo0412.github.io/OpenFin/schemas/capability-status.schema.json#/$defs/capability_status" } }, "additionalProperties": false },
     "candidate_counts": { "type": "object", "additionalProperties": { "type": "object", "required": ["strict_offer_count", "strict_option_count", "structural_option_count", "comparison_eligible_candidate_count", "public_comparison_candidate_count", "shadow_recommendation_candidate_count", "owner_pilot_candidate_count", "public_recommendation_candidate_count"], "additionalProperties": true } },
     "source_freshness_status": { "enum": ["ready", "degraded"] },
     "decision_offers": {

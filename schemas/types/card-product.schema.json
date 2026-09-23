@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://jhny-kor.github.io/OpenFin/schemas/types/card-product.schema.json",
+  "$id": "https://cocomo0412.github.io/OpenFin/schemas/types/card-product.schema.json",
   "title": "OpenFin decision-critical card product",
   "type": "object",
   "required": ["id", "title", "type", "provider", "annual_fee_krw", "previous_month_spend_krw", "excluded_spend_conditions", "benefit_rate_percent", "monthly_benefit_limit_krw", "per_transaction_limit_krw", "benefit_overlap_policy", "field_assertions", "provenance"],

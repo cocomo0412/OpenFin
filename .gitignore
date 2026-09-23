@@ -10,3 +10,6 @@ mcp/.env
 mcp/.dev.vars
 knowledge.backup-*/
 knowledge.staging-*/
+
+.api-candidates/
+__pycache__/

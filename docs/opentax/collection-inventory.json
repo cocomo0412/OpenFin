@@ -1,0 +1,489 @@
+{
+  "generated_at": "2026-09-23T06:49:14.181594+00:00",
+  "snapshot_basis_date": "2026-09-23",
+  "basis_date_meaning": "공식 API 수집본을 포함한 사이트 자료 묶음의 최종 수집 기준일. 개별 원자료의 기준일과 기존 온톨로지 검토일은 별도입니다.",
+  "scope": "API 수집본의 전체 건수·체크섬·지정 기준일을 확인했습니다. 상품별 의미 검증 및 기존 온톨로지 병합은 별도 단계이며, 전체 상품의 현행화를 뜻하지 않습니다.",
+  "datasets": [
+    {
+      "source_id": "source.bok.ecos",
+      "title": "한국은행 기준금리",
+      "operation": "StatisticSearch",
+      "count": 21,
+      "collected_at": "2026-09-23T06:35:03.238948+00:00",
+      "basis_start": "20260901",
+      "basis_end": "20260921",
+      "filters": {
+        "stat_code": "722Y001",
+        "cycle": "D",
+        "start": "20260901",
+        "end": "20260923",
+        "item_code": "0101000"
+      },
+      "table_counts": {},
+      "path": "opentax/api-snapshots/source.bok.ecos-0.json",
+      "reference_published": true,
+      "status": "collected_integrity_checked",
+      "canonical_applied": false
+    },
+    {
+      "source_id": "source.data.go.kr.kinfa-loan-handling-agencies",
+      "title": "서민금융진흥원 서민대출상품 취급기관 정보 서비스",
+      "operation": "getLoanProductHandlingAgencyInfo",
+      "count": 657,
+      "collected_at": "2026-09-23T06:34:33.487667+00:00",
+      "basis_start": null,
+      "basis_end": null,
+      "filters": {},
+      "table_counts": {},
+      "path": "opentax/api-snapshots/source.data.go.kr.kinfa-loan-handling-agencies-0.json",
+      "reference_published": true,
+      "status": "collected_integrity_checked",
+      "canonical_applied": false
+    },
+    {
+      "source_id": "source.data.go.kr.kinfa-loan-products",
+      "title": "서민금융진흥원 대출상품한눈에 정보 서비스",
+      "operation": "getLoanProductSearchingInfo",
+      "count": 318,
+      "collected_at": "2026-09-23T06:34:33.725738+00:00",
+      "basis_start": null,
+      "basis_end": null,
+      "filters": {},
+      "table_counts": {},
+      "path": "opentax/api-snapshots/source.data.go.kr.kinfa-loan-products-0.json",
+      "reference_published": true,
+      "status": "collected_integrity_checked",
+      "canonical_applied": false
+    },
+    {
+      "source_id": "source.data.go.kr.kinfa-support-centers",
+      "title": "서민금융진흥원 서민금융통합지원센터 현황",
+      "operation": "getCenterMisoBranchInfo",
+      "count": 216,
+      "collected_at": "2026-09-23T06:34:34.345122+00:00",
+      "basis_start": null,
+      "basis_end": null,
+      "filters": {},
+      "table_counts": {},
+      "path": "opentax/api-snapshots/source.data.go.kr.kinfa-support-centers-0.json",
+      "reference_published": true,
+      "status": "collected_integrity_checked",
+      "canonical_applied": false
+    },
+    {
+      "source_id": "source.fsc.domestic-bank-statistics",
+      "title": "금융위원회 금융통계국내은행정보",
+      "operation": "getDomeBankGeneInfo",
+      "count": 818,
+      "collected_at": "2026-09-23T06:44:46.492763+00:00",
+      "basis_start": "202603",
+      "basis_end": "202603",
+      "filters": {
+        "basYm": "202603"
+      },
+      "table_counts": {
+        "은행_일반현황_임직원현황(18.9월이전)": 364,
+        "은행_일반현황_영업점포현황": 234,
+        "은행_일반현황_자동화기기 설치현황": 0,
+        "은행_일반현황_임직원현황(18.12월이후)": 220
+      },
+      "path": "opentax/api-snapshots/source.fsc.domestic-bank-statistics-0.json",
+      "reference_published": true,
+      "status": "collected_integrity_checked",
+      "canonical_applied": false
+    },
+    {
+      "source_id": "source.fsc.financial-company-basic",
+      "title": "금융위원회 금융회사기본정보",
+      "operation": "getFnCoOutl",
+      "count": 1104,
+      "collected_at": "2026-09-23T06:37:25.393119+00:00",
+      "basis_start": "20260922",
+      "basis_end": "20260922",
+      "filters": {
+        "basDt": "20260922"
+      },
+      "table_counts": {},
+      "path": "opentax/api-snapshots/source.fsc.financial-company-basic-0.json",
+      "reference_published": true,
+      "status": "collected_integrity_checked",
+      "canonical_applied": false
+    },
+    {
+      "source_id": "source.fsc.financial-company-credit",
+      "title": "금융위원회 금융회사재무신용정보",
+      "operation": "getFnCoBs_V2",
+      "count": 774,
+      "collected_at": "2026-09-23T06:37:06.651320+00:00",
+      "basis_start": "20250930",
+      "basis_end": "20251231",
+      "filters": {
+        "bizYear": "2025"
+      },
+      "table_counts": {},
+      "path": "opentax/api-snapshots/source.fsc.financial-company-credit-0.json",
+      "reference_published": true,
+      "status": "collected_integrity_checked",
+      "canonical_applied": false
+    },
+    {
+      "source_id": "source.fsc.financial-company-credit",
+      "title": "금융위원회 금융회사재무신용정보",
+      "operation": "getFnCoSummFinaStat_V2",
+      "count": 87,
+      "collected_at": "2026-09-23T06:37:06.849204+00:00",
+      "basis_start": "20250930",
+      "basis_end": "20251231",
+      "filters": {
+        "bizYear": "2025"
+      },
+      "table_counts": {},
+      "path": "opentax/api-snapshots/source.fsc.financial-company-credit-1.json",
+      "reference_published": true,
+      "status": "collected_integrity_checked",
+      "canonical_applied": false
+    },
+    {
+      "source_id": "source.fsc.financial-company-credit",
+      "title": "금융위원회 금융회사재무신용정보",
+      "operation": "getFnCoIs_V2",
+      "count": 435,
+      "collected_at": "2026-09-23T06:37:07.738102+00:00",
+      "basis_start": "20250930",
+      "basis_end": "20251231",
+      "filters": {
+        "bizYear": "2025"
+      },
+      "table_counts": {},
+      "path": "opentax/api-snapshots/source.fsc.financial-company-credit-2.json",
+      "reference_published": true,
+      "status": "collected_integrity_checked",
+      "canonical_applied": false
+    },
+    {
+      "source_id": "source.fsc.financial-investment-statistics",
+      "title": "금융위원회 금융투자협회종합통계정보",
+      "operation": "getTrustScaleInfo",
+      "count": 330,
+      "collected_at": "2026-09-23T06:37:50.330336+00:00",
+      "basis_start": "202606",
+      "basis_end": "202606",
+      "filters": {
+        "basYm": "202606"
+      },
+      "table_counts": {},
+      "path": "opentax/api-snapshots/source.fsc.financial-investment-statistics-0.json",
+      "reference_published": true,
+      "status": "collected_integrity_checked",
+      "canonical_applied": false
+    },
+    {
+      "source_id": "source.fsc.financial-investment-statistics",
+      "title": "금융위원회 금융투자협회종합통계정보",
+      "operation": "getFundTotalNetEssetInfo",
+      "count": 25,
+      "collected_at": "2026-09-23T06:37:50.000309+00:00",
+      "basis_start": "20260921",
+      "basis_end": "20260921",
+      "filters": {
+        "basDt": "20260921"
+      },
+      "table_counts": {},
+      "path": "opentax/api-snapshots/source.fsc.financial-investment-statistics-1.json",
+      "reference_published": true,
+      "status": "collected_integrity_checked",
+      "canonical_applied": false
+    },
+    {
+      "source_id": "source.fsc.financial-investment-statistics",
+      "title": "금융위원회 금융투자협회종합통계정보",
+      "operation": "getCMAStatus",
+      "count": 12,
+      "collected_at": "2026-09-23T06:37:50.154954+00:00",
+      "basis_start": "20260921",
+      "basis_end": "20260921",
+      "filters": {
+        "basDt": "20260921"
+      },
+      "table_counts": {},
+      "path": "opentax/api-snapshots/source.fsc.financial-investment-statistics-2.json",
+      "reference_published": true,
+      "status": "collected_integrity_checked",
+      "canonical_applied": false
+    },
+    {
+      "source_id": "source.fsc.financial-investment-statistics",
+      "title": "금융위원회 금융투자협회종합통계정보",
+      "operation": "getGrantingOfCreditBalanceInfo",
+      "count": 1,
+      "collected_at": "2026-09-23T06:37:50.333064+00:00",
+      "basis_start": "20260921",
+      "basis_end": "20260921",
+      "filters": {
+        "basDt": "20260921"
+      },
+      "table_counts": {},
+      "path": "opentax/api-snapshots/source.fsc.financial-investment-statistics-3.json",
+      "reference_published": true,
+      "status": "collected_integrity_checked",
+      "canonical_applied": false
+    },
+    {
+      "source_id": "source.fsc.financial-investment-statistics",
+      "title": "금융위원회 금융투자협회종합통계정보",
+      "operation": "getSecuritiesMarketTotalCapitalInfo",
+      "count": 1,
+      "collected_at": "2026-09-23T06:37:50.489260+00:00",
+      "basis_start": "20260921",
+      "basis_end": "20260921",
+      "filters": {
+        "basDt": "20260921"
+      },
+      "table_counts": {},
+      "path": "opentax/api-snapshots/source.fsc.financial-investment-statistics-4.json",
+      "reference_published": true,
+      "status": "collected_integrity_checked",
+      "canonical_applied": false
+    },
+    {
+      "source_id": "source.fsc.financial-investment-statistics",
+      "title": "금융위원회 금융투자협회종합통계정보",
+      "operation": "getDLSAndDLBInfo",
+      "count": 21,
+      "collected_at": "2026-09-23T06:37:50.577672+00:00",
+      "basis_start": "202607",
+      "basis_end": "202607",
+      "filters": {
+        "basDt": "202607"
+      },
+      "table_counts": {},
+      "path": "opentax/api-snapshots/source.fsc.financial-investment-statistics-5.json",
+      "reference_published": true,
+      "status": "collected_integrity_checked",
+      "canonical_applied": false
+    },
+    {
+      "source_id": "source.fsc.financial-investment-statistics",
+      "title": "금융위원회 금융투자협회종합통계정보",
+      "operation": "getELSAndELBInfo",
+      "count": 21,
+      "collected_at": "2026-09-23T06:37:50.659219+00:00",
+      "basis_start": "202607",
+      "basis_end": "202607",
+      "filters": {
+        "basDt": "202607"
+      },
+      "table_counts": {},
+      "path": "opentax/api-snapshots/source.fsc.financial-investment-statistics-6.json",
+      "reference_published": true,
+      "status": "collected_integrity_checked",
+      "canonical_applied": false
+    },
+    {
+      "source_id": "source.fsc.financial-investment-statistics",
+      "title": "금융위원회 금융투자협회종합통계정보",
+      "operation": "getDerivationProductTradingInfo",
+      "count": 1783,
+      "collected_at": "2026-09-23T06:37:53.598261+00:00",
+      "basis_start": "202607",
+      "basis_end": "202607",
+      "filters": {
+        "basDt": "202607"
+      },
+      "table_counts": {},
+      "path": "opentax/api-snapshots/source.fsc.financial-investment-statistics-7.json",
+      "reference_published": true,
+      "status": "collected_integrity_checked",
+      "canonical_applied": false
+    },
+    {
+      "source_id": "source.fsc.fund-products-basic",
+      "title": "금융위원회 펀드상품기본정보",
+      "operation": "getStandardCodeInfo",
+      "count": 263,
+      "collected_at": "2026-09-23T06:37:04.529492+00:00",
+      "basis_start": "20260923",
+      "basis_end": "20260923",
+      "filters": {
+        "basDt": "20260923"
+      },
+      "table_counts": {},
+      "path": "opentax/api-snapshots/source.fsc.fund-products-basic-0.json",
+      "reference_published": true,
+      "status": "collected_integrity_checked",
+      "canonical_applied": false
+    },
+    {
+      "source_id": "source.fsc.inclusive-finance-performance",
+      "title": "금융위원회 서민금융지원실적정보",
+      "operation": "getMicroCreditInfo",
+      "count": 200,
+      "collected_at": "2026-09-23T06:34:34.332925+00:00",
+      "basis_start": "201001",
+      "basis_end": "202608",
+      "filters": {},
+      "table_counts": {},
+      "path": "opentax/api-snapshots/source.fsc.inclusive-finance-performance-0.json",
+      "reference_published": true,
+      "status": "collected_integrity_checked",
+      "canonical_applied": false
+    },
+    {
+      "source_id": "source.fsc.inclusive-finance-performance",
+      "title": "금융위원회 서민금융지원실적정보",
+      "operation": "getSunshineLoanInfo",
+      "count": 200,
+      "collected_at": "2026-09-23T06:34:34.550944+00:00",
+      "basis_start": "201601",
+      "basis_end": "202608",
+      "filters": {},
+      "table_counts": {},
+      "path": "opentax/api-snapshots/source.fsc.inclusive-finance-performance-1.json",
+      "reference_published": true,
+      "status": "collected_integrity_checked",
+      "canonical_applied": false
+    },
+    {
+      "source_id": "source.fsc.inclusive-finance-products",
+      "title": "금융위원회 서민금융상품기본정보",
+      "operation": "getOrdinaryFinanceInfo",
+      "count": 329,
+      "collected_at": "2026-09-23T06:35:00.102530+00:00",
+      "basis_start": "202608",
+      "basis_end": "202608",
+      "filters": {
+        "basYm": "202608"
+      },
+      "table_counts": {},
+      "path": "opentax/api-snapshots/source.fsc.inclusive-finance-products-0.json",
+      "reference_published": true,
+      "status": "collected_integrity_checked",
+      "canonical_applied": false
+    },
+    {
+      "source_id": "source.fsc.medical-reimbursement-insurance",
+      "title": "금융위원회 실손보험정보",
+      "operation": "getInsuranceInfo",
+      "count": 7456,
+      "collected_at": "2026-09-23T06:35:09.771183+00:00",
+      "basis_start": "20260901",
+      "basis_end": "20260901",
+      "filters": {
+        "basDt": "20260901"
+      },
+      "table_counts": {},
+      "path": "opentax/api-snapshots/source.fsc.medical-reimbursement-insurance-0.json",
+      "reference_published": true,
+      "status": "collected_integrity_checked",
+      "canonical_applied": false
+    },
+    {
+      "source_id": "source.fsc.retirement-pension-basic",
+      "title": "금융위원회 퇴직연금기본정보",
+      "operation": "getFundInfo",
+      "count": 160,
+      "collected_at": "2026-09-23T06:35:00.555154+00:00",
+      "basis_start": "20260831",
+      "basis_end": "20260831",
+      "filters": {
+        "basDt": "20260831"
+      },
+      "table_counts": {},
+      "path": "opentax/api-snapshots/source.fsc.retirement-pension-basic-0.json",
+      "reference_published": true,
+      "status": "collected_integrity_checked",
+      "canonical_applied": false
+    },
+    {
+      "source_id": "source.fsc.variable-insurance-info",
+      "title": "금융위원회 변액보험기본정보",
+      "operation": "getFundInfo",
+      "count": 1807,
+      "collected_at": "2026-09-23T06:35:03.029255+00:00",
+      "basis_start": "20260831",
+      "basis_end": "20260831",
+      "filters": {
+        "basDt": "20260831"
+      },
+      "table_counts": {},
+      "path": "opentax/api-snapshots/source.fsc.variable-insurance-info-0.json",
+      "reference_published": true,
+      "status": "collected_integrity_checked",
+      "canonical_applied": false
+    },
+    {
+      "source_id": "source.hf.bogeumjari-openapi",
+      "title": "한국주택금융공사 u-보금자리론대출정보",
+      "operation": "uloan-info",
+      "count": 1,
+      "collected_at": "2026-09-23T06:34:34.555108+00:00",
+      "basis_start": null,
+      "basis_end": null,
+      "filters": {},
+      "table_counts": {},
+      "path": "opentax/api-snapshots/source.hf.bogeumjari-openapi-0.json",
+      "reference_published": true,
+      "status": "collected_integrity_checked",
+      "canonical_applied": false
+    },
+    {
+      "source_id": "source.kdic.insured-products",
+      "title": "예금보험공사 예금자보호 금융상품",
+      "operation": "getProductList202607",
+      "count": 45226,
+      "collected_at": "2026-09-23T06:45:20.229253+00:00",
+      "basis_start": null,
+      "basis_end": null,
+      "filters": {},
+      "table_counts": {},
+      "path": "opentax/api-snapshots/source.kdic.insured-products-0.json",
+      "reference_published": true,
+      "status": "collected_integrity_checked",
+      "canonical_applied": false
+    },
+    {
+      "source_id": "source.kdic.insured-products",
+      "title": "예금보험공사 예금자보호 금융상품",
+      "operation": "getCompanyList202607",
+      "count": 284,
+      "collected_at": "2026-09-23T06:03:29.726771+00:00",
+      "basis_start": null,
+      "basis_end": null,
+      "filters": {},
+      "table_counts": {},
+      "path": "opentax/api-snapshots/source.kdic.insured-products-1.json",
+      "reference_published": true,
+      "status": "collected_integrity_checked",
+      "canonical_applied": false
+    },
+    {
+      "source_id": "source.fss.finlife.api",
+      "title": "금융감독원 정기예금 공시",
+      "operation": "deposit",
+      "count": 432,
+      "collected_at": "2026-09-23T06:09:21.948Z",
+      "basis_start": "202609",
+      "basis_end": "202609",
+      "status": "collected_integrity_checked",
+      "canonical_applied": false,
+      "reference_published": true,
+      "path": "opentax/api-snapshots/source.fss.finlife.api-deposit.json"
+    },
+    {
+      "source_id": "source.fss.finlife.api",
+      "title": "금융감독원 적금 공시",
+      "operation": "saving",
+      "count": 335,
+      "collected_at": "2026-09-23T06:09:21.948Z",
+      "basis_start": "202609",
+      "basis_end": "202609",
+      "status": "collected_integrity_checked",
+      "canonical_applied": false,
+      "reference_published": true,
+      "path": "opentax/api-snapshots/source.fss.finlife.api-saving.json"
+    }
+  ],
+  "pending": [],
+  "product_link_count": 758,
+  "integration": "Exact product identity links and source-level reference snapshots; legacy comparison assertions remain separate."
+}

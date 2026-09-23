@@ -1,4 +1,4 @@
-const base = (process.env.MCP_URL || "https://openfin-mcp.y2kthr.workers.dev").replace(/\/$/, "");
+const base = (process.env.MCP_URL || "https://openfin.cocomo0412.workers.dev").replace(/\/$/, "");
 // Pages and the Worker deploy independently; allow their manifests to converge.
 const attempts = Number(process.env.SMOKE_ATTEMPTS || 60);
 const delayMs = Number(process.env.SMOKE_DELAY_MS || 5000);

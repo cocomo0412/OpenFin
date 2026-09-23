@@ -37,7 +37,14 @@
   "access": {
     "method": "api",
     "parser_id": "api:source-hf-bogeumjari-openapi",
-    "requires_secret": true
+    "requires_secret": true,
+    "request_url": "https://apis.data.go.kr/B551408/u-loan-rate/uloan-info",
+    "request_query": {
+      "pageNo": 1,
+      "numOfRows": 1
+    },
+    "credential_env": "DATA_GO_KR_SERVICE_KEY",
+    "credential_query_param": "serviceKey"
   },
   "refresh": {
     "sla_hours": 168,
@@ -180,7 +187,7 @@
       "value": "2026-07-03 확인"
     }
   ],
-  "record_checksum": "sha256:e0a57ce9eb936026d229125655bfb2af331355b141b6621110cb3b6e05107a93"
+  "record_checksum": "sha256:de90b38fbf4bc0858dad4a6ae371f34a68d27b2744b69bde89f6130ef2300502"
 }
 ---
 

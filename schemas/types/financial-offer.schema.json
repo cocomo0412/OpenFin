@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://jhny-kor.github.io/OpenFin/schemas/types/financial-offer.schema.json",
+  "$id": "https://cocomo0412.github.io/OpenFin/schemas/types/financial-offer.schema.json",
   "title": "OpenFin strict financial offer snapshot",
   "type": "object",
   "required": ["id", "title", "type", "product_id", "provider_id", "observed_at", "valid_from", "valid_to", "sales_verification_status", "deposit_protection_status", "join_channels", "eligibility_rules", "bonus_rate_rules", "early_termination_rules", "options", "field_assertions", "provenance"],

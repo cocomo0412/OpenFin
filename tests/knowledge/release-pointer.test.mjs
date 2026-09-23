@@ -1,3 +1,4 @@
+import { fileURLToPath } from 'node:url';
 import assert from 'node:assert/strict';
 import { spawnSync } from 'node:child_process';
 import fs from 'node:fs';
@@ -6,8 +7,8 @@ import path from 'node:path';
 import test from 'node:test';
 import { sha256 } from '../../scripts/knowledge/common.mjs';
 
-const root = new URL('../..', import.meta.url).pathname;
-const read = name => JSON.parse(fs.readFileSync(`${root}/${name}`, 'utf8'));
+const root = fileURLToPath(new URL('../../', import.meta.url));
+const read = name => JSON.parse(fs.readFileSync(`${root}/${name}`, 'utf8').replace(/\r\n/g, '\n'));
 
 test('promoted live evidence updates the release pointer without replacing artifact evidence', () => {
   const temp = fs.mkdtempSync(path.join(os.tmpdir(), 'openfin-promoted-live-'));
@@ -22,7 +23,7 @@ test('promoted live evidence updates the release pointer without replacing artif
   const artifactEvidencePayload = { status: 'current' };
   const artifactEvidence = {
     id: 'openfin-live-regression-current', path: 'opentax/live-regression-current.json',
-    url: 'https://jhny-kor.github.io/OpenFin/opentax/live-regression-current.json',
+    url: 'https://cocomo0412.github.io/OpenFin/opentax/live-regression-current.json',
     export_checksum: sha256(artifactEvidencePayload).slice(7),
   };
   const manifestInput = {
@@ -40,7 +41,7 @@ test('promoted live evidence updates the release pointer without replacing artif
   }));
   fs.writeFileSync(reportPath, JSON.stringify({
     status: 'current', mode: 'live', test_count: 120, passed_count: 120,
-    failed_count: 0, skipped_count: 0, endpoint: 'https://openfin-mcp.y2kthr.workers.dev/mcp',
+    failed_count: 0, skipped_count: 0, endpoint: 'https://openfin.cocomo0412.workers.dev/mcp',
     deployment_commit: commit, generation_id: generation, manifest_checksum: manifestChecksum,
     fixture_checksum: fixtureChecksum, loaded_index_checksum: searchIndexChecksum, source_status_checksum: sourceStatusChecksum,
     checked_at: '2026-08-31T00:00:00.000Z',
@@ -50,12 +51,12 @@ test('promoted live evidence updates the release pointer without replacing artif
     '--report', reportPath, '--expected-deployment-commit', commit,
   ], { encoding: 'utf8' });
   assert.equal(result.status, 0, result.stderr);
-  const pointer = JSON.parse(fs.readFileSync(path.join(opentax, 'current-release.json'), 'utf8'));
-  const published = JSON.parse(fs.readFileSync(path.join(opentax, 'live-regression-production-current.json'), 'utf8'));
+  const pointer = JSON.parse(fs.readFileSync(path.join(opentax, 'current-release.json'), 'utf8').replace(/\r\n/g, '\n'));
+  const published = JSON.parse(fs.readFileSync(path.join(opentax, 'live-regression-production-current.json'), 'utf8').replace(/\r\n/g, '\n'));
   assert.deepEqual(pointer.manifest_live_evidence, artifactEvidence);
   assert.equal(pointer.live_evidence.id, 'openfin-live-regression-production-current');
-  assert.equal(pointer.live_evidence_url, 'https://jhny-kor.github.io/OpenFin/opentax/live-regression-production-current.json');
-  assert.equal(published.endpoint, 'https://openfin-mcp.y2kthr.workers.dev/mcp');
+  assert.equal(pointer.live_evidence_url, 'https://cocomo0412.github.io/OpenFin/opentax/live-regression-production-current.json');
+  assert.equal(published.endpoint, 'https://openfin.cocomo0412.workers.dev/mcp');
   assert.equal(published.validation_status, 'current');
   assert.equal(pointer.production_live_evidence.export_checksum, sha256(published).slice(7));
 
@@ -127,7 +128,7 @@ test('agent-facing manifest uses capability fields instead of legacy quality fie
 test('financial detail exports expose field-specific review dates', () => {
   const exports = fs.readdirSync(`${root}/docs/opentax`).filter((name) => /ontology-2026\.json$/.test(name));
   const items = exports.flatMap((name) => {
-    const payload = JSON.parse(fs.readFileSync(`${root}/docs/opentax/${name}`, 'utf8'));
+    const payload = JSON.parse(fs.readFileSync(`${root}/docs/opentax/${name}`, 'utf8').replace(/\r\n/g, '\n'));
     return [...(payload.items || []), ...(payload.reference_items || [])];
   });
   assert.ok(items.some((item) => item.rate_reviewed_at), 'rate review date missing');

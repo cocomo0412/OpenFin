@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://jhny-kor.github.io/OpenFin/schemas/types/early-termination-rule.schema.json",
+  "$id": "https://cocomo0412.github.io/OpenFin/schemas/types/early-termination-rule.schema.json",
   "title": "OpenFin early termination rule",
   "type": "object",
   "required": ["rule_id", "rule_type", "predicate", "effect", "valid_from", "valid_to", "field_assertions"],

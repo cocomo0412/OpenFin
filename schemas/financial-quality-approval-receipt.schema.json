@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://jhny-kor.github.io/OpenFin/schemas/financial-quality-approval-receipt.schema.json",
+  "$id": "https://cocomo0412.github.io/OpenFin/schemas/financial-quality-approval-receipt.schema.json",
   "title": "OpenFin Financial Quality Approval Receipt",
   "type": "object",
   "additionalProperties": false,

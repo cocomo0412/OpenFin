@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://jhny-kor.github.io/OpenFin/schemas/candidate-promotion-receipt.schema.json",
+  "$id": "https://cocomo0412.github.io/OpenFin/schemas/candidate-promotion-receipt.schema.json",
   "title": "OpenFin candidate promotion receipt",
   "type": "object",
   "additionalProperties": false,

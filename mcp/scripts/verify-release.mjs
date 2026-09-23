@@ -7,7 +7,7 @@ const stable = (value) => Array.isArray(value)
     ? `{${Object.keys(value).sort().map((key) => `${JSON.stringify(key)}:${stable(value[key])}`).join(",")}}`
     : JSON.stringify(value);
 
-const manifestUrl = process.env.FINANCE_MANIFEST_URL || "https://jhny-kor.github.io/OpenFin/opentax/finance-ontology-manifest.json";
+const manifestUrl = process.env.FINANCE_MANIFEST_URL || "https://cocomo0412.github.io/OpenFin/opentax/finance-ontology-manifest.json";
 const response = await fetch(manifestUrl, { headers: { accept: "application/json" } });
 if (!response.ok) throw new Error(`manifest fetch failed: ${response.status}`);
 const manifest = await response.json();

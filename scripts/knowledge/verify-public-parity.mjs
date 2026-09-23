@@ -5,7 +5,7 @@ import { ROOT, PUBLIC_BASE, json, sha256 } from './common.mjs';
 const local = json(process.env.OPENFIN_LOCAL_MANIFEST_PATH || path.join(ROOT, 'docs/opentax/finance-ontology-manifest.json'));
 const pagesUrl = process.env.OPENFIN_PAGES_MANIFEST_URL || `${PUBLIC_BASE}/finance-ontology-manifest.json`;
 const pointerUrl = process.env.OPENFIN_PAGES_POINTER_URL || `${PUBLIC_BASE}/current-release.json`;
-const workerUrl = process.env.OPENFIN_WORKER_HEALTH_URL || 'https://openfin-mcp.y2kthr.workers.dev/health';
+const workerUrl = process.env.OPENFIN_WORKER_HEALTH_URL || 'https://openfin.cocomo0412.workers.dev/health';
 const liveEvidenceUrl = process.env.OPENFIN_LIVE_EVIDENCE_URL;
 const requireProductionLiveEvidence = process.env.OPENFIN_REQUIRE_PRODUCTION_LIVE_EVIDENCE === 'true';
 const expectedWorkerManifestUrl = process.env.OPENFIN_EXPECTED_WORKER_MANIFEST_URL;

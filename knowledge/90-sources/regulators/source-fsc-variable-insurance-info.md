@@ -38,7 +38,15 @@
   "access": {
     "method": "api",
     "parser_id": "api:source-fsc-variable-insurance-info",
-    "requires_secret": true
+    "requires_secret": true,
+    "request_url": "https://apis.data.go.kr/1160100/service/GetVariableInsuranceInfoService/getFundInfo",
+    "request_query": {
+      "pageNo": 1,
+      "numOfRows": 1,
+      "resultType": "xml"
+    },
+    "credential_env": "DATA_GO_KR_SERVICE_KEY",
+    "credential_query_param": "serviceKey"
   },
   "refresh": {
     "sla_hours": 168,
@@ -182,7 +190,7 @@
       "value": "2026-07-03 확인"
     }
   ],
-  "record_checksum": "sha256:3fcc0b4bd65d25ffabc3320dc62c373d1a253586e76cdfe5b56bd0c0f03c4500"
+  "record_checksum": "sha256:0ecdfe0dbc35f88c7570001ca2478228c286d935abf4dbf150b14d58e6a4a818"
 }
 ---
 

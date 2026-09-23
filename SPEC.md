@@ -141,8 +141,10 @@ Modules receive a runtime dependency context from `createServer`; they do not lo
 
 ## Deployment Context
 
-- Repository: `jhny-kor/OpenFin`, branch `main`.
-- Pages: `https://jhny-kor.github.io/OpenFin/`.
-- MCP: `https://openfin-mcp.y2kthr.workers.dev/mcp`.
-- The repository is public; raw third-party bodies are not committed unless their terms explicitly allow redistribution.
-- Operational releases bind runtime metadata and the production pointer to the immutable promoted generation; scheduled regression evidence remains an artifact-only monitoring record.
+- Repository: `cocomo0412/OpenFin`, branch `main`.
+- Pages: `https://cocomo0412.github.io/OpenFin/`, main `/docs` branch publication.
+- MCP: `https://openfin.cocomo0412.workers.dev/mcp`.
+- Current production: free tax pilot, 387 snapshot records, search/fetch/exports only.
+- Both Wrangler configurations use `src/free.ts`; no paid CPU allocation.
+- Full-edition release/staging workflows are disabled. Earlier full-tool descriptions above describe retained implementation, not current free runtime capability.
+- API candidate ingestion is separate from publication; provider approvals and data review are required before public promotion.

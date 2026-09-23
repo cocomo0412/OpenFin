@@ -40,7 +40,15 @@
   "access": {
     "method": "api",
     "parser_id": "api:source-fsc-inclusive-finance-performance",
-    "requires_secret": true
+    "requires_secret": true,
+    "request_url": "https://apis.data.go.kr/1160100/service/GetKinfaResultInfoService/getMicroCreditInfo",
+    "request_query": {
+      "pageNo": 1,
+      "numOfRows": 1,
+      "resultType": "xml"
+    },
+    "credential_env": "DATA_GO_KR_SERVICE_KEY",
+    "credential_query_param": "serviceKey"
   },
   "refresh": {
     "sla_hours": 168,
@@ -186,7 +194,7 @@
       "value": "2026-07-03 확인"
     }
   ],
-  "record_checksum": "sha256:ce54dffb2bbcc5c6d98b82182e4782a5923075fd043f22fd0fb80f936402fcd7"
+  "record_checksum": "sha256:9a7f7b7bba05f7ffff08e4bae72bcb48883176c4ddc9b6bdb6cea1835d4403ac"
 }
 ---
 

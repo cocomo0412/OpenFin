@@ -2509,8 +2509,8 @@
           "id": "finance-search-index",
           "domain": "search-index",
           "path": "ontology/exports/finance-search-index-2026.json",
-          "url": "https://raw.githubusercontent.com/jhny-kor/TaxMeter/main/ontology/exports/finance-search-index-2026.json",
-          "web_url": "https://jhny-kor.github.io/TaxMeter/opentax/finance-search-index-2026.json",
+          "url": "https://raw.githubusercontent.com/cocomo0412/TaxMeter/main/ontology/exports/finance-search-index-2026.json",
+          "web_url": "https://cocomo0412.github.io/TaxMeter/opentax/finance-search-index-2026.json",
           "item_count": 21266,
           "product_count": 0,
           "source_review_date": "2026-07-10",
@@ -2524,8 +2524,8 @@
               "id": "finance-search-index-support",
               "shard_id": "support",
               "path": "ontology/exports/finance-search-index-2026-support.json",
-              "url": "https://raw.githubusercontent.com/jhny-kor/TaxMeter/main/ontology/exports/finance-search-index-2026-support.json",
-              "web_url": "https://jhny-kor.github.io/TaxMeter/opentax/finance-search-index-2026-support.json",
+              "url": "https://raw.githubusercontent.com/cocomo0412/TaxMeter/main/ontology/exports/finance-search-index-2026-support.json",
+              "web_url": "https://cocomo0412.github.io/TaxMeter/opentax/finance-search-index-2026-support.json",
               "item_count": 7739,
               "export_checksum": "a11972732de20dcfdbc0342db4f8b9660548695e16008ae89a854bf700d55913"
             },
@@ -2533,8 +2533,8 @@
               "id": "finance-search-index-deposit-protection",
               "shard_id": "deposit-protection",
               "path": "ontology/exports/finance-search-index-2026-deposit-protection.json",
-              "url": "https://raw.githubusercontent.com/jhny-kor/TaxMeter/main/ontology/exports/finance-search-index-2026-deposit-protection.json",
-              "web_url": "https://jhny-kor.github.io/TaxMeter/opentax/finance-search-index-2026-deposit-protection.json",
+              "url": "https://raw.githubusercontent.com/cocomo0412/TaxMeter/main/ontology/exports/finance-search-index-2026-deposit-protection.json",
+              "web_url": "https://cocomo0412.github.io/TaxMeter/opentax/finance-search-index-2026-deposit-protection.json",
               "item_count": 9380,
               "export_checksum": "ff1a5b7d017481d67ada2176ea712a7df69ca3219347d56a6459b2c1fa45da56"
             },
@@ -2542,8 +2542,8 @@
               "id": "finance-search-index-bank-products",
               "shard_id": "bank-products",
               "path": "ontology/exports/finance-search-index-2026-bank-products.json",
-              "url": "https://raw.githubusercontent.com/jhny-kor/TaxMeter/main/ontology/exports/finance-search-index-2026-bank-products.json",
-              "web_url": "https://jhny-kor.github.io/TaxMeter/opentax/finance-search-index-2026-bank-products.json",
+              "url": "https://raw.githubusercontent.com/cocomo0412/TaxMeter/main/ontology/exports/finance-search-index-2026-bank-products.json",
+              "web_url": "https://cocomo0412.github.io/TaxMeter/opentax/finance-search-index-2026-bank-products.json",
               "item_count": 1363,
               "export_checksum": "f64f95734d8775c807f17b545db60ef0d49a24d25a7a9dc4b7fbe7a6dc41d521"
             },
@@ -2551,8 +2551,8 @@
               "id": "finance-search-index-card-products",
               "shard_id": "card-products",
               "path": "ontology/exports/finance-search-index-2026-card-products.json",
-              "url": "https://raw.githubusercontent.com/jhny-kor/TaxMeter/main/ontology/exports/finance-search-index-2026-card-products.json",
-              "web_url": "https://jhny-kor.github.io/TaxMeter/opentax/finance-search-index-2026-card-products.json",
+              "url": "https://raw.githubusercontent.com/cocomo0412/TaxMeter/main/ontology/exports/finance-search-index-2026-card-products.json",
+              "web_url": "https://cocomo0412.github.io/TaxMeter/opentax/finance-search-index-2026-card-products.json",
               "item_count": 1007,
               "export_checksum": "6325fdd1ee0bdab0c381ecfa7f53d270d2c5f68f7f238c79ef2937bc7d279600"
             },
@@ -2560,8 +2560,8 @@
               "id": "finance-search-index-insurance-products",
               "shard_id": "insurance-products",
               "path": "ontology/exports/finance-search-index-2026-insurance-products.json",
-              "url": "https://raw.githubusercontent.com/jhny-kor/TaxMeter/main/ontology/exports/finance-search-index-2026-insurance-products.json",
-              "web_url": "https://jhny-kor.github.io/TaxMeter/opentax/finance-search-index-2026-insurance-products.json",
+              "url": "https://raw.githubusercontent.com/cocomo0412/TaxMeter/main/ontology/exports/finance-search-index-2026-insurance-products.json",
+              "web_url": "https://cocomo0412.github.io/TaxMeter/opentax/finance-search-index-2026-insurance-products.json",
               "item_count": 1071,
               "export_checksum": "c6a83218439311f7cc951aab8b37273eb380d17adbc22a0f89468cba3dec575d"
             },
@@ -2569,8 +2569,8 @@
               "id": "finance-search-index-pension-products",
               "shard_id": "pension-products",
               "path": "ontology/exports/finance-search-index-2026-pension-products.json",
-              "url": "https://raw.githubusercontent.com/jhny-kor/TaxMeter/main/ontology/exports/finance-search-index-2026-pension-products.json",
-              "web_url": "https://jhny-kor.github.io/TaxMeter/opentax/finance-search-index-2026-pension-products.json",
+              "url": "https://raw.githubusercontent.com/cocomo0412/TaxMeter/main/ontology/exports/finance-search-index-2026-pension-products.json",
+              "web_url": "https://cocomo0412.github.io/TaxMeter/opentax/finance-search-index-2026-pension-products.json",
               "item_count": 0,
               "export_checksum": "cae9ea8a457937eb500d7f73f526977c90d1f6d4909d4c27d4e88a1d367f6cc5"
             },
@@ -2578,8 +2578,8 @@
               "id": "finance-search-index-account-products",
               "shard_id": "account-products",
               "path": "ontology/exports/finance-search-index-2026-account-products.json",
-              "url": "https://raw.githubusercontent.com/jhny-kor/TaxMeter/main/ontology/exports/finance-search-index-2026-account-products.json",
-              "web_url": "https://jhny-kor.github.io/TaxMeter/opentax/finance-search-index-2026-account-products.json",
+              "url": "https://raw.githubusercontent.com/cocomo0412/TaxMeter/main/ontology/exports/finance-search-index-2026-account-products.json",
+              "web_url": "https://cocomo0412.github.io/TaxMeter/opentax/finance-search-index-2026-account-products.json",
               "item_count": 4,
               "export_checksum": "85ad132dadeeac72ecf25a970449e8561979db04ac1f9270fee3b908aa1e0bfb"
             },
@@ -2587,8 +2587,8 @@
               "id": "finance-search-index-reference",
               "shard_id": "reference",
               "path": "ontology/exports/finance-search-index-2026-reference.json",
-              "url": "https://raw.githubusercontent.com/jhny-kor/TaxMeter/main/ontology/exports/finance-search-index-2026-reference.json",
-              "web_url": "https://jhny-kor.github.io/TaxMeter/opentax/finance-search-index-2026-reference.json",
+              "url": "https://raw.githubusercontent.com/cocomo0412/TaxMeter/main/ontology/exports/finance-search-index-2026-reference.json",
+              "web_url": "https://cocomo0412.github.io/TaxMeter/opentax/finance-search-index-2026-reference.json",
               "item_count": 702,
               "export_checksum": "886186465e066606cc684bbe9effd9496a0179eaa28499613301ca06b69d4a24"
             }
@@ -2726,7 +2726,7 @@
               "token:보험료",
               "token:세액공제"
             ],
-            "url": "https://jhny-kor.github.io/TaxMeter/opentax/#credit.insurance-premium",
+            "url": "https://cocomo0412.github.io/TaxMeter/opentax/#credit.insurance-premium",
             "score": 100,
             "text": "보장성보험료, 장애인전용 보장성보험료 등에 대한 특별세액공제입니다."
           },
@@ -2781,7 +2781,7 @@
               "token:보험료",
               "token:세액공제"
             ],
-            "url": "https://jhny-kor.github.io/TaxMeter/opentax/#corporate.support.social-insurance-credit",
+            "url": "https://cocomo0412.github.io/TaxMeter/opentax/#corporate.support.social-insurance-credit",
             "score": 70,
             "text": "고용증가인원의 사회보험료 상당액에 적용되는 세액공제입니다."
           },
@@ -2852,7 +2852,7 @@
             "match_reasons": [
               "token:세액공제"
             ],
-            "url": "https://jhny-kor.github.io/TaxMeter/opentax/#deduction.personal-pension-savings",
+            "url": "https://cocomo0412.github.io/TaxMeter/opentax/#deduction.personal-pension-savings",
             "score": 11,
             "text": "연금저축 세액공제와 구분되는 개인연금저축 관련 소득공제 항목입니다."
           }
@@ -16561,7 +16561,7 @@
     }
   ],
   "live_summary": {
-    "mcp_url": "https://finance-mcp.y2kthr.workers.dev/mcp",
+    "mcp_url": "https://finance-mcp.cocomo0412.workers.dev/mcp",
     "live_status": "failed",
     "checked_at": "2026-08-30T21:04:30.449Z",
     "runtime_version": "openfin-mcp-dev",
@@ -16575,7 +16575,7 @@
     "failed_count": 4,
     "failures": [],
     "last_failed_at": null,
-    "endpoint": "https://openfin-mcp.y2kthr.workers.dev/mcp",
+    "endpoint": "https://openfin-mcp.historical-source.workers.dev/mcp",
     "manifest_checksum": "233a7372a7ce6b622913324decd4c3e6f1d43992bf163637a44358727811016c",
     "generation_id": "7061c38252c01e4ebb38da932722f90fd3791fdbe77a6a3dce2cb3f1b52deabf"
   },

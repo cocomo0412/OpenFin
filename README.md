@@ -2,7 +2,7 @@
 
 ## cocomo0412 운영 안내
 
-홈페이지: <https://cocomo0412.github.io/OpenFin/>. 무료 Cloudflare MCP는 세금·공제 387개에 대한 `search`, `fetch`, `exports`만 제공합니다. MCP 주소는 <https://openfin.cocomo0412.workers.dev/mcp>이며, 전체 금융상품 비교·추천 MCP는 무료판에 포함되지 않습니다. [무료판 배포 설정](mcp/FREE-DEPLOYMENT.md)을 사용하세요. 아래의 기존 Immutable Release 설명과 `mcp/wrangler.toml`은 원본 전체판에 해당합니다.
+홈페이지: <https://cocomo0412.github.io/OpenFin/>. 무료 Cloudflare MCP는 세금·공제 387개에 대한 `search`, `fetch`, `exports`만 제공합니다. MCP 주소는 <https://openfin.cocomo0412.workers.dev/mcp>이며, 전체 금융상품 비교·추천 MCP는 무료판에 포함되지 않습니다. [무료판 배포 설정](mcp/FREE-DEPLOYMENT.md)을 사용하세요. 기본 `mcp/wrangler.toml`도 무료판이며, 전체판 배포 workflow는 비활성화했습니다.
 
 OpenFin은 금융 도메인 지식과 상품 데이터를 같은 출처·관계 계약으로 공개하는 읽기 전용 탐색기와 Cloudflare Remote MCP입니다.
 
@@ -44,20 +44,10 @@ cd mcp && npm run test:mutation
 
 ## Deployment
 
-운영 배포는 수동 `OpenFin Immutable Release` workflow에서만 실행합니다. workflow는 의존성 감사와 지식 검증을 거친 candidate를 staging Pages·Worker에서 검증한 뒤, 동일한 최종 artifact에 대해 120건 회귀와 schema·generation parity가 통과한 Worker version만 승격하고 GitHub Pages와 public parity를 마무리합니다.
+현재 홈페이지는 GitHub Pages의 main /docs를 사용합니다. Cloudflare Git 연동은 mcp를 루트로 사용하고 `npm run deploy` 또는 `npx wrangler deploy --config wrangler.free.jsonc`를 실행합니다. 기본 wrangler.toml도 같은 무료 Worker를 가리킵니다. 유료 CPU 설정은 없습니다.
 
-Pages manifest는 구조화 수, 값 완결 수, 필드 출처 검증 수, runtime 비교 가능 수, 공개 가능 수를 구분합니다. provenance 연결률은 필드 출처 검증률이 아니며, 현재 세대 120/120 live regression과 공개 승인 receipt가 없으면 추천은 활성화되지 않습니다.
+전체판 release/staging/diagnosis/live-regression workflow의 모든 job은 비활성화되어 있습니다. 비교·추천 기능을 무료판에 배포하지 않습니다. 배포 이전에는 mcp에서 `npm run typecheck`, 무료 카탈로그 테스트, Wrangler dry-run을 실행합니다. 상세 사항은 [무료 배포 안내](mcp/FREE-DEPLOYMENT.md)를 참조하세요.
 
-모든 GitHub workflow는 `workflow_dispatch` 수동 실행 전용입니다. `Track OpenFin Sources`는 기본 `report-only`로 읽기 전용 점검과 영향 보고서만 생성하고(보관 3일), 명시적으로 `create-review-pr`를 선택한 경우에만 `OPENFIN_SOURCE_TRACKING_TOKEN`으로 `automation/source-tracking-<run_id>` 브랜치와 사람 검토용 PR을 만듭니다. 이 PR에는 source status와 receipt만 포함되며 canonical 지식 rebuild, `main` push·force push, Issue 생성은 하지 않습니다. `OpenFin Live Regression`도 결과만 artifact로 남깁니다. 자동 branch push·PR·Issue 생성과 Dependabot 정기 업데이트 설정은 제거했습니다. 출처 반영은 사람이 검토한 PR로 진행합니다. 수동 정식 release와 staging은 유지합니다.
+## API collection
 
-Cloudflare Worker와 GitHub Pages는 개별 workflow나 로컬 명령으로 운영 배포하지 않습니다. `OpenFin Immutable Release`를 실행하려면 repository variable `OPENFIN_STAGING_PAGES_PROJECT`가 먼저 설정되어 있어야 합니다. Worker preview URL은 Wrangler가 반환한 실제 alias를 사용합니다.
-
-```sh
-gh workflow run release-openfin.yml --ref main
-```
-
-Worker는 release workflow가 검증한 immutable Pages manifest와 공개 JSON만 읽습니다. 일반 `main` 푸시는 Pages나 Worker를 배포하지 않습니다. 역사적 provenance URL은 출처 추적용으로 보존하며 Worker 런타임의 데이터 원본으로 사용하지 않습니다.
-
-`OpenFin Immutable Release`는 `workflow_dispatch`로만 시작하며 canonical 산출물을 한 번 빌드합니다. staging Pages·Worker preview, 최종 artifact Pages·Worker preview, 정확한 Worker version 승격, production Worker 재검증, GitHub Pages 배포, public parity 순서로 진행합니다. Pages 배포가 성공하기 전 실패는 이전 Worker version으로 rollback하지만, GitHub Pages는 성공한 배포를 자동 복원하는 API가 없으므로 Pages 성공 후 parity 실패는 운영 차단 상태로 남깁니다. 기존 개별 Pages/MCP workflow는 fail-closed로 비활성화되어 있습니다.
-
-기존 `/OpenFin/opentax/*.json`, `finance-ontology-manifest.json`, MCP `search`·`fetch`·`exports` 인터페이스는 호환성을 위해 유지합니다. 출처 registry, 상태, provenance coverage, 관계 인덱스는 추가 공개 산출물로 제공합니다. 추천 기능은 품질 게이트와 최신 전체 live regression을 통과하기 전까지 비활성 상태입니다.
+[API 수집 안내](API-COLLECTION.md)를 참조하세요. Finlife 예금·적금 수집기는 은행/저축은행의 모든 페이지를 순회하고 20개 제한 없이 검토 후보를 만듭니다. 추가 공공데이터 15개와 ECOS는 Python 표준 라이브러리 수집기를 사용합니다. 인증값은 .env/비밀 설정에만 둡니다. 수집 결과는 검토 전 공개 지식으로 자동 승격되지 않습니다.

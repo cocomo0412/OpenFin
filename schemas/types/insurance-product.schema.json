@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://jhny-kor.github.io/OpenFin/schemas/types/insurance-product.schema.json",
+  "$id": "https://cocomo0412.github.io/OpenFin/schemas/types/insurance-product.schema.json",
   "title": "OpenFin decision-critical insurance product",
   "type": "object",
   "required": ["id", "title", "type", "provider", "coverage_items", "coverage_amount_krw", "exclusions", "waiting_period_days", "reduced_benefit_period_days", "renewable", "premium_payment_term_months", "insurance_term_months", "surrender_value_condition", "field_assertions", "provenance"],

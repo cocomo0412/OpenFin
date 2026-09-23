@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://jhny-kor.github.io/OpenFin/schemas/recommendation-approval-receipt.schema.json",
+  "$id": "https://cocomo0412.github.io/OpenFin/schemas/recommendation-approval-receipt.schema.json",
   "type": "object",
   "additionalProperties": false,
   "required": ["approval_id", "domain", "mode", "generation_id", "candidate_set_checksum", "policy_version", "ranking_version", "calculator_version", "quality_suite_checksum", "approved_at", "expires_at", "reviewer", "reviewer_role", "reviewer_permission", "reviewer_signature", "reviewer_signature_algorithm", "rollback_generation_id"],

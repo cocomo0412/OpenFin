@@ -37,7 +37,14 @@
   "access": {
     "method": "api",
     "parser_id": "api:source-fsc-domestic-bank-statistics",
-    "requires_secret": true
+    "requires_secret": true,
+    "request_url": "https://apis.data.go.kr/1160100/service/GetDomeBankInfoService/getDomeBankGeneInfo",
+    "request_query": {
+      "pageNo": 1,
+      "numOfRows": 1
+    },
+    "credential_env": "DATA_GO_KR_SERVICE_KEY",
+    "credential_query_param": "serviceKey"
   },
   "refresh": {
     "sla_hours": 168,
@@ -180,7 +187,7 @@
       "value": "2026-07-03 확인"
     }
   ],
-  "record_checksum": "sha256:2a4b20a9aa9e02e758042e19a0a57f3ef8e04058ad83d9dddbf23cc6af2ace3d"
+  "record_checksum": "sha256:3619dfaac481bf2d4abd36f2dc7d49ec0af1a08c2c46620c29993e780976892b"
 }
 ---
 

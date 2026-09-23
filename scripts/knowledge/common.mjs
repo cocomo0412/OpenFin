@@ -1,8 +1,9 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
+import { fileURLToPath } from 'node:url';
 
-export const ROOT = path.resolve(new URL('../..', import.meta.url).pathname);
+export const ROOT = fileURLToPath(new URL('../../', import.meta.url));
 export const DOCS = path.join(ROOT, 'docs/opentax');
 export const KNOWLEDGE = path.join(ROOT, 'knowledge');
 export const EXPORT_RE = /^korea-.*-ontology-2026\.json$/;
@@ -11,8 +12,8 @@ export const BULK_TYPES = new Set(['support-program','card-product','bank-produc
 // edges and the validator resolves every target against them. Adding a key in
 // only one of the two is what let untyped edges accumulate unchecked before.
 export const RELATION_KEYS = ['parents','children','related','terms','deadlines','sources','requires','conflicts_with','available_in','provided_by','reference_items'];
-export const PUBLIC_BASE = 'https://jhny-kor.github.io/OpenFin/opentax';
-export const json = (p) => JSON.parse(fs.readFileSync(p, 'utf8'));
+export const PUBLIC_BASE = 'https://cocomo0412.github.io/OpenFin/opentax';
+export const json = (p) => JSON.parse(fs.readFileSync(p, 'utf8').replace(/\r\n/g, '\n'));
 export const writeJson = (p, value) => { fs.mkdirSync(path.dirname(p), {recursive:true}); fs.writeFileSync(p, JSON.stringify(value, null, 2) + '\n'); };
 export const stable = (value) => {
   if (Array.isArray(value)) return `[${value.map(stable).join(',')}]`;
@@ -40,7 +41,7 @@ export const decisionOfferFiles = () => {
   const directory = path.join(KNOWLEDGE, '30-financial-products', 'banking', '_decision');
   if (!fs.existsSync(directory)) return [];
   return fs.readdirSync(directory).filter(name => /^(deposit|saving)-offers\.jsonl$/.test(name)).sort().flatMap(name =>
-    fs.readFileSync(path.join(directory, name), 'utf8').split('\n').filter(Boolean).map(JSON.parse));
+    fs.readFileSync(path.join(directory, name), 'utf8').replace(/\r\n/g, '\n').split('\n').filter(Boolean).map(JSON.parse));
 };
 export const canonicalCandidateContent = (offer, option) => ({
   offer: Object.fromEntries(Object.entries(offer || {}).filter(([key]) => key !== 'options')),
@@ -89,7 +90,7 @@ export const qualitySuiteChecksum = (root = ROOT) => {
   ];
   const contents = names.map(name => {
     const file = path.join(root, name);
-    return { name, content: fs.existsSync(file) ? fs.readFileSync(file, 'utf8') : null };
+    return { name, content: fs.existsSync(file) ? fs.readFileSync(file, 'utf8').replace(/\r\n/g, '\n') : null };
   });
   return sha256(contents);
 };

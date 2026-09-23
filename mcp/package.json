@@ -5,8 +5,8 @@
   "description": "Cloudflare Worker Remote MCP adapter for Finance ontology",
   "type": "module",
   "scripts": {
-    "dev": "wrangler dev",
-    "smoke": "node scripts/smoke.mjs",
+    "dev": "wrangler dev --config wrangler.free.jsonc",
+    "smoke": "node scripts/smoke-free.mjs",
     "verify:release": "npm run verify:integrity",
     "verify:integrity": "node --experimental-strip-types scripts/verify-release.mjs",
     "verify:recommendation": "node --experimental-strip-types scripts/verify-release.mjs --recommendation",
@@ -19,7 +19,9 @@
     "financial-quality-live": "node --experimental-strip-types scripts/financial-quality-live.mjs",
     "test:mutation": "node --experimental-strip-types scripts/mutation-check.mjs",
     "test": "npm run typecheck && node --experimental-strip-types --test tests/*.test.mjs",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "deploy": "wrangler deploy --config wrangler.free.jsonc",
+    "build:free": "node scripts/build-free-catalog.mjs"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.26.0",

@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://jhny-kor.github.io/OpenFin/schemas/mcp-tools/search-result.schema.json",
+  "$id": "https://cocomo0412.github.io/OpenFin/schemas/mcp-tools/search-result.schema.json",
   "title": "OpenFin compact search result",
   "type": "object",
   "additionalProperties": false,

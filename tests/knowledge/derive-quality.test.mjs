@@ -75,7 +75,7 @@ test('comparison and recommendation thresholds remain separate', async () => {
 
 test('comparison option counts do not masquerade as offer counts', () => {
   const file = new URL('../../knowledge/30-financial-products/banking/_decision/deposit-offers.jsonl', import.meta.url);
-  const records = fs.readFileSync(file, 'utf8').trim().split('\n').map(line => JSON.parse(line));
+  const records = fs.readFileSync(file, 'utf8').replace(/\r\n/g, '\n').trim().split('\n').map(line => JSON.parse(line));
   const sample = records.slice(0, 5);
   const result = deriveQuality(sample, { sourceCount: 1, exportCount: 10, searchItemCount: sample.length, relationshipCount: 1 });
   assert.ok(result.domains.deposit.public_candidate_count <= result.domains.deposit.runtime_eligible_candidate_count);

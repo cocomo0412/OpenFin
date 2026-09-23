@@ -311,8 +311,8 @@ type SearchFilters = {
 // races from pinning a Worker isolate to the previous generation.
 const CACHE_TTL_MS = 30 * 1000;
 const DEFAULT_FINANCE_MANIFEST_URL =
-  "https://jhny-kor.github.io/OpenFin/opentax/finance-ontology-manifest.json";
-const DEFAULT_FINANCE_WEB_BASE_URL = "https://jhny-kor.github.io/OpenFin/opentax/";
+  "https://cocomo0412.github.io/OpenFin/opentax/finance-ontology-manifest.json";
+const DEFAULT_FINANCE_WEB_BASE_URL = "https://cocomo0412.github.io/OpenFin/opentax/";
 const OPENAI_APPS_CHALLENGE_PATH = "/.well-known/openai-apps-challenge";
 const RATE_QUERY_RE = /(금리|최고금리|중도해지|정기예금|적금|대출|개월)/i;
 const PROTECTION_QUERY_RE = /(예금자보호|보호대상|보호상품|kdic|보호)/i;

@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://jhny-kor.github.io/OpenFin/schemas/types/saving.schema.json",
+  "$id": "https://cocomo0412.github.io/OpenFin/schemas/types/saving.schema.json",
   "title": "OpenFin decision-critical saving",
   "allOf": [
     { "$ref": "bank-product.schema.json" },
