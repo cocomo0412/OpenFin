@@ -1,0 +1,76 @@
+/* Homepage refinements; shared explorer styles remain independent. */
+:root { --home-accent: #496c60; }
+html { scroll-padding-top: 96px; }
+.section-heading h2 { line-height: 1.22; text-wrap: balance; letter-spacing: -0.035em; }
+#improvements-title { font-size: calc(3rem - 4px); }
+.section-heading p:not(.eyebrow) { max-width: 76ch; }
+.eyebrow { letter-spacing: .08em; color: var(--home-accent); }
+.site-header { border-bottom-color: #dedbd2; }
+.top-nav a, .header-actions a, .button, .export-open { border-radius: 8px; }
+.top-nav a:hover { background: #e8ede5; border-color: transparent; }
+.button.primary { background: #b9cfc3; border-color: #a9c1b4; color: #203c31; }
+.button.primary:hover { background: #a9c5b5; }
+a:focus-visible, button:focus-visible, summary:focus-visible {
+  outline: 2px solid var(--home-accent); outline-offset: 4px;
+}
+.hero-meta, .metrics, .galaxy-stage, .export-card, .comparison-grid article,
+.connector-endpoint, .connector-steps li, .mcp-grid article,
+.improvement-grid article, .operational-status article, .collection-update {
+  border-radius: 12px;
+}
+.hero-meta { background: #fbf9f3; }
+.hero-meta > div { min-width: 0; }
+.hero-meta dd { overflow-wrap: anywhere; }
+.metrics { background: #fbf9f3; }
+.metrics strong, .export-count strong { font-variant-numeric: tabular-nums; letter-spacing: -.025em; }
+.export-grid { gap: 18px; }
+.export-card { background: #fdfbf6; box-shadow: 0 2px 4px rgba(49,56,45,.025); }
+.export-card:hover { transform: translateY(-2px); border-color: #b8c9bd; box-shadow: 0 8px 22px rgba(49,56,45,.055); }
+.export-card > p, .export-date-history { overflow-wrap: anywhere; }
+.export-card .export-open { background: #eef2eb; border-color: #d6dfd2; color: #36584a; min-height: 42px; }
+.export-card .export-open:hover { background: #e1eadd; border-color: #a9beb0; transform: none; }
+.export-date-history summary { padding-block: 3px; }
+.export-date-history[open] { padding-bottom: 8px; border-bottom: 1px solid var(--line); }
+.comparison-grid li { white-space: normal; }
+.connector-endpoint { align-content: start; gap: 20px; }
+.connector-endpoint code { border-color: #c7d9cc; background: #f9fcf7; color: #355d4c; }
+.connector-steps li::before { border-color: #b0c7b8; background: #f8fbf5; color: #426653; }
+.pipeline div { min-width: 0; border-radius: 10px; }
+.pipeline span { overflow-wrap: anywhere; }
+.improvement-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.improvement-grid article { display: flex; flex-direction: column; gap: 16px; }
+.improvement-grid h3 { margin: 0; }
+.improvement-grid article > span { margin-top: auto; overflow-wrap: anywhere; line-height: 1.6; }
+.operational-status { align-items: start; }
+.operational-status article { min-width: 0; }
+.operational-status a { overflow-wrap: anywhere; }
+.site-footer { flex-wrap: wrap; gap: 12px 22px; line-height: 1.6; }
+@media (min-width: 901px) and (max-width: 1199px) {
+  .export-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (min-width: 561px) and (max-width: 900px) {
+  .export-grid, .improvement-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 820px) {
+  #improvements-title { font-size: calc(2.35rem - 4px); }
+  .split-section, .flow, .improvements, #exports, .operational-section { padding-top: 64px; }
+  .mcp-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .section-heading { margin-bottom: 24px; }
+  .top-nav { gap: 2px; }
+  .top-nav a { justify-content: center; padding-inline: 10px; }
+}
+@media (max-width: 560px) {
+  html { scroll-padding-top: 20px; }
+  #improvements-title { font-size: calc(2.2rem - 4px); }
+  .export-grid, .improvement-grid, .mcp-grid { grid-template-columns: minmax(0, 1fr); }
+  .site-header { gap: 12px; }
+  .header-actions { gap: 4px; }
+  .header-actions a { padding-inline: 8px; font-size: 12px; }
+  .export-card, .improvement-grid article, .mcp-grid article { padding: 20px; }
+  .galaxy-stage { min-width: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .export-card, .button, .export-open { transition: none; }
+  .export-card:hover { transform: none; }
+}
