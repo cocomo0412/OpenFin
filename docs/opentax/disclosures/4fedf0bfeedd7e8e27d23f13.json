@@ -47,5 +47,9 @@
     "collected_at": "2026-09-23T08:20:29.085856+00:00",
     "http_status": 200,
     "sha256": "40eb73a2956ed3953aa9e2848554e636c4d761c748858b89157f703681e78f9a"
-  }
+  },
+  "provider_disclosure_urls": [
+    "https://www.kdblife.co.kr/ajax.do?scrId=HDLMA002M02P"
+  ],
+  "document_scope": "comparison-disclosure attachments; full policy terms not verified"
 }

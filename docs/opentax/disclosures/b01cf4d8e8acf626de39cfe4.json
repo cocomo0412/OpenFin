@@ -51,5 +51,9 @@
     "collected_at": "2026-09-23T08:20:36.418391+00:00",
     "http_status": 200,
     "sha256": "7a6f17b81511473324395ff12749fc08606308b46073ffec9abffdea3bcede36"
-  }
+  },
+  "provider_disclosure_urls": [
+    "https://www.nhlife.co.kr/ho/on/HOON0004M00.nhl"
+  ],
+  "document_scope": "comparison-disclosure attachments; full policy terms not verified"
 }

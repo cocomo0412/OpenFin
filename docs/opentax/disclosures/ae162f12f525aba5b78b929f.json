@@ -46,5 +46,9 @@
     "collected_at": "2026-09-23T08:20:36.710225+00:00",
     "http_status": 200,
     "sha256": "049ce96c447fc553f315e9c1fe3a0e7f8ddf51cc13ce1adfe484c45ac765d29e"
-  }
+  },
+  "provider_disclosure_urls": [
+    "https://www.hanwhalife.com/index.jsp?goUrl=/main/disclosure/goods/disclosurenotice/DF_GDDN000_P10000.do?MENU_ID1=DF_GDGL000$MENU_ID2=DF_GDGL000_P10000"
+  ],
+  "document_scope": "comparison-disclosure attachments; full policy terms not verified"
 }

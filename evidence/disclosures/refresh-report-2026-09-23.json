@@ -1,13 +1,9 @@
 {
-  "generated_at": "2026-09-23T08:56:40.644Z",
+  "generated_at": "2026-09-23T09:30:20.476Z",
   "domains": {
     "cards": {
-      "updated": 985,
+      "updated": 986,
       "unresolved": [
-        {
-          "id": "finance.card.credit-card.ibk기업은행.shopping-joy-쇼핑앤조이-756545",
-          "error": "Detail identity not matched"
-        },
         {
           "id": "finance.card.credit-card.롯데카드.loca-likit-2-0",
           "error": "Product content missing"
@@ -109,17 +105,54 @@
       "reviewed_ids": [
         "credit.child",
         "credit.pension-account",
-        "deduction.housing-savings"
+        "deduction.housing-savings",
+        "tax.income",
+        "tax.income.comprehensive",
+        "tax.corporate",
+        "deduction.personal.basic",
+        "deduction.personal.additional",
+        "deduction.personal",
+        "deduction.pension-insurance",
+        "credit.bookkeeping",
+        "credit.insurance-premium",
+        "credit.standard"
       ],
       "other_facts_reviewed": false
     }
   },
   "full_refresh_complete": false,
   "scope_notes": {
-    "cards": "Official detail text collected for matched existing cards. Unresolved cards require issuer-specific detail retrieval; no structured benefit-rule verification is asserted.",
-    "insurance": "Official comparison disclosure coverages and document links collected. Full policy document contents have not all been reviewed.",
+    "cards": "Official detail text collected for 986 matched existing cards. The remaining 21 require issuer-specific detail retrieval. Numeric benefit rules are not all semantically verified.",
+    "insurance": "1,081 current comparison disclosures collected, including 84 products newly added in this refresh. Insurer disclosure links preserved. The comparison attachments can be product summaries rather than full policy terms; 60 insurer indexes were examined. Full policy texts remain incomplete.",
     "pension": "All four official product return/fee table groups collected for 2026-Q2; 4,373 rows preserved in 4,362 stable product records.",
     "accounts": "Four account guides manually summarized, separating account eligibility and tax-exemption eligibility.",
-    "tax": "Three facts reviewed against official sources, including transitional child-credit law. Remaining 127 facts are not marked reviewed."
-  }
+    "tax": "Thirteen facts manually reconciled with official sources. Remaining 117 facts require individual semantic review. Original source dates are preserved for unreviewed facts."
+  },
+  "blockers": [
+    {
+      "scope": "cards",
+      "count": 21,
+      "causes": [
+        "Client-rendered detail pages need issuer-specific public endpoint adapters.",
+        "Shared BC catalog pages may omit issuing-bank benefit conditions."
+      ]
+    },
+    {
+      "scope": "insurance",
+      "causes": [
+        "Comparison disclosure PDFs are not necessarily policy terms.",
+        "Provider indexes mix current and historical contracts and website-use terms.",
+        "Three provider URLs failed certificate/TLS checks; alternate official sources must be verified."
+      ]
+    },
+    {
+      "scope": "tax",
+      "count": 117,
+      "causes": [
+        "Article availability does not verify rule amounts, eligibility, exceptions or transitional provisions.",
+        "Some rates are image tables, requiring visual comparison; collector now preserves alternative text.",
+        "Some stored source URLs return portal shells or law error pages."
+      ]
+    }
+  ]
 }

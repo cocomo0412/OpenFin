@@ -1,0 +1,40 @@
+{
+  "id": "credit.bookkeeping",
+  "source_id": "source.law.income-tax-act.deductions-credits",
+  "reviewed_articles": [
+    {
+      "number": "56의2",
+      "text": "제56조의2(기장세액공제) ① 제160조 제3항 에 따른 간편장부대상자가 제70조 또는 제74조 에 따른 과세표준확정신고를 할 때 복식부기에 따라 기장(記帳)하여 소득금액을 계산하고 제70조 제4항 제3호 에 따른 서류를 제출하는 경우에는 해당 장부에 의하여 계산한 사업소득금액이 종합소득금액에서 차지하는 비율을 종합소득 산출세액에 곱하여 계산한 금액의 100분의 20에 해당하는 금액을 종합소득 산출세액에서 공제한다. 다만, 공제세액이 100만원을 초과하는 경우에는 100만원을 공제한다. ② 다음 각 호의 어느 하나에 해당하는 경우에는 제1항에 따른 공제[이하 “기장세액공제”(記帳稅額控除)라 한다]를 적용하지 아니한다. 1. 비치ㆍ기록한 장부에 의하여 신고하여야 할 소득금액의 100분의 20 이상을 누락하여 신고한 경우 2. 기장세액공제와 관련된 장부 및 증명서류를 해당 과세표준확정신고기간 종료일부터 5년간 보관하지 아니한 경우. 다만, 천재지변 등 대통령령 으로 정하는 부득이한 사유에 해당하는 경우에는 그러하지 아니하다. ③ 기장세액공제에 관하여 필요한 사항은 대통령령 으로 정한다. [전문개정 2009. 12. 31.] [도표 대체텍스트: 조문체계도버튼] [도표 대체텍스트: 연혁] "
+    }
+  ],
+  "summary": [
+    {
+      "label": "대상·계산",
+      "condition": "간편장부대상자가 확정신고 시 복식부기로 소득금액을 계산하고 법정 서류를 제출하면, 종합소득산출세액에 장부로 계산한 사업소득금액의 종합소득금액 대비 비율을 곱한 금액의 20%를 공제합니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.income-tax-act.deductions-credits",
+      "criteria_kind": "disclosure"
+    },
+    {
+      "label": "한도",
+      "condition": "기장세액공제액은 100만원을 한도로 합니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.income-tax-act.deductions-credits",
+      "criteria_kind": "disclosure"
+    },
+    {
+      "label": "배제 조건",
+      "condition": "장부에 따라 신고할 소득금액의 20% 이상을 누락하거나 관련 장부·증빙을 확정신고기간 종료일부터 5년간 보관하지 않으면 적용하지 않습니다. 보관에는 천재지변 등 법정 예외가 있습니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.income-tax-act.deductions-credits",
+      "criteria_kind": "disclosure"
+    }
+  ],
+  "receipt": {
+    "url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+    "final_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+    "collected_at": "2026-09-23T08:26:20.830416+00:00",
+    "http_status": 200,
+    "sha256": "75c504ac6e07a5d3eebe4ea12252fd68aeb035939f7dbee34cf260070a4d3013"
+  }
+}

@@ -52,5 +52,9 @@
     "collected_at": "2026-09-23T08:20:26.099063+00:00",
     "http_status": 200,
     "sha256": "1ac0a567ddbe12616c99e67a97a70aaeea42c468c8aa6a04900784f486fc6c11"
-  }
+  },
+  "provider_disclosure_urls": [
+    "https://www.dgbfnlife.com/BA/BA_A020.do"
+  ],
+  "document_scope": "comparison-disclosure attachments; full policy terms not verified"
 }

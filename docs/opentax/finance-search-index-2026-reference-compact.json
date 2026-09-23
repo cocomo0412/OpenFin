@@ -31,11 +31,45 @@
       "source_ids": []
     },
     {
+      "id": "credit.bookkeeping",
+      "title": "기장세액공제",
+      "type": "tax-credit",
+      "description": "간편장부대상자가 복식부기에 따라 기장하여 소득금액을 계산한 경우 적용되는 세액공제입니다.",
+      "search_text": "기장세액공제 간편장부대상자가 복식부기에 따라 기장하여 소득금액을 계산한 경우 적용되는 세액공제입니다.",
+      "sales_status": "unknown",
+      "status": "reference_only",
+      "recommendation_status": "reference_only",
+      "recommendation_scope": "listing_only",
+      "freshness_status": "current",
+      "source_ids": [
+        "source.law.income-tax-act.deductions-credits"
+      ],
+      "provenance_shard": "reference",
+      "export_id": "tax-ontology"
+    },
+    {
       "id": "credit.child",
       "title": "자녀 세액공제",
       "type": "tax-credit",
       "description": "기본공제대상 자녀·손자녀 및 출산·입양에 대한 세액공제입니다. 2026년 연령 기준은 개정법 부칙과 출생연도 예외를 함께 적용합니다.",
       "search_text": "자녀 세액공제 기본공제대상 자녀·손자녀 및 출산·입양에 대한 세액공제입니다. 2026년 연령 기준은 개정법 부칙과 출생연도 예외를 함께 적용합니다.",
+      "sales_status": "unknown",
+      "status": "reference_only",
+      "recommendation_status": "reference_only",
+      "recommendation_scope": "listing_only",
+      "freshness_status": "current",
+      "source_ids": [
+        "source.law.income-tax-act.deductions-credits"
+      ],
+      "provenance_shard": "reference",
+      "export_id": "tax-ontology"
+    },
+    {
+      "id": "credit.insurance-premium",
+      "title": "보험료 세액공제",
+      "type": "tax-credit",
+      "description": "보장성보험료, 장애인전용 보장성보험료 등에 대한 특별세액공제입니다.",
+      "search_text": "보험료 세액공제 보장성보험료, 장애인전용 보장성보험료 등에 대한 특별세액공제입니다.",
       "sales_status": "unknown",
       "status": "reference_only",
       "recommendation_status": "reference_only",
@@ -65,6 +99,23 @@
       "export_id": "tax-ontology"
     },
     {
+      "id": "credit.standard",
+      "title": "표준세액공제",
+      "type": "tax-credit",
+      "description": "특별소득공제·특별세액공제·월세액 세액공제를 신청하지 않은 거주자에게 정액으로 적용되는 세액공제입니다.",
+      "search_text": "표준세액공제 특별소득공제·특별세액공제·월세액 세액공제를 신청하지 않은 거주자에게 정액으로 적용되는 세액공제입니다.",
+      "sales_status": "unknown",
+      "status": "reference_only",
+      "recommendation_status": "reference_only",
+      "recommendation_scope": "listing_only",
+      "freshness_status": "current",
+      "source_ids": [
+        "source.law.income-tax-act.deductions-credits"
+      ],
+      "provenance_shard": "reference",
+      "export_id": "tax-ontology"
+    },
+    {
       "id": "deduction.housing-savings",
       "title": "주택마련저축",
       "type": "deduction",
@@ -77,6 +128,74 @@
       "freshness_status": "current",
       "source_ids": [
         "source.nhuf.housing-subscription"
+      ],
+      "provenance_shard": "reference",
+      "export_id": "tax-ontology"
+    },
+    {
+      "id": "deduction.pension-insurance",
+      "title": "연금보험료공제",
+      "type": "deduction",
+      "description": "공적연금의 근로자 부담금을 차감소득금액 계산에 반영하는 공제입니다.",
+      "search_text": "연금보험료공제 공적연금의 근로자 부담금을 차감소득금액 계산에 반영하는 공제입니다.",
+      "sales_status": "unknown",
+      "status": "reference_only",
+      "recommendation_status": "reference_only",
+      "recommendation_scope": "listing_only",
+      "freshness_status": "current",
+      "source_ids": [
+        "source.law.income-tax-act.deductions-credits"
+      ],
+      "provenance_shard": "reference",
+      "export_id": "tax-ontology"
+    },
+    {
+      "id": "deduction.personal",
+      "title": "인적공제",
+      "type": "deduction",
+      "description": "기본공제와 추가공제로 구성되는 소득공제입니다.",
+      "search_text": "인적공제 기본공제와 추가공제로 구성되는 소득공제입니다.",
+      "sales_status": "unknown",
+      "status": "reference_only",
+      "recommendation_status": "reference_only",
+      "recommendation_scope": "listing_only",
+      "freshness_status": "current",
+      "source_ids": [
+        "source.law.income-tax-act.deductions-credits"
+      ],
+      "provenance_shard": "reference",
+      "export_id": "tax-ontology"
+    },
+    {
+      "id": "deduction.personal.additional",
+      "title": "추가공제",
+      "type": "deduction",
+      "description": "경로우대, 장애인, 부녀자, 한부모 등 추가 요건에 따른 인적공제입니다.",
+      "search_text": "추가공제 경로우대, 장애인, 부녀자, 한부모 등 추가 요건에 따른 인적공제입니다.",
+      "sales_status": "unknown",
+      "status": "reference_only",
+      "recommendation_status": "reference_only",
+      "recommendation_scope": "listing_only",
+      "freshness_status": "current",
+      "source_ids": [
+        "source.law.income-tax-act.deductions-credits"
+      ],
+      "provenance_shard": "reference",
+      "export_id": "tax-ontology"
+    },
+    {
+      "id": "deduction.personal.basic",
+      "title": "기본공제",
+      "type": "deduction",
+      "description": "본인, 배우자, 부양가족 등 기본공제 대상자에 대한 인적공제입니다.",
+      "search_text": "기본공제 본인, 배우자, 부양가족 등 기본공제 대상자에 대한 인적공제입니다.",
+      "sales_status": "unknown",
+      "status": "reference_only",
+      "recommendation_status": "reference_only",
+      "recommendation_scope": "listing_only",
+      "freshness_status": "current",
+      "source_ids": [
+        "source.law.income-tax-act.deductions-credits"
       ],
       "provenance_shard": "reference",
       "export_id": "tax-ontology"
@@ -398622,6 +398741,57 @@
       "source_ids": []
     },
     {
+      "id": "tax.corporate",
+      "title": "법인세",
+      "type": "tax",
+      "description": "2026년 이후 개시 사업연도의 각 사업연도 소득에 적용되는 법인세입니다. 일반법인·소규모법인·조합법인의 세율을 구분하며 토지 등 양도소득의 추가세액은 별도입니다.",
+      "search_text": "법인세 2026년 이후 개시 사업연도의 각 사업연도 소득에 적용되는 법인세입니다. 일반법인·소규모법인·조합법인의 세율을 구분하며 토지 등 양도소득의 추가세액은 별도입니다.",
+      "sales_status": "unknown",
+      "status": "reference_only",
+      "recommendation_status": "reference_only",
+      "recommendation_scope": "listing_only",
+      "freshness_status": "current",
+      "source_ids": [
+        "source.nts.corporate-tax.rates"
+      ],
+      "provenance_shard": "reference",
+      "export_id": "tax-ontology"
+    },
+    {
+      "id": "tax.income",
+      "title": "소득세",
+      "type": "tax",
+      "description": "개인의 소득에 과세되는 국세입니다. 종합소득, 퇴직소득, 양도소득 흐름으로 세부 학습 노드를 둡니다.",
+      "search_text": "소득세 개인의 소득에 과세되는 국세입니다. 종합소득, 퇴직소득, 양도소득 흐름으로 세부 학습 노드를 둡니다.",
+      "sales_status": "unknown",
+      "status": "reference_only",
+      "recommendation_status": "reference_only",
+      "recommendation_scope": "listing_only",
+      "freshness_status": "current",
+      "source_ids": [
+        "source.law.income-tax-act.deductions-credits"
+      ],
+      "provenance_shard": "reference",
+      "export_id": "tax-ontology"
+    },
+    {
+      "id": "tax.income.comprehensive",
+      "title": "종합소득세",
+      "type": "tax",
+      "description": "이자·배당·사업·근로·연금·기타소득 등 종합소득금액에 대해 확정신고하는 소득세 흐름입니다.",
+      "search_text": "종합소득세 이자·배당·사업·근로·연금·기타소득 등 종합소득금액에 대해 확정신고하는 소득세 흐름입니다.",
+      "sales_status": "unknown",
+      "status": "reference_only",
+      "recommendation_status": "reference_only",
+      "recommendation_scope": "listing_only",
+      "freshness_status": "current",
+      "source_ids": [
+        "source.law.income-tax-act.deductions-credits"
+      ],
+      "provenance_shard": "reference",
+      "export_id": "tax-ontology"
+    },
+    {
       "id": "application-channel.company-year-end-settlement",
       "title": "회사 연말정산 제출",
       "type": "application-channel",
@@ -400153,19 +400323,6 @@
       "export_id": "tax-ontology"
     },
     {
-      "id": "credit.insurance-premium",
-      "title": "보험료 세액공제",
-      "type": "tax-credit",
-      "description": "보장성보험료, 장애인전용 보장성보험료 등에 대한 특별세액공제입니다.",
-      "search_text": "credit.insurance-premium 보험료 세액공제 tax-credit 보장성보험료, 장애인전용 보장성보험료 등에 대한 특별세액공제입니다. 소득세법 제59조의4 tax-credit source.nts.yea",
-      "source_ids": [
-        "source.nts.year-end-settlement.special-credit",
-        "source.law.income-tax-act.deductions-credits"
-      ],
-      "provenance_shard": "reference",
-      "export_id": "tax-ontology"
-    },
-    {
       "id": "credit.integrated-employment",
       "title": "통합고용세액공제",
       "type": "tax-credit",
@@ -400591,33 +400748,6 @@
       "export_id": "tax-ontology"
     },
     {
-      "id": "deduction.pension-insurance",
-      "title": "연금보험료공제",
-      "type": "deduction",
-      "description": "공적연금의 근로자 부담금을 차감소득금액 계산에 반영하는 공제입니다.",
-      "search_text": "deduction.pension-insurance 연금보험료공제 deduction 공적연금의 근로자 부담금을 차감소득금액 계산에 반영하는 공제입니다. 소득세법 제51조의3 income-deduction source.",
-      "source_ids": [
-        "source.nts.year-end-settlement.calculation",
-        "source.law.income-tax-act.deductions-credits"
-      ],
-      "provenance_shard": "reference",
-      "export_id": "tax-ontology"
-    },
-    {
-      "id": "deduction.personal",
-      "title": "인적공제",
-      "type": "deduction",
-      "description": "기본공제와 추가공제로 구성되는 소득공제입니다.",
-      "search_text": "deduction.personal 인적공제 deduction 기본공제와 추가공제로 구성되는 소득공제입니다. 소득세법 제50조 및 제51조 source.nts.year-end-settlement.calculation ",
-      "source_ids": [
-        "source.nts.year-end-settlement.calculation",
-        "source.law.income-tax-act.deductions-credits",
-        "source.nts.employee-income-statement"
-      ],
-      "provenance_shard": "reference",
-      "export_id": "tax-ontology"
-    },
-    {
       "id": "deduction.personal-pension-savings",
       "title": "개인연금저축 소득공제",
       "type": "deduction",
@@ -400626,33 +400756,6 @@
       "source_ids": [
         "source.nts.year-end-settlement.calculation",
         "source.law.income-tax-act.deductions-credits"
-      ],
-      "provenance_shard": "reference",
-      "export_id": "tax-ontology"
-    },
-    {
-      "id": "deduction.personal.additional",
-      "title": "추가공제",
-      "type": "deduction",
-      "description": "경로우대, 장애인, 부녀자, 한부모 등 추가 요건에 따른 인적공제입니다.",
-      "search_text": "deduction.personal.additional 추가공제 deduction 경로우대, 장애인, 부녀자, 한부모 등 추가 요건에 따른 인적공제입니다. 소득세법 제51조 income-deduction source.",
-      "source_ids": [
-        "source.nts.year-end-settlement.calculation",
-        "source.law.income-tax-act.deductions-credits"
-      ],
-      "provenance_shard": "reference",
-      "export_id": "tax-ontology"
-    },
-    {
-      "id": "deduction.personal.basic",
-      "title": "기본공제",
-      "type": "deduction",
-      "description": "본인, 배우자, 부양가족 등 기본공제 대상자에 대한 인적공제입니다.",
-      "search_text": "deduction.personal.basic 기본공제 deduction 본인, 배우자, 부양가족 등 기본공제 대상자에 대한 인적공제입니다. 소득세법 제50조 income-deduction source.nts.year",
-      "source_ids": [
-        "source.nts.year-end-settlement.calculation",
-        "source.law.income-tax-act.deductions-credits",
-        "source.nts.employee-income-statement"
       ],
       "provenance_shard": "reference",
       "export_id": "tax-ontology"
@@ -406425,21 +406528,6 @@
       "export_id": "tax-ontology"
     },
     {
-      "id": "tax.corporate",
-      "title": "법인세",
-      "type": "tax",
-      "description": "법인의 각 사업연도 소득 등에 과세되는 국세이며 법인세 공제·감면 지원제도와 직접 연결됩니다.",
-      "search_text": "tax.corporate 법인세 tax 법인의 각 사업연도 소득 등에 과세되는 국세이며 법인세 공제·감면 지원제도와 직접 연결됩니다. 국세기본법 제2조 제1호 national-tax source.national-ta",
-      "source_ids": [
-        "source.national-tax-framework-act.2026.article2",
-        "source.nts.corporate-tax.rates",
-        "source.nts.corporate-tax.filing-procedure",
-        "source.law.corporate-tax-act.credits"
-      ],
-      "provenance_shard": "reference",
-      "export_id": "tax-ontology"
-    },
-    {
       "id": "tax.customs",
       "title": "관세",
       "type": "tax",
@@ -406481,20 +406569,6 @@
       "export_id": "tax-ontology"
     },
     {
-      "id": "tax.income",
-      "title": "소득세",
-      "type": "tax",
-      "description": "개인의 소득에 과세되는 국세입니다. 종합소득, 퇴직소득, 양도소득 흐름으로 세부 학습 노드를 둡니다.",
-      "search_text": "tax.income 소득세 tax 개인의 소득에 과세되는 국세입니다. 종합소득, 퇴직소득, 양도소득 흐름으로 세부 학습 노드를 둡니다. 국세기본법 제2조 제1호 national-tax source.national-t",
-      "source_ids": [
-        "source.national-tax-framework-act.2026.article2",
-        "source.nts.income-tax.rates",
-        "source.law.income-tax-act.deductions-credits"
-      ],
-      "provenance_shard": "reference",
-      "export_id": "tax-ontology"
-    },
-    {
       "id": "tax.income.capital-gains",
       "title": "양도소득세",
       "type": "tax",
@@ -406507,20 +406581,6 @@
         "source.nts.capital-gains.rates",
         "source.law.income-tax-act.deductions-credits",
         "source.nts.income-tax.rates"
-      ],
-      "provenance_shard": "reference",
-      "export_id": "tax-ontology"
-    },
-    {
-      "id": "tax.income.comprehensive",
-      "title": "종합소득세",
-      "type": "tax",
-      "description": "이자·배당·사업·근로·연금·기타소득 등 종합소득금액에 대해 확정신고하는 소득세 흐름입니다.",
-      "search_text": "tax.income.comprehensive 종합소득세 tax 이자·배당·사업·근로·연금·기타소득 등 종합소득금액에 대해 확정신고하는 소득세 흐름입니다. 소득세법 제55조 및 제70조 source.nts.income",
-      "source_ids": [
-        "source.nts.income-tax.deadline",
-        "source.nts.income-tax.rates",
-        "source.law.income-tax-act.deductions-credits"
       ],
       "provenance_shard": "reference",
       "export_id": "tax-ontology"
@@ -407604,37 +407664,11 @@
       "export_id": "tax-ontology"
     },
     {
-      "id": "credit.standard",
-      "title": "표준세액공제",
-      "type": "tax-credit",
-      "description": "특별소득공제·특별세액공제·월세액 세액공제를 신청하지 않은 거주자에게 정액으로 적용되는 세액공제입니다.",
-      "search_text": "credit.standard 표준세액공제 tax-credit 특별소득공제·특별세액공제·월세액 세액공제를 신청하지 않은 거주자에게 정액으로 적용되는 세액공제입니다.",
-      "source_ids": [
-        "source.nts.year-end-settlement.calculation",
-        "source.law.income-tax-act.deductions-credits"
-      ],
-      "provenance_shard": "reference",
-      "export_id": "tax-ontology"
-    },
-    {
       "id": "credit.dividend",
       "title": "배당세액공제",
       "type": "tax-credit",
       "description": "종합과세되는 배당소득에 더해진 배당가산액을 종합소득 산출세액에서 공제해 법인세와의 이중과세를 조정하는 세액공제입니다.",
       "search_text": "credit.dividend 배당세액공제 tax-credit 종합과세되는 배당소득에 더해진 배당가산액을 종합소득 산출세액에서 공제해 법인세와의 이중과세를 조정하는 세액공제입니다.",
-      "source_ids": [
-        "source.nts.year-end-settlement.calculation",
-        "source.law.income-tax-act.deductions-credits"
-      ],
-      "provenance_shard": "reference",
-      "export_id": "tax-ontology"
-    },
-    {
-      "id": "credit.bookkeeping",
-      "title": "기장세액공제",
-      "type": "tax-credit",
-      "description": "간편장부대상자가 복식부기에 따라 기장하여 소득금액을 계산한 경우 적용되는 세액공제입니다.",
-      "search_text": "credit.bookkeeping 기장세액공제 tax-credit 간편장부대상자가 복식부기에 따라 기장하여 소득금액을 계산한 경우 적용되는 세액공제입니다.",
       "source_ids": [
         "source.nts.year-end-settlement.calculation",
         "source.law.income-tax-act.deductions-credits"
@@ -407666,5 +407700,5 @@
       "source_ids": []
     }
   ],
-  "export_checksum": "ab8f7d9eddbe356397b48a01a50562722ac97d938b7adbcf743b445b4c48e58e"
+  "export_checksum": "89ea3ca7d90384f39b6e6bf5634c2db7c6a2414f1bc148dd74ded4ae90355610"
 }

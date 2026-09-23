@@ -50,5 +50,9 @@
     "collected_at": "2026-09-23T08:20:36.710225+00:00",
     "http_status": 200,
     "sha256": "049ce96c447fc553f315e9c1fe3a0e7f8ddf51cc13ce1adfe484c45ac765d29e"
-  }
+  },
+  "provider_disclosure_urls": [
+    "https://www.imlifeins.co.kr/BA/BA_A020.do"
+  ],
+  "document_scope": "comparison-disclosure attachments; full policy terms not verified"
 }

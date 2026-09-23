@@ -47,5 +47,9 @@
     "collected_at": "2026-09-23T08:20:35.026056+00:00",
     "http_status": 200,
     "sha256": "54288044548b6c15049e39e4a444a114e90fe5dd1c09ee8e19810b0a7eb1a6ff"
-  }
+  },
+  "provider_disclosure_urls": [
+    "https://www.lina.co.kr/disclosure/product-public-announcement/product-on-sales?key=0"
+  ],
+  "document_scope": "comparison-disclosure attachments; full policy terms not verified"
 }

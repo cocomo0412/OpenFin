@@ -49,5 +49,9 @@
     "collected_at": "2026-09-23T08:20:34.546340+00:00",
     "http_status": 200,
     "sha256": "360f07266f7ee18dcb906cab7c7176ada1773bbe783e1edd47d37e89373ea616"
-  }
+  },
+  "provider_disclosure_urls": [
+    "https://www.chubblife.co.kr/front/official/sale/listSale.do"
+  ],
+  "document_scope": "comparison-disclosure attachments; full policy terms not verified"
 }

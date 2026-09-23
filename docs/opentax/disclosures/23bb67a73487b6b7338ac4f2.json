@@ -50,5 +50,9 @@
     "collected_at": "2026-09-23T08:20:32.760802+00:00",
     "http_status": 200,
     "sha256": "3bc2dba8bbc8370f5fe5df5593008e5a464b76cd9513d10e24e804b86de3a74f"
-  }
+  },
+  "provider_disclosure_urls": [
+    "https://www.lifeplanet.co.kr/disclosure/good/HPDA01S0.dev"
+  ],
+  "document_scope": "comparison-disclosure attachments; full policy terms not verified"
 }

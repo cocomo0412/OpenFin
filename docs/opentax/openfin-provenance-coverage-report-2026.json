@@ -9,7 +9,7 @@
   "official_primary_source_ratio": 0.9740857440579567,
   "source_registry_count": 156,
   "collected_record_count": 80018,
-  "deterministic_checksum_count": 80026,
+  "deterministic_checksum_count": 80036,
   "freshness_sla_coverage_ratio": 0.1282051282051282,
   "sales_status_current_ratio": 0.0000750581700818134,
   "unresolved_assertion_conflict_count": 0,

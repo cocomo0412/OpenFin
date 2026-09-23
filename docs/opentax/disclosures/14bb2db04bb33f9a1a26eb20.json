@@ -50,5 +50,9 @@
     "collected_at": "2026-09-23T08:20:33.337017+00:00",
     "http_status": 200,
     "sha256": "c280652adceb76d438433b3bd058249712469477f98b5cc496021596cbf33446"
-  }
+  },
+  "provider_disclosure_urls": [
+    "https://abllife.co.kr/st/pban/prdtPban/whlPrdt?page=1254504_1260"
+  ],
+  "document_scope": "comparison-disclosure attachments; full policy terms not verified"
 }
