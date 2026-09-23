@@ -48,8 +48,8 @@
         <dl class="hero-meta">
           <div><dt>version</dt><dd data-version>로딩 중</dd></div>
           <div><dt>API 기준일</dt><dd data-snapshot-basis-date>로딩 중</dd></div>
-          <div><dt>기존 자료 검토일</dt><dd data-source-review-date>로딩 중</dd></div>
-          <div><dt>기존 자료 수집일</dt><dd data-product-collection-dates>로딩 중</dd></div>
+          <div title="최근 API 원문·식별자·필드 매핑 검토일이며, 모든 분야의 법령·약관 검토일을 뜻하지 않습니다."><dt>자료 검토일</dt><dd data-source-review-date>로딩 중</dd></div>
+          <div title="최근 API 자료를 실제 수집한 날짜입니다. 분야별 카드에는 미갱신 자료의 과거 수집일도 표시합니다."><dt>자료 수집일</dt><dd data-product-collection-dates>로딩 중</dd></div>
           <div><dt>collection</dt><dd><a href="#collection-update-title" data-collection-short>수집 결과 확인</a></dd></div>
           <div><dt>MCP endpoint</dt><dd><a href="https://openfin.cocomo0412.workers.dev/health" target="_blank" rel="noreferrer">무료 MCP 운영 중</a></dd></div>
         </dl>
@@ -259,7 +259,7 @@
         <h3 id="collection-update-title">최근 데이터 수집·검증</h3>
         <p data-collection-result>금융회사 목록 갱신 결과를 확인 중입니다.</p>
         <p data-resolved-collections>예금자보호 상품·국내은행 통계 수집 결과를 불러오는 중입니다.</p>
-        <p>금감원 예금·적금: 2026-09-23 은행·저축은행 전체 페이지에서 예금 432건, 적금 335건을 수집했습니다. 기존 상품 758개를 정확한 식별자로 연결했으며 최신 공시를 조회할 수 있습니다. 개인별 비교·추천 검증과는 별도입니다.</p>
+        <p>금감원 예금·적금: 2026-09-23 은행·저축은행 전체 페이지에서 예금 432건, 적금 335건을 수집했습니다. 상품의 금리·가입조건을 온톨로지 본문과 검색 데이터에 반영했습니다. 개인별 비교·추천 검증과는 별도입니다.</p>
         <p data-api-collection-summary>공식 API 수집 현황을 불러오는 중입니다.</p>
         <p><a href="./api-data.html">최신 공식 API 자료 검색 →</a></p>
         <details><summary>API별 수집 건수·자료 기준일 보기</summary><p>수집본은 공식 API 자료 검색에 반영했습니다. 수집본 검사는 상품 내용의 정확성 검증과 다르며, 기존 온톨로지 상품과의 병합은 별도입니다.</p><div data-api-collection-list></div><a href="./opentax/collection-inventory.json">수집 현황 JSON 보기</a></details>
@@ -278,7 +278,7 @@
       </div>
     </section>
   </main>
-  <script type="module" src="./collection-status.js?v=2026.09.23.2"></script>
+  <script type="module" src="./collection-status.js?v=2026.09.23.4"></script>
 
   <footer class="site-footer">
     <span>© 2026 cocomo0412</span>
@@ -287,7 +287,7 @@
     <a href="https://openfin.cocomo0412.workers.dev/health" target="_blank" rel="noreferrer">무료 MCP 운영 중</a>
   </footer>
 
-  <script src="./app.js?v=2026.09.23.2"></script>
+  <script src="./app.js?v=2026.09.23.4"></script>
   <script type="importmap">
     {
       "imports": {

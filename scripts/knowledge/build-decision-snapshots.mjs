@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { ROOT, KNOWLEDGE, json, sha256, canonicalCandidateContent, schemaValidationChecksum } from './common.mjs';
+import { writeText, ROOT, KNOWLEDGE, json, sha256, canonicalCandidateContent, schemaValidationChecksum } from './common.mjs';
 import { compileBonusRules, compileEarlyTerminationRule, compileEligibilityRules } from './compile-financial-rules.mjs';
 import { preferredSourceReview } from './source-review-selection.mjs';
 
@@ -353,16 +353,16 @@ for (const domain of ['deposit', 'saving']) {
     }),
   })) : []);
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
-  fs.writeFileSync(outPath, offers.map(offer => JSON.stringify(offer)).join('\n') + (offers.length ? '\n' : ''));
+  writeText(outPath, offers.map(offer => JSON.stringify(offer)).join('\n') + (offers.length ? '\n' : ''));
   outputs[domain] = { structural_candidate_count: selection[domain].length, strict_offer_count: offers.length, target: 20, shortfall: 20 - offers.length, ids: offers.map(offer => offer.id) };
   failures[domain] = built.filter(item => !item.offer).map(({ code, missing }) => ({ code, missing }));
 }
 const report = { version: 'openfin-decision-snapshots-v2', generated_at: selection.reviewed_at, domains: outputs, failures, recommendation_enabled: false, blocker: Object.values(outputs).some(item => item.shortfall) ? 'INSUFFICIENT_SOURCE_BACKED_OFFERS' : null, candidate_collection_checksum: sha256(fs.readFileSync(candidateFile, 'utf8').replace(/\r\n/g, '\n')).slice(7), reviewed_selection_checksum: sha256(fs.readFileSync(selectionFile, 'utf8').replace(/\r\n/g, '\n')).slice(7) };
-fs.writeFileSync(path.join(ROOT, 'evidence/vertical-slice/decision-snapshot-build.json'), JSON.stringify(report, null, 2) + '\n');
+writeText(path.join(ROOT, 'evidence/vertical-slice/decision-snapshot-build.json'), JSON.stringify(report, null, 2) + '\n');
 const receipts = ['deposit', 'saving'].flatMap(domain => fs.readFileSync(path.join(KNOWLEDGE, '30-financial-products', 'banking', '_decision', `${domain}-offers.jsonl`), 'utf8').replace(/\r\n/g, '\n').split('\n').filter(Boolean).map(JSON.parse)).map(offer => {
   const assertions = [...offer.field_assertions, ...offer.options.flatMap(option => option.field_assertions)];
   const verificationStatus = assertions.every(item => item.verification_status === 'verified') && offer.provenance.every(item => item.verification_status === 'verified') ? 'verified' : 'unverified';
   return { receipt_id: `receipt.vertical-slice.${offer.id}`, offer_id: offer.id, observed_at: offer.observed_at, source_ids: [...new Set(offer.provenance.map(item => item.source_id))], field_assertion_count: assertions.length, option_count: offer.options.length, verification_status: verificationStatus, freshness_status: assertions.every(item => item.freshness_status === 'current') ? 'current' : 'unknown', source_backed: true, source_set_checksum: sha256(offer.provenance.map(item => ({ source_id: item.source_id, checksum: item.checksum }))), reviewer: null, reviewed_at: null, receipt_checksum: sha256({ offer_id: offer.id, assertions }), generation_id: null };
 });
-fs.writeFileSync(path.join(ROOT, 'evidence/vertical-slice/source-receipts.jsonl'), receipts.map(receipt => JSON.stringify(receipt)).join('\n') + '\n');
+writeText(path.join(ROOT, 'evidence/vertical-slice/source-receipts.jsonl'), receipts.map(receipt => JSON.stringify(receipt)).join('\n') + '\n');
 console.log(JSON.stringify(report, null, 2));

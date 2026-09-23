@@ -1,6 +1,6 @@
 {
   "version": "openfin-legacy-compatibility-v1",
-  "generated_at": "2026-09-23T06:45:20.229253+00:00",
+  "generated_at": "2026-09-23T07:29:03.565Z",
   "replacement_path": "finance-ontology-manifest.json",
   "release_status": "ready",
   "core_search_status": "ready",
@@ -15,16 +15,16 @@
     "deprecated": true,
     "replacement_path": "domain_readiness",
     "export_audit": {
-      "built_at": "2026-09-23T06:45:20.229253+00:00",
+      "built_at": "2026-09-23T07:29:03.565Z",
       "domain_export_count": 10,
-      "search_index_item_count": 21289,
-      "canonical_product_count": 12825,
+      "search_index_item_count": 76323,
+      "canonical_product_count": 48846,
       "duplicate_canonical_product_count": 0,
       "canonical_merge_count": 49,
       "checksum_covered_export_count": 18,
       "broken_relation_count": 0,
-      "relationship_count": 102523,
-      "collection_failure_sources": 133
+      "relationship_count": 212590,
+      "collection_failure_sources": 135
     },
     "live_regression": {
       "status": "failed",
@@ -5211,7 +5211,7 @@
       "migration_notice": "Historical upstream evidence; identity redacted. Not evidence for current deployment.",
       "evidence_path": "evidence/live-regression/current.json",
       "evidence_checksum": "e1c3d057e9c005525e6d411f7e8892d91e67e7feb3ffda9ba3e08cb22d2916ba",
-      "expected_generation_id": "13b0bffdc465dcb0b94a65ec000ba19c322b074f4ca9c0244b7917b2fbd2764e",
+      "expected_generation_id": "0b94989ce6aadedc7ce1f792dc1ff7867cae9ea6bf3f75ab52eb705b7e3b9bdb",
       "expected_fixture_checksum": "sha256:1030ce9505034216880ef47384cea521cc76000089d4b32942ba53a68c2c7989",
       "validation_status": "failed"
     },
@@ -5227,7 +5227,7 @@
         "comparison_data": "limited_public_ready",
         "readiness": {
           "item_count": 5,
-          "catalog_item_count": 430,
+          "catalog_item_count": 437,
           "strict_offer_count": 5,
           "strict_option_count": 14,
           "structural_option_count": 14,
@@ -5305,7 +5305,7 @@
         "comparison_data": "limited_public_ready",
         "readiness": {
           "item_count": 5,
-          "catalog_item_count": 335,
+          "catalog_item_count": 337,
           "strict_offer_count": 5,
           "strict_option_count": 19,
           "structural_option_count": 19,
@@ -5457,15 +5457,15 @@
       "loan": {
         "deprecated": true,
         "replacement_path": "domain_readiness.loan",
-        "structural_candidate_count": 598,
+        "structural_candidate_count": 616,
         "value_complete_candidate_count": 0,
         "field_verified_candidate_count": 0,
         "runtime_eligible_candidate_count": 0,
         "public_candidate_count": 0,
         "comparison_data": "domain_coverage_incomplete",
         "readiness": {
-          "item_count": 598,
-          "catalog_item_count": 598,
+          "item_count": 616,
+          "catalog_item_count": 616,
           "strict_offer_count": 0,
           "strict_option_count": 0,
           "structural_option_count": 0,
@@ -5485,7 +5485,7 @@
           "required_comparison_candidates": null,
           "required_verified_candidates": null,
           "sales_verification_ttl_hours": null,
-          "structural_candidate_count": 598,
+          "structural_candidate_count": 616,
           "value_complete_candidate_count": 0,
           "strict_type_schema_candidate_count": 0,
           "field_verified_candidate_count": 0,
@@ -5498,10 +5498,10 @@
           "public_recommendation_candidate_count": 0,
           "schema_defined": true,
           "structural_value_completeness": 0,
-          "required_field_total": 6578,
-          "value_complete_field_count": 427,
+          "required_field_total": 6776,
+          "value_complete_field_count": 13,
           "field_verified_count": 0,
-          "value_field_coverage": 0.06491334752204317,
+          "value_field_coverage": 0.0019185360094451003,
           "reviewed_assertion_coverage": 0,
           "complete_field_count": 0,
           "verified_candidate_count": 0,
@@ -5513,26 +5513,26 @@
             "STRICT_OFFER_SNAPSHOT_MISSING"
           ],
           "missing_required_fields": {
-            "base_rate_percent": 598,
-            "spread_rate_percent": 598,
-            "interest_rate_type": 598,
-            "credit_limit_krw": 598,
-            "repayment_method": 171,
-            "term_months": 598,
-            "early_repayment_fee_policy": 598,
-            "collateral_or_guarantee": 598,
-            "eligibility_conditions": 598,
-            "delinquency_rate_percent": 598,
-            "total_cost_basis": 598
+            "base_rate_percent": 616,
+            "spread_rate_percent": 616,
+            "interest_rate_type": 616,
+            "credit_limit_krw": 616,
+            "repayment_method": 603,
+            "term_months": 616,
+            "early_repayment_fee_policy": 616,
+            "collateral_or_guarantee": 616,
+            "eligibility_conditions": 616,
+            "delinquency_rate_percent": 616,
+            "total_cost_basis": 616
           },
           "data_layers": {
             "raw": {
-              "item_count": 598,
+              "item_count": 616,
               "status": "available",
               "lineage": "source_receipt"
             },
             "normalized": {
-              "item_count": 598,
+              "item_count": 17,
               "status": "available",
               "lineage": "decision_snapshot"
             },

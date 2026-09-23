@@ -210,12 +210,23 @@ test('deterministic build leaves public artifacts byte-identical', () => {
   if (/^(1|true)$/i.test(process.env.OPENFIN_CLOUDFLARE_PAGES_SHARDS || '')) {
     assert.ok(shardedExports.length > 0);
     for (const entry of shardedExports) {
-      assert.ok(fs.statSync(path.join(docs, path.basename(entry.path))).size >= 25 * 1024 * 1024, `${entry.path} was sharded below the Pages limit`);
+      const rootFile=path.join(docs,path.basename(entry.path));
+      const descriptor=JSON.parse(fs.readFileSync(rootFile));
+      assert.ok(descriptor.storage_format==='openfin-sharded-export-v1'||fs.statSync(rootFile).size>=25*1024*1024, `${entry.path} was sharded below the Pages limit`);
       for (const shard of entry.shards) assert.ok(fs.statSync(path.join(docs, path.basename(shard.path))).size < 25 * 1024 * 1024, `${shard.path} exceeds the Pages limit`);
     }
   } else {
-    assert.equal(shardedExports.length, 0);
-    assert.equal(ontologyShardFiles.length, 0);
+    const expected=new Set();
+    for(const entry of shardedExports) {
+      const descriptor=JSON.parse(fs.readFileSync(path.join(docs,path.basename(entry.path))));
+      assert.equal(descriptor.storage_format,'openfin-sharded-export-v1');
+      assert.equal(descriptor.shards.reduce((sum,part)=>sum+part.item_count,0),entry.item_count);
+      for(const shard of entry.shards) {
+        expected.add(path.basename(shard.path));
+        assert.ok(fs.statSync(path.join(docs,path.basename(shard.path))).size<25*1024*1024);
+      }
+    }
+    assert.deepEqual([...expected].sort(),ontologyShardFiles.sort());
   }
   const lastAttempt = JSON.parse(fs.readFileSync(path.join(docs, 'live-regression-last-attempt.json')));
   for (const key of ['last_attempt', 'last_successful', 'gate_basis', 'validation_status', 'expected_generation_id', 'expected_fixture_checksum']) assert.ok(key in lastAttempt, `last-attempt envelope missing ${key}`);

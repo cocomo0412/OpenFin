@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { ROOT, DOCS, KNOWLEDGE, PUBLIC_BASE, RELATION_KEYS, json, writeJson, stable, sha256, publicProjection, restoreCompatibilityDates, validUrl, isoDate, candidateSetChecksum, qualitySuiteChecksum } from './common.mjs';
+import { writeText, ROOT, DOCS, KNOWLEDGE, PUBLIC_BASE, RELATION_KEYS, json, writeJson, stable, sha256, publicProjection, restoreCompatibilityDates, validUrl, isoDate, candidateSetChecksum, qualitySuiteChecksum } from './common.mjs';
 import { deriveQuality, readCanonicalRecords, readReleasePolicy } from './derive-quality.mjs';
 
 const loadCanonical = () => {
@@ -73,7 +73,7 @@ const currentCollection = fs.existsSync(collectionPath) ? json(collectionPath) :
 const collectionDates = (currentCollection?.datasets || []).map(entry => entry.collected_at).filter(Boolean);
 const now = process.env.OPENFIN_BUILD_AT || [...sourceSnapshotDates, ...collectionDates].sort().at(-1) || 'unknown';
 const artifactEntry = (id, domain, file, payload, itemCount, extra = {}) => ({id, domain, path:`opentax/${file}`, url:`${PUBLIC_BASE}/${file}`, web_url:`${PUBLIC_BASE}/${file}`, item_count:itemCount, generated_at:now, export_checksum:sha256(payload).slice(7), ...extra});
-const writeCompact = (file, payload) => { fs.mkdirSync(path.dirname(file), {recursive:true}); fs.writeFileSync(file, JSON.stringify(payload) + '\n'); };
+const writeCompact = (file, payload) => { fs.mkdirSync(path.dirname(file), {recursive:true}); writeText(file, JSON.stringify(payload) + '\n'); };
 const ONTOLOGY_SHARD_MAX_BYTES = 25 * 1024 * 1024;
 const ontologyShardFiles = new Set(fs.readdirSync(DOCS).filter(file => /^korea-.*-ontology-2026-shard-\d+\.json$/.test(file)));
 for (const file of ontologyShardFiles) fs.rmSync(path.join(DOCS, file));
@@ -150,6 +150,13 @@ for (const file of legacyFiles) {
   }
   const {export_checksum:_oldChecksum, reference_items:_oldReferences, ...root} = meta.root;
   const output = {...root, item_count:items.length + referenceItems.length, reference_item_count:referenceItems.length, items};
+  output.product_count=items.filter(item=>['account-product','bank-product','card-product','insurance-product'].includes(item.type)).length;
+  const refreshedItems=items.filter(item=>item.refresh_generation);
+  if(refreshedItems.length) {
+    output.catalog_refresh={count:refreshedItems.length,latest:refreshedItems.map(item=>item.refresh_generation).sort().at(-1),scope:'API 필드·식별자 검증. 미갱신 항목과 제공기관 기준일은 별도.'};
+    output.collection_dates=[...new Set(items.map(item=>item.collected_at).filter(Boolean).map(value=>String(value).slice(0,10)))].sort();
+    output.product_collection_dates=output.collection_dates;
+  }
   if (referenceItems.length) output.reference_items = referenceItems;
   output.export_checksum = sha256({items, reference_items:referenceItems}).slice(7);
   generatedExports[file] = output;
@@ -459,7 +466,9 @@ for (const item of allSearchItems) {
   };
   const canonicalLookups = [item.id, item.canonical_product_id, item.resolved_canonical_product_id].filter(Boolean);
   const uniqueAliases = [item.title, ...itemLookupAliases(item)].filter(alias => exactLookupOwners.get(normalizedExactLookup(alias))?.size === 1);
-  const shardIds = new Set([...canonicalLookups, item.title, ...uniqueAliases].filter(Boolean).map(exactFetchShardId));
+  // Ambiguous titles (e.g. thousands of insurance disclosures for one product)
+  // cannot identify an exact record. Route IDs and unique aliases only.
+  const shardIds = new Set([...canonicalLookups, ...uniqueAliases].filter(Boolean).map(exactFetchShardId));
   for (const shardId of shardIds) exactFetchBuckets.get(shardId).push(exactItem);
 }
 const exactFetchShardOutputs = [];
@@ -605,7 +614,9 @@ if (currentCollection) {
   manifest.api_collection = {path:'opentax/collection-inventory.json', basis_date:currentCollection.snapshot_basis_date,
     dataset_count:currentCollection.datasets.length, record_count:currentCollection.datasets.reduce((sum, entry) => sum + entry.count, 0),
     checksum:sha256(currentCollection), identity_linked_products:currentCollection.product_link_count || 0,
-    scope:'Official API reference snapshots and exact product identity links; original ontology review dates remain unchanged.'};
+    scope:'API catalog fields and typed observations integrated; unrefreshed source content retains original review dates.'};
+  const refreshPath=path.join(DOCS,'canonical-refresh-report.json');
+  if(fs.existsSync(refreshPath)) manifest.canonical_refresh=json(refreshPath);
 }
 const releasePointerPath = path.join(DOCS, 'current-release.json');
 const previousReleasePointer = fs.existsSync(releasePointerPath) ? json(releasePointerPath) : {};
@@ -614,7 +625,11 @@ const artifactEntries={source_registry:artifactEntry('openfin-source-registry','
 Object.assign(manifest, artifactEntries); Object.assign(manifest.artifacts, artifactEntries);
 manifest.quality_exports = [...(manifest.quality_exports || []).filter(entry => entry.id !== 'openfin-provenance-coverage'), {id:'openfin-provenance-coverage', domain:'quality', ...artifactEntries.provenance_coverage, description:'Canonical provenance coverage and source URL validation report.'}]
   .map(entry => entry.path ? {...entry, path:`opentax/${path.basename(entry.path)}`} : entry);
-for(const m of manifest.exports||[]) { const file=path.basename(m.path||m.url||''); const generated=generatedExports[file]; if(m.url) m.url=`${PUBLIC_BASE}/${file}`; if(m.web_url) m.web_url=`${PUBLIC_BASE}/${file}`; if(m.path) m.path=`opentax/${file}`; if(generated){m.item_count=generated.items.length+(generated.reference_items?.length||0);m.reference_item_count=generated.reference_items?.length||0;m.export_checksum=generated.export_checksum;} }
+for(const m of manifest.exports||[]) { const file=path.basename(m.path||m.url||''); const generated=generatedExports[file]; if(m.url) m.url=`${PUBLIC_BASE}/${file}`; if(m.web_url) m.web_url=`${PUBLIC_BASE}/${file}`; if(m.path) m.path=`opentax/${file}`; if(generated){m.item_count=generated.items.length+(generated.reference_items?.length||0);m.reference_item_count=generated.reference_items?.length||0;m.export_checksum=generated.export_checksum;if(generated.catalog_refresh){m.catalog_refresh=generated.catalog_refresh;m.collection_dates=generated.collection_dates;m.product_collection_dates=generated.product_collection_dates;}} }
+for(const entry of manifest.exports||[]) {
+  const generated=generatedExports[path.basename(entry.path||entry.url||'')];
+  if(generated) entry.product_count=generated.product_count;
+}
 // A local deterministic rebuild must retain the checked-in deployment binding;
 // CI always injects the commit for a newly deployed Worker.
 const liveEvidencePath = path.join(ROOT, 'evidence/live-regression/current.json');
@@ -734,9 +749,14 @@ for (const entry of manifest.exports || []) {
 for (const [file, output] of Object.entries(generatedExports)) {
   const entry = (manifest.exports || []).find(value => path.basename(value.path || '') === file);
   if (entry) {
-    const shards = /^(1|true)$/i.test(process.env.OPENFIN_CLOUDFLARE_PAGES_SHARDS || '') ? writeOntologyShards(file, output) : [];
+    const oversized=Buffer.byteLength(JSON.stringify(output))>80*1024*1024;
+    const shards = oversized || /^(1|true)$/i.test(process.env.OPENFIN_CLOUDFLARE_PAGES_SHARDS || '') ? writeOntologyShards(file, output) : [];
     if (shards.length) entry.shards = shards;
     else delete entry.shards;
+    if(oversized) {
+      const {items,reference_items,...metadata}=output;
+      writeJson(path.join(DOCS,file),{...metadata,storage_format:'openfin-sharded-export-v1',shards,items:[]});
+    }
   }
 }
 const artifactContract = {

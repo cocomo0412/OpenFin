@@ -34,7 +34,7 @@ try {
   document.querySelector('[data-resolved-collections]').textContent = kdic && bank
     ? `수집 오류 해결: 예금자보호 상품 ${kdic.count.toLocaleString('ko-KR')}행(JSON 응답·전체 행번호 확인), 국내은행 통계 ${bank.count.toLocaleString('ko-KR')}행(표별 총건수 확인). 수집일 ${date}. 통계·보호대상 참고자료로 반영했습니다.`
     : '예금자보호 상품·국내은행 통계의 전체 수집 결과가 아직 확인되지 않았습니다.';
-  summary.textContent = `공식 API 자료 반영: ${sources}개 출처 · ${inventory.datasets.length}개 수집본 · ${total.toLocaleString('ko-KR')}행. 건수·체크섬·지정 기준일 확인을 마쳐 별도 검색 화면에 연결했습니다. 예금·적금 ${inventory.product_link_count || 0}개는 기존 상품과 식별자로 연결했습니다. 행수는 상품 수가 아닙니다.`;
+  summary.textContent = `공식 API 자료: ${sources}개 출처 · ${inventory.datasets.length}개 수집본 · ${total.toLocaleString('ko-KR')}행. 원본 필드와 제공기관 기준일을 보존해 온톨로지와 검색 데이터에 반영했습니다. 행수는 상품 수가 아닙니다.`;
   const list = document.querySelector('[data-api-collection-list]');
   for (const row of inventory.datasets) {
     const paragraph = document.createElement('p');
@@ -50,4 +50,21 @@ try {
 } catch {
   summary.textContent = '추가 수집 현황을 불러오지 못했습니다. 수집 현황 JSON을 확인해 주세요.';
   document.querySelectorAll('[data-snapshot-basis-date]').forEach(node => { node.textContent = '확인 필요'; });
+}
+
+try {
+  const response=await fetch('./opentax/canonical-refresh-report.json',{cache:'no-store'});
+  if(!response.ok) throw new Error('Refresh report unavailable');
+  const report=await response.json();
+  const target=document.querySelector('[data-api-collection-list]');
+  const paragraph=document.createElement('p');
+  paragraph.textContent=`온톨로지 반영·필드 매핑 검증: ${report.canonical_refreshed.toLocaleString('ko-KR')}개 기록. 예금 ${report.domains.deposit.current_total}개·적금 ${report.domains.saving.current_total}개·예금자보호 ${report.domains.deposit_protection.current_entities.toLocaleString('ko-KR')}개. 이번 목록에서 빠진 과거 상품은 판매 종료로 단정하지 않고 재확인 대상으로 유지합니다.`;
+  summary.insertAdjacentElement('afterend',paragraph);
+  const remaining=document.createElement('p');
+  remaining.textContent=`아직 전체 갱신되지 않은 분야: ${report.remaining_domains.join(', ')}. ${report.remaining_reason}`;
+  paragraph.insertAdjacentElement('afterend',remaining);
+  const note=document.createElement('p');note.textContent=`연금저축: 기존 API 주소의 응답이 연금저축 스키마와 맞지 않아 반영 보류. ${report.domains.local_supports ? `공공서비스 API: 승인 확인·전체 수집 완료, 지방기관 혜택 ${report.domains.local_supports.current_total.toLocaleString('ko-KR')}개 반영.` : '지자체 지원금: 공공서비스 혜택 API 인증 승인 필요.'}`;
+  target.append(note);
+} catch {
+  const note=document.createElement('p');note.textContent='온톨로지 갱신 검증 보고서를 불러오지 못했습니다.';summary?.insertAdjacentElement('afterend',note);
 }

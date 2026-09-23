@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { ROOT, KNOWLEDGE, json, sha256, assertionIdentity } from './common.mjs';
+import { writeText, ROOT, KNOWLEDGE, json, sha256, assertionIdentity } from './common.mjs';
 import { collectRecommendationAssertions } from './assertion-profiles.mjs';
 
 const domains = process.argv.slice(2).filter(value => ['deposit', 'saving'].includes(value));
@@ -100,6 +100,6 @@ for (const domain of selectedDomains) {
   }
   const output = path.join(outputDir, `${domain}.jsonl`);
   fs.mkdirSync(outputDir, { recursive: true });
-  fs.writeFileSync(output, rows.map(row => JSON.stringify(row)).join('\n') + (rows.length ? '\n' : ''));
+  writeText(output, rows.map(row => JSON.stringify(row)).join('\n') + (rows.length ? '\n' : ''));
   console.log(JSON.stringify({ domain, receipt_count: rows.length, output: path.relative(ROOT, output), status: rows.some(row => row.review_status === 'verified') ? 'partially_reviewed' : 'pending' }));
 }

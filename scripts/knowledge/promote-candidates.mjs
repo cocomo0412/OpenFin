@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {
   ROOT,
+  writeText,
   KNOWLEDGE,
   sha256,
   assertionIdentity,
@@ -120,13 +121,13 @@ for (const domain of selectedDomains) {
   }
   const rows = offers.flatMap(offer => (offer.options || []).map(option => promotion(offer, option, reviews)));
   fs.mkdirSync(promotionDir, { recursive: true });
-  fs.writeFileSync(path.join(promotionDir, `${domain}.jsonl`), rows.map(row => JSON.stringify(row)).join('\n') + (rows.length ? '\n' : ''));
+  writeText(path.join(promotionDir, `${domain}.jsonl`), rows.map(row => JSON.stringify(row)).join('\n') + (rows.length ? '\n' : ''));
   const promotions = new Map(rows.map(row => [row.option_id, row]));
   const outputOffers = offers.map(offer => ({
     ...offer,
     options: (offer.options || []).map(option => ({ ...option, promotion_receipt: promotions.get(option.option_id) || null })),
   }));
-  fs.writeFileSync(path.join(decisionDir, `${domain}-offers.jsonl`), outputOffers.map(offer => JSON.stringify(offer)).join('\n') + (outputOffers.length ? '\n' : ''));
+  writeText(path.join(decisionDir, `${domain}-offers.jsonl`), outputOffers.map(offer => JSON.stringify(offer)).join('\n') + (outputOffers.length ? '\n' : ''));
   console.log(JSON.stringify({ domain, candidate_count: rows.length, comparison_approved_count: rows.filter(row => row.comparison_approved).length, status: rows.some(row => row.comparison_approved) ? 'reviewed' : 'blocked' }));
 }
 

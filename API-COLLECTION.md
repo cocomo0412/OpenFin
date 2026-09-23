@@ -1,6 +1,15 @@
 # OpenFin API 수집·연결·배포
 
-## 2026-09-23 반영
+## 2026-09-23 본문 통합 갱신
+
+- 공식 API 18개 출처, 40개 수집본을 보관합니다. 수집본의 행 수에는 서로 다른 통계·명세와 중복 상품이 포함되므로 고유 상품 수로 해석하지 않습니다.
+- 예금 432개·적금 335개의 공시 필드, 추가 대출 281개, 서민금융 대출 318개를 실제 온톨로지 본문에 반영했습니다.
+- 예금자보호 상품 45,226개는 회사·상품명·등록일을 대조해 기존 ID를 유지하거나 새 ID를 부여했습니다. 페이지 행번호를 영구 식별자로 사용하지 않습니다.
+- 행정안전부 공공서비스 10,933개를 수집해 지방기관 혜택 및 기존 항목 9,281개를 본문에 통합했습니다. 처음 통합할 때 기존 7,593개를 갱신하고 1,688개를 추가했습니다. 이번 목록에 없는 125개는 종료로 단정하지 않고 과거 자료로 구분합니다.
+- 원문 통계·공시는 `api-observation` 유형으로 보존합니다. 보험 통계 수집이 기존 보험 상품의 약관 검토를 대신하지 않습니다.
+- 카드 혜택, 세금·공제 법령, 세제혜택 계좌, 보험 상품별 보장·약관, 연금저축 상세 공시는 별도 검증이 남아 있습니다. 해당 자료의 과거 수집·검토일은 변경하지 않습니다.
+
+## 이전 수집·연결 단계
 
 - 공식 공공 API·한국은행: 16개 출처, 27개 수집본, 62,550행.
 - 금융감독원: 은행·저축은행 전체 페이지 예금 432개, 적금 335개. 추가 후 총 17개 출처, 29개 수집본, 63,317행.
@@ -13,7 +22,9 @@
 
 `docs/opentax/api-snapshots/`는 공식 원자료 필드를 보존한 참고용 수집본이다. `collection-inventory.json`은 수집일, 원자료 기준일, 범위를 기록한다. `api-record-links.json`은 기존 온톨로지와 최신 금융감독원 공시의 정확한 상품 식별자 연결이다.
 
-상품의 비교·추천 검증을 수집 성공만으로 승격하지 않는다. 기존 온톨로지 관계·검토일은 보존하며 탐색기에서 최신 API 공시를 별도로 연결한다. 최신 API 자료는 `api-data.html`에서 검색한다. 세금·지자체 지원·카드·연금저축·세제혜택 계좌의 기존 자료를 이번 API 수집으로 재검증했다고 표시하지 않는다.
+상품의 비교·추천 검증을 수집 성공만으로 승격하지 않는다. 갱신 항목은 기존 그래프 ID와 관계를 유지하며 공시 본문·검색 필드를 새 응답으로 교체한다. 수집·매핑 검증일과 제공기관의 원자료 기준일을 구분한다. 미갱신 항목과 이번 목록에서 찾지 못한 항목은 과거 날짜를 유지한다. 전체 원문은 `api-data.html`, 통합 범위는 `canonical-refresh-report.json`에서 확인한다.
+
+80MiB를 넘는 공개 export는 `openfin-sharded-export-v1` 루트와 분할 파일로 저장한다. 루트의 `shards` 목록을 순서대로 읽고 `items` 및 `reference_items`를 합쳐야 전체 export가 된다. 공통 `json()`과 웹 탐색기는 이를 처리한다. 체크섬은 합친 전체 배열을 기준으로 검증한다.
 
 홈페이지 최종 기준일은 공식 API 수집본의 최종 수집 기준일(2026-09-23)이다. 원자료 기준일과 기존 온톨로지 검토일은 별도이며, 모든 상품이 해당 날짜로 재검증됐다는 의미는 아니다.
 
@@ -27,6 +38,9 @@ python scripts/knowledge/collect-public-apis.py --source source.kdic.insured-pro
 python scripts/knowledge/collect-public-apis.py --source source.fsc.domestic-bank-statistics --all-pages --param basYm=202603 --write
 python scripts/knowledge/build-collection-inventory.py
 node scripts/knowledge/link-api-snapshots.mjs
+node --env-file=.env scripts/knowledge/collect-finlife-additional.mjs
+node --env-file=.env scripts/knowledge/collect-gov24.mjs
+node scripts/knowledge/integrate-current-data.mjs
 node scripts/knowledge/build.mjs
 node scripts/knowledge/validate.mjs
 ```
