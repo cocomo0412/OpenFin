@@ -1,0 +1,26 @@
+{
+  "id": "deadline.inheritance.nonresident",
+  "source_id": "source.law.inheritance-gift-tax-act.rates",
+  "reviewed_articles": [
+    {
+      "number": "67",
+      "text": "제67조(상속세 과세표준신고) ① 제3조의2 에 따라 상속세 납부의무가 있는 상속인 또는 수유자는 상속개시일이 속하는 달의 말일부터 6개월 이내에 제13조 와 제25조 제1항 에 따른 상속세의 과세가액 및 과세표준을 대통령령 으로 정하는 바에 따라 납세지 관할세무서장에게 신고하여야 한다. <개정 2015. 12. 15.> ② 제1항에 따른 신고를 할 때에는 그 신고서에 상속세 과세표준의 계산에 필요한 상속재산의 종류, 수량, 평가가액, 재산분할 및 각종 공제 등을 증명할 수 있는 서류 등 대통령령 으로 정하는 것을 첨부하여야 한다. ③ 제1항의 기간은 유언집행자 또는 상속재산관리인에 대해서는 그들이 제1항의 기간 내에 지정되거나 선임되는 경우에 한정하며, 그 지정되거나 선임되는 날부터 계산한다. <개정 2014. 1. 1.> ④ 피상속인이나 상속인이 외국에 주소를 둔 경우에는 제1항의 기간을 9개월로 한다. ⑤ 제1항의 신고기한까지 상속인이 확정되지 아니한 경우에는 제1항의 신고와는 별도로 상속인이 확정된 날부터 30일 이내에 확정된 상속인의 상속관계를 적어 납세지 관할세무서장에게 제출하여야 한다. [전문개정 2010. 1. 1.] [도표 대체텍스트: 조문체계도버튼] [도표 대체텍스트: 연혁] "
+    }
+  ],
+  "summary": [
+    {
+      "label": "신고·납부기한",
+      "condition": "상속세 및 증여세법 제67조 제4항은 피상속인이나 상속인이 외국에 주소를 둔 경우 신고기간을 9개월로 정합니다. 국적만으로 판단하거나 상속인 전원이 외국에 거주해야 한다고 일괄 설명하지 않습니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.inheritance-gift-tax-act.rates",
+      "criteria_kind": "disclosure"
+    }
+  ],
+  "receipt": {
+    "url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276123&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+    "final_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276123&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+    "collected_at": "2026-09-23T08:26:22.158326+00:00",
+    "http_status": 200,
+    "sha256": "f7eb4bb5a445a4b3ba707743626e7f0de3331175f2965540ac93c55b0eca1a1b"
+  }
+}

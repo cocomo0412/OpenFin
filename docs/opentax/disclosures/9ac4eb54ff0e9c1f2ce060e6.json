@@ -49,5 +49,6 @@
   "provider_disclosure_urls": [
     "http://www.samsunglife.com/disclosure/prdt/salesPrdtList.do"
   ],
-  "document_scope": "comparison-disclosure attachments; full policy terms not verified"
+  "document_scope": "comparison-disclosure attachments; full policy terms not verified",
+  "policy_documents": []
 }

@@ -1,0 +1,111 @@
+{
+  "id": "tax.inheritance-and-gift",
+  "source_id": "source.law.inheritance-gift-tax-act.rates",
+  "reviewed_articles": [
+    {
+      "number": "26",
+      "text": "제26조(상속세 세율) 상속세는 제25조 에 따른 상속세의 과세표준에 다음의 세율을 적용하여 계산한 금액(이하 “상속세산출세액”이라 한다)으로 한다. [도표 대체텍스트: <과세표준> <세 율> 1억원 이하 과세표준의 100분의 10 1억원 초과 5억원 이하 @@LATEX@@1천만원 + \\left(1억원을초과하는금액의100분의20\\right)@@/LATEX@@ 5억원 초과 10억원 이하 @@LATEX@@9천만원 + \\left(5억원을초과하는금액의100분의30\\right)@@/LATEX@@ 10억원 초과 30억원 이하 @@LATEX@@2억4천만원 + \\left(10억원을초과하는금액의100분의40\\right)@@/LATEX@@ 30억원 초과 @@LATEX@@10억4천만원 + \\left(30억원을초과하는금액의100분의50\\right)@@/LATEX@@] [전문개정 2010. 1. 1.] [도표 대체텍스트: 조문체계도버튼] [도표 대체텍스트: 연혁] "
+    },
+    {
+      "number": "56",
+      "text": "제56조(증여세 세율) 증여세는 제55조 에 따른 과세표준에 제26조 에 규정된 세율을 적용하여 계산한 금액(이하 “증여세산출세액”이라 한다)으로 한다. [전문개정 2010. 1. 1.] [도표 대체텍스트: 조문체계도버튼] [도표 대체텍스트: 연혁] "
+    }
+  ],
+  "summary": [
+    {
+      "label": "1억원 이하",
+      "basis": "과세표준",
+      "condition": "1억원 이하; 일반 과세표준 세율, 할증·공제·특례 적용 전",
+      "threshold_krw_max": 100000000,
+      "rate_percent": 10,
+      "progressive_deduction_krw": 0,
+      "source": "source.law.inheritance-gift-tax-act.rates",
+      "criteria_kind": "rate",
+      "rate_basis": "과세표준",
+      "basis_category": "tax-base",
+      "basis_definition": "공제와 필요경비 등을 반영한 뒤 세율을 적용하는 최종 세액 계산 기준금액입니다.",
+      "basis_lookup": "해당 세목의 신고서, 계산명세서, 국세청 세율 안내에서 확인합니다.",
+      "selection_rule": "구간별 하한·상한을 비교해 해당 과세표준이 들어가는 세율 구간을 선택하고 누진공제액을 함께 적용합니다.",
+      "basis_source": "source.law.inheritance-gift-tax-act.rates",
+      "law_reference": "상속세 및 증여세법 제26조·제56조"
+    },
+    {
+      "label": "1억원 초과 5억원 이하",
+      "basis": "과세표준",
+      "condition": "1억원 초과 5억원 이하; 일반 과세표준 세율, 할증·공제·특례 적용 전",
+      "threshold_krw_min": 100000000,
+      "threshold_krw_max": 500000000,
+      "rate_percent": 20,
+      "progressive_deduction_krw": 10000000,
+      "source": "source.law.inheritance-gift-tax-act.rates",
+      "criteria_kind": "rate",
+      "rate_basis": "과세표준",
+      "basis_category": "tax-base",
+      "basis_definition": "공제와 필요경비 등을 반영한 뒤 세율을 적용하는 최종 세액 계산 기준금액입니다.",
+      "basis_lookup": "해당 세목의 신고서, 계산명세서, 국세청 세율 안내에서 확인합니다.",
+      "selection_rule": "구간별 하한·상한을 비교해 해당 과세표준이 들어가는 세율 구간을 선택하고 누진공제액을 함께 적용합니다.",
+      "basis_source": "source.law.inheritance-gift-tax-act.rates",
+      "law_reference": "상속세 및 증여세법 제26조·제56조"
+    },
+    {
+      "label": "5억원 초과 10억원 이하",
+      "basis": "과세표준",
+      "condition": "5억원 초과 10억원 이하; 일반 과세표준 세율, 할증·공제·특례 적용 전",
+      "threshold_krw_min": 500000000,
+      "threshold_krw_max": 1000000000,
+      "rate_percent": 30,
+      "progressive_deduction_krw": 60000000,
+      "source": "source.law.inheritance-gift-tax-act.rates",
+      "criteria_kind": "rate",
+      "rate_basis": "과세표준",
+      "basis_category": "tax-base",
+      "basis_definition": "공제와 필요경비 등을 반영한 뒤 세율을 적용하는 최종 세액 계산 기준금액입니다.",
+      "basis_lookup": "해당 세목의 신고서, 계산명세서, 국세청 세율 안내에서 확인합니다.",
+      "selection_rule": "구간별 하한·상한을 비교해 해당 과세표준이 들어가는 세율 구간을 선택하고 누진공제액을 함께 적용합니다.",
+      "basis_source": "source.law.inheritance-gift-tax-act.rates",
+      "law_reference": "상속세 및 증여세법 제26조·제56조"
+    },
+    {
+      "label": "10억원 초과 30억원 이하",
+      "basis": "과세표준",
+      "condition": "10억원 초과 30억원 이하; 일반 과세표준 세율, 할증·공제·특례 적용 전",
+      "threshold_krw_min": 1000000000,
+      "threshold_krw_max": 3000000000,
+      "rate_percent": 40,
+      "progressive_deduction_krw": 160000000,
+      "source": "source.law.inheritance-gift-tax-act.rates",
+      "criteria_kind": "rate",
+      "rate_basis": "과세표준",
+      "basis_category": "tax-base",
+      "basis_definition": "공제와 필요경비 등을 반영한 뒤 세율을 적용하는 최종 세액 계산 기준금액입니다.",
+      "basis_lookup": "해당 세목의 신고서, 계산명세서, 국세청 세율 안내에서 확인합니다.",
+      "selection_rule": "구간별 하한·상한을 비교해 해당 과세표준이 들어가는 세율 구간을 선택하고 누진공제액을 함께 적용합니다.",
+      "basis_source": "source.law.inheritance-gift-tax-act.rates",
+      "law_reference": "상속세 및 증여세법 제26조·제56조"
+    },
+    {
+      "label": "30억원 초과",
+      "basis": "과세표준",
+      "condition": "30억원 초과; 일반 과세표준 세율, 할증·공제·특례 적용 전",
+      "threshold_krw_min": 3000000000,
+      "rate_percent": 50,
+      "progressive_deduction_krw": 460000000,
+      "source": "source.law.inheritance-gift-tax-act.rates",
+      "criteria_kind": "rate",
+      "rate_basis": "과세표준",
+      "basis_category": "tax-base",
+      "basis_definition": "공제와 필요경비 등을 반영한 뒤 세율을 적용하는 최종 세액 계산 기준금액입니다.",
+      "basis_lookup": "해당 세목의 신고서, 계산명세서, 국세청 세율 안내에서 확인합니다.",
+      "selection_rule": "구간별 하한·상한을 비교해 해당 과세표준이 들어가는 세율 구간을 선택하고 누진공제액을 함께 적용합니다.",
+      "basis_source": "source.law.inheritance-gift-tax-act.rates",
+      "law_reference": "상속세 및 증여세법 제26조·제56조"
+    }
+  ],
+  "receipt": {
+    "url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276123&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+    "final_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276123&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+    "collected_at": "2026-09-23T08:26:22.158326+00:00",
+    "http_status": 200,
+    "sha256": "f7eb4bb5a445a4b3ba707743626e7f0de3331175f2965540ac93c55b0eca1a1b"
+  }
+}

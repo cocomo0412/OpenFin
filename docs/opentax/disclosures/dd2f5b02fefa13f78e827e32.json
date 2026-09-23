@@ -1,0 +1,44 @@
+{
+  "id": "local.local-income",
+  "source_id": "source.law.local-tax-act.rates",
+  "reviewed_articles": [
+    {
+      "number": "92",
+      "text": "제92조(세율) ①거주자의 종합소득에 대한 개인지방소득세의 표준세율은 다음 표와 같다. <개정 2014. 3. 24., 2016. 12. 27., 2017. 12. 30., 2020. 12. 29., 2023. 3. 14.> [도표 대체텍스트: 과세표준 세율 1천400만원 이하 과세표준의 1천분의 6 1천400만원 초과 5천만원 이하 @@LATEX@@8만4천원 + \\left(1천400만원을초과하는금액의1천분의15\\right)@@/LATEX@@ 5천만원 초과 8천800만원 이하 @@LATEX@@62만4천원 + \\left(5천만원을초과하는금액의1천분의24\\right)@@/LATEX@@ 8천800만원 초과 1억5천만원 이하 @@LATEX@@153만6천원 + \\left(8천800만원을초과하는금액의1천분의35\\right)@@/LATEX@@ 1억5천만원 초과 3억원 이하 @@LATEX@@370만6천원 + \\left(1억5천만원을초과하는금액의1천분의38\\right)@@/LATEX@@ 3억원 초과 5억원 이하 @@LATEX@@940만6천원 + \\left(3억원을초과하는금액의1천분의40\\right)@@/LATEX@@ 5억원 초과 10억원 이하 @@LATEX@@1천740만6천원 + \\left(5억원을초과하는금액의1천분의42\\right)@@/LATEX@@ 10억원 초과 @@LATEX@@3천840만6천원 + \\left(10억원을초과하는금액의1천분의45\\right)@@/LATEX@@] ② 지방자치단체의 장은 조례 로 정하는 바에 따라 종합소득에 대한 개인지방소득세의 세율을 제1항에 따른 표준세율의 100분의 50의 범위에서 가감할 수 있다. ③ 거주자의 종합소득에 대한 개인지방소득세 산출세액은 해당 연도의 과세표준에 제1항 및 제2항의 세율을 적용하여 산출한 금액으로 한다. ④ 거주자의 퇴직소득에 대한 개인지방소득세 산출세액은 다음 각 호의 순서에 따라 계산한 금액으로 한다. <개정 2015. 12. 29.> 1. 해당 과세기간의 제91조 제2항 에 따른 과세표준에 제1항 및 제2항의 세율을 적용하여 계산한 금액 2. 제1호의 금액을 12로 나눈 금액에 근속연수를 곱한 금액 3. 삭제 <2015. 12. 29.> ⑤ 삭제 <2016. 12. 27.> [전문개정 2014. 1. 1.] [도표 대체텍스트: 조문체계도버튼] [도표 대체텍스트: 연혁] [도표 대체텍스트: 한눈보기버튼] "
+    }
+  ],
+  "summary": [
+    {
+      "label": "구분",
+      "condition": "개인의 종합소득·퇴직소득·양도소득과 법인소득은 각각의 과세표준·세율·계산 규정을 적용합니다. 국세 납부액에 일률적으로 10%를 곱하는 설명만으로 모든 지방소득세를 계산할 수 없습니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.local-tax-act.rates",
+      "criteria_kind": "disclosure",
+      "law_reference": "지방세법 제92조"
+    },
+    {
+      "label": "개인 종합소득",
+      "condition": "과세표준 구간별 표준세율은 0.6%, 1.5%, 2.4%, 3.5%, 3.8%, 4.0%, 4.2%, 4.5%이며 초과누진 방식입니다. 구간 경계는 1,400만원·5,000만원·8,800만원·1억5천만원·3억원·5억원·10억원입니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.local-tax-act.rates",
+      "criteria_kind": "disclosure",
+      "law_reference": "지방세법 제92조"
+    },
+    {
+      "label": "적용 범위",
+      "condition": "위 세율은 거주자 종합소득 기준입니다. 퇴직·양도·법인소득에 그대로 적용하지 않으며, 조례상 조정 및 공제·감면을 구분합니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.local-tax-act.rates",
+      "criteria_kind": "disclosure",
+      "law_reference": "지방세법 제92조"
+    }
+  ],
+  "scope": "listed summary rules reviewed; not an exhaustive tax calculator",
+  "receipt": {
+    "url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=282559&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+    "final_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=282559&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+    "collected_at": "2026-09-23T08:26:22.571307+00:00",
+    "http_status": 200,
+    "sha256": "9f5ef4724aa36b1f62bd0e36aa912309144e85c3e1bc880c960e66d467418995"
+  }
+}

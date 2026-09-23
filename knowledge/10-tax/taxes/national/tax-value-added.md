@@ -1,27 +1,20 @@
 ---
 {
+  "deadlines": [
+    "deadline.vat.periodic",
+    "deadline.vat.general.first-final",
+    "deadline.vat.general.second-final",
+    "deadline.vat.simplified.annual"
+  ],
+  "requires": [
+    "eligibility-rule.vat-taxpayer-type"
+  ],
+  "folder": "10_Taxes/National",
+  "basis_year": 2026,
   "id": "tax.value-added",
   "title": "부가가치세",
   "type": "tax",
-  "description": "재화 또는 용역의 공급 과정에서 생긴 부가가치에 과세되는 국세입니다.",
-  "folder": "10_Taxes/National",
-  "basis_year": 2026,
-  "effective_date": "2026-01-01",
-  "expiration_date": null,
-  "reviewed_at": "2026-05-04",
-  "source_urls": [
-    "https://www.law.go.kr/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=900637068",
-    "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7693&mi=2272",
-    "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7806",
-    "https://www.law.go.kr/법령/부가가치세법"
-  ],
-  "source_basis_dates": [
-    "2026-01-01T00:00:00.000Z",
-    "2026-05-02T00:00:00.000Z",
-    "2026-05-04T00:00:00.000Z"
-  ],
-  "abolition_status": "active",
-  "revision_status": "none_announced",
+  "description": "일반과세와 간이과세의 판정 기준, 매출세액 계산 및 납부의무 면제를 구분합니다. 매출액·공급가액·공급대가·매출세액은 서로 다른 기준입니다.",
   "parents": [
     "category.national-taxes"
   ],
@@ -49,473 +42,151 @@
     "term.tax-rate",
     "term.eligibility-threshold"
   ],
-  "deadlines": [
-    "deadline.vat.periodic",
-    "deadline.vat.general.first-final",
-    "deadline.vat.general.second-final",
-    "deadline.vat.simplified.annual"
-  ],
-  "sources": [
-    "source.national-tax-framework-act.2026.article2",
-    "source.nts.vat.overview",
-    "source.nts.vat.filing-duty",
-    "source.law.value-added-tax-act.filing"
-  ],
-  "law_reference": "국세기본법 제2조 제1호",
   "tags": [
     "national-tax"
   ],
-  "criteria": [
-    {
-      "label": "일반과세자 매출 기준",
-      "basis": "1년 매출액",
-      "condition": "1억400만원 이상",
-      "threshold_krw_min": 104000000,
-      "benefit": "일반과세자",
-      "source": "source.nts.vat.overview",
-      "criteria_kind": "threshold",
-      "basis_category": "revenue",
-      "basis_definition": "사업자의 과세유형, 지원대상, 납부의무 면제 또는 대출대상 판단에 쓰는 매출·공급대가 기준입니다.",
-      "basis_lookup": "부가가치세 신고서, 사업장 매출자료, 세금계산서·현금영수증·카드매출 자료에서 확인합니다.",
-      "selection_rule": "직전연도 기준인지 해당 과세기간 기준인지 구분하고 매출·공급대가가 하한·상한 범위에 들어가는지 판정합니다.",
-      "basis_source": "source.nts.vat.filing-duty",
-      "law_reference": "국세기본법 제2조 제1호"
-    },
-    {
-      "label": "간이과세자 매출 기준",
-      "basis": "1년 매출액",
-      "condition": "1억400만원 미만",
-      "threshold_krw_max": 104000000,
-      "benefit": "간이과세자",
-      "source": "source.nts.vat.overview",
-      "criteria_kind": "threshold",
-      "basis_category": "revenue",
-      "basis_definition": "사업자의 과세유형, 지원대상, 납부의무 면제 또는 대출대상 판단에 쓰는 매출·공급대가 기준입니다.",
-      "basis_lookup": "부가가치세 신고서, 사업장 매출자료, 세금계산서·현금영수증·카드매출 자료에서 확인합니다.",
-      "selection_rule": "직전연도 기준인지 해당 과세기간 기준인지 구분하고 매출·공급대가가 하한·상한 범위에 들어가는지 판정합니다.",
-      "basis_source": "source.nts.vat.filing-duty",
-      "law_reference": "국세기본법 제2조 제1호"
-    },
-    {
-      "label": "일반과세자 세율",
-      "basis": "매출세액",
-      "condition": "매출액에 기본세율 적용",
-      "rate_percent": 10,
-      "note": "영세율 적용 대상은 0%",
-      "source": "source.nts.vat.filing-duty",
-      "criteria_kind": "rate",
-      "rate_basis": "매출세액",
-      "basis_category": "revenue",
-      "basis_definition": "사업자의 과세유형, 지원대상, 납부의무 면제 또는 대출대상 판단에 쓰는 매출·공급대가 기준입니다.",
-      "basis_lookup": "부가가치세 신고서, 사업장 매출자료, 세금계산서·현금영수증·카드매출 자료에서 확인합니다.",
-      "selection_rule": "직전연도 기준인지 해당 과세기간 기준인지 구분하고 매출·공급대가가 하한·상한 범위에 들어가는지 판정합니다.",
-      "basis_source": "source.nts.vat.filing-duty",
-      "law_reference": "국세기본법 제2조 제1호",
-      "amount_formula": "매출세액 × 적용비율 10%"
-    },
-    {
-      "label": "간이과세자 업종별 부가가치율",
-      "basis": "업종별 부가가치율",
-      "condition": "2021.7.1. 이후 업종별 15%~40%",
-      "rate_percent_min": 15,
-      "rate_percent_max": 40,
-      "note": "납부세액은 매출액 × 업종별 부가가치율 × 10% - 공제세액",
-      "source": "source.nts.vat.overview",
-      "criteria_kind": "rate",
-      "rate_basis": "업종별 부가가치율",
-      "basis_category": "official-standard",
-      "basis_definition": "해당 제도에서 대상 여부, 세율, 공제액, 한도 또는 신고기한을 판정하기 위해 공식 출처가 사용하는 기준항목입니다.",
-      "basis_lookup": "각 criterion의 출처 노드와 관련 신고·신청 서류에서 확인합니다.",
-      "selection_rule": "조건 문구와 구조화된 금액·비율·기간 필드를 함께 보고 해당 구간 또는 요건을 선택합니다.",
-      "basis_source": "source.nts.vat.overview",
-      "law_reference": "국세기본법 제2조 제1호",
-      "amount_formula": "업종별 부가가치율 × 적용비율 15%~40%"
-    },
-    {
-      "label": "간이과세자 예정신고 대상",
-      "basis": "직전연도 공급대가",
-      "condition": "4,800만원 이상 1억400만원 미만이고 예정부과기간에 세금계산서 발급",
-      "threshold_krw_min": 48000000,
-      "threshold_krw_max": 104000000,
-      "source": "source.nts.vat.filing-duty",
-      "criteria_kind": "threshold",
-      "basis_category": "revenue",
-      "basis_definition": "사업자의 과세유형, 지원대상, 납부의무 면제 또는 대출대상 판단에 쓰는 매출·공급대가 기준입니다.",
-      "basis_lookup": "부가가치세 신고서, 사업장 매출자료, 세금계산서·현금영수증·카드매출 자료에서 확인합니다.",
-      "selection_rule": "직전연도 기준인지 해당 과세기간 기준인지 구분하고 매출·공급대가가 하한·상한 범위에 들어가는지 판정합니다.",
-      "basis_source": "source.nts.vat.filing-duty",
-      "law_reference": "국세기본법 제2조 제1호"
-    },
-    {
-      "label": "간이과세자 납부의무 면제",
-      "basis": "직전연도 공급대가",
-      "condition": "4,800만원 미만",
-      "threshold_krw_max": 48000000,
-      "benefit": "납부세액 납부의무 면제 가능",
-      "source": "source.nts.vat.filing-duty",
-      "criteria_kind": "threshold",
-      "basis_category": "revenue",
-      "basis_definition": "사업자의 과세유형, 지원대상, 납부의무 면제 또는 대출대상 판단에 쓰는 매출·공급대가 기준입니다.",
-      "basis_lookup": "부가가치세 신고서, 사업장 매출자료, 세금계산서·현금영수증·카드매출 자료에서 확인합니다.",
-      "selection_rule": "직전연도 기준인지 해당 과세기간 기준인지 구분하고 매출·공급대가가 하한·상한 범위에 들어가는지 판정합니다.",
-      "basis_source": "source.nts.vat.filing-duty",
-      "law_reference": "국세기본법 제2조 제1호"
-    }
-  ],
-  "structured_summary": {
-    "tax": {
-      "tax_year": 2026,
-      "rates": {
-        "criterion_3": 10
-      },
-      "limits": {},
-      "thresholds": {
-        "criterion_1": {
-          "threshold_krw_min": 104000000
-        },
-        "criterion_2": {
-          "threshold_krw_max": 104000000
-        },
-        "criterion_5": {
-          "threshold_krw_min": 48000000,
-          "threshold_krw_max": 104000000
-        },
-        "criterion_6": {
-          "threshold_krw_max": 48000000
-        }
-      },
-      "eligible_persons": [
-        "1억400만원 이상",
-        "1억400만원 미만",
-        "매출액에 기본세율 적용",
-        "2021.7.1. 이후 업종별 15%~40%",
-        "4,800만원 이상 1억400만원 미만이고 예정부과기간에 세금계산서 발급",
-        "4,800만원 미만"
-      ],
-      "required_documents": [],
-      "filing_deadlines": [
-        "deadline.vat.periodic",
-        "deadline.vat.general.first-final",
-        "deadline.vat.general.second-final",
-        "deadline.vat.simplified.annual"
-      ],
-      "law_references": [
-        "국세기본법 제2조 제1호"
-      ]
-    }
-  },
-  "search_facets": {
-    "tax_type": "tax",
-    "applicable_year": 2026,
-    "law_reference": "국세기본법 제2조 제1호"
-  },
-  "provenance_shard": "reference",
-  "source_registry_id": "source.national-tax-framework-act.2026.article2",
-  "source_registry_status": "registered",
-  "provenance": [
-    {
-      "source_id": "source.national-tax-framework-act.2026.article2",
-      "original_url": "https://www.law.go.kr/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=900637068",
-      "source_record_id": null,
-      "locator": null,
-      "supported_fields": [
-        "title",
-        "type",
-        "description",
-        "folder",
-        "basis_year",
-        "effective_date",
-        "reviewed_at",
-        "abolition_status",
-        "revision_status",
-        "law_reference",
-        "criteria",
-        "structured_summary",
-        "search_facets",
-        "provenance_shard",
-        "source_registry_id",
-        "source_registry_status"
-      ],
-      "source_published_at": null,
-      "source_modified_at": null,
-      "collected_at": "2026-05-04T00:00:00.000Z",
-      "reviewed_at": "2026-05-04T00:00:00.000Z",
-      "valid_from": "2026-01-01T00:00:00.000Z",
-      "valid_to": null,
-      "checksum": null,
-      "checksum_scope": null,
-      "verification_status": "reference_only"
-    },
-    {
-      "source_id": "source.nts.vat.overview",
-      "original_url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7693&mi=2272",
-      "source_record_id": null,
-      "locator": null,
-      "supported_fields": [
-        "title",
-        "type",
-        "description",
-        "folder",
-        "basis_year",
-        "effective_date",
-        "reviewed_at",
-        "abolition_status",
-        "revision_status",
-        "law_reference",
-        "criteria",
-        "structured_summary",
-        "search_facets",
-        "provenance_shard",
-        "source_registry_id",
-        "source_registry_status"
-      ],
-      "source_published_at": null,
-      "source_modified_at": null,
-      "collected_at": "2026-05-04T00:00:00.000Z",
-      "reviewed_at": "2026-05-04T00:00:00.000Z",
-      "valid_from": "2026-01-01T00:00:00.000Z",
-      "valid_to": null,
-      "checksum": null,
-      "checksum_scope": null,
-      "verification_status": "reference_only"
-    },
-    {
-      "source_id": "source.nts.vat.filing-duty",
-      "original_url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7693&mi=2272",
-      "source_record_id": null,
-      "locator": null,
-      "supported_fields": [
-        "title",
-        "type",
-        "description",
-        "folder",
-        "basis_year",
-        "effective_date",
-        "reviewed_at",
-        "abolition_status",
-        "revision_status",
-        "law_reference",
-        "criteria",
-        "structured_summary",
-        "search_facets",
-        "provenance_shard",
-        "source_registry_id",
-        "source_registry_status"
-      ],
-      "source_published_at": null,
-      "source_modified_at": null,
-      "collected_at": "2026-05-04T00:00:00.000Z",
-      "reviewed_at": "2026-05-04T00:00:00.000Z",
-      "valid_from": "2026-01-01T00:00:00.000Z",
-      "valid_to": null,
-      "checksum": null,
-      "checksum_scope": null,
-      "verification_status": "reference_only"
-    },
-    {
-      "source_id": "source.law.value-added-tax-act.filing",
-      "original_url": "https://www.law.go.kr/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=900637068",
-      "source_record_id": null,
-      "locator": null,
-      "supported_fields": [
-        "title",
-        "type",
-        "description",
-        "folder",
-        "basis_year",
-        "effective_date",
-        "reviewed_at",
-        "abolition_status",
-        "revision_status",
-        "law_reference",
-        "criteria",
-        "structured_summary",
-        "search_facets",
-        "provenance_shard",
-        "source_registry_id",
-        "source_registry_status"
-      ],
-      "source_published_at": null,
-      "source_modified_at": null,
-      "collected_at": "2026-05-04T00:00:00.000Z",
-      "reviewed_at": "2026-05-04T00:00:00.000Z",
-      "valid_from": "2026-01-01T00:00:00.000Z",
-      "valid_to": null,
-      "checksum": null,
-      "checksum_scope": null,
-      "verification_status": "reference_only"
-    }
-  ],
   "publication_memberships": [
     "korea-tax-ontology-2026.json"
+  ],
+  "search_shard": "reference",
+  "status": "reference_only",
+  "sales_status": "unknown",
+  "recommendation_status": "reference_only",
+  "recommendation_scope": "listing_only",
+  "comparison_engine_gate_passed": false,
+  "domain_gate_passed": false,
+  "criteria": [
+    {
+      "label": "일반세율",
+      "condition": "과세표준인 공급가액에 10%를 적용해 매출세액을 계산합니다. 매출세액에 다시 10%를 곱하는 방식이 아닙니다. 영세율·면세·불공제매입세액은 별도 요건에 따릅니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.value-added-tax-act.filing",
+      "criteria_kind": "disclosure"
+    },
+    {
+      "label": "간이과세 판정",
+      "condition": "원칙적으로 직전 연도 공급대가 1억400만원 미만인 개인사업자에 적용합니다. 부동산임대업·과세유흥장소의 4,800만원 기준, 배제업종, 다른 사업장 및 복수 사업장 합산, 신규사업자의 연환산 등 예외를 함께 확인합니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.value-added-tax-act.filing",
+      "criteria_kind": "disclosure"
+    },
+    {
+      "label": "간이과세 산식",
+      "condition": "공급대가 × 업종별 부가가치율 × 10%에서 법정 공제세액을 뺍니다. 부가가치율 자체에 다시 15~40%를 곱하는 방식이 아닙니다. 겸영 업종은 각각 계산합니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.value-added-tax-act.filing",
+      "criteria_kind": "disclosure"
+    },
+    {
+      "label": "업종별 부가가치율",
+      "condition": "소매·음식점 등 15%, 제조·농림어업·소화물 전문 운송 등 20%, 숙박업 25%, 건설·운수창고(소화물 제외)·정보통신 등 30%, 법정 금융보험 관련·전문과학기술·사업지원·부동산 관련 서비스 등 40%, 그 밖의 서비스업 30%입니다. 국세청의 세부 업종 구분을 확인합니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.value-added-tax-act.filing",
+      "criteria_kind": "disclosure"
+    },
+    {
+      "label": "매입 공제",
+      "condition": "간이과세자는 적격 증빙과 제출요건을 충족한 재화·용역 공급대가의 0.5% 등을 공제합니다. 공제금액 합계가 납부세액을 초과하는 부분은 없는 것으로 봅니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.value-added-tax-act.filing",
+      "criteria_kind": "disclosure"
+    },
+    {
+      "label": "납부의무 면제",
+      "condition": "해당 과세기간의 공급대가가 4,800만원 미만이면 법정 납부의무 면제를 적용합니다. 직전연도 매출 기준이 아니며, 신규·휴폐업·과세유형 전환 등은 연환산하고 제64조 가산 세액 등 예외를 구분합니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.value-added-tax-act.filing",
+      "criteria_kind": "disclosure"
+    },
+    {
+      "label": "예정신고",
+      "condition": "예정부과기간 중 법정 세금계산서를 발급한 간이과세자는 예정신고 대상입니다. 일반 과세유형 판정과 예정신고 의무를 동일한 매출 구간만으로 판단하지 않습니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.value-added-tax-act.filing",
+      "criteria_kind": "disclosure"
+    }
+  ],
+  "sources": [
+    "source.law.value-added-tax-act.filing",
+    "source.nts.vat.overview"
+  ],
+  "source_urls": [
+    "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276117&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+    "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7693&mi=2272"
+  ],
+  "collected_at": "2026-09-23T08:26:24.306633+00:00",
+  "source_collected_at": "2026-09-23T08:26:24.306633+00:00",
+  "last_source_checked_at": "2026-09-23T08:26:24.306633+00:00",
+  "last_reviewed_at": "2026-09-23T08:26:24.306633+00:00",
+  "reviewed_at": "2026-09-23T08:26:24.306633+00:00",
+  "refresh_generation": "2026-09-23T08:26:24.306633+00:00",
+  "review_scope": "공식 공시의 식별자·본문·필드 연결 확인",
+  "source_listing_status": "listed",
+  "source_freshness_status": "current",
+  "freshness_status": "current",
+  "verification_status": "listing_only",
+  "sales_verification_status": "listed_unverified",
+  "current_disclosure": {
+    "path": "opentax/disclosures/563440d48ae061525ac9acd3.json",
+    "checksum": "sha256:8f58adec8215ccd44b08c4d70d3c2a41d46f208ba5d654d6421ca77f463c1998",
+    "checksum_scope": "normalized-disclosure-json",
+    "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276117&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+    "collected_at": "2026-09-23T08:26:24.306633+00:00"
+  },
+  "provenance": [
+    {
+      "source_id": "source.law.value-added-tax-act.filing",
+      "original_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276117&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+      "source_record_id": "tax.value-added",
+      "collected_at": "2026-09-23T08:26:24.306633+00:00",
+      "reviewed_at": "2026-09-23T08:26:24.306633+00:00",
+      "checksum": "sha256:5184bc889a7758b16e563761bb6f3f77e87860e9b82d856b6e2e3d2239900879",
+      "checksum_scope": "official-disclosure-response",
+      "verification_status": "listing_only",
+      "supported_fields": [
+        "title",
+        "description",
+        "criteria",
+        "current_disclosure"
+      ],
+      "locator": {
+        "kind": "record-id",
+        "value": "tax.value-added"
+      }
+    }
   ],
   "search_projection": {
     "id": "tax.value-added",
     "title": "부가가치세",
     "type": "tax",
-    "description": "재화 또는 용역의 공급 과정에서 생긴 부가가치에 과세되는 국세입니다.",
-    "provider": null,
-    "product_kind": null,
-    "search_type": null,
-    "product_status": null,
-    "sales_status": null,
-    "source_listing_status": null,
-    "sales_verification_status": null,
-    "sales_verified_at": null,
-    "condition_verification_status": null,
-    "source_freshness_status": null,
-    "status": null,
-    "status_reason": null,
-    "recommendation_status": null,
-    "recommendation_scope": null,
-    "catalog_recommendation_status": null,
-    "catalog_recommendation_scope": null,
-    "canonical_product_id": null,
-    "resolved_canonical_product_id": null,
-    "external_product_ids": [],
-    "provider_external_ids": [],
-    "provider_roles": [],
-    "source_records": [],
-    "preferred_source": null,
-    "merged_fields": {},
-    "field_provenance": {},
-    "field_conflicts": {},
-    "recommendation_model_version": "openfin-recommendation-v0.1.0",
-    "recommendation_exclusion_reasons": [],
-    "recommendation_basis_fields": [],
-    "verification_evidence": null,
-    "verification_status": null,
-    "quality_flags": [],
-    "last_verified_at": null,
-    "last_source_checked_at": null,
-    "last_reviewed_at": null,
-    "public_recommendation_exclusion_reasons": [],
-    "comparison_exclusion_reasons": [],
-    "discovery_limitations": [],
-    "missing_required_fields": [],
-    "missing_in_source_fields": [],
-    "unmapped_existing_fields": [],
-    "unverified_fields": [],
-    "discovery_evidence_fields": [],
-    "completeness_ratio": null,
-    "source_completeness_ratio": null,
-    "normalized_completeness_ratio": null,
-    "verified_completeness_ratio": null,
-    "required_field_count": null,
-    "completed_field_count": null,
-    "domain_gate_passed": null,
-    "comparison_engine_gate_passed": null,
-    "comparison_field_verification_status": null,
-    "comparison_field_verification": {},
-    "comparison_basis_fields": [],
-    "comparison_options": [],
-    "application_status": null,
-    "is_currently_applicable": null,
-    "application_open_from": null,
-    "application_open_to": null,
-    "application_window": {},
-    "jurisdiction": null,
-    "jurisdiction_code": null,
-    "jurisdiction_aliases": [],
-    "parent_jurisdiction_code": null,
-    "administrative_history": [],
-    "target_group": [],
-    "support_category": [],
-    "last_status_checked_at": null,
-    "freshness_status": null,
-    "collection_status": null,
-    "legacy_ids": [],
-    "search_aliases": [],
-    "aliases": [],
-    "export_id": "tax-ontology",
-    "source_checksum": null,
+    "description": "일반과세와 간이과세의 판정 기준, 매출세액 계산 및 납부의무 면제를 구분합니다. 매출액·공급가액·공급대가·매출세액은 서로 다른 기준입니다.",
+    "status": "reference_only",
+    "sales_status": "unknown",
     "source_urls": [
-      "https://www.law.go.kr/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=900637068",
-      "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7693&mi=2272",
-      "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7806",
-      "https://www.law.go.kr/법령/부가가치세법"
+      "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276117&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+      "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7693&mi=2272"
     ],
-    "source_basis_dates": [
-      "2026-01-01T00:00:00.000Z",
-      "2026-05-02T00:00:00.000Z",
-      "2026-05-04T00:00:00.000Z"
-    ],
-    "structured_summary": {
-      "rates": {},
-      "limits": {},
-      "periods": {},
-      "card": {},
-      "insurance": {},
-      "support": {
-        "application_window": {}
-      }
-    },
-    "search_facets": {},
-    "search_text": "tax.value-added 부가가치세 tax 재화 또는 용역의 공급 과정에서 생긴 부가가치에 과세되는 국세입니다. 국세기본법 제2조 제1호 national-tax source.national-tax-framewor",
-    "provenance_shard": "reference",
+    "freshness_status": "current",
+    "recommendation_status": "reference_only",
+    "recommendation_scope": "listing_only",
     "source_ids": [
-      "source.national-tax-framework-act.2026.article2",
-      "source.nts.vat.overview",
-      "source.nts.vat.filing-duty",
       "source.law.value-added-tax-act.filing"
-    ]
+    ],
+    "export_id": "tax-ontology",
+    "search_text": "부가가치세 일반과세와 간이과세의 판정 기준, 매출세액 계산 및 납부의무 면제를 구분합니다. 매출액·공급가액·공급대가·매출세액은 서로 다른 기준입니다."
   },
-  "search_shard": "reference",
-  "search_position": 638,
-  "legacy_compatibility_dates": [
-    {
-      "path": [
-        "source_basis_dates",
-        0
-      ],
-      "value": "시행 2026-01-01"
-    },
-    {
-      "path": [
-        "source_basis_dates",
-        1
-      ],
-      "value": "2026-05-02 확인"
-    },
-    {
-      "path": [
-        "source_basis_dates",
-        2
-      ],
-      "value": "2026-05-04 확인"
-    },
-    {
-      "path": [
-        "search_projection",
-        "source_basis_dates",
-        0
-      ],
-      "value": "시행 2026-01-01"
-    },
-    {
-      "path": [
-        "search_projection",
-        "source_basis_dates",
-        1
-      ],
-      "value": "2026-05-02 확인"
-    },
-    {
-      "path": [
-        "search_projection",
-        "source_basis_dates",
-        2
-      ],
-      "value": "2026-05-04 확인"
-    }
-  ],
-  "record_checksum": "sha256:eb4a79e66785699b97b3afb35a722deb5918058defe3122c51b6d39e34fd0ce8",
-  "requires": [
-    "eligibility-rule.vat-taxpayer-type"
-  ]
+  "record_checksum": "sha256:33973dbf6543f3e479c163fe4f5c0c32d6a6b7f96c0e57e78c281bfcc9976353"
 }
 ---
 
 # 부가가치세
 
-재화 또는 용역의 공급 과정에서 생긴 부가가치에 과세되는 국세입니다.
+일반과세와 간이과세의 판정 기준, 매출세액 계산 및 납부의무 면제를 구분합니다. 매출액·공급가액·공급대가·매출세액은 서로 다른 기준입니다.
+
+- **일반세율**: 과세표준인 공급가액에 10%를 적용해 매출세액을 계산합니다. 매출세액에 다시 10%를 곱하는 방식이 아닙니다. 영세율·면세·불공제매입세액은 별도 요건에 따릅니다.
+- **간이과세 판정**: 원칙적으로 직전 연도 공급대가 1억400만원 미만인 개인사업자에 적용합니다. 부동산임대업·과세유흥장소의 4,800만원 기준, 배제업종, 다른 사업장 및 복수 사업장 합산, 신규사업자의 연환산 등 예외를 함께 확인합니다.
+- **간이과세 산식**: 공급대가 × 업종별 부가가치율 × 10%에서 법정 공제세액을 뺍니다. 부가가치율 자체에 다시 15~40%를 곱하는 방식이 아닙니다. 겸영 업종은 각각 계산합니다.
+- **업종별 부가가치율**: 소매·음식점 등 15%, 제조·농림어업·소화물 전문 운송 등 20%, 숙박업 25%, 건설·운수창고(소화물 제외)·정보통신 등 30%, 법정 금융보험 관련·전문과학기술·사업지원·부동산 관련 서비스 등 40%, 그 밖의 서비스업 30%입니다. 국세청의 세부 업종 구분을 확인합니다.
+- **매입 공제**: 간이과세자는 적격 증빙과 제출요건을 충족한 재화·용역 공급대가의 0.5% 등을 공제합니다. 공제금액 합계가 납부세액을 초과하는 부분은 없는 것으로 봅니다.
+- **납부의무 면제**: 해당 과세기간의 공급대가가 4,800만원 미만이면 법정 납부의무 면제를 적용합니다. 직전연도 매출 기준이 아니며, 신규·휴폐업·과세유형 전환 등은 연환산하고 제64조 가산 세액 등 예외를 구분합니다.
+- **예정신고**: 예정부과기간 중 법정 세금계산서를 발급한 간이과세자는 예정신고 대상입니다. 일반 과세유형 판정과 예정신고 의무를 동일한 매출 구간만으로 판단하지 않습니다.

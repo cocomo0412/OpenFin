@@ -11,6 +11,7 @@ import json
 import re
 import time
 import urllib.request
+import http.cookiejar
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import parse_qs, urlencode, urlparse, quote, urljoin
@@ -160,13 +161,56 @@ def run_pension():
     (OUT / 'pension.json').write_text(json.dumps({'collected_at':NOW,'groups':results,'failures':failures}, ensure_ascii=False, indent=2), encoding='utf-8')
     print(json.dumps({'pension_groups':len(results),'failures':failures}),flush=True)
 
+def collect_woori(row, url):
+    """Read the same public JSON used by the product page, without a login."""
+    code = parse_qs(urlparse(url).query)['cdPrdCd'][0]
+    opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()))
+    page = BeautifulSoup(opener.open(url, timeout=30).read(), 'lxml')
+    endpoint = 'https://pc.wooricard.com/dcpc/yh1/crd/crd01/searchCrdDtl.pwkjson'
+    headers = {'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+               'Proworks-Body': 'Y', 'Proworks-Lang': 'ko', 'Referer': url,
+               'X-Requested-With': 'XMLHttpRequest'}
+    csrf_header, csrf = page.select_one('meta[name=_csrf_header]'), page.select_one('meta[name=_csrf]')
+    if csrf_header and csrf: headers[csrf_header['content']] = csrf['content']
+    request = urllib.request.Request(endpoint, data=json.dumps({'crd01DtlVo': {'cdPrdCd': code}}).encode(), headers=headers)
+    with opener.open(request, timeout=30) as response:
+        raw = response.read(5_000_001)
+        if len(raw) > 5_000_000: raise ValueError('Product response too large')
+        data = json.loads(raw)
+    detail = data.get('resultVo', {})
+    identity = detail.get('crd01DtlVo', {})
+    if str(identity.get('cdPrdCd')) != code: raise ValueError('Product code mismatch')
+    normalize = lambda value: re.sub(r'[^가-힣a-zA-Z0-9]', '', BeautifulSoup(html.unescape(value), 'lxml').get_text()).lower()
+    expected = normalize(row['title'].removeprefix(row.get('provider', '')))
+    if expected != normalize(identity.get('cdPrdNm', '')): raise ValueError('Product name mismatch')
+    body = BeautifulSoup(html.unescape(detail.get('bdtCntnts', '')), 'lxml')
+    text = clean(body.get_text(' ', strip=True))
+    if len(text) < 500: raise ValueError('Product terms missing')
+    receipt = {'url': url, 'endpoint': endpoint, 'method': 'POST', 'product_code': code,
+               'final_url': url, 'collected_at': datetime.now(timezone.utc).isoformat(),
+               'http_status': 200, 'sha256': hashlib.sha256(raw).hexdigest()}
+    # Keep response headers/session metadata out of the public disclosure snapshot.
+    (OUT / ('woori-' + code + '.json')).write_text(json.dumps({'product': detail, 'receipt': receipt}, ensure_ascii=False), encoding='utf-8')
+    return {'id': row['id'], 'title': identity['cdPrdNm'], 'text': identity['cdPrdNm'] + ' ' + text,
+            'receipt': receipt, 'scope': 'official product detail text; numeric rule extraction pending'}
+
+
 def collect_card(row):
     candidates = [u for u in row.get('source_urls', []) if any(marker in u for marker in ['cooperationcode=', 'gdsno=', 'CardinfoDetails001?code='])]
     if not candidates:
         candidates=[u for u in row.get('source_urls',[]) if any(host in urlparse(u).netloc for host in ['lottecard.co.kr','samsungcard.com','shinhancard.com','wooricard.com','hanacard.co.kr','hyundaicard.com']) and urlparse(u).path not in ['', '/']]
     if not candidates: return {'id':row['id'],'error':'No supported product detail URL'}
     url = candidates[0]
+    # Official desktop disclosures corresponding to the mobile product links.
+    lotte_details = {'/info/london': 'P14718-A14718', '/info/paris': 'P14728-A14728',
+                     '/info/likit2.0': 'P15835-A15835'}
+    for path, code in lotte_details.items():
+        if 'lottecard.co.kr' in url and path in url:
+            url = 'https://www.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=' + code
+    if row['id'] == 'finance.card.check-card.우리카드.카드의정석-오하-check':
+        url = 'https://pc.wooricard.com/dcpc/yh1/crd/crd01/H1CRD101S02.do?cdPrdCd=102716'
     try:
+        if 'pc.wooricard.com' in url: return collect_woori(row, url)
         raw, receipt = retrieve(url); soup = BeautifulSoup(raw,'lxml')
         content = soup.select_one('#main_contents') if 'kbcard.com' in url else soup.select_one('#contents') if 'bccard.com' in url else soup.select_one('main') or soup.select_one('#content') or soup.select_one('#contents') or soup.select_one('#container') or soup.select_one('.contents')
         if content is None: return {'id':row['id'],'error':'Product content missing','receipt':receipt}
@@ -184,14 +228,44 @@ def collect_card(row):
             if heading and cooperation and cooperation in raw.decode('utf-8','replace'):
                 product_title=heading
                 renamed=True
+        if 'lottecard.co.kr' in url and 'C10343-B10347' in url:
+            heading=content.select_one('h1.titDep1')
+            if heading and clean(heading.get_text()) == '위클리 VISA 롯데체크카드':
+                product_title=heading; renamed=True
+        if 'hanacard.co.kr' in url and parse_qs(urlparse(url).query).get('CD_PD_SEQ') == ['16947']:
+            catalog_raw, catalog_receipt=retrieve('https://www.hanacard.co.kr/OPI23000000D.ajax')
+            try: catalog=json.loads(catalog_raw.decode('utf-8'))
+            except UnicodeDecodeError: catalog=json.loads(catalog_raw.decode('cp949'))
+            def matching_product(value):
+                if isinstance(value,dict):
+                    if str(value.get('CD_PD_SEQ')) == '16947' and value.get('CD_NM') == '원더카드 2.0 FREE+': return True
+                    return any(matching_product(v) for v in value.values())
+                return isinstance(value,list) and any(matching_product(v) for v in value)
+            if matching_product(catalog) and '원더카드 2.0 FREE+' in text:
+                product_title=BeautifulSoup('<h1>원더카드 2.0 FREE+</h1>','lxml').h1
+                renamed=True
         if len(text)<200 or not title or (title not in normalized and not renamed):
+            if 'bccard.com' in url:
+                canonical=soup.select_one('link[rel=canonical]')
+                if canonical and canonical.get('href','').startswith('https://m.bccard.com/'):
+                    mobile_raw,mobile_receipt=retrieve(canonical['href'])
+                    mobile_text=clean(BeautifulSoup(mobile_raw,'lxml').get_text(' ',strip=True))
+                    notice='해당 카드의 상세혜택은 고객센터'
+                    if notice in mobile_text:
+                        return {'id':row['id'],'error':'Issuer-specific terms not published in BC common detail',
+                                'receipt':mobile_receipt,'evidence':mobile_text[mobile_text.index(notice):mobile_text.index(notice)+110]}
             return {'id':row['id'],'error':'Detail identity not matched','receipt':receipt,'page_title':soup.title.get_text() if soup.title else ''}
         return {'id':row['id'],'title':product_title.get_text(' ',strip=True) if renamed else row['title'],'text':text,'receipt':receipt,'scope':'official product detail text; numeric rule extraction pending'}
     except Exception as error: return {'id':row['id'],'error':type(error).__name__}
 
-def run_cards():
+def run_cards(retry_failed=False):
     rows = [json.loads(line) for p in (ROOT/'knowledge/30-financial-products/cards').rglob('*.jsonl') for line in p.read_text(encoding='utf-8').splitlines() if line]
     results=[]
+    if retry_failed:
+        previous=json.loads((OUT/'cards.json').read_text(encoding='utf-8'))['results']
+        failed={r['id'] for r in previous if 'error' in r}
+        results=[r for r in previous if r['id'] not in failed]
+        rows=[r for r in rows if r['id'] in failed]
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
         for i,result in enumerate(pool.map(collect_card,rows),1):
             results.append(result)
@@ -286,10 +360,12 @@ def run_insurance_indexes():
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(); parser.add_argument('--insurance', action='store_true'); parser.add_argument('--pension', action='store_true'); parser.add_argument('--cards', action='store_true'); parser.add_argument('--tax-sources', action='store_true'); parser.add_argument('--accounts', action='store_true'); parser.add_argument('--insurance-indexes', action='store_true')
+    parser.add_argument('--retry-failed-cards', action='store_true')
     args = parser.parse_args()
     if args.insurance: run_insurance()
     if args.pension: run_pension()
     if args.cards: run_cards()
+    if args.retry_failed_cards: run_cards(retry_failed=True)
     if args.tax_sources: run_tax_sources()
     if args.accounts: run_accounts()
     if args.insurance_indexes: run_insurance_indexes()

@@ -52,5 +52,6 @@
   "provider_disclosure_urls": [
     "https://www.cardif.co.kr/web/main/disclosure/product/onsale"
   ],
-  "document_scope": "comparison-disclosure attachments; full policy terms not verified"
+  "document_scope": "comparison-disclosure attachments; full policy terms not verified",
+  "policy_documents": []
 }

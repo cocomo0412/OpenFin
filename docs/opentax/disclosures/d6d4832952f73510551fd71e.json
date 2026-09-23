@@ -50,5 +50,6 @@
   "provider_disclosure_urls": [
     "https://www.kblife.co.kr/insurance-product/productDetails.do?Cd=ON_PD_TG_01&productType=5"
   ],
-  "document_scope": "comparison-disclosure attachments; full policy terms not verified"
+  "document_scope": "comparison-disclosure attachments; full policy terms not verified",
+  "policy_documents": []
 }

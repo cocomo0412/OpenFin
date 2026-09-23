@@ -1,24 +1,14 @@
 ---
 {
+  "deadlines": [
+    "deadline.local.resident"
+  ],
+  "folder": "10_Taxes/Local",
+  "basis_year": 2026,
   "id": "local.resident",
   "title": "주민세",
   "type": "tax",
-  "description": "개인, 사업소, 종업원 등 지역 구성원에게 과세되는 지방 보통세입니다.",
-  "folder": "10_Taxes/Local",
-  "basis_year": 2026,
-  "effective_date": "2026-02-05",
-  "expiration_date": null,
-  "reviewed_at": "2026-05-04",
-  "source_urls": [
-    "https://www.law.go.kr/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=1000903169",
-    "https://www.law.go.kr/법령/지방세법"
-  ],
-  "source_basis_dates": [
-    "2026-02-05T00:00:00.000Z",
-    "2026-05-03T00:00:00.000Z"
-  ],
-  "abolition_status": "active",
-  "revision_status": "none_announced",
+  "description": "지방자치단체에 주소를 둔 개인에 대한 주민세입니다. 원칙적으로 1만원 이하 범위의 조례상 세액이며 법정 주민청구가 있으면 1만5천원 이하로 읍면동별 차등 설정할 수 있습니다.",
   "parents": [
     "category.local-ordinary-taxes"
   ],
@@ -27,272 +17,119 @@
   "terms": [
     "term.local-tax"
   ],
-  "deadlines": [
-    "deadline.local.resident"
-  ],
-  "sources": [
-    "source.local-tax-framework-act.2026.article8",
-    "source.law.local-tax-act.rates"
-  ],
-  "law_reference": "지방세기본법 제8조",
   "tags": [
     "local-tax"
   ],
-  "criteria": [
-    {
-      "label": "주민세 산식",
-      "basis": "개인분·사업소분·종업원분 과세표준",
-      "condition": "지방자치단체 조례와 지방세법 기준 적용",
-      "amount_formula": "개인분 정액세 또는 사업소 연면적·종업원 급여총액 기준 산식",
-      "source": "source.law.local-tax-act.rates",
-      "criteria_kind": "formula",
-      "basis_category": "tax-base",
-      "basis_definition": "공제와 필요경비 등을 반영한 뒤 세율을 적용하는 최종 세액 계산 기준금액입니다.",
-      "basis_lookup": "해당 세목의 신고서, 계산명세서, 국세청 세율 안내에서 확인합니다.",
-      "selection_rule": "구간별 하한·상한을 비교해 해당 과세표준이 들어가는 세율 구간을 선택하고 누진공제액을 함께 적용합니다.",
-      "basis_source": "source.law.local-tax-act.rates",
-      "law_reference": "지방세기본법 제8조"
-    }
-  ],
-  "structured_summary": {
-    "tax": {
-      "tax_year": 2026,
-      "rates": {},
-      "limits": {},
-      "thresholds": {},
-      "eligible_persons": [
-        "지방자치단체 조례와 지방세법 기준 적용"
-      ],
-      "required_documents": [],
-      "filing_deadlines": [],
-      "law_references": [
-        "지방세기본법 제8조"
-      ]
-    }
-  },
-  "search_facets": {
-    "tax_type": "tax",
-    "applicable_year": 2026,
-    "law_reference": "지방세기본법 제8조"
-  },
-  "provenance_shard": "reference",
-  "source_registry_id": "source.local-tax-framework-act.2026.article8",
-  "source_registry_status": "registered",
-  "provenance": [
-    {
-      "source_id": "source.local-tax-framework-act.2026.article8",
-      "original_url": "https://www.law.go.kr/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=1000903169",
-      "source_record_id": null,
-      "locator": null,
-      "supported_fields": [
-        "title",
-        "type",
-        "description",
-        "folder",
-        "basis_year",
-        "effective_date",
-        "reviewed_at",
-        "abolition_status",
-        "revision_status",
-        "law_reference",
-        "criteria",
-        "structured_summary",
-        "search_facets",
-        "provenance_shard",
-        "source_registry_id",
-        "source_registry_status"
-      ],
-      "source_published_at": null,
-      "source_modified_at": null,
-      "collected_at": "2026-05-04T00:00:00.000Z",
-      "reviewed_at": "2026-05-04T00:00:00.000Z",
-      "valid_from": "2026-02-05T00:00:00.000Z",
-      "valid_to": null,
-      "checksum": null,
-      "checksum_scope": null,
-      "verification_status": "reference_only"
-    },
-    {
-      "source_id": "source.law.local-tax-act.rates",
-      "original_url": "https://www.law.go.kr/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=1000903169",
-      "source_record_id": null,
-      "locator": null,
-      "supported_fields": [
-        "title",
-        "type",
-        "description",
-        "folder",
-        "basis_year",
-        "effective_date",
-        "reviewed_at",
-        "abolition_status",
-        "revision_status",
-        "law_reference",
-        "criteria",
-        "structured_summary",
-        "search_facets",
-        "provenance_shard",
-        "source_registry_id",
-        "source_registry_status"
-      ],
-      "source_published_at": null,
-      "source_modified_at": null,
-      "collected_at": "2026-05-04T00:00:00.000Z",
-      "reviewed_at": "2026-05-04T00:00:00.000Z",
-      "valid_from": "2026-02-05T00:00:00.000Z",
-      "valid_to": null,
-      "checksum": null,
-      "checksum_scope": null,
-      "verification_status": "reference_only"
-    }
-  ],
   "publication_memberships": [
     "korea-tax-ontology-2026.json"
+  ],
+  "search_shard": "reference",
+  "status": "reference_only",
+  "sales_status": "unknown",
+  "recommendation_status": "reference_only",
+  "recommendation_scope": "listing_only",
+  "comparison_engine_gate_passed": false,
+  "domain_gate_passed": false,
+  "criteria": [
+    {
+      "label": "개인분",
+      "condition": "지방자치단체에 주소를 둔 개인에 대한 주민세입니다. 원칙적으로 1만원 이하 범위의 조례상 세액이며 법정 주민청구가 있으면 1만5천원 이하로 읍면동별 차등 설정할 수 있습니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.local-tax-act.rates",
+      "criteria_kind": "disclosure",
+      "law_reference": "지방세법 제74조·지방세법 제78조·지방세법 제81조·지방세법 제84조의3"
+    },
+    {
+      "label": "사업소분",
+      "condition": "사업소의 기본세액과 연면적 세액을 구분합니다. 개인사업소 기본세액은 5만원, 법인은 자본금 등에 따라 5만·10만·20만원입니다. 연면적 표준세액은 ㎡당 250원이며 법정 오염물질 배출 사업소는 500원입니다. 면세점·조례 조정은 별도 확인합니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.local-tax-act.rates",
+      "criteria_kind": "disclosure",
+      "law_reference": "지방세법 제74조·지방세법 제78조·지방세법 제81조·지방세법 제84조의3"
+    },
+    {
+      "label": "종업원분",
+      "condition": "사업소 종업원의 급여총액에 표준세율 0.5%를 적용하며 법정 면세점과 조례에 따른 세율 조정을 확인합니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.local-tax-act.rates",
+      "criteria_kind": "disclosure",
+      "law_reference": "지방세법 제74조·지방세법 제78조·지방세법 제81조·지방세법 제84조의3"
+    }
+  ],
+  "sources": [
+    "source.law.local-tax-act.rates"
+  ],
+  "source_urls": [
+    "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=282559&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0"
+  ],
+  "collected_at": "2026-09-23T08:26:22.571307+00:00",
+  "source_collected_at": "2026-09-23T08:26:22.571307+00:00",
+  "last_source_checked_at": "2026-09-23T08:26:22.571307+00:00",
+  "last_reviewed_at": "2026-09-23T08:26:22.571307+00:00",
+  "reviewed_at": "2026-09-23T08:26:22.571307+00:00",
+  "refresh_generation": "2026-09-23T08:26:22.571307+00:00",
+  "review_scope": "공식 공시의 식별자·본문·필드 연결 확인",
+  "source_listing_status": "listed",
+  "source_freshness_status": "current",
+  "freshness_status": "current",
+  "verification_status": "listing_only",
+  "sales_verification_status": "listed_unverified",
+  "current_disclosure": {
+    "path": "opentax/disclosures/eef0f93b6fe0625cbd363ade.json",
+    "checksum": "sha256:fc9efb2f8bb7412e44375e72c0ee22154b8577e3dc541a70ad27bb4ef61c15fc",
+    "checksum_scope": "normalized-disclosure-json",
+    "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=282559&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+    "collected_at": "2026-09-23T08:26:22.571307+00:00"
+  },
+  "provenance": [
+    {
+      "source_id": "source.law.local-tax-act.rates",
+      "original_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=282559&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+      "source_record_id": "local.resident",
+      "collected_at": "2026-09-23T08:26:22.571307+00:00",
+      "reviewed_at": "2026-09-23T08:26:22.571307+00:00",
+      "checksum": "sha256:9f5ef4724aa36b1f62bd0e36aa912309144e85c3e1bc880c960e66d467418995",
+      "checksum_scope": "official-disclosure-response",
+      "verification_status": "listing_only",
+      "supported_fields": [
+        "title",
+        "description",
+        "criteria",
+        "current_disclosure"
+      ],
+      "locator": {
+        "kind": "record-id",
+        "value": "local.resident"
+      }
+    }
   ],
   "search_projection": {
     "id": "local.resident",
     "title": "주민세",
     "type": "tax",
-    "description": "개인, 사업소, 종업원 등 지역 구성원에게 과세되는 지방 보통세입니다.",
-    "provider": null,
-    "product_kind": null,
-    "search_type": null,
-    "product_status": null,
-    "sales_status": null,
-    "source_listing_status": null,
-    "sales_verification_status": null,
-    "sales_verified_at": null,
-    "condition_verification_status": null,
-    "source_freshness_status": null,
-    "status": null,
-    "status_reason": null,
-    "recommendation_status": null,
-    "recommendation_scope": null,
-    "catalog_recommendation_status": null,
-    "catalog_recommendation_scope": null,
-    "canonical_product_id": null,
-    "resolved_canonical_product_id": null,
-    "external_product_ids": [],
-    "provider_external_ids": [],
-    "provider_roles": [],
-    "source_records": [],
-    "preferred_source": null,
-    "merged_fields": {},
-    "field_provenance": {},
-    "field_conflicts": {},
-    "recommendation_model_version": "openfin-recommendation-v0.1.0",
-    "recommendation_exclusion_reasons": [],
-    "recommendation_basis_fields": [],
-    "verification_evidence": null,
-    "verification_status": null,
-    "quality_flags": [],
-    "last_verified_at": null,
-    "last_source_checked_at": null,
-    "last_reviewed_at": null,
-    "public_recommendation_exclusion_reasons": [],
-    "comparison_exclusion_reasons": [],
-    "discovery_limitations": [],
-    "missing_required_fields": [],
-    "missing_in_source_fields": [],
-    "unmapped_existing_fields": [],
-    "unverified_fields": [],
-    "discovery_evidence_fields": [],
-    "completeness_ratio": null,
-    "source_completeness_ratio": null,
-    "normalized_completeness_ratio": null,
-    "verified_completeness_ratio": null,
-    "required_field_count": null,
-    "completed_field_count": null,
-    "domain_gate_passed": null,
-    "comparison_engine_gate_passed": null,
-    "comparison_field_verification_status": null,
-    "comparison_field_verification": {},
-    "comparison_basis_fields": [],
-    "comparison_options": [],
-    "application_status": null,
-    "is_currently_applicable": null,
-    "application_open_from": null,
-    "application_open_to": null,
-    "application_window": {},
-    "jurisdiction": null,
-    "jurisdiction_code": null,
-    "jurisdiction_aliases": [],
-    "parent_jurisdiction_code": null,
-    "administrative_history": [],
-    "target_group": [],
-    "support_category": [],
-    "last_status_checked_at": null,
-    "freshness_status": null,
-    "collection_status": null,
-    "legacy_ids": [],
-    "search_aliases": [],
-    "aliases": [],
-    "export_id": "tax-ontology",
-    "source_checksum": null,
+    "description": "지방자치단체에 주소를 둔 개인에 대한 주민세입니다. 원칙적으로 1만원 이하 범위의 조례상 세액이며 법정 주민청구가 있으면 1만5천원 이하로 읍면동별 차등 설정할 수 있습니다.",
+    "status": "reference_only",
+    "sales_status": "unknown",
     "source_urls": [
-      "https://www.law.go.kr/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=1000903169",
-      "https://www.law.go.kr/법령/지방세법"
+      "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=282559&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0"
     ],
-    "source_basis_dates": [
-      "2026-02-05T00:00:00.000Z",
-      "2026-05-03T00:00:00.000Z"
-    ],
-    "structured_summary": {
-      "rates": {},
-      "limits": {},
-      "periods": {},
-      "card": {},
-      "insurance": {},
-      "support": {
-        "application_window": {}
-      }
-    },
-    "search_facets": {},
-    "search_text": "local.resident 주민세 tax 개인, 사업소, 종업원 등 지역 구성원에게 과세되는 지방 보통세입니다. 지방세기본법 제8조 local-tax source.local-tax-framework-act.2026.",
-    "provenance_shard": "reference",
+    "freshness_status": "current",
+    "recommendation_status": "reference_only",
+    "recommendation_scope": "listing_only",
     "source_ids": [
-      "source.local-tax-framework-act.2026.article8",
       "source.law.local-tax-act.rates"
-    ]
+    ],
+    "export_id": "tax-ontology",
+    "search_text": "주민세 지방자치단체에 주소를 둔 개인에 대한 주민세입니다. 원칙적으로 1만원 이하 범위의 조례상 세액이며 법정 주민청구가 있으면 1만5천원 이하로 읍면동별 차등 설정할 수 있습니다."
   },
-  "search_shard": "reference",
-  "search_position": 436,
-  "legacy_compatibility_dates": [
-    {
-      "path": [
-        "source_basis_dates",
-        0
-      ],
-      "value": "시행 2026-02-05"
-    },
-    {
-      "path": [
-        "source_basis_dates",
-        1
-      ],
-      "value": "2026-05-03 확인"
-    },
-    {
-      "path": [
-        "search_projection",
-        "source_basis_dates",
-        0
-      ],
-      "value": "시행 2026-02-05"
-    },
-    {
-      "path": [
-        "search_projection",
-        "source_basis_dates",
-        1
-      ],
-      "value": "2026-05-03 확인"
-    }
-  ],
-  "record_checksum": "sha256:d4151403e0b3d99d11fad6baa6a3154b3941f2871e21d0c614efc1fdcbe97272"
+  "record_checksum": "sha256:121f9a9c6230621a8029ba8e32792685fe489570c9becacf09b0c046ab08f051"
 }
 ---
 
 # 주민세
 
-개인, 사업소, 종업원 등 지역 구성원에게 과세되는 지방 보통세입니다.
+지방자치단체에 주소를 둔 개인에 대한 주민세입니다. 원칙적으로 1만원 이하 범위의 조례상 세액이며 법정 주민청구가 있으면 1만5천원 이하로 읍면동별 차등 설정할 수 있습니다.
+
+- **개인분**: 지방자치단체에 주소를 둔 개인에 대한 주민세입니다. 원칙적으로 1만원 이하 범위의 조례상 세액이며 법정 주민청구가 있으면 1만5천원 이하로 읍면동별 차등 설정할 수 있습니다.
+- **사업소분**: 사업소의 기본세액과 연면적 세액을 구분합니다. 개인사업소 기본세액은 5만원, 법인은 자본금 등에 따라 5만·10만·20만원입니다. 연면적 표준세액은 ㎡당 250원이며 법정 오염물질 배출 사업소는 500원입니다. 면세점·조례 조정은 별도 확인합니다.
+- **종업원분**: 사업소 종업원의 급여총액에 표준세율 0.5%를 적용하며 법정 면세점과 조례에 따른 세율 조정을 확인합니다.

@@ -1,0 +1,36 @@
+{
+  "id": "local.local-consumption",
+  "source_id": "source.law.local-tax-act.rates",
+  "reviewed_articles": [
+    {
+      "number": "69",
+      "text": "제69조(과세표준 및 세액) ① 지방소비세의 과세표준은 「부가가치세법」 에 따른 부가가치세의 납부세액에서 「부가가치세법」 및 다른 법률에 따라 부가가치세의 감면세액 및 공제세액을 빼고 가산세를 더하여 계산한 세액으로 한다. ② 지방소비세의 세액은 제1항의 과세표준에 1천분의 253을 적용하여 계산한 금액으로 한다. <개정 2013. 12. 26., 2018. 12. 31., 2019. 12. 31., 2021. 12. 7.> [도표 대체텍스트: 조문체계도버튼] [도표 대체텍스트: 연혁] "
+    }
+  ],
+  "summary": [
+    {
+      "label": "과세표준",
+      "condition": "부가가치세 납부세액에서 법정 감면세액·공제세액을 빼고 가산세를 더한 세액입니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.local-tax-act.rates",
+      "criteria_kind": "disclosure",
+      "law_reference": "지방세법 제69조"
+    },
+    {
+      "label": "세액",
+      "condition": "위 과세표준의 25.3%입니다. 소비자에게 부가가치세와 별도로 25.3%를 추가 청구하는 세금이라는 뜻은 아닙니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.local-tax-act.rates",
+      "criteria_kind": "disclosure",
+      "law_reference": "지방세법 제69조"
+    }
+  ],
+  "scope": "listed summary rules reviewed; not an exhaustive tax calculator",
+  "receipt": {
+    "url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=282559&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+    "final_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=282559&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+    "collected_at": "2026-09-23T08:26:22.571307+00:00",
+    "http_status": 200,
+    "sha256": "9f5ef4724aa36b1f62bd0e36aa912309144e85c3e1bc880c960e66d467418995"
+  }
+}

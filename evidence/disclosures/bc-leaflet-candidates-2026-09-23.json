@@ -1,0 +1,62 @@
+{
+  "index_url": "https://www.bccard.com/app/card/ContentsLinkActn.do?pgm_id=ind0836",
+  "review_date": "2026-09-23",
+  "candidates": [
+    {
+      "title": "TNT카드",
+      "candidate_product_code": "220013",
+      "url": "https://www.bccard.com/down/individual/customer/02_tnt_230623.pdf",
+      "sha256": "d75a2f3ed09a03370224a8d1649344386c8bb529dbfd6af1676c5aba11855ec4",
+      "page_count": 2,
+      "document_basis_date": "2023-06-15",
+      "identity_status": "candidate; issuer and credit/check variant verification required",
+      "review_status": "benefit page visually inspected; not a current-contract approval",
+      "text_extraction_issue": "pypdf text is corrupted; PDFium recovers some text but outlined benefit text requires visual review"
+    },
+    {
+      "title": "레포츠카드",
+      "candidate_product_code": "212526",
+      "url": "https://www.bccard.com/down/individual/customer/07_leports_220810.pdf",
+      "sha256": "e502c16ee98fd452dc250c7b68ac28a270e0009ed0189b197917a2027759b040",
+      "page_count": 2,
+      "document_basis_date": "2022-07-29",
+      "identity_status": "candidate; issuer and credit/check variant verification required",
+      "review_status": "benefit page visually inspected; not a current-contract approval",
+      "text_extraction_issue": "pypdf text is corrupted; PDFium recovers some text but outlined benefit text requires visual review"
+    },
+    {
+      "title": "비씨SK카드",
+      "candidate_product_code": "331012",
+      "url": "https://www.bccard.com/down/individual/customer/21_bcsk_211111.pdf",
+      "sha256": "7496735ea5936ba9c55152aed03db20cd22ca3ef454341253612bef90d7047ba",
+      "page_count": 4,
+      "document_basis_date": "2021-11-05",
+      "identity_status": "candidate; issuer and credit/check variant verification required",
+      "review_status": "benefit page visually inspected; not a current-contract approval",
+      "text_extraction_issue": "pypdf text is corrupted; PDFium recovers some text but outlined benefit text requires visual review"
+    },
+    {
+      "title": "독도지킴이카드",
+      "candidate_product_code": "221009",
+      "url": "https://www.bccard.com/down/individual/customer/38_dokdo_211111.pdf",
+      "sha256": "ca599d9b6542b0557041bb9b65b1aec16fb54348a0ede3ae6078402485f8bdc7",
+      "page_count": 2,
+      "document_basis_date": "2021-11-05",
+      "identity_status": "candidate; issuer and credit/check variant verification required",
+      "review_status": "benefit page visually inspected; not a current-contract approval",
+      "text_extraction_issue": "pypdf text is corrupted; PDFium recovers some text but outlined benefit text requires visual review"
+    },
+    {
+      "title": "비씨TOP포인트",
+      "candidate_product_code": "000000",
+      "url": "https://www.bccard.com/down/individual/customer/42_bctoppoint_211111.pdf",
+      "sha256": "0758f2d1ed1db2bdc7892ae22ec1344fa3028fbbe6b0954f435108304a6c55b8",
+      "page_count": 4,
+      "document_basis_date": "2021-11-05",
+      "identity_status": "candidate; issuer and credit/check variant verification required",
+      "review_status": "benefit page visually inspected; not a current-contract approval",
+      "text_extraction_issue": "pypdf text is corrupted; PDFium recovers some text but outlined benefit text requires visual review"
+    }
+  ],
+  "note": "Current official index links older leaflets. Do not replace their document dates with the collection date or apply credit-card terms to the TOP check-card record."
+}

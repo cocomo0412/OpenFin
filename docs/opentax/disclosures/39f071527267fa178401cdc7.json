@@ -54,5 +54,23 @@
   "provider_disclosure_urls": [
     "https://abllife.co.kr/st/pban/prdtPban/whlPrdt?page=1254517_1260"
   ],
-  "document_scope": "comparison-disclosure attachments; full policy terms not verified"
+  "document_scope": "comparison-disclosure attachments; full policy terms not verified",
+  "policy_documents": [
+    {
+      "index_url": "https://abllife.co.kr/st/pban/prdtPban/whlPrdt?page=1254517_1260",
+      "url": "https://abllife.co.kr/cms/pban/prdtPban/whlPrdt/__icsFiles/afieldfile/2026/08/05/20260801_NP_우리WON케어간병보험(해약환급금미지급형)2607.pdf",
+      "document_type": "policy-terms",
+      "effective_from": "2026-08-01",
+      "page_count": 1118,
+      "text_characters": 863104,
+      "scope": "current policy document collected; individual clause review pending",
+      "receipt": {
+        "url": "https://abllife.co.kr/cms/pban/prdtPban/whlPrdt/__icsFiles/afieldfile/2026/08/05/20260801_NP_%EC%9A%B0%EB%A6%ACWON%EC%BC%80%EC%96%B4%EA%B0%84%EB%B3%91%EB%B3%B4%ED%97%98%28%ED%95%B4%EC%95%BD%ED%99%98%EA%B8%89%EA%B8%88%EB%AF%B8%EC%A7%80%EA%B8%89%ED%98%95%292607.pdf",
+        "final_url": "https://abllife.co.kr/cms/pban/prdtPban/whlPrdt/__icsFiles/afieldfile/2026/08/05/20260801_NP_%EC%9A%B0%EB%A6%ACWON%EC%BC%80%EC%96%B4%EA%B0%84%EB%B3%91%EB%B3%B4%ED%97%98%28%ED%95%B4%EC%95%BD%ED%99%98%EA%B8%89%EA%B8%88%EB%AF%B8%EC%A7%80%EA%B8%89%ED%98%95%292607.pdf",
+        "http_status": 200,
+        "collected_at": "2026-09-23T10:19:42.533461+00:00",
+        "sha256": "688cbfc1f661f531fb0e61f407756fa330bdd9c174fe4c1acb764ad71dfbfa71"
+      }
+    }
+  ]
 }

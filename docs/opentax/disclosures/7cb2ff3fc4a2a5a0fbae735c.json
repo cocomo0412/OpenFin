@@ -2,6 +2,7 @@
   "id": "finance.card.credit-card.비씨카드.비씨-다이아몬드-스카이패스-카드-242241",
   "source_id": "source.bccard.credit-card-list",
   "text": "카드상품 신용카드 상세보기 [BC공통] 비씨 다이아몬드 스카이패스 카드 [BC공통] 비씨 다이아몬드 스카이패스 카드 Master Card 다이아몬드 등급 VIP 서비스 대한항공 마일리지 적립 연회비 300,000원 가족카드 50,000원 79.7% 20.3% 4.9% 18.6% 52.6% 0.0% 22.9% (주)신세계백화점센텀시티점 (주)신세계백화점강남점 (주)신세계백화점",
+  "scope": "official product detail text; numeric rule extraction pending",
   "receipt": {
     "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=242241&mbkNo=999",
     "final_url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=242241&mbkNo=999",
