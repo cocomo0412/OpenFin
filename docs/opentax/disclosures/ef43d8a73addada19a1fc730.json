@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.c31f59e88fbec993e036c094",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:8bf789acb664784a41b021f8",
+  "group": "3",
+  "provider": "하나자산운용",
+  "title": "하나글로벌AI핵심성장증권자투자신탁[주식]ClassC-P",
+  "cells": [
+    "하나자산운용",
+    "하나글로벌AI핵심성장증권자투자신탁[주식]ClassC-P",
+    "주식형",
+    "2",
+    "2017/12/14",
+    "판매",
+    "10,237",
+    "54.25",
+    "32.65",
+    "15.68",
+    "21.76",
+    "-",
+    "17.93",
+    "1.548",
+    "유진투자증권주식회사, 한화투자증권주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=73",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=73",
+    "collected_at": "2026-09-23T08:23:26.146244+00:00",
+    "http_status": 200,
+    "sha256": "0a19d63059530c15b8cb1b32056f3e07aa37176282d52d5d58bc67b714e57196"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "하나자산운용",
+        "상품명": "하나글로벌AI핵심성장증권자투자신탁[주식]ClassC-P",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2017/12/14",
+        "판매여부": "판매",
+        "순자산총액": "10,237",
+        "1년 연평균수익률(%)": "54.25",
+        "3년 연평균수익률(%)": "32.65",
+        "5년 연평균수익률(%)": "15.68",
+        "7년 연평균수익률(%)": "21.76",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "17.93",
+        "연평균수수료율(%)": "1.548",
+        "상품 판매사": "유진투자증권주식회사, 한화투자증권주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=73",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=73",
+        "collected_at": "2026-09-23T08:23:26.146244+00:00",
+        "http_status": 200,
+        "sha256": "0a19d63059530c15b8cb1b32056f3e07aa37176282d52d5d58bc67b714e57196"
+      }
+    }
+  ]
+}

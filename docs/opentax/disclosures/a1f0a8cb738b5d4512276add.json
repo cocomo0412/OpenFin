@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.31e922b1b1aa9fbcecf96703",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:17b6c25760657dbbd62fa0c5",
+  "group": "3",
+  "provider": "트러스톤자산운용",
+  "title": "트러스톤 TRUSTON 코리아밸류업액티브증권상장지수투자신탁[주식]",
+  "cells": [
+    "트러스톤자산운용",
+    "트러스톤 TRUSTON 코리아밸류업액티브증권상장지수투자신탁[주식]",
+    "주식형",
+    "2",
+    "2024/11/01",
+    "판매",
+    "118",
+    "152.44",
+    "-",
+    "-",
+    "-",
+    "-",
+    "102.81",
+    "0.816",
+    "한화투자증권주식회사, 한국투자증권, 삼성증권, KB증권, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=294",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=294",
+    "collected_at": "2026-09-23T08:28:23.954291+00:00",
+    "http_status": 200,
+    "sha256": "d8e2effcc932645f868aa43005748c547504f952ebc92dc7496ef24503505847"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "트러스톤자산운용",
+        "상품명": "트러스톤 TRUSTON 코리아밸류업액티브증권상장지수투자신탁[주식]",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2024/11/01",
+        "판매여부": "판매",
+        "순자산총액": "118",
+        "1년 연평균수익률(%)": "152.44",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "102.81",
+        "연평균수수료율(%)": "0.816",
+        "상품 판매사": "한화투자증권주식회사, 한국투자증권, 삼성증권, KB증권, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=294",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=294",
+        "collected_at": "2026-09-23T08:28:23.954291+00:00",
+        "http_status": 200,
+        "sha256": "d8e2effcc932645f868aa43005748c547504f952ebc92dc7496ef24503505847"
+      }
+    }
+  ]
+}

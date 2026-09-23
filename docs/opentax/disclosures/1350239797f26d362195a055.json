@@ -1,0 +1,51 @@
+{
+  "id": "finance.insurance.klia.term-life.동양생명.l74024600010246000302460005nnn0247000202440001024400010002024400010002000102440001000200010004e4012",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L74024600010246000302460005NNN0247000202440001024400010002024400010002000102440001000200010004E4012",
+  "group": "024400010002",
+  "title": "(무)우리WON하는VIP플러스정기보험",
+  "provider": "동양생명",
+  "cells": [
+    "동양생명",
+    "(무)우리WON하는VIP플러스정기보험",
+    "주계약",
+    "사망보험금 *지급사유 : 사망하였을 경우",
+    "10,000만원",
+    "33,200 원",
+    "21,200 원",
+    "2.90 %",
+    "-",
+    "-",
+    "181.6 %",
+    "211.3 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "기본형",
+    "순수보장",
+    "-",
+    "-",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "대면채널 TM 기타",
+    "2026-01-01",
+    "Download",
+    "보기",
+    "1577-1004"
+  ],
+  "coverage": [
+    "사망보험금 *지급사유 : 사망하였을 경우"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=24450&seq=19"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010002&pageIndex=6&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010002&pageIndex=6&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:28.247939+00:00",
+    "http_status": 200,
+    "sha256": "dc70d02a329dca6af8b369287146085567f7c613ff0815a203c663c7b96b4d97"
+  }
+}

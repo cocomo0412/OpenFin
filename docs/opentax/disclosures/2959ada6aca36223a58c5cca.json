@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.82735c45135d29e1070f063d",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:847d143cfc175aea5f682c36",
+  "group": "4",
+  "provider": "삼성생명보험",
+  "title": "인터넷연금저축보험(무배당)",
+  "cells": [
+    "삼성생명보험",
+    "인터넷연금저축보험(무배당)",
+    "금리연동형",
+    "2013/10/14",
+    "중단",
+    "3,610",
+    "-3.27",
+    "-0.16",
+    "0.47",
+    "0.69",
+    "0.89",
+    "1.08",
+    "4.729"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=53",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=53",
+    "collected_at": "2026-09-23T08:31:47.214906+00:00",
+    "http_status": 200,
+    "sha256": "de449d6cd2af7aef23d19a9d076c779249f1218290860594ee499f6caa478ec0"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성생명보험",
+        "상품명": "인터넷연금저축보험(무배당)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2013/10/14",
+        "판매여부": "중단",
+        "적립금총액": "3,610",
+        "1년 연평균수익률(%)": "-3.27",
+        "3년 연평균수익률(%)": "-0.16",
+        "5년 연평균수익률(%)": "0.47",
+        "7년 연평균수익률(%)": "0.69",
+        "10년 연평균수익률(%)": "0.89",
+        "누적연평균수익률(%)": "1.08",
+        "연평균수수료율(%)": "4.729"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=53",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=53",
+        "collected_at": "2026-09-23T08:31:47.214906+00:00",
+        "http_status": 200,
+        "sha256": "de449d6cd2af7aef23d19a9d076c779249f1218290860594ee499f6caa478ec0"
+      }
+    }
+  ]
+}

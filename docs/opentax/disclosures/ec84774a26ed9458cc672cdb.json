@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.499ad7c882d39e99b42e3c3b",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:1f5c9e39f90d4dc63f4c2caf",
+  "group": "5",
+  "provider": "KB손해보험",
+  "title": "연금저축손해보험 LIG멀티플러스연금보험(L14.04)",
+  "cells": [
+    "KB손해보험",
+    "연금저축손해보험 LIG멀티플러스연금보험(L14.04)",
+    "금리연동형",
+    "2014/01/09",
+    "중단",
+    "86",
+    "-3.05",
+    "-0.06",
+    "0.52",
+    "0.71",
+    "0.98",
+    "1.12",
+    "5.02"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=47",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=47",
+    "collected_at": "2026-09-23T08:31:26.308085+00:00",
+    "http_status": 200,
+    "sha256": "b72872476bec417b5a9c60f662eb6fb5be836bd89f4473453a28766db53b3359"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB손해보험",
+        "상품명": "연금저축손해보험 LIG멀티플러스연금보험(L14.04)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2014/01/09",
+        "판매여부": "중단",
+        "적립금총액": "86",
+        "1년 연평균수익률(%)": "-3.05",
+        "3년 연평균수익률(%)": "-0.06",
+        "5년 연평균수익률(%)": "0.52",
+        "7년 연평균수익률(%)": "0.71",
+        "10년 연평균수익률(%)": "0.98",
+        "누적연평균수익률(%)": "1.12",
+        "연평균수수료율(%)": "5.02"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=47",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=47",
+        "collected_at": "2026-09-23T08:31:26.308085+00:00",
+        "http_status": 200,
+        "sha256": "b72872476bec417b5a9c60f662eb6fb5be836bd89f4473453a28766db53b3359"
+      }
+    }
+  ]
+}

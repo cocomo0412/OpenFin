@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.3fc6ca3ce20de110884aae47",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:1:ed1f109574192a36daabf068",
+  "group": "1",
+  "provider": "신한은행",
+  "title": "CHB연금저축신탁S-1호",
+  "cells": [
+    "신한은행",
+    "CHB연금저축신탁S-1호",
+    "안정형",
+    "2001/02/05",
+    "중단",
+    "31,849",
+    "8.57",
+    "6.65",
+    "4.08",
+    "2.98",
+    "2.52",
+    "3.09",
+    "9.65"
+  ],
+  "headers": [
+    "은행",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=3",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=3",
+    "collected_at": "2026-09-23T08:21:43.607429+00:00",
+    "http_status": 200,
+    "sha256": "b410058ee59979b57520628c9879670192090da652aa2aba8b23ccad412d6e5a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한은행",
+        "상품명": "CHB연금저축신탁S-1호",
+        "상품유형": "안정형",
+        "최초판매일": "2001/02/05",
+        "판매여부": "중단",
+        "적립금총액": "31,849",
+        "1년 연평균수익률(%)": "8.57",
+        "3년 연평균수익률(%)": "6.65",
+        "5년 연평균수익률(%)": "4.08",
+        "7년 연평균수익률(%)": "2.98",
+        "10년 연평균수익률(%)": "2.52",
+        "누적연평균수익률(%)": "3.09",
+        "연평균수수료율(%)": "9.65"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=3",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=3",
+        "collected_at": "2026-09-23T08:21:43.607429+00:00",
+        "http_status": 200,
+        "sha256": "b410058ee59979b57520628c9879670192090da652aa2aba8b23ccad412d6e5a"
+      }
+    }
+  ]
+}

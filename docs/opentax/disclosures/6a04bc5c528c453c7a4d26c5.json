@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.fa6dffd8cf54a2c94af1f4fd",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:f3fa2797883eb8d81aedd78d",
+  "group": "3",
+  "provider": "다올자산운용",
+  "title": "다올중국플러스찬스증권투자신탁[채권혼합] 종류C-P",
+  "cells": [
+    "다올자산운용",
+    "다올중국플러스찬스증권투자신탁[채권혼합] 종류C-P",
+    "혼합채권형",
+    "4",
+    "2015/06/04",
+    "판매",
+    "878",
+    "14.47",
+    "4.54",
+    "1.34",
+    "3.92",
+    "4.61",
+    "3.19",
+    "1.277",
+    "디비증권주식회사, 키움증권(주), NH농협은행, 대신증권주식회사, 미래에셋증권 주식회사, NH투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=195",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=195",
+    "collected_at": "2026-09-23T08:26:10.949151+00:00",
+    "http_status": 200,
+    "sha256": "1297610d1f95b4817d2814cdfeea24b1d8715539bd62ffbe8431653abd13c526"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "다올자산운용",
+        "상품명": "다올중국플러스찬스증권투자신탁[채권혼합] 종류C-P",
+        "상품유형": "혼합채권형",
+        "위험등급": "4",
+        "설정일": "2015/06/04",
+        "판매여부": "판매",
+        "순자산총액": "878",
+        "1년 연평균수익률(%)": "14.47",
+        "3년 연평균수익률(%)": "4.54",
+        "5년 연평균수익률(%)": "1.34",
+        "7년 연평균수익률(%)": "3.92",
+        "10년 연평균수익률(%)": "4.61",
+        "누적연평균수익률(%)": "3.19",
+        "연평균수수료율(%)": "1.277",
+        "상품 판매사": "디비증권주식회사, 키움증권(주), NH농협은행, 대신증권주식회사, 미래에셋증권 주식회사, NH투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=195",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=195",
+        "collected_at": "2026-09-23T08:26:10.949151+00:00",
+        "http_status": 200,
+        "sha256": "1297610d1f95b4817d2814cdfeea24b1d8715539bd62ffbe8431653abd13c526"
+      }
+    }
+  ]
+}

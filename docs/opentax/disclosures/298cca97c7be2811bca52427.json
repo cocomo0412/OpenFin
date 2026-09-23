@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.8d1ddbf0b83275ed7cc0e899",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:9809d4176e323d9dcd169dd1",
+  "group": "5",
+  "provider": "현대해상화재보험",
+  "title": "연금저축손해보험 노후사랑보험(Hi1404)",
+  "cells": [
+    "현대해상화재보험",
+    "연금저축손해보험 노후사랑보험(Hi1404)",
+    "금리연동형",
+    "2014/04/01",
+    "중단",
+    "23,759",
+    "-5.36",
+    "-0.99",
+    "-0.09",
+    "0.24",
+    "0.59",
+    "0.78",
+    "6.792"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=17",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=17",
+    "collected_at": "2026-09-23T08:22:02.310992+00:00",
+    "http_status": 200,
+    "sha256": "90f64d466dd97e96158f35801c2e32789d34a7f07ac2dcc4810c352794548a57"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "현대해상화재보험",
+        "상품명": "연금저축손해보험 노후사랑보험(Hi1404)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2014/04/01",
+        "판매여부": "중단",
+        "적립금총액": "23,759",
+        "1년 연평균수익률(%)": "-5.36",
+        "3년 연평균수익률(%)": "-0.99",
+        "5년 연평균수익률(%)": "-0.09",
+        "7년 연평균수익률(%)": "0.24",
+        "10년 연평균수익률(%)": "0.59",
+        "누적연평균수익률(%)": "0.78",
+        "연평균수수료율(%)": "6.792"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=17",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=17",
+        "collected_at": "2026-09-23T08:22:02.310992+00:00",
+        "http_status": 200,
+        "sha256": "90f64d466dd97e96158f35801c2e32789d34a7f07ac2dcc4810c352794548a57"
+      }
+    }
+  ]
+}

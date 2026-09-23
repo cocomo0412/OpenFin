@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.2ea1eb15ca2de10952cf4e19",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:2af2ce0914548e5d8b7cca30",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자GoldmanSachs미국테크증권자투자신탁UH(주식)(C-Pe)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자GoldmanSachs미국테크증권자투자신탁UH(주식)(C-Pe)",
+    "주식형",
+    "1",
+    "2025/08/28",
+    "판매",
+    "6,917",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "48.05",
+    "1.175",
+    "한국투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=91",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=91",
+    "collected_at": "2026-09-23T08:23:50.153333+00:00",
+    "http_status": 200,
+    "sha256": "f9b4065030a37bc9c65493816163b019b6be46991eaec0003f3971fc31a115bc"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자GoldmanSachs미국테크증권자투자신탁UH(주식)(C-Pe)",
+        "상품유형": "주식형",
+        "위험등급": "1",
+        "설정일": "2025/08/28",
+        "판매여부": "판매",
+        "순자산총액": "6,917",
+        "1년 연평균수익률(%)": "-",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "48.05",
+        "연평균수수료율(%)": "1.175",
+        "상품 판매사": "한국투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=91",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=91",
+        "collected_at": "2026-09-23T08:23:50.153333+00:00",
+        "http_status": 200,
+        "sha256": "f9b4065030a37bc9c65493816163b019b6be46991eaec0003f3971fc31a115bc"
+      }
+    }
+  ]
+}

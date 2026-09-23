@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.c2c4b9068cf2d4679a673748",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:c796ab77be616ea8a67d4b6b",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 한국 대표그룹주 증권 자투자신탁(주식) C-P 클래스",
+  "cells": [
+    "KB자산운용",
+    "KB 한국 대표그룹주 증권 자투자신탁(주식) C-P 클래스",
+    "주식형",
+    "2",
+    "2017/11/03",
+    "판매",
+    "2,456",
+    "189.38",
+    "56.86",
+    "27.24",
+    "27.07",
+    "-",
+    "19.23",
+    "1.519",
+    "광주은행, KB증권, KB국민은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=139",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=139",
+    "collected_at": "2026-09-23T08:24:55.420915+00:00",
+    "http_status": 200,
+    "sha256": "c8effe5ecccfd6e2450dd2a6fb5996e9d59ab714367472f8734729cda56f88af"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 한국 대표그룹주 증권 자투자신탁(주식) C-P 클래스",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2017/11/03",
+        "판매여부": "판매",
+        "순자산총액": "2,456",
+        "1년 연평균수익률(%)": "189.38",
+        "3년 연평균수익률(%)": "56.86",
+        "5년 연평균수익률(%)": "27.24",
+        "7년 연평균수익률(%)": "27.07",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "19.23",
+        "연평균수수료율(%)": "1.519",
+        "상품 판매사": "광주은행, KB증권, KB국민은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=139",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=139",
+        "collected_at": "2026-09-23T08:24:55.420915+00:00",
+        "http_status": 200,
+        "sha256": "c8effe5ecccfd6e2450dd2a6fb5996e9d59ab714367472f8734729cda56f88af"
+      }
+    }
+  ]
+}

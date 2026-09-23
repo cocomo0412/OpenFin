@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.846f949cc19a1b68f615b7e1",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:bb80092965e4f7b1d87174f8",
+  "group": "4",
+  "provider": "하나생명보험",
+  "title": "(무)행복knowhow플러스연금저축보험",
+  "cells": [
+    "하나생명보험",
+    "(무)행복knowhow플러스연금저축보험",
+    "금리연동형",
+    "2018/01/01",
+    "중단",
+    "22,982",
+    "-4.14",
+    "-0.57",
+    "0.17",
+    "0.50",
+    "-",
+    "0.68",
+    "5.128"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=26",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=26",
+    "collected_at": "2026-09-23T08:30:53.943364+00:00",
+    "http_status": 200,
+    "sha256": "7ce5d0d73f287069e851650f9982f744162fbc15a7615c7fd2da51b2c746950e"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "하나생명보험",
+        "상품명": "(무)행복knowhow플러스연금저축보험",
+        "상품유형": "금리연동형",
+        "최초판매일": "2018/01/01",
+        "판매여부": "중단",
+        "적립금총액": "22,982",
+        "1년 연평균수익률(%)": "-4.14",
+        "3년 연평균수익률(%)": "-0.57",
+        "5년 연평균수익률(%)": "0.17",
+        "7년 연평균수익률(%)": "0.50",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "0.68",
+        "연평균수수료율(%)": "5.128"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=26",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=26",
+        "collected_at": "2026-09-23T08:30:53.943364+00:00",
+        "http_status": 200,
+        "sha256": "7ce5d0d73f287069e851650f9982f744162fbc15a7615c7fd2da51b2c746950e"
+      }
+    }
+  ]
+}

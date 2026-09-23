@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.aab2b9a991ed0587db80f9a3",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:2b5eb158bf5360318a869e38",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB스타 단기 국공채 증권 자투자신탁(채권) C-P 클래스",
+  "cells": [
+    "KB자산운용",
+    "KB스타 단기 국공채 증권 자투자신탁(채권) C-P 클래스",
+    "채권형",
+    "6",
+    "2018/01/08",
+    "판매",
+    "13,660",
+    "1.71",
+    "3.03",
+    "2.44",
+    "2.07",
+    "-",
+    "2.05",
+    "0.248",
+    "KB증권, KB국민은행, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=61",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=61",
+    "collected_at": "2026-09-23T08:23:09.819729+00:00",
+    "http_status": 200,
+    "sha256": "7fcd88e567f8c51629295a865852015ba03874e14fb4904ba4444607fb506dd7"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB스타 단기 국공채 증권 자투자신탁(채권) C-P 클래스",
+        "상품유형": "채권형",
+        "위험등급": "6",
+        "설정일": "2018/01/08",
+        "판매여부": "판매",
+        "순자산총액": "13,660",
+        "1년 연평균수익률(%)": "1.71",
+        "3년 연평균수익률(%)": "3.03",
+        "5년 연평균수익률(%)": "2.44",
+        "7년 연평균수익률(%)": "2.07",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "2.05",
+        "연평균수수료율(%)": "0.248",
+        "상품 판매사": "KB증권, KB국민은행, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=61",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=61",
+        "collected_at": "2026-09-23T08:23:09.819729+00:00",
+        "http_status": 200,
+        "sha256": "7fcd88e567f8c51629295a865852015ba03874e14fb4904ba4444607fb506dd7"
+      }
+    }
+  ]
+}

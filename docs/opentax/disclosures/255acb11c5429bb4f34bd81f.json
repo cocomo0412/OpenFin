@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.6a769a16baffb8c18137620c",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:1fbadd19742f83843781e3bd",
+  "group": "3",
+  "provider": "교보악사자산운용",
+  "title": "교보악사위대한중소형밸류증권자투자신탁1호(주식)ClassC-P(연금)",
+  "cells": [
+    "교보악사자산운용",
+    "교보악사위대한중소형밸류증권자투자신탁1호(주식)ClassC-P(연금)",
+    "주식형",
+    "1",
+    "2018/04/13",
+    "판매",
+    "680",
+    "93.08",
+    "37.26",
+    "15.34",
+    "17.75",
+    "-",
+    "12.63",
+    "1.417",
+    "한화투자증권주식회사, 광주은행, KB증권, KB국민은행, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=213",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=213",
+    "collected_at": "2026-09-23T08:26:35.358969+00:00",
+    "http_status": 200,
+    "sha256": "0a27de6b8364e6e1a83dbb8f8f531d14668d3baf047ff5af8d84d8a259a1910b"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "교보악사자산운용",
+        "상품명": "교보악사위대한중소형밸류증권자투자신탁1호(주식)ClassC-P(연금)",
+        "상품유형": "주식형",
+        "위험등급": "1",
+        "설정일": "2018/04/13",
+        "판매여부": "판매",
+        "순자산총액": "680",
+        "1년 연평균수익률(%)": "93.08",
+        "3년 연평균수익률(%)": "37.26",
+        "5년 연평균수익률(%)": "15.34",
+        "7년 연평균수익률(%)": "17.75",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "12.63",
+        "연평균수수료율(%)": "1.417",
+        "상품 판매사": "한화투자증권주식회사, 광주은행, KB증권, KB국민은행, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=213",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=213",
+        "collected_at": "2026-09-23T08:26:35.358969+00:00",
+        "http_status": 200,
+        "sha256": "0a27de6b8364e6e1a83dbb8f8f531d14668d3baf047ff5af8d84d8a259a1910b"
+      }
+    }
+  ]
+}

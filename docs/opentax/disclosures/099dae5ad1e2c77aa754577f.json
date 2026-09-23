@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.d16682fbdbe670afc00381d5",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:8f8a12acde295af679013b17",
+  "group": "3",
+  "provider": "IBK자산운용",
+  "title": "IBK 플레인바닐라 EMP 증권투자신탁[혼합-재간접형] 종류 S-P",
+  "cells": [
+    "IBK자산운용",
+    "IBK 플레인바닐라 EMP 증권투자신탁[혼합-재간접형] 종류 S-P",
+    "재간접",
+    "3",
+    "2019/01/14",
+    "판매",
+    "9,158",
+    "39.56",
+    "19.43",
+    "8.14",
+    "9.20",
+    "-",
+    "10.44",
+    "0.817",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=79",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=79",
+    "collected_at": "2026-09-23T08:23:34.035069+00:00",
+    "http_status": 200,
+    "sha256": "678387e66e2003c416b6c712e99a081568bdc523e9be71e0541ab07be132d6c0"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "IBK자산운용",
+        "상품명": "IBK 플레인바닐라 EMP 증권투자신탁[혼합-재간접형] 종류 S-P",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2019/01/14",
+        "판매여부": "판매",
+        "순자산총액": "9,158",
+        "1년 연평균수익률(%)": "39.56",
+        "3년 연평균수익률(%)": "19.43",
+        "5년 연평균수익률(%)": "8.14",
+        "7년 연평균수익률(%)": "9.20",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "10.44",
+        "연평균수수료율(%)": "0.817",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=79",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=79",
+        "collected_at": "2026-09-23T08:23:34.035069+00:00",
+        "http_status": 200,
+        "sha256": "678387e66e2003c416b6c712e99a081568bdc523e9be71e0541ab07be132d6c0"
+      }
+    }
+  ]
+}

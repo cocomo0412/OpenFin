@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.2f0b1a7b8f4022cd613d4475",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:e8e92dc54b281b7315358ace",
+  "group": "5",
+  "provider": "삼성화재해상보험",
+  "title": "연금저축손해보험 삼성화재 연금보험 아름다운생활Ⅱ(2304.14)",
+  "cells": [
+    "삼성화재해상보험",
+    "연금저축손해보험 삼성화재 연금보험 아름다운생활Ⅱ(2304.14)",
+    "금리연동형",
+    "2023/04/24",
+    "중단",
+    "13,386",
+    "-3.59",
+    "-0.66",
+    "-",
+    "-",
+    "-",
+    "-0.59",
+    "4.53"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=23",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=23",
+    "collected_at": "2026-09-23T08:22:08.910673+00:00",
+    "http_status": 200,
+    "sha256": "2d489e1467d3656439358fb93e38d1af3ea797cad4d54322a058e374b0ba8eeb"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성화재해상보험",
+        "상품명": "연금저축손해보험 삼성화재 연금보험 아름다운생활Ⅱ(2304.14)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2023/04/24",
+        "판매여부": "중단",
+        "적립금총액": "13,386",
+        "1년 연평균수익률(%)": "-3.59",
+        "3년 연평균수익률(%)": "-0.66",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-0.59",
+        "연평균수수료율(%)": "4.53"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=23",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=23",
+        "collected_at": "2026-09-23T08:22:08.910673+00:00",
+        "http_status": 200,
+        "sha256": "2d489e1467d3656439358fb93e38d1af3ea797cad4d54322a058e374b0ba8eeb"
+      }
+    }
+  ]
+}

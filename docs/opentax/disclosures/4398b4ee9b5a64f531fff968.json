@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.3d4d8f809db9579cb44cad1d",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:897d002b2ae832ff9f980676",
+  "group": "4",
+  "provider": "아이비케이연금보험",
+  "title": "무배당 IBK 인터넷 하이브리드 연금저축보험_2501",
+  "cells": [
+    "아이비케이연금보험",
+    "무배당 IBK 인터넷 하이브리드 연금저축보험_2501",
+    "금리연동형",
+    "2025/01/01",
+    "중단",
+    "1,911",
+    "-2.09",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-0.90",
+    "4.000"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=60",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=60",
+    "collected_at": "2026-09-23T08:31:56.903189+00:00",
+    "http_status": 200,
+    "sha256": "92270358353067de892144266e5b1a9ed534f3cdd6e2ad665bada36521620870"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "아이비케이연금보험",
+        "상품명": "무배당 IBK 인터넷 하이브리드 연금저축보험_2501",
+        "상품유형": "금리연동형",
+        "최초판매일": "2025/01/01",
+        "판매여부": "중단",
+        "적립금총액": "1,911",
+        "1년 연평균수익률(%)": "-2.09",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-0.90",
+        "연평균수수료율(%)": "4.000"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=60",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=60",
+        "collected_at": "2026-09-23T08:31:56.903189+00:00",
+        "http_status": 200,
+        "sha256": "92270358353067de892144266e5b1a9ed534f3cdd6e2ad665bada36521620870"
+      }
+    }
+  ]
+}

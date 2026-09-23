@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.ce16116de0dfb999e72d8e20",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:bd2d2583da26d5f196069796",
+  "group": "3",
+  "provider": "교보악사자산운용",
+  "title": "교보악사파워인덱스증권투자신탁1호(주식-파생형)ClassS-P",
+  "cells": [
+    "교보악사자산운용",
+    "교보악사파워인덱스증권투자신탁1호(주식-파생형)ClassS-P",
+    "파생상품",
+    "2",
+    "2017/07/04",
+    "판매",
+    "13,352",
+    "237.87",
+    "63.35",
+    "28.72",
+    "28.71",
+    "-",
+    "20.77",
+    "0.308",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=62",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=62",
+    "collected_at": "2026-09-23T08:23:11.083138+00:00",
+    "http_status": 200,
+    "sha256": "37635972a21705b7fae0c094e73ed45885da1773aa18beaf8fc43e1749ab3155"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "교보악사자산운용",
+        "상품명": "교보악사파워인덱스증권투자신탁1호(주식-파생형)ClassS-P",
+        "상품유형": "파생상품",
+        "위험등급": "2",
+        "설정일": "2017/07/04",
+        "판매여부": "판매",
+        "순자산총액": "13,352",
+        "1년 연평균수익률(%)": "237.87",
+        "3년 연평균수익률(%)": "63.35",
+        "5년 연평균수익률(%)": "28.72",
+        "7년 연평균수익률(%)": "28.71",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "20.77",
+        "연평균수수료율(%)": "0.308",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=62",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=62",
+        "collected_at": "2026-09-23T08:23:11.083138+00:00",
+        "http_status": 200,
+        "sha256": "37635972a21705b7fae0c094e73ed45885da1773aa18beaf8fc43e1749ab3155"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.5f6554e10ae316623c2ab5f8",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:9b4701030d8b977bdc50a5a8",
+  "group": "3",
+  "provider": "신한자산운용",
+  "title": "신한유로인덱스증권자투자신탁(H)[주식-파생형](종류S-P)",
+  "cells": [
+    "신한자산운용",
+    "신한유로인덱스증권자투자신탁(H)[주식-파생형](종류S-P)",
+    "파생상품",
+    "3",
+    "2014/04/24",
+    "판매",
+    "425",
+    "19.53",
+    "14.72",
+    "11.49",
+    "11.34",
+    "11.04",
+    "8.33",
+    "0.307",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=242",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=242",
+    "collected_at": "2026-09-23T08:27:14.672185+00:00",
+    "http_status": 200,
+    "sha256": "3a18b730ab107860d2477270f179e42759ed32cb032d7524bcfa387f652c9f63"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한자산운용",
+        "상품명": "신한유로인덱스증권자투자신탁(H)[주식-파생형](종류S-P)",
+        "상품유형": "파생상품",
+        "위험등급": "3",
+        "설정일": "2014/04/24",
+        "판매여부": "판매",
+        "순자산총액": "425",
+        "1년 연평균수익률(%)": "19.53",
+        "3년 연평균수익률(%)": "14.72",
+        "5년 연평균수익률(%)": "11.49",
+        "7년 연평균수익률(%)": "11.34",
+        "10년 연평균수익률(%)": "11.04",
+        "누적연평균수익률(%)": "8.33",
+        "연평균수수료율(%)": "0.307",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=242",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=242",
+        "collected_at": "2026-09-23T08:27:14.672185+00:00",
+        "http_status": 200,
+        "sha256": "3a18b730ab107860d2477270f179e42759ed32cb032d7524bcfa387f652c9f63"
+      }
+    }
+  ]
+}

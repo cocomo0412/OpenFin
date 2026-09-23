@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.31f09fc85eaac044af3a0a61",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:c221782c54f46d6e28e47f5e",
+  "group": "3",
+  "provider": "NH-Amundi자산운용",
+  "title": "NH-Amundi 하나로 적격 TDF 2045 증권투자신탁[주식혼합-재간접형]Class C-P1(연금저축)",
+  "cells": [
+    "NH-Amundi자산운용",
+    "NH-Amundi 하나로 적격 TDF 2045 증권투자신탁[주식혼합-재간접형]Class C-P1(연금저축)",
+    "재간접",
+    "3",
+    "2019/10/31",
+    "판매",
+    "658",
+    "25.10",
+    "16.75",
+    "10.22",
+    "-",
+    "-",
+    "10.90",
+    "0.799",
+    "한화투자증권주식회사, NH농협은행, KB증권, KB국민은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=214",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=214",
+    "collected_at": "2026-09-23T08:26:36.904315+00:00",
+    "http_status": 200,
+    "sha256": "884d8a6e46ac94b4e7c56db83f723f003fb6ff2d5f11dd2b46c05f0e6b8a317a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "NH-Amundi자산운용",
+        "상품명": "NH-Amundi 하나로 적격 TDF 2045 증권투자신탁[주식혼합-재간접형]Class C-P1(연금저축)",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2019/10/31",
+        "판매여부": "판매",
+        "순자산총액": "658",
+        "1년 연평균수익률(%)": "25.10",
+        "3년 연평균수익률(%)": "16.75",
+        "5년 연평균수익률(%)": "10.22",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "10.90",
+        "연평균수수료율(%)": "0.799",
+        "상품 판매사": "한화투자증권주식회사, NH농협은행, KB증권, KB국민은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=214",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=214",
+        "collected_at": "2026-09-23T08:26:36.904315+00:00",
+        "http_status": 200,
+        "sha256": "884d8a6e46ac94b4e7c56db83f723f003fb6ff2d5f11dd2b46c05f0e6b8a317a"
+      }
+    }
+  ]
+}

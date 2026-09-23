@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.d7e62b776240bd769bd46266",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:6807ec563e6836b2d6189abc",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋참신한리밸런싱연금저축증권투자신탁1호(채권혼합-재간접형)종류C",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋참신한리밸런싱연금저축증권투자신탁1호(채권혼합-재간접형)종류C",
+    "재간접",
+    "4",
+    "2016/04/11",
+    "판매",
+    "11,893",
+    "16.21",
+    "12.78",
+    "7.48",
+    "7.83",
+    "5.75",
+    "5.59",
+    "1.108",
+    "신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=66",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=66",
+    "collected_at": "2026-09-23T08:23:16.508967+00:00",
+    "http_status": 200,
+    "sha256": "f9511fb48bc4ef7f549a54c25fe80570b183cb2f1a0d66ece694cc5bb3b1c1b0"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋참신한리밸런싱연금저축증권투자신탁1호(채권혼합-재간접형)종류C",
+        "상품유형": "재간접",
+        "위험등급": "4",
+        "설정일": "2016/04/11",
+        "판매여부": "판매",
+        "순자산총액": "11,893",
+        "1년 연평균수익률(%)": "16.21",
+        "3년 연평균수익률(%)": "12.78",
+        "5년 연평균수익률(%)": "7.48",
+        "7년 연평균수익률(%)": "7.83",
+        "10년 연평균수익률(%)": "5.75",
+        "누적연평균수익률(%)": "5.59",
+        "연평균수수료율(%)": "1.108",
+        "상품 판매사": "신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=66",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=66",
+        "collected_at": "2026-09-23T08:23:16.508967+00:00",
+        "http_status": 200,
+        "sha256": "f9511fb48bc4ef7f549a54c25fe80570b183cb2f1a0d66ece694cc5bb3b1c1b0"
+      }
+    }
+  ]
+}

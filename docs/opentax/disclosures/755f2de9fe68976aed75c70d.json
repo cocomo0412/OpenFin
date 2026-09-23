@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.ebc242781cd54b8131783cd2",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:29e67e7d993704eb1a80eda0",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성클래식일본중소형FOCUS연금증권자투자신탁UH[주식]_Ce",
+  "cells": [
+    "삼성자산운용",
+    "삼성클래식일본중소형FOCUS연금증권자투자신탁UH[주식]_Ce",
+    "주식형",
+    "2",
+    "2015/08/25",
+    "판매",
+    "492",
+    "36.90",
+    "19.36",
+    "10.53",
+    "8.91",
+    "10.07",
+    "10.59",
+    "1.368",
+    "키움증권(주), 한국투자증권, 삼성증권, KB증권, 신영증권주식회사, 미래에셋증권 주식회사, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=233",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=233",
+    "collected_at": "2026-09-23T08:27:02.708422+00:00",
+    "http_status": 200,
+    "sha256": "103962fa427edfa65f134af3aa5a043b16c6d432de866596afe877e2eb2e92a2"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성클래식일본중소형FOCUS연금증권자투자신탁UH[주식]_Ce",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2015/08/25",
+        "판매여부": "판매",
+        "순자산총액": "492",
+        "1년 연평균수익률(%)": "36.90",
+        "3년 연평균수익률(%)": "19.36",
+        "5년 연평균수익률(%)": "10.53",
+        "7년 연평균수익률(%)": "8.91",
+        "10년 연평균수익률(%)": "10.07",
+        "누적연평균수익률(%)": "10.59",
+        "연평균수수료율(%)": "1.368",
+        "상품 판매사": "키움증권(주), 한국투자증권, 삼성증권, KB증권, 신영증권주식회사, 미래에셋증권 주식회사, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=233",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=233",
+        "collected_at": "2026-09-23T08:27:02.708422+00:00",
+        "http_status": 200,
+        "sha256": "103962fa427edfa65f134af3aa5a043b16c6d432de866596afe877e2eb2e92a2"
+      }
+    }
+  ]
+}

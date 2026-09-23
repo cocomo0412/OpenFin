@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.6f4d1906954e11ce2c9f1d2f",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:f854178f507a840f7b0c0c75",
+  "group": "4",
+  "provider": "교보라이프플래닛생명보험",
+  "title": "무배당라이프플래닛e연금저축보험(유니버셜)",
+  "cells": [
+    "교보라이프플래닛생명보험",
+    "무배당라이프플래닛e연금저축보험(유니버셜)",
+    "금리연동형",
+    "2013/11/24",
+    "중단",
+    "29,143",
+    "-2.80",
+    "0.13",
+    "0.69",
+    "0.90",
+    "1.06",
+    "1.27",
+    "4.036"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=23",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=23",
+    "collected_at": "2026-09-23T08:30:44.794380+00:00",
+    "http_status": 200,
+    "sha256": "bca9e0c426b0434af10e3827ef7bd684b322c5094ad36c8958f8d0f478b98e0b"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "교보라이프플래닛생명보험",
+        "상품명": "무배당라이프플래닛e연금저축보험(유니버셜)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2013/11/24",
+        "판매여부": "중단",
+        "적립금총액": "29,143",
+        "1년 연평균수익률(%)": "-2.80",
+        "3년 연평균수익률(%)": "0.13",
+        "5년 연평균수익률(%)": "0.69",
+        "7년 연평균수익률(%)": "0.90",
+        "10년 연평균수익률(%)": "1.06",
+        "누적연평균수익률(%)": "1.27",
+        "연평균수수료율(%)": "4.036"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=23",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=23",
+        "collected_at": "2026-09-23T08:30:44.794380+00:00",
+        "http_status": 200,
+        "sha256": "bca9e0c426b0434af10e3827ef7bd684b322c5094ad36c8958f8d0f478b98e0b"
+      }
+    }
+  ]
+}

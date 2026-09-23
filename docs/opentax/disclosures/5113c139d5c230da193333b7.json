@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.08166e3cd23818e8cdd222fb",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:e7480da7f33db22186df8b9e",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB RISE 미국AI클라우드인프라 증권 상장지수 투자신탁(주식)",
+  "cells": [
+    "KB자산운용",
+    "KB RISE 미국AI클라우드인프라 증권 상장지수 투자신탁(주식)",
+    "주식형",
+    "2",
+    "2025/11/21",
+    "판매",
+    "3,961",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "237.02",
+    "0.520",
+    "메리츠증권(주), 한국투자증권, 삼성증권, 교보증권(주), KB증권, 아이엠증권, 신영증권주식회사, 미래에셋증권 주식회사, 주식회사 카카오페이증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=115",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=115",
+    "collected_at": "2026-09-23T08:24:22.546381+00:00",
+    "http_status": 200,
+    "sha256": "5cebd1af8a884e21010136426aef86fa4c77c8973db5cbf4a0dbee648c0cbe91"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB RISE 미국AI클라우드인프라 증권 상장지수 투자신탁(주식)",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2025/11/21",
+        "판매여부": "판매",
+        "순자산총액": "3,961",
+        "1년 연평균수익률(%)": "-",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "237.02",
+        "연평균수수료율(%)": "0.520",
+        "상품 판매사": "메리츠증권(주), 한국투자증권, 삼성증권, 교보증권(주), KB증권, 아이엠증권, 신영증권주식회사, 미래에셋증권 주식회사, 주식회사 카카오페이증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=115",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=115",
+        "collected_at": "2026-09-23T08:24:22.546381+00:00",
+        "http_status": 200,
+        "sha256": "5cebd1af8a884e21010136426aef86fa4c77c8973db5cbf4a0dbee648c0cbe91"
+      }
+    }
+  ]
+}

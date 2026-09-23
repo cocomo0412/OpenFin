@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.f30347a8a7ad59319e284977",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:fe640923513d5c7009c82799",
+  "group": "3",
+  "provider": "IBK자산운용",
+  "title": "IBK 내일출금 단기국공채 증권자투자신탁[채권] 종류 C-P",
+  "cells": [
+    "IBK자산운용",
+    "IBK 내일출금 단기국공채 증권자투자신탁[채권] 종류 C-P",
+    "채권형",
+    "6",
+    "2016/05/13",
+    "판매",
+    "497",
+    "2.17",
+    "3.15",
+    "2.75",
+    "2.28",
+    "2.05",
+    "2.04",
+    "0.191",
+    "유진투자증권주식회사, 한국투자증권, KB증권, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=232",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=232",
+    "collected_at": "2026-09-23T08:27:01.506317+00:00",
+    "http_status": 200,
+    "sha256": "6457b7d444dd3bfdfafb451d0c86b01afd6aba95d67cd987fdf4c44246296d77"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "IBK자산운용",
+        "상품명": "IBK 내일출금 단기국공채 증권자투자신탁[채권] 종류 C-P",
+        "상품유형": "채권형",
+        "위험등급": "6",
+        "설정일": "2016/05/13",
+        "판매여부": "판매",
+        "순자산총액": "497",
+        "1년 연평균수익률(%)": "2.17",
+        "3년 연평균수익률(%)": "3.15",
+        "5년 연평균수익률(%)": "2.75",
+        "7년 연평균수익률(%)": "2.28",
+        "10년 연평균수익률(%)": "2.05",
+        "누적연평균수익률(%)": "2.04",
+        "연평균수수료율(%)": "0.191",
+        "상품 판매사": "유진투자증권주식회사, 한국투자증권, KB증권, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=232",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=232",
+        "collected_at": "2026-09-23T08:27:01.506317+00:00",
+        "http_status": 200,
+        "sha256": "6457b7d444dd3bfdfafb451d0c86b01afd6aba95d67cd987fdf4c44246296d77"
+      }
+    }
+  ]
+}

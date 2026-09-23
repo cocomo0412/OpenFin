@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.e146e4f305d4cecb3c93981d",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:189956a4a39c6690e4a63916",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋TIGER모닝스타글로벌자원생산기업증권상장지수투자신탁(주식-파생형)(합성H)",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋TIGER모닝스타글로벌자원생산기업증권상장지수투자신탁(주식-파생형)(합성H)",
+    "주식형",
+    "2",
+    "2017/07/28",
+    "판매",
+    "1,091",
+    "23.76",
+    "8.48",
+    "6.85",
+    "7.40",
+    "-",
+    "7.29",
+    "0.481",
+    "한화투자증권주식회사, 하나증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, KB증권, 대신증권주식회사, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=184",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=184",
+    "collected_at": "2026-09-23T08:25:55.879294+00:00",
+    "http_status": 200,
+    "sha256": "d46a86167fa184684212c7cd9186f996fddb04b8407fa428eda9ede21f6c0ec7"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋TIGER모닝스타글로벌자원생산기업증권상장지수투자신탁(주식-파생형)(합성H)",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2017/07/28",
+        "판매여부": "판매",
+        "순자산총액": "1,091",
+        "1년 연평균수익률(%)": "23.76",
+        "3년 연평균수익률(%)": "8.48",
+        "5년 연평균수익률(%)": "6.85",
+        "7년 연평균수익률(%)": "7.40",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "7.29",
+        "연평균수수료율(%)": "0.481",
+        "상품 판매사": "한화투자증권주식회사, 하나증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, KB증권, 대신증권주식회사, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=184",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=184",
+        "collected_at": "2026-09-23T08:25:55.879294+00:00",
+        "http_status": 200,
+        "sha256": "d46a86167fa184684212c7cd9186f996fddb04b8407fa428eda9ede21f6c0ec7"
+      }
+    }
+  ]
+}

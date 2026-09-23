@@ -1,0 +1,52 @@
+{
+  "id": "finance.insurance.klia.whole-life.라이나생명.l5102460001nn0000024700020244000102440001000102440001000100010244000100010001000100318",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L5102460001NN0000024700020244000102440001000102440001000100010244000100010001000100318",
+  "group": "024400010001",
+  "title": "(무)THE건강해지는종신보험(기본형)_가입금액형",
+  "provider": "라이나생명",
+  "cells": [
+    "라이나생명",
+    "(무)THE건강해지는종신보험(기본형)_가입금액형",
+    "주계약",
+    "사망보험금 *지급사유 : 피보험자가 보험기간 중 사망한 경우",
+    "10,000만원",
+    "240,000 원",
+    "219,000 원",
+    "2.25 %",
+    "-",
+    "-",
+    "92.7 %",
+    "94.1 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "기본형",
+    "일반",
+    "-",
+    "-",
+    "-",
+    "-",
+    "비유니버셜",
+    "대면채널",
+    "2026-04-01",
+    "Download",
+    "보기",
+    "15880058"
+  ],
+  "coverage": [
+    "사망보험금 *지급사유 : 피보험자가 보험기간 중 사망한 경우",
+    "무배당 아나필락시스쇼크진단특약 *지급사유 : 피보험자가 보험기간 중 아나필락시스쇼크로 진 단확정 되었을 때 (다만, 최초 1회에 한하여 지급함)"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=27744&seq=14"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=17&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=17&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:35.026056+00:00",
+    "http_status": 200,
+    "sha256": "54288044548b6c15049e39e4a444a114e90fe5dd1c09ee8e19810b0a7eb1a6ff"
+  }
+}

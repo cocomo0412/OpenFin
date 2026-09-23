@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.6852ac79352ad7a568eb543e",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:cedfdce28956b4f13a7f5024",
+  "group": "3",
+  "provider": "한화자산운용",
+  "title": "한화 PLUS 국채선물3년증권상장지수투자신탁(채권-파생형)",
+  "cells": [
+    "한화자산운용",
+    "한화 PLUS 국채선물3년증권상장지수투자신탁(채권-파생형)",
+    "파생상품",
+    "5",
+    "2018/06/07",
+    "판매",
+    "44",
+    "-0.28",
+    "2.52",
+    "1.32",
+    "1.27",
+    "-",
+    "1.62",
+    "0.141",
+    "한화투자증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, KB증권, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=304",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=304",
+    "collected_at": "2026-09-23T08:28:37.102495+00:00",
+    "http_status": 200,
+    "sha256": "a72539c53d3c3f53041150bfad79ea9944e275d100fdece1e033d611b4f77598"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한화자산운용",
+        "상품명": "한화 PLUS 국채선물3년증권상장지수투자신탁(채권-파생형)",
+        "상품유형": "파생상품",
+        "위험등급": "5",
+        "설정일": "2018/06/07",
+        "판매여부": "판매",
+        "순자산총액": "44",
+        "1년 연평균수익률(%)": "-0.28",
+        "3년 연평균수익률(%)": "2.52",
+        "5년 연평균수익률(%)": "1.32",
+        "7년 연평균수익률(%)": "1.27",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "1.62",
+        "연평균수수료율(%)": "0.141",
+        "상품 판매사": "한화투자증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, KB증권, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=304",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=304",
+        "collected_at": "2026-09-23T08:28:37.102495+00:00",
+        "http_status": 200,
+        "sha256": "a72539c53d3c3f53041150bfad79ea9944e275d100fdece1e033d611b4f77598"
+      }
+    }
+  ]
+}

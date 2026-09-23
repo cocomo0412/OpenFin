@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.2a873af4d849ca1e77f5fccd",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:02cae2dc6aa5b5075529d7a5",
+  "group": "3",
+  "provider": "피델리티자산운용",
+  "title": "피델리티 글로벌 테크놀로지 증권 자투자신탁 (주식-재간접형) 종류 PRS",
+  "cells": [
+    "피델리티자산운용",
+    "피델리티 글로벌 테크놀로지 증권 자투자신탁 (주식-재간접형) 종류 PRS",
+    "재간접",
+    "2",
+    "2016/04/27",
+    "판매",
+    "273,506",
+    "21.91",
+    "20.03",
+    "11.59",
+    "18.28",
+    "19.15",
+    "18.82",
+    "0.737",
+    "유진투자증권주식회사, 한화투자증권주식회사, 삼성생명보험주식회사, NH농협은행, 유안타증권주식회사, 한국투자증권, SK증권주식회사, 삼성증권, 우리은행, KB증권, 대신증권주식회사, 아이엠증권, 신한은행, KB국민은행, 신영증권주식회사, 미래에셋증권 주식회사, IBK투자증권, NH투자증권, 신한투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=5",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=5",
+    "collected_at": "2026-09-23T08:21:49.104325+00:00",
+    "http_status": 200,
+    "sha256": "9ccfb5a2adf2b4e8183c51707978ebad40c426e86ebd7543b6be636bd69c400e"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "피델리티자산운용",
+        "상품명": "피델리티 글로벌 테크놀로지 증권 자투자신탁 (주식-재간접형) 종류 PRS",
+        "상품유형": "재간접",
+        "위험등급": "2",
+        "설정일": "2016/04/27",
+        "판매여부": "판매",
+        "순자산총액": "273,506",
+        "1년 연평균수익률(%)": "21.91",
+        "3년 연평균수익률(%)": "20.03",
+        "5년 연평균수익률(%)": "11.59",
+        "7년 연평균수익률(%)": "18.28",
+        "10년 연평균수익률(%)": "19.15",
+        "누적연평균수익률(%)": "18.82",
+        "연평균수수료율(%)": "0.737",
+        "상품 판매사": "유진투자증권주식회사, 한화투자증권주식회사, 삼성생명보험주식회사, NH농협은행, 유안타증권주식회사, 한국투자증권, SK증권주식회사, 삼성증권, 우리은행, KB증권, 대신증권주식회사, 아이엠증권, 신한은행, KB국민은행, 신영증권주식회사, 미래에셋증권 주식회사, IBK투자증권, NH투자증권, 신한투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=5",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=5",
+        "collected_at": "2026-09-23T08:21:49.104325+00:00",
+        "http_status": 200,
+        "sha256": "9ccfb5a2adf2b4e8183c51707978ebad40c426e86ebd7543b6be636bd69c400e"
+      }
+    }
+  ]
+}

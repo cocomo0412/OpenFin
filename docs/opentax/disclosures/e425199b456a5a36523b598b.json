@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.9faa85f3589d46355fccd456",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:9ad56800c0b9ae225985e27c",
+  "group": "3",
+  "provider": "KCGI자산운용",
+  "title": "KCGI주니어증권자투자신탁[주식-재간접형]종류C-P",
+  "cells": [
+    "KCGI자산운용",
+    "KCGI주니어증권자투자신탁[주식-재간접형]종류C-P",
+    "재간접",
+    "2",
+    "2020/06/29",
+    "판매",
+    "408",
+    "59.31",
+    "25.83",
+    "13.91",
+    "-",
+    "-",
+    "17.78",
+    "0.727",
+    "한양증권주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=244",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=244",
+    "collected_at": "2026-09-23T08:27:17.138291+00:00",
+    "http_status": 200,
+    "sha256": "734a6ef7b5c5eab65a9c0ca5a1cfad8976f226910e5777f6864f21ce02a3287c"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KCGI자산운용",
+        "상품명": "KCGI주니어증권자투자신탁[주식-재간접형]종류C-P",
+        "상품유형": "재간접",
+        "위험등급": "2",
+        "설정일": "2020/06/29",
+        "판매여부": "판매",
+        "순자산총액": "408",
+        "1년 연평균수익률(%)": "59.31",
+        "3년 연평균수익률(%)": "25.83",
+        "5년 연평균수익률(%)": "13.91",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "17.78",
+        "연평균수수료율(%)": "0.727",
+        "상품 판매사": "한양증권주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=244",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=244",
+        "collected_at": "2026-09-23T08:27:17.138291+00:00",
+        "http_status": 200,
+        "sha256": "734a6ef7b5c5eab65a9c0ca5a1cfad8976f226910e5777f6864f21ce02a3287c"
+      }
+    }
+  ]
+}

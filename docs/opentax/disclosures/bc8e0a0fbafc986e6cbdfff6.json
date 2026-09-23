@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.45f4459d3ad5bbf5307337d2",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:13c459b9a8426ef6f3516dfd",
+  "group": "4",
+  "provider": "케이디비생명보험",
+  "title": "(연금저축)New-노후사랑연금보험(확정연금형)",
+  "cells": [
+    "케이디비생명보험",
+    "(연금저축)New-노후사랑연금보험(확정연금형)",
+    "금리연동형",
+    "2003/02/03",
+    "중단",
+    "3,038",
+    "-9.06",
+    "-1.16",
+    "0.69",
+    "1.51",
+    "2.10",
+    "2.29",
+    "10.261"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=55",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=55",
+    "collected_at": "2026-09-23T08:31:49.990294+00:00",
+    "http_status": 200,
+    "sha256": "a0116260d9e0ac0997237ae0cbe3ca50eb121fd1352044199aed24b40bb2dd7f"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "케이디비생명보험",
+        "상품명": "(연금저축)New-노후사랑연금보험(확정연금형)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2003/02/03",
+        "판매여부": "중단",
+        "적립금총액": "3,038",
+        "1년 연평균수익률(%)": "-9.06",
+        "3년 연평균수익률(%)": "-1.16",
+        "5년 연평균수익률(%)": "0.69",
+        "7년 연평균수익률(%)": "1.51",
+        "10년 연평균수익률(%)": "2.10",
+        "누적연평균수익률(%)": "2.29",
+        "연평균수수료율(%)": "10.261"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=55",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=55",
+        "collected_at": "2026-09-23T08:31:49.990294+00:00",
+        "http_status": 200,
+        "sha256": "a0116260d9e0ac0997237ae0cbe3ca50eb121fd1352044199aed24b40bb2dd7f"
+      }
+    }
+  ]
+}

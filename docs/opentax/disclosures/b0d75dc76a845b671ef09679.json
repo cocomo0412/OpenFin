@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.8e34dd32c206250a2ca860d8",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:d17818d7ddcb3a96aef5329d",
+  "group": "3",
+  "provider": "KCGI자산운용",
+  "title": "KCGI코리아연금증권전환형자투자신탁1호[주식]종류C-1",
+  "cells": [
+    "KCGI자산운용",
+    "KCGI코리아연금증권전환형자투자신탁1호[주식]종류C-1",
+    "주식형",
+    "2",
+    "2009/11/02",
+    "판매",
+    "45,430",
+    "134.32",
+    "57.48",
+    "26.06",
+    "27.57",
+    "16.83",
+    "12.61",
+    "1.543",
+    "(주)우리투자증권, 광주은행, 유안타증권주식회사, SK증권주식회사, KB증권, 대신증권주식회사, LS증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=26",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=26",
+    "collected_at": "2026-09-23T08:22:21.490681+00:00",
+    "http_status": 200,
+    "sha256": "8ae01df62795d80951ce41057a88c08166886a5ab70301f445d0d2be7e18faf6"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KCGI자산운용",
+        "상품명": "KCGI코리아연금증권전환형자투자신탁1호[주식]종류C-1",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2009/11/02",
+        "판매여부": "판매",
+        "순자산총액": "45,430",
+        "1년 연평균수익률(%)": "134.32",
+        "3년 연평균수익률(%)": "57.48",
+        "5년 연평균수익률(%)": "26.06",
+        "7년 연평균수익률(%)": "27.57",
+        "10년 연평균수익률(%)": "16.83",
+        "누적연평균수익률(%)": "12.61",
+        "연평균수수료율(%)": "1.543",
+        "상품 판매사": "(주)우리투자증권, 광주은행, 유안타증권주식회사, SK증권주식회사, KB증권, 대신증권주식회사, LS증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=26",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=26",
+        "collected_at": "2026-09-23T08:22:21.490681+00:00",
+        "http_status": 200,
+        "sha256": "8ae01df62795d80951ce41057a88c08166886a5ab70301f445d0d2be7e18faf6"
+      }
+    }
+  ]
+}

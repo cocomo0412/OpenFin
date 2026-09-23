@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.f08aabc8735e511b5edb9e98",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:688862c6a520869e69e845f8",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB PIMCO 글로벌 인컴 셀렉션 증권 자투자신탁(채권-재간접형)(H) C-P 클래스",
+  "cells": [
+    "KB자산운용",
+    "KB PIMCO 글로벌 인컴 셀렉션 증권 자투자신탁(채권-재간접형)(H) C-P 클래스",
+    "재간접",
+    "5",
+    "2017/05/15",
+    "판매",
+    "446",
+    "4.28",
+    "4.25",
+    "0.88",
+    "1.45",
+    "-",
+    "1.67",
+    "0.989",
+    "한화투자증권주식회사, 한국투자증권, KB증권, KB국민은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=239",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=239",
+    "collected_at": "2026-09-23T08:27:10.713404+00:00",
+    "http_status": 200,
+    "sha256": "a8f0a8add737a410f0ab404cee4245d53a34ac145aba39299ea07a0e5517e233"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB PIMCO 글로벌 인컴 셀렉션 증권 자투자신탁(채권-재간접형)(H) C-P 클래스",
+        "상품유형": "재간접",
+        "위험등급": "5",
+        "설정일": "2017/05/15",
+        "판매여부": "판매",
+        "순자산총액": "446",
+        "1년 연평균수익률(%)": "4.28",
+        "3년 연평균수익률(%)": "4.25",
+        "5년 연평균수익률(%)": "0.88",
+        "7년 연평균수익률(%)": "1.45",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "1.67",
+        "연평균수수료율(%)": "0.989",
+        "상품 판매사": "한화투자증권주식회사, 한국투자증권, KB증권, KB국민은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=239",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=239",
+        "collected_at": "2026-09-23T08:27:10.713404+00:00",
+        "http_status": 200,
+        "sha256": "a8f0a8add737a410f0ab404cee4245d53a34ac145aba39299ea07a0e5517e233"
+      }
+    }
+  ]
+}

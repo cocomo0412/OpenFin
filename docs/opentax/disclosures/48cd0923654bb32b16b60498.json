@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.e36fe3bd67ef68e8c3983e40",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:bb9b89e79bb0ce2eb7812595",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성아문디유럽중소형증권자투자신탁H[주식-재간접형]_C-P",
+  "cells": [
+    "삼성자산운용",
+    "삼성아문디유럽중소형증권자투자신탁H[주식-재간접형]_C-P",
+    "재간접",
+    "3",
+    "2015/05/06",
+    "판매",
+    "299",
+    "1.35",
+    "7.04",
+    "0.90",
+    "4.21",
+    "4.92",
+    "2.70",
+    "0.934",
+    "키움증권(주), 삼성생명보험주식회사, NH농협은행, 한국투자증권, 삼성증권, KB증권, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=260",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=260",
+    "collected_at": "2026-09-23T08:27:38.997437+00:00",
+    "http_status": 200,
+    "sha256": "6e4f2280d658dbef7f15168f5ead8bb38e6f1c502d1585ac9ce0ae1696166ef0"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성아문디유럽중소형증권자투자신탁H[주식-재간접형]_C-P",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2015/05/06",
+        "판매여부": "판매",
+        "순자산총액": "299",
+        "1년 연평균수익률(%)": "1.35",
+        "3년 연평균수익률(%)": "7.04",
+        "5년 연평균수익률(%)": "0.90",
+        "7년 연평균수익률(%)": "4.21",
+        "10년 연평균수익률(%)": "4.92",
+        "누적연평균수익률(%)": "2.70",
+        "연평균수수료율(%)": "0.934",
+        "상품 판매사": "키움증권(주), 삼성생명보험주식회사, NH농협은행, 한국투자증권, 삼성증권, KB증권, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=260",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=260",
+        "collected_at": "2026-09-23T08:27:38.997437+00:00",
+        "http_status": 200,
+        "sha256": "6e4f2280d658dbef7f15168f5ead8bb38e6f1c502d1585ac9ce0ae1696166ef0"
+      }
+    }
+  ]
+}

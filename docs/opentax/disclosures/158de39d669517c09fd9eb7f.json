@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.38a223aaae96c0cc5fe97fc0",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:72b6048a711621acd04f6163",
+  "group": "3",
+  "provider": "KCGI자산운용",
+  "title": "케이씨지아이더우먼증권투자회사[주식]종류C-Pe",
+  "cells": [
+    "KCGI자산운용",
+    "케이씨지아이더우먼증권투자회사[주식]종류C-Pe",
+    "주식형",
+    "2",
+    "2018/11/06",
+    "판매",
+    "12,636",
+    "98.02",
+    "47.10",
+    "20.29",
+    "21.39",
+    "-",
+    "19.58",
+    "1.332",
+    "한화투자증권주식회사, (주)우리투자증권, KB증권, KB국민은행, KCGI자산운용"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=64",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=64",
+    "collected_at": "2026-09-23T08:23:13.608510+00:00",
+    "http_status": 200,
+    "sha256": "27a9f0c75374f8dec1656cfe331bc22b888805122ea337e3d852319a65209098"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KCGI자산운용",
+        "상품명": "케이씨지아이더우먼증권투자회사[주식]종류C-Pe",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2018/11/06",
+        "판매여부": "판매",
+        "순자산총액": "12,636",
+        "1년 연평균수익률(%)": "98.02",
+        "3년 연평균수익률(%)": "47.10",
+        "5년 연평균수익률(%)": "20.29",
+        "7년 연평균수익률(%)": "21.39",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "19.58",
+        "연평균수수료율(%)": "1.332",
+        "상품 판매사": "한화투자증권주식회사, (주)우리투자증권, KB증권, KB국민은행, KCGI자산운용"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=64",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=64",
+        "collected_at": "2026-09-23T08:23:13.608510+00:00",
+        "http_status": 200,
+        "sha256": "27a9f0c75374f8dec1656cfe331bc22b888805122ea337e3d852319a65209098"
+      }
+    }
+  ]
+}

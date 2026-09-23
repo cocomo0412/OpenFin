@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.101d2bd84519cec8ac1ecb0f",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:ed333a567b0a2debe61ad334",
+  "group": "5",
+  "provider": "DB손해보험",
+  "title": "연금저축손해보험 다이렉트미래설계보험1304",
+  "cells": [
+    "DB손해보험",
+    "연금저축손해보험 다이렉트미래설계보험1304",
+    "금리연동형",
+    "2009/02/02",
+    "중단",
+    "128",
+    "-18.16",
+    "-1.06",
+    "0.32",
+    "0.75",
+    "1.01",
+    "1.78",
+    "0.346"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=45",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=45",
+    "collected_at": "2026-09-23T08:31:21.639058+00:00",
+    "http_status": 200,
+    "sha256": "385f58c3f7af17af8026391da643e62bb529cf14893f815a2beebec648fde416"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "DB손해보험",
+        "상품명": "연금저축손해보험 다이렉트미래설계보험1304",
+        "상품유형": "금리연동형",
+        "최초판매일": "2009/02/02",
+        "판매여부": "중단",
+        "적립금총액": "128",
+        "1년 연평균수익률(%)": "-18.16",
+        "3년 연평균수익률(%)": "-1.06",
+        "5년 연평균수익률(%)": "0.32",
+        "7년 연평균수익률(%)": "0.75",
+        "10년 연평균수익률(%)": "1.01",
+        "누적연평균수익률(%)": "1.78",
+        "연평균수수료율(%)": "0.346"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=45",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=45",
+        "collected_at": "2026-09-23T08:31:21.639058+00:00",
+        "http_status": 200,
+        "sha256": "385f58c3f7af17af8026391da643e62bb529cf14893f815a2beebec648fde416"
+      }
+    }
+  ]
+}

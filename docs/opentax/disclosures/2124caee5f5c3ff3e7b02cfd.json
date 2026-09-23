@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.4e1ac6993d5dd3fcbe6ec88d",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:db50a113b4c1f8867b9e2f5f",
+  "group": "3",
+  "provider": "베어링자산운용",
+  "title": "베어링 글로벌 이머징 마켓 증권자투자신탁[H](주식-재간접형)Class C-Pe",
+  "cells": [
+    "베어링자산운용",
+    "베어링 글로벌 이머징 마켓 증권자투자신탁[H](주식-재간접형)Class C-Pe",
+    "재간접",
+    "3",
+    "2018/01/16",
+    "판매",
+    "303",
+    "42.88",
+    "17.63",
+    "5.32",
+    "6.42",
+    "-",
+    "3.97",
+    "0.592",
+    "한화투자증권주식회사, NH농협은행, 한국투자증권, 삼성증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=259",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=259",
+    "collected_at": "2026-09-23T08:27:37.413060+00:00",
+    "http_status": 200,
+    "sha256": "1409d104e8028e6bd05b8e8aa186e7695ad06e82870053e8fe2dea5e95390260"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "베어링자산운용",
+        "상품명": "베어링 글로벌 이머징 마켓 증권자투자신탁[H](주식-재간접형)Class C-Pe",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2018/01/16",
+        "판매여부": "판매",
+        "순자산총액": "303",
+        "1년 연평균수익률(%)": "42.88",
+        "3년 연평균수익률(%)": "17.63",
+        "5년 연평균수익률(%)": "5.32",
+        "7년 연평균수익률(%)": "6.42",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "3.97",
+        "연평균수수료율(%)": "0.592",
+        "상품 판매사": "한화투자증권주식회사, NH농협은행, 한국투자증권, 삼성증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=259",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=259",
+        "collected_at": "2026-09-23T08:27:37.413060+00:00",
+        "http_status": 200,
+        "sha256": "1409d104e8028e6bd05b8e8aa186e7695ad06e82870053e8fe2dea5e95390260"
+      }
+    }
+  ]
+}

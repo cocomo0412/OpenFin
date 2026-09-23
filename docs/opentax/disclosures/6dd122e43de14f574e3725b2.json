@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.c0a8972e1a5053fd0816e716",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:3ef4fdfc6784f3620cdd1dd9",
+  "group": "5",
+  "provider": "KB손해보험",
+  "title": "연금저축손해보험 (유)LIG멀티플러스연금보험(L12.04)",
+  "cells": [
+    "KB손해보험",
+    "연금저축손해보험 (유)LIG멀티플러스연금보험(L12.04)",
+    "금리연동형",
+    "2012/04/01",
+    "중단",
+    "100",
+    "-7.69",
+    "-1.44",
+    "-0.14",
+    "0.35",
+    "0.85",
+    "1.14",
+    "6.49"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=47",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=47",
+    "collected_at": "2026-09-23T08:31:26.308085+00:00",
+    "http_status": 200,
+    "sha256": "b72872476bec417b5a9c60f662eb6fb5be836bd89f4473453a28766db53b3359"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB손해보험",
+        "상품명": "연금저축손해보험 (유)LIG멀티플러스연금보험(L12.04)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2012/04/01",
+        "판매여부": "중단",
+        "적립금총액": "100",
+        "1년 연평균수익률(%)": "-7.69",
+        "3년 연평균수익률(%)": "-1.44",
+        "5년 연평균수익률(%)": "-0.14",
+        "7년 연평균수익률(%)": "0.35",
+        "10년 연평균수익률(%)": "0.85",
+        "누적연평균수익률(%)": "1.14",
+        "연평균수수료율(%)": "6.49"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=47",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=47",
+        "collected_at": "2026-09-23T08:31:26.308085+00:00",
+        "http_status": 200,
+        "sha256": "b72872476bec417b5a9c60f662eb6fb5be836bd89f4473453a28766db53b3359"
+      }
+    }
+  ]
+}

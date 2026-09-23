@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.95a629a2df0470a56f1e6b00",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:d046ab168c85de7beb811fe6",
+  "group": "4",
+  "provider": "DB생명보험",
+  "title": "연금저축 동부 프리미엄 연금보험",
+  "cells": [
+    "DB생명보험",
+    "연금저축 동부 프리미엄 연금보험",
+    "금리연동형",
+    "2010/01/01",
+    "중단",
+    "7,287",
+    "-4.64",
+    "-0.23",
+    "0.51",
+    "0.66",
+    "0.85",
+    "1.02",
+    "4.767"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=42",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=42",
+    "collected_at": "2026-09-23T08:31:31.676828+00:00",
+    "http_status": 200,
+    "sha256": "69d5de0e807b319fd53e8d65f246c618fe2958dbffae33a11ff8edc07c07a333"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "DB생명보험",
+        "상품명": "연금저축 동부 프리미엄 연금보험",
+        "상품유형": "금리연동형",
+        "최초판매일": "2010/01/01",
+        "판매여부": "중단",
+        "적립금총액": "7,287",
+        "1년 연평균수익률(%)": "-4.64",
+        "3년 연평균수익률(%)": "-0.23",
+        "5년 연평균수익률(%)": "0.51",
+        "7년 연평균수익률(%)": "0.66",
+        "10년 연평균수익률(%)": "0.85",
+        "누적연평균수익률(%)": "1.02",
+        "연평균수수료율(%)": "4.767"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=42",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=42",
+        "collected_at": "2026-09-23T08:31:31.676828+00:00",
+        "http_status": 200,
+        "sha256": "69d5de0e807b319fd53e8d65f246c618fe2958dbffae33a11ff8edc07c07a333"
+      }
+    }
+  ]
+}

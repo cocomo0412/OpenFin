@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.3f1857dbcba0da9a05b093e8",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:9849bedcdb7447555d0615ba",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성EMP글로벌로테이션증권자투자신탁[주식혼합-재간접형]_C-Pe",
+  "cells": [
+    "삼성자산운용",
+    "삼성EMP글로벌로테이션증권자투자신탁[주식혼합-재간접형]_C-Pe",
+    "재간접",
+    "5",
+    "2018/02/19",
+    "판매",
+    "4,030",
+    "32.60",
+    "15.69",
+    "8.92",
+    "7.57",
+    "-",
+    "6.13",
+    "0.482",
+    "디비증권주식회사, 키움증권(주), NH농협은행, 삼성증권, KB증권, 아이엠증권, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=114",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=114",
+    "collected_at": "2026-09-23T08:24:21.338720+00:00",
+    "http_status": 200,
+    "sha256": "92256f447e18438ee5dc235e8908749f2bfd52b8d72a14c1439e0c5d2759fc4a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성EMP글로벌로테이션증권자투자신탁[주식혼합-재간접형]_C-Pe",
+        "상품유형": "재간접",
+        "위험등급": "5",
+        "설정일": "2018/02/19",
+        "판매여부": "판매",
+        "순자산총액": "4,030",
+        "1년 연평균수익률(%)": "32.60",
+        "3년 연평균수익률(%)": "15.69",
+        "5년 연평균수익률(%)": "8.92",
+        "7년 연평균수익률(%)": "7.57",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "6.13",
+        "연평균수수료율(%)": "0.482",
+        "상품 판매사": "디비증권주식회사, 키움증권(주), NH농협은행, 삼성증권, KB증권, 아이엠증권, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=114",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=114",
+        "collected_at": "2026-09-23T08:24:21.338720+00:00",
+        "http_status": 200,
+        "sha256": "92256f447e18438ee5dc235e8908749f2bfd52b8d72a14c1439e0c5d2759fc4a"
+      }
+    }
+  ]
+}

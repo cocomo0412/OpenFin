@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.35a8d1c0cfa66e868b1f8afc",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:eec34958600d1e038d6888dd",
+  "group": "3",
+  "provider": "신한자산운용",
+  "title": "신한빅사이클자산배분증권자투자신탁[주식혼합-파생형](종류C-pe)",
+  "cells": [
+    "신한자산운용",
+    "신한빅사이클자산배분증권자투자신탁[주식혼합-파생형](종류C-pe)",
+    "파생상품",
+    "3",
+    "2024/07/17",
+    "판매",
+    "694",
+    "24.31",
+    "-",
+    "-",
+    "-",
+    "-",
+    "15.35",
+    "0.473",
+    "-"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=211",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=211",
+    "collected_at": "2026-09-23T08:26:32.882757+00:00",
+    "http_status": 200,
+    "sha256": "abe966b6e3dad68f63efac35a635efb2e1b3cde043b2d58496959db2d5db35f7"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한자산운용",
+        "상품명": "신한빅사이클자산배분증권자투자신탁[주식혼합-파생형](종류C-pe)",
+        "상품유형": "파생상품",
+        "위험등급": "3",
+        "설정일": "2024/07/17",
+        "판매여부": "판매",
+        "순자산총액": "694",
+        "1년 연평균수익률(%)": "24.31",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "15.35",
+        "연평균수수료율(%)": "0.473",
+        "상품 판매사": "-"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=211",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=211",
+        "collected_at": "2026-09-23T08:26:32.882757+00:00",
+        "http_status": 200,
+        "sha256": "abe966b6e3dad68f63efac35a635efb2e1b3cde043b2d58496959db2d5db35f7"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.55d656876c53b06dd9830c75",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:aabd9966deb1af2b91e15654",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성로스차일드4차산업빅데이터증권자투자신탁H[주식-재간접형]_C-Pe",
+  "cells": [
+    "삼성자산운용",
+    "삼성로스차일드4차산업빅데이터증권자투자신탁H[주식-재간접형]_C-Pe",
+    "재간접",
+    "3",
+    "2017/09/20",
+    "판매",
+    "687",
+    "13.55",
+    "13.15",
+    "7.65",
+    "12.04",
+    "-",
+    "10.35",
+    "0.766",
+    "한화투자증권주식회사, 키움증권(주), 삼성증권, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=212",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=212",
+    "collected_at": "2026-09-23T08:26:34.140827+00:00",
+    "http_status": 200,
+    "sha256": "e94c1cd919394c35eed21f006b41839311bfdeab0b3d45f58366f220daa0ba0c"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성로스차일드4차산업빅데이터증권자투자신탁H[주식-재간접형]_C-Pe",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2017/09/20",
+        "판매여부": "판매",
+        "순자산총액": "687",
+        "1년 연평균수익률(%)": "13.55",
+        "3년 연평균수익률(%)": "13.15",
+        "5년 연평균수익률(%)": "7.65",
+        "7년 연평균수익률(%)": "12.04",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "10.35",
+        "연평균수수료율(%)": "0.766",
+        "상품 판매사": "한화투자증권주식회사, 키움증권(주), 삼성증권, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=212",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=212",
+        "collected_at": "2026-09-23T08:26:34.140827+00:00",
+        "http_status": 200,
+        "sha256": "e94c1cd919394c35eed21f006b41839311bfdeab0b3d45f58366f220daa0ba0c"
+      }
+    }
+  ]
+}

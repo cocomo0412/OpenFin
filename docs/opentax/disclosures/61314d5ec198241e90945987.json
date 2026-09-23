@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.6e11f8bdab9614f4918ea532",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:5122b33cf403b1c4fbbb4ab4",
+  "group": "5",
+  "provider": "현대해상화재보험",
+  "title": "연금저축손해보험 노후웰스플러스보험(Hi0610)",
+  "cells": [
+    "현대해상화재보험",
+    "연금저축손해보험 노후웰스플러스보험(Hi0610)",
+    "금리연동형",
+    "2006/10/02",
+    "중단",
+    "201,087",
+    "-7.41",
+    "-1.11",
+    "0.08",
+    "0.59",
+    "0.81",
+    "1.1",
+    "6.622"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=4",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=4",
+    "collected_at": "2026-09-23T08:21:48.721848+00:00",
+    "http_status": 200,
+    "sha256": "ecec0bebfd5f3ea90ddc00685afbf5b9ca72e19a69685e11b39938c6b8444dd2"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "현대해상화재보험",
+        "상품명": "연금저축손해보험 노후웰스플러스보험(Hi0610)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2006/10/02",
+        "판매여부": "중단",
+        "적립금총액": "201,087",
+        "1년 연평균수익률(%)": "-7.41",
+        "3년 연평균수익률(%)": "-1.11",
+        "5년 연평균수익률(%)": "0.08",
+        "7년 연평균수익률(%)": "0.59",
+        "10년 연평균수익률(%)": "0.81",
+        "누적연평균수익률(%)": "1.1",
+        "연평균수수료율(%)": "6.622"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=4",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=4",
+        "collected_at": "2026-09-23T08:21:48.721848+00:00",
+        "http_status": 200,
+        "sha256": "ecec0bebfd5f3ea90ddc00685afbf5b9ca72e19a69685e11b39938c6b8444dd2"
+      }
+    }
+  ]
+}

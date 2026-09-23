@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.e861dbb1e2d566806cae1e77",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:daf0c5390c502d70a77d23d3",
+  "group": "5",
+  "provider": "현대해상화재보험",
+  "title": "연금저축손해보험 노후사랑보험(Hi0604)",
+  "cells": [
+    "현대해상화재보험",
+    "연금저축손해보험 노후사랑보험(Hi0604)",
+    "금리연동형",
+    "2006/04/03",
+    "중단",
+    "72,246",
+    "-7.44",
+    "-1.07",
+    "0.12",
+    "0.62",
+    "0.88",
+    "1.08",
+    "8.216"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=8",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=8",
+    "collected_at": "2026-09-23T08:21:53.337208+00:00",
+    "http_status": 200,
+    "sha256": "2c1f9c611ccb5f3a00fc80e3d88d4fdfc4afd1f5ef90cd16f81cf188805b8804"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "현대해상화재보험",
+        "상품명": "연금저축손해보험 노후사랑보험(Hi0604)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2006/04/03",
+        "판매여부": "중단",
+        "적립금총액": "72,246",
+        "1년 연평균수익률(%)": "-7.44",
+        "3년 연평균수익률(%)": "-1.07",
+        "5년 연평균수익률(%)": "0.12",
+        "7년 연평균수익률(%)": "0.62",
+        "10년 연평균수익률(%)": "0.88",
+        "누적연평균수익률(%)": "1.08",
+        "연평균수수료율(%)": "8.216"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=8",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=8",
+        "collected_at": "2026-09-23T08:21:53.337208+00:00",
+        "http_status": 200,
+        "sha256": "2c1f9c611ccb5f3a00fc80e3d88d4fdfc4afd1f5ef90cd16f81cf188805b8804"
+      }
+    }
+  ]
+}

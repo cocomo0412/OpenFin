@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.9d806149d1b907797d035805",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:033808c94baabf18207c5c2a",
+  "group": "3",
+  "provider": "키움투자자산운용",
+  "title": "키움키워드림적격TDF2035증권투자신탁제1호[주식혼합-재간접형] S-P",
+  "cells": [
+    "키움투자자산운용",
+    "키움키워드림적격TDF2035증권투자신탁제1호[주식혼합-재간접형] S-P",
+    "재간접",
+    "3",
+    "2018/08/23",
+    "판매",
+    "157",
+    "26.03",
+    "15.39",
+    "7.26",
+    "9.35",
+    "-",
+    "8.46",
+    "0.459",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=286",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=286",
+    "collected_at": "2026-09-23T08:28:13.349960+00:00",
+    "http_status": 200,
+    "sha256": "0658ac9b2fb73f2d557e36fe716a0785924c6741aeb7fdfe869ba4bc4cb5195a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "키움투자자산운용",
+        "상품명": "키움키워드림적격TDF2035증권투자신탁제1호[주식혼합-재간접형] S-P",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2018/08/23",
+        "판매여부": "판매",
+        "순자산총액": "157",
+        "1년 연평균수익률(%)": "26.03",
+        "3년 연평균수익률(%)": "15.39",
+        "5년 연평균수익률(%)": "7.26",
+        "7년 연평균수익률(%)": "9.35",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "8.46",
+        "연평균수수료율(%)": "0.459",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=286",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=286",
+        "collected_at": "2026-09-23T08:28:13.349960+00:00",
+        "http_status": 200,
+        "sha256": "0658ac9b2fb73f2d557e36fe716a0785924c6741aeb7fdfe869ba4bc4cb5195a"
+      }
+    }
+  ]
+}

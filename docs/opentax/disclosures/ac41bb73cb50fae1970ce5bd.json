@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.9414eabfc484c60ed2ad12e6",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:c23151f9b9275414bd5eaaa8",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋베스트솔루션50증권자투자신탁1호(채권혼합)종류C-P",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋베스트솔루션50증권자투자신탁1호(채권혼합)종류C-P",
+    "혼합채권형",
+    "4",
+    "2015/10/07",
+    "판매",
+    "174",
+    "10.02",
+    "11.58",
+    "3.21",
+    "5.86",
+    "5.23",
+    "4.67",
+    "1.251",
+    "우리은행, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=283",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=283",
+    "collected_at": "2026-09-23T08:28:09.538109+00:00",
+    "http_status": 200,
+    "sha256": "45436e13eafa47245fcac366aab2497b30d981dd538220e2374597c3e26917ce"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋베스트솔루션50증권자투자신탁1호(채권혼합)종류C-P",
+        "상품유형": "혼합채권형",
+        "위험등급": "4",
+        "설정일": "2015/10/07",
+        "판매여부": "판매",
+        "순자산총액": "174",
+        "1년 연평균수익률(%)": "10.02",
+        "3년 연평균수익률(%)": "11.58",
+        "5년 연평균수익률(%)": "3.21",
+        "7년 연평균수익률(%)": "5.86",
+        "10년 연평균수익률(%)": "5.23",
+        "누적연평균수익률(%)": "4.67",
+        "연평균수수료율(%)": "1.251",
+        "상품 판매사": "우리은행, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=283",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=283",
+        "collected_at": "2026-09-23T08:28:09.538109+00:00",
+        "http_status": 200,
+        "sha256": "45436e13eafa47245fcac366aab2497b30d981dd538220e2374597c3e26917ce"
+      }
+    }
+  ]
+}

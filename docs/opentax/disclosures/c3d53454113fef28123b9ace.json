@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.ebc85e737f08854c5b78147f",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:afb7ed0f5981a2f0ed36590a",
+  "group": "5",
+  "provider": "삼성화재해상보험",
+  "title": "연금저축손해보험 삼성화재 연금보험 마이뷰티플라이프(1010.1)",
+  "cells": [
+    "삼성화재해상보험",
+    "연금저축손해보험 삼성화재 연금보험 마이뷰티플라이프(1010.1)",
+    "금리연동형",
+    "2010/07/21",
+    "중단",
+    "18,381",
+    "-3.37",
+    "0.29",
+    "0.77",
+    "0.8",
+    "0.87",
+    "0.97",
+    "5.066"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=20",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=20",
+    "collected_at": "2026-09-23T08:22:06.095965+00:00",
+    "http_status": 200,
+    "sha256": "6bebb78285a5df65a99e8f11e8d8f14cd2ade667632ffb218f0def560e2f8e29"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성화재해상보험",
+        "상품명": "연금저축손해보험 삼성화재 연금보험 마이뷰티플라이프(1010.1)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2010/07/21",
+        "판매여부": "중단",
+        "적립금총액": "18,381",
+        "1년 연평균수익률(%)": "-3.37",
+        "3년 연평균수익률(%)": "0.29",
+        "5년 연평균수익률(%)": "0.77",
+        "7년 연평균수익률(%)": "0.8",
+        "10년 연평균수익률(%)": "0.87",
+        "누적연평균수익률(%)": "0.97",
+        "연평균수수료율(%)": "5.066"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=20",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=20",
+        "collected_at": "2026-09-23T08:22:06.095965+00:00",
+        "http_status": 200,
+        "sha256": "6bebb78285a5df65a99e8f11e8d8f14cd2ade667632ffb218f0def560e2f8e29"
+      }
+    }
+  ]
+}

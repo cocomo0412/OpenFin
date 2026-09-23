@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.430721b4d59a8c8774b2e8e3",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:4edf824787737cdae49c7b4f",
+  "group": "3",
+  "provider": "신한자산운용",
+  "title": "신한해피라이프연금글로벌ETF증권전환형자투자신탁제1호[주식-재간접형](종류C-e)",
+  "cells": [
+    "신한자산운용",
+    "신한해피라이프연금글로벌ETF증권전환형자투자신탁제1호[주식-재간접형](종류C-e)",
+    "재간접",
+    "3",
+    "2017/11/23",
+    "판매",
+    "564",
+    "54.74",
+    "23.06",
+    "13.60",
+    "14.75",
+    "-",
+    "11.46",
+    "0.961",
+    "키움증권(주), NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=223",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=223",
+    "collected_at": "2026-09-23T08:26:48.967840+00:00",
+    "http_status": 200,
+    "sha256": "b12ac0244ea8d4ad32d5b3f6cc15886ab1170ce9c9152451f8a0366607e2860c"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한자산운용",
+        "상품명": "신한해피라이프연금글로벌ETF증권전환형자투자신탁제1호[주식-재간접형](종류C-e)",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2017/11/23",
+        "판매여부": "판매",
+        "순자산총액": "564",
+        "1년 연평균수익률(%)": "54.74",
+        "3년 연평균수익률(%)": "23.06",
+        "5년 연평균수익률(%)": "13.60",
+        "7년 연평균수익률(%)": "14.75",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "11.46",
+        "연평균수수료율(%)": "0.961",
+        "상품 판매사": "키움증권(주), NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=223",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=223",
+        "collected_at": "2026-09-23T08:26:48.967840+00:00",
+        "http_status": 200,
+        "sha256": "b12ac0244ea8d4ad32d5b3f6cc15886ab1170ce9c9152451f8a0366607e2860c"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.398f648f4770968cfefe6be4",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:cd76f60f533f1b197ec6e3d2",
+  "group": "3",
+  "provider": "KCGI자산운용",
+  "title": "KCGI프리덤적격TDF2050증권자투자신탁[주식혼합-재간접형]종류C-Pe",
+  "cells": [
+    "KCGI자산운용",
+    "KCGI프리덤적격TDF2050증권자투자신탁[주식혼합-재간접형]종류C-Pe",
+    "재간접",
+    "4",
+    "2020/10/23",
+    "판매",
+    "19,941",
+    "56.63",
+    "24.17",
+    "12.69",
+    "-",
+    "-",
+    "14.87",
+    "0.575",
+    "(주)우리투자증권, 키움증권(주), KB증권, 미래에셋증권 주식회사, KCGI자산운용, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=49",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=49",
+    "collected_at": "2026-09-23T08:22:53.651187+00:00",
+    "http_status": 200,
+    "sha256": "18cf728085afa7a794be9101bdbab00f6c333496615c8dea028da860e8ea5580"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KCGI자산운용",
+        "상품명": "KCGI프리덤적격TDF2050증권자투자신탁[주식혼합-재간접형]종류C-Pe",
+        "상품유형": "재간접",
+        "위험등급": "4",
+        "설정일": "2020/10/23",
+        "판매여부": "판매",
+        "순자산총액": "19,941",
+        "1년 연평균수익률(%)": "56.63",
+        "3년 연평균수익률(%)": "24.17",
+        "5년 연평균수익률(%)": "12.69",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "14.87",
+        "연평균수수료율(%)": "0.575",
+        "상품 판매사": "(주)우리투자증권, 키움증권(주), KB증권, 미래에셋증권 주식회사, KCGI자산운용, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=49",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=49",
+        "collected_at": "2026-09-23T08:22:53.651187+00:00",
+        "http_status": 200,
+        "sha256": "18cf728085afa7a794be9101bdbab00f6c333496615c8dea028da860e8ea5580"
+      }
+    }
+  ]
+}

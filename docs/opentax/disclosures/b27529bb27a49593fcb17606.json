@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.6af61be93cd526ba03a3333b",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:dd6d694020739a2f035cabb7",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB RISE 주식혼합 증권 상장지수 투자신탁(주식혼합)",
+  "cells": [
+    "KB자산운용",
+    "KB RISE 주식혼합 증권 상장지수 투자신탁(주식혼합)",
+    "파생상품",
+    "3",
+    "2013/10/16",
+    "판매",
+    "118",
+    "144.40",
+    "42.68",
+    "20.01",
+    "19.91",
+    "15.21",
+    "11.72",
+    "0.334",
+    "한화투자증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, KB증권, 미래에셋증권 주식회사, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=294",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=294",
+    "collected_at": "2026-09-23T08:28:23.954291+00:00",
+    "http_status": 200,
+    "sha256": "d8e2effcc932645f868aa43005748c547504f952ebc92dc7496ef24503505847"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB RISE 주식혼합 증권 상장지수 투자신탁(주식혼합)",
+        "상품유형": "파생상품",
+        "위험등급": "3",
+        "설정일": "2013/10/16",
+        "판매여부": "판매",
+        "순자산총액": "118",
+        "1년 연평균수익률(%)": "144.40",
+        "3년 연평균수익률(%)": "42.68",
+        "5년 연평균수익률(%)": "20.01",
+        "7년 연평균수익률(%)": "19.91",
+        "10년 연평균수익률(%)": "15.21",
+        "누적연평균수익률(%)": "11.72",
+        "연평균수수료율(%)": "0.334",
+        "상품 판매사": "한화투자증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, KB증권, 미래에셋증권 주식회사, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=294",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=294",
+        "collected_at": "2026-09-23T08:28:23.954291+00:00",
+        "http_status": 200,
+        "sha256": "d8e2effcc932645f868aa43005748c547504f952ebc92dc7496ef24503505847"
+      }
+    }
+  ]
+}

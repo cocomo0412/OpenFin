@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.bfbf5fa0bc0e920e57017925",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:30940bcb162a792dd267f3e4",
+  "group": "4",
+  "provider": "동양생명보험",
+  "title": "연금저축수호천사더블파워연금",
+  "cells": [
+    "동양생명보험",
+    "연금저축수호천사더블파워연금",
+    "금리연동형",
+    "2009/11/27",
+    "중단",
+    "36,163",
+    "-8.97",
+    "-2.40",
+    "-0.88",
+    "-0.27",
+    "0.10",
+    "0.84",
+    "9.060"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=20",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=20",
+    "collected_at": "2026-09-23T08:30:35.618797+00:00",
+    "http_status": 200,
+    "sha256": "0176b9ebe26d500ff22da02fa4b961829c0149cdcf25b86eeaac478440a8a049"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "동양생명보험",
+        "상품명": "연금저축수호천사더블파워연금",
+        "상품유형": "금리연동형",
+        "최초판매일": "2009/11/27",
+        "판매여부": "중단",
+        "적립금총액": "36,163",
+        "1년 연평균수익률(%)": "-8.97",
+        "3년 연평균수익률(%)": "-2.40",
+        "5년 연평균수익률(%)": "-0.88",
+        "7년 연평균수익률(%)": "-0.27",
+        "10년 연평균수익률(%)": "0.10",
+        "누적연평균수익률(%)": "0.84",
+        "연평균수수료율(%)": "9.060"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=20",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=20",
+        "collected_at": "2026-09-23T08:30:35.618797+00:00",
+        "http_status": 200,
+        "sha256": "0176b9ebe26d500ff22da02fa4b961829c0149cdcf25b86eeaac478440a8a049"
+      }
+    }
+  ]
+}

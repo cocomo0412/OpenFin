@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.de37c57596fbbdb596d9f699",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:a4bb9eccfc41ede254973d90",
+  "group": "3",
+  "provider": "한국투자밸류자산운용",
+  "title": "한국밸류10년투자밸런스연금증권자투자신탁1호(주식)(C)",
+  "cells": [
+    "한국투자밸류자산운용",
+    "한국밸류10년투자밸런스연금증권자투자신탁1호(주식)(C)",
+    "주식형",
+    "2",
+    "2018/03/29",
+    "판매",
+    "77",
+    "161.47",
+    "52.61",
+    "24.22",
+    "23.59",
+    "-",
+    "17.96",
+    "1.455",
+    "교보증권(주)"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=300",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=300",
+    "collected_at": "2026-09-23T08:28:31.761439+00:00",
+    "http_status": 200,
+    "sha256": "dd74f2c92bd53f83047a0f470a9ea0e4cce72ae5a84e9cde88205404225b29e1"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자밸류자산운용",
+        "상품명": "한국밸류10년투자밸런스연금증권자투자신탁1호(주식)(C)",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2018/03/29",
+        "판매여부": "판매",
+        "순자산총액": "77",
+        "1년 연평균수익률(%)": "161.47",
+        "3년 연평균수익률(%)": "52.61",
+        "5년 연평균수익률(%)": "24.22",
+        "7년 연평균수익률(%)": "23.59",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "17.96",
+        "연평균수수료율(%)": "1.455",
+        "상품 판매사": "교보증권(주)"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=300",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=300",
+        "collected_at": "2026-09-23T08:28:31.761439+00:00",
+        "http_status": 200,
+        "sha256": "dd74f2c92bd53f83047a0f470a9ea0e4cce72ae5a84e9cde88205404225b29e1"
+      }
+    }
+  ]
+}

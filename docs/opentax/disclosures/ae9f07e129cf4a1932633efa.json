@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.6eca8a5082bcec25d2ad1bfb",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:f6eabfbb1b4e5fc5a3cbea4b",
+  "group": "5",
+  "provider": "현대해상화재보험",
+  "title": "연금저축손해보험 노후사랑보험(Hi1204)",
+  "cells": [
+    "현대해상화재보험",
+    "연금저축손해보험 노후사랑보험(Hi1204)",
+    "금리연동형",
+    "2012/04/01",
+    "중단",
+    "27,874",
+    "-4.68",
+    "-0.45",
+    "0.4",
+    "0.6",
+    "0.8",
+    "1.04",
+    "6.085"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=15",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=15",
+    "collected_at": "2026-09-23T08:22:00.664726+00:00",
+    "http_status": 200,
+    "sha256": "b29bd1d347ef1a3d732994473fd9e5d1ffc04eb5c2d5700cbdcd11e6162bf717"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "현대해상화재보험",
+        "상품명": "연금저축손해보험 노후사랑보험(Hi1204)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2012/04/01",
+        "판매여부": "중단",
+        "적립금총액": "27,874",
+        "1년 연평균수익률(%)": "-4.68",
+        "3년 연평균수익률(%)": "-0.45",
+        "5년 연평균수익률(%)": "0.4",
+        "7년 연평균수익률(%)": "0.6",
+        "10년 연평균수익률(%)": "0.8",
+        "누적연평균수익률(%)": "1.04",
+        "연평균수수료율(%)": "6.085"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=15",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=15",
+        "collected_at": "2026-09-23T08:22:00.664726+00:00",
+        "http_status": 200,
+        "sha256": "b29bd1d347ef1a3d732994473fd9e5d1ffc04eb5c2d5700cbdcd11e6162bf717"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.487c169d7613896d743c4504",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:3e9986c03c289f262b8abf3b",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자미국장기국채증권자투자신탁H(채권-재간접형)(S-P)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자미국장기국채증권자투자신탁H(채권-재간접형)(S-P)",
+    "재간접",
+    "5",
+    "2024/07/05",
+    "판매",
+    "440",
+    "2.14",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-1.26",
+    "0.411",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=240",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=240",
+    "collected_at": "2026-09-23T08:27:11.919834+00:00",
+    "http_status": 200,
+    "sha256": "262e1caab3816b09dd1e185243e9ed5c99fb62305bb15a27bbfcc538c0e3de37"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자미국장기국채증권자투자신탁H(채권-재간접형)(S-P)",
+        "상품유형": "재간접",
+        "위험등급": "5",
+        "설정일": "2024/07/05",
+        "판매여부": "판매",
+        "순자산총액": "440",
+        "1년 연평균수익률(%)": "2.14",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-1.26",
+        "연평균수수료율(%)": "0.411",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=240",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=240",
+        "collected_at": "2026-09-23T08:27:11.919834+00:00",
+        "http_status": 200,
+        "sha256": "262e1caab3816b09dd1e185243e9ed5c99fb62305bb15a27bbfcc538c0e3de37"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.8f9a1e0f0a052817c1774392",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:af979d66d101c00e45416b09",
+  "group": "3",
+  "provider": "DB자산운용",
+  "title": "DBNEW해오름신종MMF제3호ClassC-P",
+  "cells": [
+    "DB자산운용",
+    "DBNEW해오름신종MMF제3호ClassC-P",
+    "단기금융",
+    "6",
+    "2013/04/02",
+    "판매",
+    "49,721",
+    "2.56",
+    "3.03",
+    "2.67",
+    "2.19",
+    "1.98",
+    "2.01",
+    "0.258",
+    "디비증권주식회사, 한화투자증권주식회사, (주)우리투자증권, NH농협은행, 한국투자증권, SK증권주식회사, 신영증권주식회사, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=24",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=24",
+    "collected_at": "2026-09-23T08:22:18.924861+00:00",
+    "http_status": 200,
+    "sha256": "b35ee7e01cf74ae55687a42fa1916f5e93393124cee8f5fa68c6598a8f154f29"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "DB자산운용",
+        "상품명": "DBNEW해오름신종MMF제3호ClassC-P",
+        "상품유형": "단기금융",
+        "위험등급": "6",
+        "설정일": "2013/04/02",
+        "판매여부": "판매",
+        "순자산총액": "49,721",
+        "1년 연평균수익률(%)": "2.56",
+        "3년 연평균수익률(%)": "3.03",
+        "5년 연평균수익률(%)": "2.67",
+        "7년 연평균수익률(%)": "2.19",
+        "10년 연평균수익률(%)": "1.98",
+        "누적연평균수익률(%)": "2.01",
+        "연평균수수료율(%)": "0.258",
+        "상품 판매사": "디비증권주식회사, 한화투자증권주식회사, (주)우리투자증권, NH농협은행, 한국투자증권, SK증권주식회사, 신영증권주식회사, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=24",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=24",
+        "collected_at": "2026-09-23T08:22:18.924861+00:00",
+        "http_status": 200,
+        "sha256": "b35ee7e01cf74ae55687a42fa1916f5e93393124cee8f5fa68c6598a8f154f29"
+      }
+    }
+  ]
+}

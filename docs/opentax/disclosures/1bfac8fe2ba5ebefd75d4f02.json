@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.68a078304b78286ba5a82b89",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:0148a1fb726b5d946c033822",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성ETF를담아차곡차곡증권자투자신탁[채권혼합-재간접형]_C-Pe",
+  "cells": [
+    "삼성자산운용",
+    "삼성ETF를담아차곡차곡증권자투자신탁[채권혼합-재간접형]_C-Pe",
+    "재간접",
+    "4",
+    "2024/10/07",
+    "판매",
+    "2,794",
+    "22.13",
+    "-",
+    "-",
+    "-",
+    "-",
+    "12.70",
+    "0.532",
+    "유진투자증권주식회사, 삼성증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=132",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=132",
+    "collected_at": "2026-09-23T08:24:46.357858+00:00",
+    "http_status": 200,
+    "sha256": "5bf2ab85c21b8913bb535200691c887f572001b8128f128087db41027aa6fc07"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성ETF를담아차곡차곡증권자투자신탁[채권혼합-재간접형]_C-Pe",
+        "상품유형": "재간접",
+        "위험등급": "4",
+        "설정일": "2024/10/07",
+        "판매여부": "판매",
+        "순자산총액": "2,794",
+        "1년 연평균수익률(%)": "22.13",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "12.70",
+        "연평균수수료율(%)": "0.532",
+        "상품 판매사": "유진투자증권주식회사, 삼성증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=132",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=132",
+        "collected_at": "2026-09-23T08:24:46.357858+00:00",
+        "http_status": 200,
+        "sha256": "5bf2ab85c21b8913bb535200691c887f572001b8128f128087db41027aa6fc07"
+      }
+    }
+  ]
+}

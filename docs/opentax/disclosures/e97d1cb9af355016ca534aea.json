@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.74b77c4bed52c2a370e4c9cd",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:2dec46da802877cbbe6bc92e",
+  "group": "3",
+  "provider": "IBK자산운용",
+  "title": "IBK 베트남 플러스 아시아 증권 투자신탁[주식] 종류 C-Pe",
+  "cells": [
+    "IBK자산운용",
+    "IBK 베트남 플러스 아시아 증권 투자신탁[주식] 종류 C-Pe",
+    "주식형",
+    "2",
+    "2018/05/02",
+    "판매",
+    "1,145",
+    "28.79",
+    "13.01",
+    "9.46",
+    "10.77",
+    "-",
+    "9.01",
+    "1.541",
+    "한국투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=181",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=181",
+    "collected_at": "2026-09-23T08:25:52.145312+00:00",
+    "http_status": 200,
+    "sha256": "d26ac3cff7c07c7ab1733010491a7d1612e5441537df081cb94fca980a01ad34"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "IBK자산운용",
+        "상품명": "IBK 베트남 플러스 아시아 증권 투자신탁[주식] 종류 C-Pe",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2018/05/02",
+        "판매여부": "판매",
+        "순자산총액": "1,145",
+        "1년 연평균수익률(%)": "28.79",
+        "3년 연평균수익률(%)": "13.01",
+        "5년 연평균수익률(%)": "9.46",
+        "7년 연평균수익률(%)": "10.77",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "9.01",
+        "연평균수수료율(%)": "1.541",
+        "상품 판매사": "한국투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=181",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=181",
+        "collected_at": "2026-09-23T08:25:52.145312+00:00",
+        "http_status": 200,
+        "sha256": "d26ac3cff7c07c7ab1733010491a7d1612e5441537df081cb94fca980a01ad34"
+      }
+    }
+  ]
+}

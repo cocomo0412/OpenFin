@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.5a3c2d6ff8adcef953598ba9",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:655302e850d7df48bf87c838",
+  "group": "5",
+  "provider": "한화손해보험",
+  "title": "연금저축손해보험 골드연금보험1904",
+  "cells": [
+    "한화손해보험",
+    "연금저축손해보험 골드연금보험1904",
+    "금리연동형",
+    "2009/10/01",
+    "중단",
+    "8,979",
+    "-5.53",
+    "-1.82",
+    "-0.85",
+    "-0.4",
+    "-",
+    "-0.37",
+    "6.59"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=28",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=28",
+    "collected_at": "2026-09-23T08:22:14.008550+00:00",
+    "http_status": 200,
+    "sha256": "8f31fbbe06def8763ebcf41dd50073bec72302174af57bdf28ca7f296fd1f883"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한화손해보험",
+        "상품명": "연금저축손해보험 골드연금보험1904",
+        "상품유형": "금리연동형",
+        "최초판매일": "2009/10/01",
+        "판매여부": "중단",
+        "적립금총액": "8,979",
+        "1년 연평균수익률(%)": "-5.53",
+        "3년 연평균수익률(%)": "-1.82",
+        "5년 연평균수익률(%)": "-0.85",
+        "7년 연평균수익률(%)": "-0.4",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-0.37",
+        "연평균수수료율(%)": "6.59"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=28",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=28",
+        "collected_at": "2026-09-23T08:22:14.008550+00:00",
+        "http_status": 200,
+        "sha256": "8f31fbbe06def8763ebcf41dd50073bec72302174af57bdf28ca7f296fd1f883"
+      }
+    }
+  ]
+}

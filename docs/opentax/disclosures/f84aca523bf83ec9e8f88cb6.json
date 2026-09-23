@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.3450ca3653e91ae2c3a6fc4f",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:de6b1289825755bcc61a3ee5",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 글로벌 AI 메타버스테크 증권 자투자신탁(주식)(UH) S-P",
+  "cells": [
+    "KB자산운용",
+    "KB 글로벌 AI 메타버스테크 증권 자투자신탁(주식)(UH) S-P",
+    "주식형",
+    "1",
+    "2021/06/14",
+    "판매",
+    "2,387",
+    "56.64",
+    "36.52",
+    "18.07",
+    "-",
+    "-",
+    "18.84",
+    "1.153",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=141",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=141",
+    "collected_at": "2026-09-23T08:24:58.223379+00:00",
+    "http_status": 200,
+    "sha256": "b63b45e8891a62ef02dea59e0ea8b6b3d588c264793802f98bef209c45319fcb"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 글로벌 AI 메타버스테크 증권 자투자신탁(주식)(UH) S-P",
+        "상품유형": "주식형",
+        "위험등급": "1",
+        "설정일": "2021/06/14",
+        "판매여부": "판매",
+        "순자산총액": "2,387",
+        "1년 연평균수익률(%)": "56.64",
+        "3년 연평균수익률(%)": "36.52",
+        "5년 연평균수익률(%)": "18.07",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "18.84",
+        "연평균수수료율(%)": "1.153",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=141",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=141",
+        "collected_at": "2026-09-23T08:24:58.223379+00:00",
+        "http_status": 200,
+        "sha256": "b63b45e8891a62ef02dea59e0ea8b6b3d588c264793802f98bef209c45319fcb"
+      }
+    }
+  ]
+}

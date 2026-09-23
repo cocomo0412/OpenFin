@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.c7a04c0196b7a3b0dce2d250",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:ad0f34a4b701e7ac1f0a911c",
+  "group": "3",
+  "provider": "교보악사자산운용",
+  "title": "교보악사파워글로벌인덱스증권자투자신탁1호(H)[주식혼합]ClassC-Pe(연금)",
+  "cells": [
+    "교보악사자산운용",
+    "교보악사파워글로벌인덱스증권자투자신탁1호(H)[주식혼합]ClassC-Pe(연금)",
+    "혼합주식형",
+    "3",
+    "2017/09/15",
+    "판매",
+    "375",
+    "27.11",
+    "16.26",
+    "7.57",
+    "10.40",
+    "-",
+    "8.44",
+    "0.971",
+    "키움증권(주), 광주은행, 삼성증권, IBK기업은행, KB국민은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=248",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=248",
+    "collected_at": "2026-09-23T08:27:22.446039+00:00",
+    "http_status": 200,
+    "sha256": "3d20357589f90fe3db06953c80b857017d99e42ebf26443d10b6b2dceeea503a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "교보악사자산운용",
+        "상품명": "교보악사파워글로벌인덱스증권자투자신탁1호(H)[주식혼합]ClassC-Pe(연금)",
+        "상품유형": "혼합주식형",
+        "위험등급": "3",
+        "설정일": "2017/09/15",
+        "판매여부": "판매",
+        "순자산총액": "375",
+        "1년 연평균수익률(%)": "27.11",
+        "3년 연평균수익률(%)": "16.26",
+        "5년 연평균수익률(%)": "7.57",
+        "7년 연평균수익률(%)": "10.40",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "8.44",
+        "연평균수수료율(%)": "0.971",
+        "상품 판매사": "키움증권(주), 광주은행, 삼성증권, IBK기업은행, KB국민은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=248",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=248",
+        "collected_at": "2026-09-23T08:27:22.446039+00:00",
+        "http_status": 200,
+        "sha256": "3d20357589f90fe3db06953c80b857017d99e42ebf26443d10b6b2dceeea503a"
+      }
+    }
+  ]
+}

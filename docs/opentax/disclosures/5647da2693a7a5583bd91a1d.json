@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.f699fefa466e25b1c108ed38",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:3bb95d408a7b976492a30800",
+  "group": "3",
+  "provider": "현대자산운용",
+  "title": "현대강소기업증권자투자신탁1호[주식]종류C-P",
+  "cells": [
+    "현대자산운용",
+    "현대강소기업증권자투자신탁1호[주식]종류C-P",
+    "주식형",
+    "1",
+    "2020/08/05",
+    "판매",
+    "441",
+    "83.86",
+    "16.12",
+    "14.42",
+    "-",
+    "-",
+    "21.12",
+    "1.143",
+    "유진투자증권주식회사, 한화투자증권주식회사, SK증권주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=239",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=239",
+    "collected_at": "2026-09-23T08:27:10.713404+00:00",
+    "http_status": 200,
+    "sha256": "a8f0a8add737a410f0ab404cee4245d53a34ac145aba39299ea07a0e5517e233"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "현대자산운용",
+        "상품명": "현대강소기업증권자투자신탁1호[주식]종류C-P",
+        "상품유형": "주식형",
+        "위험등급": "1",
+        "설정일": "2020/08/05",
+        "판매여부": "판매",
+        "순자산총액": "441",
+        "1년 연평균수익률(%)": "83.86",
+        "3년 연평균수익률(%)": "16.12",
+        "5년 연평균수익률(%)": "14.42",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "21.12",
+        "연평균수수료율(%)": "1.143",
+        "상품 판매사": "유진투자증권주식회사, 한화투자증권주식회사, SK증권주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=239",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=239",
+        "collected_at": "2026-09-23T08:27:10.713404+00:00",
+        "http_status": 200,
+        "sha256": "a8f0a8add737a410f0ab404cee4245d53a34ac145aba39299ea07a0e5517e233"
+      }
+    }
+  ]
+}

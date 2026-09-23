@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.b06dccd2dd3efcc241895ba3",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:a0f2106171c5ef0b83bf8f06",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 온국민 적격TDF 2055 증권 자투자신탁(주식혼합-재간접형)(UH) C-P",
+  "cells": [
+    "KB자산운용",
+    "KB 온국민 적격TDF 2055 증권 자투자신탁(주식혼합-재간접형)(UH) C-P",
+    "재간접",
+    "3",
+    "2020/05/11",
+    "판매",
+    "672",
+    "48.86",
+    "25.19",
+    "16.31",
+    "-",
+    "-",
+    "19.12",
+    "1.014",
+    "한화투자증권주식회사, KB증권, KB국민은행, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=213",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=213",
+    "collected_at": "2026-09-23T08:26:35.358969+00:00",
+    "http_status": 200,
+    "sha256": "0a27de6b8364e6e1a83dbb8f8f531d14668d3baf047ff5af8d84d8a259a1910b"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 온국민 적격TDF 2055 증권 자투자신탁(주식혼합-재간접형)(UH) C-P",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2020/05/11",
+        "판매여부": "판매",
+        "순자산총액": "672",
+        "1년 연평균수익률(%)": "48.86",
+        "3년 연평균수익률(%)": "25.19",
+        "5년 연평균수익률(%)": "16.31",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "19.12",
+        "연평균수수료율(%)": "1.014",
+        "상품 판매사": "한화투자증권주식회사, KB증권, KB국민은행, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=213",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=213",
+        "collected_at": "2026-09-23T08:26:35.358969+00:00",
+        "http_status": 200,
+        "sha256": "0a27de6b8364e6e1a83dbb8f8f531d14668d3baf047ff5af8d84d8a259a1910b"
+      }
+    }
+  ]
+}

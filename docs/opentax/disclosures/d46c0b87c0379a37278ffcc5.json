@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.ea2887bd8b791b54896e284a",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:bca20f94d5aac701a992846c",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성OCIO솔루션성장형증권투자신탁[혼합-재간접형]_C-Pe",
+  "cells": [
+    "삼성자산운용",
+    "삼성OCIO솔루션성장형증권투자신탁[혼합-재간접형]_C-Pe",
+    "재간접",
+    "3",
+    "2022/04/21",
+    "판매",
+    "3,385",
+    "55.00",
+    "26.00",
+    "-",
+    "-",
+    "-",
+    "17.41",
+    "0.607",
+    "신한은행, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=123",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=123",
+    "collected_at": "2026-09-23T08:24:34.531292+00:00",
+    "http_status": 200,
+    "sha256": "12b0a6d3dc37244975fa409256e1afb4f911ac90ce43cd9f8a7abf5f7fd9a853"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성OCIO솔루션성장형증권투자신탁[혼합-재간접형]_C-Pe",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2022/04/21",
+        "판매여부": "판매",
+        "순자산총액": "3,385",
+        "1년 연평균수익률(%)": "55.00",
+        "3년 연평균수익률(%)": "26.00",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "17.41",
+        "연평균수수료율(%)": "0.607",
+        "상품 판매사": "신한은행, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=123",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=123",
+        "collected_at": "2026-09-23T08:24:34.531292+00:00",
+        "http_status": 200,
+        "sha256": "12b0a6d3dc37244975fa409256e1afb4f911ac90ce43cd9f8a7abf5f7fd9a853"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.50bd6647a01a76492e92d6ff",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:cfee0bc83487fea0a3794c7b",
+  "group": "4",
+  "provider": "아이비케이연금보험",
+  "title": "연금저축 IBK연금보험_1611",
+  "cells": [
+    "아이비케이연금보험",
+    "연금저축 IBK연금보험_1611",
+    "금리연동형",
+    "2016/11/01",
+    "중단",
+    "3,203",
+    "-4.82",
+    "-0.88",
+    "-0.13",
+    "0.19",
+    "-",
+    "0.46",
+    "5.437"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=55",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=55",
+    "collected_at": "2026-09-23T08:31:49.990294+00:00",
+    "http_status": 200,
+    "sha256": "a0116260d9e0ac0997237ae0cbe3ca50eb121fd1352044199aed24b40bb2dd7f"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "아이비케이연금보험",
+        "상품명": "연금저축 IBK연금보험_1611",
+        "상품유형": "금리연동형",
+        "최초판매일": "2016/11/01",
+        "판매여부": "중단",
+        "적립금총액": "3,203",
+        "1년 연평균수익률(%)": "-4.82",
+        "3년 연평균수익률(%)": "-0.88",
+        "5년 연평균수익률(%)": "-0.13",
+        "7년 연평균수익률(%)": "0.19",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "0.46",
+        "연평균수수료율(%)": "5.437"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=55",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=55",
+        "collected_at": "2026-09-23T08:31:49.990294+00:00",
+        "http_status": 200,
+        "sha256": "a0116260d9e0ac0997237ae0cbe3ca50eb121fd1352044199aed24b40bb2dd7f"
+      }
+    }
+  ]
+}

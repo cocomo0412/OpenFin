@@ -1,0 +1,53 @@
+{
+  "id": "finance.insurance.klia.current.6ea2c2c9f6bdbe6fd41e",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L74024600010246000302460005NNN0247000202440001024400010003024400010003000202440001000300020002S9122",
+  "group": "024400010003",
+  "title": "(무)우리WON하는든든치료비보험(플러스형)",
+  "provider": "동양생명",
+  "cells": [
+    "동양생명",
+    "(무)우리WON하는든든치료비보험(플러스형)",
+    "주계약",
+    "급여MRI검사비 *지급사유 : 피보험자가 보험기간 중 의사의 필요소견을 토대로 “급여 MRI 검사”를 받았을 때 (연간 1 회한)",
+    "5,000만원",
+    "73,250 원",
+    "65,650 원",
+    "2.90 %",
+    "-",
+    "-",
+    "105.0 %",
+    "102.3 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "기타",
+    "무해지/저해지환급",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "대면채널 TM 기타",
+    "2026-09-01",
+    "Download",
+    "보기",
+    "1577-1004"
+  ],
+  "coverage": [
+    "급여MRI검사비 *지급사유 : 피보험자가 보험기간 중 의사의 필요소견을 토대로 “급여 MRI 검사”를 받았을 때 (연간 1 회한)",
+    "급여CT검사비 *지급사유 : 피보험자가 보험기간 중 의사의 필요소견을 토대로 “급여 CT 검사”를 받았을 때 (연간 1 회한)",
+    "급여PET검사지원비 *지급사유 : 피보험자가 보험기간 중 의사의 필요소견을 토대로 “급여 양전자방출단층촬영(PET) 검사”를 받았을 때(연간 1 회한)",
+    "특정급여흡인천자검사지원비 *지급사유 : 피보험자가 보험기간 중 의사의 필요소견을 토대로 “특정급여흡인천자(검사)”를 받았을 때(연간 1 회한)",
+    "급여골밀도검사비 *지급사유 : 피보험자가 보험기간 중 발생한 재해를 직접적인 원인으로 “급여 골밀도검사”를 받았을 때(연간 1 회한)"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=46336&seq=1"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010003&pageIndex=4&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010003&pageIndex=4&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:26.632543+00:00",
+    "http_status": 200,
+    "sha256": "31864b70108d2db6ac0feb77c31c163edc694123be69f6650e0e6903d2e5510a"
+  }
+}

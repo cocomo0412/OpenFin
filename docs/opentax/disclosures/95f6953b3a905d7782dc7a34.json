@@ -1,0 +1,55 @@
+{
+  "id": "finance.insurance.klia.disease.aia생명.l5202460003nny0247000202440001024400010003024400010003000202440001000300020004o5002",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L5202460003NNY0247000202440001024400010003024400010003000202440001000300020004O5002",
+  "group": "024400010003",
+  "title": "(무) 백세시대 꼭하나 건강보험 (갱신형) 2형",
+  "provider": "AIA생명",
+  "cells": [
+    "AIA생명",
+    "(무) 백세시대 꼭하나 건강보험 (갱신형) 2형",
+    "주계약",
+    "급성심근경색증 진단급여금 *지급사유 : 급성심근경색증 진단 최초1회한",
+    "3,000만원",
+    "6,600 원",
+    "3,900 원",
+    "2.25 %",
+    "-",
+    "-",
+    "218.7 %",
+    "287.3 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "기타",
+    "순수보장",
+    "갱신형",
+    "Download",
+    "비유니버셜",
+    "TM",
+    "2026-07-01",
+    "Download",
+    "보기",
+    "1588-9898"
+  ],
+  "coverage": [
+    "급성심근경색증 진단급여금 *지급사유 : 급성심근경색증 진단 최초1회한",
+    "뇌출혈 진단급여금 *지급사유 : 뇌출혈 진단 최초1회한",
+    "(무) 건강+ 암진단특약 (갱신형) 2형 *지급사유 : 신일반암 진단(90일이후) 최초1회한 ※이외 보장담보는 상품요약서 참조",
+    "(무) 뉴 수술특약 (갱신형) 2형 *지급사유 : 1~5종 수술 1회당",
+    "(무) 뉴 뇌경색증진단특약 (갱신형) 2형 *지급사유 : 뇌경색증 진단 최초1회한",
+    "(무) 심뇌혈관질환수술특약 (갱신형) 2형 *지급사유 : 심뇌혈관질환 관혈수술 ※이외 보장담보는 상품요약서 참조"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=21233&seq=5",
+    "https://pub.insure.or.kr/FileDown.do?fileNo=21232&seq=27"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010003&pageIndex=6&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010003&pageIndex=6&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:27.914072+00:00",
+    "http_status": 200,
+    "sha256": "d6b97759ab30de0b813ff410aba2746c2c5e414e819957ca5c5f32ea2ca7f6da"
+  }
+}

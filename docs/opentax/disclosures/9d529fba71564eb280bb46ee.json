@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.92b30fdcaaa7a480e01484c4",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:a77f263010421c22f8fe36ca",
+  "group": "3",
+  "provider": "키움투자자산운용",
+  "title": "키움행복연금코리아 증권 전환형 자투자신탁 제1호[채권]",
+  "cells": [
+    "키움투자자산운용",
+    "키움행복연금코리아 증권 전환형 자투자신탁 제1호[채권]",
+    "채권형",
+    "5",
+    "2007/11/01",
+    "판매",
+    "4,104",
+    "-4.98",
+    "2.53",
+    "0.82",
+    "0.74",
+    "1.26",
+    "3.18",
+    "0.351",
+    "케이프투자증권, (주)우리투자증권, SK증권주식회사, 교보증권(주), 우리은행, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=113",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=113",
+    "collected_at": "2026-09-23T08:24:20.121325+00:00",
+    "http_status": 200,
+    "sha256": "2a60e82fb31bb3ea2b77e9c9809c485d0df4813c726428c5d7ac193b6aeb89a6"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "키움투자자산운용",
+        "상품명": "키움행복연금코리아 증권 전환형 자투자신탁 제1호[채권]",
+        "상품유형": "채권형",
+        "위험등급": "5",
+        "설정일": "2007/11/01",
+        "판매여부": "판매",
+        "순자산총액": "4,104",
+        "1년 연평균수익률(%)": "-4.98",
+        "3년 연평균수익률(%)": "2.53",
+        "5년 연평균수익률(%)": "0.82",
+        "7년 연평균수익률(%)": "0.74",
+        "10년 연평균수익률(%)": "1.26",
+        "누적연평균수익률(%)": "3.18",
+        "연평균수수료율(%)": "0.351",
+        "상품 판매사": "케이프투자증권, (주)우리투자증권, SK증권주식회사, 교보증권(주), 우리은행, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=113",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=113",
+        "collected_at": "2026-09-23T08:24:20.121325+00:00",
+        "http_status": 200,
+        "sha256": "2a60e82fb31bb3ea2b77e9c9809c485d0df4813c726428c5d7ac193b6aeb89a6"
+      }
+    }
+  ]
+}

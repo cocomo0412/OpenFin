@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.e28c001fd9577b0e1a717453",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:89d89832c701eb9370bdeb08",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자적격TDF알아서2040증권투자신탁(주식혼합-재간접형)(S-P)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자적격TDF알아서2040증권투자신탁(주식혼합-재간접형)(S-P)",
+    "재간접",
+    "3",
+    "2017/03/08",
+    "판매",
+    "1,018",
+    "25.88",
+    "15.84",
+    "7.08",
+    "9.45",
+    "-",
+    "8.69",
+    "0.500",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=188",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=188",
+    "collected_at": "2026-09-23T08:26:01.123414+00:00",
+    "http_status": 200,
+    "sha256": "e72def7742f95e81b2ad92ac7cebd804dea5e50b0b1cfde8060b35dc7271b6e7"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자적격TDF알아서2040증권투자신탁(주식혼합-재간접형)(S-P)",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2017/03/08",
+        "판매여부": "판매",
+        "순자산총액": "1,018",
+        "1년 연평균수익률(%)": "25.88",
+        "3년 연평균수익률(%)": "15.84",
+        "5년 연평균수익률(%)": "7.08",
+        "7년 연평균수익률(%)": "9.45",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "8.69",
+        "연평균수수료율(%)": "0.500",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=188",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=188",
+        "collected_at": "2026-09-23T08:26:01.123414+00:00",
+        "http_status": 200,
+        "sha256": "e72def7742f95e81b2ad92ac7cebd804dea5e50b0b1cfde8060b35dc7271b6e7"
+      }
+    }
+  ]
+}

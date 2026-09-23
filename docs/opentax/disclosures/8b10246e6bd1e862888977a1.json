@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.c3a355aa15135d2fc60b664d",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:b21acc3827ff13d2916613e6",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 브라질 증권 자투자신탁(주식) C-P 클래스",
+  "cells": [
+    "KB자산운용",
+    "KB 브라질 증권 자투자신탁(주식) C-P 클래스",
+    "주식형",
+    "1",
+    "2017/04/27",
+    "판매",
+    "95",
+    "20.04",
+    "9.96",
+    "2.94",
+    "1.53",
+    "-",
+    "4.20",
+    "1.675",
+    "KB증권, 미래에셋증권 주식회사, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=297",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=297",
+    "collected_at": "2026-09-23T08:28:27.998079+00:00",
+    "http_status": 200,
+    "sha256": "a90482749b3b81e16c12842adc35cd2b6829cc603e29e30d509c45ead0c4967f"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 브라질 증권 자투자신탁(주식) C-P 클래스",
+        "상품유형": "주식형",
+        "위험등급": "1",
+        "설정일": "2017/04/27",
+        "판매여부": "판매",
+        "순자산총액": "95",
+        "1년 연평균수익률(%)": "20.04",
+        "3년 연평균수익률(%)": "9.96",
+        "5년 연평균수익률(%)": "2.94",
+        "7년 연평균수익률(%)": "1.53",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "4.20",
+        "연평균수수료율(%)": "1.675",
+        "상품 판매사": "KB증권, 미래에셋증권 주식회사, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=297",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=297",
+        "collected_at": "2026-09-23T08:28:27.998079+00:00",
+        "http_status": 200,
+        "sha256": "a90482749b3b81e16c12842adc35cd2b6829cc603e29e30d509c45ead0c4967f"
+      }
+    }
+  ]
+}

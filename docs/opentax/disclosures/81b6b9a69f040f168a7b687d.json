@@ -1,0 +1,53 @@
+{
+  "id": "finance.insurance.klia.term-life.푸본현대생명.l173nnb1b11hnd51",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L173NNB1B11HND51",
+  "group": "024400010002",
+  "title": "ZERO 정기보험 무배당(2404) 만기환급형",
+  "provider": "푸본현대생명",
+  "cells": [
+    "푸본현대생명",
+    "ZERO 정기보험 무배당(2404) 만기환급형",
+    "주계약",
+    "재해사망보험금 *지급사유 : 보험기간 중 피보험자가 재해를 직접적인 원인으로 사망하였을 경우",
+    "10,000만원",
+    "382,000 원",
+    "374,000 원",
+    "2.60 %",
+    "-",
+    "-",
+    "74.5 %",
+    "73.0 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "기본형",
+    "만기환급",
+    "-",
+    "-",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "대면채널 TM",
+    "2024-04-01",
+    "Download",
+    "보기",
+    "1577-3311"
+  ],
+  "coverage": [
+    "재해사망보험금 *지급사유 : 보험기간 중 피보험자가 재해를 직접적인 원인으로 사망하였을 경우",
+    "일반사망보험금 *지급사유 : 보험기간 중 피보험자가 재해이외의 원인으로 사망하였을 경우",
+    "만기환급금 *지급사유 : 보험기간이 끝나는 날까지 피보험자가 살아있을 경우"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=13334&seq=18"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010002&pageIndex=9&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010002&pageIndex=9&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:30.397726+00:00",
+    "http_status": 200,
+    "sha256": "de80135cbf31d0a467df1587b22d6506eb3562f09300679dde74b8e2cf4d6ec9"
+  }
+}

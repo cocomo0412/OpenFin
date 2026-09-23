@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.50d1d6894efa71906f817b9f",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:b355d6757f078c2a28971c32",
+  "group": "3",
+  "provider": "우리자산운용",
+  "title": "우리 공모주10증권투자신탁[채권혼합]P2",
+  "cells": [
+    "우리자산운용",
+    "우리 공모주10증권투자신탁[채권혼합]P2",
+    "혼합채권형",
+    "5",
+    "2015/05/29",
+    "판매",
+    "1,067",
+    "2.39",
+    "3.98",
+    "3.04",
+    "3.51",
+    "3.05",
+    "2.95",
+    "0.538",
+    "미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=186",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=186",
+    "collected_at": "2026-09-23T08:25:58.698440+00:00",
+    "http_status": 200,
+    "sha256": "181889a94ad997afce5071944b403df5c42da25919bfada76d3c695199baa502"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "우리자산운용",
+        "상품명": "우리 공모주10증권투자신탁[채권혼합]P2",
+        "상품유형": "혼합채권형",
+        "위험등급": "5",
+        "설정일": "2015/05/29",
+        "판매여부": "판매",
+        "순자산총액": "1,067",
+        "1년 연평균수익률(%)": "2.39",
+        "3년 연평균수익률(%)": "3.98",
+        "5년 연평균수익률(%)": "3.04",
+        "7년 연평균수익률(%)": "3.51",
+        "10년 연평균수익률(%)": "3.05",
+        "누적연평균수익률(%)": "2.95",
+        "연평균수수료율(%)": "0.538",
+        "상품 판매사": "미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=186",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=186",
+        "collected_at": "2026-09-23T08:25:58.698440+00:00",
+        "http_status": 200,
+        "sha256": "181889a94ad997afce5071944b403df5c42da25919bfada76d3c695199baa502"
+      }
+    }
+  ]
+}

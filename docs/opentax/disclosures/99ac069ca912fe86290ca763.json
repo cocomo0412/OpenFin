@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.2378472909d404f49c075802",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:d5d549b41368dbd81c53ada5",
+  "group": "3",
+  "provider": "마이다스에셋자산운용",
+  "title": "마이다스 글로벌 블루칩 배당 인컴 혼합자산 자투자신탁(H)C-Pe1",
+  "cells": [
+    "마이다스에셋자산운용",
+    "마이다스 글로벌 블루칩 배당 인컴 혼합자산 자투자신탁(H)C-Pe1",
+    "혼합자산",
+    "2",
+    "2019/11/13",
+    "판매",
+    "836",
+    "26.66",
+    "24.37",
+    "12.12",
+    "-",
+    "-",
+    "12.71",
+    "1.182",
+    "디비증권주식회사, 키움증권(주), 삼성증권, KB증권, 미래에셋증권 주식회사, NH투자증권, 신한투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=198",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=198",
+    "collected_at": "2026-09-23T08:26:14.622223+00:00",
+    "http_status": 200,
+    "sha256": "5846ad87c62ed05bf48c315f80b3404a908c15bcf8b71453204b9449bd14f98d"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "마이다스에셋자산운용",
+        "상품명": "마이다스 글로벌 블루칩 배당 인컴 혼합자산 자투자신탁(H)C-Pe1",
+        "상품유형": "혼합자산",
+        "위험등급": "2",
+        "설정일": "2019/11/13",
+        "판매여부": "판매",
+        "순자산총액": "836",
+        "1년 연평균수익률(%)": "26.66",
+        "3년 연평균수익률(%)": "24.37",
+        "5년 연평균수익률(%)": "12.12",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "12.71",
+        "연평균수수료율(%)": "1.182",
+        "상품 판매사": "디비증권주식회사, 키움증권(주), 삼성증권, KB증권, 미래에셋증권 주식회사, NH투자증권, 신한투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=198",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=198",
+        "collected_at": "2026-09-23T08:26:14.622223+00:00",
+        "http_status": 200,
+        "sha256": "5846ad87c62ed05bf48c315f80b3404a908c15bcf8b71453204b9449bd14f98d"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.3093f75d6c93e11e503aa0a3",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:ccd77795a8602bedcc78e215",
+  "group": "5",
+  "provider": "삼성화재해상보험",
+  "title": "연금저축손해보험삼성명품연금보험Ⅱ(1501)",
+  "cells": [
+    "삼성화재해상보험",
+    "연금저축손해보험삼성명품연금보험Ⅱ(1501)",
+    "금리연동형",
+    "2015/01/01",
+    "중단",
+    "38,055",
+    "-6.27",
+    "-1.36",
+    "-0.33",
+    "-",
+    "0.48",
+    "0.61",
+    "6.654"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=12",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=12",
+    "collected_at": "2026-09-23T08:21:57.784792+00:00",
+    "http_status": 200,
+    "sha256": "af8a60922577895d754bbece12f0388708a34be4e9e5395f2a608d2095030d8d"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성화재해상보험",
+        "상품명": "연금저축손해보험삼성명품연금보험Ⅱ(1501)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2015/01/01",
+        "판매여부": "중단",
+        "적립금총액": "38,055",
+        "1년 연평균수익률(%)": "-6.27",
+        "3년 연평균수익률(%)": "-1.36",
+        "5년 연평균수익률(%)": "-0.33",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "0.48",
+        "누적연평균수익률(%)": "0.61",
+        "연평균수수료율(%)": "6.654"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=12",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=12",
+        "collected_at": "2026-09-23T08:21:57.784792+00:00",
+        "http_status": 200,
+        "sha256": "af8a60922577895d754bbece12f0388708a34be4e9e5395f2a608d2095030d8d"
+      }
+    }
+  ]
+}

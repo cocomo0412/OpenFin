@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.2ba314b8cfdc1618086946c3",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:6d8662a3d04026f39f8e9bd5",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성일본인덱스증권자투자신탁H[주식]_C-Pe",
+  "cells": [
+    "삼성자산운용",
+    "삼성일본인덱스증권자투자신탁H[주식]_C-Pe",
+    "주식형",
+    "2",
+    "2018/06/14",
+    "판매",
+    "683",
+    "74.17",
+    "29.42",
+    "20.53",
+    "18.74",
+    "-",
+    "15.39",
+    "1.124",
+    "한화투자증권주식회사, IBK기업은행, 신한은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=212",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=212",
+    "collected_at": "2026-09-23T08:26:34.140827+00:00",
+    "http_status": 200,
+    "sha256": "e94c1cd919394c35eed21f006b41839311bfdeab0b3d45f58366f220daa0ba0c"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성일본인덱스증권자투자신탁H[주식]_C-Pe",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2018/06/14",
+        "판매여부": "판매",
+        "순자산총액": "683",
+        "1년 연평균수익률(%)": "74.17",
+        "3년 연평균수익률(%)": "29.42",
+        "5년 연평균수익률(%)": "20.53",
+        "7년 연평균수익률(%)": "18.74",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "15.39",
+        "연평균수수료율(%)": "1.124",
+        "상품 판매사": "한화투자증권주식회사, IBK기업은행, 신한은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=212",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=212",
+        "collected_at": "2026-09-23T08:26:34.140827+00:00",
+        "http_status": 200,
+        "sha256": "e94c1cd919394c35eed21f006b41839311bfdeab0b3d45f58366f220daa0ba0c"
+      }
+    }
+  ]
+}

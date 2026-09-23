@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.d0a2bc4821628efceb111ea0",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:f208ad0a052cadfec07f9c96",
+  "group": "3",
+  "provider": "DB자산운용",
+  "title": "DB차이나본토RQFII증권자투자신탁(H)[주식]ClassC-PE",
+  "cells": [
+    "DB자산운용",
+    "DB차이나본토RQFII증권자투자신탁(H)[주식]ClassC-PE",
+    "주식형",
+    "2",
+    "2017/08/07",
+    "판매",
+    "608",
+    "26.23",
+    "10.90",
+    "-1.84",
+    "4.91",
+    "-",
+    "5.59",
+    "1.226",
+    "키움증권(주), 광주은행, 한국투자증권, 미래에셋증권 주식회사, 하나은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=219",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=219",
+    "collected_at": "2026-09-23T08:26:43.396141+00:00",
+    "http_status": 200,
+    "sha256": "c979d43e9be39444426a4fad5383fbb3371dd1f04165d22b5f1c629cdedcd2b8"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "DB자산운용",
+        "상품명": "DB차이나본토RQFII증권자투자신탁(H)[주식]ClassC-PE",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2017/08/07",
+        "판매여부": "판매",
+        "순자산총액": "608",
+        "1년 연평균수익률(%)": "26.23",
+        "3년 연평균수익률(%)": "10.90",
+        "5년 연평균수익률(%)": "-1.84",
+        "7년 연평균수익률(%)": "4.91",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "5.59",
+        "연평균수수료율(%)": "1.226",
+        "상품 판매사": "키움증권(주), 광주은행, 한국투자증권, 미래에셋증권 주식회사, 하나은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=219",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=219",
+        "collected_at": "2026-09-23T08:26:43.396141+00:00",
+        "http_status": 200,
+        "sha256": "c979d43e9be39444426a4fad5383fbb3371dd1f04165d22b5f1c629cdedcd2b8"
+      }
+    }
+  ]
+}

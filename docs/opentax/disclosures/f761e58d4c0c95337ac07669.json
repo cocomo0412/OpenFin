@@ -1,0 +1,51 @@
+{
+  "id": "finance.insurance.klia.whole-life.aia생명.l5202460001nnn0247000302440001024400010001024400010001000302440001000100030001dp001",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L5202460001NNN0247000302440001024400010001024400010001000302440001000100030001DP001",
+  "group": "024400010001",
+  "title": "(무) AIA 글로벌 레거시 미국달러 상속종신보험 1형",
+  "provider": "AIA생명",
+  "cells": [
+    "AIA생명",
+    "(무) AIA 글로벌 레거시 미국달러 상속종신보험 1형",
+    "주계약",
+    "사망보험금 *지급사유 : 사망",
+    "200,000USD",
+    "37,314 USD",
+    "31,512 USD",
+    "-",
+    "5.55 %",
+    "연 1% 연 1%",
+    "96 %",
+    "98.5 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "체감형",
+    "일반",
+    "-",
+    "-",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "대면채널",
+    "2026-04-01",
+    "Download",
+    "보기",
+    "1588-8989"
+  ],
+  "coverage": [
+    "사망보험금 *지급사유 : 사망"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=45126&seq=4"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=18&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=18&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:35.714176+00:00",
+    "http_status": 200,
+    "sha256": "48a1426c16a139679bd43a99da8e1d36e2159ec726855c683b1fd8d5090b4895"
+  }
+}

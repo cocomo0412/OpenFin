@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.d60d847d75d2af72b9b7cedd",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:9500d04c56c2ac5e9a8d568c",
+  "group": "5",
+  "provider": "현대해상화재보험",
+  "title": "연금저축손해보험 노후사랑보험(Hi0804)",
+  "cells": [
+    "현대해상화재보험",
+    "연금저축손해보험 노후사랑보험(Hi0804)",
+    "금리연동형",
+    "2008/04/01",
+    "중단",
+    "29,200",
+    "-6.95",
+    "-0.7",
+    "0.53",
+    "0.8",
+    "0.77",
+    "1.06",
+    "8.253"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=15",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=15",
+    "collected_at": "2026-09-23T08:22:00.664726+00:00",
+    "http_status": 200,
+    "sha256": "b29bd1d347ef1a3d732994473fd9e5d1ffc04eb5c2d5700cbdcd11e6162bf717"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "현대해상화재보험",
+        "상품명": "연금저축손해보험 노후사랑보험(Hi0804)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2008/04/01",
+        "판매여부": "중단",
+        "적립금총액": "29,200",
+        "1년 연평균수익률(%)": "-6.95",
+        "3년 연평균수익률(%)": "-0.7",
+        "5년 연평균수익률(%)": "0.53",
+        "7년 연평균수익률(%)": "0.8",
+        "10년 연평균수익률(%)": "0.77",
+        "누적연평균수익률(%)": "1.06",
+        "연평균수수료율(%)": "8.253"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=15",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=15",
+        "collected_at": "2026-09-23T08:22:00.664726+00:00",
+        "http_status": 200,
+        "sha256": "b29bd1d347ef1a3d732994473fd9e5d1ffc04eb5c2d5700cbdcd11e6162bf717"
+      }
+    }
+  ]
+}

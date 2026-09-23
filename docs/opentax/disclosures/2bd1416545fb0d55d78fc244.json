@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.a9a1d5a44c73bb1131d9575a",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:68a01de2abf0024d276a9a56",
+  "group": "3",
+  "provider": "대신자산운용",
+  "title": "대신 KOSPI200 인덱스 증권 자투자신탁[주식]Class C-P1",
+  "cells": [
+    "대신자산운용",
+    "대신 KOSPI200 인덱스 증권 자투자신탁[주식]Class C-P1",
+    "주식형",
+    "2",
+    "2014/05/16",
+    "판매",
+    "8,908",
+    "224.75",
+    "62.48",
+    "28.80",
+    "29.14",
+    "22.11",
+    "17.64",
+    "0.697",
+    "유진투자증권주식회사, (주)우리투자증권, 키움증권(주), 교보증권(주), 우리은행, 대신증권주식회사, 신한은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=80",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=80",
+    "collected_at": "2026-09-23T08:23:35.626578+00:00",
+    "http_status": 200,
+    "sha256": "20f25b242f23f7a51be3d0c33eb838c9dd661370c299819726ed1ee261d35a4c"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "대신자산운용",
+        "상품명": "대신 KOSPI200 인덱스 증권 자투자신탁[주식]Class C-P1",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2014/05/16",
+        "판매여부": "판매",
+        "순자산총액": "8,908",
+        "1년 연평균수익률(%)": "224.75",
+        "3년 연평균수익률(%)": "62.48",
+        "5년 연평균수익률(%)": "28.80",
+        "7년 연평균수익률(%)": "29.14",
+        "10년 연평균수익률(%)": "22.11",
+        "누적연평균수익률(%)": "17.64",
+        "연평균수수료율(%)": "0.697",
+        "상품 판매사": "유진투자증권주식회사, (주)우리투자증권, 키움증권(주), 교보증권(주), 우리은행, 대신증권주식회사, 신한은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=80",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=80",
+        "collected_at": "2026-09-23T08:23:35.626578+00:00",
+        "http_status": 200,
+        "sha256": "20f25b242f23f7a51be3d0c33eb838c9dd661370c299819726ed1ee261d35a4c"
+      }
+    }
+  ]
+}

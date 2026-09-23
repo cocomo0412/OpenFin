@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.d26b40a857bb7b1282c87449",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:32092a0311a337400abc9b5a",
+  "group": "4",
+  "provider": "하나생명보험",
+  "title": "(무)하나세테크연금저축보험",
+  "cells": [
+    "하나생명보험",
+    "(무)하나세테크연금저축보험",
+    "금리연동형",
+    "2021/01/01",
+    "중단",
+    "6,385",
+    "-5.26",
+    "-0.96",
+    "-0.06",
+    "-",
+    "-",
+    "0.23",
+    "6.500"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=44",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=44",
+    "collected_at": "2026-09-23T08:31:35.327606+00:00",
+    "http_status": 200,
+    "sha256": "8ac787328e2642019ee798f8747c57f471eeb45a70d5e656ad621e2a5abc7ea7"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "하나생명보험",
+        "상품명": "(무)하나세테크연금저축보험",
+        "상품유형": "금리연동형",
+        "최초판매일": "2021/01/01",
+        "판매여부": "중단",
+        "적립금총액": "6,385",
+        "1년 연평균수익률(%)": "-5.26",
+        "3년 연평균수익률(%)": "-0.96",
+        "5년 연평균수익률(%)": "-0.06",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "0.23",
+        "연평균수수료율(%)": "6.500"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=44",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=44",
+        "collected_at": "2026-09-23T08:31:35.327606+00:00",
+        "http_status": 200,
+        "sha256": "8ac787328e2642019ee798f8747c57f471eeb45a70d5e656ad621e2a5abc7ea7"
+      }
+    }
+  ]
+}

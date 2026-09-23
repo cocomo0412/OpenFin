@@ -1,0 +1,55 @@
+{
+  "id": "finance.insurance.klia.dental.aia생명.l5202460004nny0247000202440001024400010009024400010009000102440001000900010004r2001",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L5202460004NNY0247000202440001024400010009024400010009000102440001000900010004R2001",
+  "group": "024400010009",
+  "title": "(무) AIA 치과비 걱정 없는 치아보험 (갱신형)",
+  "provider": "AIA생명",
+  "cells": [
+    "AIA생명",
+    "(무) AIA 치과비 걱정 없는 치아보험 (갱신형)",
+    "주계약",
+    "충전치료급여금 *지급사유 : 충전치료(90일이후)(영구치 1개당 지급)",
+    "24만원",
+    "9,960 원",
+    "12,020 원",
+    "2.25 %",
+    "-",
+    "-",
+    "110.5 %",
+    "100.9 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "순수보장",
+    "갱신형",
+    "Download",
+    "비유니버셜",
+    "CM",
+    "2026-07-01",
+    "Download",
+    "보기",
+    "1588-9898"
+  ],
+  "coverage": [
+    "충전치료급여금 *지급사유 : 충전치료(90일이후)(영구치 1개당 지급)",
+    "치수치료(신경치료)급여금 *지급사유 : 치수치료(신경치료)(90일이후)(영구치 1개당 지급)",
+    "영구치발거급여금 *지급사유 : 영구치발거(90일이후)(영구치 1개당 지급, 연간 3개 한도)",
+    "치석제거(스케일링)치료급여금 *지급사유 : 치석제거(스케일링)치료(90일이후)(연간 1회 한도)",
+    "주요치주질환(잇몸질환)치료급여금 *지급사유 : 주요치주질환(잇몸질환)치료(90일이후)",
+    "(무) 크라운치료보장특약O (갱신형) *지급사유 : 크라운치료(90일이후)(영구치 1개당 지급, 연간 3개 한도)",
+    "(무) 보철치료보장특약O (갱신형) *지급사유 : 가철성의치(틀니)치료(90일이후)(연간 1회 한도) ※이외 보장담보는 상품요약서 참조"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=35628&seq=3",
+    "https://pub.insure.or.kr/FileDown.do?fileNo=35627&seq=11"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010009&pageIndex=2&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010009&pageIndex=2&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:36.138838+00:00",
+    "http_status": 200,
+    "sha256": "81b5742795ec713fccf01f581c4ddad75a72b5f5c700424819cecac1849746cf"
+  }
+}

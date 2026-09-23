@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.4d542c7ef6eaec0a94fef3c8",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:c4dc42bb53cfcdf6720a185c",
+  "group": "5",
+  "provider": "삼성화재해상보험",
+  "title": "연금저축손해보험 삼성화재 연금보험 소득공제단체 (0910.4)",
+  "cells": [
+    "삼성화재해상보험",
+    "연금저축손해보험 삼성화재 연금보험 소득공제단체 (0910.4)",
+    "금리연동형",
+    "2009/10/01",
+    "중단",
+    "89,555",
+    "-2.09",
+    "0.94",
+    "1.21",
+    "1.16",
+    "1.08",
+    "1.05",
+    "4.297"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=7",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=7",
+    "collected_at": "2026-09-23T08:21:52.382868+00:00",
+    "http_status": 200,
+    "sha256": "901e21e5cdb528a8db310391133b23ae3e0769166a3cf287fcef2de1172d050b"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성화재해상보험",
+        "상품명": "연금저축손해보험 삼성화재 연금보험 소득공제단체 (0910.4)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2009/10/01",
+        "판매여부": "중단",
+        "적립금총액": "89,555",
+        "1년 연평균수익률(%)": "-2.09",
+        "3년 연평균수익률(%)": "0.94",
+        "5년 연평균수익률(%)": "1.21",
+        "7년 연평균수익률(%)": "1.16",
+        "10년 연평균수익률(%)": "1.08",
+        "누적연평균수익률(%)": "1.05",
+        "연평균수수료율(%)": "4.297"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=7",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=7",
+        "collected_at": "2026-09-23T08:21:52.382868+00:00",
+        "http_status": 200,
+        "sha256": "901e21e5cdb528a8db310391133b23ae3e0769166a3cf287fcef2de1172d050b"
+      }
+    }
+  ]
+}

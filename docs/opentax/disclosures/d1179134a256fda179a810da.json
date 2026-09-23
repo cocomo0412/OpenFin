@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.8caf8aed9f43f6dac81844b7",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:cbd82ba223184631aa31628f",
+  "group": "4",
+  "provider": "한화생명보험",
+  "title": "연금저축 대한하이드림연금보험",
+  "cells": [
+    "한화생명보험",
+    "연금저축 대한하이드림연금보험",
+    "금리연동형",
+    "2010/06/01",
+    "중단",
+    "272,434",
+    "-6.07",
+    "-0.68",
+    "0.22",
+    "0.42",
+    "0.57",
+    "0.87",
+    "6.761"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=2",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=2",
+    "collected_at": "2026-09-23T08:21:43.107456+00:00",
+    "http_status": 200,
+    "sha256": "ecb2ab95b06c6d36c8cec92f0547da8fb5668b0f2a21fbd9971b26a29ce3ecd5"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한화생명보험",
+        "상품명": "연금저축 대한하이드림연금보험",
+        "상품유형": "금리연동형",
+        "최초판매일": "2010/06/01",
+        "판매여부": "중단",
+        "적립금총액": "272,434",
+        "1년 연평균수익률(%)": "-6.07",
+        "3년 연평균수익률(%)": "-0.68",
+        "5년 연평균수익률(%)": "0.22",
+        "7년 연평균수익률(%)": "0.42",
+        "10년 연평균수익률(%)": "0.57",
+        "누적연평균수익률(%)": "0.87",
+        "연평균수수료율(%)": "6.761"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=2",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=2",
+        "collected_at": "2026-09-23T08:21:43.107456+00:00",
+        "http_status": 200,
+        "sha256": "ecb2ab95b06c6d36c8cec92f0547da8fb5668b0f2a21fbd9971b26a29ce3ecd5"
+      }
+    }
+  ]
+}

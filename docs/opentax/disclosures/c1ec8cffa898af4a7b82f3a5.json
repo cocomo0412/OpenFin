@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.010e6d2afcd8541615dcc5e3",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:efb4ed6f473d132219b05ce4",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋밸런스알파플러스증권자투자신탁(채권혼합)종류C-Pe",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋밸런스알파플러스증권자투자신탁(채권혼합)종류C-Pe",
+    "혼합채권형",
+    "5",
+    "2019/05/22",
+    "판매",
+    "908",
+    "25.71",
+    "11.21",
+    "6.46",
+    "6.17",
+    "-",
+    "6.21",
+    "0.719",
+    "한화투자증권주식회사, (주)우리투자증권, NH농협은행, 한국투자증권, 아이엠증권, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=194",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=194",
+    "collected_at": "2026-09-23T08:26:09.410465+00:00",
+    "http_status": 200,
+    "sha256": "a90ff2283f74ba9235a35cc2ef71e61ea8a47ab88452c9ddef90754b2e7b9eae"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋밸런스알파플러스증권자투자신탁(채권혼합)종류C-Pe",
+        "상품유형": "혼합채권형",
+        "위험등급": "5",
+        "설정일": "2019/05/22",
+        "판매여부": "판매",
+        "순자산총액": "908",
+        "1년 연평균수익률(%)": "25.71",
+        "3년 연평균수익률(%)": "11.21",
+        "5년 연평균수익률(%)": "6.46",
+        "7년 연평균수익률(%)": "6.17",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "6.21",
+        "연평균수수료율(%)": "0.719",
+        "상품 판매사": "한화투자증권주식회사, (주)우리투자증권, NH농협은행, 한국투자증권, 아이엠증권, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=194",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=194",
+        "collected_at": "2026-09-23T08:26:09.410465+00:00",
+        "http_status": 200,
+        "sha256": "a90ff2283f74ba9235a35cc2ef71e61ea8a47ab88452c9ddef90754b2e7b9eae"
+      }
+    }
+  ]
+}

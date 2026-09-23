@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.adcd05d425f1e99a318e0cbd",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:50dae1d43a1bc697ffb6c3ea",
+  "group": "5",
+  "provider": "KB손해보험",
+  "title": "연금저축미래골드보험 (L3.10)",
+  "cells": [
+    "KB손해보험",
+    "연금저축미래골드보험 (L3.10)",
+    "금리연동형",
+    "2003/01/02",
+    "중단",
+    "158",
+    "-6.76",
+    "-0.77",
+    "0.9",
+    "1.17",
+    "1.32",
+    "1.34",
+    "8.11"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=44",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=44",
+    "collected_at": "2026-09-23T08:31:19.635751+00:00",
+    "http_status": 200,
+    "sha256": "dc4e889c39103ffcdbf2c7380728f1f03d3652c98fcddf1240d30edee39fe094"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB손해보험",
+        "상품명": "연금저축미래골드보험 (L3.10)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2003/01/02",
+        "판매여부": "중단",
+        "적립금총액": "158",
+        "1년 연평균수익률(%)": "-6.76",
+        "3년 연평균수익률(%)": "-0.77",
+        "5년 연평균수익률(%)": "0.9",
+        "7년 연평균수익률(%)": "1.17",
+        "10년 연평균수익률(%)": "1.32",
+        "누적연평균수익률(%)": "1.34",
+        "연평균수수료율(%)": "8.11"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=44",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=44",
+        "collected_at": "2026-09-23T08:31:19.635751+00:00",
+        "http_status": 200,
+        "sha256": "dc4e889c39103ffcdbf2c7380728f1f03d3652c98fcddf1240d30edee39fe094"
+      }
+    }
+  ]
+}

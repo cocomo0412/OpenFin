@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.3db0cb76d74803bcea7399d0",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:09f33a58d180b75561d873b2",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성당신을위한삼성그룹밸류인덱스증권자투자신탁제1호[주식](C-P)",
+  "cells": [
+    "삼성자산운용",
+    "삼성당신을위한삼성그룹밸류인덱스증권자투자신탁제1호[주식](C-P)",
+    "주식형",
+    "2",
+    "2014/04/23",
+    "판매",
+    "1,552",
+    "188.49",
+    "42.01",
+    "21.77",
+    "19.98",
+    "17.16",
+    "11.53",
+    "1.544",
+    "한화투자증권주식회사, (주)우리투자증권, 키움증권(주), 삼성생명보험주식회사, 삼성증권, 아이엠증권, 미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=165",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=165",
+    "collected_at": "2026-09-23T08:25:30.340843+00:00",
+    "http_status": 200,
+    "sha256": "eb27c44bf92a4c1c2d3306634637a27116fea527498919025ec800a8e8707676"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성당신을위한삼성그룹밸류인덱스증권자투자신탁제1호[주식](C-P)",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2014/04/23",
+        "판매여부": "판매",
+        "순자산총액": "1,552",
+        "1년 연평균수익률(%)": "188.49",
+        "3년 연평균수익률(%)": "42.01",
+        "5년 연평균수익률(%)": "21.77",
+        "7년 연평균수익률(%)": "19.98",
+        "10년 연평균수익률(%)": "17.16",
+        "누적연평균수익률(%)": "11.53",
+        "연평균수수료율(%)": "1.544",
+        "상품 판매사": "한화투자증권주식회사, (주)우리투자증권, 키움증권(주), 삼성생명보험주식회사, 삼성증권, 아이엠증권, 미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=165",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=165",
+        "collected_at": "2026-09-23T08:25:30.340843+00:00",
+        "http_status": 200,
+        "sha256": "eb27c44bf92a4c1c2d3306634637a27116fea527498919025ec800a8e8707676"
+      }
+    }
+  ]
+}

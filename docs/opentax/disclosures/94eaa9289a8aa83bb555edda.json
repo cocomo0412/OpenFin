@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.d30ef9a50467f4f5e3f93baa",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:3b9bcaed1800de5bbc055e45",
+  "group": "4",
+  "provider": "미래에셋생명보험",
+  "title": "연금저축SAVE연금보험1204,1207",
+  "cells": [
+    "미래에셋생명보험",
+    "연금저축SAVE연금보험1204,1207",
+    "금리연동형",
+    "2012/04/01",
+    "중단",
+    "47,668",
+    "-4.72",
+    "-0.47",
+    "0.10",
+    "0.29",
+    "0.58",
+    "0.86",
+    "4.851"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=14",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=14",
+    "collected_at": "2026-09-23T08:21:56.071254+00:00",
+    "http_status": 200,
+    "sha256": "c63f6a37e5a19f4d0c4f331e7e3dac4f16466573f9bd7102f2e8ba4274674522"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋생명보험",
+        "상품명": "연금저축SAVE연금보험1204,1207",
+        "상품유형": "금리연동형",
+        "최초판매일": "2012/04/01",
+        "판매여부": "중단",
+        "적립금총액": "47,668",
+        "1년 연평균수익률(%)": "-4.72",
+        "3년 연평균수익률(%)": "-0.47",
+        "5년 연평균수익률(%)": "0.10",
+        "7년 연평균수익률(%)": "0.29",
+        "10년 연평균수익률(%)": "0.58",
+        "누적연평균수익률(%)": "0.86",
+        "연평균수수료율(%)": "4.851"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=14",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=14",
+        "collected_at": "2026-09-23T08:21:56.071254+00:00",
+        "http_status": 200,
+        "sha256": "c63f6a37e5a19f4d0c4f331e7e3dac4f16466573f9bd7102f2e8ba4274674522"
+      }
+    }
+  ]
+}

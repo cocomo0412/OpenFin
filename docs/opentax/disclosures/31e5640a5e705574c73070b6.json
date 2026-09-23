@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.b1f462cb143cb17cf8e5e720",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:878502e866bf422fd2f15b48",
+  "group": "3",
+  "provider": "현대인베스트먼트자산운용",
+  "title": "현대인베스트먼트공모주하이일드증권투자신탁1호(채권혼합)P1-e",
+  "cells": [
+    "현대인베스트먼트자산운용",
+    "현대인베스트먼트공모주하이일드증권투자신탁1호(채권혼합)P1-e",
+    "혼합채권형",
+    "5",
+    "2018/08/31",
+    "판매",
+    "935",
+    "6.54",
+    "7.40",
+    "5.10",
+    "5.02",
+    "-",
+    "4.90",
+    "0.948",
+    "키움증권(주), 한국투자증권, 대신증권주식회사, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=192",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=192",
+    "collected_at": "2026-09-23T08:26:06.526414+00:00",
+    "http_status": 200,
+    "sha256": "10fe59d1060551037f4b7ab6cce5e00c80e31af361022729fea823b80c728f56"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "현대인베스트먼트자산운용",
+        "상품명": "현대인베스트먼트공모주하이일드증권투자신탁1호(채권혼합)P1-e",
+        "상품유형": "혼합채권형",
+        "위험등급": "5",
+        "설정일": "2018/08/31",
+        "판매여부": "판매",
+        "순자산총액": "935",
+        "1년 연평균수익률(%)": "6.54",
+        "3년 연평균수익률(%)": "7.40",
+        "5년 연평균수익률(%)": "5.10",
+        "7년 연평균수익률(%)": "5.02",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "4.90",
+        "연평균수수료율(%)": "0.948",
+        "상품 판매사": "키움증권(주), 한국투자증권, 대신증권주식회사, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=192",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=192",
+        "collected_at": "2026-09-23T08:26:06.526414+00:00",
+        "http_status": 200,
+        "sha256": "10fe59d1060551037f4b7ab6cce5e00c80e31af361022729fea823b80c728f56"
+      }
+    }
+  ]
+}

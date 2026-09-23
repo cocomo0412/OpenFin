@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.c9d3f9ae1911f12e7e358192",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:99fedd0a8f276953ed2eeb58",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB스타 개인용 MMF P-101호(국공채) C-Pe 클래스",
+  "cells": [
+    "KB자산운용",
+    "KB스타 개인용 MMF P-101호(국공채) C-Pe 클래스",
+    "단기금융",
+    "6",
+    "2018/07/06",
+    "판매",
+    "6,253",
+    "2.35",
+    "2.83",
+    "2.45",
+    "1.98",
+    "-",
+    "1.93",
+    "0.248",
+    "전북은행, KB증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=96",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=96",
+    "collected_at": "2026-09-23T08:23:57.107519+00:00",
+    "http_status": 200,
+    "sha256": "cda5b937b485313e2f8084cfa6e8251180d7b91c7c88eb0202e90cf16830bfd8"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB스타 개인용 MMF P-101호(국공채) C-Pe 클래스",
+        "상품유형": "단기금융",
+        "위험등급": "6",
+        "설정일": "2018/07/06",
+        "판매여부": "판매",
+        "순자산총액": "6,253",
+        "1년 연평균수익률(%)": "2.35",
+        "3년 연평균수익률(%)": "2.83",
+        "5년 연평균수익률(%)": "2.45",
+        "7년 연평균수익률(%)": "1.98",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "1.93",
+        "연평균수수료율(%)": "0.248",
+        "상품 판매사": "전북은행, KB증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=96",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=96",
+        "collected_at": "2026-09-23T08:23:57.107519+00:00",
+        "http_status": 200,
+        "sha256": "cda5b937b485313e2f8084cfa6e8251180d7b91c7c88eb0202e90cf16830bfd8"
+      }
+    }
+  ]
+}

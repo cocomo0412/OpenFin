@@ -1,0 +1,50 @@
+{
+  "id": "finance.insurance.klia.disease.nh농협생명.l4202460004nnn024700020244000102440001000302440001000300020244000100030002000401145",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L4202460004NNN024700020244000102440001000302440001000300020244000100030002000401145",
+  "group": "024400010003",
+  "title": "면역쏘옥NHe통풍대상포진보험(무배당)",
+  "provider": "NH농협생명",
+  "cells": [
+    "NH농협생명",
+    "면역쏘옥NHe통풍대상포진보험(무배당)",
+    "주계약",
+    "대상포진진단자금 *지급사유 : 피보험자가 보험기간 중 '대상포진 보장개시일' 이후에 '대상포진'으로 진단 확정되었을 때(최초 1회한)",
+    "1,000만원",
+    "7,500 원",
+    "5,100 원",
+    "2.50 %",
+    "-",
+    "-",
+    "96.7 %",
+    "91.4 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "기타",
+    "순수보장",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "CM",
+    "2026-01-01",
+    "Download",
+    "보기",
+    "1544-4000"
+  ],
+  "coverage": [
+    "대상포진진단자금 *지급사유 : 피보험자가 보험기간 중 '대상포진 보장개시일' 이후에 '대상포진'으로 진단 확정되었을 때(최초 1회한)",
+    "통풍진단자금 *지급사유 : 피보험자가 보험기간 중 '통풍'으로 진단 확정되었을 때(최초 1회한)"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=42311&seq=2"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010003&pageIndex=7&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010003&pageIndex=7&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:28.631559+00:00",
+    "http_status": 200,
+    "sha256": "69bfe887fb4d07cb97ac6ceaf563c688b544b8f741f339bdbae5885d56113d16"
+  }
+}

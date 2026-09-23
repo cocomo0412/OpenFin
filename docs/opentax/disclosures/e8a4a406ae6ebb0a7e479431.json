@@ -1,0 +1,51 @@
+{
+  "id": "finance.insurance.klia.current.e13d6e36ba28f9450d26",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L110246000102460004NNN0247000202440001024400010006024400010006000202440001000600020004S0725",
+  "group": "024400010006",
+  "title": "신한SOL다치면속상해보험 mini(무배당)",
+  "provider": "신한라이프생명",
+  "cells": [
+    "신한라이프생명",
+    "신한SOL다치면속상해보험 mini(무배당)",
+    "주계약",
+    "재해수술급여금 *지급사유 : 보험기간 중 피보험자가 재해로 인한 그 직접적인 치료를 목적으로 보험기간 중 수술을 받았을 때(수 술 1회당)",
+    "1,000 만원",
+    "12,600 원",
+    "8,650 원",
+    "2.10 %",
+    "-",
+    "-",
+    "129.0 %",
+    "118.6 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "보험기간(1년 초과)",
+    "순수보장",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "대면채널 CM",
+    "2026-07-01",
+    "Download",
+    "보기",
+    "1588-5580"
+  ],
+  "coverage": [
+    "재해수술급여금 *지급사유 : 보험기간 중 피보험자가 재해로 인한 그 직접적인 치료를 목적으로 보험기간 중 수술을 받았을 때(수 술 1회당)",
+    "재해골절치료급여금 *지급사유 : 보험기간 중 피보험자에게 재해가 발생하고 그 재 해를 직접적인 원인으로 보험기간 중 재해골절(치 아파절 제외)로 진단이 확정되었을 때",
+    "첫날부터재해입원급여금 *지급사유 : 보험기간 중 피보험자에게 재해로 인한 그 직접적 인 치료를 목적으로 보험기간 중 1일 이상 계속 입원하였을 때(다만, 1회 입원당 10일 한도)"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=45960&seq=1"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010006&pageIndex=4&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010006&pageIndex=4&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:35.415623+00:00",
+    "http_status": 200,
+    "sha256": "03dc2a1cc0b4562b677cde165f72cad9572db23e960f43e9561ebbe303395588"
+  }
+}

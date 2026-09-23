@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.1c9be9d84dd71db4daac0f8c",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:1adb49f61e4269b06fcb5456",
+  "group": "5",
+  "provider": "삼성화재해상보험",
+  "title": "연금저축손해보험무배당삼성화재연금보험아름다운생활(1601.2)특약",
+  "cells": [
+    "삼성화재해상보험",
+    "연금저축손해보험무배당삼성화재연금보험아름다운생활(1601.2)특약",
+    "금리연동형",
+    "2016/01/01",
+    "중단",
+    "4,334",
+    "-7.18",
+    "-1.67",
+    "-0.64",
+    "-0.23",
+    "0.26",
+    "0.32",
+    "7.565"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=34",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=34",
+    "collected_at": "2026-09-23T08:22:20.470147+00:00",
+    "http_status": 200,
+    "sha256": "3b10e969de0543c34588c4231d840aff91436f510696235b4eab550d81d93013"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성화재해상보험",
+        "상품명": "연금저축손해보험무배당삼성화재연금보험아름다운생활(1601.2)특약",
+        "상품유형": "금리연동형",
+        "최초판매일": "2016/01/01",
+        "판매여부": "중단",
+        "적립금총액": "4,334",
+        "1년 연평균수익률(%)": "-7.18",
+        "3년 연평균수익률(%)": "-1.67",
+        "5년 연평균수익률(%)": "-0.64",
+        "7년 연평균수익률(%)": "-0.23",
+        "10년 연평균수익률(%)": "0.26",
+        "누적연평균수익률(%)": "0.32",
+        "연평균수수료율(%)": "7.565"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=34",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=34",
+        "collected_at": "2026-09-23T08:22:20.470147+00:00",
+        "http_status": 200,
+        "sha256": "3b10e969de0543c34588c4231d840aff91436f510696235b4eab550d81d93013"
+      }
+    }
+  ]
+}

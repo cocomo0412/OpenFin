@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.f84573356e520d235ee0ebd0",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:9fe5489515d5c612b2604480",
+  "group": "3",
+  "provider": "우리자산운용",
+  "title": "우리WON전단채플러스액티브증권상장지수투자신탁(채권)",
+  "cells": [
+    "우리자산운용",
+    "우리WON전단채플러스액티브증권상장지수투자신탁(채권)",
+    "채권형",
+    "5",
+    "2024/11/15",
+    "판매",
+    "450",
+    "3.05",
+    "-",
+    "-",
+    "-",
+    "-",
+    "3.48",
+    "0.066",
+    "한화투자증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, KB증권, 아이엠증권, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=238",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=238",
+    "collected_at": "2026-09-23T08:27:09.374056+00:00",
+    "http_status": 200,
+    "sha256": "16695cf332582ec1348193a94cf7bfcb74ef6ff955762dc5db9ee7ae562b4ac4"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "우리자산운용",
+        "상품명": "우리WON전단채플러스액티브증권상장지수투자신탁(채권)",
+        "상품유형": "채권형",
+        "위험등급": "5",
+        "설정일": "2024/11/15",
+        "판매여부": "판매",
+        "순자산총액": "450",
+        "1년 연평균수익률(%)": "3.05",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "3.48",
+        "연평균수수료율(%)": "0.066",
+        "상품 판매사": "한화투자증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, KB증권, 아이엠증권, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=238",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=238",
+        "collected_at": "2026-09-23T08:27:09.374056+00:00",
+        "http_status": 200,
+        "sha256": "16695cf332582ec1348193a94cf7bfcb74ef6ff955762dc5db9ee7ae562b4ac4"
+      }
+    }
+  ]
+}

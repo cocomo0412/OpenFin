@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.5b0f5c1a8cd9c9f2fb408c8a",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:56c042c58fa0db6d9c68369d",
+  "group": "3",
+  "provider": "IBK자산운용",
+  "title": "IBK 켄쇼 4.0 레볼루션 증권 자투자신탁(H)[주식] 종류 C-Pe",
+  "cells": [
+    "IBK자산운용",
+    "IBK 켄쇼 4.0 레볼루션 증권 자투자신탁(H)[주식] 종류 C-Pe",
+    "주식형",
+    "2",
+    "2018/01/25",
+    "판매",
+    "1,681",
+    "19.27",
+    "15.30",
+    "0.21",
+    "8.90",
+    "-",
+    "6.35",
+    "1.167",
+    "한화투자증권주식회사, (주)우리투자증권, 한국투자증권, 삼성증권, KB증권, KB국민은행, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=160",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=160",
+    "collected_at": "2026-09-23T08:25:23.775470+00:00",
+    "http_status": 200,
+    "sha256": "d58d0c4ed4a7ec142608b79f336781091431463e6a256ea96e18a2de2900158e"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "IBK자산운용",
+        "상품명": "IBK 켄쇼 4.0 레볼루션 증권 자투자신탁(H)[주식] 종류 C-Pe",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2018/01/25",
+        "판매여부": "판매",
+        "순자산총액": "1,681",
+        "1년 연평균수익률(%)": "19.27",
+        "3년 연평균수익률(%)": "15.30",
+        "5년 연평균수익률(%)": "0.21",
+        "7년 연평균수익률(%)": "8.90",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "6.35",
+        "연평균수수료율(%)": "1.167",
+        "상품 판매사": "한화투자증권주식회사, (주)우리투자증권, 한국투자증권, 삼성증권, KB증권, KB국민은행, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=160",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=160",
+        "collected_at": "2026-09-23T08:25:23.775470+00:00",
+        "http_status": 200,
+        "sha256": "d58d0c4ed4a7ec142608b79f336781091431463e6a256ea96e18a2de2900158e"
+      }
+    }
+  ]
+}

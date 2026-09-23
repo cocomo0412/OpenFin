@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.8dd8801fccb7578d66acf725",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:92ad0fa3402448b12b60affd",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 삼성전자SK하이닉스 50 증권 투자신탁(채권혼합) C-Pe",
+  "cells": [
+    "KB자산운용",
+    "KB 삼성전자SK하이닉스 50 증권 투자신탁(채권혼합) C-Pe",
+    "혼합채권형",
+    "4",
+    "2026/06/08",
+    "판매",
+    "1,091",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "254.33",
+    "0.400",
+    "-"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=184",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=184",
+    "collected_at": "2026-09-23T08:25:55.879294+00:00",
+    "http_status": 200,
+    "sha256": "d46a86167fa184684212c7cd9186f996fddb04b8407fa428eda9ede21f6c0ec7"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 삼성전자SK하이닉스 50 증권 투자신탁(채권혼합) C-Pe",
+        "상품유형": "혼합채권형",
+        "위험등급": "4",
+        "설정일": "2026/06/08",
+        "판매여부": "판매",
+        "순자산총액": "1,091",
+        "1년 연평균수익률(%)": "-",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "254.33",
+        "연평균수수료율(%)": "0.400",
+        "상품 판매사": "-"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=184",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=184",
+        "collected_at": "2026-09-23T08:25:55.879294+00:00",
+        "http_status": 200,
+        "sha256": "d46a86167fa184684212c7cd9186f996fddb04b8407fa428eda9ede21f6c0ec7"
+      }
+    }
+  ]
+}

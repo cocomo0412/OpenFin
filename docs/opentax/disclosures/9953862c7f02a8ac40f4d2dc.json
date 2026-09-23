@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.a6a360343bc79521488cf4cf",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:f25ab590ebc516530f1ab6d2",
+  "group": "3",
+  "provider": "NH-Amundi자산운용",
+  "title": "NH-Amundi 모아모아15 증권투자신탁[채권혼합]ClassC-P1(연금저축)",
+  "cells": [
+    "NH-Amundi자산운용",
+    "NH-Amundi 모아모아15 증권투자신탁[채권혼합]ClassC-P1(연금저축)",
+    "혼합채권형",
+    "5",
+    "2015/01/07",
+    "판매",
+    "4,908",
+    "18.88",
+    "10.09",
+    "5.46",
+    "4.94",
+    "4.02",
+    "3.89",
+    "0.513",
+    "NH농협은행, 미래에셋증권 주식회사, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=104",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=104",
+    "collected_at": "2026-09-23T08:24:08.039064+00:00",
+    "http_status": 200,
+    "sha256": "b37f2b5f4343509756902b01eb9603435cea6cb320fccf91c988b913c3e042fc"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "NH-Amundi자산운용",
+        "상품명": "NH-Amundi 모아모아15 증권투자신탁[채권혼합]ClassC-P1(연금저축)",
+        "상품유형": "혼합채권형",
+        "위험등급": "5",
+        "설정일": "2015/01/07",
+        "판매여부": "판매",
+        "순자산총액": "4,908",
+        "1년 연평균수익률(%)": "18.88",
+        "3년 연평균수익률(%)": "10.09",
+        "5년 연평균수익률(%)": "5.46",
+        "7년 연평균수익률(%)": "4.94",
+        "10년 연평균수익률(%)": "4.02",
+        "누적연평균수익률(%)": "3.89",
+        "연평균수수료율(%)": "0.513",
+        "상품 판매사": "NH농협은행, 미래에셋증권 주식회사, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=104",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=104",
+        "collected_at": "2026-09-23T08:24:08.039064+00:00",
+        "http_status": 200,
+        "sha256": "b37f2b5f4343509756902b01eb9603435cea6cb320fccf91c988b913c3e042fc"
+      }
+    }
+  ]
+}

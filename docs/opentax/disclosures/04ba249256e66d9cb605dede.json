@@ -1,0 +1,50 @@
+{
+  "id": "finance.insurance.klia.accident.동양생명.l740246000102460004nnn0247000202440001024400010006024400010006000102440001000600010004r4012",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L740246000102460004NNN0247000202440001024400010006024400010006000102440001000600010004R4012",
+  "group": "024400010006",
+  "title": "(무)우리WON하는미니상해보험",
+  "provider": "동양생명",
+  "cells": [
+    "동양생명",
+    "(무)우리WON하는미니상해보험",
+    "주계약",
+    "재해골절치료비 *지급사유 : 피보험자가 보험기간 중 발생한 재해를 직접적인 원인으로 재해골절(치아파절 제외) 상태가 되었을 때(발생1회당)",
+    "10만원",
+    "3,660 원",
+    "3,450 원",
+    "2.90 %",
+    "-",
+    "-",
+    "77.4 %",
+    "71.3 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "보험기간(1년 이하)",
+    "순수보장",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "대면채널 CM",
+    "2026-01-01",
+    "Download",
+    "보기",
+    "1577-1004"
+  ],
+  "coverage": [
+    "재해골절치료비 *지급사유 : 피보험자가 보험기간 중 발생한 재해를 직접적인 원인으로 재해골절(치아파절 제외) 상태가 되었을 때(발생1회당)",
+    "깁스치료비 *지급사유 : 피보험자가 보험기간 중 치료를 직접적인 목적으로 깁스(Cast) 치료를 받았을 때(깁스치료 1회당)"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=43160&seq=2"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010006&pageIndex=4&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010006&pageIndex=4&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:35.415623+00:00",
+    "http_status": 200,
+    "sha256": "03dc2a1cc0b4562b677cde165f72cad9572db23e960f43e9561ebbe303395588"
+  }
+}

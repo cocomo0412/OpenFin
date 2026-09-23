@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.0f1add513ea378e2174e4510",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:22fe2d44f5fe5b442725b74d",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 미국 ESG 배당귀족 증권 자투자신탁(주식)(H) C-Pe",
+  "cells": [
+    "KB자산운용",
+    "KB 미국 ESG 배당귀족 증권 자투자신탁(주식)(H) C-Pe",
+    "주식형",
+    "3",
+    "2022/11/16",
+    "판매",
+    "48",
+    "14.11",
+    "6.04",
+    "-",
+    "-",
+    "-",
+    "4.32",
+    "0.784",
+    "KB증권, KB국민은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=303",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=303",
+    "collected_at": "2026-09-23T08:28:35.797590+00:00",
+    "http_status": 200,
+    "sha256": "be2e67bfd8d6cbcaa3b430dca48ddcafcb357568f2d7093013516c66bfc890a3"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 미국 ESG 배당귀족 증권 자투자신탁(주식)(H) C-Pe",
+        "상품유형": "주식형",
+        "위험등급": "3",
+        "설정일": "2022/11/16",
+        "판매여부": "판매",
+        "순자산총액": "48",
+        "1년 연평균수익률(%)": "14.11",
+        "3년 연평균수익률(%)": "6.04",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "4.32",
+        "연평균수수료율(%)": "0.784",
+        "상품 판매사": "KB증권, KB국민은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=303",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=303",
+        "collected_at": "2026-09-23T08:28:35.797590+00:00",
+        "http_status": 200,
+        "sha256": "be2e67bfd8d6cbcaa3b430dca48ddcafcb357568f2d7093013516c66bfc890a3"
+      }
+    }
+  ]
+}

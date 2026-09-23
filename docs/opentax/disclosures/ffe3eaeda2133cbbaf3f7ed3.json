@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.ee7bd9f64a22b9eeda336136",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:2a7e9c13e21ab2eaf65d76ec",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB K-성장과 지배구조 50 목표전환 증권 투자신탁 제2호(채권-재간접형) C-Pe",
+  "cells": [
+    "KB자산운용",
+    "KB K-성장과 지배구조 50 목표전환 증권 투자신탁 제2호(채권-재간접형) C-Pe",
+    "재간접",
+    "5",
+    "2025/11/28",
+    "판매",
+    "8",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "14.72",
+    "0.556",
+    "미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=314",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=314",
+    "collected_at": "2026-09-23T08:28:52.182573+00:00",
+    "http_status": 200,
+    "sha256": "f1e7f9624ae92e31d89c43bfa9f7e66e96d117a822f4dd493ce2208e1d78be98"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB K-성장과 지배구조 50 목표전환 증권 투자신탁 제2호(채권-재간접형) C-Pe",
+        "상품유형": "재간접",
+        "위험등급": "5",
+        "설정일": "2025/11/28",
+        "판매여부": "판매",
+        "순자산총액": "8",
+        "1년 연평균수익률(%)": "-",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "14.72",
+        "연평균수수료율(%)": "0.556",
+        "상품 판매사": "미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=314",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=314",
+        "collected_at": "2026-09-23T08:28:52.182573+00:00",
+        "http_status": 200,
+        "sha256": "f1e7f9624ae92e31d89c43bfa9f7e66e96d117a822f4dd493ce2208e1d78be98"
+      }
+    }
+  ]
+}

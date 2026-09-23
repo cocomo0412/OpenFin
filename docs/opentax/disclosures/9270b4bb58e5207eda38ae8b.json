@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.cb821ebb981f97e878b3f6b1",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:e1628e8a3e1cf7dde9caf241",
+  "group": "3",
+  "provider": "신영자산운용",
+  "title": "신영고배당반기분배증권자투자신탁(주식혼합) C-P형",
+  "cells": [
+    "신영자산운용",
+    "신영고배당반기분배증권자투자신탁(주식혼합) C-P형",
+    "혼합주식형",
+    "4",
+    "2021/09/06",
+    "판매",
+    "334",
+    "20.36",
+    "18.63",
+    "-",
+    "-",
+    "-",
+    "12.34",
+    "0.693",
+    "한화투자증권주식회사, 신영증권주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=255",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=255",
+    "collected_at": "2026-09-23T08:27:32.519030+00:00",
+    "http_status": 200,
+    "sha256": "4ee50c1a29cdca868fbeac4602e357dc4ad15cdd7a1bd9d59452762f2f7cfdff"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신영자산운용",
+        "상품명": "신영고배당반기분배증권자투자신탁(주식혼합) C-P형",
+        "상품유형": "혼합주식형",
+        "위험등급": "4",
+        "설정일": "2021/09/06",
+        "판매여부": "판매",
+        "순자산총액": "334",
+        "1년 연평균수익률(%)": "20.36",
+        "3년 연평균수익률(%)": "18.63",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "12.34",
+        "연평균수수료율(%)": "0.693",
+        "상품 판매사": "한화투자증권주식회사, 신영증권주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=255",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=255",
+        "collected_at": "2026-09-23T08:27:32.519030+00:00",
+        "http_status": 200,
+        "sha256": "4ee50c1a29cdca868fbeac4602e357dc4ad15cdd7a1bd9d59452762f2f7cfdff"
+      }
+    }
+  ]
+}

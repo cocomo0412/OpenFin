@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.39b14bc489a32cdbea4aea78",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:ea1bd081f84d2dbc6d3c19d1",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성KODEX K콘텐츠증권상장지수투자신탁[주식]",
+  "cells": [
+    "삼성자산운용",
+    "삼성KODEX K콘텐츠증권상장지수투자신탁[주식]",
+    "주식형",
+    "2",
+    "2017/03/27",
+    "판매",
+    "5,867",
+    "-31.20",
+    "-7.56",
+    "-17.30",
+    "-0.97",
+    "-",
+    "0.24",
+    "0.466",
+    "디비증권주식회사, 유진투자증권주식회사, 한화투자증권주식회사, 하나증권주식회사, 키움증권(주), 메리츠증권(주), 한국투자증권, SK증권주식회사, 삼성증권, KB증권, 대신증권주식회사, 아이엠증권, 신영증권주식회사, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권, 신한투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=98",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=98",
+    "collected_at": "2026-09-23T08:23:59.905147+00:00",
+    "http_status": 200,
+    "sha256": "d8a848a8181c94633972ab5018c8ab6160ccd76058ca7e7b4354a3f7b1af1a82"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성KODEX K콘텐츠증권상장지수투자신탁[주식]",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2017/03/27",
+        "판매여부": "판매",
+        "순자산총액": "5,867",
+        "1년 연평균수익률(%)": "-31.20",
+        "3년 연평균수익률(%)": "-7.56",
+        "5년 연평균수익률(%)": "-17.30",
+        "7년 연평균수익률(%)": "-0.97",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "0.24",
+        "연평균수수료율(%)": "0.466",
+        "상품 판매사": "디비증권주식회사, 유진투자증권주식회사, 한화투자증권주식회사, 하나증권주식회사, 키움증권(주), 메리츠증권(주), 한국투자증권, SK증권주식회사, 삼성증권, KB증권, 대신증권주식회사, 아이엠증권, 신영증권주식회사, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권, 신한투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=98",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=98",
+        "collected_at": "2026-09-23T08:23:59.905147+00:00",
+        "http_status": 200,
+        "sha256": "d8a848a8181c94633972ab5018c8ab6160ccd76058ca7e7b4354a3f7b1af1a82"
+      }
+    }
+  ]
+}

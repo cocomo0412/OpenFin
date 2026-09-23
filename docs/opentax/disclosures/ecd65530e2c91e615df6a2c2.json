@@ -1,0 +1,54 @@
+{
+  "id": "finance.insurance.klia.term-life.kb라이프생명.l611nnb1b1230310",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L611NNB1B1230310",
+  "group": "024400010002",
+  "title": "KB 정기보험 무배당",
+  "provider": "KB라이프생명",
+  "cells": [
+    "KB라이프생명",
+    "KB 정기보험 무배당",
+    "주계약",
+    "사망보험금 *지급사유 : 피보험자가 보험기간 중 사망하였을 때",
+    "1억원",
+    "28,000 원",
+    "17,000 원",
+    "2.50 %",
+    "-",
+    "-",
+    "158.2 %",
+    "184.7 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "기본형",
+    "순수보장",
+    "-",
+    "-",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "대면채널",
+    "2026-04-01",
+    "Download",
+    "보기",
+    "1588-3374"
+  ],
+  "coverage": [
+    "사망보험금 *지급사유 : 피보험자가 보험기간 중 사망하였을 때",
+    "무배당 고도장해보장특약 *지급사유 : 피보험자가 보험기간 중 장해분류표 중 동일한 재해 또는 재해 이외의 동일한 원인으로 여러 신체부위의 장해지급률 을 더하여 80% 이상인 장해상태가 되었 을 때 (단, 피보험자 1 인당 1 회에 한하 여 지급합니다)",
+    "무배당 재해사망특약Ⅰ *지급사유 : 피보험자가 보험기간 중 재해로 인하여 사망하였을 때",
+    "무배당 재해장해보장특약Ⅰ *지급사유 : 피보험자가 보험기간 중 재해로 인하여 장해분류표에서 정한 장해지급률 중 3% 이상이며 100%이하에 해당하는 장해상태가 되었을 때"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=13654&seq=16"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010002&pageIndex=8&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010002&pageIndex=8&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:29.606527+00:00",
+    "http_status": 200,
+    "sha256": "7d9e00baa882190ffa7c8aaa5f073958bc42479d6dca7894dfc3b47f83b58b76"
+  }
+}

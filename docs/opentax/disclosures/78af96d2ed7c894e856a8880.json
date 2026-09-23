@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.786c2a6fa87526d85f70964d",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:67ed052a023e483f00e7af5a",
+  "group": "3",
+  "provider": "스팍스자산운용",
+  "title": "스팍스한국엄선투자증권자투자신탁(주식) S-P",
+  "cells": [
+    "스팍스자산운용",
+    "스팍스한국엄선투자증권자투자신탁(주식) S-P",
+    "주식형",
+    "2",
+    "2022/07/18",
+    "판매",
+    "511",
+    "86.55",
+    "39.33",
+    "-",
+    "-",
+    "-",
+    "32.86",
+    "1.046",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=231",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=231",
+    "collected_at": "2026-09-23T08:26:59.927834+00:00",
+    "http_status": 200,
+    "sha256": "5377f5954ab66b3f8c7709328b4d16f784ec4a31114c6c7c05f7cd46b8cd61db"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "스팍스자산운용",
+        "상품명": "스팍스한국엄선투자증권자투자신탁(주식) S-P",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2022/07/18",
+        "판매여부": "판매",
+        "순자산총액": "511",
+        "1년 연평균수익률(%)": "86.55",
+        "3년 연평균수익률(%)": "39.33",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "32.86",
+        "연평균수수료율(%)": "1.046",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=231",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=231",
+        "collected_at": "2026-09-23T08:26:59.927834+00:00",
+        "http_status": 200,
+        "sha256": "5377f5954ab66b3f8c7709328b4d16f784ec4a31114c6c7c05f7cd46b8cd61db"
+      }
+    }
+  ]
+}

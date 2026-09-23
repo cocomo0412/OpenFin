@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.25d6b73814722193413e1f20",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:771060aa41fd258ddef3a055",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성픽테프리미엄브랜드증권자투자신탁H[주식-재간접형]_C-Pe",
+  "cells": [
+    "삼성자산운용",
+    "삼성픽테프리미엄브랜드증권자투자신탁H[주식-재간접형]_C-Pe",
+    "재간접",
+    "2",
+    "2020/01/17",
+    "판매",
+    "364",
+    "1.81",
+    "2.64",
+    "0.59",
+    "-",
+    "-",
+    "5.50",
+    "0.789",
+    "삼성증권, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=249",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=249",
+    "collected_at": "2026-09-23T08:27:23.652594+00:00",
+    "http_status": 200,
+    "sha256": "6edf5cbcacfd3afa88a4a1ae60b2b0b571778915551be2550eedab3c162c7e72"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성픽테프리미엄브랜드증권자투자신탁H[주식-재간접형]_C-Pe",
+        "상품유형": "재간접",
+        "위험등급": "2",
+        "설정일": "2020/01/17",
+        "판매여부": "판매",
+        "순자산총액": "364",
+        "1년 연평균수익률(%)": "1.81",
+        "3년 연평균수익률(%)": "2.64",
+        "5년 연평균수익률(%)": "0.59",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "5.50",
+        "연평균수수료율(%)": "0.789",
+        "상품 판매사": "삼성증권, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=249",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=249",
+        "collected_at": "2026-09-23T08:27:23.652594+00:00",
+        "http_status": 200,
+        "sha256": "6edf5cbcacfd3afa88a4a1ae60b2b0b571778915551be2550eedab3c162c7e72"
+      }
+    }
+  ]
+}

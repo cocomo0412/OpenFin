@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.456394f94f30edfab3529779",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:1848f306494a581e23ed1307",
+  "group": "3",
+  "provider": "신한자산운용",
+  "title": "신한차이나인덱스증권자투자신탁(H)[주식-파생형](종류C-p)",
+  "cells": [
+    "신한자산운용",
+    "신한차이나인덱스증권자투자신탁(H)[주식-파생형](종류C-p)",
+    "파생상품",
+    "2",
+    "2015/05/14",
+    "판매",
+    "122",
+    "-12.46",
+    "6.50",
+    "-6.04",
+    "-4.54",
+    "-0.52",
+    "-4.30",
+    "1.059",
+    "대신증권주식회사, 신한은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=293",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=293",
+    "collected_at": "2026-09-23T08:28:22.753491+00:00",
+    "http_status": 200,
+    "sha256": "f3f0607ea157e8e4fb1acb26baf85100ee1c0d922dc0e746bc413bdd377a88fd"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한자산운용",
+        "상품명": "신한차이나인덱스증권자투자신탁(H)[주식-파생형](종류C-p)",
+        "상품유형": "파생상품",
+        "위험등급": "2",
+        "설정일": "2015/05/14",
+        "판매여부": "판매",
+        "순자산총액": "122",
+        "1년 연평균수익률(%)": "-12.46",
+        "3년 연평균수익률(%)": "6.50",
+        "5년 연평균수익률(%)": "-6.04",
+        "7년 연평균수익률(%)": "-4.54",
+        "10년 연평균수익률(%)": "-0.52",
+        "누적연평균수익률(%)": "-4.30",
+        "연평균수수료율(%)": "1.059",
+        "상품 판매사": "대신증권주식회사, 신한은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=293",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=293",
+        "collected_at": "2026-09-23T08:28:22.753491+00:00",
+        "http_status": 200,
+        "sha256": "f3f0607ea157e8e4fb1acb26baf85100ee1c0d922dc0e746bc413bdd377a88fd"
+      }
+    }
+  ]
+}

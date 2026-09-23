@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.bb571aa5570a9570ed17b275",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:39a6604677f583739ef5a1e0",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자테크증권자투자신탁1호(주식)(C-Pe)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자테크증권자투자신탁1호(주식)(C-Pe)",
+    "주식형",
+    "1",
+    "2021/04/08",
+    "판매",
+    "5,844",
+    "309.97",
+    "52.62",
+    "32.25",
+    "-",
+    "-",
+    "30.57",
+    "0.627",
+    "한국투자증권, LS증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=98",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=98",
+    "collected_at": "2026-09-23T08:23:59.905147+00:00",
+    "http_status": 200,
+    "sha256": "d8a848a8181c94633972ab5018c8ab6160ccd76058ca7e7b4354a3f7b1af1a82"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자테크증권자투자신탁1호(주식)(C-Pe)",
+        "상품유형": "주식형",
+        "위험등급": "1",
+        "설정일": "2021/04/08",
+        "판매여부": "판매",
+        "순자산총액": "5,844",
+        "1년 연평균수익률(%)": "309.97",
+        "3년 연평균수익률(%)": "52.62",
+        "5년 연평균수익률(%)": "32.25",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "30.57",
+        "연평균수수료율(%)": "0.627",
+        "상품 판매사": "한국투자증권, LS증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=98",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=98",
+        "collected_at": "2026-09-23T08:23:59.905147+00:00",
+        "http_status": 200,
+        "sha256": "d8a848a8181c94633972ab5018c8ab6160ccd76058ca7e7b4354a3f7b1af1a82"
+      }
+    }
+  ]
+}

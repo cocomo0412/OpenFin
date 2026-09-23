@@ -1,0 +1,55 @@
+{
+  "id": "finance.insurance.klia.whole-life.aia생명.l521nya1a00dk000",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L521NYA1A00DK000",
+  "group": "024400010001",
+  "title": "(무) AIA 평생 안심+ 유니버셜 종신보험",
+  "provider": "AIA생명",
+  "cells": [
+    "AIA생명",
+    "(무) AIA 평생 안심+ 유니버셜 종신보험",
+    "주계약",
+    "사망보험금 *지급사유 : 사망",
+    "10,000만원",
+    "259,000 원",
+    "232,000 원",
+    "-",
+    "2.24 %",
+    "10년 이내 : 연 1.0%, 10년 이후 : 연 0.5% 10년 이내 : 연 1.0%, 10년 이후 : 연 0.5%",
+    "101.2 %",
+    "100.5 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "기본형",
+    "일반",
+    "-",
+    "-",
+    "비갱신형",
+    "-",
+    "유니버셜",
+    "대면채널",
+    "2026-07-01",
+    "Download",
+    "보기",
+    "1588-9898"
+  ],
+  "coverage": [
+    "사망보험금 *지급사유 : 사망",
+    "(무) AIA 뇌출혈진단특약A (해약환급금 미지급형) 2형 *지급사유 : 뇌출혈 진단 최초1회한",
+    "(무) AIA 뉴 수술특약A (해약환급금 미지급형) 2형 *지급사유 : 1~5종 수술 1회당",
+    "(무) AIA 급성심근경색증진단특약A (해약환급금 미지급형) 2형 *지급사유 : 급성심근경색증 진단 최초1회한",
+    "(무) AIA 신암진단특약 (해약환급금 미지급형)_L 2형 *지급사유 : 암 진단(90일이후) 최초1회한 ※이외 보장담보는 상품요약서 참조"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=13610&seq=32"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=18&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=18&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:35.714176+00:00",
+    "http_status": 200,
+    "sha256": "48a1426c16a139679bd43a99da8e1d36e2159ec726855c683b1fd8d5090b4895"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.66ebf1f31a03d674a5e9ca4d",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:156167c503cdf19ca8dae875",
+  "group": "3",
+  "provider": "IBK자산운용",
+  "title": "IBK 평생설계 연금 증권 전환형 자투자신탁[주식] 종류 C",
+  "cells": [
+    "IBK자산운용",
+    "IBK 평생설계 연금 증권 전환형 자투자신탁[주식] 종류 C",
+    "주식형",
+    "2",
+    "2014/03/12",
+    "판매",
+    "111,198",
+    "179.93",
+    "52.35",
+    "25.86",
+    "25.30",
+    "18.42",
+    "15.84",
+    "1.525",
+    "-"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=12",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=12",
+    "collected_at": "2026-09-23T08:22:01.725436+00:00",
+    "http_status": 200,
+    "sha256": "61a9cb472b6be0424732310b11350df4bfe2e3e053292669eed11668c4b095ee"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "IBK자산운용",
+        "상품명": "IBK 평생설계 연금 증권 전환형 자투자신탁[주식] 종류 C",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2014/03/12",
+        "판매여부": "판매",
+        "순자산총액": "111,198",
+        "1년 연평균수익률(%)": "179.93",
+        "3년 연평균수익률(%)": "52.35",
+        "5년 연평균수익률(%)": "25.86",
+        "7년 연평균수익률(%)": "25.30",
+        "10년 연평균수익률(%)": "18.42",
+        "누적연평균수익률(%)": "15.84",
+        "연평균수수료율(%)": "1.525",
+        "상품 판매사": "-"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=12",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=12",
+        "collected_at": "2026-09-23T08:22:01.725436+00:00",
+        "http_status": 200,
+        "sha256": "61a9cb472b6be0424732310b11350df4bfe2e3e053292669eed11668c4b095ee"
+      }
+    }
+  ]
+}

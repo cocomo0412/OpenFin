@@ -5409,22 +5409,7 @@
       "id": "credit.child",
       "title": "자녀 세액공제",
       "type": "tax-credit",
-      "description": "자녀 수 등 요건에 따라 산출세액에서 차감되는 세액공제입니다.",
-      "folder": "20_Deductions/TaxCredits",
-      "basis_year": 2026,
-      "effective_date": null,
-      "expiration_date": null,
-      "reviewed_at": "2026-05-04",
-      "source_urls": [
-        "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7870&mi=2312",
-        "https://www.law.go.kr/법령/소득세법"
-      ],
-      "source_basis_dates": [
-        "2026-05-02 확인",
-        "2026-05-04 확인"
-      ],
-      "abolition_status": "active",
-      "revision_status": "none_announced",
+      "description": "기본공제대상 자녀·손자녀 및 출산·입양에 대한 세액공제입니다. 2026년 연령 기준은 개정법 부칙과 출생연도 예외를 함께 적용합니다.",
       "parents": [
         "category.tax-credits"
       ],
@@ -5436,76 +5421,79 @@
       "terms": [
         "term.tax-credit"
       ],
-      "deadlines": [
-        "deadline.year-end-settlement"
-      ],
-      "sources": [
-        "source.nts.year-end-settlement.calculation",
-        "source.law.income-tax-act.deductions-credits"
-      ],
-      "law_reference": "소득세법 제59조의2",
       "tags": [
         "tax-credit"
       ],
+      "status": "reference_only",
+      "sales_status": "unknown",
+      "recommendation_status": "reference_only",
+      "recommendation_scope": "listing_only",
+      "comparison_engine_gate_passed": false,
+      "domain_gate_passed": false,
       "criteria": [
         {
           "label": "자녀 1명",
-          "basis": "8세 이상 기본공제대상 자녀·손자녀",
-          "condition": "1명",
+          "basis": "2026년 귀속 기본공제대상 자녀·손자녀",
+          "condition": "1명; 2026년 9세 이상 기준 및 2017년 출생자 예외는 부칙 제2조 적용",
           "deduction_krw": 250000,
-          "source": "source.nts.year-end-settlement.calculation",
-          "age_min": 8,
+          "source": "source.law.income-tax-act.deductions-credits",
+          "age_min": 9,
           "criteria_kind": "deduction",
           "basis_category": "official-standard",
           "basis_definition": "해당 제도에서 대상 여부, 세율, 공제액, 한도 또는 신고기한을 판정하기 위해 공식 출처가 사용하는 기준항목입니다.",
           "basis_lookup": "각 criterion의 출처 노드와 관련 신고·신청 서류에서 확인합니다.",
           "selection_rule": "조건 문구와 구조화된 금액·비율·기간 필드를 함께 보고 해당 구간 또는 요건을 선택합니다.",
-          "basis_source": "source.nts.year-end-settlement.calculation",
-          "law_reference": "소득세법 제59조의2"
+          "basis_source": "source.law.income-tax-act.deductions-credits",
+          "law_reference": "소득세법 제59조의2",
+          "tax_year": 2026,
+          "note": "2027년 10세·2028년 11세·2029년 12세 이상 경과규정. 2017년 출생자는 부칙 제2조 제3항에 따라 경과규정 제외."
         },
         {
           "label": "자녀 2명",
-          "basis": "8세 이상 기본공제대상 자녀·손자녀",
-          "condition": "2명",
+          "basis": "2026년 귀속 기본공제대상 자녀·손자녀",
+          "condition": "2명; 2026년 9세 이상 기준 및 2017년 출생자 예외는 부칙 제2조 적용",
           "deduction_krw": 550000,
-          "source": "source.nts.year-end-settlement.calculation",
-          "age_min": 8,
+          "source": "source.law.income-tax-act.deductions-credits",
+          "age_min": 9,
           "criteria_kind": "deduction",
           "basis_category": "official-standard",
           "basis_definition": "해당 제도에서 대상 여부, 세율, 공제액, 한도 또는 신고기한을 판정하기 위해 공식 출처가 사용하는 기준항목입니다.",
           "basis_lookup": "각 criterion의 출처 노드와 관련 신고·신청 서류에서 확인합니다.",
           "selection_rule": "조건 문구와 구조화된 금액·비율·기간 필드를 함께 보고 해당 구간 또는 요건을 선택합니다.",
-          "basis_source": "source.nts.year-end-settlement.calculation",
-          "law_reference": "소득세법 제59조의2"
+          "basis_source": "source.law.income-tax-act.deductions-credits",
+          "law_reference": "소득세법 제59조의2",
+          "tax_year": 2026,
+          "note": "2027년 10세·2028년 11세·2029년 12세 이상 경과규정. 2017년 출생자는 부칙 제2조 제3항에 따라 경과규정 제외."
         },
         {
           "label": "자녀 3명 이상",
-          "basis": "8세 이상 기본공제대상 자녀·손자녀",
-          "condition": "3명 이상",
+          "basis": "2026년 귀속 기본공제대상 자녀·손자녀",
+          "condition": "3명 이상; 2026년 9세 이상 기준 및 2017년 출생자 예외는 부칙 제2조 적용",
           "deduction_krw": 550000,
-          "note": "2명을 초과하는 1명당 40만원 추가",
-          "source": "source.nts.year-end-settlement.calculation",
-          "age_min": 8,
+          "note": "2명을 초과하는 1명당 40만원 추가 2027년 10세·2028년 11세·2029년 12세 이상 경과규정. 2017년 출생자는 부칙 제2조 제3항에 따라 경과규정 제외.",
+          "source": "source.law.income-tax-act.deductions-credits",
+          "age_min": 9,
           "criteria_kind": "deduction",
           "basis_category": "official-standard",
           "basis_definition": "해당 제도에서 대상 여부, 세율, 공제액, 한도 또는 신고기한을 판정하기 위해 공식 출처가 사용하는 기준항목입니다.",
           "basis_lookup": "각 criterion의 출처 노드와 관련 신고·신청 서류에서 확인합니다.",
           "selection_rule": "조건 문구와 구조화된 금액·비율·기간 필드를 함께 보고 해당 구간 또는 요건을 선택합니다.",
-          "basis_source": "source.nts.year-end-settlement.calculation",
-          "law_reference": "소득세법 제59조의2"
+          "basis_source": "source.law.income-tax-act.deductions-credits",
+          "law_reference": "소득세법 제59조의2",
+          "tax_year": 2026
         },
         {
           "label": "출산·입양 첫째",
           "basis": "출산·입양 신고 자녀",
           "condition": "첫째",
           "deduction_krw": 300000,
-          "source": "source.nts.year-end-settlement.calculation",
+          "source": "source.law.income-tax-act.deductions-credits",
           "criteria_kind": "deduction",
           "basis_category": "official-standard",
           "basis_definition": "해당 제도에서 대상 여부, 세율, 공제액, 한도 또는 신고기한을 판정하기 위해 공식 출처가 사용하는 기준항목입니다.",
           "basis_lookup": "각 criterion의 출처 노드와 관련 신고·신청 서류에서 확인합니다.",
           "selection_rule": "조건 문구와 구조화된 금액·비율·기간 필드를 함께 보고 해당 구간 또는 요건을 선택합니다.",
-          "basis_source": "source.nts.year-end-settlement.calculation",
+          "basis_source": "source.law.income-tax-act.deductions-credits",
           "law_reference": "소득세법 제59조의2"
         },
         {
@@ -5513,13 +5501,13 @@
           "basis": "출산·입양 신고 자녀",
           "condition": "둘째",
           "deduction_krw": 500000,
-          "source": "source.nts.year-end-settlement.calculation",
+          "source": "source.law.income-tax-act.deductions-credits",
           "criteria_kind": "deduction",
           "basis_category": "official-standard",
           "basis_definition": "해당 제도에서 대상 여부, 세율, 공제액, 한도 또는 신고기한을 판정하기 위해 공식 출처가 사용하는 기준항목입니다.",
           "basis_lookup": "각 criterion의 출처 노드와 관련 신고·신청 서류에서 확인합니다.",
           "selection_rule": "조건 문구와 구조화된 금액·비율·기간 필드를 함께 보고 해당 구간 또는 요건을 선택합니다.",
-          "basis_source": "source.nts.year-end-settlement.calculation",
+          "basis_source": "source.law.income-tax-act.deductions-credits",
           "law_reference": "소득세법 제59조의2"
         },
         {
@@ -5527,49 +5515,44 @@
           "basis": "출산·입양 신고 자녀",
           "condition": "셋째 이상",
           "deduction_krw": 700000,
-          "source": "source.nts.year-end-settlement.calculation",
+          "source": "source.law.income-tax-act.deductions-credits",
           "criteria_kind": "deduction",
           "basis_category": "official-standard",
           "basis_definition": "해당 제도에서 대상 여부, 세율, 공제액, 한도 또는 신고기한을 판정하기 위해 공식 출처가 사용하는 기준항목입니다.",
           "basis_lookup": "각 criterion의 출처 노드와 관련 신고·신청 서류에서 확인합니다.",
           "selection_rule": "조건 문구와 구조화된 금액·비율·기간 필드를 함께 보고 해당 구간 또는 요건을 선택합니다.",
-          "basis_source": "source.nts.year-end-settlement.calculation",
+          "basis_source": "source.law.income-tax-act.deductions-credits",
           "law_reference": "소득세법 제59조의2"
         }
       ],
-      "structured_summary": {
-        "tax": {
-          "tax_year": 2026,
-          "rates": {},
-          "limits": {},
-          "thresholds": {},
-          "eligible_persons": [
-            "1명",
-            "2명",
-            "3명 이상",
-            "첫째",
-            "둘째",
-            "셋째 이상"
-          ],
-          "required_documents": [],
-          "filing_deadlines": [
-            "deadline.year-end-settlement"
-          ],
-          "law_references": [
-            "소득세법 제59조의2"
-          ]
-        }
-      },
-      "search_facets": {
-        "tax_type": "tax-credit",
-        "credit_or_deduction": "tax-credit",
-        "applicable_year": 2026,
-        "law_reference": "소득세법 제59조의2"
+      "sources": [
+        "source.law.income-tax-act.deductions-credits"
+      ],
+      "source_urls": [
+        "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0"
+      ],
+      "collected_at": "2026-09-23T08:26:20.830416+00:00",
+      "source_collected_at": "2026-09-23T08:26:20.830416+00:00",
+      "last_source_checked_at": "2026-09-23T08:26:20.830416+00:00",
+      "last_reviewed_at": "2026-09-23T08:26:20.830416+00:00",
+      "reviewed_at": "2026-09-23T08:26:20.830416+00:00",
+      "refresh_generation": "2026-09-23T08:26:20.830416+00:00",
+      "review_scope": "공식 공시의 식별자·본문·필드 연결 확인",
+      "source_listing_status": "listed",
+      "source_freshness_status": "current",
+      "freshness_status": "current",
+      "verification_status": "listing_only",
+      "sales_verification_status": "listed_unverified",
+      "current_disclosure": {
+        "path": "opentax/disclosures/07f710452d5086df8d3c1721.json",
+        "checksum": "sha256:7b142c29309697baf9ad66f779dc0edc8dbd35536da11ef4e194f372bb1c5d7c",
+        "checksum_scope": "normalized-disclosure-json",
+        "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+        "collected_at": "2026-09-23T08:26:20.830416+00:00"
       },
       "provenance_shard": "reference",
-      "source_registry_id": "source.nts.year-end-settlement.calculation",
-      "source_registry_status": "registered",
-      "eligibility_reviewed_at": "2026-05-04"
+      "sales_status_reviewed_at": "2026-09-23",
+      "eligibility_reviewed_at": "2026-09-23"
     },
     {
       "id": "credit.donation",
@@ -6876,23 +6859,7 @@
       "id": "credit.pension-account",
       "title": "연금계좌 세액공제",
       "type": "tax-credit",
-      "description": "연금저축, 퇴직연금계좌 납입액 등에 대한 세액공제입니다.",
-      "folder": "20_Deductions/TaxCredits",
-      "basis_year": 2026,
-      "effective_date": null,
-      "expiration_date": null,
-      "reviewed_at": "2026-05-04",
-      "source_urls": [
-        "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7870&mi=2312",
-        "https://www.law.go.kr/법령/소득세법",
-        "https://d.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=239032&mi=40678"
-      ],
-      "source_basis_dates": [
-        "2026-05-02 확인",
-        "2026-05-04 확인"
-      ],
-      "abolition_status": "active",
-      "revision_status": "none_announced",
+      "description": "연금저축과 퇴직연금 납입액에 대한 세액공제입니다. 소득구간별 공제율, 납입 제외금액, ISA 만기 전환 특례를 구분합니다.",
       "parents": [
         "category.tax-credits"
       ],
@@ -6904,103 +6871,85 @@
         "term.tax-credit",
         "term.eligibility-threshold"
       ],
-      "deadlines": [
-        "deadline.year-end-settlement"
-      ],
-      "sources": [
-        "source.nts.year-end-settlement.calculation",
-        "source.law.income-tax-act.deductions-credits",
-        "source.nts.employee-income-statement"
-      ],
-      "law_reference": "소득세법 제59조의3",
       "tags": [
         "tax-credit"
       ],
+      "status": "reference_only",
+      "sales_status": "unknown",
+      "recommendation_status": "reference_only",
+      "recommendation_scope": "listing_only",
+      "comparison_engine_gate_passed": false,
+      "domain_gate_passed": false,
       "criteria": [
         {
-          "label": "총급여 5,500만원 이하",
-          "basis": "총급여 또는 종합소득금액",
-          "condition": "총급여 5,500만원 이하 또는 종합소득금액 4,500만원 이하",
-          "threshold_krw_max": 55000000,
-          "limit_krw": 9000000,
+          "label": "공제율 15%",
+          "condition": "종합소득금액 4,500만원 이하. 근로소득만 있으면 총급여 5,500만원 이하에 적용합니다.",
+          "basis": "공식 공시 원문",
+          "source": "source.law.income-tax-act.deductions-credits",
+          "criteria_kind": "disclosure",
           "rate_percent": 15,
-          "note": "연금저축 600만원, 퇴직연금 포함 900만원 한도",
-          "source": "source.nts.year-end-settlement.calculation",
-          "criteria_kind": "rate",
-          "rate_basis": "총급여 또는 종합소득금액",
-          "basis_category": "earned-income",
-          "basis_definition": "근로자가 과세기간 동안 지급받은 근로소득 또는 이를 기준으로 산정한 소득요건입니다.",
-          "basis_lookup": "근로소득 원천징수영수증, 지급명세서, 연말정산 간소화·신고 자료에서 확인합니다.",
-          "selection_rule": "근로소득이 있는 거주자와 일용근로자 여부를 먼저 구분하고 총급여·소득금액이 기준금액 이하인지 판정합니다.",
-          "basis_source": "source.nts.employee-income-statement",
-          "law_reference": "소득세법 제59조의3",
-          "rate_label": "세액공제율"
+          "limit_krw": 9000000
         },
         {
-          "label": "총급여 5,500만원 초과",
-          "basis": "총급여 또는 종합소득금액",
-          "condition": "총급여 5,500만원 초과",
-          "threshold_krw_min": 55000000,
-          "limit_krw": 9000000,
+          "label": "공제율 12%",
+          "condition": "위 15% 적용 소득구간에 해당하지 않는 경우에 적용합니다.",
+          "basis": "공식 공시 원문",
+          "source": "source.law.income-tax-act.deductions-credits",
+          "criteria_kind": "disclosure",
           "rate_percent": 12,
-          "note": "연금저축 600만원, 퇴직연금 포함 900만원 한도",
-          "source": "source.nts.year-end-settlement.calculation",
-          "criteria_kind": "rate",
-          "rate_basis": "총급여 또는 종합소득금액",
-          "basis_category": "earned-income",
-          "basis_definition": "근로자가 과세기간 동안 지급받은 근로소득 또는 이를 기준으로 산정한 소득요건입니다.",
-          "basis_lookup": "근로소득 원천징수영수증, 지급명세서, 연말정산 간소화·신고 자료에서 확인합니다.",
-          "selection_rule": "근로소득이 있는 거주자와 일용근로자 여부를 먼저 구분하고 총급여·소득금액이 기준금액 이하인지 판정합니다.",
-          "basis_source": "source.nts.employee-income-statement",
-          "law_reference": "소득세법 제59조의3",
-          "rate_label": "세액공제율"
+          "limit_krw": 9000000
+        },
+        {
+          "label": "납입액 한도",
+          "condition": "연금저축계좌 연 600만원, 퇴직연금계좌를 합하여 연 900만원입니다.",
+          "basis": "공식 공시 원문",
+          "source": "source.law.income-tax-act.deductions-credits",
+          "criteria_kind": "disclosure",
+          "limit_krw": 9000000
+        },
+        {
+          "label": "납입 제외",
+          "condition": "과세이연 퇴직소득 등과 연금계좌 간 계약이전으로 납입된 금액은 공제대상 납입액에서 제외합니다.",
+          "basis": "공식 공시 원문",
+          "source": "source.law.income-tax-act.deductions-credits",
+          "criteria_kind": "disclosure"
+        },
+        {
+          "label": "ISA 만기 전환",
+          "condition": "법정 방법으로 만기 ISA 잔액을 연금계좌에 납입하면 전환액의 10%와 300만원 중 적은 금액을 한도에 추가합니다. 두 과세기간에 걸친 납입은 전년도 적용액을 차감합니다.",
+          "basis": "공식 공시 원문",
+          "source": "source.law.income-tax-act.deductions-credits",
+          "criteria_kind": "disclosure"
         }
       ],
-      "structured_summary": {
-        "tax": {
-          "tax_year": 2026,
-          "rates": {
-            "criterion_1": 15,
-            "criterion_2": 12
-          },
-          "limits": {
-            "criterion_1": 9000000,
-            "criterion_2": 9000000
-          },
-          "thresholds": {
-            "criterion_1": {
-              "threshold_krw_max": 55000000
-            },
-            "criterion_2": {
-              "threshold_krw_min": 55000000
-            }
-          },
-          "eligible_persons": [
-            "총급여 5,500만원 이하 또는 종합소득금액 4,500만원 이하",
-            "총급여 5,500만원 초과"
-          ],
-          "required_documents": [],
-          "filing_deadlines": [
-            "deadline.year-end-settlement"
-          ],
-          "law_references": [
-            "소득세법 제59조의3"
-          ]
-        }
-      },
-      "search_facets": {
-        "tax_type": "tax-credit",
-        "credit_or_deduction": "tax-credit",
-        "applicable_year": 2026,
-        "law_reference": "소득세법 제59조의3"
+      "sources": [
+        "source.law.income-tax-act.deductions-credits"
+      ],
+      "source_urls": [
+        "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0"
+      ],
+      "collected_at": "2026-09-23T08:26:20.830416+00:00",
+      "source_collected_at": "2026-09-23T08:26:20.830416+00:00",
+      "last_source_checked_at": "2026-09-23T08:26:20.830416+00:00",
+      "last_reviewed_at": "2026-09-23T08:26:20.830416+00:00",
+      "reviewed_at": "2026-09-23T08:26:20.830416+00:00",
+      "refresh_generation": "2026-09-23T08:26:20.830416+00:00",
+      "review_scope": "공식 공시의 식별자·본문·필드 연결 확인",
+      "source_listing_status": "listed",
+      "source_freshness_status": "current",
+      "freshness_status": "current",
+      "verification_status": "listing_only",
+      "sales_verification_status": "listed_unverified",
+      "current_disclosure": {
+        "path": "opentax/disclosures/77b8c1ee7c12c883d33c14ce.json",
+        "checksum": "sha256:9957ebddfb331756414da3793ddca188ea456e404588cfdcca472b256a8d0588",
+        "checksum_scope": "normalized-disclosure-json",
+        "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+        "collected_at": "2026-09-23T08:26:20.830416+00:00"
       },
       "provenance_shard": "reference",
-      "source_registry_id": "source.nts.year-end-settlement.calculation",
-      "source_registry_status": "registered",
-      "requires": [
-        "eligibility-rule.gross-pay-income-threshold"
-      ],
-      "eligibility_reviewed_at": "2026-05-04"
+      "sales_status_reviewed_at": "2026-09-23",
+      "eligibility_reviewed_at": "2026-09-23"
     },
     {
       "id": "credit.research-and-development",
@@ -8928,25 +8877,7 @@
       "id": "deduction.housing-savings",
       "title": "주택마련저축",
       "type": "deduction",
-      "description": "청약저축, 주택청약종합저축, 근로자우대저축 등 주택마련저축 소득공제입니다.",
-      "folder": "20_Deductions/IncomeDeductions",
-      "basis_year": 2026,
-      "effective_date": null,
-      "expiration_date": null,
-      "reviewed_at": "2026-05-04",
-      "source_urls": [
-        "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7873&mi=6594",
-        "https://www.law.go.kr/법령/소득세법",
-        "https://d.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=239032&mi=40678",
-        "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=239022&mi=40610"
-      ],
-      "source_basis_dates": [
-        "2026-05-02 확인",
-        "2026-05-04 확인",
-        "2026-05-03 확인"
-      ],
-      "abolition_status": "active",
-      "revision_status": "none_announced",
+      "description": "총급여 7천만원 이하 근로자인 무주택 세대주 및 그 배우자의 주택마련저축 소득공제입니다.",
       "parents": [
         "deduction.other-income"
       ],
@@ -8964,106 +8895,66 @@
         "term.income-deduction",
         "term.tax-base"
       ],
-      "deadlines": [
-        "deadline.year-end-settlement"
-      ],
-      "sources": [
-        "source.nts.year-end-settlement.deduction-limit",
-        "source.law.income-tax-act.deductions-credits",
-        "source.nts.employee-income-statement",
-        "source.nts.housing-savings-deduction"
-      ],
-      "law_reference": "조세특례제한법 주택마련저축 소득공제 조문",
       "tags": [
         "income-deduction"
       ],
+      "status": "reference_only",
+      "sales_status": "unknown",
+      "recommendation_status": "reference_only",
+      "recommendation_scope": "listing_only",
+      "comparison_engine_gate_passed": false,
+      "domain_gate_passed": false,
       "criteria": [
         {
-          "label": "총급여 요건",
-          "basis": "총급여액",
-          "condition": "7,000만원 이하",
-          "threshold_krw_max": 70000000,
-          "source": "source.nts.housing-savings-deduction",
-          "criteria_kind": "threshold",
-          "basis_category": "earned-income",
-          "basis_definition": "근로자가 과세기간 동안 지급받은 근로소득 또는 이를 기준으로 산정한 소득요건입니다.",
-          "basis_lookup": "근로소득 원천징수영수증, 지급명세서, 연말정산 간소화·신고 자료에서 확인합니다.",
-          "selection_rule": "근로소득이 있는 거주자와 일용근로자 여부를 먼저 구분하고 총급여·소득금액이 기준금액 이하인지 판정합니다.",
-          "basis_source": "source.nts.employee-income-statement",
-          "law_reference": "조세특례제한법 주택마련저축 소득공제 조문"
+          "label": "소득공제 대상",
+          "condition": "총급여 7천만원 이하 근로자인 무주택 세대주 및 무주택 세대주의 배우자. 다음 연도 2월 말까지 가입은행에 무주택확인서를 제출해야 합니다.",
+          "basis": "공식 공시 원문",
+          "source": "source.nhuf.housing-subscription",
+          "criteria_kind": "disclosure"
         },
         {
-          "label": "납입액 공제",
-          "basis": "주택마련저축 납입액",
-          "condition": "연 납입액 300만원 한도",
-          "threshold_krw_max": 3000000,
-          "rate_percent": 40,
-          "limit_krw": 1200000,
-          "source": "source.nts.housing-savings-deduction",
-          "criteria_kind": "rate",
-          "rate_basis": "주택마련저축 납입액",
-          "basis_category": "official-standard",
-          "basis_definition": "해당 제도에서 대상 여부, 세율, 공제액, 한도 또는 신고기한을 판정하기 위해 공식 출처가 사용하는 기준항목입니다.",
-          "basis_lookup": "각 criterion의 출처 노드와 관련 신고·신청 서류에서 확인합니다.",
-          "selection_rule": "조건 문구와 구조화된 금액·비율·기간 필드를 함께 보고 해당 구간 또는 요건을 선택합니다.",
-          "basis_source": "source.nts.housing-savings-deduction",
-          "law_reference": "조세특례제한법 주택마련저축 소득공제 조문",
-          "rate_label": "소득공제율"
+          "label": "소득공제 한도",
+          "condition": "연 납입액 300만원 한도의 40%, 최대 120만원을 소득공제합니다.",
+          "basis": "공식 공시 원문",
+          "source": "source.nhuf.housing-subscription",
+          "criteria_kind": "disclosure"
+        },
+        {
+          "label": "추징",
+          "condition": "가입 후 5년 이내 해지 또는 국민주택규모 초과 주택 당첨 등은 추징 대상입니다. 해외이주·85㎡ 이하 당첨해지 등 예외와 상세 기준은 공식 안내를 확인합니다.",
+          "basis": "공식 공시 원문",
+          "source": "source.nhuf.housing-subscription",
+          "criteria_kind": "disclosure"
         }
       ],
-      "structured_summary": {
-        "tax": {
-          "tax_year": 2026,
-          "rates": {
-            "criterion_2": 40
-          },
-          "limits": {
-            "criterion_2": 1200000
-          },
-          "thresholds": {
-            "criterion_1": {
-              "threshold_krw_max": 70000000
-            },
-            "criterion_2": {
-              "threshold_krw_max": 3000000
-            }
-          },
-          "eligible_persons": [
-            "7,000만원 이하",
-            "연 납입액 300만원 한도"
-          ],
-          "required_documents": [
-            "required-document.resident-registration-copy",
-            "required-document.housing-savings-payment-certificate"
-          ],
-          "filing_deadlines": [
-            "deadline.year-end-settlement"
-          ],
-          "law_references": [
-            "조세특례제한법 주택마련저축 소득공제 조문"
-          ]
-        }
-      },
-      "search_facets": {
-        "tax_type": "deduction",
-        "credit_or_deduction": "deduction",
-        "applicable_year": 2026,
-        "law_reference": "조세특례제한법 주택마련저축 소득공제 조문"
+      "sources": [
+        "source.nhuf.housing-subscription"
+      ],
+      "source_urls": [
+        "https://nhuf.molit.go.kr/FP/FP07/FP0701/FP07010101.jsp"
+      ],
+      "collected_at": "2026-09-23T08:40:37.994428+00:00",
+      "source_collected_at": "2026-09-23T08:40:37.994428+00:00",
+      "last_source_checked_at": "2026-09-23T08:40:37.994428+00:00",
+      "last_reviewed_at": "2026-09-23T08:40:37.994428+00:00",
+      "reviewed_at": "2026-09-23T08:40:37.994428+00:00",
+      "refresh_generation": "2026-09-23T08:40:37.994428+00:00",
+      "review_scope": "공식 공시의 식별자·본문·필드 연결 확인",
+      "source_listing_status": "listed",
+      "source_freshness_status": "current",
+      "freshness_status": "current",
+      "verification_status": "listing_only",
+      "sales_verification_status": "listed_unverified",
+      "current_disclosure": {
+        "path": "opentax/disclosures/10cffba87d08b7284d67d013.json",
+        "checksum": "sha256:32febb5c61f1e257efdc9ab511636c438ee4174851ec97e9528aa8a6fca5927a",
+        "checksum_scope": "normalized-disclosure-json",
+        "source_url": "https://nhuf.molit.go.kr/FP/FP07/FP0701/FP07010101.jsp",
+        "collected_at": "2026-09-23T08:40:37.994428+00:00"
       },
       "provenance_shard": "reference",
-      "source_registry_id": "source.nts.year-end-settlement.deduction-limit",
-      "source_registry_status": "registered",
-      "requires": [
-        "eligibility-rule.gross-pay-income-threshold",
-        "eligibility-rule.homeless-household",
-        "eligibility-rule.housing-savings-employee-household",
-        "required-document.housing-savings-payment-certificate",
-        "required-document.resident-registration-copy"
-      ],
-      "conflicts_with": [
-        "conflict-rule.monthly-rent-household-duplicate"
-      ],
-      "eligibility_reviewed_at": "2026-05-04"
+      "sales_status_reviewed_at": "2026-09-23",
+      "eligibility_reviewed_at": "2026-09-23"
     },
     {
       "id": "deduction.investment-association",
@@ -28876,6 +28767,17 @@
     }
   ],
   "product_count": 0,
+  "catalog_refresh": {
+    "count": 3,
+    "latest": "2026-09-23T08:40:37.994428+00:00",
+    "scope": "공식 API·웹 공시의 필드·식별자 반영. 제공기관 기준일과 개별 검토 범위는 별도."
+  },
+  "collection_dates": [
+    "2026-09-23"
+  ],
+  "product_collection_dates": [
+    "2026-09-23"
+  ],
   "reference_items": [
     {
       "id": "source.kinfa.hessal-loan-youth",
@@ -29027,5 +28929,5 @@
       "provenance_shard": "reference"
     }
   ],
-  "export_checksum": "a6036fc9a285bf2b1dfebe0f33afc6135a5e8a3217ca7649c6d4814357cdcf3f"
+  "export_checksum": "380da413fe4d341c9ac2b2f17092540d9df9c4ae3fdbf7c5c61fda29d1ee4de2"
 }

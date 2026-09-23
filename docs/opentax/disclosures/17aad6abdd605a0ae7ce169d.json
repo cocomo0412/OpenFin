@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.b2c376d67e4ad290fca978b1",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:701e0005a5631c993de9d084",
+  "group": "3",
+  "provider": "한화자산운용",
+  "title": "한화글로벌헬스케어40증권자투자신탁(채권혼합)C-P(연금저축)",
+  "cells": [
+    "한화자산운용",
+    "한화글로벌헬스케어40증권자투자신탁(채권혼합)C-P(연금저축)",
+    "혼합채권형",
+    "5",
+    "2016/08/23",
+    "판매",
+    "151",
+    "5.48",
+    "2.61",
+    "1.48",
+    "3.42",
+    "-",
+    "3.03",
+    "0.950",
+    "한화투자증권주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=287",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=287",
+    "collected_at": "2026-09-23T08:28:14.671828+00:00",
+    "http_status": 200,
+    "sha256": "61cdab83f6931a9b654838a6bc8df871e43260a3f90af432f72382caa5e32f8c"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한화자산운용",
+        "상품명": "한화글로벌헬스케어40증권자투자신탁(채권혼합)C-P(연금저축)",
+        "상품유형": "혼합채권형",
+        "위험등급": "5",
+        "설정일": "2016/08/23",
+        "판매여부": "판매",
+        "순자산총액": "151",
+        "1년 연평균수익률(%)": "5.48",
+        "3년 연평균수익률(%)": "2.61",
+        "5년 연평균수익률(%)": "1.48",
+        "7년 연평균수익률(%)": "3.42",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "3.03",
+        "연평균수수료율(%)": "0.950",
+        "상품 판매사": "한화투자증권주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=287",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=287",
+        "collected_at": "2026-09-23T08:28:14.671828+00:00",
+        "http_status": 200,
+        "sha256": "61cdab83f6931a9b654838a6bc8df871e43260a3f90af432f72382caa5e32f8c"
+      }
+    }
+  ]
+}

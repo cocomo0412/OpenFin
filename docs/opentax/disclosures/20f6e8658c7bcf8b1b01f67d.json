@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.ac51952dc46a1a4fa0f9bafd",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:08916fdca9884f2d488912df",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 글로벌 대표지수 분산 증권 자투자신탁(주식-재간접형)(UH) C-Pe",
+  "cells": [
+    "KB자산운용",
+    "KB 글로벌 대표지수 분산 증권 자투자신탁(주식-재간접형)(UH) C-Pe",
+    "재간접",
+    "2",
+    "2023/07/14",
+    "판매",
+    "1,303",
+    "41.55",
+    "-",
+    "-",
+    "-",
+    "-",
+    "26.42",
+    "0.829",
+    "KB증권, KB국민은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=173",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=173",
+    "collected_at": "2026-09-23T08:25:41.143975+00:00",
+    "http_status": 200,
+    "sha256": "780fdc08447e33eaedec97b2f81b8d8daba67e0715470bbded1702e4dcb7823d"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 글로벌 대표지수 분산 증권 자투자신탁(주식-재간접형)(UH) C-Pe",
+        "상품유형": "재간접",
+        "위험등급": "2",
+        "설정일": "2023/07/14",
+        "판매여부": "판매",
+        "순자산총액": "1,303",
+        "1년 연평균수익률(%)": "41.55",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "26.42",
+        "연평균수수료율(%)": "0.829",
+        "상품 판매사": "KB증권, KB국민은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=173",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=173",
+        "collected_at": "2026-09-23T08:25:41.143975+00:00",
+        "http_status": 200,
+        "sha256": "780fdc08447e33eaedec97b2f81b8d8daba67e0715470bbded1702e4dcb7823d"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.7d9d63a30aba9b92687b26ea",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:7fe2c80da15c484db1364573",
+  "group": "3",
+  "provider": "IBK자산운용",
+  "title": "IBK 인디아 인프라 증권 투자신탁[주식] 종류 S-P",
+  "cells": [
+    "IBK자산운용",
+    "IBK 인디아 인프라 증권 투자신탁[주식] 종류 S-P",
+    "주식형",
+    "2",
+    "2017/09/28",
+    "판매",
+    "307",
+    "5.00",
+    "15.75",
+    "15.12",
+    "16.21",
+    "-",
+    "12.09",
+    "1.600",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=258",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=258",
+    "collected_at": "2026-09-23T08:27:36.234623+00:00",
+    "http_status": 200,
+    "sha256": "d9c37f52f28239a2cf248d2cc691f50d72f5a466a34c70e9a46e667001e42a6a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "IBK자산운용",
+        "상품명": "IBK 인디아 인프라 증권 투자신탁[주식] 종류 S-P",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2017/09/28",
+        "판매여부": "판매",
+        "순자산총액": "307",
+        "1년 연평균수익률(%)": "5.00",
+        "3년 연평균수익률(%)": "15.75",
+        "5년 연평균수익률(%)": "15.12",
+        "7년 연평균수익률(%)": "16.21",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "12.09",
+        "연평균수수료율(%)": "1.600",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=258",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=258",
+        "collected_at": "2026-09-23T08:27:36.234623+00:00",
+        "http_status": 200,
+        "sha256": "d9c37f52f28239a2cf248d2cc691f50d72f5a466a34c70e9a46e667001e42a6a"
+      }
+    }
+  ]
+}

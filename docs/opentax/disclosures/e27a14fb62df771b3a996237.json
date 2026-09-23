@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.fa84b999da7dbd115cd12c1f",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:1:5365ed17c5ff2a0b8fe9de57",
+  "group": "1",
+  "provider": "한국스탠다드차타드은행",
+  "title": "연금신탁채권형 제1호",
+  "cells": [
+    "한국스탠다드차타드은행",
+    "연금신탁채권형 제1호",
+    "채권형",
+    "2001/02/05",
+    "중단",
+    "15,973",
+    "2.09",
+    "2.75",
+    "2.11",
+    "1.69",
+    "1.52",
+    "2.51",
+    "5.853"
+  ],
+  "headers": [
+    "은행",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=4",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=4",
+    "collected_at": "2026-09-23T08:21:44.710385+00:00",
+    "http_status": 200,
+    "sha256": "73cf47c520c5f68c75d407177bc4120c10559e90435bc0c85bd9fa225d5df459"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국스탠다드차타드은행",
+        "상품명": "연금신탁채권형 제1호",
+        "상품유형": "채권형",
+        "최초판매일": "2001/02/05",
+        "판매여부": "중단",
+        "적립금총액": "15,973",
+        "1년 연평균수익률(%)": "2.09",
+        "3년 연평균수익률(%)": "2.75",
+        "5년 연평균수익률(%)": "2.11",
+        "7년 연평균수익률(%)": "1.69",
+        "10년 연평균수익률(%)": "1.52",
+        "누적연평균수익률(%)": "2.51",
+        "연평균수수료율(%)": "5.853"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=4",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=4",
+        "collected_at": "2026-09-23T08:21:44.710385+00:00",
+        "http_status": 200,
+        "sha256": "73cf47c520c5f68c75d407177bc4120c10559e90435bc0c85bd9fa225d5df459"
+      }
+    }
+  ]
+}

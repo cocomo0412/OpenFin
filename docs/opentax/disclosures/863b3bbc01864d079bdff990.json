@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.9499450428e2232895e96c5a",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:e1299c7b8961bbceb28b5b02",
+  "group": "5",
+  "provider": "KB손해보험",
+  "title": "연금저축 LIG연금보험",
+  "cells": [
+    "KB손해보험",
+    "연금저축 LIG연금보험",
+    "금리연동형",
+    "2008/04/01",
+    "중단",
+    "141",
+    "-1.68",
+    "0.87",
+    "1.25",
+    "1.33",
+    "1.31",
+    "1.37",
+    "4.33"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=44",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=44",
+    "collected_at": "2026-09-23T08:31:19.635751+00:00",
+    "http_status": 200,
+    "sha256": "dc4e889c39103ffcdbf2c7380728f1f03d3652c98fcddf1240d30edee39fe094"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB손해보험",
+        "상품명": "연금저축 LIG연금보험",
+        "상품유형": "금리연동형",
+        "최초판매일": "2008/04/01",
+        "판매여부": "중단",
+        "적립금총액": "141",
+        "1년 연평균수익률(%)": "-1.68",
+        "3년 연평균수익률(%)": "0.87",
+        "5년 연평균수익률(%)": "1.25",
+        "7년 연평균수익률(%)": "1.33",
+        "10년 연평균수익률(%)": "1.31",
+        "누적연평균수익률(%)": "1.37",
+        "연평균수수료율(%)": "4.33"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=44",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=44",
+        "collected_at": "2026-09-23T08:31:19.635751+00:00",
+        "http_status": 200,
+        "sha256": "dc4e889c39103ffcdbf2c7380728f1f03d3652c98fcddf1240d30edee39fe094"
+      }
+    }
+  ]
+}

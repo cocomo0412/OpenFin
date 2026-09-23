@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.d204e190ade135def1e36607",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:48155c4bf2ecbe490159607e",
+  "group": "3",
+  "provider": "NH-Amundi자산운용",
+  "title": "NH-Amundi 필승 코리아 증권투자신탁[주식] Class S-P1(연금저축)",
+  "cells": [
+    "NH-Amundi자산운용",
+    "NH-Amundi 필승 코리아 증권투자신탁[주식] Class S-P1(연금저축)",
+    "주식형",
+    "2",
+    "2019/08/27",
+    "판매",
+    "8,894",
+    "266.53",
+    "66.29",
+    "35.67",
+    "-",
+    "-",
+    "39.28",
+    "0.619",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=80",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=80",
+    "collected_at": "2026-09-23T08:23:35.626578+00:00",
+    "http_status": 200,
+    "sha256": "20f25b242f23f7a51be3d0c33eb838c9dd661370c299819726ed1ee261d35a4c"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "NH-Amundi자산운용",
+        "상품명": "NH-Amundi 필승 코리아 증권투자신탁[주식] Class S-P1(연금저축)",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2019/08/27",
+        "판매여부": "판매",
+        "순자산총액": "8,894",
+        "1년 연평균수익률(%)": "266.53",
+        "3년 연평균수익률(%)": "66.29",
+        "5년 연평균수익률(%)": "35.67",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "39.28",
+        "연평균수수료율(%)": "0.619",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=80",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=80",
+        "collected_at": "2026-09-23T08:23:35.626578+00:00",
+        "http_status": 200,
+        "sha256": "20f25b242f23f7a51be3d0c33eb838c9dd661370c299819726ed1ee261d35a4c"
+      }
+    }
+  ]
+}

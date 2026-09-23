@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.7c9077e86f80b587ba8b1307",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:1:0f73c4d713fe1b3f26eb1bc2",
+  "group": "1",
+  "provider": "중소기업은행",
+  "title": "연금저축신탁안정형1호",
+  "cells": [
+    "중소기업은행",
+    "연금저축신탁안정형1호",
+    "안정형",
+    "2003/11/03",
+    "중단",
+    "85,774",
+    "1.62",
+    "3.43",
+    "2.39",
+    "1.93",
+    "1.62",
+    "2.65",
+    "5.56"
+  ],
+  "headers": [
+    "은행",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=3",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=3",
+    "collected_at": "2026-09-23T08:21:43.607429+00:00",
+    "http_status": 200,
+    "sha256": "b410058ee59979b57520628c9879670192090da652aa2aba8b23ccad412d6e5a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "중소기업은행",
+        "상품명": "연금저축신탁안정형1호",
+        "상품유형": "안정형",
+        "최초판매일": "2003/11/03",
+        "판매여부": "중단",
+        "적립금총액": "85,774",
+        "1년 연평균수익률(%)": "1.62",
+        "3년 연평균수익률(%)": "3.43",
+        "5년 연평균수익률(%)": "2.39",
+        "7년 연평균수익률(%)": "1.93",
+        "10년 연평균수익률(%)": "1.62",
+        "누적연평균수익률(%)": "2.65",
+        "연평균수수료율(%)": "5.56"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=3",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=3",
+        "collected_at": "2026-09-23T08:21:43.607429+00:00",
+        "http_status": 200,
+        "sha256": "b410058ee59979b57520628c9879670192090da652aa2aba8b23ccad412d6e5a"
+      }
+    }
+  ]
+}

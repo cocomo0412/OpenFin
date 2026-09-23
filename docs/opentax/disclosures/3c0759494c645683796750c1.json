@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.34b39ff56f73c33e88bbad71",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:531e946ffc6f873aa30c0dab",
+  "group": "3",
+  "provider": "흥국자산운용",
+  "title": "흥국플래티넘개인용MMF1호C-p",
+  "cells": [
+    "흥국자산운용",
+    "흥국플래티넘개인용MMF1호C-p",
+    "단기금융",
+    "6",
+    "2014/12/12",
+    "판매",
+    "31,538",
+    "2.49",
+    "3.07",
+    "2.67",
+    "2.15",
+    "1.95",
+    "1.92",
+    "0.201",
+    "(주)우리투자증권, 삼성생명보험주식회사, 교보증권(주), 미래에셋증권 주식회사, 신한투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=35",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=35",
+    "collected_at": "2026-09-23T08:22:33.907661+00:00",
+    "http_status": 200,
+    "sha256": "ffaa989bd7c43d77f4246c9e76ad8ee52fd392d4737673e9d3af670442198d4f"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "흥국자산운용",
+        "상품명": "흥국플래티넘개인용MMF1호C-p",
+        "상품유형": "단기금융",
+        "위험등급": "6",
+        "설정일": "2014/12/12",
+        "판매여부": "판매",
+        "순자산총액": "31,538",
+        "1년 연평균수익률(%)": "2.49",
+        "3년 연평균수익률(%)": "3.07",
+        "5년 연평균수익률(%)": "2.67",
+        "7년 연평균수익률(%)": "2.15",
+        "10년 연평균수익률(%)": "1.95",
+        "누적연평균수익률(%)": "1.92",
+        "연평균수수료율(%)": "0.201",
+        "상품 판매사": "(주)우리투자증권, 삼성생명보험주식회사, 교보증권(주), 미래에셋증권 주식회사, 신한투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=35",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=35",
+        "collected_at": "2026-09-23T08:22:33.907661+00:00",
+        "http_status": 200,
+        "sha256": "ffaa989bd7c43d77f4246c9e76ad8ee52fd392d4737673e9d3af670442198d4f"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.76accbe8f46d0fed75d4f790",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:e52994763141590bab665b44",
+  "group": "3",
+  "provider": "신한자산운용",
+  "title": "신한글로벌밸런스EMP증권투자신탁[채권혼합-재간접형](종류C-pe)",
+  "cells": [
+    "신한자산운용",
+    "신한글로벌밸런스EMP증권투자신탁[채권혼합-재간접형](종류C-pe)",
+    "재간접",
+    "4",
+    "2019/09/02",
+    "판매",
+    "122",
+    "11.37",
+    "7.54",
+    "3.73",
+    "-",
+    "-",
+    "3.25",
+    "0.696",
+    "신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=293",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=293",
+    "collected_at": "2026-09-23T08:28:22.753491+00:00",
+    "http_status": 200,
+    "sha256": "f3f0607ea157e8e4fb1acb26baf85100ee1c0d922dc0e746bc413bdd377a88fd"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한자산운용",
+        "상품명": "신한글로벌밸런스EMP증권투자신탁[채권혼합-재간접형](종류C-pe)",
+        "상품유형": "재간접",
+        "위험등급": "4",
+        "설정일": "2019/09/02",
+        "판매여부": "판매",
+        "순자산총액": "122",
+        "1년 연평균수익률(%)": "11.37",
+        "3년 연평균수익률(%)": "7.54",
+        "5년 연평균수익률(%)": "3.73",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "3.25",
+        "연평균수수료율(%)": "0.696",
+        "상품 판매사": "신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=293",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=293",
+        "collected_at": "2026-09-23T08:28:22.753491+00:00",
+        "http_status": 200,
+        "sha256": "f3f0607ea157e8e4fb1acb26baf85100ee1c0d922dc0e746bc413bdd377a88fd"
+      }
+    }
+  ]
+}

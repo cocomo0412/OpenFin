@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.2eb5ecae498e6b56f9ce9aca",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:00f1ae155f0619e27daa3259",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 연금 재팬 인덱스 증권 자투자신탁(주식-파생형)S-P 클래스",
+  "cells": [
+    "KB자산운용",
+    "KB 연금 재팬 인덱스 증권 자투자신탁(주식-파생형)S-P 클래스",
+    "파생상품",
+    "2",
+    "2014/11/13",
+    "판매",
+    "469",
+    "74.11",
+    "30.42",
+    "21.33",
+    "20.09",
+    "17.68",
+    "14.00",
+    "0.654",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=236",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=236",
+    "collected_at": "2026-09-23T08:27:06.493772+00:00",
+    "http_status": 200,
+    "sha256": "29dd9659530790935ca85c1362d42c4c8efe4c7ae3e01f35e74171619c7b8882"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 연금 재팬 인덱스 증권 자투자신탁(주식-파생형)S-P 클래스",
+        "상품유형": "파생상품",
+        "위험등급": "2",
+        "설정일": "2014/11/13",
+        "판매여부": "판매",
+        "순자산총액": "469",
+        "1년 연평균수익률(%)": "74.11",
+        "3년 연평균수익률(%)": "30.42",
+        "5년 연평균수익률(%)": "21.33",
+        "7년 연평균수익률(%)": "20.09",
+        "10년 연평균수익률(%)": "17.68",
+        "누적연평균수익률(%)": "14.00",
+        "연평균수수료율(%)": "0.654",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=236",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=236",
+        "collected_at": "2026-09-23T08:27:06.493772+00:00",
+        "http_status": 200,
+        "sha256": "29dd9659530790935ca85c1362d42c4c8efe4c7ae3e01f35e74171619c7b8882"
+      }
+    }
+  ]
+}

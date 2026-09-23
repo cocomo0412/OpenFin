@@ -1,0 +1,52 @@
+{
+  "id": "finance.insurance.klia.whole-life.한화생명.l0102460001nn0000024700020244000102440001000102440001000100020244000100010002000222070",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L0102460001NN0000024700020244000102440001000102440001000100020244000100010002000222070",
+  "group": "024400010001",
+  "title": "한화생명 제로백H종신보험 무배당",
+  "provider": "한화생명",
+  "cells": [
+    "한화생명",
+    "한화생명 제로백H종신보험 무배당",
+    "주계약",
+    "사망보험금 *지급사유 : 보험기간 중 피보험자가 사망한 경우",
+    "10,000만원",
+    "798,000 원",
+    "767,000 원",
+    "2.70 %",
+    "-",
+    "-",
+    "86.2 %",
+    "86.0 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "체증형",
+    "무해지/저해지환급",
+    "-",
+    "-",
+    "-",
+    "-",
+    "비유니버셜",
+    "대면채널",
+    "2026-09-01",
+    "Download",
+    "보기",
+    "1588-6363"
+  ],
+  "coverage": [
+    "사망보험금 *지급사유 : 보험기간 중 피보험자가 사망한 경우",
+    "9대질병보험료납입면제특약 무배당 *지급사유 : 보장개시일('암(기타피부암 및 갑상선암 제외)'은 암보장개시일) 이후에 피보험자가 '9대질병'으로 진단이 확정된 경우"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=40598&seq=10"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=1&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=1&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:24.539337+00:00",
+    "http_status": 200,
+    "sha256": "0df63d8cc85090186a66dc11864f5ca52d1fe2c7de71c2e46660ce4738a8c2e6"
+  }
+}

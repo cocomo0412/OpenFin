@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.c236aa2f9d31e35a233b3d52",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:2538ce727193ad3f8a6f5a2f",
+  "group": "3",
+  "provider": "한화자산운용",
+  "title": "한화 LIFEPLUS 적격TDF 2025 증권 자투자신탁(채권혼합-재간접형) J-PE(연금저축)",
+  "cells": [
+    "한화자산운용",
+    "한화 LIFEPLUS 적격TDF 2025 증권 자투자신탁(채권혼합-재간접형) J-PE(연금저축)",
+    "재간접",
+    "3",
+    "2021/04/15",
+    "판매",
+    "319",
+    "18.23",
+    "11.64",
+    "5.54",
+    "-",
+    "-",
+    "5.86",
+    "0.299",
+    "한화자산운용"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=257",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=257",
+    "collected_at": "2026-09-23T08:27:35.016439+00:00",
+    "http_status": 200,
+    "sha256": "1964468466b6615e3c7af00331602aac45ae357b713370332dfabb5d3b950af7"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한화자산운용",
+        "상품명": "한화 LIFEPLUS 적격TDF 2025 증권 자투자신탁(채권혼합-재간접형) J-PE(연금저축)",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2021/04/15",
+        "판매여부": "판매",
+        "순자산총액": "319",
+        "1년 연평균수익률(%)": "18.23",
+        "3년 연평균수익률(%)": "11.64",
+        "5년 연평균수익률(%)": "5.54",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "5.86",
+        "연평균수수료율(%)": "0.299",
+        "상품 판매사": "한화자산운용"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=257",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=257",
+        "collected_at": "2026-09-23T08:27:35.016439+00:00",
+        "http_status": 200,
+        "sha256": "1964468466b6615e3c7af00331602aac45ae357b713370332dfabb5d3b950af7"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.6603e3d488e48a433d86f7ca",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:1:33c96d916a23c8ef12a8c8e8",
+  "group": "1",
+  "provider": "BNK부산은행",
+  "title": "연금저축신탁채권형제1호",
+  "cells": [
+    "BNK부산은행",
+    "연금저축신탁채권형제1호",
+    "채권형",
+    "2001/02/05",
+    "중단",
+    "81,528",
+    "2.37",
+    "3.27",
+    "2.74",
+    "2.25",
+    "2.32",
+    "3.58",
+    "7.98"
+  ],
+  "headers": [
+    "은행",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=3",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=3",
+    "collected_at": "2026-09-23T08:21:43.607429+00:00",
+    "http_status": 200,
+    "sha256": "b410058ee59979b57520628c9879670192090da652aa2aba8b23ccad412d6e5a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "BNK부산은행",
+        "상품명": "연금저축신탁채권형제1호",
+        "상품유형": "채권형",
+        "최초판매일": "2001/02/05",
+        "판매여부": "중단",
+        "적립금총액": "81,528",
+        "1년 연평균수익률(%)": "2.37",
+        "3년 연평균수익률(%)": "3.27",
+        "5년 연평균수익률(%)": "2.74",
+        "7년 연평균수익률(%)": "2.25",
+        "10년 연평균수익률(%)": "2.32",
+        "누적연평균수익률(%)": "3.58",
+        "연평균수수료율(%)": "7.98"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=3",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=3",
+        "collected_at": "2026-09-23T08:21:43.607429+00:00",
+        "http_status": 200,
+        "sha256": "b410058ee59979b57520628c9879670192090da652aa2aba8b23ccad412d6e5a"
+      }
+    }
+  ]
+}

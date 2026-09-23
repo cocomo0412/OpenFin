@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.5bfbaaebf15a4c0a62b5a94b",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:4988103873910cf39d691153",
+  "group": "5",
+  "provider": "예별손해보험",
+  "title": "연금저축손해보험 그린실버 연금보험(F4)",
+  "cells": [
+    "예별손해보험",
+    "연금저축손해보험 그린실버 연금보험(F4)",
+    "금리연동형",
+    "2006/04/01",
+    "중단",
+    "1,631",
+    "-14.41",
+    "-2.4",
+    "2.08",
+    "2.36",
+    "1.91",
+    "1.51",
+    "7.847"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=41",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=41",
+    "collected_at": "2026-09-23T08:31:12.356027+00:00",
+    "http_status": 200,
+    "sha256": "c398ba8c8effe3862879ae97497c17841f2a1950cf333ef5a8e0bec9c3731dd9"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "예별손해보험",
+        "상품명": "연금저축손해보험 그린실버 연금보험(F4)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2006/04/01",
+        "판매여부": "중단",
+        "적립금총액": "1,631",
+        "1년 연평균수익률(%)": "-14.41",
+        "3년 연평균수익률(%)": "-2.4",
+        "5년 연평균수익률(%)": "2.08",
+        "7년 연평균수익률(%)": "2.36",
+        "10년 연평균수익률(%)": "1.91",
+        "누적연평균수익률(%)": "1.51",
+        "연평균수수료율(%)": "7.847"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=41",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=41",
+        "collected_at": "2026-09-23T08:31:12.356027+00:00",
+        "http_status": 200,
+        "sha256": "c398ba8c8effe3862879ae97497c17841f2a1950cf333ef5a8e0bec9c3731dd9"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.ef6a25fb830ff255dc8f7f2e",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:e228ffdce9ab7e0eb77e73db",
+  "group": "5",
+  "provider": "DB손해보험",
+  "title": "연금저축손해보험 프로미라이프 연금보험1501",
+  "cells": [
+    "DB손해보험",
+    "연금저축손해보험 프로미라이프 연금보험1501",
+    "금리연동형",
+    "2014/04/01",
+    "중단",
+    "73,696",
+    "-10.47",
+    "-0.72",
+    "0.37",
+    "0.76",
+    "1.07",
+    "1.79",
+    "0.377"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=8",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=8",
+    "collected_at": "2026-09-23T08:21:53.337208+00:00",
+    "http_status": 200,
+    "sha256": "2c1f9c611ccb5f3a00fc80e3d88d4fdfc4afd1f5ef90cd16f81cf188805b8804"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "DB손해보험",
+        "상품명": "연금저축손해보험 프로미라이프 연금보험1501",
+        "상품유형": "금리연동형",
+        "최초판매일": "2014/04/01",
+        "판매여부": "중단",
+        "적립금총액": "73,696",
+        "1년 연평균수익률(%)": "-10.47",
+        "3년 연평균수익률(%)": "-0.72",
+        "5년 연평균수익률(%)": "0.37",
+        "7년 연평균수익률(%)": "0.76",
+        "10년 연평균수익률(%)": "1.07",
+        "누적연평균수익률(%)": "1.79",
+        "연평균수수료율(%)": "0.377"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=8",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=8",
+        "collected_at": "2026-09-23T08:21:53.337208+00:00",
+        "http_status": 200,
+        "sha256": "2c1f9c611ccb5f3a00fc80e3d88d4fdfc4afd1f5ef90cd16f81cf188805b8804"
+      }
+    }
+  ]
+}

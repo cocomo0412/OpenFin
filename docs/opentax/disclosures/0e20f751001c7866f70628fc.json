@@ -1,0 +1,97 @@
+{
+  "id": "finance.pension.disclosure.a9164b68f117e294ea639685",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:99833764c691500287ee8c03",
+  "group": "4",
+  "provider": "흥국생명보험",
+  "title": "연금저축흥국드림테크연금보험",
+  "cells": [
+    "흥국생명보험",
+    "연금저축흥국드림테크연금보험",
+    "금리연동형",
+    "2004/07/20",
+    "중단",
+    "50,701",
+    "-5.08",
+    "-0.15",
+    "0.98",
+    "1.40",
+    "1.69",
+    "1.44",
+    "4.564"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=14",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=14",
+    "collected_at": "2026-09-23T08:21:56.071254+00:00",
+    "http_status": 200,
+    "sha256": "c63f6a37e5a19f4d0c4f331e7e3dac4f16466573f9bd7102f2e8ba4274674522"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "흥국생명보험",
+        "상품명": "연금저축흥국드림테크연금보험",
+        "상품유형": "금리연동형",
+        "최초판매일": "2004/07/20",
+        "판매여부": "중단",
+        "적립금총액": "50,701",
+        "1년 연평균수익률(%)": "-5.08",
+        "3년 연평균수익률(%)": "-0.15",
+        "5년 연평균수익률(%)": "0.98",
+        "7년 연평균수익률(%)": "1.40",
+        "10년 연평균수익률(%)": "1.69",
+        "누적연평균수익률(%)": "1.44",
+        "연평균수수료율(%)": "4.564"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=14",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=14",
+        "collected_at": "2026-09-23T08:21:56.071254+00:00",
+        "http_status": 200,
+        "sha256": "c63f6a37e5a19f4d0c4f331e7e3dac4f16466573f9bd7102f2e8ba4274674522"
+      }
+    },
+    {
+      "fields": {
+        "금융회사": "흥국생명보험",
+        "상품명": "연금저축흥국드림테크연금보험",
+        "상품유형": "금리연동형",
+        "최초판매일": "2004/07/20",
+        "판매여부": "중단",
+        "적립금총액": "19,699",
+        "1년 연평균수익률(%)": "-5.08",
+        "3년 연평균수익률(%)": "-0.15",
+        "5년 연평균수익률(%)": "0.98",
+        "7년 연평균수익률(%)": "1.40",
+        "10년 연평균수익률(%)": "1.69",
+        "누적연평균수익률(%)": "1.44",
+        "연평균수수료율(%)": "4.564"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=29",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=29",
+        "collected_at": "2026-09-23T08:31:02.246442+00:00",
+        "http_status": 200,
+        "sha256": "2f852066dbe9d8296cc73b8766d6cd5eb9cfb32f5d35029a3e91b172b76bf487"
+      }
+    }
+  ]
+}

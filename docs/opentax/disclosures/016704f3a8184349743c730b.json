@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.c3299798d102e8e860c382f1",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:8c71971ad72283b77cd77889",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB스타 미국 나스닥 100 인덱스 증권 자투자신탁(주식-파생형)(H) S-P",
+  "cells": [
+    "KB자산운용",
+    "KB스타 미국 나스닥 100 인덱스 증권 자투자신탁(주식-파생형)(H) S-P",
+    "파생상품",
+    "2",
+    "2018/01/08",
+    "판매",
+    "17,423",
+    "28.55",
+    "23.57",
+    "13.69",
+    "19.21",
+    "-",
+    "17.44",
+    "0.673",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=52",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=52",
+    "collected_at": "2026-09-23T08:22:57.675216+00:00",
+    "http_status": 200,
+    "sha256": "5d657a3a1378bf60d55856bb799661d17597d10edd473796939f9796edaba9fb"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB스타 미국 나스닥 100 인덱스 증권 자투자신탁(주식-파생형)(H) S-P",
+        "상품유형": "파생상품",
+        "위험등급": "2",
+        "설정일": "2018/01/08",
+        "판매여부": "판매",
+        "순자산총액": "17,423",
+        "1년 연평균수익률(%)": "28.55",
+        "3년 연평균수익률(%)": "23.57",
+        "5년 연평균수익률(%)": "13.69",
+        "7년 연평균수익률(%)": "19.21",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "17.44",
+        "연평균수수료율(%)": "0.673",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=52",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=52",
+        "collected_at": "2026-09-23T08:22:57.675216+00:00",
+        "http_status": 200,
+        "sha256": "5d657a3a1378bf60d55856bb799661d17597d10edd473796939f9796edaba9fb"
+      }
+    }
+  ]
+}

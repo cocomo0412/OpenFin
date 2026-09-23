@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.39e4179a9a157cf69f7db2d6",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:1448016a384d895a4e5cb3e3",
+  "group": "4",
+  "provider": "삼성생명보험",
+  "title": "연금저축삼성골드연금보험1.2",
+  "cells": [
+    "삼성생명보험",
+    "연금저축삼성골드연금보험1.2",
+    "금리연동형",
+    "2008/04/24",
+    "중단",
+    "283,519",
+    "-4.56",
+    "-0.12",
+    "0.80",
+    "1.03",
+    "0.97",
+    "1.06",
+    "5.716"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=2",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=2",
+    "collected_at": "2026-09-23T08:21:43.107456+00:00",
+    "http_status": 200,
+    "sha256": "ecb2ab95b06c6d36c8cec92f0547da8fb5668b0f2a21fbd9971b26a29ce3ecd5"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성생명보험",
+        "상품명": "연금저축삼성골드연금보험1.2",
+        "상품유형": "금리연동형",
+        "최초판매일": "2008/04/24",
+        "판매여부": "중단",
+        "적립금총액": "283,519",
+        "1년 연평균수익률(%)": "-4.56",
+        "3년 연평균수익률(%)": "-0.12",
+        "5년 연평균수익률(%)": "0.80",
+        "7년 연평균수익률(%)": "1.03",
+        "10년 연평균수익률(%)": "0.97",
+        "누적연평균수익률(%)": "1.06",
+        "연평균수수료율(%)": "5.716"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=2",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=2",
+        "collected_at": "2026-09-23T08:21:43.107456+00:00",
+        "http_status": 200,
+        "sha256": "ecb2ab95b06c6d36c8cec92f0547da8fb5668b0f2a21fbd9971b26a29ce3ecd5"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.1bbadb294f22a4ece556932f",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:0ebb830f80b43a48ce0e80bb",
+  "group": "3",
+  "provider": "유리자산운용",
+  "title": "유리피가로스마트인덱스증권투자신탁[주식]_C-P2e",
+  "cells": [
+    "유리자산운용",
+    "유리피가로스마트인덱스증권투자신탁[주식]_C-P2e",
+    "주식형",
+    "2",
+    "2020/03/24",
+    "판매",
+    "1,526",
+    "153.05",
+    "50.47",
+    "24.75",
+    "-",
+    "-",
+    "37.26",
+    "0.060",
+    "-"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=166",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=166",
+    "collected_at": "2026-09-23T08:25:31.718889+00:00",
+    "http_status": 200,
+    "sha256": "118d1323a5aec9f8b6d1f8aa52ab66a3075a13306c535c59bcbdab500e31cb7a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "유리자산운용",
+        "상품명": "유리피가로스마트인덱스증권투자신탁[주식]_C-P2e",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2020/03/24",
+        "판매여부": "판매",
+        "순자산총액": "1,526",
+        "1년 연평균수익률(%)": "153.05",
+        "3년 연평균수익률(%)": "50.47",
+        "5년 연평균수익률(%)": "24.75",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "37.26",
+        "연평균수수료율(%)": "0.060",
+        "상품 판매사": "-"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=166",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=166",
+        "collected_at": "2026-09-23T08:25:31.718889+00:00",
+        "http_status": 200,
+        "sha256": "118d1323a5aec9f8b6d1f8aa52ab66a3075a13306c535c59bcbdab500e31cb7a"
+      }
+    }
+  ]
+}

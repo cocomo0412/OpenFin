@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.8a90c71d63d0a97a516dddbe",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:2416108008dd6b2ab94dc37c",
+  "group": "3",
+  "provider": "DB자산운용",
+  "title": "DB차이나바이오헬스케어증권자투자신탁(UH)[주식]종류S-P",
+  "cells": [
+    "DB자산운용",
+    "DB차이나바이오헬스케어증권자투자신탁(UH)[주식]종류S-P",
+    "주식형",
+    "1",
+    "2019/05/21",
+    "판매",
+    "248",
+    "1.48",
+    "3.88",
+    "-9.81",
+    "4.24",
+    "-",
+    "4.59",
+    "1.075",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=269",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=269",
+    "collected_at": "2026-09-23T08:27:50.980143+00:00",
+    "http_status": 200,
+    "sha256": "cb10bdf6d31b541520b90234425b9667b1770d743d20c864d86478b3059afc15"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "DB자산운용",
+        "상품명": "DB차이나바이오헬스케어증권자투자신탁(UH)[주식]종류S-P",
+        "상품유형": "주식형",
+        "위험등급": "1",
+        "설정일": "2019/05/21",
+        "판매여부": "판매",
+        "순자산총액": "248",
+        "1년 연평균수익률(%)": "1.48",
+        "3년 연평균수익률(%)": "3.88",
+        "5년 연평균수익률(%)": "-9.81",
+        "7년 연평균수익률(%)": "4.24",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "4.59",
+        "연평균수수료율(%)": "1.075",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=269",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=269",
+        "collected_at": "2026-09-23T08:27:50.980143+00:00",
+        "http_status": 200,
+        "sha256": "cb10bdf6d31b541520b90234425b9667b1770d743d20c864d86478b3059afc15"
+      }
+    }
+  ]
+}

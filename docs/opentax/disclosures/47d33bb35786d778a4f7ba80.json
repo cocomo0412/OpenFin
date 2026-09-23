@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.9b274506065031387120a677",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:7924e737887052b923ce5246",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 인디아 증권 자투자신탁(주식) S-P 클래스",
+  "cells": [
+    "KB자산운용",
+    "KB 인디아 증권 자투자신탁(주식) S-P 클래스",
+    "주식형",
+    "3",
+    "2017/10/11",
+    "판매",
+    "63",
+    "-16.14",
+    "-0.64",
+    "-0.92",
+    "3.71",
+    "-",
+    "3.63",
+    "1.151",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=301",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=301",
+    "collected_at": "2026-09-23T08:28:32.989355+00:00",
+    "http_status": 200,
+    "sha256": "25540c5ea66f5fc5bb0c6fb21d9fecec8b52d0f1c5fc98191f46f6e4f01cf578"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 인디아 증권 자투자신탁(주식) S-P 클래스",
+        "상품유형": "주식형",
+        "위험등급": "3",
+        "설정일": "2017/10/11",
+        "판매여부": "판매",
+        "순자산총액": "63",
+        "1년 연평균수익률(%)": "-16.14",
+        "3년 연평균수익률(%)": "-0.64",
+        "5년 연평균수익률(%)": "-0.92",
+        "7년 연평균수익률(%)": "3.71",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "3.63",
+        "연평균수수료율(%)": "1.151",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=301",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=301",
+        "collected_at": "2026-09-23T08:28:32.989355+00:00",
+        "http_status": 200,
+        "sha256": "25540c5ea66f5fc5bb0c6fb21d9fecec8b52d0f1c5fc98191f46f6e4f01cf578"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.bd7cda60d92ac8fa6b6c5e42",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:992e5d1153f3cde9ff399857",
+  "group": "3",
+  "provider": "IBK자산운용",
+  "title": "IBK 그랑프리 국공채MMF 개인 투자신탁 제1호[국공채] 종류 S-P",
+  "cells": [
+    "IBK자산운용",
+    "IBK 그랑프리 국공채MMF 개인 투자신탁 제1호[국공채] 종류 S-P",
+    "단기금융",
+    "6",
+    "2014/04/28",
+    "판매",
+    "488",
+    "2.51",
+    "3.03",
+    "2.60",
+    "2.09",
+    "1.88",
+    "1.87",
+    "0.231",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=233",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=233",
+    "collected_at": "2026-09-23T08:27:02.708422+00:00",
+    "http_status": 200,
+    "sha256": "103962fa427edfa65f134af3aa5a043b16c6d432de866596afe877e2eb2e92a2"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "IBK자산운용",
+        "상품명": "IBK 그랑프리 국공채MMF 개인 투자신탁 제1호[국공채] 종류 S-P",
+        "상품유형": "단기금융",
+        "위험등급": "6",
+        "설정일": "2014/04/28",
+        "판매여부": "판매",
+        "순자산총액": "488",
+        "1년 연평균수익률(%)": "2.51",
+        "3년 연평균수익률(%)": "3.03",
+        "5년 연평균수익률(%)": "2.60",
+        "7년 연평균수익률(%)": "2.09",
+        "10년 연평균수익률(%)": "1.88",
+        "누적연평균수익률(%)": "1.87",
+        "연평균수수료율(%)": "0.231",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=233",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=233",
+        "collected_at": "2026-09-23T08:27:02.708422+00:00",
+        "http_status": 200,
+        "sha256": "103962fa427edfa65f134af3aa5a043b16c6d432de866596afe877e2eb2e92a2"
+      }
+    }
+  ]
+}

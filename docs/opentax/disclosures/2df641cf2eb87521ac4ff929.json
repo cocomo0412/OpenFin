@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.3faa3057de2df97c5e42084a",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:d00459fa6fc35dc60937c5f6",
+  "group": "4",
+  "provider": "삼성생명보험",
+  "title": "연금저축삼성에이스골드연금보험(B1.7)",
+  "cells": [
+    "삼성생명보험",
+    "연금저축삼성에이스골드연금보험(B1.7)",
+    "금리연동형",
+    "2014/04/01",
+    "중단",
+    "111,411",
+    "-4.97",
+    "-0.93",
+    "-0.08",
+    "0.22",
+    "0.62",
+    "0.81",
+    "6.020"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=6",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=6",
+    "collected_at": "2026-09-23T08:21:47.048660+00:00",
+    "http_status": 200,
+    "sha256": "1d741bdb967d6d6d0b00402496be8fb7aa317a1482558c7c708d51d128054973"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성생명보험",
+        "상품명": "연금저축삼성에이스골드연금보험(B1.7)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2014/04/01",
+        "판매여부": "중단",
+        "적립금총액": "111,411",
+        "1년 연평균수익률(%)": "-4.97",
+        "3년 연평균수익률(%)": "-0.93",
+        "5년 연평균수익률(%)": "-0.08",
+        "7년 연평균수익률(%)": "0.22",
+        "10년 연평균수익률(%)": "0.62",
+        "누적연평균수익률(%)": "0.81",
+        "연평균수수료율(%)": "6.020"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=6",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=6",
+        "collected_at": "2026-09-23T08:21:47.048660+00:00",
+        "http_status": 200,
+        "sha256": "1d741bdb967d6d6d0b00402496be8fb7aa317a1482558c7c708d51d128054973"
+      }
+    }
+  ]
+}

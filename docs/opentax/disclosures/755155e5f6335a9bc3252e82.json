@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.c5f16cec4efe221cac7fa7e6",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:0b575069805d3306db5a4e5b",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성글로벌채권증권자투자신탁H[채권]_C-P",
+  "cells": [
+    "삼성자산운용",
+    "삼성글로벌채권증권자투자신탁H[채권]_C-P",
+    "채권형",
+    "5",
+    "2019/05/14",
+    "판매",
+    "504",
+    "1.93",
+    "3.41",
+    "-0.61",
+    "-0.19",
+    "-",
+    "-0.18",
+    "0.838",
+    "미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=232",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=232",
+    "collected_at": "2026-09-23T08:27:01.506317+00:00",
+    "http_status": 200,
+    "sha256": "6457b7d444dd3bfdfafb451d0c86b01afd6aba95d67cd987fdf4c44246296d77"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성글로벌채권증권자투자신탁H[채권]_C-P",
+        "상품유형": "채권형",
+        "위험등급": "5",
+        "설정일": "2019/05/14",
+        "판매여부": "판매",
+        "순자산총액": "504",
+        "1년 연평균수익률(%)": "1.93",
+        "3년 연평균수익률(%)": "3.41",
+        "5년 연평균수익률(%)": "-0.61",
+        "7년 연평균수익률(%)": "-0.19",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-0.18",
+        "연평균수수료율(%)": "0.838",
+        "상품 판매사": "미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=232",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=232",
+        "collected_at": "2026-09-23T08:27:01.506317+00:00",
+        "http_status": 200,
+        "sha256": "6457b7d444dd3bfdfafb451d0c86b01afd6aba95d67cd987fdf4c44246296d77"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.5581902fe883fab112600f78",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:7e18bbd43eeabadf5c83d7e2",
+  "group": "3",
+  "provider": "유경피에스지자산운용",
+  "title": "유경 플레인바닐라 글로벌리츠인프라 부동산자투자신탁(재간접형) Class C-Pe",
+  "cells": [
+    "유경피에스지자산운용",
+    "유경 플레인바닐라 글로벌리츠인프라 부동산자투자신탁(재간접형) Class C-Pe",
+    "부동산",
+    "2",
+    "2020/09/15",
+    "판매",
+    "345",
+    "20.52",
+    "9.45",
+    "6.47",
+    "-",
+    "-",
+    "8.90",
+    "1.201",
+    "한화투자증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, KB증권, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=253",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=253",
+    "collected_at": "2026-09-23T08:27:29.401995+00:00",
+    "http_status": 200,
+    "sha256": "a647b089355a46f6e4f087b396ad78cfb7f21cd57d4718c87c8ba64cb1538d33"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "유경피에스지자산운용",
+        "상품명": "유경 플레인바닐라 글로벌리츠인프라 부동산자투자신탁(재간접형) Class C-Pe",
+        "상품유형": "부동산",
+        "위험등급": "2",
+        "설정일": "2020/09/15",
+        "판매여부": "판매",
+        "순자산총액": "345",
+        "1년 연평균수익률(%)": "20.52",
+        "3년 연평균수익률(%)": "9.45",
+        "5년 연평균수익률(%)": "6.47",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "8.90",
+        "연평균수수료율(%)": "1.201",
+        "상품 판매사": "한화투자증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, KB증권, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=253",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=253",
+        "collected_at": "2026-09-23T08:27:29.401995+00:00",
+        "http_status": 200,
+        "sha256": "a647b089355a46f6e4f087b396ad78cfb7f21cd57d4718c87c8ba64cb1538d33"
+      }
+    }
+  ]
+}

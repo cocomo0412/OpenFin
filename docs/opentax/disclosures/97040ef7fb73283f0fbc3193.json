@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.eff004d13e50d810d1786117",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:f6bec1c8689c9287576a4de1",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 글로벌 테크놀로지 EMP 증권 자투자신탁(주식-재간접형) C-P",
+  "cells": [
+    "KB자산운용",
+    "KB 글로벌 테크놀로지 EMP 증권 자투자신탁(주식-재간접형) C-P",
+    "재간접",
+    "2",
+    "2018/06/19",
+    "판매",
+    "1,209",
+    "57.74",
+    "27.64",
+    "10.48",
+    "15.28",
+    "-",
+    "12.92",
+    "1.430",
+    "KB증권, KB국민은행, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=178",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=178",
+    "collected_at": "2026-09-23T08:25:48.070445+00:00",
+    "http_status": 200,
+    "sha256": "871d5552a2233cef148de0355805375d7f4172d981be275610addda69420d6ea"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 글로벌 테크놀로지 EMP 증권 자투자신탁(주식-재간접형) C-P",
+        "상품유형": "재간접",
+        "위험등급": "2",
+        "설정일": "2018/06/19",
+        "판매여부": "판매",
+        "순자산총액": "1,209",
+        "1년 연평균수익률(%)": "57.74",
+        "3년 연평균수익률(%)": "27.64",
+        "5년 연평균수익률(%)": "10.48",
+        "7년 연평균수익률(%)": "15.28",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "12.92",
+        "연평균수수료율(%)": "1.430",
+        "상품 판매사": "KB증권, KB국민은행, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=178",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=178",
+        "collected_at": "2026-09-23T08:25:48.070445+00:00",
+        "http_status": 200,
+        "sha256": "871d5552a2233cef148de0355805375d7f4172d981be275610addda69420d6ea"
+      }
+    }
+  ]
+}

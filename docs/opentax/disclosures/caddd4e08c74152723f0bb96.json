@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.bdd7d92948df537f051b17d5",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:130b53985b3133efc1f8ddc4",
+  "group": "3",
+  "provider": "한화자산운용",
+  "title": "한화 LIFEPLUS TDF 2020 증권 자투자신탁(채권혼합-재간접형) 종류 C-P(연금저축)",
+  "cells": [
+    "한화자산운용",
+    "한화 LIFEPLUS TDF 2020 증권 자투자신탁(채권혼합-재간접형) 종류 C-P(연금저축)",
+    "재간접",
+    "4",
+    "2018/04/05",
+    "판매",
+    "2,175",
+    "15.89",
+    "9.86",
+    "4.13",
+    "5.30",
+    "-",
+    "5.45",
+    "0.646",
+    "한화투자증권주식회사, 한국투자증권, 삼성증권, KB증권, KB국민은행, 신영증권주식회사, 미래에셋증권 주식회사, 하나은행, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=146",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=146",
+    "collected_at": "2026-09-23T08:25:04.657821+00:00",
+    "http_status": 200,
+    "sha256": "4b80d4838a654ba48fbb7f7dcdfd1b94c3912e8427920287345833a59d8ff564"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한화자산운용",
+        "상품명": "한화 LIFEPLUS TDF 2020 증권 자투자신탁(채권혼합-재간접형) 종류 C-P(연금저축)",
+        "상품유형": "재간접",
+        "위험등급": "4",
+        "설정일": "2018/04/05",
+        "판매여부": "판매",
+        "순자산총액": "2,175",
+        "1년 연평균수익률(%)": "15.89",
+        "3년 연평균수익률(%)": "9.86",
+        "5년 연평균수익률(%)": "4.13",
+        "7년 연평균수익률(%)": "5.30",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "5.45",
+        "연평균수수료율(%)": "0.646",
+        "상품 판매사": "한화투자증권주식회사, 한국투자증권, 삼성증권, KB증권, KB국민은행, 신영증권주식회사, 미래에셋증권 주식회사, 하나은행, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=146",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=146",
+        "collected_at": "2026-09-23T08:25:04.657821+00:00",
+        "http_status": 200,
+        "sha256": "4b80d4838a654ba48fbb7f7dcdfd1b94c3912e8427920287345833a59d8ff564"
+      }
+    }
+  ]
+}

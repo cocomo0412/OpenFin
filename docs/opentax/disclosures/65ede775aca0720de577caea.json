@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.6861a7a78b4eee12b1bf39cb",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:6c8cc6ceb4ca2a401864c2c5",
+  "group": "4",
+  "provider": "아이비케이연금보험",
+  "title": "연금저축 무배당 IBK연금보험_1501",
+  "cells": [
+    "아이비케이연금보험",
+    "연금저축 무배당 IBK연금보험_1501",
+    "금리연동형",
+    "2015/01/01",
+    "중단",
+    "32,379",
+    "-3.59",
+    "-0.36",
+    "0.33",
+    "0.58",
+    "0.89",
+    "0.97",
+    "4.612"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=21",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=21",
+    "collected_at": "2026-09-23T08:30:38.492008+00:00",
+    "http_status": 200,
+    "sha256": "37f755b6c6a54e69d9119e4d5f3ff32008671349ded9e48c8ef7f377c4cef230"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "아이비케이연금보험",
+        "상품명": "연금저축 무배당 IBK연금보험_1501",
+        "상품유형": "금리연동형",
+        "최초판매일": "2015/01/01",
+        "판매여부": "중단",
+        "적립금총액": "32,379",
+        "1년 연평균수익률(%)": "-3.59",
+        "3년 연평균수익률(%)": "-0.36",
+        "5년 연평균수익률(%)": "0.33",
+        "7년 연평균수익률(%)": "0.58",
+        "10년 연평균수익률(%)": "0.89",
+        "누적연평균수익률(%)": "0.97",
+        "연평균수수료율(%)": "4.612"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=21",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=21",
+        "collected_at": "2026-09-23T08:30:38.492008+00:00",
+        "http_status": 200,
+        "sha256": "37f755b6c6a54e69d9119e4d5f3ff32008671349ded9e48c8ef7f377c4cef230"
+      }
+    }
+  ]
+}

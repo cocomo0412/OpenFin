@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.9020669c9df19d0efd4650ac",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:28c0f02377d2ed6b2422b4b2",
+  "group": "3",
+  "provider": "한화자산운용",
+  "title": "한화K리츠플러스부동산 자투자신탁(H)(리츠-재간접형) J-Pe(연금저축)",
+  "cells": [
+    "한화자산운용",
+    "한화K리츠플러스부동산 자투자신탁(H)(리츠-재간접형) J-Pe(연금저축)",
+    "부동산",
+    "4",
+    "2021/06/03",
+    "판매",
+    "172",
+    "13.33",
+    "8.54",
+    "3.08",
+    "-",
+    "-",
+    "3.00",
+    "0.796",
+    "한화자산운용"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=284",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=284",
+    "collected_at": "2026-09-23T08:28:10.812128+00:00",
+    "http_status": 200,
+    "sha256": "0a708d98f21edd301a110af2c2337e274fca7492e2605bd9edc00e26fc1adb05"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한화자산운용",
+        "상품명": "한화K리츠플러스부동산 자투자신탁(H)(리츠-재간접형) J-Pe(연금저축)",
+        "상품유형": "부동산",
+        "위험등급": "4",
+        "설정일": "2021/06/03",
+        "판매여부": "판매",
+        "순자산총액": "172",
+        "1년 연평균수익률(%)": "13.33",
+        "3년 연평균수익률(%)": "8.54",
+        "5년 연평균수익률(%)": "3.08",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "3.00",
+        "연평균수수료율(%)": "0.796",
+        "상품 판매사": "한화자산운용"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=284",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=284",
+        "collected_at": "2026-09-23T08:28:10.812128+00:00",
+        "http_status": 200,
+        "sha256": "0a708d98f21edd301a110af2c2337e274fca7492e2605bd9edc00e26fc1adb05"
+      }
+    }
+  ]
+}

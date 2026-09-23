@@ -1,0 +1,51 @@
+{
+  "id": "finance.insurance.klia.whole-life.삼성생명.l0302460001nn00000247000202440001024400010001024400010001000102440001000100010002p7670",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L0302460001NN00000247000202440001024400010001024400010001000102440001000100010002P7670",
+  "group": "024400010001",
+  "title": "삼성 간편 올백(ALL 100) 종신보험(2601)(무배당,무해약환급금형)",
+  "provider": "삼성생명",
+  "cells": [
+    "삼성생명",
+    "삼성 간편 올백(ALL 100) 종신보험(2601)(무배당,무해약환급금형)",
+    "주계약",
+    "사망보험금 *지급사유 : 사망시",
+    "1억원",
+    "473,000 원",
+    "367,000 원",
+    "1.90 %",
+    "-",
+    "-",
+    "112.2 %",
+    "114.8 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "기본형",
+    "무해지/저해지환급",
+    "-",
+    "-",
+    "-",
+    "-",
+    "비유니버셜",
+    "대면채널",
+    "2026-01-01",
+    "Download",
+    "보기",
+    "1588-3114"
+  ],
+  "coverage": [
+    "사망보험금 *지급사유 : 사망시"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=42658&seq=3"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=4&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=4&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:26.342249+00:00",
+    "http_status": 200,
+    "sha256": "6c7af23ceaf7345a55ff487641eaa93ab4ddf1af2dae8276aa5dd7237042da7e"
+  }
+}

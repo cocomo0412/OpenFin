@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.6c642b1ea393ef6f29d80e68",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:82136856793cbdda4ae4aa0b",
+  "group": "3",
+  "provider": "신영자산운용",
+  "title": "신영마라톤40증권자투자신탁(채권혼합) C-P형",
+  "cells": [
+    "신영자산운용",
+    "신영마라톤40증권자투자신탁(채권혼합) C-P형",
+    "혼합채권형",
+    "4",
+    "2015/10/23",
+    "판매",
+    "2,599",
+    "53.15",
+    "20.03",
+    "10.39",
+    "8.83",
+    "6.81",
+    "6.28",
+    "1.165",
+    "한화투자증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, 우리은행, KB증권, KB국민은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=136",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=136",
+    "collected_at": "2026-09-23T08:24:51.698736+00:00",
+    "http_status": 200,
+    "sha256": "47e38e691b503ec99a10b23fd932c5c0496d98c6dfb217caa345c3fc192f7176"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신영자산운용",
+        "상품명": "신영마라톤40증권자투자신탁(채권혼합) C-P형",
+        "상품유형": "혼합채권형",
+        "위험등급": "4",
+        "설정일": "2015/10/23",
+        "판매여부": "판매",
+        "순자산총액": "2,599",
+        "1년 연평균수익률(%)": "53.15",
+        "3년 연평균수익률(%)": "20.03",
+        "5년 연평균수익률(%)": "10.39",
+        "7년 연평균수익률(%)": "8.83",
+        "10년 연평균수익률(%)": "6.81",
+        "누적연평균수익률(%)": "6.28",
+        "연평균수수료율(%)": "1.165",
+        "상품 판매사": "한화투자증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, 우리은행, KB증권, KB국민은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=136",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=136",
+        "collected_at": "2026-09-23T08:24:51.698736+00:00",
+        "http_status": 200,
+        "sha256": "47e38e691b503ec99a10b23fd932c5c0496d98c6dfb217caa345c3fc192f7176"
+      }
+    }
+  ]
+}

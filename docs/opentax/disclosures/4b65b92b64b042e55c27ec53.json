@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.786863fe8f64ba6bded830a1",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:1dd2ecdf836628a76b38035e",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 주주가치 포커스 증권 투자신탁(주식) C-P",
+  "cells": [
+    "KB자산운용",
+    "KB 주주가치 포커스 증권 투자신탁(주식) C-P",
+    "주식형",
+    "2",
+    "2018/03/15",
+    "판매",
+    "10,914",
+    "208.43",
+    "56.94",
+    "24.73",
+    "23.98",
+    "-",
+    "20.49",
+    "1.523",
+    "한화투자증권주식회사, 한국투자증권, KB증권, KB국민은행, NH투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=71",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=71",
+    "collected_at": "2026-09-23T08:23:23.278741+00:00",
+    "http_status": 200,
+    "sha256": "8d5aaf1cc6990bd8c931007ddcb0a60d53ea77685d155e3f48cc8e0b0ddf8c89"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 주주가치 포커스 증권 투자신탁(주식) C-P",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2018/03/15",
+        "판매여부": "판매",
+        "순자산총액": "10,914",
+        "1년 연평균수익률(%)": "208.43",
+        "3년 연평균수익률(%)": "56.94",
+        "5년 연평균수익률(%)": "24.73",
+        "7년 연평균수익률(%)": "23.98",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "20.49",
+        "연평균수수료율(%)": "1.523",
+        "상품 판매사": "한화투자증권주식회사, 한국투자증권, KB증권, KB국민은행, NH투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=71",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=71",
+        "collected_at": "2026-09-23T08:23:23.278741+00:00",
+        "http_status": 200,
+        "sha256": "8d5aaf1cc6990bd8c931007ddcb0a60d53ea77685d155e3f48cc8e0b0ddf8c89"
+      }
+    }
+  ]
+}

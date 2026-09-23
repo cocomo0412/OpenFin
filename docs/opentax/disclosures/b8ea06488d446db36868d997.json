@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.5cc58c35f7d34d2e2a0ff1cb",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:4306e7ae0d11f16ee2a4492c",
+  "group": "3",
+  "provider": "KCGI자산운용",
+  "title": "KCGI글로벌리츠부동산자투자신탁[리츠-재간접형]종류C-Pe",
+  "cells": [
+    "KCGI자산운용",
+    "KCGI글로벌리츠부동산자투자신탁[리츠-재간접형]종류C-Pe",
+    "부동산",
+    "2",
+    "2020/02/03",
+    "판매",
+    "7,923",
+    "30.81",
+    "13.21",
+    "7.61",
+    "-",
+    "-",
+    "6.70",
+    "1.011",
+    "삼성증권, KCGI자산운용"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=85",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=85",
+    "collected_at": "2026-09-23T08:23:42.290978+00:00",
+    "http_status": 200,
+    "sha256": "f67afe1bfaf9f942d44297a7a771b5d50593874d87a6d6d60f0e934a88b47ef7"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KCGI자산운용",
+        "상품명": "KCGI글로벌리츠부동산자투자신탁[리츠-재간접형]종류C-Pe",
+        "상품유형": "부동산",
+        "위험등급": "2",
+        "설정일": "2020/02/03",
+        "판매여부": "판매",
+        "순자산총액": "7,923",
+        "1년 연평균수익률(%)": "30.81",
+        "3년 연평균수익률(%)": "13.21",
+        "5년 연평균수익률(%)": "7.61",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "6.70",
+        "연평균수수료율(%)": "1.011",
+        "상품 판매사": "삼성증권, KCGI자산운용"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=85",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=85",
+        "collected_at": "2026-09-23T08:23:42.290978+00:00",
+        "http_status": 200,
+        "sha256": "f67afe1bfaf9f942d44297a7a771b5d50593874d87a6d6d60f0e934a88b47ef7"
+      }
+    }
+  ]
+}

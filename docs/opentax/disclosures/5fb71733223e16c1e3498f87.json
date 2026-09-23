@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.e59cf44c7c241a0908a22d35",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:10f9ca88db6eb2935db79e23",
+  "group": "3",
+  "provider": "우리자산운용",
+  "title": "우리하이플러스채권증권자투자신탁1호(채권)ClassS-P",
+  "cells": [
+    "우리자산운용",
+    "우리하이플러스채권증권자투자신탁1호(채권)ClassS-P",
+    "채권형",
+    "5",
+    "2015/04/14",
+    "판매",
+    "480",
+    "1.47",
+    "3.87",
+    "3.19",
+    "2.76",
+    "2.72",
+    "2.72",
+    "0.274",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=234",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=234",
+    "collected_at": "2026-09-23T08:27:03.926898+00:00",
+    "http_status": 200,
+    "sha256": "a95240b010c07601191f759ae53152ae05996ad4fb2ab458fc5dc2fdfa4ca7b4"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "우리자산운용",
+        "상품명": "우리하이플러스채권증권자투자신탁1호(채권)ClassS-P",
+        "상품유형": "채권형",
+        "위험등급": "5",
+        "설정일": "2015/04/14",
+        "판매여부": "판매",
+        "순자산총액": "480",
+        "1년 연평균수익률(%)": "1.47",
+        "3년 연평균수익률(%)": "3.87",
+        "5년 연평균수익률(%)": "3.19",
+        "7년 연평균수익률(%)": "2.76",
+        "10년 연평균수익률(%)": "2.72",
+        "누적연평균수익률(%)": "2.72",
+        "연평균수수료율(%)": "0.274",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=234",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=234",
+        "collected_at": "2026-09-23T08:27:03.926898+00:00",
+        "http_status": 200,
+        "sha256": "a95240b010c07601191f759ae53152ae05996ad4fb2ab458fc5dc2fdfa4ca7b4"
+      }
+    }
+  ]
+}

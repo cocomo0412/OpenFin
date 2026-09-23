@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.f5cc33e0817da0b7d40f3805",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:1253e20f19f75bc071a56c12",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자차이나AI빅테크플러스증권투자신탁(주식)(S-P)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자차이나AI빅테크플러스증권투자신탁(주식)(S-P)",
+    "주식형",
+    "2",
+    "2018/05/02",
+    "판매",
+    "105",
+    "45.66",
+    "13.86",
+    "-3.78",
+    "6.03",
+    "-",
+    "3.41",
+    "1.150",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=295",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=295",
+    "collected_at": "2026-09-23T08:28:25.187796+00:00",
+    "http_status": 200,
+    "sha256": "542df5c9622e3cea85cac042bc9ca65123331d0c8a42214dfff57919928a7ff6"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자차이나AI빅테크플러스증권투자신탁(주식)(S-P)",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2018/05/02",
+        "판매여부": "판매",
+        "순자산총액": "105",
+        "1년 연평균수익률(%)": "45.66",
+        "3년 연평균수익률(%)": "13.86",
+        "5년 연평균수익률(%)": "-3.78",
+        "7년 연평균수익률(%)": "6.03",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "3.41",
+        "연평균수수료율(%)": "1.150",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=295",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=295",
+        "collected_at": "2026-09-23T08:28:25.187796+00:00",
+        "http_status": 200,
+        "sha256": "542df5c9622e3cea85cac042bc9ca65123331d0c8a42214dfff57919928a7ff6"
+      }
+    }
+  ]
+}

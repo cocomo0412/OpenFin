@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.75ea5f5a31db1eddc6778075",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:9da5dd80e45f2337ac1a77f4",
+  "group": "3",
+  "provider": "iM에셋자산운용",
+  "title": "iM에셋 개인연금인덱스증권전환형자투자신탁1호(주식-파생형) A",
+  "cells": [
+    "iM에셋자산운용",
+    "iM에셋 개인연금인덱스증권전환형자투자신탁1호(주식-파생형) A",
+    "파생상품",
+    "2",
+    "2009/11/20",
+    "판매",
+    "546",
+    "235.06",
+    "62.35",
+    "28.53",
+    "28.40",
+    "21.17",
+    "13.49",
+    "0.345",
+    "LS증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=227",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=227",
+    "collected_at": "2026-09-23T08:26:54.096166+00:00",
+    "http_status": 200,
+    "sha256": "022c034a74238dd76d2af17d694372b423e38431c6bbcba5ea5cc5aba29ad7b9"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "iM에셋자산운용",
+        "상품명": "iM에셋 개인연금인덱스증권전환형자투자신탁1호(주식-파생형) A",
+        "상품유형": "파생상품",
+        "위험등급": "2",
+        "설정일": "2009/11/20",
+        "판매여부": "판매",
+        "순자산총액": "546",
+        "1년 연평균수익률(%)": "235.06",
+        "3년 연평균수익률(%)": "62.35",
+        "5년 연평균수익률(%)": "28.53",
+        "7년 연평균수익률(%)": "28.40",
+        "10년 연평균수익률(%)": "21.17",
+        "누적연평균수익률(%)": "13.49",
+        "연평균수수료율(%)": "0.345",
+        "상품 판매사": "LS증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=227",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=227",
+        "collected_at": "2026-09-23T08:26:54.096166+00:00",
+        "http_status": 200,
+        "sha256": "022c034a74238dd76d2af17d694372b423e38431c6bbcba5ea5cc5aba29ad7b9"
+      }
+    }
+  ]
+}

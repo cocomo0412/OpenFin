@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.31f317d625f4f9a84e4e2494",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:29018f5ee2440cbfb7be358c",
+  "group": "3",
+  "provider": "DB자산운용",
+  "title": "DBNEW해오름신종MMF제3호ClassC-PE",
+  "cells": [
+    "DB자산운용",
+    "DBNEW해오름신종MMF제3호ClassC-PE",
+    "단기금융",
+    "6",
+    "2017/11/13",
+    "판매",
+    "15,910",
+    "2.63",
+    "3.10",
+    "2.74",
+    "2.26",
+    "-",
+    "2.17",
+    "0.191",
+    "디비증권주식회사, 한화투자증권주식회사, (주)우리투자증권, 신영증권주식회사, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=56",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=56",
+    "collected_at": "2026-09-23T08:23:02.872485+00:00",
+    "http_status": 200,
+    "sha256": "dd721f477d901aacca2408e9beaaab20b250a7af2bd1691c0b71faf18855a5e3"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "DB자산운용",
+        "상품명": "DBNEW해오름신종MMF제3호ClassC-PE",
+        "상품유형": "단기금융",
+        "위험등급": "6",
+        "설정일": "2017/11/13",
+        "판매여부": "판매",
+        "순자산총액": "15,910",
+        "1년 연평균수익률(%)": "2.63",
+        "3년 연평균수익률(%)": "3.10",
+        "5년 연평균수익률(%)": "2.74",
+        "7년 연평균수익률(%)": "2.26",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "2.17",
+        "연평균수수료율(%)": "0.191",
+        "상품 판매사": "디비증권주식회사, 한화투자증권주식회사, (주)우리투자증권, 신영증권주식회사, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=56",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=56",
+        "collected_at": "2026-09-23T08:23:02.872485+00:00",
+        "http_status": 200,
+        "sha256": "dd721f477d901aacca2408e9beaaab20b250a7af2bd1691c0b71faf18855a5e3"
+      }
+    }
+  ]
+}

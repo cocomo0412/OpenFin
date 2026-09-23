@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.2435dc8cf332ee3c9e9e91ea",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:da443d38463353e6102615cc",
+  "group": "5",
+  "provider": "현대해상화재보험",
+  "title": "연금저축손해보험 하이라이프노후사랑보험(Hi1004)",
+  "cells": [
+    "현대해상화재보험",
+    "연금저축손해보험 하이라이프노후사랑보험(Hi1004)",
+    "금리연동형",
+    "2010/04/01",
+    "중단",
+    "32,683",
+    "-6.97",
+    "-0.86",
+    "0.1",
+    "0.36",
+    "0.6",
+    "0.94",
+    "8.436"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=14",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=14",
+    "collected_at": "2026-09-23T08:21:59.461093+00:00",
+    "http_status": 200,
+    "sha256": "50b459a17cf1aa675771e2fb2230b4f84d9104db9b61e944b20ed830508b14a8"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "현대해상화재보험",
+        "상품명": "연금저축손해보험 하이라이프노후사랑보험(Hi1004)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2010/04/01",
+        "판매여부": "중단",
+        "적립금총액": "32,683",
+        "1년 연평균수익률(%)": "-6.97",
+        "3년 연평균수익률(%)": "-0.86",
+        "5년 연평균수익률(%)": "0.1",
+        "7년 연평균수익률(%)": "0.36",
+        "10년 연평균수익률(%)": "0.6",
+        "누적연평균수익률(%)": "0.94",
+        "연평균수수료율(%)": "8.436"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=14",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=14",
+        "collected_at": "2026-09-23T08:21:59.461093+00:00",
+        "http_status": 200,
+        "sha256": "50b459a17cf1aa675771e2fb2230b4f84d9104db9b61e944b20ed830508b14a8"
+      }
+    }
+  ]
+}

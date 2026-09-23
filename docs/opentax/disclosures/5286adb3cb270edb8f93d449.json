@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.9a8bd2e54f5163c79ddb779c",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:472a8b8d5d42302936e5972e",
+  "group": "3",
+  "provider": "우리자산운용",
+  "title": "우리KOSPI200인덱스증권자투자신탁1호(주식)ClassC-P1e",
+  "cells": [
+    "우리자산운용",
+    "우리KOSPI200인덱스증권자투자신탁1호(주식)ClassC-P1e",
+    "주식형",
+    "1",
+    "2024/01/12",
+    "판매",
+    "12,461",
+    "237.36",
+    "-",
+    "-",
+    "-",
+    "-",
+    "79.42",
+    "0.479",
+    "유진투자증권주식회사, NH농협은행, 우리은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=65",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=65",
+    "collected_at": "2026-09-23T08:23:14.872864+00:00",
+    "http_status": 200,
+    "sha256": "7bb948f51690f0282005f13cd26067635e16e3ab06c76cd04c367a8ab8577001"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "우리자산운용",
+        "상품명": "우리KOSPI200인덱스증권자투자신탁1호(주식)ClassC-P1e",
+        "상품유형": "주식형",
+        "위험등급": "1",
+        "설정일": "2024/01/12",
+        "판매여부": "판매",
+        "순자산총액": "12,461",
+        "1년 연평균수익률(%)": "237.36",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "79.42",
+        "연평균수수료율(%)": "0.479",
+        "상품 판매사": "유진투자증권주식회사, NH농협은행, 우리은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=65",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=65",
+        "collected_at": "2026-09-23T08:23:14.872864+00:00",
+        "http_status": 200,
+        "sha256": "7bb948f51690f0282005f13cd26067635e16e3ab06c76cd04c367a8ab8577001"
+      }
+    }
+  ]
+}

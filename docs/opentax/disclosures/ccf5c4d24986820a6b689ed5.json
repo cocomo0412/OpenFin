@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.df4c86ea98c9ce86baa0e6ea",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:2b53bd273265d95c6ea17ae2",
+  "group": "4",
+  "provider": "삼성생명보험",
+  "title": "연금저축골드연금보험1.9(사업비할인)_50인이상",
+  "cells": [
+    "삼성생명보험",
+    "연금저축골드연금보험1.9(사업비할인)_50인이상",
+    "금리연동형",
+    "2016/01/02",
+    "중단",
+    "436",
+    "-3.97",
+    "-0.51",
+    "0.09",
+    "0.39",
+    "0.69",
+    "0.72",
+    "5.017"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=65",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=65",
+    "collected_at": "2026-09-23T08:32:03.925542+00:00",
+    "http_status": 200,
+    "sha256": "8cfdfeb642ed1fb0dea8a8b6eeb3e7f69ec58584e996d11a60d5a21574403bac"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성생명보험",
+        "상품명": "연금저축골드연금보험1.9(사업비할인)_50인이상",
+        "상품유형": "금리연동형",
+        "최초판매일": "2016/01/02",
+        "판매여부": "중단",
+        "적립금총액": "436",
+        "1년 연평균수익률(%)": "-3.97",
+        "3년 연평균수익률(%)": "-0.51",
+        "5년 연평균수익률(%)": "0.09",
+        "7년 연평균수익률(%)": "0.39",
+        "10년 연평균수익률(%)": "0.69",
+        "누적연평균수익률(%)": "0.72",
+        "연평균수수료율(%)": "5.017"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=65",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=65",
+        "collected_at": "2026-09-23T08:32:03.925542+00:00",
+        "http_status": 200,
+        "sha256": "8cfdfeb642ed1fb0dea8a8b6eeb3e7f69ec58584e996d11a60d5a21574403bac"
+      }
+    }
+  ]
+}

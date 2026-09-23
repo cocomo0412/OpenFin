@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.2d03a8711f61d85e0fc94c15",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:82bf733dbf3ef11795c8c404",
+  "group": "5",
+  "provider": "삼성화재해상보험",
+  "title": "연금저축손해보험 삼성화재 연금보험 아름다운생활∥(1303.1)",
+  "cells": [
+    "삼성화재해상보험",
+    "연금저축손해보험 삼성화재 연금보험 아름다운생활∥(1303.1)",
+    "금리연동형",
+    "2013/03/05",
+    "중단",
+    "61,878",
+    "-5",
+    "-0.75",
+    "-0.03",
+    "0.32",
+    "0.64",
+    "0.85",
+    "5.854"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=8",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=8",
+    "collected_at": "2026-09-23T08:21:53.337208+00:00",
+    "http_status": 200,
+    "sha256": "2c1f9c611ccb5f3a00fc80e3d88d4fdfc4afd1f5ef90cd16f81cf188805b8804"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성화재해상보험",
+        "상품명": "연금저축손해보험 삼성화재 연금보험 아름다운생활∥(1303.1)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2013/03/05",
+        "판매여부": "중단",
+        "적립금총액": "61,878",
+        "1년 연평균수익률(%)": "-5",
+        "3년 연평균수익률(%)": "-0.75",
+        "5년 연평균수익률(%)": "-0.03",
+        "7년 연평균수익률(%)": "0.32",
+        "10년 연평균수익률(%)": "0.64",
+        "누적연평균수익률(%)": "0.85",
+        "연평균수수료율(%)": "5.854"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=8",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=8",
+        "collected_at": "2026-09-23T08:21:53.337208+00:00",
+        "http_status": 200,
+        "sha256": "2c1f9c611ccb5f3a00fc80e3d88d4fdfc4afd1f5ef90cd16f81cf188805b8804"
+      }
+    }
+  ]
+}

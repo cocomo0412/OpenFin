@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.dedabb70df0036ed6cbee3f0",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:54f1c8043ce2235a17a7f2e0",
+  "group": "4",
+  "provider": "에이비엘생명보험",
+  "title": "연금저축나이스플랜연금보험2405",
+  "cells": [
+    "에이비엘생명보험",
+    "연금저축나이스플랜연금보험2405",
+    "금리연동형",
+    "2024/05/10",
+    "중단",
+    "666",
+    "-7.14",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-2.76",
+    "8.180"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=64",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=64",
+    "collected_at": "2026-09-23T08:32:02.491288+00:00",
+    "http_status": 200,
+    "sha256": "70e0718cf750b800317e7dc5129a7720f079941089e7a804f61c40648e11c584"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "에이비엘생명보험",
+        "상품명": "연금저축나이스플랜연금보험2405",
+        "상품유형": "금리연동형",
+        "최초판매일": "2024/05/10",
+        "판매여부": "중단",
+        "적립금총액": "666",
+        "1년 연평균수익률(%)": "-7.14",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-2.76",
+        "연평균수수료율(%)": "8.180"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=64",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=64",
+        "collected_at": "2026-09-23T08:32:02.491288+00:00",
+        "http_status": 200,
+        "sha256": "70e0718cf750b800317e7dc5129a7720f079941089e7a804f61c40648e11c584"
+      }
+    }
+  ]
+}

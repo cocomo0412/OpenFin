@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.0831465939344f55f2ac5ad9",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:cbf47a3f9208c0db629e6a18",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB RISE 글로벌 AI밸류체인 ETF 모아드림 증권 투자신탁(주식-재간접형) C-P",
+  "cells": [
+    "KB자산운용",
+    "KB RISE 글로벌 AI밸류체인 ETF 모아드림 증권 투자신탁(주식-재간접형) C-P",
+    "재간접",
+    "2",
+    "2025/10/29",
+    "판매",
+    "21",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "81.08",
+    "0.272",
+    "KB증권, KB국민은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=309",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=309",
+    "collected_at": "2026-09-23T08:28:44.307083+00:00",
+    "http_status": 200,
+    "sha256": "f6d1f05170430d0f76ac88270e6fe2e88585cec15f0e3ee55dbc06045f4d23ce"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB RISE 글로벌 AI밸류체인 ETF 모아드림 증권 투자신탁(주식-재간접형) C-P",
+        "상품유형": "재간접",
+        "위험등급": "2",
+        "설정일": "2025/10/29",
+        "판매여부": "판매",
+        "순자산총액": "21",
+        "1년 연평균수익률(%)": "-",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "81.08",
+        "연평균수수료율(%)": "0.272",
+        "상품 판매사": "KB증권, KB국민은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=309",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=309",
+        "collected_at": "2026-09-23T08:28:44.307083+00:00",
+        "http_status": 200,
+        "sha256": "f6d1f05170430d0f76ac88270e6fe2e88585cec15f0e3ee55dbc06045f4d23ce"
+      }
+    }
+  ]
+}

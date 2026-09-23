@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.d90a5dfe21e676857fd6b49b",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:f485d50d58688f8082625fec",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자더블라인미국듀얼가치증권자투자신탁H(주식-재간접파생형)(C-P)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자더블라인미국듀얼가치증권자투자신탁H(주식-재간접파생형)(C-P)",
+    "파생상품",
+    "2",
+    "2018/07/17",
+    "판매",
+    "3,438",
+    "4.89",
+    "9.01",
+    "2.53",
+    "7.53",
+    "-",
+    "7.25",
+    "0.920",
+    "한국투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=122",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=122",
+    "collected_at": "2026-09-23T08:24:33.239697+00:00",
+    "http_status": 200,
+    "sha256": "f76b18c55ae533187e67edc0c985cd73859f68e235511b14e72e1adf1150b533"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자더블라인미국듀얼가치증권자투자신탁H(주식-재간접파생형)(C-P)",
+        "상품유형": "파생상품",
+        "위험등급": "2",
+        "설정일": "2018/07/17",
+        "판매여부": "판매",
+        "순자산총액": "3,438",
+        "1년 연평균수익률(%)": "4.89",
+        "3년 연평균수익률(%)": "9.01",
+        "5년 연평균수익률(%)": "2.53",
+        "7년 연평균수익률(%)": "7.53",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "7.25",
+        "연평균수수료율(%)": "0.920",
+        "상품 판매사": "한국투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=122",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=122",
+        "collected_at": "2026-09-23T08:24:33.239697+00:00",
+        "http_status": 200,
+        "sha256": "f76b18c55ae533187e67edc0c985cd73859f68e235511b14e72e1adf1150b533"
+      }
+    }
+  ]
+}

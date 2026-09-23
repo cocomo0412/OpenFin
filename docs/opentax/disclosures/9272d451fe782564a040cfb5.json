@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.ef905ee15c5e5876f3661785",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:4704c9e2c398ee16a2bd096c",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋코어밸류연금저축증권전환형자투자신탁1호(주식)종류S-P",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋코어밸류연금저축증권전환형자투자신탁1호(주식)종류S-P",
+    "주식형",
+    "2",
+    "2014/07/21",
+    "판매",
+    "1,981",
+    "179.54",
+    "49.06",
+    "24.66",
+    "29.30",
+    "18.03",
+    "17.01",
+    "0.926",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=151",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=151",
+    "collected_at": "2026-09-23T08:25:11.153162+00:00",
+    "http_status": 200,
+    "sha256": "f03c8d60356e2e00b5984f58004e17186e3a5ecf19109365225cec45f5f39d39"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋코어밸류연금저축증권전환형자투자신탁1호(주식)종류S-P",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2014/07/21",
+        "판매여부": "판매",
+        "순자산총액": "1,981",
+        "1년 연평균수익률(%)": "179.54",
+        "3년 연평균수익률(%)": "49.06",
+        "5년 연평균수익률(%)": "24.66",
+        "7년 연평균수익률(%)": "29.30",
+        "10년 연평균수익률(%)": "18.03",
+        "누적연평균수익률(%)": "17.01",
+        "연평균수수료율(%)": "0.926",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=151",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=151",
+        "collected_at": "2026-09-23T08:25:11.153162+00:00",
+        "http_status": 200,
+        "sha256": "f03c8d60356e2e00b5984f58004e17186e3a5ecf19109365225cec45f5f39d39"
+      }
+    }
+  ]
+}

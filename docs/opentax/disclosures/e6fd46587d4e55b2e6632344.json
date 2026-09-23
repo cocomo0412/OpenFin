@@ -1,0 +1,49 @@
+{
+  "id": "finance.insurance.klia.disease.흥국생명.l0402460001nnn0247000202440001024400010003024400010003000202440001000300020004l4245",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L0402460001NNN0247000202440001024400010003024400010003000202440001000300020004L4245",
+  "group": "024400010003",
+  "title": "(무)흥국생명 간편한 용종MiniCare보험(315간편심사형)",
+  "provider": "흥국생명",
+  "cells": [
+    "흥국생명",
+    "(무)흥국생명 간편한 용종MiniCare보험(315간편심사형)",
+    "주계약",
+    "위·십이지장,대장 양성신생물(용종포함) 진단급여금 *지급사유 : 피보험자가 보험기간 중 보장개시일 이후에 “위·십이지장, 대장 양성신생물(용종 포함)”로 진단확정 되었을 때(다만,최초 1회에 한함)",
+    "10만원",
+    "12,552 원",
+    "7,843 원",
+    "2.75 %",
+    "-",
+    "-",
+    "99.4 %",
+    "94.7 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "기타",
+    "순수보장",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "대면채널",
+    "2026-03-16",
+    "Download",
+    "보기",
+    "1588-2288"
+  ],
+  "coverage": [
+    "위·십이지장,대장 양성신생물(용종포함) 진단급여금 *지급사유 : 피보험자가 보험기간 중 보장개시일 이후에 “위·십이지장, 대장 양성신생물(용종 포함)”로 진단확정 되었을 때(다만,최초 1회에 한함)"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=44827&seq=1"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010003&pageIndex=2&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010003&pageIndex=2&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:25.471862+00:00",
+    "http_status": 200,
+    "sha256": "92397957b8d9cc1676fad033a2358a7ca1de2f1dfc5a88e636633a61d3ab28ea"
+  }
+}

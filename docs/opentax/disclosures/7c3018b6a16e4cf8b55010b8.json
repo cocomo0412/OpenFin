@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.fd09d47c8e73e7e07f0311f0",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:afdeacb80b7f78b4f6d15726",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자골드플랜네비게이터연금증권전환형투자신탁1호(주식)(S-P)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자골드플랜네비게이터연금증권전환형투자신탁1호(주식)(S-P)",
+    "주식형",
+    "2",
+    "2014/04/22",
+    "판매",
+    "353",
+    "182.03",
+    "51.01",
+    "22.87",
+    "23.61",
+    "16.30",
+    "14.11",
+    "0.830",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=251",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=251",
+    "collected_at": "2026-09-23T08:27:27.005613+00:00",
+    "http_status": 200,
+    "sha256": "cf03aa43aef349b6572ab723e954c73c18074025f3e86e21c6e2d2601548de11"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자골드플랜네비게이터연금증권전환형투자신탁1호(주식)(S-P)",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2014/04/22",
+        "판매여부": "판매",
+        "순자산총액": "353",
+        "1년 연평균수익률(%)": "182.03",
+        "3년 연평균수익률(%)": "51.01",
+        "5년 연평균수익률(%)": "22.87",
+        "7년 연평균수익률(%)": "23.61",
+        "10년 연평균수익률(%)": "16.30",
+        "누적연평균수익률(%)": "14.11",
+        "연평균수수료율(%)": "0.830",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=251",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=251",
+        "collected_at": "2026-09-23T08:27:27.005613+00:00",
+        "http_status": 200,
+        "sha256": "cf03aa43aef349b6572ab723e954c73c18074025f3e86e21c6e2d2601548de11"
+      }
+    }
+  ]
+}

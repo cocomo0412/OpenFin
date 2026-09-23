@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.5776e4d87b28bab52b6c1691",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:8919c496e3e91512ff97e4da",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 연금 중국본토 A주 증권 자투자신탁(주식) S-P 클래스",
+  "cells": [
+    "KB자산운용",
+    "KB 연금 중국본토 A주 증권 자투자신탁(주식) S-P 클래스",
+    "주식형",
+    "3",
+    "2015/08/17",
+    "판매",
+    "4,716",
+    "54.07",
+    "13.18",
+    "0.48",
+    "7.85",
+    "8.14",
+    "6.03",
+    "1.076",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=106",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=106",
+    "collected_at": "2026-09-23T08:24:10.874639+00:00",
+    "http_status": 200,
+    "sha256": "b4fa443d16c48cc74b2dff5532661b0a5550f515ff2a8c2dad3bfeea404a0818"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 연금 중국본토 A주 증권 자투자신탁(주식) S-P 클래스",
+        "상품유형": "주식형",
+        "위험등급": "3",
+        "설정일": "2015/08/17",
+        "판매여부": "판매",
+        "순자산총액": "4,716",
+        "1년 연평균수익률(%)": "54.07",
+        "3년 연평균수익률(%)": "13.18",
+        "5년 연평균수익률(%)": "0.48",
+        "7년 연평균수익률(%)": "7.85",
+        "10년 연평균수익률(%)": "8.14",
+        "누적연평균수익률(%)": "6.03",
+        "연평균수수료율(%)": "1.076",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=106",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=106",
+        "collected_at": "2026-09-23T08:24:10.874639+00:00",
+        "http_status": 200,
+        "sha256": "b4fa443d16c48cc74b2dff5532661b0a5550f515ff2a8c2dad3bfeea404a0818"
+      }
+    }
+  ]
+}

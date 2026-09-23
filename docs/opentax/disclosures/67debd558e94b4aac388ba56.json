@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.6291a89a47fccf94118668eb",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:d64af783b6dcea6ee73d046b",
+  "group": "4",
+  "provider": "교보생명보험",
+  "title": "연금저축베스트라이프연금보험",
+  "cells": [
+    "교보생명보험",
+    "연금저축베스트라이프연금보험",
+    "금리연동형",
+    "2002/01/14",
+    "중단",
+    "18,657",
+    "-5.72",
+    "-0.52",
+    "0.54",
+    "1.15",
+    "1.65",
+    "1.64",
+    "6.180"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=30",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=30",
+    "collected_at": "2026-09-23T08:31:05.138335+00:00",
+    "http_status": 200,
+    "sha256": "2fc8c6efdcc41700adfa7712d5c380528c3b12293db02dcb7476fb7d15ff6d26"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "교보생명보험",
+        "상품명": "연금저축베스트라이프연금보험",
+        "상품유형": "금리연동형",
+        "최초판매일": "2002/01/14",
+        "판매여부": "중단",
+        "적립금총액": "18,657",
+        "1년 연평균수익률(%)": "-5.72",
+        "3년 연평균수익률(%)": "-0.52",
+        "5년 연평균수익률(%)": "0.54",
+        "7년 연평균수익률(%)": "1.15",
+        "10년 연평균수익률(%)": "1.65",
+        "누적연평균수익률(%)": "1.64",
+        "연평균수수료율(%)": "6.180"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=30",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=30",
+        "collected_at": "2026-09-23T08:31:05.138335+00:00",
+        "http_status": 200,
+        "sha256": "2fc8c6efdcc41700adfa7712d5c380528c3b12293db02dcb7476fb7d15ff6d26"
+      }
+    }
+  ]
+}

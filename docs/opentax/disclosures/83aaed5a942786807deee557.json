@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.cb7a3d36461350389f35d0d0",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:15eb7fc4044971583b8ddd16",
+  "group": "3",
+  "provider": "삼성액티브자산운용",
+  "title": "삼성뉴딜코리아증권투자신탁 제1호[주식]_C-P",
+  "cells": [
+    "삼성액티브자산운용",
+    "삼성뉴딜코리아증권투자신탁 제1호[주식]_C-P",
+    "주식형",
+    "2",
+    "2020/11/12",
+    "판매",
+    "531",
+    "106.46",
+    "38.68",
+    "19.83",
+    "-",
+    "-",
+    "21.97",
+    "1.182",
+    "한화투자증권주식회사, SK증권주식회사, 삼성증권, 교보증권(주), 대신증권주식회사, 아이엠증권, NH투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=228",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=228",
+    "collected_at": "2026-09-23T08:26:55.690879+00:00",
+    "http_status": 200,
+    "sha256": "b11542064ecb4f9ee092af26e91a567441ffdb0fbbc15139f6c71135d046c7c1"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성액티브자산운용",
+        "상품명": "삼성뉴딜코리아증권투자신탁 제1호[주식]_C-P",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2020/11/12",
+        "판매여부": "판매",
+        "순자산총액": "531",
+        "1년 연평균수익률(%)": "106.46",
+        "3년 연평균수익률(%)": "38.68",
+        "5년 연평균수익률(%)": "19.83",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "21.97",
+        "연평균수수료율(%)": "1.182",
+        "상품 판매사": "한화투자증권주식회사, SK증권주식회사, 삼성증권, 교보증권(주), 대신증권주식회사, 아이엠증권, NH투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=228",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=228",
+        "collected_at": "2026-09-23T08:26:55.690879+00:00",
+        "http_status": 200,
+        "sha256": "b11542064ecb4f9ee092af26e91a567441ffdb0fbbc15139f6c71135d046c7c1"
+      }
+    }
+  ]
+}

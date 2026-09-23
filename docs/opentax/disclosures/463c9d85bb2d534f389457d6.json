@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.67e429a1c087d5473fe31aa0",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:8162d2f8488694f1aedba485",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 미국 장기국채 플러스 증권 자투자신탁(채권)(UH) C-Pe",
+  "cells": [
+    "KB자산운용",
+    "KB 미국 장기국채 플러스 증권 자투자신탁(채권)(UH) C-Pe",
+    "채권형",
+    "3",
+    "2024/04/05",
+    "판매",
+    "700",
+    "19.37",
+    "-",
+    "-",
+    "-",
+    "-",
+    "7.45",
+    "0.508",
+    "한국투자증권, KB증권, LS증권, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=210",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=210",
+    "collected_at": "2026-09-23T08:26:31.649738+00:00",
+    "http_status": 200,
+    "sha256": "d38575e966344fbbb92920e3db2df19439eec4d489b8c47342901eee76d3d7d5"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 미국 장기국채 플러스 증권 자투자신탁(채권)(UH) C-Pe",
+        "상품유형": "채권형",
+        "위험등급": "3",
+        "설정일": "2024/04/05",
+        "판매여부": "판매",
+        "순자산총액": "700",
+        "1년 연평균수익률(%)": "19.37",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "7.45",
+        "연평균수수료율(%)": "0.508",
+        "상품 판매사": "한국투자증권, KB증권, LS증권, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=210",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=210",
+        "collected_at": "2026-09-23T08:26:31.649738+00:00",
+        "http_status": 200,
+        "sha256": "d38575e966344fbbb92920e3db2df19439eec4d489b8c47342901eee76d3d7d5"
+      }
+    }
+  ]
+}

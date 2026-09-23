@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.8bedeaf083909932c537d428",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:7926467e487f982975f3ed5d",
+  "group": "4",
+  "provider": "아이비케이연금보험",
+  "title": "무배당 연금저축 IBK e-연금보험_1701",
+  "cells": [
+    "아이비케이연금보험",
+    "무배당 연금저축 IBK e-연금보험_1701",
+    "금리연동형",
+    "2017/01/01",
+    "중단",
+    "4,593",
+    "-3.03",
+    "-0.10",
+    "0.42",
+    "0.68",
+    "-",
+    "0.89",
+    "3.887"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=50",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=50",
+    "collected_at": "2026-09-23T08:31:43.115475+00:00",
+    "http_status": 200,
+    "sha256": "5f66a60e402996d14f67c592ee78b8bc1c6d5f25e6127f06c279f9335c2e2ae3"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "아이비케이연금보험",
+        "상품명": "무배당 연금저축 IBK e-연금보험_1701",
+        "상품유형": "금리연동형",
+        "최초판매일": "2017/01/01",
+        "판매여부": "중단",
+        "적립금총액": "4,593",
+        "1년 연평균수익률(%)": "-3.03",
+        "3년 연평균수익률(%)": "-0.10",
+        "5년 연평균수익률(%)": "0.42",
+        "7년 연평균수익률(%)": "0.68",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "0.89",
+        "연평균수수료율(%)": "3.887"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=50",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=50",
+        "collected_at": "2026-09-23T08:31:43.115475+00:00",
+        "http_status": 200,
+        "sha256": "5f66a60e402996d14f67c592ee78b8bc1c6d5f25e6127f06c279f9335c2e2ae3"
+      }
+    }
+  ]
+}

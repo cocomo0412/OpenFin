@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.29ba46d9b6bf3e9ce720f22d",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:d13128ee4b37a7abd85e2c5c",
+  "group": "3",
+  "provider": "NH-Amundi자산운용",
+  "title": "NH-Amundi 성장 중소형주 20 증권자투자신탁[채권혼합]ClassC-P1",
+  "cells": [
+    "NH-Amundi자산운용",
+    "NH-Amundi 성장 중소형주 20 증권자투자신탁[채권혼합]ClassC-P1",
+    "혼합채권형",
+    "5",
+    "2015/11/26",
+    "판매",
+    "188",
+    "10.79",
+    "7.58",
+    "5.02",
+    "5.13",
+    "3.73",
+    "3.60",
+    "0.755",
+    "삼성생명보험주식회사, 우리은행, 대신증권주식회사, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=280",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=280",
+    "collected_at": "2026-09-23T08:28:05.349187+00:00",
+    "http_status": 200,
+    "sha256": "3b24f1ab388aa929f0ee4674402ba2bd76d36e938feca4714184c49fdd97ad90"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "NH-Amundi자산운용",
+        "상품명": "NH-Amundi 성장 중소형주 20 증권자투자신탁[채권혼합]ClassC-P1",
+        "상품유형": "혼합채권형",
+        "위험등급": "5",
+        "설정일": "2015/11/26",
+        "판매여부": "판매",
+        "순자산총액": "188",
+        "1년 연평균수익률(%)": "10.79",
+        "3년 연평균수익률(%)": "7.58",
+        "5년 연평균수익률(%)": "5.02",
+        "7년 연평균수익률(%)": "5.13",
+        "10년 연평균수익률(%)": "3.73",
+        "누적연평균수익률(%)": "3.60",
+        "연평균수수료율(%)": "0.755",
+        "상품 판매사": "삼성생명보험주식회사, 우리은행, 대신증권주식회사, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=280",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=280",
+        "collected_at": "2026-09-23T08:28:05.349187+00:00",
+        "http_status": 200,
+        "sha256": "3b24f1ab388aa929f0ee4674402ba2bd76d36e938feca4714184c49fdd97ad90"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.79401eaf3f9b40ef15c5a897",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:47765249bcf770b43ee36765",
+  "group": "3",
+  "provider": "DB자산운용",
+  "title": "DB글로벌차세대모빌리티증권자투자신탁(H)[주식]_C/C-PE",
+  "cells": [
+    "DB자산운용",
+    "DB글로벌차세대모빌리티증권자투자신탁(H)[주식]_C/C-PE",
+    "주식형",
+    "2",
+    "2018/01/19",
+    "판매",
+    "3,553",
+    "60.24",
+    "23.69",
+    "10.78",
+    "16.57",
+    "-",
+    "11.28",
+    "1.270",
+    "한국투자증권, 우리은행, KB증권, 대신증권주식회사, 아이엠증권, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=120",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=120",
+    "collected_at": "2026-09-23T08:24:30.409190+00:00",
+    "http_status": 200,
+    "sha256": "e577d378d8af2adcc86ac81fcf42b1918a0001f069a3712b668f4661fc015c09"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "DB자산운용",
+        "상품명": "DB글로벌차세대모빌리티증권자투자신탁(H)[주식]_C/C-PE",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2018/01/19",
+        "판매여부": "판매",
+        "순자산총액": "3,553",
+        "1년 연평균수익률(%)": "60.24",
+        "3년 연평균수익률(%)": "23.69",
+        "5년 연평균수익률(%)": "10.78",
+        "7년 연평균수익률(%)": "16.57",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "11.28",
+        "연평균수수료율(%)": "1.270",
+        "상품 판매사": "한국투자증권, 우리은행, KB증권, 대신증권주식회사, 아이엠증권, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=120",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=120",
+        "collected_at": "2026-09-23T08:24:30.409190+00:00",
+        "http_status": 200,
+        "sha256": "e577d378d8af2adcc86ac81fcf42b1918a0001f069a3712b668f4661fc015c09"
+      }
+    }
+  ]
+}

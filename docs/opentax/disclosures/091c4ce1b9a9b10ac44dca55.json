@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.9272d36cc104010a80de44f4",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:80c21118ea623ed9a571f2ef",
+  "group": "3",
+  "provider": "한국투자밸류자산운용",
+  "title": "한국밸류10년투자중소형연금증권자투자신탁(주식)(C-E)",
+  "cells": [
+    "한국투자밸류자산운용",
+    "한국밸류10년투자중소형연금증권자투자신탁(주식)(C-E)",
+    "주식형",
+    "2",
+    "2018/03/29",
+    "판매",
+    "4,020",
+    "244.15",
+    "54.28",
+    "27.03",
+    "28.45",
+    "-",
+    "23.04",
+    "1.099",
+    "디비증권주식회사, 키움증권(주), 유안타증권주식회사, 한국투자증권, KB증권, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=114",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=114",
+    "collected_at": "2026-09-23T08:24:21.338720+00:00",
+    "http_status": 200,
+    "sha256": "92256f447e18438ee5dc235e8908749f2bfd52b8d72a14c1439e0c5d2759fc4a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자밸류자산운용",
+        "상품명": "한국밸류10년투자중소형연금증권자투자신탁(주식)(C-E)",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2018/03/29",
+        "판매여부": "판매",
+        "순자산총액": "4,020",
+        "1년 연평균수익률(%)": "244.15",
+        "3년 연평균수익률(%)": "54.28",
+        "5년 연평균수익률(%)": "27.03",
+        "7년 연평균수익률(%)": "28.45",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "23.04",
+        "연평균수수료율(%)": "1.099",
+        "상품 판매사": "디비증권주식회사, 키움증권(주), 유안타증권주식회사, 한국투자증권, KB증권, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=114",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=114",
+        "collected_at": "2026-09-23T08:24:21.338720+00:00",
+        "http_status": 200,
+        "sha256": "92256f447e18438ee5dc235e8908749f2bfd52b8d72a14c1439e0c5d2759fc4a"
+      }
+    }
+  ]
+}

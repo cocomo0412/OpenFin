@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.04744ad310379ce340d97125",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:fb003dba493d62ad995581e8",
+  "group": "5",
+  "provider": "메리츠화재해상보험",
+  "title": "연금저축손해보험 노후생활지킴이보험1904",
+  "cells": [
+    "메리츠화재해상보험",
+    "연금저축손해보험 노후생활지킴이보험1904",
+    "금리연동형",
+    "2019/04/01",
+    "중단",
+    "11,987",
+    "-5.7",
+    "-1.53",
+    "-0.48",
+    "-0.02",
+    "-",
+    "0.02",
+    "6.617"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=25",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=25",
+    "collected_at": "2026-09-23T08:22:10.846666+00:00",
+    "http_status": 200,
+    "sha256": "bb4dc2a48b25b8ef92ec918fd4a78687d4e25d39f3683560d2f8ff19532556aa"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "메리츠화재해상보험",
+        "상품명": "연금저축손해보험 노후생활지킴이보험1904",
+        "상품유형": "금리연동형",
+        "최초판매일": "2019/04/01",
+        "판매여부": "중단",
+        "적립금총액": "11,987",
+        "1년 연평균수익률(%)": "-5.7",
+        "3년 연평균수익률(%)": "-1.53",
+        "5년 연평균수익률(%)": "-0.48",
+        "7년 연평균수익률(%)": "-0.02",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "0.02",
+        "연평균수수료율(%)": "6.617"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=25",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=25",
+        "collected_at": "2026-09-23T08:22:10.846666+00:00",
+        "http_status": 200,
+        "sha256": "bb4dc2a48b25b8ef92ec918fd4a78687d4e25d39f3683560d2f8ff19532556aa"
+      }
+    }
+  ]
+}

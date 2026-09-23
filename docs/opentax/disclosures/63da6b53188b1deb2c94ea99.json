@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.92de5d7f031e390bb26b9e7c",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:191bb3bfc1a300c64c6220a3",
+  "group": "3",
+  "provider": "피델리티자산운용",
+  "title": "피델리티 연금 아시아 하이일드 증권 전환형 자투자신탁 (채권-재간접형) 종류 S",
+  "cells": [
+    "피델리티자산운용",
+    "피델리티 연금 아시아 하이일드 증권 전환형 자투자신탁 (채권-재간접형) 종류 S",
+    "재간접",
+    "4",
+    "2014/05/15",
+    "판매",
+    "311",
+    "8.02",
+    "6.41",
+    "-5.34",
+    "-3.04",
+    "-0.80",
+    "0.52",
+    "0.319",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=258",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=258",
+    "collected_at": "2026-09-23T08:27:36.234623+00:00",
+    "http_status": 200,
+    "sha256": "d9c37f52f28239a2cf248d2cc691f50d72f5a466a34c70e9a46e667001e42a6a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "피델리티자산운용",
+        "상품명": "피델리티 연금 아시아 하이일드 증권 전환형 자투자신탁 (채권-재간접형) 종류 S",
+        "상품유형": "재간접",
+        "위험등급": "4",
+        "설정일": "2014/05/15",
+        "판매여부": "판매",
+        "순자산총액": "311",
+        "1년 연평균수익률(%)": "8.02",
+        "3년 연평균수익률(%)": "6.41",
+        "5년 연평균수익률(%)": "-5.34",
+        "7년 연평균수익률(%)": "-3.04",
+        "10년 연평균수익률(%)": "-0.80",
+        "누적연평균수익률(%)": "0.52",
+        "연평균수수료율(%)": "0.319",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=258",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=258",
+        "collected_at": "2026-09-23T08:27:36.234623+00:00",
+        "http_status": 200,
+        "sha256": "d9c37f52f28239a2cf248d2cc691f50d72f5a466a34c70e9a46e667001e42a6a"
+      }
+    }
+  ]
+}

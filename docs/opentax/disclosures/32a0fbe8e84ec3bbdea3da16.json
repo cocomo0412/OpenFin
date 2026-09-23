@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.81d0dfb2926f0ee2ec7ed9d6",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:10204fd8b1d5276ed3985ccc",
+  "group": "5",
+  "provider": "KB손해보험",
+  "title": "연금저축손해보험 KB멀티플러스연금보험(19.04)",
+  "cells": [
+    "KB손해보험",
+    "연금저축손해보험 KB멀티플러스연금보험(19.04)",
+    "금리연동형",
+    "2025/04/01",
+    "중단",
+    "4,440",
+    "-2.07",
+    "0.18",
+    "0.91",
+    "1.05",
+    "-",
+    "1.02",
+    "4.56"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=34",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=34",
+    "collected_at": "2026-09-23T08:22:20.470147+00:00",
+    "http_status": 200,
+    "sha256": "3b10e969de0543c34588c4231d840aff91436f510696235b4eab550d81d93013"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB손해보험",
+        "상품명": "연금저축손해보험 KB멀티플러스연금보험(19.04)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2025/04/01",
+        "판매여부": "중단",
+        "적립금총액": "4,440",
+        "1년 연평균수익률(%)": "-2.07",
+        "3년 연평균수익률(%)": "0.18",
+        "5년 연평균수익률(%)": "0.91",
+        "7년 연평균수익률(%)": "1.05",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "1.02",
+        "연평균수수료율(%)": "4.56"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=34",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=34",
+        "collected_at": "2026-09-23T08:22:20.470147+00:00",
+        "http_status": 200,
+        "sha256": "3b10e969de0543c34588c4231d840aff91436f510696235b4eab550d81d93013"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.ea1da76192294412bfd619ab",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:3bbab3d7653be7c1997f58b1",
+  "group": "3",
+  "provider": "NH-Amundi자산운용",
+  "title": "NH-Amundi 4차산업혁명30 증권투자신탁[채권혼합]Class C-P1e(연금저축)",
+  "cells": [
+    "NH-Amundi자산운용",
+    "NH-Amundi 4차산업혁명30 증권투자신탁[채권혼합]Class C-P1e(연금저축)",
+    "혼합채권형",
+    "4",
+    "2017/08/09",
+    "판매",
+    "1,997",
+    "39.11",
+    "17.68",
+    "9.18",
+    "9.40",
+    "-",
+    "7.64",
+    "0.582",
+    "NH농협은행, 한국투자증권, 아이엠증권, NH투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=151",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=151",
+    "collected_at": "2026-09-23T08:25:11.153162+00:00",
+    "http_status": 200,
+    "sha256": "f03c8d60356e2e00b5984f58004e17186e3a5ecf19109365225cec45f5f39d39"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "NH-Amundi자산운용",
+        "상품명": "NH-Amundi 4차산업혁명30 증권투자신탁[채권혼합]Class C-P1e(연금저축)",
+        "상품유형": "혼합채권형",
+        "위험등급": "4",
+        "설정일": "2017/08/09",
+        "판매여부": "판매",
+        "순자산총액": "1,997",
+        "1년 연평균수익률(%)": "39.11",
+        "3년 연평균수익률(%)": "17.68",
+        "5년 연평균수익률(%)": "9.18",
+        "7년 연평균수익률(%)": "9.40",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "7.64",
+        "연평균수수료율(%)": "0.582",
+        "상품 판매사": "NH농협은행, 한국투자증권, 아이엠증권, NH투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=151",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=151",
+        "collected_at": "2026-09-23T08:25:11.153162+00:00",
+        "http_status": 200,
+        "sha256": "f03c8d60356e2e00b5984f58004e17186e3a5ecf19109365225cec45f5f39d39"
+      }
+    }
+  ]
+}

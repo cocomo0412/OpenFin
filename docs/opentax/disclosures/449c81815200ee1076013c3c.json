@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.783d9bdfbc72421f106b58c2",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:b6005790b81b9f4a7f6d3e0d",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋연금증권투자신탁1호(채권혼합)",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋연금증권투자신탁1호(채권혼합)",
+    "혼합채권형",
+    "5",
+    "2003/01/21",
+    "판매",
+    "22,962",
+    "35.53",
+    "14.78",
+    "7.59",
+    "7.33",
+    "5.33",
+    "5.16",
+    "1.202",
+    "전북은행, 광주은행, 교보증권(주), 대신증권주식회사, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=44",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=44",
+    "collected_at": "2026-09-23T08:22:46.344574+00:00",
+    "http_status": 200,
+    "sha256": "f6a90cb8ed5b5b7b79ac4267bd15d4dc72dd49913552c852ffdb082f34d53540"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋연금증권투자신탁1호(채권혼합)",
+        "상품유형": "혼합채권형",
+        "위험등급": "5",
+        "설정일": "2003/01/21",
+        "판매여부": "판매",
+        "순자산총액": "22,962",
+        "1년 연평균수익률(%)": "35.53",
+        "3년 연평균수익률(%)": "14.78",
+        "5년 연평균수익률(%)": "7.59",
+        "7년 연평균수익률(%)": "7.33",
+        "10년 연평균수익률(%)": "5.33",
+        "누적연평균수익률(%)": "5.16",
+        "연평균수수료율(%)": "1.202",
+        "상품 판매사": "전북은행, 광주은행, 교보증권(주), 대신증권주식회사, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=44",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=44",
+        "collected_at": "2026-09-23T08:22:46.344574+00:00",
+        "http_status": 200,
+        "sha256": "f6a90cb8ed5b5b7b79ac4267bd15d4dc72dd49913552c852ffdb082f34d53540"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.f1db686f1896d772d94f7922",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:c7965c28aff999741956b426",
+  "group": "3",
+  "provider": "브이아이자산운용",
+  "title": "브이아이 실적 포커스 30 증권 투자신탁 1호[채권혼합] C-P2",
+  "cells": [
+    "브이아이자산운용",
+    "브이아이 실적 포커스 30 증권 투자신탁 1호[채권혼합] C-P2",
+    "혼합채권형",
+    "5",
+    "2015/03/09",
+    "판매",
+    "3,562",
+    "30.75",
+    "14.70",
+    "8.42",
+    "9.35",
+    "6.25",
+    "5.40",
+    "1.158",
+    "(주)우리투자증권, 삼성생명보험주식회사, 한국투자증권, 우리은행, IBK기업은행, 아이엠증권, 신한은행, KB국민은행, 미래에셋증권 주식회사, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=120",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=120",
+    "collected_at": "2026-09-23T08:24:30.409190+00:00",
+    "http_status": 200,
+    "sha256": "e577d378d8af2adcc86ac81fcf42b1918a0001f069a3712b668f4661fc015c09"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "브이아이자산운용",
+        "상품명": "브이아이 실적 포커스 30 증권 투자신탁 1호[채권혼합] C-P2",
+        "상품유형": "혼합채권형",
+        "위험등급": "5",
+        "설정일": "2015/03/09",
+        "판매여부": "판매",
+        "순자산총액": "3,562",
+        "1년 연평균수익률(%)": "30.75",
+        "3년 연평균수익률(%)": "14.70",
+        "5년 연평균수익률(%)": "8.42",
+        "7년 연평균수익률(%)": "9.35",
+        "10년 연평균수익률(%)": "6.25",
+        "누적연평균수익률(%)": "5.40",
+        "연평균수수료율(%)": "1.158",
+        "상품 판매사": "(주)우리투자증권, 삼성생명보험주식회사, 한국투자증권, 우리은행, IBK기업은행, 아이엠증권, 신한은행, KB국민은행, 미래에셋증권 주식회사, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=120",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=120",
+        "collected_at": "2026-09-23T08:24:30.409190+00:00",
+        "http_status": 200,
+        "sha256": "e577d378d8af2adcc86ac81fcf42b1918a0001f069a3712b668f4661fc015c09"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.715f113edb82ef682ec773c5",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:8efe19890abef2060fd001c7",
+  "group": "3",
+  "provider": "유리자산운용",
+  "title": "유리필라델피아반도체인덱스증권자투자신탁H[주식]_Class S-P",
+  "cells": [
+    "유리자산운용",
+    "유리필라델피아반도체인덱스증권자투자신탁H[주식]_Class S-P",
+    "주식형",
+    "1",
+    "2020/02/13",
+    "판매",
+    "4,124",
+    "128.40",
+    "46.69",
+    "27.84",
+    "-",
+    "-",
+    "30.04",
+    "0.746",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=113",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=113",
+    "collected_at": "2026-09-23T08:24:20.121325+00:00",
+    "http_status": 200,
+    "sha256": "2a60e82fb31bb3ea2b77e9c9809c485d0df4813c726428c5d7ac193b6aeb89a6"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "유리자산운용",
+        "상품명": "유리필라델피아반도체인덱스증권자투자신탁H[주식]_Class S-P",
+        "상품유형": "주식형",
+        "위험등급": "1",
+        "설정일": "2020/02/13",
+        "판매여부": "판매",
+        "순자산총액": "4,124",
+        "1년 연평균수익률(%)": "128.40",
+        "3년 연평균수익률(%)": "46.69",
+        "5년 연평균수익률(%)": "27.84",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "30.04",
+        "연평균수수료율(%)": "0.746",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=113",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=113",
+        "collected_at": "2026-09-23T08:24:20.121325+00:00",
+        "http_status": 200,
+        "sha256": "2a60e82fb31bb3ea2b77e9c9809c485d0df4813c726428c5d7ac193b6aeb89a6"
+      }
+    }
+  ]
+}

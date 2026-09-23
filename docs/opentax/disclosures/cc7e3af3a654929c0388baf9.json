@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.750f2f1165b087d17267e03c",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:c1ae3932955b6d0fd4935f46",
+  "group": "3",
+  "provider": "교보악사자산운용",
+  "title": "교보악사삼성전자투게더증권투자신탁[채권혼합]ClassC-P(연금)",
+  "cells": [
+    "교보악사자산운용",
+    "교보악사삼성전자투게더증권투자신탁[채권혼합]ClassC-P(연금)",
+    "혼합채권형",
+    "3",
+    "2020/05/22",
+    "판매",
+    "3,430",
+    "88.82",
+    "22.32",
+    "11.82",
+    "-",
+    "-",
+    "13.32",
+    "0.632",
+    "한화투자증권주식회사, 한국투자증권, 교보증권(주), KB증권, KB국민은행, 하나은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=122",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=122",
+    "collected_at": "2026-09-23T08:24:33.239697+00:00",
+    "http_status": 200,
+    "sha256": "f76b18c55ae533187e67edc0c985cd73859f68e235511b14e72e1adf1150b533"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "교보악사자산운용",
+        "상품명": "교보악사삼성전자투게더증권투자신탁[채권혼합]ClassC-P(연금)",
+        "상품유형": "혼합채권형",
+        "위험등급": "3",
+        "설정일": "2020/05/22",
+        "판매여부": "판매",
+        "순자산총액": "3,430",
+        "1년 연평균수익률(%)": "88.82",
+        "3년 연평균수익률(%)": "22.32",
+        "5년 연평균수익률(%)": "11.82",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "13.32",
+        "연평균수수료율(%)": "0.632",
+        "상품 판매사": "한화투자증권주식회사, 한국투자증권, 교보증권(주), KB증권, KB국민은행, 하나은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=122",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=122",
+        "collected_at": "2026-09-23T08:24:33.239697+00:00",
+        "http_status": 200,
+        "sha256": "f76b18c55ae533187e67edc0c985cd73859f68e235511b14e72e1adf1150b533"
+      }
+    }
+  ]
+}

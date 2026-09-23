@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.e6e70adeab4a3c127a6af6ca",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:e5cdf9cae9d2ee8f5a17085d",
+  "group": "3",
+  "provider": "현대자산운용",
+  "title": "현대클린개인MMF1호종류C-P1",
+  "cells": [
+    "현대자산운용",
+    "현대클린개인MMF1호종류C-P1",
+    "단기금융",
+    "6",
+    "2013/05/22",
+    "판매",
+    "2,790",
+    "2.38",
+    "3.04",
+    "2.72",
+    "2.23",
+    "1.96",
+    "2.17",
+    "0.386",
+    "유진투자증권주식회사, KB증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=132",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=132",
+    "collected_at": "2026-09-23T08:24:46.357858+00:00",
+    "http_status": 200,
+    "sha256": "5bf2ab85c21b8913bb535200691c887f572001b8128f128087db41027aa6fc07"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "현대자산운용",
+        "상품명": "현대클린개인MMF1호종류C-P1",
+        "상품유형": "단기금융",
+        "위험등급": "6",
+        "설정일": "2013/05/22",
+        "판매여부": "판매",
+        "순자산총액": "2,790",
+        "1년 연평균수익률(%)": "2.38",
+        "3년 연평균수익률(%)": "3.04",
+        "5년 연평균수익률(%)": "2.72",
+        "7년 연평균수익률(%)": "2.23",
+        "10년 연평균수익률(%)": "1.96",
+        "누적연평균수익률(%)": "2.17",
+        "연평균수수료율(%)": "0.386",
+        "상품 판매사": "유진투자증권주식회사, KB증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=132",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=132",
+        "collected_at": "2026-09-23T08:24:46.357858+00:00",
+        "http_status": 200,
+        "sha256": "5bf2ab85c21b8913bb535200691c887f572001b8128f128087db41027aa6fc07"
+      }
+    }
+  ]
+}

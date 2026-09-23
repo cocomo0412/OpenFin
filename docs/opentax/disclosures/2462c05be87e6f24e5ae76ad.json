@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.93e3d31ef7ac37319fa95071",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:9d73d9d2b9313e68fd6bb7cb",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 밸류 포커스 30 증권 자투자신탁(채권혼합)S-P 클래스",
+  "cells": [
+    "KB자산운용",
+    "KB 밸류 포커스 30 증권 자투자신탁(채권혼합)S-P 클래스",
+    "혼합채권형",
+    "4",
+    "2014/04/23",
+    "판매",
+    "237",
+    "28.07",
+    "15.02",
+    "7.15",
+    "6.75",
+    "5.08",
+    "5.00",
+    "0.588",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=272",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=272",
+    "collected_at": "2026-09-23T08:27:54.772209+00:00",
+    "http_status": 200,
+    "sha256": "610045407a77b660c9899c76608fd7df1df1638ae78ae0cea8e14ba214f21c64"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 밸류 포커스 30 증권 자투자신탁(채권혼합)S-P 클래스",
+        "상품유형": "혼합채권형",
+        "위험등급": "4",
+        "설정일": "2014/04/23",
+        "판매여부": "판매",
+        "순자산총액": "237",
+        "1년 연평균수익률(%)": "28.07",
+        "3년 연평균수익률(%)": "15.02",
+        "5년 연평균수익률(%)": "7.15",
+        "7년 연평균수익률(%)": "6.75",
+        "10년 연평균수익률(%)": "5.08",
+        "누적연평균수익률(%)": "5.00",
+        "연평균수수료율(%)": "0.588",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=272",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=272",
+        "collected_at": "2026-09-23T08:27:54.772209+00:00",
+        "http_status": 200,
+        "sha256": "610045407a77b660c9899c76608fd7df1df1638ae78ae0cea8e14ba214f21c64"
+      }
+    }
+  ]
+}

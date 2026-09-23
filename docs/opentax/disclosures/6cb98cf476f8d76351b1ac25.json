@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.d913be0a73ab834bf5a35252",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:c95d23c547157ee825b28f91",
+  "group": "4",
+  "provider": "아이비케이연금보험",
+  "title": "무배당 연금저축 IBK e-연금보험_1704",
+  "cells": [
+    "아이비케이연금보험",
+    "무배당 연금저축 IBK e-연금보험_1704",
+    "금리연동형",
+    "2017/04/01",
+    "중단",
+    "9,631",
+    "-3.02",
+    "-0.10",
+    "0.41",
+    "0.68",
+    "-",
+    "0.87",
+    "3.927"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=38",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=38",
+    "collected_at": "2026-09-23T08:31:22.401706+00:00",
+    "http_status": 200,
+    "sha256": "2513e7080b06f9ee64913f188e7a110b97a54abcc17e553c017f6dd1961bef57"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "아이비케이연금보험",
+        "상품명": "무배당 연금저축 IBK e-연금보험_1704",
+        "상품유형": "금리연동형",
+        "최초판매일": "2017/04/01",
+        "판매여부": "중단",
+        "적립금총액": "9,631",
+        "1년 연평균수익률(%)": "-3.02",
+        "3년 연평균수익률(%)": "-0.10",
+        "5년 연평균수익률(%)": "0.41",
+        "7년 연평균수익률(%)": "0.68",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "0.87",
+        "연평균수수료율(%)": "3.927"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=38",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=38",
+        "collected_at": "2026-09-23T08:31:22.401706+00:00",
+        "http_status": 200,
+        "sha256": "2513e7080b06f9ee64913f188e7a110b97a54abcc17e553c017f6dd1961bef57"
+      }
+    }
+  ]
+}

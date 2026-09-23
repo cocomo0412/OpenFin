@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.da01c55a615e7ae9e6635266",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:a643b10f5951bd299ff27da3",
+  "group": "3",
+  "provider": "현대자산운용",
+  "title": "현대머니마켓플렉스증권자투자신탁1호[채권] 종류C-Pe",
+  "cells": [
+    "현대자산운용",
+    "현대머니마켓플렉스증권자투자신탁1호[채권] 종류C-Pe",
+    "채권형",
+    "6",
+    "2020/05/28",
+    "판매",
+    "245",
+    "2.56",
+    "3.50",
+    "3.23",
+    "-",
+    "-",
+    "2.85",
+    "0.197",
+    "(주)우리투자증권, 한국투자증권, IBK투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=269",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=269",
+    "collected_at": "2026-09-23T08:27:50.980143+00:00",
+    "http_status": 200,
+    "sha256": "cb10bdf6d31b541520b90234425b9667b1770d743d20c864d86478b3059afc15"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "현대자산운용",
+        "상품명": "현대머니마켓플렉스증권자투자신탁1호[채권] 종류C-Pe",
+        "상품유형": "채권형",
+        "위험등급": "6",
+        "설정일": "2020/05/28",
+        "판매여부": "판매",
+        "순자산총액": "245",
+        "1년 연평균수익률(%)": "2.56",
+        "3년 연평균수익률(%)": "3.50",
+        "5년 연평균수익률(%)": "3.23",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "2.85",
+        "연평균수수료율(%)": "0.197",
+        "상품 판매사": "(주)우리투자증권, 한국투자증권, IBK투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=269",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=269",
+        "collected_at": "2026-09-23T08:27:50.980143+00:00",
+        "http_status": 200,
+        "sha256": "cb10bdf6d31b541520b90234425b9667b1770d743d20c864d86478b3059afc15"
+      }
+    }
+  ]
+}

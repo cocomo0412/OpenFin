@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.47f10821ee13d295fd78616f",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:ccb592d193286c3630229818",
+  "group": "5",
+  "provider": "메리츠화재해상보험",
+  "title": "연금저축손해보험 메리츠 연금보험2501",
+  "cells": [
+    "메리츠화재해상보험",
+    "연금저축손해보험 메리츠 연금보험2501",
+    "금리연동형",
+    "2025/01/01",
+    "중단",
+    "390",
+    "-3.49",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-2.05",
+    "4.549"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=43",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=43",
+    "collected_at": "2026-09-23T08:31:17.220606+00:00",
+    "http_status": 200,
+    "sha256": "130edd6d4787782caad72e3bfd67e3f0ac5227b686720aca015aed0f042b542f"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "메리츠화재해상보험",
+        "상품명": "연금저축손해보험 메리츠 연금보험2501",
+        "상품유형": "금리연동형",
+        "최초판매일": "2025/01/01",
+        "판매여부": "중단",
+        "적립금총액": "390",
+        "1년 연평균수익률(%)": "-3.49",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-2.05",
+        "연평균수수료율(%)": "4.549"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=43",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=43",
+        "collected_at": "2026-09-23T08:31:17.220606+00:00",
+        "http_status": 200,
+        "sha256": "130edd6d4787782caad72e3bfd67e3f0ac5227b686720aca015aed0f042b542f"
+      }
+    }
+  ]
+}

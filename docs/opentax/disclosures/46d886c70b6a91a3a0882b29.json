@@ -1,0 +1,51 @@
+{
+  "id": "finance.insurance.klia.whole-life.db생명.l7102460001ny0000024700010244000102440001000102440001000100020244000100010002000124d19",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L7102460001NY0000024700010244000102440001000102440001000100020244000100010002000124D19",
+  "group": "024400010001",
+  "title": "(무)10년 더 드림 플러스 유니버셜 간편종신보험(보증비용부과형)(2404)(1종: 해약환급금 보증형, 3형: 체증형)",
+  "provider": "DB생명",
+  "cells": [
+    "DB생명",
+    "(무)10년 더 드림 플러스 유니버셜 간편종신보험(보증비용부과형)(2404)(1종: 해약환급금 보증형, 3형: 체증형)",
+    "주계약",
+    "사망보험금 *지급사유 : 피보험자가 보험기간 중 사망하였을 때",
+    "10,000만원",
+    "441,800 원",
+    "412,700 원",
+    "-",
+    "2.05 %",
+    "1.0 1.0",
+    "106.4 %",
+    "108.2 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "체증형",
+    "일반",
+    "보증 *보증비용 산출기준 : 매년 계약자적립금의 0.1%(매월 계약자적립금의 0.008333333%)",
+    "보증 *보증비용 산출기준 : 매년 계약자 적립금의 0.3%(매월 계약자적립금의 0.025%) + 납입기간 중 기본보험료의 2%",
+    "-",
+    "-",
+    "유니버셜",
+    "대면채널",
+    "2026-08-01",
+    "Download",
+    "보기",
+    "1588-3131"
+  ],
+  "coverage": [
+    "사망보험금 *지급사유 : 피보험자가 보험기간 중 사망하였을 때"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=38470&seq=7"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=9&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=9&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:29.799201+00:00",
+    "http_status": 200,
+    "sha256": "17bd8a6d58473cc0f4cf50d984066a2980961e0b76c4fe9cdd4e71f20d14327f"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.a01932b6911c3433d9eb3726",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:7ee4b15d3827990df5904fc5",
+  "group": "3",
+  "provider": "현대인베스트먼트자산운용",
+  "title": "현대인베스트먼트공모주하이일드증권투자신탁1호(채권혼합)C-P1",
+  "cells": [
+    "현대인베스트먼트자산운용",
+    "현대인베스트먼트공모주하이일드증권투자신탁1호(채권혼합)C-P1",
+    "혼합채권형",
+    "5",
+    "2018/10/19",
+    "판매",
+    "929",
+    "6.12",
+    "6.97",
+    "4.68",
+    "5.01",
+    "-",
+    "5.00",
+    "1.348",
+    "한국투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=193",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=193",
+    "collected_at": "2026-09-23T08:26:08.167587+00:00",
+    "http_status": 200,
+    "sha256": "8b98862554aea6e54c3636c7423a61a9aeb240b7c24fe1ca455e2d77e77b24cd"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "현대인베스트먼트자산운용",
+        "상품명": "현대인베스트먼트공모주하이일드증권투자신탁1호(채권혼합)C-P1",
+        "상품유형": "혼합채권형",
+        "위험등급": "5",
+        "설정일": "2018/10/19",
+        "판매여부": "판매",
+        "순자산총액": "929",
+        "1년 연평균수익률(%)": "6.12",
+        "3년 연평균수익률(%)": "6.97",
+        "5년 연평균수익률(%)": "4.68",
+        "7년 연평균수익률(%)": "5.01",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "5.00",
+        "연평균수수료율(%)": "1.348",
+        "상품 판매사": "한국투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=193",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=193",
+        "collected_at": "2026-09-23T08:26:08.167587+00:00",
+        "http_status": 200,
+        "sha256": "8b98862554aea6e54c3636c7423a61a9aeb240b7c24fe1ca455e2d77e77b24cd"
+      }
+    }
+  ]
+}

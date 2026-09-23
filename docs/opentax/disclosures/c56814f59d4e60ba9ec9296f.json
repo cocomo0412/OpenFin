@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.42d0761f41c002b9c0604d1f",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:b3effe6d34d053784316123b",
+  "group": "3",
+  "provider": "한국투자밸류자산운용",
+  "title": "한국밸류 글로벌배당인컴증권자투자신탁(주식)(C-Pe)",
+  "cells": [
+    "한국투자밸류자산운용",
+    "한국밸류 글로벌배당인컴증권자투자신탁(주식)(C-Pe)",
+    "주식형",
+    "4",
+    "2019/12/05",
+    "판매",
+    "3,043",
+    "27.96",
+    "18.03",
+    "14.36",
+    "-",
+    "-",
+    "15.61",
+    "1.308",
+    "디비증권주식회사, 유진투자증권주식회사, 키움증권(주), 광주은행, 한국투자증권, 삼성증권, 미래에셋증권 주식회사, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=128",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=128",
+    "collected_at": "2026-09-23T08:24:41.107044+00:00",
+    "http_status": 200,
+    "sha256": "b3f825c052b64f42b289c67ead089c1870365c9b797bde179b578584a072c2e8"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자밸류자산운용",
+        "상품명": "한국밸류 글로벌배당인컴증권자투자신탁(주식)(C-Pe)",
+        "상품유형": "주식형",
+        "위험등급": "4",
+        "설정일": "2019/12/05",
+        "판매여부": "판매",
+        "순자산총액": "3,043",
+        "1년 연평균수익률(%)": "27.96",
+        "3년 연평균수익률(%)": "18.03",
+        "5년 연평균수익률(%)": "14.36",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "15.61",
+        "연평균수수료율(%)": "1.308",
+        "상품 판매사": "디비증권주식회사, 유진투자증권주식회사, 키움증권(주), 광주은행, 한국투자증권, 삼성증권, 미래에셋증권 주식회사, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=128",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=128",
+        "collected_at": "2026-09-23T08:24:41.107044+00:00",
+        "http_status": 200,
+        "sha256": "b3f825c052b64f42b289c67ead089c1870365c9b797bde179b578584a072c2e8"
+      }
+    }
+  ]
+}

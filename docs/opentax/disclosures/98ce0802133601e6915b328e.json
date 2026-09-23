@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.4e0b17e56b3c4a491256740b",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:85de51d73ec1dc5aaf3b00ff",
+  "group": "3",
+  "provider": "현대자산운용",
+  "title": "현대연금저축증권전환형자투자신탁1호(주식)종류A",
+  "cells": [
+    "현대자산운용",
+    "현대연금저축증권전환형자투자신탁1호(주식)종류A",
+    "주식형",
+    "2",
+    "2009/07/09",
+    "판매",
+    "192",
+    "1.15",
+    "-7.84",
+    "-6.47",
+    "0.69",
+    "0.14",
+    "1.92",
+    "0.990",
+    "KB증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=279",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=279",
+    "collected_at": "2026-09-23T08:28:04.164649+00:00",
+    "http_status": 200,
+    "sha256": "bd2009d8576c60ea73a66608fa82856517262342b9e8e068b4dd2100e6b44df1"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "현대자산운용",
+        "상품명": "현대연금저축증권전환형자투자신탁1호(주식)종류A",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2009/07/09",
+        "판매여부": "판매",
+        "순자산총액": "192",
+        "1년 연평균수익률(%)": "1.15",
+        "3년 연평균수익률(%)": "-7.84",
+        "5년 연평균수익률(%)": "-6.47",
+        "7년 연평균수익률(%)": "0.69",
+        "10년 연평균수익률(%)": "0.14",
+        "누적연평균수익률(%)": "1.92",
+        "연평균수수료율(%)": "0.990",
+        "상품 판매사": "KB증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=279",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=279",
+        "collected_at": "2026-09-23T08:28:04.164649+00:00",
+        "http_status": 200,
+        "sha256": "bd2009d8576c60ea73a66608fa82856517262342b9e8e068b4dd2100e6b44df1"
+      }
+    }
+  ]
+}

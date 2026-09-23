@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.1fac73347951169381ac0a57",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:7f27d9925e65b3e13f8a160e",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자SSGA글로벌저변동성증권자투자신탁H(주식)(C-P)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자SSGA글로벌저변동성증권자투자신탁H(주식)(C-P)",
+    "주식형",
+    "4",
+    "2017/02/13",
+    "판매",
+    "4,895",
+    "9.01",
+    "9.77",
+    "6.37",
+    "5.43",
+    "-",
+    "6.07",
+    "1.298",
+    "한국투자증권, KB증권, KB국민은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=104",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=104",
+    "collected_at": "2026-09-23T08:24:08.039064+00:00",
+    "http_status": 200,
+    "sha256": "b37f2b5f4343509756902b01eb9603435cea6cb320fccf91c988b913c3e042fc"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자SSGA글로벌저변동성증권자투자신탁H(주식)(C-P)",
+        "상품유형": "주식형",
+        "위험등급": "4",
+        "설정일": "2017/02/13",
+        "판매여부": "판매",
+        "순자산총액": "4,895",
+        "1년 연평균수익률(%)": "9.01",
+        "3년 연평균수익률(%)": "9.77",
+        "5년 연평균수익률(%)": "6.37",
+        "7년 연평균수익률(%)": "5.43",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "6.07",
+        "연평균수수료율(%)": "1.298",
+        "상품 판매사": "한국투자증권, KB증권, KB국민은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=104",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=104",
+        "collected_at": "2026-09-23T08:24:08.039064+00:00",
+        "http_status": 200,
+        "sha256": "b37f2b5f4343509756902b01eb9603435cea6cb320fccf91c988b913c3e042fc"
+      }
+    }
+  ]
+}

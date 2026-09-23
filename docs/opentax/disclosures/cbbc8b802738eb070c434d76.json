@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.3483b9f73fa7fcd5d793918a",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:c4af0c80b2ae123426433640",
+  "group": "3",
+  "provider": "카디안자산운용",
+  "title": "카디안 미국 뱅크론 특별자산자투자신탁(H)[대출채권-재간접형] 클래스S-P2(연금저축)",
+  "cells": [
+    "카디안자산운용",
+    "카디안 미국 뱅크론 특별자산자투자신탁(H)[대출채권-재간접형] 클래스S-P2(연금저축)",
+    "특별자산",
+    "5",
+    "2016/03/16",
+    "판매",
+    "263",
+    "2.43",
+    "4.50",
+    "2.88",
+    "1.75",
+    "1.90",
+    "2.04",
+    "0.587",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=266",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=266",
+    "collected_at": "2026-09-23T08:27:46.922727+00:00",
+    "http_status": 200,
+    "sha256": "272e92da4b65fc0ca66764ad73a0973de522d21cffb251144ba74f9628775e89"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "카디안자산운용",
+        "상품명": "카디안 미국 뱅크론 특별자산자투자신탁(H)[대출채권-재간접형] 클래스S-P2(연금저축)",
+        "상품유형": "특별자산",
+        "위험등급": "5",
+        "설정일": "2016/03/16",
+        "판매여부": "판매",
+        "순자산총액": "263",
+        "1년 연평균수익률(%)": "2.43",
+        "3년 연평균수익률(%)": "4.50",
+        "5년 연평균수익률(%)": "2.88",
+        "7년 연평균수익률(%)": "1.75",
+        "10년 연평균수익률(%)": "1.90",
+        "누적연평균수익률(%)": "2.04",
+        "연평균수수료율(%)": "0.587",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=266",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=266",
+        "collected_at": "2026-09-23T08:27:46.922727+00:00",
+        "http_status": 200,
+        "sha256": "272e92da4b65fc0ca66764ad73a0973de522d21cffb251144ba74f9628775e89"
+      }
+    }
+  ]
+}

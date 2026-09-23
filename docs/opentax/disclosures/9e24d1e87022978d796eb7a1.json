@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.f4a650589fe9b0caa4e25a51",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:9e8772c3fc559dd5894d85a7",
+  "group": "3",
+  "provider": "다올자산운용",
+  "title": "다올블록딜공모주하이일드증권투자신탁[채권혼합] 종류C-Pe",
+  "cells": [
+    "다올자산운용",
+    "다올블록딜공모주하이일드증권투자신탁[채권혼합] 종류C-Pe",
+    "혼합채권형",
+    "5",
+    "2018/04/02",
+    "판매",
+    "5,858",
+    "2.89",
+    "5.05",
+    "3.85",
+    "4.12",
+    "-",
+    "3.97",
+    "0.780",
+    "유진투자증권주식회사, (주)우리투자증권, 키움증권(주), 유안타증권주식회사, 한국투자증권, 삼성증권, 대신증권주식회사, 아이엠증권, KB국민은행, 미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=98",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=98",
+    "collected_at": "2026-09-23T08:23:59.905147+00:00",
+    "http_status": 200,
+    "sha256": "d8a848a8181c94633972ab5018c8ab6160ccd76058ca7e7b4354a3f7b1af1a82"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "다올자산운용",
+        "상품명": "다올블록딜공모주하이일드증권투자신탁[채권혼합] 종류C-Pe",
+        "상품유형": "혼합채권형",
+        "위험등급": "5",
+        "설정일": "2018/04/02",
+        "판매여부": "판매",
+        "순자산총액": "5,858",
+        "1년 연평균수익률(%)": "2.89",
+        "3년 연평균수익률(%)": "5.05",
+        "5년 연평균수익률(%)": "3.85",
+        "7년 연평균수익률(%)": "4.12",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "3.97",
+        "연평균수수료율(%)": "0.780",
+        "상품 판매사": "유진투자증권주식회사, (주)우리투자증권, 키움증권(주), 유안타증권주식회사, 한국투자증권, 삼성증권, 대신증권주식회사, 아이엠증권, KB국민은행, 미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=98",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=98",
+        "collected_at": "2026-09-23T08:23:59.905147+00:00",
+        "http_status": 200,
+        "sha256": "d8a848a8181c94633972ab5018c8ab6160ccd76058ca7e7b4354a3f7b1af1a82"
+      }
+    }
+  ]
+}

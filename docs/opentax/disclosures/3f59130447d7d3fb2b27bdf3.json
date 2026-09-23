@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.b5bba5ecccf3af5b5ef98aa8",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:1c06e51d0c3fa84a4cd14def",
+  "group": "3",
+  "provider": "KCGI자산운용",
+  "title": "KCGI샐러리맨증권자투자신탁[주식-재간접형]종류C-Pe",
+  "cells": [
+    "KCGI자산운용",
+    "KCGI샐러리맨증권자투자신탁[주식-재간접형]종류C-Pe",
+    "재간접",
+    "3",
+    "2018/03/28",
+    "판매",
+    "483,078",
+    "70.17",
+    "29.39",
+    "15.45",
+    "16.83",
+    "-",
+    "13.91",
+    "0.792",
+    "(주)우리투자증권, 키움증권(주), 미래에셋증권 주식회사, KCGI자산운용"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=3",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=3",
+    "collected_at": "2026-09-23T08:21:45.265392+00:00",
+    "http_status": 200,
+    "sha256": "4cdf05cca18523a3ddb5bb543802d39bcddd6fa31e4b462a04e3624b136eeb94"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KCGI자산운용",
+        "상품명": "KCGI샐러리맨증권자투자신탁[주식-재간접형]종류C-Pe",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2018/03/28",
+        "판매여부": "판매",
+        "순자산총액": "483,078",
+        "1년 연평균수익률(%)": "70.17",
+        "3년 연평균수익률(%)": "29.39",
+        "5년 연평균수익률(%)": "15.45",
+        "7년 연평균수익률(%)": "16.83",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "13.91",
+        "연평균수수료율(%)": "0.792",
+        "상품 판매사": "(주)우리투자증권, 키움증권(주), 미래에셋증권 주식회사, KCGI자산운용"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=3",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=3",
+        "collected_at": "2026-09-23T08:21:45.265392+00:00",
+        "http_status": 200,
+        "sha256": "4cdf05cca18523a3ddb5bb543802d39bcddd6fa31e4b462a04e3624b136eeb94"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.00832fea2e1f2b5d2730bfd2",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:077c757af4751913e059da95",
+  "group": "5",
+  "provider": "현대해상화재보험",
+  "title": "연금저축손해보험노후웰스보험(Hi2004)",
+  "cells": [
+    "현대해상화재보험",
+    "연금저축손해보험노후웰스보험(Hi2004)",
+    "금리연동형",
+    "2020/04/01",
+    "중단",
+    "77,760",
+    "-7.14",
+    "-1.93",
+    "-0.81",
+    "-",
+    "-",
+    "-0.47",
+    "7.871"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=7",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=7",
+    "collected_at": "2026-09-23T08:21:52.382868+00:00",
+    "http_status": 200,
+    "sha256": "901e21e5cdb528a8db310391133b23ae3e0769166a3cf287fcef2de1172d050b"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "현대해상화재보험",
+        "상품명": "연금저축손해보험노후웰스보험(Hi2004)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2020/04/01",
+        "판매여부": "중단",
+        "적립금총액": "77,760",
+        "1년 연평균수익률(%)": "-7.14",
+        "3년 연평균수익률(%)": "-1.93",
+        "5년 연평균수익률(%)": "-0.81",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-0.47",
+        "연평균수수료율(%)": "7.871"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=7",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=7",
+        "collected_at": "2026-09-23T08:21:52.382868+00:00",
+        "http_status": 200,
+        "sha256": "901e21e5cdb528a8db310391133b23ae3e0769166a3cf287fcef2de1172d050b"
+      }
+    }
+  ]
+}

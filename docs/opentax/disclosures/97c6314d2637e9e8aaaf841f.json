@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.cef870de4b0ff4888d688126",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:56ca45b90f09fa47564ab8b5",
+  "group": "4",
+  "provider": "한화생명보험",
+  "title": "세제적격연금저축e연금보험무배당",
+  "cells": [
+    "한화생명보험",
+    "세제적격연금저축e연금보험무배당",
+    "금리연동형",
+    "2015/01/02",
+    "중단",
+    "3,343",
+    "-2.36",
+    "0.27",
+    "0.72",
+    "0.78",
+    "0.95",
+    "0.98",
+    "3.716"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=54",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=54",
+    "collected_at": "2026-09-23T08:31:48.774967+00:00",
+    "http_status": 200,
+    "sha256": "a112ef971a2553e6d63265892577eedfacde9054722516251344fb22d46db254"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한화생명보험",
+        "상품명": "세제적격연금저축e연금보험무배당",
+        "상품유형": "금리연동형",
+        "최초판매일": "2015/01/02",
+        "판매여부": "중단",
+        "적립금총액": "3,343",
+        "1년 연평균수익률(%)": "-2.36",
+        "3년 연평균수익률(%)": "0.27",
+        "5년 연평균수익률(%)": "0.72",
+        "7년 연평균수익률(%)": "0.78",
+        "10년 연평균수익률(%)": "0.95",
+        "누적연평균수익률(%)": "0.98",
+        "연평균수수료율(%)": "3.716"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=54",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=54",
+        "collected_at": "2026-09-23T08:31:48.774967+00:00",
+        "http_status": 200,
+        "sha256": "a112ef971a2553e6d63265892577eedfacde9054722516251344fb22d46db254"
+      }
+    }
+  ]
+}

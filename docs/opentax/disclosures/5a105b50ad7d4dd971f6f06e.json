@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.0306de213a408be49dcebfee",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:044d93305cc97a4acc72cc9e",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자TMF26-12만기형증권투자신탁(채권)(C-Pe)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자TMF26-12만기형증권투자신탁(채권)(C-Pe)",
+    "채권형",
+    "5",
+    "2026/01/14",
+    "판매",
+    "20",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "2.22",
+    "0.128",
+    "미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=310",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=310",
+    "collected_at": "2026-09-23T08:28:45.486853+00:00",
+    "http_status": 200,
+    "sha256": "254c2d85149422ad324e9f30991773d3ae05137b57533ac9ba0fc7ddb0a7b180"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자TMF26-12만기형증권투자신탁(채권)(C-Pe)",
+        "상품유형": "채권형",
+        "위험등급": "5",
+        "설정일": "2026/01/14",
+        "판매여부": "판매",
+        "순자산총액": "20",
+        "1년 연평균수익률(%)": "-",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "2.22",
+        "연평균수수료율(%)": "0.128",
+        "상품 판매사": "미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=310",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=310",
+        "collected_at": "2026-09-23T08:28:45.486853+00:00",
+        "http_status": 200,
+        "sha256": "254c2d85149422ad324e9f30991773d3ae05137b57533ac9ba0fc7ddb0a7b180"
+      }
+    }
+  ]
+}

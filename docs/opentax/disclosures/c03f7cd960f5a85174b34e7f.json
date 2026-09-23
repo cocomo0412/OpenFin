@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.2dc53a4e458887e9cb346a08",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:7407ca53330a8746c14e259f",
+  "group": "3",
+  "provider": "NH-Amundi자산운용",
+  "title": "NH-Amundi HANARO 글로벌럭셔리 S&P 증권 상장지수투자신탁[주식-파생형](합성)",
+  "cells": [
+    "NH-Amundi자산운용",
+    "NH-Amundi HANARO 글로벌럭셔리 S&P 증권 상장지수투자신탁[주식-파생형](합성)",
+    "파생상품",
+    "2",
+    "2020/05/11",
+    "판매",
+    "3,073",
+    "18.52",
+    "4.47",
+    "4.72",
+    "-",
+    "-",
+    "14.20",
+    "0.577",
+    "디비증권주식회사, 유진투자증권주식회사, 한화투자증권주식회사, 하나증권주식회사, 키움증권(주), 메리츠증권(주), 한국투자증권, 삼성증권, KB증권, 대신증권주식회사, 아이엠증권, 신영증권주식회사, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=127",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=127",
+    "collected_at": "2026-09-23T08:24:39.872616+00:00",
+    "http_status": 200,
+    "sha256": "e9b4e36d965481680b45ff8f3d7b17708913a93a1226ccc3bfe1db33b684bf0c"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "NH-Amundi자산운용",
+        "상품명": "NH-Amundi HANARO 글로벌럭셔리 S&P 증권 상장지수투자신탁[주식-파생형](합성)",
+        "상품유형": "파생상품",
+        "위험등급": "2",
+        "설정일": "2020/05/11",
+        "판매여부": "판매",
+        "순자산총액": "3,073",
+        "1년 연평균수익률(%)": "18.52",
+        "3년 연평균수익률(%)": "4.47",
+        "5년 연평균수익률(%)": "4.72",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "14.20",
+        "연평균수수료율(%)": "0.577",
+        "상품 판매사": "디비증권주식회사, 유진투자증권주식회사, 한화투자증권주식회사, 하나증권주식회사, 키움증권(주), 메리츠증권(주), 한국투자증권, 삼성증권, KB증권, 대신증권주식회사, 아이엠증권, 신영증권주식회사, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=127",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=127",
+        "collected_at": "2026-09-23T08:24:39.872616+00:00",
+        "http_status": 200,
+        "sha256": "e9b4e36d965481680b45ff8f3d7b17708913a93a1226ccc3bfe1db33b684bf0c"
+      }
+    }
+  ]
+}

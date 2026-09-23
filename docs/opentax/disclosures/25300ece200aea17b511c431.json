@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.2a7ad0c5ddb1e2b555356f0c",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:ef272a480a5bc0a1a302412e",
+  "group": "3",
+  "provider": "베어링자산운용",
+  "title": "베어링 독일 증권 자투자신탁[UH](주식-재간접형) Class C-Pe",
+  "cells": [
+    "베어링자산운용",
+    "베어링 독일 증권 자투자신탁[UH](주식-재간접형) Class C-Pe",
+    "재간접",
+    "3",
+    "2017/08/03",
+    "판매",
+    "426",
+    "12.91",
+    "19.94",
+    "12.69",
+    "11.82",
+    "-",
+    "8.86",
+    "0.590",
+    "한화투자증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, 미래에셋증권 주식회사, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=241",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=241",
+    "collected_at": "2026-09-23T08:27:13.111012+00:00",
+    "http_status": 200,
+    "sha256": "a69be701f8dc73d71e407e4d140cd09e843d079e7070a25a7ee0543dc225e4ab"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "베어링자산운용",
+        "상품명": "베어링 독일 증권 자투자신탁[UH](주식-재간접형) Class C-Pe",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2017/08/03",
+        "판매여부": "판매",
+        "순자산총액": "426",
+        "1년 연평균수익률(%)": "12.91",
+        "3년 연평균수익률(%)": "19.94",
+        "5년 연평균수익률(%)": "12.69",
+        "7년 연평균수익률(%)": "11.82",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "8.86",
+        "연평균수수료율(%)": "0.590",
+        "상품 판매사": "한화투자증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, 미래에셋증권 주식회사, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=241",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=241",
+        "collected_at": "2026-09-23T08:27:13.111012+00:00",
+        "http_status": 200,
+        "sha256": "a69be701f8dc73d71e407e4d140cd09e843d079e7070a25a7ee0543dc225e4ab"
+      }
+    }
+  ]
+}

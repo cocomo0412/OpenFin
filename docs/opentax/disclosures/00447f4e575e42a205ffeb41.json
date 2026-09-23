@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.2a1970f4fc8ea1822c08a685",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:86631070c68e31f26d10524c",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자골드플랜삼성그룹연금증권자투자신탁1호(주식)(C-e)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자골드플랜삼성그룹연금증권자투자신탁1호(주식)(C-e)",
+    "주식형",
+    "2",
+    "2017/04/28",
+    "판매",
+    "3,236",
+    "189.95",
+    "44.89",
+    "22.76",
+    "21.76",
+    "-",
+    "18.60",
+    "1.021",
+    "디비증권주식회사, 한화투자증권주식회사, 한국투자증권, KB증권, NH투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=124",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=124",
+    "collected_at": "2026-09-23T08:24:35.828473+00:00",
+    "http_status": 200,
+    "sha256": "733a909475947491ecf59120502a02a14c502ae605d95e167d9c29c9e720b11e"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자골드플랜삼성그룹연금증권자투자신탁1호(주식)(C-e)",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2017/04/28",
+        "판매여부": "판매",
+        "순자산총액": "3,236",
+        "1년 연평균수익률(%)": "189.95",
+        "3년 연평균수익률(%)": "44.89",
+        "5년 연평균수익률(%)": "22.76",
+        "7년 연평균수익률(%)": "21.76",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "18.60",
+        "연평균수수료율(%)": "1.021",
+        "상품 판매사": "디비증권주식회사, 한화투자증권주식회사, 한국투자증권, KB증권, NH투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=124",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=124",
+        "collected_at": "2026-09-23T08:24:35.828473+00:00",
+        "http_status": 200,
+        "sha256": "733a909475947491ecf59120502a02a14c502ae605d95e167d9c29c9e720b11e"
+      }
+    }
+  ]
+}

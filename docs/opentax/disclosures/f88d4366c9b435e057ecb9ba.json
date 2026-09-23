@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.9cdded3514fbcc53814b5c4b",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:0ad1916109867294dc66cd78",
+  "group": "4",
+  "provider": "에이비엘생명보험",
+  "title": "연금저축 나이스플랜연금보험Ⅱ(60세)",
+  "cells": [
+    "에이비엘생명보험",
+    "연금저축 나이스플랜연금보험Ⅱ(60세)",
+    "금리연동형",
+    "2002/01/01",
+    "중단",
+    "7,644",
+    "-5.87",
+    "-0.30",
+    "0.35",
+    "1.29",
+    "1.73",
+    "2.06",
+    "9.910"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=41",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=41",
+    "collected_at": "2026-09-23T08:31:29.190563+00:00",
+    "http_status": 200,
+    "sha256": "840dbad5a1750926fb39c1dadf496d61d8e4ef3a7fcceb1342ff34329fa2796b"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "에이비엘생명보험",
+        "상품명": "연금저축 나이스플랜연금보험Ⅱ(60세)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2002/01/01",
+        "판매여부": "중단",
+        "적립금총액": "7,644",
+        "1년 연평균수익률(%)": "-5.87",
+        "3년 연평균수익률(%)": "-0.30",
+        "5년 연평균수익률(%)": "0.35",
+        "7년 연평균수익률(%)": "1.29",
+        "10년 연평균수익률(%)": "1.73",
+        "누적연평균수익률(%)": "2.06",
+        "연평균수수료율(%)": "9.910"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=41",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=41",
+        "collected_at": "2026-09-23T08:31:29.190563+00:00",
+        "http_status": 200,
+        "sha256": "840dbad5a1750926fb39c1dadf496d61d8e4ef3a7fcceb1342ff34329fa2796b"
+      }
+    }
+  ]
+}

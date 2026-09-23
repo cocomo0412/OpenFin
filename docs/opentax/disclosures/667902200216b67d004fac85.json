@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.63a5bcdcc5cdb5888815010b",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:5ca97e452792c477242c06d8",
+  "group": "5",
+  "provider": "삼성화재해상보험",
+  "title": "연금저축손해보험 삼성명품 연금보험∥(1303)",
+  "cells": [
+    "삼성화재해상보험",
+    "연금저축손해보험 삼성명품 연금보험∥(1303)",
+    "금리연동형",
+    "2013/03/05",
+    "중단",
+    "14,685",
+    "-4.44",
+    "-0.55",
+    "0.09",
+    "0.4",
+    "0.69",
+    "0.88",
+    "5.488"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=22",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=22",
+    "collected_at": "2026-09-23T08:22:07.944463+00:00",
+    "http_status": 200,
+    "sha256": "8cbb7cd99a806b397879a2c5ecfda3ec920537b2f57664ad77c98391b89fc863"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성화재해상보험",
+        "상품명": "연금저축손해보험 삼성명품 연금보험∥(1303)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2013/03/05",
+        "판매여부": "중단",
+        "적립금총액": "14,685",
+        "1년 연평균수익률(%)": "-4.44",
+        "3년 연평균수익률(%)": "-0.55",
+        "5년 연평균수익률(%)": "0.09",
+        "7년 연평균수익률(%)": "0.4",
+        "10년 연평균수익률(%)": "0.69",
+        "누적연평균수익률(%)": "0.88",
+        "연평균수수료율(%)": "5.488"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=22",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=22",
+        "collected_at": "2026-09-23T08:22:07.944463+00:00",
+        "http_status": 200,
+        "sha256": "8cbb7cd99a806b397879a2c5ecfda3ec920537b2f57664ad77c98391b89fc863"
+      }
+    }
+  ]
+}

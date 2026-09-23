@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.64b4323db5bf53ec468b688e",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:11fe70814233e46fd01f430f",
+  "group": "4",
+  "provider": "아이비케이연금보험",
+  "title": "무배당 IBK 인터넷세액공제연금저축보험_2101",
+  "cells": [
+    "아이비케이연금보험",
+    "무배당 IBK 인터넷세액공제연금저축보험_2101",
+    "금리연동형",
+    "2021/01/01",
+    "중단",
+    "4,720",
+    "-4.06",
+    "-0.48",
+    "0.24",
+    "-",
+    "-",
+    "0.47",
+    "5.300"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=49",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=49",
+    "collected_at": "2026-09-23T08:31:41.536698+00:00",
+    "http_status": 200,
+    "sha256": "b37a141d33d1a72b2b4bf5ca70af2435dff295f5188a9d380ec36878f381fb11"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "아이비케이연금보험",
+        "상품명": "무배당 IBK 인터넷세액공제연금저축보험_2101",
+        "상품유형": "금리연동형",
+        "최초판매일": "2021/01/01",
+        "판매여부": "중단",
+        "적립금총액": "4,720",
+        "1년 연평균수익률(%)": "-4.06",
+        "3년 연평균수익률(%)": "-0.48",
+        "5년 연평균수익률(%)": "0.24",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "0.47",
+        "연평균수수료율(%)": "5.300"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=49",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=49",
+        "collected_at": "2026-09-23T08:31:41.536698+00:00",
+        "http_status": 200,
+        "sha256": "b37a141d33d1a72b2b4bf5ca70af2435dff295f5188a9d380ec36878f381fb11"
+      }
+    }
+  ]
+}

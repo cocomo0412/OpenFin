@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.6455c60e5646f82dc32b9b54",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:0ba5eda4b71cfae56807a01b",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성클래식아세안연금증권전환형자투자신탁 제1호[주식]_Ce",
+  "cells": [
+    "삼성자산운용",
+    "삼성클래식아세안연금증권전환형자투자신탁 제1호[주식]_Ce",
+    "주식형",
+    "3",
+    "2016/11/29",
+    "판매",
+    "4,278",
+    "26.44",
+    "16.28",
+    "9.47",
+    "8.65",
+    "-",
+    "7.87",
+    "1.245",
+    "디비증권주식회사, 한화투자증권주식회사, 키움증권(주), 삼성생명보험주식회사, 유안타증권주식회사, 한국투자증권, 삼성증권, KB증권, 대신증권주식회사, 신한은행, 미래에셋증권 주식회사, NH투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=111",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=111",
+    "collected_at": "2026-09-23T08:24:17.344893+00:00",
+    "http_status": 200,
+    "sha256": "ec1ebfd83881d89dfb9bffd837b617784cb8e2706ad254817e13e10b33c311e3"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성클래식아세안연금증권전환형자투자신탁 제1호[주식]_Ce",
+        "상품유형": "주식형",
+        "위험등급": "3",
+        "설정일": "2016/11/29",
+        "판매여부": "판매",
+        "순자산총액": "4,278",
+        "1년 연평균수익률(%)": "26.44",
+        "3년 연평균수익률(%)": "16.28",
+        "5년 연평균수익률(%)": "9.47",
+        "7년 연평균수익률(%)": "8.65",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "7.87",
+        "연평균수수료율(%)": "1.245",
+        "상품 판매사": "디비증권주식회사, 한화투자증권주식회사, 키움증권(주), 삼성생명보험주식회사, 유안타증권주식회사, 한국투자증권, 삼성증권, KB증권, 대신증권주식회사, 신한은행, 미래에셋증권 주식회사, NH투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=111",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=111",
+        "collected_at": "2026-09-23T08:24:17.344893+00:00",
+        "http_status": 200,
+        "sha256": "ec1ebfd83881d89dfb9bffd837b617784cb8e2706ad254817e13e10b33c311e3"
+      }
+    }
+  ]
+}

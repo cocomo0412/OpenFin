@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.7fcda022e6e762d3eddc05cb",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:5f30bf7c9ed9ad5549d0fbb5",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋단기채알파증권자투자신탁(채권혼합)종류C-P",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋단기채알파증권자투자신탁(채권혼합)종류C-P",
+    "혼합채권형",
+    "5",
+    "2018/12/03",
+    "판매",
+    "1,708",
+    "1.39",
+    "2.73",
+    "2.40",
+    "2.20",
+    "-",
+    "2.23",
+    "0.557",
+    "디비증권주식회사, 유진투자증권주식회사, 한국투자증권, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=159",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=159",
+    "collected_at": "2026-09-23T08:25:22.525434+00:00",
+    "http_status": 200,
+    "sha256": "a3b44f53cfdaf942dbf0b69eb10de90099554112cb2582a2f5f5d3e880d5742f"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋단기채알파증권자투자신탁(채권혼합)종류C-P",
+        "상품유형": "혼합채권형",
+        "위험등급": "5",
+        "설정일": "2018/12/03",
+        "판매여부": "판매",
+        "순자산총액": "1,708",
+        "1년 연평균수익률(%)": "1.39",
+        "3년 연평균수익률(%)": "2.73",
+        "5년 연평균수익률(%)": "2.40",
+        "7년 연평균수익률(%)": "2.20",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "2.23",
+        "연평균수수료율(%)": "0.557",
+        "상품 판매사": "디비증권주식회사, 유진투자증권주식회사, 한국투자증권, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=159",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=159",
+        "collected_at": "2026-09-23T08:25:22.525434+00:00",
+        "http_status": 200,
+        "sha256": "a3b44f53cfdaf942dbf0b69eb10de90099554112cb2582a2f5f5d3e880d5742f"
+      }
+    }
+  ]
+}

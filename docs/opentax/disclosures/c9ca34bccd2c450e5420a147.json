@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.7977962cf7c4ab519f632ab5",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:28aa1f042ec2431a5380802e",
+  "group": "4",
+  "provider": "아이엠라이프생명보험",
+  "title": "연금저축 LIG라이프플랜보험",
+  "cells": [
+    "아이엠라이프생명보험",
+    "연금저축 LIG라이프플랜보험",
+    "금리연동형",
+    "2006/05/15",
+    "중단",
+    "10,018",
+    "-4.05",
+    "0.42",
+    "1.16",
+    "1.39",
+    "1.40",
+    "1.25",
+    "4.652"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=38",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=38",
+    "collected_at": "2026-09-23T08:31:22.401706+00:00",
+    "http_status": 200,
+    "sha256": "2513e7080b06f9ee64913f188e7a110b97a54abcc17e553c017f6dd1961bef57"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "아이엠라이프생명보험",
+        "상품명": "연금저축 LIG라이프플랜보험",
+        "상품유형": "금리연동형",
+        "최초판매일": "2006/05/15",
+        "판매여부": "중단",
+        "적립금총액": "10,018",
+        "1년 연평균수익률(%)": "-4.05",
+        "3년 연평균수익률(%)": "0.42",
+        "5년 연평균수익률(%)": "1.16",
+        "7년 연평균수익률(%)": "1.39",
+        "10년 연평균수익률(%)": "1.40",
+        "누적연평균수익률(%)": "1.25",
+        "연평균수수료율(%)": "4.652"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=38",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=38",
+        "collected_at": "2026-09-23T08:31:22.401706+00:00",
+        "http_status": 200,
+        "sha256": "2513e7080b06f9ee64913f188e7a110b97a54abcc17e553c017f6dd1961bef57"
+      }
+    }
+  ]
+}

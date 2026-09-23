@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.508f265055280d997d54c20a",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:f43648494165d169112eceee",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성클래식인도중소형FOCUS연금증권자투자신탁H[주식-파생형]_S-P",
+  "cells": [
+    "삼성자산운용",
+    "삼성클래식인도중소형FOCUS연금증권자투자신탁H[주식-파생형]_S-P",
+    "파생상품",
+    "2",
+    "2015/12/29",
+    "판매",
+    "774",
+    "-5.60",
+    "8.97",
+    "9.21",
+    "11.63",
+    "9.36",
+    "9.42",
+    "1.536",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=204",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=204",
+    "collected_at": "2026-09-23T08:26:23.483533+00:00",
+    "http_status": 200,
+    "sha256": "3b01981921e00ae7a2254d6d98578a5f4cd46847b8943a0d7ffe1a36dc5fa6ec"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성클래식인도중소형FOCUS연금증권자투자신탁H[주식-파생형]_S-P",
+        "상품유형": "파생상품",
+        "위험등급": "2",
+        "설정일": "2015/12/29",
+        "판매여부": "판매",
+        "순자산총액": "774",
+        "1년 연평균수익률(%)": "-5.60",
+        "3년 연평균수익률(%)": "8.97",
+        "5년 연평균수익률(%)": "9.21",
+        "7년 연평균수익률(%)": "11.63",
+        "10년 연평균수익률(%)": "9.36",
+        "누적연평균수익률(%)": "9.42",
+        "연평균수수료율(%)": "1.536",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=204",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=204",
+        "collected_at": "2026-09-23T08:26:23.483533+00:00",
+        "http_status": 200,
+        "sha256": "3b01981921e00ae7a2254d6d98578a5f4cd46847b8943a0d7ffe1a36dc5fa6ec"
+      }
+    }
+  ]
+}

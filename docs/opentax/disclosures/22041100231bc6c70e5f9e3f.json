@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.72b0f44e5bbd457f3187cb57",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:ec2ef760ffab0bf0d0f50fce",
+  "group": "3",
+  "provider": "우리자산운용",
+  "title": "우리뱅크플러스공모주10증권자투자신탁2호(채권혼합)ClassC-P1",
+  "cells": [
+    "우리자산운용",
+    "우리뱅크플러스공모주10증권자투자신탁2호(채권혼합)ClassC-P1",
+    "혼합채권형",
+    "5",
+    "2014/10/20",
+    "판매",
+    "2,341",
+    "2.04",
+    "3.54",
+    "3.16",
+    "3.01",
+    "2.60",
+    "2.82",
+    "0.542",
+    "디비증권주식회사, (주)우리투자증권, NH농협은행, 한국투자증권, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=142",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=142",
+    "collected_at": "2026-09-23T08:24:59.437471+00:00",
+    "http_status": 200,
+    "sha256": "0fb517e43a471a7ff7d2972666e75020b50ef31309af8beafac1e5273cacd556"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "우리자산운용",
+        "상품명": "우리뱅크플러스공모주10증권자투자신탁2호(채권혼합)ClassC-P1",
+        "상품유형": "혼합채권형",
+        "위험등급": "5",
+        "설정일": "2014/10/20",
+        "판매여부": "판매",
+        "순자산총액": "2,341",
+        "1년 연평균수익률(%)": "2.04",
+        "3년 연평균수익률(%)": "3.54",
+        "5년 연평균수익률(%)": "3.16",
+        "7년 연평균수익률(%)": "3.01",
+        "10년 연평균수익률(%)": "2.60",
+        "누적연평균수익률(%)": "2.82",
+        "연평균수수료율(%)": "0.542",
+        "상품 판매사": "디비증권주식회사, (주)우리투자증권, NH농협은행, 한국투자증권, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=142",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=142",
+        "collected_at": "2026-09-23T08:24:59.437471+00:00",
+        "http_status": 200,
+        "sha256": "0fb517e43a471a7ff7d2972666e75020b50ef31309af8beafac1e5273cacd556"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.dbf571902f04d96daa3ae15b",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:5cc33d0fe9c5a68bed6967e0",
+  "group": "3",
+  "provider": "하나자산운용",
+  "title": "하나매크로오퍼튜니티혼합자산자투자신탁[재간접형]ClassC-P",
+  "cells": [
+    "하나자산운용",
+    "하나매크로오퍼튜니티혼합자산자투자신탁[재간접형]ClassC-P",
+    "혼합자산",
+    "4",
+    "2019/02/22",
+    "판매",
+    "732",
+    "4.65",
+    "2.84",
+    "-2.71",
+    "-0.80",
+    "-",
+    "-0.17",
+    "0.917",
+    "한국투자증권, KB증권, KB국민은행, NH투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=208",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=208",
+    "collected_at": "2026-09-23T08:26:28.845809+00:00",
+    "http_status": 200,
+    "sha256": "73e6f78e621fe43c8311b76be9a1c5cfe5ae7f10bd30a9bb6501749c33e13a30"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "하나자산운용",
+        "상품명": "하나매크로오퍼튜니티혼합자산자투자신탁[재간접형]ClassC-P",
+        "상품유형": "혼합자산",
+        "위험등급": "4",
+        "설정일": "2019/02/22",
+        "판매여부": "판매",
+        "순자산총액": "732",
+        "1년 연평균수익률(%)": "4.65",
+        "3년 연평균수익률(%)": "2.84",
+        "5년 연평균수익률(%)": "-2.71",
+        "7년 연평균수익률(%)": "-0.80",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-0.17",
+        "연평균수수료율(%)": "0.917",
+        "상품 판매사": "한국투자증권, KB증권, KB국민은행, NH투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=208",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=208",
+        "collected_at": "2026-09-23T08:26:28.845809+00:00",
+        "http_status": 200,
+        "sha256": "73e6f78e621fe43c8311b76be9a1c5cfe5ae7f10bd30a9bb6501749c33e13a30"
+      }
+    }
+  ]
+}

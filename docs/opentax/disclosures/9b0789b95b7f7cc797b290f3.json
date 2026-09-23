@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.c9122da9cb3d77b5ca8c9f4c",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:8f91bf1bdeec02db2db3708d",
+  "group": "5",
+  "provider": "롯데손해보험",
+  "title": "연금저축손해보험롯데명품연금보험(1701)",
+  "cells": [
+    "롯데손해보험",
+    "연금저축손해보험롯데명품연금보험(1701)",
+    "금리연동형",
+    "2018/01/02",
+    "중단",
+    "3,789",
+    "-3.87",
+    "-0.59",
+    "-0.11",
+    "0.13",
+    "-",
+    "0.33",
+    "3.83"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=36",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=36",
+    "collected_at": "2026-09-23T08:22:22.216897+00:00",
+    "http_status": 200,
+    "sha256": "22efb625182f01d5afa49b8e5637fda91b2cd418650e8ed8966d67c1ebca3257"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "롯데손해보험",
+        "상품명": "연금저축손해보험롯데명품연금보험(1701)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2018/01/02",
+        "판매여부": "중단",
+        "적립금총액": "3,789",
+        "1년 연평균수익률(%)": "-3.87",
+        "3년 연평균수익률(%)": "-0.59",
+        "5년 연평균수익률(%)": "-0.11",
+        "7년 연평균수익률(%)": "0.13",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "0.33",
+        "연평균수수료율(%)": "3.83"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=36",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=36",
+        "collected_at": "2026-09-23T08:22:22.216897+00:00",
+        "http_status": 200,
+        "sha256": "22efb625182f01d5afa49b8e5637fda91b2cd418650e8ed8966d67c1ebca3257"
+      }
+    }
+  ]
+}

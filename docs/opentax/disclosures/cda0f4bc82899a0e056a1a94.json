@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.8d49c4bee740c064a7f499a9",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:11a4bcbac6c08307e7b19f82",
+  "group": "3",
+  "provider": "하나자산운용",
+  "title": "하나글로벌인프라증권자투자신탁[주식]ClassC-PE",
+  "cells": [
+    "하나자산운용",
+    "하나글로벌인프라증권자투자신탁[주식]ClassC-PE",
+    "주식형",
+    "3",
+    "2016/12/07",
+    "판매",
+    "3,831",
+    "18.63",
+    "13.14",
+    "7.79",
+    "6.89",
+    "-",
+    "7.52",
+    "1.226",
+    "디비증권주식회사, 유진투자증권주식회사, 한화투자증권주식회사, (주)우리투자증권, 키움증권(주), 한국투자증권, 삼성증권, 우리은행, IBK기업은행, KB증권, 대신증권주식회사, 신한은행, KB국민은행, 신영증권주식회사, 미래에셋증권 주식회사, NH투자증권, 신한투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=117",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=117",
+    "collected_at": "2026-09-23T08:24:25.347255+00:00",
+    "http_status": 200,
+    "sha256": "d891efbef8fafb3ce3d909a96e4d1822dc27f169d282b8d1bd50f600761b86f7"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "하나자산운용",
+        "상품명": "하나글로벌인프라증권자투자신탁[주식]ClassC-PE",
+        "상품유형": "주식형",
+        "위험등급": "3",
+        "설정일": "2016/12/07",
+        "판매여부": "판매",
+        "순자산총액": "3,831",
+        "1년 연평균수익률(%)": "18.63",
+        "3년 연평균수익률(%)": "13.14",
+        "5년 연평균수익률(%)": "7.79",
+        "7년 연평균수익률(%)": "6.89",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "7.52",
+        "연평균수수료율(%)": "1.226",
+        "상품 판매사": "디비증권주식회사, 유진투자증권주식회사, 한화투자증권주식회사, (주)우리투자증권, 키움증권(주), 한국투자증권, 삼성증권, 우리은행, IBK기업은행, KB증권, 대신증권주식회사, 신한은행, KB국민은행, 신영증권주식회사, 미래에셋증권 주식회사, NH투자증권, 신한투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=117",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=117",
+        "collected_at": "2026-09-23T08:24:25.347255+00:00",
+        "http_status": 200,
+        "sha256": "d891efbef8fafb3ce3d909a96e4d1822dc27f169d282b8d1bd50f600761b86f7"
+      }
+    }
+  ]
+}

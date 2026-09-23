@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.394123efac38a3c55fb97c1c",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:43d8150d43bdbb6792d0412b",
+  "group": "5",
+  "provider": "현대해상화재보험",
+  "title": "연금저축손해보험 노후웰스보험(Hi1501)",
+  "cells": [
+    "현대해상화재보험",
+    "연금저축손해보험 노후웰스보험(Hi1501)",
+    "금리연동형",
+    "2015/01/01",
+    "중단",
+    "176,437",
+    "-6.13",
+    "-1.36",
+    "-0.4",
+    "-0.03",
+    "0.4",
+    "0.56",
+    "6.988"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=4",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=4",
+    "collected_at": "2026-09-23T08:21:48.721848+00:00",
+    "http_status": 200,
+    "sha256": "ecec0bebfd5f3ea90ddc00685afbf5b9ca72e19a69685e11b39938c6b8444dd2"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "현대해상화재보험",
+        "상품명": "연금저축손해보험 노후웰스보험(Hi1501)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2015/01/01",
+        "판매여부": "중단",
+        "적립금총액": "176,437",
+        "1년 연평균수익률(%)": "-6.13",
+        "3년 연평균수익률(%)": "-1.36",
+        "5년 연평균수익률(%)": "-0.4",
+        "7년 연평균수익률(%)": "-0.03",
+        "10년 연평균수익률(%)": "0.4",
+        "누적연평균수익률(%)": "0.56",
+        "연평균수수료율(%)": "6.988"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=4",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=4",
+        "collected_at": "2026-09-23T08:21:48.721848+00:00",
+        "http_status": 200,
+        "sha256": "ecec0bebfd5f3ea90ddc00685afbf5b9ca72e19a69685e11b39938c6b8444dd2"
+      }
+    }
+  ]
+}

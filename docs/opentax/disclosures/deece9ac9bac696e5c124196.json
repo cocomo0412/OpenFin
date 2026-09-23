@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.1bbd99059909ff9f29be1cb8",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:8fc7329e229eed072998c828",
+  "group": "3",
+  "provider": "다올자산운용",
+  "title": "다올JP모건글로벌투자적격등급회사채증권자투자신탁(H)[채권-재간접형]종류C-Pe",
+  "cells": [
+    "다올자산운용",
+    "다올JP모건글로벌투자적격등급회사채증권자투자신탁(H)[채권-재간접형]종류C-Pe",
+    "재간접",
+    "5",
+    "2022/10/20",
+    "판매",
+    "794",
+    "3.39",
+    "3.84",
+    "-",
+    "-",
+    "-",
+    "4.08",
+    "0.536",
+    "한화투자증권주식회사, 한국투자증권, 삼성증권, 우리은행, KB증권, KB국민은행, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=202",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=202",
+    "collected_at": "2026-09-23T08:26:21.010469+00:00",
+    "http_status": 200,
+    "sha256": "50b3d824a345a016b0c6e0c023175afaa2cd7a42dde38b21218fa3a58d747546"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "다올자산운용",
+        "상품명": "다올JP모건글로벌투자적격등급회사채증권자투자신탁(H)[채권-재간접형]종류C-Pe",
+        "상품유형": "재간접",
+        "위험등급": "5",
+        "설정일": "2022/10/20",
+        "판매여부": "판매",
+        "순자산총액": "794",
+        "1년 연평균수익률(%)": "3.39",
+        "3년 연평균수익률(%)": "3.84",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "4.08",
+        "연평균수수료율(%)": "0.536",
+        "상품 판매사": "한화투자증권주식회사, 한국투자증권, 삼성증권, 우리은행, KB증권, KB국민은행, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=202",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=202",
+        "collected_at": "2026-09-23T08:26:21.010469+00:00",
+        "http_status": 200,
+        "sha256": "50b3d824a345a016b0c6e0c023175afaa2cd7a42dde38b21218fa3a58d747546"
+      }
+    }
+  ]
+}

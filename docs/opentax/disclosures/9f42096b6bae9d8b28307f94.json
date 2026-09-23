@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.b9580a7c720a5a5ab3fcd42b",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:8c223d9a1e04165e85a83d67",
+  "group": "5",
+  "provider": "메리츠화재해상보험",
+  "title": "(무)연금저축손해보험 메리츠 연금보험 웰에이징1304",
+  "cells": [
+    "메리츠화재해상보험",
+    "(무)연금저축손해보험 메리츠 연금보험 웰에이징1304",
+    "금리연동형",
+    "2013/05/29",
+    "중단",
+    "4,308",
+    "-3.34",
+    "-0.11",
+    "0.41",
+    "0.62",
+    "0.91",
+    "1.11",
+    "4.68"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=34",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=34",
+    "collected_at": "2026-09-23T08:22:20.470147+00:00",
+    "http_status": 200,
+    "sha256": "3b10e969de0543c34588c4231d840aff91436f510696235b4eab550d81d93013"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "메리츠화재해상보험",
+        "상품명": "(무)연금저축손해보험 메리츠 연금보험 웰에이징1304",
+        "상품유형": "금리연동형",
+        "최초판매일": "2013/05/29",
+        "판매여부": "중단",
+        "적립금총액": "4,308",
+        "1년 연평균수익률(%)": "-3.34",
+        "3년 연평균수익률(%)": "-0.11",
+        "5년 연평균수익률(%)": "0.41",
+        "7년 연평균수익률(%)": "0.62",
+        "10년 연평균수익률(%)": "0.91",
+        "누적연평균수익률(%)": "1.11",
+        "연평균수수료율(%)": "4.68"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=34",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=34",
+        "collected_at": "2026-09-23T08:22:20.470147+00:00",
+        "http_status": 200,
+        "sha256": "3b10e969de0543c34588c4231d840aff91436f510696235b4eab550d81d93013"
+      }
+    }
+  ]
+}

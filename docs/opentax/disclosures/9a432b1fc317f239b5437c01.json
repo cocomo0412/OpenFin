@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.49edd4fb2c08f5420e0e77ed",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:869ca2f584d9c323a493cbd8",
+  "group": "5",
+  "provider": "한화손해보험",
+  "title": "연금저축손해보험 행복한 노후 연금보험0710",
+  "cells": [
+    "한화손해보험",
+    "연금저축손해보험 행복한 노후 연금보험0710",
+    "금리연동형",
+    "2007/04/02",
+    "중단",
+    "6,026",
+    "-9.3",
+    "-1.96",
+    "-0.47",
+    "0.14",
+    "0.41",
+    "1.43",
+    "7.65"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=31",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=31",
+    "collected_at": "2026-09-23T08:22:17.035739+00:00",
+    "http_status": 200,
+    "sha256": "c134b2cd85f29c941dc33a7b25c04ca7e84ace0e641d50f0ccbd3d6cfe22f5d0"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한화손해보험",
+        "상품명": "연금저축손해보험 행복한 노후 연금보험0710",
+        "상품유형": "금리연동형",
+        "최초판매일": "2007/04/02",
+        "판매여부": "중단",
+        "적립금총액": "6,026",
+        "1년 연평균수익률(%)": "-9.3",
+        "3년 연평균수익률(%)": "-1.96",
+        "5년 연평균수익률(%)": "-0.47",
+        "7년 연평균수익률(%)": "0.14",
+        "10년 연평균수익률(%)": "0.41",
+        "누적연평균수익률(%)": "1.43",
+        "연평균수수료율(%)": "7.65"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=31",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=31",
+        "collected_at": "2026-09-23T08:22:17.035739+00:00",
+        "http_status": 200,
+        "sha256": "c134b2cd85f29c941dc33a7b25c04ca7e84ace0e641d50f0ccbd3d6cfe22f5d0"
+      }
+    }
+  ]
+}

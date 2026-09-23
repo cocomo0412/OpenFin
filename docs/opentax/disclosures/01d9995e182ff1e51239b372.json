@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.4863de29cf9de919a05efae4",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:60bcd3f5ceb7a17cdaf440de",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋달러우량중장기채권증권자투자신탁(UH)(채권)종류C-Pe",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋달러우량중장기채권증권자투자신탁(UH)(채권)종류C-Pe",
+    "채권형",
+    "4",
+    "2019/05/03",
+    "판매",
+    "1,601",
+    "17.81",
+    "8.83",
+    "6.08",
+    "4.78",
+    "-",
+    "4.88",
+    "0.537",
+    "(주)우리투자증권, 키움증권(주), 한국투자증권, 우리은행, KB증권, 아이엠증권, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=163",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=163",
+    "collected_at": "2026-09-23T08:25:27.781527+00:00",
+    "http_status": 200,
+    "sha256": "a7b85270a89a59cf38b2fb20fae4a9713d9db9f0ef806dd3ac5f3b1f3fdc788e"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋달러우량중장기채권증권자투자신탁(UH)(채권)종류C-Pe",
+        "상품유형": "채권형",
+        "위험등급": "4",
+        "설정일": "2019/05/03",
+        "판매여부": "판매",
+        "순자산총액": "1,601",
+        "1년 연평균수익률(%)": "17.81",
+        "3년 연평균수익률(%)": "8.83",
+        "5년 연평균수익률(%)": "6.08",
+        "7년 연평균수익률(%)": "4.78",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "4.88",
+        "연평균수수료율(%)": "0.537",
+        "상품 판매사": "(주)우리투자증권, 키움증권(주), 한국투자증권, 우리은행, KB증권, 아이엠증권, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=163",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=163",
+        "collected_at": "2026-09-23T08:25:27.781527+00:00",
+        "http_status": 200,
+        "sha256": "a7b85270a89a59cf38b2fb20fae4a9713d9db9f0ef806dd3ac5f3b1f3fdc788e"
+      }
+    }
+  ]
+}

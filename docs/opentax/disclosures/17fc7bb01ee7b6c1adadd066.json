@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.455d5c4fec46cb9a0ffdae81",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:20f393e74e23777917cd2827",
+  "group": "3",
+  "provider": "트러스톤자산운용",
+  "title": "트러스톤코리아외화채권증권자투자신탁(UH)[채권]Cp-E클래스",
+  "cells": [
+    "트러스톤자산운용",
+    "트러스톤코리아외화채권증권자투자신탁(UH)[채권]Cp-E클래스",
+    "채권형",
+    "4",
+    "2018/01/29",
+    "판매",
+    "371",
+    "18.76",
+    "10.60",
+    "8.90",
+    "7.04",
+    "-",
+    "7.45",
+    "0.360",
+    "한국투자증권, 우리은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=249",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=249",
+    "collected_at": "2026-09-23T08:27:23.652594+00:00",
+    "http_status": 200,
+    "sha256": "6edf5cbcacfd3afa88a4a1ae60b2b0b571778915551be2550eedab3c162c7e72"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "트러스톤자산운용",
+        "상품명": "트러스톤코리아외화채권증권자투자신탁(UH)[채권]Cp-E클래스",
+        "상품유형": "채권형",
+        "위험등급": "4",
+        "설정일": "2018/01/29",
+        "판매여부": "판매",
+        "순자산총액": "371",
+        "1년 연평균수익률(%)": "18.76",
+        "3년 연평균수익률(%)": "10.60",
+        "5년 연평균수익률(%)": "8.90",
+        "7년 연평균수익률(%)": "7.04",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "7.45",
+        "연평균수수료율(%)": "0.360",
+        "상품 판매사": "한국투자증권, 우리은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=249",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=249",
+        "collected_at": "2026-09-23T08:27:23.652594+00:00",
+        "http_status": 200,
+        "sha256": "6edf5cbcacfd3afa88a4a1ae60b2b0b571778915551be2550eedab3c162c7e72"
+      }
+    }
+  ]
+}

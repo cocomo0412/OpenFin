@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.658f8514ac1f8427e1987781",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:4b988af59f01dcfe8af6b1d4",
+  "group": "5",
+  "provider": "삼성화재해상보험",
+  "title": "연금저축손해보험 삼성화재 연금보험 직장인단체(2101.12)",
+  "cells": [
+    "삼성화재해상보험",
+    "연금저축손해보험 삼성화재 연금보험 직장인단체(2101.12)",
+    "금리연동형",
+    "2021/01/01",
+    "중단",
+    "5,021",
+    "-2.65",
+    "-0.3",
+    "0.18",
+    "-",
+    "-",
+    "0.25",
+    "3.389"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=33",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=33",
+    "collected_at": "2026-09-23T08:22:19.350508+00:00",
+    "http_status": 200,
+    "sha256": "8abd740fec80cd78ae7e88680ba4f41c47a2ba2c32595e8562db09b1968adf06"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성화재해상보험",
+        "상품명": "연금저축손해보험 삼성화재 연금보험 직장인단체(2101.12)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2021/01/01",
+        "판매여부": "중단",
+        "적립금총액": "5,021",
+        "1년 연평균수익률(%)": "-2.65",
+        "3년 연평균수익률(%)": "-0.3",
+        "5년 연평균수익률(%)": "0.18",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "0.25",
+        "연평균수수료율(%)": "3.389"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=33",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=33",
+        "collected_at": "2026-09-23T08:22:19.350508+00:00",
+        "http_status": 200,
+        "sha256": "8abd740fec80cd78ae7e88680ba4f41c47a2ba2c32595e8562db09b1968adf06"
+      }
+    }
+  ]
+}

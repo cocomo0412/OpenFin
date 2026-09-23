@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.de98e7d07165206de94a9d52",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:a4741afa62116064b063f83d",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자글로벌우주기술&방산증권자투자신탁H(주식)(S-P)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자글로벌우주기술&방산증권자투자신탁H(주식)(S-P)",
+    "주식형",
+    "2",
+    "2026/02/03",
+    "판매",
+    "4",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-14.21",
+    "0.928",
+    "-"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=315",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=315",
+    "collected_at": "2026-09-23T08:28:53.383197+00:00",
+    "http_status": 200,
+    "sha256": "4ba477d6866badc12b0ab1abddc43a2837ed5aaa3760f45cd0954d430f022387"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자글로벌우주기술&방산증권자투자신탁H(주식)(S-P)",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2026/02/03",
+        "판매여부": "판매",
+        "순자산총액": "4",
+        "1년 연평균수익률(%)": "-",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-14.21",
+        "연평균수수료율(%)": "0.928",
+        "상품 판매사": "-"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=315",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=315",
+        "collected_at": "2026-09-23T08:28:53.383197+00:00",
+        "http_status": 200,
+        "sha256": "4ba477d6866badc12b0ab1abddc43a2837ed5aaa3760f45cd0954d430f022387"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.7f944b81bff870bebe98fa5e",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:b8c99d1a2d3332f657468473",
+  "group": "4",
+  "provider": "케이디비생명보험",
+  "title": "(연금저축)뉴-노후사랑연금보험(확정연금형)",
+  "cells": [
+    "케이디비생명보험",
+    "(연금저축)뉴-노후사랑연금보험(확정연금형)",
+    "금리연동형",
+    "2002/01/02",
+    "중단",
+    "709",
+    "-8.56",
+    "-1.02",
+    "0.62",
+    "1.52",
+    "2.15",
+    "2.43",
+    "10.532"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=64",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=64",
+    "collected_at": "2026-09-23T08:32:02.491288+00:00",
+    "http_status": 200,
+    "sha256": "70e0718cf750b800317e7dc5129a7720f079941089e7a804f61c40648e11c584"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "케이디비생명보험",
+        "상품명": "(연금저축)뉴-노후사랑연금보험(확정연금형)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2002/01/02",
+        "판매여부": "중단",
+        "적립금총액": "709",
+        "1년 연평균수익률(%)": "-8.56",
+        "3년 연평균수익률(%)": "-1.02",
+        "5년 연평균수익률(%)": "0.62",
+        "7년 연평균수익률(%)": "1.52",
+        "10년 연평균수익률(%)": "2.15",
+        "누적연평균수익률(%)": "2.43",
+        "연평균수수료율(%)": "10.532"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=64",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=64",
+        "collected_at": "2026-09-23T08:32:02.491288+00:00",
+        "http_status": 200,
+        "sha256": "70e0718cf750b800317e7dc5129a7720f079941089e7a804f61c40648e11c584"
+      }
+    }
+  ]
+}

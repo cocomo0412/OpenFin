@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.285ad2a4640e5c94753aa84a",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:3a8a9836b6ff50849b86e9e6",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자적격TDF알아서2050증권자투자신탁UH(주식혼합-재간접형)(C-P)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자적격TDF알아서2050증권자투자신탁UH(주식혼합-재간접형)(C-P)",
+    "재간접",
+    "3",
+    "2019/10/16",
+    "판매",
+    "2,326",
+    "41.14",
+    "21.83",
+    "13.00",
+    "-",
+    "-",
+    "13.91",
+    "1.215",
+    "한국투자증권, SK증권주식회사, 아이엠증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=142",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=142",
+    "collected_at": "2026-09-23T08:24:59.437471+00:00",
+    "http_status": 200,
+    "sha256": "0fb517e43a471a7ff7d2972666e75020b50ef31309af8beafac1e5273cacd556"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자적격TDF알아서2050증권자투자신탁UH(주식혼합-재간접형)(C-P)",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2019/10/16",
+        "판매여부": "판매",
+        "순자산총액": "2,326",
+        "1년 연평균수익률(%)": "41.14",
+        "3년 연평균수익률(%)": "21.83",
+        "5년 연평균수익률(%)": "13.00",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "13.91",
+        "연평균수수료율(%)": "1.215",
+        "상품 판매사": "한국투자증권, SK증권주식회사, 아이엠증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=142",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=142",
+        "collected_at": "2026-09-23T08:24:59.437471+00:00",
+        "http_status": 200,
+        "sha256": "0fb517e43a471a7ff7d2972666e75020b50ef31309af8beafac1e5273cacd556"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.37a23615f4e2a2a3a632393b",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:d8bf6150b4a8790ea708ccf3",
+  "group": "3",
+  "provider": "BNK자산운용",
+  "title": "BNK튼튼개인MMF1호 Class S-P",
+  "cells": [
+    "BNK자산운용",
+    "BNK튼튼개인MMF1호 Class S-P",
+    "단기금융",
+    "6",
+    "2015/04/23",
+    "판매",
+    "223",
+    "2.66",
+    "3.12",
+    "2.78",
+    "2.28",
+    "2.05",
+    "1.99",
+    "0.220",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=275",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=275",
+    "collected_at": "2026-09-23T08:27:58.814214+00:00",
+    "http_status": 200,
+    "sha256": "e81062e3bb919d8d58286ad6b116f0f6f7fbac839dfa142888681139232c5503"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "BNK자산운용",
+        "상품명": "BNK튼튼개인MMF1호 Class S-P",
+        "상품유형": "단기금융",
+        "위험등급": "6",
+        "설정일": "2015/04/23",
+        "판매여부": "판매",
+        "순자산총액": "223",
+        "1년 연평균수익률(%)": "2.66",
+        "3년 연평균수익률(%)": "3.12",
+        "5년 연평균수익률(%)": "2.78",
+        "7년 연평균수익률(%)": "2.28",
+        "10년 연평균수익률(%)": "2.05",
+        "누적연평균수익률(%)": "1.99",
+        "연평균수수료율(%)": "0.220",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=275",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=275",
+        "collected_at": "2026-09-23T08:27:58.814214+00:00",
+        "http_status": 200,
+        "sha256": "e81062e3bb919d8d58286ad6b116f0f6f7fbac839dfa142888681139232c5503"
+      }
+    }
+  ]
+}

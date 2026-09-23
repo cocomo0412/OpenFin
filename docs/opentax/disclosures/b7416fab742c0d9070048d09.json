@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.76a0dde649fa91bc014b8f3a",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:037b8692fb801e509c1262d2",
+  "group": "4",
+  "provider": "삼성생명보험",
+  "title": "연금저축 골드연금보험1.4",
+  "cells": [
+    "삼성생명보험",
+    "연금저축 골드연금보험1.4",
+    "금리연동형",
+    "2013/04/01",
+    "중단",
+    "252,466",
+    "-5.35",
+    "-0.89",
+    "-0.10",
+    "0.23",
+    "0.54",
+    "0.84",
+    "6.228"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=2",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=2",
+    "collected_at": "2026-09-23T08:21:43.107456+00:00",
+    "http_status": 200,
+    "sha256": "ecb2ab95b06c6d36c8cec92f0547da8fb5668b0f2a21fbd9971b26a29ce3ecd5"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성생명보험",
+        "상품명": "연금저축 골드연금보험1.4",
+        "상품유형": "금리연동형",
+        "최초판매일": "2013/04/01",
+        "판매여부": "중단",
+        "적립금총액": "252,466",
+        "1년 연평균수익률(%)": "-5.35",
+        "3년 연평균수익률(%)": "-0.89",
+        "5년 연평균수익률(%)": "-0.10",
+        "7년 연평균수익률(%)": "0.23",
+        "10년 연평균수익률(%)": "0.54",
+        "누적연평균수익률(%)": "0.84",
+        "연평균수수료율(%)": "6.228"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=2",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=2",
+        "collected_at": "2026-09-23T08:21:43.107456+00:00",
+        "http_status": 200,
+        "sha256": "ecb2ab95b06c6d36c8cec92f0547da8fb5668b0f2a21fbd9971b26a29ce3ecd5"
+      }
+    }
+  ]
+}

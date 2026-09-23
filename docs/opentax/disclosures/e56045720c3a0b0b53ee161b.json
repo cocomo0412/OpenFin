@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.e2e88c4ce6d42494b976511a",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:6f04b1650a1b8db819a6e74f",
+  "group": "3",
+  "provider": "키움투자자산운용",
+  "title": "키움연금장대트리플플러스전환형증권자투자신탁1호[채권혼합]",
+  "cells": [
+    "키움투자자산운용",
+    "키움연금장대트리플플러스전환형증권자투자신탁1호[채권혼합]",
+    "혼합채권형",
+    "5",
+    "2011/08/29",
+    "판매",
+    "846",
+    "45.43",
+    "18.00",
+    "11.38",
+    "8.75",
+    "6.69",
+    "5.25",
+    "0.804",
+    "(주)우리투자증권, 키움증권(주)"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=198",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=198",
+    "collected_at": "2026-09-23T08:26:14.622223+00:00",
+    "http_status": 200,
+    "sha256": "5846ad87c62ed05bf48c315f80b3404a908c15bcf8b71453204b9449bd14f98d"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "키움투자자산운용",
+        "상품명": "키움연금장대트리플플러스전환형증권자투자신탁1호[채권혼합]",
+        "상품유형": "혼합채권형",
+        "위험등급": "5",
+        "설정일": "2011/08/29",
+        "판매여부": "판매",
+        "순자산총액": "846",
+        "1년 연평균수익률(%)": "45.43",
+        "3년 연평균수익률(%)": "18.00",
+        "5년 연평균수익률(%)": "11.38",
+        "7년 연평균수익률(%)": "8.75",
+        "10년 연평균수익률(%)": "6.69",
+        "누적연평균수익률(%)": "5.25",
+        "연평균수수료율(%)": "0.804",
+        "상품 판매사": "(주)우리투자증권, 키움증권(주)"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=198",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=198",
+        "collected_at": "2026-09-23T08:26:14.622223+00:00",
+        "http_status": 200,
+        "sha256": "5846ad87c62ed05bf48c315f80b3404a908c15bcf8b71453204b9449bd14f98d"
+      }
+    }
+  ]
+}

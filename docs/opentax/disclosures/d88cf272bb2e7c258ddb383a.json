@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.8c215ce64a413f90bf2d8311",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:57dde7f97f8d9423bbc4e01c",
+  "group": "3",
+  "provider": "키움투자자산운용",
+  "title": "키움ESG중장기우량채증권자투자신탁제1호[채권]C-Pe",
+  "cells": [
+    "키움투자자산운용",
+    "키움ESG중장기우량채증권자투자신탁제1호[채권]C-Pe",
+    "채권형",
+    "5",
+    "2017/10/19",
+    "판매",
+    "964",
+    "-4.95",
+    "2.55",
+    "0.87",
+    "0.79",
+    "-",
+    "1.57",
+    "0.309",
+    "(주)우리투자증권, 키움증권(주), 삼성생명보험주식회사, 한국투자증권, IBK기업은행, KB증권, KB국민은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=191",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=191",
+    "collected_at": "2026-09-23T08:26:05.166899+00:00",
+    "http_status": 200,
+    "sha256": "eabc7532be120fb9cac084858200900563a0893766d45e4fa596a12269253c14"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "키움투자자산운용",
+        "상품명": "키움ESG중장기우량채증권자투자신탁제1호[채권]C-Pe",
+        "상품유형": "채권형",
+        "위험등급": "5",
+        "설정일": "2017/10/19",
+        "판매여부": "판매",
+        "순자산총액": "964",
+        "1년 연평균수익률(%)": "-4.95",
+        "3년 연평균수익률(%)": "2.55",
+        "5년 연평균수익률(%)": "0.87",
+        "7년 연평균수익률(%)": "0.79",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "1.57",
+        "연평균수수료율(%)": "0.309",
+        "상품 판매사": "(주)우리투자증권, 키움증권(주), 삼성생명보험주식회사, 한국투자증권, IBK기업은행, KB증권, KB국민은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=191",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=191",
+        "collected_at": "2026-09-23T08:26:05.166899+00:00",
+        "http_status": 200,
+        "sha256": "eabc7532be120fb9cac084858200900563a0893766d45e4fa596a12269253c14"
+      }
+    }
+  ]
+}

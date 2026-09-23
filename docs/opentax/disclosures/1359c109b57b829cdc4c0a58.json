@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.1b4ccf118aade2cab66efd88",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:d8cc335ae878e98da9a1ca9f",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 액티브 배당 증권 자투자신탁(주식) C-Pe Class",
+  "cells": [
+    "KB자산운용",
+    "KB 액티브 배당 증권 자투자신탁(주식) C-Pe Class",
+    "주식형",
+    "2",
+    "2017/12/26",
+    "판매",
+    "22,532",
+    "188.37",
+    "56.75",
+    "26.04",
+    "24.53",
+    "-",
+    "18.70",
+    "1.135",
+    "한화투자증권주식회사, (주)우리투자증권, 광주은행, 한국투자증권, 삼성증권, KB증권, 대신증권주식회사, KB국민은행, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=45",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=45",
+    "collected_at": "2026-09-23T08:22:47.699544+00:00",
+    "http_status": 200,
+    "sha256": "aba7b758e3cbb1b11cfa910a5425210a1f6f9dd132ed863a5cc477adb515e856"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 액티브 배당 증권 자투자신탁(주식) C-Pe Class",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2017/12/26",
+        "판매여부": "판매",
+        "순자산총액": "22,532",
+        "1년 연평균수익률(%)": "188.37",
+        "3년 연평균수익률(%)": "56.75",
+        "5년 연평균수익률(%)": "26.04",
+        "7년 연평균수익률(%)": "24.53",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "18.70",
+        "연평균수수료율(%)": "1.135",
+        "상품 판매사": "한화투자증권주식회사, (주)우리투자증권, 광주은행, 한국투자증권, 삼성증권, KB증권, 대신증권주식회사, KB국민은행, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=45",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=45",
+        "collected_at": "2026-09-23T08:22:47.699544+00:00",
+        "http_status": 200,
+        "sha256": "aba7b758e3cbb1b11cfa910a5425210a1f6f9dd132ed863a5cc477adb515e856"
+      }
+    }
+  ]
+}

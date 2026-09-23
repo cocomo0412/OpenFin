@@ -1,0 +1,52 @@
+{
+  "id": "finance.insurance.klia.cancer.라이나생명.l513nnnb1i0100199",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L513NNNB1I0100199",
+  "group": "024400010004",
+  "title": "(무)암으로치료하였어도OK암보험",
+  "provider": "라이나생명",
+  "cells": [
+    "라이나생명",
+    "(무)암으로치료하였어도OK암보험",
+    "주계약",
+    "만기지급금 *지급사유 : 피보험자가 보험기간이 끝날 때 까지 “두번째 암”으로 진단받지 않고 살아있을 때",
+    "3,000만원",
+    "62,700 원",
+    "78,300 원",
+    "2.25 %",
+    "-",
+    "-",
+    "116.9 %",
+    "118.1 %",
+    "71.4 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "만기환급",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "대면채널",
+    "2026-04-01",
+    "Download",
+    "보기",
+    "15880058"
+  ],
+  "coverage": [
+    "만기지급금 *지급사유 : 피보험자가 보험기간이 끝날 때 까지 “두번째 암”으로 진단받지 않고 살아있을 때",
+    "두번째암치료보험금 *지급사유 : 피보험자가 보험기간 중 두번째 암보장개시일 이후에 “두번째 암”으로 진단확정 되었을 때 (단, 최초 1회에 한하여 지급함)",
+    "무배당암으로치료하였어도OK암특약 *지급사유 : 1. 피보험자가 보험기간이 끝날 때 까지 “2차암”으로 진단받지 않고 살아있을 때 2. 피보험자가 보험기간 중 2차암보장개시일 이후에 “2차암”으로 진단확정 되었을 때 (단, 최초 1회에 한하여 지급함)"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=13695&seq=12"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010004&pageIndex=4&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010004&pageIndex=4&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:31.497499+00:00",
+    "http_status": 200,
+    "sha256": "43298a09eaf9aa111ce4b9523ba033a1228b4125c107b4e2b5513214b34f2a70"
+  }
+}

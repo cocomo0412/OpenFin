@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.5cff4b169a51db14d7b8c00e",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:72fcdc29699db5f95489c0b3",
+  "group": "3",
+  "provider": "NH-Amundi자산운용",
+  "title": "NH-Amundi 모아모아15 증권투자신탁[채권혼합] Class C-P1e(연금저축)",
+  "cells": [
+    "NH-Amundi자산운용",
+    "NH-Amundi 모아모아15 증권투자신탁[채권혼합] Class C-P1e(연금저축)",
+    "혼합채권형",
+    "5",
+    "2017/10/25",
+    "판매",
+    "237",
+    "19.07",
+    "10.27",
+    "5.63",
+    "5.11",
+    "-",
+    "4.48",
+    "0.353",
+    "NH농협은행, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=272",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=272",
+    "collected_at": "2026-09-23T08:27:54.772209+00:00",
+    "http_status": 200,
+    "sha256": "610045407a77b660c9899c76608fd7df1df1638ae78ae0cea8e14ba214f21c64"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "NH-Amundi자산운용",
+        "상품명": "NH-Amundi 모아모아15 증권투자신탁[채권혼합] Class C-P1e(연금저축)",
+        "상품유형": "혼합채권형",
+        "위험등급": "5",
+        "설정일": "2017/10/25",
+        "판매여부": "판매",
+        "순자산총액": "237",
+        "1년 연평균수익률(%)": "19.07",
+        "3년 연평균수익률(%)": "10.27",
+        "5년 연평균수익률(%)": "5.63",
+        "7년 연평균수익률(%)": "5.11",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "4.48",
+        "연평균수수료율(%)": "0.353",
+        "상품 판매사": "NH농협은행, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=272",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=272",
+        "collected_at": "2026-09-23T08:27:54.772209+00:00",
+        "http_status": 200,
+        "sha256": "610045407a77b660c9899c76608fd7df1df1638ae78ae0cea8e14ba214f21c64"
+      }
+    }
+  ]
+}

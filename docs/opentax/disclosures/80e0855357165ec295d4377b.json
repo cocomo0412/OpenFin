@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.c5f0e8a9a0d9280b014775b3",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:4569b0f8885cb6e2fdc28252",
+  "group": "3",
+  "provider": "에셋플러스자산운용",
+  "title": "에셋플러스 알파로보 글로벌 인컴 증권 자투자신탁 1-1호(주식) 종류 C-Pe",
+  "cells": [
+    "에셋플러스자산운용",
+    "에셋플러스 알파로보 글로벌 인컴 증권 자투자신탁 1-1호(주식) 종류 C-Pe",
+    "주식형",
+    "3",
+    "2017/11/06",
+    "판매",
+    "299",
+    "22.24",
+    "13.51",
+    "11.56",
+    "11.62",
+    "-",
+    "10.66",
+    "0.980",
+    "키움증권(주), 에셋플러스자산운용(주), NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=260",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=260",
+    "collected_at": "2026-09-23T08:27:38.997437+00:00",
+    "http_status": 200,
+    "sha256": "6e4f2280d658dbef7f15168f5ead8bb38e6f1c502d1585ac9ce0ae1696166ef0"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "에셋플러스자산운용",
+        "상품명": "에셋플러스 알파로보 글로벌 인컴 증권 자투자신탁 1-1호(주식) 종류 C-Pe",
+        "상품유형": "주식형",
+        "위험등급": "3",
+        "설정일": "2017/11/06",
+        "판매여부": "판매",
+        "순자산총액": "299",
+        "1년 연평균수익률(%)": "22.24",
+        "3년 연평균수익률(%)": "13.51",
+        "5년 연평균수익률(%)": "11.56",
+        "7년 연평균수익률(%)": "11.62",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "10.66",
+        "연평균수수료율(%)": "0.980",
+        "상품 판매사": "키움증권(주), 에셋플러스자산운용(주), NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=260",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=260",
+        "collected_at": "2026-09-23T08:27:38.997437+00:00",
+        "http_status": 200,
+        "sha256": "6e4f2280d658dbef7f15168f5ead8bb38e6f1c502d1585ac9ce0ae1696166ef0"
+      }
+    }
+  ]
+}

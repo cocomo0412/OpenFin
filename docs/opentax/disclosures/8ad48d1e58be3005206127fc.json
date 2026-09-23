@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.d9ec91fc537cc94768f3b29c",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:756a3e4fbbead0d268f8ab63",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 글로벌 코어 리츠 부동산 자투자신탁(재간접형)(H) C-Pe",
+  "cells": [
+    "KB자산운용",
+    "KB 글로벌 코어 리츠 부동산 자투자신탁(재간접형)(H) C-Pe",
+    "부동산",
+    "3",
+    "2019/10/11",
+    "판매",
+    "101",
+    "12.33",
+    "6.57",
+    "0.33",
+    "-",
+    "-",
+    "1.34",
+    "0.971",
+    "(주)우리투자증권, 삼성증권, KB증권, KB국민은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=296",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=296",
+    "collected_at": "2026-09-23T08:28:26.430674+00:00",
+    "http_status": 200,
+    "sha256": "9ea54ebf65f534b07bae0b553014920f1259a6aeb677ae0d8287a87c595370b0"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 글로벌 코어 리츠 부동산 자투자신탁(재간접형)(H) C-Pe",
+        "상품유형": "부동산",
+        "위험등급": "3",
+        "설정일": "2019/10/11",
+        "판매여부": "판매",
+        "순자산총액": "101",
+        "1년 연평균수익률(%)": "12.33",
+        "3년 연평균수익률(%)": "6.57",
+        "5년 연평균수익률(%)": "0.33",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "1.34",
+        "연평균수수료율(%)": "0.971",
+        "상품 판매사": "(주)우리투자증권, 삼성증권, KB증권, KB국민은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=296",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=296",
+        "collected_at": "2026-09-23T08:28:26.430674+00:00",
+        "http_status": 200,
+        "sha256": "9ea54ebf65f534b07bae0b553014920f1259a6aeb677ae0d8287a87c595370b0"
+      }
+    }
+  ]
+}

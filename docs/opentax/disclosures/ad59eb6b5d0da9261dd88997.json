@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.7878de288dbd2b09a9d64b61",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:43b8d9395a23a30d4447818d",
+  "group": "3",
+  "provider": "신한자산운용",
+  "title": "신한해피라이프연금중국본토증권자투자신탁제1호(H)[주식](종류C1)",
+  "cells": [
+    "신한자산운용",
+    "신한해피라이프연금중국본토증권자투자신탁제1호(H)[주식](종류C1)",
+    "주식형",
+    "2",
+    "2015/02/10",
+    "판매",
+    "1,837",
+    "48.60",
+    "10.47",
+    "-0.63",
+    "5.08",
+    "4.64",
+    "3.59",
+    "1.705",
+    "NH농협은행, 유안타증권주식회사, 한국투자증권, 삼성증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=155",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=155",
+    "collected_at": "2026-09-23T08:25:16.772716+00:00",
+    "http_status": 200,
+    "sha256": "88ac7c39694ef5ba469c756b08948b0f91991486ed28af21d7abfec5c5b341e3"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한자산운용",
+        "상품명": "신한해피라이프연금중국본토증권자투자신탁제1호(H)[주식](종류C1)",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2015/02/10",
+        "판매여부": "판매",
+        "순자산총액": "1,837",
+        "1년 연평균수익률(%)": "48.60",
+        "3년 연평균수익률(%)": "10.47",
+        "5년 연평균수익률(%)": "-0.63",
+        "7년 연평균수익률(%)": "5.08",
+        "10년 연평균수익률(%)": "4.64",
+        "누적연평균수익률(%)": "3.59",
+        "연평균수수료율(%)": "1.705",
+        "상품 판매사": "NH농협은행, 유안타증권주식회사, 한국투자증권, 삼성증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=155",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=155",
+        "collected_at": "2026-09-23T08:25:16.772716+00:00",
+        "http_status": 200,
+        "sha256": "88ac7c39694ef5ba469c756b08948b0f91991486ed28af21d7abfec5c5b341e3"
+      }
+    }
+  ]
+}

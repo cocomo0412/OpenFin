@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.7fcf303d18588effd3470279",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:8269d3564486885a447945fc",
+  "group": "3",
+  "provider": "신한자산운용",
+  "title": "신한삼성전자알파증권자투자신탁제2호[채권혼합](종류C-pe)",
+  "cells": [
+    "신한자산운용",
+    "신한삼성전자알파증권자투자신탁제2호[채권혼합](종류C-pe)",
+    "혼합채권형",
+    "4",
+    "2020/09/09",
+    "판매",
+    "284",
+    "54.25",
+    "16.75",
+    "-",
+    "-",
+    "-",
+    "9.10",
+    "0.560",
+    "한국투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=262",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=262",
+    "collected_at": "2026-09-23T08:27:41.437341+00:00",
+    "http_status": 200,
+    "sha256": "1ffebfe71ee59b98529b4f14a36f7428731b189a17c4943d32f737a4fc011102"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한자산운용",
+        "상품명": "신한삼성전자알파증권자투자신탁제2호[채권혼합](종류C-pe)",
+        "상품유형": "혼합채권형",
+        "위험등급": "4",
+        "설정일": "2020/09/09",
+        "판매여부": "판매",
+        "순자산총액": "284",
+        "1년 연평균수익률(%)": "54.25",
+        "3년 연평균수익률(%)": "16.75",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "9.10",
+        "연평균수수료율(%)": "0.560",
+        "상품 판매사": "한국투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=262",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=262",
+        "collected_at": "2026-09-23T08:27:41.437341+00:00",
+        "http_status": 200,
+        "sha256": "1ffebfe71ee59b98529b4f14a36f7428731b189a17c4943d32f737a4fc011102"
+      }
+    }
+  ]
+}

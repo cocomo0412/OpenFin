@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.e9042c7f0e09c59924fe1db5",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:0ffd595b7fea60b80e8d4112",
+  "group": "3",
+  "provider": "iM에셋자산운용",
+  "title": "iM에셋 개인연금증권전환형자투자신탁1호(채권혼합) C",
+  "cells": [
+    "iM에셋자산운용",
+    "iM에셋 개인연금증권전환형자투자신탁1호(채권혼합) C",
+    "혼합채권형",
+    "5",
+    "2009/10/06",
+    "판매",
+    "340",
+    "33.31",
+    "13.89",
+    "6.72",
+    "6.86",
+    "5.39",
+    "4.70",
+    "1.052",
+    "LS증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=253",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=253",
+    "collected_at": "2026-09-23T08:27:29.401995+00:00",
+    "http_status": 200,
+    "sha256": "a647b089355a46f6e4f087b396ad78cfb7f21cd57d4718c87c8ba64cb1538d33"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "iM에셋자산운용",
+        "상품명": "iM에셋 개인연금증권전환형자투자신탁1호(채권혼합) C",
+        "상품유형": "혼합채권형",
+        "위험등급": "5",
+        "설정일": "2009/10/06",
+        "판매여부": "판매",
+        "순자산총액": "340",
+        "1년 연평균수익률(%)": "33.31",
+        "3년 연평균수익률(%)": "13.89",
+        "5년 연평균수익률(%)": "6.72",
+        "7년 연평균수익률(%)": "6.86",
+        "10년 연평균수익률(%)": "5.39",
+        "누적연평균수익률(%)": "4.70",
+        "연평균수수료율(%)": "1.052",
+        "상품 판매사": "LS증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=253",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=253",
+        "collected_at": "2026-09-23T08:27:29.401995+00:00",
+        "http_status": 200,
+        "sha256": "a647b089355a46f6e4f087b396ad78cfb7f21cd57d4718c87c8ba64cb1538d33"
+      }
+    }
+  ]
+}

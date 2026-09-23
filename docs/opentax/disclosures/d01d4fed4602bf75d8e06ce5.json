@@ -1,0 +1,50 @@
+{
+  "id": "finance.insurance.klia.accident.abl생명.l0202460002nnn0247000202440001024400010006024400010006000202440001000600020004ac110",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L0202460002NNN0247000202440001024400010006024400010006000202440001000600020004AC110",
+  "group": "024400010006",
+  "title": "(무)더나은안심보험_2형(상해보장형)",
+  "provider": "ABL생명",
+  "cells": [
+    "ABL생명",
+    "(무)더나은안심보험_2형(상해보장형)",
+    "주계약",
+    "고도장해보험금 *지급사유 : 피보험자가 보험기간 중 「동일한 재해 또는 재해 이외의 동일한 원인」으로 인하여 장해분류표 중 여러 신체부위의 장해지급률을 더하여 80%이상인 장해 상태가 되었을 때(다만, 최초 1회에 한하여 지급)",
+    "1,000만원",
+    "426,400 원",
+    "186,300 원",
+    "3.00 %",
+    "-",
+    "-",
+    "93.9 %",
+    "90.0 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "보험기간(1년 초과)",
+    "순수보장",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "방카슈랑스",
+    "2026-04-01",
+    "Download",
+    "보기",
+    "0215886500"
+  ],
+  "coverage": [
+    "고도장해보험금 *지급사유 : 피보험자가 보험기간 중 「동일한 재해 또는 재해 이외의 동일한 원인」으로 인하여 장해분류표 중 여러 신체부위의 장해지급률을 더하여 80%이상인 장해 상태가 되었을 때(다만, 최초 1회에 한하여 지급)",
+    "재해사망보험금 *지급사유 : 피보험자가 보험기간 중 재해로 사망하였을 때"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=43952&seq=2"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010006&pageIndex=1&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010006&pageIndex=1&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:33.337017+00:00",
+    "http_status": 200,
+    "sha256": "c280652adceb76d438433b3bd058249712469477f98b5cc496021596cbf33446"
+  }
+}

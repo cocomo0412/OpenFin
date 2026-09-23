@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.26750b2e5fdd076e92ff9905",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:07e26b1648cb4a50578af0be",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자웰링턴글로벌퀄리티증권자투자신탁UH(주식)(S-P)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자웰링턴글로벌퀄리티증권자투자신탁UH(주식)(S-P)",
+    "주식형",
+    "3",
+    "2017/09/27",
+    "판매",
+    "389",
+    "31.77",
+    "25.45",
+    "15.28",
+    "16.23",
+    "-",
+    "15.89",
+    "1.101",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=247",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=247",
+    "collected_at": "2026-09-23T08:27:21.223359+00:00",
+    "http_status": 200,
+    "sha256": "317a0f7b77f1cfe6c959c5f6b98125fbd3bf531e31b6d233d18c4e033a3e37d9"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자웰링턴글로벌퀄리티증권자투자신탁UH(주식)(S-P)",
+        "상품유형": "주식형",
+        "위험등급": "3",
+        "설정일": "2017/09/27",
+        "판매여부": "판매",
+        "순자산총액": "389",
+        "1년 연평균수익률(%)": "31.77",
+        "3년 연평균수익률(%)": "25.45",
+        "5년 연평균수익률(%)": "15.28",
+        "7년 연평균수익률(%)": "16.23",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "15.89",
+        "연평균수수료율(%)": "1.101",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=247",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=247",
+        "collected_at": "2026-09-23T08:27:21.223359+00:00",
+        "http_status": 200,
+        "sha256": "317a0f7b77f1cfe6c959c5f6b98125fbd3bf531e31b6d233d18c4e033a3e37d9"
+      }
+    }
+  ]
+}

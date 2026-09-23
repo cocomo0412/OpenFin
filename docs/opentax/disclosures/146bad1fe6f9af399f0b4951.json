@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.65de9ddab1d97cb5a4c46d60",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:1789f4be8bdf141065245787",
+  "group": "3",
+  "provider": "KCGI자산운용",
+  "title": "KCGI코리아스몰캡증권투자신탁[주식]종류C-Pe",
+  "cells": [
+    "KCGI자산운용",
+    "KCGI코리아스몰캡증권투자신탁[주식]종류C-Pe",
+    "주식형",
+    "2",
+    "2017/08/28",
+    "판매",
+    "36,937",
+    "57.40",
+    "30.07",
+    "14.14",
+    "19.63",
+    "-",
+    "15.18",
+    "1.134",
+    "(주)우리투자증권, 키움증권(주), 한국투자증권, 삼성증권, 교보증권(주), 대신증권주식회사, 아이엠증권, 신한은행, 미래에셋증권 주식회사, IBK투자증권, NH투자증권, KCGI자산운용, 신한투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=31",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=31",
+    "collected_at": "2026-09-23T08:22:28.353309+00:00",
+    "http_status": 200,
+    "sha256": "92abdb49e97031572c5162d474a31a82b22096652bad91d530f9dadbc33f0fea"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KCGI자산운용",
+        "상품명": "KCGI코리아스몰캡증권투자신탁[주식]종류C-Pe",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2017/08/28",
+        "판매여부": "판매",
+        "순자산총액": "36,937",
+        "1년 연평균수익률(%)": "57.40",
+        "3년 연평균수익률(%)": "30.07",
+        "5년 연평균수익률(%)": "14.14",
+        "7년 연평균수익률(%)": "19.63",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "15.18",
+        "연평균수수료율(%)": "1.134",
+        "상품 판매사": "(주)우리투자증권, 키움증권(주), 한국투자증권, 삼성증권, 교보증권(주), 대신증권주식회사, 아이엠증권, 신한은행, 미래에셋증권 주식회사, IBK투자증권, NH투자증권, KCGI자산운용, 신한투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=31",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=31",
+        "collected_at": "2026-09-23T08:22:28.353309+00:00",
+        "http_status": 200,
+        "sha256": "92abdb49e97031572c5162d474a31a82b22096652bad91d530f9dadbc33f0fea"
+      }
+    }
+  ]
+}

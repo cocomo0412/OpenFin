@@ -1,0 +1,34 @@
+{
+  "id": "deduction.housing-savings",
+  "source_id": "source.nhuf.housing-subscription",
+  "summary": [
+    {
+      "label": "소득공제 대상",
+      "condition": "총급여 7천만원 이하 근로자인 무주택 세대주 및 무주택 세대주의 배우자. 다음 연도 2월 말까지 가입은행에 무주택확인서를 제출해야 합니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.nhuf.housing-subscription",
+      "criteria_kind": "disclosure"
+    },
+    {
+      "label": "소득공제 한도",
+      "condition": "연 납입액 300만원 한도의 40%, 최대 120만원을 소득공제합니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.nhuf.housing-subscription",
+      "criteria_kind": "disclosure"
+    },
+    {
+      "label": "추징",
+      "condition": "가입 후 5년 이내 해지 또는 국민주택규모 초과 주택 당첨 등은 추징 대상입니다. 해외이주·85㎡ 이하 당첨해지 등 예외와 상세 기준은 공식 안내를 확인합니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.nhuf.housing-subscription",
+      "criteria_kind": "disclosure"
+    }
+  ],
+  "receipt": {
+    "url": "https://nhuf.molit.go.kr/FP/FP07/FP0701/FP07010101.jsp",
+    "final_url": "https://nhuf.molit.go.kr/FP/FP07/FP0701/FP07010101.jsp",
+    "collected_at": "2026-09-23T08:40:37.994428+00:00",
+    "http_status": 200,
+    "sha256": "14a9dae122f5b77bed8ff0220e3d8a5c76f0db3728d49f59d5bdd33f02f40e34"
+  }
+}

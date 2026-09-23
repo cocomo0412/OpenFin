@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.63706950be219544d6fd8c3a",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:fee515e721d60d23fff54fc0",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 브라질 증권 자투자신탁(주식) C-Pe 클래스",
+  "cells": [
+    "KB자산운용",
+    "KB 브라질 증권 자투자신탁(주식) C-Pe 클래스",
+    "주식형",
+    "1",
+    "2017/08/23",
+    "판매",
+    "669",
+    "20.54",
+    "10.42",
+    "3.38",
+    "1.96",
+    "-",
+    "4.14",
+    "1.301",
+    "키움증권(주), 한국투자증권, KB증권, 아이엠증권, 미래에셋증권 주식회사, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=213",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=213",
+    "collected_at": "2026-09-23T08:26:35.358969+00:00",
+    "http_status": 200,
+    "sha256": "0a27de6b8364e6e1a83dbb8f8f531d14668d3baf047ff5af8d84d8a259a1910b"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 브라질 증권 자투자신탁(주식) C-Pe 클래스",
+        "상품유형": "주식형",
+        "위험등급": "1",
+        "설정일": "2017/08/23",
+        "판매여부": "판매",
+        "순자산총액": "669",
+        "1년 연평균수익률(%)": "20.54",
+        "3년 연평균수익률(%)": "10.42",
+        "5년 연평균수익률(%)": "3.38",
+        "7년 연평균수익률(%)": "1.96",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "4.14",
+        "연평균수수료율(%)": "1.301",
+        "상품 판매사": "키움증권(주), 한국투자증권, KB증권, 아이엠증권, 미래에셋증권 주식회사, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=213",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=213",
+        "collected_at": "2026-09-23T08:26:35.358969+00:00",
+        "http_status": 200,
+        "sha256": "0a27de6b8364e6e1a83dbb8f8f531d14668d3baf047ff5af8d84d8a259a1910b"
+      }
+    }
+  ]
+}

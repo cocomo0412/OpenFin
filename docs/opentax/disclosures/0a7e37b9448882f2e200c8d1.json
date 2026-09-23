@@ -1,0 +1,12 @@
+{
+  "id": "finance.card.credit-card.비씨카드.인피니트-스카이패스-카드-225018",
+  "source_id": "source.bccard.credit-card-list",
+  "text": "카드상품 신용카드 상세보기 [BC공통] 인피니트 스카이패스 카드 [BC공통] 인피니트 스카이패스 카드 VISA 인피니트 등급 VIP 서비스 대한항공 마일리지 적립 연회비 연회비 1,000,000원(가족카드 150,000원) 75.0% 25.0% 8.3% 16.7% 50.0% 0.0% 25.0% (주)신세계백화점강남점 롯데쇼핑(주)에비뉴엘월드타워점 한화갤러리아(주) 명품관",
+  "receipt": {
+    "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=225018&mbkNo=999",
+    "final_url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=225018&mbkNo=999",
+    "collected_at": "2026-09-23T08:24:54.634298+00:00",
+    "http_status": 200,
+    "sha256": "673c0813599ef6f0c04a99d1341cc2a095ab96b3c8b9225085040493c188e99a"
+  }
+}

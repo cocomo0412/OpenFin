@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.505857b1caef4647074862a4",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:50a1165c1659f1fcacb5be2a",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 디딤 다이나믹 자산배분 증권 자투자신탁(채권혼합-재간접형) S-P",
+  "cells": [
+    "KB자산운용",
+    "KB 디딤 다이나믹 자산배분 증권 자투자신탁(채권혼합-재간접형) S-P",
+    "재간접",
+    "4",
+    "2024/09/25",
+    "판매",
+    "16",
+    "27.33",
+    "-",
+    "-",
+    "-",
+    "-",
+    "17.15",
+    "0.430",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=311",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=311",
+    "collected_at": "2026-09-23T08:28:47.082650+00:00",
+    "http_status": 200,
+    "sha256": "3d93d15f922a15be762df385cb358c356f4e9ae2fa447acc9c27ed4e04a1668b"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 디딤 다이나믹 자산배분 증권 자투자신탁(채권혼합-재간접형) S-P",
+        "상품유형": "재간접",
+        "위험등급": "4",
+        "설정일": "2024/09/25",
+        "판매여부": "판매",
+        "순자산총액": "16",
+        "1년 연평균수익률(%)": "27.33",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "17.15",
+        "연평균수수료율(%)": "0.430",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=311",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=311",
+        "collected_at": "2026-09-23T08:28:47.082650+00:00",
+        "http_status": 200,
+        "sha256": "3d93d15f922a15be762df385cb358c356f4e9ae2fa447acc9c27ed4e04a1668b"
+      }
+    }
+  ]
+}

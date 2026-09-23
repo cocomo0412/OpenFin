@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.47bb9e43e25805e218efa268",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:4b759eb48d048a5aab4c6f36",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋인디아디스커버리증권자투자신탁1호(주식)종류C-Pe",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋인디아디스커버리증권자투자신탁1호(주식)종류C-Pe",
+    "주식형",
+    "2",
+    "2024/04/02",
+    "판매",
+    "554",
+    "1.58",
+    "-",
+    "-",
+    "-",
+    "-",
+    "6.54",
+    "1.656",
+    "미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=225",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=225",
+    "collected_at": "2026-09-23T08:26:51.693467+00:00",
+    "http_status": 200,
+    "sha256": "42dfaa5b44f4406812d6a3eae782eda408b8a0ee24c156ea2c690e1e79a78acb"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋인디아디스커버리증권자투자신탁1호(주식)종류C-Pe",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2024/04/02",
+        "판매여부": "판매",
+        "순자산총액": "554",
+        "1년 연평균수익률(%)": "1.58",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "6.54",
+        "연평균수수료율(%)": "1.656",
+        "상품 판매사": "미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=225",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=225",
+        "collected_at": "2026-09-23T08:26:51.693467+00:00",
+        "http_status": 200,
+        "sha256": "42dfaa5b44f4406812d6a3eae782eda408b8a0ee24c156ea2c690e1e79a78acb"
+      }
+    }
+  ]
+}

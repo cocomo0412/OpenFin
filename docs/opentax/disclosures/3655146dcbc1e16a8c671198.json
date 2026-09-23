@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.801c6a19e3d08878722485db",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:8e0f1c1dba92436c1a26ff85",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋솔로몬초단기국공채증권자투자신탁2호(채권)종류C-Pe",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋솔로몬초단기국공채증권자투자신탁2호(채권)종류C-Pe",
+    "채권형",
+    "6",
+    "2017/10/26",
+    "판매",
+    "402",
+    "1.96",
+    "3.16",
+    "2.79",
+    "2.39",
+    "-",
+    "1.22",
+    "0.316",
+    "(주)우리투자증권, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=245",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=245",
+    "collected_at": "2026-09-23T08:27:18.312335+00:00",
+    "http_status": 200,
+    "sha256": "c364954b8fcf8247eebc3c0170c0b564f31b85d4b2128e4c246548c3c8178380"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋솔로몬초단기국공채증권자투자신탁2호(채권)종류C-Pe",
+        "상품유형": "채권형",
+        "위험등급": "6",
+        "설정일": "2017/10/26",
+        "판매여부": "판매",
+        "순자산총액": "402",
+        "1년 연평균수익률(%)": "1.96",
+        "3년 연평균수익률(%)": "3.16",
+        "5년 연평균수익률(%)": "2.79",
+        "7년 연평균수익률(%)": "2.39",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "1.22",
+        "연평균수수료율(%)": "0.316",
+        "상품 판매사": "(주)우리투자증권, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=245",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=245",
+        "collected_at": "2026-09-23T08:27:18.312335+00:00",
+        "http_status": 200,
+        "sha256": "c364954b8fcf8247eebc3c0170c0b564f31b85d4b2128e4c246548c3c8178380"
+      }
+    }
+  ]
+}

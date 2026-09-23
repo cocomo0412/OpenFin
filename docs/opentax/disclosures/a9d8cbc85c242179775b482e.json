@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.a88c2278a6dd44c6f5ca47ab",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:57fdd65eb08d2e0cad0298f2",
+  "group": "3",
+  "provider": "IBK자산운용",
+  "title": "IBK 그랑프리 KRX100인덱스 증권 투자신탁[주식] 종류 C-Pe",
+  "cells": [
+    "IBK자산운용",
+    "IBK 그랑프리 KRX100인덱스 증권 투자신탁[주식] 종류 C-Pe",
+    "주식형",
+    "2",
+    "2018/03/27",
+    "판매",
+    "1,601",
+    "239.17",
+    "62.53",
+    "28.33",
+    "28.12",
+    "-",
+    "21.79",
+    "0.773",
+    "-"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=163",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=163",
+    "collected_at": "2026-09-23T08:25:27.781527+00:00",
+    "http_status": 200,
+    "sha256": "a7b85270a89a59cf38b2fb20fae4a9713d9db9f0ef806dd3ac5f3b1f3fdc788e"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "IBK자산운용",
+        "상품명": "IBK 그랑프리 KRX100인덱스 증권 투자신탁[주식] 종류 C-Pe",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2018/03/27",
+        "판매여부": "판매",
+        "순자산총액": "1,601",
+        "1년 연평균수익률(%)": "239.17",
+        "3년 연평균수익률(%)": "62.53",
+        "5년 연평균수익률(%)": "28.33",
+        "7년 연평균수익률(%)": "28.12",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "21.79",
+        "연평균수수료율(%)": "0.773",
+        "상품 판매사": "-"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=163",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=163",
+        "collected_at": "2026-09-23T08:25:27.781527+00:00",
+        "http_status": 200,
+        "sha256": "a7b85270a89a59cf38b2fb20fae4a9713d9db9f0ef806dd3ac5f3b1f3fdc788e"
+      }
+    }
+  ]
+}

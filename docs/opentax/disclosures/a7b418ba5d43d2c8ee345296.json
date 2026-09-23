@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.b1a9645be0c5567488a603c7",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:e83eb91c050dfcecb2389634",
+  "group": "5",
+  "provider": "삼성화재해상보험",
+  "title": "연금저축손해보험 삼성화재 소득공제단체∥(1304.2)(1307.3)직장인단체(1401.1)",
+  "cells": [
+    "삼성화재해상보험",
+    "연금저축손해보험 삼성화재 소득공제단체∥(1304.2)(1307.3)직장인단체(1401.1)",
+    "금리연동형",
+    "2013/04/01",
+    "중단",
+    "160,606",
+    "-3.16",
+    "-0.11",
+    "0.36",
+    "0.53",
+    "0.73",
+    "0.96",
+    "4.633"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=4",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=4",
+    "collected_at": "2026-09-23T08:21:48.721848+00:00",
+    "http_status": 200,
+    "sha256": "ecec0bebfd5f3ea90ddc00685afbf5b9ca72e19a69685e11b39938c6b8444dd2"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성화재해상보험",
+        "상품명": "연금저축손해보험 삼성화재 소득공제단체∥(1304.2)(1307.3)직장인단체(1401.1)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2013/04/01",
+        "판매여부": "중단",
+        "적립금총액": "160,606",
+        "1년 연평균수익률(%)": "-3.16",
+        "3년 연평균수익률(%)": "-0.11",
+        "5년 연평균수익률(%)": "0.36",
+        "7년 연평균수익률(%)": "0.53",
+        "10년 연평균수익률(%)": "0.73",
+        "누적연평균수익률(%)": "0.96",
+        "연평균수수료율(%)": "4.633"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=4",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=4",
+        "collected_at": "2026-09-23T08:21:48.721848+00:00",
+        "http_status": 200,
+        "sha256": "ecec0bebfd5f3ea90ddc00685afbf5b9ca72e19a69685e11b39938c6b8444dd2"
+      }
+    }
+  ]
+}

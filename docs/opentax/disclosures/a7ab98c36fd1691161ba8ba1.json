@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.649ab9edd470ceb978ccaaa0",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:20e463c13c7e5952ef2ab150",
+  "group": "3",
+  "provider": "에셋플러스자산운용",
+  "title": "에셋플러스 해피드림투게더 연금증권자투자신탁1호[주식혼합] 종류Ce",
+  "cells": [
+    "에셋플러스자산운용",
+    "에셋플러스 해피드림투게더 연금증권자투자신탁1호[주식혼합] 종류Ce",
+    "혼합주식형",
+    "4",
+    "2014/03/14",
+    "판매",
+    "686",
+    "14.47",
+    "7.47",
+    "5.92",
+    "5.75",
+    "3.66",
+    "3.29",
+    "0.924",
+    "디비증권주식회사, 키움증권(주), 한국투자증권, 미래에셋증권 주식회사, 에셋플러스자산운용(주), 신한투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=212",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=212",
+    "collected_at": "2026-09-23T08:26:34.140827+00:00",
+    "http_status": 200,
+    "sha256": "e94c1cd919394c35eed21f006b41839311bfdeab0b3d45f58366f220daa0ba0c"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "에셋플러스자산운용",
+        "상품명": "에셋플러스 해피드림투게더 연금증권자투자신탁1호[주식혼합] 종류Ce",
+        "상품유형": "혼합주식형",
+        "위험등급": "4",
+        "설정일": "2014/03/14",
+        "판매여부": "판매",
+        "순자산총액": "686",
+        "1년 연평균수익률(%)": "14.47",
+        "3년 연평균수익률(%)": "7.47",
+        "5년 연평균수익률(%)": "5.92",
+        "7년 연평균수익률(%)": "5.75",
+        "10년 연평균수익률(%)": "3.66",
+        "누적연평균수익률(%)": "3.29",
+        "연평균수수료율(%)": "0.924",
+        "상품 판매사": "디비증권주식회사, 키움증권(주), 한국투자증권, 미래에셋증권 주식회사, 에셋플러스자산운용(주), 신한투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=212",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=212",
+        "collected_at": "2026-09-23T08:26:34.140827+00:00",
+        "http_status": 200,
+        "sha256": "e94c1cd919394c35eed21f006b41839311bfdeab0b3d45f58366f220daa0ba0c"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.2cc765df54d222dbf145ba07",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:1f9bf9f73ec466ed010c0dc8",
+  "group": "3",
+  "provider": "한국투자밸류자산운용",
+  "title": "한국밸류10년투자연금증권전환형자투자신탁1호(채권)종류S-P",
+  "cells": [
+    "한국투자밸류자산운용",
+    "한국밸류10년투자연금증권전환형자투자신탁1호(채권)종류S-P",
+    "채권형",
+    "5",
+    "2014/04/22",
+    "판매",
+    "91",
+    "-2.38",
+    "2.63",
+    "1.84",
+    "1.61",
+    "1.57",
+    "1.86",
+    "0.333",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=297",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=297",
+    "collected_at": "2026-09-23T08:28:27.998079+00:00",
+    "http_status": 200,
+    "sha256": "a90482749b3b81e16c12842adc35cd2b6829cc603e29e30d509c45ead0c4967f"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자밸류자산운용",
+        "상품명": "한국밸류10년투자연금증권전환형자투자신탁1호(채권)종류S-P",
+        "상품유형": "채권형",
+        "위험등급": "5",
+        "설정일": "2014/04/22",
+        "판매여부": "판매",
+        "순자산총액": "91",
+        "1년 연평균수익률(%)": "-2.38",
+        "3년 연평균수익률(%)": "2.63",
+        "5년 연평균수익률(%)": "1.84",
+        "7년 연평균수익률(%)": "1.61",
+        "10년 연평균수익률(%)": "1.57",
+        "누적연평균수익률(%)": "1.86",
+        "연평균수수료율(%)": "0.333",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=297",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=297",
+        "collected_at": "2026-09-23T08:28:27.998079+00:00",
+        "http_status": 200,
+        "sha256": "a90482749b3b81e16c12842adc35cd2b6829cc603e29e30d509c45ead0c4967f"
+      }
+    }
+  ]
+}

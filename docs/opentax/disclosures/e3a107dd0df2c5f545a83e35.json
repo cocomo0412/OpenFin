@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.5d82b96571791de4cc9a6243",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:f0a2d5d90401a1136701a065",
+  "group": "3",
+  "provider": "웰컴자산운용",
+  "title": "웰컴공모주하이일드증권투자신탁제3호[채권혼합]C-P1E",
+  "cells": [
+    "웰컴자산운용",
+    "웰컴공모주하이일드증권투자신탁제3호[채권혼합]C-P1E",
+    "혼합채권형",
+    "6",
+    "2021/12/01",
+    "판매",
+    "1,326",
+    "3.99",
+    "5.86",
+    "-",
+    "-",
+    "-",
+    "4.90",
+    "1.055",
+    "유진투자증권주식회사, 키움증권(주), 대신증권주식회사, 아이엠증권, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=172",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=172",
+    "collected_at": "2026-09-23T08:25:39.898216+00:00",
+    "http_status": 200,
+    "sha256": "41876bd21f8113107446a6026898a28a5afb14008a6c618337806805136cef4c"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "웰컴자산운용",
+        "상품명": "웰컴공모주하이일드증권투자신탁제3호[채권혼합]C-P1E",
+        "상품유형": "혼합채권형",
+        "위험등급": "6",
+        "설정일": "2021/12/01",
+        "판매여부": "판매",
+        "순자산총액": "1,326",
+        "1년 연평균수익률(%)": "3.99",
+        "3년 연평균수익률(%)": "5.86",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "4.90",
+        "연평균수수료율(%)": "1.055",
+        "상품 판매사": "유진투자증권주식회사, 키움증권(주), 대신증권주식회사, 아이엠증권, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=172",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=172",
+        "collected_at": "2026-09-23T08:25:39.898216+00:00",
+        "http_status": 200,
+        "sha256": "41876bd21f8113107446a6026898a28a5afb14008a6c618337806805136cef4c"
+      }
+    }
+  ]
+}

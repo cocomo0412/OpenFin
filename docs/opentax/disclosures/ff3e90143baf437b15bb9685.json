@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.c51741ba725e5338c77218f3",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:4118e137b4a87eab16b09163",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋글로벌클린인프라증권자투자신탁[주식]종류S-P",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋글로벌클린인프라증권자투자신탁[주식]종류S-P",
+    "주식형",
+    "1",
+    "2015/04/16",
+    "판매",
+    "9,525",
+    "79.98",
+    "22.09",
+    "8.54",
+    "17.36",
+    "13.77",
+    "9.06",
+    "0.607",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=77",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=77",
+    "collected_at": "2026-09-23T08:23:31.588747+00:00",
+    "http_status": 200,
+    "sha256": "94858be0791f25fbbdcc46a344abe341053b9d373fc7d6f2dcd5460d2184b1e9"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋글로벌클린인프라증권자투자신탁[주식]종류S-P",
+        "상품유형": "주식형",
+        "위험등급": "1",
+        "설정일": "2015/04/16",
+        "판매여부": "판매",
+        "순자산총액": "9,525",
+        "1년 연평균수익률(%)": "79.98",
+        "3년 연평균수익률(%)": "22.09",
+        "5년 연평균수익률(%)": "8.54",
+        "7년 연평균수익률(%)": "17.36",
+        "10년 연평균수익률(%)": "13.77",
+        "누적연평균수익률(%)": "9.06",
+        "연평균수수료율(%)": "0.607",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=77",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=77",
+        "collected_at": "2026-09-23T08:23:31.588747+00:00",
+        "http_status": 200,
+        "sha256": "94858be0791f25fbbdcc46a344abe341053b9d373fc7d6f2dcd5460d2184b1e9"
+      }
+    }
+  ]
+}

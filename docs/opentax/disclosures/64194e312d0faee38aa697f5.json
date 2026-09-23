@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.326491b28fa4d9e3a93f83d0",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:12eaca7edc04bf80db9286c2",
+  "group": "3",
+  "provider": "iM에셋자산운용",
+  "title": "iM에셋글로벌다이나믹주식증권투자신탁(주식-재간접형)(H)(C-p)",
+  "cells": [
+    "iM에셋자산운용",
+    "iM에셋글로벌다이나믹주식증권투자신탁(주식-재간접형)(H)(C-p)",
+    "재간접",
+    "2",
+    "2015/07/03",
+    "판매",
+    "362",
+    "18.61",
+    "13.46",
+    "5.46",
+    "9.89",
+    "9.59",
+    "7.41",
+    "1.149",
+    "한화투자증권주식회사, 한국투자증권, 우리은행, 미래에셋증권 주식회사, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=250",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=250",
+    "collected_at": "2026-09-23T08:27:25.285494+00:00",
+    "http_status": 200,
+    "sha256": "04bced0d6046e850bb38ecf395d73a5d3893b32c643e7cf0354a3a0f2c1c5937"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "iM에셋자산운용",
+        "상품명": "iM에셋글로벌다이나믹주식증권투자신탁(주식-재간접형)(H)(C-p)",
+        "상품유형": "재간접",
+        "위험등급": "2",
+        "설정일": "2015/07/03",
+        "판매여부": "판매",
+        "순자산총액": "362",
+        "1년 연평균수익률(%)": "18.61",
+        "3년 연평균수익률(%)": "13.46",
+        "5년 연평균수익률(%)": "5.46",
+        "7년 연평균수익률(%)": "9.89",
+        "10년 연평균수익률(%)": "9.59",
+        "누적연평균수익률(%)": "7.41",
+        "연평균수수료율(%)": "1.149",
+        "상품 판매사": "한화투자증권주식회사, 한국투자증권, 우리은행, 미래에셋증권 주식회사, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=250",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=250",
+        "collected_at": "2026-09-23T08:27:25.285494+00:00",
+        "http_status": 200,
+        "sha256": "04bced0d6046e850bb38ecf395d73a5d3893b32c643e7cf0354a3a0f2c1c5937"
+      }
+    }
+  ]
+}

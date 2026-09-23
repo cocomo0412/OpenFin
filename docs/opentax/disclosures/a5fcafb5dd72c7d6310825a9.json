@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.11bc4e5f391b10bfdfead41f",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:f91fac6574787cc48628cd27",
+  "group": "3",
+  "provider": "KCGI자산운용",
+  "title": "KCGI차이나증권투자신탁[주식]종류C-P",
+  "cells": [
+    "KCGI자산운용",
+    "KCGI차이나증권투자신탁[주식]종류C-P",
+    "주식형",
+    "2",
+    "2016/05/02",
+    "판매",
+    "2,621",
+    "51.99",
+    "21.27",
+    "2.44",
+    "15.60",
+    "14.62",
+    "14.40",
+    "1.624",
+    "디비증권주식회사, 유진투자증권주식회사, 한화투자증권주식회사, 한국투자증권, 우리은행, KB증권, KB국민은행, IBK투자증권, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=136",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=136",
+    "collected_at": "2026-09-23T08:24:51.698736+00:00",
+    "http_status": 200,
+    "sha256": "47e38e691b503ec99a10b23fd932c5c0496d98c6dfb217caa345c3fc192f7176"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KCGI자산운용",
+        "상품명": "KCGI차이나증권투자신탁[주식]종류C-P",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2016/05/02",
+        "판매여부": "판매",
+        "순자산총액": "2,621",
+        "1년 연평균수익률(%)": "51.99",
+        "3년 연평균수익률(%)": "21.27",
+        "5년 연평균수익률(%)": "2.44",
+        "7년 연평균수익률(%)": "15.60",
+        "10년 연평균수익률(%)": "14.62",
+        "누적연평균수익률(%)": "14.40",
+        "연평균수수료율(%)": "1.624",
+        "상품 판매사": "디비증권주식회사, 유진투자증권주식회사, 한화투자증권주식회사, 한국투자증권, 우리은행, KB증권, KB국민은행, IBK투자증권, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=136",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=136",
+        "collected_at": "2026-09-23T08:24:51.698736+00:00",
+        "http_status": 200,
+        "sha256": "47e38e691b503ec99a10b23fd932c5c0496d98c6dfb217caa345c3fc192f7176"
+      }
+    }
+  ]
+}

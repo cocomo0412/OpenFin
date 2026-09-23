@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.cfe17e1843733de6531bf411",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:b1918aac9398e02152e302aa",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 온국민 적격TDF 2035 증권 자투자신탁(주식혼합-재간접형)(H) C-P",
+  "cells": [
+    "KB자산운용",
+    "KB 온국민 적격TDF 2035 증권 자투자신탁(주식혼합-재간접형)(H) C-P",
+    "재간접",
+    "3",
+    "2017/08/17",
+    "판매",
+    "15,373",
+    "29.27",
+    "16.18",
+    "7.96",
+    "8.71",
+    "-",
+    "7.47",
+    "0.767",
+    "한화투자증권주식회사, NH농협은행, 한국투자증권, 삼성증권, KB증권, KB국민은행, 하나은행, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=57",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=57",
+    "collected_at": "2026-09-23T08:23:04.639200+00:00",
+    "http_status": 200,
+    "sha256": "0fd333362cbdd78df8e73f8ab51bb62637374e525ce5bf8fa1b3ffa56bb773ad"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 온국민 적격TDF 2035 증권 자투자신탁(주식혼합-재간접형)(H) C-P",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2017/08/17",
+        "판매여부": "판매",
+        "순자산총액": "15,373",
+        "1년 연평균수익률(%)": "29.27",
+        "3년 연평균수익률(%)": "16.18",
+        "5년 연평균수익률(%)": "7.96",
+        "7년 연평균수익률(%)": "8.71",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "7.47",
+        "연평균수수료율(%)": "0.767",
+        "상품 판매사": "한화투자증권주식회사, NH농협은행, 한국투자증권, 삼성증권, KB증권, KB국민은행, 하나은행, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=57",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=57",
+        "collected_at": "2026-09-23T08:23:04.639200+00:00",
+        "http_status": 200,
+        "sha256": "0fd333362cbdd78df8e73f8ab51bb62637374e525ce5bf8fa1b3ffa56bb773ad"
+      }
+    }
+  ]
+}

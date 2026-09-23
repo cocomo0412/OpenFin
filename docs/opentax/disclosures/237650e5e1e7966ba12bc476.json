@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.9d09c4104be84d4e6183f988",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:63fee67f2e745c31a2c22af0",
+  "group": "4",
+  "provider": "아이비케이연금보험",
+  "title": "무배당 IBK e-세액공제연금저축보험_2007",
+  "cells": [
+    "아이비케이연금보험",
+    "무배당 IBK e-세액공제연금저축보험_2007",
+    "금리연동형",
+    "2020/07/01",
+    "중단",
+    "9,632",
+    "-4.02",
+    "-0.51",
+    "0.25",
+    "-",
+    "-",
+    "0.53",
+    "5.300"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=38",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=38",
+    "collected_at": "2026-09-23T08:31:22.401706+00:00",
+    "http_status": 200,
+    "sha256": "2513e7080b06f9ee64913f188e7a110b97a54abcc17e553c017f6dd1961bef57"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "아이비케이연금보험",
+        "상품명": "무배당 IBK e-세액공제연금저축보험_2007",
+        "상품유형": "금리연동형",
+        "최초판매일": "2020/07/01",
+        "판매여부": "중단",
+        "적립금총액": "9,632",
+        "1년 연평균수익률(%)": "-4.02",
+        "3년 연평균수익률(%)": "-0.51",
+        "5년 연평균수익률(%)": "0.25",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "0.53",
+        "연평균수수료율(%)": "5.300"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=38",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=38",
+        "collected_at": "2026-09-23T08:31:22.401706+00:00",
+        "http_status": 200,
+        "sha256": "2513e7080b06f9ee64913f188e7a110b97a54abcc17e553c017f6dd1961bef57"
+      }
+    }
+  ]
+}

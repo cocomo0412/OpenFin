@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.7c762d020257c45275606f24",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:6854da15f8d18c20ad398e31",
+  "group": "3",
+  "provider": "트러스톤자산운용",
+  "title": "트러스톤다이나믹코리아30연금저축증권자투자신탁[채권혼합]Ce클래스",
+  "cells": [
+    "트러스톤자산운용",
+    "트러스톤다이나믹코리아30연금저축증권자투자신탁[채권혼합]Ce클래스",
+    "혼합채권형",
+    "5",
+    "2017/08/02",
+    "판매",
+    "146",
+    "18.96",
+    "7.58",
+    "3.69",
+    "3.84",
+    "-",
+    "3.40",
+    "0.680",
+    "한국투자증권, 삼성증권, 우리은행, 대신증권주식회사, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=288",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=288",
+    "collected_at": "2026-09-23T08:28:16.204920+00:00",
+    "http_status": 200,
+    "sha256": "a10e425497cad70982742a28d0661c42038b78820987d2ceaac555bce756f195"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "트러스톤자산운용",
+        "상품명": "트러스톤다이나믹코리아30연금저축증권자투자신탁[채권혼합]Ce클래스",
+        "상품유형": "혼합채권형",
+        "위험등급": "5",
+        "설정일": "2017/08/02",
+        "판매여부": "판매",
+        "순자산총액": "146",
+        "1년 연평균수익률(%)": "18.96",
+        "3년 연평균수익률(%)": "7.58",
+        "5년 연평균수익률(%)": "3.69",
+        "7년 연평균수익률(%)": "3.84",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "3.40",
+        "연평균수수료율(%)": "0.680",
+        "상품 판매사": "한국투자증권, 삼성증권, 우리은행, 대신증권주식회사, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=288",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=288",
+        "collected_at": "2026-09-23T08:28:16.204920+00:00",
+        "http_status": 200,
+        "sha256": "a10e425497cad70982742a28d0661c42038b78820987d2ceaac555bce756f195"
+      }
+    }
+  ]
+}

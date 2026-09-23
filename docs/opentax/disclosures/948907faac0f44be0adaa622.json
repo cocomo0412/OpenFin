@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.d3f188b47cc2100da49f067b",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:38407475b8641f2cddb33aec",
+  "group": "3",
+  "provider": "신한자산운용",
+  "title": "신한패러다임코리아30증권자투자신탁[채권혼합](종류C-pe)",
+  "cells": [
+    "신한자산운용",
+    "신한패러다임코리아30증권자투자신탁[채권혼합](종류C-pe)",
+    "혼합채권형",
+    "4",
+    "2018/09/10",
+    "판매",
+    "353",
+    "23.88",
+    "9.32",
+    "4.82",
+    "5.27",
+    "-",
+    "4.77",
+    "0.537",
+    "(주)우리투자증권, 우리은행, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=251",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=251",
+    "collected_at": "2026-09-23T08:27:27.005613+00:00",
+    "http_status": 200,
+    "sha256": "cf03aa43aef349b6572ab723e954c73c18074025f3e86e21c6e2d2601548de11"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한자산운용",
+        "상품명": "신한패러다임코리아30증권자투자신탁[채권혼합](종류C-pe)",
+        "상품유형": "혼합채권형",
+        "위험등급": "4",
+        "설정일": "2018/09/10",
+        "판매여부": "판매",
+        "순자산총액": "353",
+        "1년 연평균수익률(%)": "23.88",
+        "3년 연평균수익률(%)": "9.32",
+        "5년 연평균수익률(%)": "4.82",
+        "7년 연평균수익률(%)": "5.27",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "4.77",
+        "연평균수수료율(%)": "0.537",
+        "상품 판매사": "(주)우리투자증권, 우리은행, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=251",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=251",
+        "collected_at": "2026-09-23T08:27:27.005613+00:00",
+        "http_status": 200,
+        "sha256": "cf03aa43aef349b6572ab723e954c73c18074025f3e86e21c6e2d2601548de11"
+      }
+    }
+  ]
+}

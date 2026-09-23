@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.117ad49e765b4d9ad3e91e61",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:22b2e031ab152e1e4ac898e2",
+  "group": "4",
+  "provider": "에이비엘생명보험",
+  "title": "연금저축 나이스플랜연금보험ⅩⅣ(60세)",
+  "cells": [
+    "에이비엘생명보험",
+    "연금저축 나이스플랜연금보험ⅩⅣ(60세)",
+    "금리연동형",
+    "2015/04/01",
+    "중단",
+    "6,345",
+    "-6.38",
+    "-1.47",
+    "-0.47",
+    "-0.07",
+    "0.37",
+    "0.52",
+    "7.130"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=44",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=44",
+    "collected_at": "2026-09-23T08:31:35.327606+00:00",
+    "http_status": 200,
+    "sha256": "8ac787328e2642019ee798f8747c57f471eeb45a70d5e656ad621e2a5abc7ea7"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "에이비엘생명보험",
+        "상품명": "연금저축 나이스플랜연금보험ⅩⅣ(60세)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2015/04/01",
+        "판매여부": "중단",
+        "적립금총액": "6,345",
+        "1년 연평균수익률(%)": "-6.38",
+        "3년 연평균수익률(%)": "-1.47",
+        "5년 연평균수익률(%)": "-0.47",
+        "7년 연평균수익률(%)": "-0.07",
+        "10년 연평균수익률(%)": "0.37",
+        "누적연평균수익률(%)": "0.52",
+        "연평균수수료율(%)": "7.130"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=44",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=44",
+        "collected_at": "2026-09-23T08:31:35.327606+00:00",
+        "http_status": 200,
+        "sha256": "8ac787328e2642019ee798f8747c57f471eeb45a70d5e656ad621e2a5abc7ea7"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.57ed3973cfff32887f9acec4",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:676044afc87b7a0c5b7f9f3f",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋평생소득TIF혼합자산자투자신탁종류C-P",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋평생소득TIF혼합자산자투자신탁종류C-P",
+    "혼합자산",
+    "4",
+    "2017/06/23",
+    "판매",
+    "57,705",
+    "20.41",
+    "10.73",
+    "5.14",
+    "5.81",
+    "-",
+    "5.24",
+    "0.705",
+    "디비증권주식회사, 한화투자증권주식회사, 한국투자증권, 우리은행, KB증권, 대신증권주식회사, 신영증권주식회사, 미래에셋증권 주식회사, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=21",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=21",
+    "collected_at": "2026-09-23T08:22:14.495254+00:00",
+    "http_status": 200,
+    "sha256": "bf4f36b38d2a92fdf606ccf9102d247b6bf036e7145211eb330d3f448c6ebb5f"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋평생소득TIF혼합자산자투자신탁종류C-P",
+        "상품유형": "혼합자산",
+        "위험등급": "4",
+        "설정일": "2017/06/23",
+        "판매여부": "판매",
+        "순자산총액": "57,705",
+        "1년 연평균수익률(%)": "20.41",
+        "3년 연평균수익률(%)": "10.73",
+        "5년 연평균수익률(%)": "5.14",
+        "7년 연평균수익률(%)": "5.81",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "5.24",
+        "연평균수수료율(%)": "0.705",
+        "상품 판매사": "디비증권주식회사, 한화투자증권주식회사, 한국투자증권, 우리은행, KB증권, 대신증권주식회사, 신영증권주식회사, 미래에셋증권 주식회사, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=21",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=21",
+        "collected_at": "2026-09-23T08:22:14.495254+00:00",
+        "http_status": 200,
+        "sha256": "bf4f36b38d2a92fdf606ccf9102d247b6bf036e7145211eb330d3f448c6ebb5f"
+      }
+    }
+  ]
+}

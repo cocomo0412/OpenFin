@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.70f09de47cc6f334290714dc",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:affeb513610b0f204580e358",
+  "group": "3",
+  "provider": "NH-Amundi자산운용",
+  "title": "NH-Amundi Signature OCIO NEW 안정형 증권자투자신탁(UH)[채권-재간접형] Class C-P1e(연금저축)",
+  "cells": [
+    "NH-Amundi자산운용",
+    "NH-Amundi Signature OCIO NEW 안정형 증권자투자신탁(UH)[채권-재간접형] Class C-P1e(연금저축)",
+    "재간접",
+    "5",
+    "2025/05/28",
+    "판매",
+    "171",
+    "19.79",
+    "-",
+    "-",
+    "-",
+    "-",
+    "17.62",
+    "0.585",
+    "NH농협은행, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=284",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=284",
+    "collected_at": "2026-09-23T08:28:10.812128+00:00",
+    "http_status": 200,
+    "sha256": "0a708d98f21edd301a110af2c2337e274fca7492e2605bd9edc00e26fc1adb05"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "NH-Amundi자산운용",
+        "상품명": "NH-Amundi Signature OCIO NEW 안정형 증권자투자신탁(UH)[채권-재간접형] Class C-P1e(연금저축)",
+        "상품유형": "재간접",
+        "위험등급": "5",
+        "설정일": "2025/05/28",
+        "판매여부": "판매",
+        "순자산총액": "171",
+        "1년 연평균수익률(%)": "19.79",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "17.62",
+        "연평균수수료율(%)": "0.585",
+        "상품 판매사": "NH농협은행, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=284",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=284",
+        "collected_at": "2026-09-23T08:28:10.812128+00:00",
+        "http_status": 200,
+        "sha256": "0a708d98f21edd301a110af2c2337e274fca7492e2605bd9edc00e26fc1adb05"
+      }
+    }
+  ]
+}

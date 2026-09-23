@@ -1,0 +1,51 @@
+{
+  "id": "finance.insurance.klia.whole-life.삼성생명.l0302460001nn00000247000102440001024400010001024400010001000102440001000100010002p0681",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L0302460001NN00000247000102440001024400010001024400010001000102440001000100010002P0681",
+  "group": "024400010001",
+  "title": "삼성 간편 더착한종신보험(2608)(무배당,보증비용부과형)[저해약환급금형]",
+  "provider": "삼성생명",
+  "cells": [
+    "삼성생명",
+    "삼성 간편 더착한종신보험(2608)(무배당,보증비용부과형)[저해약환급금형]",
+    "주계약",
+    "사망보험금 *지급사유 : 사망하였을 경우",
+    "10,000만원",
+    "202,000 원",
+    "178,000 원",
+    "-",
+    "2.05 %",
+    "가입후 10년 이내 1.0%, 10년 초과 0.5% 가입후 10년 이내 1.0%, 10년 초과 0.5%",
+    "114.7 %",
+    "119.7 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "기본형",
+    "무해지/저해지환급",
+    "보증 *보증비용 산출기준 : 특이사항에 기재",
+    "-",
+    "-",
+    "-",
+    "비유니버셜",
+    "대면채널",
+    "2026-08-03",
+    "Download",
+    "보기",
+    "1588-3114"
+  ],
+  "coverage": [
+    "사망보험금 *지급사유 : 사망하였을 경우"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=41118&seq=6"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=3&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=3&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:25.901874+00:00",
+    "http_status": 200,
+    "sha256": "b467fccd85046482415d449de7b0c8a1dd047d8373dceb2a9a3f81fc497c0860"
+  }
+}

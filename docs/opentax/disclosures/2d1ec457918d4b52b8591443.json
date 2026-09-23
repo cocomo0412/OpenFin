@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.6373b40f09e305a711bb0136",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:869bd3b934ed48cd75d8ba58",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 글로벌 디지털자산 밸류체인 증권 투자신탁(주식) C-P",
+  "cells": [
+    "KB자산운용",
+    "KB 글로벌 디지털자산 밸류체인 증권 투자신탁(주식) C-P",
+    "주식형",
+    "3",
+    "2021/12/13",
+    "판매",
+    "79",
+    "45.47",
+    "26.97",
+    "-",
+    "-",
+    "-",
+    "9.85",
+    "1.720",
+    "KB증권, KB국민은행, 신영증권주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=299",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=299",
+    "collected_at": "2026-09-23T08:28:30.441277+00:00",
+    "http_status": 200,
+    "sha256": "92c4aa881b36ba1a43c064d97156f34efca7677321d17ca61b143f5de19d044c"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 글로벌 디지털자산 밸류체인 증권 투자신탁(주식) C-P",
+        "상품유형": "주식형",
+        "위험등급": "3",
+        "설정일": "2021/12/13",
+        "판매여부": "판매",
+        "순자산총액": "79",
+        "1년 연평균수익률(%)": "45.47",
+        "3년 연평균수익률(%)": "26.97",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "9.85",
+        "연평균수수료율(%)": "1.720",
+        "상품 판매사": "KB증권, KB국민은행, 신영증권주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=299",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=299",
+        "collected_at": "2026-09-23T08:28:30.441277+00:00",
+        "http_status": 200,
+        "sha256": "92c4aa881b36ba1a43c064d97156f34efca7677321d17ca61b143f5de19d044c"
+      }
+    }
+  ]
+}

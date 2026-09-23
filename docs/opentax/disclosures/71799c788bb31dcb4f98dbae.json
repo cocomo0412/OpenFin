@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.a61adacadf8c73ad906adddd",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:212024af29ebc04c41a29c50",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋국공채MMF투자신탁제1호[국공채]종류S-P",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋국공채MMF투자신탁제1호[국공채]종류S-P",
+    "단기금융",
+    "6",
+    "2014/04/23",
+    "판매",
+    "125",
+    "2.47",
+    "3.01",
+    "2.64",
+    "2.11",
+    "1.87",
+    "1.86",
+    "0.185",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=293",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=293",
+    "collected_at": "2026-09-23T08:28:22.753491+00:00",
+    "http_status": 200,
+    "sha256": "f3f0607ea157e8e4fb1acb26baf85100ee1c0d922dc0e746bc413bdd377a88fd"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋국공채MMF투자신탁제1호[국공채]종류S-P",
+        "상품유형": "단기금융",
+        "위험등급": "6",
+        "설정일": "2014/04/23",
+        "판매여부": "판매",
+        "순자산총액": "125",
+        "1년 연평균수익률(%)": "2.47",
+        "3년 연평균수익률(%)": "3.01",
+        "5년 연평균수익률(%)": "2.64",
+        "7년 연평균수익률(%)": "2.11",
+        "10년 연평균수익률(%)": "1.87",
+        "누적연평균수익률(%)": "1.86",
+        "연평균수수료율(%)": "0.185",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=293",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=293",
+        "collected_at": "2026-09-23T08:28:22.753491+00:00",
+        "http_status": 200,
+        "sha256": "f3f0607ea157e8e4fb1acb26baf85100ee1c0d922dc0e746bc413bdd377a88fd"
+      }
+    }
+  ]
+}

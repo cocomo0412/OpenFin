@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.635ccf706fa9b0349a2efe74",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:86ce00f8bdb3b16f25049b2c",
+  "group": "5",
+  "provider": "현대해상화재보험",
+  "title": "연금저축손해보험 현대하이라이프연금보험(Hi1204)",
+  "cells": [
+    "현대해상화재보험",
+    "연금저축손해보험 현대하이라이프연금보험(Hi1204)",
+    "금리연동형",
+    "2012/04/01",
+    "중단",
+    "27,454",
+    "-3.58",
+    "-0.07",
+    "0.63",
+    "0.77",
+    "0.92",
+    "1.13",
+    "4.883"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=16",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=16",
+    "collected_at": "2026-09-23T08:22:01.491324+00:00",
+    "http_status": 200,
+    "sha256": "022e7f0b5ce3bbc99117ee0424302b60c1385c5b94c4f71099fc211ef28d537e"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "현대해상화재보험",
+        "상품명": "연금저축손해보험 현대하이라이프연금보험(Hi1204)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2012/04/01",
+        "판매여부": "중단",
+        "적립금총액": "27,454",
+        "1년 연평균수익률(%)": "-3.58",
+        "3년 연평균수익률(%)": "-0.07",
+        "5년 연평균수익률(%)": "0.63",
+        "7년 연평균수익률(%)": "0.77",
+        "10년 연평균수익률(%)": "0.92",
+        "누적연평균수익률(%)": "1.13",
+        "연평균수수료율(%)": "4.883"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=16",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=16",
+        "collected_at": "2026-09-23T08:22:01.491324+00:00",
+        "http_status": 200,
+        "sha256": "022e7f0b5ce3bbc99117ee0424302b60c1385c5b94c4f71099fc211ef28d537e"
+      }
+    }
+  ]
+}

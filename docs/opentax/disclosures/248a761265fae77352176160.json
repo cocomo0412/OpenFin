@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.ba9fac77c9fa421ee9275695",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:f0c815cbf08c3446937a2338",
+  "group": "5",
+  "provider": "하나손해보험",
+  "title": "연금저축손해보험 The큰행복연금보험(1601)",
+  "cells": [
+    "하나손해보험",
+    "연금저축손해보험 The큰행복연금보험(1601)",
+    "금리연동형",
+    "2017/01/01",
+    "중단",
+    "3,094",
+    "-4.47",
+    "-0.85",
+    "-0.13",
+    "0.17",
+    "0.57",
+    "0.61",
+    "5.113"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=38",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=38",
+    "collected_at": "2026-09-23T08:22:24.221302+00:00",
+    "http_status": 200,
+    "sha256": "628280ff0324a7e531b2a67435890a872ec06b3e133ea481412d086c137eb45c"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "하나손해보험",
+        "상품명": "연금저축손해보험 The큰행복연금보험(1601)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2017/01/01",
+        "판매여부": "중단",
+        "적립금총액": "3,094",
+        "1년 연평균수익률(%)": "-4.47",
+        "3년 연평균수익률(%)": "-0.85",
+        "5년 연평균수익률(%)": "-0.13",
+        "7년 연평균수익률(%)": "0.17",
+        "10년 연평균수익률(%)": "0.57",
+        "누적연평균수익률(%)": "0.61",
+        "연평균수수료율(%)": "5.113"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=38",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=38",
+        "collected_at": "2026-09-23T08:22:24.221302+00:00",
+        "http_status": 200,
+        "sha256": "628280ff0324a7e531b2a67435890a872ec06b3e133ea481412d086c137eb45c"
+      }
+    }
+  ]
+}

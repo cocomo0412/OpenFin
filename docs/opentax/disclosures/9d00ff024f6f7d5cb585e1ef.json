@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.820219f10a448ad8bac686ef",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:b6a88ce749ad8324ee220e68",
+  "group": "3",
+  "provider": "카디안자산운용",
+  "title": "카디안 차이나 드래곤 A Share 증권자투자신탁(UH)[주식] 클래스S-P2(연금저축)",
+  "cells": [
+    "카디안자산운용",
+    "카디안 차이나 드래곤 A Share 증권자투자신탁(UH)[주식] 클래스S-P2(연금저축)",
+    "주식형",
+    "2",
+    "2016/03/15",
+    "판매",
+    "724",
+    "50.09",
+    "13.13",
+    "3.03",
+    "9.08",
+    "7.97",
+    "7.74",
+    "1.148",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=209",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=209",
+    "collected_at": "2026-09-23T08:26:30.392900+00:00",
+    "http_status": 200,
+    "sha256": "a1a4b29a27509550ee46f62f95f1b69daa657160e0c90561f283560383ffbfa0"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "카디안자산운용",
+        "상품명": "카디안 차이나 드래곤 A Share 증권자투자신탁(UH)[주식] 클래스S-P2(연금저축)",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2016/03/15",
+        "판매여부": "판매",
+        "순자산총액": "724",
+        "1년 연평균수익률(%)": "50.09",
+        "3년 연평균수익률(%)": "13.13",
+        "5년 연평균수익률(%)": "3.03",
+        "7년 연평균수익률(%)": "9.08",
+        "10년 연평균수익률(%)": "7.97",
+        "누적연평균수익률(%)": "7.74",
+        "연평균수수료율(%)": "1.148",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=209",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=209",
+        "collected_at": "2026-09-23T08:26:30.392900+00:00",
+        "http_status": 200,
+        "sha256": "a1a4b29a27509550ee46f62f95f1b69daa657160e0c90561f283560383ffbfa0"
+      }
+    }
+  ]
+}

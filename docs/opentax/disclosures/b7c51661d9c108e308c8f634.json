@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.b0a20582226021e092a44c79",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:940e332267569e40a9156210",
+  "group": "3",
+  "provider": "우리자산운용",
+  "title": "우리나라기업가치향상증권자투자신탁[주식] Class Pe2",
+  "cells": [
+    "우리자산운용",
+    "우리나라기업가치향상증권자투자신탁[주식] Class Pe2",
+    "주식형",
+    "2",
+    "2020/11/27",
+    "판매",
+    "193",
+    "197.57",
+    "52.86",
+    "23.60",
+    "-",
+    "-",
+    "25.58",
+    "1.121",
+    "우리은행, KB국민은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=279",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=279",
+    "collected_at": "2026-09-23T08:28:04.164649+00:00",
+    "http_status": 200,
+    "sha256": "bd2009d8576c60ea73a66608fa82856517262342b9e8e068b4dd2100e6b44df1"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "우리자산운용",
+        "상품명": "우리나라기업가치향상증권자투자신탁[주식] Class Pe2",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2020/11/27",
+        "판매여부": "판매",
+        "순자산총액": "193",
+        "1년 연평균수익률(%)": "197.57",
+        "3년 연평균수익률(%)": "52.86",
+        "5년 연평균수익률(%)": "23.60",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "25.58",
+        "연평균수수료율(%)": "1.121",
+        "상품 판매사": "우리은행, KB국민은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=279",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=279",
+        "collected_at": "2026-09-23T08:28:04.164649+00:00",
+        "http_status": 200,
+        "sha256": "bd2009d8576c60ea73a66608fa82856517262342b9e8e068b4dd2100e6b44df1"
+      }
+    }
+  ]
+}

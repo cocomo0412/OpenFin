@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.c4b4e3d7b62d9336b82d6182",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:1:fea0801325161bb8ff3add75",
+  "group": "1",
+  "provider": "하나은행",
+  "title": "연금저축신탁안정형2호",
+  "cells": [
+    "하나은행",
+    "연금저축신탁안정형2호",
+    "안정형",
+    "2007/10/24",
+    "중단",
+    "198,599",
+    "10.19",
+    "6.90",
+    "4.43",
+    "4.11",
+    "3.36",
+    "3.91",
+    "5.25"
+  ],
+  "headers": [
+    "은행",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=2",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=2",
+    "collected_at": "2026-09-23T08:21:42.780975+00:00",
+    "http_status": 200,
+    "sha256": "ed95935686d655cb59e64b1cfb4fedead59df3acc3cd246f6c663b33e01929d1"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "하나은행",
+        "상품명": "연금저축신탁안정형2호",
+        "상품유형": "안정형",
+        "최초판매일": "2007/10/24",
+        "판매여부": "중단",
+        "적립금총액": "198,599",
+        "1년 연평균수익률(%)": "10.19",
+        "3년 연평균수익률(%)": "6.90",
+        "5년 연평균수익률(%)": "4.43",
+        "7년 연평균수익률(%)": "4.11",
+        "10년 연평균수익률(%)": "3.36",
+        "누적연평균수익률(%)": "3.91",
+        "연평균수수료율(%)": "5.25"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=2",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=2",
+        "collected_at": "2026-09-23T08:21:42.780975+00:00",
+        "http_status": 200,
+        "sha256": "ed95935686d655cb59e64b1cfb4fedead59df3acc3cd246f6c663b33e01929d1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.747d57df9c7985524ed39130",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:d9cd3c4735261783dd3f492a",
+  "group": "3",
+  "provider": "KCGI자산운용",
+  "title": "KCGI코리아연금증권전환형자투자신탁1호[주식]종류Ce",
+  "cells": [
+    "KCGI자산운용",
+    "KCGI코리아연금증권전환형자투자신탁1호[주식]종류Ce",
+    "주식형",
+    "2",
+    "2014/05/28",
+    "판매",
+    "5,402",
+    "135.32",
+    "58.19",
+    "26.65",
+    "28.17",
+    "17.39",
+    "15.71",
+    "1.063",
+    "광주은행, 유안타증권주식회사, SK증권주식회사, KB증권, KCGI자산운용, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=101",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=101",
+    "collected_at": "2026-09-23T08:24:03.788261+00:00",
+    "http_status": 200,
+    "sha256": "f233b77e45eed31f6a170293b9528f58e81426c480f98cbe7c65f7bc4a40cc71"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KCGI자산운용",
+        "상품명": "KCGI코리아연금증권전환형자투자신탁1호[주식]종류Ce",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2014/05/28",
+        "판매여부": "판매",
+        "순자산총액": "5,402",
+        "1년 연평균수익률(%)": "135.32",
+        "3년 연평균수익률(%)": "58.19",
+        "5년 연평균수익률(%)": "26.65",
+        "7년 연평균수익률(%)": "28.17",
+        "10년 연평균수익률(%)": "17.39",
+        "누적연평균수익률(%)": "15.71",
+        "연평균수수료율(%)": "1.063",
+        "상품 판매사": "광주은행, 유안타증권주식회사, SK증권주식회사, KB증권, KCGI자산운용, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=101",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=101",
+        "collected_at": "2026-09-23T08:24:03.788261+00:00",
+        "http_status": 200,
+        "sha256": "f233b77e45eed31f6a170293b9528f58e81426c480f98cbe7c65f7bc4a40cc71"
+      }
+    }
+  ]
+}

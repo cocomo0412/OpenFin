@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.f913711e41c2c69c0856271a",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:da6c704459ca4cc4b925fc42",
+  "group": "3",
+  "provider": "우리자산운용",
+  "title": "우리템플턴연금저축글로벌증권자투자신탁(채권-재간접형)ClassC",
+  "cells": [
+    "우리자산운용",
+    "우리템플턴연금저축글로벌증권자투자신탁(채권-재간접형)ClassC",
+    "재간접",
+    "4",
+    "2013/06/20",
+    "판매",
+    "87",
+    "2.93",
+    "0.62",
+    "-1.58",
+    "-2.40",
+    "-0.69",
+    "-0.96",
+    "0.896",
+    "삼성증권, 미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=298",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=298",
+    "collected_at": "2026-09-23T08:28:29.225002+00:00",
+    "http_status": 200,
+    "sha256": "c4963cc023350a54b88def5304838ea38da36c501c847326dad87c0ff5e7959e"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "우리자산운용",
+        "상품명": "우리템플턴연금저축글로벌증권자투자신탁(채권-재간접형)ClassC",
+        "상품유형": "재간접",
+        "위험등급": "4",
+        "설정일": "2013/06/20",
+        "판매여부": "판매",
+        "순자산총액": "87",
+        "1년 연평균수익률(%)": "2.93",
+        "3년 연평균수익률(%)": "0.62",
+        "5년 연평균수익률(%)": "-1.58",
+        "7년 연평균수익률(%)": "-2.40",
+        "10년 연평균수익률(%)": "-0.69",
+        "누적연평균수익률(%)": "-0.96",
+        "연평균수수료율(%)": "0.896",
+        "상품 판매사": "삼성증권, 미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=298",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=298",
+        "collected_at": "2026-09-23T08:28:29.225002+00:00",
+        "http_status": 200,
+        "sha256": "c4963cc023350a54b88def5304838ea38da36c501c847326dad87c0ff5e7959e"
+      }
+    }
+  ]
+}

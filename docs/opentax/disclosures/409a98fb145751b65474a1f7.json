@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.1e634e8b4180d8101355ec67",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:a5cc2e82872e4dfe58652c59",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자JP모간미국테크증권자투자신탁H(주식-재간접형)(C-P)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자JP모간미국테크증권자투자신탁H(주식-재간접형)(C-P)",
+    "재간접",
+    "2",
+    "2026/05/07",
+    "판매",
+    "6,476",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "24.91",
+    "0.809",
+    "한국투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=94",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=94",
+    "collected_at": "2026-09-23T08:23:54.597048+00:00",
+    "http_status": 200,
+    "sha256": "e6de2b796868c3a85d628f5fc4322d44b86f0abb432ac901a3c1985970c50d7b"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자JP모간미국테크증권자투자신탁H(주식-재간접형)(C-P)",
+        "상품유형": "재간접",
+        "위험등급": "2",
+        "설정일": "2026/05/07",
+        "판매여부": "판매",
+        "순자산총액": "6,476",
+        "1년 연평균수익률(%)": "-",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "24.91",
+        "연평균수수료율(%)": "0.809",
+        "상품 판매사": "한국투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=94",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=94",
+        "collected_at": "2026-09-23T08:23:54.597048+00:00",
+        "http_status": 200,
+        "sha256": "e6de2b796868c3a85d628f5fc4322d44b86f0abb432ac901a3c1985970c50d7b"
+      }
+    }
+  ]
+}

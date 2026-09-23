@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.74d4191c6112a1e4495faafb",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:1acd124e1b643f63e441b7a1",
+  "group": "3",
+  "provider": "우리자산운용",
+  "title": "우리프랭클린미국바이오헬스케어증권자투자신탁(주식-재간접형)ClassS-P",
+  "cells": [
+    "우리자산운용",
+    "우리프랭클린미국바이오헬스케어증권자투자신탁(주식-재간접형)ClassS-P",
+    "재간접",
+    "2",
+    "2014/04/23",
+    "판매",
+    "2,466",
+    "78.67",
+    "25.18",
+    "8.77",
+    "9.99",
+    "9.06",
+    "8.33",
+    "0.336",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=139",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=139",
+    "collected_at": "2026-09-23T08:24:55.420915+00:00",
+    "http_status": 200,
+    "sha256": "c8effe5ecccfd6e2450dd2a6fb5996e9d59ab714367472f8734729cda56f88af"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "우리자산운용",
+        "상품명": "우리프랭클린미국바이오헬스케어증권자투자신탁(주식-재간접형)ClassS-P",
+        "상품유형": "재간접",
+        "위험등급": "2",
+        "설정일": "2014/04/23",
+        "판매여부": "판매",
+        "순자산총액": "2,466",
+        "1년 연평균수익률(%)": "78.67",
+        "3년 연평균수익률(%)": "25.18",
+        "5년 연평균수익률(%)": "8.77",
+        "7년 연평균수익률(%)": "9.99",
+        "10년 연평균수익률(%)": "9.06",
+        "누적연평균수익률(%)": "8.33",
+        "연평균수수료율(%)": "0.336",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=139",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=139",
+        "collected_at": "2026-09-23T08:24:55.420915+00:00",
+        "http_status": 200,
+        "sha256": "c8effe5ecccfd6e2450dd2a6fb5996e9d59ab714367472f8734729cda56f88af"
+      }
+    }
+  ]
+}

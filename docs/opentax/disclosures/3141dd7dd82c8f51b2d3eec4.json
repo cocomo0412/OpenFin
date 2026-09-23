@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.653938b7209781e3024fc8d0",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:8e098baf8df6fa696ef304c6",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성CHINA2.0본토증권자투자신탁 제1호[주식]_(C-P)",
+  "cells": [
+    "삼성자산운용",
+    "삼성CHINA2.0본토증권자투자신탁 제1호[주식]_(C-P)",
+    "주식형",
+    "3",
+    "2017/09/20",
+    "판매",
+    "424",
+    "14.33",
+    "8.72",
+    "-2.58",
+    "1.83",
+    "-",
+    "0.73",
+    "1.894",
+    "삼성생명보험주식회사, 삼성증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=242",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=242",
+    "collected_at": "2026-09-23T08:27:14.672185+00:00",
+    "http_status": 200,
+    "sha256": "3a18b730ab107860d2477270f179e42759ed32cb032d7524bcfa387f652c9f63"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성CHINA2.0본토증권자투자신탁 제1호[주식]_(C-P)",
+        "상품유형": "주식형",
+        "위험등급": "3",
+        "설정일": "2017/09/20",
+        "판매여부": "판매",
+        "순자산총액": "424",
+        "1년 연평균수익률(%)": "14.33",
+        "3년 연평균수익률(%)": "8.72",
+        "5년 연평균수익률(%)": "-2.58",
+        "7년 연평균수익률(%)": "1.83",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "0.73",
+        "연평균수수료율(%)": "1.894",
+        "상품 판매사": "삼성생명보험주식회사, 삼성증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=242",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=242",
+        "collected_at": "2026-09-23T08:27:14.672185+00:00",
+        "http_status": 200,
+        "sha256": "3a18b730ab107860d2477270f179e42759ed32cb032d7524bcfa387f652c9f63"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.e360e967ca8b32ca82b888e5",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:fd58f1465a1999641a2b0d1b",
+  "group": "3",
+  "provider": "베어링자산운용",
+  "title": "베어링글로벌하이일드증권자투자신탁[UH](채권-재간접형)Class C-Pe",
+  "cells": [
+    "베어링자산운용",
+    "베어링글로벌하이일드증권자투자신탁[UH](채권-재간접형)Class C-Pe",
+    "재간접",
+    "4",
+    "2019/03/29",
+    "판매",
+    "242",
+    "20.47",
+    "13.76",
+    "10.14",
+    "8.43",
+    "-",
+    "8.54",
+    "0.482",
+    "키움증권(주), 한국투자증권, 우리은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=270",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=270",
+    "collected_at": "2026-09-23T08:27:52.184255+00:00",
+    "http_status": 200,
+    "sha256": "4421eb7c7c7882b8fa83c826258b4086d9c8f377480472813f4e6290d8615c7a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "베어링자산운용",
+        "상품명": "베어링글로벌하이일드증권자투자신탁[UH](채권-재간접형)Class C-Pe",
+        "상품유형": "재간접",
+        "위험등급": "4",
+        "설정일": "2019/03/29",
+        "판매여부": "판매",
+        "순자산총액": "242",
+        "1년 연평균수익률(%)": "20.47",
+        "3년 연평균수익률(%)": "13.76",
+        "5년 연평균수익률(%)": "10.14",
+        "7년 연평균수익률(%)": "8.43",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "8.54",
+        "연평균수수료율(%)": "0.482",
+        "상품 판매사": "키움증권(주), 한국투자증권, 우리은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=270",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=270",
+        "collected_at": "2026-09-23T08:27:52.184255+00:00",
+        "http_status": 200,
+        "sha256": "4421eb7c7c7882b8fa83c826258b4086d9c8f377480472813f4e6290d8615c7a"
+      }
+    }
+  ]
+}

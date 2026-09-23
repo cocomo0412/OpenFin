@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.bc9c0160a9c9c8aa1243b1c8",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:f914c5e41e3a23bc506e2fab",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성 글로벌액티브 적격TDF 2040 증권투자신탁H[주식혼합-재간접형]_S-P",
+  "cells": [
+    "삼성자산운용",
+    "삼성 글로벌액티브 적격TDF 2040 증권투자신탁H[주식혼합-재간접형]_S-P",
+    "재간접",
+    "3",
+    "2016/06/24",
+    "판매",
+    "1,149",
+    "25.97",
+    "15.57",
+    "6.92",
+    "8.64",
+    "8.34",
+    "8.15",
+    "0.447",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=181",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=181",
+    "collected_at": "2026-09-23T08:25:52.145312+00:00",
+    "http_status": 200,
+    "sha256": "d26ac3cff7c07c7ab1733010491a7d1612e5441537df081cb94fca980a01ad34"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성 글로벌액티브 적격TDF 2040 증권투자신탁H[주식혼합-재간접형]_S-P",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2016/06/24",
+        "판매여부": "판매",
+        "순자산총액": "1,149",
+        "1년 연평균수익률(%)": "25.97",
+        "3년 연평균수익률(%)": "15.57",
+        "5년 연평균수익률(%)": "6.92",
+        "7년 연평균수익률(%)": "8.64",
+        "10년 연평균수익률(%)": "8.34",
+        "누적연평균수익률(%)": "8.15",
+        "연평균수수료율(%)": "0.447",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=181",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=181",
+        "collected_at": "2026-09-23T08:25:52.145312+00:00",
+        "http_status": 200,
+        "sha256": "d26ac3cff7c07c7ab1733010491a7d1612e5441537df081cb94fca980a01ad34"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.ce74b5938d2be71fe071fe0b",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:ffb22ca4824fcbdc3f029049",
+  "group": "3",
+  "provider": "마이다스에셋자산운용",
+  "title": "마이다스 미소 중소형주 증권 자투자신탁(주식) S-P",
+  "cells": [
+    "마이다스에셋자산운용",
+    "마이다스 미소 중소형주 증권 자투자신탁(주식) S-P",
+    "주식형",
+    "2",
+    "2014/10/27",
+    "판매",
+    "845",
+    "97.43",
+    "26.96",
+    "12.40",
+    "19.02",
+    "13.75",
+    "13.05",
+    "0.825",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=198",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=198",
+    "collected_at": "2026-09-23T08:26:14.622223+00:00",
+    "http_status": 200,
+    "sha256": "5846ad87c62ed05bf48c315f80b3404a908c15bcf8b71453204b9449bd14f98d"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "마이다스에셋자산운용",
+        "상품명": "마이다스 미소 중소형주 증권 자투자신탁(주식) S-P",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2014/10/27",
+        "판매여부": "판매",
+        "순자산총액": "845",
+        "1년 연평균수익률(%)": "97.43",
+        "3년 연평균수익률(%)": "26.96",
+        "5년 연평균수익률(%)": "12.40",
+        "7년 연평균수익률(%)": "19.02",
+        "10년 연평균수익률(%)": "13.75",
+        "누적연평균수익률(%)": "13.05",
+        "연평균수수료율(%)": "0.825",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=198",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=198",
+        "collected_at": "2026-09-23T08:26:14.622223+00:00",
+        "http_status": 200,
+        "sha256": "5846ad87c62ed05bf48c315f80b3404a908c15bcf8b71453204b9449bd14f98d"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.14e93c2c3abb306244e1fdea",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:e34c97e4d4d35d20e5193c79",
+  "group": "3",
+  "provider": "신한자산운용",
+  "title": "신한유로인덱스증권자투자신탁(H)[주식-파생형](종류C-p)",
+  "cells": [
+    "신한자산운용",
+    "신한유로인덱스증권자투자신탁(H)[주식-파생형](종류C-p)",
+    "파생상품",
+    "3",
+    "2013/10/17",
+    "판매",
+    "2,105",
+    "18.91",
+    "14.13",
+    "10.92",
+    "10.78",
+    "10.48",
+    "8.02",
+    "0.848",
+    "광주은행, 교보증권(주), 신한은행, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=148",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=148",
+    "collected_at": "2026-09-23T08:25:07.098569+00:00",
+    "http_status": 200,
+    "sha256": "577470391fabeb827590e3c9cb509658ef562811ede03c236e5724c0ef602a49"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한자산운용",
+        "상품명": "신한유로인덱스증권자투자신탁(H)[주식-파생형](종류C-p)",
+        "상품유형": "파생상품",
+        "위험등급": "3",
+        "설정일": "2013/10/17",
+        "판매여부": "판매",
+        "순자산총액": "2,105",
+        "1년 연평균수익률(%)": "18.91",
+        "3년 연평균수익률(%)": "14.13",
+        "5년 연평균수익률(%)": "10.92",
+        "7년 연평균수익률(%)": "10.78",
+        "10년 연평균수익률(%)": "10.48",
+        "누적연평균수익률(%)": "8.02",
+        "연평균수수료율(%)": "0.848",
+        "상품 판매사": "광주은행, 교보증권(주), 신한은행, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=148",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=148",
+        "collected_at": "2026-09-23T08:25:07.098569+00:00",
+        "http_status": 200,
+        "sha256": "577470391fabeb827590e3c9cb509658ef562811ede03c236e5724c0ef602a49"
+      }
+    }
+  ]
+}

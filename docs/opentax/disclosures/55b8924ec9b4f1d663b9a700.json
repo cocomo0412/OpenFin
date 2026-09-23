@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.8c684e7c12aad632b98f7331",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:66b7f9c920258f77c7f6cd67",
+  "group": "3",
+  "provider": "한화자산운용",
+  "title": "한화K리츠플러스부동산 자투자신탁(H)(리츠-재간접형) C-P(연금저축)",
+  "cells": [
+    "한화자산운용",
+    "한화K리츠플러스부동산 자투자신탁(H)(리츠-재간접형) C-P(연금저축)",
+    "부동산",
+    "4",
+    "2020/10/21",
+    "판매",
+    "478",
+    "12.74",
+    "7.97",
+    "2.54",
+    "-",
+    "-",
+    "4.21",
+    "1.260",
+    "한화투자증권주식회사, 한국투자증권, KB증권, 대신증권주식회사, 아이엠증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=234",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=234",
+    "collected_at": "2026-09-23T08:27:03.926898+00:00",
+    "http_status": 200,
+    "sha256": "a95240b010c07601191f759ae53152ae05996ad4fb2ab458fc5dc2fdfa4ca7b4"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한화자산운용",
+        "상품명": "한화K리츠플러스부동산 자투자신탁(H)(리츠-재간접형) C-P(연금저축)",
+        "상품유형": "부동산",
+        "위험등급": "4",
+        "설정일": "2020/10/21",
+        "판매여부": "판매",
+        "순자산총액": "478",
+        "1년 연평균수익률(%)": "12.74",
+        "3년 연평균수익률(%)": "7.97",
+        "5년 연평균수익률(%)": "2.54",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "4.21",
+        "연평균수수료율(%)": "1.260",
+        "상품 판매사": "한화투자증권주식회사, 한국투자증권, KB증권, 대신증권주식회사, 아이엠증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=234",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=234",
+        "collected_at": "2026-09-23T08:27:03.926898+00:00",
+        "http_status": 200,
+        "sha256": "a95240b010c07601191f759ae53152ae05996ad4fb2ab458fc5dc2fdfa4ca7b4"
+      }
+    }
+  ]
+}

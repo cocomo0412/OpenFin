@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.64388583e67f96f279ffbb39",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:1:b0696b9ad1ba1f22dfee533e",
+  "group": "1",
+  "provider": "농협은행",
+  "title": "웰빙라이프연금저축신탁(채권형)",
+  "cells": [
+    "농협은행",
+    "웰빙라이프연금저축신탁(채권형)",
+    "채권형",
+    "2004/06/01",
+    "중단",
+    "1,087,468",
+    "-0.38",
+    "2.76",
+    "2.03",
+    "1.69",
+    "1.57",
+    "2.51",
+    "4.46"
+  ],
+  "headers": [
+    "은행",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=1",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=1",
+    "collected_at": "2026-09-23T08:21:41.997535+00:00",
+    "http_status": 200,
+    "sha256": "30597bc3e64a8eea5a6a718739f41824360ed0991ca7185c8062f06be4347734"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "농협은행",
+        "상품명": "웰빙라이프연금저축신탁(채권형)",
+        "상품유형": "채권형",
+        "최초판매일": "2004/06/01",
+        "판매여부": "중단",
+        "적립금총액": "1,087,468",
+        "1년 연평균수익률(%)": "-0.38",
+        "3년 연평균수익률(%)": "2.76",
+        "5년 연평균수익률(%)": "2.03",
+        "7년 연평균수익률(%)": "1.69",
+        "10년 연평균수익률(%)": "1.57",
+        "누적연평균수익률(%)": "2.51",
+        "연평균수수료율(%)": "4.46"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=1",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=1",
+        "collected_at": "2026-09-23T08:21:41.997535+00:00",
+        "http_status": 200,
+        "sha256": "30597bc3e64a8eea5a6a718739f41824360ed0991ca7185c8062f06be4347734"
+      }
+    }
+  ]
+}

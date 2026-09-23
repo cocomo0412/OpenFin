@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.eb88737e4420ab836ab639c5",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:7b6f6d8e060f2bb05db5c069",
+  "group": "3",
+  "provider": "흥국자산운용",
+  "title": "흥국고배당TOP10증권투자신탁[채권혼합]C-pe",
+  "cells": [
+    "흥국자산운용",
+    "흥국고배당TOP10증권투자신탁[채권혼합]C-pe",
+    "혼합채권형",
+    "4",
+    "2025/06/25",
+    "판매",
+    "276",
+    "16.31",
+    "-",
+    "-",
+    "-",
+    "-",
+    "16.27",
+    "0.484",
+    "한국투자증권, 삼성증권, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=264",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=264",
+    "collected_at": "2026-09-23T08:27:43.879480+00:00",
+    "http_status": 200,
+    "sha256": "92540ee05ef2aa6ca2dee1e2f623b774d738115249f5af0e0d8f7f559d3bb279"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "흥국자산운용",
+        "상품명": "흥국고배당TOP10증권투자신탁[채권혼합]C-pe",
+        "상품유형": "혼합채권형",
+        "위험등급": "4",
+        "설정일": "2025/06/25",
+        "판매여부": "판매",
+        "순자산총액": "276",
+        "1년 연평균수익률(%)": "16.31",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "16.27",
+        "연평균수수료율(%)": "0.484",
+        "상품 판매사": "한국투자증권, 삼성증권, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=264",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=264",
+        "collected_at": "2026-09-23T08:27:43.879480+00:00",
+        "http_status": 200,
+        "sha256": "92540ee05ef2aa6ca2dee1e2f623b774d738115249f5af0e0d8f7f559d3bb279"
+      }
+    }
+  ]
+}

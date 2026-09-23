@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.4c90f72e79bf7f966d5d7135",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:7152ca5552ee2760dd58c4f3",
+  "group": "3",
+  "provider": "KCGI자산운용",
+  "title": "KCGI샐러리맨증권자투자신탁[주식-재간접형]종류C-P",
+  "cells": [
+    "KCGI자산운용",
+    "KCGI샐러리맨증권자투자신탁[주식-재간접형]종류C-P",
+    "재간접",
+    "3",
+    "2020/03/18",
+    "판매",
+    "442",
+    "70.01",
+    "29.27",
+    "15.34",
+    "-",
+    "-",
+    "21.56",
+    "0.892",
+    "한양증권주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=239",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=239",
+    "collected_at": "2026-09-23T08:27:10.713404+00:00",
+    "http_status": 200,
+    "sha256": "a8f0a8add737a410f0ab404cee4245d53a34ac145aba39299ea07a0e5517e233"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KCGI자산운용",
+        "상품명": "KCGI샐러리맨증권자투자신탁[주식-재간접형]종류C-P",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2020/03/18",
+        "판매여부": "판매",
+        "순자산총액": "442",
+        "1년 연평균수익률(%)": "70.01",
+        "3년 연평균수익률(%)": "29.27",
+        "5년 연평균수익률(%)": "15.34",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "21.56",
+        "연평균수수료율(%)": "0.892",
+        "상품 판매사": "한양증권주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=239",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=239",
+        "collected_at": "2026-09-23T08:27:10.713404+00:00",
+        "http_status": 200,
+        "sha256": "a8f0a8add737a410f0ab404cee4245d53a34ac145aba39299ea07a0e5517e233"
+      }
+    }
+  ]
+}

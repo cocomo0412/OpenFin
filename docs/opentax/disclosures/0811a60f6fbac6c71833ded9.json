@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.1d9c0634c9161ed109865db6",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:ccd0b43dd1884cfaaf6e156b",
+  "group": "5",
+  "provider": "삼성화재해상보험",
+  "title": "연금저축손해보험삼성화재연금보험아름다운생활∥(1404.5)",
+  "cells": [
+    "삼성화재해상보험",
+    "연금저축손해보험삼성화재연금보험아름다운생활∥(1404.5)",
+    "금리연동형",
+    "2014/04/01",
+    "중단",
+    "182,455",
+    "-5.16",
+    "-0.98",
+    "-0.12",
+    "0.17",
+    "0.59",
+    "0.8",
+    "6.03"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=4",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=4",
+    "collected_at": "2026-09-23T08:21:48.721848+00:00",
+    "http_status": 200,
+    "sha256": "ecec0bebfd5f3ea90ddc00685afbf5b9ca72e19a69685e11b39938c6b8444dd2"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성화재해상보험",
+        "상품명": "연금저축손해보험삼성화재연금보험아름다운생활∥(1404.5)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2014/04/01",
+        "판매여부": "중단",
+        "적립금총액": "182,455",
+        "1년 연평균수익률(%)": "-5.16",
+        "3년 연평균수익률(%)": "-0.98",
+        "5년 연평균수익률(%)": "-0.12",
+        "7년 연평균수익률(%)": "0.17",
+        "10년 연평균수익률(%)": "0.59",
+        "누적연평균수익률(%)": "0.8",
+        "연평균수수료율(%)": "6.03"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=4",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=4",
+        "collected_at": "2026-09-23T08:21:48.721848+00:00",
+        "http_status": 200,
+        "sha256": "ecec0bebfd5f3ea90ddc00685afbf5b9ca72e19a69685e11b39938c6b8444dd2"
+      }
+    }
+  ]
+}

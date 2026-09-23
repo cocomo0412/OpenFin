@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.21675f122c9cf9caf5aae7ab",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:f4b7f7eaff8754ff7a1452b0",
+  "group": "4",
+  "provider": "DB생명보험",
+  "title": "연금저축 강력추천 연금보험",
+  "cells": [
+    "DB생명보험",
+    "연금저축 강력추천 연금보험",
+    "금리연동형",
+    "2008/07/01",
+    "중단",
+    "4,437",
+    "-3.31",
+    "0.36",
+    "1.06",
+    "1.15",
+    "1.18",
+    "1.15",
+    "4.700"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=50",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=50",
+    "collected_at": "2026-09-23T08:31:43.115475+00:00",
+    "http_status": 200,
+    "sha256": "5f66a60e402996d14f67c592ee78b8bc1c6d5f25e6127f06c279f9335c2e2ae3"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "DB생명보험",
+        "상품명": "연금저축 강력추천 연금보험",
+        "상품유형": "금리연동형",
+        "최초판매일": "2008/07/01",
+        "판매여부": "중단",
+        "적립금총액": "4,437",
+        "1년 연평균수익률(%)": "-3.31",
+        "3년 연평균수익률(%)": "0.36",
+        "5년 연평균수익률(%)": "1.06",
+        "7년 연평균수익률(%)": "1.15",
+        "10년 연평균수익률(%)": "1.18",
+        "누적연평균수익률(%)": "1.15",
+        "연평균수수료율(%)": "4.700"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=50",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=50",
+        "collected_at": "2026-09-23T08:31:43.115475+00:00",
+        "http_status": 200,
+        "sha256": "5f66a60e402996d14f67c592ee78b8bc1c6d5f25e6127f06c279f9335c2e2ae3"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "finance.insurance.klia.whole-life.삼성생명.l0302460001nnn0247000102440001024400010001024400010001000202440001000100020002p1832",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L0302460001NNN0247000102440001024400010001024400010001000202440001000100020002P1832",
+  "group": "024400010001",
+  "title": "삼성 골든종신보험(2601)(무배당,보증비용부과형)[저해지환급금형] 1종 1형",
+  "provider": "삼성생명",
+  "cells": [
+    "삼성생명",
+    "삼성 골든종신보험(2601)(무배당,보증비용부과형)[저해지환급금형] 1종 1형",
+    "주계약",
+    "사망보험금 *지급사유 : 사망하였을경우",
+    "10,000만원",
+    "522,000 원",
+    "472,000 원",
+    "-",
+    "2.05 %",
+    "가입후 10년 이내 1.0%, 10년 초과 0.5% 가입후 10년 이내 1.0%, 10년 초과 0.5%",
+    "162.6 %",
+    "167.2 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "체증형",
+    "무해지/저해지환급",
+    "보증 *보증비용 산출기준 : 기간별 상이",
+    "보증 *보증비용 산출기준 : 최초 인출가능시점 전 : 매년 주보험 계약자적립액의 1.1%",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "대면채널",
+    "2026-01-01",
+    "Download",
+    "보기",
+    "1588-3114"
+  ],
+  "coverage": [
+    "사망보험금 *지급사유 : 사망하였을경우"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=43037&seq=3"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=4&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=4&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:26.342249+00:00",
+    "http_status": 200,
+    "sha256": "6c7af23ceaf7345a55ff487641eaa93ab4ddf1af2dae8276aa5dd7237042da7e"
+  }
+}

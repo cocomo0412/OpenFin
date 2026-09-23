@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.7f3456453960cdb896e7dbee",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:70fe582dc48860e85d41bea3",
+  "group": "3",
+  "provider": "신한자산운용",
+  "title": "신한BEST개인용MMF제1호(종류 C-pe)",
+  "cells": [
+    "신한자산운용",
+    "신한BEST개인용MMF제1호(종류 C-pe)",
+    "단기금융",
+    "6",
+    "2017/10/10",
+    "판매",
+    "24,993",
+    "2.54",
+    "3.11",
+    "2.71",
+    "2.19",
+    "-",
+    "2.04",
+    "0.199",
+    "전북은행, (주)우리투자증권, 신한은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=42",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=42",
+    "collected_at": "2026-09-23T08:22:43.395227+00:00",
+    "http_status": 200,
+    "sha256": "0938bde6cca3c4bde553db4cff4ec306f660701983c42d54c51e999b64956c55"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한자산운용",
+        "상품명": "신한BEST개인용MMF제1호(종류 C-pe)",
+        "상품유형": "단기금융",
+        "위험등급": "6",
+        "설정일": "2017/10/10",
+        "판매여부": "판매",
+        "순자산총액": "24,993",
+        "1년 연평균수익률(%)": "2.54",
+        "3년 연평균수익률(%)": "3.11",
+        "5년 연평균수익률(%)": "2.71",
+        "7년 연평균수익률(%)": "2.19",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "2.04",
+        "연평균수수료율(%)": "0.199",
+        "상품 판매사": "전북은행, (주)우리투자증권, 신한은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=42",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=42",
+        "collected_at": "2026-09-23T08:22:43.395227+00:00",
+        "http_status": 200,
+        "sha256": "0938bde6cca3c4bde553db4cff4ec306f660701983c42d54c51e999b64956c55"
+      }
+    }
+  ]
+}

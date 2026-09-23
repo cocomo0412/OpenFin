@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.1d9bfc6b05c1ff5db59d4488",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:e989c514824f6c902a39b2a9",
+  "group": "3",
+  "provider": "신한자산운용",
+  "title": "신한단기국공채증권자투자신탁제1호[채권](종류C-pe)",
+  "cells": [
+    "신한자산운용",
+    "신한단기국공채증권자투자신탁제1호[채권](종류C-pe)",
+    "채권형",
+    "6",
+    "2019/12/30",
+    "판매",
+    "652",
+    "1.49",
+    "3.06",
+    "2.32",
+    "-",
+    "-",
+    "2.02",
+    "0.202",
+    "신한은행, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=215",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=215",
+    "collected_at": "2026-09-23T08:26:38.129651+00:00",
+    "http_status": 200,
+    "sha256": "2cd2f5be11a4918ef375a1b1fe30f03384295dedd1ee45a3749acce2871b3a16"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한자산운용",
+        "상품명": "신한단기국공채증권자투자신탁제1호[채권](종류C-pe)",
+        "상품유형": "채권형",
+        "위험등급": "6",
+        "설정일": "2019/12/30",
+        "판매여부": "판매",
+        "순자산총액": "652",
+        "1년 연평균수익률(%)": "1.49",
+        "3년 연평균수익률(%)": "3.06",
+        "5년 연평균수익률(%)": "2.32",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "2.02",
+        "연평균수수료율(%)": "0.202",
+        "상품 판매사": "신한은행, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=215",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=215",
+        "collected_at": "2026-09-23T08:26:38.129651+00:00",
+        "http_status": 200,
+        "sha256": "2cd2f5be11a4918ef375a1b1fe30f03384295dedd1ee45a3749acce2871b3a16"
+      }
+    }
+  ]
+}

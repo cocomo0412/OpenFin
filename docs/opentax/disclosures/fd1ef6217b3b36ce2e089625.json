@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.e5e687b7a3116bec587694fc",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:d87b3e88e66e7724637fe72a",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋차이나과창판증권투자신탁(주식)종류C-P",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋차이나과창판증권투자신탁(주식)종류C-P",
+    "주식형",
+    "1",
+    "2020/12/30",
+    "판매",
+    "490",
+    "156.44",
+    "36.15",
+    "10.24",
+    "-",
+    "-",
+    "13.04",
+    "1.454",
+    "케이프투자증권, 한화투자증권주식회사, 한국투자증권, KB증권, KB국민은행, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=233",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=233",
+    "collected_at": "2026-09-23T08:27:02.708422+00:00",
+    "http_status": 200,
+    "sha256": "103962fa427edfa65f134af3aa5a043b16c6d432de866596afe877e2eb2e92a2"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋차이나과창판증권투자신탁(주식)종류C-P",
+        "상품유형": "주식형",
+        "위험등급": "1",
+        "설정일": "2020/12/30",
+        "판매여부": "판매",
+        "순자산총액": "490",
+        "1년 연평균수익률(%)": "156.44",
+        "3년 연평균수익률(%)": "36.15",
+        "5년 연평균수익률(%)": "10.24",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "13.04",
+        "연평균수수료율(%)": "1.454",
+        "상품 판매사": "케이프투자증권, 한화투자증권주식회사, 한국투자증권, KB증권, KB국민은행, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=233",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=233",
+        "collected_at": "2026-09-23T08:27:02.708422+00:00",
+        "http_status": 200,
+        "sha256": "103962fa427edfa65f134af3aa5a043b16c6d432de866596afe877e2eb2e92a2"
+      }
+    }
+  ]
+}

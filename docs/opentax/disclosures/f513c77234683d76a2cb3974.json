@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.5060abe421c23b3843edf3c4",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:980b6d125e19fc309fc904e8",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 중국본토 A주 증권 자투자신탁(주식) C-P 클래스",
+  "cells": [
+    "KB자산운용",
+    "KB 중국본토 A주 증권 자투자신탁(주식) C-P 클래스",
+    "주식형",
+    "2",
+    "2020/11/13",
+    "판매",
+    "1,336",
+    "52.91",
+    "12.09",
+    "-0.45",
+    "-",
+    "-",
+    "1.40",
+    "1.744",
+    "유진투자증권주식회사, 광주은행, 삼성생명보험주식회사, 아이엠증권, KB국민은행, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=172",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=172",
+    "collected_at": "2026-09-23T08:25:39.898216+00:00",
+    "http_status": 200,
+    "sha256": "41876bd21f8113107446a6026898a28a5afb14008a6c618337806805136cef4c"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 중국본토 A주 증권 자투자신탁(주식) C-P 클래스",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2020/11/13",
+        "판매여부": "판매",
+        "순자산총액": "1,336",
+        "1년 연평균수익률(%)": "52.91",
+        "3년 연평균수익률(%)": "12.09",
+        "5년 연평균수익률(%)": "-0.45",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "1.40",
+        "연평균수수료율(%)": "1.744",
+        "상품 판매사": "유진투자증권주식회사, 광주은행, 삼성생명보험주식회사, 아이엠증권, KB국민은행, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=172",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=172",
+        "collected_at": "2026-09-23T08:25:39.898216+00:00",
+        "http_status": 200,
+        "sha256": "41876bd21f8113107446a6026898a28a5afb14008a6c618337806805136cef4c"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.421a2427f5a7109653733ff1",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:5c98e79d75feee0aad2f1394",
+  "group": "3",
+  "provider": "신한자산운용",
+  "title": "신한SOL종합채권(AA-이상)액티브증권상장지수투자신탁[채권]",
+  "cells": [
+    "신한자산운용",
+    "신한SOL종합채권(AA-이상)액티브증권상장지수투자신탁[채권]",
+    "채권형",
+    "5",
+    "2022/08/05",
+    "판매",
+    "187",
+    "-5.16",
+    "2.56",
+    "-",
+    "-",
+    "-",
+    "2.21",
+    "0.055",
+    "한화투자증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, KB증권, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=280",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=280",
+    "collected_at": "2026-09-23T08:28:05.349187+00:00",
+    "http_status": 200,
+    "sha256": "3b24f1ab388aa929f0ee4674402ba2bd76d36e938feca4714184c49fdd97ad90"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한자산운용",
+        "상품명": "신한SOL종합채권(AA-이상)액티브증권상장지수투자신탁[채권]",
+        "상품유형": "채권형",
+        "위험등급": "5",
+        "설정일": "2022/08/05",
+        "판매여부": "판매",
+        "순자산총액": "187",
+        "1년 연평균수익률(%)": "-5.16",
+        "3년 연평균수익률(%)": "2.56",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "2.21",
+        "연평균수수료율(%)": "0.055",
+        "상품 판매사": "한화투자증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, KB증권, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=280",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=280",
+        "collected_at": "2026-09-23T08:28:05.349187+00:00",
+        "http_status": 200,
+        "sha256": "3b24f1ab388aa929f0ee4674402ba2bd76d36e938feca4714184c49fdd97ad90"
+      }
+    }
+  ]
+}

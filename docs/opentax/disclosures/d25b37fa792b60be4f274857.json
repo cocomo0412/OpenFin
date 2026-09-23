@@ -1,0 +1,49 @@
+{
+  "id": "finance.insurance.klia.disease.동양생명.l740246000102460004nnn0247000202440001024400010003024400010003000202440001000300020004q3012",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L740246000102460004NNN0247000202440001024400010003024400010003000202440001000300020004Q3012",
+  "group": "024400010003",
+  "title": "(무)우리WON하는mini독감케어보험",
+  "provider": "동양생명",
+  "cells": [
+    "동양생명",
+    "(무)우리WON하는mini독감케어보험",
+    "주계약",
+    "독감항바이러스제치료비 *지급사유 : 독감(인플루엔자) 보장개시일 이후에 \"독감(인플루엔자)\"으로 진단확정되고 그 치료를 직접적인 목적으로 \"독감 항바이러스제\"를 처방받았을 때(연간1회한)",
+    "10만원",
+    "3,260 원",
+    "4,620 원",
+    "2.90 %",
+    "-",
+    "-",
+    "84.0 %",
+    "80.2 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "기타",
+    "순수보장",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "대면채널 CM",
+    "2026-01-01",
+    "Download",
+    "보기",
+    "1577-1004"
+  ],
+  "coverage": [
+    "독감항바이러스제치료비 *지급사유 : 독감(인플루엔자) 보장개시일 이후에 \"독감(인플루엔자)\"으로 진단확정되고 그 치료를 직접적인 목적으로 \"독감 항바이러스제\"를 처방받았을 때(연간1회한)"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=40487&seq=4"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010003&pageIndex=4&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010003&pageIndex=4&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:26.632543+00:00",
+    "http_status": 200,
+    "sha256": "31864b70108d2db6ac0feb77c31c163edc694123be69f6650e0e6903d2e5510a"
+  }
+}

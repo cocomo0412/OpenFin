@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.d2d91a01d05b1a735a7d9f99",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:aecbb9bfc341e85a0a5ddff5",
+  "group": "4",
+  "provider": "흥국생명보험",
+  "title": "연금저축뉴드림테크연금보험",
+  "cells": [
+    "흥국생명보험",
+    "연금저축뉴드림테크연금보험",
+    "금리연동형",
+    "2009/02/01",
+    "중단",
+    "19,102",
+    "-4.83",
+    "-0.08",
+    "0.71",
+    "0.90",
+    "0.98",
+    "0.97",
+    "3.193"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=29",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=29",
+    "collected_at": "2026-09-23T08:31:02.246442+00:00",
+    "http_status": 200,
+    "sha256": "2f852066dbe9d8296cc73b8766d6cd5eb9cfb32f5d35029a3e91b172b76bf487"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "흥국생명보험",
+        "상품명": "연금저축뉴드림테크연금보험",
+        "상품유형": "금리연동형",
+        "최초판매일": "2009/02/01",
+        "판매여부": "중단",
+        "적립금총액": "19,102",
+        "1년 연평균수익률(%)": "-4.83",
+        "3년 연평균수익률(%)": "-0.08",
+        "5년 연평균수익률(%)": "0.71",
+        "7년 연평균수익률(%)": "0.90",
+        "10년 연평균수익률(%)": "0.98",
+        "누적연평균수익률(%)": "0.97",
+        "연평균수수료율(%)": "3.193"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=29",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=29",
+        "collected_at": "2026-09-23T08:31:02.246442+00:00",
+        "http_status": 200,
+        "sha256": "2f852066dbe9d8296cc73b8766d6cd5eb9cfb32f5d35029a3e91b172b76bf487"
+      }
+    }
+  ]
+}

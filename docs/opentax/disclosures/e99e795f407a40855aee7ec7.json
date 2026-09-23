@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.72a9ad3d821e644e838d99e8",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:9958f0def69148f46f67e9a9",
+  "group": "3",
+  "provider": "유리자산운용",
+  "title": "유리필라델피아반도체인덱스증권자투자신탁H[주식]_Class C-P2e",
+  "cells": [
+    "유리자산운용",
+    "유리필라델피아반도체인덱스증권자투자신탁H[주식]_Class C-P2e",
+    "주식형",
+    "1",
+    "2020/02/25",
+    "판매",
+    "64,568",
+    "128.05",
+    "46.44",
+    "27.63",
+    "-",
+    "-",
+    "30.32",
+    "0.909",
+    "디비증권주식회사, 유진투자증권주식회사, 한화투자증권주식회사, (주)우리투자증권, 키움증권(주), 광주은행, 삼성생명보험주식회사, NH농협은행, 한국투자증권, 우리은행, KB증권, 대신증권주식회사, 신한은행, KB국민은행, 미래에셋증권 주식회사, IBK투자증권, NH투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=19",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=19",
+    "collected_at": "2026-09-23T08:22:11.546343+00:00",
+    "http_status": 200,
+    "sha256": "e1118b42989c609e5bbf6104e27df64187d95ef54cc3f93f56efc6f6882c19cf"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "유리자산운용",
+        "상품명": "유리필라델피아반도체인덱스증권자투자신탁H[주식]_Class C-P2e",
+        "상품유형": "주식형",
+        "위험등급": "1",
+        "설정일": "2020/02/25",
+        "판매여부": "판매",
+        "순자산총액": "64,568",
+        "1년 연평균수익률(%)": "128.05",
+        "3년 연평균수익률(%)": "46.44",
+        "5년 연평균수익률(%)": "27.63",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "30.32",
+        "연평균수수료율(%)": "0.909",
+        "상품 판매사": "디비증권주식회사, 유진투자증권주식회사, 한화투자증권주식회사, (주)우리투자증권, 키움증권(주), 광주은행, 삼성생명보험주식회사, NH농협은행, 한국투자증권, 우리은행, KB증권, 대신증권주식회사, 신한은행, KB국민은행, 미래에셋증권 주식회사, IBK투자증권, NH투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=19",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=19",
+        "collected_at": "2026-09-23T08:22:11.546343+00:00",
+        "http_status": 200,
+        "sha256": "e1118b42989c609e5bbf6104e27df64187d95ef54cc3f93f56efc6f6882c19cf"
+      }
+    }
+  ]
+}

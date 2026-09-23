@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.cdda0310871ad0f153755695",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:00a79f1f179ed05a7d0628e6",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋베트남증권자투자신탁1호(H-USD)(주식-파생형)종류C-P",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋베트남증권자투자신탁1호(H-USD)(주식-파생형)종류C-P",
+    "주식형",
+    "2",
+    "2016/05/17",
+    "판매",
+    "7,262",
+    "22.58",
+    "9.60",
+    "1.79",
+    "5.72",
+    "6.81",
+    "7.10",
+    "1.688",
+    "NH농협은행, 한국투자증권, 우리은행, KB증권, 대신증권주식회사, 아이엠증권, 미래에셋증권 주식회사, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=89",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=89",
+    "collected_at": "2026-09-23T08:23:47.559173+00:00",
+    "http_status": 200,
+    "sha256": "2949e70e14aff438741da0234c8643f03427d3168ed6146a00cb2b193e405368"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋베트남증권자투자신탁1호(H-USD)(주식-파생형)종류C-P",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2016/05/17",
+        "판매여부": "판매",
+        "순자산총액": "7,262",
+        "1년 연평균수익률(%)": "22.58",
+        "3년 연평균수익률(%)": "9.60",
+        "5년 연평균수익률(%)": "1.79",
+        "7년 연평균수익률(%)": "5.72",
+        "10년 연평균수익률(%)": "6.81",
+        "누적연평균수익률(%)": "7.10",
+        "연평균수수료율(%)": "1.688",
+        "상품 판매사": "NH농협은행, 한국투자증권, 우리은행, KB증권, 대신증권주식회사, 아이엠증권, 미래에셋증권 주식회사, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=89",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=89",
+        "collected_at": "2026-09-23T08:23:47.559173+00:00",
+        "http_status": 200,
+        "sha256": "2949e70e14aff438741da0234c8643f03427d3168ed6146a00cb2b193e405368"
+      }
+    }
+  ]
+}

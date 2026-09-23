@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.a9c64365437765dba17a1da3",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:6d73f24129b14ac982f424fb",
+  "group": "3",
+  "provider": "유진자산운용",
+  "title": "유진챔피언중단기채증권자투자신탁(채권) Class S-P",
+  "cells": [
+    "유진자산운용",
+    "유진챔피언중단기채증권자투자신탁(채권) Class S-P",
+    "채권형",
+    "5",
+    "2018/10/02",
+    "판매",
+    "174",
+    "1.13",
+    "3.84",
+    "3.12",
+    "2.70",
+    "-",
+    "2.76",
+    "0.182",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=283",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=283",
+    "collected_at": "2026-09-23T08:28:09.538109+00:00",
+    "http_status": 200,
+    "sha256": "45436e13eafa47245fcac366aab2497b30d981dd538220e2374597c3e26917ce"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "유진자산운용",
+        "상품명": "유진챔피언중단기채증권자투자신탁(채권) Class S-P",
+        "상품유형": "채권형",
+        "위험등급": "5",
+        "설정일": "2018/10/02",
+        "판매여부": "판매",
+        "순자산총액": "174",
+        "1년 연평균수익률(%)": "1.13",
+        "3년 연평균수익률(%)": "3.84",
+        "5년 연평균수익률(%)": "3.12",
+        "7년 연평균수익률(%)": "2.70",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "2.76",
+        "연평균수수료율(%)": "0.182",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=283",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=283",
+        "collected_at": "2026-09-23T08:28:09.538109+00:00",
+        "http_status": 200,
+        "sha256": "45436e13eafa47245fcac366aab2497b30d981dd538220e2374597c3e26917ce"
+      }
+    }
+  ]
+}

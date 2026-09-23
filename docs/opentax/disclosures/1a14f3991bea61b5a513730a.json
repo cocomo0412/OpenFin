@@ -1,0 +1,97 @@
+{
+  "id": "finance.pension.disclosure.c84e208c33bde88999703fad",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:f52aaf3289b9e1412a2f9621",
+  "group": "4",
+  "provider": "흥국생명보험",
+  "title": "연금저축그린필드연금보험Ⅳ",
+  "cells": [
+    "흥국생명보험",
+    "연금저축그린필드연금보험Ⅳ",
+    "금리연동형",
+    "2007/12/01",
+    "중단",
+    "5,639",
+    "-3.56",
+    "0.37",
+    "1.14",
+    "1.29",
+    "1.16",
+    "1.34",
+    "2.308"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=47",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=47",
+    "collected_at": "2026-09-23T08:31:38.897165+00:00",
+    "http_status": 200,
+    "sha256": "28d87fc8d8283dce7c56767c7110b66750a118842dbabb2585ca359f0d96e83e"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "흥국생명보험",
+        "상품명": "연금저축그린필드연금보험Ⅳ",
+        "상품유형": "금리연동형",
+        "최초판매일": "2007/12/01",
+        "판매여부": "중단",
+        "적립금총액": "5,639",
+        "1년 연평균수익률(%)": "-3.56",
+        "3년 연평균수익률(%)": "0.37",
+        "5년 연평균수익률(%)": "1.14",
+        "7년 연평균수익률(%)": "1.29",
+        "10년 연평균수익률(%)": "1.16",
+        "누적연평균수익률(%)": "1.34",
+        "연평균수수료율(%)": "2.308"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=47",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=47",
+        "collected_at": "2026-09-23T08:31:38.897165+00:00",
+        "http_status": 200,
+        "sha256": "28d87fc8d8283dce7c56767c7110b66750a118842dbabb2585ca359f0d96e83e"
+      }
+    },
+    {
+      "fields": {
+        "금융회사": "흥국생명보험",
+        "상품명": "연금저축그린필드연금보험Ⅳ",
+        "상품유형": "금리연동형",
+        "최초판매일": "2007/12/01",
+        "판매여부": "중단",
+        "적립금총액": "3,659",
+        "1년 연평균수익률(%)": "-3.56",
+        "3년 연평균수익률(%)": "0.37",
+        "5년 연평균수익률(%)": "1.14",
+        "7년 연평균수익률(%)": "1.29",
+        "10년 연평균수익률(%)": "1.16",
+        "누적연평균수익률(%)": "1.34",
+        "연평균수수료율(%)": "2.308"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=52",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=52",
+        "collected_at": "2026-09-23T08:31:45.578256+00:00",
+        "http_status": 200,
+        "sha256": "6744c4d5c8d55b9becaa0f5f51733d65ed932b708424c8ad3636b819eb69f3a5"
+      }
+    }
+  ]
+}

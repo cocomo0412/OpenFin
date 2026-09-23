@@ -1,0 +1,50 @@
+{
+  "id": "finance.insurance.klia.disease.신한라이프생명.l1102460004nnn0247000202440001024400010003024400010003000202440001000300020004s0709",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L1102460004NNN0247000202440001024400010003024400010003000202440001000300020004S0709",
+  "group": "024400010003",
+  "title": "신한SOL뇌심보험(무배당)(실속형)",
+  "provider": "신한라이프생명",
+  "cells": [
+    "신한라이프생명",
+    "신한SOL뇌심보험(무배당)(실속형)",
+    "주계약",
+    "뇌출혈 진단급여금 *지급사유 : 보험기간 중 피보험자가 “뇌출 혈”로 진단 확정 되었을 때 (다 만, 최초 1회의 진단확정에 한 함)",
+    "3,000만원",
+    "11,130 원",
+    "5,490 원",
+    "2.10 %",
+    "-",
+    "-",
+    "109.4 %",
+    "109.3 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "기타",
+    "순수보장",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "CM",
+    "2026-07-01",
+    "Download",
+    "보기",
+    "1588-5580"
+  ],
+  "coverage": [
+    "뇌출혈 진단급여금 *지급사유 : 보험기간 중 피보험자가 “뇌출 혈”로 진단 확정 되었을 때 (다 만, 최초 1회의 진단확정에 한 함)",
+    "급성심근경색증 진단급여금 *지급사유 : 보험기간 중 피보험자가 “급성 심근경색증”으로 진단확정 되었 을 때 (다만, 최초 1회의 진단 확정에 한함)"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=41644&seq=2"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010003&pageIndex=4&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010003&pageIndex=4&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:26.632543+00:00",
+    "http_status": 200,
+    "sha256": "31864b70108d2db6ac0feb77c31c163edc694123be69f6650e0e6903d2e5510a"
+  }
+}

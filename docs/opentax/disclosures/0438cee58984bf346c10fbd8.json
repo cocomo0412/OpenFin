@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.e1ac05dce3896e92a6240954",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:0af6b270b9074f98b17dac56",
+  "group": "3",
+  "provider": "에셋플러스자산운용",
+  "title": "에셋플러스 코리아리치투게더 연금증권자투자신탁1호[주식] 종류S-P",
+  "cells": [
+    "에셋플러스자산운용",
+    "에셋플러스 코리아리치투게더 연금증권자투자신탁1호[주식] 종류S-P",
+    "주식형",
+    "2",
+    "2014/04/25",
+    "판매",
+    "3,731",
+    "74.86",
+    "32.27",
+    "14.96",
+    "21.04",
+    "14.26",
+    "12.48",
+    "0.865",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=118",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=118",
+    "collected_at": "2026-09-23T08:24:26.581417+00:00",
+    "http_status": 200,
+    "sha256": "aeaeb0222e465c69e31e39cc67cf54bb836df1f50fcf2d66dde5a5cf1d6383e7"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "에셋플러스자산운용",
+        "상품명": "에셋플러스 코리아리치투게더 연금증권자투자신탁1호[주식] 종류S-P",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2014/04/25",
+        "판매여부": "판매",
+        "순자산총액": "3,731",
+        "1년 연평균수익률(%)": "74.86",
+        "3년 연평균수익률(%)": "32.27",
+        "5년 연평균수익률(%)": "14.96",
+        "7년 연평균수익률(%)": "21.04",
+        "10년 연평균수익률(%)": "14.26",
+        "누적연평균수익률(%)": "12.48",
+        "연평균수수료율(%)": "0.865",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=118",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=118",
+        "collected_at": "2026-09-23T08:24:26.581417+00:00",
+        "http_status": 200,
+        "sha256": "aeaeb0222e465c69e31e39cc67cf54bb836df1f50fcf2d66dde5a5cf1d6383e7"
+      }
+    }
+  ]
+}

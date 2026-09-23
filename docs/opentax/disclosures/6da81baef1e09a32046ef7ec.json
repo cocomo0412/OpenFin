@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.44fc324755036adf7b33c4a2",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:7b629c29c993cc9f9ff3323e",
+  "group": "3",
+  "provider": "NH-Amundi자산운용",
+  "title": "NH-Amundi 디딤 하나로 자산배분 증권자투자신탁[채권혼합-재간접형] Class C-P1e(연금저축)",
+  "cells": [
+    "NH-Amundi자산운용",
+    "NH-Amundi 디딤 하나로 자산배분 증권자투자신탁[채권혼합-재간접형] Class C-P1e(연금저축)",
+    "재간접",
+    "4",
+    "2024/09/25",
+    "판매",
+    "343",
+    "17.51",
+    "-",
+    "-",
+    "-",
+    "-",
+    "14.28",
+    "0.556",
+    "KB증권, 미래에셋증권 주식회사, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=253",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=253",
+    "collected_at": "2026-09-23T08:27:29.401995+00:00",
+    "http_status": 200,
+    "sha256": "a647b089355a46f6e4f087b396ad78cfb7f21cd57d4718c87c8ba64cb1538d33"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "NH-Amundi자산운용",
+        "상품명": "NH-Amundi 디딤 하나로 자산배분 증권자투자신탁[채권혼합-재간접형] Class C-P1e(연금저축)",
+        "상품유형": "재간접",
+        "위험등급": "4",
+        "설정일": "2024/09/25",
+        "판매여부": "판매",
+        "순자산총액": "343",
+        "1년 연평균수익률(%)": "17.51",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "14.28",
+        "연평균수수료율(%)": "0.556",
+        "상품 판매사": "KB증권, 미래에셋증권 주식회사, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=253",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=253",
+        "collected_at": "2026-09-23T08:27:29.401995+00:00",
+        "http_status": 200,
+        "sha256": "a647b089355a46f6e4f087b396ad78cfb7f21cd57d4718c87c8ba64cb1538d33"
+      }
+    }
+  ]
+}

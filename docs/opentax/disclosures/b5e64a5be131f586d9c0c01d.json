@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.64aed4e53e8ea58691154410",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:c54858dac1fb6e07f2e66a3e",
+  "group": "5",
+  "provider": "메리츠화재해상보험",
+  "title": "노후생활지킴이1304",
+  "cells": [
+    "메리츠화재해상보험",
+    "노후생활지킴이1304",
+    "금리연동형",
+    "2013/04/01",
+    "중단",
+    "28,537",
+    "-5.46",
+    "-0.87",
+    "-0.04",
+    "0.31",
+    "0.69",
+    "0.99",
+    "6.306"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=15",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=15",
+    "collected_at": "2026-09-23T08:22:00.664726+00:00",
+    "http_status": 200,
+    "sha256": "b29bd1d347ef1a3d732994473fd9e5d1ffc04eb5c2d5700cbdcd11e6162bf717"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "메리츠화재해상보험",
+        "상품명": "노후생활지킴이1304",
+        "상품유형": "금리연동형",
+        "최초판매일": "2013/04/01",
+        "판매여부": "중단",
+        "적립금총액": "28,537",
+        "1년 연평균수익률(%)": "-5.46",
+        "3년 연평균수익률(%)": "-0.87",
+        "5년 연평균수익률(%)": "-0.04",
+        "7년 연평균수익률(%)": "0.31",
+        "10년 연평균수익률(%)": "0.69",
+        "누적연평균수익률(%)": "0.99",
+        "연평균수수료율(%)": "6.306"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=15",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=15",
+        "collected_at": "2026-09-23T08:22:00.664726+00:00",
+        "http_status": 200,
+        "sha256": "b29bd1d347ef1a3d732994473fd9e5d1ffc04eb5c2d5700cbdcd11e6162bf717"
+      }
+    }
+  ]
+}

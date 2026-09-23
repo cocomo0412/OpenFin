@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.900e40943638ea44051a015c",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:707b9a546743f0971ec4c689",
+  "group": "5",
+  "provider": "삼성화재해상보험",
+  "title": "연금저축손해보험 삼성명품 연금보험∥(1304)",
+  "cells": [
+    "삼성화재해상보험",
+    "연금저축손해보험 삼성명품 연금보험∥(1304)",
+    "금리연동형",
+    "2013/04/01",
+    "중단",
+    "44,609",
+    "-4.44",
+    "-0.55",
+    "0.09",
+    "0.34",
+    "0.61",
+    "0.89",
+    "5.488"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=11",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=11",
+    "collected_at": "2026-09-23T08:21:56.177882+00:00",
+    "http_status": 200,
+    "sha256": "e44c6ec956b3424319077a1dbf10277b058cefc022db86200eaadc9314b2e0e8"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성화재해상보험",
+        "상품명": "연금저축손해보험 삼성명품 연금보험∥(1304)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2013/04/01",
+        "판매여부": "중단",
+        "적립금총액": "44,609",
+        "1년 연평균수익률(%)": "-4.44",
+        "3년 연평균수익률(%)": "-0.55",
+        "5년 연평균수익률(%)": "0.09",
+        "7년 연평균수익률(%)": "0.34",
+        "10년 연평균수익률(%)": "0.61",
+        "누적연평균수익률(%)": "0.89",
+        "연평균수수료율(%)": "5.488"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=11",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=11",
+        "collected_at": "2026-09-23T08:21:56.177882+00:00",
+        "http_status": 200,
+        "sha256": "e44c6ec956b3424319077a1dbf10277b058cefc022db86200eaadc9314b2e0e8"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.c70a024820b4d753450c5b39",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:498740b36320ee93d9ecf741",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성누버거버먼미국리츠부동산자투자신탁H[REITs-재간접형]_C-Pe",
+  "cells": [
+    "삼성자산운용",
+    "삼성누버거버먼미국리츠부동산자투자신탁H[REITs-재간접형]_C-Pe",
+    "부동산",
+    "2",
+    "2020/06/23",
+    "판매",
+    "815",
+    "10.44",
+    "5.89",
+    "0.62",
+    "-",
+    "-",
+    "4.61",
+    "1.757",
+    "한국투자증권, 삼성증권, 우리은행, KB증권, 미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=200",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=200",
+    "collected_at": "2026-09-23T08:26:17.542985+00:00",
+    "http_status": 200,
+    "sha256": "8e9de74b34f42ece403e44d6236a3fe6dfaf54524a1f0b426a1b6ebb4b432ce8"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성누버거버먼미국리츠부동산자투자신탁H[REITs-재간접형]_C-Pe",
+        "상품유형": "부동산",
+        "위험등급": "2",
+        "설정일": "2020/06/23",
+        "판매여부": "판매",
+        "순자산총액": "815",
+        "1년 연평균수익률(%)": "10.44",
+        "3년 연평균수익률(%)": "5.89",
+        "5년 연평균수익률(%)": "0.62",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "4.61",
+        "연평균수수료율(%)": "1.757",
+        "상품 판매사": "한국투자증권, 삼성증권, 우리은행, KB증권, 미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=200",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=200",
+        "collected_at": "2026-09-23T08:26:17.542985+00:00",
+        "http_status": 200,
+        "sha256": "8e9de74b34f42ece403e44d6236a3fe6dfaf54524a1f0b426a1b6ebb4b432ce8"
+      }
+    }
+  ]
+}

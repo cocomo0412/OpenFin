@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.98ef2985971206ab74c3331a",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:234dac838d7ba0378f73ab16",
+  "group": "3",
+  "provider": "우리자산운용",
+  "title": "우리반도체BIG2플러스증권투자신탁(채권혼합)ClassC-P1e",
+  "cells": [
+    "우리자산운용",
+    "우리반도체BIG2플러스증권투자신탁(채권혼합)ClassC-P1e",
+    "혼합채권형",
+    "4",
+    "2021/10/22",
+    "판매",
+    "11,261",
+    "71.63",
+    "27.38",
+    "-",
+    "-",
+    "-",
+    "17.59",
+    "0.556",
+    "한화투자증권주식회사, 키움증권(주), 삼성생명보험주식회사, 삼성증권, 교보증권(주), 우리은행, KB증권, 대신증권주식회사, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=70",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=70",
+    "collected_at": "2026-09-23T08:23:22.049409+00:00",
+    "http_status": 200,
+    "sha256": "70e9d2fc830428e65d263604f6a16ae6d5b3c4fa92068e236856145da22010dc"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "우리자산운용",
+        "상품명": "우리반도체BIG2플러스증권투자신탁(채권혼합)ClassC-P1e",
+        "상품유형": "혼합채권형",
+        "위험등급": "4",
+        "설정일": "2021/10/22",
+        "판매여부": "판매",
+        "순자산총액": "11,261",
+        "1년 연평균수익률(%)": "71.63",
+        "3년 연평균수익률(%)": "27.38",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "17.59",
+        "연평균수수료율(%)": "0.556",
+        "상품 판매사": "한화투자증권주식회사, 키움증권(주), 삼성생명보험주식회사, 삼성증권, 교보증권(주), 우리은행, KB증권, 대신증권주식회사, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=70",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=70",
+        "collected_at": "2026-09-23T08:23:22.049409+00:00",
+        "http_status": 200,
+        "sha256": "70e9d2fc830428e65d263604f6a16ae6d5b3c4fa92068e236856145da22010dc"
+      }
+    }
+  ]
+}

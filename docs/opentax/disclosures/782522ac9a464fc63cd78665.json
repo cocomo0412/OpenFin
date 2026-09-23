@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.64dc2ac91b3c3c331a3f4712",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:9ffe1deeac80e69041b1a7ee",
+  "group": "3",
+  "provider": "BNK자산운용",
+  "title": "BNK K200인덱스증권투자신탁(주식-파생형) Class S-P",
+  "cells": [
+    "BNK자산운용",
+    "BNK K200인덱스증권투자신탁(주식-파생형) Class S-P",
+    "파생상품",
+    "2",
+    "2021/09/15",
+    "판매",
+    "1,457",
+    "239.34",
+    "64.09",
+    "-",
+    "-",
+    "-",
+    "32.04",
+    "0.267",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=168",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=168",
+    "collected_at": "2026-09-23T08:25:34.612268+00:00",
+    "http_status": 200,
+    "sha256": "73d75e85aa8490b580a1b89f1a81859d5db0956bcde4549ff9b82807783ae4fc"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "BNK자산운용",
+        "상품명": "BNK K200인덱스증권투자신탁(주식-파생형) Class S-P",
+        "상품유형": "파생상품",
+        "위험등급": "2",
+        "설정일": "2021/09/15",
+        "판매여부": "판매",
+        "순자산총액": "1,457",
+        "1년 연평균수익률(%)": "239.34",
+        "3년 연평균수익률(%)": "64.09",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "32.04",
+        "연평균수수료율(%)": "0.267",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=168",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=168",
+        "collected_at": "2026-09-23T08:25:34.612268+00:00",
+        "http_status": 200,
+        "sha256": "73d75e85aa8490b580a1b89f1a81859d5db0956bcde4549ff9b82807783ae4fc"
+      }
+    }
+  ]
+}

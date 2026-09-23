@@ -1,0 +1,12 @@
+{
+  "id": "finance.card.credit-card.비씨카드.bc-miles카드-222804",
+  "source_id": "source.bccard.credit-card-list",
+  "text": "카드상품 신용카드 상세보기 [BC공통] BC Miles카드 [BC공통] BC Miles카드 BC Master Card VISA 1천원당 최대 2BC Mile 적립 BC Mile 1마일당 TOP포인트 15포인트 전환 항공사, 여행사 최대 3개월 무이자 할부 연회비 브랜드/등급별 상이 52.6% 47.4% 10.5% 39.5% 42.1% 0.0% 7.9% 롯데백화점 상인점 신세계 대구점 커넥트현대 부산점",
+  "receipt": {
+    "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=222804&mbkNo=999",
+    "final_url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=222804&mbkNo=999",
+    "collected_at": "2026-09-23T08:24:53.842311+00:00",
+    "http_status": 200,
+    "sha256": "ce8977c36acc863445d9e6d300b64ee179b856c514171736d9a1441c6113b35f"
+  }
+}

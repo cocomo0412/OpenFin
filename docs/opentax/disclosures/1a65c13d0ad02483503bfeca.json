@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.26c7a43d162f371993ec530c",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:3102693daf58f445be719fa3",
+  "group": "3",
+  "provider": "얼라이언스번스틴 자산운용",
+  "title": "AB 미국 그로스 UH 증권투자신탁(주식-재간접형) 종류 C-P",
+  "cells": [
+    "얼라이언스번스틴 자산운용",
+    "AB 미국 그로스 UH 증권투자신탁(주식-재간접형) 종류 C-P",
+    "재간접",
+    "2",
+    "2020/08/11",
+    "판매",
+    "4,924",
+    "22.42",
+    "22.10",
+    "14.96",
+    "-",
+    "-",
+    "16.19",
+    "0.991",
+    "한화투자증권주식회사, 한국투자증권, 미래에셋증권 주식회사, NH투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=104",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=104",
+    "collected_at": "2026-09-23T08:24:08.039064+00:00",
+    "http_status": 200,
+    "sha256": "b37f2b5f4343509756902b01eb9603435cea6cb320fccf91c988b913c3e042fc"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "얼라이언스번스틴 자산운용",
+        "상품명": "AB 미국 그로스 UH 증권투자신탁(주식-재간접형) 종류 C-P",
+        "상품유형": "재간접",
+        "위험등급": "2",
+        "설정일": "2020/08/11",
+        "판매여부": "판매",
+        "순자산총액": "4,924",
+        "1년 연평균수익률(%)": "22.42",
+        "3년 연평균수익률(%)": "22.10",
+        "5년 연평균수익률(%)": "14.96",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "16.19",
+        "연평균수수료율(%)": "0.991",
+        "상품 판매사": "한화투자증권주식회사, 한국투자증권, 미래에셋증권 주식회사, NH투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=104",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=104",
+        "collected_at": "2026-09-23T08:24:08.039064+00:00",
+        "http_status": 200,
+        "sha256": "b37f2b5f4343509756902b01eb9603435cea6cb320fccf91c988b913c3e042fc"
+      }
+    }
+  ]
+}

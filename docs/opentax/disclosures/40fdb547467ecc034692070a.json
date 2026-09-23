@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.f316fa736351dc1af3f15e68",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:e6647b0a5221480ea2c9ee1c",
+  "group": "3",
+  "provider": "에셋플러스자산운용",
+  "title": "에셋플러스 굿밸런스 증권 자투자신탁 1호(주식) 종류 C-Pe",
+  "cells": [
+    "에셋플러스자산운용",
+    "에셋플러스 굿밸런스 증권 자투자신탁 1호(주식) 종류 C-Pe",
+    "주식형",
+    "3",
+    "2020/10/16",
+    "판매",
+    "1,728",
+    "51.82",
+    "27.05",
+    "13.10",
+    "-",
+    "-",
+    "16.09",
+    "1.117",
+    "에셋플러스자산운용(주)"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=159",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=159",
+    "collected_at": "2026-09-23T08:25:22.525434+00:00",
+    "http_status": 200,
+    "sha256": "a3b44f53cfdaf942dbf0b69eb10de90099554112cb2582a2f5f5d3e880d5742f"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "에셋플러스자산운용",
+        "상품명": "에셋플러스 굿밸런스 증권 자투자신탁 1호(주식) 종류 C-Pe",
+        "상품유형": "주식형",
+        "위험등급": "3",
+        "설정일": "2020/10/16",
+        "판매여부": "판매",
+        "순자산총액": "1,728",
+        "1년 연평균수익률(%)": "51.82",
+        "3년 연평균수익률(%)": "27.05",
+        "5년 연평균수익률(%)": "13.10",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "16.09",
+        "연평균수수료율(%)": "1.117",
+        "상품 판매사": "에셋플러스자산운용(주)"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=159",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=159",
+        "collected_at": "2026-09-23T08:25:22.525434+00:00",
+        "http_status": 200,
+        "sha256": "a3b44f53cfdaf942dbf0b69eb10de90099554112cb2582a2f5f5d3e880d5742f"
+      }
+    }
+  ]
+}

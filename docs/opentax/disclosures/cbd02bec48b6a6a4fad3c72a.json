@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.00ba3d7cd6b5c9f025996f42",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:1ce1070037adebd2e4d3239b",
+  "group": "3",
+  "provider": "한화자산운용",
+  "title": "한화 PLUS 스마트베타Quality채권혼합증권상장지수투자신탁(채권혼합-파생형)",
+  "cells": [
+    "한화자산운용",
+    "한화 PLUS 스마트베타Quality채권혼합증권상장지수투자신탁(채권혼합-파생형)",
+    "파생상품",
+    "4",
+    "2016/02/23",
+    "판매",
+    "6",
+    "14.21",
+    "8.84",
+    "3.75",
+    "4.60",
+    "3.55",
+    "3.43",
+    "0.317",
+    "한화투자증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, 미래에셋증권 주식회사, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=314",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=314",
+    "collected_at": "2026-09-23T08:28:52.182573+00:00",
+    "http_status": 200,
+    "sha256": "f1e7f9624ae92e31d89c43bfa9f7e66e96d117a822f4dd493ce2208e1d78be98"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한화자산운용",
+        "상품명": "한화 PLUS 스마트베타Quality채권혼합증권상장지수투자신탁(채권혼합-파생형)",
+        "상품유형": "파생상품",
+        "위험등급": "4",
+        "설정일": "2016/02/23",
+        "판매여부": "판매",
+        "순자산총액": "6",
+        "1년 연평균수익률(%)": "14.21",
+        "3년 연평균수익률(%)": "8.84",
+        "5년 연평균수익률(%)": "3.75",
+        "7년 연평균수익률(%)": "4.60",
+        "10년 연평균수익률(%)": "3.55",
+        "누적연평균수익률(%)": "3.43",
+        "연평균수수료율(%)": "0.317",
+        "상품 판매사": "한화투자증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, 미래에셋증권 주식회사, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=314",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=314",
+        "collected_at": "2026-09-23T08:28:52.182573+00:00",
+        "http_status": 200,
+        "sha256": "f1e7f9624ae92e31d89c43bfa9f7e66e96d117a822f4dd493ce2208e1d78be98"
+      }
+    }
+  ]
+}

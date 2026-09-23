@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.55a8d4183f4ea04cb0008abb",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:9d21d475c93b4bf3a08e9934",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋스마트롱숏30증권자투자신탁2호(채권혼합)종류C-P",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋스마트롱숏30증권자투자신탁2호(채권혼합)종류C-P",
+    "혼합채권형",
+    "5",
+    "2016/02/26",
+    "판매",
+    "574",
+    "15.85",
+    "8.42",
+    "5.41",
+    "5.28",
+    "3.94",
+    "3.81",
+    "0.944",
+    "유진투자증권주식회사, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=222",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=222",
+    "collected_at": "2026-09-23T08:26:47.142337+00:00",
+    "http_status": 200,
+    "sha256": "e53126dc150834d23afe067645315e7e7acdcb903a5d70dbfb7f4a5805d08533"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋스마트롱숏30증권자투자신탁2호(채권혼합)종류C-P",
+        "상품유형": "혼합채권형",
+        "위험등급": "5",
+        "설정일": "2016/02/26",
+        "판매여부": "판매",
+        "순자산총액": "574",
+        "1년 연평균수익률(%)": "15.85",
+        "3년 연평균수익률(%)": "8.42",
+        "5년 연평균수익률(%)": "5.41",
+        "7년 연평균수익률(%)": "5.28",
+        "10년 연평균수익률(%)": "3.94",
+        "누적연평균수익률(%)": "3.81",
+        "연평균수수료율(%)": "0.944",
+        "상품 판매사": "유진투자증권주식회사, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=222",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=222",
+        "collected_at": "2026-09-23T08:26:47.142337+00:00",
+        "http_status": 200,
+        "sha256": "e53126dc150834d23afe067645315e7e7acdcb903a5d70dbfb7f4a5805d08533"
+      }
+    }
+  ]
+}

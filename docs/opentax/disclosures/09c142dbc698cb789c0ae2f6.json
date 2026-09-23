@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.484366fbc1a74fc95c289ac3",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:2ce946910d098435f74bc6fc",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋TIGERNVDA-UST커버드콜증권상장지수투자신탁(채권혼합-파생재간접형)(합성)",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋TIGERNVDA-UST커버드콜증권상장지수투자신탁(채권혼합-파생재간접형)(합성)",
+    "재간접",
+    "3",
+    "2024/12/16",
+    "판매",
+    "2,703",
+    "27.04",
+    "-",
+    "-",
+    "-",
+    "-",
+    "15.20",
+    "0.468",
+    "유진투자증권주식회사, 한화투자증권주식회사, 하나증권주식회사, 키움증권(주), 메리츠증권(주), 한국투자증권, SK증권주식회사, 삼성증권, 교보증권(주), KB증권, 대신증권주식회사, 아이엠증권, 신영증권주식회사, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=134",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=134",
+    "collected_at": "2026-09-23T08:24:48.826704+00:00",
+    "http_status": 200,
+    "sha256": "da67ff752b752ec6e6b4dce5267e6bfc0ba433993cd01a7192ec527380317675"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋TIGERNVDA-UST커버드콜증권상장지수투자신탁(채권혼합-파생재간접형)(합성)",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2024/12/16",
+        "판매여부": "판매",
+        "순자산총액": "2,703",
+        "1년 연평균수익률(%)": "27.04",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "15.20",
+        "연평균수수료율(%)": "0.468",
+        "상품 판매사": "유진투자증권주식회사, 한화투자증권주식회사, 하나증권주식회사, 키움증권(주), 메리츠증권(주), 한국투자증권, SK증권주식회사, 삼성증권, 교보증권(주), KB증권, 대신증권주식회사, 아이엠증권, 신영증권주식회사, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=134",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=134",
+        "collected_at": "2026-09-23T08:24:48.826704+00:00",
+        "http_status": 200,
+        "sha256": "da67ff752b752ec6e6b4dce5267e6bfc0ba433993cd01a7192ec527380317675"
+      }
+    }
+  ]
+}

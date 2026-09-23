@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.f7d548fc451056390277dd3a",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:15277ca9cb7a490ac2b7e3ea",
+  "group": "3",
+  "provider": "IBK자산운용",
+  "title": "IBK 평생설계 연금 증권 전환형 자투자신탁 [국공채] C",
+  "cells": [
+    "IBK자산운용",
+    "IBK 평생설계 연금 증권 전환형 자투자신탁 [국공채] C",
+    "채권형",
+    "5",
+    "2015/02/17",
+    "판매",
+    "7,905",
+    "-1.45",
+    "2.65",
+    "1.31",
+    "1.23",
+    "1.14",
+    "1.91",
+    "0.497",
+    "-"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=85",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=85",
+    "collected_at": "2026-09-23T08:23:42.290978+00:00",
+    "http_status": 200,
+    "sha256": "f67afe1bfaf9f942d44297a7a771b5d50593874d87a6d6d60f0e934a88b47ef7"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "IBK자산운용",
+        "상품명": "IBK 평생설계 연금 증권 전환형 자투자신탁 [국공채] C",
+        "상품유형": "채권형",
+        "위험등급": "5",
+        "설정일": "2015/02/17",
+        "판매여부": "판매",
+        "순자산총액": "7,905",
+        "1년 연평균수익률(%)": "-1.45",
+        "3년 연평균수익률(%)": "2.65",
+        "5년 연평균수익률(%)": "1.31",
+        "7년 연평균수익률(%)": "1.23",
+        "10년 연평균수익률(%)": "1.14",
+        "누적연평균수익률(%)": "1.91",
+        "연평균수수료율(%)": "0.497",
+        "상품 판매사": "-"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=85",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=85",
+        "collected_at": "2026-09-23T08:23:42.290978+00:00",
+        "http_status": 200,
+        "sha256": "f67afe1bfaf9f942d44297a7a771b5d50593874d87a6d6d60f0e934a88b47ef7"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.90922820d037850f453d7b82",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:dbdce80d604ae1bcc54d0f65",
+  "group": "3",
+  "provider": "신한자산운용",
+  "title": "신한MAN글로벌하이일드증권투자신탁(H)[채권-재간접형](종류C-p)",
+  "cells": [
+    "신한자산운용",
+    "신한MAN글로벌하이일드증권투자신탁(H)[채권-재간접형](종류C-p)",
+    "재간접",
+    "2",
+    "2024/03/25",
+    "판매",
+    "770",
+    "5.71",
+    "-",
+    "-",
+    "-",
+    "-",
+    "7.22",
+    "1.052",
+    "한국투자증권, KB증권, 신영증권주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=204",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=204",
+    "collected_at": "2026-09-23T08:26:23.483533+00:00",
+    "http_status": 200,
+    "sha256": "3b01981921e00ae7a2254d6d98578a5f4cd46847b8943a0d7ffe1a36dc5fa6ec"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한자산운용",
+        "상품명": "신한MAN글로벌하이일드증권투자신탁(H)[채권-재간접형](종류C-p)",
+        "상품유형": "재간접",
+        "위험등급": "2",
+        "설정일": "2024/03/25",
+        "판매여부": "판매",
+        "순자산총액": "770",
+        "1년 연평균수익률(%)": "5.71",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "7.22",
+        "연평균수수료율(%)": "1.052",
+        "상품 판매사": "한국투자증권, KB증권, 신영증권주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=204",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=204",
+        "collected_at": "2026-09-23T08:26:23.483533+00:00",
+        "http_status": 200,
+        "sha256": "3b01981921e00ae7a2254d6d98578a5f4cd46847b8943a0d7ffe1a36dc5fa6ec"
+      }
+    }
+  ]
+}

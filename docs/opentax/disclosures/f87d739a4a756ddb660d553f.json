@@ -1,0 +1,59 @@
+{
+  "id": "finance.insurance.klia.cancer.aia생명.l523nnb1i02m3001",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L523NNB1I02M3001",
+  "group": "024400010004",
+  "title": "(무) 원스톱 더 큰 드림 암보험 (갱신형)",
+  "provider": "AIA생명",
+  "cells": [
+    "AIA생명",
+    "(무) 원스톱 더 큰 드림 암보험 (갱신형)",
+    "주계약",
+    "신일반암 진단급여금 *지급사유 : 신일반암 진단(90일이후) 최초1회한",
+    "3,000만원",
+    "16,200 원",
+    "19,200 원",
+    "2.25 %",
+    "-",
+    "-",
+    "229.0 %",
+    "220.4 %",
+    "92.6 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "순수보장",
+    "갱신형",
+    "Download",
+    "비유니버셜",
+    "TM",
+    "2026-07-01",
+    "Download",
+    "보기",
+    "1588-9898"
+  ],
+  "coverage": [
+    "신일반암 진단급여금 *지급사유 : 신일반암 진단(90일이후) 최초1회한",
+    "유방암·전립선암 진단급여금 *지급사유 : 유방암·전립선암 진단(90일이후) 최초1회한",
+    "기타피부암 진단급여금 *지급사유 : 기타피부암 진단 최초1회한",
+    "갑상선암 진단급여금 *지급사유 : 갑상선암 진단 최초1회한",
+    "대장점막내암 진단급여금 *지급사유 : 대장점막내암 진단 최초1회한",
+    "(무) 표적항암약물허가치료특약 (갱신형) *지급사유 : 표적항암약물허가치료(암(90일이후), 기타피부암, 갑상선암 진단) 최초1회한",
+    "(무) 계속받는 표적항암약물허가치료특약 (갱신형) *지급사유 : 표적항암약물허가치료(암(90일이후), 기타피부암, 갑상선암 진단) 연간1회한",
+    "(무) 다빈치로봇 암수술특약 I (갱신형) *지급사유 : 다빈치로봇암수술(90일 이후) 최초1회한",
+    "(무) 다빈치로봇 암수술특약 II (갱신형) *지급사유 : 다빈치로봇암(갑상선암 및 전립선암 제외)수술(90일 이후) 최초1회한"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=15272&seq=7",
+    "https://pub.insure.or.kr/FileDown.do?fileNo=13623&seq=22"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010004&pageIndex=5&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010004&pageIndex=5&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:32.368072+00:00",
+    "http_status": 200,
+    "sha256": "b0a74ba28ed0a30b12d1742c716e57bdf5474afea352b5c97050139ef45f4ed0"
+  }
+}

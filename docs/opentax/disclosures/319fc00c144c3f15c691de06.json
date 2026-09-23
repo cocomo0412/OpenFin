@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.f9e4ef8e6c79e640dc74162e",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:731e63a41642151e051c7376",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 중소형주 포커스 증권 자투자신탁(주식)C-Pe Class",
+  "cells": [
+    "KB자산운용",
+    "KB 중소형주 포커스 증권 자투자신탁(주식)C-Pe Class",
+    "주식형",
+    "2",
+    "2020/03/25",
+    "판매",
+    "724",
+    "51.69",
+    "18.67",
+    "6.03",
+    "-",
+    "-",
+    "18.33",
+    "1.149",
+    "한화투자증권주식회사, (주)우리투자증권, 한국투자증권, 삼성증권, KB증권, 아이엠증권, KB국민은행, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=209",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=209",
+    "collected_at": "2026-09-23T08:26:30.392900+00:00",
+    "http_status": 200,
+    "sha256": "a1a4b29a27509550ee46f62f95f1b69daa657160e0c90561f283560383ffbfa0"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 중소형주 포커스 증권 자투자신탁(주식)C-Pe Class",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2020/03/25",
+        "판매여부": "판매",
+        "순자산총액": "724",
+        "1년 연평균수익률(%)": "51.69",
+        "3년 연평균수익률(%)": "18.67",
+        "5년 연평균수익률(%)": "6.03",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "18.33",
+        "연평균수수료율(%)": "1.149",
+        "상품 판매사": "한화투자증권주식회사, (주)우리투자증권, 한국투자증권, 삼성증권, KB증권, 아이엠증권, KB국민은행, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=209",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=209",
+        "collected_at": "2026-09-23T08:26:30.392900+00:00",
+        "http_status": 200,
+        "sha256": "a1a4b29a27509550ee46f62f95f1b69daa657160e0c90561f283560383ffbfa0"
+      }
+    }
+  ]
+}

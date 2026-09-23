@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.15e44a2dd8522e89a0d575a8",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:219a46b4871e0e91a8e24e19",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자골드플랜연금증권전환형투자신탁1호(국공채)(C-e)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자골드플랜연금증권전환형투자신탁1호(국공채)(C-e)",
+    "채권형",
+    "5",
+    "2017/11/27",
+    "판매",
+    "448",
+    "-0.65",
+    "3.06",
+    "1.65",
+    "1.22",
+    "-",
+    "1.84",
+    "0.346",
+    "키움증권(주), 삼성생명보험주식회사, 한국투자증권, 삼성증권, 교보증권(주), KB증권, 신한투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=238",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=238",
+    "collected_at": "2026-09-23T08:27:09.374056+00:00",
+    "http_status": 200,
+    "sha256": "16695cf332582ec1348193a94cf7bfcb74ef6ff955762dc5db9ee7ae562b4ac4"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자골드플랜연금증권전환형투자신탁1호(국공채)(C-e)",
+        "상품유형": "채권형",
+        "위험등급": "5",
+        "설정일": "2017/11/27",
+        "판매여부": "판매",
+        "순자산총액": "448",
+        "1년 연평균수익률(%)": "-0.65",
+        "3년 연평균수익률(%)": "3.06",
+        "5년 연평균수익률(%)": "1.65",
+        "7년 연평균수익률(%)": "1.22",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "1.84",
+        "연평균수수료율(%)": "0.346",
+        "상품 판매사": "키움증권(주), 삼성생명보험주식회사, 한국투자증권, 삼성증권, 교보증권(주), KB증권, 신한투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=238",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=238",
+        "collected_at": "2026-09-23T08:27:09.374056+00:00",
+        "http_status": 200,
+        "sha256": "16695cf332582ec1348193a94cf7bfcb74ef6ff955762dc5db9ee7ae562b4ac4"
+      }
+    }
+  ]
+}

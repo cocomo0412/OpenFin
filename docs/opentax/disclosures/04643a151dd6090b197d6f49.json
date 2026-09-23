@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.7603c03100c19b8d34328fc0",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:7ad225636981559fa98f3e0c",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성글로벌반도체증권자투자신탁UH[주식]_C-P",
+  "cells": [
+    "삼성자산운용",
+    "삼성글로벌반도체증권자투자신탁UH[주식]_C-P",
+    "주식형",
+    "1",
+    "2024/05/23",
+    "판매",
+    "434",
+    "219.59",
+    "-",
+    "-",
+    "-",
+    "-",
+    "80.81",
+    "1.731",
+    "한화투자증권주식회사, 한국투자증권, 우리은행, KB증권, 아이엠증권, 하나은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=240",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=240",
+    "collected_at": "2026-09-23T08:27:11.919834+00:00",
+    "http_status": 200,
+    "sha256": "262e1caab3816b09dd1e185243e9ed5c99fb62305bb15a27bbfcc538c0e3de37"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성글로벌반도체증권자투자신탁UH[주식]_C-P",
+        "상품유형": "주식형",
+        "위험등급": "1",
+        "설정일": "2024/05/23",
+        "판매여부": "판매",
+        "순자산총액": "434",
+        "1년 연평균수익률(%)": "219.59",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "80.81",
+        "연평균수수료율(%)": "1.731",
+        "상품 판매사": "한화투자증권주식회사, 한국투자증권, 우리은행, KB증권, 아이엠증권, 하나은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=240",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=240",
+        "collected_at": "2026-09-23T08:27:11.919834+00:00",
+        "http_status": 200,
+        "sha256": "262e1caab3816b09dd1e185243e9ed5c99fb62305bb15a27bbfcc538c0e3de37"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.1daee3b332a887a868dbf275",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:7bd319eb20d0c2a97be8eaad",
+  "group": "3",
+  "provider": "흥국자산운용",
+  "title": "흥국싱가포르리츠플러스부동산자투자신탁1호(H)[리츠-재간접형]C-pe",
+  "cells": [
+    "흥국자산운용",
+    "흥국싱가포르리츠플러스부동산자투자신탁1호(H)[리츠-재간접형]C-pe",
+    "부동산",
+    "3",
+    "2020/09/03",
+    "판매",
+    "116",
+    "5.85",
+    "1.71",
+    "-0.74",
+    "-",
+    "-",
+    "-0.55",
+    "0.996",
+    "한화투자증권주식회사, 대신증권주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=294",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=294",
+    "collected_at": "2026-09-23T08:28:23.954291+00:00",
+    "http_status": 200,
+    "sha256": "d8e2effcc932645f868aa43005748c547504f952ebc92dc7496ef24503505847"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "흥국자산운용",
+        "상품명": "흥국싱가포르리츠플러스부동산자투자신탁1호(H)[리츠-재간접형]C-pe",
+        "상품유형": "부동산",
+        "위험등급": "3",
+        "설정일": "2020/09/03",
+        "판매여부": "판매",
+        "순자산총액": "116",
+        "1년 연평균수익률(%)": "5.85",
+        "3년 연평균수익률(%)": "1.71",
+        "5년 연평균수익률(%)": "-0.74",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-0.55",
+        "연평균수수료율(%)": "0.996",
+        "상품 판매사": "한화투자증권주식회사, 대신증권주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=294",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=294",
+        "collected_at": "2026-09-23T08:28:23.954291+00:00",
+        "http_status": 200,
+        "sha256": "d8e2effcc932645f868aa43005748c547504f952ebc92dc7496ef24503505847"
+      }
+    }
+  ]
+}

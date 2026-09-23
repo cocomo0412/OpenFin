@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.ef1508d9ce6730403599bac3",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:e36549de31b22470a8373736",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋ETF로자산배분적격TDF2035증권자투자신탁(채권혼합-재간접형)종류C-P",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋ETF로자산배분적격TDF2035증권자투자신탁(채권혼합-재간접형)종류C-P",
+    "재간접",
+    "4",
+    "2017/03/10",
+    "판매",
+    "13,131",
+    "21.70",
+    "13.69",
+    "6.65",
+    "8.46",
+    "-",
+    "7.44",
+    "0.840",
+    "한화투자증권주식회사, KB증권, 미래에셋증권 주식회사, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=62",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=62",
+    "collected_at": "2026-09-23T08:23:11.083138+00:00",
+    "http_status": 200,
+    "sha256": "37635972a21705b7fae0c094e73ed45885da1773aa18beaf8fc43e1749ab3155"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋ETF로자산배분적격TDF2035증권자투자신탁(채권혼합-재간접형)종류C-P",
+        "상품유형": "재간접",
+        "위험등급": "4",
+        "설정일": "2017/03/10",
+        "판매여부": "판매",
+        "순자산총액": "13,131",
+        "1년 연평균수익률(%)": "21.70",
+        "3년 연평균수익률(%)": "13.69",
+        "5년 연평균수익률(%)": "6.65",
+        "7년 연평균수익률(%)": "8.46",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "7.44",
+        "연평균수수료율(%)": "0.840",
+        "상품 판매사": "한화투자증권주식회사, KB증권, 미래에셋증권 주식회사, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=62",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=62",
+        "collected_at": "2026-09-23T08:23:11.083138+00:00",
+        "http_status": 200,
+        "sha256": "37635972a21705b7fae0c094e73ed45885da1773aa18beaf8fc43e1749ab3155"
+      }
+    }
+  ]
+}

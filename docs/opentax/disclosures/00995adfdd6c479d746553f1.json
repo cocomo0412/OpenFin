@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.5ce9ff55ccf07c88e316e439",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:11879e2951d5630de6a78851",
+  "group": "3",
+  "provider": "유리자산운용",
+  "title": "유리베트남알파연금저축증권자투자신탁[주식]_C/C-e",
+  "cells": [
+    "유리자산운용",
+    "유리베트남알파연금저축증권자투자신탁[주식]_C/C-e",
+    "주식형",
+    "2",
+    "2016/07/13",
+    "판매",
+    "3,279",
+    "25.91",
+    "10.24",
+    "4.41",
+    "9.84",
+    "-",
+    "8.55",
+    "1.155",
+    "광주은행, 한국투자증권, KB증권, LS증권, NH투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=124",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=124",
+    "collected_at": "2026-09-23T08:24:35.828473+00:00",
+    "http_status": 200,
+    "sha256": "733a909475947491ecf59120502a02a14c502ae605d95e167d9c29c9e720b11e"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "유리자산운용",
+        "상품명": "유리베트남알파연금저축증권자투자신탁[주식]_C/C-e",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2016/07/13",
+        "판매여부": "판매",
+        "순자산총액": "3,279",
+        "1년 연평균수익률(%)": "25.91",
+        "3년 연평균수익률(%)": "10.24",
+        "5년 연평균수익률(%)": "4.41",
+        "7년 연평균수익률(%)": "9.84",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "8.55",
+        "연평균수수료율(%)": "1.155",
+        "상품 판매사": "광주은행, 한국투자증권, KB증권, LS증권, NH투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=124",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=124",
+        "collected_at": "2026-09-23T08:24:35.828473+00:00",
+        "http_status": 200,
+        "sha256": "733a909475947491ecf59120502a02a14c502ae605d95e167d9c29c9e720b11e"
+      }
+    }
+  ]
+}

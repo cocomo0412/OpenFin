@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.e9e0fb17515f2dba4916446d",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:6253430aa2202696ba49dfa2",
+  "group": "4",
+  "provider": "동양생명보험",
+  "title": "연금저축수호천사더블파워연금(10년납이상)",
+  "cells": [
+    "동양생명보험",
+    "연금저축수호천사더블파워연금(10년납이상)",
+    "금리연동형",
+    "2016/04/01",
+    "중단",
+    "8,611",
+    "-5.94",
+    "-1.34",
+    "-0.41",
+    "0.01",
+    "0.42",
+    "0.64",
+    "5.650"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=40",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=40",
+    "collected_at": "2026-09-23T08:31:26.370762+00:00",
+    "http_status": 200,
+    "sha256": "e4bd6534bdbbce80debce54ff106e5bd2902f3cb5b05256f76342c3fc00d967d"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "동양생명보험",
+        "상품명": "연금저축수호천사더블파워연금(10년납이상)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2016/04/01",
+        "판매여부": "중단",
+        "적립금총액": "8,611",
+        "1년 연평균수익률(%)": "-5.94",
+        "3년 연평균수익률(%)": "-1.34",
+        "5년 연평균수익률(%)": "-0.41",
+        "7년 연평균수익률(%)": "0.01",
+        "10년 연평균수익률(%)": "0.42",
+        "누적연평균수익률(%)": "0.64",
+        "연평균수수료율(%)": "5.650"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=40",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=40",
+        "collected_at": "2026-09-23T08:31:26.370762+00:00",
+        "http_status": 200,
+        "sha256": "e4bd6534bdbbce80debce54ff106e5bd2902f3cb5b05256f76342c3fc00d967d"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.554e2c60cf20ed105aeb8dbf",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:b70df147e73bcb064048b3bd",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자신종개인용MMF3호(C-Pe)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자신종개인용MMF3호(C-Pe)",
+    "단기금융",
+    "6",
+    "2017/09/01",
+    "판매",
+    "3,587",
+    "2.70",
+    "3.25",
+    "2.84",
+    "2.33",
+    "-",
+    "2.20",
+    "0.173",
+    "유진투자증권주식회사, (주)우리투자증권, 유안타증권주식회사, 아이엠증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=120",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=120",
+    "collected_at": "2026-09-23T08:24:30.409190+00:00",
+    "http_status": 200,
+    "sha256": "e577d378d8af2adcc86ac81fcf42b1918a0001f069a3712b668f4661fc015c09"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자신종개인용MMF3호(C-Pe)",
+        "상품유형": "단기금융",
+        "위험등급": "6",
+        "설정일": "2017/09/01",
+        "판매여부": "판매",
+        "순자산총액": "3,587",
+        "1년 연평균수익률(%)": "2.70",
+        "3년 연평균수익률(%)": "3.25",
+        "5년 연평균수익률(%)": "2.84",
+        "7년 연평균수익률(%)": "2.33",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "2.20",
+        "연평균수수료율(%)": "0.173",
+        "상품 판매사": "유진투자증권주식회사, (주)우리투자증권, 유안타증권주식회사, 아이엠증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=120",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=120",
+        "collected_at": "2026-09-23T08:24:30.409190+00:00",
+        "http_status": 200,
+        "sha256": "e577d378d8af2adcc86ac81fcf42b1918a0001f069a3712b668f4661fc015c09"
+      }
+    }
+  ]
+}

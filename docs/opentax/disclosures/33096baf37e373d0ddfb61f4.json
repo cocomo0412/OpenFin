@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.1e8331c4ae4f58772e342609",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:a2ecbebae0302ed712f5a292",
+  "group": "3",
+  "provider": "NH-Amundi자산운용",
+  "title": "NH-Amundi 대한민국 고배당주 연금 증권 전환형 자투자신탁[주식]C-P1",
+  "cells": [
+    "NH-Amundi자산운용",
+    "NH-Amundi 대한민국 고배당주 연금 증권 전환형 자투자신탁[주식]C-P1",
+    "주식형",
+    "2",
+    "2010/10/04",
+    "판매",
+    "53,880",
+    "171.68",
+    "55.33",
+    "26.63",
+    "26.14",
+    "-",
+    "12.15",
+    "1.535",
+    "(주)우리투자증권, NH농협은행, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=23",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=23",
+    "collected_at": "2026-09-23T08:22:17.029202+00:00",
+    "http_status": 200,
+    "sha256": "8390f39b539e319df032c9135a0ac99b8435c87032e7a230398ad65df7f5423f"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "NH-Amundi자산운용",
+        "상품명": "NH-Amundi 대한민국 고배당주 연금 증권 전환형 자투자신탁[주식]C-P1",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2010/10/04",
+        "판매여부": "판매",
+        "순자산총액": "53,880",
+        "1년 연평균수익률(%)": "171.68",
+        "3년 연평균수익률(%)": "55.33",
+        "5년 연평균수익률(%)": "26.63",
+        "7년 연평균수익률(%)": "26.14",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "12.15",
+        "연평균수수료율(%)": "1.535",
+        "상품 판매사": "(주)우리투자증권, NH농협은행, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=23",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=23",
+        "collected_at": "2026-09-23T08:22:17.029202+00:00",
+        "http_status": 200,
+        "sha256": "8390f39b539e319df032c9135a0ac99b8435c87032e7a230398ad65df7f5423f"
+      }
+    }
+  ]
+}

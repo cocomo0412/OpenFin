@@ -1,0 +1,125 @@
+{
+  "generated_at": "2026-09-23T08:56:40.644Z",
+  "domains": {
+    "cards": {
+      "updated": 985,
+      "unresolved": [
+        {
+          "id": "finance.card.credit-card.ibk기업은행.shopping-joy-쇼핑앤조이-756545",
+          "error": "Detail identity not matched"
+        },
+        {
+          "id": "finance.card.credit-card.롯데카드.loca-likit-2-0",
+          "error": "Product content missing"
+        },
+        {
+          "id": "finance.card.credit-card.롯데카드.디지로카-london",
+          "error": "Product content missing"
+        },
+        {
+          "id": "finance.card.credit-card.롯데카드.디지로카-paris",
+          "error": "Product content missing"
+        },
+        {
+          "id": "finance.card.credit-card.비씨카드.tnt카드-220013",
+          "error": "Detail identity not matched"
+        },
+        {
+          "id": "finance.card.credit-card.비씨카드.독도지킴이카드-221009",
+          "error": "Detail identity not matched"
+        },
+        {
+          "id": "finance.card.credit-card.비씨카드.레포츠카드-212526",
+          "error": "Detail identity not matched"
+        },
+        {
+          "id": "finance.card.credit-card.비씨카드.비씨-다이아몬드-골프야드-카드-242266",
+          "error": "Detail identity not matched"
+        },
+        {
+          "id": "finance.card.credit-card.비씨카드.비씨sk카드-331012",
+          "error": "Detail identity not matched"
+        },
+        {
+          "id": "finance.card.credit-card.비씨카드.비씨top포인트카드-000000",
+          "error": "Detail identity not matched"
+        },
+        {
+          "id": "finance.card.credit-card.비씨카드.스카이패스카드-111193",
+          "error": "Detail identity not matched"
+        },
+        {
+          "id": "finance.card.credit-card.비씨카드.인피니트-top-카드-225005",
+          "error": "Detail identity not matched"
+        },
+        {
+          "id": "finance.card.credit-card.우리카드.카드의정석2-routine",
+          "error": "Detail identity not matched"
+        },
+        {
+          "id": "finance.card.credit-card.우리카드.카드의정석2-shopper",
+          "error": "Detail identity not matched"
+        },
+        {
+          "id": "finance.card.credit-card.우리카드.카드의정석2-super",
+          "error": "Detail identity not matched"
+        },
+        {
+          "id": "finance.card.credit-card.하나카드.원더카드-free",
+          "error": "Detail identity not matched"
+        },
+        {
+          "id": "finance.card.check-card.sc제일은행.부자되세요-더-마일리지-체크-232441",
+          "error": "Detail identity not matched"
+        },
+        {
+          "id": "finance.card.check-card.롯데카드.위클리-체크카드",
+          "error": "Detail identity not matched"
+        },
+        {
+          "id": "finance.card.check-card.비씨카드.비씨top포인트카드-000000",
+          "error": "Detail identity not matched"
+        },
+        {
+          "id": "finance.card.check-card.우리카드.위비트래블-체크카드",
+          "error": "Detail identity not matched"
+        },
+        {
+          "id": "finance.card.check-card.우리카드.카드의정석-br-everyday-check",
+          "error": "Detail identity not matched"
+        },
+        {
+          "id": "finance.card.check-card.우리카드.카드의정석-오하-check",
+          "error": "Detail identity not matched"
+        }
+      ]
+    },
+    "insurance": {
+      "updated": 1081,
+      "added": 0,
+      "collected": 1081
+    },
+    "pension": {
+      "collected": 4362
+    },
+    "accounts": {
+      "updated": 4
+    },
+    "tax": {
+      "reviewed_ids": [
+        "credit.child",
+        "credit.pension-account",
+        "deduction.housing-savings"
+      ],
+      "other_facts_reviewed": false
+    }
+  },
+  "full_refresh_complete": false,
+  "scope_notes": {
+    "cards": "Official detail text collected for matched existing cards. Unresolved cards require issuer-specific detail retrieval; no structured benefit-rule verification is asserted.",
+    "insurance": "Official comparison disclosure coverages and document links collected. Full policy document contents have not all been reviewed.",
+    "pension": "All four official product return/fee table groups collected for 2026-Q2; 4,373 rows preserved in 4,362 stable product records.",
+    "accounts": "Four account guides manually summarized, separating account eligibility and tax-exemption eligibility.",
+    "tax": "Three facts reviewed against official sources, including transitional child-credit law. Remaining 127 facts are not marked reviewed."
+  }
+}

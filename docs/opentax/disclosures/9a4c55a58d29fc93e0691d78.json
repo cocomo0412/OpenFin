@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.7c2af662a36d30f8a030e090",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:67607ffd999b17353605da17",
+  "group": "3",
+  "provider": "NH-Amundi자산운용",
+  "title": "NH-Amundi 인도 대형주포커스 증권투자신탁[주식-재간접형] Class C-P1(연금저축)",
+  "cells": [
+    "NH-Amundi자산운용",
+    "NH-Amundi 인도 대형주포커스 증권투자신탁[주식-재간접형] Class C-P1(연금저축)",
+    "재간접",
+    "3",
+    "2015/02/11",
+    "판매",
+    "2,387",
+    "-12.86",
+    "1.43",
+    "1.96",
+    "4.19",
+    "6.09",
+    "4.60",
+    "1.174",
+    "한화투자증권주식회사, (주)우리투자증권, NH농협은행, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=141",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=141",
+    "collected_at": "2026-09-23T08:24:58.223379+00:00",
+    "http_status": 200,
+    "sha256": "b63b45e8891a62ef02dea59e0ea8b6b3d588c264793802f98bef209c45319fcb"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "NH-Amundi자산운용",
+        "상품명": "NH-Amundi 인도 대형주포커스 증권투자신탁[주식-재간접형] Class C-P1(연금저축)",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2015/02/11",
+        "판매여부": "판매",
+        "순자산총액": "2,387",
+        "1년 연평균수익률(%)": "-12.86",
+        "3년 연평균수익률(%)": "1.43",
+        "5년 연평균수익률(%)": "1.96",
+        "7년 연평균수익률(%)": "4.19",
+        "10년 연평균수익률(%)": "6.09",
+        "누적연평균수익률(%)": "4.60",
+        "연평균수수료율(%)": "1.174",
+        "상품 판매사": "한화투자증권주식회사, (주)우리투자증권, NH농협은행, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=141",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=141",
+        "collected_at": "2026-09-23T08:24:58.223379+00:00",
+        "http_status": 200,
+        "sha256": "b63b45e8891a62ef02dea59e0ea8b6b3d588c264793802f98bef209c45319fcb"
+      }
+    }
+  ]
+}

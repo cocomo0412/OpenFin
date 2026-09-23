@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.e633db9e1538497c866420f2",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:ca01fca37234e6c99b83c062",
+  "group": "5",
+  "provider": "DB손해보험",
+  "title": "연금저축손해보험 프로미라이프 연금보험1307",
+  "cells": [
+    "DB손해보험",
+    "연금저축손해보험 프로미라이프 연금보험1307",
+    "금리연동형",
+    "2013/04/01",
+    "중단",
+    "8,513",
+    "-15.19",
+    "-0.76",
+    "0.43",
+    "0.81",
+    "1.06",
+    "1.8",
+    "0.33"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=28",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=28",
+    "collected_at": "2026-09-23T08:22:14.008550+00:00",
+    "http_status": 200,
+    "sha256": "8f31fbbe06def8763ebcf41dd50073bec72302174af57bdf28ca7f296fd1f883"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "DB손해보험",
+        "상품명": "연금저축손해보험 프로미라이프 연금보험1307",
+        "상품유형": "금리연동형",
+        "최초판매일": "2013/04/01",
+        "판매여부": "중단",
+        "적립금총액": "8,513",
+        "1년 연평균수익률(%)": "-15.19",
+        "3년 연평균수익률(%)": "-0.76",
+        "5년 연평균수익률(%)": "0.43",
+        "7년 연평균수익률(%)": "0.81",
+        "10년 연평균수익률(%)": "1.06",
+        "누적연평균수익률(%)": "1.8",
+        "연평균수수료율(%)": "0.33"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=28",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=28",
+        "collected_at": "2026-09-23T08:22:14.008550+00:00",
+        "http_status": 200,
+        "sha256": "8f31fbbe06def8763ebcf41dd50073bec72302174af57bdf28ca7f296fd1f883"
+      }
+    }
+  ]
+}

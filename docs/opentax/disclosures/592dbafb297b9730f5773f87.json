@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.56003bbbc80a4c3d684ba72f",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:1db09f2b6fcf688f2b9ad4a7",
+  "group": "4",
+  "provider": "미래에셋생명보험",
+  "title": "연금저축SAVE연금보험 무배당1612",
+  "cells": [
+    "미래에셋생명보험",
+    "연금저축SAVE연금보험 무배당1612",
+    "금리연동형",
+    "2016/12/01",
+    "중단",
+    "939",
+    "-5.65",
+    "-1.22",
+    "-0.33",
+    "0.11",
+    "-",
+    "0.47",
+    "6.258"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=63",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=63",
+    "collected_at": "2026-09-23T08:32:01.142191+00:00",
+    "http_status": 200,
+    "sha256": "e8fcb425896edd9c6acf338d5ba095848587b32190c51b25f19cfebac2388f32"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋생명보험",
+        "상품명": "연금저축SAVE연금보험 무배당1612",
+        "상품유형": "금리연동형",
+        "최초판매일": "2016/12/01",
+        "판매여부": "중단",
+        "적립금총액": "939",
+        "1년 연평균수익률(%)": "-5.65",
+        "3년 연평균수익률(%)": "-1.22",
+        "5년 연평균수익률(%)": "-0.33",
+        "7년 연평균수익률(%)": "0.11",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "0.47",
+        "연평균수수료율(%)": "6.258"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=63",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=63",
+        "collected_at": "2026-09-23T08:32:01.142191+00:00",
+        "http_status": 200,
+        "sha256": "e8fcb425896edd9c6acf338d5ba095848587b32190c51b25f19cfebac2388f32"
+      }
+    }
+  ]
+}

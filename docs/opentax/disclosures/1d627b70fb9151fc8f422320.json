@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.4e870797eddbd7cea3592972",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:c3d6ca686414a2af7c1fe8ae",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성클래식연금증권전환형투자신탁 제1호[채권]_Ce",
+  "cells": [
+    "삼성자산운용",
+    "삼성클래식연금증권전환형투자신탁 제1호[채권]_Ce",
+    "채권형",
+    "5",
+    "2017/08/10",
+    "판매",
+    "3,189",
+    "0.07",
+    "2.47",
+    "1.58",
+    "1.34",
+    "-",
+    "1.45",
+    "0.636",
+    "키움증권(주), 삼성생명보험주식회사, 삼성증권, KB증권, 미래에셋증권 주식회사, NH투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=125",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=125",
+    "collected_at": "2026-09-23T08:24:37.048923+00:00",
+    "http_status": 200,
+    "sha256": "01741abb69d12bc984b0cbc4868f3917ca14703e027ebfda2738bba5ece5a06f"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성클래식연금증권전환형투자신탁 제1호[채권]_Ce",
+        "상품유형": "채권형",
+        "위험등급": "5",
+        "설정일": "2017/08/10",
+        "판매여부": "판매",
+        "순자산총액": "3,189",
+        "1년 연평균수익률(%)": "0.07",
+        "3년 연평균수익률(%)": "2.47",
+        "5년 연평균수익률(%)": "1.58",
+        "7년 연평균수익률(%)": "1.34",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "1.45",
+        "연평균수수료율(%)": "0.636",
+        "상품 판매사": "키움증권(주), 삼성생명보험주식회사, 삼성증권, KB증권, 미래에셋증권 주식회사, NH투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=125",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=125",
+        "collected_at": "2026-09-23T08:24:37.048923+00:00",
+        "http_status": 200,
+        "sha256": "01741abb69d12bc984b0cbc4868f3917ca14703e027ebfda2738bba5ece5a06f"
+      }
+    }
+  ]
+}

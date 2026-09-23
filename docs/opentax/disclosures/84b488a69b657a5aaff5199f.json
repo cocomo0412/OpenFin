@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.c357acbf8656fa6d7e6c8a99",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:05f490b13797c72c56fd703e",
+  "group": "3",
+  "provider": "하나자산운용",
+  "title": "하나K-ing증권투자신탁[주식]ClassC-P",
+  "cells": [
+    "하나자산운용",
+    "하나K-ing증권투자신탁[주식]ClassC-P",
+    "주식형",
+    "2",
+    "2023/10/27",
+    "판매",
+    "2,727",
+    "195.37",
+    "-",
+    "-",
+    "-",
+    "-",
+    "65.27",
+    "0.832",
+    "-"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=133",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=133",
+    "collected_at": "2026-09-23T08:24:47.588059+00:00",
+    "http_status": 200,
+    "sha256": "238bf7bf47ba6b480ed8f1d26837a127ea2c0558b4fe041d540306cbcf6b3c43"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "하나자산운용",
+        "상품명": "하나K-ing증권투자신탁[주식]ClassC-P",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2023/10/27",
+        "판매여부": "판매",
+        "순자산총액": "2,727",
+        "1년 연평균수익률(%)": "195.37",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "65.27",
+        "연평균수수료율(%)": "0.832",
+        "상품 판매사": "-"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=133",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=133",
+        "collected_at": "2026-09-23T08:24:47.588059+00:00",
+        "http_status": 200,
+        "sha256": "238bf7bf47ba6b480ed8f1d26837a127ea2c0558b4fe041d540306cbcf6b3c43"
+      }
+    }
+  ]
+}

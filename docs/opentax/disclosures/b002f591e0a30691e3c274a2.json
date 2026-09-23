@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.472fa45b91b16fbed0b4ac05",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:0f5d99f6cedcaeeaea4c7258",
+  "group": "3",
+  "provider": "키움투자자산운용",
+  "title": "키움New스마트인베스터분할매수증권투자신탁제1호[혼합-재간접형] Class C-Pe",
+  "cells": [
+    "키움투자자산운용",
+    "키움New스마트인베스터분할매수증권투자신탁제1호[혼합-재간접형] Class C-Pe",
+    "재간접",
+    "3",
+    "2023/01/09",
+    "판매",
+    "837",
+    "73.03",
+    "28.51",
+    "-",
+    "-",
+    "-",
+    "25.76",
+    "0.685",
+    "한화투자증권주식회사, 키움증권(주), 삼성생명보험주식회사, 아이엠증권, KB국민은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=198",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=198",
+    "collected_at": "2026-09-23T08:26:14.622223+00:00",
+    "http_status": 200,
+    "sha256": "5846ad87c62ed05bf48c315f80b3404a908c15bcf8b71453204b9449bd14f98d"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "키움투자자산운용",
+        "상품명": "키움New스마트인베스터분할매수증권투자신탁제1호[혼합-재간접형] Class C-Pe",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2023/01/09",
+        "판매여부": "판매",
+        "순자산총액": "837",
+        "1년 연평균수익률(%)": "73.03",
+        "3년 연평균수익률(%)": "28.51",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "25.76",
+        "연평균수수료율(%)": "0.685",
+        "상품 판매사": "한화투자증권주식회사, 키움증권(주), 삼성생명보험주식회사, 아이엠증권, KB국민은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=198",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=198",
+        "collected_at": "2026-09-23T08:26:14.622223+00:00",
+        "http_status": 200,
+        "sha256": "5846ad87c62ed05bf48c315f80b3404a908c15bcf8b71453204b9449bd14f98d"
+      }
+    }
+  ]
+}

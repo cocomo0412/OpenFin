@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.e00d16af5cf69eefd650f5c5",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:1a4e47125871c0c9914aab1d",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋미국배당커버드콜액티브증권자투자신탁(주식)(H)종류C-Pe",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋미국배당커버드콜액티브증권자투자신탁(주식)(H)종류C-Pe",
+    "주식형",
+    "3",
+    "2017/02/01",
+    "판매",
+    "3,751",
+    "17.62",
+    "15.45",
+    "9.54",
+    "9.31",
+    "-",
+    "8.78",
+    "0.996",
+    "한화투자증권주식회사, (주)우리투자증권, 키움증권(주), 한국투자증권, 우리은행, KB증권, 대신증권주식회사, 아이엠증권, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=118",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=118",
+    "collected_at": "2026-09-23T08:24:26.581417+00:00",
+    "http_status": 200,
+    "sha256": "aeaeb0222e465c69e31e39cc67cf54bb836df1f50fcf2d66dde5a5cf1d6383e7"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋미국배당커버드콜액티브증권자투자신탁(주식)(H)종류C-Pe",
+        "상품유형": "주식형",
+        "위험등급": "3",
+        "설정일": "2017/02/01",
+        "판매여부": "판매",
+        "순자산총액": "3,751",
+        "1년 연평균수익률(%)": "17.62",
+        "3년 연평균수익률(%)": "15.45",
+        "5년 연평균수익률(%)": "9.54",
+        "7년 연평균수익률(%)": "9.31",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "8.78",
+        "연평균수수료율(%)": "0.996",
+        "상품 판매사": "한화투자증권주식회사, (주)우리투자증권, 키움증권(주), 한국투자증권, 우리은행, KB증권, 대신증권주식회사, 아이엠증권, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=118",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=118",
+        "collected_at": "2026-09-23T08:24:26.581417+00:00",
+        "http_status": 200,
+        "sha256": "aeaeb0222e465c69e31e39cc67cf54bb836df1f50fcf2d66dde5a5cf1d6383e7"
+      }
+    }
+  ]
+}

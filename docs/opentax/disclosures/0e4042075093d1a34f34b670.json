@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.60516f34cfa0b1885d15cd82",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:8ac5dc95368ff240912da03d",
+  "group": "3",
+  "provider": "한화자산운용",
+  "title": "한화K리츠플러스부동산 자투자신탁(H)(리츠-재간접형) C-Pe(연금저축)",
+  "cells": [
+    "한화자산운용",
+    "한화K리츠플러스부동산 자투자신탁(H)(리츠-재간접형) C-Pe(연금저축)",
+    "부동산",
+    "4",
+    "2020/10/21",
+    "판매",
+    "1,490",
+    "13.08",
+    "8.29",
+    "2.84",
+    "-",
+    "-",
+    "4.93",
+    "1.013",
+    "키움증권(주), 한국투자증권, 삼성증권, KB증권, 대신증권주식회사, 아이엠증권, 미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=167",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=167",
+    "collected_at": "2026-09-23T08:25:32.977794+00:00",
+    "http_status": 200,
+    "sha256": "b5a724942869c292931c00d96397d9d9c711af67a7d47796a69ca4c10ef158d4"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한화자산운용",
+        "상품명": "한화K리츠플러스부동산 자투자신탁(H)(리츠-재간접형) C-Pe(연금저축)",
+        "상품유형": "부동산",
+        "위험등급": "4",
+        "설정일": "2020/10/21",
+        "판매여부": "판매",
+        "순자산총액": "1,490",
+        "1년 연평균수익률(%)": "13.08",
+        "3년 연평균수익률(%)": "8.29",
+        "5년 연평균수익률(%)": "2.84",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "4.93",
+        "연평균수수료율(%)": "1.013",
+        "상품 판매사": "키움증권(주), 한국투자증권, 삼성증권, KB증권, 대신증권주식회사, 아이엠증권, 미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=167",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=167",
+        "collected_at": "2026-09-23T08:25:32.977794+00:00",
+        "http_status": 200,
+        "sha256": "b5a724942869c292931c00d96397d9d9c711af67a7d47796a69ca4c10ef158d4"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.61f38ba5b58ab85a79296976",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:5da6aecc564d1e993d217eef",
+  "group": "5",
+  "provider": "삼성화재해상보험",
+  "title": "연금저축손해보험 삼성화재 연금보험 직장인단체(2104.13)",
+  "cells": [
+    "삼성화재해상보험",
+    "연금저축손해보험 삼성화재 연금보험 직장인단체(2104.13)",
+    "금리연동형",
+    "2021/04/01",
+    "중단",
+    "19,849",
+    "-2.64",
+    "-0.28",
+    "0.18",
+    "-",
+    "-",
+    "0.22",
+    "3.389"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=19",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=19",
+    "collected_at": "2026-09-23T08:22:05.220553+00:00",
+    "http_status": 200,
+    "sha256": "c31dee1c2388d2e46900564b252b9bf25852a0dc11747c2d0f9d2855c5c71e51"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성화재해상보험",
+        "상품명": "연금저축손해보험 삼성화재 연금보험 직장인단체(2104.13)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2021/04/01",
+        "판매여부": "중단",
+        "적립금총액": "19,849",
+        "1년 연평균수익률(%)": "-2.64",
+        "3년 연평균수익률(%)": "-0.28",
+        "5년 연평균수익률(%)": "0.18",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "0.22",
+        "연평균수수료율(%)": "3.389"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=19",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=19",
+        "collected_at": "2026-09-23T08:22:05.220553+00:00",
+        "http_status": 200,
+        "sha256": "c31dee1c2388d2e46900564b252b9bf25852a0dc11747c2d0f9d2855c5c71e51"
+      }
+    }
+  ]
+}

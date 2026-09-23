@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.717873efdd9fc0e9fbd119a5",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:7befffffef55822f55145b13",
+  "group": "3",
+  "provider": "우리자산운용",
+  "title": "우리위비개인MMF1호(국공채)ClassC-P1e",
+  "cells": [
+    "우리자산운용",
+    "우리위비개인MMF1호(국공채)ClassC-P1e",
+    "단기금융",
+    "6",
+    "2018/01/04",
+    "판매",
+    "2,017",
+    "2.46",
+    "3.05",
+    "2.66",
+    "2.20",
+    "-",
+    "1.68",
+    "0.265",
+    "(주)우리투자증권, 유안타증권주식회사, 우리은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=150",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=150",
+    "collected_at": "2026-09-23T08:25:09.909454+00:00",
+    "http_status": 200,
+    "sha256": "34e62dc2d5bdcccdb58a8783ba4d20c35031bb3663ebfbfee3945acb3716d2e8"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "우리자산운용",
+        "상품명": "우리위비개인MMF1호(국공채)ClassC-P1e",
+        "상품유형": "단기금융",
+        "위험등급": "6",
+        "설정일": "2018/01/04",
+        "판매여부": "판매",
+        "순자산총액": "2,017",
+        "1년 연평균수익률(%)": "2.46",
+        "3년 연평균수익률(%)": "3.05",
+        "5년 연평균수익률(%)": "2.66",
+        "7년 연평균수익률(%)": "2.20",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "1.68",
+        "연평균수수료율(%)": "0.265",
+        "상품 판매사": "(주)우리투자증권, 유안타증권주식회사, 우리은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=150",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=150",
+        "collected_at": "2026-09-23T08:25:09.909454+00:00",
+        "http_status": 200,
+        "sha256": "34e62dc2d5bdcccdb58a8783ba4d20c35031bb3663ebfbfee3945acb3716d2e8"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.8480c7c78b2b47b29e462c41",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:0d4dffe6670139d252b88d6d",
+  "group": "3",
+  "provider": "알파자산운용",
+  "title": "알파글로벌신재생에너지증권자투자신탁1호[주식]ClassPe1",
+  "cells": [
+    "알파자산운용",
+    "알파글로벌신재생에너지증권자투자신탁1호[주식]ClassPe1",
+    "주식형",
+    "2",
+    "2020/10/27",
+    "판매",
+    "708",
+    "40.14",
+    "6.78",
+    "0.94",
+    "-",
+    "-",
+    "3.21",
+    "1.288",
+    "(주)우리투자증권, 키움증권(주), 유안타증권주식회사, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=210",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=210",
+    "collected_at": "2026-09-23T08:26:31.649738+00:00",
+    "http_status": 200,
+    "sha256": "d38575e966344fbbb92920e3db2df19439eec4d489b8c47342901eee76d3d7d5"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "알파자산운용",
+        "상품명": "알파글로벌신재생에너지증권자투자신탁1호[주식]ClassPe1",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2020/10/27",
+        "판매여부": "판매",
+        "순자산총액": "708",
+        "1년 연평균수익률(%)": "40.14",
+        "3년 연평균수익률(%)": "6.78",
+        "5년 연평균수익률(%)": "0.94",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "3.21",
+        "연평균수수료율(%)": "1.288",
+        "상품 판매사": "(주)우리투자증권, 키움증권(주), 유안타증권주식회사, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=210",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=210",
+        "collected_at": "2026-09-23T08:26:31.649738+00:00",
+        "http_status": 200,
+        "sha256": "d38575e966344fbbb92920e3db2df19439eec4d489b8c47342901eee76d3d7d5"
+      }
+    }
+  ]
+}

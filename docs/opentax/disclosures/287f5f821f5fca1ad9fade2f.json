@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.1420c3cd2f8b4cd5d4aad6a4",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:04f4504808c36d99719038c6",
+  "group": "3",
+  "provider": "신한자산운용",
+  "title": "신한연금저축POP펀드셀렉션증권자투자신탁[주식-재간접형](종류C-e)",
+  "cells": [
+    "신한자산운용",
+    "신한연금저축POP펀드셀렉션증권자투자신탁[주식-재간접형](종류C-e)",
+    "재간접",
+    "3",
+    "2015/08/05",
+    "판매",
+    "747",
+    "102.76",
+    "38.81",
+    "19.54",
+    "19.71",
+    "14.96",
+    "13.03",
+    "0.665",
+    "삼성증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=207",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=207",
+    "collected_at": "2026-09-23T08:26:27.628940+00:00",
+    "http_status": 200,
+    "sha256": "44fa0a7389507a82e82bb4f7486c7686a53df6d0e42b50117db23d12a0958e6c"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한자산운용",
+        "상품명": "신한연금저축POP펀드셀렉션증권자투자신탁[주식-재간접형](종류C-e)",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2015/08/05",
+        "판매여부": "판매",
+        "순자산총액": "747",
+        "1년 연평균수익률(%)": "102.76",
+        "3년 연평균수익률(%)": "38.81",
+        "5년 연평균수익률(%)": "19.54",
+        "7년 연평균수익률(%)": "19.71",
+        "10년 연평균수익률(%)": "14.96",
+        "누적연평균수익률(%)": "13.03",
+        "연평균수수료율(%)": "0.665",
+        "상품 판매사": "삼성증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=207",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=207",
+        "collected_at": "2026-09-23T08:26:27.628940+00:00",
+        "http_status": 200,
+        "sha256": "44fa0a7389507a82e82bb4f7486c7686a53df6d0e42b50117db23d12a0958e6c"
+      }
+    }
+  ]
+}

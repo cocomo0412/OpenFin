@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.0e5115b3741dac340c1d4580",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:ee07382be383c9149d813c8d",
+  "group": "3",
+  "provider": "한화자산운용",
+  "title": "한화아세안증권 자투자신탁2호(주식-재간접형) 종류 C-P(연금저축)",
+  "cells": [
+    "한화자산운용",
+    "한화아세안증권 자투자신탁2호(주식-재간접형) 종류 C-P(연금저축)",
+    "재간접",
+    "3",
+    "2017/12/06",
+    "판매",
+    "439",
+    "11.72",
+    "7.63",
+    "7.28",
+    "2.96",
+    "-",
+    "2.92",
+    "1.867",
+    "한화투자증권주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=240",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=240",
+    "collected_at": "2026-09-23T08:27:11.919834+00:00",
+    "http_status": 200,
+    "sha256": "262e1caab3816b09dd1e185243e9ed5c99fb62305bb15a27bbfcc538c0e3de37"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한화자산운용",
+        "상품명": "한화아세안증권 자투자신탁2호(주식-재간접형) 종류 C-P(연금저축)",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2017/12/06",
+        "판매여부": "판매",
+        "순자산총액": "439",
+        "1년 연평균수익률(%)": "11.72",
+        "3년 연평균수익률(%)": "7.63",
+        "5년 연평균수익률(%)": "7.28",
+        "7년 연평균수익률(%)": "2.96",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "2.92",
+        "연평균수수료율(%)": "1.867",
+        "상품 판매사": "한화투자증권주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=240",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=240",
+        "collected_at": "2026-09-23T08:27:11.919834+00:00",
+        "http_status": 200,
+        "sha256": "262e1caab3816b09dd1e185243e9ed5c99fb62305bb15a27bbfcc538c0e3de37"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.3715eb23163b12616c55f1fd",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:196c5c681befa4cb3b3079f8",
+  "group": "4",
+  "provider": "아이비케이연금보험",
+  "title": "무배당 IBK 세액공제받는연금저축보험_2101_GA",
+  "cells": [
+    "아이비케이연금보험",
+    "무배당 IBK 세액공제받는연금저축보험_2101_GA",
+    "금리연동형",
+    "2021/01/01",
+    "중단",
+    "28,044",
+    "-6.43",
+    "-1.31",
+    "-0.26",
+    "-",
+    "-",
+    "-0.15",
+    "7.640"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=23",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=23",
+    "collected_at": "2026-09-23T08:30:44.794380+00:00",
+    "http_status": 200,
+    "sha256": "bca9e0c426b0434af10e3827ef7bd684b322c5094ad36c8958f8d0f478b98e0b"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "아이비케이연금보험",
+        "상품명": "무배당 IBK 세액공제받는연금저축보험_2101_GA",
+        "상품유형": "금리연동형",
+        "최초판매일": "2021/01/01",
+        "판매여부": "중단",
+        "적립금총액": "28,044",
+        "1년 연평균수익률(%)": "-6.43",
+        "3년 연평균수익률(%)": "-1.31",
+        "5년 연평균수익률(%)": "-0.26",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-0.15",
+        "연평균수수료율(%)": "7.640"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=23",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=23",
+        "collected_at": "2026-09-23T08:30:44.794380+00:00",
+        "http_status": 200,
+        "sha256": "bca9e0c426b0434af10e3827ef7bd684b322c5094ad36c8958f8d0f478b98e0b"
+      }
+    }
+  ]
+}

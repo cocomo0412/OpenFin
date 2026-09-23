@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.e1c6e46e77e14f0fe6b0bbce",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:20f00284cd7dab33e7ed33c3",
+  "group": "3",
+  "provider": "신한자산운용",
+  "title": "신한미국나스닥100인덱스증권자투자신탁(H)[주식-파생형](종류C-p)",
+  "cells": [
+    "신한자산운용",
+    "신한미국나스닥100인덱스증권자투자신탁(H)[주식-파생형](종류C-p)",
+    "파생상품",
+    "2",
+    "2023/09/19",
+    "판매",
+    "643",
+    "28.49",
+    "-",
+    "-",
+    "-",
+    "-",
+    "23.36",
+    "1.107",
+    "광주은행, 삼성생명보험주식회사, 신한은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=216",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=216",
+    "collected_at": "2026-09-23T08:26:39.363051+00:00",
+    "http_status": 200,
+    "sha256": "1b9299261b9f828ba8eadc8f5d2129647ce7b95b2f78f7f0e4b5b8ee399dda51"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한자산운용",
+        "상품명": "신한미국나스닥100인덱스증권자투자신탁(H)[주식-파생형](종류C-p)",
+        "상품유형": "파생상품",
+        "위험등급": "2",
+        "설정일": "2023/09/19",
+        "판매여부": "판매",
+        "순자산총액": "643",
+        "1년 연평균수익률(%)": "28.49",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "23.36",
+        "연평균수수료율(%)": "1.107",
+        "상품 판매사": "광주은행, 삼성생명보험주식회사, 신한은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=216",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=216",
+        "collected_at": "2026-09-23T08:26:39.363051+00:00",
+        "http_status": 200,
+        "sha256": "1b9299261b9f828ba8eadc8f5d2129647ce7b95b2f78f7f0e4b5b8ee399dda51"
+      }
+    }
+  ]
+}

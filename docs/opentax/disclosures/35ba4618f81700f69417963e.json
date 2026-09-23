@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.1055d339b630accc7a25e0c5",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:3f08dfc6bf0ed7f3f76220a6",
+  "group": "5",
+  "provider": "메리츠화재해상보험",
+  "title": "연금저축손해보험 노후생활지킴이보험1801",
+  "cells": [
+    "메리츠화재해상보험",
+    "연금저축손해보험 노후생활지킴이보험1801",
+    "금리연동형",
+    "2018/01/01",
+    "중단",
+    "7,864",
+    "-5.58",
+    "-1.34",
+    "-0.55",
+    "-0.05",
+    "-",
+    "0.2",
+    "6.289"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=29",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=29",
+    "collected_at": "2026-09-23T08:22:15.242134+00:00",
+    "http_status": 200,
+    "sha256": "6d7e9c418a635edea37a0300c0faad49cd920f97670bb799748f30cbb574713d"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "메리츠화재해상보험",
+        "상품명": "연금저축손해보험 노후생활지킴이보험1801",
+        "상품유형": "금리연동형",
+        "최초판매일": "2018/01/01",
+        "판매여부": "중단",
+        "적립금총액": "7,864",
+        "1년 연평균수익률(%)": "-5.58",
+        "3년 연평균수익률(%)": "-1.34",
+        "5년 연평균수익률(%)": "-0.55",
+        "7년 연평균수익률(%)": "-0.05",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "0.2",
+        "연평균수수료율(%)": "6.289"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=29",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=29",
+        "collected_at": "2026-09-23T08:22:15.242134+00:00",
+        "http_status": 200,
+        "sha256": "6d7e9c418a635edea37a0300c0faad49cd920f97670bb799748f30cbb574713d"
+      }
+    }
+  ]
+}

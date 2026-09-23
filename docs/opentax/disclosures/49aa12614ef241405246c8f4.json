@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.884cc3dca73be53c621f90ca",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:b49ff33fb496c4368e4b183c",
+  "group": "3",
+  "provider": "신한자산운용",
+  "title": "신한해피라이프연금차이나증권전환형자투자신탁제1호(H)[주식](종류C1)",
+  "cells": [
+    "신한자산운용",
+    "신한해피라이프연금차이나증권전환형자투자신탁제1호(H)[주식](종류C1)",
+    "주식형",
+    "2",
+    "2011/05/17",
+    "판매",
+    "148",
+    "6.62",
+    "6.62",
+    "-7.65",
+    "2.15",
+    "5.03",
+    "2.02",
+    "1.705",
+    "미래에셋증권 주식회사, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=288",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=288",
+    "collected_at": "2026-09-23T08:28:16.204920+00:00",
+    "http_status": 200,
+    "sha256": "a10e425497cad70982742a28d0661c42038b78820987d2ceaac555bce756f195"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한자산운용",
+        "상품명": "신한해피라이프연금차이나증권전환형자투자신탁제1호(H)[주식](종류C1)",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2011/05/17",
+        "판매여부": "판매",
+        "순자산총액": "148",
+        "1년 연평균수익률(%)": "6.62",
+        "3년 연평균수익률(%)": "6.62",
+        "5년 연평균수익률(%)": "-7.65",
+        "7년 연평균수익률(%)": "2.15",
+        "10년 연평균수익률(%)": "5.03",
+        "누적연평균수익률(%)": "2.02",
+        "연평균수수료율(%)": "1.705",
+        "상품 판매사": "미래에셋증권 주식회사, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=288",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=288",
+        "collected_at": "2026-09-23T08:28:16.204920+00:00",
+        "http_status": 200,
+        "sha256": "a10e425497cad70982742a28d0661c42038b78820987d2ceaac555bce756f195"
+      }
+    }
+  ]
+}

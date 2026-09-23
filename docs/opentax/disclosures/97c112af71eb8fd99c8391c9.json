@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.acd01c09113364f1054432cf",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:0acca81d91ce4b6539d400a4",
+  "group": "4",
+  "provider": "푸본현대생명보험",
+  "title": "현대라이프 연금보험 연금저축(법인)",
+  "cells": [
+    "푸본현대생명보험",
+    "현대라이프 연금보험 연금저축(법인)",
+    "금리연동형",
+    "2015/04/01",
+    "중단",
+    "4,778",
+    "-4.66",
+    "-0.78",
+    "0.01",
+    "0.31",
+    "0.63",
+    "0.70",
+    "5.697"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=49",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=49",
+    "collected_at": "2026-09-23T08:31:41.536698+00:00",
+    "http_status": 200,
+    "sha256": "b37a141d33d1a72b2b4bf5ca70af2435dff295f5188a9d380ec36878f381fb11"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "푸본현대생명보험",
+        "상품명": "현대라이프 연금보험 연금저축(법인)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2015/04/01",
+        "판매여부": "중단",
+        "적립금총액": "4,778",
+        "1년 연평균수익률(%)": "-4.66",
+        "3년 연평균수익률(%)": "-0.78",
+        "5년 연평균수익률(%)": "0.01",
+        "7년 연평균수익률(%)": "0.31",
+        "10년 연평균수익률(%)": "0.63",
+        "누적연평균수익률(%)": "0.70",
+        "연평균수수료율(%)": "5.697"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=49",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=49",
+        "collected_at": "2026-09-23T08:31:41.536698+00:00",
+        "http_status": 200,
+        "sha256": "b37a141d33d1a72b2b4bf5ca70af2435dff295f5188a9d380ec36878f381fb11"
+      }
+    }
+  ]
+}

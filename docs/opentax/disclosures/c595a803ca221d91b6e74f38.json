@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.ee7e961c1c9803648aebb8cf",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:0e62ecba5e81daab5125b675",
+  "group": "3",
+  "provider": "iM에셋자산운용",
+  "title": "iM에셋글로벌주식배당프리미엄증권투자신탁(주식-재간접형)(C-p)",
+  "cells": [
+    "iM에셋자산운용",
+    "iM에셋글로벌주식배당프리미엄증권투자신탁(주식-재간접형)(C-p)",
+    "재간접",
+    "3",
+    "2015/06/29",
+    "판매",
+    "233",
+    "11.14",
+    "12.47",
+    "6.49",
+    "7.59",
+    "7.21",
+    "6.27",
+    "1.139",
+    "한화투자증권주식회사, 한국투자증권, KB국민은행, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=273",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=273",
+    "collected_at": "2026-09-23T08:27:56.057187+00:00",
+    "http_status": 200,
+    "sha256": "518892277d79349357f9f81892278f1bdd49e45e68071e7ba8a8d3a0db3d5901"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "iM에셋자산운용",
+        "상품명": "iM에셋글로벌주식배당프리미엄증권투자신탁(주식-재간접형)(C-p)",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2015/06/29",
+        "판매여부": "판매",
+        "순자산총액": "233",
+        "1년 연평균수익률(%)": "11.14",
+        "3년 연평균수익률(%)": "12.47",
+        "5년 연평균수익률(%)": "6.49",
+        "7년 연평균수익률(%)": "7.59",
+        "10년 연평균수익률(%)": "7.21",
+        "누적연평균수익률(%)": "6.27",
+        "연평균수수료율(%)": "1.139",
+        "상품 판매사": "한화투자증권주식회사, 한국투자증권, KB국민은행, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=273",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=273",
+        "collected_at": "2026-09-23T08:27:56.057187+00:00",
+        "http_status": 200,
+        "sha256": "518892277d79349357f9f81892278f1bdd49e45e68071e7ba8a8d3a0db3d5901"
+      }
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "version": "OPENFIN-SOURCE-STATUS-2026.07.28.1",
   "generated_at": "2026-09-23T07:29:03.565Z",
-  "source_count": 155,
+  "source_count": 156,
   "statuses": [
     {
       "checked_at": "2026-09-23T07:12:56.943Z",
@@ -3107,6 +3107,29 @@
       "needs_review": true,
       "change_detected": true,
       "id": "source.local-tax-framework-act.2026.article8"
+    },
+    {
+      "id": "source.mirae.isa-guide",
+      "lifecycle_status": "active",
+      "status": "stale",
+      "checked_at": "2026-09-23T07:29:03.565Z",
+      "last_successful_checked_at": null,
+      "freshness_status": "stale",
+      "refresh": {
+        "sla_hours": 168,
+        "change_detection": "content checksum"
+      },
+      "urls": {
+        "canonical": "https://securities.miraeasset.com/hks/hks4659/n02.do",
+        "api": null,
+        "documentation": null,
+        "all": [
+          "https://securities.miraeasset.com/hks/hks4659/n02.do"
+        ]
+      },
+      "stale": true,
+      "verification_status": "baseline_reference",
+      "needs_live_check": true
     },
     {
       "checked_at": "2026-09-23T07:12:56.943Z",

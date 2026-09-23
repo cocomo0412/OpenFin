@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.f4879d78c4ea11e4d1143c2d",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:f4ffbaafd43c4bfa59ec16ad",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋연금저축베스트컬렉션증권자투자신탁1호(채권혼합)종류C-P",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋연금저축베스트컬렉션증권자투자신탁1호(채권혼합)종류C-P",
+    "혼합채권형",
+    "4",
+    "2015/07/30",
+    "판매",
+    "2,353",
+    "51.69",
+    "21.70",
+    "10.67",
+    "10.50",
+    "7.99",
+    "7.11",
+    "0.654",
+    "신한은행, 미래에셋증권 주식회사, IBK투자증권, 미래에셋생명보험주식회사, 신한투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=142",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=142",
+    "collected_at": "2026-09-23T08:24:59.437471+00:00",
+    "http_status": 200,
+    "sha256": "0fb517e43a471a7ff7d2972666e75020b50ef31309af8beafac1e5273cacd556"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋연금저축베스트컬렉션증권자투자신탁1호(채권혼합)종류C-P",
+        "상품유형": "혼합채권형",
+        "위험등급": "4",
+        "설정일": "2015/07/30",
+        "판매여부": "판매",
+        "순자산총액": "2,353",
+        "1년 연평균수익률(%)": "51.69",
+        "3년 연평균수익률(%)": "21.70",
+        "5년 연평균수익률(%)": "10.67",
+        "7년 연평균수익률(%)": "10.50",
+        "10년 연평균수익률(%)": "7.99",
+        "누적연평균수익률(%)": "7.11",
+        "연평균수수료율(%)": "0.654",
+        "상품 판매사": "신한은행, 미래에셋증권 주식회사, IBK투자증권, 미래에셋생명보험주식회사, 신한투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=142",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=142",
+        "collected_at": "2026-09-23T08:24:59.437471+00:00",
+        "http_status": 200,
+        "sha256": "0fb517e43a471a7ff7d2972666e75020b50ef31309af8beafac1e5273cacd556"
+      }
+    }
+  ]
+}

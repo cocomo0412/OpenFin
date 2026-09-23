@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.3092296df5f0fe6796bc9bd9",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:130f73209c60ce4c58eba959",
+  "group": "3",
+  "provider": "한화자산운용",
+  "title": "한화글로벌테크히어로증권 자투자신탁(H)(주식) C-Pe(연금저축)",
+  "cells": [
+    "한화자산운용",
+    "한화글로벌테크히어로증권 자투자신탁(H)(주식) C-Pe(연금저축)",
+    "주식형",
+    "2",
+    "2020/06/01",
+    "판매",
+    "973",
+    "40.28",
+    "23.49",
+    "12.28",
+    "-",
+    "-",
+    "16.15",
+    "1.206",
+    "한화투자증권주식회사, 키움증권(주), 한국투자증권, 우리은행, 미래에셋증권 주식회사, NH투자증권, 신한투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=190",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=190",
+    "collected_at": "2026-09-23T08:26:03.527629+00:00",
+    "http_status": 200,
+    "sha256": "427ff45aa8ac46db0cc4a9f4dfb2dc2eb022a29a616d0be62cd9f840d442aa0d"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한화자산운용",
+        "상품명": "한화글로벌테크히어로증권 자투자신탁(H)(주식) C-Pe(연금저축)",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2020/06/01",
+        "판매여부": "판매",
+        "순자산총액": "973",
+        "1년 연평균수익률(%)": "40.28",
+        "3년 연평균수익률(%)": "23.49",
+        "5년 연평균수익률(%)": "12.28",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "16.15",
+        "연평균수수료율(%)": "1.206",
+        "상품 판매사": "한화투자증권주식회사, 키움증권(주), 한국투자증권, 우리은행, 미래에셋증권 주식회사, NH투자증권, 신한투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=190",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=190",
+        "collected_at": "2026-09-23T08:26:03.527629+00:00",
+        "http_status": 200,
+        "sha256": "427ff45aa8ac46db0cc4a9f4dfb2dc2eb022a29a616d0be62cd9f840d442aa0d"
+      }
+    }
+  ]
+}

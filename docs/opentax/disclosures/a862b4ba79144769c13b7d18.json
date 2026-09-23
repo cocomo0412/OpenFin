@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.4940b6ed46b9e4c45d05d19d",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:673cf0ba2b7862bbee9cace1",
+  "group": "3",
+  "provider": "트러스톤자산운용",
+  "title": "트러스톤다이나믹코리아50증권자투자신탁[주식혼합]Cp-E클래스",
+  "cells": [
+    "트러스톤자산운용",
+    "트러스톤다이나믹코리아50증권자투자신탁[주식혼합]Cp-E클래스",
+    "혼합주식형",
+    "4",
+    "2018/03/07",
+    "판매",
+    "223",
+    "25.58",
+    "9.10",
+    "4.71",
+    "4.62",
+    "-",
+    "4.02",
+    "0.882",
+    "키움증권(주), 삼성생명보험주식회사, NH농협은행, KB국민은행, 신영증권주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=275",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=275",
+    "collected_at": "2026-09-23T08:27:58.814214+00:00",
+    "http_status": 200,
+    "sha256": "e81062e3bb919d8d58286ad6b116f0f6f7fbac839dfa142888681139232c5503"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "트러스톤자산운용",
+        "상품명": "트러스톤다이나믹코리아50증권자투자신탁[주식혼합]Cp-E클래스",
+        "상품유형": "혼합주식형",
+        "위험등급": "4",
+        "설정일": "2018/03/07",
+        "판매여부": "판매",
+        "순자산총액": "223",
+        "1년 연평균수익률(%)": "25.58",
+        "3년 연평균수익률(%)": "9.10",
+        "5년 연평균수익률(%)": "4.71",
+        "7년 연평균수익률(%)": "4.62",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "4.02",
+        "연평균수수료율(%)": "0.882",
+        "상품 판매사": "키움증권(주), 삼성생명보험주식회사, NH농협은행, KB국민은행, 신영증권주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=275",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=275",
+        "collected_at": "2026-09-23T08:27:58.814214+00:00",
+        "http_status": 200,
+        "sha256": "e81062e3bb919d8d58286ad6b116f0f6f7fbac839dfa142888681139232c5503"
+      }
+    }
+  ]
+}

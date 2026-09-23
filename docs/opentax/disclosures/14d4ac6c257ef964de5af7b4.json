@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.adf47f7cd7827186cf8995b3",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:c242465faabc6eac3d7a13aa",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성아시아배당주증권자투자신탁H[주식]_C-Pe",
+  "cells": [
+    "삼성자산운용",
+    "삼성아시아배당주증권자투자신탁H[주식]_C-Pe",
+    "주식형",
+    "3",
+    "2018/01/03",
+    "판매",
+    "414",
+    "36.74",
+    "21.09",
+    "5.83",
+    "9.54",
+    "-",
+    "7.15",
+    "2.863",
+    "(주)우리투자증권, 키움증권(주), 삼성증권, KB국민은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=243",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=243",
+    "collected_at": "2026-09-23T08:27:15.935720+00:00",
+    "http_status": 200,
+    "sha256": "5934ebf656cd481fc6829b0b3646e69282f0882a6b06969a281600c4c75490d6"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성아시아배당주증권자투자신탁H[주식]_C-Pe",
+        "상품유형": "주식형",
+        "위험등급": "3",
+        "설정일": "2018/01/03",
+        "판매여부": "판매",
+        "순자산총액": "414",
+        "1년 연평균수익률(%)": "36.74",
+        "3년 연평균수익률(%)": "21.09",
+        "5년 연평균수익률(%)": "5.83",
+        "7년 연평균수익률(%)": "9.54",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "7.15",
+        "연평균수수료율(%)": "2.863",
+        "상품 판매사": "(주)우리투자증권, 키움증권(주), 삼성증권, KB국민은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=243",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=243",
+        "collected_at": "2026-09-23T08:27:15.935720+00:00",
+        "http_status": 200,
+        "sha256": "5934ebf656cd481fc6829b0b3646e69282f0882a6b06969a281600c4c75490d6"
+      }
+    }
+  ]
+}

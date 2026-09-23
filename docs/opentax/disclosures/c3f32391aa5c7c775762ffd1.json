@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.c9471e477e33f1308ebea4c4",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:91ef5990bd4eb61a63cc7676",
+  "group": "3",
+  "provider": "교보악사자산운용",
+  "title": "교보악사 AI플랫폼투게더증권투자신탁[채권혼합] Class C-Pe(연금)",
+  "cells": [
+    "교보악사자산운용",
+    "교보악사 AI플랫폼투게더증권투자신탁[채권혼합] Class C-Pe(연금)",
+    "혼합채권형",
+    "3",
+    "2022/06/08",
+    "판매",
+    "767",
+    "65.62",
+    "21.56",
+    "-",
+    "-",
+    "-",
+    "16.40",
+    "0.608",
+    "(주)우리투자증권, 한국투자증권, KB국민은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=205",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=205",
+    "collected_at": "2026-09-23T08:26:25.105054+00:00",
+    "http_status": 200,
+    "sha256": "28720fce32b90aa0b9d575a2bedb8b9a1f751e3bea84793fa2fc6912fa4b1d01"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "교보악사자산운용",
+        "상품명": "교보악사 AI플랫폼투게더증권투자신탁[채권혼합] Class C-Pe(연금)",
+        "상품유형": "혼합채권형",
+        "위험등급": "3",
+        "설정일": "2022/06/08",
+        "판매여부": "판매",
+        "순자산총액": "767",
+        "1년 연평균수익률(%)": "65.62",
+        "3년 연평균수익률(%)": "21.56",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "16.40",
+        "연평균수수료율(%)": "0.608",
+        "상품 판매사": "(주)우리투자증권, 한국투자증권, KB국민은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=205",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=205",
+        "collected_at": "2026-09-23T08:26:25.105054+00:00",
+        "http_status": 200,
+        "sha256": "28720fce32b90aa0b9d575a2bedb8b9a1f751e3bea84793fa2fc6912fa4b1d01"
+      }
+    }
+  ]
+}

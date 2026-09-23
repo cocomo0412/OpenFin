@@ -96,9 +96,9 @@
   "catalog_refresh": {
     "count": 62551,
     "latest": "2026-09-23T06:45:20.229253+00:00",
-    "scope": "API 필드·식별자 검증. 미갱신 항목과 제공기관 기준일은 별도."
+    "scope": "공식 API·웹 공시의 필드·식별자 반영. 제공기관 기준일과 개별 검토 범위는 별도."
   },
-  "export_checksum": "c037f84ae98521cc6333252af6fd5adc8f21f656c0b0f19c15480ea10537d928",
+  "export_checksum": "2d3593b1e2ff64d7831046b8f97f73102d0831c45e34cb2c10c0c84a1c06796a",
   "storage_format": "openfin-sharded-export-v1",
   "shards": [
     {
@@ -109,8 +109,8 @@
       "web_url": "https://cocomo0412.github.io/OpenFin/opentax/korea-finance-reference-ontology-2026-shard-001.json",
       "item_count": 3077,
       "reference_item_count": 0,
-      "export_checksum": "607ed7bf666c0c5b7fb03ae7e0011b06be0cc31b72ea61bce78de6ea266d3ec0",
-      "content_checksum": "be830ed3495cc48d5576b8e53b388d54a28e0e6fdebd45b5a887926fff4ae402"
+      "export_checksum": "bbdeb121b7cbe19b83c313caa51e0642f68ff5b615f32000d981c7607a7c1cce",
+      "content_checksum": "63351b697f34ba38581ee8976887bdd62d121332930431cedcb1dd2784216f72"
     },
     {
       "id": "korea-finance-reference-ontology-2026.json-shard-002",
@@ -121,7 +121,7 @@
       "item_count": 3529,
       "reference_item_count": 0,
       "export_checksum": "8c35365d391fe81123bfa30ea109a09362feba2c9c5e630d272bc552cf795d64",
-      "content_checksum": "298ef24219877e92c1c907209118317569a1e96657ee501682ff37aca82e3170"
+      "content_checksum": "17c4fbb2c7b9af6a8e09825ce57948537e41f80125c48edf98a8189760ecc648"
     },
     {
       "id": "korea-finance-reference-ontology-2026.json-shard-003",
@@ -132,7 +132,7 @@
       "item_count": 3702,
       "reference_item_count": 0,
       "export_checksum": "540fa8241ddb8c9e91cab322459f884bcde93277671d6614bfb86f543bd559ba",
-      "content_checksum": "a59b6e08cf29c3a3f59a509cd1829ae9f1430e9f1905b3630ef00e52446bdae0"
+      "content_checksum": "ec390ba2c874c67a19adfb5ed16abb5cc0858047a10a58cd1b3aa582bbfb6fa5"
     },
     {
       "id": "korea-finance-reference-ontology-2026.json-shard-004",
@@ -143,7 +143,7 @@
       "item_count": 4162,
       "reference_item_count": 0,
       "export_checksum": "e72a09b55d65ced90fa107c1e0e348cb7f7a148493b64937b17e8853fc6daed7",
-      "content_checksum": "4089e64ce1592d6a7db5297d362f5d040b31528e950abadc76469411cd1355c6"
+      "content_checksum": "164d8ec9083366202cf1e4452d5c9da9cee49ca5dae9aa87933108758598cfff"
     },
     {
       "id": "korea-finance-reference-ontology-2026.json-shard-005",
@@ -154,7 +154,7 @@
       "item_count": 4172,
       "reference_item_count": 0,
       "export_checksum": "efda4553021404d552cc4033fa3518b15f6a17071fc811ff450868decbb84d57",
-      "content_checksum": "69e5aa243d25018b89f757660b6c970bc06f08705378c9f37cd0b52b379a8a6e"
+      "content_checksum": "88ff98e065a996b352885d7982880a7b1fc19ee762d40cd7629117dc8d2b85ea"
     },
     {
       "id": "korea-finance-reference-ontology-2026.json-shard-006",
@@ -165,7 +165,7 @@
       "item_count": 4154,
       "reference_item_count": 0,
       "export_checksum": "c7b4255d520a39a43fbd5733ced73bc27dfc9e621a7520333a3c90ebed167891",
-      "content_checksum": "dcc74f5fc430e9a69c6587445d7225b1fbbea9084630572f686e563e7e890db0"
+      "content_checksum": "e5c19374dd18adf7a0ecf3811f5dd11c3eca996181e55c39c2805b6de720a007"
     },
     {
       "id": "korea-finance-reference-ontology-2026.json-shard-007",
@@ -176,7 +176,7 @@
       "item_count": 4169,
       "reference_item_count": 0,
       "export_checksum": "d683f192167d10af081b4eb438fcbbf56b1618701e62743027227b26596d07eb",
-      "content_checksum": "5cd02f457cdc7cd29a383f605d67a2e73de296e379445f42657da4b75f913aee"
+      "content_checksum": "ecc1fc512e5cc9e3382ca894ec5c0338b7bfcd049295898c5afe25d6ce6aa25e"
     },
     {
       "id": "korea-finance-reference-ontology-2026.json-shard-008",
@@ -187,7 +187,7 @@
       "item_count": 3684,
       "reference_item_count": 0,
       "export_checksum": "98efb3a473254a2cb4d7b04b8cee9aaaed45523a1d42646bfcf2c16d00b6086e",
-      "content_checksum": "6898a3a5276d496db74f9efa5d1263a647009ca7a8991e869cacf5f09daf0483"
+      "content_checksum": "82b2a35554975a14fb76a5c7140530457e6e4565f44fdef948ac520d86cb08c3"
     },
     {
       "id": "korea-finance-reference-ontology-2026.json-shard-009",
@@ -198,7 +198,7 @@
       "item_count": 3685,
       "reference_item_count": 0,
       "export_checksum": "4fae2a999953ac23630638bf5928c80c708b0cca09e82cf11c470b41802ca8c2",
-      "content_checksum": "a9c6bca2c5810d009a633d7f729a86bd2137cc807cac349dfb52c474a09acc12"
+      "content_checksum": "17d6428907182bf8c0bc2d734df65f7cb56afe2387917c96069bc471d9513f6b"
     },
     {
       "id": "korea-finance-reference-ontology-2026.json-shard-010",
@@ -209,7 +209,7 @@
       "item_count": 3685,
       "reference_item_count": 0,
       "export_checksum": "5c06d59b85fc88725c4458a08bd7da170e7a3a6753b3c3626b76ded086593224",
-      "content_checksum": "857c11600185b515ea95d1d384e155bdcde29ea4fc5a768ff9198a4971b3fcfe"
+      "content_checksum": "a33b1a36fc9ad0333fc025d77cc8c7f1a0641307a72910e9b6075c35cb142378"
     },
     {
       "id": "korea-finance-reference-ontology-2026.json-shard-011",
@@ -220,7 +220,7 @@
       "item_count": 3681,
       "reference_item_count": 0,
       "export_checksum": "137faf231e3dacb968c5adfeb99a884d24b98c225731955698debc5cd70515de",
-      "content_checksum": "3c3e3dc9bd89976b1770a394df6aaf120450cfdaaaaba1edb746bab57e1b03a3"
+      "content_checksum": "e230b3e5ca35d34cf2cd8a8f66afb68ec9a2c469c90676ecef56f8f60db71f6c"
     },
     {
       "id": "korea-finance-reference-ontology-2026.json-shard-012",
@@ -231,7 +231,7 @@
       "item_count": 3684,
       "reference_item_count": 0,
       "export_checksum": "9a5d64339d48ddf85814e55d6d932065bcbd76644bd6c30014a79a5e290e5441",
-      "content_checksum": "7dc573625c5fb833364b583589008564036a05252ed68b043624b00250851f71"
+      "content_checksum": "649e0aad363e511da9f1816504fa47e4c3a51365007de54395f38639ae7a31d1"
     },
     {
       "id": "korea-finance-reference-ontology-2026.json-shard-013",
@@ -242,7 +242,7 @@
       "item_count": 3684,
       "reference_item_count": 0,
       "export_checksum": "3a2710dedb98d15d9e13fdd40de323bc69528f7632589177947445154ec7cd5f",
-      "content_checksum": "5f33fb8e786967ba31b06bf121764c90a2f13c2ecfc5480b45cb839da15076e3"
+      "content_checksum": "fc921443929362929625987f6108af2cf988db26a08f3cdc2c2933eee5a4b398"
     },
     {
       "id": "korea-finance-reference-ontology-2026.json-shard-014",
@@ -253,7 +253,7 @@
       "item_count": 3685,
       "reference_item_count": 0,
       "export_checksum": "3059488e19c7bc8dcbef45a43e2b45d585bc2a5ba8e17018775d269b4779328d",
-      "content_checksum": "4ba09cf5b397853273c4b55e3c5609dafe6dba5f5dba8aa84bd0239793bd2898"
+      "content_checksum": "7065b7bc6d4e8eef0ba79a686f44d5576d131b5dc17db5f48f1ebde37a99f2ee"
     },
     {
       "id": "korea-finance-reference-ontology-2026.json-shard-015",
@@ -264,7 +264,7 @@
       "item_count": 3683,
       "reference_item_count": 0,
       "export_checksum": "a3bf3b41b32ec7fbc9067f1fa4acef8733a3f05fbf501a3cad91e73b55a15761",
-      "content_checksum": "92296fd07e558b49653f05ac34b2a013e0883267bb485123d070b2083fdfcdf9"
+      "content_checksum": "949427b5423e00a2c9552dad54f8af4d5840faeed569b147cfb7c8f22d882caf"
     },
     {
       "id": "korea-finance-reference-ontology-2026.json-shard-016",
@@ -275,7 +275,7 @@
       "item_count": 3682,
       "reference_item_count": 0,
       "export_checksum": "03955a08cd478495ea2b70b359370278dba3657f77f52ce76d04a2dbc63a07c1",
-      "content_checksum": "e7215a3fd2c3639aa67d5023aa36f2622f94c5d54125f52324f34e7077564ab3"
+      "content_checksum": "9dcd36d0967fd6aad1546be71839993cd54bee6c2c54fcdb123ef7b6a86c041a"
     },
     {
       "id": "korea-finance-reference-ontology-2026.json-shard-017",
@@ -286,7 +286,7 @@
       "item_count": 2866,
       "reference_item_count": 8,
       "export_checksum": "a64c800cad71174366a0d107edd2a299c773461adb8627fedfaf4db00f9e492e",
-      "content_checksum": "5a2939d633c18ac7c06e4861d238bcf2ef5f3be5511a83802bfed58811859066"
+      "content_checksum": "b3cb4fcdf23629515ecb4a9b5521d13cc288df1a1cf8cdbb6d5e023eef273ecb"
     }
   ],
   "items": []

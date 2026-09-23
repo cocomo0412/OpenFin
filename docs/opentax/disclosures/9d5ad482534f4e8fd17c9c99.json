@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.a1eeee8b784724315c3ae4a0",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:590c04c3ad5634d37a47f847",
+  "group": "4",
+  "provider": "미래에셋생명보험",
+  "title": "연금저축 NEW SAVE연금보험1510",
+  "cells": [
+    "미래에셋생명보험",
+    "연금저축 NEW SAVE연금보험1510",
+    "금리연동형",
+    "2015/10/01",
+    "중단",
+    "6,139",
+    "-4.80",
+    "-0.96",
+    "-0.18",
+    "0.16",
+    "0.51",
+    "0.57",
+    "5.577"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=45",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=45",
+    "collected_at": "2026-09-23T08:31:36.516411+00:00",
+    "http_status": 200,
+    "sha256": "06c4c572277c2315be6292abe89fa2129f8f7095a90321f80ed7225244be3948"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋생명보험",
+        "상품명": "연금저축 NEW SAVE연금보험1510",
+        "상품유형": "금리연동형",
+        "최초판매일": "2015/10/01",
+        "판매여부": "중단",
+        "적립금총액": "6,139",
+        "1년 연평균수익률(%)": "-4.80",
+        "3년 연평균수익률(%)": "-0.96",
+        "5년 연평균수익률(%)": "-0.18",
+        "7년 연평균수익률(%)": "0.16",
+        "10년 연평균수익률(%)": "0.51",
+        "누적연평균수익률(%)": "0.57",
+        "연평균수수료율(%)": "5.577"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=45",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=45",
+        "collected_at": "2026-09-23T08:31:36.516411+00:00",
+        "http_status": 200,
+        "sha256": "06c4c572277c2315be6292abe89fa2129f8f7095a90321f80ed7225244be3948"
+      }
+    }
+  ]
+}

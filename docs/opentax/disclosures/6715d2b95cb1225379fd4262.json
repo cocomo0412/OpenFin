@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.47362d88c524168a1059f363",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:52fbc7f27ce6796010d37199",
+  "group": "3",
+  "provider": "하나자산운용",
+  "title": "하나연금코리아중소형증권자투자신탁[주식]ClassC",
+  "cells": [
+    "하나자산운용",
+    "하나연금코리아중소형증권자투자신탁[주식]ClassC",
+    "주식형",
+    "2",
+    "2015/12/14",
+    "판매",
+    "846",
+    "62.22",
+    "24.31",
+    "11.93",
+    "16.56",
+    "10.28",
+    "9.70",
+    "1.366",
+    "KB국민은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=198",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=198",
+    "collected_at": "2026-09-23T08:26:14.622223+00:00",
+    "http_status": 200,
+    "sha256": "5846ad87c62ed05bf48c315f80b3404a908c15bcf8b71453204b9449bd14f98d"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "하나자산운용",
+        "상품명": "하나연금코리아중소형증권자투자신탁[주식]ClassC",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2015/12/14",
+        "판매여부": "판매",
+        "순자산총액": "846",
+        "1년 연평균수익률(%)": "62.22",
+        "3년 연평균수익률(%)": "24.31",
+        "5년 연평균수익률(%)": "11.93",
+        "7년 연평균수익률(%)": "16.56",
+        "10년 연평균수익률(%)": "10.28",
+        "누적연평균수익률(%)": "9.70",
+        "연평균수수료율(%)": "1.366",
+        "상품 판매사": "KB국민은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=198",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=198",
+        "collected_at": "2026-09-23T08:26:14.622223+00:00",
+        "http_status": 200,
+        "sha256": "5846ad87c62ed05bf48c315f80b3404a908c15bcf8b71453204b9449bd14f98d"
+      }
+    }
+  ]
+}

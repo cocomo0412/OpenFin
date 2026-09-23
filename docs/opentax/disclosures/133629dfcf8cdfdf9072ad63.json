@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.9a1dd4c9822d6b2db725ee5d",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:0d014faff2aeadee5b5cb7ee",
+  "group": "3",
+  "provider": "다올자산운용",
+  "title": "다올글로벌AI우주산업밸류체인증권자투자신탁(UH)[주식] 종류S-P",
+  "cells": [
+    "다올자산운용",
+    "다올글로벌AI우주산업밸류체인증권자투자신탁(UH)[주식] 종류S-P",
+    "주식형",
+    "2",
+    "2021/08/30",
+    "판매",
+    "437",
+    "82.37",
+    "46.55",
+    "-",
+    "-",
+    "-",
+    "22.41",
+    "1.002",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=240",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=240",
+    "collected_at": "2026-09-23T08:27:11.919834+00:00",
+    "http_status": 200,
+    "sha256": "262e1caab3816b09dd1e185243e9ed5c99fb62305bb15a27bbfcc538c0e3de37"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "다올자산운용",
+        "상품명": "다올글로벌AI우주산업밸류체인증권자투자신탁(UH)[주식] 종류S-P",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2021/08/30",
+        "판매여부": "판매",
+        "순자산총액": "437",
+        "1년 연평균수익률(%)": "82.37",
+        "3년 연평균수익률(%)": "46.55",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "22.41",
+        "연평균수수료율(%)": "1.002",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=240",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=240",
+        "collected_at": "2026-09-23T08:27:11.919834+00:00",
+        "http_status": 200,
+        "sha256": "262e1caab3816b09dd1e185243e9ed5c99fb62305bb15a27bbfcc538c0e3de37"
+      }
+    }
+  ]
+}

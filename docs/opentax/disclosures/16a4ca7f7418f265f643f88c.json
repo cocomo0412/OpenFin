@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.0d21dd3b08b9987d9687a5f1",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:4040da7c2e98d615ce297ebe",
+  "group": "5",
+  "provider": "KB손해보험",
+  "title": "연금저축 미래골드보험",
+  "cells": [
+    "KB손해보험",
+    "연금저축 미래골드보험",
+    "금리연동형",
+    "2018/04/01",
+    "중단",
+    "53",
+    "-7.37",
+    "-0.86",
+    "0.3",
+    "1.09",
+    "1.45",
+    "1.8",
+    "8.21"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=48",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=48",
+    "collected_at": "2026-09-23T08:31:28.844714+00:00",
+    "http_status": 200,
+    "sha256": "64befd4745878ac997e9682c894a2a66c56b5f4265956bbf90dccc63fec49b79"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB손해보험",
+        "상품명": "연금저축 미래골드보험",
+        "상품유형": "금리연동형",
+        "최초판매일": "2018/04/01",
+        "판매여부": "중단",
+        "적립금총액": "53",
+        "1년 연평균수익률(%)": "-7.37",
+        "3년 연평균수익률(%)": "-0.86",
+        "5년 연평균수익률(%)": "0.3",
+        "7년 연평균수익률(%)": "1.09",
+        "10년 연평균수익률(%)": "1.45",
+        "누적연평균수익률(%)": "1.8",
+        "연평균수수료율(%)": "8.21"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=48",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=48",
+        "collected_at": "2026-09-23T08:31:28.844714+00:00",
+        "http_status": 200,
+        "sha256": "64befd4745878ac997e9682c894a2a66c56b5f4265956bbf90dccc63fec49b79"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.74e156b67d7fddbf9287d2dd",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:e5e670b5c6198305ba9d838d",
+  "group": "3",
+  "provider": "신한자산운용",
+  "title": "신한골드증권투자신탁제1호[주식](종류C-pe)",
+  "cells": [
+    "신한자산운용",
+    "신한골드증권투자신탁제1호[주식](종류C-pe)",
+    "주식형",
+    "2",
+    "2020/02/14",
+    "판매",
+    "6,358",
+    "36.98",
+    "30.55",
+    "16.60",
+    "-",
+    "-",
+    "15.45",
+    "1.065",
+    "한화투자증권주식회사, 삼성증권, 교보증권(주), KB증권, 신한은행, 신영증권주식회사, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=95",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=95",
+    "collected_at": "2026-09-23T08:23:55.847207+00:00",
+    "http_status": 200,
+    "sha256": "adf19969d9d8281c0171260a78be34233cf10fda798e9a662973a6eb9608e561"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한자산운용",
+        "상품명": "신한골드증권투자신탁제1호[주식](종류C-pe)",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2020/02/14",
+        "판매여부": "판매",
+        "순자산총액": "6,358",
+        "1년 연평균수익률(%)": "36.98",
+        "3년 연평균수익률(%)": "30.55",
+        "5년 연평균수익률(%)": "16.60",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "15.45",
+        "연평균수수료율(%)": "1.065",
+        "상품 판매사": "한화투자증권주식회사, 삼성증권, 교보증권(주), KB증권, 신한은행, 신영증권주식회사, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=95",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=95",
+        "collected_at": "2026-09-23T08:23:55.847207+00:00",
+        "http_status": 200,
+        "sha256": "adf19969d9d8281c0171260a78be34233cf10fda798e9a662973a6eb9608e561"
+      }
+    }
+  ]
+}

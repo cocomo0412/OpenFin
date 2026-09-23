@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.038c1e2f76b49096de1fcf1b",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:1e48cbc29feab2db22db86fc",
+  "group": "3",
+  "provider": "신한자산운용",
+  "title": "신한베스트크레딧단기증권자투자신탁[채권](종류C-pe)",
+  "cells": [
+    "신한자산운용",
+    "신한베스트크레딧단기증권자투자신탁[채권](종류C-pe)",
+    "채권형",
+    "6",
+    "2020/03/13",
+    "판매",
+    "8,824",
+    "1.80",
+    "3.88",
+    "3.11",
+    "-",
+    "-",
+    "2.78",
+    "0.232",
+    "(주)우리투자증권, 한국투자증권, 삼성증권, IBK기업은행, KB국민은행, 미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=80",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=80",
+    "collected_at": "2026-09-23T08:23:35.626578+00:00",
+    "http_status": 200,
+    "sha256": "20f25b242f23f7a51be3d0c33eb838c9dd661370c299819726ed1ee261d35a4c"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한자산운용",
+        "상품명": "신한베스트크레딧단기증권자투자신탁[채권](종류C-pe)",
+        "상품유형": "채권형",
+        "위험등급": "6",
+        "설정일": "2020/03/13",
+        "판매여부": "판매",
+        "순자산총액": "8,824",
+        "1년 연평균수익률(%)": "1.80",
+        "3년 연평균수익률(%)": "3.88",
+        "5년 연평균수익률(%)": "3.11",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "2.78",
+        "연평균수수료율(%)": "0.232",
+        "상품 판매사": "(주)우리투자증권, 한국투자증권, 삼성증권, IBK기업은행, KB국민은행, 미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=80",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=80",
+        "collected_at": "2026-09-23T08:23:35.626578+00:00",
+        "http_status": 200,
+        "sha256": "20f25b242f23f7a51be3d0c33eb838c9dd661370c299819726ed1ee261d35a4c"
+      }
+    }
+  ]
+}

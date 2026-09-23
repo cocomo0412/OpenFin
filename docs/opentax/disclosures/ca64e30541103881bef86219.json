@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.f801a0c1b03607b1937cbc1b",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:15cf41b6ca7526c82e851f72",
+  "group": "3",
+  "provider": "우리자산운용",
+  "title": "우리 코리아ESG 증권자투자신탁[주식] Class Pe2",
+  "cells": [
+    "우리자산운용",
+    "우리 코리아ESG 증권자투자신탁[주식] Class Pe2",
+    "주식형",
+    "2",
+    "2020/12/09",
+    "판매",
+    "277",
+    "206.96",
+    "54.59",
+    "24.10",
+    "-",
+    "-",
+    "25.35",
+    "0.882",
+    "유안타증권주식회사, 한국투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=264",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=264",
+    "collected_at": "2026-09-23T08:27:43.879480+00:00",
+    "http_status": 200,
+    "sha256": "92540ee05ef2aa6ca2dee1e2f623b774d738115249f5af0e0d8f7f559d3bb279"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "우리자산운용",
+        "상품명": "우리 코리아ESG 증권자투자신탁[주식] Class Pe2",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2020/12/09",
+        "판매여부": "판매",
+        "순자산총액": "277",
+        "1년 연평균수익률(%)": "206.96",
+        "3년 연평균수익률(%)": "54.59",
+        "5년 연평균수익률(%)": "24.10",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "25.35",
+        "연평균수수료율(%)": "0.882",
+        "상품 판매사": "유안타증권주식회사, 한국투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=264",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=264",
+        "collected_at": "2026-09-23T08:27:43.879480+00:00",
+        "http_status": 200,
+        "sha256": "92540ee05ef2aa6ca2dee1e2f623b774d738115249f5af0e0d8f7f559d3bb279"
+      }
+    }
+  ]
+}

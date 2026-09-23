@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.2227d401a656019e2a545db4",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:8fd86bf328ba9d98e1922168",
+  "group": "3",
+  "provider": "카디안자산운용",
+  "title": "카디안 글로벌 리더스 증권자투자신탁[주식] 클래스 S-P2(연금저축)",
+  "cells": [
+    "카디안자산운용",
+    "카디안 글로벌 리더스 증권자투자신탁[주식] 클래스 S-P2(연금저축)",
+    "주식형",
+    "2",
+    "2016/07/06",
+    "판매",
+    "441",
+    "15.34",
+    "20.41",
+    "8.28",
+    "11.62",
+    "-",
+    "13.00",
+    "1.145",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=239",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=239",
+    "collected_at": "2026-09-23T08:27:10.713404+00:00",
+    "http_status": 200,
+    "sha256": "a8f0a8add737a410f0ab404cee4245d53a34ac145aba39299ea07a0e5517e233"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "카디안자산운용",
+        "상품명": "카디안 글로벌 리더스 증권자투자신탁[주식] 클래스 S-P2(연금저축)",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2016/07/06",
+        "판매여부": "판매",
+        "순자산총액": "441",
+        "1년 연평균수익률(%)": "15.34",
+        "3년 연평균수익률(%)": "20.41",
+        "5년 연평균수익률(%)": "8.28",
+        "7년 연평균수익률(%)": "11.62",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "13.00",
+        "연평균수수료율(%)": "1.145",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=239",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=239",
+        "collected_at": "2026-09-23T08:27:10.713404+00:00",
+        "http_status": 200,
+        "sha256": "a8f0a8add737a410f0ab404cee4245d53a34ac145aba39299ea07a0e5517e233"
+      }
+    }
+  ]
+}

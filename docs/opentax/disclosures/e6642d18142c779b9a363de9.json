@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.7efbb6cbac6de3f325f22728",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:8005056650122743abc02c2f",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성글로벌다이나믹자산배분증권자투자신탁H[주식혼합-재간접형]_C-P",
+  "cells": [
+    "삼성자산운용",
+    "삼성글로벌다이나믹자산배분증권자투자신탁H[주식혼합-재간접형]_C-P",
+    "재간접",
+    "4",
+    "2015/08/04",
+    "판매",
+    "760",
+    "13.10",
+    "9.41",
+    "3.09",
+    "4.89",
+    "4.81",
+    "4.38",
+    "1.519",
+    "우리은행, 신한은행, 미래에셋생명보험주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=206",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=206",
+    "collected_at": "2026-09-23T08:26:26.387477+00:00",
+    "http_status": 200,
+    "sha256": "a6044ccfe97bc0c55ca835e3457762fb65567cb029637b4e4eee405d8d962040"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성글로벌다이나믹자산배분증권자투자신탁H[주식혼합-재간접형]_C-P",
+        "상품유형": "재간접",
+        "위험등급": "4",
+        "설정일": "2015/08/04",
+        "판매여부": "판매",
+        "순자산총액": "760",
+        "1년 연평균수익률(%)": "13.10",
+        "3년 연평균수익률(%)": "9.41",
+        "5년 연평균수익률(%)": "3.09",
+        "7년 연평균수익률(%)": "4.89",
+        "10년 연평균수익률(%)": "4.81",
+        "누적연평균수익률(%)": "4.38",
+        "연평균수수료율(%)": "1.519",
+        "상품 판매사": "우리은행, 신한은행, 미래에셋생명보험주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=206",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=206",
+        "collected_at": "2026-09-23T08:26:26.387477+00:00",
+        "http_status": 200,
+        "sha256": "a6044ccfe97bc0c55ca835e3457762fb65567cb029637b4e4eee405d8d962040"
+      }
+    }
+  ]
+}

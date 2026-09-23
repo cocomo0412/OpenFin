@@ -1,0 +1,50 @@
+{
+  "id": "finance.insurance.klia.current.5e09dd723c408d9050f0",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L6102460002NNN024700020244000102440001000302440001000300020244000100030002000431671",
+  "group": "024400010003",
+  "title": "KB 골든라이프 안심보험II 무배당(해약환급금 일부지급형)",
+  "provider": "KB라이프생명",
+  "cells": [
+    "KB라이프생명",
+    "KB 골든라이프 안심보험II 무배당(해약환급금 일부지급형)",
+    "주계약",
+    "재해사망보험금 *지급사유 : 피보험자가 보험기간 중 보장개시일 이후에 재해분류표에서 정하는 재해로 인하여 사망하였을 때",
+    "3000만원",
+    "1,731,900 원",
+    "1,215,600 원",
+    "3.40 %",
+    "-",
+    "-",
+    "82.9 %",
+    "80.2 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "기타",
+    "순수보장",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "방카슈랑스",
+    "2026-08-03",
+    "Download",
+    "보기",
+    "1588-3374"
+  ],
+  "coverage": [
+    "재해사망보험금 *지급사유 : 피보험자가 보험기간 중 보장개시일 이후에 재해분류표에서 정하는 재해로 인하여 사망하였을 때",
+    "고도장해보험금 *지급사유 : 피보험자가 보험기간 중 보장개시일 이후에 동일한 재해 또는 재해 이외의 동일한 원인으로 인하여 장해분류표 중 여러 신체부위의 장해지급률을 더하여 80%이상인 장해상태가 되었을 때"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=46097&seq=2"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010003&pageIndex=4&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010003&pageIndex=4&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:26.632543+00:00",
+    "http_status": 200,
+    "sha256": "31864b70108d2db6ac0feb77c31c163edc694123be69f6650e0e6903d2e5510a"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "finance.insurance.klia.disease.db생명.l7102460004nnn024700020244000102440001000302440001000300020244000100030002000426a67",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L7102460004NNN024700020244000102440001000302440001000300020244000100030002000426A67",
+  "group": "024400010003",
+  "title": "(무)e로운 12대기관 양성종양 및 3대기관 용종 수술보험(2504)",
+  "provider": "DB생명",
+  "cells": [
+    "DB생명",
+    "(무)e로운 12대기관 양성종양 및 3대기관 용종 수술보험(2504)",
+    "주계약",
+    "12대기관 양성종양 및 3대기관 용종 수술급여금 *지급사유 : 보험기간 중 피보험자가 “12대기관 양성종양 및 3대기관 용종”으로 진단이 확정되고, 보험기간 중 그 치료를 직접적인 목적으로 수술을 받았을 경우(연간1회한도)",
+    "1,000만원",
+    "6,890 원",
+    "5,640 원",
+    "3.00 %",
+    "-",
+    "-",
+    "74.5 %",
+    "71.0 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "기타",
+    "순수보장",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "CM",
+    "2026-08-01",
+    "Download",
+    "보기",
+    "1588-3131"
+  ],
+  "coverage": [
+    "12대기관 양성종양 및 3대기관 용종 수술급여금 *지급사유 : 보험기간 중 피보험자가 “12대기관 양성종양 및 3대기관 용종”으로 진단이 확정되고, 보험기간 중 그 치료를 직접적인 목적으로 수술을 받았을 경우(연간1회한도)"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=43728&seq=2"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010003&pageIndex=4&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010003&pageIndex=4&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:26.632543+00:00",
+    "http_status": 200,
+    "sha256": "31864b70108d2db6ac0feb77c31c163edc694123be69f6650e0e6903d2e5510a"
+  }
+}

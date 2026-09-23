@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.9f61cdc095f7335aca4caea9",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:98ca56fbe081266e74999915",
+  "group": "3",
+  "provider": "베어링자산운용",
+  "title": "베어링글로벌하이일드증권자투자신탁[H](채권-재간접형)Class C-P",
+  "cells": [
+    "베어링자산운용",
+    "베어링글로벌하이일드증권자투자신탁[H](채권-재간접형)Class C-P",
+    "재간접",
+    "5",
+    "2019/06/24",
+    "판매",
+    "559",
+    "4.93",
+    "6.42",
+    "2.39",
+    "2.85",
+    "-",
+    "2.82",
+    "0.774",
+    "한국투자증권, 우리은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=224",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=224",
+    "collected_at": "2026-09-23T08:26:50.168289+00:00",
+    "http_status": 200,
+    "sha256": "21cfc7efcb5a77596737069eca2e96d33a275b66935e12e969c4533bd90498aa"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "베어링자산운용",
+        "상품명": "베어링글로벌하이일드증권자투자신탁[H](채권-재간접형)Class C-P",
+        "상품유형": "재간접",
+        "위험등급": "5",
+        "설정일": "2019/06/24",
+        "판매여부": "판매",
+        "순자산총액": "559",
+        "1년 연평균수익률(%)": "4.93",
+        "3년 연평균수익률(%)": "6.42",
+        "5년 연평균수익률(%)": "2.39",
+        "7년 연평균수익률(%)": "2.85",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "2.82",
+        "연평균수수료율(%)": "0.774",
+        "상품 판매사": "한국투자증권, 우리은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=224",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=224",
+        "collected_at": "2026-09-23T08:26:50.168289+00:00",
+        "http_status": 200,
+        "sha256": "21cfc7efcb5a77596737069eca2e96d33a275b66935e12e969c4533bd90498aa"
+      }
+    }
+  ]
+}

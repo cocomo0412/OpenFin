@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.bd639967724e106b7bc30877",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:eace67821c89eb176126e840",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자연금셀렉트중국본토ETF증권전환형자투자신탁(주식-재간접형)(C)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자연금셀렉트중국본토ETF증권전환형자투자신탁(주식-재간접형)(C)",
+    "재간접",
+    "3",
+    "2013/04/26",
+    "판매",
+    "5,390",
+    "36.26",
+    "11.86",
+    "-1.11",
+    "3.22",
+    "3.25",
+    "2.98",
+    "1.345",
+    "(주)우리투자증권, 한국투자증권, 대신증권주식회사, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=101",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=101",
+    "collected_at": "2026-09-23T08:24:03.788261+00:00",
+    "http_status": 200,
+    "sha256": "f233b77e45eed31f6a170293b9528f58e81426c480f98cbe7c65f7bc4a40cc71"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자연금셀렉트중국본토ETF증권전환형자투자신탁(주식-재간접형)(C)",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2013/04/26",
+        "판매여부": "판매",
+        "순자산총액": "5,390",
+        "1년 연평균수익률(%)": "36.26",
+        "3년 연평균수익률(%)": "11.86",
+        "5년 연평균수익률(%)": "-1.11",
+        "7년 연평균수익률(%)": "3.22",
+        "10년 연평균수익률(%)": "3.25",
+        "누적연평균수익률(%)": "2.98",
+        "연평균수수료율(%)": "1.345",
+        "상품 판매사": "(주)우리투자증권, 한국투자증권, 대신증권주식회사, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=101",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=101",
+        "collected_at": "2026-09-23T08:24:03.788261+00:00",
+        "http_status": 200,
+        "sha256": "f233b77e45eed31f6a170293b9528f58e81426c480f98cbe7c65f7bc4a40cc71"
+      }
+    }
+  ]
+}

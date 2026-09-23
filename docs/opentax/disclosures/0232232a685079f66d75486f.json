@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.09ad6fd7111327cc8ed9465d",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:afacc17267107c7ca785515b",
+  "group": "3",
+  "provider": "베어링자산운용",
+  "title": "베어링가치형증권자투자신탁(주식) Class C-Pe",
+  "cells": [
+    "베어링자산운용",
+    "베어링가치형증권자투자신탁(주식) Class C-Pe",
+    "주식형",
+    "2",
+    "2017/08/02",
+    "판매",
+    "392",
+    "178.64",
+    "52.54",
+    "24.25",
+    "24.76",
+    "-",
+    "16.98",
+    "1.049",
+    "키움증권(주), 한국투자증권, 삼성증권, 미래에셋증권 주식회사, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=246",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=246",
+    "collected_at": "2026-09-23T08:27:20.003490+00:00",
+    "http_status": 200,
+    "sha256": "f7322a4b5c2f309bc1da5a24fc075f039e256458546d9cdbbe69834545f4462f"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "베어링자산운용",
+        "상품명": "베어링가치형증권자투자신탁(주식) Class C-Pe",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2017/08/02",
+        "판매여부": "판매",
+        "순자산총액": "392",
+        "1년 연평균수익률(%)": "178.64",
+        "3년 연평균수익률(%)": "52.54",
+        "5년 연평균수익률(%)": "24.25",
+        "7년 연평균수익률(%)": "24.76",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "16.98",
+        "연평균수수료율(%)": "1.049",
+        "상품 판매사": "키움증권(주), 한국투자증권, 삼성증권, 미래에셋증권 주식회사, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=246",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=246",
+        "collected_at": "2026-09-23T08:27:20.003490+00:00",
+        "http_status": 200,
+        "sha256": "f7322a4b5c2f309bc1da5a24fc075f039e256458546d9cdbbe69834545f4462f"
+      }
+    }
+  ]
+}

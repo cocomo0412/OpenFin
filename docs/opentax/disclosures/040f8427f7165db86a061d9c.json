@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.f1251904682da1336e80888a",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:c5f39062877d4aeb8aad05bd",
+  "group": "3",
+  "provider": "NH-Amundi자산운용",
+  "title": "NH-Amundi 인도 대형주포커스 증권투자신탁[주식-재간접형] Class S-P1(연금저축)",
+  "cells": [
+    "NH-Amundi자산운용",
+    "NH-Amundi 인도 대형주포커스 증권투자신탁[주식-재간접형] Class S-P1(연금저축)",
+    "재간접",
+    "3",
+    "2017/08/14",
+    "판매",
+    "302",
+    "-12.34",
+    "2.04",
+    "2.56",
+    "4.80",
+    "-",
+    "4.88",
+    "0.584",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=259",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=259",
+    "collected_at": "2026-09-23T08:27:37.413060+00:00",
+    "http_status": 200,
+    "sha256": "1409d104e8028e6bd05b8e8aa186e7695ad06e82870053e8fe2dea5e95390260"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "NH-Amundi자산운용",
+        "상품명": "NH-Amundi 인도 대형주포커스 증권투자신탁[주식-재간접형] Class S-P1(연금저축)",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2017/08/14",
+        "판매여부": "판매",
+        "순자산총액": "302",
+        "1년 연평균수익률(%)": "-12.34",
+        "3년 연평균수익률(%)": "2.04",
+        "5년 연평균수익률(%)": "2.56",
+        "7년 연평균수익률(%)": "4.80",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "4.88",
+        "연평균수수료율(%)": "0.584",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=259",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=259",
+        "collected_at": "2026-09-23T08:27:37.413060+00:00",
+        "http_status": 200,
+        "sha256": "1409d104e8028e6bd05b8e8aa186e7695ad06e82870053e8fe2dea5e95390260"
+      }
+    }
+  ]
+}

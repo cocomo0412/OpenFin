@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.3b5ecf91102aa078964f60d2",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:78d8b223a1e419521a8cceda",
+  "group": "3",
+  "provider": "교보악사자산운용",
+  "title": "교보악사 내일환매 초단기우량채증권투자신탁[채권] Class S-P",
+  "cells": [
+    "교보악사자산운용",
+    "교보악사 내일환매 초단기우량채증권투자신탁[채권] Class S-P",
+    "채권형",
+    "6",
+    "2022/12/21",
+    "판매",
+    "686",
+    "1.82",
+    "3.35",
+    "-",
+    "-",
+    "-",
+    "3.54",
+    "0.207",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=212",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=212",
+    "collected_at": "2026-09-23T08:26:34.140827+00:00",
+    "http_status": 200,
+    "sha256": "e94c1cd919394c35eed21f006b41839311bfdeab0b3d45f58366f220daa0ba0c"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "교보악사자산운용",
+        "상품명": "교보악사 내일환매 초단기우량채증권투자신탁[채권] Class S-P",
+        "상품유형": "채권형",
+        "위험등급": "6",
+        "설정일": "2022/12/21",
+        "판매여부": "판매",
+        "순자산총액": "686",
+        "1년 연평균수익률(%)": "1.82",
+        "3년 연평균수익률(%)": "3.35",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "3.54",
+        "연평균수수료율(%)": "0.207",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=212",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=212",
+        "collected_at": "2026-09-23T08:26:34.140827+00:00",
+        "http_status": 200,
+        "sha256": "e94c1cd919394c35eed21f006b41839311bfdeab0b3d45f58366f220daa0ba0c"
+      }
+    }
+  ]
+}

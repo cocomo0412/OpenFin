@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.5c431dfa901d4f16126e8c4c",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:b7ba9102ce9472ad55240b1a",
+  "group": "5",
+  "provider": "메리츠화재해상보험",
+  "title": "연금저축노후생활지킴이보험0908",
+  "cells": [
+    "메리츠화재해상보험",
+    "연금저축노후생활지킴이보험0908",
+    "금리연동형",
+    "2009/08/01",
+    "중단",
+    "18,291",
+    "-6.9",
+    "-1.09",
+    "0.07",
+    "0.39",
+    "0.51",
+    "0.91",
+    "6.922"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=21",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=21",
+    "collected_at": "2026-09-23T08:22:07.070962+00:00",
+    "http_status": 200,
+    "sha256": "60efec4afc41d20b80c9e38d94f7ae11f58cdd683a5721064f1f935d961aeca5"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "메리츠화재해상보험",
+        "상품명": "연금저축노후생활지킴이보험0908",
+        "상품유형": "금리연동형",
+        "최초판매일": "2009/08/01",
+        "판매여부": "중단",
+        "적립금총액": "18,291",
+        "1년 연평균수익률(%)": "-6.9",
+        "3년 연평균수익률(%)": "-1.09",
+        "5년 연평균수익률(%)": "0.07",
+        "7년 연평균수익률(%)": "0.39",
+        "10년 연평균수익률(%)": "0.51",
+        "누적연평균수익률(%)": "0.91",
+        "연평균수수료율(%)": "6.922"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=21",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=21",
+        "collected_at": "2026-09-23T08:22:07.070962+00:00",
+        "http_status": 200,
+        "sha256": "60efec4afc41d20b80c9e38d94f7ae11f58cdd683a5721064f1f935d961aeca5"
+      }
+    }
+  ]
+}

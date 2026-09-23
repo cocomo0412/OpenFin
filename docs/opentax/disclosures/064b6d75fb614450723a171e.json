@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.23f3085a6841b75d25b0a92c",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:99eb65cb0ccb080cdfcc9f72",
+  "group": "5",
+  "provider": "흥국화재해상보험",
+  "title": "연금저축손해보험 행복디딤돌보험(1307)",
+  "cells": [
+    "흥국화재해상보험",
+    "연금저축손해보험 행복디딤돌보험(1307)",
+    "금리연동형",
+    "2013/07/01",
+    "중단",
+    "4,680",
+    "-4.15",
+    "-0.49",
+    "0.18",
+    "0.43",
+    "0.74",
+    "1.02",
+    "5.058"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=33",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=33",
+    "collected_at": "2026-09-23T08:22:19.350508+00:00",
+    "http_status": 200,
+    "sha256": "8abd740fec80cd78ae7e88680ba4f41c47a2ba2c32595e8562db09b1968adf06"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "흥국화재해상보험",
+        "상품명": "연금저축손해보험 행복디딤돌보험(1307)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2013/07/01",
+        "판매여부": "중단",
+        "적립금총액": "4,680",
+        "1년 연평균수익률(%)": "-4.15",
+        "3년 연평균수익률(%)": "-0.49",
+        "5년 연평균수익률(%)": "0.18",
+        "7년 연평균수익률(%)": "0.43",
+        "10년 연평균수익률(%)": "0.74",
+        "누적연평균수익률(%)": "1.02",
+        "연평균수수료율(%)": "5.058"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=33",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=33",
+        "collected_at": "2026-09-23T08:22:19.350508+00:00",
+        "http_status": 200,
+        "sha256": "8abd740fec80cd78ae7e88680ba4f41c47a2ba2c32595e8562db09b1968adf06"
+      }
+    }
+  ]
+}

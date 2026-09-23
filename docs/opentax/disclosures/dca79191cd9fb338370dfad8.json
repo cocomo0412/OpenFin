@@ -1,0 +1,55 @@
+{
+  "id": "finance.insurance.klia.term-life.aia생명.l5202460003nnn0247000202440001024400010002024400010002000102440001000200010004r5003",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L5202460003NNN0247000202440001024400010002024400010002000102440001000200010004R5003",
+  "group": "024400010002",
+  "title": "(무) AIA 원스톱 종합건강보험 1형",
+  "provider": "AIA생명",
+  "cells": [
+    "AIA생명",
+    "(무) AIA 원스톱 종합건강보험 1형",
+    "주계약",
+    "사망보험금 *지급사유 : 사망",
+    "300만원",
+    "6,480 원",
+    "5,310 원",
+    "2.25 %",
+    "-",
+    "-",
+    "79.2 %",
+    "76.9 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "기본형",
+    "순수보장",
+    "-",
+    "-",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "TM",
+    "2026-07-01",
+    "Download",
+    "보기",
+    "1588-9898"
+  ],
+  "coverage": [
+    "사망보험금 *지급사유 : 사망",
+    "(무) 심뇌혈관질환수술특약 (갱신형) 1형 *지급사유 : 심뇌혈관질환 관혈수술 ※이외 보장담보는 상품요약서 참조",
+    "(무) 뉴 고액암특약 (갱신형) 1형 *지급사유 : 고액암 진단 최초1회한",
+    "(무) 신일반암직접치료특약 (갱신형) 1형 *지급사유 : 암직접치료(신일반암 진단(90일이후)) 매년1회한(최초 진단확정일로부터 최대 5년간)",
+    "(무) 뉴 허혈성심장질환진단특약 (갱신형) 1형 *지급사유 : 허혈성심장질환 진단 최초1회한"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=40826&seq=7"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010002&pageIndex=10&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010002&pageIndex=10&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:30.995434+00:00",
+    "http_status": 200,
+    "sha256": "e86acfcdb599432de5ed45f4f00835e98b6c38c55f1c24ae345974acc0f67ed2"
+  }
+}

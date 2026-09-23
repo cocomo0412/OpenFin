@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.4d086519cd9e6e027b629999",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:e21763878c0ea54b9f4149d9",
+  "group": "3",
+  "provider": "KCGI자산운용",
+  "title": "KCGI글로벌성장기반증권자투자신탁[주식]종류C-Pe",
+  "cells": [
+    "KCGI자산운용",
+    "KCGI글로벌성장기반증권자투자신탁[주식]종류C-Pe",
+    "주식형",
+    "2",
+    "2018/11/07",
+    "판매",
+    "11,603",
+    "50.57",
+    "18.84",
+    "9.41",
+    "11.06",
+    "-",
+    "11.57",
+    "1.314",
+    "KCGI자산운용"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=68",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=68",
+    "collected_at": "2026-09-23T08:23:19.121960+00:00",
+    "http_status": 200,
+    "sha256": "b6fe80d2182859898497e6ac5fec90c63e448f74a458f0b0e4d1efe26c8bde55"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KCGI자산운용",
+        "상품명": "KCGI글로벌성장기반증권자투자신탁[주식]종류C-Pe",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2018/11/07",
+        "판매여부": "판매",
+        "순자산총액": "11,603",
+        "1년 연평균수익률(%)": "50.57",
+        "3년 연평균수익률(%)": "18.84",
+        "5년 연평균수익률(%)": "9.41",
+        "7년 연평균수익률(%)": "11.06",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "11.57",
+        "연평균수수료율(%)": "1.314",
+        "상품 판매사": "KCGI자산운용"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=68",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=68",
+        "collected_at": "2026-09-23T08:23:19.121960+00:00",
+        "http_status": 200,
+        "sha256": "b6fe80d2182859898497e6ac5fec90c63e448f74a458f0b0e4d1efe26c8bde55"
+      }
+    }
+  ]
+}

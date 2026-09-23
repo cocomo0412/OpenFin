@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.03e775b9eb6a1bcf29098dcf",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:621b6d4f1c819fe42a05d984",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성아세안플러스베트남증권자투자신탁H[주식-파생형]_C-Pe",
+  "cells": [
+    "삼성자산운용",
+    "삼성아세안플러스베트남증권자투자신탁H[주식-파생형]_C-Pe",
+    "파생상품",
+    "3",
+    "2017/07/28",
+    "판매",
+    "1,166",
+    "12.25",
+    "9.11",
+    "2.98",
+    "6.91",
+    "-",
+    "5.88",
+    "1.806",
+    "키움증권(주), 삼성생명보험주식회사, 삼성증권, KB증권, 대신증권주식회사, 아이엠증권, 미래에셋증권 주식회사, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=180",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=180",
+    "collected_at": "2026-09-23T08:25:50.568849+00:00",
+    "http_status": 200,
+    "sha256": "9e2e25814c5fa6909d3a6df306c4b29495e54b96b58f5e33b569c4a0702e4d7e"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성아세안플러스베트남증권자투자신탁H[주식-파생형]_C-Pe",
+        "상품유형": "파생상품",
+        "위험등급": "3",
+        "설정일": "2017/07/28",
+        "판매여부": "판매",
+        "순자산총액": "1,166",
+        "1년 연평균수익률(%)": "12.25",
+        "3년 연평균수익률(%)": "9.11",
+        "5년 연평균수익률(%)": "2.98",
+        "7년 연평균수익률(%)": "6.91",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "5.88",
+        "연평균수수료율(%)": "1.806",
+        "상품 판매사": "키움증권(주), 삼성생명보험주식회사, 삼성증권, KB증권, 대신증권주식회사, 아이엠증권, 미래에셋증권 주식회사, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=180",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=180",
+        "collected_at": "2026-09-23T08:25:50.568849+00:00",
+        "http_status": 200,
+        "sha256": "9e2e25814c5fa6909d3a6df306c4b29495e54b96b58f5e33b569c4a0702e4d7e"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.307da8841cf51227b3594750",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:2510a1c92b0601086af93085",
+  "group": "3",
+  "provider": "에셋플러스자산운용",
+  "title": "에셋플러스 슈퍼아시아 리치투게더 증권 자투자신탁1호(주식) 종류 S-P",
+  "cells": [
+    "에셋플러스자산운용",
+    "에셋플러스 슈퍼아시아 리치투게더 증권 자투자신탁1호(주식) 종류 S-P",
+    "주식형",
+    "3",
+    "2019/04/01",
+    "판매",
+    "919",
+    "51.83",
+    "26.61",
+    "15.10",
+    "14.56",
+    "-",
+    "14.34",
+    "1.254",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=193",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=193",
+    "collected_at": "2026-09-23T08:26:08.167587+00:00",
+    "http_status": 200,
+    "sha256": "8b98862554aea6e54c3636c7423a61a9aeb240b7c24fe1ca455e2d77e77b24cd"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "에셋플러스자산운용",
+        "상품명": "에셋플러스 슈퍼아시아 리치투게더 증권 자투자신탁1호(주식) 종류 S-P",
+        "상품유형": "주식형",
+        "위험등급": "3",
+        "설정일": "2019/04/01",
+        "판매여부": "판매",
+        "순자산총액": "919",
+        "1년 연평균수익률(%)": "51.83",
+        "3년 연평균수익률(%)": "26.61",
+        "5년 연평균수익률(%)": "15.10",
+        "7년 연평균수익률(%)": "14.56",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "14.34",
+        "연평균수수료율(%)": "1.254",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=193",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=193",
+        "collected_at": "2026-09-23T08:26:08.167587+00:00",
+        "http_status": 200,
+        "sha256": "8b98862554aea6e54c3636c7423a61a9aeb240b7c24fe1ca455e2d77e77b24cd"
+      }
+    }
+  ]
+}

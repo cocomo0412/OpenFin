@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.8e3e461f3cbff5bf105ca2eb",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:71689a11d2ece3b577140f11",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB스타 미국 나스닥 100 인덱스 증권 자투자신탁(주식-파생형)(UH) C-P",
+  "cells": [
+    "KB자산운용",
+    "KB스타 미국 나스닥 100 인덱스 증권 자투자신탁(주식-파생형)(UH) C-P",
+    "파생상품",
+    "2",
+    "2025/12/01",
+    "판매",
+    "274",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "42.61",
+    "1.355",
+    "KB증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=264",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=264",
+    "collected_at": "2026-09-23T08:27:43.879480+00:00",
+    "http_status": 200,
+    "sha256": "92540ee05ef2aa6ca2dee1e2f623b774d738115249f5af0e0d8f7f559d3bb279"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB스타 미국 나스닥 100 인덱스 증권 자투자신탁(주식-파생형)(UH) C-P",
+        "상품유형": "파생상품",
+        "위험등급": "2",
+        "설정일": "2025/12/01",
+        "판매여부": "판매",
+        "순자산총액": "274",
+        "1년 연평균수익률(%)": "-",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "42.61",
+        "연평균수수료율(%)": "1.355",
+        "상품 판매사": "KB증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=264",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=264",
+        "collected_at": "2026-09-23T08:27:43.879480+00:00",
+        "http_status": 200,
+        "sha256": "92540ee05ef2aa6ca2dee1e2f623b774d738115249f5af0e0d8f7f559d3bb279"
+      }
+    }
+  ]
+}

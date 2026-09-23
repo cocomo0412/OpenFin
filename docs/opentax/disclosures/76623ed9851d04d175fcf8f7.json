@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.f090217f67518192c3b1e28a",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:1:621de24d2e3c944f79feb1d7",
+  "group": "1",
+  "provider": "농협은행",
+  "title": "연금신탁(채권형)",
+  "cells": [
+    "농협은행",
+    "연금신탁(채권형)",
+    "채권형",
+    "2001/02/05",
+    "중단",
+    "347,884",
+    "-0.57",
+    "2.75",
+    "1.92",
+    "1.6",
+    "1.5",
+    "2.59",
+    "10.15"
+  ],
+  "headers": [
+    "은행",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=1",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=1",
+    "collected_at": "2026-09-23T08:21:41.997535+00:00",
+    "http_status": 200,
+    "sha256": "30597bc3e64a8eea5a6a718739f41824360ed0991ca7185c8062f06be4347734"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "농협은행",
+        "상품명": "연금신탁(채권형)",
+        "상품유형": "채권형",
+        "최초판매일": "2001/02/05",
+        "판매여부": "중단",
+        "적립금총액": "347,884",
+        "1년 연평균수익률(%)": "-0.57",
+        "3년 연평균수익률(%)": "2.75",
+        "5년 연평균수익률(%)": "1.92",
+        "7년 연평균수익률(%)": "1.6",
+        "10년 연평균수익률(%)": "1.5",
+        "누적연평균수익률(%)": "2.59",
+        "연평균수수료율(%)": "10.15"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=1",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=1&pageIndex=1",
+        "collected_at": "2026-09-23T08:21:41.997535+00:00",
+        "http_status": 200,
+        "sha256": "30597bc3e64a8eea5a6a718739f41824360ed0991ca7185c8062f06be4347734"
+      }
+    }
+  ]
+}

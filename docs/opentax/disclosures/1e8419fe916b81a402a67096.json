@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.78e7ceae893b49c6e3ca518c",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:6abef6cbb62dcc2a9b0923dc",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋라이프사이클6070연금증권전환형자투자신탁1호(채권혼합)종류C-e",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋라이프사이클6070연금증권전환형자투자신탁1호(채권혼합)종류C-e",
+    "혼합채권형",
+    "5",
+    "2017/09/22",
+    "판매",
+    "380",
+    "18.73",
+    "11.29",
+    "5.26",
+    "5.03",
+    "-",
+    "4.41",
+    "0.859",
+    "(주)우리투자증권, 키움증권(주), 대신증권주식회사, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=248",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=248",
+    "collected_at": "2026-09-23T08:27:22.446039+00:00",
+    "http_status": 200,
+    "sha256": "3d20357589f90fe3db06953c80b857017d99e42ebf26443d10b6b2dceeea503a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋라이프사이클6070연금증권전환형자투자신탁1호(채권혼합)종류C-e",
+        "상품유형": "혼합채권형",
+        "위험등급": "5",
+        "설정일": "2017/09/22",
+        "판매여부": "판매",
+        "순자산총액": "380",
+        "1년 연평균수익률(%)": "18.73",
+        "3년 연평균수익률(%)": "11.29",
+        "5년 연평균수익률(%)": "5.26",
+        "7년 연평균수익률(%)": "5.03",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "4.41",
+        "연평균수수료율(%)": "0.859",
+        "상품 판매사": "(주)우리투자증권, 키움증권(주), 대신증권주식회사, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=248",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=248",
+        "collected_at": "2026-09-23T08:27:22.446039+00:00",
+        "http_status": 200,
+        "sha256": "3d20357589f90fe3db06953c80b857017d99e42ebf26443d10b6b2dceeea503a"
+      }
+    }
+  ]
+}

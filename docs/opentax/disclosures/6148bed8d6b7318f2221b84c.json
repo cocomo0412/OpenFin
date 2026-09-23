@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.f7245ff6cf4c1ff8c5998b2e",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:7e4deacb73e3be08791e4a35",
+  "group": "3",
+  "provider": "브이아이자산운용",
+  "title": "브이아이 신종 개인 MMF 1호 C-P2",
+  "cells": [
+    "브이아이자산운용",
+    "브이아이 신종 개인 MMF 1호 C-P2",
+    "단기금융",
+    "6",
+    "2013/06/21",
+    "판매",
+    "2,609",
+    "2.36",
+    "2.91",
+    "2.54",
+    "2.05",
+    "1.84",
+    "1.77",
+    "0.308",
+    "아이엠증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=136",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=136",
+    "collected_at": "2026-09-23T08:24:51.698736+00:00",
+    "http_status": 200,
+    "sha256": "47e38e691b503ec99a10b23fd932c5c0496d98c6dfb217caa345c3fc192f7176"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "브이아이자산운용",
+        "상품명": "브이아이 신종 개인 MMF 1호 C-P2",
+        "상품유형": "단기금융",
+        "위험등급": "6",
+        "설정일": "2013/06/21",
+        "판매여부": "판매",
+        "순자산총액": "2,609",
+        "1년 연평균수익률(%)": "2.36",
+        "3년 연평균수익률(%)": "2.91",
+        "5년 연평균수익률(%)": "2.54",
+        "7년 연평균수익률(%)": "2.05",
+        "10년 연평균수익률(%)": "1.84",
+        "누적연평균수익률(%)": "1.77",
+        "연평균수수료율(%)": "0.308",
+        "상품 판매사": "아이엠증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=136",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=136",
+        "collected_at": "2026-09-23T08:24:51.698736+00:00",
+        "http_status": 200,
+        "sha256": "47e38e691b503ec99a10b23fd932c5c0496d98c6dfb217caa345c3fc192f7176"
+      }
+    }
+  ]
+}

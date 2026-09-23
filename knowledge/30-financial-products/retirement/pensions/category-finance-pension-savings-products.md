@@ -4,9 +4,9 @@
   "title": "연금저축 상품",
   "type": "category",
   "canonical_folder": "30-financial-products/retirement/pensions",
-  "population_status": "planned",
-  "population_reason": "공식 출처에서 해당 상품군 레코드를 아직 수집하지 않았습니다. 분류는 유지하되 인스턴스는 비어 있습니다.",
-  "description": "연금저축보험·연금저축펀드·연금저축신탁의 최저보증이율, 공시이율, 과거수익률, 납입·연금개시 조건과 세제적격 세액공제 대상 여부를 관리합니다. 연말정산 연금계좌 세액공제(credit.pension-account)와 연결됩니다. 상품 행은 통합연금포털 원천이 확보될 때 추가합니다(FinLife는 연금저축 공시 API를 제공하지 않음). 퇴직연금·IRP 수익률 비교도 같은 원천으로 확장합니다.",
+  "population_status": "populated",
+  "population_reason": "금융감독원 통합연금포털의 상품별 수익률·수수료율 공시 반영",
+  "description": "연금저축 상품별 수익률·수수료율 공시와 공식 원문을 확인합니다. 수익률의 기준 분기와 자료 수집일을 구분합니다.",
   "basis_year": 2026,
   "reviewed_at": "2026-07-10",
   "abolition_status": "active",
@@ -193,7 +193,7 @@
       "value": "2026-07-04 확인"
     }
   ],
-  "record_checksum": "sha256:df134c86c9ca86f06a4c574be9efd392f0433667fdeb8c1b50e7bb5230303044"
+  "record_checksum": "sha256:8b824adafd81f0c9e886f2d34fa9670c01fed5d3d4f28e8d184d0cbcb6628ae1"
 }
 ---
 

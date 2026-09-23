@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.b2b9f36559fb00ca76d7b8af",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:9ac7c39f3d772f19e7f31618",
+  "group": "3",
+  "provider": "다올자산운용",
+  "title": "다올마켓스타증권투자신탁[주식] 종류C-Pe",
+  "cells": [
+    "다올자산운용",
+    "다올마켓스타증권투자신탁[주식] 종류C-Pe",
+    "주식형",
+    "2",
+    "2022/04/28",
+    "판매",
+    "225",
+    "202.17",
+    "63.17",
+    "-",
+    "-",
+    "-",
+    "37.93",
+    "1.148",
+    "KB국민은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=275",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=275",
+    "collected_at": "2026-09-23T08:27:58.814214+00:00",
+    "http_status": 200,
+    "sha256": "e81062e3bb919d8d58286ad6b116f0f6f7fbac839dfa142888681139232c5503"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "다올자산운용",
+        "상품명": "다올마켓스타증권투자신탁[주식] 종류C-Pe",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2022/04/28",
+        "판매여부": "판매",
+        "순자산총액": "225",
+        "1년 연평균수익률(%)": "202.17",
+        "3년 연평균수익률(%)": "63.17",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "37.93",
+        "연평균수수료율(%)": "1.148",
+        "상품 판매사": "KB국민은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=275",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=275",
+        "collected_at": "2026-09-23T08:27:58.814214+00:00",
+        "http_status": 200,
+        "sha256": "e81062e3bb919d8d58286ad6b116f0f6f7fbac839dfa142888681139232c5503"
+      }
+    }
+  ]
+}

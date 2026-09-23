@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.a5889f733471a921e4edc57d",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:eaaece9bf9709fbca2c015d0",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자연금저축롱텀밸류증권자투자신탁(주식)(C-e)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자연금저축롱텀밸류증권자투자신탁(주식)(C-e)",
+    "주식형",
+    "3",
+    "2015/11/17",
+    "판매",
+    "507",
+    "5.41",
+    "15.41",
+    "6.62",
+    "8.19",
+    "6.67",
+    "6.72",
+    "1.005",
+    "키움증권(주), 한국투자증권, 삼성증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=231",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=231",
+    "collected_at": "2026-09-23T08:26:59.927834+00:00",
+    "http_status": 200,
+    "sha256": "5377f5954ab66b3f8c7709328b4d16f784ec4a31114c6c7c05f7cd46b8cd61db"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자연금저축롱텀밸류증권자투자신탁(주식)(C-e)",
+        "상품유형": "주식형",
+        "위험등급": "3",
+        "설정일": "2015/11/17",
+        "판매여부": "판매",
+        "순자산총액": "507",
+        "1년 연평균수익률(%)": "5.41",
+        "3년 연평균수익률(%)": "15.41",
+        "5년 연평균수익률(%)": "6.62",
+        "7년 연평균수익률(%)": "8.19",
+        "10년 연평균수익률(%)": "6.67",
+        "누적연평균수익률(%)": "6.72",
+        "연평균수수료율(%)": "1.005",
+        "상품 판매사": "키움증권(주), 한국투자증권, 삼성증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=231",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=231",
+        "collected_at": "2026-09-23T08:26:59.927834+00:00",
+        "http_status": 200,
+        "sha256": "5377f5954ab66b3f8c7709328b4d16f784ec4a31114c6c7c05f7cd46b8cd61db"
+      }
+    }
+  ]
+}

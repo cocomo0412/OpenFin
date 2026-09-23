@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.a8a93af22807cc26d5387a0a",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:2b9b166aa78b4e919af4c635",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB RISE 미국30년국채액티브 증권 상장지수 투자신탁(채권)",
+  "cells": [
+    "KB자산운용",
+    "KB RISE 미국30년국채액티브 증권 상장지수 투자신탁(채권)",
+    "채권형",
+    "2",
+    "2024/05/24",
+    "판매",
+    "3,181",
+    "11.25",
+    "-",
+    "-",
+    "-",
+    "-",
+    "2.48",
+    "0.177",
+    "디비증권주식회사, 유진투자증권주식회사, 한화투자증권주식회사, 하나증권주식회사, 키움증권(주), 메리츠증권(주), 한국투자증권, 삼성증권, KB증권, 대신증권주식회사, 아이엠증권, 신영증권주식회사, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=125",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=125",
+    "collected_at": "2026-09-23T08:24:37.048923+00:00",
+    "http_status": 200,
+    "sha256": "01741abb69d12bc984b0cbc4868f3917ca14703e027ebfda2738bba5ece5a06f"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB RISE 미국30년국채액티브 증권 상장지수 투자신탁(채권)",
+        "상품유형": "채권형",
+        "위험등급": "2",
+        "설정일": "2024/05/24",
+        "판매여부": "판매",
+        "순자산총액": "3,181",
+        "1년 연평균수익률(%)": "11.25",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "2.48",
+        "연평균수수료율(%)": "0.177",
+        "상품 판매사": "디비증권주식회사, 유진투자증권주식회사, 한화투자증권주식회사, 하나증권주식회사, 키움증권(주), 메리츠증권(주), 한국투자증권, 삼성증권, KB증권, 대신증권주식회사, 아이엠증권, 신영증권주식회사, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=125",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=125",
+        "collected_at": "2026-09-23T08:24:37.048923+00:00",
+        "http_status": 200,
+        "sha256": "01741abb69d12bc984b0cbc4868f3917ca14703e027ebfda2738bba5ece5a06f"
+      }
+    }
+  ]
+}

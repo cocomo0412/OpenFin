@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.13bea017494b36cd79ce323d",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:9d05603645b06032e9cc86c4",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 다이나믹 적격TDF 2040 증권 자투자신탁(주식혼합-재간접형) S-P",
+  "cells": [
+    "KB자산운용",
+    "KB 다이나믹 적격TDF 2040 증권 자투자신탁(주식혼합-재간접형) S-P",
+    "재간접",
+    "3",
+    "2021/07/26",
+    "판매",
+    "185",
+    "42.20",
+    "21.62",
+    "-",
+    "-",
+    "-",
+    "12.83",
+    "0.437",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=281",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=281",
+    "collected_at": "2026-09-23T08:28:06.555681+00:00",
+    "http_status": 200,
+    "sha256": "faa17a7d5c879f678b8008c2cfe3df4456202f1d6571322d969ac9016ce491f2"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 다이나믹 적격TDF 2040 증권 자투자신탁(주식혼합-재간접형) S-P",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2021/07/26",
+        "판매여부": "판매",
+        "순자산총액": "185",
+        "1년 연평균수익률(%)": "42.20",
+        "3년 연평균수익률(%)": "21.62",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "12.83",
+        "연평균수수료율(%)": "0.437",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=281",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=281",
+        "collected_at": "2026-09-23T08:28:06.555681+00:00",
+        "http_status": 200,
+        "sha256": "faa17a7d5c879f678b8008c2cfe3df4456202f1d6571322d969ac9016ce491f2"
+      }
+    }
+  ]
+}

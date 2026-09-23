@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.626c68b1e3b92995b1fe04be",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:0bc1c6075fd382916a6d8516",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 미국 장기국채 플러스 증권 자투자신탁(채권)(UH) S-P",
+  "cells": [
+    "KB자산운용",
+    "KB 미국 장기국채 플러스 증권 자투자신탁(채권)(UH) S-P",
+    "채권형",
+    "3",
+    "2024/06/28",
+    "판매",
+    "117",
+    "19.52",
+    "-",
+    "-",
+    "-",
+    "-",
+    "7.08",
+    "0.383",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=294",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=294",
+    "collected_at": "2026-09-23T08:28:23.954291+00:00",
+    "http_status": 200,
+    "sha256": "d8e2effcc932645f868aa43005748c547504f952ebc92dc7496ef24503505847"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 미국 장기국채 플러스 증권 자투자신탁(채권)(UH) S-P",
+        "상품유형": "채권형",
+        "위험등급": "3",
+        "설정일": "2024/06/28",
+        "판매여부": "판매",
+        "순자산총액": "117",
+        "1년 연평균수익률(%)": "19.52",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "7.08",
+        "연평균수수료율(%)": "0.383",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=294",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=294",
+        "collected_at": "2026-09-23T08:28:23.954291+00:00",
+        "http_status": 200,
+        "sha256": "d8e2effcc932645f868aa43005748c547504f952ebc92dc7496ef24503505847"
+      }
+    }
+  ]
+}

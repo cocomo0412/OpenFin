@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.17458352300f12b7ff03aa95",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:6b43e3d10c78c6604e85e49f",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 연금 성장주50 증권 전환형 자투자신탁(채권혼합) C",
+  "cells": [
+    "KB자산운용",
+    "KB 연금 성장주50 증권 전환형 자투자신탁(채권혼합) C",
+    "혼합채권형",
+    "4",
+    "2010/07/09",
+    "판매",
+    "17,115",
+    "65.46",
+    "26.44",
+    "12.93",
+    "13.05",
+    "10.00",
+    "7.59",
+    "1.225",
+    "키움증권(주), 한국투자증권, 삼성증권, KB증권, KB국민은행, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=53",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=53",
+    "collected_at": "2026-09-23T08:22:58.979930+00:00",
+    "http_status": 200,
+    "sha256": "0b252698541567dd531a64aab0566bbafad31bb4c3396517fba103a939aa2cc7"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 연금 성장주50 증권 전환형 자투자신탁(채권혼합) C",
+        "상품유형": "혼합채권형",
+        "위험등급": "4",
+        "설정일": "2010/07/09",
+        "판매여부": "판매",
+        "순자산총액": "17,115",
+        "1년 연평균수익률(%)": "65.46",
+        "3년 연평균수익률(%)": "26.44",
+        "5년 연평균수익률(%)": "12.93",
+        "7년 연평균수익률(%)": "13.05",
+        "10년 연평균수익률(%)": "10.00",
+        "누적연평균수익률(%)": "7.59",
+        "연평균수수료율(%)": "1.225",
+        "상품 판매사": "키움증권(주), 한국투자증권, 삼성증권, KB증권, KB국민은행, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=53",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=53",
+        "collected_at": "2026-09-23T08:22:58.979930+00:00",
+        "http_status": 200,
+        "sha256": "0b252698541567dd531a64aab0566bbafad31bb4c3396517fba103a939aa2cc7"
+      }
+    }
+  ]
+}

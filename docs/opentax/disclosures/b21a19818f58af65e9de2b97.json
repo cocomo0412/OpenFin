@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.842e0c2a76dac6510b17999e",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:23c713e9b03992923a344c14",
+  "group": "3",
+  "provider": "하나자산운용",
+  "title": "하나인Best연금글로벌이머징국공채증권자투자신탁[채권-재간접형]",
+  "cells": [
+    "하나자산운용",
+    "하나인Best연금글로벌이머징국공채증권자투자신탁[채권-재간접형]",
+    "재간접",
+    "4",
+    "2012/05/18",
+    "판매",
+    "419",
+    "12.36",
+    "10.45",
+    "1.63",
+    "1.69",
+    "1.85",
+    "1.44",
+    "0.989",
+    "한화투자증권주식회사, (주)우리투자증권, 하나증권주식회사, 키움증권(주), 유안타증권주식회사, KB증권, 신영증권주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=243",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=243",
+    "collected_at": "2026-09-23T08:27:15.935720+00:00",
+    "http_status": 200,
+    "sha256": "5934ebf656cd481fc6829b0b3646e69282f0882a6b06969a281600c4c75490d6"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "하나자산운용",
+        "상품명": "하나인Best연금글로벌이머징국공채증권자투자신탁[채권-재간접형]",
+        "상품유형": "재간접",
+        "위험등급": "4",
+        "설정일": "2012/05/18",
+        "판매여부": "판매",
+        "순자산총액": "419",
+        "1년 연평균수익률(%)": "12.36",
+        "3년 연평균수익률(%)": "10.45",
+        "5년 연평균수익률(%)": "1.63",
+        "7년 연평균수익률(%)": "1.69",
+        "10년 연평균수익률(%)": "1.85",
+        "누적연평균수익률(%)": "1.44",
+        "연평균수수료율(%)": "0.989",
+        "상품 판매사": "한화투자증권주식회사, (주)우리투자증권, 하나증권주식회사, 키움증권(주), 유안타증권주식회사, KB증권, 신영증권주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=243",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=243",
+        "collected_at": "2026-09-23T08:27:15.935720+00:00",
+        "http_status": 200,
+        "sha256": "5934ebf656cd481fc6829b0b3646e69282f0882a6b06969a281600c4c75490d6"
+      }
+    }
+  ]
+}

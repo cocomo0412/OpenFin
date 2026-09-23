@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.94ae0f8ab870221dbba14a4d",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:ed651974cc632b74f5e0ed8c",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋연금글로벌그로스증권자투자신탁1호(주식)종류C",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋연금글로벌그로스증권자투자신탁1호(주식)종류C",
+    "주식형",
+    "2",
+    "2014/12/19",
+    "판매",
+    "25,124",
+    "17.19",
+    "20.70",
+    "6.02",
+    "11.01",
+    "11.93",
+    "9.54",
+    "1.592",
+    "한화투자증권주식회사, 한국투자증권, 미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=41",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=41",
+    "collected_at": "2026-09-23T08:22:42.200298+00:00",
+    "http_status": 200,
+    "sha256": "e220eee710862c48e50cb064ccf59dbca7be1b7025bac50c7caf2fbf2dda2eca"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋연금글로벌그로스증권자투자신탁1호(주식)종류C",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2014/12/19",
+        "판매여부": "판매",
+        "순자산총액": "25,124",
+        "1년 연평균수익률(%)": "17.19",
+        "3년 연평균수익률(%)": "20.70",
+        "5년 연평균수익률(%)": "6.02",
+        "7년 연평균수익률(%)": "11.01",
+        "10년 연평균수익률(%)": "11.93",
+        "누적연평균수익률(%)": "9.54",
+        "연평균수수료율(%)": "1.592",
+        "상품 판매사": "한화투자증권주식회사, 한국투자증권, 미래에셋증권 주식회사, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=41",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=41",
+        "collected_at": "2026-09-23T08:22:42.200298+00:00",
+        "http_status": 200,
+        "sha256": "e220eee710862c48e50cb064ccf59dbca7be1b7025bac50c7caf2fbf2dda2eca"
+      }
+    }
+  ]
+}

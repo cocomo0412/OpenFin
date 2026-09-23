@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.d83cd2f927969ea1d100dd24",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:41f9748676fee868e722864a",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 연금 차이나 H 인덱스 증권 자투자신탁(주식-파생형) C-E 클래스",
+  "cells": [
+    "KB자산운용",
+    "KB 연금 차이나 H 인덱스 증권 자투자신탁(주식-파생형) C-E 클래스",
+    "파생상품",
+    "2",
+    "2015/09/07",
+    "판매",
+    "673",
+    "-15.90",
+    "3.27",
+    "-8.69",
+    "-6.38",
+    "-2.18",
+    "-2.30",
+    "0.802",
+    "한국투자증권, KB국민은행, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=213",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=213",
+    "collected_at": "2026-09-23T08:26:35.358969+00:00",
+    "http_status": 200,
+    "sha256": "0a27de6b8364e6e1a83dbb8f8f531d14668d3baf047ff5af8d84d8a259a1910b"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 연금 차이나 H 인덱스 증권 자투자신탁(주식-파생형) C-E 클래스",
+        "상품유형": "파생상품",
+        "위험등급": "2",
+        "설정일": "2015/09/07",
+        "판매여부": "판매",
+        "순자산총액": "673",
+        "1년 연평균수익률(%)": "-15.90",
+        "3년 연평균수익률(%)": "3.27",
+        "5년 연평균수익률(%)": "-8.69",
+        "7년 연평균수익률(%)": "-6.38",
+        "10년 연평균수익률(%)": "-2.18",
+        "누적연평균수익률(%)": "-2.30",
+        "연평균수수료율(%)": "0.802",
+        "상품 판매사": "한국투자증권, KB국민은행, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=213",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=213",
+        "collected_at": "2026-09-23T08:26:35.358969+00:00",
+        "http_status": 200,
+        "sha256": "0a27de6b8364e6e1a83dbb8f8f531d14668d3baf047ff5af8d84d8a259a1910b"
+      }
+    }
+  ]
+}

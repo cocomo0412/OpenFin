@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.cbf0c305dbd44aba31924e4f",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:f65345bc4821f0acd232af84",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성헤리티지MMF제1호_C-P",
+  "cells": [
+    "삼성자산운용",
+    "삼성헤리티지MMF제1호_C-P",
+    "단기금융",
+    "6",
+    "2022/08/11",
+    "판매",
+    "593",
+    "2.49",
+    "3.10",
+    "-",
+    "-",
+    "-",
+    "3.19",
+    "0.260",
+    "삼성생명보험주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=220",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=220",
+    "collected_at": "2026-09-23T08:26:44.623067+00:00",
+    "http_status": 200,
+    "sha256": "a328877be8063fd17605be471ca2a32c6fedf7c3d0ab75c1a7333cc4e955e5a7"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성헤리티지MMF제1호_C-P",
+        "상품유형": "단기금융",
+        "위험등급": "6",
+        "설정일": "2022/08/11",
+        "판매여부": "판매",
+        "순자산총액": "593",
+        "1년 연평균수익률(%)": "2.49",
+        "3년 연평균수익률(%)": "3.10",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "3.19",
+        "연평균수수료율(%)": "0.260",
+        "상품 판매사": "삼성생명보험주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=220",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=220",
+        "collected_at": "2026-09-23T08:26:44.623067+00:00",
+        "http_status": 200,
+        "sha256": "a328877be8063fd17605be471ca2a32c6fedf7c3d0ab75c1a7333cc4e955e5a7"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.bb3d8094aec8ba6120714d63",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:72fc8170c70f899bc99d563c",
+  "group": "4",
+  "provider": "신한라이프생명보험",
+  "title": "연금저축 신한해피라이프자유적립보험",
+  "cells": [
+    "신한라이프생명보험",
+    "연금저축 신한해피라이프자유적립보험",
+    "금리연동형",
+    "2006/03/27",
+    "중단",
+    "12,594",
+    "-3.62",
+    "0.53",
+    "1.24",
+    "1.53",
+    "1.49",
+    "1.24",
+    "4.585"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=34",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=34",
+    "collected_at": "2026-09-23T08:31:14.593118+00:00",
+    "http_status": 200,
+    "sha256": "94863b1fb8e7401962dcd67d1420e3640aa27e4b85cfbeb8a1a9dad284b55fcc"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한라이프생명보험",
+        "상품명": "연금저축 신한해피라이프자유적립보험",
+        "상품유형": "금리연동형",
+        "최초판매일": "2006/03/27",
+        "판매여부": "중단",
+        "적립금총액": "12,594",
+        "1년 연평균수익률(%)": "-3.62",
+        "3년 연평균수익률(%)": "0.53",
+        "5년 연평균수익률(%)": "1.24",
+        "7년 연평균수익률(%)": "1.53",
+        "10년 연평균수익률(%)": "1.49",
+        "누적연평균수익률(%)": "1.24",
+        "연평균수수료율(%)": "4.585"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=34",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=34",
+        "collected_at": "2026-09-23T08:31:14.593118+00:00",
+        "http_status": 200,
+        "sha256": "94863b1fb8e7401962dcd67d1420e3640aa27e4b85cfbeb8a1a9dad284b55fcc"
+      }
+    }
+  ]
+}

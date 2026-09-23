@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.b07a67a7def0b4ea53eee9f6",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:b360ffb3d8c640eed9d95a7b",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋TIGERCD1년금리액티브증권상장지수투자신탁(채권혼합-파생형)(합성)",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋TIGERCD1년금리액티브증권상장지수투자신탁(채권혼합-파생형)(합성)",
+    "혼합채권형",
+    "4",
+    "2024/02/01",
+    "판매",
+    "65,921",
+    "2.77",
+    "-",
+    "-",
+    "-",
+    "-",
+    "3.09",
+    "0.027",
+    "유진투자증권주식회사, 한화투자증권주식회사, 하나증권주식회사, 키움증권(주), 메리츠증권(주), 유안타증권주식회사, 한국투자증권, SK증권주식회사, 삼성증권, 교보증권(주), KB증권, 대신증권주식회사, 아이엠증권, 신영증권주식회사, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권, 신한투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=19",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=19",
+    "collected_at": "2026-09-23T08:22:11.546343+00:00",
+    "http_status": 200,
+    "sha256": "e1118b42989c609e5bbf6104e27df64187d95ef54cc3f93f56efc6f6882c19cf"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋TIGERCD1년금리액티브증권상장지수투자신탁(채권혼합-파생형)(합성)",
+        "상품유형": "혼합채권형",
+        "위험등급": "4",
+        "설정일": "2024/02/01",
+        "판매여부": "판매",
+        "순자산총액": "65,921",
+        "1년 연평균수익률(%)": "2.77",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "3.09",
+        "연평균수수료율(%)": "0.027",
+        "상품 판매사": "유진투자증권주식회사, 한화투자증권주식회사, 하나증권주식회사, 키움증권(주), 메리츠증권(주), 유안타증권주식회사, 한국투자증권, SK증권주식회사, 삼성증권, 교보증권(주), KB증권, 대신증권주식회사, 아이엠증권, 신영증권주식회사, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권, 신한투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=19",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=19",
+        "collected_at": "2026-09-23T08:22:11.546343+00:00",
+        "http_status": 200,
+        "sha256": "e1118b42989c609e5bbf6104e27df64187d95ef54cc3f93f56efc6f6882c19cf"
+      }
+    }
+  ]
+}

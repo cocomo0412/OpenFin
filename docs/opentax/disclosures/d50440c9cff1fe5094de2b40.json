@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.7f8ac6834251b482b7a6949d",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:01313037076b431ccb95b1cc",
+  "group": "4",
+  "provider": "농협생명보험",
+  "title": "e-NH연금저축보험(무배당)_2101",
+  "cells": [
+    "농협생명보험",
+    "e-NH연금저축보험(무배당)_2101",
+    "금리연동형",
+    "2021/01/01",
+    "중단",
+    "10,646",
+    "-3.44",
+    "-0.29",
+    "0.31",
+    "-",
+    "-",
+    "0.39",
+    "4.590"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=37",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=37",
+    "collected_at": "2026-09-23T08:31:20.842775+00:00",
+    "http_status": 200,
+    "sha256": "160e5a1d56238fe735ca45dd0e79e7f6a203c92a18f28695879d6fa85b4cf36a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "농협생명보험",
+        "상품명": "e-NH연금저축보험(무배당)_2101",
+        "상품유형": "금리연동형",
+        "최초판매일": "2021/01/01",
+        "판매여부": "중단",
+        "적립금총액": "10,646",
+        "1년 연평균수익률(%)": "-3.44",
+        "3년 연평균수익률(%)": "-0.29",
+        "5년 연평균수익률(%)": "0.31",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "0.39",
+        "연평균수수료율(%)": "4.590"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=37",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=37",
+        "collected_at": "2026-09-23T08:31:20.842775+00:00",
+        "http_status": 200,
+        "sha256": "160e5a1d56238fe735ca45dd0e79e7f6a203c92a18f28695879d6fa85b4cf36a"
+      }
+    }
+  ]
+}

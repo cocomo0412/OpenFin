@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.318f1f5092dca696e6bd34e9",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:da3e0f166d186d011c0ff278",
+  "group": "3",
+  "provider": "교보악사자산운용",
+  "title": "교보악사 평생든든 적격TDF 2040증권자투자신탁(주식혼합-재간접형) Class C-Pe(연금)",
+  "cells": [
+    "교보악사자산운용",
+    "교보악사 평생든든 적격TDF 2040증권자투자신탁(주식혼합-재간접형) Class C-Pe(연금)",
+    "재간접",
+    "3",
+    "2019/05/21",
+    "판매",
+    "1,589",
+    "39.21",
+    "19.55",
+    "9.37",
+    "9.19",
+    "-",
+    "9.10",
+    "0.562",
+    "한화투자증권주식회사, 한국투자증권, 삼성증권, 우리은행, KB증권, KB국민은행, 미래에셋증권 주식회사, 신한투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=164",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=164",
+    "collected_at": "2026-09-23T08:25:28.991288+00:00",
+    "http_status": 200,
+    "sha256": "11a205ab09906ee0735a1594fd5d7800d1acf06946e65e2ac94bec21e25bd071"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "교보악사자산운용",
+        "상품명": "교보악사 평생든든 적격TDF 2040증권자투자신탁(주식혼합-재간접형) Class C-Pe(연금)",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2019/05/21",
+        "판매여부": "판매",
+        "순자산총액": "1,589",
+        "1년 연평균수익률(%)": "39.21",
+        "3년 연평균수익률(%)": "19.55",
+        "5년 연평균수익률(%)": "9.37",
+        "7년 연평균수익률(%)": "9.19",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "9.10",
+        "연평균수수료율(%)": "0.562",
+        "상품 판매사": "한화투자증권주식회사, 한국투자증권, 삼성증권, 우리은행, KB증권, KB국민은행, 미래에셋증권 주식회사, 신한투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=164",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=164",
+        "collected_at": "2026-09-23T08:25:28.991288+00:00",
+        "http_status": 200,
+        "sha256": "11a205ab09906ee0735a1594fd5d7800d1acf06946e65e2ac94bec21e25bd071"
+      }
+    }
+  ]
+}

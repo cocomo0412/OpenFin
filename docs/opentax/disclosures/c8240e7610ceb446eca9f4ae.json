@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.928dd6a6ab3f8f19a2534dde",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:7dfa37681f49b29471cf4e28",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자테크증권자투자신탁1호(주식)(C-P)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자테크증권자투자신탁1호(주식)(C-P)",
+    "주식형",
+    "3",
+    "2026/05/20",
+    "판매",
+    "310",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "740.49",
+    "0.957",
+    "한국투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=258",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=258",
+    "collected_at": "2026-09-23T08:27:36.234623+00:00",
+    "http_status": 200,
+    "sha256": "d9c37f52f28239a2cf248d2cc691f50d72f5a466a34c70e9a46e667001e42a6a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자테크증권자투자신탁1호(주식)(C-P)",
+        "상품유형": "주식형",
+        "위험등급": "3",
+        "설정일": "2026/05/20",
+        "판매여부": "판매",
+        "순자산총액": "310",
+        "1년 연평균수익률(%)": "-",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "740.49",
+        "연평균수수료율(%)": "0.957",
+        "상품 판매사": "한국투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=258",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=258",
+        "collected_at": "2026-09-23T08:27:36.234623+00:00",
+        "http_status": 200,
+        "sha256": "d9c37f52f28239a2cf248d2cc691f50d72f5a466a34c70e9a46e667001e42a6a"
+      }
+    }
+  ]
+}

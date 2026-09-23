@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.aab50357b561c1c8fa61ded9",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:e5189dcb482035b01714aaf8",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 온국민 TDF 2070 증권 자투자신탁(주식혼합-재간접형)(UH) C-Pe",
+  "cells": [
+    "KB자산운용",
+    "KB 온국민 TDF 2070 증권 자투자신탁(주식혼합-재간접형)(UH) C-Pe",
+    "재간접",
+    "2",
+    "2025/08/13",
+    "판매",
+    "521",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "62.87",
+    "0.651",
+    "삼성증권, KB증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=230",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=230",
+    "collected_at": "2026-09-23T08:26:58.306063+00:00",
+    "http_status": 200,
+    "sha256": "6b43db25ec0985545aff73d3b566daffe9f679498c627e8b63e7cca9333958ae"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 온국민 TDF 2070 증권 자투자신탁(주식혼합-재간접형)(UH) C-Pe",
+        "상품유형": "재간접",
+        "위험등급": "2",
+        "설정일": "2025/08/13",
+        "판매여부": "판매",
+        "순자산총액": "521",
+        "1년 연평균수익률(%)": "-",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "62.87",
+        "연평균수수료율(%)": "0.651",
+        "상품 판매사": "삼성증권, KB증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=230",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=230",
+        "collected_at": "2026-09-23T08:26:58.306063+00:00",
+        "http_status": 200,
+        "sha256": "6b43db25ec0985545aff73d3b566daffe9f679498c627e8b63e7cca9333958ae"
+      }
+    }
+  ]
+}

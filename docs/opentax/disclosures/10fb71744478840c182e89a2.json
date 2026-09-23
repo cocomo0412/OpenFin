@@ -1,0 +1,52 @@
+{
+  "id": "finance.insurance.klia.whole-life.신한라이프생명.l1102460001nnn0247000202440001024400010001024400010001000202440001000100020002s0738",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L1102460001NNN0247000202440001024400010001024400010001000202440001000100020002S0738",
+  "group": "024400010001",
+  "title": "신한(간편가입)종신보험 드림UP(무배당, 해약환급금 일부지급형)_일반심사형",
+  "provider": "신한라이프생명",
+  "cells": [
+    "신한라이프생명",
+    "신한(간편가입)종신보험 드림UP(무배당, 해약환급금 일부지급형)_일반심사형",
+    "주계약",
+    "사망보험금 *지급사유 : 보험기간 중 피보험자가 사망하였을 때",
+    "10000만원",
+    "1,596,800 원",
+    "1,582,900 원",
+    "2.60 %",
+    "-",
+    "-",
+    "191.5 %",
+    "205.5 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "체증형",
+    "무해지/저해지환급",
+    "-",
+    "-",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "대면채널",
+    "2026-07-01",
+    "Download",
+    "보기",
+    "1588-5580"
+  ],
+  "coverage": [
+    "사망보험금 *지급사유 : 보험기간 중 피보험자가 사망하였을 때",
+    "(간편)보험료납입면제특약(무배당) *지급사유 : [50%장해납입면제형] 특약보험기간 중 피보험자가 「장해분류표 중 동일한 재해 또는 재해 이외의 동일한 원인으로 여러 신체부위의 장해지급률을 더하여 50% 이상인 장해상태」가 되었을 때"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=43612&seq=3"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=15&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=15&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:33.737465+00:00",
+    "http_status": 200,
+    "sha256": "da99c4ff5f9ce0899470ee35487b3e29019e54645bf8b984a0590104a666879a"
+  }
+}

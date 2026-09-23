@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.6eadf8f898a9bbce17564da2",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:5785b7538a592c75533929b6",
+  "group": "3",
+  "provider": "마이다스에셋자산운용",
+  "title": "마이다스 글로벌 블루칩 배당 인컴 혼합자산 자투자신탁(H)C-P1",
+  "cells": [
+    "마이다스에셋자산운용",
+    "마이다스 글로벌 블루칩 배당 인컴 혼합자산 자투자신탁(H)C-P1",
+    "혼합자산",
+    "2",
+    "2019/11/20",
+    "판매",
+    "255",
+    "26.11",
+    "23.83",
+    "11.62",
+    "-",
+    "-",
+    "12.24",
+    "1.597",
+    "KB증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=268",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=268",
+    "collected_at": "2026-09-23T08:27:49.448418+00:00",
+    "http_status": 200,
+    "sha256": "c69a44b9e6da3a4eb6b8a26e68f4ade073bd70d67cb7ef7198101fbcfc1c6646"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "마이다스에셋자산운용",
+        "상품명": "마이다스 글로벌 블루칩 배당 인컴 혼합자산 자투자신탁(H)C-P1",
+        "상품유형": "혼합자산",
+        "위험등급": "2",
+        "설정일": "2019/11/20",
+        "판매여부": "판매",
+        "순자산총액": "255",
+        "1년 연평균수익률(%)": "26.11",
+        "3년 연평균수익률(%)": "23.83",
+        "5년 연평균수익률(%)": "11.62",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "12.24",
+        "연평균수수료율(%)": "1.597",
+        "상품 판매사": "KB증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=268",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=268",
+        "collected_at": "2026-09-23T08:27:49.448418+00:00",
+        "http_status": 200,
+        "sha256": "c69a44b9e6da3a4eb6b8a26e68f4ade073bd70d67cb7ef7198101fbcfc1c6646"
+      }
+    }
+  ]
+}

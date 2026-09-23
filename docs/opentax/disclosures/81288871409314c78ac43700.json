@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.c57a8c939b9e94ac1fe3746c",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:dda8c8d6adb287d2bf1076c5",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB 유럽 지속가능 배당 인컴 증권 자투자신탁(주식-재간접형) C-P",
+  "cells": [
+    "KB자산운용",
+    "KB 유럽 지속가능 배당 인컴 증권 자투자신탁(주식-재간접형) C-P",
+    "재간접",
+    "3",
+    "2015/05/20",
+    "판매",
+    "551",
+    "14.73",
+    "12.87",
+    "9.45",
+    "8.77",
+    "7.18",
+    "4.95",
+    "1.137",
+    "키움증권(주)"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=225",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=225",
+    "collected_at": "2026-09-23T08:26:51.693467+00:00",
+    "http_status": 200,
+    "sha256": "42dfaa5b44f4406812d6a3eae782eda408b8a0ee24c156ea2c690e1e79a78acb"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB 유럽 지속가능 배당 인컴 증권 자투자신탁(주식-재간접형) C-P",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2015/05/20",
+        "판매여부": "판매",
+        "순자산총액": "551",
+        "1년 연평균수익률(%)": "14.73",
+        "3년 연평균수익률(%)": "12.87",
+        "5년 연평균수익률(%)": "9.45",
+        "7년 연평균수익률(%)": "8.77",
+        "10년 연평균수익률(%)": "7.18",
+        "누적연평균수익률(%)": "4.95",
+        "연평균수수료율(%)": "1.137",
+        "상품 판매사": "키움증권(주)"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=225",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=225",
+        "collected_at": "2026-09-23T08:26:51.693467+00:00",
+        "http_status": 200,
+        "sha256": "42dfaa5b44f4406812d6a3eae782eda408b8a0ee24c156ea2c690e1e79a78acb"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.ff1e58e4bc46c5a18af199e4",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:22b5793c9e61d2c15f1d4a7d",
+  "group": "3",
+  "provider": "NH-Amundi자산운용",
+  "title": "NH-Amundi e-프리미어 인덱스 증권자투자신탁 1호[주식-파생형] C-P1(연금저축)",
+  "cells": [
+    "NH-Amundi자산운용",
+    "NH-Amundi e-프리미어 인덱스 증권자투자신탁 1호[주식-파생형] C-P1(연금저축)",
+    "파생상품",
+    "1",
+    "2014/10/30",
+    "판매",
+    "3,617",
+    "228.78",
+    "60.43",
+    "27.08",
+    "26.77",
+    "20.14",
+    "17.12",
+    "0.462",
+    "(주)우리투자증권, NH농협은행, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=119",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=119",
+    "collected_at": "2026-09-23T08:24:29.186170+00:00",
+    "http_status": 200,
+    "sha256": "35f4458984a22c87da5a2fb8df2e1507ab3aa8a476eb9e538895decdf96b6d19"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "NH-Amundi자산운용",
+        "상품명": "NH-Amundi e-프리미어 인덱스 증권자투자신탁 1호[주식-파생형] C-P1(연금저축)",
+        "상품유형": "파생상품",
+        "위험등급": "1",
+        "설정일": "2014/10/30",
+        "판매여부": "판매",
+        "순자산총액": "3,617",
+        "1년 연평균수익률(%)": "228.78",
+        "3년 연평균수익률(%)": "60.43",
+        "5년 연평균수익률(%)": "27.08",
+        "7년 연평균수익률(%)": "26.77",
+        "10년 연평균수익률(%)": "20.14",
+        "누적연평균수익률(%)": "17.12",
+        "연평균수수료율(%)": "0.462",
+        "상품 판매사": "(주)우리투자증권, NH농협은행, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=119",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=119",
+        "collected_at": "2026-09-23T08:24:29.186170+00:00",
+        "http_status": 200,
+        "sha256": "35f4458984a22c87da5a2fb8df2e1507ab3aa8a476eb9e538895decdf96b6d19"
+      }
+    }
+  ]
+}

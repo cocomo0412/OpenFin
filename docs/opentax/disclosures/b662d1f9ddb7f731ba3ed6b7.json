@@ -1,0 +1,53 @@
+{
+  "id": "finance.insurance.klia.whole-life.처브라이프생명.l7702460001nn000002470002024400010244000100010244000100010001024400010001000100025qo00",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L7702460001NN000002470002024400010244000100010244000100010001024400010001000100025QO00",
+  "group": "024400010001",
+  "title": "Chubb 간편가입 New Medical 종신보험 무배당(해약환급금 일부지급형) 1종",
+  "provider": "처브라이프생명",
+  "cells": [
+    "처브라이프생명",
+    "Chubb 간편가입 New Medical 종신보험 무배당(해약환급금 일부지급형) 1종",
+    "주계약",
+    "사망보험금 *지급사유 : 보험기간 중 피보험자가 사망하였을 때",
+    "1억원",
+    "376,000 원",
+    "385,000 원",
+    "3.30 %",
+    "-",
+    "-",
+    "121.0 %",
+    "118.7 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "기본형",
+    "무해지/저해지환급",
+    "-",
+    "-",
+    "-",
+    "-",
+    "비유니버셜",
+    "대면채널",
+    "2026-01-01",
+    "Download",
+    "보기",
+    "02-1599-4600"
+  ],
+  "coverage": [
+    "사망보험금 *지급사유 : 보험기간 중 피보험자가 사망하였을 때",
+    "입원급여금 *지급사유 : 보험기간 중 피보험자가 질병이나 재해로 인하여 그 치료를 직접적인 목적으로 4일 이상 계속 입원하였을 경우 (3일초과 입원일수 1일당, 1회 입원당 지급일수 120일 한도)",
+    "수술급여금 *지급사유 : 보험기간 중 피보험자가 1~5종 수술분류표에서 정한 수술을 받았을 경우 (수술 1회당)"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=41940&seq=5"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=15&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=15&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:33.737465+00:00",
+    "http_status": 200,
+    "sha256": "da99c4ff5f9ce0899470ee35487b3e29019e54645bf8b984a0590104a666879a"
+  }
+}

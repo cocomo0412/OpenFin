@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.b1fc98c3b40c6d98d6173ad5",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:3bfa9f8e3a4586787c7c1e32",
+  "group": "3",
+  "provider": "DB자산운용",
+  "title": "DB단기국공채공모주증권투자신탁제1호[채권혼합]ClassC-PE",
+  "cells": [
+    "DB자산운용",
+    "DB단기국공채공모주증권투자신탁제1호[채권혼합]ClassC-PE",
+    "혼합채권형",
+    "5",
+    "2021/05/18",
+    "판매",
+    "133",
+    "2.14",
+    "3.22",
+    "2.44",
+    "-",
+    "-",
+    "2.42",
+    "0.876",
+    "미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=291",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=291",
+    "collected_at": "2026-09-23T08:28:19.985975+00:00",
+    "http_status": 200,
+    "sha256": "9e339ac105911d00d0f8abad732dcfca1796ca54774bd11709a92c9e1b6df35a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "DB자산운용",
+        "상품명": "DB단기국공채공모주증권투자신탁제1호[채권혼합]ClassC-PE",
+        "상품유형": "혼합채권형",
+        "위험등급": "5",
+        "설정일": "2021/05/18",
+        "판매여부": "판매",
+        "순자산총액": "133",
+        "1년 연평균수익률(%)": "2.14",
+        "3년 연평균수익률(%)": "3.22",
+        "5년 연평균수익률(%)": "2.44",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "2.42",
+        "연평균수수료율(%)": "0.876",
+        "상품 판매사": "미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=291",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=291",
+        "collected_at": "2026-09-23T08:28:19.985975+00:00",
+        "http_status": 200,
+        "sha256": "9e339ac105911d00d0f8abad732dcfca1796ca54774bd11709a92c9e1b6df35a"
+      }
+    }
+  ]
+}

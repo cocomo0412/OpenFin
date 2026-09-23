@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.3d4fe966c282e86ae9e5b3d2",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:1f26e295b425cdf4384bdd3d",
+  "group": "3",
+  "provider": "KB자산운용",
+  "title": "KB BBIG 플러스 인덱스 증권 투자신탁(주식) C-P",
+  "cells": [
+    "KB자산운용",
+    "KB BBIG 플러스 인덱스 증권 투자신탁(주식) C-P",
+    "주식형",
+    "2",
+    "2020/10/30",
+    "판매",
+    "293",
+    "143.75",
+    "36.65",
+    "12.02",
+    "-",
+    "-",
+    "16.98",
+    "1.153",
+    "유진투자증권주식회사, 한화투자증권주식회사, 한국투자증권, KB증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=261",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=261",
+    "collected_at": "2026-09-23T08:27:40.199823+00:00",
+    "http_status": 200,
+    "sha256": "02b394b2a5fe75a20a9fac7e1751e9ed281975cbfa573a4b72b8524912c4c06c"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB자산운용",
+        "상품명": "KB BBIG 플러스 인덱스 증권 투자신탁(주식) C-P",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2020/10/30",
+        "판매여부": "판매",
+        "순자산총액": "293",
+        "1년 연평균수익률(%)": "143.75",
+        "3년 연평균수익률(%)": "36.65",
+        "5년 연평균수익률(%)": "12.02",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "16.98",
+        "연평균수수료율(%)": "1.153",
+        "상품 판매사": "유진투자증권주식회사, 한화투자증권주식회사, 한국투자증권, KB증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=261",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=261",
+        "collected_at": "2026-09-23T08:27:40.199823+00:00",
+        "http_status": 200,
+        "sha256": "02b394b2a5fe75a20a9fac7e1751e9ed281975cbfa573a4b72b8524912c4c06c"
+      }
+    }
+  ]
+}

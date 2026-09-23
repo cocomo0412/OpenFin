@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.422692d5bbb3adf4bda9fb4c",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:1c17fc5cf74500eab878a52a",
+  "group": "3",
+  "provider": "베어링자산운용",
+  "title": "베어링 글로벌 이머징 마켓 증권자투자신탁[H](주식-재간접형)Class S-P",
+  "cells": [
+    "베어링자산운용",
+    "베어링 글로벌 이머징 마켓 증권자투자신탁[H](주식-재간접형)Class S-P",
+    "재간접",
+    "3",
+    "2018/01/25",
+    "판매",
+    "137",
+    "43.23",
+    "17.92",
+    "5.58",
+    "6.68",
+    "-",
+    "3.92",
+    "0.349",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=290",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=290",
+    "collected_at": "2026-09-23T08:28:18.741597+00:00",
+    "http_status": 200,
+    "sha256": "f86707805e04929955943187ae9943dce4007e5b9fa43e65e9facd433a424208"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "베어링자산운용",
+        "상품명": "베어링 글로벌 이머징 마켓 증권자투자신탁[H](주식-재간접형)Class S-P",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2018/01/25",
+        "판매여부": "판매",
+        "순자산총액": "137",
+        "1년 연평균수익률(%)": "43.23",
+        "3년 연평균수익률(%)": "17.92",
+        "5년 연평균수익률(%)": "5.58",
+        "7년 연평균수익률(%)": "6.68",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "3.92",
+        "연평균수수료율(%)": "0.349",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=290",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=290",
+        "collected_at": "2026-09-23T08:28:18.741597+00:00",
+        "http_status": 200,
+        "sha256": "f86707805e04929955943187ae9943dce4007e5b9fa43e65e9facd433a424208"
+      }
+    }
+  ]
+}

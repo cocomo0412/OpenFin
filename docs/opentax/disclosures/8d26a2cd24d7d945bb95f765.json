@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.e72f3161f9cadc3ba898937f",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:a1f384be441ba369c98f3209",
+  "group": "4",
+  "provider": "케이디비생명보험",
+  "title": "(연금저축)자유적립연금보험",
+  "cells": [
+    "케이디비생명보험",
+    "(연금저축)자유적립연금보험",
+    "금리연동형",
+    "2005/10/13",
+    "중단",
+    "106,499",
+    "-1.57",
+    "1.74",
+    "2.31",
+    "2.54",
+    "2.51",
+    "2.31",
+    "4.850"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=6",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=6",
+    "collected_at": "2026-09-23T08:21:47.048660+00:00",
+    "http_status": 200,
+    "sha256": "1d741bdb967d6d6d0b00402496be8fb7aa317a1482558c7c708d51d128054973"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "케이디비생명보험",
+        "상품명": "(연금저축)자유적립연금보험",
+        "상품유형": "금리연동형",
+        "최초판매일": "2005/10/13",
+        "판매여부": "중단",
+        "적립금총액": "106,499",
+        "1년 연평균수익률(%)": "-1.57",
+        "3년 연평균수익률(%)": "1.74",
+        "5년 연평균수익률(%)": "2.31",
+        "7년 연평균수익률(%)": "2.54",
+        "10년 연평균수익률(%)": "2.51",
+        "누적연평균수익률(%)": "2.31",
+        "연평균수수료율(%)": "4.850"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=6",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=6",
+        "collected_at": "2026-09-23T08:21:47.048660+00:00",
+        "http_status": 200,
+        "sha256": "1d741bdb967d6d6d0b00402496be8fb7aa317a1482558c7c708d51d128054973"
+      }
+    }
+  ]
+}

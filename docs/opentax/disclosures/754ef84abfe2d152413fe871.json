@@ -1,0 +1,49 @@
+{
+  "id": "finance.insurance.klia.dental.라이나생명.l5102460001nny024700020244000102440001000902440001000900010244000100090001000400432",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L5102460001NNY024700020244000102440001000902440001000900010244000100090001000400432",
+  "group": "024400010009",
+  "title": "무배당새로운치아보험 덴탈어카운트(해약환급금 미지급형,갱신형) 기본지원금액형",
+  "provider": "라이나생명",
+  "cells": [
+    "라이나생명",
+    "무배당새로운치아보험 덴탈어카운트(해약환급금 미지급형,갱신형) 기본지원금액형",
+    "주계약",
+    "치과치료보험금 *지급사유 : 피보험자가 보험기간 중 치아우식증(충치), 치 주질환 (잇몸질환) 또는 재해를 직접적인 원인 으로 치과치료보장개시일 이후에 최초로 충전 또는 크라운치료를 진단확정받고 충전 또는 크라운치료를 받거나 영구치 발거를 진단확정 받고 영구치를 발거한 부위에 보철치료를 받 았을 때",
+    "1000만원",
+    "28,300 원",
+    "23,800 원",
+    "2.25 %",
+    "-",
+    "-",
+    "97.0 %",
+    "99.4 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "순수보장",
+    "갱신형",
+    "Download",
+    "비유니버셜",
+    "대면채널",
+    "2026-01-01",
+    "Download",
+    "보기",
+    "1588-0058"
+  ],
+  "coverage": [
+    "치과치료보험금 *지급사유 : 피보험자가 보험기간 중 치아우식증(충치), 치 주질환 (잇몸질환) 또는 재해를 직접적인 원인 으로 치과치료보장개시일 이후에 최초로 충전 또는 크라운치료를 진단확정받고 충전 또는 크라운치료를 받거나 영구치 발거를 진단확정 받고 영구치를 발거한 부위에 보철치료를 받 았을 때"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=46250&seq=1",
+    "https://pub.insure.or.kr/FileDown.do?fileNo=42983&seq=4"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010009&pageIndex=1&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010009&pageIndex=1&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:35.249541+00:00",
+    "http_status": 200,
+    "sha256": "07675fbd592bf1e71fcbdb43d390e0ac927db8c4d0d67c01167c42a4eb291593"
+  }
+}

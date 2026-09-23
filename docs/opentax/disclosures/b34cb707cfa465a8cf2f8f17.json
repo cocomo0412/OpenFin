@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.1aafffe3c86be5049c2ced4f",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:234937014064359ecc888911",
+  "group": "3",
+  "provider": "신한자산운용",
+  "title": "신한SOL코스피200인덱스증권자투자신탁제1호[주식-파생형](종류C-pe)",
+  "cells": [
+    "신한자산운용",
+    "신한SOL코스피200인덱스증권자투자신탁제1호[주식-파생형](종류C-pe)",
+    "파생상품",
+    "1",
+    "2023/12/20",
+    "판매",
+    "5,696",
+    "237.73",
+    "-",
+    "-",
+    "-",
+    "-",
+    "76.31",
+    "0.333",
+    "신한은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=99",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=99",
+    "collected_at": "2026-09-23T08:24:01.145920+00:00",
+    "http_status": 200,
+    "sha256": "6935c119ee5c9caf600e8088ed5c191facb2e222a9f646bdab77c62b7aa49a5c"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한자산운용",
+        "상품명": "신한SOL코스피200인덱스증권자투자신탁제1호[주식-파생형](종류C-pe)",
+        "상품유형": "파생상품",
+        "위험등급": "1",
+        "설정일": "2023/12/20",
+        "판매여부": "판매",
+        "순자산총액": "5,696",
+        "1년 연평균수익률(%)": "237.73",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "76.31",
+        "연평균수수료율(%)": "0.333",
+        "상품 판매사": "신한은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=99",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=99",
+        "collected_at": "2026-09-23T08:24:01.145920+00:00",
+        "http_status": 200,
+        "sha256": "6935c119ee5c9caf600e8088ed5c191facb2e222a9f646bdab77c62b7aa49a5c"
+      }
+    }
+  ]
+}

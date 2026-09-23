@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.c5c3dcb5dd6b053d574c06c1",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:ae96452da19a4845575c3c4c",
+  "group": "3",
+  "provider": "키움투자자산운용",
+  "title": "키움 KIWOOM 머니마켓액티브증권상장지수투자신탁[채권]",
+  "cells": [
+    "키움투자자산운용",
+    "키움 KIWOOM 머니마켓액티브증권상장지수투자신탁[채권]",
+    "채권형",
+    "5",
+    "2024/02/22",
+    "판매",
+    "410",
+    "2.77",
+    "-",
+    "-",
+    "-",
+    "-",
+    "3.26",
+    "0.067",
+    "한화투자증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, KB증권, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=244",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=244",
+    "collected_at": "2026-09-23T08:27:17.138291+00:00",
+    "http_status": 200,
+    "sha256": "734a6ef7b5c5eab65a9c0ca5a1cfad8976f226910e5777f6864f21ce02a3287c"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "키움투자자산운용",
+        "상품명": "키움 KIWOOM 머니마켓액티브증권상장지수투자신탁[채권]",
+        "상품유형": "채권형",
+        "위험등급": "5",
+        "설정일": "2024/02/22",
+        "판매여부": "판매",
+        "순자산총액": "410",
+        "1년 연평균수익률(%)": "2.77",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "3.26",
+        "연평균수수료율(%)": "0.067",
+        "상품 판매사": "한화투자증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, KB증권, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=244",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=244",
+        "collected_at": "2026-09-23T08:27:17.138291+00:00",
+        "http_status": 200,
+        "sha256": "734a6ef7b5c5eab65a9c0ca5a1cfad8976f226910e5777f6864f21ce02a3287c"
+      }
+    }
+  ]
+}

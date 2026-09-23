@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.992082ed0f32e1113ebdc85b",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:e056e505df9b478ea03e87bc",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋연금차이나인프라증권자투자신탁1호(주식)종류C-Pe",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋연금차이나인프라증권자투자신탁1호(주식)종류C-Pe",
+    "주식형",
+    "2",
+    "2015/05/19",
+    "판매",
+    "189",
+    "22.26",
+    "8.97",
+    "-2.88",
+    "4.56",
+    "5.60",
+    "1.15",
+    "1.235",
+    "미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=280",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=280",
+    "collected_at": "2026-09-23T08:28:05.349187+00:00",
+    "http_status": 200,
+    "sha256": "3b24f1ab388aa929f0ee4674402ba2bd76d36e938feca4714184c49fdd97ad90"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋연금차이나인프라증권자투자신탁1호(주식)종류C-Pe",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2015/05/19",
+        "판매여부": "판매",
+        "순자산총액": "189",
+        "1년 연평균수익률(%)": "22.26",
+        "3년 연평균수익률(%)": "8.97",
+        "5년 연평균수익률(%)": "-2.88",
+        "7년 연평균수익률(%)": "4.56",
+        "10년 연평균수익률(%)": "5.60",
+        "누적연평균수익률(%)": "1.15",
+        "연평균수수료율(%)": "1.235",
+        "상품 판매사": "미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=280",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=280",
+        "collected_at": "2026-09-23T08:28:05.349187+00:00",
+        "http_status": 200,
+        "sha256": "3b24f1ab388aa929f0ee4674402ba2bd76d36e938feca4714184c49fdd97ad90"
+      }
+    }
+  ]
+}

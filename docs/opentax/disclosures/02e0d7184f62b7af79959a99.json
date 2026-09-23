@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.42d74e300e9c1a5b85de8a63",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:d98b933b1d8da3545b0a7cdd",
+  "group": "3",
+  "provider": "유경피에스지자산운용",
+  "title": "유경 플레인바닐라 글로벌자산배분 증권자투자신탁(주식) Class S-R",
+  "cells": [
+    "유경피에스지자산운용",
+    "유경 플레인바닐라 글로벌자산배분 증권자투자신탁(주식) Class S-R",
+    "주식형",
+    "2",
+    "2020/05/15",
+    "판매",
+    "912",
+    "140.15",
+    "50.01",
+    "26.43",
+    "-",
+    "-",
+    "28.23",
+    "1.165",
+    "-"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=193",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=193",
+    "collected_at": "2026-09-23T08:26:08.167587+00:00",
+    "http_status": 200,
+    "sha256": "8b98862554aea6e54c3636c7423a61a9aeb240b7c24fe1ca455e2d77e77b24cd"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "유경피에스지자산운용",
+        "상품명": "유경 플레인바닐라 글로벌자산배분 증권자투자신탁(주식) Class S-R",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2020/05/15",
+        "판매여부": "판매",
+        "순자산총액": "912",
+        "1년 연평균수익률(%)": "140.15",
+        "3년 연평균수익률(%)": "50.01",
+        "5년 연평균수익률(%)": "26.43",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "28.23",
+        "연평균수수료율(%)": "1.165",
+        "상품 판매사": "-"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=193",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=193",
+        "collected_at": "2026-09-23T08:26:08.167587+00:00",
+        "http_status": 200,
+        "sha256": "8b98862554aea6e54c3636c7423a61a9aeb240b7c24fe1ca455e2d77e77b24cd"
+      }
+    }
+  ]
+}

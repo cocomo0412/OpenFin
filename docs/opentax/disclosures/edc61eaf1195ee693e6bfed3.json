@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.f2672505c0c42e8e3b4b5daa",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:badc216f39d2573891c325f4",
+  "group": "3",
+  "provider": "현대인베스트먼트자산운용",
+  "title": "현대인베스트먼트인덱스알파증권자투자신탁1호(주식-파생형)S-P",
+  "cells": [
+    "현대인베스트먼트자산운용",
+    "현대인베스트먼트인덱스알파증권자투자신탁1호(주식-파생형)S-P",
+    "파생상품",
+    "2",
+    "2020/02/27",
+    "판매",
+    "560",
+    "239.00",
+    "66.08",
+    "29.51",
+    "-",
+    "-",
+    "32.66",
+    "0.311",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=224",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=224",
+    "collected_at": "2026-09-23T08:26:50.168289+00:00",
+    "http_status": 200,
+    "sha256": "21cfc7efcb5a77596737069eca2e96d33a275b66935e12e969c4533bd90498aa"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "현대인베스트먼트자산운용",
+        "상품명": "현대인베스트먼트인덱스알파증권자투자신탁1호(주식-파생형)S-P",
+        "상품유형": "파생상품",
+        "위험등급": "2",
+        "설정일": "2020/02/27",
+        "판매여부": "판매",
+        "순자산총액": "560",
+        "1년 연평균수익률(%)": "239.00",
+        "3년 연평균수익률(%)": "66.08",
+        "5년 연평균수익률(%)": "29.51",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "32.66",
+        "연평균수수료율(%)": "0.311",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=224",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=224",
+        "collected_at": "2026-09-23T08:26:50.168289+00:00",
+        "http_status": 200,
+        "sha256": "21cfc7efcb5a77596737069eca2e96d33a275b66935e12e969c4533bd90498aa"
+      }
+    }
+  ]
+}

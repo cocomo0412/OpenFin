@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.cdcbbecd64c3e6d2dee5399a",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:0b3132ae7ab951c6d37983cd",
+  "group": "5",
+  "provider": "메리츠화재해상보험",
+  "title": "연금저축손해보험더블안심연금보험0505",
+  "cells": [
+    "메리츠화재해상보험",
+    "연금저축손해보험더블안심연금보험0505",
+    "금리연동형",
+    "2005/05/01",
+    "중단",
+    "12,433",
+    "-12.3",
+    "-2.93",
+    "-0.92",
+    "-0.12",
+    "0.65",
+    "0.95",
+    "9.566"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=24",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=24",
+    "collected_at": "2026-09-23T08:22:10.007604+00:00",
+    "http_status": 200,
+    "sha256": "aef106acceac0f22a95ab05472ebe618bd09866f17b0e4c27cbad38627c728f1"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "메리츠화재해상보험",
+        "상품명": "연금저축손해보험더블안심연금보험0505",
+        "상품유형": "금리연동형",
+        "최초판매일": "2005/05/01",
+        "판매여부": "중단",
+        "적립금총액": "12,433",
+        "1년 연평균수익률(%)": "-12.3",
+        "3년 연평균수익률(%)": "-2.93",
+        "5년 연평균수익률(%)": "-0.92",
+        "7년 연평균수익률(%)": "-0.12",
+        "10년 연평균수익률(%)": "0.65",
+        "누적연평균수익률(%)": "0.95",
+        "연평균수수료율(%)": "9.566"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=24",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=24",
+        "collected_at": "2026-09-23T08:22:10.007604+00:00",
+        "http_status": 200,
+        "sha256": "aef106acceac0f22a95ab05472ebe618bd09866f17b0e4c27cbad38627c728f1"
+      }
+    }
+  ]
+}

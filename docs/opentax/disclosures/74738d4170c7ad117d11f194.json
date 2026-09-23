@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.5855ee61079a2b656198a048",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:9fb142c7b7c5b6341944747b",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋솔로몬장기국공채증권자투자신탁1호(채권)종류C-P",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋솔로몬장기국공채증권자투자신탁1호(채권)종류C-P",
+    "채권형",
+    "5",
+    "2016/06/27",
+    "판매",
+    "5,577",
+    "-7.71",
+    "1.53",
+    "-0.10",
+    "-0.15",
+    "0.47",
+    "0.50",
+    "0.432",
+    "유진투자증권주식회사, 삼성증권, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=99",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=99",
+    "collected_at": "2026-09-23T08:24:01.145920+00:00",
+    "http_status": 200,
+    "sha256": "6935c119ee5c9caf600e8088ed5c191facb2e222a9f646bdab77c62b7aa49a5c"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋솔로몬장기국공채증권자투자신탁1호(채권)종류C-P",
+        "상품유형": "채권형",
+        "위험등급": "5",
+        "설정일": "2016/06/27",
+        "판매여부": "판매",
+        "순자산총액": "5,577",
+        "1년 연평균수익률(%)": "-7.71",
+        "3년 연평균수익률(%)": "1.53",
+        "5년 연평균수익률(%)": "-0.10",
+        "7년 연평균수익률(%)": "-0.15",
+        "10년 연평균수익률(%)": "0.47",
+        "누적연평균수익률(%)": "0.50",
+        "연평균수수료율(%)": "0.432",
+        "상품 판매사": "유진투자증권주식회사, 삼성증권, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=99",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=99",
+        "collected_at": "2026-09-23T08:24:01.145920+00:00",
+        "http_status": 200,
+        "sha256": "6935c119ee5c9caf600e8088ed5c191facb2e222a9f646bdab77c62b7aa49a5c"
+      }
+    }
+  ]
+}

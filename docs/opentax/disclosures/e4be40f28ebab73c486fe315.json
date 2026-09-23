@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.accfccf34d91879c1f2f273c",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:1b1e724cb0538103927bc6b7",
+  "group": "5",
+  "provider": "흥국화재해상보험",
+  "title": "0310 연금저축손해보험 평생행복보험",
+  "cells": [
+    "흥국화재해상보험",
+    "0310 연금저축손해보험 평생행복보험",
+    "금리연동형",
+    "2003/10/01",
+    "중단",
+    "2,071",
+    "-8.52",
+    "-1.68",
+    "-0.09",
+    "0.54",
+    "1.03",
+    "0.9",
+    "8.027"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=40",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=40",
+    "collected_at": "2026-09-23T08:31:10.307950+00:00",
+    "http_status": 200,
+    "sha256": "f442ae9a4f8521784ea072350b5dc81fb4baa81758d5448ab0f4d80abdd0e198"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "흥국화재해상보험",
+        "상품명": "0310 연금저축손해보험 평생행복보험",
+        "상품유형": "금리연동형",
+        "최초판매일": "2003/10/01",
+        "판매여부": "중단",
+        "적립금총액": "2,071",
+        "1년 연평균수익률(%)": "-8.52",
+        "3년 연평균수익률(%)": "-1.68",
+        "5년 연평균수익률(%)": "-0.09",
+        "7년 연평균수익률(%)": "0.54",
+        "10년 연평균수익률(%)": "1.03",
+        "누적연평균수익률(%)": "0.9",
+        "연평균수수료율(%)": "8.027"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=40",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=40",
+        "collected_at": "2026-09-23T08:31:10.307950+00:00",
+        "http_status": 200,
+        "sha256": "f442ae9a4f8521784ea072350b5dc81fb4baa81758d5448ab0f4d80abdd0e198"
+      }
+    }
+  ]
+}

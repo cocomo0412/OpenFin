@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.c04267725c95a8810e723620",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:f1494b4eb3c439aeb88c23c1",
+  "group": "5",
+  "provider": "삼성화재해상보험",
+  "title": "연금저축손해보험 삼성화재 연금보험 아름다운생활 (0911.5)",
+  "cells": [
+    "삼성화재해상보험",
+    "연금저축손해보험 삼성화재 연금보험 아름다운생활 (0911.5)",
+    "금리연동형",
+    "2009/11/18",
+    "중단",
+    "767,701",
+    "-5.73",
+    "-0.35",
+    "0.42",
+    "0.58",
+    "0.69",
+    "0.9",
+    "6.415"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=1",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=1",
+    "collected_at": "2026-09-23T08:21:45.828587+00:00",
+    "http_status": 200,
+    "sha256": "e69f92f04bb5c83bd0b14f919efa0993b73de2f4d045873ddbab28100f8af873"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성화재해상보험",
+        "상품명": "연금저축손해보험 삼성화재 연금보험 아름다운생활 (0911.5)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2009/11/18",
+        "판매여부": "중단",
+        "적립금총액": "767,701",
+        "1년 연평균수익률(%)": "-5.73",
+        "3년 연평균수익률(%)": "-0.35",
+        "5년 연평균수익률(%)": "0.42",
+        "7년 연평균수익률(%)": "0.58",
+        "10년 연평균수익률(%)": "0.69",
+        "누적연평균수익률(%)": "0.9",
+        "연평균수수료율(%)": "6.415"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=1",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=1",
+        "collected_at": "2026-09-23T08:21:45.828587+00:00",
+        "http_status": 200,
+        "sha256": "e69f92f04bb5c83bd0b14f919efa0993b73de2f4d045873ddbab28100f8af873"
+      }
+    }
+  ]
+}

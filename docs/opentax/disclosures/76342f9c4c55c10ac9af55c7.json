@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.fc2e1b97d77b360bf2d0e9a7",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:34098c60ac91c2c0a72034ad",
+  "group": "4",
+  "provider": "KB라이프생명보험",
+  "title": "연금저축KB프라임연금보험",
+  "cells": [
+    "KB라이프생명보험",
+    "연금저축KB프라임연금보험",
+    "금리연동형",
+    "2006/04/03",
+    "중단",
+    "396,742",
+    "-5.78",
+    "-0.32",
+    "0.71",
+    "1.14",
+    "1.20",
+    "1.09",
+    "6.683"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=1",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=1",
+    "collected_at": "2026-09-23T08:21:42.235683+00:00",
+    "http_status": 200,
+    "sha256": "21a78214b8099b459e7b0fc7a18a5f61bdcb287b7ae49fd587d90e1d7e843d5e"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "KB라이프생명보험",
+        "상품명": "연금저축KB프라임연금보험",
+        "상품유형": "금리연동형",
+        "최초판매일": "2006/04/03",
+        "판매여부": "중단",
+        "적립금총액": "396,742",
+        "1년 연평균수익률(%)": "-5.78",
+        "3년 연평균수익률(%)": "-0.32",
+        "5년 연평균수익률(%)": "0.71",
+        "7년 연평균수익률(%)": "1.14",
+        "10년 연평균수익률(%)": "1.20",
+        "누적연평균수익률(%)": "1.09",
+        "연평균수수료율(%)": "6.683"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=1",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=1",
+        "collected_at": "2026-09-23T08:21:42.235683+00:00",
+        "http_status": 200,
+        "sha256": "21a78214b8099b459e7b0fc7a18a5f61bdcb287b7ae49fd587d90e1d7e843d5e"
+      }
+    }
+  ]
+}

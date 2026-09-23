@@ -1,0 +1,50 @@
+{
+  "id": "finance.insurance.klia.accident.푸본현대생명.l1702460001nnn0247000202440001024400010006024400010006000202440001000600020004m4000",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L1702460001NNN0247000202440001024400010006024400010006000202440001000600020004M4000",
+  "group": "024400010006",
+  "title": "푸본현대 상해보험 안심픽 무배당(A2601)",
+  "provider": "푸본현대생명",
+  "cells": [
+    "푸본현대생명",
+    "푸본현대 상해보험 안심픽 무배당(A2601)",
+    "주계약",
+    "재해사망보험금 *지급사유 : 보험기간 중 피보험자가 재해를 직접적인 원인으로 사망하였을 경우",
+    "3,000만원",
+    "6,703,500 원",
+    "4,748,100 원",
+    "3.25 %",
+    "-",
+    "-",
+    "100.7 %",
+    "97.2 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "보험기간(1년 초과)",
+    "순수보장",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "대면채널",
+    "2026-01-01",
+    "Download",
+    "보기",
+    "1577-3311"
+  ],
+  "coverage": [
+    "재해사망보험금 *지급사유 : 보험기간 중 피보험자가 재해를 직접적인 원인으로 사망하였을 경우",
+    "고도장해보험금 *지급사유 : 보험기간 중 피보험자가 장해분류표 중 동일한 재해 또는 재해 이외의 동일한 원인으로 여러 신체부위의 장해지급률을 더하여 80%이상에 해당하는 장해상태가 되었을 경우(단, 최초 1회 한함)"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=44177&seq=2"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010006&pageIndex=5&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010006&pageIndex=5&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:36.105322+00:00",
+    "http_status": 200,
+    "sha256": "1a340da639017baa2e731a8a5abf76dc9aa2e5bf84f9f4ae9e7a59f789b2012d"
+  }
+}

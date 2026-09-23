@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.572fece9e20c904167eb061f",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:cf5aa3fc54b8f824d4825176",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성KODEX 적격TDF 2050 액티브증권상장지수투자신탁[주식혼합-재간접형]",
+  "cells": [
+    "삼성자산운용",
+    "삼성KODEX 적격TDF 2050 액티브증권상장지수투자신탁[주식혼합-재간접형]",
+    "재간접",
+    "3",
+    "2022/06/28",
+    "판매",
+    "48,503",
+    "29.85",
+    "20.05",
+    "-",
+    "-",
+    "-",
+    "18.02",
+    "0.362",
+    "디비증권주식회사, 유진투자증권주식회사, 한화투자증권주식회사, 하나증권주식회사, 키움증권(주), 메리츠증권(주), 한국투자증권, SK증권주식회사, 삼성증권, KB증권, 대신증권주식회사, 아이엠증권, 신영증권주식회사, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권, 신한투자증권, 현대차증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=25",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=25",
+    "collected_at": "2026-09-23T08:22:20.099708+00:00",
+    "http_status": 200,
+    "sha256": "e62f9f9e311b0dac9c7624bebcaa6ebd66ba7510549656b0aa443223e4767de8"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성KODEX 적격TDF 2050 액티브증권상장지수투자신탁[주식혼합-재간접형]",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2022/06/28",
+        "판매여부": "판매",
+        "순자산총액": "48,503",
+        "1년 연평균수익률(%)": "29.85",
+        "3년 연평균수익률(%)": "20.05",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "18.02",
+        "연평균수수료율(%)": "0.362",
+        "상품 판매사": "디비증권주식회사, 유진투자증권주식회사, 한화투자증권주식회사, 하나증권주식회사, 키움증권(주), 메리츠증권(주), 한국투자증권, SK증권주식회사, 삼성증권, KB증권, 대신증권주식회사, 아이엠증권, 신영증권주식회사, 미래에셋증권 주식회사, 주식회사 카카오페이증권, NH투자증권, 신한투자증권, 현대차증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=25",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=25",
+        "collected_at": "2026-09-23T08:22:20.099708+00:00",
+        "http_status": 200,
+        "sha256": "e62f9f9e311b0dac9c7624bebcaa6ebd66ba7510549656b0aa443223e4767de8"
+      }
+    }
+  ]
+}

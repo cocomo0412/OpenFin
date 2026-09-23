@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.33d65f649b5afdd4e806a00e",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:91fff8a57c7a958367570d5b",
+  "group": "3",
+  "provider": "키움투자자산운용",
+  "title": "키움슈로더글로벌가치주인컴증권자투자신탁[주식-재간접형] Class C-Pe",
+  "cells": [
+    "키움투자자산운용",
+    "키움슈로더글로벌가치주인컴증권자투자신탁[주식-재간접형] Class C-Pe",
+    "재간접",
+    "3",
+    "2017/09/07",
+    "판매",
+    "766",
+    "16.60",
+    "10.10",
+    "5.83",
+    "5.59",
+    "-",
+    "4.44",
+    "0.688",
+    "한국투자증권, 삼성증권, KB국민은행, 미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=205",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=205",
+    "collected_at": "2026-09-23T08:26:25.105054+00:00",
+    "http_status": 200,
+    "sha256": "28720fce32b90aa0b9d575a2bedb8b9a1f751e3bea84793fa2fc6912fa4b1d01"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "키움투자자산운용",
+        "상품명": "키움슈로더글로벌가치주인컴증권자투자신탁[주식-재간접형] Class C-Pe",
+        "상품유형": "재간접",
+        "위험등급": "3",
+        "설정일": "2017/09/07",
+        "판매여부": "판매",
+        "순자산총액": "766",
+        "1년 연평균수익률(%)": "16.60",
+        "3년 연평균수익률(%)": "10.10",
+        "5년 연평균수익률(%)": "5.83",
+        "7년 연평균수익률(%)": "5.59",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "4.44",
+        "연평균수수료율(%)": "0.688",
+        "상품 판매사": "한국투자증권, 삼성증권, KB국민은행, 미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=205",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=205",
+        "collected_at": "2026-09-23T08:26:25.105054+00:00",
+        "http_status": 200,
+        "sha256": "28720fce32b90aa0b9d575a2bedb8b9a1f751e3bea84793fa2fc6912fa4b1d01"
+      }
+    }
+  ]
+}

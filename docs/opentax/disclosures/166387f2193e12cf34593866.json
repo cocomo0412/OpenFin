@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.3323a0740ab6b9c043345e93",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:842e0711d97a4c94b0c2d1b3",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋미국달러우량회사채증권자투자신탁1호(H)(채권)종류C-P",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋미국달러우량회사채증권자투자신탁1호(H)(채권)종류C-P",
+    "채권형",
+    "4",
+    "2016/06/07",
+    "판매",
+    "332",
+    "2.12",
+    "2.10",
+    "-2.30",
+    "-0.43",
+    "0.32",
+    "0.52",
+    "0.776",
+    "유진투자증권주식회사, 한화투자증권주식회사, 대신증권주식회사, 미래에셋증권 주식회사, NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=255",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=255",
+    "collected_at": "2026-09-23T08:27:32.519030+00:00",
+    "http_status": 200,
+    "sha256": "4ee50c1a29cdca868fbeac4602e357dc4ad15cdd7a1bd9d59452762f2f7cfdff"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋미국달러우량회사채증권자투자신탁1호(H)(채권)종류C-P",
+        "상품유형": "채권형",
+        "위험등급": "4",
+        "설정일": "2016/06/07",
+        "판매여부": "판매",
+        "순자산총액": "332",
+        "1년 연평균수익률(%)": "2.12",
+        "3년 연평균수익률(%)": "2.10",
+        "5년 연평균수익률(%)": "-2.30",
+        "7년 연평균수익률(%)": "-0.43",
+        "10년 연평균수익률(%)": "0.32",
+        "누적연평균수익률(%)": "0.52",
+        "연평균수수료율(%)": "0.776",
+        "상품 판매사": "유진투자증권주식회사, 한화투자증권주식회사, 대신증권주식회사, 미래에셋증권 주식회사, NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=255",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=255",
+        "collected_at": "2026-09-23T08:27:32.519030+00:00",
+        "http_status": 200,
+        "sha256": "4ee50c1a29cdca868fbeac4602e357dc4ad15cdd7a1bd9d59452762f2f7cfdff"
+      }
+    }
+  ]
+}

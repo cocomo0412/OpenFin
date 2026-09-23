@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.350148a83a540da6de939d16",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:3bae70cf93001ee3f310027b",
+  "group": "3",
+  "provider": "한국투자신탁운용",
+  "title": "한국투자삼성TOP3증권자투자신탁1호(채권혼합)(C-Pe)",
+  "cells": [
+    "한국투자신탁운용",
+    "한국투자삼성TOP3증권자투자신탁1호(채권혼합)(C-Pe)",
+    "혼합채권형",
+    "4",
+    "2017/12/11",
+    "판매",
+    "613",
+    "34.62",
+    "9.30",
+    "4.63",
+    "5.12",
+    "-",
+    "4.54",
+    "0.852",
+    "한화투자증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, 우리은행, KB증권, KB국민은행, 하나은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=219",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=219",
+    "collected_at": "2026-09-23T08:26:43.396141+00:00",
+    "http_status": 200,
+    "sha256": "c979d43e9be39444426a4fad5383fbb3371dd1f04165d22b5f1c629cdedcd2b8"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한국투자신탁운용",
+        "상품명": "한국투자삼성TOP3증권자투자신탁1호(채권혼합)(C-Pe)",
+        "상품유형": "혼합채권형",
+        "위험등급": "4",
+        "설정일": "2017/12/11",
+        "판매여부": "판매",
+        "순자산총액": "613",
+        "1년 연평균수익률(%)": "34.62",
+        "3년 연평균수익률(%)": "9.30",
+        "5년 연평균수익률(%)": "4.63",
+        "7년 연평균수익률(%)": "5.12",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "4.54",
+        "연평균수수료율(%)": "0.852",
+        "상품 판매사": "한화투자증권주식회사, 키움증권(주), 한국투자증권, 삼성증권, 우리은행, KB증권, KB국민은행, 하나은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=219",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=219",
+        "collected_at": "2026-09-23T08:26:43.396141+00:00",
+        "http_status": 200,
+        "sha256": "c979d43e9be39444426a4fad5383fbb3371dd1f04165d22b5f1c629cdedcd2b8"
+      }
+    }
+  ]
+}

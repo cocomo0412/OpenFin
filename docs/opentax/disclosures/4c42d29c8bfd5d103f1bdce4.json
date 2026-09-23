@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.9326dacbb0d9aa448e700f54",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:4:c0e9812cb0185e7650f15cf7",
+  "group": "4",
+  "provider": "신한라이프생명보험",
+  "title": "신한VIP참연금저축보험Ⅲ",
+  "cells": [
+    "신한라이프생명보험",
+    "신한VIP참연금저축보험Ⅲ",
+    "금리연동형",
+    "2024/04/01",
+    "중단",
+    "1,801",
+    "-4.93",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-1.68",
+    "6.080"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=60",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=60",
+    "collected_at": "2026-09-23T08:31:56.903189+00:00",
+    "http_status": 200,
+    "sha256": "92270358353067de892144266e5b1a9ed534f3cdd6e2ad665bada36521620870"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한라이프생명보험",
+        "상품명": "신한VIP참연금저축보험Ⅲ",
+        "상품유형": "금리연동형",
+        "최초판매일": "2024/04/01",
+        "판매여부": "중단",
+        "적립금총액": "1,801",
+        "1년 연평균수익률(%)": "-4.93",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-1.68",
+        "연평균수수료율(%)": "6.080"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=60",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=4&pageIndex=60",
+        "collected_at": "2026-09-23T08:31:56.903189+00:00",
+        "http_status": 200,
+        "sha256": "92270358353067de892144266e5b1a9ed534f3cdd6e2ad665bada36521620870"
+      }
+    }
+  ]
+}

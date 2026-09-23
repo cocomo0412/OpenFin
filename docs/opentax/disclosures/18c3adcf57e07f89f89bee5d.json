@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.d8adf3a5bb9f3c7dff2f14d8",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:54ef6578f31bb9452b8ca31d",
+  "group": "3",
+  "provider": "삼성자산운용",
+  "title": "삼성내일지급머니마켓증권투자신탁[채권]_C-Pe",
+  "cells": [
+    "삼성자산운용",
+    "삼성내일지급머니마켓증권투자신탁[채권]_C-Pe",
+    "채권형",
+    "5",
+    "2025/03/26",
+    "판매",
+    "572",
+    "2.97",
+    "-",
+    "-",
+    "-",
+    "-",
+    "3.02",
+    "0.209",
+    "삼성생명보험주식회사, 한국투자증권, 삼성증권, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=222",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=222",
+    "collected_at": "2026-09-23T08:26:47.142337+00:00",
+    "http_status": 200,
+    "sha256": "e53126dc150834d23afe067645315e7e7acdcb903a5d70dbfb7f4a5805d08533"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "삼성자산운용",
+        "상품명": "삼성내일지급머니마켓증권투자신탁[채권]_C-Pe",
+        "상품유형": "채권형",
+        "위험등급": "5",
+        "설정일": "2025/03/26",
+        "판매여부": "판매",
+        "순자산총액": "572",
+        "1년 연평균수익률(%)": "2.97",
+        "3년 연평균수익률(%)": "-",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "3.02",
+        "연평균수수료율(%)": "0.209",
+        "상품 판매사": "삼성생명보험주식회사, 한국투자증권, 삼성증권, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=222",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=222",
+        "collected_at": "2026-09-23T08:26:47.142337+00:00",
+        "http_status": 200,
+        "sha256": "e53126dc150834d23afe067645315e7e7acdcb903a5d70dbfb7f4a5805d08533"
+      }
+    }
+  ]
+}

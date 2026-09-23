@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.e23bb0149074a7ed58c23c52",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:86e2b1bd412787342e9eae42",
+  "group": "3",
+  "provider": "NH-Amundi자산운용",
+  "title": "NH-Amundi 글로벌 우주항공 증권자투자신탁(H)[주식] Class C-P1(연금저축)",
+  "cells": [
+    "NH-Amundi자산운용",
+    "NH-Amundi 글로벌 우주항공 증권자투자신탁(H)[주식] Class C-P1(연금저축)",
+    "주식형",
+    "2",
+    "2022/05/30",
+    "판매",
+    "549",
+    "32.68",
+    "37.22",
+    "-",
+    "-",
+    "-",
+    "28.89",
+    "1.734",
+    "유진투자증권주식회사, 한화투자증권주식회사, 삼성생명보험주식회사, NH농협은행, KB증권, KB국민은행"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=226",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=226",
+    "collected_at": "2026-09-23T08:26:52.912410+00:00",
+    "http_status": 200,
+    "sha256": "529e92cacede2eab0dc3f555114cbed470cf34078d7f2d928cf4fe5c775e6860"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "NH-Amundi자산운용",
+        "상품명": "NH-Amundi 글로벌 우주항공 증권자투자신탁(H)[주식] Class C-P1(연금저축)",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2022/05/30",
+        "판매여부": "판매",
+        "순자산총액": "549",
+        "1년 연평균수익률(%)": "32.68",
+        "3년 연평균수익률(%)": "37.22",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "28.89",
+        "연평균수수료율(%)": "1.734",
+        "상품 판매사": "유진투자증권주식회사, 한화투자증권주식회사, 삼성생명보험주식회사, NH농협은행, KB증권, KB국민은행"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=226",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=226",
+        "collected_at": "2026-09-23T08:26:52.912410+00:00",
+        "http_status": 200,
+        "sha256": "529e92cacede2eab0dc3f555114cbed470cf34078d7f2d928cf4fe5c775e6860"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.379ef7d8fb332ce1790db674",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:013e6ff395ebc402fca945dc",
+  "group": "3",
+  "provider": "다올자산운용",
+  "title": "다올중국1등주증권자투자신탁[주식] 종류S-P",
+  "cells": [
+    "다올자산운용",
+    "다올중국1등주증권자투자신탁[주식] 종류S-P",
+    "주식형",
+    "2",
+    "2021/02/18",
+    "판매",
+    "327",
+    "53.28",
+    "23.90",
+    "2.47",
+    "-",
+    "-",
+    "-0.35",
+    "0.992",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=256",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=256",
+    "collected_at": "2026-09-23T08:27:33.752651+00:00",
+    "http_status": 200,
+    "sha256": "300507a2100ea92f88d56d1b1bd938c485dc9d34b68b71ff5fb4747cf66558af"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "다올자산운용",
+        "상품명": "다올중국1등주증권자투자신탁[주식] 종류S-P",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2021/02/18",
+        "판매여부": "판매",
+        "순자산총액": "327",
+        "1년 연평균수익률(%)": "53.28",
+        "3년 연평균수익률(%)": "23.90",
+        "5년 연평균수익률(%)": "2.47",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "-0.35",
+        "연평균수수료율(%)": "0.992",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=256",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=256",
+        "collected_at": "2026-09-23T08:27:33.752651+00:00",
+        "http_status": 200,
+        "sha256": "300507a2100ea92f88d56d1b1bd938c485dc9d34b68b71ff5fb4747cf66558af"
+      }
+    }
+  ]
+}

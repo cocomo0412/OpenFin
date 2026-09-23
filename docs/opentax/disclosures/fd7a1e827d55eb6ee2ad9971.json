@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.ae48cb1bd1a70fd48baae526",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:14bd81e89d849a07d421dde5",
+  "group": "3",
+  "provider": "신한자산운용",
+  "title": "신한스노우볼인컴증권투자신탁[채권혼합](종류S-p)",
+  "cells": [
+    "신한자산운용",
+    "신한스노우볼인컴증권투자신탁[채권혼합](종류S-p)",
+    "혼합채권형",
+    "4",
+    "2018/12/27",
+    "판매",
+    "338",
+    "70.80",
+    "25.05",
+    "14.69",
+    "12.17",
+    "-",
+    "11.80",
+    "0.378",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=254",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=254",
+    "collected_at": "2026-09-23T08:27:30.747512+00:00",
+    "http_status": 200,
+    "sha256": "80c2f3d8f6d75ff520930f3c2cfa5d3577c24bd5cd2e86a32c81a79184158725"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한자산운용",
+        "상품명": "신한스노우볼인컴증권투자신탁[채권혼합](종류S-p)",
+        "상품유형": "혼합채권형",
+        "위험등급": "4",
+        "설정일": "2018/12/27",
+        "판매여부": "판매",
+        "순자산총액": "338",
+        "1년 연평균수익률(%)": "70.80",
+        "3년 연평균수익률(%)": "25.05",
+        "5년 연평균수익률(%)": "14.69",
+        "7년 연평균수익률(%)": "12.17",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "11.80",
+        "연평균수수료율(%)": "0.378",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=254",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=254",
+        "collected_at": "2026-09-23T08:27:30.747512+00:00",
+        "http_status": 200,
+        "sha256": "80c2f3d8f6d75ff520930f3c2cfa5d3577c24bd5cd2e86a32c81a79184158725"
+      }
+    }
+  ]
+}

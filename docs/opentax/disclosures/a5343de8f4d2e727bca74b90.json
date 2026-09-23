@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.78ceb2e4f460a0d6d68f3e77",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:13a4aebe2f6089ba04d01dbf",
+  "group": "3",
+  "provider": "미래에셋자산운용",
+  "title": "미래에셋다이와연금넥스트AP증권자투자신탁(주식)종류C-P",
+  "cells": [
+    "미래에셋자산운용",
+    "미래에셋다이와연금넥스트AP증권자투자신탁(주식)종류C-P",
+    "주식형",
+    "3",
+    "2015/12/11",
+    "판매",
+    "140",
+    "53.50",
+    "24.10",
+    "9.16",
+    "12.17",
+    "10.68",
+    "9.46",
+    "1.381",
+    "미래에셋증권 주식회사"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=290",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=290",
+    "collected_at": "2026-09-23T08:28:18.741597+00:00",
+    "http_status": 200,
+    "sha256": "f86707805e04929955943187ae9943dce4007e5b9fa43e65e9facd433a424208"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "미래에셋자산운용",
+        "상품명": "미래에셋다이와연금넥스트AP증권자투자신탁(주식)종류C-P",
+        "상품유형": "주식형",
+        "위험등급": "3",
+        "설정일": "2015/12/11",
+        "판매여부": "판매",
+        "순자산총액": "140",
+        "1년 연평균수익률(%)": "53.50",
+        "3년 연평균수익률(%)": "24.10",
+        "5년 연평균수익률(%)": "9.16",
+        "7년 연평균수익률(%)": "12.17",
+        "10년 연평균수익률(%)": "10.68",
+        "누적연평균수익률(%)": "9.46",
+        "연평균수수료율(%)": "1.381",
+        "상품 판매사": "미래에셋증권 주식회사"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=290",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=290",
+        "collected_at": "2026-09-23T08:28:18.741597+00:00",
+        "http_status": 200,
+        "sha256": "f86707805e04929955943187ae9943dce4007e5b9fa43e65e9facd433a424208"
+      }
+    }
+  ]
+}

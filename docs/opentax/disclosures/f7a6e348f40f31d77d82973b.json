@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.a1ba8c1a5da036c5c8a77caa",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:42ff6da0d414630e9b64e738",
+  "group": "3",
+  "provider": "한화자산운용",
+  "title": "한화 공모주플러스 증권투자신탁(채권혼합) 종류C-P(연금저축)",
+  "cells": [
+    "한화자산운용",
+    "한화 공모주플러스 증권투자신탁(채권혼합) 종류C-P(연금저축)",
+    "혼합채권형",
+    "5",
+    "2015/06/01",
+    "판매",
+    "11,301",
+    "2.04",
+    "3.73",
+    "2.27",
+    "2.19",
+    "1.77",
+    "2.03",
+    "1.131",
+    "NH투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=69",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=69",
+    "collected_at": "2026-09-23T08:23:20.474640+00:00",
+    "http_status": 200,
+    "sha256": "332510b9b93acecc82d937b82bfa1a4985bebf53b0847817fc140ded0979b358"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한화자산운용",
+        "상품명": "한화 공모주플러스 증권투자신탁(채권혼합) 종류C-P(연금저축)",
+        "상품유형": "혼합채권형",
+        "위험등급": "5",
+        "설정일": "2015/06/01",
+        "판매여부": "판매",
+        "순자산총액": "11,301",
+        "1년 연평균수익률(%)": "2.04",
+        "3년 연평균수익률(%)": "3.73",
+        "5년 연평균수익률(%)": "2.27",
+        "7년 연평균수익률(%)": "2.19",
+        "10년 연평균수익률(%)": "1.77",
+        "누적연평균수익률(%)": "2.03",
+        "연평균수수료율(%)": "1.131",
+        "상품 판매사": "NH투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=69",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=69",
+        "collected_at": "2026-09-23T08:23:20.474640+00:00",
+        "http_status": 200,
+        "sha256": "332510b9b93acecc82d937b82bfa1a4985bebf53b0847817fc140ded0979b358"
+      }
+    }
+  ]
+}

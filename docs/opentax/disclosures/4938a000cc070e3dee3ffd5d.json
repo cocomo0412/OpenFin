@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.06e2d9f45c3e0f3a71ef7cb0",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:32f76140293c4674d9965e0f",
+  "group": "3",
+  "provider": "IBK자산운용",
+  "title": "IBK 평생설계 연금 증권 전환형 자투자신탁 [주식혼합] 종류 C",
+  "cells": [
+    "IBK자산운용",
+    "IBK 평생설계 연금 증권 전환형 자투자신탁 [주식혼합] 종류 C",
+    "혼합주식형",
+    "3",
+    "2012/07/18",
+    "판매",
+    "4,061",
+    "110.48",
+    "36.05",
+    "18.28",
+    "17.70",
+    "12.96",
+    "9.74",
+    "1.362",
+    "-"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=114",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=114",
+    "collected_at": "2026-09-23T08:24:21.338720+00:00",
+    "http_status": 200,
+    "sha256": "92256f447e18438ee5dc235e8908749f2bfd52b8d72a14c1439e0c5d2759fc4a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "IBK자산운용",
+        "상품명": "IBK 평생설계 연금 증권 전환형 자투자신탁 [주식혼합] 종류 C",
+        "상품유형": "혼합주식형",
+        "위험등급": "3",
+        "설정일": "2012/07/18",
+        "판매여부": "판매",
+        "순자산총액": "4,061",
+        "1년 연평균수익률(%)": "110.48",
+        "3년 연평균수익률(%)": "36.05",
+        "5년 연평균수익률(%)": "18.28",
+        "7년 연평균수익률(%)": "17.70",
+        "10년 연평균수익률(%)": "12.96",
+        "누적연평균수익률(%)": "9.74",
+        "연평균수수료율(%)": "1.362",
+        "상품 판매사": "-"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=114",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=114",
+        "collected_at": "2026-09-23T08:24:21.338720+00:00",
+        "http_status": 200,
+        "sha256": "92256f447e18438ee5dc235e8908749f2bfd52b8d72a14c1439e0c5d2759fc4a"
+      }
+    }
+  ]
+}

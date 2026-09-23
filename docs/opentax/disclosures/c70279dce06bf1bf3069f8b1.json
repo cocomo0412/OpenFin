@@ -1,0 +1,51 @@
+{
+  "id": "finance.insurance.klia.whole-life.db생명.l7102460001nnn024700020244000102440001000102440001000100010244000100010001000226b08",
+  "source_id": "source.klia.insurance-disclosure",
+  "code": "L7102460001NNN024700020244000102440001000102440001000100010244000100010001000226B08",
+  "group": "024400010001",
+  "title": "(무)백년친구 알차고 행복한 종신보험Ⅱ(해약환급금 일부지급형)(2602)(1종: 기본형, 2형: 간편심사형)",
+  "provider": "DB생명",
+  "cells": [
+    "DB생명",
+    "(무)백년친구 알차고 행복한 종신보험Ⅱ(해약환급금 일부지급형)(2602)(1종: 기본형, 2형: 간편심사형)",
+    "주계약",
+    "사망보험금 *지급사유 : 피보험자가 보험기간 중 사망하였을 때(2년미만 재해 이외의 원인으로 사망시 50%)",
+    "10,000만원",
+    "388,000 원",
+    "368,000 원",
+    "2.50 %",
+    "-",
+    "-",
+    "144.1 %",
+    "155.1 %",
+    "%",
+    "%",
+    "%",
+    "%",
+    "기본형",
+    "무해지/저해지환급",
+    "-",
+    "-",
+    "비갱신형",
+    "-",
+    "비유니버셜",
+    "대면채널",
+    "2026-08-01",
+    "Download",
+    "보기",
+    "1588-3131"
+  ],
+  "coverage": [
+    "사망보험금 *지급사유 : 피보험자가 보험기간 중 사망하였을 때(2년미만 재해 이외의 원인으로 사망시 50%)"
+  ],
+  "documents": [
+    "https://pub.insure.or.kr/FileDown.do?fileNo=44402&seq=4"
+  ],
+  "receipt": {
+    "url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=9&pageUnit=20",
+    "final_url": "https://pub.insure.or.kr/compareDis/prodCompare/assurance/listNew.do?search_prodGroup=024400010001&pageIndex=9&pageUnit=20",
+    "collected_at": "2026-09-23T08:20:29.799201+00:00",
+    "http_status": 200,
+    "sha256": "17bd8a6d58473cc0f4cf50d984066a2980961e0b76c4fe9cdd4e71f20d14327f"
+  }
+}

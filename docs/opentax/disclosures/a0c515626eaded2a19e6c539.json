@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.47016d8d679d0ff9a7869a34",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:4466943d6bf1f6bebca25252",
+  "group": "3",
+  "provider": "한화자산운용",
+  "title": "한화코리아밸류채권증권 자투자신탁(채권) 종류C-P(연금저축)",
+  "cells": [
+    "한화자산운용",
+    "한화코리아밸류채권증권 자투자신탁(채권) 종류C-P(연금저축)",
+    "채권형",
+    "5",
+    "2015/06/29",
+    "판매",
+    "5,814",
+    "0.84",
+    "3.79",
+    "2.57",
+    "2.22",
+    "2.21",
+    "2.25",
+    "0.246",
+    "한화투자증권주식회사, 우리은행, IBK기업은행, KB증권, KB국민은행, 미래에셋증권 주식회사, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=98",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=98",
+    "collected_at": "2026-09-23T08:23:59.905147+00:00",
+    "http_status": 200,
+    "sha256": "d8a848a8181c94633972ab5018c8ab6160ccd76058ca7e7b4354a3f7b1af1a82"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "한화자산운용",
+        "상품명": "한화코리아밸류채권증권 자투자신탁(채권) 종류C-P(연금저축)",
+        "상품유형": "채권형",
+        "위험등급": "5",
+        "설정일": "2015/06/29",
+        "판매여부": "판매",
+        "순자산총액": "5,814",
+        "1년 연평균수익률(%)": "0.84",
+        "3년 연평균수익률(%)": "3.79",
+        "5년 연평균수익률(%)": "2.57",
+        "7년 연평균수익률(%)": "2.22",
+        "10년 연평균수익률(%)": "2.21",
+        "누적연평균수익률(%)": "2.25",
+        "연평균수수료율(%)": "0.246",
+        "상품 판매사": "한화투자증권주식회사, 우리은행, IBK기업은행, KB증권, KB국민은행, 미래에셋증권 주식회사, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=98",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=98",
+        "collected_at": "2026-09-23T08:23:59.905147+00:00",
+        "http_status": 200,
+        "sha256": "d8a848a8181c94633972ab5018c8ab6160ccd76058ca7e7b4354a3f7b1af1a82"
+      }
+    }
+  ]
+}

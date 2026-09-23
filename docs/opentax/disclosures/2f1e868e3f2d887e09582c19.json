@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.675e3d8ab2cdce7e8fd66e9c",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:efccb29586cd940804fa0fc3",
+  "group": "5",
+  "provider": "현대해상화재보험",
+  "title": "연금저축손해보험 하이라이프노후웰스보험(Hi0904)",
+  "cells": [
+    "현대해상화재보험",
+    "연금저축손해보험 하이라이프노후웰스보험(Hi0904)",
+    "금리연동형",
+    "2009/04/01",
+    "중단",
+    "86,212",
+    "-7.06",
+    "-0.68",
+    "0.31",
+    "0.58",
+    "0.59",
+    "1.03",
+    "7.059"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=7",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=7",
+    "collected_at": "2026-09-23T08:21:52.382868+00:00",
+    "http_status": 200,
+    "sha256": "901e21e5cdb528a8db310391133b23ae3e0769166a3cf287fcef2de1172d050b"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "현대해상화재보험",
+        "상품명": "연금저축손해보험 하이라이프노후웰스보험(Hi0904)",
+        "상품유형": "금리연동형",
+        "최초판매일": "2009/04/01",
+        "판매여부": "중단",
+        "적립금총액": "86,212",
+        "1년 연평균수익률(%)": "-7.06",
+        "3년 연평균수익률(%)": "-0.68",
+        "5년 연평균수익률(%)": "0.31",
+        "7년 연평균수익률(%)": "0.58",
+        "10년 연평균수익률(%)": "0.59",
+        "누적연평균수익률(%)": "1.03",
+        "연평균수수료율(%)": "7.059"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=7",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=7",
+        "collected_at": "2026-09-23T08:21:52.382868+00:00",
+        "http_status": 200,
+        "sha256": "901e21e5cdb528a8db310391133b23ae3e0769166a3cf287fcef2de1172d050b"
+      }
+    }
+  ]
+}

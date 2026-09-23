@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.998376eed1aa28b0388920a7",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:8622263ec1c3dc3e0bb21fdc",
+  "group": "3",
+  "provider": "신한자산운용",
+  "title": "신한코리아롱숏증권자투자신탁[주식](종류C-pe)",
+  "cells": [
+    "신한자산운용",
+    "신한코리아롱숏증권자투자신탁[주식](종류C-pe)",
+    "주식형",
+    "3",
+    "2021/12/20",
+    "판매",
+    "244",
+    "46.27",
+    "11.78",
+    "-",
+    "-",
+    "-",
+    "7.30",
+    "1.112",
+    "유진투자증권주식회사, 한화투자증권주식회사, 키움증권(주), 삼성증권, IBK기업은행, NH투자증권, 신한투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=270",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=270",
+    "collected_at": "2026-09-23T08:27:52.184255+00:00",
+    "http_status": 200,
+    "sha256": "4421eb7c7c7882b8fa83c826258b4086d9c8f377480472813f4e6290d8615c7a"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "신한자산운용",
+        "상품명": "신한코리아롱숏증권자투자신탁[주식](종류C-pe)",
+        "상품유형": "주식형",
+        "위험등급": "3",
+        "설정일": "2021/12/20",
+        "판매여부": "판매",
+        "순자산총액": "244",
+        "1년 연평균수익률(%)": "46.27",
+        "3년 연평균수익률(%)": "11.78",
+        "5년 연평균수익률(%)": "-",
+        "7년 연평균수익률(%)": "-",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "7.30",
+        "연평균수수료율(%)": "1.112",
+        "상품 판매사": "유진투자증권주식회사, 한화투자증권주식회사, 키움증권(주), 삼성증권, IBK기업은행, NH투자증권, 신한투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=270",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=270",
+        "collected_at": "2026-09-23T08:27:52.184255+00:00",
+        "http_status": 200,
+        "sha256": "4421eb7c7c7882b8fa83c826258b4086d9c8f377480472813f4e6290d8615c7a"
+      }
+    }
+  ]
+}

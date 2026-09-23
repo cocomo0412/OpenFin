@@ -1,0 +1,73 @@
+{
+  "id": "finance.pension.disclosure.8e02b3c41b9b292a2bead888",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:5:525b4dfeb680bd56148086af",
+  "group": "5",
+  "provider": "DB손해보험",
+  "title": "연금저축손해보험 스마트연금보험1610",
+  "cells": [
+    "DB손해보험",
+    "연금저축손해보험 스마트연금보험1610",
+    "금리연동형",
+    "2016/01/01",
+    "중단",
+    "70,535",
+    "-18.97",
+    "-1.85",
+    "-0.19",
+    "0.41",
+    "-",
+    "1.29",
+    "0.589"
+  ],
+  "headers": [
+    "보험회사",
+    "상품명",
+    "상품유형",
+    "최초판매일",
+    "판매여부",
+    "적립금총액",
+    "최초 판매 후경과기간별 연평균수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=8",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=8",
+    "collected_at": "2026-09-23T08:21:53.337208+00:00",
+    "http_status": 200,
+    "sha256": "2c1f9c611ccb5f3a00fc80e3d88d4fdfc4afd1f5ef90cd16f81cf188805b8804"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "DB손해보험",
+        "상품명": "연금저축손해보험 스마트연금보험1610",
+        "상품유형": "금리연동형",
+        "최초판매일": "2016/01/01",
+        "판매여부": "중단",
+        "적립금총액": "70,535",
+        "1년 연평균수익률(%)": "-18.97",
+        "3년 연평균수익률(%)": "-1.85",
+        "5년 연평균수익률(%)": "-0.19",
+        "7년 연평균수익률(%)": "0.41",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "1.29",
+        "연평균수수료율(%)": "0.589"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=8",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=5&pageIndex=8",
+        "collected_at": "2026-09-23T08:21:53.337208+00:00",
+        "http_status": 200,
+        "sha256": "2c1f9c611ccb5f3a00fc80e3d88d4fdfc4afd1f5ef90cd16f81cf188805b8804"
+      }
+    }
+  ]
+}

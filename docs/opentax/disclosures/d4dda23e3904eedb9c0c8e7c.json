@@ -1,0 +1,79 @@
+{
+  "id": "finance.pension.disclosure.6f910c1c8ab03d301e433431",
+  "source_id": "source.fss.integrated-pension-portal",
+  "record": "pension:3:8353abc4abf8cfb4861ff6de",
+  "group": "3",
+  "provider": "트러스톤자산운용",
+  "title": "트러스톤핀셋코어증권자투자신탁[주식]S-P클래스",
+  "cells": [
+    "트러스톤자산운용",
+    "트러스톤핀셋코어증권자투자신탁[주식]S-P클래스",
+    "주식형",
+    "2",
+    "2017/12/19",
+    "판매",
+    "450",
+    "92.63",
+    "52.40",
+    "20.59",
+    "22.54",
+    "-",
+    "16.35",
+    "0.993",
+    "(주)우리투자증권"
+  ],
+  "headers": [
+    "자산운용사",
+    "상품명",
+    "상품유형",
+    "위험등급",
+    "설정일",
+    "판매여부",
+    "순자산총액",
+    "연평균 수익률",
+    "누적연평균수익률",
+    "연평균수수료율",
+    "상품 판매사",
+    "1년",
+    "3년",
+    "5년",
+    "7년",
+    "10년"
+  ],
+  "basis_period": "2026-Q2",
+  "receipt": {
+    "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=238",
+    "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=238",
+    "collected_at": "2026-09-23T08:27:09.374056+00:00",
+    "http_status": 200,
+    "sha256": "16695cf332582ec1348193a94cf7bfcb74ef6ff955762dc5db9ee7ae562b4ac4"
+  },
+  "observations": [
+    {
+      "fields": {
+        "금융회사": "트러스톤자산운용",
+        "상품명": "트러스톤핀셋코어증권자투자신탁[주식]S-P클래스",
+        "상품유형": "주식형",
+        "위험등급": "2",
+        "설정일": "2017/12/19",
+        "판매여부": "판매",
+        "순자산총액": "450",
+        "1년 연평균수익률(%)": "92.63",
+        "3년 연평균수익률(%)": "52.40",
+        "5년 연평균수익률(%)": "20.59",
+        "7년 연평균수익률(%)": "22.54",
+        "10년 연평균수익률(%)": "-",
+        "누적연평균수익률(%)": "16.35",
+        "연평균수수료율(%)": "0.993",
+        "상품 판매사": "(주)우리투자증권"
+      },
+      "receipt": {
+        "url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=238",
+        "final_url": "https://www.fss.or.kr/fss/lifeplan/goodsCmpr/list4.do?menuNo=201274&paramClassCd=3&pageIndex=238",
+        "collected_at": "2026-09-23T08:27:09.374056+00:00",
+        "http_status": 200,
+        "sha256": "16695cf332582ec1348193a94cf7bfcb74ef6ff955762dc5db9ee7ae562b4ac4"
+      }
+    }
+  ]
+}
