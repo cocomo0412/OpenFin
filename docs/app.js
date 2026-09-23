@@ -284,7 +284,7 @@ function renderExportCards() {
             : '<p class="export-metadata">자료 갱신 필요 · 원문 재검증 미완료</p>'}
           <details class="export-metadata export-date-history"><summary>원자료 수집 이력</summary><p>${escapeHtml(collectionMeta.label)} ${escapeHtml(collectionMeta.value)}<br>파일 갱신일은 모든 원자료의 현행화를 뜻하지 않습니다.</p></details>
           ${renderApiCollectionLink(entry.domain)}
-          <a class="export-open" href="explorer.html?domain=${escapeAttribute(entry.domain)}"><svg class="export-open-icon" viewBox="0 0 20 20" aria-hidden="true" focusable="false"><circle cx="8.5" cy="8.5" r="5.5"/><path d="m12.5 12.5 4 4"/></svg><span>탐색기에서 열기</span></a>
+          <a class="export-open" href="explorer.html?domain=${escapeAttribute(entry.domain)}" aria-label="${escapeAttribute(meta.label)} 탐색기 열기"><svg class="export-open-icon" viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M2.5 8V5a1.5 1.5 0 0 1 1.5-1.5h4l2 2h6A1.5 1.5 0 0 1 17.5 7v1M3.5 16.5h12a1.5 1.5 0 0 0 1.46-1.16l1.16-5A1.5 1.5 0 0 0 16.66 8.5H4a1.5 1.5 0 0 0-1.49 1.66L3 15.5a1.1 1.1 0 0 0 .5 1Z"/></svg><span>Explorer Open</span></a>
         </article>
       `;
     })
