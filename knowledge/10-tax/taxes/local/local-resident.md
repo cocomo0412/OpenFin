@@ -76,7 +76,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/eef0f93b6fe0625cbd363ade.json",
-    "checksum": "sha256:fc9efb2f8bb7412e44375e72c0ee22154b8577e3dc541a70ad27bb4ef61c15fc",
+    "checksum": "sha256:7e9bc5a470e2554d30bef1a9259c3c46786e3955b491c14b265c20468c383ade",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=282559&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:22.571307+00:00"
@@ -122,7 +122,7 @@
     "export_id": "tax-ontology",
     "search_text": "주민세 지방자치단체에 주소를 둔 개인에 대한 주민세입니다. 원칙적으로 1만원 이하 범위의 조례상 세액이며 법정 주민청구가 있으면 1만5천원 이하로 읍면동별 차등 설정할 수 있습니다."
   },
-  "record_checksum": "sha256:121f9a9c6230621a8029ba8e32792685fe489570c9becacf09b0c046ab08f051"
+  "record_checksum": "sha256:077babeb816eaca53c64841858def405ff5b89505f7cb80d7a452ea50f706d82"
 }
 ---
 

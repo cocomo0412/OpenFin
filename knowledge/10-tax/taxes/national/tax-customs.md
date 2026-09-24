@@ -1,24 +1,12 @@
 ---
 {
+  "deadlines": [],
+  "folder": "10_Taxes/Customs",
+  "basis_year": 2026,
   "id": "tax.customs",
   "title": "관세",
   "type": "tax",
   "description": "수입물품에 부과되는 조세입니다. 국세기본법 제2조의 국세 열거와 별도로 관세법 제14조를 근거로 관리합니다.",
-  "folder": "10_Taxes/Customs",
-  "basis_year": 2026,
-  "effective_date": null,
-  "expiration_date": null,
-  "reviewed_at": "2026-05-04",
-  "source_urls": [
-    "https://law.go.kr/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=900015991",
-    "https://www.law.go.kr/법령/관세법/별표"
-  ],
-  "source_basis_dates": [
-    "2026-01-01T00:00:00.000Z",
-    "2026-05-03T00:00:00.000Z"
-  ],
-  "abolition_status": "active",
-  "revision_status": "none_announced",
   "parents": [
     "category.customs"
   ],
@@ -28,266 +16,122 @@
     "term.customs",
     "term.tax-base"
   ],
-  "deadlines": [],
-  "sources": [
-    "source.customs-act.2026.article14",
-    "source.law.customs-tariff"
-  ],
-  "law_reference": "관세법 제14조",
   "tags": [],
-  "criteria": [
-    {
-      "label": "수입물품 관세",
-      "basis": "수입물품 과세가격",
-      "condition": "품목분류별 관세율표 적용",
-      "amount_formula": "과세가격 × 품목별 관세율",
-      "source": "source.law.customs-tariff",
-      "criteria_kind": "formula",
-      "basis_category": "official-standard",
-      "basis_definition": "해당 제도에서 대상 여부, 세율, 공제액, 한도 또는 신고기한을 판정하기 위해 공식 출처가 사용하는 기준항목입니다.",
-      "basis_lookup": "각 criterion의 출처 노드와 관련 신고·신청 서류에서 확인합니다.",
-      "selection_rule": "조건 문구와 구조화된 금액·비율·기간 필드를 함께 보고 해당 구간 또는 요건을 선택합니다.",
-      "basis_source": "source.law.customs-tariff",
-      "law_reference": "관세법 제14조"
-    }
-  ],
-  "structured_summary": {
-    "tax": {
-      "tax_year": 2026,
-      "rates": {},
-      "limits": {},
-      "thresholds": {},
-      "eligible_persons": [
-        "품목분류별 관세율표 적용"
-      ],
-      "required_documents": [],
-      "filing_deadlines": [],
-      "law_references": [
-        "관세법 제14조"
-      ]
-    }
-  },
-  "search_facets": {
-    "tax_type": "tax",
-    "applicable_year": 2026,
-    "law_reference": "관세법 제14조"
-  },
-  "provenance_shard": "reference",
-  "source_registry_id": "source.customs-act.2026.article14",
-  "source_registry_status": "registered",
-  "provenance": [
-    {
-      "source_id": "source.customs-act.2026.article14",
-      "original_url": "https://law.go.kr/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=900015991",
-      "source_record_id": null,
-      "locator": null,
-      "supported_fields": [
-        "title",
-        "type",
-        "description",
-        "folder",
-        "basis_year",
-        "reviewed_at",
-        "abolition_status",
-        "revision_status",
-        "law_reference",
-        "criteria",
-        "structured_summary",
-        "search_facets",
-        "provenance_shard",
-        "source_registry_id",
-        "source_registry_status"
-      ],
-      "source_published_at": null,
-      "source_modified_at": null,
-      "collected_at": "2026-05-04T00:00:00.000Z",
-      "reviewed_at": "2026-05-04T00:00:00.000Z",
-      "valid_from": null,
-      "valid_to": null,
-      "checksum": null,
-      "checksum_scope": null,
-      "verification_status": "reference_only"
-    },
-    {
-      "source_id": "source.law.customs-tariff",
-      "original_url": "https://www.law.go.kr/법령/관세법/별표",
-      "source_record_id": null,
-      "locator": null,
-      "supported_fields": [
-        "title",
-        "type",
-        "description",
-        "folder",
-        "basis_year",
-        "reviewed_at",
-        "abolition_status",
-        "revision_status",
-        "law_reference",
-        "criteria",
-        "structured_summary",
-        "search_facets",
-        "provenance_shard",
-        "source_registry_id",
-        "source_registry_status"
-      ],
-      "source_published_at": null,
-      "source_modified_at": null,
-      "collected_at": "2026-05-04T00:00:00.000Z",
-      "reviewed_at": "2026-05-04T00:00:00.000Z",
-      "valid_from": null,
-      "valid_to": null,
-      "checksum": null,
-      "checksum_scope": null,
-      "verification_status": "reference_only"
-    }
-  ],
   "publication_memberships": [
     "korea-tax-ontology-2026.json"
+  ],
+  "search_shard": "reference",
+  "status": "reference_only",
+  "sales_status": "unknown",
+  "recommendation_status": "reference_only",
+  "recommendation_scope": "listing_only",
+  "comparison_engine_gate_passed": false,
+  "domain_gate_passed": false,
+  "criteria": [
+    {
+      "label": "과세대상·과세표준",
+      "condition": "수입물품에 부과하며 과세표준은 수입물품의 가격 또는 수량입니다. 가격에 세율을 곱하는 종가세와 수량에 세액을 적용하는 종량세를 구분합니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.customs-act.full",
+      "criteria_kind": "disclosure"
+    },
+    {
+      "label": "과세가격",
+      "condition": "실제 지급가격에 법정 수수료·포장비·생산지원비·권리사용료·판매자 귀속 수익·수입항까지의 운임과 보험료 등을 조정합니다. 구매수수료는 가산 대상에서 제외하며, 명백히 구분되는 수입 후 비용·국내 세금 등은 법정 기준에 따라 제외합니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.customs-act.full",
+      "criteria_kind": "disclosure"
+    },
+    {
+      "label": "거래가격을 쓸 수 없는 경우",
+      "condition": "가격에 영향을 주는 특수관계, 금액으로 계산할 수 없는 조건, 입증자료 부족 등에는 제31조부터 제35조의 대체 과세가격 결정방법을 적용합니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.customs-act.full",
+      "criteria_kind": "disclosure"
+    },
+    {
+      "label": "세율 선택",
+      "condition": "모든 수입품에 하나의 세율을 적용하지 않습니다. 품목별 관세율표의 기본·잠정세율과 법정 조정세율, 적용 우선순위 및 협정 적용요건을 확인해야 합니다. 잠정세율은 기본세율보다 우선하지만 다른 세율의 우선 적용에는 제50조의 조건이 있습니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.customs-act.full",
+      "criteria_kind": "disclosure"
+    }
+  ],
+  "sources": [
+    "source.law.customs-act.full"
+  ],
+  "source_urls": [
+    "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=288689&chrClsCd=010202&urlMode=lsInfoP&efYd=20260811&ancYnChk=0"
+  ],
+  "collected_at": "2026-09-24T08:14:56.108730+00:00",
+  "source_collected_at": "2026-09-24T08:14:56.108730+00:00",
+  "last_source_checked_at": "2026-09-24T08:14:56.108730+00:00",
+  "last_reviewed_at": "2026-09-24",
+  "reviewed_at": "2026-09-24",
+  "refresh_generation": "2026-09-24T08:14:56.108730+00:00",
+  "review_scope": "공식 공시의 식별자·본문·필드 연결 확인",
+  "source_listing_status": "listed",
+  "source_freshness_status": "current",
+  "freshness_status": "current",
+  "verification_status": "listing_only",
+  "sales_verification_status": "listed_unverified",
+  "current_disclosure": {
+    "path": "opentax/disclosures/ef74b4896a0d4f1e34bf98e9.json",
+    "checksum": "sha256:f4d527839ae8c3413b216695080c26f4ea365461b13e23efd72d9484eda72728",
+    "checksum_scope": "normalized-disclosure-json",
+    "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=288689&chrClsCd=010202&urlMode=lsInfoP&efYd=20260811&ancYnChk=0",
+    "collected_at": "2026-09-24T08:14:56.108730+00:00"
+  },
+  "provenance": [
+    {
+      "source_id": "source.law.customs-act.full",
+      "original_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=288689&chrClsCd=010202&urlMode=lsInfoP&efYd=20260811&ancYnChk=0",
+      "source_record_id": "tax.customs",
+      "collected_at": "2026-09-24T08:14:56.108730+00:00",
+      "reviewed_at": "2026-09-24T00:00:00+09:00",
+      "checksum": "sha256:5ab72e72d79be60d0fbbd194d7e6cfecd3240d57893400d84723d3266801c3ff",
+      "checksum_scope": "official-disclosure-response",
+      "verification_status": "listing_only",
+      "supported_fields": [
+        "title",
+        "description",
+        "criteria",
+        "current_disclosure"
+      ],
+      "locator": {
+        "kind": "record-id",
+        "value": "tax.customs"
+      }
+    }
   ],
   "search_projection": {
     "id": "tax.customs",
     "title": "관세",
     "type": "tax",
     "description": "수입물품에 부과되는 조세입니다. 국세기본법 제2조의 국세 열거와 별도로 관세법 제14조를 근거로 관리합니다.",
-    "provider": null,
-    "product_kind": null,
-    "search_type": null,
-    "product_status": null,
-    "sales_status": null,
-    "source_listing_status": null,
-    "sales_verification_status": null,
-    "sales_verified_at": null,
-    "condition_verification_status": null,
-    "source_freshness_status": null,
-    "status": null,
-    "status_reason": null,
-    "recommendation_status": null,
-    "recommendation_scope": null,
-    "catalog_recommendation_status": null,
-    "catalog_recommendation_scope": null,
-    "canonical_product_id": null,
-    "resolved_canonical_product_id": null,
-    "external_product_ids": [],
-    "provider_external_ids": [],
-    "provider_roles": [],
-    "source_records": [],
-    "preferred_source": null,
-    "merged_fields": {},
-    "field_provenance": {},
-    "field_conflicts": {},
-    "recommendation_model_version": "openfin-recommendation-v0.1.0",
-    "recommendation_exclusion_reasons": [],
-    "recommendation_basis_fields": [],
-    "verification_evidence": null,
-    "verification_status": null,
-    "quality_flags": [],
-    "last_verified_at": null,
-    "last_source_checked_at": null,
-    "last_reviewed_at": null,
-    "public_recommendation_exclusion_reasons": [],
-    "comparison_exclusion_reasons": [],
-    "discovery_limitations": [],
-    "missing_required_fields": [],
-    "missing_in_source_fields": [],
-    "unmapped_existing_fields": [],
-    "unverified_fields": [],
-    "discovery_evidence_fields": [],
-    "completeness_ratio": null,
-    "source_completeness_ratio": null,
-    "normalized_completeness_ratio": null,
-    "verified_completeness_ratio": null,
-    "required_field_count": null,
-    "completed_field_count": null,
-    "domain_gate_passed": null,
-    "comparison_engine_gate_passed": null,
-    "comparison_field_verification_status": null,
-    "comparison_field_verification": {},
-    "comparison_basis_fields": [],
-    "comparison_options": [],
-    "application_status": null,
-    "is_currently_applicable": null,
-    "application_open_from": null,
-    "application_open_to": null,
-    "application_window": {},
-    "jurisdiction": null,
-    "jurisdiction_code": null,
-    "jurisdiction_aliases": [],
-    "parent_jurisdiction_code": null,
-    "administrative_history": [],
-    "target_group": [],
-    "support_category": [],
-    "last_status_checked_at": null,
-    "freshness_status": null,
-    "collection_status": null,
-    "legacy_ids": [],
-    "search_aliases": [],
-    "aliases": [],
-    "export_id": "tax-ontology",
-    "source_checksum": null,
+    "status": "reference_only",
+    "sales_status": "unknown",
     "source_urls": [
-      "https://law.go.kr/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=900015991",
-      "https://www.law.go.kr/법령/관세법/별표"
+      "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=288689&chrClsCd=010202&urlMode=lsInfoP&efYd=20260811&ancYnChk=0"
     ],
-    "source_basis_dates": [
-      "2026-01-01T00:00:00.000Z",
-      "2026-05-03T00:00:00.000Z"
-    ],
-    "structured_summary": {
-      "rates": {},
-      "limits": {},
-      "periods": {},
-      "card": {},
-      "insurance": {},
-      "support": {
-        "application_window": {}
-      }
-    },
-    "search_facets": {},
-    "search_text": "tax.customs 관세 tax 수입물품에 부과되는 조세입니다. 국세기본법 제2조의 국세 열거와 별도로 관세법 제14조를 근거로 관리합니다. 관세법 제14조 source.customs-act.2026.article",
-    "provenance_shard": "reference",
+    "freshness_status": "current",
+    "recommendation_status": "reference_only",
+    "recommendation_scope": "listing_only",
     "source_ids": [
-      "source.customs-act.2026.article14",
-      "source.law.customs-tariff"
-    ]
+      "source.law.customs-act.full"
+    ],
+    "export_id": "tax-ontology",
+    "search_text": "관세 수입물품에 부과되는 조세입니다. 국세기본법 제2조의 국세 열거와 별도로 관세법 제14조를 근거로 관리합니다."
   },
-  "search_shard": "reference",
-  "search_position": 623,
-  "legacy_compatibility_dates": [
-    {
-      "path": [
-        "source_basis_dates",
-        0
-      ],
-      "value": "시행 2026-01-01"
-    },
-    {
-      "path": [
-        "source_basis_dates",
-        1
-      ],
-      "value": "2026-05-03 확인"
-    },
-    {
-      "path": [
-        "search_projection",
-        "source_basis_dates",
-        0
-      ],
-      "value": "시행 2026-01-01"
-    },
-    {
-      "path": [
-        "search_projection",
-        "source_basis_dates",
-        1
-      ],
-      "value": "2026-05-03 확인"
-    }
-  ],
-  "record_checksum": "sha256:70fac01c315a01b770a2aa29b64a7b79d35bbd0fcf3b098881751aaeb5b32918"
+  "record_checksum": "sha256:ca2b5f2d212b5fe44028034bcace1a10f5c872e7e4c5bfbeccac86a5be5df537"
 }
 ---
 
 # 관세
 
 수입물품에 부과되는 조세입니다. 국세기본법 제2조의 국세 열거와 별도로 관세법 제14조를 근거로 관리합니다.
+
+- **과세대상·과세표준**: 수입물품에 부과하며 과세표준은 수입물품의 가격 또는 수량입니다. 가격에 세율을 곱하는 종가세와 수량에 세액을 적용하는 종량세를 구분합니다.
+- **과세가격**: 실제 지급가격에 법정 수수료·포장비·생산지원비·권리사용료·판매자 귀속 수익·수입항까지의 운임과 보험료 등을 조정합니다. 구매수수료는 가산 대상에서 제외하며, 명백히 구분되는 수입 후 비용·국내 세금 등은 법정 기준에 따라 제외합니다.
+- **거래가격을 쓸 수 없는 경우**: 가격에 영향을 주는 특수관계, 금액으로 계산할 수 없는 조건, 입증자료 부족 등에는 제31조부터 제35조의 대체 과세가격 결정방법을 적용합니다.
+- **세율 선택**: 모든 수입품에 하나의 세율을 적용하지 않습니다. 품목별 관세율표의 기본·잠정세율과 법정 조정세율, 적용 우선순위 및 협정 적용요건을 확인해야 합니다. 잠정세율은 기본세율보다 우선하지만 다른 세율의 우선 적용에는 제50조의 조건이 있습니다.

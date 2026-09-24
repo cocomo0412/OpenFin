@@ -83,7 +83,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/f4b6f8aa84813b6bb13cc459.json",
-    "checksum": "sha256:43b7b64df45c93bf1e311eab245768a3be2093001b7af673eae714b2720072bf",
+    "checksum": "sha256:234164468d9bc6810a5860ff3039d1af20f29a70f17660a3b6430f0369f25ee5",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:20.830416+00:00"
@@ -129,7 +129,7 @@
     "export_id": "tax-ontology",
     "search_text": "추가공제 경로우대, 장애인, 부녀자, 한부모 등 추가 요건에 따른 인적공제입니다."
   },
-  "record_checksum": "sha256:3e500a07126e8fe08b5b586ccecf479d3086385a000e647a8807fc38bfce47c3"
+  "record_checksum": "sha256:dfc252fcb3dfb713fc345fc0e8695a743bd0a3823ab0d0f4ff5ee349f69a6aa2"
 }
 ---
 

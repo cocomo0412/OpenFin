@@ -63,7 +63,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/18af752c97b2dfd3629153fd.json",
-    "checksum": "sha256:271827e6343e88746915f04bd488d3c11769f59ceca5d9d060d86ef885906340",
+    "checksum": "sha256:7ce95f2a279dfdb04b88d7a581d472843668f8431b3cb49e8903aec9132afeee",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:20.830416+00:00"
@@ -109,7 +109,7 @@
     "export_id": "tax-ontology",
     "search_text": "원천세 반기별 납부 법정 반기납부 대상 원천징수의무자는 반기 마지막 달의 다음 달 10일까지 납부할 수 있습니다. 소득처분 상여·배당 등 제128조 제2항의 제외 세액에는 적용하지 않습니다."
   },
-  "record_checksum": "sha256:bf0fcd649edb27711c4b54a75675b751c8783e671585cf48f4957cde4e686db6"
+  "record_checksum": "sha256:8718a636cf640158c6cef955f7610a8b3b9806b07f8b5ff56ba0369082d898e9"
 }
 ---
 

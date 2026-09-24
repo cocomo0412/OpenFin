@@ -69,7 +69,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/e2ab61663674ca3a68eaf120.json",
-    "checksum": "sha256:7e7abb4df31ef768e48013bd07dc0e475e9ad8f8e483cbc81820edfb0539da65",
+    "checksum": "sha256:86361f324799b2483a05cd3fd3206806f78c4f8ef681baa3982a889911b23ef9",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=282559&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:22.571307+00:00"
@@ -130,7 +130,7 @@
     "export_id": "tax-ontology",
     "search_text": "개인지방소득세 종합소득 확정신고 개인지방소득세 종합소득 확정신고는 종합소득세 신고기한까지입니다. 2025년 귀속 일반 신고는 2026년 6월 1일, 성실신고확인서 제출자는 6월 30일까지입니다."
   },
-  "record_checksum": "sha256:e1520d024d193cf5b2cf90bc29143f50c25af1ee0e5a18599c9abacd7d881e3e"
+  "record_checksum": "sha256:d437f8ed1ece1743adb5b23aacef4710d7f86cc4ca41a6c95e61e8e5d9d8e81d"
 }
 ---
 

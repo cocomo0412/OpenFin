@@ -56,5 +56,27 @@
     "https://brand.metlife.co.kr/pn/mcvrgProd/retrieveMcvrgProdMain.do"
   ],
   "document_scope": "comparison-disclosure attachments; full policy terms not verified",
-  "policy_documents": []
+  "policy_documents": [
+    {
+      "index_url": "https://brand.metlife.co.kr/pn/mcvrgProd/retrieveMcvrgProdMain.do",
+      "url": "https://brand.metlife.co.kr/pn/mcvrgProd/mcvrgProdDownloadFile.do?insProdSeq=403&seq=4182&fnum=03",
+      "document_type": "policy-terms",
+      "product_title": "무배당 더해주고채워주는정기보험",
+      "context": "2026.07.01 ~ 14_01_사업방법서_무배당더해주고채워주는정기보험_202602.pdf 상품요약서_무배당더해주고채워주는정기보험_20260701_v1_특약수정.pdf 무배당 더해주고채워주는정기보험_12284_20260701.pdf - - 특약보기",
+      "effective_from": "2026-07-01",
+      "page_count": 169,
+      "text_characters": 139987,
+      "scope": "current policy document collected; individual clause review pending",
+      "receipt": {
+        "url": "https://brand.metlife.co.kr/pn/mcvrgProd/mcvrgProdDownloadFile.do?insProdSeq=403&seq=4182&fnum=03",
+        "final_url": "https://brand.metlife.co.kr/pn/mcvrgProd/mcvrgProdDownloadFile.do?insProdSeq=403&seq=4182&fnum=03",
+        "http_status": 200,
+        "collected_at": "2026-09-24T08:53:11.110214+00:00",
+        "request_method": "GET",
+        "request_form": null,
+        "sha256": "c8c84569f06e7e524decf38ec21c3d379c2db350603a11b30a23a68a125c5702"
+      }
+    }
+  ],
+  "reviewed_at": "2026-09-23T08:20:28.247939+00:00"
 }

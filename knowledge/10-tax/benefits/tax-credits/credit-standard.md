@@ -71,7 +71,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/455d00a30cc68e4d44f5e30d.json",
-    "checksum": "sha256:b25b111915e3791b35bf280f9de9cb8aaa311c0c0985cac27393cc0e6c9d07e9",
+    "checksum": "sha256:eb7e7c666d2e941ffaeda807b3d0619e9474354609e187488384a47a2b356d8f",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:20.830416+00:00"
@@ -117,7 +117,7 @@
     "export_id": "tax-ontology",
     "search_text": "표준세액공제 특별소득공제·특별세액공제·월세액 세액공제를 신청하지 않은 거주자에게 정액으로 적용되는 세액공제입니다."
   },
-  "record_checksum": "sha256:4fdcf6d40ea16f04f6c43c309dcbd04488c3a7b29c6f07d7506a9cc115cefdfa"
+  "record_checksum": "sha256:27d0b020dc5a2e2cf80cecb57d59b5f6effd9413d305b32f3aaf2b264916b620"
 }
 ---
 

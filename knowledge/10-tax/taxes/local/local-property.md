@@ -262,7 +262,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/bcf280996c36044fb8aa0cef.json",
-    "checksum": "sha256:fbb954fe735c2ffaa650cb356fd200b37398e3302ed0faf46c9d19af9abeab06",
+    "checksum": "sha256:be33c7379bc7fb48043deaea5bdbcb9cdd63ba0c25f82f4dbc0e8eabdd4d0d9a",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=282559&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:22.571307+00:00"
@@ -308,7 +308,7 @@
     "export_id": "tax-ontology",
     "search_text": "재산세 기존 구조화 표는 지방세법 제111조의 일반 주택·토지 세율입니다. 1세대 1주택 특례와 조례상 조정, 감면을 적용하기 전의 기준입니다."
   },
-  "record_checksum": "sha256:8a4617340ce85d57a21b4cf0a7dfde9a78d2262de7dfab79fe7ec647d8a189ca"
+  "record_checksum": "sha256:974997c9c686e5af827c11e44f7233fba142f09a5b933b811336601284d3f21c"
 }
 ---
 

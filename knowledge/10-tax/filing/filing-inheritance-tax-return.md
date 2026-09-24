@@ -75,7 +75,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/555a7c61cf979d2b7569719f.json",
-    "checksum": "sha256:5229899031989273468c4c60ed1d7568c2717aee0d9c7cffc797a77d057c5020",
+    "checksum": "sha256:42c1199297fb9b4decaa5545f2aa8a961617b4ecbec45074f4dac99e0c506ca3",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276123&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:22.158326+00:00"
@@ -121,7 +121,7 @@
     "export_id": "tax-ontology",
     "search_text": "상속세 신고 상속개시일이 속하는 달의 말일부터 거주자 6개월, 비거주자 9개월 기한을 기준으로 신고·납부를 관리하는 절차입니다."
   },
-  "record_checksum": "sha256:a2a21759e3f5abc0f6c450155a9aafbf9882121c80f50cc1f8fdcd8bd1d3e08d"
+  "record_checksum": "sha256:af2766dba620807008dd2fb5e00f9170e07d44e11f3653ccda82bec9a86ec97c"
 }
 ---
 

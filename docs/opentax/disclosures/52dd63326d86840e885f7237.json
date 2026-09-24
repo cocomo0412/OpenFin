@@ -55,5 +55,27 @@
     "https://www.hanalife.co.kr/anm/product/allProduct.do?status=on"
   ],
   "document_scope": "comparison-disclosure attachments; full policy terms not verified",
-  "policy_documents": []
+  "policy_documents": [
+    {
+      "index_url": "https://www.hanalife.co.kr/anm/product/allProduct.do?status=on",
+      "url": "https://www.hanalife.co.kr/anm/product/download.do?code=611074&seq=1",
+      "document_type": "policy-terms",
+      "product_title": "(무)하나로 라이트 3.10.5 간편건강보험(갱신형)",
+      "context": "개인 보장 (무)하나로 라이트 3.10.5 간편건강보험(갱신형) 2026.09.01 - 다운로드 다운로드 다운로드",
+      "effective_from": "2026-09-01",
+      "page_count": 1482,
+      "text_characters": 1856001,
+      "scope": "current policy document collected; individual clause review pending",
+      "receipt": {
+        "url": "https://www.hanalife.co.kr/anm/product/download.do?code=611074&seq=1",
+        "final_url": "https://www.hanalife.co.kr/anm/product/download.do?code=611074&seq=1",
+        "http_status": 200,
+        "collected_at": "2026-09-24T08:50:40.436995+00:00",
+        "request_method": "GET",
+        "request_form": null,
+        "sha256": "339f0c679ce226913196f90f08f7dc6514c295128e4037574963684779148480"
+      }
+    }
+  ],
+  "reviewed_at": "2026-09-23T08:20:27.155704+00:00"
 }

@@ -145,7 +145,7 @@
         <p class="eyebrow">ChatGPT Connector</p>
         <h2 id="mcp-title">ChatGPT에 OpenFin MCP 연결하기</h2>
         <p>
-          무료 OpenFin MCP는 세금·공제 스냅샷 387개를 검색·조회하는 공개 읽기 전용 서버입니다.<br>
+          무료 OpenFin MCP는 세금·공제 스냅샷 <span data-domain-count="tax">확인 중</span>개를 검색·조회하는 공개 읽기 전용 서버입니다.<br>
           OAuth 인증 없이 아래 URL을 MCP 지원 앱에 연결할 수 있습니다.
         </p>
         <p>
@@ -186,7 +186,7 @@
         </article>
         <article>
           <h3>search</h3>
-          <p>세금·공제 387개에서 키워드로 검색하고 최대 10개 결과를 반환합니다.</p>
+          <p>세금·공제 <span data-domain-count="tax">확인 중</span>개에서 키워드로 검색하고 최대 10개 결과를 반환합니다.</p>
         </article>
         <article>
           <h3>fetch</h3>
@@ -267,10 +267,10 @@
         <h3 id="collection-update-title">최근 데이터 수집·검증</h3>
         <div class="collection-entry"><strong>보호대상 금융회사</strong><p data-collection-result>금융회사 목록 갱신 결과를 확인 중입니다.</p></div>
         <div class="collection-entry"><strong>상품·통계 수집</strong><p data-resolved-collections>예금자보호 상품·국내은행 통계 수집 결과를 불러오는 중입니다.</p></div>
-        <div class="collection-entry"><strong>예금·적금</strong><p>2026-09-23 은행·저축은행의 전체 페이지에서 예금 432건, 적금 335건을 수집했습니다. 금리와 가입조건을 본문·검색에 반영했으며, 개인별 비교·추천 검증은 별도입니다.</p></div>
+        <div class="collection-entry"><strong>예금·적금</strong><p data-bank-collection>예금·적금 수집 결과를 불러오는 중입니다.</p></div>
         <div class="collection-entry"><strong>공식 API 자료</strong><p data-api-collection-summary>공식 API 수집 현황을 불러오는 중입니다.</p></div>
         <p class="collection-search"><a href="./api-data.html">최신 공식 API 자료 검색 →</a></p>
-        <details><summary>API별 수집 건수·자료 기준일 보기</summary><p>수집본은 공식 API 자료 검색에 반영했습니다. 수집본 검사는 상품 내용의 정확성 검증과 다르며, 기존 온톨로지 상품과의 병합은 별도입니다.</p><div data-api-collection-list></div><a href="./opentax/collection-inventory.json">수집 현황 JSON 보기</a></details>
+        <details><summary>API별 수집 건수·자료 기준일 보기</summary><p>API별 수집 건수와 제공기관 기준일입니다. 수집본은 본문·검색에 반영했으며, 개별 자료의 공시 기준일은 수집일과 다를 수 있습니다.</p><div data-api-collection-list></div><a href="./opentax/collection-inventory.json">수집 현황 JSON 보기</a></details>
         <details>
           <summary>새로 수집한 보호대상 금융회사 목록 보기</summary>
           <p>금융회사 등재 확인용 목록이며, 개별 상품의 보호 여부·판매 상태·금리를 보증하지 않습니다. 제공기관이 기준일을 별도로 제공하지 않아 수집일과 구분합니다.</p>
@@ -286,7 +286,7 @@
       </div>
     </section>
   </main>
-  <script type="module" src="./collection-status.js?v=2026.09.23.8"></script>
+  <script type="module" src="./collection-status.js?v=2026.09.24.1"></script>
 
   <footer class="site-footer">
     <span>© 2026 cocomo0412</span>

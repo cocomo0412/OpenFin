@@ -63,7 +63,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/8f8ee60ffb582e9dc0aa0847.json",
-    "checksum": "sha256:751bcfec01d40826b72019d7ee57f6614273cc8050658871b4fe37c511664f7b",
+    "checksum": "sha256:c2cbd39364ebfcd52decac63ed4bfdb0eaa7f5389f5059e07398f30c741b70fd",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:20.830416+00:00"
@@ -109,7 +109,7 @@
     "export_id": "tax-ontology",
     "search_text": "양도소득세 예정신고 법정 부동산 등은 양도월 말일부터 2개월, 국내주식 등은 양도 반기 말일부터 2개월입니다. 부담부증여는 양도월 말일부터 3개월이며 국외주식·파생상품 등에 이 예정신고기한을 그대로 적용하지 않습니다."
   },
-  "record_checksum": "sha256:b8c75912754cf0e4b95de3051bc6b01b5de151f2066016a84e6cfda69234d324"
+  "record_checksum": "sha256:b2125d1700fcde625da49007c3905364f9e62233258223db659fd37693b8dbd4"
 }
 ---
 

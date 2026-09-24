@@ -56,5 +56,51 @@
     "https://www.heungkuklife.co.kr/front/public/saleProduct.do?searchFlgSale=Y"
   ],
   "document_scope": "comparison-disclosure attachments; full policy terms not verified",
-  "policy_documents": []
+  "policy_documents": [
+    {
+      "index_url": "https://www.heungkuklife.co.kr/front/public/saleProduct.do?searchFlgSale=Y",
+      "url": "https://www.heungkuklife.co.kr/servlet/DownLoadEnc.do",
+      "document_type": "policy-terms",
+      "product_title": "(무)흥국생명 다(多)사랑통합보험V2",
+      "context": "(무)흥국생명 다(多)사랑통합보험V2 2026.08.10 ~ 현재 (무)흥국생명 다(多)사랑통합보험V2_인쇄용약관(20260810_P0001901~P0002201)_공시용.pdf",
+      "effective_from": "2026-08-10",
+      "page_count": 1736,
+      "text_characters": 3080905,
+      "scope": "current policy document collected; individual clause review pending",
+      "receipt": {
+        "url": "https://www.heungkuklife.co.kr/servlet/DownLoadEnc.do",
+        "final_url": "https://www.heungkuklife.co.kr/servlet/DownLoadEnc.do",
+        "http_status": 200,
+        "collected_at": "2026-09-24T08:54:47.831328+00:00",
+        "request_method": "POST",
+        "request_form": {
+          "encValue": "Ej/K91qjDbXImA0Mmaeiva+1EAGaD86Sb8Zahnde0zCRt+q5/q7ojtsLPUl50ayE9X1bRa8xtyA8x3NegJ/fMj/lmn6bq+9YMZkyEnhPw7nH7Wihv/qVQcXNbO+K9PxZHwcpe3Afe25Kl5EdASzl47V30PddFu+vay5/lSeg2gQA=AAgA"
+        },
+        "sha256": "a0751ded25cfbddb79e5ccb3682133fd7fc92ebcc9573970c742d49cc8f98acb"
+      }
+    },
+    {
+      "index_url": "https://www.heungkuklife.co.kr/front/public/saleProduct.do?searchFlgSale=Y",
+      "url": "https://www.heungkuklife.co.kr/servlet/DownLoadEnc.do",
+      "document_type": "policy-terms",
+      "product_title": "(무)흥국생명 다(多)사랑통합보험V2",
+      "context": "(무)흥국생명 다(多)사랑통합보험V2 2026.08.10 ~ 현재 (무)흥국생명 다(多)사랑통합보험V2(갱신형)_인쇄용약관(20260810_P0001501~P0001801)_공시용.pdf",
+      "effective_from": "2026-08-10",
+      "page_count": 1776,
+      "text_characters": 3183717,
+      "scope": "current policy document collected; individual clause review pending",
+      "receipt": {
+        "url": "https://www.heungkuklife.co.kr/servlet/DownLoadEnc.do",
+        "final_url": "https://www.heungkuklife.co.kr/servlet/DownLoadEnc.do",
+        "http_status": 200,
+        "collected_at": "2026-09-24T08:54:55.468317+00:00",
+        "request_method": "POST",
+        "request_form": {
+          "encValue": "Ej/K91qjDbXImA0Mmaeiva+1EAGaD86Sb8Zahnde0zCY4BlwOMJMtrm6N+XQIxKuhgnI9b+jKyOo3W3e5kEnhpscZIUnsHjYarxXouUiwTUMdB9gqYzCUbLkCz7opq1BDG/jcvWX2bh8cWnJA0nHzP3uBHLoVw2sheCdE9rVBoYA=ABAA"
+        },
+        "sha256": "1276288e6328ebfd755a4abe310ac66ba274875812c008ff3e9e3f82e35353f9"
+      }
+    }
+  ],
+  "reviewed_at": "2026-09-23T08:20:26.132951+00:00"
 }

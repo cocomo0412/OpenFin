@@ -97,7 +97,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/5e33706356f7a475076b9b16.json",
-    "checksum": "sha256:fbcff67ce7a93d9747b9a003fed0921be82d8c26d73cdbd8b2aa527a89e5611c",
+    "checksum": "sha256:47c9d245b0ad7387f9eb0a5fc87fd320506063e2e5de4dcfe459424013739115",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:20.830416+00:00"
@@ -143,7 +143,7 @@
     "export_id": "tax-ontology",
     "search_text": "의료비 세액공제 총급여액의 일정 비율 초과 의료비 등에 대한 특별세액공제입니다."
   },
-  "record_checksum": "sha256:4383928912984f6a30255746b27d0a9f76b93b4cbe32a8d39cdd1ddfb7248d0a"
+  "record_checksum": "sha256:e608336ba6441ec60ef296aa614ca09add28d34530d78d77eab6ee7ab571fbc0"
 }
 ---
 

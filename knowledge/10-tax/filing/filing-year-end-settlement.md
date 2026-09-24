@@ -77,7 +77,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/8034c35f133cb9155cbe399e.json",
-    "checksum": "sha256:d2773ec76dd8ee9ffaab930321371cdfa38f2b7678063a26281482e7c7efba8d",
+    "checksum": "sha256:c10d525361398c8d4cd09bf8abe396aceed8da17732c629a7d15f11767c790d1",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:20.830416+00:00"
@@ -123,7 +123,7 @@
     "export_id": "tax-ontology",
     "search_text": "연말정산 원천징수의무자가 근로자의 해당 과세기간 근로소득세를 확정하는 절차입니다."
   },
-  "record_checksum": "sha256:9ecf8e6d5a1a063773e29e2ba913f3bab87926c303b3fcd8f4465e5c398ff9f3"
+  "record_checksum": "sha256:cbaceafd8c2a3c6c33fed0719ad30100b9bed6b111ebfb1798b746dae4def686"
 }
 ---
 

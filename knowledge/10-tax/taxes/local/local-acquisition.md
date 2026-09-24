@@ -68,7 +68,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/e206085d319e1d2202baecbb.json",
-    "checksum": "sha256:dd07773d212a0e3cdf278a93642ddc0ad7c481653b0fdb0daa89a4d863e5ca8d",
+    "checksum": "sha256:1ac06c1d8e42e77681f50802f9f396b32417821980c6e3e1a420499e8d655fba",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=282559&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:22.571307+00:00"
@@ -114,7 +114,7 @@
     "export_id": "tax-ontology",
     "search_text": "취득세 부동산·차량·기계장비·선박·회원권 등 법정 과세물건을 취득한 자에게 부과합니다. 등기 여부와 별개로 사실상 취득도 포함하며, 과세표준은 원칙적으로 취득 당시 가액입니다."
   },
-  "record_checksum": "sha256:1d3e25004d3a9b43e41dca2e8da526e87bb83aaca9f07d19ef4935d9b810c7be"
+  "record_checksum": "sha256:00035400521c3f8d126ac35068926b81705713f3fd43e51e813dc6475e146b4e"
 }
 ---
 

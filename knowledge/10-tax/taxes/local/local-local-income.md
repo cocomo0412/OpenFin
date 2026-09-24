@@ -79,7 +79,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/dd2f5b02fefa13f78e827e32.json",
-    "checksum": "sha256:1f9cb51ffd4f88075da864656bc62160eb5ab6131e65c3d9af23dfb8713d3ab2",
+    "checksum": "sha256:29451bc09c90f62b1af12f90667902180dec087b970c573806ccb5be07c9f588",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=282559&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:22.571307+00:00"
@@ -125,7 +125,7 @@
     "export_id": "tax-ontology",
     "search_text": "지방소득세 개인의 종합소득·퇴직소득·양도소득과 법인소득은 각각의 과세표준·세율·계산 규정을 적용합니다. 국세 납부액에 일률적으로 10%를 곱하는 설명만으로 모든 지방소득세를 계산할 수 없습니다."
   },
-  "record_checksum": "sha256:e283ac2c0106b10c94a90bdee85bb2d21f163e27fbcdc105d4a7fa5702950d6c"
+  "record_checksum": "sha256:1340a743002ee6d7d1424b40cac8e1eea632353f12b0beaa8154ca3f866c87cd"
 }
 ---
 

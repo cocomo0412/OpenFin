@@ -1,7 +1,7 @@
 {
   "version": "OPENFIN-SOURCE-STATUS-2026.07.28.1",
-  "generated_at": "2026-09-23T07:29:03.565Z",
-  "source_count": 156,
+  "generated_at": "2026-09-24T10:24:18.981588+00:00",
+  "source_count": 168,
   "statuses": [
     {
       "checked_at": "2026-09-23T07:12:56.943Z",
@@ -2605,6 +2605,52 @@
       "id": "source.korea.youth-monthly-rent.2026"
     },
     {
+      "id": "source.law.comprehensive-real-estate-act.full",
+      "lifecycle_status": "active",
+      "status": "stale",
+      "checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_successful_checked_at": null,
+      "freshness_status": "stale",
+      "refresh": {
+        "sla_hours": 168,
+        "change_detection": "http-checksum"
+      },
+      "urls": {
+        "canonical": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280417&chrClsCd=010202&urlMode=lsInfoP&efYd=20260101&ancYnChk=0",
+        "api": null,
+        "documentation": null,
+        "all": [
+          "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280417&chrClsCd=010202&urlMode=lsInfoP&efYd=20260101&ancYnChk=0"
+        ]
+      },
+      "stale": true,
+      "verification_status": "baseline_reference",
+      "needs_live_check": true
+    },
+    {
+      "id": "source.law.comprehensive-real-estate-decree.ratio",
+      "lifecycle_status": "active",
+      "status": "stale",
+      "checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_successful_checked_at": null,
+      "freshness_status": "stale",
+      "refresh": {
+        "sla_hours": 168,
+        "change_detection": "http-checksum"
+      },
+      "urls": {
+        "canonical": "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=283639&joNo=0002&joBrNo=04&docCls=jo&urlMode=lsScJoRltInfoR",
+        "api": null,
+        "documentation": null,
+        "all": [
+          "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=283639&joNo=0002&joBrNo=04&docCls=jo&urlMode=lsScJoRltInfoR"
+        ]
+      },
+      "stale": true,
+      "verification_status": "baseline_reference",
+      "needs_live_check": true
+    },
+    {
       "checked_at": "2026-09-23T07:12:56.943Z",
       "status": "unchanged",
       "canonical_url": "https://www.law.go.kr/법령/법인세법",
@@ -2635,6 +2681,29 @@
       "checksum_bytes": 1270,
       "checksum_truncated": false,
       "id": "source.law.corporate-tax-act.credits"
+    },
+    {
+      "id": "source.law.customs-act.full",
+      "lifecycle_status": "active",
+      "status": "stale",
+      "checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_successful_checked_at": null,
+      "freshness_status": "stale",
+      "refresh": {
+        "sla_hours": 168,
+        "change_detection": "http-checksum"
+      },
+      "urls": {
+        "canonical": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=288689&chrClsCd=010202&urlMode=lsInfoP&efYd=20260811&ancYnChk=0",
+        "api": null,
+        "documentation": null,
+        "all": [
+          "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=288689&chrClsCd=010202&urlMode=lsInfoP&efYd=20260811&ancYnChk=0"
+        ]
+      },
+      "stale": true,
+      "verification_status": "baseline_reference",
+      "needs_live_check": true
     },
     {
       "checked_at": "2026-09-23T07:12:56.943Z",
@@ -2701,6 +2770,52 @@
       "id": "source.law.education-tax-act.article5"
     },
     {
+      "id": "source.law.education-tax-act.full",
+      "lifecycle_status": "active",
+      "status": "stale",
+      "checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_successful_checked_at": null,
+      "freshness_status": "stale",
+      "refresh": {
+        "sla_hours": 168,
+        "change_detection": "http-checksum"
+      },
+      "urls": {
+        "canonical": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280369&chrClsCd=010202&urlMode=lsInfoP&efYd=20260101&ancYnChk=0",
+        "api": null,
+        "documentation": null,
+        "all": [
+          "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280369&chrClsCd=010202&urlMode=lsInfoP&efYd=20260101&ancYnChk=0"
+        ]
+      },
+      "stale": true,
+      "verification_status": "baseline_reference",
+      "needs_live_check": true
+    },
+    {
+      "id": "source.law.income-decree.capital-gains",
+      "lifecycle_status": "active",
+      "status": "stale",
+      "checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_successful_checked_at": null,
+      "freshness_status": "stale",
+      "refresh": {
+        "sla_hours": 168,
+        "change_detection": "http-checksum"
+      },
+      "urls": {
+        "canonical": "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=286211&joNo=0167&joBrNo=09&docCls=jo&urlMode=lsScJoRltInfoR",
+        "api": null,
+        "documentation": null,
+        "all": [
+          "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=286211&joNo=0167&joBrNo=09&docCls=jo&urlMode=lsScJoRltInfoR"
+        ]
+      },
+      "stale": true,
+      "verification_status": "baseline_reference",
+      "needs_live_check": true
+    },
+    {
       "checked_at": "2026-09-23T07:12:56.943Z",
       "status": "unchanged",
       "canonical_url": "https://www.law.go.kr/법령/소득세법",
@@ -2731,6 +2846,29 @@
       "checksum_bytes": 1270,
       "checksum_truncated": false,
       "id": "source.law.income-tax-act.deductions-credits"
+    },
+    {
+      "id": "source.law.individual-consumption-decree.flexible",
+      "lifecycle_status": "active",
+      "status": "stale",
+      "checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_successful_checked_at": null,
+      "freshness_status": "stale",
+      "refresh": {
+        "sla_hours": 168,
+        "change_detection": "http-checksum"
+      },
+      "urls": {
+        "canonical": "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=288847&joNo=0002&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR",
+        "api": null,
+        "documentation": null,
+        "all": [
+          "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=288847&joNo=0002&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR"
+        ]
+      },
+      "stale": true,
+      "verification_status": "baseline_reference",
+      "needs_live_check": true
     },
     {
       "checked_at": "2026-09-23T07:12:56.943Z",
@@ -2797,6 +2935,29 @@
       "id": "source.law.inheritance-gift-tax-act.rates"
     },
     {
+      "id": "source.law.liquor-decree.rates",
+      "lifecycle_status": "active",
+      "status": "stale",
+      "checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_successful_checked_at": null,
+      "freshness_status": "stale",
+      "refresh": {
+        "sla_hours": 168,
+        "change_detection": "http-checksum"
+      },
+      "urls": {
+        "canonical": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=283483&chrClsCd=010202&urlMode=lsInfoP&efYd=20260401&ancYnChk=0",
+        "api": null,
+        "documentation": null,
+        "all": [
+          "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=283483&chrClsCd=010202&urlMode=lsInfoP&efYd=20260401&ancYnChk=0"
+        ]
+      },
+      "stale": true,
+      "verification_status": "baseline_reference",
+      "needs_live_check": true
+    },
+    {
       "checked_at": "2026-09-23T07:12:56.943Z",
       "status": "unchanged",
       "canonical_url": "https://www.law.go.kr/법령/주세법",
@@ -2859,6 +3020,29 @@
       "checksum_bytes": 1270,
       "checksum_truncated": false,
       "id": "source.law.local-tax-act.rates"
+    },
+    {
+      "id": "source.law.securities-transaction-decree.rates",
+      "lifecycle_status": "active",
+      "status": "stale",
+      "checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_successful_checked_at": null,
+      "freshness_status": "stale",
+      "refresh": {
+        "sla_hours": 168,
+        "change_detection": "http-checksum"
+      },
+      "urls": {
+        "canonical": "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=280901&joNo=0005&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR",
+        "api": null,
+        "documentation": null,
+        "all": [
+          "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=280901&joNo=0005&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR"
+        ]
+      },
+      "stale": true,
+      "verification_status": "baseline_reference",
+      "needs_live_check": true
     },
     {
       "checked_at": "2026-09-23T07:12:56.943Z",
@@ -2957,6 +3141,75 @@
       "id": "source.law.stamp-tax-act.article3"
     },
     {
+      "id": "source.law.tax-reduction-1997.housing",
+      "lifecycle_status": "active",
+      "status": "stale",
+      "checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_successful_checked_at": null,
+      "freshness_status": "stale",
+      "refresh": {
+        "sla_hours": 168,
+        "change_detection": "http-checksum"
+      },
+      "urls": {
+        "canonical": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=50697&chrClsCd=010202&efYd=19970830&ancYnChk=0",
+        "api": null,
+        "documentation": null,
+        "all": [
+          "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=50697&chrClsCd=010202&efYd=19970830&ancYnChk=0"
+        ]
+      },
+      "stale": true,
+      "verification_status": "baseline_reference",
+      "needs_live_check": true
+    },
+    {
+      "id": "source.law.tax-special-treatment-2012.pension",
+      "lifecycle_status": "active",
+      "status": "stale",
+      "checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_successful_checked_at": null,
+      "freshness_status": "stale",
+      "refresh": {
+        "sla_hours": 168,
+        "change_detection": "http-checksum"
+      },
+      "urls": {
+        "canonical": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=128964&chrClsCd=010202&efYd=20121002&ancYnChk=0",
+        "api": null,
+        "documentation": null,
+        "all": [
+          "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=128964&chrClsCd=010202&efYd=20121002&ancYnChk=0"
+        ]
+      },
+      "stale": true,
+      "verification_status": "baseline_reference",
+      "needs_live_check": true
+    },
+    {
+      "id": "source.law.tax-special-treatment-decree.e-filing",
+      "lifecycle_status": "active",
+      "status": "stale",
+      "checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_successful_checked_at": null,
+      "freshness_status": "stale",
+      "refresh": {
+        "sla_hours": 168,
+        "change_detection": "http-checksum"
+      },
+      "urls": {
+        "canonical": "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=288915&joNo=0104&joBrNo=05&docCls=jo&urlMode=lsScJoRltInfoR",
+        "api": null,
+        "documentation": null,
+        "all": [
+          "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=288915&joNo=0104&joBrNo=05&docCls=jo&urlMode=lsScJoRltInfoR"
+        ]
+      },
+      "stale": true,
+      "verification_status": "baseline_reference",
+      "needs_live_check": true
+    },
+    {
       "checked_at": "2026-09-23T07:12:56.943Z",
       "status": "changed",
       "canonical_url": "https://www.law.go.kr/법령/조세특례제한법",
@@ -2995,6 +3248,29 @@
       "needs_review": true,
       "change_detected": true,
       "id": "source.law.tax-special-treatment-restriction-act.reliefs"
+    },
+    {
+      "id": "source.law.transport-energy-decree.flexible",
+      "lifecycle_status": "active",
+      "status": "stale",
+      "checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_successful_checked_at": null,
+      "freshness_status": "stale",
+      "refresh": {
+        "sla_hours": 168,
+        "change_detection": "http-checksum"
+      },
+      "urls": {
+        "canonical": "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=288439&joNo=0003&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR",
+        "api": null,
+        "documentation": null,
+        "all": [
+          "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=288439&joNo=0003&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR"
+        ]
+      },
+      "stale": true,
+      "verification_status": "baseline_reference",
+      "needs_live_check": true
     },
     {
       "checked_at": "2026-09-23T07:12:56.943Z",
@@ -3112,7 +3388,7 @@
       "id": "source.mirae.isa-guide",
       "lifecycle_status": "active",
       "status": "stale",
-      "checked_at": "2026-09-23T07:29:03.565Z",
+      "checked_at": "2026-09-24T10:24:18.981588+00:00",
       "last_successful_checked_at": null,
       "freshness_status": "stale",
       "refresh": {
@@ -5754,9 +6030,10 @@
       "urls": {
         "canonical": "https://www.standardchartered.co.kr/np/kr/pl/se/SavingList.jsp",
         "api": null,
-        "documentation": null,
+        "documentation": "https://www.standardchartered.co.kr/np/kr/cm/cc/AnnonceList.jsp?PUB_NTC_PRDCT_TYPE_CD=E001&menuId=HT00050600000000&rnb=6&rnbStep=0",
         "all": [
-          "https://www.standardchartered.co.kr/np/kr/pl/se/SavingList.jsp"
+          "https://www.standardchartered.co.kr/np/kr/pl/se/SavingList.jsp",
+          "https://www.standardchartered.co.kr/np/kr/cm/cc/AnnonceList.jsp?PUB_NTC_PRDCT_TYPE_CD=E001&menuId=HT00050600000000&rnb=6&rnbStep=0"
         ]
       },
       "observed_etag": null,

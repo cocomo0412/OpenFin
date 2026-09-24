@@ -113,7 +113,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/7ef0fd3b687b1d2c37a4f9e0.json",
-    "checksum": "sha256:3f070d660059bf3b5b72b2f2814965198c502b016149fc202d5a9c4802a36684",
+    "checksum": "sha256:7269460017903892936681560d59c30a806c8b91ab78e5ac7b6288f98cbd7836",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:20.830416+00:00"
@@ -159,7 +159,7 @@
     "export_id": "tax-ontology",
     "search_text": "인적공제 기본공제와 추가공제로 구성되는 소득공제입니다."
   },
-  "record_checksum": "sha256:7549605102996ae152a5e63915e1da0810679f789afb30b923a0f3c50a543e30"
+  "record_checksum": "sha256:d6754d04d9a762fec3e1dbc75545c3c173bf7f25774a7d6d7b2be10997a4387d"
 }
 ---
 

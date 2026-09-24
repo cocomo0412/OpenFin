@@ -63,7 +63,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/bb26ed782fc5c134060eebbe.json",
-    "checksum": "sha256:e369b7414b1870d61bef09452b7a792eea318789328a8d6b7a0e76bd67089dab",
+    "checksum": "sha256:1bf9a50217b1bc4b75e98586bdb368a2c32b7e34327a40a6169f707f095ca73a",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:20.830416+00:00"
@@ -109,7 +109,7 @@
     "export_id": "tax-ontology",
     "search_text": "양도소득세 확정신고 양도소득세 확정신고는 원칙적으로 양도한 연도의 다음 해 5월 1~31일입니다. 예정신고 완료에 따른 생략과 복수 양도 합산 등 예외를 구분합니다."
   },
-  "record_checksum": "sha256:60ab51435e880df8118e637175188b0dabb57403aed09e5988fcead261081de5"
+  "record_checksum": "sha256:149cbd5f7bc2d5fa0a6162cf2ea511379fc1642d1ac53dea4545dbf53f0bf11e"
 }
 ---
 

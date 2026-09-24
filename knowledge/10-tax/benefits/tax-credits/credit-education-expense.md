@@ -88,7 +88,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/899b8c3fa444c2c26be29740.json",
-    "checksum": "sha256:3ff08f077844e4095d455b4e39dd982b2e633102c61bd36042d593c6678cfeae",
+    "checksum": "sha256:5806926aac4fe82e8da2f37ea3b1210fa9d23b64caa9ab12534b62646cb869e1",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:20.830416+00:00"
@@ -134,7 +134,7 @@
     "export_id": "tax-ontology",
     "search_text": "교육비 세액공제 본인과 기본공제대상자 교육비 등에 대한 특별세액공제입니다."
   },
-  "record_checksum": "sha256:ee2ad3863164e3ffe60afe3b2c6a09483167bc1000a566dd2f5568662d1c3c73"
+  "record_checksum": "sha256:94192cc6d4c339c3301873b36dd4fc5eb10139c02f0e9e079df341333673a507"
 }
 ---
 

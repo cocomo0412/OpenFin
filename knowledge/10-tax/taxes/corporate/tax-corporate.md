@@ -191,7 +191,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/516c333191cecf660d0b8024.json",
-    "checksum": "sha256:ac5af44b411db26e5d54c99fb30603cb43176e4c56c9b4cbe2427a72216e900d",
+    "checksum": "sha256:2ef0417855f9bd981db121549a716f11540eb89bcfd3ea387ce91170b21d41a6",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7746",
     "collected_at": "2026-09-23T08:26:12.390383+00:00"
@@ -237,7 +237,7 @@
     "export_id": "tax-ontology",
     "search_text": "법인세 2026년 이후 개시 사업연도의 각 사업연도 소득에 적용되는 법인세입니다. 일반법인·소규모법인·조합법인의 세율을 구분하며 토지 등 양도소득의 추가세액은 별도입니다."
   },
-  "record_checksum": "sha256:8961b461bb8dec32b09d9d01689c48ac4524525a8a53a9100d64300e46404f8b"
+  "record_checksum": "sha256:771a6ae9356795436e957663f3382c2feebeaad257646722801cf8b458197848"
 }
 ---
 

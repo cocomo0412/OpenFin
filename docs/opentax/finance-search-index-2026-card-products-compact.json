@@ -5331,6 +5331,28 @@
       ]
     },
     {
+      "id": "finance.card.check-card.sc제일은행.부자되세요-더-마일리지-체크-232441",
+      "title": "SC제일은행 부자되세요 더 마일리지 체크카드",
+      "type": "card-product",
+      "description": "SC제일은행 부자되세요 더 마일리지 체크카드의 공식 상세 안내입니다. 혜택·이용조건·한도·유의사항은 수집된 상세 원문에서 확인할 수 있습니다.",
+      "search_text": "sc제일은행 부자되세요 더 마일리지 체크카드 sc제일은행 sc제일은행 부자되세요 더 마일리지 체크카드의 공식 상세 안내입니다. 혜택·이용조건·한도·유의사항은 수집된 상세 원문에서 확인할 수 있습니다.",
+      "provider": "SC제일은행",
+      "product_kind": "check-card",
+      "sales_status": "unknown",
+      "status": "reference_only",
+      "recommendation_status": "reference_only",
+      "recommendation_scope": "listing_only",
+      "freshness_status": "current",
+      "source_ids": [
+        "source.provider.sc.product-documents"
+      ],
+      "provenance_shard": "card-products",
+      "export_id": "card-products-ontology",
+      "source_urls": [
+        "https://www.standardchartered.co.kr/hp/file/ap/pd/1182894_2024_L227_TheMileagech.pdf"
+      ]
+    },
+    {
       "id": "finance.card.check-card.sc제일은행.에이스플러스-체크카드-230981",
       "title": "SC제일은행 에이스플러스 체크카드",
       "type": "card-product",
@@ -21941,75 +21963,6 @@
       ]
     },
     {
-      "id": "finance.card.check-card.sc제일은행.부자되세요-더-마일리지-체크-232441",
-      "title": "SC제일은행 부자되세요 더 마일리지(체크)",
-      "type": "card-product",
-      "description": "비씨카드 체크카드 상품에 공시된 SC제일은행의 체크카드 상품 '부자되세요 더 마일리지(체크)'입니다.",
-      "search_text": "마일리지 finance.card.check-card.sc제일은행.부자되세요-더-마일리지-체크-232441 sc제일은행 부자되세요 더 마일리지(체크) card-product 비씨카드 체크카드 상품에 공시된 sc제일은행",
-      "provider": "SC제일은행",
-      "product_kind": "check-card",
-      "search_type": "card",
-      "product_status": "active",
-      "sales_status": "unknown",
-      "source_listing_status": "listed",
-      "sales_verification_status": "listed_unverified",
-      "source_freshness_status": "current",
-      "status": "active",
-      "recommendation_status": "reference_only",
-      "recommendation_scope": "listing_only",
-      "canonical_product_id": "finance.canonical.sc제일은행.부자되세요-더-마일리지-체크-232441.check-card",
-      "resolved_canonical_product_id": "finance.canonical.sc제일은행.부자되세요-더-마일리지-체크-232441.check-card",
-      "freshness_status": "current",
-      "last_source_checked_at": "2026-07-18",
-      "last_reviewed_at": "2026-07-18",
-      "search_aliases": [
-        "마일리지"
-      ],
-      "aliases": [
-        "마일리지"
-      ],
-      "source_ids": [
-        "source.bccard.check-card-list",
-        "source.crefia.card-products"
-      ],
-      "provenance_shard": "card-products",
-      "export_id": "card-products-ontology",
-      "source_urls": [
-        "https://www.bccard.com/app/card/CheckSearch.do",
-        "https://www.bccard.com/app/card/CheckCardMain.do?gdsno=232441&mbkNo=023",
-        "https://www.bccard.com/images/individual/card/renew/list/card_232441.png",
-        "https://www.bccard.com/app/card/CheckCardMain.do",
-        "https://gongsi.crefia.or.kr/portal/financialProdInfo/cardProd"
-      ],
-      "source_basis_dates": [
-        "2026-07-18 수집",
-        "2026-07-03 확인"
-      ],
-      "discovery_evidence_fields": [
-        "benefit_type"
-      ],
-      "discovery_limitations": [
-        "sales_status_unverified"
-      ],
-      "normalized_completeness_ratio": 0.0833,
-      "completeness_ratio": 0.0833,
-      "verified_completeness_ratio": 0,
-      "structured_summary": {
-        "rates": {},
-        "limits": {},
-        "periods": {},
-        "card": {
-          "benefit_type": [
-            "mileage"
-          ]
-        },
-        "insurance": {},
-        "support": {
-          "application_window": {}
-        }
-      }
-    },
-    {
       "id": "finance.card.check-card.비씨카드.비씨top포인트카드-000000",
       "title": "비씨카드 비씨TOP포인트카드",
       "type": "card-product",
@@ -22607,5 +22560,5 @@
       }
     }
   ],
-  "export_checksum": "6bd89bc5b3aa4142851d07b8431a1368d75e0d45d5e1a0bba4b62ab52d6c41aa"
+  "export_checksum": "c255a1bffd732273d283e188f2a4a7e7b09974fa59b19ff604ad64a46df6f602"
 }

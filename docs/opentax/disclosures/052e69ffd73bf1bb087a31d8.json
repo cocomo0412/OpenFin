@@ -57,5 +57,29 @@
     "https://www.heungkuklife.co.kr/front/public/saleProduct.do?searchFlgSale=Y"
   ],
   "document_scope": "comparison-disclosure attachments; full policy terms not verified",
-  "policy_documents": []
+  "policy_documents": [
+    {
+      "index_url": "https://www.heungkuklife.co.kr/front/public/saleProduct.do?searchFlgSale=Y",
+      "url": "https://www.heungkuklife.co.kr/servlet/DownLoadEnc.do",
+      "document_type": "policy-terms",
+      "product_title": "(무)흥국생명 치매담은Plus보장보험(해약환급금일부지급형V3)",
+      "context": "(무)흥국생명 치매담은Plus보장보험(해약환급금일부지급형V3) 2026.09.04 ~ 현재 (무)흥국생명 치매plus보장보험(해약환급금일부지급형V3)_인쇄용약관(20260904_P0014601)_공시용.pdf",
+      "effective_from": "2026-09-04",
+      "page_count": 488,
+      "text_characters": 522220,
+      "scope": "current policy document collected; individual clause review pending",
+      "receipt": {
+        "url": "https://www.heungkuklife.co.kr/servlet/DownLoadEnc.do",
+        "final_url": "https://www.heungkuklife.co.kr/servlet/DownLoadEnc.do",
+        "http_status": 200,
+        "collected_at": "2026-09-24T08:57:12.790446+00:00",
+        "request_method": "POST",
+        "request_form": {
+          "encValue": "Ej/K91qjDbXImA0MmaeivS5Gj3tLjo0fKFTTYh9eXUW10lQHDhzkJ3Cr9cpR/IoKoOVAyLg7pGn+wdvfbLTe/Zks/aH2eOorCN/FpMYrkTnG7EMKnYOaRG0dLpoMrUfOFlQr714ZRh4GW0X5mEFCNBiF+7cZyhZgbXFpdO2R4Ngua13jkFRndkg5+G8R5kCNAAMA"
+        },
+        "sha256": "c208f459830f87d48916685dae11af3c53604118a1a989da0ef84262a5201d65"
+      }
+    }
+  ],
+  "reviewed_at": "2026-09-23T08:20:25.477194+00:00"
 }

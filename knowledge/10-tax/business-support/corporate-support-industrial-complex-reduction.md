@@ -1,24 +1,14 @@
 ---
 {
+  "deadlines": [
+    "deadline.corporate-tax.return"
+  ],
+  "folder": "20_Deductions/CorporateTaxSupports",
+  "basis_year": 2026,
   "id": "corporate.support.industrial-complex-reduction",
   "title": "농공단지 등 입주 기업 감면",
   "type": "corporate-tax-support",
   "description": "농공단지 등 입주 후 최초 소득발생 과세연도와 이후 일정 기간에 적용되는 감면입니다.",
-  "folder": "20_Deductions/CorporateTaxSupports",
-  "basis_year": 2026,
-  "effective_date": null,
-  "expiration_date": null,
-  "reviewed_at": "2026-05-04",
-  "source_urls": [
-    "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7987&mi=6561",
-    "https://www.law.go.kr/법령/조세특례제한법"
-  ],
-  "source_basis_dates": [
-    "2026-05-02T00:00:00.000Z",
-    "2026-05-04T00:00:00.000Z"
-  ],
-  "abolition_status": "active",
-  "revision_status": "none_announced",
   "parents": [
     "category.corporate-tax-supports"
   ],
@@ -28,278 +18,116 @@
     "term.tax-credit",
     "term.tax-reduction"
   ],
-  "deadlines": [
-    "deadline.corporate-tax.return"
-  ],
-  "sources": [
-    "source.nts.corporate-tax.reliefs",
-    "source.law.tax-special-treatment-restriction-act.reliefs"
-  ],
-  "law_reference": "조세특례제한법 제64조",
   "tags": [
     "corporate-tax-support"
   ],
-  "criteria": [
-    {
-      "label": "농공단지 등 입주기업",
-      "basis": "법인세",
-      "condition": "농공단지 등 입주 후 최초 소득발생",
-      "rate_percent": 50,
-      "rate_label": "감면율",
-      "note": "감면기간 요건 별도 확인",
-      "source": "source.nts.corporate-tax.reliefs",
-      "criteria_kind": "rate",
-      "rate_basis": "법인세",
-      "basis_category": "official-standard",
-      "basis_definition": "해당 제도에서 대상 여부, 세율, 공제액, 한도 또는 신고기한을 판정하기 위해 공식 출처가 사용하는 기준항목입니다.",
-      "basis_lookup": "각 criterion의 출처 노드와 관련 신고·신청 서류에서 확인합니다.",
-      "selection_rule": "조건 문구와 구조화된 금액·비율·기간 필드를 함께 보고 해당 구간 또는 요건을 선택합니다.",
-      "basis_source": "source.nts.corporate-tax.reliefs",
-      "law_reference": "조세특례제한법 제64조",
-      "amount_formula": "법인세 × 감면율 50%"
-    }
-  ],
-  "structured_summary": {
-    "tax": {
-      "tax_year": 2026,
-      "rates": {
-        "criterion_1": 50
-      },
-      "limits": {},
-      "thresholds": {},
-      "eligible_persons": [
-        "농공단지 등 입주 후 최초 소득발생"
-      ],
-      "required_documents": [],
-      "filing_deadlines": [
-        "deadline.corporate-tax.return"
-      ],
-      "law_references": [
-        "조세특례제한법 제64조"
-      ]
-    }
-  },
-  "search_facets": {
-    "tax_type": "corporate-tax-support",
-    "applicable_year": 2026,
-    "law_reference": "조세특례제한법 제64조"
-  },
-  "provenance_shard": "reference",
-  "source_registry_id": "source.nts.corporate-tax.reliefs",
-  "source_registry_status": "registered",
-  "provenance": [
-    {
-      "source_id": "source.nts.corporate-tax.reliefs",
-      "original_url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7987&mi=6561",
-      "source_record_id": null,
-      "locator": null,
-      "supported_fields": [
-        "title",
-        "type",
-        "description",
-        "folder",
-        "basis_year",
-        "reviewed_at",
-        "abolition_status",
-        "revision_status",
-        "law_reference",
-        "criteria",
-        "structured_summary",
-        "search_facets",
-        "provenance_shard",
-        "source_registry_id",
-        "source_registry_status"
-      ],
-      "source_published_at": null,
-      "source_modified_at": null,
-      "collected_at": "2026-05-04T00:00:00.000Z",
-      "reviewed_at": "2026-05-04T00:00:00.000Z",
-      "valid_from": null,
-      "valid_to": null,
-      "checksum": null,
-      "checksum_scope": null,
-      "verification_status": "reference_only"
-    },
-    {
-      "source_id": "source.law.tax-special-treatment-restriction-act.reliefs",
-      "original_url": "https://www.law.go.kr/법령/조세특례제한법",
-      "source_record_id": null,
-      "locator": null,
-      "supported_fields": [
-        "title",
-        "type",
-        "description",
-        "folder",
-        "basis_year",
-        "reviewed_at",
-        "abolition_status",
-        "revision_status",
-        "law_reference",
-        "criteria",
-        "structured_summary",
-        "search_facets",
-        "provenance_shard",
-        "source_registry_id",
-        "source_registry_status"
-      ],
-      "source_published_at": null,
-      "source_modified_at": null,
-      "collected_at": "2026-05-04T00:00:00.000Z",
-      "reviewed_at": "2026-05-04T00:00:00.000Z",
-      "valid_from": null,
-      "valid_to": null,
-      "checksum": null,
-      "checksum_scope": null,
-      "verification_status": "reference_only"
-    }
-  ],
   "publication_memberships": [
     "korea-tax-ontology-2026.json"
+  ],
+  "search_shard": "reference",
+  "status": "reference_only",
+  "sales_status": "unknown",
+  "recommendation_status": "reference_only",
+  "recommendation_scope": "listing_only",
+  "comparison_engine_gate_passed": false,
+  "domain_gate_passed": false,
+  "criteria": [
+    {
+      "label": "대상",
+      "condition": "2028년 12월 31일까지 법정 농공단지에 입주해 농어촌소득원개발사업을 하거나, 법정 중소기업특별지원지역에 입주해 사업하는 중소기업 등이 대상입니다. 모든 산업단지 입주기업에 적용되지 않습니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.tax-special-treatment-restriction-act.reliefs",
+      "criteria_kind": "disclosure"
+    },
+    {
+      "label": "감면",
+      "condition": "최초 소득 발생 과세연도 개시일부터 5년 이내 종료 과세연도까지 해당 사업소득에 대한 소득세·법인세 50%를 감면합니다. 사업개시 후 5년간 소득이 없으면 법정 기산연도를 적용합니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.tax-special-treatment-restriction-act.reliefs",
+      "criteria_kind": "disclosure"
+    },
+    {
+      "label": "누적한도·사후관리",
+      "condition": "감면기간 총한도는 법정 투자누계액 50%와 상시근로자 수 × 1,500만원의 합입니다. 청년 및 법정 서비스업 근로자는 2천만원을 적용하며, 고용감소·폐업·대상지역 외 이전에는 추징 규정을 적용합니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.tax-special-treatment-restriction-act.reliefs",
+      "criteria_kind": "disclosure"
+    }
+  ],
+  "sources": [
+    "source.law.tax-special-treatment-restriction-act.reliefs"
+  ],
+  "source_urls": [
+    "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=284389&chrClsCd=010202&urlMode=lsInfoP&efYd=20260918&ancYnChk=0"
+  ],
+  "collected_at": "2026-09-23T08:26:25.182612+00:00",
+  "source_collected_at": "2026-09-23T08:26:25.182612+00:00",
+  "last_source_checked_at": "2026-09-23T08:26:25.182612+00:00",
+  "last_reviewed_at": "2026-09-24",
+  "reviewed_at": "2026-09-24",
+  "refresh_generation": "2026-09-23T08:26:25.182612+00:00",
+  "review_scope": "공식 공시의 식별자·본문·필드 연결 확인",
+  "source_listing_status": "listed",
+  "source_freshness_status": "current",
+  "freshness_status": "current",
+  "verification_status": "listing_only",
+  "sales_verification_status": "listed_unverified",
+  "current_disclosure": {
+    "path": "opentax/disclosures/8f7b7e420a8eeb8370d281c0.json",
+    "checksum": "sha256:c207688487fad58e5e83ab74fba77600c5c3d50beb8b97b123b5b85a8be0b82e",
+    "checksum_scope": "normalized-disclosure-json",
+    "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=284389&chrClsCd=010202&urlMode=lsInfoP&efYd=20260918&ancYnChk=0",
+    "collected_at": "2026-09-23T08:26:25.182612+00:00"
+  },
+  "provenance": [
+    {
+      "source_id": "source.law.tax-special-treatment-restriction-act.reliefs",
+      "original_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=284389&chrClsCd=010202&urlMode=lsInfoP&efYd=20260918&ancYnChk=0",
+      "source_record_id": "corporate.support.industrial-complex-reduction",
+      "collected_at": "2026-09-23T08:26:25.182612+00:00",
+      "reviewed_at": "2026-09-24T00:00:00+09:00",
+      "checksum": "sha256:bf7a2db72fa6b5273f5e3b3483f49305d70145e3c4d3ef89e16b2b1b2280ae80",
+      "checksum_scope": "official-disclosure-response",
+      "verification_status": "listing_only",
+      "supported_fields": [
+        "title",
+        "description",
+        "criteria",
+        "current_disclosure"
+      ],
+      "locator": {
+        "kind": "record-id",
+        "value": "corporate.support.industrial-complex-reduction"
+      }
+    }
   ],
   "search_projection": {
     "id": "corporate.support.industrial-complex-reduction",
     "title": "농공단지 등 입주 기업 감면",
     "type": "corporate-tax-support",
     "description": "농공단지 등 입주 후 최초 소득발생 과세연도와 이후 일정 기간에 적용되는 감면입니다.",
-    "provider": null,
-    "product_kind": null,
-    "search_type": null,
-    "product_status": null,
-    "sales_status": null,
-    "source_listing_status": null,
-    "sales_verification_status": null,
-    "sales_verified_at": null,
-    "condition_verification_status": null,
-    "source_freshness_status": null,
-    "status": null,
-    "status_reason": null,
-    "recommendation_status": null,
-    "recommendation_scope": null,
-    "catalog_recommendation_status": null,
-    "catalog_recommendation_scope": null,
-    "canonical_product_id": null,
-    "resolved_canonical_product_id": null,
-    "external_product_ids": [],
-    "provider_external_ids": [],
-    "provider_roles": [],
-    "source_records": [],
-    "preferred_source": null,
-    "merged_fields": {},
-    "field_provenance": {},
-    "field_conflicts": {},
-    "recommendation_model_version": "openfin-recommendation-v0.1.0",
-    "recommendation_exclusion_reasons": [],
-    "recommendation_basis_fields": [],
-    "verification_evidence": null,
-    "verification_status": null,
-    "quality_flags": [],
-    "last_verified_at": null,
-    "last_source_checked_at": null,
-    "last_reviewed_at": null,
-    "public_recommendation_exclusion_reasons": [],
-    "comparison_exclusion_reasons": [],
-    "discovery_limitations": [],
-    "missing_required_fields": [],
-    "missing_in_source_fields": [],
-    "unmapped_existing_fields": [],
-    "unverified_fields": [],
-    "discovery_evidence_fields": [],
-    "completeness_ratio": null,
-    "source_completeness_ratio": null,
-    "normalized_completeness_ratio": null,
-    "verified_completeness_ratio": null,
-    "required_field_count": null,
-    "completed_field_count": null,
-    "domain_gate_passed": null,
-    "comparison_engine_gate_passed": null,
-    "comparison_field_verification_status": null,
-    "comparison_field_verification": {},
-    "comparison_basis_fields": [],
-    "comparison_options": [],
-    "application_status": null,
-    "is_currently_applicable": null,
-    "application_open_from": null,
-    "application_open_to": null,
-    "application_window": {},
-    "jurisdiction": null,
-    "jurisdiction_code": null,
-    "jurisdiction_aliases": [],
-    "parent_jurisdiction_code": null,
-    "administrative_history": [],
-    "target_group": [],
-    "support_category": [],
-    "last_status_checked_at": null,
-    "freshness_status": null,
-    "collection_status": null,
-    "legacy_ids": [],
-    "search_aliases": [],
-    "aliases": [],
-    "export_id": "tax-ontology",
-    "source_checksum": null,
+    "status": "reference_only",
+    "sales_status": "unknown",
     "source_urls": [
-      "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7987&mi=6561",
-      "https://www.law.go.kr/법령/조세특례제한법"
+      "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=284389&chrClsCd=010202&urlMode=lsInfoP&efYd=20260918&ancYnChk=0"
     ],
-    "source_basis_dates": [
-      "2026-05-02T00:00:00.000Z",
-      "2026-05-04T00:00:00.000Z"
-    ],
-    "structured_summary": {
-      "rates": {},
-      "limits": {},
-      "periods": {},
-      "card": {},
-      "insurance": {},
-      "support": {
-        "application_window": {}
-      }
-    },
-    "search_facets": {},
-    "search_text": "corporate.support.industrial-complex-reduction 농공단지 등 입주 기업 감면 corporate-tax-support 농공단지 등 입주 후 최초 소득발생 과세연도와 이후 일정 기간에",
-    "provenance_shard": "reference",
+    "freshness_status": "current",
+    "recommendation_status": "reference_only",
+    "recommendation_scope": "listing_only",
     "source_ids": [
-      "source.nts.corporate-tax.reliefs",
       "source.law.tax-special-treatment-restriction-act.reliefs"
-    ]
+    ],
+    "export_id": "tax-ontology",
+    "search_text": "농공단지 등 입주 기업 감면 농공단지 등 입주 후 최초 소득발생 과세연도와 이후 일정 기간에 적용되는 감면입니다."
   },
-  "search_shard": "reference",
-  "search_position": 90,
-  "legacy_compatibility_dates": [
-    {
-      "path": [
-        "source_basis_dates",
-        0
-      ],
-      "value": "2026-05-02 확인"
-    },
-    {
-      "path": [
-        "source_basis_dates",
-        1
-      ],
-      "value": "2026-05-04 확인"
-    },
-    {
-      "path": [
-        "search_projection",
-        "source_basis_dates",
-        0
-      ],
-      "value": "2026-05-02 확인"
-    },
-    {
-      "path": [
-        "search_projection",
-        "source_basis_dates",
-        1
-      ],
-      "value": "2026-05-04 확인"
-    }
-  ],
-  "record_checksum": "sha256:f1547ffed2e369b22bfff05c12d3ae6ceea030c017fbed9eeedd2b65d0d89da1"
+  "record_checksum": "sha256:57e90d5df8164d1886fdb7a1c849f84992dd78a4009fc54a8597c5b46363f3e1"
 }
 ---
 
 # 농공단지 등 입주 기업 감면
 
 농공단지 등 입주 후 최초 소득발생 과세연도와 이후 일정 기간에 적용되는 감면입니다.
+
+- **대상**: 2028년 12월 31일까지 법정 농공단지에 입주해 농어촌소득원개발사업을 하거나, 법정 중소기업특별지원지역에 입주해 사업하는 중소기업 등이 대상입니다. 모든 산업단지 입주기업에 적용되지 않습니다.
+- **감면**: 최초 소득 발생 과세연도 개시일부터 5년 이내 종료 과세연도까지 해당 사업소득에 대한 소득세·법인세 50%를 감면합니다. 사업개시 후 5년간 소득이 없으면 법정 기산연도를 적용합니다.
+- **누적한도·사후관리**: 감면기간 총한도는 법정 투자누계액 50%와 상시근로자 수 × 1,500만원의 합입니다. 청년 및 법정 서비스업 근로자는 2천만원을 적용하며, 고용감소·폐업·대상지역 외 이전에는 추징 규정을 적용합니다.

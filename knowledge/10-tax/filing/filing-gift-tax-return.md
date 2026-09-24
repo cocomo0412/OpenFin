@@ -74,7 +74,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/d71ffb58a3489660abb23da8.json",
-    "checksum": "sha256:d6549f8f1063645fc708cccacd1a138df40784c2e570eec8817532ad90c21182",
+    "checksum": "sha256:6672ed74e3514d4d247d0b7e2d06fddc23217e47e0f4e6779b6d9df1b7e65f2e",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276123&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:22.158326+00:00"
@@ -120,7 +120,7 @@
     "export_id": "tax-ontology",
     "search_text": "증여세 신고 증여받은 날이 속하는 달의 말일부터 일반 증여 3개월 기한을 기준으로 신고·납부를 관리하는 절차입니다."
   },
-  "record_checksum": "sha256:ce1f574713a94645a2e6189dd6bf782a15654b1802dfe21f8c4b7e07135ea880"
+  "record_checksum": "sha256:21313aba2783e0d6508ca46d064a50cb5f889ad6ec7271e0aab5ab9698824c7a"
 }
 ---
 

@@ -47,7 +47,9 @@ for (const [endpoint, sectors] of groups) for (const group of [...sectors].sort(
     }
     datasets.push({endpoint,group,count:rows.length,rows,checksum:sha256(rows)});
     console.log(JSON.stringify({endpoint,group,count:rows.length}));
-  } catch(error) { failures.push({endpoint,group,error:error.message}); }
+  } catch(error) { failures.push({endpoint,group,error:error.message,
+    reason:endpoint==='annuitySavingProductsSearch'?'제공기관 연금저축 API 응답의 상품 구조 또는 총건수와 실제 행수가 일치하지 않아 반영하지 않았습니다.':'API 응답 검증 실패',
+    documentation_url:endpoint==='annuitySavingProductsSearch'?'https://finlife.fss.or.kr/finlife/api/anntySvingsApi/list.do?menuNo=700054':null}); }
 }
 writeJson(path.join(ROOT,'.api-candidates/finlife-additional.json'),{collected_at:new Date().toISOString(),datasets,failures});
 console.log(JSON.stringify({datasets:datasets.length,failures}));

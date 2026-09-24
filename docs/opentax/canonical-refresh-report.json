@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "collected_at": "2026-09-23T07:29:03.565Z",
+  "collected_at": "2026-09-24T10:24:18.981588+00:00",
   "review_scope": "API identity, schema, pagination and field mapping; not suitability or legal review",
   "domains": {
     "deposit": {
@@ -28,41 +28,99 @@
       "current_total": 318
     },
     "local_supports": {
-      "updated": 9281,
-      "added": 0,
-      "current_total": 9281,
-      "not_in_latest": 125,
-      "source_total": 10933
+      "updated": 9278,
+      "added": 8,
+      "current_total": 9286,
+      "not_in_latest": 128,
+      "source_total": 10937
     }
   },
   "unresolved": [
     {
       "endpoint": "annuitySavingProductsSearch",
       "group": "020000",
-      "error": "Unexpected schema: response is not retirement savings"
+      "error": "Unexpected schema: response is not retirement savings",
+      "reason": "제공기관 연금저축 API 응답의 상품 구조 또는 총건수와 실제 행수가 일치하지 않아 반영하지 않았습니다.",
+      "documentation_url": "https://finlife.fss.or.kr/finlife/api/anntySvingsApi/list.do?menuNo=700054"
     },
     {
       "endpoint": "annuitySavingProductsSearch",
       "group": "030200",
-      "error": "Unexpected schema: response is not retirement savings"
+      "error": "Unexpected schema: response is not retirement savings",
+      "reason": "제공기관 연금저축 API 응답의 상품 구조 또는 총건수와 실제 행수가 일치하지 않아 반영하지 않았습니다.",
+      "documentation_url": "https://finlife.fss.or.kr/finlife/api/anntySvingsApi/list.do?menuNo=700054"
     },
     {
       "endpoint": "annuitySavingProductsSearch",
       "group": "030300",
-      "error": "Unexpected schema: response is not retirement savings"
+      "error": "Unexpected schema: response is not retirement savings",
+      "reason": "제공기관 연금저축 API 응답의 상품 구조 또는 총건수와 실제 행수가 일치하지 않아 반영하지 않았습니다.",
+      "documentation_url": "https://finlife.fss.or.kr/finlife/api/anntySvingsApi/list.do?menuNo=700054"
     },
     {
       "endpoint": "annuitySavingProductsSearch",
       "group": "050000",
-      "error": "Unexpected schema: response is not retirement savings"
+      "error": "Unexpected schema: response is not retirement savings",
+      "reason": "제공기관 연금저축 API 응답의 상품 구조 또는 총건수와 실제 행수가 일치하지 않아 반영하지 않았습니다.",
+      "documentation_url": "https://finlife.fss.or.kr/finlife/api/anntySvingsApi/list.do?menuNo=700054"
     },
     {
       "endpoint": "annuitySavingProductsSearch",
       "group": "060000",
-      "error": "Incomplete pagination"
+      "error": "Incomplete pagination",
+      "reason": "제공기관 연금저축 API 응답의 상품 구조 또는 총건수와 실제 행수가 일치하지 않아 반영하지 않았습니다.",
+      "documentation_url": "https://finlife.fss.or.kr/finlife/api/anntySvingsApi/list.do?menuNo=700054"
     }
   ],
   "datasets": [
+    {
+      "source_id": "source.fss.finlife.api",
+      "operation": "rentHouseLoanProductsSearch",
+      "group": "020000",
+      "updated": 41,
+      "added": 0,
+      "count": 41
+    },
+    {
+      "source_id": "source.fss.finlife.api",
+      "operation": "rentHouseLoanProductsSearch",
+      "group": "030300",
+      "updated": 8,
+      "added": 0,
+      "count": 8
+    },
+    {
+      "source_id": "source.fss.finlife.api",
+      "operation": "rentHouseLoanProductsSearch",
+      "group": "050000",
+      "updated": 9,
+      "added": 0,
+      "count": 9
+    },
+    {
+      "source_id": "source.fss.finlife.api",
+      "operation": "mortgageLoanProductsSearch",
+      "group": "020000",
+      "updated": 34,
+      "added": 0,
+      "count": 34
+    },
+    {
+      "source_id": "source.fss.finlife.api",
+      "operation": "mortgageLoanProductsSearch",
+      "group": "030300",
+      "updated": 57,
+      "added": 0,
+      "count": 57
+    },
+    {
+      "source_id": "source.fss.finlife.api",
+      "operation": "mortgageLoanProductsSearch",
+      "group": "050000",
+      "updated": 20,
+      "added": 0,
+      "count": 20
+    },
     {
       "source_id": "source.fss.finlife.api",
       "operation": "creditLoanProductsSearch",
@@ -96,58 +154,10 @@
       "count": 6
     },
     {
-      "source_id": "source.fss.finlife.api",
-      "operation": "mortgageLoanProductsSearch",
-      "group": "020000",
-      "updated": 34,
-      "added": 0,
-      "count": 34
-    },
-    {
-      "source_id": "source.fss.finlife.api",
-      "operation": "mortgageLoanProductsSearch",
-      "group": "030300",
-      "updated": 57,
-      "added": 0,
-      "count": 57
-    },
-    {
-      "source_id": "source.fss.finlife.api",
-      "operation": "mortgageLoanProductsSearch",
-      "group": "050000",
-      "updated": 20,
-      "added": 0,
-      "count": 20
-    },
-    {
-      "source_id": "source.fss.finlife.api",
-      "operation": "rentHouseLoanProductsSearch",
-      "group": "020000",
-      "updated": 41,
-      "added": 0,
-      "count": 41
-    },
-    {
-      "source_id": "source.fss.finlife.api",
-      "operation": "rentHouseLoanProductsSearch",
-      "group": "030300",
-      "updated": 8,
-      "added": 0,
-      "count": 8
-    },
-    {
-      "source_id": "source.fss.finlife.api",
-      "operation": "rentHouseLoanProductsSearch",
-      "group": "050000",
-      "updated": 9,
-      "added": 0,
-      "count": 9
-    },
-    {
       "source_id": "source.bok.ecos",
       "operation": "StatisticSearch",
-      "count": 21,
-      "canonical_observations": 21
+      "count": 22,
+      "canonical_observations": 22
     },
     {
       "source_id": "source.data.go.kr.kinfa-loan-handling-agencies",
@@ -248,8 +258,8 @@
     {
       "source_id": "source.fsc.fund-products-basic",
       "operation": "getStandardCodeInfo",
-      "count": 263,
-      "canonical_observations": 263
+      "count": 3,
+      "canonical_observations": 3
     },
     {
       "source_id": "source.fsc.inclusive-finance-performance",
@@ -300,8 +310,8 @@
       "canonical_observations": 284
     }
   ],
-  "canonical_refreshed": 73198,
-  "observation_records": 17325,
+  "canonical_refreshed": 72944,
+  "observation_records": 17066,
   "remaining_domains": [
     "카드 혜택",
     "세금·공제 법령",

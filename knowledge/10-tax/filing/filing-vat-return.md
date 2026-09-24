@@ -91,7 +91,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/071e4b988f8d628a6974f7b9.json",
-    "checksum": "sha256:2c7c997c6cb1c832bec9cf4f061e9a71969d3d9acfce24fb1533d2d69a3e9bdb",
+    "checksum": "sha256:987c02e03faaa5f700feba1f53bb9d49ead9631e8e9b51313dc205f839fa2b3b",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276117&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:24.306633+00:00"
@@ -137,7 +137,7 @@
     "export_id": "tax-ontology",
     "search_text": "부가가치세 신고 납부 절차 부가가치세 과세사업자가 과세기간별 매출세액과 매입세액을 신고·납부하는 절차입니다. 일반과세자 확정신고, 간이과세자 연간 신고, 일부 간이과세자 예정신고 예외를 함께 관리합니다."
   },
-  "record_checksum": "sha256:96af7a34abb6c3b47e73814f2ba98f1c60c76c96367725846310ea849c434754"
+  "record_checksum": "sha256:267f14046c4859f705248c7d05bff897211e28a561745cef5d15b9c150db1a5a"
 }
 ---
 

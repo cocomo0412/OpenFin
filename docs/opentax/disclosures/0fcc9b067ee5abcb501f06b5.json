@@ -3,6 +3,7 @@
   "source_id": "source.bccard.credit-card-list",
   "text": "카드상품 신용카드 상세보기 [BC공통] 비씨 다이아몬드 TOP 카드 [BC공통] 비씨 다이아몬드 TOP 카드 Master Card 다이아몬드 등급 VIP 서비스 TOP포인트 적립 연회비 300,000원 (가족카드 50,000원) 100.0% 0.0% 0.0% 0.0% 0.0% 0.0% 100.0% (주)뉴코아아울렛괴정점 롯데쇼핑(주)롯데마트거제점 롯데쇼핑(주)롯데아울렛서울역점",
   "scope": "official product detail text; numeric rule extraction pending",
+  "reviewed_at": "2026-09-23T08:24:54.267858+00:00",
   "receipt": {
     "url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=242237&mbkNo=999",
     "final_url": "https://www.bccard.com/app/card/CreditCardMain.do?gdsno=242237&mbkNo=999",

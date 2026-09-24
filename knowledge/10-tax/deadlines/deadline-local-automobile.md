@@ -65,7 +65,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/0ea583999f4c7008dd710fe3.json",
-    "checksum": "sha256:923016602fd88461816a1cd1b90c67a269ab55c1c6393325f73dd7fb72139c78",
+    "checksum": "sha256:5c2dce7d79e06a66ed5cecf104ade03e570f04e9494087b4e08d9d650665c831",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=282559&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:22.571307+00:00"
@@ -111,7 +111,7 @@
     "export_id": "tax-ontology",
     "search_text": "자동차세 소유분 납기 자동차세 소유분의 일반 납기는 6월 16~30일과 12월 16~31일입니다. 연납·분납·수시부과 및 소액 연세액의 일괄 부과는 별도 규정에 따릅니다."
   },
-  "record_checksum": "sha256:5b8d9980d8b49a0cfa1ad5313cc2d613c457b9f86282dd65e336add5f21f650a"
+  "record_checksum": "sha256:a8c2ee1e1ab8c61c380db9581ae47036c2ef6189df0872868f55fe25161c2413"
 }
 ---
 

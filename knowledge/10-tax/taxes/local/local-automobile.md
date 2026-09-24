@@ -76,7 +76,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/60873736177c84629be8c128.json",
-    "checksum": "sha256:54e2020d5d8b19a5ffa25fa255ffe4a74005fdb2548be4751455066dfa1d82b7",
+    "checksum": "sha256:6a101af829f34865c06a9c4f7058afab9ee99a185d0c143ad9e64ffe9ddc5573",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=282559&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:22.571307+00:00"
@@ -122,7 +122,7 @@
     "export_id": "tax-ontology",
     "search_text": "자동차세 등록·신고된 자동차의 소유자에게 부과하며 차종·용도·배기량·적재량 등에 따라 연세액을 계산합니다. 자동차 주행분과는 별도입니다."
   },
-  "record_checksum": "sha256:d655672fdc50701978866c02260b8d163e5e3bfac75e4bcce22db7a49579f644"
+  "record_checksum": "sha256:c9e81286eed930151ca45a3522900e7c69380f42d65c735152427e0fcfcd36d2"
 }
 ---
 

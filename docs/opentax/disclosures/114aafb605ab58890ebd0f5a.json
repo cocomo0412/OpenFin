@@ -1,0 +1,43 @@
+{
+  "id": "corporate.support.disaster-loss-credit",
+  "source_id": "source.law.corporate-tax-act.credits",
+  "reviewed_articles": [
+    {
+      "number": "58",
+      "text": "제58조(재해손실에 대한 세액공제) ① 내국법인이 각 사업연도 중 천재지변이나 그 밖의 재해(이하 “재해”라 한다)로 인하여 대통령령 으로 정하는 자산총액(이하 이 조에서 “자산총액”이라 한다)의 100분의 20 이상을 상실하여 납세가 곤란하다고 인정되는 경우에는 다음 각 호의 법인세액에 그 상실된 자산의 가액이 상실 전의 자산총액에서 차지하는 비율을 곱하여 계산한 금액(상실된 자산의 가액을 한도로 한다)을 그 세액에서 공제한다. 이 경우 자산의 가액에는 토지의 가액을 포함하지 아니한다. <개정 2020. 12. 22.> 1. 재해 발생일 현재 부과되지 아니한 법인세와 부과된 법인세로서 미납된 법인세 2. 재해 발생일이 속하는 사업연도의 소득에 대한 법인세 ② 제1항에 따른 세액공제를 받으려는 내국법인은 대통령령 으로 정하는 바에 따라 납세지 관할 세무서장에게 신청하여야 한다. ③ 납세지 관할 세무서장은 제2항에 따라 제1항제1호의 법인세(신고기한이 지나지 아니한 것은 제외한다)에 대한 공제신청을 받으면 그 공제세액을 결정하여 해당 법인에 알려야 한다. ④ 제1항부터 제3항까지의 규정을 적용할 때 자산 상실 비율의 계산 등 재해손실 세액공제에 필요한 사항은 대통령령 으로 정한다. [전문개정 2010. 12. 30.] [도표 대체텍스트: 조문체계도버튼] [도표 대체텍스트: 연혁] 제58조의2 삭제 <2010. 1. 1.> [도표 대체텍스트: 조문체계도버튼] [도표 대체텍스트: 연혁] "
+    }
+  ],
+  "summary": [
+    {
+      "label": "적용 요건",
+      "condition": "내국법인이 재해로 법정 자산총액의 20% 이상을 상실하여 납세가 곤란하다고 인정되는 경우입니다. 자산가액에 토지가액은 포함하지 않습니다. 20%는 적용 문턱이며 공제율이 아닙니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.corporate-tax-act.credits",
+      "criteria_kind": "disclosure"
+    },
+    {
+      "label": "공제 계산",
+      "condition": "재해 발생일 현재 미부과·미납 법인세 및 재해 발생 사업연도 법인세에 자산상실비율을 곱하여 공제하며, 상실된 자산가액을 한도로 합니다. 자산상실비율은 상실자산가액을 상실 전 자산총액으로 나눈 값입니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.corporate-tax-act.credits",
+      "criteria_kind": "disclosure"
+    },
+    {
+      "label": "신청",
+      "condition": "관할 세무서장에게 법정 절차에 따라 신청해야 하며 자산총액 범위와 비율 계산은 시행령을 함께 적용합니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.corporate-tax-act.credits",
+      "criteria_kind": "disclosure"
+    }
+  ],
+  "supplemental_laws": [],
+  "reviewed_images": [],
+  "reviewed_at": "2026-09-24",
+  "receipt": {
+    "url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280349&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+    "final_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280349&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+    "collected_at": "2026-09-23T08:26:20.451325+00:00",
+    "http_status": 200,
+    "sha256": "48963f0d0fc1a5851adf2e6bd6e56d5d90ec187436ae76bee379f4a5b7230125"
+  }
+}

@@ -77,7 +77,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/de88ee0098076eaf454baa98.json",
-    "checksum": "sha256:816862c0de86617d09e20b1432b8fdaa6bfd122424d5559a3410df1ed722ef69",
+    "checksum": "sha256:446186a8ea2b5a02f4985365bb93d6c598de6a54f1a43e64ad7c9732551cb889",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:20.830416+00:00"
@@ -123,7 +123,7 @@
     "export_id": "tax-ontology",
     "search_text": "외국납부세액공제 국외원천소득에 대한 이중과세 조정을 위한 세액공제입니다."
   },
-  "record_checksum": "sha256:f3babfb17c1bb46ad8e08ee7b7f8d9e2386a5956ab3d0b89dfab0138e5959287"
+  "record_checksum": "sha256:fa0778f3f6e641818eab8800ec6fcf5b64d4972ce53ab8c5d2b54dc65e79cd0e"
 }
 ---
 

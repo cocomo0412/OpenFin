@@ -76,7 +76,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/688edf6764ccb3d685be0389.json",
-    "checksum": "sha256:598be6492ad990094e7cdf967c2e8a02a9c2309dcc49024d2bcdb2a58eb1f9d4",
+    "checksum": "sha256:4240c8bde94a00faee8645f4e48c92d9f01739aca4db9a95f6296a03f9ae8df0",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:20.830416+00:00"
@@ -122,7 +122,7 @@
     "export_id": "tax-ontology",
     "search_text": "기본공제 본인, 배우자, 부양가족 등 기본공제 대상자에 대한 인적공제입니다."
   },
-  "record_checksum": "sha256:44954c5fd409537d243e9a08d0ec0ad55e0f185fb7dcacc1a8b22d28e0d4a9fe"
+  "record_checksum": "sha256:a0b2a3ebd567d9d94fcb35ae23e9015a24b8b826f6495f774e1a70b0bc0bc5c0"
 }
 ---
 

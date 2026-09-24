@@ -77,7 +77,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/10cffba87d08b7284d67d013.json",
-    "checksum": "sha256:32febb5c61f1e257efdc9ab511636c438ee4174851ec97e9528aa8a6fca5927a",
+    "checksum": "sha256:16be16f3084a3ae78257672ee982bb839b951794aa49db8b2b800a954b4caadc",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://nhuf.molit.go.kr/FP/FP07/FP0701/FP07010101.jsp",
     "collected_at": "2026-09-23T08:40:37.994428+00:00"
@@ -123,7 +123,7 @@
     "export_id": "tax-ontology",
     "search_text": "주택마련저축 총급여 7천만원 이하 근로자인 무주택 세대주 및 그 배우자의 주택마련저축 소득공제입니다."
   },
-  "record_checksum": "sha256:3aa3d66483ae5ca72b9f09bc23896a8e5f38c79c04b590fc1bcb4d88fc5de506"
+  "record_checksum": "sha256:60e1c19a95a5ceb14573131671c96ec8faaad59b9e923245fcead6b8dc260481"
 }
 ---
 

@@ -71,7 +71,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/f2b03e74d5eb615876c9491c.json",
-    "checksum": "sha256:0c873221b40a79f554a0753e6ac7e1cbd77c23462dcdd4d579441bcd64b2fc05",
+    "checksum": "sha256:9718d6184cbaa0468039ceb1456003a82019bae748512e5918d3e5fae13e20a3",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:20.830416+00:00"
@@ -117,7 +117,7 @@
     "export_id": "tax-ontology",
     "search_text": "배당세액공제 종합과세되는 배당소득에 더해진 배당가산액을 종합소득 산출세액에서 공제해 법인세와의 이중과세를 조정하는 세액공제입니다."
   },
-  "record_checksum": "sha256:d73d70eb9c4e289e19225f8434e93a044ad5bef42e7fb7b8e4182195fa226be4"
+  "record_checksum": "sha256:290b64be58fb3c7217950b87ecb73e2c8078594b52300fed553434c28f14783d"
 }
 ---
 

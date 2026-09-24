@@ -58,5 +58,27 @@
     "https://brand.metlife.co.kr/pn/mcvrgProd/retrieveMcvrgProdMain.do"
   ],
   "document_scope": "comparison-disclosure attachments; full policy terms not verified",
-  "policy_documents": []
+  "policy_documents": [
+    {
+      "index_url": "https://brand.metlife.co.kr/pn/mcvrgProd/retrieveMcvrgProdMain.do",
+      "url": "https://brand.metlife.co.kr/pn/mcvrgProd/mcvrgProdDownloadFile.do?insProdSeq=691&seq=4186&fnum=03",
+      "document_type": "policy-terms",
+      "product_title": "무배당 미리받는GI종신보험 2종(저해약환급금형)",
+      "context": "2026.07.01 ~ 01_사업방법서_무배당미리받는GI종신보험(저(무)해약환급금형)_20260701_v1.0.pdf 상품요약서_무배당미리받는GI종신보험(저(무)해약환급금형)_20260701_수정.pdf 무배당 미리받는GI종신보험(저해약환급금형)_12246_12247_20260701.pdf - - 특약보기",
+      "effective_from": "2026-07-01",
+      "page_count": 214,
+      "text_characters": 186784,
+      "scope": "current policy document collected; individual clause review pending",
+      "receipt": {
+        "url": "https://brand.metlife.co.kr/pn/mcvrgProd/mcvrgProdDownloadFile.do?insProdSeq=691&seq=4186&fnum=03",
+        "final_url": "https://brand.metlife.co.kr/pn/mcvrgProd/mcvrgProdDownloadFile.do?insProdSeq=691&seq=4186&fnum=03",
+        "http_status": 200,
+        "collected_at": "2026-09-24T08:53:13.211810+00:00",
+        "request_method": "GET",
+        "request_form": null,
+        "sha256": "79f5246c447c868897e0d9e394e7b2e53f7c855bb89a2e77374b70eaf1ff3525"
+      }
+    }
+  ],
+  "reviewed_at": "2026-09-23T08:20:32.022164+00:00"
 }

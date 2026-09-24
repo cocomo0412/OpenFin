@@ -93,7 +93,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/39abe758260b64d823205da5.json",
-    "checksum": "sha256:d929b5615f0feff5022f9037366c175d15c5ed7503c34491ac08627cbe30b8f3",
+    "checksum": "sha256:15272a7fd6c684a349042ee1b86d6df3f6f9b83f5907c7983ca5fc4ef7c07259",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:20.830416+00:00"
@@ -139,7 +139,7 @@
     "export_id": "tax-ontology",
     "search_text": "지급명세서 제출 근로·퇴직·사업·종교인·연금계좌, 일용근로, 간이지급명세서, 이자·배당·기타소득 지급자료를 제출기한별로 관리하는 원천징수 후속 신고입니다."
   },
-  "record_checksum": "sha256:60c83b0a8e3b62b62d23f8d19188ccaa71eba6ebe2b677667965179dd7a9d9e8"
+  "record_checksum": "sha256:f269407cda77279eb56fa2f42beab9a4b261e53506f94205ee93c61689cd51bc"
 }
 ---
 

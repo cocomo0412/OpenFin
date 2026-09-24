@@ -146,7 +146,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/484d1aaa82cb659042a1f881.json",
-    "checksum": "sha256:0b25b9d7f157b4527c7d63b8a5ef2fde575fa1e906e50ac3ab9a80544c81069b",
+    "checksum": "sha256:2735fe626f76852d80525221d1ec44a6b1067adc242f2067f28370cb8cafc53a",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276123&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:22.158326+00:00"
@@ -192,7 +192,7 @@
     "export_id": "tax-ontology",
     "search_text": "상속세 상속세·증여세 일반 과세표준에 적용하는 10~50% 누진세율입니다. 재산가액 자체와 공제 후 과세표준을 구분하고 세대생략 할증·세액공제·특례를 별도로 적용합니다."
   },
-  "record_checksum": "sha256:3934e11aea076b1a6829f85e6b1f9bf16baeab3dd418e5a0c0044ffd2adce4e3"
+  "record_checksum": "sha256:c4b00b6d459a18fd60b7a458823ef36ff9bed77d09793229c05b3689795821bb"
 }
 ---
 

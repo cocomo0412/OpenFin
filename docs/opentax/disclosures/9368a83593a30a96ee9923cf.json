@@ -53,22 +53,6 @@
     "https://abllife.co.kr/st/pban/prdtPban/whlPrdt?page=1254503_1260"
   ],
   "document_scope": "comparison-disclosure attachments; full policy terms not verified",
-  "policy_documents": [
-    {
-      "index_url": "https://abllife.co.kr/st/pban/prdtPban/whlPrdt?page=1254503_1260",
-      "url": "https://abllife.co.kr/cms/pban/prdtPban/whlPrdt/__icsFiles/afieldfile/2026/07/01/20260701_NP_우리WON어린이보험(해약환급금미지급형).pdf",
-      "document_type": "policy-terms",
-      "effective_from": "2026-07-01",
-      "page_count": 1423,
-      "text_characters": 1434208,
-      "scope": "current policy document collected; individual clause review pending",
-      "receipt": {
-        "url": "https://abllife.co.kr/cms/pban/prdtPban/whlPrdt/__icsFiles/afieldfile/2026/07/01/20260701_NP_%EC%9A%B0%EB%A6%ACWON%EC%96%B4%EB%A6%B0%EC%9D%B4%EB%B3%B4%ED%97%98%28%ED%95%B4%EC%95%BD%ED%99%98%EA%B8%89%EA%B8%88%EB%AF%B8%EC%A7%80%EA%B8%89%ED%98%95%29.pdf",
-        "final_url": "https://abllife.co.kr/cms/pban/prdtPban/whlPrdt/__icsFiles/afieldfile/2026/07/01/20260701_NP_%EC%9A%B0%EB%A6%ACWON%EC%96%B4%EB%A6%B0%EC%9D%B4%EB%B3%B4%ED%97%98%28%ED%95%B4%EC%95%BD%ED%99%98%EA%B8%89%EA%B8%88%EB%AF%B8%EC%A7%80%EA%B8%89%ED%98%95%29.pdf",
-        "http_status": 200,
-        "collected_at": "2026-09-23T10:17:48.752346+00:00",
-        "sha256": "46710629422e5f0e3b13ceb1c17c50ea05cff9396e0ad534c8d3fd631124b794"
-      }
-    }
-  ]
+  "policy_documents": [],
+  "reviewed_at": "2026-09-23T08:20:33.498819+00:00"
 }

@@ -77,7 +77,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/ae358915de332cce83daa2d1.json",
-    "checksum": "sha256:08327418842fd3d80fe56ce17610a398be12f701d5362cee4c1c1f209e781a5a",
+    "checksum": "sha256:5a8b5d2b3c244c4bcbb7e9adfcf2e801ae4fe933c3dd5ed6b4d583d0ab2fa744",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276117&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:24.306633+00:00"
@@ -123,7 +123,7 @@
     "export_id": "tax-ontology",
     "search_text": "사업자등록 신청 신규사업자가 사업 개시 전 또는 사업 개시일부터 20일 이내 관할 세무서장에게 등록하는 절차입니다. 일반과세자·간이과세자 유형 선택과 간이과세 배제 업종 확인을 함께 관리합니다."
   },
-  "record_checksum": "sha256:77ef3b12fd0c42286aaa17e100a8003f0386029a6251e7d8866e759ceabaa390"
+  "record_checksum": "sha256:71da296a249399a33426ec5def4d754ab59f789a589419ae5c6b2b89163cb489"
 }
 ---
 

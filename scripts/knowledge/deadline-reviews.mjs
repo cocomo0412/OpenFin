@@ -5,6 +5,29 @@ const income='source.law.income-tax-act.deductions-credits';
 const local='source.law.local-tax-act.rates';
 const inheritance='source.law.inheritance-gift-tax-act.rates';
 export const deadlineReviews=[
+ ['deadline.grant.semiannual.2026','source.law.tax-special-treatment-restriction-act.reliefs',['100의6'],{
+  description:'2026년 상반기 근로소득분 반기신청은 2026년 9월 1~15일, 2026년 하반기분은 2027년 3월 1~15일입니다. 법정 근로소득만 있는 신청자가 대상이며 상반기 신청은 하반기 신청도 한 것으로 봅니다. 신청기간과 지급·정산기한은 서로 다릅니다.',
+  start_date:'2026-09-01',end_date:'2026-09-15',
+  recurrence:{frequency:'semiannual',anchor:'2026년 귀속 근로소득',due_rule:'상반기 2026-09-15; 하반기 2027-03-15',special_rule:'사업소득 등 혼합소득은 정기신청 구분 확인'}
+ }],
+ ['deadline.vat.periodic',vat,['5','48','49','66','67'],{
+  description:'일반과세자는 1~6월분을 7월 25일, 7~12월분을 다음 해 1월 25일까지 확정신고합니다. 예정신고 대상은 1~3월·7~9월 기간 종료 후 25일 이내이며 개인사업자와 법정 법인은 예정고지 대상이 될 수 있습니다. 간이과세는 연간 과세기간·다음 해 1월 확정신고를 원칙으로 하고 예정신고 예외를 구분합니다. 휴일이면 법정 기한 특례를 적용합니다.',
+  recurrence:{frequency:'periodic',anchor:'과세유형별 과세·예정신고기간',due_rule:'일반 확정 7월·다음 해 1월 25일, 예정 대상 4월·10월 25일; 간이 원칙 다음 해 1월 25일',special_rule:'예정고지·폐업·유형전환·휴일 조정 별도'}
+ }],
+ ['deadline.income-tax.2025-return',income,['70','70의2'],{
+  description:'2025년 귀속 종합소득세 일반 확정신고는 2026년 5월 1일부터 6월 1일까지입니다. 법정 성실신고확인서 제출자는 6월 30일까지이며 신고기한과 별도 납부연장 대상은 구분합니다.',
+  start_date:'2026-05-01',end_date:'2026-06-01',calendar_month:'06',
+  recurrence:{frequency:'annual',anchor:'소득 귀속연도의 다음연도',due_rule:'원칙 5월 31일; 성실신고확인서 제출자는 6월 30일; 휴일 특례 적용'}
+ }],
+ ['deadline.grant.regular.2025-income','source.law.tax-special-treatment-restriction-act.reliefs',['100의6','100의30'],{
+  description:'2025년 귀속 근로·자녀장려금 정기신청은 2026년 5월 1일부터 6월 1일까지입니다. 반기신청 및 기한 후 신청과 구분하며 지급일을 신청 마감일로 표시하지 않습니다.',
+  start_date:'2026-05-01',end_date:'2026-06-01',calendar_month:'06',
+  recurrence:{frequency:'annual',anchor:'소득 귀속연도의 다음연도',due_rule:'종합소득 과세표준 확정신고기간; 휴일 특례 적용'}
+ }],
+ ['deadline.year-end-settlement',income,['137','135'],{
+  description:'근로소득 연말정산은 원칙적으로 다음 연도 2월분 급여를 지급할 때, 퇴직자는 퇴직하는 달 급여를 지급할 때 합니다. 미지급 급여의 원천징수시기 특례와 추가 납부세액 분납을 구분합니다.',
+  recurrence:{frequency:'annual',anchor:'해당 과세기간의 다음연도 2월분 근로소득 지급일',due_rule:'2월분 급여 지급 시; 퇴직자는 퇴직월 급여 지급 시',special_rule:'소득세법 제135조 미지급 급여 지급간주 및 추가납부 10만원 초과 분납 규정 확인'}
+ }],
  ['deadline.business-registration.application',vat,['8'],{
   description:'사업장마다 사업 개시일부터 20일 이내에 사업자등록을 신청합니다. 사업 개시 전 신청도 가능합니다.',
   recurrence:{frequency:'event-based',anchor:'사업 개시일',due_rule:'사업 개시일부터 20일 이내; 개시 전 신청 가능'}
@@ -77,6 +100,11 @@ export const deadlineReviews=[
   description:'예정부과기간에 법정 세금계산서를 발급한 간이과세자는 그 기간 종료 후 25일 이내에 예정신고합니다. 2026년 7월의 휴일 조정 기한은 7월 27일입니다.',
   end_date:'2026-07-27',calendar_month:'07',
   recurrence:{frequency:'annual',anchor:'1월 1일~6월 30일 예정부과기간',start_rule:'7월 1일',due_rule:'기간 종료 후 25일; 휴일 등 기한 특례 적용',special_rule:'부가가치세법 제32조 또는 제36조 제3항에 따라 예정부과기간에 세금계산서를 발급한 간이과세자'}
+ }],
+ ['deadline.comprehensive-real-estate.payment','source.law.comprehensive-real-estate-act.full',['16'],{
+  description:'종합부동산세는 해당 연도 12월 1일부터 15일까지 납부합니다. 고지에 따른 납부 대신 신고납부를 선택하는 경우도 같은 기간에 신고하고 기한까지 납부합니다. 휴일 등 법정 기한 특례와 분납 요건은 별도 확인합니다.',
+  start_date:'2026-12-01',end_date:'2026-12-15',
+  recurrence:{frequency:'annual',anchor:'해당 연도 종합부동산세',start_rule:'12월 1일',due_rule:'12월 15일; 휴일 등 기한 특례 적용'}
  }],
  ['deadline.withholding.monthly',income,['128'],{
   description:'원천징수 소득세는 원칙적으로 징수월의 다음 달 10일까지 납부합니다. 휴일에 따른 기한 특례를 적용하며, 2026년 4월분은 5월 11일까지입니다.',

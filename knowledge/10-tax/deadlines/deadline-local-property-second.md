@@ -65,7 +65,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/6dfd40ab60ee93951a31a67b.json",
-    "checksum": "sha256:ff7f68292086f74be606cc14a5731efb6335bd7b7263b50388826f8f58346b9a",
+    "checksum": "sha256:2d3472225dc6f2f6f425ae888332447b84b06f1720253aeff636205193119c64",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=282559&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:22.571307+00:00"
@@ -111,7 +111,7 @@
     "export_id": "tax-ontology",
     "search_text": "재산세 2기분 납기 토지분과 주택분 나머지 절반의 재산세 납기는 9월 16~30일입니다. 주택 소액 세액을 조례에 따라 7월에 전액 부과한 경우는 구분합니다."
   },
-  "record_checksum": "sha256:03f018520d44b6930cf6dd5963849e620d84cf491702bbdd9fb9c1d777363acf"
+  "record_checksum": "sha256:1bf3c83e32642d43ba18988d15a071eb528f42a0d37a837a60fba4b80c5780ee"
 }
 ---
 

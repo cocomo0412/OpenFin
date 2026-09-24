@@ -56,22 +56,6 @@
     "https://abllife.co.kr/st/pban/prdtPban/whlPrdt?page=1254506_1260"
   ],
   "document_scope": "comparison-disclosure attachments; full policy terms not verified",
-  "policy_documents": [
-    {
-      "index_url": "https://abllife.co.kr/st/pban/prdtPban/whlPrdt?page=1254506_1260",
-      "url": "https://abllife.co.kr/cms/pban/prdtPban/whlPrdt/__icsFiles/afieldfile/2026/09/02/NP_우리WON톡톡튀는여성건강보험(해약환급금미지급형)2601.pdf",
-      "document_type": "policy-terms",
-      "effective_from": "2026-09-01",
-      "page_count": 5439,
-      "text_characters": 4609257,
-      "scope": "current policy document collected; individual clause review pending",
-      "receipt": {
-        "url": "https://abllife.co.kr/cms/pban/prdtPban/whlPrdt/__icsFiles/afieldfile/2026/09/02/NP_%EC%9A%B0%EB%A6%ACWON%ED%86%A1%ED%86%A1%ED%8A%80%EB%8A%94%EC%97%AC%EC%84%B1%EA%B1%B4%EA%B0%95%EB%B3%B4%ED%97%98%28%ED%95%B4%EC%95%BD%ED%99%98%EA%B8%89%EA%B8%88%EB%AF%B8%EC%A7%80%EA%B8%89%ED%98%95%292601.pdf",
-        "final_url": "https://abllife.co.kr/cms/pban/prdtPban/whlPrdt/__icsFiles/afieldfile/2026/09/02/NP_%EC%9A%B0%EB%A6%ACWON%ED%86%A1%ED%86%A1%ED%8A%80%EB%8A%94%EC%97%AC%EC%84%B1%EA%B1%B4%EA%B0%95%EB%B3%B4%ED%97%98%28%ED%95%B4%EC%95%BD%ED%99%98%EA%B8%89%EA%B8%88%EB%AF%B8%EC%A7%80%EA%B8%89%ED%98%95%292601.pdf",
-        "http_status": 200,
-        "collected_at": "2026-09-23T10:19:07.381222+00:00",
-        "sha256": "70b37d4a8aaaf3c0116df51b0695f209b62acdcead67126442f24a29485f5ae2"
-      }
-    }
-  ]
+  "policy_documents": [],
+  "reviewed_at": "2026-09-23T08:20:25.264990+00:00"
 }

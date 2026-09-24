@@ -63,7 +63,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/7b697088432cae363c2e13f4.json",
-    "checksum": "sha256:18493f24557961a3250ea0fdd7125c734184fd7d7b1880eb1178d103df6e2ebd",
+    "checksum": "sha256:bfbe61a36d32524efef512b79dc7953ad8e20383ef913dee6b83ae6ac1ebe9ec",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276123&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:22.158326+00:00"
@@ -109,7 +109,7 @@
     "export_id": "tax-ontology",
     "search_text": "상속세 거주자 신고납부 상속세의 일반 신고기한은 상속개시월 말일부터 6개월입니다. 피상속인이나 상속인이 외국에 주소를 둔 경우의 9개월 특례 및 유언집행자 등의 기준일 특례를 구분합니다."
   },
-  "record_checksum": "sha256:e4d75298affc75d314b2d13bad90afac0724c95ce357e613b905efbd5dda701e"
+  "record_checksum": "sha256:8e7836513bf56f499758169d5370a53694f35c9474ffba1981eb09b7d5083975"
 }
 ---
 

@@ -65,7 +65,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/1daa59e3f33699946dc3c924.json",
-    "checksum": "sha256:4f69f72b8802de1c98afaa035ec0c6d3aed6d3688daab021e8129662381356cd",
+    "checksum": "sha256:0bd3364a5458a5649e40d2f11d1ab7a52004972ca692e988bf54963b1ecc9310",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:20.830416+00:00"
@@ -126,7 +126,7 @@
     "export_id": "tax-ontology",
     "search_text": "원천세 신고 납부 원천징수 소득세는 원칙적으로 징수월의 다음 달 10일까지 납부합니다. 휴일에 따른 기한 특례를 적용하며, 2026년 4월분은 5월 11일까지입니다."
   },
-  "record_checksum": "sha256:7117482d675079e60d923db1d669e8eab14226cc2fddba3f1bbe5f34d998b7f9"
+  "record_checksum": "sha256:903b8a788b697c3626ec112d65ecaa22e3bc2cf39c2bfad94aaee23c6c0ab026"
 }
 ---
 

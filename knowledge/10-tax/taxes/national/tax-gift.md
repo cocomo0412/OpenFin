@@ -145,7 +145,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/f9fa75d77b75d77ab414293d.json",
-    "checksum": "sha256:e14d834563dacb53e727278becf3701de88574b37e6367155d4d0908795b1269",
+    "checksum": "sha256:1c2c96d2cc478cf1906822835cbbe19fe96d81af5bbcde0f78667812fe4ceb73",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276123&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:22.158326+00:00"
@@ -191,7 +191,7 @@
     "export_id": "tax-ontology",
     "search_text": "증여세 상속세·증여세 일반 과세표준에 적용하는 10~50% 누진세율입니다. 재산가액 자체와 공제 후 과세표준을 구분하고 세대생략 할증·세액공제·특례를 별도로 적용합니다."
   },
-  "record_checksum": "sha256:09efa50bf859b06b6243e8f2567e1c694163e4a206789695697708e5473966fe"
+  "record_checksum": "sha256:519a4a8893cbcca47e234c6a7d8c4e71609cc65599436a3b75fcfd05e797d50f"
 }
 ---
 

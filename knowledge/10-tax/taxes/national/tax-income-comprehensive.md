@@ -205,7 +205,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/c90e54af9af3888ead9706c2.json",
-    "checksum": "sha256:df70a2f9a272e9479310a4b3e97615752d95ac96c24c8702f7a09bff59414ef0",
+    "checksum": "sha256:a81755bd96256cbdc4ba0ce5ca4a699f12d5ed7b51dd58cad19bfa4543b56fb8",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:20.830416+00:00"
@@ -251,7 +251,7 @@
     "export_id": "tax-ontology",
     "search_text": "종합소득세 이자·배당·사업·근로·연금·기타소득 등 종합소득금액에 대해 확정신고하는 소득세 흐름입니다."
   },
-  "record_checksum": "sha256:e28a6b6b7be8294046810597e1c99b34e155caada82b91bae4791ad5754c1539"
+  "record_checksum": "sha256:d2d54d84ffa70fe397b9c97c06b307e718d18c6caa3a0683cddb1d912c2e5535"
 }
 ---
 

@@ -82,7 +82,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/096cd5fea81574df16a56c71.json",
-    "checksum": "sha256:2e427b8258e6f9766ef9c758e8f9799985ca1aece27052037dd58bbc7e8e2f29",
+    "checksum": "sha256:1a4feb482e1a0aabb594e1da5415356e6ffa1b43fdb8ed507886bc39e65dc1ba",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:20.830416+00:00"
@@ -128,7 +128,7 @@
     "export_id": "tax-ontology",
     "search_text": "양도소득세 신고 부동산, 주식 등 자산 양도 후 예정신고와 다음연도 확정신고 필요 여부를 구분해 관리하는 신고 절차입니다."
   },
-  "record_checksum": "sha256:e69a61e82b5ed932bc74fa206344f0437d325d70da64eddb72c77d7a05421b80"
+  "record_checksum": "sha256:bbcd9eb54b9a6c23b5d8dc6c9d316926a0e7442c51145eeacb6eed456b6d0bbb"
 }
 ---
 

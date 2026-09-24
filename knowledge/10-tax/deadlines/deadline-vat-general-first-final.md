@@ -66,7 +66,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/75c15ddbd6ed108571b0bf9a.json",
-    "checksum": "sha256:e0628e4a4e6ffb61bae8df813a45eb1caa6c18d5fb5a11d343675a3486530cb5",
+    "checksum": "sha256:703dc46fc6bb2416fc450cb79f0d1e382c27a0635f49cd6df2888fa65f051086",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276117&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:24.306633+00:00"
@@ -127,7 +127,7 @@
     "export_id": "tax-ontology",
     "search_text": "부가가치세 일반과세자 1기 확정신고 일반과세자의 1기(1~6월) 확정신고는 원칙 7월 25일까지입니다. 2026년은 7월 25일이 토요일이므로 국세청 세무일정상 7월 27일까지입니다."
   },
-  "record_checksum": "sha256:8323e44fe503008ca3f80d7265489c134cd399f98bf771be88aedc524e7b05ac"
+  "record_checksum": "sha256:a2ceb5d872c0d86c601772b99cd479d17018dc97a18111f87b81054783fdeea5"
 }
 ---
 

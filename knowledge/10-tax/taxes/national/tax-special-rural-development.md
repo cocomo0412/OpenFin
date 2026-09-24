@@ -1,24 +1,12 @@
 ---
 {
+  "deadlines": [],
+  "folder": "10_Taxes/National",
+  "basis_year": 2026,
   "id": "tax.special-rural-development",
   "title": "농어촌특별세",
   "type": "tax",
   "description": "농어촌 경쟁력 강화 재원 등을 위해 부과되는 목적세 성격의 국세입니다.",
-  "folder": "10_Taxes/National",
-  "basis_year": 2026,
-  "effective_date": "2026-01-01",
-  "expiration_date": null,
-  "reviewed_at": "2026-05-04",
-  "source_urls": [
-    "https://www.law.go.kr/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=900637068",
-    "https://www.law.go.kr/법령/농어촌특별세법/제5조"
-  ],
-  "source_basis_dates": [
-    "2026-01-01T00:00:00.000Z",
-    "2026-05-03T00:00:00.000Z"
-  ],
-  "abolition_status": "active",
-  "revision_status": "none_announced",
   "parents": [
     "category.national-taxes"
   ],
@@ -28,270 +16,116 @@
     "term.national-tax",
     "term.tax-law"
   ],
-  "deadlines": [],
-  "sources": [
-    "source.national-tax-framework-act.2026.article2",
-    "source.law.special-rural-development-tax-act.article5"
-  ],
-  "law_reference": "국세기본법 제2조 제1호",
   "tags": [
     "national-tax"
   ],
-  "criteria": [
-    {
-      "label": "농어촌특별세 부가 과세",
-      "basis": "감면세액·증권거래금액·개별소비세액 등",
-      "condition": "농어촌특별세법상 납세의무자",
-      "amount_formula": "과세표준 × 농어촌특별세법상 세율",
-      "source": "source.law.special-rural-development-tax-act.article5",
-      "criteria_kind": "formula",
-      "basis_category": "official-standard",
-      "basis_definition": "해당 제도에서 대상 여부, 세율, 공제액, 한도 또는 신고기한을 판정하기 위해 공식 출처가 사용하는 기준항목입니다.",
-      "basis_lookup": "각 criterion의 출처 노드와 관련 신고·신청 서류에서 확인합니다.",
-      "selection_rule": "조건 문구와 구조화된 금액·비율·기간 필드를 함께 보고 해당 구간 또는 요건을 선택합니다.",
-      "basis_source": "source.law.special-rural-development-tax-act.article5",
-      "law_reference": "국세기본법 제2조 제1호"
-    }
-  ],
-  "structured_summary": {
-    "tax": {
-      "tax_year": 2026,
-      "rates": {},
-      "limits": {},
-      "thresholds": {},
-      "eligible_persons": [
-        "농어촌특별세법상 납세의무자"
-      ],
-      "required_documents": [],
-      "filing_deadlines": [],
-      "law_references": [
-        "국세기본법 제2조 제1호"
-      ]
-    }
-  },
-  "search_facets": {
-    "tax_type": "tax",
-    "applicable_year": 2026,
-    "law_reference": "국세기본법 제2조 제1호"
-  },
-  "provenance_shard": "reference",
-  "source_registry_id": "source.national-tax-framework-act.2026.article2",
-  "source_registry_status": "registered",
-  "provenance": [
-    {
-      "source_id": "source.national-tax-framework-act.2026.article2",
-      "original_url": "https://www.law.go.kr/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=900637068",
-      "source_record_id": null,
-      "locator": null,
-      "supported_fields": [
-        "title",
-        "type",
-        "description",
-        "folder",
-        "basis_year",
-        "effective_date",
-        "reviewed_at",
-        "abolition_status",
-        "revision_status",
-        "law_reference",
-        "criteria",
-        "structured_summary",
-        "search_facets",
-        "provenance_shard",
-        "source_registry_id",
-        "source_registry_status"
-      ],
-      "source_published_at": null,
-      "source_modified_at": null,
-      "collected_at": "2026-05-04T00:00:00.000Z",
-      "reviewed_at": "2026-05-04T00:00:00.000Z",
-      "valid_from": "2026-01-01T00:00:00.000Z",
-      "valid_to": null,
-      "checksum": null,
-      "checksum_scope": null,
-      "verification_status": "reference_only"
-    },
-    {
-      "source_id": "source.law.special-rural-development-tax-act.article5",
-      "original_url": "https://www.law.go.kr/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=900637068",
-      "source_record_id": null,
-      "locator": null,
-      "supported_fields": [
-        "title",
-        "type",
-        "description",
-        "folder",
-        "basis_year",
-        "effective_date",
-        "reviewed_at",
-        "abolition_status",
-        "revision_status",
-        "law_reference",
-        "criteria",
-        "structured_summary",
-        "search_facets",
-        "provenance_shard",
-        "source_registry_id",
-        "source_registry_status"
-      ],
-      "source_published_at": null,
-      "source_modified_at": null,
-      "collected_at": "2026-05-04T00:00:00.000Z",
-      "reviewed_at": "2026-05-04T00:00:00.000Z",
-      "valid_from": "2026-01-01T00:00:00.000Z",
-      "valid_to": null,
-      "checksum": null,
-      "checksum_scope": null,
-      "verification_status": "reference_only"
-    }
-  ],
   "publication_memberships": [
     "korea-tax-ontology-2026.json"
+  ],
+  "search_shard": "reference",
+  "status": "reference_only",
+  "sales_status": "unknown",
+  "recommendation_status": "reference_only",
+  "recommendation_scope": "listing_only",
+  "comparison_engine_gate_passed": false,
+  "domain_gate_passed": false,
+  "criteria": [
+    {
+      "label": "감면 관련",
+      "condition": "법정 소득세·법인세·관세·취득세·등록분 등록면허세 감면세액은 원칙 20%, 법정 이자·배당소득세 감면세액은 10%를 적용합니다. 비과세·감면 제외대상은 별도 판정해야 합니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.special-rural-development-tax-act.article5",
+      "criteria_kind": "disclosure"
+    },
+    {
+      "label": "본세 관련",
+      "condition": "법정 개별소비세액은 대상에 따라 10% 또는 30%, 레저세액과 종합부동산세액은 각각 20%입니다. 모든 본세에 하나의 세율을 곱하지 않습니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.special-rural-development-tax-act.article5",
+      "criteria_kind": "disclosure"
+    },
+    {
+      "label": "취득·증권",
+      "condition": "취득 관련은 법정 표준세율을 2%로 적용하여 계산한 취득세액의 10%가 원칙이며 법정 예외가 있습니다. 대상 증권시장에서 거래된 증권은 양도가액의 0.15%를 적용하므로 증권거래세와 과세표준·세목을 구분합니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.special-rural-development-tax-act.article5",
+      "criteria_kind": "disclosure"
+    }
+  ],
+  "sources": [
+    "source.law.special-rural-development-tax-act.article5"
+  ],
+  "source_urls": [
+    "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=285905&joNo=0005&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR"
+  ],
+  "collected_at": "2026-09-23T08:30:53.349618+00:00",
+  "source_collected_at": "2026-09-23T08:30:53.349618+00:00",
+  "last_source_checked_at": "2026-09-23T08:30:53.349618+00:00",
+  "last_reviewed_at": "2026-09-24",
+  "reviewed_at": "2026-09-24",
+  "refresh_generation": "2026-09-23T08:30:53.349618+00:00",
+  "review_scope": "공식 공시의 식별자·본문·필드 연결 확인",
+  "source_listing_status": "listed",
+  "source_freshness_status": "current",
+  "freshness_status": "current",
+  "verification_status": "listing_only",
+  "sales_verification_status": "listed_unverified",
+  "current_disclosure": {
+    "path": "opentax/disclosures/5873a391368e86cebd65ee08.json",
+    "checksum": "sha256:0c9d71459cfa19ae6409a3e46bdcfaf72b916e57e84593d35e374fe9ac1038bb",
+    "checksum_scope": "normalized-disclosure-json",
+    "source_url": "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=285905&joNo=0005&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR",
+    "collected_at": "2026-09-23T08:30:53.349618+00:00"
+  },
+  "provenance": [
+    {
+      "source_id": "source.law.special-rural-development-tax-act.article5",
+      "original_url": "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=285905&joNo=0005&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR",
+      "source_record_id": "tax.special-rural-development",
+      "collected_at": "2026-09-23T08:30:53.349618+00:00",
+      "reviewed_at": "2026-09-24T00:00:00+09:00",
+      "checksum": "sha256:c851abd32b7f5e48e8dcc1e8ad53b43a1b7719ddc6303c3c21129ced824dbebe",
+      "checksum_scope": "official-disclosure-response",
+      "verification_status": "listing_only",
+      "supported_fields": [
+        "title",
+        "description",
+        "criteria",
+        "current_disclosure"
+      ],
+      "locator": {
+        "kind": "record-id",
+        "value": "tax.special-rural-development"
+      }
+    }
   ],
   "search_projection": {
     "id": "tax.special-rural-development",
     "title": "농어촌특별세",
     "type": "tax",
     "description": "농어촌 경쟁력 강화 재원 등을 위해 부과되는 목적세 성격의 국세입니다.",
-    "provider": null,
-    "product_kind": null,
-    "search_type": null,
-    "product_status": null,
-    "sales_status": null,
-    "source_listing_status": null,
-    "sales_verification_status": null,
-    "sales_verified_at": null,
-    "condition_verification_status": null,
-    "source_freshness_status": null,
-    "status": null,
-    "status_reason": null,
-    "recommendation_status": null,
-    "recommendation_scope": null,
-    "catalog_recommendation_status": null,
-    "catalog_recommendation_scope": null,
-    "canonical_product_id": null,
-    "resolved_canonical_product_id": null,
-    "external_product_ids": [],
-    "provider_external_ids": [],
-    "provider_roles": [],
-    "source_records": [],
-    "preferred_source": null,
-    "merged_fields": {},
-    "field_provenance": {},
-    "field_conflicts": {},
-    "recommendation_model_version": "openfin-recommendation-v0.1.0",
-    "recommendation_exclusion_reasons": [],
-    "recommendation_basis_fields": [],
-    "verification_evidence": null,
-    "verification_status": null,
-    "quality_flags": [],
-    "last_verified_at": null,
-    "last_source_checked_at": null,
-    "last_reviewed_at": null,
-    "public_recommendation_exclusion_reasons": [],
-    "comparison_exclusion_reasons": [],
-    "discovery_limitations": [],
-    "missing_required_fields": [],
-    "missing_in_source_fields": [],
-    "unmapped_existing_fields": [],
-    "unverified_fields": [],
-    "discovery_evidence_fields": [],
-    "completeness_ratio": null,
-    "source_completeness_ratio": null,
-    "normalized_completeness_ratio": null,
-    "verified_completeness_ratio": null,
-    "required_field_count": null,
-    "completed_field_count": null,
-    "domain_gate_passed": null,
-    "comparison_engine_gate_passed": null,
-    "comparison_field_verification_status": null,
-    "comparison_field_verification": {},
-    "comparison_basis_fields": [],
-    "comparison_options": [],
-    "application_status": null,
-    "is_currently_applicable": null,
-    "application_open_from": null,
-    "application_open_to": null,
-    "application_window": {},
-    "jurisdiction": null,
-    "jurisdiction_code": null,
-    "jurisdiction_aliases": [],
-    "parent_jurisdiction_code": null,
-    "administrative_history": [],
-    "target_group": [],
-    "support_category": [],
-    "last_status_checked_at": null,
-    "freshness_status": null,
-    "collection_status": null,
-    "legacy_ids": [],
-    "search_aliases": [],
-    "aliases": [],
-    "export_id": "tax-ontology",
-    "source_checksum": null,
+    "status": "reference_only",
+    "sales_status": "unknown",
     "source_urls": [
-      "https://www.law.go.kr/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=900637068",
-      "https://www.law.go.kr/법령/농어촌특별세법/제5조"
+      "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=285905&joNo=0005&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR"
     ],
-    "source_basis_dates": [
-      "2026-01-01T00:00:00.000Z",
-      "2026-05-03T00:00:00.000Z"
-    ],
-    "structured_summary": {
-      "rates": {},
-      "limits": {},
-      "periods": {},
-      "card": {},
-      "insurance": {},
-      "support": {
-        "application_window": {}
-      }
-    },
-    "search_facets": {},
-    "search_text": "tax.special-rural-development 농어촌특별세 tax 농어촌 경쟁력 강화 재원 등을 위해 부과되는 목적세 성격의 국세입니다. 국세기본법 제2조 제1호 national-tax source.natio",
-    "provenance_shard": "reference",
+    "freshness_status": "current",
+    "recommendation_status": "reference_only",
+    "recommendation_scope": "listing_only",
     "source_ids": [
-      "source.national-tax-framework-act.2026.article2",
       "source.law.special-rural-development-tax-act.article5"
-    ]
+    ],
+    "export_id": "tax-ontology",
+    "search_text": "농어촌특별세 농어촌 경쟁력 강화 재원 등을 위해 부과되는 목적세 성격의 국세입니다."
   },
-  "search_shard": "reference",
-  "search_position": 635,
-  "legacy_compatibility_dates": [
-    {
-      "path": [
-        "source_basis_dates",
-        0
-      ],
-      "value": "시행 2026-01-01"
-    },
-    {
-      "path": [
-        "source_basis_dates",
-        1
-      ],
-      "value": "2026-05-03 확인"
-    },
-    {
-      "path": [
-        "search_projection",
-        "source_basis_dates",
-        0
-      ],
-      "value": "시행 2026-01-01"
-    },
-    {
-      "path": [
-        "search_projection",
-        "source_basis_dates",
-        1
-      ],
-      "value": "2026-05-03 확인"
-    }
-  ],
-  "record_checksum": "sha256:8be24cb34e02778494053a33358c2a5c4629e77ff996b015cbc40edc7abbc8cc"
+  "record_checksum": "sha256:f24a2f0f0cf339669128144d4be75fd3c468ca753aed3871b2f19043661a991d"
 }
 ---
 
 # 농어촌특별세
 
 농어촌 경쟁력 강화 재원 등을 위해 부과되는 목적세 성격의 국세입니다.
+
+- **감면 관련**: 법정 소득세·법인세·관세·취득세·등록분 등록면허세 감면세액은 원칙 20%, 법정 이자·배당소득세 감면세액은 10%를 적용합니다. 비과세·감면 제외대상은 별도 판정해야 합니다.
+- **본세 관련**: 법정 개별소비세액은 대상에 따라 10% 또는 30%, 레저세액과 종합부동산세액은 각각 20%입니다. 모든 본세에 하나의 세율을 곱하지 않습니다.
+- **취득·증권**: 취득 관련은 법정 표준세율을 2%로 적용하여 계산한 취득세액의 10%가 원칙이며 법정 예외가 있습니다. 대상 증권시장에서 거래된 증권은 양도가액의 0.15%를 적용하므로 증권거래세와 과세표준·세목을 구분합니다.

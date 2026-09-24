@@ -204,7 +204,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/5cf1c5c515956c7317d1c77c.json",
-    "checksum": "sha256:cc634011ce21d501b589f1f40ff284dc54bba1696f7c1432e1371d5f67b72f01",
+    "checksum": "sha256:2966d16f45c5eda5dd224892fce2d2d40df0745a59e965d1bcd89dfd82b6ae2a",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:20.830416+00:00"
@@ -250,7 +250,7 @@
     "export_id": "tax-ontology",
     "search_text": "소득세 개인의 소득에 과세되는 국세입니다. 종합소득, 퇴직소득, 양도소득 흐름으로 세부 학습 노드를 둡니다."
   },
-  "record_checksum": "sha256:64e11cdc261cb30e62a4a1cb505ff5960797d13e42a3e91819518f8d05e1329b"
+  "record_checksum": "sha256:e67131cb138efea033c966be2c693567bc181c9503ba2a6fe0a8966c6a024997"
 }
 ---
 

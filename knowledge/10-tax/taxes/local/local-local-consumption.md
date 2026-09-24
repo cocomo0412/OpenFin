@@ -68,7 +68,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/a0cde7d87c1dc0a8c51764d8.json",
-    "checksum": "sha256:1c871af9fdcc2883c7840f410e51ec2291b928e858dc13d9cf1041d803daf73e",
+    "checksum": "sha256:a48f97d97581a46b67bd2abd3d20ff0d5f38bbb96ccfb7a5aab13061f2c94086",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=282559&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:22.571307+00:00"
@@ -114,7 +114,7 @@
     "export_id": "tax-ontology",
     "search_text": "지방소비세 부가가치세 납부세액에서 법정 감면세액·공제세액을 빼고 가산세를 더한 세액입니다."
   },
-  "record_checksum": "sha256:50f4f384dd1f4b5a922fb5ef20ee88f859e95b3c6cdb04688cd2afadbf7665fb"
+  "record_checksum": "sha256:dc9e66829f5115829068608d139b7f9fc82ca128b8f0e29a3dc5274477d840f8"
 }
 ---
 

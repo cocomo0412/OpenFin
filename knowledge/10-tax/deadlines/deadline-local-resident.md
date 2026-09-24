@@ -64,7 +64,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/1f98a15e806e2f147f9ab2ca.json",
-    "checksum": "sha256:29c4ed3565c8affc0e9111fbfc36ffc77ee348ee856868c1ec929f6782e4d893",
+    "checksum": "sha256:a02c32765d24ff3cef696beb1ff7b8f2d025dc4653d4b47b089e06ca5ce38b6f",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=282559&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:22.571307+00:00"
@@ -110,7 +110,7 @@
     "export_id": "tax-ontology",
     "search_text": "주민세 개인분·사업소분 납기 주민세 개인분은 8월 16~31일 납부하고, 사업소분은 8월 1~31일 신고·납부합니다. 두 유형의 시작일이 다릅니다."
   },
-  "record_checksum": "sha256:f152c6d14bf8627af194353417326b5a1c30b736df36299bad10332cd537aad9"
+  "record_checksum": "sha256:559e27085fd88b244cee21822f64864edff412e9a8f2d1733535ee9169233cf5"
 }
 ---
 

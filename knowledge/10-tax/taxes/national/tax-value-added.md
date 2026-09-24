@@ -128,7 +128,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/563440d48ae061525ac9acd3.json",
-    "checksum": "sha256:8f58adec8215ccd44b08c4d70d3c2a41d46f208ba5d654d6421ca77f463c1998",
+    "checksum": "sha256:1fdb4e36fd16d587587cde89f4a9c75c8dc374fee4d8b74b6bd53fe3403df4aa",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276117&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:24.306633+00:00"
@@ -175,7 +175,7 @@
     "export_id": "tax-ontology",
     "search_text": "부가가치세 일반과세와 간이과세의 판정 기준, 매출세액 계산 및 납부의무 면제를 구분합니다. 매출액·공급가액·공급대가·매출세액은 서로 다른 기준입니다."
   },
-  "record_checksum": "sha256:33973dbf6543f3e479c163fe4f5c0c32d6a6b7f96c0e57e78c281bfcc9976353"
+  "record_checksum": "sha256:80487687ad8accdeb94a955c99a6de074aad8b38670a8e3e7f25116d70d3892f"
 }
 ---
 

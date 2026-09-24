@@ -63,7 +63,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/3aa5f9e8a8fe1db2de28b079.json",
-    "checksum": "sha256:864e7aceedca0198aa46ba243f29a3b775409754b5258cb021b6f0cb5096454c",
+    "checksum": "sha256:13e451670ebca284b9db091d9e31f2260147adf55cb6b9737d03fd1df7dce46c",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276117&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:24.306633+00:00"
@@ -109,7 +109,7 @@
     "export_id": "tax-ontology",
     "search_text": "부가가치세 일반과세자 2기 확정신고 일반과세자의 2기(7~12월) 확정신고는 원칙적으로 다음 해 1월 25일까지입니다. 폐업 등 별도 과세기간과 기한은 구분합니다."
   },
-  "record_checksum": "sha256:6b69637e314f7cc0b4dbc503d28c54d59d65a6b1aaeded0b1f27c41d47f70b06"
+  "record_checksum": "sha256:5bff1ed14938c00b47eabf4691548df61f5d56557dd1781109800da8f1cfe805"
 }
 ---
 

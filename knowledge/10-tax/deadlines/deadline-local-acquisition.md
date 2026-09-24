@@ -65,7 +65,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/0d03ca0cfce36346ea5a13d9.json",
-    "checksum": "sha256:e57019345da0a4fc71b39763f05f06e7b7727ab02b35ff6db02f02ebcd6745f0",
+    "checksum": "sha256:d9a2564fe2f18de538ca91a2494bc7a9d22b07a68fa9a372bad1fc4731133ef6",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=282559&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:22.571307+00:00"
@@ -111,7 +111,7 @@
     "export_id": "tax-ontology",
     "search_text": "취득세 신고납부기한 취득세는 원칙적으로 취득일부터 60일 이내입니다. 무상취득·부담부증여는 취득월 말일부터 3개월, 상속·실종은 법정 기준월 말일부터 6개월이며 외국 주소 상속인이 있으면 9개월입니다."
   },
-  "record_checksum": "sha256:f955272471db932b9a5ad16c758de547d03124148c00609fee8b76d7d31f7769"
+  "record_checksum": "sha256:2e8270254f72778d04b96f6a34a95f5da1b7f5f73cf9e679083ef62a3da1adeb"
 }
 ---
 
