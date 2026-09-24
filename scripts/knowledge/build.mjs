@@ -1101,4 +1101,8 @@ if (releaseState === 'promoted') {
     fs.appendFileSync(historyPath, `${JSON.stringify({generated_at: now, promoted_at: promotedAt, candidate_commit: currentRelease.candidate_commit, production_commit: currentRelease.production_commit, generation_id: currentRelease.generation_id, validation_state: validationState, last_smoke_status: lastSmokeStatus, last_live_status: lastLiveStatus, rollback_target: rollbackTarget})}\n`);
   }
 }
+if (fs.existsSync(path.join(DOCS, 'collection-inventory.json'))) {
+  const { buildRefreshLedger } = await import('./refresh-ledger.mjs');
+  buildRefreshLedger();
+}
 console.log(JSON.stringify({exports:legacyFiles.length, rows:Object.values(generatedExports).reduce((n,x)=>n+x.items.length+(x.reference_items?.length||0),0), unique:catalog.length, reference_items:referenceItemCount, search_items:allSearchItems.length, sources:sourceRegistry.length, provenance_covered:covered, relationships:relations.length},null,2));
