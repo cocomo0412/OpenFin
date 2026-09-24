@@ -15,6 +15,19 @@ test('published API snapshots have complete counts and retain source dates', () 
   }
 });
 
+test('API review metadata preserves failure reporting and provider periods', () => {
+  const inventory=json(path.join(DOCS,'collection-inventory.json'));
+  const manifest=json(path.join(DOCS,'finance-ontology-manifest.json'));
+  const report=json(path.join(DOCS,'canonical-refresh-report.json'));
+  assert.equal(manifest.basis_date,inventory.snapshot_basis_date);
+  assert.equal(manifest.source_review_date,inventory.validated_at.slice(0,10));
+  assert.match(manifest.source_review_scope,/schema mapping/);
+  assert.equal(inventory.pending.length,report.unresolved.length);
+  for(const pending of inventory.pending) assert.equal(pending.status,'provider_response_rejected');
+  const dated=inventory.datasets.filter(row=>row.basis_end);
+  assert.ok(dated.some(row=>row.basis_end.replaceAll('-','')<inventory.snapshot_basis_date.replaceAll('-','')));
+});
+
 test('current product links match provider and product identities without enabling recommendation', () => {
   const links = json(path.join(DOCS, 'api-record-links.json'));
   const records = new Map(readCanonicalRecords().map(item => [item.id, item]));

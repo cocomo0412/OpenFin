@@ -1,24 +1,14 @@
 ---
 {
+  "deadlines": [
+    "deadline.corporate-tax.return"
+  ],
+  "folder": "20_Deductions/TaxCredits",
+  "basis_year": 2026,
   "id": "credit.research-and-development",
   "title": "연구·인력개발비 세액공제",
   "type": "tax-credit",
   "description": "일반, 신성장·원천기술, 국가전략기술 연구개발비 등에 대한 조세지원입니다.",
-  "folder": "20_Deductions/TaxCredits",
-  "basis_year": 2026,
-  "effective_date": null,
-  "expiration_date": null,
-  "reviewed_at": "2026-05-04",
-  "source_urls": [
-    "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7987&mi=6561",
-    "https://www.law.go.kr/법령/조세특례제한법"
-  ],
-  "source_basis_dates": [
-    "2026-05-02T00:00:00.000Z",
-    "2026-05-04T00:00:00.000Z"
-  ],
-  "abolition_status": "active",
-  "revision_status": "none_announced",
   "parents": [
     "category.tax-credits"
   ],
@@ -29,323 +19,124 @@
   "terms": [
     "term.tax-credit"
   ],
-  "deadlines": [
-    "deadline.corporate-tax.return"
-  ],
-  "sources": [
-    "source.nts.corporate-tax.reliefs",
-    "source.law.tax-special-treatment-restriction-act.reliefs"
-  ],
-  "law_reference": "조세특례제한법 제10조",
   "tags": [
     "tax-credit"
   ],
-  "criteria": [
-    {
-      "label": "일반 연구·인력개발비",
-      "basis": "연구·인력개발비",
-      "condition": "기업규모·증가분 방식별 공제율 적용",
-      "benefit": "일반 R&D 세액공제",
-      "source": "source.nts.corporate-tax.reliefs",
-      "amount_formula": "일반 연구·인력개발비 × 기업규모·증가분 방식별 공제율",
-      "rate_basis": "기업규모와 당기분·증가분 방식별 차등",
-      "criteria_kind": "formula",
-      "basis_category": "official-standard",
-      "basis_definition": "해당 제도에서 대상 여부, 세율, 공제액, 한도 또는 신고기한을 판정하기 위해 공식 출처가 사용하는 기준항목입니다.",
-      "basis_lookup": "각 criterion의 출처 노드와 관련 신고·신청 서류에서 확인합니다.",
-      "selection_rule": "조건 문구와 구조화된 금액·비율·기간 필드를 함께 보고 해당 구간 또는 요건을 선택합니다.",
-      "basis_source": "source.nts.corporate-tax.reliefs",
-      "law_reference": "조세특례제한법 제10조"
-    },
-    {
-      "label": "신성장·원천기술",
-      "basis": "신성장·원천기술 연구개발비",
-      "condition": "해당 기술 연구개발비",
-      "benefit": "우대 공제율 적용",
-      "source": "source.nts.corporate-tax.reliefs",
-      "amount_formula": "신성장·원천기술 연구개발비 × 우대 공제율",
-      "rate_basis": "신성장·원천기술 유형별 차등",
-      "criteria_kind": "formula",
-      "basis_category": "official-standard",
-      "basis_definition": "해당 제도에서 대상 여부, 세율, 공제액, 한도 또는 신고기한을 판정하기 위해 공식 출처가 사용하는 기준항목입니다.",
-      "basis_lookup": "각 criterion의 출처 노드와 관련 신고·신청 서류에서 확인합니다.",
-      "selection_rule": "조건 문구와 구조화된 금액·비율·기간 필드를 함께 보고 해당 구간 또는 요건을 선택합니다.",
-      "basis_source": "source.nts.corporate-tax.reliefs",
-      "law_reference": "조세특례제한법 제10조"
-    },
-    {
-      "label": "국가전략기술",
-      "basis": "국가전략기술 연구개발비",
-      "condition": "반도체 등 국가전략기술 연구개발비",
-      "benefit": "최고 우대 공제율 적용",
-      "source": "source.nts.corporate-tax.reliefs",
-      "amount_formula": "국가전략기술 연구개발비 × 최고 우대 공제율",
-      "rate_basis": "국가전략기술 유형별 차등",
-      "criteria_kind": "formula",
-      "basis_category": "official-standard",
-      "basis_definition": "해당 제도에서 대상 여부, 세율, 공제액, 한도 또는 신고기한을 판정하기 위해 공식 출처가 사용하는 기준항목입니다.",
-      "basis_lookup": "각 criterion의 출처 노드와 관련 신고·신청 서류에서 확인합니다.",
-      "selection_rule": "조건 문구와 구조화된 금액·비율·기간 필드를 함께 보고 해당 구간 또는 요건을 선택합니다.",
-      "basis_source": "source.nts.corporate-tax.reliefs",
-      "law_reference": "조세특례제한법 제10조"
-    }
-  ],
-  "structured_summary": {
-    "tax": {
-      "tax_year": 2026,
-      "rates": {},
-      "limits": {},
-      "thresholds": {},
-      "eligible_persons": [
-        "기업규모·증가분 방식별 공제율 적용",
-        "해당 기술 연구개발비",
-        "반도체 등 국가전략기술 연구개발비"
-      ],
-      "required_documents": [],
-      "filing_deadlines": [
-        "deadline.corporate-tax.return"
-      ],
-      "law_references": [
-        "조세특례제한법 제10조"
-      ]
-    }
-  },
-  "search_facets": {
-    "tax_type": "tax-credit",
-    "credit_or_deduction": "tax-credit",
-    "applicable_year": 2026,
-    "law_reference": "조세특례제한법 제10조"
-  },
-  "provenance_shard": "reference",
-  "source_registry_id": "source.nts.corporate-tax.reliefs",
-  "source_registry_status": "registered",
-  "provenance": [
-    {
-      "source_id": "source.nts.corporate-tax.reliefs",
-      "original_url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7987&mi=6561",
-      "source_record_id": null,
-      "locator": null,
-      "supported_fields": [
-        "title",
-        "type",
-        "description",
-        "folder",
-        "basis_year",
-        "reviewed_at",
-        "abolition_status",
-        "revision_status",
-        "law_reference",
-        "criteria",
-        "structured_summary",
-        "search_facets",
-        "provenance_shard",
-        "source_registry_id",
-        "source_registry_status"
-      ],
-      "source_published_at": null,
-      "source_modified_at": null,
-      "collected_at": "2026-05-04T00:00:00.000Z",
-      "reviewed_at": "2026-05-04T00:00:00.000Z",
-      "valid_from": null,
-      "valid_to": null,
-      "checksum": null,
-      "checksum_scope": null,
-      "verification_status": "reference_only"
-    },
-    {
-      "source_id": "source.law.tax-special-treatment-restriction-act.reliefs",
-      "original_url": "https://www.law.go.kr/법령/조세특례제한법",
-      "source_record_id": null,
-      "locator": null,
-      "supported_fields": [
-        "title",
-        "type",
-        "description",
-        "folder",
-        "basis_year",
-        "reviewed_at",
-        "abolition_status",
-        "revision_status",
-        "law_reference",
-        "criteria",
-        "structured_summary",
-        "search_facets",
-        "provenance_shard",
-        "source_registry_id",
-        "source_registry_status"
-      ],
-      "source_published_at": null,
-      "source_modified_at": null,
-      "collected_at": "2026-05-04T00:00:00.000Z",
-      "reviewed_at": "2026-05-04T00:00:00.000Z",
-      "valid_from": null,
-      "valid_to": null,
-      "checksum": null,
-      "checksum_scope": null,
-      "verification_status": "reference_only"
-    }
-  ],
   "publication_memberships": [
     "korea-tax-ontology-2026.json"
+  ],
+  "search_shard": "reference",
+  "status": "reference_only",
+  "sales_status": "unknown",
+  "recommendation_status": "reference_only",
+  "recommendation_scope": "listing_only",
+  "comparison_engine_gate_passed": false,
+  "domain_gate_passed": false,
+  "criteria": [
+    {
+      "label": "일반 연구개발",
+      "condition": "일반 연구·인력개발비는 법정 요건에 따라 증가액 방식 또는 당기발생액 방식을 선택합니다. 증가액은 전년 초과분에 일반 25%·중견 40%·중소 50%를 적용합니다. 직전 4년 비용이 없거나 전년 비용이 직전 4년 평균보다 적으면 당기발생액 방식만 적용합니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.tax-special-treatment-restriction-act.reliefs",
+      "criteria_kind": "disclosure"
+    },
+    {
+      "label": "당기발생액 방식",
+      "condition": "중소기업은 25%, 법정 중소 졸업기업은 최초 3년 20%·다음 2년 15%, 그 밖의 중견기업은 8%입니다. 나머지는 매출액 중 일반 연구개발비 비율의 절반을 공제율로 하되 2%가 한도입니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.tax-special-treatment-restriction-act.reliefs",
+      "criteria_kind": "disclosure"
+    },
+    {
+      "label": "신성장·국가전략",
+      "condition": "신성장·원천기술은 중소 30%·법정 졸업기업 25%·그 외 20%, 국가전략기술은 각각 40%·35%·30%에 법정 매출 대비 비율에 따른 최대 10%포인트를 더합니다. 기술별 적격비용 구분경리가 필요하며 신성장·국가전략 중복 적용은 선택해야 합니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.tax-special-treatment-restriction-act.reliefs",
+      "criteria_kind": "disclosure"
+    },
+    {
+      "label": "기간·비용 범위",
+      "condition": "신성장·국가전략 비용은 2029년 12월 31일까지, 국가전략 중 반도체 분야는 2031년 12월 31일까지 발생분이 대상입니다. 시설투자 공제와 구분하고 시행령상 인정 비용·기술 및 기업분류를 확인합니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.tax-special-treatment-restriction-act.reliefs",
+      "criteria_kind": "disclosure"
+    }
+  ],
+  "sources": [
+    "source.law.tax-special-treatment-restriction-act.reliefs"
+  ],
+  "source_urls": [
+    "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=284389&chrClsCd=010202&urlMode=lsInfoP&efYd=20260918&ancYnChk=0"
+  ],
+  "collected_at": "2026-09-23T08:26:25.182612+00:00",
+  "source_collected_at": "2026-09-23T08:26:25.182612+00:00",
+  "last_source_checked_at": "2026-09-23T08:26:25.182612+00:00",
+  "last_reviewed_at": "2026-09-24",
+  "reviewed_at": "2026-09-24",
+  "refresh_generation": "2026-09-23T08:26:25.182612+00:00",
+  "review_scope": "공식 공시의 식별자·본문·필드 연결 확인",
+  "source_listing_status": "listed",
+  "source_freshness_status": "current",
+  "freshness_status": "current",
+  "verification_status": "listing_only",
+  "sales_verification_status": "listed_unverified",
+  "current_disclosure": {
+    "path": "opentax/disclosures/d88e61903b65f1c3cdc12ac9.json",
+    "checksum": "sha256:ef0c824d4eaa17257ed2fdc940bca96e1aec5fcfa906a55f22a487dba6eb88d6",
+    "checksum_scope": "normalized-disclosure-json",
+    "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=284389&chrClsCd=010202&urlMode=lsInfoP&efYd=20260918&ancYnChk=0",
+    "collected_at": "2026-09-23T08:26:25.182612+00:00"
+  },
+  "provenance": [
+    {
+      "source_id": "source.law.tax-special-treatment-restriction-act.reliefs",
+      "original_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=284389&chrClsCd=010202&urlMode=lsInfoP&efYd=20260918&ancYnChk=0",
+      "source_record_id": "credit.research-and-development",
+      "collected_at": "2026-09-23T08:26:25.182612+00:00",
+      "reviewed_at": "2026-09-24T00:00:00+09:00",
+      "checksum": "sha256:bf7a2db72fa6b5273f5e3b3483f49305d70145e3c4d3ef89e16b2b1b2280ae80",
+      "checksum_scope": "official-disclosure-response",
+      "verification_status": "listing_only",
+      "supported_fields": [
+        "title",
+        "description",
+        "criteria",
+        "current_disclosure"
+      ],
+      "locator": {
+        "kind": "record-id",
+        "value": "credit.research-and-development"
+      }
+    }
   ],
   "search_projection": {
     "id": "credit.research-and-development",
     "title": "연구·인력개발비 세액공제",
     "type": "tax-credit",
     "description": "일반, 신성장·원천기술, 국가전략기술 연구개발비 등에 대한 조세지원입니다.",
-    "provider": null,
-    "product_kind": null,
-    "search_type": null,
-    "product_status": null,
-    "sales_status": null,
-    "source_listing_status": null,
-    "sales_verification_status": null,
-    "sales_verified_at": null,
-    "condition_verification_status": null,
-    "source_freshness_status": null,
-    "status": null,
-    "status_reason": null,
-    "recommendation_status": null,
-    "recommendation_scope": null,
-    "catalog_recommendation_status": null,
-    "catalog_recommendation_scope": null,
-    "canonical_product_id": null,
-    "resolved_canonical_product_id": null,
-    "external_product_ids": [],
-    "provider_external_ids": [],
-    "provider_roles": [],
-    "source_records": [],
-    "preferred_source": null,
-    "merged_fields": {},
-    "field_provenance": {},
-    "field_conflicts": {},
-    "recommendation_model_version": "openfin-recommendation-v0.1.0",
-    "recommendation_exclusion_reasons": [],
-    "recommendation_basis_fields": [],
-    "verification_evidence": null,
-    "verification_status": null,
-    "quality_flags": [],
-    "last_verified_at": null,
-    "last_source_checked_at": null,
-    "last_reviewed_at": null,
-    "public_recommendation_exclusion_reasons": [],
-    "comparison_exclusion_reasons": [],
-    "discovery_limitations": [],
-    "missing_required_fields": [],
-    "missing_in_source_fields": [],
-    "unmapped_existing_fields": [],
-    "unverified_fields": [],
-    "discovery_evidence_fields": [],
-    "completeness_ratio": null,
-    "source_completeness_ratio": null,
-    "normalized_completeness_ratio": null,
-    "verified_completeness_ratio": null,
-    "required_field_count": null,
-    "completed_field_count": null,
-    "domain_gate_passed": null,
-    "comparison_engine_gate_passed": null,
-    "comparison_field_verification_status": null,
-    "comparison_field_verification": {},
-    "comparison_basis_fields": [],
-    "comparison_options": [],
-    "application_status": null,
-    "is_currently_applicable": null,
-    "application_open_from": null,
-    "application_open_to": null,
-    "application_window": {},
-    "jurisdiction": null,
-    "jurisdiction_code": null,
-    "jurisdiction_aliases": [],
-    "parent_jurisdiction_code": null,
-    "administrative_history": [],
-    "target_group": [],
-    "support_category": [],
-    "last_status_checked_at": null,
-    "freshness_status": null,
-    "collection_status": null,
-    "legacy_ids": [],
-    "search_aliases": [],
-    "aliases": [],
-    "export_id": "tax-ontology",
-    "source_checksum": null,
+    "status": "reference_only",
+    "sales_status": "unknown",
     "source_urls": [
-      "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7987&mi=6561",
-      "https://www.law.go.kr/법령/조세특례제한법"
+      "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=284389&chrClsCd=010202&urlMode=lsInfoP&efYd=20260918&ancYnChk=0"
     ],
-    "source_basis_dates": [
-      "2026-05-02T00:00:00.000Z",
-      "2026-05-04T00:00:00.000Z"
-    ],
-    "structured_summary": {
-      "tax": {
-        "tax_year": 2026,
-        "rates": {},
-        "limits": {},
-        "thresholds": {},
-        "eligible_persons": [
-          "기업규모·증가분 방식별 공제율 적용",
-          "해당 기술 연구개발비",
-          "반도체 등 국가전략기술 연구개발비"
-        ],
-        "required_documents": [],
-        "filing_deadlines": [
-          "deadline.corporate-tax.return"
-        ],
-        "law_references": [
-          "조세특례제한법 제10조"
-        ]
-      }
-    },
-    "search_facets": {
-      "tax_type": "tax-credit",
-      "applicable_year": 2026,
-      "law_reference": "조세특례제한법 제10조"
-    },
-    "search_text": "credit.research-and-development 연구·인력개발비 세액공제 tax-credit 일반, 신성장·원천기술, 국가전략기술 연구개발비 등에 대한 조세지원입니다. 조세특례제한법 제10조 tax-cred",
-    "provenance_shard": "reference",
+    "freshness_status": "current",
+    "recommendation_status": "reference_only",
+    "recommendation_scope": "listing_only",
     "source_ids": [
-      "source.nts.corporate-tax.reliefs",
       "source.law.tax-special-treatment-restriction-act.reliefs"
-    ]
+    ],
+    "export_id": "tax-ontology",
+    "search_text": "연구·인력개발비 세액공제 일반, 신성장·원천기술, 국가전략기술 연구개발비 등에 대한 조세지원입니다."
   },
-  "search_shard": "reference",
-  "search_position": 118,
-  "legacy_compatibility_dates": [
-    {
-      "path": [
-        "source_basis_dates",
-        0
-      ],
-      "value": "2026-05-02 확인"
-    },
-    {
-      "path": [
-        "source_basis_dates",
-        1
-      ],
-      "value": "2026-05-04 확인"
-    },
-    {
-      "path": [
-        "search_projection",
-        "source_basis_dates",
-        0
-      ],
-      "value": "2026-05-02 확인"
-    },
-    {
-      "path": [
-        "search_projection",
-        "source_basis_dates",
-        1
-      ],
-      "value": "2026-05-04 확인"
-    }
-  ],
-  "record_checksum": "sha256:7b0a54f8813387074b249a9b0cdf8ae98981b9e173554bfb910b48b947532012"
+  "record_checksum": "sha256:40fb6b10e7dd6801a9673bae24774c48722743133e23f5aac7df42d74e4586a8"
 }
 ---
 
 # 연구·인력개발비 세액공제
 
 일반, 신성장·원천기술, 국가전략기술 연구개발비 등에 대한 조세지원입니다.
+
+- **일반 연구개발**: 일반 연구·인력개발비는 법정 요건에 따라 증가액 방식 또는 당기발생액 방식을 선택합니다. 증가액은 전년 초과분에 일반 25%·중견 40%·중소 50%를 적용합니다. 직전 4년 비용이 없거나 전년 비용이 직전 4년 평균보다 적으면 당기발생액 방식만 적용합니다.
+- **당기발생액 방식**: 중소기업은 25%, 법정 중소 졸업기업은 최초 3년 20%·다음 2년 15%, 그 밖의 중견기업은 8%입니다. 나머지는 매출액 중 일반 연구개발비 비율의 절반을 공제율로 하되 2%가 한도입니다.
+- **신성장·국가전략**: 신성장·원천기술은 중소 30%·법정 졸업기업 25%·그 외 20%, 국가전략기술은 각각 40%·35%·30%에 법정 매출 대비 비율에 따른 최대 10%포인트를 더합니다. 기술별 적격비용 구분경리가 필요하며 신성장·국가전략 중복 적용은 선택해야 합니다.
+- **기간·비용 범위**: 신성장·국가전략 비용은 2029년 12월 31일까지, 국가전략 중 반도체 분야는 2031년 12월 31일까지 발생분이 대상입니다. 시설투자 공제와 구분하고 시행령상 인정 비용·기술 및 기업분류를 확인합니다.

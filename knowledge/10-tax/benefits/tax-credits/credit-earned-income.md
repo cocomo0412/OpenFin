@@ -96,7 +96,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/3890695cf2cd25f182eaeb13.json",
-    "checksum": "sha256:ab056cda1b8619a7596ac6a862b73e04155015c53639e7d7c613439d00de3209",
+    "checksum": "sha256:d3fcd4d496613a97645b7ad660362117f5e8a45959246f2a6857cc9787339255",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:20.830416+00:00"
@@ -142,7 +142,7 @@
     "export_id": "tax-ontology",
     "search_text": "근로소득 세액공제 근로소득자의 산출세액에서 차감되는 세액공제입니다."
   },
-  "record_checksum": "sha256:eb3a2bc151dd488cf247a9b1429f5c7aa66e652088b247440a0cd4b3730d365d"
+  "record_checksum": "sha256:1a9b0850e9288a59d4c8bd375f5ef1adb70e9446b0a42d744431d5d5ad858beb"
 }
 ---
 

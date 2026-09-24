@@ -62,7 +62,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/050c3d83509614bf13f8e7d8.json",
-    "checksum": "sha256:4701a2f5b6b74a8205e0a29dbcdf636f82350cf279531e3adf0cbd0dc8bea96b",
+    "checksum": "sha256:e0bb453a7ed89c4ab1d8dd1fa194980257c24222835a1d465caef72cf7072e54",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276117&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:24.306633+00:00"
@@ -108,7 +108,7 @@
     "export_id": "tax-ontology",
     "search_text": "사업자등록 신청기한 사업장마다 사업 개시일부터 20일 이내에 사업자등록을 신청합니다. 사업 개시 전 신청도 가능합니다."
   },
-  "record_checksum": "sha256:b8f61a2e76ec529cddb9cb2e1ff5839be4d9b644fb8c1fa47ee7fc7bbd0634fd"
+  "record_checksum": "sha256:ecdde05ee63b7ebb8af61383d0545c9a9d9091475e1c8b279321ad4ec918e2f4"
 }
 ---
 

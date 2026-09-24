@@ -66,7 +66,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/6fc6f1a9d6f0132e002fafbd.json",
-    "checksum": "sha256:e400e38ce59bbacff5f88326452ef057d749b82f7621a6a0b42bf0ad1618f9b5",
+    "checksum": "sha256:a8c5ae5529b86fa5162ec3d8037d5e4743199b96ba136c67e8252c2f849fd32f",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276117&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:24.306633+00:00"
@@ -127,7 +127,7 @@
     "export_id": "tax-ontology",
     "search_text": "부가가치세 간이과세자 예정신고 예외 예정부과기간에 법정 세금계산서를 발급한 간이과세자는 그 기간 종료 후 25일 이내에 예정신고합니다. 2026년 7월의 휴일 조정 기한은 7월 27일입니다."
   },
-  "record_checksum": "sha256:d06971a6f26b52e4c393cc7387c0f65f1f807f6839499ba0ad86ea09fd664dd5"
+  "record_checksum": "sha256:d0767fcdc7e6587933a74afcd1378e05b5a1700d72fc1a3246c8d439ff75c623"
 }
 ---
 

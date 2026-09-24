@@ -56,5 +56,29 @@
     "https://www.heungkuklife.co.kr/front/public/saleProduct.do?searchFlgSale=Y"
   ],
   "document_scope": "comparison-disclosure attachments; full policy terms not verified",
-  "policy_documents": []
+  "policy_documents": [
+    {
+      "index_url": "https://www.heungkuklife.co.kr/front/public/saleProduct.do?searchFlgSale=Y",
+      "url": "https://www.heungkuklife.co.kr/servlet/DownLoadEnc.do",
+      "document_type": "policy-terms",
+      "product_title": "(무)흥국생명 다(多)사랑암보험(해약환급금미지급형V2)",
+      "context": "(무)흥국생명 다(多)사랑암보험(해약환급금미지급형V2) 2026.08.10 ~ 현재 (무)흥국생명 다(多)사랑암보험(해약환급금미지급형V2)_인쇄용약관(20260810_P0002401)_공시용.pdf",
+      "effective_from": "2026-08-10",
+      "page_count": 480,
+      "text_characters": 857697,
+      "scope": "current policy document collected; individual clause review pending",
+      "receipt": {
+        "url": "https://www.heungkuklife.co.kr/servlet/DownLoadEnc.do",
+        "final_url": "https://www.heungkuklife.co.kr/servlet/DownLoadEnc.do",
+        "http_status": 200,
+        "collected_at": "2026-09-24T08:54:39.662667+00:00",
+        "request_method": "POST",
+        "request_form": {
+          "encValue": "Ej/K91qjDbXImA0MmaeivUEuOnpV5JTsnfEfgc+2vgHjwpJ4b9NhrSrANhJDmU73TgTDZdW06XLI2RNFPLFO5VzFqhA2NzUmEuBXZcbtHEIuuq94Uk8MZjsHfUK/UAO/UkzBfPVe9qYuDBr79kQHfnueB7MimZ66F6mFWnhZKinmNriGDtLjt93P+TRfXOu7AAEA"
+        },
+        "sha256": "105ad7720b7e077981dfa4c661a0c769225a8d5994148ee991ae6b04eb0eb82a"
+      }
+    }
+  ],
+  "reviewed_at": "2026-09-23T08:20:27.011293+00:00"
 }

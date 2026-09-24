@@ -66,7 +66,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/b13b1aceb2578ea13a618de4.json",
-    "checksum": "sha256:fc4343fdfa21c1a68605182d1d0b76be6a2f9b7449fd82941e3348a12685a5ca",
+    "checksum": "sha256:d48d1ce4c6ff39a5b5cc6dfeb3cb9f5e6fe830b2835d12b68bb0aae17d3d79dc",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=282559&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:22.571307+00:00"
@@ -112,7 +112,7 @@
     "export_id": "tax-ontology",
     "search_text": "지역자원시설세 특정자원분·특정시설분·소방분으로 나뉩니다. 발전용수·지하수·지하자원, 컨테이너·원자력·화력발전·법정 폐기물, 건축물·선박 등이 각 구분의 과세대상입니다."
   },
-  "record_checksum": "sha256:07746c770f6d483cac31a7583f211919740694eab4eac610b9ae51d56a4db8c2"
+  "record_checksum": "sha256:4d3a20314126413c54ccacd9ec0710f66284b5b27a5df118cdebdb3a7eaf2a5e"
 }
 ---
 

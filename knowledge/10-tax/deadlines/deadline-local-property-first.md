@@ -66,7 +66,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/4a77086e74884eb0e42d1769.json",
-    "checksum": "sha256:948ba1a445905c521825fc1265b9a313b04bcce684caea691d3c558827fb04c4",
+    "checksum": "sha256:2239b8910f40825bccee2d564e96bc4d97f7a1edcef490d44597a4eaae709f6f",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=282559&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:22.571307+00:00"
@@ -112,7 +112,7 @@
     "export_id": "tax-ontology",
     "search_text": "재산세 1기분 납기 재산세의 주택분 절반과 건축물·선박·항공기분의 납기는 7월 16~31일입니다. 주택 세액 20만원 이하는 조례에 따라 7월에 전액 부과할 수 있습니다."
   },
-  "record_checksum": "sha256:792fbe441211af3a74dfadf4d0981b11b21f95b54870bf977cf5219b22481e82"
+  "record_checksum": "sha256:e0dcaf095f1efe4ea6797b0aa2d3369d23ca4e141e110c1bf698685de38b52d5"
 }
 ---
 

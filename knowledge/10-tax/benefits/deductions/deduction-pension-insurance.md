@@ -62,7 +62,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/c45d39b2e6905eb441d4eae0.json",
-    "checksum": "sha256:94b9b85d11e697f6cecfa43114f2043cad6b6a67269f75b2cbac5af5b532fe13",
+    "checksum": "sha256:36d63b682277e4b904e7beee92573e8cf120f96a2de119fb6b4bd059b88f468c",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:20.830416+00:00"
@@ -108,7 +108,7 @@
     "export_id": "tax-ontology",
     "search_text": "연금보험료공제 공적연금의 근로자 부담금을 차감소득금액 계산에 반영하는 공제입니다."
   },
-  "record_checksum": "sha256:e5769a7e81119c28fda417a541d4fbf161fe9dcd5b4663a6288f83a22b4d50a8"
+  "record_checksum": "sha256:16bc79d25fd3030b38c4d29a5277ee84ceaa03aae53351b39625aabab8a2546b"
 }
 ---
 

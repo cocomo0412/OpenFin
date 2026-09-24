@@ -7,7 +7,13 @@ import {localTaxReviews} from './local-tax-reviews.mjs';
 import {publicReceipt} from './disclosure-receipts.mjs';
 import {filingTaxReviews} from './filing-tax-reviews.mjs';
 import {deadlineReviews} from './deadline-reviews.mjs';
+import {corporateTaxReviews} from './corporate-tax-reviews.mjs';
+import {personalTaxReviews} from './personal-tax-reviews.mjs';
+import {remainingTaxReviews} from './remaining-tax-reviews.mjs';
+import {matchingPolicy} from './policy-matching.mjs';
 const sourceDir=path.join(ROOT,'.api-candidates/disclosures');
+const reviewedSeptember24=new Set([...corporateTaxReviews,...personalTaxReviews,...remainingTaxReviews].map(r=>r[0]).concat(['deadline.income-tax.2025-return','deadline.grant.regular.2025-income','deadline.year-end-settlement','deadline.comprehensive-real-estate.payment','deadline.grant.semiannual.2026','deadline.vat.periodic']));
+const taxLawSources=[...json(path.join(sourceDir,'tax-sources.json')).results,...json(path.join(sourceDir,'tax-extra-sources.json')).results];
 const cards=json(path.join(sourceDir,'cards.json'));
 const insurance=json(path.join(sourceDir,'insurance.json'));
 const policyFile=path.join(sourceDir,'insurance-policy-documents.json');
@@ -27,12 +33,15 @@ function base(old,id,title,type,parent,domain,shard){return {...Object.fromEntri
 function finish(item,source,receipt,payload){
  receipt=publicReceipt(receipt);
  const at=receipt.collected_at;
+ const reviewedAt=reviewedSeptember24.has(item.id)?'2026-09-24':at;
  Object.assign(item,{sources:[source],source_urls:[receipt.url,...(payload.provider_disclosure_urls||[])],collected_at:at,source_collected_at:at,last_source_checked_at:at,last_reviewed_at:at,reviewed_at:at,refresh_generation:at,review_scope:'공식 공시의 식별자·본문·필드 연결 확인',source_listing_status:'listed',source_freshness_status:'current',freshness_status:'current',verification_status:'listing_only',sales_verification_status:'listed_unverified'});
+ item.last_reviewed_at=reviewedAt;item.reviewed_at=reviewedAt;
  const key=sha256(item.id).slice(7,31),relative=`disclosures/${key}.json`;
- const disclosure=JSON.parse(JSON.stringify({id:item.id,source_id:source,...payload,receipt}));
+ const disclosure=JSON.parse(JSON.stringify({id:item.id,source_id:source,...payload,reviewed_at:reviewedAt,receipt}));
  writeJson(path.join(DOCS,relative),disclosure);
  item.current_disclosure={path:`opentax/${relative}`,checksum:sha256(disclosure),checksum_scope:'normalized-disclosure-json',source_url:receipt.url,collected_at:at};
  item.provenance=[{source_id:source,original_url:receipt.url,source_record_id:item.source_record_id||item.id,collected_at:at,reviewed_at:at,checksum:`sha256:${receipt.sha256}`,checksum_scope:'official-disclosure-response',verification_status:'listing_only',supported_fields:['title','description','criteria','current_disclosure'],locator:{kind:'record-id',value:item.source_record_id||item.id}}];
+ item.provenance[0].reviewed_at=reviewedAt.length===10?`${reviewedAt}T00:00:00+09:00`:reviewedAt;
  item.search_projection={...Object.fromEntries(['id','title','type','description','provider','product_kind','status','sales_status','source_urls','freshness_status','recommendation_status','recommendation_scope'].filter(k=>item[k]!==undefined).map(k=>[k,item[k]])),source_ids:[source],export_id:item.publication_memberships[0].replace('korea-','').replace('-2026.json',''),search_text:[item.title,item.provider,item.description].filter(Boolean).join(' ').toLowerCase()};
  item.record_checksum=sha256({...item,provenance:undefined,record_checksum:undefined});changed.add(item.id);
 }
@@ -41,11 +50,11 @@ function criterion(label,condition,source){return {label,condition,basis:'공식
 let cardUpdated=0;
 for(const row of cards.results.filter(r=>r.text)){
  const old=byId.get(row.id);if(!old)throw new Error(`Unknown card ${row.id}`);
- const source=(old.sources||[]).find(s=>row.receipt.url.includes('kbcard')?s.includes('kbcard'):row.receipt.url.includes('bccard')?s.includes('bccard'):row.receipt.url.includes('samsungcard')?s.includes('samsungcard'):s.includes('carddamoa'))||old.sources[0];
+ const source=row.source_id||(old.sources||[]).find(s=>row.receipt.url.includes('kbcard')?s.includes('kbcard'):row.receipt.url.includes('bccard')?s.includes('bccard'):row.receipt.url.includes('samsungcard')?s.includes('samsungcard'):s.includes('carddamoa'))||old.sources[0];
  const item=base(old,old.id,row.title,'card-product',null,'card-products','card-products');
  Object.assign(item,{provider:old.provider,provider_code:old.provider_code,product_code:old.product_code,product_kind:old.product_kind,source_record_id:old.source_record_id,description:`${row.title}의 공식 상세 안내입니다. 혜택·이용조건·한도·유의사항은 수집된 상세 원문에서 확인할 수 있습니다.`,criteria:[criterion('공식 상품 상세 안내',row.text,source)]});
  if(row.receipt.product_code)item.product_code=row.receipt.product_code;
- finish(item,source,row.receipt,{text:row.text,scope:row.scope});put(old,item);cardUpdated++;
+ finish(item,source,row.receipt,{text:row.text,scope:row.scope,...(row.issuer_listing?{issuer_listing:row.issuer_listing}:{})});put(old,item);cardUpdated++;
 }
 report.domains.cards={updated:cardUpdated,unresolved:cards.results.filter(r=>r.error).map(({id,error})=>({id,error}))};
 const oldInsurance=new Map([...byId.values()].filter(r=>r.type==='insurance-product').map(r=>[r.source_record_id,r]));
@@ -56,7 +65,7 @@ for(const group of insurance.groups)for(const row of group.products){
  if(!template)throw new Error('Insurance group template missing');
  const item=base(old,`finance.insurance.klia.current.${sha256(record).slice(7,27)}`,`${row.provider} ${row.title}`,'insurance-product',template.parents[0],'insurance-products','insurance-products');
  Object.assign(item,{provider:row.provider,product_code:row.code,product_kind:template.product_kind,source_record_id:record,description:row.coverage.join(' / '),criteria:row.coverage.map(t=>criterion('공시 보장내용·지급사유',t,source)),raw:{disclosure_cells:row.cells,document_urls:row.documents}});
- const policies=policyDocuments.filter(document=>(row.provider_disclosure_urls||[]).includes(document.index_url));
+ const policies=policyDocuments.filter(document=>matchingPolicy(row,document));
  if(policies.length)item.raw.policy_documents=policies;
  finish(item,source,row.receipt,{...row,policy_documents:policies,receipt:undefined});put(old,item);old?insuranceUpdated++:insuranceAdded++;
 }
@@ -299,11 +308,16 @@ for(const [id,numbers,rules] of manualIncomeReviews){
 }
 const localLaw=json(path.join(sourceDir,'tax-sources.json')).results.find(r=>r.id==='source.law.local-tax-act.rates');
 function reviewedArticle(source,number){
- const marker=`제${number.replace('의','조의')}${number.includes('의')?'':'조'}(`;
- const start=source.text.indexOf(marker);if(start<0)throw new Error(`Missing ${source.id} ${marker}`);
- const rest=source.text.slice(start+marker.length),next=rest.search(/(?<![가-힣\d])제\d+조(?:의\d+)?\(/);
- return source.text.slice(start,next<0?undefined:start+marker.length+next);
+ const [n,title]=number.split(':');
+ const heading=`제${n.replace('의','조의')}${n.includes('의')?'':'조'}`;
+ const pattern=new RegExp(heading+'\\s*\\('+(title?title.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'\\)':''));
+ // Unqualified references must not accidentally resolve to an unrelated addendum.
+ const text=title?source.text:source.text.split('[도표 대체텍스트: 부칙')[0];
+ const match=pattern.exec(text);if(!match)throw new Error(`Missing ${source.id} ${number}`);
+ const start=match.index,rest=text.slice(start+match[0].length),next=rest.search(/(?<![가-힣\d])제\d+조(?:의\d+)?\s*\(/);
+ return text.slice(start,next<0?undefined:start+match[0].length+next);
 }
+function lawEvidence(source,number){return {number:number.split(':')[0],heading:number.includes(':')?number.split(':')[1]:undefined,text:reviewedArticle(source,number)};}
 for(const [id,numbers,rules,keepRateTable] of localTaxReviews){
  const old=byId.get(id),item=base(old,id,old.title,old.type,null,'tax','tax');
  const references=numbers.map(n=>`지방세법 제${n.replace('의','조의')}${n.includes('의')?'':'조'}`).join('·');
@@ -312,16 +326,27 @@ for(const [id,numbers,rules,keepRateTable] of localTaxReviews){
  finish(item,localLaw.id,localLaw.receipt,{reviewed_articles:numbers.map(number=>({number,text:reviewedArticle(localLaw,number)})),summary:item.criteria,scope:'listed summary rules reviewed; not an exhaustive tax calculator'});
  put(old,item);reviewedTax.push(id);
 }
-for(const [id,sourceId,numbers,rules] of filingTaxReviews){
- const source=json(path.join(sourceDir,'tax-sources.json')).results.find(r=>r.id===sourceId);
+for(const [id,sourceId,numbers,rules,supplemental=[]] of [...filingTaxReviews,...corporateTaxReviews,...personalTaxReviews,...remainingTaxReviews]){
+ const source=taxLawSources.find(r=>r.id===sourceId);
  const old=byId.get(id),item=base(old,id,old.title,old.type,null,'tax','tax');
  Object.assign(item,{description:old.description,criteria:rules.map(([label,text])=>criterion(label,text,sourceId))});
- finish(item,sourceId,source.receipt,{reviewed_articles:numbers.map(number=>({number,text:reviewedArticle(source,number)})),summary:item.criteria});
+ const additional=supplemental.map(([extraId,articles])=>{
+  const extra=taxLawSources.find(r=>r.id===extraId);
+  if(!extra)throw new Error(`Missing supplemental law: ${extraId}`);
+  return {source_id:extraId,receipt:publicReceipt(extra.receipt),reviewed_articles:articles.map(number=>lawEvidence(extra,number))};
+ });
+ const reviewedImages=id==='tax.education'?(source.table_receipts||[]).map(publicReceipt):[];
+ if(id==='tax.education'&&reviewedImages.length!==1)throw new Error('Missing visually reviewed education tax table');
+ finish(item,sourceId,source.receipt,{reviewed_articles:numbers.map(number=>({number,text:reviewedArticle(source,number)})),summary:item.criteria,supplemental_laws:additional,reviewed_images:reviewedImages});
+ for(const extra of additional){
+  item.sources.push(extra.source_id);item.source_urls.push(extra.receipt.url);
+  item.provenance.push({source_id:extra.source_id,original_url:extra.receipt.url,collected_at:extra.receipt.collected_at,reviewed_at:item.provenance[0].reviewed_at,checksum:`sha256:${extra.receipt.sha256}`,checksum_scope:'official-disclosure-response',verification_status:'reference_only',supported_fields:['criteria','current_disclosure']});
+ }
  put(old,item);reviewedTax.push(id);
 }
 const calendars=json(path.join(sourceDir,'tax-calendars-2026.json')).results;
 for(const [id,sourceId,numbers,patch] of deadlineReviews){
- const source=json(path.join(sourceDir,'tax-sources.json')).results.find(r=>r.id===sourceId);
+ const source=taxLawSources.find(r=>r.id===sourceId);
  const old=byId.get(id),item=base(old,id,patch.title||old.title,old.type,null,'tax','tax');
  const {calendar_month,...fields}=patch;
  const calendar=calendar_month?calendars.find(r=>r.month===calendar_month):null;

@@ -63,7 +63,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/7a0aa8bb6e0b273eacd91f39.json",
-    "checksum": "sha256:d9eb88f5f123264a98b363061846356aab46c63e7ccc1ff2645bc002ad86ae81",
+    "checksum": "sha256:7e20134f9aa32f5ba5e5d82ef60625ae7d57f642b1f4b118f0ea850bbafdd3a5",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276123&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:22.158326+00:00"
@@ -109,7 +109,7 @@
     "export_id": "tax-ontology",
     "search_text": "증여세 일반 증여 신고납부 일반 증여는 증여받은 달의 말일부터 3개월 이내에 신고합니다. 상장·합병 등 이익 및 특수관계법인 관련 증여의제에는 별도 기준일을 적용합니다."
   },
-  "record_checksum": "sha256:9b39e6477b2d6f01f8293e8a5bb236bf4b0c5fd8c7f0314392ce919c3b431358"
+  "record_checksum": "sha256:d0e4823396f7ecd55fee5bcf93abec28669e020f4238137297bd234097324282"
 }
 ---
 

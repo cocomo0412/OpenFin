@@ -98,7 +98,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/dcab7d226427fe4e633bd7e4.json",
-    "checksum": "sha256:715921ae5ef5ea017f81375a44caf317b2d90435896d2c62f3a3618be8e37af8",
+    "checksum": "sha256:f0b1d16ccb8f05d177d16f7290a4dafda46976e08e9c0055c14766cdc27394da",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:20.830416+00:00"
@@ -144,7 +144,7 @@
     "export_id": "tax-ontology",
     "search_text": "특별소득공제 근로소득 연말정산 계산 구조에서 차감소득금액을 산출할 때 반영되는 특별소득공제 묶음입니다."
   },
-  "record_checksum": "sha256:69669f9d99d0c3e0fe3b62031a04f056ed6ab3ea2ff3ffe758196c3b318526dd"
+  "record_checksum": "sha256:883de3a7443af4f2cbbd8f548a544b7a10b6b23475a742e2cfc29bc7340ba3c0"
 }
 ---
 

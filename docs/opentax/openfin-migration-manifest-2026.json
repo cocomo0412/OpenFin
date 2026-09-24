@@ -1,6 +1,6 @@
 {
   "version": "OPENFIN-MIGRATION-2026.07.28.1",
-  "generated_at": "2026-09-23T07:29:03.565Z",
+  "generated_at": "2026-09-24T10:24:18.981588+00:00",
   "baseline": {
     "export_count": 10,
     "row_count": 21374,
@@ -12,9 +12,9 @@
   },
   "result": {
     "export_count": 10,
-    "row_count": 80884,
-    "unique_id_count": 80770,
-    "unique_source_count": 156,
+    "row_count": 80645,
+    "unique_id_count": 80531,
+    "unique_source_count": 168,
     "reference_item_count": 114,
     "invalid_source_url_count": 0
   },

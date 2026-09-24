@@ -56,5 +56,27 @@
     "https://brand.metlife.co.kr/pn/mcvrgProd/retrieveMcvrgProdMain.do"
   ],
   "document_scope": "comparison-disclosure attachments; full policy terms not verified",
-  "policy_documents": []
+  "policy_documents": [
+    {
+      "index_url": "https://brand.metlife.co.kr/pn/mcvrgProd/retrieveMcvrgProdMain.do",
+      "url": "https://brand.metlife.co.kr/pn/mcvrgProd/mcvrgProdDownloadFile.do?insProdSeq=851&seq=4168&fnum=03",
+      "document_type": "policy-terms",
+      "product_title": "무배당 백만인을위한종신보험Plus(저해약환급금형)",
+      "context": "2026.07.01 ~ 01_사업방법서_무배당 (간편가입)백만인을위한종신보험Plus(저해약환급금형)_260416_v1.0.pdf 상품요약서_무배당(간편가입)백만인을위한종신보험Plus(저해약환급금형)_20260701.pdf 무배당 (간편가입)백만인을위한종신보험Plus(저해약환급금형)_12237_12236_12235_12234_20260701.pdf - - 특약보기",
+      "effective_from": "2026-07-01",
+      "page_count": 212,
+      "text_characters": 165608,
+      "scope": "current policy document collected; individual clause review pending",
+      "receipt": {
+        "url": "https://brand.metlife.co.kr/pn/mcvrgProd/mcvrgProdDownloadFile.do?insProdSeq=851&seq=4168&fnum=03",
+        "final_url": "https://brand.metlife.co.kr/pn/mcvrgProd/mcvrgProdDownloadFile.do?insProdSeq=851&seq=4168&fnum=03",
+        "http_status": 200,
+        "collected_at": "2026-09-24T08:53:27.700276+00:00",
+        "request_method": "GET",
+        "request_form": null,
+        "sha256": "3d823ef98176b3fb30d340ef5318dbd3c266dfae59ecd164ee2b8303893677f4"
+      }
+    }
+  ],
+  "reviewed_at": "2026-09-23T08:20:32.662440+00:00"
 }

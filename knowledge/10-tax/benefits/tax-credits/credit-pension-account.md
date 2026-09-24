@@ -90,7 +90,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/77b8c1ee7c12c883d33c14ce.json",
-    "checksum": "sha256:9957ebddfb331756414da3793ddca188ea456e404588cfdcca472b256a8d0588",
+    "checksum": "sha256:b1dff533a480dee5ee416eedd32bc056b047a0ee80dc7ed59f2282fb954472af",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:20.830416+00:00"
@@ -136,7 +136,7 @@
     "export_id": "tax-ontology",
     "search_text": "연금계좌 세액공제 연금저축과 퇴직연금 납입액에 대한 세액공제입니다. 소득구간별 공제율, 납입 제외금액, isa 만기 전환 특례를 구분합니다."
   },
-  "record_checksum": "sha256:a33650d78e5d165065850923cbb798bb557670ba28838bb2caf6e8ef4e5ae063"
+  "record_checksum": "sha256:683dcd89a8d15917b20de3234647afd31ec853fd5f5d0a93b8319f88804bfd8d"
 }
 ---
 

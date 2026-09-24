@@ -1,5 +1,40 @@
 ---
-{"id":"source.provider.sc.product-documents","type":"source","title":"SC제일은행 금융상품 공식 문서","publisher":"SC제일은행","authority_class":"provider_official","domains":["deposit","saving"],"terms":[],"publication_memberships":["korea-finance-reference-ontology-2026.json"],"urls":{"canonical":"https://www.standardchartered.co.kr/np/kr/pl/se/SavingList.jsp"},"access":{"method":"product-page","parser_id":"manual-reviewed-product-page","requires_secret":false},"refresh":{"sla_hours":168,"change_detection":"reviewed-document-checksum"},"usage_terms":{"license_or_terms":"공식 상품 공시 열람","terms_status":"review_required","raw_snapshot_allowed":false},"recommendation_eligible":false,"status":"active"}
+{
+  "id": "source.provider.sc.product-documents",
+  "type": "source",
+  "title": "SC제일은행 금융상품 공식 문서",
+  "publisher": "SC제일은행",
+  "authority_class": "provider_official",
+  "domains": [
+    "deposit",
+    "saving",
+    "card"
+  ],
+  "terms": [],
+  "publication_memberships": [
+    "korea-finance-reference-ontology-2026.json"
+  ],
+  "urls": {
+    "canonical": "https://www.standardchartered.co.kr/np/kr/pl/se/SavingList.jsp",
+    "documentation": "https://www.standardchartered.co.kr/np/kr/cm/cc/AnnonceList.jsp?PUB_NTC_PRDCT_TYPE_CD=E001&menuId=HT00050600000000&rnb=6&rnbStep=0"
+  },
+  "access": {
+    "method": "product-page",
+    "parser_id": "manual-reviewed-product-page",
+    "requires_secret": false
+  },
+  "refresh": {
+    "sla_hours": 168,
+    "change_detection": "reviewed-document-checksum"
+  },
+  "usage_terms": {
+    "license_or_terms": "공식 상품 공시 열람",
+    "terms_status": "review_required",
+    "raw_snapshot_allowed": false
+  },
+  "recommendation_eligible": false,
+  "status": "active"
+}
 ---
 
 # SC제일은행 금융상품 공식 문서

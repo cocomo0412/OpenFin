@@ -66,7 +66,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/5edf98a715b8433ab3dd0cfe.json",
-    "checksum": "sha256:054474a6fa57854fe1162dd4fcab8e5e8938a074639a482d9aa6362477af1954",
+    "checksum": "sha256:a162bb65d5ff222b1c35b2c24dc5f13dd582ac7e5000879abf6eec0fdf98f946",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=282559&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:22.571307+00:00"
@@ -112,7 +112,7 @@
     "export_id": "tax-ontology",
     "search_text": "등록면허세 재산권 등 권리의 설정·변경·소멸에 관한 등기·등록에 부과합니다. 취득에 따른 등기·등록은 원칙적으로 제외하되 법정 예외가 있습니다. 등록 유형별 비례세율 또는 정액세액을 적용합니다."
   },
-  "record_checksum": "sha256:7876e68eb61890472a00dfcfce909b5f6b82a746d500f5f998c2a9a20fe452c1"
+  "record_checksum": "sha256:6f09eb02afb0b20104999596a425f65f2fbc2411f64b0fad128c1aa89bddf5cb"
 }
 ---
 

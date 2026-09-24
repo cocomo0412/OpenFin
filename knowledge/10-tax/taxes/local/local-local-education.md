@@ -76,7 +76,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/ec79e7e0e53b19494e7f3a81.json",
-    "checksum": "sha256:118206d0214f954dff35bc91628a5b312a65641fab8422478a588c26da97ccd2",
+    "checksum": "sha256:e8dd3a1399751e76cdb84d09657945d4f3593d17a4a00efb88b8a105979efd04",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=282559&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:22.571307+00:00"
@@ -122,7 +122,7 @@
     "export_id": "tax-ontology",
     "search_text": "지방교육세 본세 종류별로 지방교육세 과세표준과 세율이 다릅니다. 취득세는 법정 조정 산식, 등록분 등록면허세는 20%, 레저세는 40%, 담배소비세는 43.99% 등 해당 조문을 적용합니다."
   },
-  "record_checksum": "sha256:bf60c71d30cc22ff330a317d764ac0707e32a1369d463b1006b3e2b733c894cd"
+  "record_checksum": "sha256:dd423cf5d750cd0125aa99a872bf5ed5abc5843e399d17b860bd78f9e25f7109"
 }
 ---
 

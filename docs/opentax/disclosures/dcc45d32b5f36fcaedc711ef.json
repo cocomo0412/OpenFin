@@ -55,5 +55,29 @@
     "https://www.imlifeins.co.kr/BA/BA_A020.do"
   ],
   "document_scope": "comparison-disclosure attachments; full policy terms not verified",
-  "policy_documents": []
+  "policy_documents": [
+    {
+      "index_url": "https://www.imlifeins.co.kr/BA/BA_A020.do",
+      "url": "https://www.imlifeins.co.kr/www/downloadChk.do",
+      "document_type": "policy-terms",
+      "product_title": "iM Active Care 치매간병보험 무배당 2609 (해약환급금 미지급형)",
+      "context": "iM Active Care 치매간병보험 무배당 2609 (해약환급금 미지급형) 2026-09-01 요약서 방법서 약관",
+      "effective_from": "2026-09-01",
+      "page_count": 701,
+      "text_characters": 998741,
+      "scope": "current policy document collected; individual clause review pending",
+      "receipt": {
+        "url": "https://www.imlifeins.co.kr/www/downloadChk.do",
+        "final_url": "https://www.imlifeins.co.kr/www/downloadChk.do",
+        "http_status": 200,
+        "collected_at": "2026-09-24T08:43:48.929952+00:00",
+        "request_method": "POST",
+        "request_form": {
+          "fileName": "/Download/20260901_iM Active Care 치매간병보험 (무) 2609(해약환급금 미지급형).pdf"
+        },
+        "sha256": "685fa080a45669dde30d13a292505c82f93f5ba1e840be80edd3ca872d2d901b"
+      }
+    }
+  ],
+  "reviewed_at": "2026-09-23T08:20:36.710225+00:00"
 }

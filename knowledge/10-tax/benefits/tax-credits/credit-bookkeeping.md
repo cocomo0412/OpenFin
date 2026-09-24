@@ -71,7 +71,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/20c2a3bfb9f0dac6b325baea.json",
-    "checksum": "sha256:ec53b48dc0b78f12837172578761da1fa69daf18e03bac9a21674dc0835acc78",
+    "checksum": "sha256:bf5c548bee285e0e2d5abbec0c168c558ef499eb5fd8163e47fd056161ecf698",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:20.830416+00:00"
@@ -117,7 +117,7 @@
     "export_id": "tax-ontology",
     "search_text": "기장세액공제 간편장부대상자가 복식부기에 따라 기장하여 소득금액을 계산한 경우 적용되는 세액공제입니다."
   },
-  "record_checksum": "sha256:8831673a4a89900c997dc3513e06c6375f18bfcabd02c56b8e19dc89719a3a6c"
+  "record_checksum": "sha256:83594bf1490905d4ccf55f197121b8cb9b615fea1dcb24bc5514d5a855754988"
 }
 ---
 

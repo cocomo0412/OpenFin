@@ -30,7 +30,8 @@ function finish(item, source, at, raw, locator) {
   item.last_source_checked_at=at; item.last_reviewed_at=at; item.reviewed_at=at;
   item.review_scope='API 응답과 상품 식별자·필드 매핑 검증';
   item.sources=[source];item.source_urls=[byId.get(source)?.urls?.canonical || byId.get(source)?.url || 'https://www.data.go.kr/'];
-  item.source_basis_dates=[at];item.verification_status='listing_only';
+  const rawRows=Array.isArray(raw)?raw:[raw];
+  item.source_basis_dates=[...new Set(rawRows.flatMap(r=>['basDt','basYm','TIME','dcls_month','disclosure_month'].map(k=>r?.[k]).filter(Boolean)).map(String))];item.verification_status='listing_only';
   item.recommendation_status='reference_only';item.recommendation_scope='listing_only';
   item.source_listing_status='listed';item.sales_verification_status='listed_unverified';
   item.freshness_status='current';item.source_freshness_status='current';
@@ -230,5 +231,9 @@ if(fs.existsSync(govPath)) {
 }
 inventory.scope='전체 건수·체크섬을 검증한 API 수집본. 예금·적금·대출·예금자보호·지방 혜택은 식별자를 대조해 본문에 반영하고, 나머지 통계·공시는 원문 필드를 보존한 관측 자료로 제공합니다. 미갱신 분야와 제공기관 기준일은 별도입니다.';
 inventory.integration='canonical catalog fields and typed API observations; see canonical-refresh-report.json for coverage and remaining domains';
+inventory.pending=additional.failures.map(f=>({...f,source_id:'source.fss.finlife.api',checked_at:additional.collected_at,status:'provider_response_rejected'}));
+inventory.snapshot_basis_date=report.collected_at.slice(0,10);
+inventory.validated_at=report.collected_at;
+inventory.validation_scope='API collection counts, identity and schema mapping; provider reporting dates preserved';
 writeJson(path.join(DOCS,'collection-inventory.json'),inventory);
 console.log(JSON.stringify({refreshed:refreshed.size,added:additions.length,observations:observationRows.length,domains:report.domains,unresolved:report.unresolved}));

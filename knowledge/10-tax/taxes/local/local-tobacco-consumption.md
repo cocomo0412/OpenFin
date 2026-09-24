@@ -66,7 +66,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/6bbc2aecce1774a0f86c6759.json",
-    "checksum": "sha256:965d380ac9d18358926dd52f226c4fa0b89a6a3393f9a5420eb06cb985736d4a",
+    "checksum": "sha256:9d8af24f96f0aedade46ac19ebb35d4544878736e42e2bd7c700b31ca5cfb3d2",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=282559&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:22.571307+00:00"
@@ -112,7 +112,7 @@
     "export_id": "tax-ontology",
     "search_text": "담배소비세 궐련의 담배소비세는 20개비당 1,007원이 기준이며 다른 담배 종류에는 별도 단위세액이 적용됩니다."
   },
-  "record_checksum": "sha256:6410e999d5b33c598d6498acb1f2d0d8f9acdc2e92098530333a79aa2e90c05f"
+  "record_checksum": "sha256:802f48c6eb3a2720bda07f1247f78c4a810cfbf03b982a8c839e3cbd37ccc025"
 }
 ---
 

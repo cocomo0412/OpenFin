@@ -62,7 +62,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/a7ab5dc32d5baf406a8636ec.json",
-    "checksum": "sha256:c238a171165333d47e8ffec6cee509b94976039917206c638637708b4909f5c7",
+    "checksum": "sha256:e08f3643266ee101cc49776e4154aea55e96ecebf04bf23a547c805a588e69f3",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:20.830416+00:00"
@@ -108,7 +108,7 @@
     "export_id": "tax-ontology",
     "search_text": "보험료공제 국민건강보험료, 고용보험료 등 법정 보험료 납부액을 특별소득공제로 반영하는 항목입니다."
   },
-  "record_checksum": "sha256:801d43b922d7e59288b1ea009a170623bbdcf1124a1441be8a8f56cf3f210255"
+  "record_checksum": "sha256:fbeb1e6916c76cd6bb36bba3409b734887df5bebc5a8a8e6ca39188d415a0e06"
 }
 ---
 

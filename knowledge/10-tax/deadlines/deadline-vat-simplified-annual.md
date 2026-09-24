@@ -63,7 +63,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/c7c77c55e6c7134bbfe62a29.json",
-    "checksum": "sha256:7c646ffa069383c67d288db1b96fd477e6cdbfb6c6e1e924ec4b23d31047eb83",
+    "checksum": "sha256:c8af7dc2990998498497aef4acfb8e2671cf4bae429f8b463b6b51d21941a24c",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276117&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:24.306633+00:00"
@@ -109,7 +109,7 @@
     "export_id": "tax-ontology",
     "search_text": "부가가치세 간이과세자 연간 확정신고 간이과세자의 일반 과세기간은 1~12월이며 확정신고는 다음 해 1월 25일까지입니다. 폐업·과세유형 전환·간이과세 포기에는 별도 과세기간을 적용합니다."
   },
-  "record_checksum": "sha256:26cbc0d5934a302aa3c637669aab333d391021d4597e38f694de214c920597b0"
+  "record_checksum": "sha256:1f9d30f7fdac01b6d273b953288609c73bcf9c59f1bbfefdea26289be4aed1c8"
 }
 ---
 

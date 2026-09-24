@@ -1,0 +1,36 @@
+{
+  "id": "tax.securities-transaction",
+  "source_id": "source.law.securities-transaction-decree.rates",
+  "reviewed_articles": [
+    {
+      "number": "5",
+      "text": "제5조(탄력세율) 법 제8조 제2항 을 적용받는 주권과 그 세율은 다음 각 호와 같다. <개정 2013. 8. 27., 2017. 2. 7., 2019. 5. 28., 2020. 12. 29., 2022. 12. 31., 2025. 12. 31.> 1. 유가증권시장( 「자본시장과 금융투자업에 관한 법률 시행령」 제176조의9 제1항 에 따른 유가증권시장을 말한다)에서 양도되는 주권: 1만분의 5 2. 코넥스시장( 「자본시장과 금융투자업에 관한 법률 시행령」 제11조 제2항 에 따른 코넥스시장을 말한다)에서 양도되는 주권: 1만분의 10 3. 다음 각 목의 어느 하나에 해당하는 주권의 경우: 1만분의 20 가. 코스닥시장(대통령령 제24697호 자본시장과 금융투자업에 관한 법률 시행령 일부개정령 부칙 제8조 에 따른 코스닥시장을 말한다)에서 양도되는 주권 나. 「자본시장과 금융투자업에 관한 법률 시행령」 제178조 제1항 에 따른 기준에 따라 금융투자협회를 통하여 양도되는 주권 [전문개정 2013. 6. 28.]"
+    }
+  ],
+  "summary": [
+    {
+      "label": "시장별 탄력세율",
+      "condition": "현행 시행령 제5조의 증권거래세율은 유가증권시장 0.05%, 코넥스시장 0.10%, 코스닥시장 및 법정 금융투자협회 장외거래 대상 주권 0.20%입니다. 시장별 세율을 구분해야 합니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.securities-transaction-decree.rates",
+      "criteria_kind": "disclosure"
+    },
+    {
+      "label": "적용 범위",
+      "condition": "위 세율은 제5조에 열거된 시장·거래의 주권에 적용하는 탄력세율입니다. 그 밖의 양도에 그대로 적용하지 않으며, 별도 세목인 농어촌특별세와 합산한 세율로 표시하지 않습니다. 비과세·과세표준 등은 모법의 해당 요건을 확인합니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.securities-transaction-decree.rates",
+      "criteria_kind": "disclosure"
+    }
+  ],
+  "supplemental_laws": [],
+  "reviewed_images": [],
+  "reviewed_at": "2026-09-24",
+  "receipt": {
+    "url": "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=280901&joNo=0005&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR",
+    "final_url": "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=280901&joNo=0005&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR",
+    "collected_at": "2026-09-24T08:14:54.059909+00:00",
+    "http_status": 200,
+    "sha256": "538b9caa3965a8efe8907d0841f1f061154923d3fb83a4149aee27e7a9a11409"
+  }
+}

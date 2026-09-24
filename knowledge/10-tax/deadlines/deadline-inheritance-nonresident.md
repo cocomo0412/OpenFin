@@ -63,7 +63,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/2e27d2bf505f1eddf7349a81.json",
-    "checksum": "sha256:3041c2ec243be6ee6472860de72ea20b440c063a3ce13b3c1761b7b0605e9078",
+    "checksum": "sha256:111044104c7d563d96f82bb9c1f0ee4e3df5ac840ba729e92db2346b001993e2",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276123&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:22.158326+00:00"
@@ -109,7 +109,7 @@
     "export_id": "tax-ontology",
     "search_text": "상속세 외국 주소 관련 신고기한 특례 상속세 및 증여세법 제67조 제4항은 피상속인이나 상속인이 외국에 주소를 둔 경우 신고기간을 9개월로 정합니다. 국적만으로 판단하거나 상속인 전원이 외국에 거주해야 한다고 일괄 설명하지 않습니다."
   },
-  "record_checksum": "sha256:cb279f0f3df01ad7ef91e602f70fde8d03380a6b6602cec3f497e12c4ae47ecd"
+  "record_checksum": "sha256:32ae1090b02bddbafeeae479848efcbb09d4dcf2bb709199d8f7b1a48f8fc7fe"
 }
 ---
 

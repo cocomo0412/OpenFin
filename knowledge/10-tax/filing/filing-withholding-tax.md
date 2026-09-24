@@ -75,7 +75,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/ccd59811587f6ee980da1d92.json",
-    "checksum": "sha256:7a3b0f73e2927cedaa2c97268bae329a0def71ee108aa8c9f74d4cfe30f828ba",
+    "checksum": "sha256:2886cb2a336efc28f0a0d2e68ed202a9c03df0c26a9155e126b07b089d0d2b2e",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:20.830416+00:00"
@@ -121,7 +121,7 @@
     "export_id": "tax-ontology",
     "search_text": "원천세 신고 납부 절차 원천징수의무자가 원천징수한 세액을 신고·납부하는 절차입니다. 매월 납부와 반기별 납부를 모두 연결해 급여·사업소득 지급자의 반복 업무로 관리합니다."
   },
-  "record_checksum": "sha256:ee7341ffe1a54099210f1cae4894e9ae5a0fa9e8e64507a563da6d26f0a5a506"
+  "record_checksum": "sha256:4de280d7f095a0f86b09188c80dca45046da257590a3792062e4aba46ca679be"
 }
 ---
 

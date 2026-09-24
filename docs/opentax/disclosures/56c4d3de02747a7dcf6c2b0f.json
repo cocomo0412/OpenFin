@@ -54,5 +54,27 @@
     "https://brand.metlife.co.kr/pn/mcvrgProd/retrieveMcvrgProdMain.do"
   ],
   "document_scope": "comparison-disclosure attachments; full policy terms not verified",
-  "policy_documents": []
+  "policy_documents": [
+    {
+      "index_url": "https://brand.metlife.co.kr/pn/mcvrgProd/retrieveMcvrgProdMain.do",
+      "url": "https://brand.metlife.co.kr/pn/mcvrgProd/mcvrgProdDownloadFile.do?insProdSeq=881&seq=4193&fnum=03",
+      "document_type": "policy-terms",
+      "product_title": "무배당 유니버셜달러종신보험 Plus(보증비용부과형)_해약환급금미보증형",
+      "context": "2026.07.01 ~ 01_사업방법서_무배당 유니버셜달러종신보험 Plus(보증비용부과형)_20260416_v1.0.pdf 상품요약서_무배당유니버셜달러종신보험Plus(보증비용부과형)_20260701.pdf 무배당 유니버셜달러종신보험Plus(보증비용부과형)해약환급금미보증형_12233_20260701.pdf - - 특약보기",
+      "effective_from": "2026-07-01",
+      "page_count": 185,
+      "text_characters": 151987,
+      "scope": "current policy document collected; individual clause review pending",
+      "receipt": {
+        "url": "https://brand.metlife.co.kr/pn/mcvrgProd/mcvrgProdDownloadFile.do?insProdSeq=881&seq=4193&fnum=03",
+        "final_url": "https://brand.metlife.co.kr/pn/mcvrgProd/mcvrgProdDownloadFile.do?insProdSeq=881&seq=4193&fnum=03",
+        "http_status": 200,
+        "collected_at": "2026-09-24T08:53:35.744070+00:00",
+        "request_method": "GET",
+        "request_form": null,
+        "sha256": "b828a74de923d11429479d015c695272b04ad30dbcaa3b4302125ab6e7568920"
+      }
+    }
+  ],
+  "reviewed_at": "2026-09-23T08:20:32.022164+00:00"
 }

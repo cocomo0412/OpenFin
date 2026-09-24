@@ -1,7 +1,7 @@
 {
   "version": "OPENFIN-SOURCE-REGISTRY-2026.07.28.1",
-  "generated_at": "2026-09-23T07:29:03.565Z",
-  "source_count": 156,
+  "generated_at": "2026-09-24T10:24:18.981588+00:00",
+  "source_count": 168,
   "sources": [
     {
       "id": "source.bccard.check-card-list",
@@ -2773,6 +2773,78 @@
       "source_row_count": 1
     },
     {
+      "id": "source.law.comprehensive-real-estate-act.full",
+      "type": "source",
+      "title": "종합부동산세법",
+      "publisher": "법제처 국가법령정보센터",
+      "authority_class": "law_official",
+      "domains": [
+        "tax"
+      ],
+      "urls": {
+        "canonical": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280417&chrClsCd=010202&urlMode=lsInfoP&efYd=20260101&ancYnChk=0",
+        "api": null,
+        "documentation": null,
+        "all": [
+          "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280417&chrClsCd=010202&urlMode=lsInfoP&efYd=20260101&ancYnChk=0"
+        ]
+      },
+      "access": {
+        "method": "web",
+        "parser_id": "http:source.law.comprehensive-real-estate-act.full",
+        "requires_secret": false
+      },
+      "refresh": {
+        "sla_hours": 168,
+        "change_detection": "http-checksum"
+      },
+      "usage_terms": {
+        "license_or_terms": "이용조건 미확인 - 원문 이용약관 검토 필요",
+        "terms_status": "review_required",
+        "raw_snapshot_allowed": false
+      },
+      "recommendation_eligible": false,
+      "status": "active",
+      "legacy_source_basis_dates": [],
+      "source_row_count": 1
+    },
+    {
+      "id": "source.law.comprehensive-real-estate-decree.ratio",
+      "type": "source",
+      "title": "종합부동산세법시행령/제2조의4",
+      "publisher": "법제처 국가법령정보센터",
+      "authority_class": "law_official",
+      "domains": [
+        "tax"
+      ],
+      "urls": {
+        "canonical": "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=283639&joNo=0002&joBrNo=04&docCls=jo&urlMode=lsScJoRltInfoR",
+        "api": null,
+        "documentation": null,
+        "all": [
+          "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=283639&joNo=0002&joBrNo=04&docCls=jo&urlMode=lsScJoRltInfoR"
+        ]
+      },
+      "access": {
+        "method": "web",
+        "parser_id": "http:source.law.comprehensive-real-estate-decree.ratio",
+        "requires_secret": false
+      },
+      "refresh": {
+        "sla_hours": 168,
+        "change_detection": "http-checksum"
+      },
+      "usage_terms": {
+        "license_or_terms": "이용조건 미확인 - 원문 이용약관 검토 필요",
+        "terms_status": "review_required",
+        "raw_snapshot_allowed": false
+      },
+      "recommendation_eligible": false,
+      "status": "active",
+      "legacy_source_basis_dates": [],
+      "source_row_count": 1
+    },
+    {
       "id": "source.law.corporate-tax-act.credits",
       "type": "source",
       "title": "법인세법 세액공제 조문",
@@ -2808,6 +2880,42 @@
       "legacy_source_basis_dates": [
         "2026-05-04T00:00:00.000Z"
       ],
+      "source_row_count": 1
+    },
+    {
+      "id": "source.law.customs-act.full",
+      "type": "source",
+      "title": "관세법",
+      "publisher": "법제처 국가법령정보센터",
+      "authority_class": "law_official",
+      "domains": [
+        "tax"
+      ],
+      "urls": {
+        "canonical": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=288689&chrClsCd=010202&urlMode=lsInfoP&efYd=20260811&ancYnChk=0",
+        "api": null,
+        "documentation": null,
+        "all": [
+          "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=288689&chrClsCd=010202&urlMode=lsInfoP&efYd=20260811&ancYnChk=0"
+        ]
+      },
+      "access": {
+        "method": "web",
+        "parser_id": "http:source.law.customs-act.full",
+        "requires_secret": false
+      },
+      "refresh": {
+        "sla_hours": 168,
+        "change_detection": "http-checksum"
+      },
+      "usage_terms": {
+        "license_or_terms": "이용조건 미확인 - 원문 이용약관 검토 필요",
+        "terms_status": "review_required",
+        "raw_snapshot_allowed": false
+      },
+      "recommendation_eligible": false,
+      "status": "active",
+      "legacy_source_basis_dates": [],
       "source_row_count": 1
     },
     {
@@ -2887,6 +2995,78 @@
       "source_row_count": 1
     },
     {
+      "id": "source.law.education-tax-act.full",
+      "type": "source",
+      "title": "교육세법",
+      "publisher": "법제처 국가법령정보센터",
+      "authority_class": "law_official",
+      "domains": [
+        "tax"
+      ],
+      "urls": {
+        "canonical": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280369&chrClsCd=010202&urlMode=lsInfoP&efYd=20260101&ancYnChk=0",
+        "api": null,
+        "documentation": null,
+        "all": [
+          "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280369&chrClsCd=010202&urlMode=lsInfoP&efYd=20260101&ancYnChk=0"
+        ]
+      },
+      "access": {
+        "method": "web",
+        "parser_id": "http:source.law.education-tax-act.full",
+        "requires_secret": false
+      },
+      "refresh": {
+        "sla_hours": 168,
+        "change_detection": "http-checksum"
+      },
+      "usage_terms": {
+        "license_or_terms": "이용조건 미확인 - 원문 이용약관 검토 필요",
+        "terms_status": "review_required",
+        "raw_snapshot_allowed": false
+      },
+      "recommendation_eligible": false,
+      "status": "active",
+      "legacy_source_basis_dates": [],
+      "source_row_count": 1
+    },
+    {
+      "id": "source.law.income-decree.capital-gains",
+      "type": "source",
+      "title": "소득세법시행령/제167조의9",
+      "publisher": "법제처 국가법령정보센터",
+      "authority_class": "law_official",
+      "domains": [
+        "tax"
+      ],
+      "urls": {
+        "canonical": "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=286211&joNo=0167&joBrNo=09&docCls=jo&urlMode=lsScJoRltInfoR",
+        "api": null,
+        "documentation": null,
+        "all": [
+          "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=286211&joNo=0167&joBrNo=09&docCls=jo&urlMode=lsScJoRltInfoR"
+        ]
+      },
+      "access": {
+        "method": "web",
+        "parser_id": "http:source.law.income-decree.capital-gains",
+        "requires_secret": false
+      },
+      "refresh": {
+        "sla_hours": 168,
+        "change_detection": "http-checksum"
+      },
+      "usage_terms": {
+        "license_or_terms": "이용조건 미확인 - 원문 이용약관 검토 필요",
+        "terms_status": "review_required",
+        "raw_snapshot_allowed": false
+      },
+      "recommendation_eligible": false,
+      "status": "active",
+      "legacy_source_basis_dates": [],
+      "source_row_count": 1
+    },
+    {
       "id": "source.law.income-tax-act.deductions-credits",
       "type": "source",
       "title": "소득세법 공제·세액공제 조문",
@@ -2922,6 +3102,42 @@
       "legacy_source_basis_dates": [
         "2026-05-04T00:00:00.000Z"
       ],
+      "source_row_count": 1
+    },
+    {
+      "id": "source.law.individual-consumption-decree.flexible",
+      "type": "source",
+      "title": "개별소비세법시행령/제2조의2",
+      "publisher": "법제처 국가법령정보센터",
+      "authority_class": "law_official",
+      "domains": [
+        "tax"
+      ],
+      "urls": {
+        "canonical": "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=288847&joNo=0002&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR",
+        "api": null,
+        "documentation": null,
+        "all": [
+          "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=288847&joNo=0002&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR"
+        ]
+      },
+      "access": {
+        "method": "web",
+        "parser_id": "http:source.law.individual-consumption-decree.flexible",
+        "requires_secret": false
+      },
+      "refresh": {
+        "sla_hours": 168,
+        "change_detection": "http-checksum"
+      },
+      "usage_terms": {
+        "license_or_terms": "이용조건 미확인 - 원문 이용약관 검토 필요",
+        "terms_status": "review_required",
+        "raw_snapshot_allowed": false
+      },
+      "recommendation_eligible": false,
+      "status": "active",
+      "legacy_source_basis_dates": [],
       "source_row_count": 1
     },
     {
@@ -3001,6 +3217,42 @@
       "source_row_count": 1
     },
     {
+      "id": "source.law.liquor-decree.rates",
+      "type": "source",
+      "title": "주세법시행령",
+      "publisher": "법제처 국가법령정보센터",
+      "authority_class": "law_official",
+      "domains": [
+        "tax"
+      ],
+      "urls": {
+        "canonical": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=283483&chrClsCd=010202&urlMode=lsInfoP&efYd=20260401&ancYnChk=0",
+        "api": null,
+        "documentation": null,
+        "all": [
+          "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=283483&chrClsCd=010202&urlMode=lsInfoP&efYd=20260401&ancYnChk=0"
+        ]
+      },
+      "access": {
+        "method": "web",
+        "parser_id": "http:source.law.liquor-decree.rates",
+        "requires_secret": false
+      },
+      "refresh": {
+        "sla_hours": 168,
+        "change_detection": "http-checksum"
+      },
+      "usage_terms": {
+        "license_or_terms": "이용조건 미확인 - 원문 이용약관 검토 필요",
+        "terms_status": "review_required",
+        "raw_snapshot_allowed": false
+      },
+      "recommendation_eligible": false,
+      "status": "active",
+      "legacy_source_basis_dates": [],
+      "source_row_count": 1
+    },
+    {
       "id": "source.law.liquor-tax-act.rates",
       "type": "source",
       "title": "주세법 세율 조문",
@@ -3074,6 +3326,42 @@
       "legacy_source_basis_dates": [
         "2026-05-03T00:00:00.000Z"
       ],
+      "source_row_count": 1
+    },
+    {
+      "id": "source.law.securities-transaction-decree.rates",
+      "type": "source",
+      "title": "증권거래세법시행령/제5조",
+      "publisher": "법제처 국가법령정보센터",
+      "authority_class": "law_official",
+      "domains": [
+        "tax"
+      ],
+      "urls": {
+        "canonical": "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=280901&joNo=0005&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR",
+        "api": null,
+        "documentation": null,
+        "all": [
+          "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=280901&joNo=0005&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR"
+        ]
+      },
+      "access": {
+        "method": "web",
+        "parser_id": "http:source.law.securities-transaction-decree.rates",
+        "requires_secret": false
+      },
+      "refresh": {
+        "sla_hours": 168,
+        "change_detection": "http-checksum"
+      },
+      "usage_terms": {
+        "license_or_terms": "이용조건 미확인 - 원문 이용약관 검토 필요",
+        "terms_status": "review_required",
+        "raw_snapshot_allowed": false
+      },
+      "recommendation_eligible": false,
+      "status": "active",
+      "legacy_source_basis_dates": [],
       "source_row_count": 1
     },
     {
@@ -3191,6 +3479,114 @@
       "source_row_count": 1
     },
     {
+      "id": "source.law.tax-reduction-1997.housing",
+      "type": "source",
+      "title": "조세감면규제법 1997년 주택자금이자 조문",
+      "publisher": "법제처 국가법령정보센터",
+      "authority_class": "law_official",
+      "domains": [
+        "tax"
+      ],
+      "urls": {
+        "canonical": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=50697&chrClsCd=010202&efYd=19970830&ancYnChk=0",
+        "api": null,
+        "documentation": null,
+        "all": [
+          "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=50697&chrClsCd=010202&efYd=19970830&ancYnChk=0"
+        ]
+      },
+      "access": {
+        "method": "web",
+        "parser_id": "http:source.law.tax-reduction-1997.housing",
+        "requires_secret": false
+      },
+      "refresh": {
+        "sla_hours": 168,
+        "change_detection": "http-checksum"
+      },
+      "usage_terms": {
+        "license_or_terms": "이용조건 미확인 - 원문 이용약관 검토 필요",
+        "terms_status": "review_required",
+        "raw_snapshot_allowed": false
+      },
+      "recommendation_eligible": false,
+      "status": "active",
+      "legacy_source_basis_dates": [],
+      "source_row_count": 1
+    },
+    {
+      "id": "source.law.tax-special-treatment-2012.pension",
+      "type": "source",
+      "title": "조세특례제한법 2012년 개인연금저축 조문",
+      "publisher": "법제처 국가법령정보센터",
+      "authority_class": "law_official",
+      "domains": [
+        "tax"
+      ],
+      "urls": {
+        "canonical": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=128964&chrClsCd=010202&efYd=20121002&ancYnChk=0",
+        "api": null,
+        "documentation": null,
+        "all": [
+          "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=128964&chrClsCd=010202&efYd=20121002&ancYnChk=0"
+        ]
+      },
+      "access": {
+        "method": "web",
+        "parser_id": "http:source.law.tax-special-treatment-2012.pension",
+        "requires_secret": false
+      },
+      "refresh": {
+        "sla_hours": 168,
+        "change_detection": "http-checksum"
+      },
+      "usage_terms": {
+        "license_or_terms": "이용조건 미확인 - 원문 이용약관 검토 필요",
+        "terms_status": "review_required",
+        "raw_snapshot_allowed": false
+      },
+      "recommendation_eligible": false,
+      "status": "active",
+      "legacy_source_basis_dates": [],
+      "source_row_count": 1
+    },
+    {
+      "id": "source.law.tax-special-treatment-decree.e-filing",
+      "type": "source",
+      "title": "조세특례제한법시행령/제104조의5",
+      "publisher": "법제처 국가법령정보센터",
+      "authority_class": "law_official",
+      "domains": [
+        "tax"
+      ],
+      "urls": {
+        "canonical": "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=288915&joNo=0104&joBrNo=05&docCls=jo&urlMode=lsScJoRltInfoR",
+        "api": null,
+        "documentation": null,
+        "all": [
+          "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=288915&joNo=0104&joBrNo=05&docCls=jo&urlMode=lsScJoRltInfoR"
+        ]
+      },
+      "access": {
+        "method": "web",
+        "parser_id": "http:source.law.tax-special-treatment-decree.e-filing",
+        "requires_secret": false
+      },
+      "refresh": {
+        "sla_hours": 168,
+        "change_detection": "http-checksum"
+      },
+      "usage_terms": {
+        "license_or_terms": "이용조건 미확인 - 원문 이용약관 검토 필요",
+        "terms_status": "review_required",
+        "raw_snapshot_allowed": false
+      },
+      "recommendation_eligible": false,
+      "status": "active",
+      "legacy_source_basis_dates": [],
+      "source_row_count": 1
+    },
+    {
       "id": "source.law.tax-special-treatment-restriction-act.reliefs",
       "type": "source",
       "title": "조세특례제한법 공제·감면 조문",
@@ -3226,6 +3622,42 @@
       "legacy_source_basis_dates": [
         "2026-05-04T00:00:00.000Z"
       ],
+      "source_row_count": 1
+    },
+    {
+      "id": "source.law.transport-energy-decree.flexible",
+      "type": "source",
+      "title": "교통ㆍ에너지ㆍ환경세법시행령/제3조의2",
+      "publisher": "법제처 국가법령정보센터",
+      "authority_class": "law_official",
+      "domains": [
+        "tax"
+      ],
+      "urls": {
+        "canonical": "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=288439&joNo=0003&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR",
+        "api": null,
+        "documentation": null,
+        "all": [
+          "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=288439&joNo=0003&joBrNo=02&docCls=jo&urlMode=lsScJoRltInfoR"
+        ]
+      },
+      "access": {
+        "method": "web",
+        "parser_id": "http:source.law.transport-energy-decree.flexible",
+        "requires_secret": false
+      },
+      "refresh": {
+        "sla_hours": 168,
+        "change_detection": "http-checksum"
+      },
+      "usage_terms": {
+        "license_or_terms": "이용조건 미확인 - 원문 이용약관 검토 필요",
+        "terms_status": "review_required",
+        "raw_snapshot_allowed": false
+      },
+      "recommendation_eligible": false,
+      "status": "active",
+      "legacy_source_basis_dates": [],
       "source_row_count": 1
     },
     {
@@ -5852,14 +6284,16 @@
       "authority_class": "provider_official",
       "domains": [
         "deposit",
-        "saving"
+        "saving",
+        "card"
       ],
       "urls": {
         "canonical": "https://www.standardchartered.co.kr/np/kr/pl/se/SavingList.jsp",
         "api": null,
-        "documentation": null,
+        "documentation": "https://www.standardchartered.co.kr/np/kr/cm/cc/AnnonceList.jsp?PUB_NTC_PRDCT_TYPE_CD=E001&menuId=HT00050600000000&rnb=6&rnbStep=0",
         "all": [
-          "https://www.standardchartered.co.kr/np/kr/pl/se/SavingList.jsp"
+          "https://www.standardchartered.co.kr/np/kr/pl/se/SavingList.jsp",
+          "https://www.standardchartered.co.kr/np/kr/cm/cc/AnnonceList.jsp?PUB_NTC_PRDCT_TYPE_CD=E001&menuId=HT00050600000000&rnb=6&rnbStep=0"
         ]
       },
       "access": {

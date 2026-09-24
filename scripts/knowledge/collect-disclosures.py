@@ -196,6 +196,29 @@ def collect_woori(row, url):
 
 
 def collect_card(row):
+    if row['id'] == 'finance.card.check-card.sc제일은행.부자되세요-더-마일리지-체크-232441':
+        # The issuer's disclosure differs from the BC generic product family.
+        # Resolve the actual current attachment from SC's public disclosure API.
+        import pypdfium2 as pdfium
+        endpoint = 'https://www.standardchartered.co.kr/np/kr/cm/cc/selectAnnonceList'
+        data = {'serviceID':'AnnonceList.selectAnnonceList','task':'com.scbank.np.task.cm.cc.AnnonceListTask','action':'selectAnnonceList','pubNtcPrdctTypeCd':'E001','PUB_NTC_PRDCT_TYPE_CD':'E001','KEYWORD':'','_KEYWORD':''}
+        try:
+            request = urllib.request.Request(endpoint, data=json.dumps(data).encode(), headers={'Content-Type':'application/json; charset=UTF-8'})
+            with urllib.request.urlopen(request,timeout=30) as response:
+                listing = json.loads(response.read())
+            matches = [r['ANNONCE_LIST'] for r in listing['vector'] if r['ANNONCE_LIST']['PRDCT_NM'] == '부자되세요 더 마일리지 체크카드']
+            if len(matches) != 1: raise ValueError('Ambiguous SC card identity')
+            product = matches[0]
+            url = 'https://www.standardchartered.co.kr/hp/file/ap/pd/' + product['PRDCT_PRVSN_ID2']
+            raw,receipt = retrieve(url)
+            document = pdfium.PdfDocument(raw); pages=[]
+            for page in document:
+                textpage = page.get_textpage(); pages.append(textpage.get_text_range()); textpage.close(); page.close()
+            document.close()
+            text=clean(' '.join(pages).replace('\x07',''))
+            if 'SUPER 적립' not in text or '월 합산 이용금액 200만원' not in text: raise ValueError('SC card terms changed; review required')
+            return {'id':row['id'],'title':'SC제일은행 부자되세요 더 마일리지 체크카드','text':text,'receipt':receipt,'source_id':'source.provider.sc.product-documents','scope':'issuer-specific official product leaflet; reviewed 2026-09-24; listing ID 4387; effective 2024-09-01','issuer_listing':product}
+        except Exception as error: return {'id':row['id'],'error':str(error)}
     candidates = [u for u in row.get('source_urls', []) if any(marker in u for marker in ['cooperationcode=', 'gdsno=', 'CardinfoDetails001?code='])]
     if not candidates:
         candidates=[u for u in row.get('source_urls',[]) if any(host in urlparse(u).netloc for host in ['lottecard.co.kr','samsungcard.com','shinhancard.com','wooricard.com','hanacard.co.kr','hyundaicard.com']) and urlparse(u).path not in ['', '/']]
@@ -266,6 +289,10 @@ def run_cards(retry_failed=False):
         failed={r['id'] for r in previous if 'error' in r}
         results=[r for r in previous if r['id'] not in failed]
         rows=[r for r in rows if r['id'] in failed]
+    # PDFium must run outside the HTML worker pool.
+    pdf_rows=[r for r in rows if r['id']=='finance.card.check-card.sc제일은행.부자되세요-더-마일리지-체크-232441']
+    results.extend(collect_card(r) for r in pdf_rows)
+    rows=[r for r in rows if r not in pdf_rows]
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
         for i,result in enumerate(pool.map(collect_card,rows),1):
             results.append(result)

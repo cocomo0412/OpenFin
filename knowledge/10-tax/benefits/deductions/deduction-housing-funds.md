@@ -87,7 +87,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/753609a6a0c6885b86176a92.json",
-    "checksum": "sha256:cff16331b68904eef26d3e00013b3033e4a90cc129ad83b38b34febad82e95fc",
+    "checksum": "sha256:dafd03db5be0f002f346cd1022dbf5ade2e9bc71d149831c9ddbe7b0cc768110",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:20.830416+00:00"
@@ -133,7 +133,7 @@
     "export_id": "tax-ontology",
     "search_text": "주택자금공제 주택임차차입금 원리금상환액과 장기주택저당차입금 이자상환액 등 주택자금 관련 소득공제입니다."
   },
-  "record_checksum": "sha256:d5155746c58441874661c5eaad5ebefc4a2c325795988db8f17cbb39719eafc4"
+  "record_checksum": "sha256:a5b355928e06123af6db077e9b32e7bf2e824903a17abaa39fb691fa817869ca"
 }
 ---
 

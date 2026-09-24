@@ -6,8 +6,12 @@ import {publicReceipt} from './disclosure-receipts.mjs';
 import {localTaxReviews} from './local-tax-reviews.mjs';
 import {filingTaxReviews} from './filing-tax-reviews.mjs';
 import {deadlineReviews} from './deadline-reviews.mjs';
+import {corporateTaxReviews} from './corporate-tax-reviews.mjs';
+import {personalTaxReviews} from './personal-tax-reviews.mjs';
+import {remainingTaxReviews} from './remaining-tax-reviews.mjs';
+import {matchingPolicy} from './policy-matching.mjs';
 let count=0;
-const expectedTax=new Set([...localTaxReviews,...filingTaxReviews,...deadlineReviews].map(r=>r[0]));
+const expectedTax=new Set([...localTaxReviews,...filingTaxReviews,...deadlineReviews,...corporateTaxReviews,...personalTaxReviews,...remainingTaxReviews].map(r=>r[0]));
 function check(row){
  if(!row.current_disclosure)return;
  const file=path.resolve(ROOT,'docs',row.current_disclosure.path);
@@ -25,6 +29,11 @@ function check(row){
    assert.ok(article.text.startsWith(`제${article.number.replace('의','조의')}`));
   }
   assert.deepEqual(payload.summary,row.criteria,`Summary differs from canonical rules: ${row.id}`);
+  for(const extra of payload.supplemental_laws||[]){
+   assert.ok(row.sources.includes(extra.source_id),`Supplemental source missing: ${row.id}`);
+   assert.deepEqual(publicReceipt(extra.receipt),extra.receipt);
+   assert.ok(extra.reviewed_articles.every(a=>a.text.length>30));
+  }
   expectedTax.delete(row.id);
  }
  assert.equal(row.recommendation_status,'reference_only');
@@ -36,7 +45,7 @@ function check(row){
  }
  for(const document of payload.policy_documents||[]){
   assert.equal(document.document_type,'policy-terms');
-  assert.ok((payload.provider_disclosure_urls||[]).includes(document.index_url));
+  assert.ok(matchingPolicy(payload,document),'Policy product/version mismatch');
   assert.match(document.receipt.sha256,/^[a-f0-9]{64}$/);
   assert.ok(document.page_count>0&&document.text_characters>=1000);
   assert.ok(document.effective_from<=document.receipt.collected_at.slice(0,10));

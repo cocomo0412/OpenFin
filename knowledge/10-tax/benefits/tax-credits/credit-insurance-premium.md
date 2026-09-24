@@ -61,7 +61,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/1848776d6946385c3187849c.json",
-    "checksum": "sha256:afb2665199a7bb27f59ae9907d82ff0598791cac75d28cf39d4adf9fdc61174d",
+    "checksum": "sha256:a90dd7bb2dce2bc99a8bbb3654d2965570f95642e1042dfd7c28bb38678dc800",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:20.830416+00:00"
@@ -107,7 +107,7 @@
     "export_id": "tax-ontology",
     "search_text": "보험료 세액공제 보장성보험료, 장애인전용 보장성보험료 등에 대한 특별세액공제입니다."
   },
-  "record_checksum": "sha256:c9d4235d4dee417f03a95b76e4ab567868accd50439e30f2cb3e21d1f35e6cf8"
+  "record_checksum": "sha256:07912a02ccc290768ae85a28ed1f39d8c607ffe32644942d8c7950a61dbe0303"
 }
 ---
 

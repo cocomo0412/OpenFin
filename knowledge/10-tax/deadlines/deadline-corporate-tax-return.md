@@ -63,7 +63,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/95ccc33ad3a1df7f7e620b7d.json",
-    "checksum": "sha256:b667113e098882441c2fbc6eaf7cf3604480c13b5fc21f76f0e580faf820fe41",
+    "checksum": "sha256:9f312b8b67cdb4f375d3b0341652e9767c756fddd3fb59d5e5bc742924eaba14",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280349&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:20.451325+00:00"
@@ -109,7 +109,7 @@
     "export_id": "tax-ontology",
     "search_text": "법인세 과세표준 신고 내국법인은 사업연도 종료월 말일부터 3개월 이내에 신고합니다. 법정 성실신고확인서를 제출하는 경우에는 4개월이며, 외부감사 미종결에 따른 연장 등은 별도 요건을 적용합니다."
   },
-  "record_checksum": "sha256:6bc212cc9355cbfbb4e84621305cb6b7937f6d96c1db796024587abb22a23612"
+  "record_checksum": "sha256:3852dcaa3c230989f961d10e1fae75eb7181e714cadf454fbb1374e62664414d"
 }
 ---
 

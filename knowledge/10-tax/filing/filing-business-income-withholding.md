@@ -71,7 +71,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/f76f72136b903cb42598b211.json",
-    "checksum": "sha256:583a2dca16ab2b7366c3385b7adab139950fcff68c5a8d888fc6485136642bd3",
+    "checksum": "sha256:5a27b56610d1b1679a7833570d998a7c1530ae1eb2828674c13ea418253ac04c",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:20.830416+00:00"
@@ -117,7 +117,7 @@
     "export_id": "tax-ontology",
     "search_text": "사업소득 원천징수 프리랜서 등 원천징수 대상 사업소득을 지급할 때 지급금액의 일정 비율을 원천징수하고 정해진 기한에 신고·납부하는 흐름입니다."
   },
-  "record_checksum": "sha256:04c35ba5a2a6e320435af0f8b933356f3f80be8bef5ba90065ef19be152cc371"
+  "record_checksum": "sha256:abdd2cd5c6c1840ba28184ec8a653a01717a28413456c97c47edb69992d3ef48"
 }
 ---
 

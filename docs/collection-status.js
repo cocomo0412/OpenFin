@@ -1,13 +1,13 @@
 const result = document.querySelector('[data-collection-result]');
 try {
-  const response = await fetch('./opentax/kdic-companies-current.json', { cache: 'no-store' });
+  const response = await fetch('./opentax/api-snapshots/source.kdic.insured-products-1.json', { cache: 'no-store' });
   if (!response.ok) throw new Error('Snapshot unavailable');
   const data = await response.json();
   const date = new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Seoul' }).format(new Date(data.collected_at));
   document.querySelector('[data-collection-short]').textContent = `${date} · 보호대상 금융회사 ${data.count}건 반영`;
   result.textContent = `${date} 수집 · 예금보험공사 금융회사 ${data.count.toLocaleString('ko-KR')}건. 전체 페이지와 건수·행번호·회사명을 확인했습니다. 금융회사 목록의 수집일이며, 개별 상품의 갱신일은 아닙니다.`;
   const list = document.querySelector('[data-company-list]');
-  for (const row of data.companies) {
+  for (const row of data.items) {
     const item = document.createElement('span');
     item.textContent = row.fncIstNm;
     list.append(item);
@@ -30,6 +30,13 @@ try {
   });
   document.querySelector('[data-collection-short]').textContent = `${date} · ${sources}개 API 출처 수집본 확인`;
   const kdic = inventory.datasets.find(row => row.operation === 'getProductList202607');
+  const deposit=inventory.datasets.find(row=>row.operation==='deposit');
+  const saving=inventory.datasets.find(row=>row.operation==='saving');
+  const bankSummary=document.querySelector('[data-bank-collection]');
+  if(bankSummary && deposit && saving) {
+    const bankDate=new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Seoul'}).format(new Date(deposit.collected_at));
+    bankSummary.textContent=`${bankDate} 은행·저축은행의 전체 페이지에서 예금 ${deposit.count.toLocaleString('ko-KR')}건, 적금 ${saving.count.toLocaleString('ko-KR')}건을 수집했습니다. 금리와 가입조건을 본문·검색에 반영했습니다.`;
+  }
   const bank = inventory.datasets.find(row => row.source_id === 'source.fsc.domestic-bank-statistics');
   document.querySelector('[data-resolved-collections]').textContent = kdic && bank
     ? `예금자보호 상품 ${kdic.count.toLocaleString('ko-KR')}행, 국내은행 통계 ${bank.count.toLocaleString('ko-KR')}행. 수집일 ${date}. 행번호와 표별 총건수를 확인해 참고자료로 반영했습니다.`
@@ -40,11 +47,6 @@ try {
     const paragraph = document.createElement('p');
     const basis = row.basis_end ? `${row.basis_start} ~ ${row.basis_end}` : '제공 기준일 없음';
     paragraph.textContent = `${row.title} (${row.operation}) · ${row.count.toLocaleString('ko-KR')}행 · 자료 기준 ${basis}`;
-    list.append(paragraph);
-  }
-  for (const row of inventory.pending) {
-    const paragraph = document.createElement('p');
-    paragraph.textContent = `확인 필요: ${row.reason}`;
     list.append(paragraph);
   }
 } catch {

@@ -66,7 +66,7 @@
   "sales_verification_status": "listed_unverified",
   "current_disclosure": {
     "path": "opentax/disclosures/7201a90b97d273e264dcdb57.json",
-    "checksum": "sha256:72421ca9edbe7b6694c8389d715fdce290b95c9cddab5b4263931145533c910e",
+    "checksum": "sha256:166b43d6ea692b39d23a61bc92fea67ab114d6be9832b8f6561521ed12f831a6",
     "checksum_scope": "normalized-disclosure-json",
     "source_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=282559&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
     "collected_at": "2026-09-23T08:26:22.571307+00:00"
@@ -112,7 +112,7 @@
     "export_id": "tax-ontology",
     "search_text": "레저세 승자투표권·승마투표권 등의 발매금총액을 과세표준으로 하여 10%를 적용합니다."
   },
-  "record_checksum": "sha256:9f0a7652fcbac6d722d64a42551da188739ea0e2714c9f78a1984417388157eb"
+  "record_checksum": "sha256:7d2cc073371416dd8a21cf04c8b443a5737d992735f93a1b71955fb1ac2b09d0"
 }
 ---
 

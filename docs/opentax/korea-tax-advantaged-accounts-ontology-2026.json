@@ -323,7 +323,7 @@
       "sales_verification_status": "listed_unverified",
       "current_disclosure": {
         "path": "opentax/disclosures/a65f42d7aef5b31058a404f2.json",
-        "checksum": "sha256:166210698693ae56743508383444943b752dc8202f9231b5e88bbc3009413b25",
+        "checksum": "sha256:d0e1a31f0c5fbd51ca14a8035c76c5f5c7c6b8ba04136753a0f0c022244328ce",
         "checksum_scope": "normalized-disclosure-json",
         "source_url": "https://nhuf.molit.go.kr/FP/FP07/FP0701/FP07010101.jsp",
         "collected_at": "2026-09-23T08:40:37.994428+00:00"
@@ -427,7 +427,7 @@
       "sales_verification_status": "listed_unverified",
       "current_disclosure": {
         "path": "opentax/disclosures/388cfe1032951e72eb5c43df.json",
-        "checksum": "sha256:2395a4afb1f0393baf657d7d28ad0080a09df4380fdf34270a194fcfe8c11649",
+        "checksum": "sha256:352c6021f7163af9ecd4207fd0157f65baa45f54a02f70c34abed11e49c56dba",
         "checksum_scope": "normalized-disclosure-json",
         "source_url": "https://nhuf.molit.go.kr/FP/FP07/FP0701/FP07010301.jsp",
         "collected_at": "2026-09-23T08:40:38.612179+00:00"
@@ -531,7 +531,7 @@
       "sales_verification_status": "listed_unverified",
       "current_disclosure": {
         "path": "opentax/disclosures/b69ebb8d762ab1daa007924b.json",
-        "checksum": "sha256:405fbaed9d0faf4e7268e07af28dc9b1f71c02754cde6b0b2e5ac02e4349495c",
+        "checksum": "sha256:2068f0e0acce64dfefdc721285dd612d1a6a69ebbf1ebb43fd460685c3fbd8c1",
         "checksum_scope": "normalized-disclosure-json",
         "source_url": "https://securities.miraeasset.com/hks/hks4659/n02.do",
         "collected_at": "2026-09-23T08:40:38.861583+00:00"
@@ -635,7 +635,7 @@
       "sales_verification_status": "listed_unverified",
       "current_disclosure": {
         "path": "opentax/disclosures/be1063cd20c04277cf9fa74a.json",
-        "checksum": "sha256:c262b2e5d8f9e11251c952d3bf722b4f1f2217227fcc01a860e74683583824c2",
+        "checksum": "sha256:943e631416c2cb78cfd91dda155c1c044baac4aaf9d4e0d8ce0aae719e99433d",
         "checksum_scope": "normalized-disclosure-json",
         "source_url": "https://securities.miraeasset.com/hks/hks4659/n02.do",
         "collected_at": "2026-09-23T08:40:38.861583+00:00"
@@ -751,5 +751,5 @@
     "latest": "2026-09-23T08:40:38.861583+00:00",
     "scope": "공식 API·웹 공시의 필드·식별자 반영. 제공기관 기준일과 개별 검토 범위는 별도."
   },
-  "export_checksum": "74504e9536e906e289e4eb910b8a40d66382ae551ec27ddbbe2d9b7741741e19"
+  "export_checksum": "2027f4456f25db7523f5433bffd287e8aa4b7289bbc768d0cb78fea67381154b"
 }

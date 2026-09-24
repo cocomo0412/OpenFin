@@ -611,6 +611,14 @@ writeJson(path.join(DOCS,'openfin-migration-manifest-2026.json'), migrationArtif
 const manifest = json(path.join(DOCS,'finance-ontology-manifest.json'));
 manifest.built_at=now; manifest.operational_base_url=PUBLIC_BASE; manifest.artifacts={...(manifest.artifacts||{})};
 if (currentCollection) {
+  // Dataset assembly/review dates describe the API pipeline, not a legal review
+  // of every inherited node. Original per-record dates remain untouched.
+  if(currentCollection.validated_at) {
+    manifest.basis_date=currentCollection.snapshot_basis_date;
+    manifest.source_review_date=currentCollection.validated_at.slice(0,10);
+    manifest.basis_date_scope='API snapshot collection date; individual provider periods are preserved';
+    manifest.source_review_scope=currentCollection.validation_scope;
+  }
   manifest.api_collection = {path:'opentax/collection-inventory.json', basis_date:currentCollection.snapshot_basis_date,
     dataset_count:currentCollection.datasets.length, record_count:currentCollection.datasets.reduce((sum, entry) => sum + entry.count, 0),
     checksum:sha256(currentCollection), identity_linked_products:currentCollection.product_link_count || 0,

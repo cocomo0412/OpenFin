@@ -1,24 +1,14 @@
 ---
 {
+  "deadlines": [
+    "deadline.corporate-tax.return"
+  ],
+  "folder": "20_Deductions/CorporateTaxSupports",
+  "basis_year": 2026,
   "id": "corporate.support.e-filing-credit",
   "title": "전자신고 세액공제",
   "type": "corporate-tax-support",
   "description": "법인이 직접 법인세를 전자신고할 때 적용되는 세액공제입니다.",
-  "folder": "20_Deductions/CorporateTaxSupports",
-  "basis_year": 2026,
-  "effective_date": null,
-  "expiration_date": null,
-  "reviewed_at": "2026-05-04",
-  "source_urls": [
-    "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7987&mi=6561",
-    "https://www.law.go.kr/법령/조세특례제한법"
-  ],
-  "source_basis_dates": [
-    "2026-05-02T00:00:00.000Z",
-    "2026-05-04T00:00:00.000Z"
-  ],
-  "abolition_status": "active",
-  "revision_status": "none_announced",
   "parents": [
     "category.corporate-tax-supports"
   ],
@@ -28,272 +18,108 @@
     "term.tax-credit",
     "term.tax-reduction"
   ],
-  "deadlines": [
-    "deadline.corporate-tax.return"
-  ],
-  "sources": [
-    "source.nts.corporate-tax.reliefs",
-    "source.law.tax-special-treatment-restriction-act.reliefs"
-  ],
-  "law_reference": "조세특례제한법 제104조의8",
   "tags": [
     "corporate-tax-support"
   ],
-  "criteria": [
-    {
-      "label": "전자신고 세액공제",
-      "basis": "법인세 전자신고",
-      "condition": "법인이 직접 전자신고",
-      "deduction_krw": 10000,
-      "source": "source.nts.corporate-tax.reliefs",
-      "criteria_kind": "deduction",
-      "basis_category": "official-standard",
-      "basis_definition": "해당 제도에서 대상 여부, 세율, 공제액, 한도 또는 신고기한을 판정하기 위해 공식 출처가 사용하는 기준항목입니다.",
-      "basis_lookup": "각 criterion의 출처 노드와 관련 신고·신청 서류에서 확인합니다.",
-      "selection_rule": "조건 문구와 구조화된 금액·비율·기간 필드를 함께 보고 해당 구간 또는 요건을 선택합니다.",
-      "basis_source": "source.nts.corporate-tax.reliefs",
-      "law_reference": "조세특례제한법 제104조의8"
-    }
-  ],
-  "structured_summary": {
-    "tax": {
-      "tax_year": 2026,
-      "rates": {},
-      "limits": {},
-      "thresholds": {},
-      "eligible_persons": [
-        "법인이 직접 전자신고"
-      ],
-      "required_documents": [],
-      "filing_deadlines": [
-        "deadline.corporate-tax.return"
-      ],
-      "law_references": [
-        "조세특례제한법 제104조의8"
-      ]
-    }
-  },
-  "search_facets": {
-    "tax_type": "corporate-tax-support",
-    "applicable_year": 2026,
-    "law_reference": "조세특례제한법 제104조의8"
-  },
-  "provenance_shard": "reference",
-  "source_registry_id": "source.nts.corporate-tax.reliefs",
-  "source_registry_status": "registered",
-  "provenance": [
-    {
-      "source_id": "source.nts.corporate-tax.reliefs",
-      "original_url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7987&mi=6561",
-      "source_record_id": null,
-      "locator": null,
-      "supported_fields": [
-        "title",
-        "type",
-        "description",
-        "folder",
-        "basis_year",
-        "reviewed_at",
-        "abolition_status",
-        "revision_status",
-        "law_reference",
-        "criteria",
-        "structured_summary",
-        "search_facets",
-        "provenance_shard",
-        "source_registry_id",
-        "source_registry_status"
-      ],
-      "source_published_at": null,
-      "source_modified_at": null,
-      "collected_at": "2026-05-04T00:00:00.000Z",
-      "reviewed_at": "2026-05-04T00:00:00.000Z",
-      "valid_from": null,
-      "valid_to": null,
-      "checksum": null,
-      "checksum_scope": null,
-      "verification_status": "reference_only"
-    },
-    {
-      "source_id": "source.law.tax-special-treatment-restriction-act.reliefs",
-      "original_url": "https://www.law.go.kr/법령/조세특례제한법",
-      "source_record_id": null,
-      "locator": null,
-      "supported_fields": [
-        "title",
-        "type",
-        "description",
-        "folder",
-        "basis_year",
-        "reviewed_at",
-        "abolition_status",
-        "revision_status",
-        "law_reference",
-        "criteria",
-        "structured_summary",
-        "search_facets",
-        "provenance_shard",
-        "source_registry_id",
-        "source_registry_status"
-      ],
-      "source_published_at": null,
-      "source_modified_at": null,
-      "collected_at": "2026-05-04T00:00:00.000Z",
-      "reviewed_at": "2026-05-04T00:00:00.000Z",
-      "valid_from": null,
-      "valid_to": null,
-      "checksum": null,
-      "checksum_scope": null,
-      "verification_status": "reference_only"
-    }
-  ],
   "publication_memberships": [
     "korea-tax-ontology-2026.json"
+  ],
+  "search_shard": "reference",
+  "status": "reference_only",
+  "sales_status": "unknown",
+  "recommendation_status": "reference_only",
+  "recommendation_scope": "listing_only",
+  "comparison_engine_gate_passed": false,
+  "domain_gate_passed": false,
+  "criteria": [
+    {
+      "label": "법인세 전자신고",
+      "condition": "조세특례제한법 시행령 제104조의5 제1항·제2항에 따른 법인세법 제60조 과세표준 전자신고의 공제금액은 1만원입니다. 법인세 신고와 양도소득세 신고의 공제금액을 혼동하지 않습니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.tax-special-treatment-decree.e-filing",
+      "criteria_kind": "disclosure"
+    },
+    {
+      "label": "신청",
+      "condition": "공제를 받으려면 전자신고 시 법정 세액공제신청서를 관할 세무서장에게 제출합니다. 세무대리인의 공제와 납세자 본인의 공제는 구분하며, 실제 적용은 모법 제104조의8의 요건에 따릅니다.",
+      "basis": "공식 공시 원문",
+      "source": "source.law.tax-special-treatment-decree.e-filing",
+      "criteria_kind": "disclosure"
+    }
+  ],
+  "sources": [
+    "source.law.tax-special-treatment-decree.e-filing"
+  ],
+  "source_urls": [
+    "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=288915&joNo=0104&joBrNo=05&docCls=jo&urlMode=lsScJoRltInfoR"
+  ],
+  "collected_at": "2026-09-24T08:14:54.192130+00:00",
+  "source_collected_at": "2026-09-24T08:14:54.192130+00:00",
+  "last_source_checked_at": "2026-09-24T08:14:54.192130+00:00",
+  "last_reviewed_at": "2026-09-24",
+  "reviewed_at": "2026-09-24",
+  "refresh_generation": "2026-09-24T08:14:54.192130+00:00",
+  "review_scope": "공식 공시의 식별자·본문·필드 연결 확인",
+  "source_listing_status": "listed",
+  "source_freshness_status": "current",
+  "freshness_status": "current",
+  "verification_status": "listing_only",
+  "sales_verification_status": "listed_unverified",
+  "current_disclosure": {
+    "path": "opentax/disclosures/6d7a97a36540aea1ed1c07f5.json",
+    "checksum": "sha256:c0650580fe2b1c05169e175e97da137852473f8491ede065223563359a15e601",
+    "checksum_scope": "normalized-disclosure-json",
+    "source_url": "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=288915&joNo=0104&joBrNo=05&docCls=jo&urlMode=lsScJoRltInfoR",
+    "collected_at": "2026-09-24T08:14:54.192130+00:00"
+  },
+  "provenance": [
+    {
+      "source_id": "source.law.tax-special-treatment-decree.e-filing",
+      "original_url": "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=288915&joNo=0104&joBrNo=05&docCls=jo&urlMode=lsScJoRltInfoR",
+      "source_record_id": "corporate.support.e-filing-credit",
+      "collected_at": "2026-09-24T08:14:54.192130+00:00",
+      "reviewed_at": "2026-09-24T00:00:00+09:00",
+      "checksum": "sha256:8ff35dd3a82dd7d8e8bff480e5875b931606b8e5046f3771f40b51ade447b5b8",
+      "checksum_scope": "official-disclosure-response",
+      "verification_status": "listing_only",
+      "supported_fields": [
+        "title",
+        "description",
+        "criteria",
+        "current_disclosure"
+      ],
+      "locator": {
+        "kind": "record-id",
+        "value": "corporate.support.e-filing-credit"
+      }
+    }
   ],
   "search_projection": {
     "id": "corporate.support.e-filing-credit",
     "title": "전자신고 세액공제",
     "type": "corporate-tax-support",
     "description": "법인이 직접 법인세를 전자신고할 때 적용되는 세액공제입니다.",
-    "provider": null,
-    "product_kind": null,
-    "search_type": null,
-    "product_status": null,
-    "sales_status": null,
-    "source_listing_status": null,
-    "sales_verification_status": null,
-    "sales_verified_at": null,
-    "condition_verification_status": null,
-    "source_freshness_status": null,
-    "status": null,
-    "status_reason": null,
-    "recommendation_status": null,
-    "recommendation_scope": null,
-    "catalog_recommendation_status": null,
-    "catalog_recommendation_scope": null,
-    "canonical_product_id": null,
-    "resolved_canonical_product_id": null,
-    "external_product_ids": [],
-    "provider_external_ids": [],
-    "provider_roles": [],
-    "source_records": [],
-    "preferred_source": null,
-    "merged_fields": {},
-    "field_provenance": {},
-    "field_conflicts": {},
-    "recommendation_model_version": "openfin-recommendation-v0.1.0",
-    "recommendation_exclusion_reasons": [],
-    "recommendation_basis_fields": [],
-    "verification_evidence": null,
-    "verification_status": null,
-    "quality_flags": [],
-    "last_verified_at": null,
-    "last_source_checked_at": null,
-    "last_reviewed_at": null,
-    "public_recommendation_exclusion_reasons": [],
-    "comparison_exclusion_reasons": [],
-    "discovery_limitations": [],
-    "missing_required_fields": [],
-    "missing_in_source_fields": [],
-    "unmapped_existing_fields": [],
-    "unverified_fields": [],
-    "discovery_evidence_fields": [],
-    "completeness_ratio": null,
-    "source_completeness_ratio": null,
-    "normalized_completeness_ratio": null,
-    "verified_completeness_ratio": null,
-    "required_field_count": null,
-    "completed_field_count": null,
-    "domain_gate_passed": null,
-    "comparison_engine_gate_passed": null,
-    "comparison_field_verification_status": null,
-    "comparison_field_verification": {},
-    "comparison_basis_fields": [],
-    "comparison_options": [],
-    "application_status": null,
-    "is_currently_applicable": null,
-    "application_open_from": null,
-    "application_open_to": null,
-    "application_window": {},
-    "jurisdiction": null,
-    "jurisdiction_code": null,
-    "jurisdiction_aliases": [],
-    "parent_jurisdiction_code": null,
-    "administrative_history": [],
-    "target_group": [],
-    "support_category": [],
-    "last_status_checked_at": null,
-    "freshness_status": null,
-    "collection_status": null,
-    "legacy_ids": [],
-    "search_aliases": [],
-    "aliases": [],
-    "export_id": "tax-ontology",
-    "source_checksum": null,
+    "status": "reference_only",
+    "sales_status": "unknown",
     "source_urls": [
-      "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7987&mi=6561",
-      "https://www.law.go.kr/법령/조세특례제한법"
+      "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=288915&joNo=0104&joBrNo=05&docCls=jo&urlMode=lsScJoRltInfoR"
     ],
-    "source_basis_dates": [
-      "2026-05-02T00:00:00.000Z",
-      "2026-05-04T00:00:00.000Z"
-    ],
-    "structured_summary": {
-      "rates": {},
-      "limits": {},
-      "periods": {},
-      "card": {},
-      "insurance": {},
-      "support": {
-        "application_window": {}
-      }
-    },
-    "search_facets": {},
-    "search_text": "corporate.support.e-filing-credit 전자신고 세액공제 corporate-tax-support 법인이 직접 법인세를 전자신고할 때 적용되는 세액공제입니다. 조세특례제한법 제104조의8 corp",
-    "provenance_shard": "reference",
+    "freshness_status": "current",
+    "recommendation_status": "reference_only",
+    "recommendation_scope": "listing_only",
     "source_ids": [
-      "source.nts.corporate-tax.reliefs",
-      "source.law.tax-special-treatment-restriction-act.reliefs"
-    ]
+      "source.law.tax-special-treatment-decree.e-filing"
+    ],
+    "export_id": "tax-ontology",
+    "search_text": "전자신고 세액공제 법인이 직접 법인세를 전자신고할 때 적용되는 세액공제입니다."
   },
-  "search_shard": "reference",
-  "search_position": 84,
-  "legacy_compatibility_dates": [
-    {
-      "path": [
-        "source_basis_dates",
-        0
-      ],
-      "value": "2026-05-02 확인"
-    },
-    {
-      "path": [
-        "source_basis_dates",
-        1
-      ],
-      "value": "2026-05-04 확인"
-    },
-    {
-      "path": [
-        "search_projection",
-        "source_basis_dates",
-        0
-      ],
-      "value": "2026-05-02 확인"
-    },
-    {
-      "path": [
-        "search_projection",
-        "source_basis_dates",
-        1
-      ],
-      "value": "2026-05-04 확인"
-    }
-  ],
-  "record_checksum": "sha256:00cce0d753532003b9bbf55ec8b1b5f201e8abaec95ace553f6e49219b1a5d8b"
+  "record_checksum": "sha256:b9a7231728b774d8b28fc2848e625d4de5b306758ea5c867f6c34e79dd38a841"
 }
 ---
 
 # 전자신고 세액공제
 
 법인이 직접 법인세를 전자신고할 때 적용되는 세액공제입니다.
+
+- **법인세 전자신고**: 조세특례제한법 시행령 제104조의5 제1항·제2항에 따른 법인세법 제60조 과세표준 전자신고의 공제금액은 1만원입니다. 법인세 신고와 양도소득세 신고의 공제금액을 혼동하지 않습니다.
+- **신청**: 공제를 받으려면 전자신고 시 법정 세액공제신청서를 관할 세무서장에게 제출합니다. 세무대리인의 공제와 납세자 본인의 공제는 구분하며, 실제 적용은 모법 제104조의8의 요건에 따릅니다.
