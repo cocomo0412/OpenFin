@@ -69,6 +69,13 @@ def main():
         'datasets': entries,
         'pending': [],
     }
+    attempt_path=ROOT/'.api-candidates/api-refresh-run.json'
+    if attempt_path.exists():
+        attempts=json.loads(attempt_path.read_text(encoding='utf-8'))
+        result['pending']=[{**r,'checked_at':r.get('checked_at',attempts['checked_at']),
+            'status':'collection_failed_existing_snapshot_retained',
+            'reason':'수집 검증에 실패하여 마지막 성공 자료를 유지했습니다.'}
+            for r in attempts['results'] if r['status']=='failed']
     (ROOT / 'docs/opentax/collection-inventory.json').write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(json.dumps({'datasets': len(entries), 'sources': len({e['source_id'] for e in entries}), 'rows': sum(e['count'] for e in entries)}))
 

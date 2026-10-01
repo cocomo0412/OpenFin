@@ -94,6 +94,11 @@ for(const [domain,data] of Object.entries(catalog.domains)) {
 // credit products with a shared company/product code.
 for(const dataset of additional.datasets) {
   if(sha256(dataset.rows)!==dataset.checksum || dataset.rows.length!==dataset.count) throw new Error('Additional Finlife integrity');
+  if(dataset.endpoint==='annuitySavingProductsSearch') {
+    report.unresolved.push({endpoint:dataset.endpoint,group:dataset.group,checked_at:dataset.collected_at||additional.collected_at,status:'mapping_not_implemented',error:'Pension mapping requires implementation',reason:'수집 성공 자료를 보존했습니다. 연금 전용 필드 매핑이 완료될 때까지 대출로 변환하지 않습니다.'});
+    continue;
+  }
+  const collectedAt=dataset.collected_at||additional.collected_at;
   let matched=0,added=0;
   for(const row of dataset.rows) {
     const b=row.base, candidates=[...byId.values()].filter(i=>i.source_record_id===row.source_record_id || i.source_record_id===row.source_record_id.split(':').slice(0,4).join(':'));
@@ -102,15 +107,16 @@ for(const dataset of additional.datasets) {
     const item=base(old,`finance.loan.api.${sha256(row.source_record_id).slice(7,27)}`,`${b.kor_co_nm} ${b.fin_prdt_nm}${b.crdt_prdt_type_nm?' · '+b.crdt_prdt_type_nm:''}`,'bank-product','category.finance.loan-products','loan-products','bank-products');
     Object.assign(item,{description:Object.entries(b).filter(([k])=>['loan_lmt','join_way','loan_inci_expn','erly_rpay_fee'].includes(k)).map(([k,v])=>`${k}: ${v}`).join(' / '),provider:b.kor_co_nm,provider_code:b.fin_co_no,product_code:b.fin_prdt_cd,product_kind:kind,search_type:'loan',source_record_id:row.source_record_id,disclosure_month:b.dcls_month,raw:b,options:row.options,
       criteria:row.options.map(o=>({label:'공식 대출 공시',condition:JSON.stringify(o),source:'source.fss.finlife.api'}))});
-    finish(item,'source.fss.finlife.api',additional.collected_at,row,row.source_record_id);put(old,item);old?matched++:added++;
+    finish(item,'source.fss.finlife.api',collectedAt,row,row.source_record_id);put(old,item);old?matched++:added++;
   }
   report.datasets.push({source_id:'source.fss.finlife.api',operation:dataset.endpoint,group:dataset.group,updated:matched,added,count:dataset.count});
 }
 report.unresolved.push(...additional.failures);
 for(const r of byId.values()) {
-  if(r.type!=='bank-product'||r.refresh_generation===additional.collected_at) continue;
+  if(r.type!=='bank-product') continue;
   const [endpoint,group]=String(r.source_record_id||'').split(':');
-  if(additional.datasets.some(d=>d.endpoint===endpoint&&d.group===group)) missing(r,additional.collected_at);
+  const dataset=additional.datasets.find(d=>d.endpoint===endpoint&&d.group===group);
+  if(dataset && endpoint!=='annuitySavingProductsSearch') missing(r,dataset.collected_at||additional.collected_at);
 }
 // KDIC's row number is not a persistent product ID. Match exact company/name
 // and registration date; ambiguous older identities remain historical.
@@ -210,29 +216,30 @@ for(const bucket of '0123456789abcdef') {
 }
 if(fs.existsSync(newPath))fs.rmSync(newPath);
 report.canonical_refreshed=refreshed.size;report.observation_records=observationRows.length;
-report.collected_at=[catalog.collected_at,additional.collected_at,...inventory.datasets.map(e=>e.collected_at),...(fs.existsSync(govPath)?[json(govPath).collected_at]:[])].filter(Boolean).sort().at(-1);
+report.collected_at=[catalog.collected_at,...additional.datasets.map(d=>d.collected_at||additional.collected_at),...inventory.datasets.map(e=>e.collected_at),...(fs.existsSync(govPath)?[json(govPath).collected_at]:[])].filter(Boolean).sort().at(-1);
 report.remaining_domains=['카드 혜택',...(report.domains.local_supports?[]:['지자체 지원금']),'세금·공제 법령','세제혜택 계좌','보험 상품별 보장·약관','연금저축 상세 공시'];
 report.remaining_reason='이번 승인 API가 해당 원문의 내용을 제공하지 않거나 응답 스키마가 맞지 않아 기존 사실의 검토일을 변경하지 않았습니다.';
 writeJson(path.join(DOCS,'canonical-refresh-report.json'),report);
 for(const entry of inventory.datasets.filter(e=>e.source_id==='source.fss.finlife.api'||e.source_id==='source.kdic.insured-products')){entry.canonical_applied=true;entry.canonical_scope='catalog fields';}
 inventory.canonical_refresh={path:'opentax/canonical-refresh-report.json',count:refreshed.size};
 for(const dataset of additional.datasets) {
+  const collectedAt=dataset.collected_at||additional.collected_at;
   const operation=`${dataset.endpoint}-${dataset.group}`,file=`source.fss.finlife.api-${operation}.json`;
-  const title=`금융감독원 ${dataset.endpoint.startsWith('mortgage')?'주택담보대출':dataset.endpoint.startsWith('rent')?'전세자금대출':'신용대출'} (${dataset.group})`;
-  writeJson(path.join(DOCS,'api-snapshots',file),{source_id:'source.fss.finlife.api',title,source_url:'https://finlife.fss.or.kr/',collected_at:additional.collected_at,count:dataset.count,items:dataset.rows,recommendation_eligible:false});
+  const title=`금융감독원 ${dataset.endpoint.startsWith('annuity')?'연금저축':dataset.endpoint.startsWith('mortgage')?'주택담보대출':dataset.endpoint.startsWith('rent')?'전세자금대출':'신용대출'} (${dataset.group})`;
+  writeJson(path.join(DOCS,'api-snapshots',file),{source_id:'source.fss.finlife.api',title,source_url:'https://finlife.fss.or.kr/',collected_at:collectedAt,count:dataset.count,items:dataset.rows,recommendation_eligible:false});
   inventory.datasets=inventory.datasets.filter(e=>!(e.source_id==='source.fss.finlife.api'&&e.operation===operation));
-  inventory.datasets.push({source_id:'source.fss.finlife.api',title,operation,count:dataset.count,collected_at:additional.collected_at,canonical_applied:true,path:`opentax/api-snapshots/${file}`});
+  inventory.datasets.push({source_id:'source.fss.finlife.api',title,operation,count:dataset.count,collected_at:collectedAt,canonical_applied:!dataset.endpoint.startsWith('annuity'),path:`opentax/api-snapshots/${file}`});
 }
 if(fs.existsSync(govPath)) {
   const gov=json(govPath),file='source.gov24.benefit-plus.local-supports-current.json';
   writeJson(path.join(DOCS,'api-snapshots',file),{...gov,title:'행정안전부 공공서비스 혜택 정보',recommendation_eligible:false});
   inventory.datasets=inventory.datasets.filter(e=>e.source_id!==gov.source_id);
-  inventory.datasets.push({source_id:gov.source_id,title:'행정안전부 공공서비스 혜택 정보',operation:'serviceList',count:gov.count,collected_at:gov.collected_at,canonical_applied:true,canonical_scope:'지방기관·기존 서비스 9,281개; 중앙기관 등 나머지는 원문 검색으로 제공',path:`opentax/api-snapshots/${file}`});
+  inventory.datasets.push({source_id:gov.source_id,title:'행정안전부 공공서비스 혜택 정보',operation:'serviceList',count:gov.count,collected_at:gov.collected_at,canonical_applied:true,canonical_scope:`지방기관·기존 서비스 ${report.domains.local_supports.current_total.toLocaleString('ko-KR')}개; 중앙기관 등 나머지는 원문 검색으로 제공`,path:`opentax/api-snapshots/${file}`});
 }
 inventory.scope='전체 건수·체크섬을 검증한 API 수집본. 예금·적금·대출·예금자보호·지방 혜택은 식별자를 대조해 본문에 반영하고, 나머지 통계·공시는 원문 필드를 보존한 관측 자료로 제공합니다. 미갱신 분야와 제공기관 기준일은 별도입니다.';
 inventory.integration='canonical catalog fields and typed API observations; see canonical-refresh-report.json for coverage and remaining domains';
-inventory.pending=additional.failures.map(f=>({...f,source_id:'source.fss.finlife.api',checked_at:additional.collected_at,status:'provider_response_rejected'}));
-inventory.snapshot_basis_date=report.collected_at.slice(0,10);
+inventory.pending=[...(inventory.pending||[]).filter(f=>f.source_id!=='source.fss.finlife.api'),...report.unresolved.map(f=>({...f,source_id:'source.fss.finlife.api',checked_at:f.checked_at||additional.collected_at,status:f.status||'provider_response_rejected'}))];
+inventory.snapshot_basis_date=new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Seoul'}).format(new Date(report.collected_at));
 inventory.validated_at=report.collected_at;
 inventory.validation_scope='API collection counts, identity and schema mapping; provider reporting dates preserved';
 writeJson(path.join(DOCS,'collection-inventory.json'),inventory);

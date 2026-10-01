@@ -1,4 +1,5 @@
 import path from 'node:path';
+import fs from 'node:fs';
 import {ROOT, writeJson, sha256} from './common.mjs';
 import {readCanonicalRecords} from './derive-quality.mjs';
 
@@ -15,6 +16,19 @@ for (const item of records) {
 // Retirement savings were not previously collected into product nodes.
 groups.set('annuitySavingProductsSearch', new Set(['020000','030200','030300','050000','060000']));
 const datasets = [], failures = [];
+const output=path.join(ROOT,'.api-candidates/finlife-additional.json');
+const retryOnly=process.argv.includes('--retry-failed');
+const previous=fs.existsSync(output)?JSON.parse(fs.readFileSync(output,'utf8')):null;
+if(retryOnly && !previous) throw new Error('Previous collection required for retry');
+if(retryOnly) {
+  groups.clear();
+  for(const f of previous.failures) {
+    if(!groups.has(f.endpoint)) groups.set(f.endpoint,new Set());
+    groups.get(f.endpoint).add(f.group);
+  }
+  // Keep prior successful timestamps; a retry must not make them look new.
+  datasets.push(...previous.datasets.map(d=>({...d,collected_at:d.collected_at||previous.collected_at})));
+}
 for (const [endpoint, sectors] of groups) for (const group of [...sectors].sort()) {
   const rows = [], seen = new Set(); let expected = null;
   try {
@@ -45,11 +59,16 @@ for (const [endpoint, sectors] of groups) for (const group of [...sectors].sort(
       if(rows.length===expected) break;
       if(rows.length>expected || !(result.baseList||[]).length || page>1000) throw new Error('Incomplete pagination');
     }
-    datasets.push({endpoint,group,count:rows.length,rows,checksum:sha256(rows)});
+    const prior=datasets.findIndex(d=>d.endpoint===endpoint&&d.group===group);
+    if(prior>=0)datasets.splice(prior,1);
+    datasets.push({endpoint,group,collected_at:new Date().toISOString(),count:rows.length,rows,checksum:sha256(rows)});
     console.log(JSON.stringify({endpoint,group,count:rows.length}));
-  } catch(error) { failures.push({endpoint,group,error:error.message,
+  } catch(error) {
+    const prior=previous?.datasets.find(d=>d.endpoint===endpoint&&d.group===group);
+    if(prior && !datasets.some(d=>d.endpoint===endpoint&&d.group===group)) datasets.push({...prior,collected_at:prior.collected_at||previous.collected_at});
+    failures.push({endpoint,group,checked_at:new Date().toISOString(),error:error.message,
     reason:endpoint==='annuitySavingProductsSearch'?'제공기관 연금저축 API 응답의 상품 구조 또는 총건수와 실제 행수가 일치하지 않아 반영하지 않았습니다.':'API 응답 검증 실패',
     documentation_url:endpoint==='annuitySavingProductsSearch'?'https://finlife.fss.or.kr/finlife/api/anntySvingsApi/list.do?menuNo=700054':null}); }
 }
-writeJson(path.join(ROOT,'.api-candidates/finlife-additional.json'),{collected_at:new Date().toISOString(),datasets,failures});
+writeJson(output,{collected_at:new Date().toISOString(),datasets,failures});
 console.log(JSON.stringify({datasets:datasets.length,failures}));

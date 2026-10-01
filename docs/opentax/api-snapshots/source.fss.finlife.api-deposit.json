@@ -2,7 +2,7 @@
   "source_id": "source.fss.finlife.api",
   "title": "금융감독원 정기예금 공시",
   "source_url": "https://finlife.fss.or.kr/",
-  "collected_at": "2026-09-24T10:15:54.975Z",
+  "collected_at": "2026-10-01T07:44:18.122Z",
   "verification": "collection_integrity_only",
   "recommendation_eligible": false,
   "count": 432,
@@ -73,7 +73,7 @@
       "product_code": "00320342",
       "product_name": "e-그린세이브예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20261001",
       "disclosure_end_date": "99991231",
       "join_member": "개인(개인사업자 포함)",
       "join_way": "인터넷,스마트폰",
@@ -91,22 +91,22 @@
         },
         {
           "term_months": 3,
-          "base_rate_percent": 2.9,
-          "maximum_rate_percent": 3,
+          "base_rate_percent": 3.1,
+          "maximum_rate_percent": 3.2,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 6,
-          "base_rate_percent": 3.2,
-          "maximum_rate_percent": 3.4,
+          "base_rate_percent": 3.4,
+          "maximum_rate_percent": 3.6,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.65,
-          "maximum_rate_percent": 3.85,
+          "base_rate_percent": 3.85,
+          "maximum_rate_percent": 4.05,
           "interest_method": "단리",
           "saving_method": null
         }
@@ -367,22 +367,22 @@
       "options": [
         {
           "term_months": 12,
-          "base_rate_percent": 3.69,
-          "maximum_rate_percent": 3.89,
+          "base_rate_percent": 3.48,
+          "maximum_rate_percent": 3.68,
           "interest_method": "복리",
           "saving_method": null
         },
         {
           "term_months": 24,
-          "base_rate_percent": 3.57,
-          "maximum_rate_percent": 3.77,
+          "base_rate_percent": 3.31,
+          "maximum_rate_percent": 3.51,
           "interest_method": "복리",
           "saving_method": null
         },
         {
           "term_months": 36,
-          "base_rate_percent": 3.44,
-          "maximum_rate_percent": 3.64,
+          "base_rate_percent": 3.17,
+          "maximum_rate_percent": 3.37,
           "interest_method": "복리",
           "saving_method": null
         }
@@ -406,43 +406,43 @@
       "options": [
         {
           "term_months": 1,
-          "base_rate_percent": 2.66,
-          "maximum_rate_percent": 3.76,
+          "base_rate_percent": 2.45,
+          "maximum_rate_percent": 2.55,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 3,
-          "base_rate_percent": 2.94,
-          "maximum_rate_percent": 3.04,
+          "base_rate_percent": 2.8,
+          "maximum_rate_percent": 2.9,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 6,
-          "base_rate_percent": 3.26,
-          "maximum_rate_percent": 3.36,
+          "base_rate_percent": 3.15,
+          "maximum_rate_percent": 3.25,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.59,
-          "maximum_rate_percent": 3.79,
+          "base_rate_percent": 3.48,
+          "maximum_rate_percent": 3.68,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 24,
-          "base_rate_percent": 3.47,
-          "maximum_rate_percent": 3.67,
+          "base_rate_percent": 3.31,
+          "maximum_rate_percent": 3.51,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 36,
-          "base_rate_percent": 3.34,
-          "maximum_rate_percent": 3.54,
+          "base_rate_percent": 3.17,
+          "maximum_rate_percent": 3.37,
           "interest_method": "단리",
           "saving_method": null
         }
@@ -466,52 +466,13 @@
       "options": [
         {
           "term_months": 12,
-          "base_rate_percent": 3.49,
-          "maximum_rate_percent": 3.99,
+          "base_rate_percent": 3.38,
+          "maximum_rate_percent": 3.88,
           "interest_method": "단리",
           "saving_method": null
         }
       ],
       "source_record_id": "depositProductsSearch:020000:0010019:TD11300035000"
-    },
-    {
-      "provider_code": "0010019",
-      "provider": "광주은행",
-      "product_code": "TD11300036000",
-      "product_name": "The플러스예금",
-      "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
-      "disclosure_end_date": null,
-      "join_member": "개인 및 법인(단,국가 지자체 및 금융기관 제외)",
-      "join_way": "영업점,스마트폰",
-      "maximum_limit_text": 1000000000,
-      "maturity_interest_text": "*만기후 1개월 이내: 만기일 당시 최초 가입 기간별 일반정기예금 고시금리의 1/2 \n*만기후 1개월 초과: 0.01%",
-      "preferential_conditions_text": "▶ 해당사항없음",
-      "additional_terms_text": "1. 가입기간 : 3개월,6개월,1년제\n2. 가입금액 : 10백만원이상 고객당 10억원한도",
-      "options": [
-        {
-          "term_months": 3,
-          "base_rate_percent": 2.45,
-          "maximum_rate_percent": 2.45,
-          "interest_method": "단리",
-          "saving_method": null
-        },
-        {
-          "term_months": 6,
-          "base_rate_percent": 2.68,
-          "maximum_rate_percent": 2.68,
-          "interest_method": "단리",
-          "saving_method": null
-        },
-        {
-          "term_months": 12,
-          "base_rate_percent": 2.7,
-          "maximum_rate_percent": 2.7,
-          "interest_method": "단리",
-          "saving_method": null
-        }
-      ],
-      "source_record_id": "depositProductsSearch:020000:0010019:TD11300036000"
     },
     {
       "provider_code": "0010020",
@@ -579,8 +540,8 @@
       "product_code": "101272000057",
       "product_name": "J정기예금\n(만기지급식)",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
-      "disclosure_end_date": null,
+      "disclosure_start_date": "20261001",
+      "disclosure_end_date": "99991231",
       "join_member": "실명의 \n개인 및 \n개인사업자",
       "join_way": "영업점,인터넷,스마트폰",
       "maximum_limit_text": null,
@@ -598,28 +559,28 @@
         {
           "term_months": 3,
           "base_rate_percent": 1.7,
-          "maximum_rate_percent": 2.9,
+          "maximum_rate_percent": 3,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 6,
           "base_rate_percent": 1.9,
-          "maximum_rate_percent": 3.3,
+          "maximum_rate_percent": 3.6,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
           "base_rate_percent": 2,
-          "maximum_rate_percent": 3.8,
+          "maximum_rate_percent": 3.99,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 24,
           "base_rate_percent": 1.85,
-          "maximum_rate_percent": 3.8,
+          "maximum_rate_percent": 3.97,
           "interest_method": "단리",
           "saving_method": null
         },
@@ -678,7 +639,7 @@
       "product_code": "10-01-20-024-0046-0000",
       "product_name": "JB 다이렉트예금통장\n(만기일시지급식)",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260928",
       "disclosure_end_date": null,
       "join_member": "실명의 개인(임의단체 제외",
       "join_way": "인터넷,스마트폰",
@@ -703,8 +664,8 @@
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.81,
-          "maximum_rate_percent": 3.81,
+          "base_rate_percent": 3.92,
+          "maximum_rate_percent": 3.92,
           "interest_method": "단리",
           "saving_method": null
         }
@@ -717,7 +678,7 @@
       "product_code": "10-01-20-024-0059-0000",
       "product_name": "JB 123 정기예금\n (만기일시지급식)",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260928",
       "disclosure_end_date": null,
       "join_member": "실명의 개인 또는 개인사업자 (1인 다계좌 가입 가능함)",
       "join_way": "인터넷,스마트폰",
@@ -728,8 +689,8 @@
       "options": [
         {
           "term_months": 12,
-          "base_rate_percent": 3.23,
-          "maximum_rate_percent": 3.83,
+          "base_rate_percent": 3.33,
+          "maximum_rate_percent": 3.93,
           "interest_method": "단리",
           "saving_method": null
         }
@@ -742,7 +703,7 @@
       "product_code": "10-01-20-024-0063-0000",
       "product_name": "내맘 쏙 정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260928",
       "disclosure_end_date": null,
       "join_member": "실명의 개인 및 개인사업자",
       "join_way": "인터넷,스마트폰",
@@ -788,7 +749,7 @@
       "product_code": "10-01-20-024-0068-0000",
       "product_name": "JB 다이렉트(자유만기) 예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260928",
       "disclosure_end_date": null,
       "join_member": "실명의 개인(임의단체 제외",
       "join_way": "스마트폰",
@@ -820,15 +781,15 @@
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.8,
-          "maximum_rate_percent": 3.8,
+          "base_rate_percent": 3.92,
+          "maximum_rate_percent": 3.92,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 24,
-          "base_rate_percent": 3.82,
-          "maximum_rate_percent": 3.82,
+          "base_rate_percent": 3.94,
+          "maximum_rate_percent": 3.94,
           "interest_method": "단리",
           "saving_method": null
         }
@@ -1011,7 +972,7 @@
       "product_code": "01211310130",
       "product_name": "IBK더굴리기통장(실세금리정기예금)",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260923",
+      "disclosure_start_date": "20261001",
       "disclosure_end_date": null,
       "join_member": "실명의 개인\n(개인사업자 제외)",
       "join_way": "인터넷,스마트폰",
@@ -1022,22 +983,22 @@
       "options": [
         {
           "term_months": 6,
-          "base_rate_percent": 3.36,
-          "maximum_rate_percent": 3.36,
+          "base_rate_percent": 3.44,
+          "maximum_rate_percent": 3.44,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.56,
-          "maximum_rate_percent": 3.56,
+          "base_rate_percent": 3.67,
+          "maximum_rate_percent": 3.67,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 24,
-          "base_rate_percent": 3.57,
-          "maximum_rate_percent": 3.57,
+          "base_rate_percent": 3.58,
+          "maximum_rate_percent": 3.58,
           "interest_method": "단리",
           "saving_method": null
         },
@@ -1057,7 +1018,7 @@
       "product_code": "01211310142",
       "product_name": "IBK굴리기통장(정기예금)",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260923",
+      "disclosure_start_date": "20261001",
       "disclosure_end_date": null,
       "join_member": "실명의 개인\n(개인사업자 제외)",
       "join_way": "영업점,스마트폰",
@@ -1068,29 +1029,29 @@
       "options": [
         {
           "term_months": 1,
-          "base_rate_percent": 2.77,
-          "maximum_rate_percent": 2.77,
+          "base_rate_percent": 2.79,
+          "maximum_rate_percent": 2.79,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 3,
-          "base_rate_percent": 3.05,
-          "maximum_rate_percent": 3.05,
+          "base_rate_percent": 3.1,
+          "maximum_rate_percent": 3.1,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 6,
-          "base_rate_percent": 3.41,
-          "maximum_rate_percent": 3.41,
+          "base_rate_percent": 3.49,
+          "maximum_rate_percent": 3.49,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.66,
-          "maximum_rate_percent": 3.66,
+          "base_rate_percent": 3.69,
+          "maximum_rate_percent": 3.69,
           "interest_method": "단리",
           "saving_method": null
         }
@@ -1288,21 +1249,21 @@
         {
           "term_months": 3,
           "base_rate_percent": 2.45,
-          "maximum_rate_percent": 2.85,
+          "maximum_rate_percent": 3.1,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 6,
           "base_rate_percent": 2.5,
-          "maximum_rate_percent": 3.15,
+          "maximum_rate_percent": 3.3,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
           "base_rate_percent": 2.55,
-          "maximum_rate_percent": 3.4,
+          "maximum_rate_percent": 3.5,
           "interest_method": "단리",
           "saving_method": null
         },
@@ -1499,7 +1460,7 @@
       "product_code": "4",
       "product_name": "하나의정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260922",
+      "disclosure_start_date": "20261001",
       "disclosure_end_date": null,
       "join_member": "실명의 개인 또는 개인사업자",
       "join_way": "스마트폰",
@@ -1518,21 +1479,21 @@
         {
           "term_months": 3,
           "base_rate_percent": 2.15,
-          "maximum_rate_percent": 2.85,
+          "maximum_rate_percent": 3.1,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 6,
           "base_rate_percent": 2.25,
-          "maximum_rate_percent": 3.3,
+          "maximum_rate_percent": 3.4,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
           "base_rate_percent": 2.3,
-          "maximum_rate_percent": 3.4,
+          "maximum_rate_percent": 3.6,
           "interest_method": "단리",
           "saving_method": null
         },
@@ -1556,10 +1517,56 @@
     {
       "provider_code": "0014674",
       "provider": "주식회사 케이뱅크",
+      "product_code": "01013000100000000026",
+      "product_name": "내맘대로 이자받는 정기예금",
+      "disclosure_month": "202609",
+      "disclosure_start_date": "20261001",
+      "disclosure_end_date": null,
+      "join_member": "만 17세 이상 실명의 개인 및 개인사업자",
+      "join_way": "스마트폰",
+      "maximum_limit_text": null,
+      "maturity_interest_text": "만기 후 \n- 1개월 이내 : 만기시점 기본금리 X 50%\n- 1개월 초과~6개월 이내 : 만기시점 기본금리 X 30%\n- 6개월 초과 : 연 0.20%",
+      "preferential_conditions_text": "우대조건 없음",
+      "additional_terms_text": "가입금액 : 1백만원 이상\n가입기간 : 1개월~12개월",
+      "options": [
+        {
+          "term_months": 1,
+          "base_rate_percent": 3,
+          "maximum_rate_percent": 3,
+          "interest_method": "단리",
+          "saving_method": null
+        },
+        {
+          "term_months": 3,
+          "base_rate_percent": 3.3,
+          "maximum_rate_percent": 3.3,
+          "interest_method": "단리",
+          "saving_method": null
+        },
+        {
+          "term_months": 6,
+          "base_rate_percent": 3.4,
+          "maximum_rate_percent": 3.4,
+          "interest_method": "단리",
+          "saving_method": null
+        },
+        {
+          "term_months": 12,
+          "base_rate_percent": 3.71,
+          "maximum_rate_percent": 3.71,
+          "interest_method": "단리",
+          "saving_method": null
+        }
+      ],
+      "source_record_id": "depositProductsSearch:020000:0014674:01013000100000000026"
+    },
+    {
+      "provider_code": "0014674",
+      "provider": "주식회사 케이뱅크",
       "product_code": "01013000110000000001",
       "product_name": "코드K 정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20261001",
       "disclosure_end_date": null,
       "join_member": "만 17세 이상 실명의 개인 및 개인사업자",
       "join_way": "스마트폰",
@@ -1619,7 +1626,7 @@
       "product_code": "10120114300011",
       "product_name": "Sh해양플라스틱Zero!예금\n(만기일시지급식)",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260929",
       "disclosure_end_date": "99991231",
       "join_member": "실명의 개인",
       "join_way": "영업점,인터넷,스마트폰",
@@ -1630,15 +1637,15 @@
       "options": [
         {
           "term_months": 6,
-          "base_rate_percent": 3.2,
-          "maximum_rate_percent": 3.55,
+          "base_rate_percent": 3.3,
+          "maximum_rate_percent": 3.65,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.36,
-          "maximum_rate_percent": 3.71,
+          "base_rate_percent": 3.46,
+          "maximum_rate_percent": 3.81,
           "interest_method": "단리",
           "saving_method": null
         }
@@ -1651,7 +1658,7 @@
       "product_code": "10120114700011",
       "product_name": "헤이(Hey)정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260929",
       "disclosure_end_date": "99991231",
       "join_member": "실명의 개인",
       "join_way": "인터넷,스마트폰",
@@ -1662,22 +1669,22 @@
       "options": [
         {
           "term_months": 3,
-          "base_rate_percent": 3.4,
-          "maximum_rate_percent": 3.4,
+          "base_rate_percent": 3.5,
+          "maximum_rate_percent": 3.5,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 6,
-          "base_rate_percent": 3.55,
-          "maximum_rate_percent": 3.55,
+          "base_rate_percent": 3.65,
+          "maximum_rate_percent": 3.65,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.71,
-          "maximum_rate_percent": 3.71,
+          "base_rate_percent": 3.81,
+          "maximum_rate_percent": 3.81,
           "interest_method": "단리",
           "saving_method": null
         }
@@ -1690,7 +1697,7 @@
       "product_code": "10120116100011",
       "product_name": "Sh첫만남우대예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260929",
       "disclosure_end_date": "99991231",
       "join_member": "실명의 개인",
       "join_way": "인터넷,스마트폰",
@@ -1701,8 +1708,8 @@
       "options": [
         {
           "term_months": 12,
-          "base_rate_percent": 2.76,
-          "maximum_rate_percent": 3.81,
+          "base_rate_percent": 2.86,
+          "maximum_rate_percent": 3.91,
           "interest_method": "단리",
           "saving_method": null
         }
@@ -4331,7 +4338,7 @@
       "product_code": "240029",
       "product_name": "정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260923",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "영업점",
@@ -4384,15 +4391,15 @@
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.82,
-          "maximum_rate_percent": 3.82,
+          "base_rate_percent": 3.87,
+          "maximum_rate_percent": 3.87,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.82,
-          "maximum_rate_percent": 3.82,
+          "base_rate_percent": 3.87,
+          "maximum_rate_percent": 3.87,
           "interest_method": "복리",
           "saving_method": null
         },
@@ -4433,7 +4440,7 @@
       "product_code": "240031",
       "product_name": "e-정기예금(인터넷뱅킹, 스마트뱅킹)",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260923",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "인터넷,스마트폰",
@@ -4486,15 +4493,15 @@
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.92,
-          "maximum_rate_percent": 3.92,
+          "base_rate_percent": 3.97,
+          "maximum_rate_percent": 3.97,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.92,
-          "maximum_rate_percent": 3.92,
+          "base_rate_percent": 3.97,
+          "maximum_rate_percent": 3.97,
           "interest_method": "복리",
           "saving_method": null
         },
@@ -4535,7 +4542,7 @@
       "product_code": "240033",
       "product_name": "SB톡톡 정기예금(비대면)",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260923",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "스마트폰",
@@ -4588,15 +4595,15 @@
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.92,
-          "maximum_rate_percent": 3.92,
+          "base_rate_percent": 3.97,
+          "maximum_rate_percent": 3.97,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.92,
-          "maximum_rate_percent": 3.92,
+          "base_rate_percent": 3.97,
+          "maximum_rate_percent": 3.97,
           "interest_method": "복리",
           "saving_method": null
         },
@@ -4637,7 +4644,7 @@
       "product_code": "240037",
       "product_name": "회전yes정기예금(1년단위 변동금리상품)",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260923",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "영업점",
@@ -4648,15 +4655,15 @@
       "options": [
         {
           "term_months": 12,
-          "base_rate_percent": 3.87,
-          "maximum_rate_percent": 3.87,
+          "base_rate_percent": 3.92,
+          "maximum_rate_percent": 3.92,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.87,
-          "maximum_rate_percent": 3.87,
+          "base_rate_percent": 3.92,
+          "maximum_rate_percent": 3.92,
           "interest_method": "복리",
           "saving_method": null
         }
@@ -4669,7 +4676,7 @@
       "product_code": "240039",
       "product_name": "e-회전yes정기예금(1년단위 변동금리상품) (인터넷뱅킹, 스마트뱅킹)",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260923",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "인터넷,스마트폰",
@@ -4680,15 +4687,15 @@
       "options": [
         {
           "term_months": 12,
-          "base_rate_percent": 3.97,
-          "maximum_rate_percent": 3.97,
+          "base_rate_percent": 4.02,
+          "maximum_rate_percent": 4.02,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.97,
-          "maximum_rate_percent": 3.97,
+          "base_rate_percent": 4.02,
+          "maximum_rate_percent": 4.02,
           "interest_method": "복리",
           "saving_method": null
         }
@@ -4701,7 +4708,7 @@
       "product_code": "240041",
       "product_name": "SB톡톡 회전yes정기예금(1년단위 변동금리상품) (비대면)",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260923",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "스마트폰",
@@ -4712,15 +4719,15 @@
       "options": [
         {
           "term_months": 12,
-          "base_rate_percent": 3.97,
-          "maximum_rate_percent": 3.97,
+          "base_rate_percent": 4.02,
+          "maximum_rate_percent": 4.02,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.97,
-          "maximum_rate_percent": 3.97,
+          "base_rate_percent": 4.02,
+          "maximum_rate_percent": 4.02,
           "interest_method": "복리",
           "saving_method": null
         }
@@ -7329,7 +7336,7 @@
       "product_code": "DH002",
       "product_name": "정기예금(비대면)",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260922",
+      "disclosure_start_date": "20260930",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "인터넷,스마트폰",
@@ -7382,15 +7389,15 @@
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.8,
-          "maximum_rate_percent": 3.8,
+          "base_rate_percent": 4,
+          "maximum_rate_percent": 4,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.8,
-          "maximum_rate_percent": 3.8,
+          "base_rate_percent": 4,
+          "maximum_rate_percent": 4,
           "interest_method": "복리",
           "saving_method": null
         }
@@ -7403,7 +7410,7 @@
       "product_code": "240001",
       "product_name": "정기예금(부산)",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20261001",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "영업점",
@@ -7456,15 +7463,15 @@
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.7,
-          "maximum_rate_percent": 3.7,
+          "base_rate_percent": 3.9,
+          "maximum_rate_percent": 3.9,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.7,
-          "maximum_rate_percent": 3.7,
+          "base_rate_percent": 3.9,
+          "maximum_rate_percent": 3.9,
           "interest_method": "복리",
           "saving_method": null
         },
@@ -7491,7 +7498,7 @@
       "product_code": "240005",
       "product_name": "E-정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20261001",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "인터넷",
@@ -7544,15 +7551,15 @@
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.8,
-          "maximum_rate_percent": 3.8,
+          "base_rate_percent": 3.9,
+          "maximum_rate_percent": 3.9,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.8,
-          "maximum_rate_percent": 3.8,
+          "base_rate_percent": 3.9,
+          "maximum_rate_percent": 3.9,
           "interest_method": "복리",
           "saving_method": null
         },
@@ -7579,7 +7586,7 @@
       "product_code": "240007",
       "product_name": "S-정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20261001",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "스마트폰",
@@ -7632,15 +7639,15 @@
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.8,
-          "maximum_rate_percent": 3.8,
+          "base_rate_percent": 3.9,
+          "maximum_rate_percent": 3.9,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.8,
-          "maximum_rate_percent": 3.8,
+          "base_rate_percent": 3.9,
+          "maximum_rate_percent": 3.9,
           "interest_method": "복리",
           "saving_method": null
         },
@@ -7667,7 +7674,7 @@
       "product_code": "240010",
       "product_name": "비대면 정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20261001",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "스마트폰",
@@ -7720,15 +7727,15 @@
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.8,
-          "maximum_rate_percent": 3.8,
+          "base_rate_percent": 3.9,
+          "maximum_rate_percent": 3.9,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.8,
-          "maximum_rate_percent": 3.8,
+          "base_rate_percent": 3.9,
+          "maximum_rate_percent": 3.9,
           "interest_method": "복리",
           "saving_method": null
         },
@@ -7755,7 +7762,7 @@
       "product_code": "240016",
       "product_name": "정기예금(강남)",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20261001",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "영업점",
@@ -7808,15 +7815,15 @@
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.7,
-          "maximum_rate_percent": 3.7,
+          "base_rate_percent": 3.9,
+          "maximum_rate_percent": 3.9,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.7,
-          "maximum_rate_percent": 3.7,
+          "base_rate_percent": 3.9,
+          "maximum_rate_percent": 3.9,
           "interest_method": "복리",
           "saving_method": null
         },
@@ -9511,7 +9518,7 @@
       "product_code": "240016",
       "product_name": "e-정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260928",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "인터넷,스마트폰",
@@ -9550,15 +9557,15 @@
         },
         {
           "term_months": 12,
-          "base_rate_percent": 4.01,
-          "maximum_rate_percent": 4.01,
+          "base_rate_percent": 4,
+          "maximum_rate_percent": 4,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 4.01,
-          "maximum_rate_percent": 4.01,
+          "base_rate_percent": 4,
+          "maximum_rate_percent": 4,
           "interest_method": "복리",
           "saving_method": null
         },
@@ -9617,7 +9624,7 @@
       "product_code": "240022",
       "product_name": "e-회전식 정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260928",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "인터넷,스마트폰",
@@ -9628,15 +9635,15 @@
       "options": [
         {
           "term_months": 36,
-          "base_rate_percent": 4.02,
-          "maximum_rate_percent": 4.02,
+          "base_rate_percent": 4,
+          "maximum_rate_percent": 4,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 36,
-          "base_rate_percent": 4.02,
-          "maximum_rate_percent": 4.02,
+          "base_rate_percent": 4,
+          "maximum_rate_percent": 4,
           "interest_method": "복리",
           "saving_method": null
         }
@@ -9649,7 +9656,7 @@
       "product_code": "240001",
       "product_name": "정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260923",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "영업점",
@@ -9702,15 +9709,15 @@
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.81,
-          "maximum_rate_percent": 3.81,
+          "base_rate_percent": 3.9,
+          "maximum_rate_percent": 3.9,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.81,
-          "maximum_rate_percent": 3.81,
+          "base_rate_percent": 3.9,
+          "maximum_rate_percent": 3.9,
           "interest_method": "복리",
           "saving_method": null
         },
@@ -9751,7 +9758,7 @@
       "product_code": "240009",
       "product_name": "e-정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260923",
       "disclosure_end_date": null,
       "join_member": "인터넷뱅킹 및 스마트폰 뱅킹 신청자",
       "join_way": "인터넷,스마트폰",
@@ -9776,43 +9783,43 @@
         },
         {
           "term_months": 3,
-          "base_rate_percent": 3.55,
-          "maximum_rate_percent": 3.55,
+          "base_rate_percent": 2.4,
+          "maximum_rate_percent": 2.4,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 3,
-          "base_rate_percent": 3.55,
-          "maximum_rate_percent": 3.55,
+          "base_rate_percent": 2.4,
+          "maximum_rate_percent": 2.4,
           "interest_method": "복리",
           "saving_method": null
         },
         {
           "term_months": 6,
-          "base_rate_percent": 3.6,
-          "maximum_rate_percent": 3.6,
+          "base_rate_percent": 2.6,
+          "maximum_rate_percent": 2.6,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 6,
-          "base_rate_percent": 3.6,
-          "maximum_rate_percent": 3.6,
+          "base_rate_percent": 2.6,
+          "maximum_rate_percent": 2.6,
           "interest_method": "복리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.81,
-          "maximum_rate_percent": 3.81,
+          "base_rate_percent": 4.02,
+          "maximum_rate_percent": 4.02,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.81,
-          "maximum_rate_percent": 3.81,
+          "base_rate_percent": 4.02,
+          "maximum_rate_percent": 4.02,
           "interest_method": "복리",
           "saving_method": null
         },
@@ -9853,7 +9860,7 @@
       "product_code": "24-0001",
       "product_name": "정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20261001",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "영업점",
@@ -9906,15 +9913,15 @@
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.8,
-          "maximum_rate_percent": 3.8,
+          "base_rate_percent": 3.6,
+          "maximum_rate_percent": 3.6,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.8,
-          "maximum_rate_percent": 3.8,
+          "base_rate_percent": 3.6,
+          "maximum_rate_percent": 3.6,
           "interest_method": "복리",
           "saving_method": null
         },
@@ -9941,7 +9948,7 @@
       "product_code": "24-0002",
       "product_name": "e-정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20261001",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "인터넷,스마트폰",
@@ -9994,15 +10001,15 @@
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.8,
-          "maximum_rate_percent": 3.8,
+          "base_rate_percent": 3.6,
+          "maximum_rate_percent": 3.6,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.8,
-          "maximum_rate_percent": 3.8,
+          "base_rate_percent": 3.6,
+          "maximum_rate_percent": 3.6,
           "interest_method": "복리",
           "saving_method": null
         },
@@ -10029,7 +10036,7 @@
       "product_code": "24-0003",
       "product_name": "정기예금(비대면)",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20261001",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "스마트폰",
@@ -10082,15 +10089,15 @@
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.8,
-          "maximum_rate_percent": 3.8,
+          "base_rate_percent": 3.6,
+          "maximum_rate_percent": 3.6,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.8,
-          "maximum_rate_percent": 3.8,
+          "base_rate_percent": 3.6,
+          "maximum_rate_percent": 3.6,
           "interest_method": "복리",
           "saving_method": null
         },
@@ -10117,7 +10124,7 @@
       "product_code": "24-0004",
       "product_name": "회전식정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20261001",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "영업점",
@@ -10128,29 +10135,29 @@
       "options": [
         {
           "term_months": 12,
-          "base_rate_percent": 3.9,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 3.7,
+          "maximum_rate_percent": 3.7,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.9,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 3.7,
+          "maximum_rate_percent": 3.7,
           "interest_method": "복리",
           "saving_method": null
         },
         {
           "term_months": 36,
-          "base_rate_percent": 3.9,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 3.7,
+          "maximum_rate_percent": 3.7,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 36,
-          "base_rate_percent": 3.9,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 3.7,
+          "maximum_rate_percent": 3.7,
           "interest_method": "복리",
           "saving_method": null
         }
@@ -10163,7 +10170,7 @@
       "product_code": "24-0005",
       "product_name": "e-회전식정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20261001",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "인터넷,스마트폰",
@@ -10174,29 +10181,29 @@
       "options": [
         {
           "term_months": 12,
-          "base_rate_percent": 3.9,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 3.7,
+          "maximum_rate_percent": 3.7,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.9,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 3.7,
+          "maximum_rate_percent": 3.7,
           "interest_method": "복리",
           "saving_method": null
         },
         {
           "term_months": 36,
-          "base_rate_percent": 3.9,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 3.7,
+          "maximum_rate_percent": 3.7,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 36,
-          "base_rate_percent": 3.9,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 3.7,
+          "maximum_rate_percent": 3.7,
           "interest_method": "복리",
           "saving_method": null
         }
@@ -10209,7 +10216,7 @@
       "product_code": "24-0006",
       "product_name": "회전식정기예금(비대면)",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20261001",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "스마트폰",
@@ -10220,29 +10227,29 @@
       "options": [
         {
           "term_months": 12,
-          "base_rate_percent": 3.9,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 3.7,
+          "maximum_rate_percent": 3.7,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.9,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 3.7,
+          "maximum_rate_percent": 3.7,
           "interest_method": "복리",
           "saving_method": null
         },
         {
           "term_months": 36,
-          "base_rate_percent": 3.9,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 3.7,
+          "maximum_rate_percent": 3.7,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 36,
-          "base_rate_percent": 3.9,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 3.7,
+          "maximum_rate_percent": 3.7,
           "interest_method": "복리",
           "saving_method": null
         }
@@ -10695,7 +10702,7 @@
       "product_code": "240001",
       "product_name": "정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20261001",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "영업점",
@@ -10762,15 +10769,15 @@
         },
         {
           "term_months": 24,
-          "base_rate_percent": 3.3,
-          "maximum_rate_percent": 3.3,
+          "base_rate_percent": 3.85,
+          "maximum_rate_percent": 3.85,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 24,
-          "base_rate_percent": 3.3,
-          "maximum_rate_percent": 3.3,
+          "base_rate_percent": 3.85,
+          "maximum_rate_percent": 3.85,
           "interest_method": "복리",
           "saving_method": null
         }
@@ -10783,7 +10790,7 @@
       "product_code": "240013",
       "product_name": "e-plus정기예금 (인터넷뱅킹,스마트뱅킹)",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20261001",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "인터넷,스마트폰",
@@ -10850,15 +10857,15 @@
         },
         {
           "term_months": 24,
-          "base_rate_percent": 3.4,
-          "maximum_rate_percent": 3.4,
+          "base_rate_percent": 3.95,
+          "maximum_rate_percent": 3.95,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 24,
-          "base_rate_percent": 3.4,
-          "maximum_rate_percent": 3.4,
+          "base_rate_percent": 3.95,
+          "maximum_rate_percent": 3.95,
           "interest_method": "복리",
           "saving_method": null
         }
@@ -10871,7 +10878,7 @@
       "product_code": "240029",
       "product_name": "SB톡톡정기예금 (비대면)",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20261001",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "스마트폰",
@@ -10938,15 +10945,15 @@
         },
         {
           "term_months": 24,
-          "base_rate_percent": 3.4,
-          "maximum_rate_percent": 3.4,
+          "base_rate_percent": 3.95,
+          "maximum_rate_percent": 3.95,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 24,
-          "base_rate_percent": 3.4,
-          "maximum_rate_percent": 3.4,
+          "base_rate_percent": 3.95,
+          "maximum_rate_percent": 3.95,
           "interest_method": "복리",
           "saving_method": null
         }
@@ -10959,7 +10966,7 @@
       "product_code": "240052",
       "product_name": "회전식정기예금 (1년단위 변동금리상품)",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20261001",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "영업점",
@@ -10991,7 +10998,7 @@
       "product_code": "240054",
       "product_name": "비대면 회전식정기예금 (1년단위 변동금리상품)",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20261001",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "인터넷,스마트폰",
@@ -11023,7 +11030,7 @@
       "product_code": "240056",
       "product_name": "SB톡톡 회전식정기예금(비대면) (1년단위 변동금리상품)",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20261001",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "스마트폰",
@@ -11055,7 +11062,7 @@
       "product_code": "240062",
       "product_name": "회전식정기예금 (6개월단위 변동금리상품)",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20261001",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "영업점",
@@ -11087,7 +11094,7 @@
       "product_code": "240064",
       "product_name": "비대면 회전식정기예금 (6개월단위 변동금리상품)",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20261001",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "인터넷,스마트폰",
@@ -11119,7 +11126,7 @@
       "product_code": "240066",
       "product_name": "SB톡톡 회전식정기예금 (비대면) (6개월단위 변동금리상품)",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20261001",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "스마트폰",
@@ -13823,7 +13830,7 @@
       "product_code": "GP240036",
       "product_name": "파킹통장 369 정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260929",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "영업점",
@@ -13855,7 +13862,7 @@
       "product_code": "GP240037",
       "product_name": "파킹통장 369 정기예금E",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260929",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "인터넷,스마트폰",
@@ -13887,7 +13894,7 @@
       "product_code": "GP240038",
       "product_name": "비대면 파킹통장 369 정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260929",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "스마트폰",
@@ -13919,7 +13926,7 @@
       "product_code": "GP240043",
       "product_name": "뱅뱅뱅 파킹통장 369 정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260929",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "스마트폰",
@@ -13951,7 +13958,7 @@
       "product_code": "GP240054",
       "product_name": "뱅뱅뱅369회전정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260929",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "스마트폰",
@@ -14011,7 +14018,7 @@
       "product_code": "GP240060",
       "product_name": "369회전정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260929",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "영업점",
@@ -14071,7 +14078,7 @@
       "product_code": "GP240066",
       "product_name": "369회전정기예금E",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260929",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "인터넷,스마트폰",
@@ -14131,7 +14138,7 @@
       "product_code": "GP240072",
       "product_name": "비대면369회전정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260929",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "스마트폰",
@@ -14191,7 +14198,7 @@
       "product_code": "GP240078",
       "product_name": "뱅뱅뱅 회전정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260929",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "스마트폰",
@@ -14202,15 +14209,15 @@
       "options": [
         {
           "term_months": 12,
-          "base_rate_percent": 3.7,
-          "maximum_rate_percent": 3.7,
+          "base_rate_percent": 3.91,
+          "maximum_rate_percent": 3.91,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.7,
-          "maximum_rate_percent": 3.7,
+          "base_rate_percent": 3.91,
+          "maximum_rate_percent": 3.91,
           "interest_method": "복리",
           "saving_method": null
         }
@@ -14223,7 +14230,7 @@
       "product_code": "GP240080",
       "product_name": "회전정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260929",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "영업점",
@@ -14234,15 +14241,15 @@
       "options": [
         {
           "term_months": 12,
-          "base_rate_percent": 3.8,
-          "maximum_rate_percent": 3.8,
+          "base_rate_percent": 3.9,
+          "maximum_rate_percent": 3.9,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.8,
-          "maximum_rate_percent": 3.8,
+          "base_rate_percent": 3.9,
+          "maximum_rate_percent": 3.9,
           "interest_method": "복리",
           "saving_method": null
         }
@@ -14255,7 +14262,7 @@
       "product_code": "GP240082",
       "product_name": "회전E-정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260929",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "인터넷,스마트폰",
@@ -14266,15 +14273,15 @@
       "options": [
         {
           "term_months": 12,
-          "base_rate_percent": 3.7,
-          "maximum_rate_percent": 3.7,
+          "base_rate_percent": 3.91,
+          "maximum_rate_percent": 3.91,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.7,
-          "maximum_rate_percent": 3.7,
+          "base_rate_percent": 3.91,
+          "maximum_rate_percent": 3.91,
           "interest_method": "복리",
           "saving_method": null
         }
@@ -14287,7 +14294,7 @@
       "product_code": "GP240084",
       "product_name": "비대면 회전정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260929",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "스마트폰",
@@ -14298,15 +14305,15 @@
       "options": [
         {
           "term_months": 12,
-          "base_rate_percent": 3.7,
-          "maximum_rate_percent": 3.7,
+          "base_rate_percent": 3.91,
+          "maximum_rate_percent": 3.91,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.7,
-          "maximum_rate_percent": 3.7,
+          "base_rate_percent": 3.91,
+          "maximum_rate_percent": 3.91,
           "interest_method": "복리",
           "saving_method": null
         }
@@ -14319,7 +14326,7 @@
       "product_code": "GP240086",
       "product_name": "정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260929",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "영업점",
@@ -14330,15 +14337,15 @@
       "options": [
         {
           "term_months": 12,
-          "base_rate_percent": 3.8,
-          "maximum_rate_percent": 3.8,
+          "base_rate_percent": 3.9,
+          "maximum_rate_percent": 3.9,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.8,
-          "maximum_rate_percent": 3.8,
+          "base_rate_percent": 3.9,
+          "maximum_rate_percent": 3.9,
           "interest_method": "복리",
           "saving_method": null
         },
@@ -14365,7 +14372,7 @@
       "product_code": "GP240087",
       "product_name": "정기예금-단기",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260929",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "영업점",
@@ -14425,7 +14432,7 @@
       "product_code": "GP240090",
       "product_name": "e-정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260929",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "인터넷,스마트폰",
@@ -14436,15 +14443,15 @@
       "options": [
         {
           "term_months": 12,
-          "base_rate_percent": 3.7,
-          "maximum_rate_percent": 3.7,
+          "base_rate_percent": 3.91,
+          "maximum_rate_percent": 3.91,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.7,
-          "maximum_rate_percent": 3.7,
+          "base_rate_percent": 3.91,
+          "maximum_rate_percent": 3.91,
           "interest_method": "복리",
           "saving_method": null
         },
@@ -14471,7 +14478,7 @@
       "product_code": "GP240091",
       "product_name": "e-정기예금-단기",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260929",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "인터넷,스마트폰",
@@ -14531,7 +14538,7 @@
       "product_code": "GP240094",
       "product_name": "비대면 정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260929",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "스마트폰",
@@ -14542,15 +14549,15 @@
       "options": [
         {
           "term_months": 12,
-          "base_rate_percent": 3.7,
-          "maximum_rate_percent": 3.7,
+          "base_rate_percent": 3.91,
+          "maximum_rate_percent": 3.91,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.7,
-          "maximum_rate_percent": 3.7,
+          "base_rate_percent": 3.91,
+          "maximum_rate_percent": 3.91,
           "interest_method": "복리",
           "saving_method": null
         },
@@ -14577,7 +14584,7 @@
       "product_code": "GP240095",
       "product_name": "비대면 정기예금-단기",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260929",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "스마트폰",
@@ -14637,7 +14644,7 @@
       "product_code": "GP240098",
       "product_name": "뱅뱅뱅 정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260929",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "스마트폰",
@@ -14648,15 +14655,15 @@
       "options": [
         {
           "term_months": 12,
-          "base_rate_percent": 3.7,
-          "maximum_rate_percent": 3.7,
+          "base_rate_percent": 3.91,
+          "maximum_rate_percent": 3.91,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.7,
-          "maximum_rate_percent": 3.7,
+          "base_rate_percent": 3.91,
+          "maximum_rate_percent": 3.91,
           "interest_method": "복리",
           "saving_method": null
         },
@@ -14683,7 +14690,7 @@
       "product_code": "GP240099",
       "product_name": "뱅뱅뱅 정기예금-단기",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260929",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "스마트폰",
@@ -14743,7 +14750,7 @@
       "product_code": "GP240103",
       "product_name": "뱅뱅뱅 9개월 회전정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260929",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "스마트폰",
@@ -14775,7 +14782,7 @@
       "product_code": "GP240105",
       "product_name": "9개월 회전정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260929",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "영업점",
@@ -14807,7 +14814,7 @@
       "product_code": "GP240107",
       "product_name": "e-9개월 회전정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260929",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "인터넷,스마트폰",
@@ -14839,7 +14846,7 @@
       "product_code": "GP240109",
       "product_name": "비대면 9개월 회전정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260929",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "스마트폰",
@@ -15389,7 +15396,7 @@
       "product_code": "240003",
       "product_name": "정기예금(인터넷,모바일,비대면)",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260929",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "인터넷,스마트폰",
@@ -15442,15 +15449,15 @@
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.97,
-          "maximum_rate_percent": 3.97,
+          "base_rate_percent": 4.05,
+          "maximum_rate_percent": 4.05,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.97,
-          "maximum_rate_percent": 3.97,
+          "base_rate_percent": 4.05,
+          "maximum_rate_percent": 4.05,
           "interest_method": "복리",
           "saving_method": null
         },
@@ -15491,7 +15498,7 @@
       "product_code": "240006",
       "product_name": "정기예금(강릉지점)",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260929",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "영업점",
@@ -15593,7 +15600,7 @@
       "product_code": "240010",
       "product_name": "정기예금(춘천본점)",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260929",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "영업점",
@@ -18088,7 +18095,7 @@
       "product_code": "240015",
       "product_name": "정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260928",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "영업점",
@@ -18127,29 +18134,29 @@
         },
         {
           "term_months": 6,
-          "base_rate_percent": 3.8,
-          "maximum_rate_percent": 3.8,
+          "base_rate_percent": 3.9,
+          "maximum_rate_percent": 3.9,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 6,
-          "base_rate_percent": 3.8,
-          "maximum_rate_percent": 3.8,
+          "base_rate_percent": 3.9,
+          "maximum_rate_percent": 3.9,
           "interest_method": "복리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.8,
-          "maximum_rate_percent": 3.8,
+          "base_rate_percent": 3.85,
+          "maximum_rate_percent": 3.85,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.8,
-          "maximum_rate_percent": 3.8,
+          "base_rate_percent": 3.85,
+          "maximum_rate_percent": 3.85,
           "interest_method": "복리",
           "saving_method": null
         },
@@ -18190,7 +18197,7 @@
       "product_code": "240017",
       "product_name": "스타e_정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260928",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "인터넷,스마트폰",
@@ -18229,29 +18236,29 @@
         },
         {
           "term_months": 6,
-          "base_rate_percent": 3.8,
-          "maximum_rate_percent": 3.8,
+          "base_rate_percent": 3.9,
+          "maximum_rate_percent": 3.9,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 6,
-          "base_rate_percent": 3.8,
-          "maximum_rate_percent": 3.8,
+          "base_rate_percent": 3.9,
+          "maximum_rate_percent": 3.9,
           "interest_method": "복리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.8,
-          "maximum_rate_percent": 3.8,
+          "base_rate_percent": 3.85,
+          "maximum_rate_percent": 3.85,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.8,
-          "maximum_rate_percent": 3.8,
+          "base_rate_percent": 3.85,
+          "maximum_rate_percent": 3.85,
           "interest_method": "복리",
           "saving_method": null
         },
@@ -18380,7 +18387,7 @@
       "product_code": "240010 240011",
       "product_name": "정기예금(인터넷뱅킹)",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260928",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "인터넷,스마트폰",
@@ -18433,15 +18440,15 @@
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.97,
-          "maximum_rate_percent": 3.97,
+          "base_rate_percent": 4.03,
+          "maximum_rate_percent": 4.03,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.97,
-          "maximum_rate_percent": 3.97,
+          "base_rate_percent": 4.03,
+          "maximum_rate_percent": 4.03,
           "interest_method": "복리",
           "saving_method": null
         },
@@ -18672,7 +18679,7 @@
       "product_code": "240001",
       "product_name": "정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20261001",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "영업점",
@@ -18725,15 +18732,15 @@
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.9,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 3.93,
+          "maximum_rate_percent": 3.93,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.9,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 3.93,
+          "maximum_rate_percent": 3.93,
           "interest_method": "복리",
           "saving_method": null
         },
@@ -18760,7 +18767,7 @@
       "product_code": "241003",
       "product_name": "정기예금(인터넷뱅킹,스마트뱅킹)",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20261001",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "인터넷,스마트폰",
@@ -18813,15 +18820,15 @@
         },
         {
           "term_months": 12,
-          "base_rate_percent": 4,
-          "maximum_rate_percent": 4,
+          "base_rate_percent": 4.04,
+          "maximum_rate_percent": 4.04,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 4,
-          "maximum_rate_percent": 4,
+          "base_rate_percent": 4.04,
+          "maximum_rate_percent": 4.04,
           "interest_method": "복리",
           "saving_method": null
         }
@@ -18982,7 +18989,7 @@
       "product_code": "WR0001A",
       "product_name": "정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260928",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "영업점",
@@ -19035,15 +19042,15 @@
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.9,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 3.96,
+          "maximum_rate_percent": 3.96,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.9,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 3.96,
+          "maximum_rate_percent": 3.96,
           "interest_method": "복리",
           "saving_method": null
         },
@@ -19084,7 +19091,7 @@
       "product_code": "WR0001J",
       "product_name": "e-정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260928",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "인터넷,스마트폰",
@@ -19137,15 +19144,15 @@
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.92,
-          "maximum_rate_percent": 3.92,
+          "base_rate_percent": 3.98,
+          "maximum_rate_percent": 3.98,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.92,
-          "maximum_rate_percent": 3.92,
+          "base_rate_percent": 3.98,
+          "maximum_rate_percent": 3.98,
           "interest_method": "복리",
           "saving_method": null
         },
@@ -19186,7 +19193,7 @@
       "product_code": "WR0001M",
       "product_name": "e-로운 정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260928",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "스마트폰",
@@ -19239,15 +19246,15 @@
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.92,
-          "maximum_rate_percent": 3.92,
+          "base_rate_percent": 3.98,
+          "maximum_rate_percent": 3.98,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.92,
-          "maximum_rate_percent": 3.92,
+          "base_rate_percent": 3.98,
+          "maximum_rate_percent": 3.98,
           "interest_method": "복리",
           "saving_method": null
         },
@@ -19754,7 +19761,7 @@
       "product_code": "240009",
       "product_name": "정기예금 비대면",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260928",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "인터넷,스마트폰",
@@ -19807,15 +19814,15 @@
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.9,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 4.05,
+          "maximum_rate_percent": 4.05,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.9,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 4.05,
+          "maximum_rate_percent": 4.05,
           "interest_method": "복리",
           "saving_method": null
         },
@@ -20060,7 +20067,7 @@
       "product_code": "240007",
       "product_name": "인터넷정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260924",
       "disclosure_end_date": null,
       "join_member": "-제한없음",
       "join_way": "인터넷",
@@ -20113,29 +20120,29 @@
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.9,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 4.03,
+          "maximum_rate_percent": 4.03,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.9,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 4.03,
+          "maximum_rate_percent": 4.03,
           "interest_method": "복리",
           "saving_method": null
         },
         {
           "term_months": 24,
-          "base_rate_percent": 3.9,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 4.05,
+          "maximum_rate_percent": 4.05,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 24,
-          "base_rate_percent": 3.9,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 4.05,
+          "maximum_rate_percent": 4.05,
           "interest_method": "복리",
           "saving_method": null
         },
@@ -20162,7 +20169,7 @@
       "product_code": "240010",
       "product_name": "톡톡정기예금(비대면)",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260924",
       "disclosure_end_date": null,
       "join_member": "-제한없음",
       "join_way": "스마트폰",
@@ -20215,29 +20222,29 @@
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.9,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 4.03,
+          "maximum_rate_percent": 4.03,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.9,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 4.03,
+          "maximum_rate_percent": 4.03,
           "interest_method": "복리",
           "saving_method": null
         },
         {
           "term_months": 24,
-          "base_rate_percent": 3.9,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 4.05,
+          "maximum_rate_percent": 4.05,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 24,
-          "base_rate_percent": 3.9,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 4.05,
+          "maximum_rate_percent": 4.05,
           "interest_method": "복리",
           "saving_method": null
         },
@@ -20454,7 +20461,7 @@
       "product_code": "240010",
       "product_name": "e-정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260923",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "인터넷",
@@ -20465,29 +20472,29 @@
       "options": [
         {
           "term_months": 6,
-          "base_rate_percent": 4,
-          "maximum_rate_percent": 4,
+          "base_rate_percent": 3.8,
+          "maximum_rate_percent": 3.8,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 6,
-          "base_rate_percent": 4,
-          "maximum_rate_percent": 4,
+          "base_rate_percent": 3.8,
+          "maximum_rate_percent": 3.8,
           "interest_method": "복리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 4,
-          "maximum_rate_percent": 4,
+          "base_rate_percent": 3.8,
+          "maximum_rate_percent": 3.8,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 4,
-          "maximum_rate_percent": 4,
+          "base_rate_percent": 3.8,
+          "maximum_rate_percent": 3.8,
           "interest_method": "복리",
           "saving_method": null
         }
@@ -20500,7 +20507,7 @@
       "product_code": "240013",
       "product_name": "비대면정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260923",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "스마트폰",
@@ -20511,29 +20518,29 @@
       "options": [
         {
           "term_months": 6,
-          "base_rate_percent": 4,
-          "maximum_rate_percent": 4,
+          "base_rate_percent": 3.8,
+          "maximum_rate_percent": 3.8,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 6,
-          "base_rate_percent": 4,
-          "maximum_rate_percent": 4,
+          "base_rate_percent": 3.8,
+          "maximum_rate_percent": 3.8,
           "interest_method": "복리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 4,
-          "maximum_rate_percent": 4,
+          "base_rate_percent": 3.8,
+          "maximum_rate_percent": 3.8,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 4,
-          "maximum_rate_percent": 4,
+          "base_rate_percent": 3.8,
+          "maximum_rate_percent": 3.8,
           "interest_method": "복리",
           "saving_method": null
         }
@@ -20546,7 +20553,7 @@
       "product_code": "240015",
       "product_name": "비대면회전식정기예금(복리)",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260923",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "스마트폰",
@@ -20557,15 +20564,15 @@
       "options": [
         {
           "term_months": 36,
-          "base_rate_percent": 4,
-          "maximum_rate_percent": 4,
+          "base_rate_percent": 3.8,
+          "maximum_rate_percent": 3.8,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 36,
-          "base_rate_percent": 4,
-          "maximum_rate_percent": 4,
+          "base_rate_percent": 3.8,
+          "maximum_rate_percent": 3.8,
           "interest_method": "복리",
           "saving_method": null
         }
@@ -20578,7 +20585,7 @@
       "product_code": "240016",
       "product_name": "e-회전식정기예금(복리)",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260923",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "인터넷",
@@ -20589,15 +20596,15 @@
       "options": [
         {
           "term_months": 36,
-          "base_rate_percent": 4,
-          "maximum_rate_percent": 4,
+          "base_rate_percent": 3.8,
+          "maximum_rate_percent": 3.8,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 36,
-          "base_rate_percent": 4,
-          "maximum_rate_percent": 4,
+          "base_rate_percent": 3.8,
+          "maximum_rate_percent": 3.8,
           "interest_method": "복리",
           "saving_method": null
         }
@@ -24316,14 +24323,14 @@
       "product_code": "TD",
       "product_name": "정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260929",
       "disclosure_end_date": null,
       "join_member": "모든고객",
       "join_way": "영업점,인터넷",
       "maximum_limit_text": null,
       "maturity_interest_text": "* 만기후 1개월 이내 : 당초 약정이율과 만기시점 해당상품 신규 약정이율 중 낮은이율\n* 만기후 1개월 초과: 만기시점 보통예금 이율 (현재 0.1%)",
       "preferential_conditions_text": "없음",
-      "additional_terms_text": "영업점전용상품",
+      "additional_terms_text": "없음",
       "options": [
         {
           "term_months": 3,
@@ -24341,29 +24348,29 @@
         },
         {
           "term_months": 6,
-          "base_rate_percent": 2.5,
-          "maximum_rate_percent": 2.5,
+          "base_rate_percent": 3.61,
+          "maximum_rate_percent": 3.61,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 6,
-          "base_rate_percent": 2.5,
-          "maximum_rate_percent": 2.5,
+          "base_rate_percent": 3.61,
+          "maximum_rate_percent": 3.61,
           "interest_method": "복리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.65,
-          "maximum_rate_percent": 3.65,
+          "base_rate_percent": 3.82,
+          "maximum_rate_percent": 3.82,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.65,
-          "maximum_rate_percent": 3.65,
+          "base_rate_percent": 3.82,
+          "maximum_rate_percent": 3.82,
           "interest_method": "복리",
           "saving_method": null
         },
@@ -24404,7 +24411,7 @@
       "product_code": "TD07 TB07",
       "product_name": "스마트정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260929",
       "disclosure_end_date": null,
       "join_member": "스마트뱅크 가입고객",
       "join_way": "스마트폰",
@@ -24429,29 +24436,29 @@
         },
         {
           "term_months": 6,
-          "base_rate_percent": 2.5,
-          "maximum_rate_percent": 2.5,
+          "base_rate_percent": 3.61,
+          "maximum_rate_percent": 3.61,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 6,
-          "base_rate_percent": 2.5,
-          "maximum_rate_percent": 2.5,
+          "base_rate_percent": 3.61,
+          "maximum_rate_percent": 3.61,
           "interest_method": "복리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.65,
-          "maximum_rate_percent": 3.65,
+          "base_rate_percent": 3.82,
+          "maximum_rate_percent": 3.82,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.65,
-          "maximum_rate_percent": 3.65,
+          "base_rate_percent": 3.82,
+          "maximum_rate_percent": 3.82,
           "interest_method": "복리",
           "saving_method": null
         },
@@ -24492,7 +24499,7 @@
       "product_code": "TD21",
       "product_name": "더드리고정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260929",
       "disclosure_end_date": null,
       "join_member": "만 65세이상 고객",
       "join_way": "영업점",
@@ -24503,15 +24510,15 @@
       "options": [
         {
           "term_months": 12,
-          "base_rate_percent": 2.85,
-          "maximum_rate_percent": 2.85,
+          "base_rate_percent": 3.85,
+          "maximum_rate_percent": 3.85,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 2.85,
-          "maximum_rate_percent": 2.85,
+          "base_rate_percent": 3.85,
+          "maximum_rate_percent": 3.85,
           "interest_method": "복리",
           "saving_method": null
         },
@@ -24552,7 +24559,7 @@
       "product_code": "TD22",
       "product_name": "대신든든정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260929",
       "disclosure_end_date": null,
       "join_member": "모든고객",
       "join_way": "영업점",
@@ -24563,15 +24570,15 @@
       "options": [
         {
           "term_months": 12,
-          "base_rate_percent": 3.65,
-          "maximum_rate_percent": 3.65,
+          "base_rate_percent": 3.82,
+          "maximum_rate_percent": 3.82,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.65,
-          "maximum_rate_percent": 3.65,
+          "base_rate_percent": 3.82,
+          "maximum_rate_percent": 3.82,
           "interest_method": "복리",
           "saving_method": null
         },
@@ -24612,7 +24619,7 @@
       "product_code": "TD31",
       "product_name": "회전정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260929",
       "disclosure_end_date": null,
       "join_member": "모든고객",
       "join_way": "영업점",
@@ -24623,15 +24630,15 @@
       "options": [
         {
           "term_months": 12,
-          "base_rate_percent": 3.65,
-          "maximum_rate_percent": 3.65,
+          "base_rate_percent": 3.82,
+          "maximum_rate_percent": 3.82,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.65,
-          "maximum_rate_percent": 3.65,
+          "base_rate_percent": 3.82,
+          "maximum_rate_percent": 3.82,
           "interest_method": "복리",
           "saving_method": null
         }
@@ -24644,7 +24651,7 @@
       "product_code": "TD33",
       "product_name": "스마트회전정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260929",
       "disclosure_end_date": null,
       "join_member": "스마트뱅크 가입고객",
       "join_way": "스마트폰",
@@ -24655,15 +24662,15 @@
       "options": [
         {
           "term_months": 12,
-          "base_rate_percent": 3.65,
-          "maximum_rate_percent": 3.65,
+          "base_rate_percent": 3.82,
+          "maximum_rate_percent": 3.82,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.65,
-          "maximum_rate_percent": 3.65,
+          "base_rate_percent": 3.82,
+          "maximum_rate_percent": 3.82,
           "interest_method": "복리",
           "saving_method": null
         }
@@ -25794,19 +25801,19 @@
       "product_code": "240008",
       "product_name": "내맘대로 중도해지 정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20261001",
       "disclosure_end_date": null,
       "join_member": "개인 및 개인사업자",
       "join_way": "영업점,인터넷,스마트폰",
       "maximum_limit_text": null,
       "maturity_interest_text": "-1개월 이내 : 가입 당시 약정금리나 만기(해지)시 동일상품 · 계약기간 신규 약정금리 중 낮은 금리\n-1개월 초과 : 현행 고시 보통예금 금리",
       "preferential_conditions_text": "-",
-      "additional_terms_text": "1. 중도해지시에도 예치기간별 이율로 지급하는 정기예금\n\n2. 최저가입금액 : 10만원이상\n\n3. 중도해지금리\n-1개월미만 : 0.2%\n-1개월이상 3개월미만: 3.30%\n-3개월이상 6개월미만: 3.30%\n-6개월 이상 12개월 미만: 3.30%",
+      "additional_terms_text": "1. 중도해지시에도 예치기간별 이율로 지급하는 정기예금\n\n2. 최저가입금액 : 10만원이상\n\n3. 중도해지금리\n-1개월미만 : 0.2%\n-1개월이상 3개월미만: 3.50%\n-3개월이상 6개월미만: 3.50%\n-6개월 이상 12개월 미만: 3.50%",
       "options": [
         {
           "term_months": 12,
-          "base_rate_percent": 3.3,
-          "maximum_rate_percent": 3.3,
+          "base_rate_percent": 3.5,
+          "maximum_rate_percent": 3.5,
           "interest_method": "복리",
           "saving_method": null
         }
@@ -25883,7 +25890,7 @@
       "product_code": "240011",
       "product_name": "3개월 6개월 변동형 정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20261001",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "영업점,인터넷,스마트폰",
@@ -25894,29 +25901,29 @@
       "options": [
         {
           "term_months": 3,
-          "base_rate_percent": 3.4,
-          "maximum_rate_percent": 3.4,
+          "base_rate_percent": 3.5,
+          "maximum_rate_percent": 3.5,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 3,
-          "base_rate_percent": 3.4,
-          "maximum_rate_percent": 3.4,
+          "base_rate_percent": 3.5,
+          "maximum_rate_percent": 3.5,
           "interest_method": "복리",
           "saving_method": null
         },
         {
           "term_months": 6,
-          "base_rate_percent": 3.4,
-          "maximum_rate_percent": 3.4,
+          "base_rate_percent": 3.5,
+          "maximum_rate_percent": 3.5,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 6,
-          "base_rate_percent": 3.4,
-          "maximum_rate_percent": 3.4,
+          "base_rate_percent": 3.5,
+          "maximum_rate_percent": 3.5,
           "interest_method": "복리",
           "saving_method": null
         }
@@ -26959,7 +26966,7 @@
       "product_code": "240062",
       "product_name": "OK정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260930",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "영업점",
@@ -26998,29 +27005,29 @@
         },
         {
           "term_months": 6,
-          "base_rate_percent": 3.8,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 4,
+          "maximum_rate_percent": 4.1,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 6,
-          "base_rate_percent": 3.8,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 4,
+          "maximum_rate_percent": 4.1,
           "interest_method": "복리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.8,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 3.9,
+          "maximum_rate_percent": 4,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.8,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 3.9,
+          "maximum_rate_percent": 4,
           "interest_method": "복리",
           "saving_method": null
         }
@@ -27033,7 +27040,7 @@
       "product_code": "240067",
       "product_name": "OK e-정기예금",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260930",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "인터넷,스마트폰",
@@ -27072,29 +27079,29 @@
         },
         {
           "term_months": 6,
-          "base_rate_percent": 3.9,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 4.1,
+          "maximum_rate_percent": 4.1,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 6,
-          "base_rate_percent": 3.9,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 4.1,
+          "maximum_rate_percent": 4.1,
           "interest_method": "복리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.9,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 4,
+          "maximum_rate_percent": 4,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.9,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 4,
+          "maximum_rate_percent": 4,
           "interest_method": "복리",
           "saving_method": null
         }
@@ -27107,7 +27114,7 @@
       "product_code": "240070",
       "product_name": "OK안심정기예금(변동금리)",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260930",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "영업점",
@@ -27118,43 +27125,43 @@
       "options": [
         {
           "term_months": 12,
-          "base_rate_percent": 3.81,
-          "maximum_rate_percent": 3.81,
+          "base_rate_percent": 3.9,
+          "maximum_rate_percent": 4,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.81,
-          "maximum_rate_percent": 3.81,
+          "base_rate_percent": 3.9,
+          "maximum_rate_percent": 4,
           "interest_method": "복리",
           "saving_method": null
         },
         {
           "term_months": 24,
-          "base_rate_percent": 3.81,
-          "maximum_rate_percent": 3.81,
+          "base_rate_percent": 3.9,
+          "maximum_rate_percent": 4,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 24,
-          "base_rate_percent": 3.81,
-          "maximum_rate_percent": 3.81,
+          "base_rate_percent": 3.9,
+          "maximum_rate_percent": 4,
           "interest_method": "복리",
           "saving_method": null
         },
         {
           "term_months": 36,
-          "base_rate_percent": 3.81,
-          "maximum_rate_percent": 3.81,
+          "base_rate_percent": 3.9,
+          "maximum_rate_percent": 4,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 36,
-          "base_rate_percent": 3.81,
-          "maximum_rate_percent": 3.81,
+          "base_rate_percent": 3.9,
+          "maximum_rate_percent": 4,
           "interest_method": "복리",
           "saving_method": null
         }
@@ -27167,7 +27174,7 @@
       "product_code": "240071",
       "product_name": "OK e-안심정기예금(변동금리)",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260930",
       "disclosure_end_date": null,
       "join_member": "제한없음",
       "join_way": "인터넷,스마트폰",
@@ -27178,43 +27185,43 @@
       "options": [
         {
           "term_months": 12,
-          "base_rate_percent": 3.91,
-          "maximum_rate_percent": 3.91,
+          "base_rate_percent": 4,
+          "maximum_rate_percent": 4,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.91,
-          "maximum_rate_percent": 3.91,
+          "base_rate_percent": 4,
+          "maximum_rate_percent": 4,
           "interest_method": "복리",
           "saving_method": null
         },
         {
           "term_months": 24,
-          "base_rate_percent": 3.91,
-          "maximum_rate_percent": 3.91,
+          "base_rate_percent": 4,
+          "maximum_rate_percent": 4,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 24,
-          "base_rate_percent": 3.91,
-          "maximum_rate_percent": 3.91,
+          "base_rate_percent": 4,
+          "maximum_rate_percent": 4,
           "interest_method": "복리",
           "saving_method": null
         },
         {
           "term_months": 36,
-          "base_rate_percent": 3.91,
-          "maximum_rate_percent": 3.91,
+          "base_rate_percent": 4,
+          "maximum_rate_percent": 4,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 36,
-          "base_rate_percent": 3.91,
-          "maximum_rate_percent": 3.91,
+          "base_rate_percent": 4,
+          "maximum_rate_percent": 4,
           "interest_method": "복리",
           "saving_method": null
         }
@@ -27287,7 +27294,7 @@
       "product_code": "240099",
       "product_name": "OK e-안심앱플러스정기예금6 (변동금리)",
       "disclosure_month": "202609",
-      "disclosure_start_date": "20260921",
+      "disclosure_start_date": "20260930",
       "disclosure_end_date": null,
       "join_member": "개인",
       "join_way": "스마트폰",
@@ -27298,57 +27305,57 @@
       "options": [
         {
           "term_months": 6,
-          "base_rate_percent": 3.9,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 4.1,
+          "maximum_rate_percent": 4.1,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 6,
-          "base_rate_percent": 3.9,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 4.1,
+          "maximum_rate_percent": 4.1,
           "interest_method": "복리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.9,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 4.1,
+          "maximum_rate_percent": 4.1,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 12,
-          "base_rate_percent": 3.9,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 4.1,
+          "maximum_rate_percent": 4.1,
           "interest_method": "복리",
           "saving_method": null
         },
         {
           "term_months": 24,
-          "base_rate_percent": 3.9,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 4.1,
+          "maximum_rate_percent": 4.1,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 24,
-          "base_rate_percent": 3.9,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 4.1,
+          "maximum_rate_percent": 4.1,
           "interest_method": "복리",
           "saving_method": null
         },
         {
           "term_months": 36,
-          "base_rate_percent": 3.9,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 4.1,
+          "maximum_rate_percent": 4.1,
           "interest_method": "단리",
           "saving_method": null
         },
         {
           "term_months": 36,
-          "base_rate_percent": 3.9,
-          "maximum_rate_percent": 3.9,
+          "base_rate_percent": 4.1,
+          "maximum_rate_percent": 4.1,
           "interest_method": "복리",
           "saving_method": null
         }

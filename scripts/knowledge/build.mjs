@@ -615,7 +615,7 @@ if (currentCollection) {
   // of every inherited node. Original per-record dates remain untouched.
   if(currentCollection.validated_at) {
     manifest.basis_date=currentCollection.snapshot_basis_date;
-    manifest.source_review_date=currentCollection.validated_at.slice(0,10);
+    manifest.source_review_date=new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Seoul'}).format(new Date(currentCollection.validated_at));
     manifest.basis_date_scope='API snapshot collection date; individual provider periods are preserved';
     manifest.source_review_scope=currentCollection.validation_scope;
   }

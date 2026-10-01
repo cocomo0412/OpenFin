@@ -1,24 +1,24 @@
 {
   "version": 1,
-  "basis_date": "2026-09-24",
-  "evidence_checked_at": "2026-09-24T10:24:18.981588+00:00",
+  "basis_date": "2026-10-01",
+  "evidence_checked_at": "2026-10-01T07:48:09.740707+00:00",
   "counting_scope": "공개 export의 items를 ID로 중복 제거. reference_items 별도 목록은 제외.",
-  "total_items": 80531,
+  "total_items": 80944,
   "counts": {
-    "refreshed": 72953,
-    "historical_absent": 296,
+    "refreshed": 73358,
+    "historical_absent": 295,
     "structural_reference": 306,
-    "previous_success": 6566,
+    "previous_success": 6575,
     "cause_unclassified": 410
   },
-  "retained_count": 7578,
+  "retained_count": 7586,
   "dataset_failure_count": 5,
   "dataset_failures": [
     {
       "source_id": "source.fss.finlife.api",
       "endpoint": "annuitySavingProductsSearch",
       "group": "020000",
-      "checked_at": "2026-09-24T10:17:22.408Z",
+      "checked_at": "2026-10-01T07:48:14.132Z",
       "reason_code": "provider_response_rejected",
       "error": "Unexpected schema: response is not retirement savings",
       "reason": "제공기관 연금저축 API 응답의 상품 구조 또는 총건수와 실제 행수가 일치하지 않아 반영하지 않았습니다.",
@@ -31,7 +31,7 @@
       "source_id": "source.fss.finlife.api",
       "endpoint": "annuitySavingProductsSearch",
       "group": "030200",
-      "checked_at": "2026-09-24T10:17:22.408Z",
+      "checked_at": "2026-10-01T07:48:14.512Z",
       "reason_code": "provider_response_rejected",
       "error": "Unexpected schema: response is not retirement savings",
       "reason": "제공기관 연금저축 API 응답의 상품 구조 또는 총건수와 실제 행수가 일치하지 않아 반영하지 않았습니다.",
@@ -44,7 +44,7 @@
       "source_id": "source.fss.finlife.api",
       "endpoint": "annuitySavingProductsSearch",
       "group": "030300",
-      "checked_at": "2026-09-24T10:17:22.408Z",
+      "checked_at": "2026-10-01T07:48:14.905Z",
       "reason_code": "provider_response_rejected",
       "error": "Unexpected schema: response is not retirement savings",
       "reason": "제공기관 연금저축 API 응답의 상품 구조 또는 총건수와 실제 행수가 일치하지 않아 반영하지 않았습니다.",
@@ -57,7 +57,7 @@
       "source_id": "source.fss.finlife.api",
       "endpoint": "annuitySavingProductsSearch",
       "group": "050000",
-      "checked_at": "2026-09-24T10:17:22.408Z",
+      "checked_at": "2026-10-01T07:48:15.253Z",
       "reason_code": "provider_response_rejected",
       "error": "Unexpected schema: response is not retirement savings",
       "reason": "제공기관 연금저축 API 응답의 상품 구조 또는 총건수와 실제 행수가 일치하지 않아 반영하지 않았습니다.",
@@ -70,7 +70,7 @@
       "source_id": "source.fss.finlife.api",
       "endpoint": "annuitySavingProductsSearch",
       "group": "060000",
-      "checked_at": "2026-09-24T10:17:22.408Z",
+      "checked_at": "2026-10-01T07:48:15.659Z",
       "reason_code": "provider_response_rejected",
       "error": "Incomplete pagination",
       "reason": "제공기관 연금저축 API 응답의 상품 구조 또는 총건수와 실제 행수가 일치하지 않아 반영하지 않았습니다.",
@@ -1868,6 +1868,25 @@
       "evidence": "refresh_generation=2026-09-23T08:26:20.451325+00:00"
     },
     {
+      "id": "corporate.support.e-filing-credit",
+      "title": "전자신고 세액공제",
+      "type": "corporate-tax-support",
+      "domains": [
+        "tax"
+      ],
+      "reason_code": "previous_success",
+      "reason": "이전 성공 자료 유지",
+      "next_action": "기존 성공 이력을 재사용하고 다음 수집 경로를 확인합니다. 오늘 미수집한 원인을 오류로 추정하지 않습니다.",
+      "last_successful_refresh": "2026-09-24T08:14:54.192130+00:00",
+      "last_checked_at": "2026-09-24T08:14:54.192130+00:00",
+      "last_reviewed_at": "2026-09-24",
+      "source_listing_status": "listed",
+      "source_ids": [
+        "source.law.tax-special-treatment-decree.e-filing"
+      ],
+      "evidence": "refresh_generation=2026-09-24T08:14:54.192130+00:00"
+    },
+    {
       "id": "corporate.support.employment-maintenance-credit",
       "title": "고용유지 중소기업 등에 대한 과세특례",
       "type": "corporate-tax-support",
@@ -2439,6 +2458,26 @@
       "evidence": "refresh_generation=2026-09-23T08:26:20.830416+00:00"
     },
     {
+      "id": "credit.housing-loan-interest",
+      "title": "주택자금차입금 이자세액공제",
+      "type": "tax-credit",
+      "domains": [
+        "tax"
+      ],
+      "reason_code": "previous_success",
+      "reason": "이전 성공 자료 유지",
+      "next_action": "기존 성공 이력을 재사용하고 다음 수집 경로를 확인합니다. 오늘 미수집한 원인을 오류로 추정하지 않습니다.",
+      "last_successful_refresh": "2026-09-24T08:31:04.447519+00:00",
+      "last_checked_at": "2026-09-24T08:31:04.447519+00:00",
+      "last_reviewed_at": "2026-09-24",
+      "source_listing_status": "listed",
+      "source_ids": [
+        "source.law.tax-reduction-1997.housing",
+        "source.law.tax-special-treatment-restriction-act.reliefs"
+      ],
+      "evidence": "refresh_generation=2026-09-24T08:31:04.447519+00:00"
+    },
+    {
       "id": "credit.insurance-premium",
       "title": "보험료 세액공제",
       "type": "tax-credit",
@@ -2647,6 +2686,25 @@
         "source.law.income-tax-act.deductions-credits"
       ],
       "evidence": "refresh_generation=2026-09-23T08:26:20.830416+00:00"
+    },
+    {
+      "id": "deadline.comprehensive-real-estate.payment",
+      "title": "종합부동산세 납부",
+      "type": "deadline",
+      "domains": [
+        "tax"
+      ],
+      "reason_code": "previous_success",
+      "reason": "이전 성공 자료 유지",
+      "next_action": "기존 성공 이력을 재사용하고 다음 수집 경로를 확인합니다. 오늘 미수집한 원인을 오류로 추정하지 않습니다.",
+      "last_successful_refresh": "2026-09-24T08:14:55.138639+00:00",
+      "last_checked_at": "2026-09-24T08:14:55.138639+00:00",
+      "last_reviewed_at": "2026-09-24",
+      "source_listing_status": "listed",
+      "source_ids": [
+        "source.law.comprehensive-real-estate-act.full"
+      ],
+      "evidence": "refresh_generation=2026-09-24T08:14:55.138639+00:00"
     },
     {
       "id": "deadline.corporate-tax.return",
@@ -3261,6 +3319,26 @@
         "source.law.income-tax-act.deductions-credits"
       ],
       "evidence": "refresh_generation=2026-09-23T08:26:20.830416+00:00"
+    },
+    {
+      "id": "deduction.personal-pension-savings",
+      "title": "개인연금저축 소득공제",
+      "type": "deduction",
+      "domains": [
+        "tax"
+      ],
+      "reason_code": "previous_success",
+      "reason": "이전 성공 자료 유지",
+      "next_action": "기존 성공 이력을 재사용하고 다음 수집 경로를 확인합니다. 오늘 미수집한 원인을 오류로 추정하지 않습니다.",
+      "last_successful_refresh": "2026-09-24T08:31:25.484456+00:00",
+      "last_checked_at": "2026-09-24T08:31:25.484456+00:00",
+      "last_reviewed_at": "2026-09-24",
+      "source_listing_status": "listed",
+      "source_ids": [
+        "source.law.tax-special-treatment-2012.pension",
+        "source.law.tax-special-treatment-restriction-act.reliefs"
+      ],
+      "evidence": "refresh_generation=2026-09-24T08:31:25.484456+00:00"
     },
     {
       "id": "deduction.personal.additional",
@@ -3987,7 +4065,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4006,7 +4084,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4025,7 +4103,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4044,7 +4122,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4063,7 +4141,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4082,7 +4160,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4101,7 +4179,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4120,7 +4198,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4139,7 +4217,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4158,7 +4236,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4177,7 +4255,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4196,7 +4274,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4215,7 +4293,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4234,7 +4312,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4253,7 +4331,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4272,7 +4350,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4291,7 +4369,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4310,7 +4388,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4329,7 +4407,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4348,7 +4426,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4367,7 +4445,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4386,7 +4464,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4405,7 +4483,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4424,7 +4502,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4443,7 +4521,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4462,7 +4540,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4481,7 +4559,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4500,7 +4578,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4519,7 +4597,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4538,7 +4616,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4557,7 +4635,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4576,7 +4654,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4595,7 +4673,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4614,7 +4692,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4633,7 +4711,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4652,7 +4730,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4671,7 +4749,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4690,7 +4768,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4709,7 +4787,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4728,7 +4806,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4747,7 +4825,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4766,7 +4844,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4785,7 +4863,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4804,7 +4882,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4823,7 +4901,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4842,7 +4920,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4861,7 +4939,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4880,7 +4958,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4899,7 +4977,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4918,7 +4996,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4937,7 +5015,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4956,7 +5034,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4975,7 +5053,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -4994,7 +5072,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5013,7 +5091,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5032,7 +5110,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5051,7 +5129,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5070,7 +5148,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5089,7 +5167,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5108,7 +5186,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5127,7 +5205,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5146,7 +5224,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5165,7 +5243,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5184,7 +5262,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5203,7 +5281,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5222,7 +5300,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5241,7 +5319,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5260,7 +5338,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5279,7 +5357,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5298,7 +5376,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5317,7 +5395,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5336,7 +5414,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5355,7 +5433,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5374,7 +5452,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5393,7 +5471,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5412,7 +5490,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5431,7 +5509,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5450,7 +5528,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5469,7 +5547,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5488,7 +5566,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5507,7 +5585,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5526,7 +5604,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5545,7 +5623,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5564,7 +5642,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5583,7 +5661,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5602,7 +5680,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5621,7 +5699,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5640,7 +5718,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5659,7 +5737,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5678,7 +5756,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5697,7 +5775,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5716,7 +5794,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5735,7 +5813,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5754,7 +5832,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5773,7 +5851,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5792,7 +5870,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5811,7 +5889,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5830,7 +5908,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5849,7 +5927,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5868,7 +5946,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5887,7 +5965,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5906,7 +5984,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5925,7 +6003,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5944,7 +6022,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5963,7 +6041,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -5982,7 +6060,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6001,7 +6079,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6020,7 +6098,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6039,7 +6117,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6058,7 +6136,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6077,7 +6155,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6096,7 +6174,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6115,7 +6193,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6134,7 +6212,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6153,7 +6231,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6172,7 +6250,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6191,7 +6269,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6210,7 +6288,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6229,7 +6307,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6248,7 +6326,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6267,7 +6345,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6286,7 +6364,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6305,7 +6383,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6324,7 +6402,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6343,7 +6421,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6362,7 +6440,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6381,7 +6459,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6400,7 +6478,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6419,7 +6497,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6438,7 +6516,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6457,7 +6535,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6476,7 +6554,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6495,7 +6573,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6514,7 +6592,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6533,7 +6611,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6552,7 +6630,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6571,7 +6649,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6590,7 +6668,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6609,7 +6687,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6628,7 +6706,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6647,7 +6725,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6666,7 +6744,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6685,7 +6763,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6704,7 +6782,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6723,7 +6801,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6742,7 +6820,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6761,7 +6839,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -6780,7 +6858,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:24:18.981588+00:00",
+      "last_checked_at": "2026-10-01T07:45:37.767167+00:00",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -10578,6 +10656,25 @@
         "source.bccard.check-card-list"
       ],
       "evidence": "refresh_generation=2026-09-23T08:25:48.298794+00:00"
+    },
+    {
+      "id": "finance.card.check-card.sc제일은행.부자되세요-더-마일리지-체크-232441",
+      "title": "SC제일은행 부자되세요 더 마일리지 체크카드",
+      "type": "card-product",
+      "domains": [
+        "card-products"
+      ],
+      "reason_code": "previous_success",
+      "reason": "이전 성공 자료 유지",
+      "next_action": "기존 성공 이력을 재사용하고 다음 수집 경로를 확인합니다. 오늘 미수집한 원인을 오류로 추정하지 않습니다.",
+      "last_successful_refresh": "2026-09-24T08:47:09.085392+00:00",
+      "last_checked_at": "2026-09-24T08:47:09.085392+00:00",
+      "last_reviewed_at": "2026-09-24T08:47:09.085392+00:00",
+      "source_listing_status": "listed",
+      "source_ids": [
+        "source.provider.sc.product-documents"
+      ],
+      "evidence": "refresh_generation=2026-09-24T08:47:09.085392+00:00"
     },
     {
       "id": "finance.card.check-card.sc제일은행.에이스플러스-체크카드-230981",
@@ -26055,6 +26152,25 @@
       "evidence": "refresh_generation=2026-09-23T08:31:17.634483+00:00"
     },
     {
+      "id": "finance.deposit.deposit.0010019.td11300036000",
+      "title": "광주은행 The플러스예금",
+      "type": "bank-product",
+      "domains": [
+        "deposit-products"
+      ],
+      "reason_code": "historical_absent",
+      "reason": "최신 전체 목록에서 미확인",
+      "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
+      "last_successful_refresh": "2026-09-24T10:15:54.975Z",
+      "last_checked_at": "2026-10-01T07:44:18.122Z",
+      "last_reviewed_at": "2026-09-24T10:15:54.975Z",
+      "source_listing_status": "not_found_in_latest_collection",
+      "source_ids": [
+        "source.fss.finlife.api"
+      ],
+      "evidence": "이번 전체 API 목록에서 식별되지 않아 과거 기록으로 유지합니다. 판매 종료 여부는 미확인입니다."
+    },
+    {
       "id": "finance.deposit.deposit.0010349.240822",
       "title": "디비저축은행 DB행복열매예금",
       "type": "bank-product",
@@ -26065,7 +26181,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:15:54.975Z",
+      "last_checked_at": "2026-10-01T07:44:18.122Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -26084,7 +26200,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:15:54.975Z",
+      "last_checked_at": "2026-10-01T07:44:18.122Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -26103,7 +26219,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:15:54.975Z",
+      "last_checked_at": "2026-10-01T07:44:18.122Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -26122,7 +26238,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:15:54.975Z",
+      "last_checked_at": "2026-10-01T07:44:18.122Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -26141,7 +26257,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:15:54.975Z",
+      "last_checked_at": "2026-10-01T07:44:18.122Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -48128,7 +48244,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:17:22.408Z",
+      "last_checked_at": "2026-10-01T07:44:37.627Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -48147,7 +48263,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:17:22.408Z",
+      "last_checked_at": "2026-10-01T07:44:37.627Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -48166,7 +48282,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:17:22.408Z",
+      "last_checked_at": "2026-10-01T07:44:37.627Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -48185,7 +48301,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:17:22.408Z",
+      "last_checked_at": "2026-10-01T07:44:37.627Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -48204,7 +48320,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:17:22.408Z",
+      "last_checked_at": "2026-10-01T07:44:37.627Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -48223,7 +48339,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:17:22.408Z",
+      "last_checked_at": "2026-10-01T07:44:37.627Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -48242,7 +48358,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:17:22.408Z",
+      "last_checked_at": "2026-10-01T07:44:37.627Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -48261,7 +48377,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:17:22.408Z",
+      "last_checked_at": "2026-10-01T07:44:37.627Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -48280,7 +48396,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:17:22.408Z",
+      "last_checked_at": "2026-10-01T07:44:37.627Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -48299,7 +48415,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:17:22.408Z",
+      "last_checked_at": "2026-10-01T07:44:37.627Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -48318,7 +48434,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:17:22.408Z",
+      "last_checked_at": "2026-10-01T07:44:37.627Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -48337,7 +48453,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:17:22.408Z",
+      "last_checked_at": "2026-10-01T07:44:37.627Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -48356,7 +48472,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:17:22.408Z",
+      "last_checked_at": "2026-10-01T07:44:37.627Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -135794,7 +135910,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:15:54.975Z",
+      "last_checked_at": "2026-10-01T07:44:18.122Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -135813,7 +135929,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:15:54.975Z",
+      "last_checked_at": "2026-10-01T07:44:18.122Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -140175,44 +140291,6 @@
       "evidence": "금일 반영 또는 미갱신 원인을 확정할 기록이 부족합니다."
     },
     {
-      "id": "support.local-gov.api.401000000496",
-      "title": "소규모 점포 경영개선 지원",
-      "type": "support-program",
-      "domains": [
-        "local-government-supports"
-      ],
-      "reason_code": "historical_absent",
-      "reason": "최신 전체 목록에서 미확인",
-      "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
-      "last_successful_refresh": "2026-09-23T07:29:03.565Z",
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
-      "last_reviewed_at": "2026-09-23T07:29:03.565Z",
-      "source_listing_status": "not_found_in_latest_collection",
-      "source_ids": [
-        "source.gov24.benefit-plus.local-supports"
-      ],
-      "evidence": "이번 전체 API 목록에서 식별되지 않아 과거 기록으로 유지합니다. 판매 종료 여부는 미확인입니다."
-    },
-    {
-      "id": "support.local-gov.api.401000000497",
-      "title": "시흥맞춤 명품점포 지원",
-      "type": "support-program",
-      "domains": [
-        "local-government-supports"
-      ],
-      "reason_code": "historical_absent",
-      "reason": "최신 전체 목록에서 미확인",
-      "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
-      "last_successful_refresh": "2026-09-23T07:29:03.565Z",
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
-      "last_reviewed_at": "2026-09-23T07:29:03.565Z",
-      "source_listing_status": "not_found_in_latest_collection",
-      "source_ids": [
-        "source.gov24.benefit-plus.local-supports"
-      ],
-      "evidence": "이번 전체 API 목록에서 식별되지 않아 과거 기록으로 유지합니다. 판매 종료 여부는 미확인입니다."
-    },
-    {
       "id": "support.local-gov.gov24.1000171",
       "title": "명절 어려운 국가유공자 위문품 지급 (강원특별자치도 강릉시)",
       "type": "support-program",
@@ -140223,7 +140301,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -140242,7 +140320,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -140261,7 +140339,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -140280,7 +140358,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -140299,7 +140377,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -140318,7 +140396,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -140337,7 +140415,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -140356,7 +140434,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -140375,7 +140453,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -140394,26 +140472,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
-      "last_reviewed_at": "2026-07-18",
-      "source_listing_status": "not_found_in_latest_collection",
-      "source_ids": [
-        "source.gov24.benefit-plus.local-supports"
-      ],
-      "evidence": "이번 전체 API 목록에서 식별되지 않아 과거 기록으로 유지합니다. 판매 종료 여부는 미확인입니다."
-    },
-    {
-      "id": "support.local-gov.gov24.1001436",
-      "title": "신혼부부 전세대출금 이자 지원 (경기도 시흥시)",
-      "type": "support-program",
-      "domains": [
-        "local-government-supports"
-      ],
-      "reason_code": "historical_absent",
-      "reason": "최신 전체 목록에서 미확인",
-      "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
-      "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -140432,7 +140491,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -140451,7 +140510,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -140470,7 +140529,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -140489,7 +140548,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -140508,7 +140567,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -140527,7 +140586,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -140546,7 +140605,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -140565,8 +140624,27 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
+      "source_listing_status": "not_found_in_latest_collection",
+      "source_ids": [
+        "source.gov24.benefit-plus.local-supports"
+      ],
+      "evidence": "이번 전체 API 목록에서 식별되지 않아 과거 기록으로 유지합니다. 판매 종료 여부는 미확인입니다."
+    },
+    {
+      "id": "support.local-gov.gov24.1002534",
+      "title": "제주특별자치도 학자금 대출이자 지원",
+      "type": "support-program",
+      "domains": [
+        "local-government-supports"
+      ],
+      "reason_code": "historical_absent",
+      "reason": "최신 전체 목록에서 미확인",
+      "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
+      "last_successful_refresh": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
+      "last_reviewed_at": "2026-09-24T10:16:08.102Z",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
         "source.gov24.benefit-plus.local-supports"
@@ -140584,7 +140662,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -140603,7 +140681,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -140622,7 +140700,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -140641,7 +140719,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -140660,7 +140738,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -140679,7 +140757,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -140698,7 +140776,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -140717,7 +140795,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -140736,7 +140814,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -140755,7 +140833,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -140774,7 +140852,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -140793,7 +140871,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -140812,7 +140890,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -140831,7 +140909,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -140850,7 +140928,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -140869,7 +140947,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -140888,7 +140966,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -140907,7 +140985,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -140926,7 +141004,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -140945,7 +141023,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -140964,7 +141042,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -140983,7 +141061,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141002,7 +141080,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141021,7 +141099,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141040,7 +141118,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141059,7 +141137,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141078,7 +141156,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141097,7 +141175,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141116,7 +141194,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141135,7 +141213,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141154,7 +141232,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141173,7 +141251,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141192,7 +141270,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141211,7 +141289,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141230,7 +141308,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141249,7 +141327,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141268,7 +141346,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141287,7 +141365,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141306,7 +141384,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141325,7 +141403,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141344,7 +141422,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141363,7 +141441,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141382,7 +141460,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141401,7 +141479,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141420,7 +141498,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141439,7 +141517,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141458,7 +141536,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141477,7 +141555,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141496,7 +141574,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141515,7 +141593,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141534,7 +141612,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141553,7 +141631,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141572,8 +141650,27 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
+      "source_listing_status": "not_found_in_latest_collection",
+      "source_ids": [
+        "source.gov24.benefit-plus.local-supports"
+      ],
+      "evidence": "이번 전체 API 목록에서 식별되지 않아 과거 기록으로 유지합니다. 판매 종료 여부는 미확인입니다."
+    },
+    {
+      "id": "support.local-gov.gov24.2114802",
+      "title": "보훈예우수당 지원",
+      "type": "support-program",
+      "domains": [
+        "local-government-supports"
+      ],
+      "reason_code": "historical_absent",
+      "reason": "최신 전체 목록에서 미확인",
+      "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
+      "last_successful_refresh": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
+      "last_reviewed_at": "2026-09-24T10:16:08.102Z",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
         "source.gov24.benefit-plus.local-supports"
@@ -141591,7 +141688,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141610,7 +141707,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141629,7 +141726,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141648,7 +141745,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141667,7 +141764,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141686,7 +141783,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141705,7 +141802,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141724,7 +141821,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141743,7 +141840,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141762,27 +141859,8 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
-      "source_listing_status": "not_found_in_latest_collection",
-      "source_ids": [
-        "source.gov24.benefit-plus.local-supports"
-      ],
-      "evidence": "이번 전체 API 목록에서 식별되지 않아 과거 기록으로 유지합니다. 판매 종료 여부는 미확인입니다."
-    },
-    {
-      "id": "support.local-gov.gov24.2128449",
-      "title": "시흥시 구직 청년 면접정장 대여사업「면접 흥하시흥」 운영",
-      "type": "support-program",
-      "domains": [
-        "local-government-supports"
-      ],
-      "reason_code": "historical_absent",
-      "reason": "최신 전체 목록에서 미확인",
-      "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
-      "last_successful_refresh": "2026-09-23T07:29:03.565Z",
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
-      "last_reviewed_at": "2026-09-23T07:29:03.565Z",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
         "source.gov24.benefit-plus.local-supports"
@@ -141800,7 +141878,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141819,7 +141897,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141838,7 +141916,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141857,7 +141935,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141876,7 +141954,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141895,7 +141973,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141914,7 +141992,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141933,7 +142011,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141952,7 +142030,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141971,7 +142049,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -141990,7 +142068,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -142009,7 +142087,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -142028,7 +142106,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -142047,7 +142125,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -142066,7 +142144,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -142085,7 +142163,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -142104,7 +142182,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -142123,7 +142201,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -142142,26 +142220,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
-      "last_reviewed_at": "2026-07-18",
-      "source_listing_status": "not_found_in_latest_collection",
-      "source_ids": [
-        "source.gov24.benefit-plus.local-supports"
-      ],
-      "evidence": "이번 전체 API 목록에서 식별되지 않아 과거 기록으로 유지합니다. 판매 종료 여부는 미확인입니다."
-    },
-    {
-      "id": "support.local-gov.gov24.2169728",
-      "title": "아산시 관내 기업 기숙사 임차지원 (충청남도 아산시)",
-      "type": "support-program",
-      "domains": [
-        "local-government-supports"
-      ],
-      "reason_code": "historical_absent",
-      "reason": "최신 전체 목록에서 미확인",
-      "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
-      "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -142180,7 +142239,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -142199,7 +142258,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -142218,7 +142277,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -142237,7 +142296,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -142256,7 +142315,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -142275,7 +142334,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -142294,7 +142353,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -142313,7 +142372,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -142332,7 +142391,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -142351,7 +142410,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -142370,7 +142429,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -142389,7 +142448,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -142408,7 +142467,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -142427,7 +142486,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -142446,7 +142505,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -142465,7 +142524,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -142484,7 +142543,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -142503,7 +142562,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -142522,8 +142581,27 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
+      "source_listing_status": "not_found_in_latest_collection",
+      "source_ids": [
+        "source.gov24.benefit-plus.local-supports"
+      ],
+      "evidence": "이번 전체 API 목록에서 식별되지 않아 과거 기록으로 유지합니다. 판매 종료 여부는 미확인입니다."
+    },
+    {
+      "id": "support.local-gov.gov24.809401",
+      "title": "다둥이가정 차량 무료렌탈지원",
+      "type": "support-program",
+      "domains": [
+        "local-government-supports"
+      ],
+      "reason_code": "historical_absent",
+      "reason": "최신 전체 목록에서 미확인",
+      "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
+      "last_successful_refresh": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
+      "last_reviewed_at": "2026-09-24T10:16:08.102Z",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
         "source.gov24.benefit-plus.local-supports"
@@ -142541,7 +142619,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -142560,7 +142638,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -142579,7 +142657,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -142598,7 +142676,7 @@
       "reason": "최신 전체 목록에서 미확인",
       "next_action": "다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다.",
       "last_successful_refresh": null,
-      "last_checked_at": "2026-09-24T10:16:08.102Z",
+      "last_checked_at": "2026-10-01T07:44:23.531Z",
       "last_reviewed_at": "2026-07-18",
       "source_listing_status": "not_found_in_latest_collection",
       "source_ids": [
@@ -142804,6 +142882,26 @@
       "evidence": "금일 반영 또는 미갱신 원인을 확정할 기록이 부족합니다."
     },
     {
+      "id": "tax.comprehensive-real-estate",
+      "title": "종합부동산세",
+      "type": "tax",
+      "domains": [
+        "tax"
+      ],
+      "reason_code": "previous_success",
+      "reason": "이전 성공 자료 유지",
+      "next_action": "기존 성공 이력을 재사용하고 다음 수집 경로를 확인합니다. 오늘 미수집한 원인을 오류로 추정하지 않습니다.",
+      "last_successful_refresh": "2026-09-24T08:14:55.138639+00:00",
+      "last_checked_at": "2026-09-24T08:14:55.138639+00:00",
+      "last_reviewed_at": "2026-09-24",
+      "source_listing_status": "listed",
+      "source_ids": [
+        "source.law.comprehensive-real-estate-act.full",
+        "source.law.comprehensive-real-estate-decree.ratio"
+      ],
+      "evidence": "refresh_generation=2026-09-24T08:14:55.138639+00:00"
+    },
+    {
       "id": "tax.corporate",
       "title": "법인세",
       "type": "tax",
@@ -142821,6 +142919,44 @@
         "source.nts.corporate-tax.rates"
       ],
       "evidence": "refresh_generation=2026-09-23T08:26:12.390383+00:00"
+    },
+    {
+      "id": "tax.customs",
+      "title": "관세",
+      "type": "tax",
+      "domains": [
+        "tax"
+      ],
+      "reason_code": "previous_success",
+      "reason": "이전 성공 자료 유지",
+      "next_action": "기존 성공 이력을 재사용하고 다음 수집 경로를 확인합니다. 오늘 미수집한 원인을 오류로 추정하지 않습니다.",
+      "last_successful_refresh": "2026-09-24T08:14:56.108730+00:00",
+      "last_checked_at": "2026-09-24T08:14:56.108730+00:00",
+      "last_reviewed_at": "2026-09-24",
+      "source_listing_status": "listed",
+      "source_ids": [
+        "source.law.customs-act.full"
+      ],
+      "evidence": "refresh_generation=2026-09-24T08:14:56.108730+00:00"
+    },
+    {
+      "id": "tax.education",
+      "title": "교육세",
+      "type": "tax",
+      "domains": [
+        "tax"
+      ],
+      "reason_code": "previous_success",
+      "reason": "이전 성공 자료 유지",
+      "next_action": "기존 성공 이력을 재사용하고 다음 수집 경로를 확인합니다. 오늘 미수집한 원인을 오류로 추정하지 않습니다.",
+      "last_successful_refresh": "2026-09-24T08:14:53.791704+00:00",
+      "last_checked_at": "2026-09-24T08:14:53.791704+00:00",
+      "last_reviewed_at": "2026-09-24",
+      "source_listing_status": "listed",
+      "source_ids": [
+        "source.law.education-tax-act.full"
+      ],
+      "evidence": "refresh_generation=2026-09-24T08:14:53.791704+00:00"
     },
     {
       "id": "tax.gift",
@@ -142995,6 +143131,25 @@
         "source.law.liquor-decree.rates"
       ],
       "evidence": "refresh_generation=2026-09-23T08:26:21.961480+00:00"
+    },
+    {
+      "id": "tax.securities-transaction",
+      "title": "증권거래세",
+      "type": "tax",
+      "domains": [
+        "tax"
+      ],
+      "reason_code": "previous_success",
+      "reason": "이전 성공 자료 유지",
+      "next_action": "기존 성공 이력을 재사용하고 다음 수집 경로를 확인합니다. 오늘 미수집한 원인을 오류로 추정하지 않습니다.",
+      "last_successful_refresh": "2026-09-24T08:14:54.059909+00:00",
+      "last_checked_at": "2026-09-24T08:14:54.059909+00:00",
+      "last_reviewed_at": "2026-09-24",
+      "source_listing_status": "listed",
+      "source_ids": [
+        "source.law.securities-transaction-decree.rates"
+      ],
+      "evidence": "refresh_generation=2026-09-24T08:14:54.059909+00:00"
     },
     {
       "id": "tax.special-rural-development",

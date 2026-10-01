@@ -12,6 +12,31 @@ OpenFin은 승인 API의 전체 페이지를 수집하고 JSON·온톨로지·�
 
 ## 실행 순서
 
+일상 갱신은 저장소 루트에서 다음 한 명령으로 수행합니다. `.env`의 키를 자동으로 읽으며 날짜는 한국 시간, 건수는 API 실제 응답에서 계산합니다.
+
+```text
+node scripts/knowledge/refresh-all.mjs
+```
+
+공공 API·예금·적금·대출·지원금 수집 → 수집본 검증 → 원문 연결 → 온톨로지 반영 → 빌드 → 스키마·규칙·통합 테스트 → 무료 MCP 카탈로그 → 내부 관리대장 생성 순서입니다. 검증 오류가 발생하면 중단합니다. 제공기관 응답 오류는 기존 성공본을 보존하고 `pending`에 기록합니다. GitHub 푸시·배포는 결과 검토 후 수행합니다.
+
+```text
+# 실패한 공공 API와 금감원 요청만 재시도 (성공 자료 수집일 유지)
+node scripts/knowledge/refresh-all.mjs --retry-failed
+
+# 오늘 수집을 이미 완료했다면 API 재호출 없이 반영부터 재개
+node scripts/knowledge/refresh-all.mjs --from prepare
+
+# 실행 순서 확인 (수집·수정 없음)
+node scripts/knowledge/refresh-all.mjs --dry-run
+```
+
+`--from prepare`는 모든 대상의 당일 확인 기록과 성공본 날짜를 먼저 검증합니다. 이전 날짜의 자료를 재시도 시각만으로 최신으로 간주하지 않습니다. 단계별 결과·소요시간은 `.api-candidates/refresh-pipeline-run.json`, 로그는 `.api-candidates/pipeline-*.log`에 남습니다. Python 실행 파일이 PATH에 없으면 `OPENFIN_PYTHON`으로 지정합니다.
+
+수집 대상은 `scripts/knowledge/public-api-refresh-plan.json`으로 관리합니다. 새 환경에서도 이전 비공개 수집 파일 없이 설정된 API 목록을 순회합니다. 제공기관의 최신 공시기간을 조회해 필터를 정하고, 한국은행은 월초·휴일의 빈 기간을 피하도록 최근 45일을 조회합니다. API의 통계기간·상품 시행일은 수집일로 덮어쓰지 않습니다.
+
+아래는 개별 단계 점검이 필요할 때의 수동 순서입니다.
+
 1. `python scripts/knowledge/refresh-public-apis.py`
 2. `node --env-file=.env scripts/knowledge/collect-finlife-candidates.mjs --catalog-only --write`
 3. `node --env-file=.env scripts/knowledge/collect-finlife-additional.mjs`

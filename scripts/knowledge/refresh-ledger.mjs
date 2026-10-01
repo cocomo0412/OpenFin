@@ -62,9 +62,9 @@ export function buildRefreshLedger() {
   // Request failures and item counts are different units. Do not assign a failed
   // pension request to thousands of records without provider/product ID evidence.
   const failures = (inventory.pending || []).map(f => ({
-    source_id: f.source_id, endpoint: f.endpoint, group: f.group,
-    checked_at: f.checked_at, reason_code: 'provider_response_rejected',
-    error: f.error, reason: f.reason,
+    source_id: f.source_id, endpoint: f.endpoint, group: f.group, operation_index:f.operation_index,
+    checked_at: f.checked_at, reason_code: f.status||'provider_response_rejected',
+    error: f.error||f.error_type, reason: f.reason,
     affected_item_ids: null, affected_item_count: null,
     attribution: '요청 단위 오류입니다. 개별 항목과의 대응 관계는 미확정입니다.',
     next_action: '해당 endpoint·group만 먼저 재시도하고 스키마·총건수·페이지 완전성 통과 후 반영합니다. 승인 재신청은 인증 오류가 확인될 때만 검토합니다.',
@@ -81,8 +81,8 @@ export function buildRefreshLedger() {
     ...Object.entries(counts).map(([code,count]) => `| ${REASONS[code][0]} | ${count.toLocaleString('en-US')} | ${REASONS[code][1]} |`), '',
     `전체 ${records.size.toLocaleString('en-US')}개 중 금일 미반영 ${retained.length.toLocaleString('en-US')}개입니다.`, '',
     `## 요청 단위 오류: ${failures.length}건`, '',
-    '위 항목 수에 더하지 않습니다. 오류 5건을 미갱신 자료 5개로 해석하거나, 연금 전체에 오류를 일괄 귀속하지 않습니다.', '',
-    ...failures.map(f => `- ${f.source_id} / ${f.endpoint} / ${f.group}: ${f.error}`), '',
+    '위 항목 수에 더하지 않습니다. 요청 오류 건수를 미갱신 자료 개수로 해석하거나, 해당 분야 전체에 오류를 일괄 귀속하지 않습니다.', '',
+    ...failures.map(f => `- ${f.source_id} / ${f.endpoint||'operation'} / ${f.group??f.operation_index}: ${f.error}`), '',
     '## 다음 작업 순서', '',
     '1. 요청 단위 오류만 먼저 재시도합니다. 이미 정상 수집한 API의 승인 절차를 반복하지 않습니다.',
     '2. 최신 목록 미확인 항목은 다음 전체 수집 때 ID로 재대조합니다.',
