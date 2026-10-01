@@ -58,6 +58,15 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 .feature-icon-peach { background: #fae6d8; color: #a77552; }
 .feature-icon-pink { background: #f8e0ec; color: #a36586; }
 .feature-icon-butter { background: #f7efce; color: #927a38; }
+.section-title { display: flex; align-items: center; gap: 14px; }
+.section-title > span:last-child { min-width: 0; }
+.section-title-icon { flex-basis: 44px; width: 44px; height: 44px; border-radius: 14px; }
+.section-title-icon svg { width: 26px; height: 26px; }
+@media (max-width: 560px) {
+  .section-title { gap: 10px; }
+  .section-title-icon { flex-basis: 36px; width: 36px; height: 36px; border-radius: 12px; }
+  .section-title-icon svg { width: 22px; height: 22px; }
+}
 .improvement-grid article > span { margin-top: auto; overflow-wrap: anywhere; line-height: 1.6; }
 .operational-status { align-items: start; }
 .operational-status article { min-width: 0; }
