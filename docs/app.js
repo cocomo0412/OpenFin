@@ -105,6 +105,8 @@ async function init() {
 
   try {
     state.manifest = await fetchJson(DATA_BASE + MANIFEST_FILE);
+    try { state.collectionInventory = await fetchJson(DATA_BASE + 'collection-inventory.json'); }
+    catch { state.collectionInventory = null; }
     try { state.apiLinks = (await fetchJson(DATA_BASE + 'api-record-links.json')).records; } catch { state.apiLinks = {}; }
     await Promise.all([loadSourceRegistry(), loadSourceStatus()]);
     updateManifestUI();
@@ -1073,7 +1075,10 @@ function scoreItem(item, query) {
 function renderOperationalSummary() {
   const container = document.querySelector("[data-operational-summary]");
   if (!container) return;
-  const apiRequired = state.manifest.api_required_sources || [];
+  const collectedIds = new Set((state.collectionInventory?.datasets || []).map(row => row.source_id));
+  const preferredIds = (state.manifest.api_required_sources || []).map(source => source.source_id);
+  const apiSources = [...new Set([...preferredIds, ...collectedIds])].filter(id => collectedIds.has(id)).map(source_id => ({source_id}));
+  const institutionCount = new Set(apiSources.map(source => sourceMetadataFor(source.source_id)?.publisher).filter(Boolean)).size;
   const webCandidates = state.manifest.public_web_collection_candidates || [];
   const readiness = state.manifest.domain_readiness || {};
   const qualityLines = Object.entries(readiness)
@@ -1098,10 +1103,10 @@ function renderOperationalSummary() {
     ${evidenceWarnings.length ? `<div class="evidence-warning operational-evidence-warning" role="status"><strong>출처 정보 확인 불가</strong><span>${evidenceWarnings.map(escapeHtml).join(" ")}</span></div>` : ""}
     ${liveWarning}
     <article>
-      <h3>공식 API 출처</h3>
+      <h3>공식 API 출처${state.collectionInventory ? ` — ${institutionCount}개 기관 · ${apiSources.length}개 API` : ''}</h3>
       <div class="operational-source-group">
         <ul class="operational-source-list">
-          ${apiRequired.map((source, index) => sourceRequirementHtml(source, "api", index)).join("") || sourceEmptyHtml("API가 필요한 기관이 없습니다.")}
+          ${apiSources.map((source, index) => sourceRequirementHtml(source, "api", index)).join("") || sourceEmptyHtml("API 수집 목록을 확인할 수 없습니다.")}
         </ul>
       </div>
       <div class="operational-source-group">
@@ -1125,13 +1130,14 @@ function renderOperationalSummary() {
 function sourceRequirementHtml(source, kind, index = 0) {
   if (kind === "api") {
     const metadata = sourceMetadataFor(source.source_id) || {};
-    const institution = metadata.publisher || metadata.title || "기관 미상";
+    const institution = source.source_id === 'source.gov24.benefit-plus.local-supports' ? '행정안전부·정부24' : metadata.publisher || metadata.title || "기관 미상";
     const apiTitle = source.source_id === "source.bok.ecos"
       ? "기준금리·시장금리·환율 등 경제통계 정보"
+      : source.source_id === 'source.gov24.benefit-plus.local-supports' ? '공공서비스 혜택 정보'
       : String(metadata.title || source.needed_for || "API 정보")
           .replace(institution, "").replace(/^[\s_:·-]+/, "").trim();
     const number = String(index + 1).padStart(2, "0");
-    const siteUrl = [metadata.urls?.api, metadata.urls?.canonical, metadata.canonical_url, metadata.url]
+    const siteUrl = source.source_id === 'source.gov24.benefit-plus.local-supports' ? 'https://www.data.go.kr/data/15113968/openapi.do' : [metadata.urls?.api, metadata.urls?.canonical, metadata.canonical_url, metadata.url]
       .find(isValidSourceUrl) || "";
     return `
       <li>

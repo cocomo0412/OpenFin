@@ -6,6 +6,8 @@ html { scroll-padding-top: 96px; }
 .section-heading p:not(.eyebrow) { max-width: 76ch; }
 .split-section > .section-heading,
 .split-section > .section-heading p:not(.eyebrow) { max-width: none; width: 100%; }
+.improvements > .section-heading,
+.improvements > .section-heading p:not(.eyebrow) { max-width: none; width: 100%; }
 .eyebrow { letter-spacing: .08em; color: var(--home-accent); }
 .site-header { border-bottom-color: #dedbd2; }
 .top-nav a, .header-actions a, .button, .export-open { border-radius: 8px; }

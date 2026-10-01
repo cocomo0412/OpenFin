@@ -41,7 +41,7 @@ try {
   document.querySelector('[data-resolved-collections]').textContent = kdic && bank
     ? `예금자보호 상품 ${kdic.count.toLocaleString('ko-KR')}행, 국내은행 통계 ${bank.count.toLocaleString('ko-KR')}행. 수집일 ${date}. 행번호와 표별 총건수를 확인해 참고자료로 반영했습니다.`
     : '예금자보호 상품·국내은행 통계의 전체 수집 결과가 아직 확인되지 않았습니다.';
-  summary.textContent = `${sources}개 출처 · ${inventory.datasets.length}개 수집본 · ${total.toLocaleString('ko-KR')}행. 원본 항목과 제공기관 기준일을 유지해 본문·검색에 반영했습니다. 행수는 상품 수와 다릅니다.`;
+  summary.textContent = `${sources}개 API · 수집 데이터 묶음 ${inventory.datasets.length}개 · 원자료 ${total.toLocaleString('ko-KR')}행. 홈페이지의 분야 구분과 별도이며, 원자료 행수는 상품 수와 다릅니다. 원본 항목과 제공기관 기준일을 유지해 본문·검색에 반영했습니다.`;
   const list = document.querySelector('[data-api-collection-list]');
   for (const row of inventory.datasets) {
     const paragraph = document.createElement('p');
