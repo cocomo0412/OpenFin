@@ -42,6 +42,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 .ontology-note p { margin: 0; font-size: 14px; line-height: 1.75; color: #3b4941; word-break: keep-all; overflow-wrap: anywhere; }
 @media (max-width: 560px) { .ontology-note { padding: 18px 16px; gap: 12px; } }
 .connector-endpoint { align-content: start; gap: 20px; }
+.connector-endpoint h3 { display: flex; align-items: center; gap: 10px; }
 .connector-endpoint code { border-color: #c7d9cc; background: #f9fcf7; color: #355d4c; }
 .connector-steps li::before { border-color: #b0c7b8; background: #f8fbf5; color: #426653; }
 .pipeline div { min-width: 0; border-radius: 10px; }
