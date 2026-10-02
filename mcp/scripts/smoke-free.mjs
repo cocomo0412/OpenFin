@@ -6,6 +6,9 @@ const endpoint = process.env.MCP_URL ?? "http://127.0.0.1:8787/mcp";
 const client = new Client({ name: "openfin-free-smoke", version: "1.0.0" });
 try {
   await client.connect(new StreamableHTTPClientTransport(new URL(endpoint)));
+  assert.equal(client.getServerVersion()?.version, "1.0.1");
+  assert.ok(client.getInstructions()?.includes("일반적인 개념·제도 설명"));
+  assert.ok(client.getInstructions()?.includes("현재 금액·공제 한도·신청기한·자격"));
   const { tools } = await client.listTools();
   assert.deepEqual(tools.map(t => t.name).sort(), ["exports", "fetch", "search"]);
   const query = await client.callTool({ name: "search", arguments: { query: "월세", limit: 3 } });
@@ -13,9 +16,16 @@ try {
   const result = JSON.parse(query.content[0].text);
   assert.equal(result.results.length, 3);
   assert.equal(result.recommendation_enabled, false);
+  assert.equal(Object.hasOwn(result, "basis_date"), false);
+  assert.equal(Object.hasOwn(result, "limitations"), false);
+  assert.ok(result.results.every(item => Array.isArray(item.source_basis_dates) && item.freshness === "not_revalidated"));
   const detail = await client.callTool({ name: "fetch", arguments: { id: "credit.monthly-rent" } });
   assert.ok(!detail.isError);
   assert.ok(JSON.parse(detail.content[0].text).item.source_urls.length > 0);
+  assert.equal(Object.hasOwn(JSON.parse(detail.content[0].text), "basis_date"), false);
+  const metadata = JSON.parse((await client.callTool({ name: "exports", arguments: {} })).content[0].text);
+  assert.ok(metadata.basis_date);
+  assert.equal(metadata.freshness, "not_revalidated");
   const missing = await client.callTool({ name: "fetch", arguments: { id: "missing" } });
   assert.equal(missing.isError, true);
   const invalid = await client.callTool({ name: "search", arguments: { query: "x".repeat(121) } });
@@ -24,5 +34,5 @@ try {
   assert.equal(denied.status, 403);
   const huge = await fetch(endpoint, { method: "POST", headers: { "Content-Type": "application/json" }, body: " ".repeat(9000) });
   assert.equal(huge.status, 413);
-  console.log(JSON.stringify({ status: "passed", endpoint, tools: tools.map(t => t.name), records: result.item_count, search: result.results.length }));
+  console.log(JSON.stringify({ status: "passed", endpoint, tools: tools.map(t => t.name), records: metadata.item_count, search: result.results.length }));
 } finally { await client.close(); }

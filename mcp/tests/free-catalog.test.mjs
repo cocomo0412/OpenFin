@@ -19,3 +19,18 @@ test("free MCP exposes bounded tax data without recommendations", () => {
   assert.throws(() => searchFree(" "));
   assert.throws(() => searchFree("a".repeat(121)));
 });
+
+test("lookup keeps item evidence without applying the whole catalog date to every result", () => {
+  const catalog = JSON.parse(readFileSync(new URL('../src/free-catalog.json', import.meta.url), 'utf8'));
+  const result = searchFree("월세", 3);
+  assert.equal(Object.hasOwn(result, 'basis_date'), false);
+  assert.equal(Object.hasOwn(result, 'limitations'), false);
+  assert.equal(freeMetadata.basis_date, catalog.basis_date);
+  for (const item of result.results) {
+    const original = catalog.items.find(row => row.id === item.id);
+    assert.deepEqual(item.source_basis_dates, original.source_basis_dates);
+    assert.deepEqual(item.source_urls, original.source_urls);
+    assert.equal(item.freshness, original.freshness);
+    assert.equal(fetchFree(item.id).description, original.description);
+  }
+});

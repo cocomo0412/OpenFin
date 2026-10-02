@@ -2,7 +2,7 @@
 import { createMcpHandler } from "agents/mcp";
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { z } from "zod";
-import { freeMetadata, searchFree, fetchFree } from "./free-catalog.ts";
+import { freeMetadata, freeLookupMetadata, freeInstructions, searchFree, fetchFree } from "./free-catalog.ts";
 
 const annotations = { readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false };
 const result = (value: object, isError = false) => ({ content: [{ type: "text" as const, text: JSON.stringify(value) }], isError });
@@ -36,14 +36,14 @@ export default {
     let offset = 0;
     for (const chunk of chunks) { bytes.set(chunk, offset); offset += chunk.byteLength; }
     const boundedRequest = new Request(request.url, { method: "POST", headers: request.headers, body: bytes, signal: request.signal });
-    const server = new McpServer({ name: "openfin-free", version: "1.0.0" }, { instructions: freeMetadata.limitations });
-    server.registerTool("search", { description: "세금·공제 무료판 스냅샷 검색. 상품 비교·추천이나 최신성 보장은 제공하지 않습니다.", annotations,
+    const server = new McpServer({ name: "openfin-free", version: "1.0.1" }, { instructions: freeInstructions });
+    server.registerTool("search", { description: "세금·공제 참고자료에서 관련 항목과 공식 출처를 검색합니다. 일반 설명은 핵심과 출처 중심으로 답하고, 현재 금액·기한·자격은 공식 근거를 확인합니다. 날짜와 검증 상태는 항목별로 해석합니다.", annotations,
       inputSchema: { query: z.string().trim().min(1).max(120), limit: z.number().int().min(1).max(10).optional() } },
       async ({ query, limit }) => result(searchFree(query, limit)));
-    server.registerTool("fetch", { description: "search에서 반환한 세금·공제 ID의 요약과 공식 출처 조회. 전체 조건은 공식 출처에서 확인하세요.", annotations,
+    server.registerTool("fetch", { description: "search에서 반환한 세금·공제 ID의 설명·공식 출처·원자료 날짜를 조회합니다. 운영 상태 문구를 매 답변에 반복하지 말고, 사용자의 판단에 필요한 현재 조건의 불확실성만 구체적으로 알립니다.", annotations,
       inputSchema: { id: z.string().min(1).max(200) } }, async ({ id }) => {
       const item = fetchFree(id);
-      return item ? result({ ...freeMetadata, item }) : result({ error: "NOT_FOUND", message: "이 ID는 세금·공제 무료판 범위에 없습니다." }, true);
+      return item ? result({ ...freeLookupMetadata, item }) : result({ error: "NOT_FOUND", message: "이 ID는 세금·공제 무료판 범위에 없습니다." }, true);
     });
     server.registerTool("exports", { description: "무료판 범위·데이터 기준일·제한과 전체 홈페이지 주소 조회.", annotations, inputSchema: {} }, async () => result(freeMetadata));
     try {
