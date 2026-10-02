@@ -1,5 +1,15 @@
 (() => {
   const root = document.documentElement;
+  // Check the browser preference before loading any third-party collector.
+  try {
+    if (localStorage.getItem('openfin.analytics.optOut') === '1') {
+      root.dataset.analyticsStatus = 'opted-out';
+      return;
+    }
+  } catch {
+    root.dataset.analyticsStatus = 'storage-unavailable';
+    return;
+  }
   // This is a public Web Analytics site identifier, not a Cloudflare API key.
   const token = '506ffe638ea34d46b350793750e228e8';
   const production = location.protocol === 'https:'

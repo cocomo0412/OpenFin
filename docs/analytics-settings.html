@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>OpenFin | 내 방문 집계 설정</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./home.css?v=2026.10.01.3">
+  <style>
+    .preferences-main { max-width: 800px; margin: 64px auto; padding: 0 24px; }
+    .preferences-main h1 { font-size: clamp(28px, 5vw, 38px); font-weight: 700; margin: 14px 0; }
+    .preferences-main p, .preferences-main li { line-height: 1.8; }
+    .preference-panel { padding: 28px; margin: 28px 0; border: 1px solid #cbdccd; border-radius: 16px; background: #edf4ee; }
+    .preference-toggle { display: flex; align-items: center; gap: 16px; cursor: pointer; font-size: 18px; font-weight: 700; }
+    .preference-toggle input { appearance: none; flex: 0 0 48px; width: 48px; height: 28px; margin: 0; border: 1px solid #75897f; border-radius: 20px; background: #89988f; cursor: pointer; position: relative; }
+    .preference-toggle input::after { content: ''; position: absolute; width: 20px; height: 20px; top: 3px; left: 3px; border-radius: 50%; background: white; }
+    .preference-toggle input:checked { background: #376858; border-color: #376858; }
+    .preference-toggle input:checked::after { left: 23px; }
+    .preference-toggle input:focus-visible { outline: 3px solid #297caa; outline-offset: 4px; }
+    .preference-toggle input:disabled { opacity: .5; cursor: not-allowed; }
+    #preference-status { margin: 18px 0 0; }
+    .preferences-note { font-size: 14px; color: #526157; }
+    .preferences-main ul { padding-left: 22px; }
+    .preferences-main li { margin-bottom: 10px; }
+    .preferences-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+    @media(max-width:560px) { .preferences-main { margin: 36px auto; } .preference-panel { padding: 20px; } .preference-toggle { font-size: 16px; } }
+  </style>
+</head>
+<body>
+  <header class="site-header"><a class="brand" href="./index.html">OpenFin</a><nav class="top-nav"><a href="./index.html">홈페이지</a></nav></header>
+  <main class="preferences-main">
+    <p class="eyebrow">WEB ANALYTICS · MY PREFERENCE</p>
+    <h1>내 방문 집계 설정</h1>
+    <p>OpenFin을 직접 확인하거나 수정할 때, 본인의 접속을 방문 통계에서 제외할 수 있습니다.</p>
+    <section class="preference-panel" id="preference-panel" aria-label="방문 집계 제외 설정">
+      <label class="preference-toggle"><input id="analytics-opt-out" type="checkbox" role="switch" aria-describedby="preference-status" disabled><span>이 브라우저의 방문 집계 제외</span></label>
+      <p id="preference-status" role="status" aria-live="polite">저장된 설정을 확인하고 있습니다.</p>
+    </section>
+    <ul>
+      <li>켜면 이 브라우저에서 여는 홈페이지·탐색기·API 자료·연결 테스트 페이지의 새 접속을 집계하지 않습니다.</li>
+      <li><strong>크롬, 현재 앱의 브라우저, 휴대폰에서 각각 한 번씩 켜 주세요.</strong> 같은 크롬이라도 프로필이 다르면 별도로 설정해야 합니다.</li>
+      <li>이미 열어 둔 OpenFin 페이지는 새로고침해 주세요. 이미 전송된 방문 통계는 취소되지 않습니다.</li>
+      <li>설정은 브라우저를 닫아도 유지됩니다. 사이트 데이터 삭제 또는 시크릿 창의 새 세션에서는 다시 설정해야 합니다.</li>
+    </ul>
+    <p class="preferences-note">이 설정 페이지 자체는 방문 통계를 수집하지 않습니다. 제외 여부만 이 브라우저에 저장하며, IP 주소나 사용자 식별자를 저장·전송하지 않습니다. 스위치를 끄면 이후 새 접속부터 다시 집계됩니다.</p>
+    <noscript><p>설정을 저장하려면 JavaScript를 켜 주세요.</p></noscript>
+    <div class="preferences-actions"><a class="button primary" href="./index.html">홈페이지로 이동 →</a><a class="button secondary" href="./analytics-test.html">연결 상태 확인</a></div>
+  </main>
+  <footer class="site-footer"><span>© 2026 cocomo0412</span><a href="./opentax/privacy.html#web-analytics">방문 통계 안내</a></footer>
+  <script src="./analytics-settings.js?v=2026.10.02.2" defer></script>
+</body>
+</html>
