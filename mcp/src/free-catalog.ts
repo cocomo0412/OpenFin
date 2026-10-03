@@ -1,5 +1,14 @@
 import catalog from "./free-catalog.json" with { type: "json" };
 
+// Clients may omit initialize instructions or call exports before search.
+// Carry the same evidence/answer contract in every tool response.
+export const freeAnswerGuidance = {
+  evidence: "OpenFin에 정리된 공식기관 자료와 항목별 원문 출처를 답변의 근거로 사용합니다. 공식 API 수집 근거가 없는 항목을 API 조회 결과라고 표현하지 않습니다.",
+  date_scope: "basis_date는 보관 카탈로그의 기준일이며, 모든 제도의 현재 적용일이나 유효기간이 아닙니다. source_basis_dates는 항목별 원자료 날짜입니다. not_revalidated는 이 도구가 현재 적용 조건을 재검증했다는 증거를 제공하지 않는다는 의미이며, 자료 전체가 부정확하거나 만료되었다는 판정이 아닙니다.",
+  presentation: "질문에 대한 설명과 출처를 먼저 제공합니다. 사용자가 자료 기준일·검증 여부를 묻지 않았다면 카탈로그 전체 날짜와 자체 미재검증 상태를 정형적인 머리말·꼬리말로 덧붙이지 않습니다. 대신 답변에 필요한 특정 조건의 미확인 여부나 출처 간 차이만 구체적으로 밝힙니다.",
+  official_follow_up: "현재 금액·한도·기한·자격은 필요한 공식 원문을 추가 확인합니다. 실제로 확인했을 때만 ‘OpenFin에 정리된 공식 자료를 바탕으로 안내드리며, 현재 적용 조건은 해당 기관의 최신 안내도 함께 확인했습니다’라고 설명할 수 있습니다. 확인하지 않았다면 확인했다고 말하지 않으며, 현재 조건을 단정하지 않습니다.",
+};
+
 export const freeMetadata = {
   edition: catalog.edition, domain: catalog.domain, item_count: catalog.items.length,
   basis_date: catalog.basis_date, source_version: catalog.source_version,
@@ -7,12 +16,14 @@ export const freeMetadata = {
   freshness: "not_revalidated", comparison_enabled: false, recommendation_enabled: false,
   full_website: "https://cocomo0412.github.io/OpenFin/",
   limitations: "세금·공제 스냅샷 검색·조회 전용. 금융상품 비교·추천 및 실시간 갱신은 제공하지 않습니다. 적용 전 공식 출처를 확인하세요.",
+  answer_guidance: freeAnswerGuidance,
 };
 // Catalog-wide dates and operational limits belong to exports/health, not to
 // every answer. Individual records still carry their source dates and status.
 export const freeLookupMetadata = {
   edition: catalog.edition, domain: catalog.domain,
   comparison_enabled: false, recommendation_enabled: false,
+  answer_guidance: freeAnswerGuidance,
 };
 export const freeInstructions = [
   "OpenFin은 세금·공제 참고자료 검색·조회 도구입니다. 실시간 금융 API 조회나 개인별 금융상품 추천 도구가 아닙니다.",

@@ -6,7 +6,7 @@ const endpoint = process.env.MCP_URL ?? "http://127.0.0.1:8787/mcp";
 const client = new Client({ name: "openfin-free-smoke", version: "1.0.0" });
 try {
   await client.connect(new StreamableHTTPClientTransport(new URL(endpoint)));
-  assert.equal(client.getServerVersion()?.version, "1.0.1");
+  assert.equal(client.getServerVersion()?.version, "1.0.2");
   const serverInstructions = client.getInstructions();
   assert.equal(typeof serverInstructions, "string", "Server must publish instructions during initialization");
   const instructions = serverInstructions.replace(/\s+/gu, " ");
@@ -30,14 +30,17 @@ try {
   assert.equal(result.recommendation_enabled, false);
   assert.equal(Object.hasOwn(result, "basis_date"), false);
   assert.equal(Object.hasOwn(result, "limitations"), false);
+  assert.ok(result.answer_guidance.presentation.includes('정형적인 머리말·꼬리말'));
   assert.ok(result.results.every(item => Array.isArray(item.source_basis_dates) && item.freshness === "not_revalidated"));
   const detail = await client.callTool({ name: "fetch", arguments: { id: "credit.monthly-rent" } });
   assert.ok(!detail.isError);
   assert.ok(JSON.parse(detail.content[0].text).item.source_urls.length > 0);
   assert.equal(Object.hasOwn(JSON.parse(detail.content[0].text), "basis_date"), false);
+  assert.deepEqual(JSON.parse(detail.content[0].text).answer_guidance, result.answer_guidance);
   const metadata = JSON.parse((await client.callTool({ name: "exports", arguments: {} })).content[0].text);
   assert.ok(metadata.basis_date);
   assert.equal(metadata.freshness, "not_revalidated");
+  assert.deepEqual(metadata.answer_guidance, result.answer_guidance);
   const missing = await client.callTool({ name: "fetch", arguments: { id: "missing" } });
   assert.equal(missing.isError, true);
   const invalid = await client.callTool({ name: "search", arguments: { query: "x".repeat(121) } });

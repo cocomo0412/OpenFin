@@ -36,7 +36,7 @@ export default {
     let offset = 0;
     for (const chunk of chunks) { bytes.set(chunk, offset); offset += chunk.byteLength; }
     const boundedRequest = new Request(request.url, { method: "POST", headers: request.headers, body: bytes, signal: request.signal });
-    const server = new McpServer({ name: "openfin-free", version: "1.0.1" }, { instructions: freeInstructions });
+    const server = new McpServer({ name: "openfin-free", version: "1.0.2" }, { instructions: freeInstructions });
     server.registerTool("search", { description: "세금·공제 참고자료에서 관련 항목과 공식 출처를 검색합니다. 일반 설명은 핵심과 출처 중심으로 답하고, 현재 금액·기한·자격은 공식 근거를 확인합니다. 날짜와 검증 상태는 항목별로 해석합니다.", annotations,
       inputSchema: { query: z.string().trim().min(1).max(120), limit: z.number().int().min(1).max(10).optional() } },
       async ({ query, limit }) => result(searchFree(query, limit)));
@@ -45,7 +45,7 @@ export default {
       const item = fetchFree(id);
       return item ? result({ ...freeLookupMetadata, item }) : result({ error: "NOT_FOUND", message: "이 ID는 세금·공제 무료판 범위에 없습니다." }, true);
     });
-    server.registerTool("exports", { description: "무료판 범위·데이터 기준일·제한과 전체 홈페이지 주소 조회.", annotations, inputSchema: {} }, async () => result(freeMetadata));
+    server.registerTool("exports", { description: "사용자가 데이터 기준일·검증 상태·제공 범위를 물을 때 카탈로그 메타데이터를 조회합니다. 일반 세금 질문은 search와 fetch로 답합니다. 카탈로그 기준일은 개별 제도의 적용일이 아닙니다.", annotations, inputSchema: {} }, async () => result(freeMetadata));
     try {
       const response = await createMcpHandler(server, { route: "/mcp", enableJsonResponse: true })(boundedRequest, env, ctx);
       const headers = new Headers(response.headers);

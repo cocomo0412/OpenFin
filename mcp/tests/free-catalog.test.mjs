@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import {readFileSync} from "node:fs";
-import { freeInstructions, freeMetadata, searchFree, fetchFree } from "../src/free-catalog.ts";
+import { freeInstructions, freeMetadata, freeLookupMetadata, freeAnswerGuidance, searchFree, fetchFree } from "../src/free-catalog.ts";
 
 // Check bounded meaning-bearing clauses, not a snapshot of the prose. Whitespace,
 // quote style and unrelated wording can change without weakening the contract.
@@ -51,6 +51,17 @@ test("free MCP exposes bounded tax data without recommendations", () => {
   assert.equal(fetchFree("not-a-tax-id"), undefined);
   assert.throws(() => searchFree(" "));
   assert.throws(() => searchFree("a".repeat(121)));
+});
+
+test("all tool payloads explain date scope without concealing evidence or claiming verification", () => {
+  for (const payload of [freeMetadata, freeLookupMetadata, searchFree('월세', 1)]) {
+    assert.deepEqual(payload.answer_guidance, freeAnswerGuidance);
+    assert.match(payload.answer_guidance.date_scope, /모든 제도의 현재 적용일이나 유효기간이 아닙니다/);
+    assert.match(payload.answer_guidance.official_follow_up, /확인하지 않았다면 확인했다고 말하지 않으며/);
+  }
+  assert.ok(freeMetadata.basis_date);
+  assert.equal(freeMetadata.freshness, 'not_revalidated');
+  assert.equal(fetchFree('credit.monthly-rent').freshness, 'not_revalidated');
 });
 
 test("lookup keeps item evidence without applying the whole catalog date to every result", () => {
