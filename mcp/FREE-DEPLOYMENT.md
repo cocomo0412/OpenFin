@@ -29,14 +29,15 @@
 | 루트 디렉터리 | `mcp` |
 | Worker 이름 | `openfin` |
 | 빌드 실행 환경 | GitHub Actions / Ubuntu / Node 24 |
-| Deploy command | `npx wrangler deploy --config wrangler.free.jsonc --name openfin` |
+| Build command | `npx wrangler deploy --config wrangler.free.jsonc --dry-run --outfile <bundle>` |
+| Deploy command | `node scripts/deploy-free.mjs <bundle>` |
 | 인증 | GitHub 저장소 secret `CLOUDFLARE_API_TOKEN` |
 | Cloudflare 계정 | `ac086a8cc9083647e67db51e8310f34b` |
 | Cloudflare 자체 Git 빌드 | 직접 배포 전 해당 Worker의 저장소 연결 해제 필요 |
 
 ## 푸시부터 운영 검증까지
 
-`main`에 푸시하면 GitHub Actions에서 검증·빌드하고 Wrangler로 Cloudflare에 직접 업로드·배포합니다. Cloudflare Workers Builds의 초기화 단계를 사용하지 않습니다. 홈페이지는 GitHub Pages의 `main /docs` 배포이며 MCP Worker와 별도입니다.
+`main`에 푸시하면 GitHub Actions에서 검증·빌드하고 Wrangler가 생성한 multipart 번들을 Cloudflare 공식 Worker 업로드 API로 배포합니다. Cloudflare Workers Builds의 초기화 단계를 사용하지 않습니다. 홈페이지는 GitHub Pages의 `main /docs` 배포이며 MCP Worker와 별도입니다.
 
 GitHub Actions의 **OpenFin MCP pipeline** (`.github/workflows/deploy-mcp.yml`)이 배포를 담당합니다.
 
@@ -44,7 +45,9 @@ GitHub Actions의 **OpenFin MCP pipeline** (`.github/workflows/deploy-mcp.yml`)�
 2. 검증을 통과한 main 커밋만 배포합니다. 배포 직전에 현재 main HEAD인지 확인하여 이미 교체된 커밋의 재배포를 막습니다. 배포 토큰은 이 단계에만 전달합니다.
 3. 업로드 성공 후 운영 URL에 공식 MCP SDK로 연결합니다. 버전·도구 목록·검색·조회·응답 안내·원자료 체크섬·입력 제한을 검사하며 전파 지연에는 최대 5회 재시도합니다.
 
-GitHub 자체 토큰은 소스 읽기 권한만 사용합니다. Cloudflare 토큰은 지정 계정의 Worker 배포에 필요한 권한으로 발급하고 GitHub Actions secret에 저장합니다. 저장소 파일·문서·로그에 토큰을 기록하지 않습니다. 신규 인증 연결 및 Cloudflare 기존 Git 빌드 해제 후 운영을 시작합니다.
+GitHub 자체 토큰은 소스 읽기 권한만 사용합니다. Cloudflare 토큰은 `openfin`에 한정한 `Individual Workers Editor` 권한으로 발급하고 GitHub Actions secret에 저장합니다. 저장소 파일·문서·로그에 토큰을 기록하지 않습니다. Cloudflare 기존 Git 빌드 연결은 해제하여 중복 배포를 방지합니다.
+
+`deploy-free.mjs`는 기존 Worker의 workers.dev 활성 상태를 확인하고 `/accounts/{account_id}/workers/scripts/openfin`에 PUT한 뒤 주소 설정이 유지되었는지 검사합니다. 도메인·경로·스케줄을 변경하지 않으며 최초 Worker 생성용이 아닙니다. 일반 `wrangler deploy`는 코드 업로드 뒤 계정 전체의 `/workers/subdomain`을 조회하므로 개별 Worker 토큰으로 권한 오류가 날 수 있습니다. 이를 무시하거나 계정 전체 권한을 추가하지 않고, 필요한 Worker API만 호출합니다. 업로드 API 성공과 후속 운영 MCP 검사가 모두 통과해야 배포 성공입니다.
 
 실패·시간 초과는 Actions에 실패로 표시합니다. 기존 Worker가 응답하거나 홈페이지 배포가 성공했다는 이유로 MCP의 새 배포를 성공 처리하지 않습니다. 동일 브랜치의 실행은 직렬화하며 진행 중인 업로드를 새 푸시로 중단하지 않습니다.
 
@@ -56,6 +59,7 @@ GitHub 자체 토큰은 소스 읽기 권한만 사용합니다. Cloudflare 토�
 - 이미 최신 커밋이 올라왔다면 과거 실행을 재시도하지 말고 최신 실행을 사용합니다.
 
 공식 문서: https://developers.cloudflare.com/workers/ci-cd/external-cicd/github-actions/
+Worker 업로드 API: https://developers.cloudflare.com/api/resources/workers/subresources/scripts/methods/update/
 
 무료판 설정에는 유료 CPU 상한, 유료 바인딩, AI API, 저장소 사용이 없습니다.
 `wrangler.toml`도 동일한 무료판 진입점입니다. 기본 명령과 명시적 무료 설정 모두 openfin을 사용합니다. 전체판 workflow는 비활성화되어 있습니다.

@@ -34,6 +34,7 @@ jobs:
       - run: npm run build:free
       - run: npm run typecheck
       - run: node --experimental-strip-types --test tests/free-catalog.test.mjs
+      - run: node --test tests/deploy-free.test.mjs
       - name: Validate production bundle without deploying
         run: npx wrangler deploy --config wrangler.free.jsonc --dry-run
 
@@ -71,11 +72,13 @@ jobs:
             echo '::error::This commit is no longer main HEAD. Deploy the latest pipeline run.'
             exit 1
           fi
-      - name: Build and deploy directly from GitHub
+      - name: Build the production upload bundle
+        run: npx wrangler deploy --config wrangler.free.jsonc --dry-run --outfile "$RUNNER_TEMP/openfin-upload.bundle"
+      - name: Deploy to the existing Worker without changing routes
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ac086a8cc9083647e67db51e8310f34b
-        run: npx wrangler deploy --config wrangler.free.jsonc --name openfin
+        run: node scripts/deploy-free.mjs "$RUNNER_TEMP/openfin-upload.bundle"
       - name: Check the deployed MCP with the official SDK
         env:
           MCP_URL: https://openfin.cocomo0412.workers.dev/mcp
