@@ -36,16 +36,21 @@ export const freeInstructions = [
   "사용자가 일반 설명만 요청한 경우 급여·주거비·계약 명의 등 개인 정보를 묻는 후속 문구를 자동으로 붙이지 마세요. 개인별 적용 판단을 요청했을 때만 필요한 조건을 최소한으로 질문하세요.",
 ].join("\n");
 const indexed = catalog.items.map(item => ({ item,
-  title: item.title.normalize("NFKC").toLowerCase(),
+  compactTitle: item.title.normalize("NFKC").toLowerCase().replace(/\s+/g, ""),
   text: `${item.id} ${item.title} ${item.description}`.normalize("NFKC").toLowerCase(),
 }));
 const byId = new Map(catalog.items.map(item => [item.id, item]));
 
 export function searchFree(query: string, limit = 10) {
-  const words = query.normalize("NFKC").toLowerCase().trim().split(/\s+/).filter(Boolean).slice(0, 8);
+  const words = query.normalize("NFKC").toLowerCase().trim().split(/\s+/).filter(Boolean);
   if (!words.length || query.length > 120) throw new Error("검색어는 1~120자여야 합니다.");
-  const matches = indexed.filter(row => words.every(word => row.text.includes(word)))
-    .sort((a, b) => Number(words.every(w => b.title.includes(w))) - Number(words.every(w => a.title.includes(w))) || a.item.id.localeCompare(b.item.id));
+  const compactQuery = words.join("");
+  // Ignore spacing only within titles, so words cannot bridge description or
+  // field boundaries. Every query word must still match, including qualifiers.
+  const matches = indexed.filter(row => words.every(word => row.text.includes(word) || row.compactTitle.includes(word)))
+    .sort((a, b) => Number(b.compactTitle === compactQuery) - Number(a.compactTitle === compactQuery)
+      || Number(words.every(w => b.compactTitle.includes(w))) - Number(words.every(w => a.compactTitle.includes(w)))
+      || a.item.id.localeCompare(b.item.id));
   return { ...freeLookupMetadata, total_matches: matches.length,
     results: matches.slice(0, Math.max(1, Math.min(10, limit))).map(({ item }) => ({
       id: item.id, title: item.title, description: item.description, status: item.status,

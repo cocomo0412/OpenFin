@@ -132,6 +132,7 @@ async function init() {
       await loadDomain(paramDomain);
     } else if (hasExplorer) {
       setResultSummary("도메인을 선택하거나 검색어를 입력하세요.");
+      if (normalize(document.querySelector("[data-search]")?.value || "")) await renderSearchInput();
     }
   } catch (error) {
     showFatalError(error);
@@ -204,7 +205,7 @@ async function loadSourceStatus() {
 function bindStaticControls() {
   document.querySelector("[data-search]")?.addEventListener("input", () => {
     window.clearTimeout(state.searchTimer);
-    state.searchTimer = window.setTimeout(renderResults, SEARCH_DEBOUNCE_MS);
+    state.searchTimer = window.setTimeout(renderSearchInput, SEARCH_DEBOUNCE_MS);
   });
   document.querySelector("[data-type-filter]")?.addEventListener("change", renderResults);
 
@@ -430,15 +431,16 @@ async function loadSearchIndex() {
 }
 
 async function loadAllDomains() {
-  if (state.isLoadingAll) return;
-  state.isLoadingAll = true;
   state.currentDomain = "all";
   markActiveDomainTab();
   setResultSummary("전역 compact 검색 인덱스를 로딩 중입니다.");
+  if (state.isLoadingAll) return;
+  state.isLoadingAll = true;
 
   try {
     await loadSearchIndex();
-    state.currentDomain = "all";
+    // The user may have selected a domain while the index was loading.
+    if (state.currentDomain !== "all") return;
     markActiveDomainTab();
     updateTypeFilter();
     renderResults();
@@ -487,6 +489,31 @@ function indexSearchItem(item) {
     ...(item.source_urls || []),
   ].filter(Boolean).join(" "));
   item.__searchTokens = item.__searchTitle.split(/\s+/).filter(Boolean);
+}
+
+async function renderSearchInput() {
+  // init will pick up input entered before the manifest is available.
+  if (!state.manifest) return;
+  if (state.isLoadingAll) {
+    if (state.currentDomain !== "all" && state.loadedDomains.has(state.currentDomain)) renderResults();
+    return;
+  }
+  if (!state.searchIndexLoaded && state.loadedDomains.size === 0) {
+    if (!normalize(document.querySelector("[data-search]")?.value || "")) {
+      setResultSummary("도메인을 선택하거나 검색어를 입력하세요.");
+      return;
+    }
+    try {
+      await loadAllDomains();
+    } catch (error) {
+      if (state.currentDomain === "all") {
+        setResultSummary("검색 데이터를 불러오지 못했습니다. 검색어를 다시 입력하거나 전체를 선택해 재시도하세요.");
+      }
+      console.warn("OpenFin search index is unavailable.", error);
+    }
+    return;
+  }
+  renderResults();
 }
 
 function renderResults() {

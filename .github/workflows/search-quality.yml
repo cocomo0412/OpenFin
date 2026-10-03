@@ -1,0 +1,27 @@
+name: OpenFin search quality
+
+on:
+  push:
+    branches: [main]
+    paths: ['docs/app.js', 'mcp/src/free-catalog.ts', 'mcp/src/free-catalog.json', 'mcp/tests/free-search.test.mjs', 'mcp/tests/free-catalog.test.mjs', 'tests/knowledge/ui-search*.test.mjs', '.github/workflows/search-quality.yml']
+  pull_request:
+    branches: [main]
+    paths: ['docs/app.js', 'mcp/src/free-catalog.ts', 'mcp/src/free-catalog.json', 'mcp/tests/free-search.test.mjs', 'mcp/tests/free-catalog.test.mjs', 'tests/knowledge/ui-search*.test.mjs', '.github/workflows/search-quality.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  search-regressions:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5
+        with:
+          node-version: '24'
+      - name: Check explorer syntax
+        run: node --check docs/app.js
+      - name: Check search behavior and input recovery
+        run: node --experimental-strip-types --test mcp/tests/free-search.test.mjs mcp/tests/free-catalog.test.mjs tests/knowledge/ui-search-input.test.mjs tests/knowledge/ui-search-contract.test.mjs
