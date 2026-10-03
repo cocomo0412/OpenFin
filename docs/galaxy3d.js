@@ -563,9 +563,12 @@ async function initGalaxy(root) {
   const pointer = new THREE.Vector2();
   let hovered = null;
   let downAt = null;
+  let hoverPosition = null;
 
   function pick(event) {
     const rect = canvas.getBoundingClientRect();
+    if (event.clientX < rect.left || event.clientX >= rect.right ||
+        event.clientY < rect.top || event.clientY >= rect.bottom) return null;
     pointer.x = ((event.clientX - rect.left) / rect.width) * 2 - 1;
     pointer.y = -((event.clientY - rect.top) / rect.height) * 2 + 1;
     raycaster.setFromCamera(pointer, camera);
@@ -573,8 +576,9 @@ async function initGalaxy(root) {
     return hit ? hit.object.userData.node : null;
   }
 
-  canvas.addEventListener("pointermove", (event) => {
-    const node = pick(event);
+  function updateHover() {
+    const node = hoverPosition && !downAt ? pick(hoverPosition) : null;
+    const changed = node !== hovered;
     if (node !== hovered) {
       if (hovered) setHighlight(hovered, false);
       hovered = node;
@@ -584,9 +588,9 @@ async function initGalaxy(root) {
     if (node && tooltip) {
       const rect = canvas.getBoundingClientRect();
       tooltip.hidden = false;
-      tooltip.style.left = `${event.clientX - rect.left}px`;
-      tooltip.style.top = `${event.clientY - rect.top}px`;
-      tooltip.innerHTML =
+      tooltip.style.left = `${hoverPosition.clientX - rect.left}px`;
+      tooltip.style.top = `${hoverPosition.clientY - rect.top}px`;
+      if (changed) tooltip.innerHTML =
         `<strong style="color:${node.color}">${node.label}</strong>` +
         `<span>${numberFormat.format(node.count)} items` +
         (node.products ? ` · ${numberFormat.format(node.products)} 상품` : "") +
@@ -594,14 +598,21 @@ async function initGalaxy(root) {
     } else if (tooltip) {
       tooltip.hidden = true;
     }
+  }
+  function clearHover() {
+    hoverPosition = null;
+    updateHover();
+  }
+  canvas.addEventListener("pointermove", (event) => {
+    hoverPosition = event.pointerType === "touch" ? null : { clientX: event.clientX, clientY: event.clientY };
+    updateHover();
   });
-  canvas.addEventListener("pointerleave", () => {
-    if (hovered) setHighlight(hovered, false);
-    hovered = null;
-    if (tooltip) tooltip.hidden = true;
-  });
+  canvas.addEventListener("pointerleave", clearHover);
+  canvas.addEventListener("pointercancel", () => { downAt = null; clearHover(); });
+  window.addEventListener("blur", () => { downAt = null; clearHover(); });
   canvas.addEventListener("pointerdown", (event) => {
     downAt = [event.clientX, event.clientY];
+    clearHover();
   });
   canvas.addEventListener("pointerup", (event) => {
     if (!downAt) return;
@@ -647,6 +658,9 @@ async function initGalaxy(root) {
     }
     controls.update();
     renderer.render(scene, camera);
+    // Planets and the camera move even while the pointer is stationary.
+    // Raycast against the world matrices just updated by the renderer.
+    if (hoverPosition) updateHover();
   });
 }
 

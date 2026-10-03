@@ -1,24 +1,95 @@
-name: Deploy OpenFin MCP
+name: OpenFin MCP pipeline
 
 on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+    paths: ['mcp/**', 'docs/opentax/korea-tax-ontology-2026.json', '.github/workflows/deploy-mcp.yml']
   workflow_dispatch:
 
 permissions:
   contents: read
 
 concurrency:
-  group: openfin-mcp-deploy
+  group: openfin-mcp-pipeline-${{ github.ref }}
+  # Never interrupt a production upload already in progress.
   cancel-in-progress: false
 
 jobs:
-  deploy:
-    if: ${{ github.ref == 'refs/heads/main' }}
+  validate:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     defaults:
       run:
         working-directory: mcp
     steps:
-      - name: Refuse legacy direct production deployment
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: mcp/package-lock.json
+      - run: npm ci
+      - run: npm run build:free
+      - run: npm run typecheck
+      - run: node --experimental-strip-types --test tests/free-catalog.test.mjs
+      - run: node --test tests/deploy-free.test.mjs
+      - name: Validate production bundle without deploying
+        run: npx wrangler deploy --config wrangler.free.jsonc --dry-run
+
+  deploy:
+    # Cloudflare native Git builds must be disconnected before enabling this job.
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: validate
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: mcp
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: mcp/package-lock.json
+      - run: npm ci
+      - name: Require the production deployment credential
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: |
-          echo 'Legacy direct Worker deployment is disabled. Run the OpenFin Immutable Release workflow.' >&2
+          if [ -z "$CLOUDFLARE_API_TOKEN" ]; then
+            echo '::error::Add the scoped CLOUDFLARE_API_TOKEN repository secret before deploying.'
+            exit 1
+          fi
+      - name: Refuse deployment of a superseded main commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          latest="$(gh api "repos/$GITHUB_REPOSITORY/commits/main" --jq .sha)"
+          if [ "$latest" != "$GITHUB_SHA" ]; then
+            echo '::error::This commit is no longer main HEAD. Deploy the latest pipeline run.'
+            exit 1
+          fi
+      - name: Build the production upload bundle
+        run: npx wrangler deploy --config wrangler.free.jsonc --dry-run --outfile "$RUNNER_TEMP/openfin-upload.bundle"
+      - name: Deploy to the existing Worker without changing routes
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ac086a8cc9083647e67db51e8310f34b
+        run: node scripts/deploy-free.mjs "$RUNNER_TEMP/openfin-upload.bundle"
+      - name: Check the deployed MCP with the official SDK
+        env:
+          MCP_URL: https://openfin.cocomo0412.workers.dev/mcp
+        run: |
+          for attempt in 1 2 3 4 5; do
+            if node scripts/smoke-free.mjs; then
+              echo '### Live MCP verification passed' >> "$GITHUB_STEP_SUMMARY"
+              echo 'Initialization, tools, search, fetch, source checksum and input guards passed.' >> "$GITHUB_STEP_SUMMARY"
+              exit 0
+            fi
+            if [ "$attempt" -lt 5 ]; then sleep 15; fi
+          done
+          echo '### Live MCP verification failed' >> "$GITHUB_STEP_SUMMARY"
           exit 1

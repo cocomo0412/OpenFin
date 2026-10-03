@@ -1,4 +1,6 @@
 import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { createHash } from "node:crypto";
 import { Client } from "@modelcontextprotocol/sdk/client/index.js";
 import { StreamableHTTPClientTransport } from "@modelcontextprotocol/sdk/client/streamableHttp.js";
 
@@ -39,6 +41,8 @@ try {
   assert.deepEqual(JSON.parse(detail.content[0].text).answer_guidance, result.answer_guidance);
   const metadata = JSON.parse((await client.callTool({ name: "exports", arguments: {} })).content[0].text);
   assert.ok(metadata.basis_date);
+  const source = readFileSync(new URL('../../docs/opentax/korea-tax-ontology-2026.json', import.meta.url));
+  assert.equal(metadata.source_sha256, createHash('sha256').update(source).digest('hex'), 'Deployed catalog must match this checkout');
   assert.equal(metadata.freshness, "not_revalidated");
   assert.deepEqual(metadata.answer_guidance, result.answer_guidance);
   const missing = await client.callTool({ name: "fetch", arguments: { id: "missing" } });
