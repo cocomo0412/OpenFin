@@ -1,24 +1,74 @@
-name: Deploy OpenFin MCP
+name: OpenFin MCP pipeline
 
 on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+    paths: ['mcp/**', 'docs/opentax/korea-tax-ontology-2026.json', '.github/workflows/deploy-mcp.yml']
   workflow_dispatch:
 
 permissions:
   contents: read
+  checks: read
 
 concurrency:
-  group: openfin-mcp-deploy
-  cancel-in-progress: false
+  group: openfin-mcp-pipeline-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
-  deploy:
-    if: ${{ github.ref == 'refs/heads/main' }}
+  validate:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     defaults:
       run:
         working-directory: mcp
     steps:
-      - name: Refuse legacy direct production deployment
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: mcp/package-lock.json
+      - run: npm ci
+      - run: npm run build:free
+      - run: npm run typecheck
+      - run: node --experimental-strip-types --test tests/free-catalog.test.mjs tests/cloudflare-build.test.mjs
+      - name: Validate production bundle without deploying
+        run: npx wrangler deploy --config wrangler.free.jsonc --dry-run
+
+  verify-deployment:
+    # Native Cloudflare Git integration owns deployment. No competing deploy/token.
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: validate
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    defaults:
+      run:
+        working-directory: mcp
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: mcp/package-lock.json
+      - run: npm ci
+      - name: Wait for this commit's Cloudflare deployment
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/wait-cloudflare-build.mjs
+      - name: Check the deployed MCP with the official SDK
+        env:
+          MCP_URL: https://openfin.cocomo0412.workers.dev/mcp
         run: |
-          echo 'Legacy direct Worker deployment is disabled. Run the OpenFin Immutable Release workflow.' >&2
+          for attempt in 1 2 3 4 5; do
+            if node scripts/smoke-free.mjs; then
+              echo '### Live MCP verification passed' >> "$GITHUB_STEP_SUMMARY"
+              echo 'Initialization, tools, search, fetch, source checksum and input guards passed.' >> "$GITHUB_STEP_SUMMARY"
+              exit 0
+            fi
+            if [ "$attempt" -lt 5 ]; then sleep 15; fi
+          done
+          echo '### Live MCP verification failed' >> "$GITHUB_STEP_SUMMARY"
           exit 1
