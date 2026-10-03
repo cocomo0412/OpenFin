@@ -1,5 +1,7 @@
 # OpenFin API 수집·연결·배포
 
+이 문서의 날짜와 건수는 당시 수집 이력입니다. 현재 정기 갱신·재시도·검토 절차는 [운영 매뉴얼](handbook/operations.md)을, 코드 변경과 검사는 [개발 매뉴얼](handbook/development.md)을 따릅니다.
+
 ## 2026-09-23 본문 통합 갱신
 
 - 공식 API 18개 출처, 40개 수집본을 보관합니다. 수집본의 행 수에는 서로 다른 통계·명세와 중복 상품이 포함되므로 고유 상품 수로 해석하지 않습니다.
@@ -51,4 +53,4 @@ ECOS는 `--source source.bok.ecos --param stat_code=722Y001 --param cycle=D --pa
 
 ## 배포
 
-홈페이지는 GitHub main의 /docs에서 배포한다. Cloudflare Git 연동은 mcp 경로의 무료 설정을 사용한다. 수동 배포 시 `wrangler deploy --config wrangler.free.jsonc`를 사용한다. 유료 전체 서버 배포 워크플로는 실행하지 않는다. 무료 MCP는 계속 세금 387개 스냅샷 범위이며 금융 API 전체를 MCP에 제공한다고 표시하지 않는다.
+홈페이지는 GitHub main의 /docs에서 배포한다. 무료 MCP의 현재 운영 배포는 GitHub Actions의 `OpenFin MCP pipeline`과 `deploy-free.mjs`를 사용한다. [무료판 배포 안내](mcp/FREE-DEPLOYMENT.md)를 따르며 유료 전체 서버 배포 workflow는 실행하지 않는다. 무료 MCP의 현재 건수는 `exports.item_count`로 확인하고, 금융 API 전체를 MCP에 제공한다고 표시하지 않는다.

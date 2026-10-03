@@ -1,5 +1,12 @@
 # OpenFin
 
+## 개발과 운영 매뉴얼
+
+- [개발 매뉴얼](handbook/development.md): 환경 준비, 데이터 계약, 검사, 리뷰와 배포
+- [운영 매뉴얼](handbook/operations.md): 화·금 오전 9시 한국시간 정기 갱신 기준, 실패 처리, 서비스 반영과 복구
+
+정기 갱신 일정은 운영 기준이며 자동 실행 예약은 아직 설정하지 않았습니다. 아래의 과거 건수와 수집 기록 대신 실제 제공 범위는 현재 산출물과 MCP `exports`로 확인합니다.
+
 ## cocomo0412 운영 안내
 
 홈페이지: <https://cocomo0412.github.io/OpenFin/>. 무료 Cloudflare MCP는 세금·공제 387개에 대한 `search`, `fetch`, `exports`만 제공합니다. MCP 주소는 <https://openfin.cocomo0412.workers.dev/mcp>이며, 전체 금융상품 비교·추천 MCP는 무료판에 포함되지 않습니다. [무료판 배포 설정](mcp/FREE-DEPLOYMENT.md)을 사용하세요. 기본 `mcp/wrangler.toml`도 무료판이며, 전체판 배포 workflow는 비활성화했습니다.
@@ -44,7 +51,7 @@ cd mcp && npm run test:mutation
 
 ## Deployment
 
-현재 홈페이지는 GitHub Pages의 main /docs를 사용합니다. Cloudflare Git 연동은 mcp를 루트로 사용하고 `npm run deploy` 또는 `npx wrangler deploy --config wrangler.free.jsonc`를 실행합니다. 기본 wrangler.toml도 같은 무료 Worker를 가리킵니다. 유료 CPU 설정은 없습니다.
+현재 홈페이지는 GitHub Pages의 main /docs를 사용합니다. 무료 MCP는 GitHub Actions의 `OpenFin MCP pipeline`에서 검증한 번들을 `deploy-free.mjs`로 기존 Worker에 업로드합니다. Cloudflare 자체 Git 빌드와 일반 `wrangler deploy`를 현재 운영 배포 경로로 사용하지 않습니다. 기본 wrangler.toml도 같은 무료 Worker를 가리키며 유료 CPU 설정은 없습니다. 상세 절차는 [무료판 배포 안내](mcp/FREE-DEPLOYMENT.md)를 따릅니다.
 
 전체판 release/staging/diagnosis/live-regression workflow의 모든 job은 비활성화되어 있습니다. 비교·추천 기능을 무료판에 배포하지 않습니다. 배포 이전에는 mcp에서 `npm run typecheck`, 무료 카탈로그 테스트, Wrangler dry-run을 실행합니다. 상세 사항은 [무료 배포 안내](mcp/FREE-DEPLOYMENT.md)를 참조하세요.
 
