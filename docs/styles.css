@@ -1543,6 +1543,7 @@ button {
 }
 
 .galaxy-tooltip strong { font-size: calc(0.98rem - 1px); }
+.galaxy-tooltip[hidden] { display: none; }
 .galaxy-tooltip span { color: var(--soft); font-size: calc(0.82rem - 1px); }
 .galaxy-tooltip em { color: var(--cyan); font-style: normal; font-size: calc(0.76rem - 1px); }
 
