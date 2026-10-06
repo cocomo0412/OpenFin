@@ -1,0 +1,25 @@
+{
+  "deployed_commit": "785add92fd83f18302cf26689ea453aed6eb3920",
+  "files": [
+    {
+      "file": ".gitattributes",
+      "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+    },
+    {
+      "file": "api-live.jpg",
+      "sha256": "a57dd889a2fbfbc939409410d96b243ce28f2c4066fdf15769140e5d6ab5c59c"
+    },
+    {
+      "file": "deployment.json",
+      "sha256": "59b0b71b6391b24d31c29ed73605597c13789b023131356d908d44de884b8a14"
+    },
+    {
+      "file": "live-checks.json",
+      "sha256": "60301adca13dc03a05242b7ce6975b2fe6019fc03e0e60fe4bc94cdaf690dc2b"
+    },
+    {
+      "file": "README.md",
+      "sha256": "57c2efc959f8e22bc17597e6077956def11e3dd82cbd454e8533a3093ca2d206"
+    }
+  ]
+}

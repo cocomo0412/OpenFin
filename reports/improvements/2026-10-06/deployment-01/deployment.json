@@ -1,0 +1,26 @@
+{
+  "commit": "785add92fd83f18302cf26689ea453aed6eb3920",
+  "verified_at": "2026-10-06T05:18:53.878Z",
+  "mcp_deployment_triggered": false,
+  "runs": [
+    {
+      "name": "OpenFin search quality",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cocomo0412/OpenFin/actions/runs/37417553713"
+    },
+    {
+      "name": "pages build and deployment",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cocomo0412/OpenFin/actions/runs/37417553075"
+    }
+  ],
+  "live_files_match_commit": [
+    "docs/app.js",
+    "docs/explorer.html",
+    "docs/api-data.html",
+    "docs/api-data.js",
+    "docs/api-data.css"
+  ]
+}

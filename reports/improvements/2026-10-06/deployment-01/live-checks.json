@@ -1,0 +1,45 @@
+{
+  "commit": "785add92fd83f18302cf26689ea453aed6eb3920",
+  "checked_at": "2026-10-06T05:18:22.763Z",
+  "checks": [
+    {
+      "cards": 0,
+      "case": "unpublished_target",
+      "message": "요청한 자료는 현재 공개 대상이 아닙니다. 위 목록에서 다른 공개 자료를 선택해 주세요.",
+      "url": "https://cocomo0412.github.io/OpenFin/api-data.html?source=source.gov24.benefit-plus.local-supports&operation=serviceList"
+    },
+    {
+      "case": "dataset_restore_summary",
+      "firstCard": "한국은행 기준금리\n자료 기준일\n2026-08-17\n통계값\n2.75 연%\n원자료 전체 항목 보기",
+      "selected": "한국은행 기준금리 · 기준금리",
+      "url": "https://cocomo0412.github.io/OpenFin/api-data.html?source=source.bok.ecos&operation=StatisticSearch"
+    },
+    {
+      "case": "freshness",
+      "sourceText": "법제처 국가법령정보센터\n출처 원문 보기\n제공기관: 법제처 국가법령정보센터 · 최신 여부 재확인 필요 · 출처 확인 기록: 2026-09-13T14:49:48.328Z",
+      "status": "최신 여부 재확인 필요",
+      "url": "https://cocomo0412.github.io/OpenFin/explorer.html?domain=tax#corporate.support.agricultural-corporation-reduction"
+    },
+    {
+      "case": "search_restore",
+      "before": {
+        "q": "월세",
+        "summary": "세금·공제: 2개 표시",
+        "type": "tax-credit",
+        "url": "https://cocomo0412.github.io/OpenFin/explorer.html?domain=tax&q=%EC%9B%94%EC%84%B8&type=tax-credit"
+      },
+      "after": {
+        "q": "월세",
+        "summary": "세금·공제: 2개 표시",
+        "type": "tax-credit",
+        "url": "https://cocomo0412.github.io/OpenFin/explorer.html?domain=tax&q=%EC%9B%94%EC%84%B8&type=tax-credit"
+      },
+      "passed": true
+    },
+    {
+      "case": "decoded_title",
+      "title": "한국주택금융공사 전세자금보증(특례)_정책서민금융 이용자",
+      "url": "https://cocomo0412.github.io/OpenFin/explorer.html?q=%ED%95%9C%EA%B5%AD%EC%A3%BC%ED%83%9D%EA%B8%88%EC%9C%B5%EA%B3%B5%EC%82%AC+%EC%A0%84%EC%84%B8%EC%9E%90%EA%B8%88%EB%B3%B4%EC%A6%9D#finance.bank.policy-loan.kinfa-api.168"
+    }
+  ]
+}
