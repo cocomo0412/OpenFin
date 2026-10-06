@@ -91,3 +91,13 @@
   .explorer-page .kv-grid { grid-template-columns: minmax(0, 1fr); }
   .explorer-page .result-list, .explorer-page .detail-panel { scroll-margin-top: 16px; }
 }
+
+/* Match the homepage section badges and its search-button magnifier. */
+.explorer-page #explorer-title { display: flex; align-items: center; gap: 14px; }
+.explorer-title-icon { display: inline-flex; align-items: center; justify-content: center; flex: 0 0 44px; width: 44px; height: 44px; border-radius: 14px; background: #dff0e6; color: #497860; }
+.explorer-title-icon svg { width: 26px; height: 26px; stroke: currentColor; stroke-width: 1.65; stroke-linecap: round; stroke-linejoin: round; }
+@media (max-width: 560px) {
+  .explorer-page #explorer-title { gap: 10px; }
+  .explorer-title-icon { flex-basis: 36px; width: 36px; height: 36px; border-radius: 12px; }
+  .explorer-title-icon svg { width: 22px; height: 22px; }
+}
