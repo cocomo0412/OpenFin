@@ -1,6 +1,6 @@
 # OpenFin 개발 매뉴얼
 
-작성일: 2026년 10월 3일 · 수정일: 2026년 10월 6일 · 버전 1.2.0 · 관리 담당: 개발 담당과 총괄 PM
+작성일: 2026년 10월 3일 · 수정일: 2026년 10월 6일 · 버전 1.2.1 · 관리 담당: 개발 담당과 총괄 PM
 
 버전 변경 기준과 이력은 [매뉴얼 변경 이력](CHANGELOG.md)을 따른다.
 
@@ -89,7 +89,7 @@ PR 또는 변경 설명에는 사용자에게 달라지는 동작, 이유, 실�
 
 ```powershell
 node --check docs/app.js
-node --experimental-strip-types --test mcp/tests/free-search.test.mjs mcp/tests/free-catalog.test.mjs tests/knowledge/ui-search-input.test.mjs tests/knowledge/ui-search-contract.test.mjs
+node --experimental-strip-types --test mcp/tests/free-search.test.mjs mcp/tests/free-catalog.test.mjs tests/knowledge/ui-search-input.test.mjs tests/knowledge/ui-search-contract.test.mjs tests/knowledge/api-data-ui.test.mjs
 npm --prefix mcp run typecheck
 git diff --check
 ```

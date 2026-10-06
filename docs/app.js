@@ -90,6 +90,8 @@ const state = {
   currentDomain: "all",
   visibleLimit: MAX_RESULTS,
   resultKey: "",
+  pendingTypeFilter: null,
+  restoreToken: 0,
   items: [],
   loadedDomains: new Map(),
   itemIndex: new Map(),
@@ -116,29 +118,53 @@ async function init() {
     renderExportCards();
     renderDomainTabs();
 
-    const params = new URLSearchParams(window.location.search);
-    const paramDomain = params.get("domain");
-    const paramQuery = params.get("q");
-    const paramScope = params.get("scope");
-    const hashId = decodeURIComponent(window.location.hash.replace(/^#/, ""));
-    const hasExplorer = Boolean(document.querySelector("[data-results]"));
-
-    if (paramQuery) {
-      const searchInput = document.querySelector("[data-search]");
-      if (searchInput) searchInput.value = paramQuery;
-    }
-    if (hashId || paramScope === "all" || (paramQuery && !paramDomain)) {
-      await loadAllDomains();
-      if (hashId) selectItem(hashId, { updateHash: false });
-    } else if (paramDomain && findExport(paramDomain)) {
-      await loadDomain(paramDomain);
-    } else if (hasExplorer) {
-      setResultSummary("분야를 선택하거나 검색어를 입력하세요.");
-      if (normalize(document.querySelector("[data-search]")?.value || "")) await renderSearchInput();
-    }
+    if (document.querySelector("[data-results]")) await restoreExplorerUrl({ preserveTypedQuery: true });
   } catch (error) {
     showFatalError(error);
   }
+}
+
+// Keep one history entry per live search, avoiding a Back step for every keystroke.
+function syncExplorerUrl() {
+  if (!document.querySelector("[data-results]")) return;
+  const params = new URLSearchParams(window.location.search);
+  const query = document.querySelector("[data-search]")?.value.trim() || "";
+  const type = document.querySelector("[data-type-filter]")?.value || "";
+  for (const [key, value] of [["q", query], ["domain", state.currentDomain === "all" ? "" : state.currentDomain], ["type", type]]) {
+    if (value) params.set(key, value); else params.delete(key);
+  }
+  if (state.currentDomain === "all" && !query && state.searchIndexLoaded) params.set("scope", "all");
+  else params.delete("scope");
+  const search = params.toString();
+  history.replaceState(null, "", `${window.location.pathname}${search ? "?" + search : ""}${window.location.hash || ""}`);
+}
+
+async function restoreExplorerUrl({ preserveTypedQuery = false } = {}) {
+  if (!state.manifest || !document.querySelector("[data-results]")) return;
+  const token = ++state.restoreToken;
+  const params = new URLSearchParams(window.location.search);
+  const input = document.querySelector("[data-search]");
+  if (input && (params.has("q") || !preserveTypedQuery)) input.value = params.get("q") || "";
+  state.pendingTypeFilter = params.get("type") || "";
+  let hashId = "";
+  try { hashId = decodeURIComponent(window.location.hash.replace(/^#/, "")); } catch { /* Invalid fragments select no item. */ }
+  const domain = params.get("domain");
+  clearSelectedItem();
+  if (domain && findExport(domain)) {
+    await loadDomain(domain);
+  } else if (hashId || params.get("scope") === "all" || input?.value.trim() || state.searchIndexLoaded || state.pendingTypeFilter) {
+    await loadAllDomains();
+  } else {
+    state.currentDomain = "all";
+    markActiveDomainTab();
+    updateTypeFilter();
+    setResultSummary("분야를 선택하거나 검색어를 입력하세요.");
+  }
+  if (token !== state.restoreToken) return;
+  const selected = currentItems().find(item => item.id === hashId);
+  const query = normalize(input?.value || "");
+  const type = document.querySelector("[data-type-filter]")?.value || "";
+  if (selected && (!query || scoreItem(selected, query) > 0) && (!type || selected.type === type) && isSearchVisible(selected, query)) selectItem(hashId);
 }
 
 async function loadSourceRegistry() {
@@ -206,14 +232,17 @@ async function loadSourceStatus() {
 
 function bindStaticControls() {
   document.querySelector("[data-search]")?.addEventListener("input", () => {
+    ++state.restoreToken;
     window.clearTimeout(state.searchTimer);
     state.searchTimer = window.setTimeout(renderSearchInput, SEARCH_DEBOUNCE_MS);
   });
-  document.querySelector("[data-type-filter]")?.addEventListener("change", () => renderResults());
+  document.querySelector("[data-type-filter]")?.addEventListener("change", () => { ++state.restoreToken; renderResults(); });
+  window.addEventListener?.("popstate", () => { void restoreExplorerUrl().catch(showFatalError); });
   document.querySelector("[data-load-more]")?.addEventListener("click", showMoreResults);
 
   document.querySelectorAll("[data-domain]").forEach((node) => {
     node.addEventListener("click", async (event) => {
+      ++state.restoreToken;
       const domain = event.currentTarget.dataset.domain;
       if (!domain) return;
       event.preventDefault();
@@ -365,6 +394,7 @@ function renderDomainTabs() {
 
   tabs.querySelectorAll("[data-tab-domain]").forEach((button) => {
     button.addEventListener("click", async () => {
+      ++state.restoreToken;
       const domain = button.dataset.tabDomain;
       if (domain === "all") {
         await loadAllDomains();
@@ -380,9 +410,10 @@ function renderDomainTabs() {
 async function loadDomain(domain, options = {}) {
   if (!domain) return;
   const { render = true, preserveCurrentDomain = false } = options;
-  const previousDomain = state.currentDomain;
-  state.currentDomain = domain;
-  markActiveDomainTab();
+  if (!preserveCurrentDomain) {
+    state.currentDomain = domain;
+    markActiveDomainTab();
+  }
   if (render) setResultSummary(`${domainMeta(domain).label} 데이터를 로딩 중입니다.`);
 
   if (!state.loadedDomains.has(domain)) {
@@ -407,13 +438,10 @@ async function loadDomain(domain, options = {}) {
     mergeItems(items);
   }
 
-  if (render) {
+  if (render && state.currentDomain === domain) {
     updateTypeFilter();
     renderResults();
     selectFirstVisibleResult();
-  } else if (preserveCurrentDomain) {
-    state.currentDomain = previousDomain;
-    markActiveDomainTab();
   }
 }
 
@@ -550,6 +578,7 @@ function renderResults({ append = false } = {}) {
   });
 
   markActiveResult();
+  syncExplorerUrl();
   if (append) {
     container.scrollTop = previousScroll;
     container.querySelectorAll("[data-select-id]")[previousCount]?.focus();
@@ -614,17 +643,21 @@ function freshnessStatusForSource(source, now = Date.now()) {
   return explicitStatuses[0] || "unknown";
 }
 
+function sourceIdsForItem(item) {
+  const refs = ["source_ids", "sources", "provenance", "provenances", "source_assertions"]
+    .flatMap(key => Array.isArray(item?.[key]) ? item[key] : []);
+  if (item?.type === "source") refs.push(item.id);
+  return [...new Set(refs.map(ref => typeof ref === "string" ? ref : ref?.source_id || ref?.id).filter(Boolean))];
+}
+
 function freshnessStatusForItem(item) {
-  const sourceIds = Array.isArray(item?.source_ids) ? item.source_ids : [];
-  const statuses = sourceIds
-    .map((sourceId) => state.sourceStatus.get(sourceId))
-    .filter(Boolean)
-    .map((source) => freshnessStatusForSource(source))
-    .filter(Boolean);
-  if (!statuses.length) return item?.source_freshness_status || item?.freshness_status || "unknown";
-  return statuses.find((status) => ["stale", "degraded", "unreachable", "changed", "conflict", "retired"].includes(status))
-    || statuses[0]
-    || "unknown";
+  const ids = sourceIdsForItem(item);
+  const statuses = ids.map(id => freshnessStatusForSource(state.sourceStatus.get(id)));
+  statuses.push(...[item?.source_freshness_status, item?.freshness_status].filter(Boolean));
+  const warning = statuses.find(status => ["stale", "degraded", "unreachable", "changed", "conflict", "retired"].includes(status));
+  if (warning) return warning;
+  if (statuses.some(status => !["current", "ready"].includes(status))) return "unknown";
+  return statuses[0] || "unknown";
 }
 
 function selectFirstVisibleResult() {
@@ -673,7 +706,15 @@ function selectItem(id, options = {}) {
 async function hydrateSelectedItem(item, selectionToken) {
   const domain = item.__domain;
   if (!domain) return;
-  await loadDomain(domain, { render: false, preserveCurrentDomain: true });
+  try {
+    await loadDomain(domain, { render: false, preserveCurrentDomain: true });
+  } catch {
+    if (selectionToken === state.provenanceSelectionToken && state.selectedId === item.id) {
+      const panel = document.querySelector("[data-detail-panel]");
+      if (panel) panel.insertAdjacentHTML?.("beforeend", '<p class="evidence-warning" role="status">상세 자료를 불러오지 못했습니다. 자료를 다시 선택해 주세요.</p>');
+    }
+    return;
+  }
   if (selectionToken !== state.provenanceSelectionToken || state.selectedId !== item.id) return;
   const detail = (state.loadedDomains.get(domain) || []).find((candidate) => candidate.id === item.id);
   if (!detail) return;
@@ -1079,7 +1120,8 @@ function isValidSourceUrl(value) {
 function updateTypeFilter() {
   const select = document.querySelector("[data-type-filter]");
   if (!select) return;
-  const previous = select.value;
+  const previous = state.pendingTypeFilter ?? select.value;
+  state.pendingTypeFilter = null;
   const counts = new Map();
   for (const item of currentItems()) {
     if (item.type) counts.set(item.type, (counts.get(item.type) || 0) + 1);
@@ -1088,9 +1130,7 @@ function updateTypeFilter() {
   select.innerHTML = `<option value="">모든 자료 유형</option>${options
     .map(([type, count]) => `<option value="${escapeAttribute(type)}">${escapeHtml(typeLabel(type))} (${formatNumber(count)})</option>`)
     .join("")}`;
-  if (options.some(([type]) => type === previous)) {
-    select.value = previous;
-  }
+  select.value = options.some(([type]) => type === previous) ? previous : "";
 }
 
 function currentItems() {
@@ -1335,7 +1375,7 @@ function stringifyValue(value) {
 }
 
 function normalize(value) {
-  return String(value).trim().toLocaleLowerCase("ko-KR").replace(/[·ㆍ/()]/g, " ");
+  return decodeDisplayText(value).trim().toLocaleLowerCase("ko-KR").replace(/[·ㆍ/()]/g, " ").replace(/\s+/g, " ").trim();
 }
 
 function formatNumber(value) {
@@ -1348,7 +1388,21 @@ function setText(selector, value) {
   });
 }
 
+function decodeDisplayText(value) {
+  const named = { amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", nbsp: " " };
+  return String(value ?? "").replace(/&(#x[0-9a-f]+|#\d+|amp|lt|gt|quot|apos|nbsp);/gi, (entity, key) => {
+    if (key[0] !== "#") return named[key.toLowerCase()];
+    const hex = key[1].toLowerCase() === "x";
+    const code = parseInt(key.slice(hex ? 2 : 1), hex ? 16 : 10);
+    return code > 0 && code <= 0x10ffff && !(code >= 0xd800 && code <= 0xdfff) ? String.fromCodePoint(code) : entity;
+  });
+}
+
 function escapeHtml(value) {
+  return escapeRawHtml(decodeDisplayText(value));
+}
+
+function escapeRawHtml(value) {
   return String(value ?? "")
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
@@ -1358,7 +1412,7 @@ function escapeHtml(value) {
 }
 
 function escapeAttribute(value) {
-  return escapeHtml(value).replace(/`/g, "&#96;");
+  return escapeRawHtml(value).replace(/`/g, "&#96;");
 }
 
 

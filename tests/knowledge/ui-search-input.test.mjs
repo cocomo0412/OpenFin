@@ -6,7 +6,7 @@ import vm from 'node:vm';
 
 const root = fileURLToPath(new URL('../../', import.meta.url));
 
-function explorer() {
+function explorer(search = '') {
   let timer;
   const handlers = {};
   const summary = { textContent: '' };
@@ -15,8 +15,13 @@ function explorer() {
   const input = { value: '', addEventListener: (name, handler) => { handlers[name] = handler; } };
   const typeFilter = { value: '', innerHTML: '', addEventListener: (name, handler) => { handlers[`type:${name}`] = handler; } };
   const moreButton = { hidden: true, textContent: '', addEventListener: (name, handler) => { handlers[`more:${name}`] = handler; } };
-  const location = { pathname: '/explorer.html', search: '', hash: '' };
-  const history = { replaceState(_state, _title, url) { location.hash = new URL(url, 'https://example.test/explorer.html').hash; } };
+  const location = { pathname: '/explorer.html', search, hash: '' };
+  const history = { replaceState(_state, _title, url) {
+    const parsed = new URL(url, `https://example.test${location.pathname}${location.search}${location.hash}`);
+    location.pathname = parsed.pathname;
+    location.search = parsed.search;
+    location.hash = parsed.hash;
+  } };
   const nodes = { '[data-search]': input, '[data-results]': results, '[data-result-summary]': summary, '[data-detail-panel]': detail, '[data-type-filter]': typeFilter, '[data-load-more]': moreButton };
   const calls = [];
   const context = vm.createContext({
@@ -27,6 +32,7 @@ function explorer() {
     },
     window: {
       location, history,
+      addEventListener: (name, handler) => { handlers[`window:${name}`] = handler; },
       setTimeout: (callback) => { timer = callback; return 1; },
       clearTimeout: () => { timer = null; },
     },
@@ -46,10 +52,11 @@ function explorer() {
     bindStaticControls();
   `, context);
   return {
-    context, calls, summary, results, detail, location, moreButton,
+    context, calls, summary, results, detail, location, moreButton, input, typeFilter,
     type(value) { input.value = value; handlers.input(); },
     filter(value) { typeFilter.value = value; return handlers['type:change'](); },
     more() { return handlers['more:click'](); },
+    popstate() { return handlers['window:popstate'](); },
     flush() { const pending = timer; timer = null; return pending?.(); },
   };
 }
@@ -303,4 +310,173 @@ test('a late provenance response cannot replace the empty detail after the selec
   assert.equal(page.detail.innerHTML, clearedDetail);
   assert.equal(vm.runInContext('state.itemIndex.get("item.rent").provenance', page.context), undefined,
     'an invalidated provenance request must not mutate the previous selection');
+});
+
+test('hydrating a compact result never changes the domain and cannot undo a later choice', async () => {
+  const page = explorer();
+  let finish;
+  page.context.testFetch = () => new Promise((resolve) => { finish = resolve; });
+  vm.runInContext(`
+    state.manifest.exports[0].path = 'tax.json';
+    mergeItems([{ id: 'tax.a', title: '공제 A', type: 'deduction', __domain: 'tax', __compact: true }]);
+    state.loadedDomains.set('card-products', [{ id: 'card.b', title: '카드 B', type: 'card-product', __domain: 'card-products' }]);
+    state.searchIndexLoaded = true;
+    const originalHydrate = hydrateSelectedItem;
+    hydrateSelectedItem = (...args) => (globalThis.pendingHydration = originalHydrate(...args));
+    selectItem('tax.a');
+  `, page.context);
+  assert.equal(vm.runInContext('state.currentDomain', page.context), 'all', 'detail loading must not temporarily switch the selected domain');
+  await vm.runInContext('loadDomain("card-products")', page.context);
+  const cardResults = page.results.innerHTML;
+  finish({ items: [{ id: 'tax.a', title: '공제 A', type: 'deduction' }] });
+  await page.context.pendingHydration;
+  assert.equal(vm.runInContext('state.currentDomain', page.context), 'card-products');
+  assert.equal(page.results.innerHTML, cardResults);
+  assert.match(page.results.innerHTML, /카드 B/);
+});
+
+test('an older domain response cannot replace the latest domain results', async () => {
+  const page = explorer();
+  let finish;
+  page.context.testFetch = () => new Promise((resolve) => { finish = resolve; });
+  vm.runInContext(`
+    state.manifest.exports[0].path = 'tax.json';
+    state.loadedDomains.set('card-products', [{ id: 'card.b', title: '카드 B', type: 'card-product', __domain: 'card-products' }]);
+  `, page.context);
+  const pending = vm.runInContext('loadDomain("tax")', page.context);
+  await vm.runInContext('loadDomain("card-products")', page.context);
+  const latestSummary = page.summary.textContent;
+  finish({ items: [{ id: 'tax.a', title: '공제 A', type: 'deduction' }] });
+  await pending;
+  assert.equal(vm.runInContext('state.currentDomain', page.context), 'card-products');
+  assert.equal(page.summary.textContent, latestSummary);
+  assert.match(page.results.innerHTML, /카드 B/);
+  assert.doesNotMatch(page.results.innerHTML, /공제 A/);
+});
+
+function prepareStartup(page) {
+  const originalFetch = page.context.testFetch;
+  page.context.testFetch = async (url) => url.endsWith('finance-ontology-manifest.json')
+    ? { search_index: { path: 'search.json' }, exports: [{ id: 'tax', domain: 'tax', path: 'tax.json' }] }
+    : originalFetch(url);
+  vm.runInContext(`
+    loadSourceRegistry = loadSourceStatus = async () => {};
+    updateManifestUI = renderOperationalSummary = renderExportCards = renderDomainTabs = () => {};
+  `, page.context);
+}
+
+test('query, domain and type survive URL sharing and startup including a selected hash', async () => {
+  const page = explorer('?q=' + encodeURIComponent('공제') + '&domain=tax&type=deduction&campaign=fixture');
+  page.location.hash = '#item.rent';
+  prepareStartup(page);
+  await vm.runInContext('init()', page.context);
+  assert.equal(page.input.value, '공제');
+  assert.equal(page.typeFilter.value, 'deduction');
+  assert.equal(vm.runInContext('state.currentDomain', page.context), 'tax');
+  assert.equal(vm.runInContext('state.selectedId', page.context), 'item.rent');
+  assert.ok(page.calls.includes('./opentax/tax.json'));
+  assert.ok(!page.calls.includes('./opentax/search.json'), 'a hash must not silently broaden a selected domain');
+
+  page.type('의료비');
+  await page.flush();
+  let params = new URLSearchParams(page.location.search);
+  assert.equal(params.get('q'), '의료비');
+  assert.equal(params.get('domain'), 'tax');
+  assert.equal(params.get('type'), 'deduction');
+  assert.equal(params.get('campaign'), 'fixture');
+  assert.equal(page.location.hash, '', 'changing to results that exclude the selection clears only that selection');
+  page.filter('');
+  page.type('');
+  await page.flush();
+  params = new URLSearchParams(page.location.search);
+  assert.equal(params.has('q'), false);
+  assert.equal(params.has('type'), false);
+  assert.equal(params.get('domain'), 'tax');
+});
+
+test('a changed query replaces an old URL query and query-only startup searches all domains', async () => {
+  const page = explorer('?q=' + encodeURIComponent('월세'));
+  page.type('의료비');
+  await page.flush();
+  assert.equal(new URLSearchParams(page.location.search).get('q'), '의료비');
+  const restored = explorer(page.location.search);
+  prepareStartup(restored);
+  await vm.runInContext('init()', restored.context);
+  assert.equal(restored.input.value, '의료비');
+  assert.equal(vm.runInContext('state.currentDomain', restored.context), 'all');
+  assert.ok(restored.calls.includes('./opentax/search.json'));
+  assert.ok(!restored.calls.includes('./opentax/tax.json'));
+  assert.match(restored.results.innerHTML, /의료비 공제/);
+  assert.doesNotMatch(restored.results.innerHTML, /월세 공제/);
+});
+
+test('popstate restores another URL and invalid types fall back to the available choices', async () => {
+  const page = explorer();
+  prepareStartup(page);
+  await vm.runInContext('init()', page.context);
+  vm.runInContext(`
+    const originalRestore = restoreExplorerUrl;
+    restoreExplorerUrl = (...args) => (globalThis.pendingRestore = originalRestore(...args));
+  `, page.context);
+  page.location.search = '?domain=tax&q=' + encodeURIComponent('의료비') + '&type=deduction';
+  page.popstate();
+  await page.context.pendingRestore;
+  assert.equal(page.input.value, '의료비');
+  assert.equal(page.typeFilter.value, 'deduction');
+  assert.equal(vm.runInContext('state.currentDomain', page.context), 'tax');
+  assert.match(page.results.innerHTML, /의료비 공제/);
+  assert.doesNotMatch(page.results.innerHTML, /월세 공제/);
+  page.location.search = '?scope=all&type=does-not-exist';
+  page.popstate();
+  await page.context.pendingRestore;
+  assert.equal(page.input.value, '');
+  assert.equal(page.typeFilter.value, '');
+  assert.equal(vm.runInContext('state.currentDomain', page.context), 'all');
+  assert.equal(visibleResultCount(page), 2);
+  assert.equal(new URLSearchParams(page.location.search).has('type'), false);
+  assert.equal(new URLSearchParams(page.location.search).get('scope'), 'all');
+});
+
+test('legacy scope all URLs still restore their query and type', async () => {
+  const page = explorer('?scope=all&q=' + encodeURIComponent('월세') + '&type=deduction');
+  prepareStartup(page);
+  await vm.runInContext('init()', page.context);
+  assert.equal(vm.runInContext('state.currentDomain', page.context), 'all');
+  assert.equal(page.typeFilter.value, 'deduction');
+  assert.match(page.results.innerHTML, /월세 공제/);
+  assert.doesNotMatch(page.results.innerHTML, /의료비 공제/);
+});
+
+test('restoring a shared URL does not select a hash excluded by its search filters', async () => {
+  const page = explorer('?domain=tax&q=' + encodeURIComponent('의료비') + '&type=deduction');
+  page.location.hash = '#item.rent';
+  prepareStartup(page);
+  await vm.runInContext('init()', page.context);
+  assert.match(page.results.innerHTML, /의료비 공제/);
+  assert.doesNotMatch(page.results.innerHTML, /월세 공제/);
+  assert.notEqual(vm.runInContext('state.selectedId', page.context), 'item.rent');
+  assert.doesNotMatch(page.detail.innerHTML, /월세 공제/);
+  assert.notEqual(page.location.hash, '#item.rent');
+});
+
+test('entity-encoded product labels match decoded searches and remain safe in results and details', async () => {
+  const page = explorer();
+  vm.runInContext(`
+    mergeItems([{ id: 'product.safe', title: '보증&#40;특례&#41;',
+      description: '&lt;img src=x onerror=alert(1)&gt; &amp; 안내',
+      type: 'bank-product', __domain: 'loan-products' }]);
+    state.searchIndexLoaded = true;
+  `, page.context);
+  page.type('보증(특례)');
+  await page.flush();
+  assert.equal(visibleResultCount(page), 1);
+  assert.match(page.results.innerHTML, /보증\(특례\)/);
+  assert.doesNotMatch(page.results.innerHTML, /&#40;|&amp;#40;|<img\b/);
+  assert.match(page.results.innerHTML, /&lt;img src=x onerror=alert\(1\)&gt; &amp; 안내/);
+  vm.runInContext('selectItem("product.safe")', page.context);
+  assert.match(page.detail.innerHTML, /보증\(특례\)/);
+  assert.doesNotMatch(page.detail.innerHTML, /<img\b/);
+  page.type('img src=x');
+  await page.flush();
+  assert.equal(visibleResultCount(page), 1, 'decoded description participates in search without becoming executable HTML');
 });

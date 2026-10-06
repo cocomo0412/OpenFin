@@ -3,10 +3,10 @@ name: OpenFin search quality
 on:
   push:
     branches: [main]
-    paths: ['docs/app.js', 'mcp/src/free-catalog.ts', 'mcp/src/free-catalog.json', 'mcp/tests/free-search.test.mjs', 'mcp/tests/free-catalog.test.mjs', 'tests/knowledge/ui-search*.test.mjs', '.github/workflows/search-quality.yml']
+    paths: ['docs/app.js', 'docs/api-data.js', 'docs/api-data.html', 'docs/api-data.css', 'tests/knowledge/api-data-ui.test.mjs', 'mcp/src/free-catalog.ts', 'mcp/src/free-catalog.json', 'mcp/tests/free-search.test.mjs', 'mcp/tests/free-catalog.test.mjs', 'tests/knowledge/ui-search*.test.mjs', '.github/workflows/search-quality.yml']
   pull_request:
     branches: [main]
-    paths: ['docs/app.js', 'mcp/src/free-catalog.ts', 'mcp/src/free-catalog.json', 'mcp/tests/free-search.test.mjs', 'mcp/tests/free-catalog.test.mjs', 'tests/knowledge/ui-search*.test.mjs', '.github/workflows/search-quality.yml']
+    paths: ['docs/app.js', 'docs/api-data.js', 'docs/api-data.html', 'docs/api-data.css', 'tests/knowledge/api-data-ui.test.mjs', 'mcp/src/free-catalog.ts', 'mcp/src/free-catalog.json', 'mcp/tests/free-search.test.mjs', 'mcp/tests/free-catalog.test.mjs', 'tests/knowledge/ui-search*.test.mjs', '.github/workflows/search-quality.yml']
   workflow_dispatch:
 
 permissions:
@@ -22,6 +22,8 @@ jobs:
         with:
           node-version: '24'
       - name: Check explorer syntax
-        run: node --check docs/app.js
+        run: |
+          node --check docs/app.js
+          node --check docs/api-data.js
       - name: Check search behavior and input recovery
-        run: node --experimental-strip-types --test mcp/tests/free-search.test.mjs mcp/tests/free-catalog.test.mjs tests/knowledge/ui-search-input.test.mjs tests/knowledge/ui-search-contract.test.mjs
+        run: node --experimental-strip-types --test mcp/tests/free-search.test.mjs mcp/tests/free-catalog.test.mjs tests/knowledge/ui-search-input.test.mjs tests/knowledge/ui-search-contract.test.mjs tests/knowledge/api-data-ui.test.mjs

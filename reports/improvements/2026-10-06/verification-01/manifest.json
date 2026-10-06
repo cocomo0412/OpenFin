@@ -1,0 +1,63 @@
+{
+  "recorded_at_utc": "2026-10-06T04:57:23.476961+00:00",
+  "status": "local_verified_not_deployed",
+  "tests": {
+    "passed": 50,
+    "failed": 0
+  },
+  "working_source_hashes": {
+    "docs/app.js": "4a3b3601077f7a43bcff310e8867d87a592aa2274b5a6929261337531d54e163",
+    "docs/api-data.js": "c157df7d8fba050edde6563034e7d7d572909951a845cee7496071dac1fd546b",
+    "docs/api-data.html": "76f1518ed4fc5ce687462aab8a79bb785b33f93cdeb54a5ac6d46d6baa42ac23",
+    "docs/api-data.css": "4aee6cf3593defa607e2cde9ee2e57a55ead78715e55c66e12ad58623c1fd32f",
+    "docs/explorer.html": "4ab39b29c899dc67a24ad5894cc912b6e513240903b81b8cc697c7a7904b2b28",
+    "docs/index.html": "74cbfe593bb80c24af701ec737be5fe987a610fa88b5bd6612e73e9d4a57df4c"
+  },
+  "files": [
+    {
+      "file": ".gitattributes",
+      "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
+      "bytes": 9
+    },
+    {
+      "file": "api-summary-desktop.jpg",
+      "sha256": "a9df25d3e711d97c4e04adec3640eb790a1b197718c642fa49d6d46c7b501a2f",
+      "bytes": 86122
+    },
+    {
+      "file": "api-summary-small-screen.jpg",
+      "sha256": "6c94ed8cde94947dac0de8a17215ecc3596a56d2dc411f1378bc730657f21035",
+      "bytes": 53665
+    },
+    {
+      "file": "browser-checks.json",
+      "sha256": "900bf31cdb0af8fec8ea3e6c11f530eaf2e3f16efc3c90ea038f905e7cca6209",
+      "bytes": 4443
+    },
+    {
+      "file": "decoded-product-title.jpg",
+      "sha256": "14ff999d6808b65a5bf7f96abc0fc11034fd0b16d6c55086f6c70f3f2a2de7b9",
+      "bytes": 153622
+    },
+    {
+      "file": "README.md",
+      "sha256": "e8502ac3bcc1cfaaf27085f56dbc34e9a4cdcf66a3b62fe2536d6f42807b8d89",
+      "bytes": 4023
+    },
+    {
+      "file": "search-restored.jpg",
+      "sha256": "df1413c19408520abd23bd60ecbc0bbbf0bb3fa5f77dc9146cf66d43276f908c",
+      "bytes": 97078
+    },
+    {
+      "file": "tests.txt",
+      "sha256": "2cb10b449e093487ff38f26ca98f7684231e7b13621595047e1d43cf03882936",
+      "bytes": 4964
+    },
+    {
+      "file": "unpublished-dataset.jpg",
+      "sha256": "6a7a546ee341ba6de0c617a2e1a128c221f9971f03a8944ad223809224c22f28",
+      "bytes": 65714
+    }
+  ]
+}
