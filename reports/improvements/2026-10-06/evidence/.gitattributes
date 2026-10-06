@@ -1,0 +1,2 @@
+# Preserve exact evidence bytes for SHA-256 verification on every platform.
+* -text
