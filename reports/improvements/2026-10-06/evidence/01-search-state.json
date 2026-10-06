@@ -1,0 +1,13 @@
+{
+  "observed_at": "2026-10-06T04:41:59.363Z",
+  "before": {
+    "query": "월세",
+    "summary": "전체 분야: 124개 중 120개 표시",
+    "url": "https://cocomo0412.github.io/OpenFin/explorer.html"
+  },
+  "after": {
+    "query": "",
+    "summary": "분야를 선택하거나 검색어를 입력하세요.",
+    "url": "https://cocomo0412.github.io/OpenFin/explorer.html"
+  }
+}

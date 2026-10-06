@@ -1,0 +1,47 @@
+DEFECT OBSERVATION AUDIT — not a normal-behavior test pass report
+{
+  "authored_against_head": "79903eee",
+  "observed_head": "79903eeeedf04d26c665245a8fe60ec73ccfbe67",
+  "observed_at_utc": "2026-10-06T04:43:44.852Z",
+  "source_sha256": {
+    "docs/app.js": "e4b105075e840f576c58a6f7bc75ab48de3b7176febfdf3b6de18b60f833db74",
+    "docs/api-data.js": "47a31fbfb61b05aa3aae96491ceba7514a471b53b0ef1a8e9b9b48baaabd7644"
+  },
+  "method": "real application JavaScript in VM; synthetic DOM and in-memory responses",
+  "external_network_requests": 0,
+  "credential_access": false,
+  "observations": [
+    {
+      "id": "late-detail-restores-old-domain",
+      "scenario": "all > select tax item (pending) > card-products > resolve tax response",
+      "expected_domain": "card-products",
+      "before_old_response": "card-products",
+      "after_old_response": "all",
+      "defect_reproduced": true
+    },
+    {
+      "id": "search-url-keeps-old-query",
+      "scenario": "URL q=월세 > enter 의료비 through input handler",
+      "input_query": "의료비",
+      "url_query": "월세",
+      "medical_visible": true,
+      "rent_visible": false,
+      "defect_reproduced": true
+    },
+    {
+      "id": "invalid-dataset-url-falls-back-to-unrelated-source",
+      "requested_source": "wanted.source",
+      "requested_operation": "wrong",
+      "fixture_requests": [
+        "./opentax/collection-inventory.json",
+        "./first.json"
+      ],
+      "selected_index": "0",
+      "displayed_title": "다른 출처 상품",
+      "displayed_meta": "수집일 2026-10-06 · 원자료 기준 미제공 · 1행 · 참고자료",
+      "defect_reproduced": true
+    }
+  ],
+  "normal_behavior_regression_suite": "not run by this audit",
+  "limitation": "Confirms fixture behavior only; does not measure live occurrence, browser layout, or user impact frequency."
+}

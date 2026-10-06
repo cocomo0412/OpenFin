@@ -1,0 +1,97 @@
+{
+  "discovery_date_kst": "2026-10-06",
+  "recorded_at_utc": "2026-10-06T04:45:46.468571+00:00",
+  "baseline_commit": "79903eeeedf04d26c665245a8fe60ec73ccfbe67",
+  "scope": "OpenFin public UI audit and existing local code/data; no new source data collection",
+  "files": [
+    {
+      "file": "01-search-after-reload.jpg",
+      "bytes": 43065,
+      "sha256": "87ed5d4a7ba16b3a98d2383757efa126775ef950a03354c4811349e57ed610dd",
+      "saved_at_utc": "2026-10-06T04:41:59.361976+00:00"
+    },
+    {
+      "file": "01-search-before-reload.jpg",
+      "bytes": 61212,
+      "sha256": "942fd0d9c314b10a0d798dd50e3c769099b8150abd3817479df2007babfb08ad",
+      "saved_at_utc": "2026-10-06T04:41:52.151115+00:00"
+    },
+    {
+      "file": "01-search-state.json",
+      "bytes": 384,
+      "sha256": "eef9da429d1a19c577f4c8e7371c4ca708c1416f251c8e217f1c122f395da134",
+      "saved_at_utc": "2026-10-06T04:41:59.367615+00:00"
+    },
+    {
+      "file": "02-encoded-product-title.jpg",
+      "bytes": 111222,
+      "sha256": "b1b67930e6e1c050b5fc2cc67ee483334a2bc8311c4dbc21e351f2215d0d1c13",
+      "saved_at_utc": "2026-10-06T04:42:15.684927+00:00"
+    },
+    {
+      "file": "02-encoded-product-title.json",
+      "bytes": 3912,
+      "sha256": "fb7692b1b592aa98eb7a895dc0b86143527c9bc50e71a445140251983f616950",
+      "saved_at_utc": "2026-10-06T04:42:15.706471+00:00"
+    },
+    {
+      "file": "03-api-summary-hidden.jpg",
+      "bytes": 41853,
+      "sha256": "0c24ff6ed66b813466cf2a0ff058acf85d3e292d223e543d20d85259e2d2bc49",
+      "saved_at_utc": "2026-10-06T04:43:09.868847+00:00"
+    },
+    {
+      "file": "03-api-summary-hidden.json",
+      "bytes": 422,
+      "sha256": "185ec97aca09486e85689c6bcd0eb38c648e4f7119413e79da83537adeb51113",
+      "saved_at_utc": "2026-10-06T04:43:09.891691+00:00"
+    },
+    {
+      "file": "04-source-link-wrong-dataset.jpg",
+      "bytes": 41853,
+      "sha256": "0c24ff6ed66b813466cf2a0ff058acf85d3e292d223e543d20d85259e2d2bc49",
+      "saved_at_utc": "2026-10-06T04:43:19.776681+00:00"
+    },
+    {
+      "file": "04-source-link-wrong-dataset.json",
+      "bytes": 341,
+      "sha256": "b92aff939d1a00170fb5dded0b9d472cb30f9f80a56b518def1b4335a7b932e7",
+      "saved_at_utc": "2026-10-06T04:43:19.725617+00:00"
+    },
+    {
+      "file": "05-conflicting-freshness.jpg",
+      "bytes": 62914,
+      "sha256": "c5674ead24d929c56eceb0d801d0e2af2af265ee7935dd469eaa962634bd90d0",
+      "saved_at_utc": "2026-10-06T04:43:39.055513+00:00"
+    },
+    {
+      "file": "05-conflicting-freshness.json",
+      "bytes": 2285,
+      "sha256": "4f7f5f3d6a8bf6d5559bb61be25e6a0934c31efb93829715e5078579db4676e1",
+      "saved_at_utc": "2026-10-06T04:43:38.240346+00:00"
+    },
+    {
+      "file": "data-contract-observations.json",
+      "bytes": 5384,
+      "sha256": "f347cfb0adddcf9a1ffb48f21e06fc01d9d5046ffd14b46a719da6468b5622da",
+      "saved_at_utc": "2026-10-06T04:43:51.993578+00:00"
+    },
+    {
+      "file": "qa-reproduce-output.txt",
+      "bytes": 1909,
+      "sha256": "97096cb5d2a438ae4a06936a7d0a557153010a93c81fd4b0a991335815ff669b",
+      "saved_at_utc": "2026-10-06T04:43:44.865264+00:00"
+    },
+    {
+      "file": "qa-reproduce.mjs",
+      "bytes": 8283,
+      "sha256": "5cb8fe7be18c67d639ae75c803a96f7df53ae3b1b60f9b2dabb819ebbfb783b4",
+      "saved_at_utc": "2026-10-06T04:43:43.686192+00:00"
+    }
+  ],
+  "notes": [
+    "saved_at_utc is filesystem save time, not original data collection time",
+    "Browser screenshots and DOM observations are public OpenFin UI only",
+    "qa-reproduce uses memory fixtures; see output for simulated versus live evidence"
+  ]
+}
