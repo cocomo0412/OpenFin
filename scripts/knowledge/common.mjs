@@ -28,14 +28,18 @@ export const writeJson = (p, value) => {
 };
 export const writeText = (p,text) => {
   fs.mkdirSync(path.dirname(p), {recursive:true});
-  // OneDrive may briefly lock an existing file while synchronizing it.
-  for(let attempt=0;;attempt++) {
-    try { fs.writeFileSync(p,text); return; }
-    catch(error) {
-      if(process.platform!=='win32'||!['UNKNOWN','EBUSY','EPERM'].includes(error.code)||attempt>=5) throw error;
-      Atomics.wait(new Int32Array(new SharedArrayBuffer(4)),0,0,200*(attempt+1));
+  const temporary = `${p}.${process.pid}.${crypto.randomUUID()}.tmp`;
+  try {
+    fs.writeFileSync(temporary, text, { flag: 'wx', flush: true });
+    // Retry replacement, never truncate the last successful destination.
+    for(let attempt=0;;attempt++) {
+      try { fs.renameSync(temporary,p); return; }
+      catch(error) {
+        if(process.platform!=='win32'||!['UNKNOWN','EBUSY','EPERM','EACCES'].includes(error.code)||attempt>=5) throw error;
+        Atomics.wait(new Int32Array(new SharedArrayBuffer(4)),0,0,200*(attempt+1));
+      }
     }
-  }
+  } finally { fs.rmSync(temporary, { force: true }); }
 };
 export const stable = (value) => {
   if (Array.isArray(value)) return `[${value.map(stable).join(',')}]`;

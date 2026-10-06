@@ -48,10 +48,10 @@ test('explorer renders canonical publisher and authoritative freshness', () => {
     });
   `, context);
 
-  assert.match(context.renderedEvidence, /publisher: 공식 기관/);
+  assert.match(context.renderedEvidence, /제공기관: 공식 기관/);
   assert.doesNotMatch(context.renderedEvidence, /잘못된 과거 값/);
-  assert.match(context.renderedEvidence, /freshness: stale/);
-  assert.match(context.renderedEvidence, /last verified: 2026-07-28T00:00:00\.000Z/);
+  assert.match(context.renderedEvidence, /최신 여부 재확인 필요/);
+  assert.match(context.renderedEvidence, /출처 확인 기록: 2026-07-28T00:00:00\.000Z/);
 });
 
 test('explorer renders unknown when a referenced source has no status record', () => {
@@ -63,5 +63,6 @@ test('explorer renders unknown when a referenced source has no status record', (
     });
   `, context);
 
-  assert.match(context.renderedEvidence, /freshness: unknown/);
+  assert.match(context.renderedEvidence, /확인 기록 없음/);
+  assert.doesNotMatch(context.renderedEvidence, /출처 점검 완료/);
 });

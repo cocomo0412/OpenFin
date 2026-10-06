@@ -1,0 +1,49 @@
+{
+  "exit_code": 0,
+  "signal": null,
+  "catalog_unchanged": false,
+  "temporary_bundle_directory": "C:\\Users\\resti\\AppData\\Local\\Temp\\openfin-sec-bundle-Ff4S8J",
+  "files": [
+    {
+      "name": "free.js",
+      "size": 2247890,
+      "sha256": "bde31b5e0370dbf6cde98ce5f144a27d613d049f7dcc37e3549ca7ef45845939"
+    },
+    {
+      "name": "free.js.map",
+      "size": 3662676,
+      "sha256": "102b493e4259c572281ca6b837bcc89d6e9f33e895d9dd03a29dc59c982c667b"
+    },
+    {
+      "name": "README.md",
+      "size": 108,
+      "sha256": "dac15f7782f5b342ad569ffacddf9cee459d66fbc027ffba1109ef2f456657a1"
+    }
+  ],
+  "catalog_rebuild": {
+    "changed_fields": [
+      "source_sha256"
+    ],
+    "reason": "Raw source file checksum differs between local CRLF checkout and committed LF source; item content and dates identical",
+    "restored_to_baseline_after_local_smoke": true,
+    "source_data_changed": false
+  },
+  "patched_dependency_bundle_evidence": {
+    "package": "fast-uri",
+    "version": "3.1.8",
+    "source_map_modules": [
+      {
+        "source": "../../../../OneDrive/%EB%AC%B8%EC%84%9C/ChatGPT/%EA%B8%88%EC%9C%B5%EC%98%A8%ED%86%A8%EB%A1%9C%EC%A7%80/OpenFin-team-improvement/mcp/node_modules/fast-uri/lib/utils.js",
+        "sha256": "610a6cfa7b1c9d5689443b3a3d14af4c24afed51ef5852495ae1489ae455a9f4"
+      },
+      {
+        "source": "../../../../OneDrive/%EB%AC%B8%EC%84%9C/ChatGPT/%EA%B8%88%EC%9C%B5%EC%98%A8%ED%86%A8%EB%A1%9C%EC%A7%80/OpenFin-team-improvement/mcp/node_modules/fast-uri/lib/schemes.js",
+        "sha256": "c2c61d3fd0bc63a587100928a399e75be8c420d210c439d75f7346da4aa4f3c3"
+      },
+      {
+        "source": "../../../../OneDrive/%EB%AC%B8%EC%84%9C/ChatGPT/%EA%B8%88%EC%9C%B5%EC%98%A8%ED%86%A8%EB%A1%9C%EC%A7%80/OpenFin-team-improvement/mcp/node_modules/fast-uri/index.js",
+        "sha256": "62876e5094b43ba2ba90374613dab4576fd337063dad20b4b07cc5e3a7e2303b"
+      }
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 // One local command; no automatic Git push or deployment of unreviewed output.
 import fs from 'node:fs';
 import path from 'node:path';
-import { spawnSync } from 'node:child_process';
+import { transactionalEntry, runTrackedStage } from './refresh-transaction.mjs';
 import { fileURLToPath } from 'node:url';
 import { ROOT, json, writeJson } from './common.mjs';
 
@@ -51,7 +51,7 @@ export function assertCurrentInputs(root,basisDate,read=json) {
   for(const failure of additional.failures) if(kst(failure.checked_at||additional.collected_at)!==basisDate) throw new Error('Additional Finlife failure has not been checked today');
 }
 
-function main() {
+async function main() {
   const args=process.argv.slice(2),retry=args.includes('--retry-failed'),dry=args.includes('--dry-run');
   const from=args.includes('--from')?args[args.indexOf('--from')+1]:null;
   const all=stages(retry),offset=from?all.findIndex(s=>s.id===from):0;
@@ -80,7 +80,7 @@ function main() {
       console.log(`START ${stage.id}`);
       const began=Date.now();
       const command=stage.runtime==='node'?process.execPath:(process.env.OPENFIN_PYTHON||'python');
-      const result=spawnSync(command,[...(stage.file?[stage.file]:[]),...stage.args],{cwd:ROOT,env:{...process.env,PYTHONIOENCODING:'utf-8'},encoding:'utf8',maxBuffer:16*1024*1024});
+      const result=await runTrackedStage(command,[...(stage.file?[stage.file]:[]),...stage.args],{cwd:ROOT,env:{...process.env,PYTHONIOENCODING:'utf-8'},encoding:'utf8',maxBuffer:16*1024*1024});
       let output=(result.stdout||'')+(result.stderr||'');
       for(const secret of secrets)output=output.split(secret).join('[REDACTED]');
       fs.writeFileSync(path.join(working,`pipeline-${stage.id}.log`),output);
@@ -99,4 +99,5 @@ function main() {
   } catch(error) {report.status='failed';writeJson(reportFile,report);throw error;}
   finally {fs.unlinkSync(lock);}
 }
-if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url)) main();
+await transactionalEntry(import.meta.url);
+if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url)) await main();

@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import { writeText } from './common.mjs';
 import path from 'node:path';
 import Ajv2020 from 'ajv/dist/2020.js';
 import addFormats from 'ajv-formats';
@@ -40,7 +41,7 @@ for (const domain of ['deposit', 'saving']) {
     if (!validateOffer?.(offer)) failures.push(`${domain}:${offer.id}: ${(validateOffer?.errors || []).map(error => `${error.instancePath || '/'} ${error.message}`).join('; ')}`);
     for (const option of offer.options) if (option.schema_validation_receipt.validation_status !== 'valid') failures.push(`${domain}:${offer.id}:${option.option_id}: invalid option schema`);
   }
-  fs.writeFileSync(file, offers.map(offer => JSON.stringify(offer)).join('\n') + (offers.length ? '\n' : ''));
+  writeText(file, offers.map(offer => JSON.stringify(offer)).join('\n') + (offers.length ? '\n' : ''));
 }
 
 console.log(JSON.stringify({ ok: failures.length === 0, failures, validated_at: now }, null, 2));

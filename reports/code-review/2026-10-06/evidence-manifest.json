@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-06",
+  "algorithm": "sha256",
+  "paths_relative_to": "repository root",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 7452,
+      "sha256": "4378e2989796aafe3f35d6466395caff2b458f345e5f7fcce5a4fdde28fee40a"
+    },
+    {
+      "path": "handbook/development.md",
+      "bytes": 14086,
+      "sha256": "66c76d304a0601ae50e20caa1a5f758ee3b469459726161a07353ab8dc19ed09"
+    },
+    {
+      "path": "handbook/operations.md",
+      "bytes": 20008,
+      "sha256": "06e6f94f527c5e707a3cecc88fdeeffd9d451a8f9b2946e818194fc06034590c"
+    },
+    {
+      "path": "handbook/CHANGELOG.md",
+      "bytes": 3614,
+      "sha256": "16b170120bceb4ca950cac7cb5f5b9736480318e756082c706997b966dcc9959"
+    },
+    {
+      "path": "reports/code-review/README.md",
+      "bytes": 771,
+      "sha256": "d9bc6b91056b6d1781a4a6064ecb6b94d26c6e9d9ba1dcd8c63124a9860a457b"
+    },
+    {
+      "path": "reports/code-review/2026-10-06/.gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "reports/code-review/2026-10-06/audit-structure.mjs",
+      "bytes": 3017,
+      "sha256": "6307cf5551133eb3e1c6d3e45f8632c16d521747eadce7bffe74e592bf70d82e"
+    },
+    {
+      "path": "reports/code-review/2026-10-06/coverage-summary.json",
+      "bytes": 68385,
+      "sha256": "ac7d08dfb76a4ff95fd7c0cfb868dbcece7d228f43cf14cb7bd2b1d506f151c9"
+    },
+    {
+      "path": "reports/code-review/2026-10-06/inventory.json",
+      "bytes": 42839,
+      "sha256": "cfdaae6957923bce86f608136a1ba873d427f7e7f992b26002e59af9a2836ae2"
+    },
+    {
+      "path": "reports/code-review/2026-10-06/mcp-coverage.json",
+      "bytes": 43804,
+      "sha256": "70eddb7bad0d448b6c8899f29e00bd36994f66771ee1b2081799356fb9925f1f"
+    },
+    {
+      "path": "reports/code-review/2026-10-06/mcp-review.md",
+      "bytes": 16444,
+      "sha256": "f892a52cc40687e0058ba34d9f9398f9e88501a66d6e95a93d9338bda1df6e86"
+    },
+    {
+      "path": "reports/code-review/2026-10-06/pipeline-coverage.json",
+      "bytes": 47587,
+      "sha256": "7a08f8ac228c0d5716e294ed334910379f3c9012f04d21311ff7d655a01dd327"
+    },
+    {
+      "path": "reports/code-review/2026-10-06/pipeline-review.md",
+      "bytes": 8601,
+      "sha256": "ae773dd98725374ad3c956f54b66f3d56478844783e22a338dc7da6fc38a875a"
+    },
+    {
+      "path": "reports/code-review/2026-10-06/repository-checks.md",
+      "bytes": 4563,
+      "sha256": "ffadde9c6a2c7ec45105c00b82514b0fc002e54b470bf82ea958377d8a3b3cf1"
+    },
+    {
+      "path": "reports/code-review/2026-10-06/repository-coverage.json",
+      "bytes": 16095,
+      "sha256": "f6e99370f37cfa07e246bf0c3b47d3e9529d5a8a84902d72e03cb20e0aa18d95"
+    },
+    {
+      "path": "reports/code-review/2026-10-06/review.md",
+      "bytes": 12173,
+      "sha256": "27bc853ce4a258ffc76e8d0057ac099a90d0859451259ff1d7c7bb3d883c8fec"
+    },
+    {
+      "path": "reports/code-review/2026-10-06/structure-scan.json",
+      "bytes": 18892,
+      "sha256": "8978991e63265a0eb648085a8bd4b2995f92027dcfe56ba098b96ec0e3f7b579"
+    },
+    {
+      "path": "reports/code-review/2026-10-06/verification.json",
+      "bytes": 1538,
+      "sha256": "f5e131ffc91b5e6e4f5d9fec862040a186f25ef67e397a4da193fb62dacfdf5a"
+    },
+    {
+      "path": "reports/code-review/2026-10-06/web-ci-coverage.json",
+      "bytes": 21577,
+      "sha256": "26038c86c8a8adefc74bd5819a8383e1f33dc2fd3dc120c31b869954b664afae"
+    },
+    {
+      "path": "reports/code-review/2026-10-06/web-ci-review.md",
+      "bytes": 10670,
+      "sha256": "a125807c8b756b5c9d4f68b1de7b731c271e3122f40aa3da8385da9c330e65fb"
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 import { createMcpHandler } from "agents/mcp";
+export { OwnerProofReplayObject } from "./owner-proof-replay-object.ts";
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { z } from "zod";
 import { generationCacheKey, isCurrentGeneration, SingleFlight } from "./generation-cache";
@@ -435,7 +436,6 @@ type RequestDiagnostics = {
   case_id: string | null;
   colo: string | null;
   tool: string | null;
-  query: string | null;
   query_class: string | null;
   cache_bytes_before: number;
   cache_hits: number;
@@ -456,15 +456,15 @@ function diagnosticNow(): number {
   return performance.now();
 }
 
-function requestDiagnostics(request: Request): RequestDiagnostics | undefined {
-  const header = (name: string): string | null => request.headers.get(name)?.slice(0, 256) ?? null;
-  const diagnosticQuery = (value: string | null): string | null => {
-    if (value === null) return null;
-    try { return decodeURIComponent(value); } catch { return value; }
+function requestDiagnostics(request: Request, env: Env): RequestDiagnostics | undefined {
+  if (env.OPENFIN_DIAGNOSTICS_ENABLED !== "true") return undefined;
+  const enumHeader = (name: string, allowed: readonly string[]): string | null => {
+    const value = request.headers.get(name);
+    return value !== null && allowed.includes(value) ? value : null;
   };
   const colo = (request as Request & { cf?: { colo?: unknown } }).cf?.colo;
   return request.headers.get(DIAGNOSTICS_HEADER) === "1"
-    ? { started_at: diagnosticNow(), request_id: header("x-openfin-request-id"), case_id: header("x-openfin-case-id"), colo: typeof colo === "string" ? colo.slice(0, 64) : null, tool: header("x-openfin-tool"), query: diagnosticQuery(header("x-openfin-query")), query_class: header("x-openfin-query-class"), cache_bytes_before: searchCacheBudget.snapshot().bytes + exactFetchCacheBudget.snapshot().bytes + artifactCacheBudget.snapshot().bytes, cache_hits: 0, cache_misses: 0, in_flight_reuses: 0, evictions: 0, budget_exceeded: 0, shard_loads: [] }
+    ? { started_at: diagnosticNow(), request_id: crypto.randomUUID(), case_id: null, colo: typeof colo === "string" && /^[A-Z]{3}$/.test(colo) ? colo : null, tool: enumHeader("x-openfin-tool", ["search", "fetch", "exports", "discover", "compare", "recommend"]), query_class: enumHeader("x-openfin-query-class", ["search", "fetch", "other"]), cache_bytes_before: searchCacheBudget.snapshot().bytes + exactFetchCacheBudget.snapshot().bytes + artifactCacheBudget.snapshot().bytes, cache_hits: 0, cache_misses: 0, in_flight_reuses: 0, evictions: 0, budget_exceeded: 0, shard_loads: [] }
     : undefined;
 }
 
@@ -497,7 +497,6 @@ function diagnosticsSummary(diagnostics: RequestDiagnostics, response: Response,
     deployment_commit: env.DEPLOYMENT_COMMIT ?? "unknown",
     generation_id: env.ARTIFACT_GENERATION ?? (manifestGeneration === "uninitialized" ? null : manifestGeneration),
     tool: diagnostics.tool,
-    query: diagnostics.query,
     query_class: diagnostics.query_class,
     http_status: response.status,
     request_ms: totalMs,
@@ -547,7 +546,7 @@ function diagnosticsSummary(diagnostics: RequestDiagnostics, response: Response,
       queued: queuedSearchShardLoads.length,
       max_concurrent: MAX_CONCURRENT_SEARCH_SHARD_LOADS,
     },
-    shard_loads: diagnostics.shard_loads,
+    shard_loads: diagnostics.shard_loads.map(({ error: _error, ...safe }) => safe),
   };
 }
 
@@ -3214,7 +3213,7 @@ function normalizeFinanceSnapshot(raw: Record<string, unknown> | undefined): Rec
     const key = keys.find((candidate) => source[candidate] !== undefined && source[candidate] !== null && source[candidate] !== "");
     return key ? financeNumber(source[key], field) : null;
   };
-  const rawLiabilities = raw.liabilities === undefined ? [] : Array.isArray(raw.liabilities) ? raw.liabilities : [raw.liabilities];
+  const rawLiabilities = raw.liabilities == null ? [] : Array.isArray(raw.liabilities) ? raw.liabilities : [raw.liabilities];
   const liabilities = rawLiabilities.map((value, index) => {
     if (!isRecord(value)) throw new Error(`liabilities[${index}] must be an object`);
     const balance = firstNumber(["balance_krw", "balance", "principal_krw"], `liabilities[${index}].balance_krw`, value);
@@ -3229,15 +3228,15 @@ function normalizeFinanceSnapshot(raw: Record<string, unknown> | undefined): Rec
     if (!isRecord(value)) throw new Error(`goals[${index}] must be an object`);
     const target = firstNumber(["target_amount_krw", "amount_krw", "amount"], `goals[${index}].target_amount_krw`, value);
     if (target === null) throw new Error(`goals[${index}].target_amount_krw is required`);
-    return { id: String(value.id ?? `goal-${index + 1}`), target_amount_krw: target, current_funding_krw: firstNumber(["current_funding_krw", "current_amount_krw", "current"], `goals[${index}].current_funding_krw`, value) ?? 0, target_date: value.target_date ?? null, liquidity_need: String(value.liquidity_need ?? "unknown") };
+    return { id: String(value.id ?? `goal-${index + 1}`), target_amount_krw: target, current_funding_krw: firstNumber(["current_funding_krw", "current_amount_krw", "current"], `goals[${index}].current_funding_krw`, value), target_date: value.target_date ?? null, liquidity_need: String(value.liquidity_need ?? "unknown") };
   }) : [];
   const snapshot: Record<string, unknown> = {
     as_of: raw.as_of ?? raw.profile_as_of ?? null, currency: String(raw.currency ?? "KRW").toUpperCase(),
     monthly_net_income_krw: firstNumber(["monthly_net_income_krw", "monthly_net_income", "monthly_income_krw", "monthly_income"], "monthly_net_income_krw"),
     essential_monthly_expenses_krw: firstNumber(["essential_monthly_expenses_krw", "essential_expenses_krw", "essential_monthly_expenses"], "essential_monthly_expenses_krw") ?? firstNumber(["essential_krw", "essential_monthly_krw", "essential"], "essential_monthly_expenses_krw", expenses),
-    discretionary_monthly_expenses_krw: firstNumber(["discretionary_monthly_expenses_krw", "optional_monthly_expenses_krw", "discretionary_expenses_krw"], "discretionary_monthly_expenses_krw") ?? firstNumber(["discretionary_krw", "optional_krw", "discretionary"], "discretionary_monthly_expenses_krw", expenses) ?? 0,
-    liquid_assets_krw: firstNumber(["liquid_assets_krw", "liquid_assets"], "liquid_assets_krw"), investment_assets_krw: firstNumber(["investment_assets_krw", "investment_assets"], "investment_assets_krw"), other_assets_krw: firstNumber(["other_assets_krw", "other_assets"], "other_assets_krw") ?? 0,
-    liabilities, goals, dependents: Math.trunc(financeNumber(raw.dependents ?? 0, "dependents")), liquidity_requirement: raw.liquidity_requirement ?? null,
+    discretionary_monthly_expenses_krw: firstNumber(["discretionary_monthly_expenses_krw", "optional_monthly_expenses_krw", "discretionary_expenses_krw"], "discretionary_monthly_expenses_krw") ?? firstNumber(["discretionary_krw", "optional_krw", "discretionary"], "discretionary_monthly_expenses_krw", expenses),
+    liquid_assets_krw: firstNumber(["liquid_assets_krw", "liquid_assets"], "liquid_assets_krw"), investment_assets_krw: firstNumber(["investment_assets_krw", "investment_assets"], "investment_assets_krw"), other_assets_krw: firstNumber(["other_assets_krw", "other_assets"], "other_assets_krw"),
+    liabilities: raw.liabilities == null ? null : liabilities, goals: Array.isArray(raw.goals) ? goals : null, dependents: Math.trunc(financeNumber(raw.dependents ?? 0, "dependents")), liquidity_requirement: raw.liquidity_requirement ?? null,
     risk_tolerance: String(raw.risk_tolerance ?? "unknown"), risk_capacity: String(raw.risk_capacity ?? "unknown"), constraints: isRecord(raw.constraints) ? raw.constraints : {}, asset_allocation: isRecord(raw.asset_allocation) ? raw.asset_allocation : {}, insurance_coverage: isRecord(raw.insurance_coverage) ? raw.insurance_coverage : {},
   };
   if (snapshot.as_of !== null && (typeof snapshot.as_of !== "string" || !/^\d{4}-\d{2}-\d{2}$/.test(snapshot.as_of))) throw new Error("as_of must use YYYY-MM-DD");
@@ -3284,35 +3283,46 @@ const STANDARD_OUTPUT_SCHEMA = z.object({
   limitations: z.array(z.unknown()),
 }).passthrough();
 
-function financeMetric(name: string, value: number | null, formula: string, inputs: Record<string, unknown>, snapshot: Record<string, unknown>, assumptions: string[] = []): Record<string, unknown> {
-  return { metric: name, value: value === null ? null : Math.round(value * 1_000_000) / 1_000_000, formula, inputs, assumptions, calculated_at: snapshot.as_of ?? "unspecified", policy_version: PERSONAL_FINANCE_POLICY_VERSION };
+function financeMetric(name: string, value: number | null, formula: string, inputs: Record<string, unknown>, snapshot: Record<string, unknown>, assumptions: string[] = [], missingInformation: string[] = []): Record<string, unknown> {
+  return { metric: name, value: value === null ? null : Math.round(value * 1_000_000) / 1_000_000, formula, inputs, assumptions, missing_information: [...new Set(missingInformation)], calculated_at: snapshot.as_of ?? "unspecified", policy_version: PERSONAL_FINANCE_POLICY_VERSION };
 }
 
 function financeMetrics(snapshot: Record<string, unknown>): Record<string, Record<string, unknown>> {
+  const known = (value: unknown): value is number => typeof value === "number" && Number.isFinite(value);
+  const missing = (...keys: string[]) => keys.filter(key => !known(snapshot[key]));
   const liabilities = Array.isArray(snapshot.liabilities) ? snapshot.liabilities.filter(isRecord) : [];
-  const debt = liabilities.reduce((sum, item) => sum + Number(item.balance_krw ?? 0), 0);
-  const debtService = liabilities.reduce((sum, item) => sum + Number(item.monthly_payment_krw ?? 0), 0);
+  const liabilityMissing = (field: string) => !Array.isArray(snapshot.liabilities) ? ["liabilities"] : liabilities.flatMap((item, index) => known(item[field]) ? [] : [`liabilities[${index}].${field}`]);
+  const debtMissing = liabilityMissing("balance_krw");
+  const debtServiceMissing = liabilityMissing("monthly_payment_krw");
+  const debt = debtMissing.length ? null : liabilities.reduce((sum, item) => sum + Number(item.balance_krw), 0);
+  const debtService = debtServiceMissing.length ? null : liabilities.reduce((sum, item) => sum + Number(item.monthly_payment_krw), 0);
   const income = typeof snapshot.monthly_net_income_krw === "number" ? snapshot.monthly_net_income_krw : null;
   const essential = typeof snapshot.essential_monthly_expenses_krw === "number" ? snapshot.essential_monthly_expenses_krw : null;
-  const discretionary = Number(snapshot.discretionary_monthly_expenses_krw ?? 0);
-  const surplus = income === null || essential === null ? null : income - essential - discretionary - debtService;
+  const discretionary = known(snapshot.discretionary_monthly_expenses_krw) ? snapshot.discretionary_monthly_expenses_krw : null;
+  const surplusMissing = [...missing("monthly_net_income_krw", "essential_monthly_expenses_krw", "discretionary_monthly_expenses_krw"), ...debtServiceMissing];
+  const surplus = income === null || essential === null || discretionary === null || debtService === null ? null : income - essential - discretionary - debtService;
   const liquid = typeof snapshot.liquid_assets_krw === "number" ? snapshot.liquid_assets_krw : null;
   const weightedItems = liabilities.filter((item) => typeof item.annual_rate_percent === "number");
   const weightedBalance = weightedItems.reduce((sum, item) => sum + Number(item.balance_krw ?? 0), 0);
   const weightedRate = weightedBalance ? weightedItems.reduce((sum, item) => sum + Number(item.balance_krw) * Number(item.annual_rate_percent), 0) / weightedBalance : null;
   const liquidity = isRecord(snapshot.liquidity_requirement) ? (typeof snapshot.liquidity_requirement.required_amount_krw === "number" ? snapshot.liquidity_requirement.required_amount_krw : typeof snapshot.liquidity_requirement.months === "number" && essential !== null ? snapshot.liquidity_requirement.months * essential : null) : typeof snapshot.liquidity_requirement === "number" ? snapshot.liquidity_requirement : null;
-  const coverage = isRecord(snapshot.insurance_coverage) && typeof snapshot.insurance_coverage.required_coverage_krw === "number" ? Math.max(0, snapshot.insurance_coverage.required_coverage_krw - Number(snapshot.insurance_coverage.current_coverage_krw ?? 0)) : null;
-  const assets = Number(snapshot.liquid_assets_krw ?? 0) + Number(snapshot.investment_assets_krw ?? 0) + Number(snapshot.other_assets_krw ?? 0);
+  const coverageInput = isRecord(snapshot.insurance_coverage) ? snapshot.insurance_coverage : {};
+  const coverageMissing = ["required_coverage_krw", "current_coverage_krw"].filter(key => !known(coverageInput[key])).map(key => `insurance_coverage.${key}`);
+  const coverage = coverageMissing.length ? null : Math.max(0, Number(coverageInput.required_coverage_krw) - Number(coverageInput.current_coverage_krw));
+  const assetMissing = missing("liquid_assets_krw", "investment_assets_krw", "other_assets_krw");
+  const assets = assetMissing.length ? null : Number(snapshot.liquid_assets_krw) + Number(snapshot.investment_assets_krw) + Number(snapshot.other_assets_krw);
+  const goals = Array.isArray(snapshot.goals) ? snapshot.goals.filter(isRecord) : [];
+  const goalMissing = !Array.isArray(snapshot.goals) ? ["goals"] : goals.flatMap((goal, index) => ["target_amount_krw", "current_funding_krw"].filter(key => !known(goal[key])).map(key => `goals[${index}].${key}`));
   return {
-    net_worth: financeMetric("net_worth", assets - debt, "liquid_assets + investment_assets + other_assets - liability_balances", { assets_krw: assets, liabilities_krw: debt }, snapshot),
-    monthly_surplus: financeMetric("monthly_surplus", surplus, "net_income - essential_expenses - discretionary_expenses - debt_service", { income_krw: income, essential_krw: essential, discretionary_krw: discretionary, debt_service_krw: debtService }, snapshot),
-    savings_rate: financeMetric("savings_rate", income && surplus !== null ? surplus / income : null, "monthly_surplus / monthly_net_income", { income_krw: income, surplus_krw: surplus }, snapshot, income ? [] : ["income must be positive"]),
-    emergency_fund_months: financeMetric("emergency_fund_months", liquid !== null && essential ? liquid / essential : null, "liquid_assets / essential_monthly_expenses", { liquid_assets_krw: liquid, essential_krw: essential }, snapshot, ["only liquid assets are counted"]),
-    debt_service_ratio: financeMetric("debt_service_ratio", income ? debtService / income : null, "monthly_debt_service / monthly_net_income", { debt_service_krw: debtService, income_krw: income }, snapshot),
+    net_worth: financeMetric("net_worth", assets !== null && debt !== null ? assets - debt : null, "liquid_assets + investment_assets + other_assets - liability_balances", { assets_krw: assets, liabilities_krw: debt }, snapshot, [], [...assetMissing, ...debtMissing]),
+    monthly_surplus: financeMetric("monthly_surplus", surplus, "net_income - essential_expenses - discretionary_expenses - debt_service", { income_krw: income, essential_krw: essential, discretionary_krw: discretionary, debt_service_krw: debtService }, snapshot, [], surplusMissing),
+    savings_rate: financeMetric("savings_rate", income && surplus !== null ? surplus / income : null, "monthly_surplus / monthly_net_income", { income_krw: income, surplus_krw: surplus }, snapshot, income ? [] : ["income must be positive"], surplusMissing),
+    emergency_fund_months: financeMetric("emergency_fund_months", liquid !== null && essential ? liquid / essential : null, "liquid_assets / essential_monthly_expenses", { liquid_assets_krw: liquid, essential_krw: essential }, snapshot, ["only liquid assets are counted"], missing("liquid_assets_krw", "essential_monthly_expenses_krw")),
+    debt_service_ratio: financeMetric("debt_service_ratio", income && debtService !== null ? debtService / income : null, "monthly_debt_service / monthly_net_income", { debt_service_krw: debtService, income_krw: income }, snapshot, [], [...missing("monthly_net_income_krw"), ...debtServiceMissing]),
     weighted_debt_rate_percent: financeMetric("weighted_debt_rate_percent", weightedRate, "sum(balance * annual_rate) / sum(balance)", { rate_known_balance_krw: weightedBalance, liability_count: weightedItems.length }, snapshot, ["liabilities without a known rate are excluded"]),
     liquidity_gap: financeMetric("liquidity_gap", liquidity !== null && liquid !== null ? Math.max(0, liquidity - liquid) : null, "max(0, required_liquidity - liquid_assets)", { required_liquidity_krw: liquidity, liquid_assets_krw: liquid }, snapshot),
-    goal_funding_gap: financeMetric("goal_funding_gap", (Array.isArray(snapshot.goals) ? snapshot.goals.filter(isRecord) : []).reduce((sum, goal) => sum + Math.max(0, Number(goal.target_amount_krw) - Number(goal.current_funding_krw ?? 0)), 0), "sum(max(0, target_amount - current_funding))", { goal_count: Array.isArray(snapshot.goals) ? snapshot.goals.length : 0 }, snapshot),
-    insurance_coverage_gap: financeMetric("insurance_coverage_gap", coverage, "max(0, required_coverage - current_coverage)", {}, snapshot, ["coverage need must be explicitly supplied"]),
+    goal_funding_gap: financeMetric("goal_funding_gap", goalMissing.length ? null : goals.reduce((sum, goal) => sum + Math.max(0, Number(goal.target_amount_krw) - Number(goal.current_funding_krw)), 0), "sum(max(0, target_amount - current_funding))", { goal_count: Array.isArray(snapshot.goals) ? snapshot.goals.length : null }, snapshot, [], goalMissing),
+    insurance_coverage_gap: financeMetric("insurance_coverage_gap", coverage, "max(0, required_coverage - current_coverage)", {}, snapshot, ["coverage need must be explicitly supplied"], coverageMissing),
   };
 }
 
@@ -3506,7 +3516,7 @@ export default {
       return openAiAppsChallengeResponse(env);
     }
 
-    const diagnostics = requestDiagnostics(request);
+    const diagnostics = requestDiagnostics(request, env);
     const server = createServer(env, diagnostics, request.signal);
     // Keep the request promise open until the tool handler has produced its
     // result. Streamable SSE responses can otherwise be closed by the

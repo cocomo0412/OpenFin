@@ -1,0 +1,1168 @@
+{
+  "review_date": "2026-10-06",
+  "reviewer_role": "security_design_and_implementation_review",
+  "head": "1e6d7f025e0decede75c82495a9ab9854ba536da",
+  "operational_baseline_provided": "785add92",
+  "scope": "tracked mcp/src/**, mcp/scripts/**, mcp/tests/**, mcp package/tsconfig/wrangler and env type declarations",
+  "classification_definitions": {
+    "reviewed": "focused module/config source reading; not a proof of no defects",
+    "static": "targeted static/import/side-effect scanning with partial reading",
+    "test-only": "existing local tests executed; no claim of security completeness",
+    "generated": "generated artifact inspected at metadata/contract boundary",
+    "limitation": "not reviewed beyond inventory"
+  },
+  "limitations": [
+    "No production traffic sent; npm registry audit and public maintainer advisories read",
+    "No real credentials read; synthetic fixtures only",
+    "npm lock audit and selected maintainer advisory/import-path review completed; not a full dependency source audit",
+    "No full Worker transport, isolate concurrency or cloud settings validation",
+    "Large index.ts selectively inspected; coverage depth per entry is authoritative",
+    "No source modifications; only this JSON and mcp-review.md written"
+  ],
+  "verification": {
+    "read_only_test_files": 24,
+    "tests_passed": 119,
+    "tests_failed": 0,
+    "excluded_test_files": [
+      "canary-validate.test.mjs",
+      "deploy-scope.test.mjs",
+      "soak-test.test.mjs",
+      "tool-schema-contract.test.mjs",
+      "verify-release.test.mjs"
+    ],
+    "typecheck": "passed",
+    "production_deploy": "not_performed",
+    "website_deploy_needed": false,
+    "mcp_deploy_needed": false,
+    "dependency_audit": {
+      "command": "npm audit --package-lock-only --ignore-scripts --json --logs-max=0 --registry=https://registry.npmjs.org",
+      "exit_code": 1,
+      "packages_by_severity": {
+        "critical": 1,
+        "high": 2,
+        "moderate": 4,
+        "total": 7
+      },
+      "package_summary": [
+        {
+          "name": "fast-uri",
+          "version": "3.1.6",
+          "severity": "high",
+          "free_memory_bundle": true,
+          "exploitation_path_proven": false
+        },
+        {
+          "name": "proxy-addr",
+          "version": "2.0.7",
+          "severity": "critical",
+          "free_memory_bundle": false
+        },
+        {
+          "name": "hono",
+          "version": "4.13.5",
+          "severity": "moderate",
+          "free_memory_bundle": false
+        },
+        {
+          "name": "ip-address",
+          "version": "10.7.0",
+          "severity": "moderate",
+          "free_memory_bundle": false
+        },
+        {
+          "name": "undici",
+          "version": "7.29.0",
+          "severity": "high",
+          "free_memory_bundle": false,
+          "dev": true
+        },
+        {
+          "name": "miniflare",
+          "version": "5.20260911.0-alpha",
+          "severity": "moderate",
+          "free_memory_bundle": false,
+          "dev": true
+        },
+        {
+          "name": "wrangler",
+          "version": "4.131.1",
+          "severity": "moderate",
+          "free_memory_bundle": false,
+          "dev": true
+        }
+      ],
+      "install_or_fix_performed": false,
+      "analysis_bundle_written": false
+    }
+  },
+  "summary": {
+    "files": 95,
+    "classification_counts": {
+      "generated": 4,
+      "reviewed": 47,
+      "static": 20,
+      "test-only": 24
+    }
+  },
+  "files": [
+    {
+      "path": "mcp/free-env.d.ts",
+      "classification": "generated",
+      "review_depth": "generated type declarations and environment boundary; no hand audit of runtime library declarations",
+      "execution": "not_executed",
+      "production_reachability": "configuration_or_generated_type",
+      "findings": [],
+      "bytes": 606910,
+      "lines": 15385,
+      "sha256": "c322ad2101a3d1c4b61eb1e2a9a5abfb30dadb723a898fb7b1f0a8dfac638da9"
+    },
+    {
+      "path": "mcp/package-lock.json",
+      "classification": "generated",
+      "review_depth": "lock metadata plus online npm audit and selected maintainer-advisory/import-path review; no install/fix",
+      "execution": "npm_audit_exit_1",
+      "production_reachability": "configuration_or_generated_type",
+      "findings": [],
+      "bytes": 149194,
+      "lines": 4201,
+      "sha256": "c3871f9857b9d8e9eec396fb5537d28bd10ce3d0424e96a74629efefe8650fa8"
+    },
+    {
+      "path": "mcp/package.json",
+      "classification": "reviewed",
+      "review_depth": "full local configuration inspection",
+      "execution": "not_executed",
+      "production_reachability": "configuration_or_generated_type",
+      "findings": [],
+      "bytes": 1628,
+      "lines": 37,
+      "sha256": "549b6c38d2164cfb12d6407734caf9188a8689262b196cbfeca2187805607be2"
+    },
+    {
+      "path": "mcp/scripts/build-free-catalog.mjs",
+      "classification": "reviewed",
+      "review_depth": "entry behavior, remote destination, limits and mutation boundary review; script not executed",
+      "execution": "not_executed",
+      "production_reachability": "operator_or_CI_only",
+      "findings": [],
+      "bytes": 1598,
+      "lines": 25,
+      "sha256": "cfe5e44aecc6ec2011f4b19a6823e5d9c5cc0ec67fd79fdc02ff8f6d50ecbd10"
+    },
+    {
+      "path": "mcp/scripts/canary-validate.mjs",
+      "classification": "reviewed",
+      "review_depth": "entry behavior, remote destination, limits and mutation boundary review; script not executed",
+      "execution": "not_executed",
+      "production_reachability": "operator_or_CI_only",
+      "findings": [],
+      "bytes": 3878,
+      "lines": 46,
+      "sha256": "ba47a8bfece6eb4723df79ec15762562a0a37de89246fd60f597953b600d3d58"
+    },
+    {
+      "path": "mcp/scripts/deploy-free.mjs",
+      "classification": "reviewed",
+      "review_depth": "entry behavior, remote destination, limits and mutation boundary review; script not executed",
+      "execution": "not_executed",
+      "production_reachability": "operator_or_CI_only",
+      "findings": [],
+      "bytes": 3148,
+      "lines": 60,
+      "sha256": "48902a250facb9c0f44ffc31068f105bcb659eaf178c0f2502fe1a19d26f9f93"
+    },
+    {
+      "path": "mcp/scripts/financial-quality-live.mjs",
+      "classification": "static",
+      "review_depth": "targeted source/import and security-pattern inspection; not exhaustive line review",
+      "execution": "not_executed",
+      "production_reachability": "operator_or_CI_only",
+      "findings": [],
+      "bytes": 19174,
+      "lines": 214,
+      "sha256": "d673d1cb477f8ccfcb0dbd8ff9089861a8ac438dbbbb9e9c97ce207843c86177"
+    },
+    {
+      "path": "mcp/scripts/financial-quality.mjs",
+      "classification": "static",
+      "review_depth": "targeted source/import and security-pattern inspection; not exhaustive line review",
+      "execution": "not_executed",
+      "production_reachability": "operator_or_CI_only",
+      "findings": [],
+      "bytes": 4019,
+      "lines": 58,
+      "sha256": "a514cb134468202823546d759c3c2b465a6b8c084391d0aee547b9eb6b501816"
+    },
+    {
+      "path": "mcp/scripts/live-regression-transport.mjs",
+      "classification": "reviewed",
+      "review_depth": "entry behavior, remote destination, limits and mutation boundary review; script not executed",
+      "execution": "not_executed",
+      "production_reachability": "operator_or_CI_only",
+      "findings": [],
+      "bytes": 1407,
+      "lines": 31,
+      "sha256": "7e3e1107ea129f6d294053ef268db8b330cbcc78f50f3e6d579185bb3c896e6e"
+    },
+    {
+      "path": "mcp/scripts/live-regression.mjs",
+      "classification": "static",
+      "review_depth": "targeted source/import and security-pattern inspection; not exhaustive line review",
+      "execution": "not_executed",
+      "production_reachability": "operator_or_CI_only",
+      "findings": [],
+      "bytes": 32113,
+      "lines": 381,
+      "sha256": "144d92d79556c30a9e3412119bab4c4da898e155426a4f77530ef99ad6689800"
+    },
+    {
+      "path": "mcp/scripts/mutation-check.mjs",
+      "classification": "static",
+      "review_depth": "targeted source/import and security-pattern inspection; not exhaustive line review",
+      "execution": "not_executed",
+      "production_reachability": "operator_or_CI_only",
+      "findings": [],
+      "bytes": 6937,
+      "lines": 47,
+      "sha256": "2303f3ae91a809af63675f6951c0e583ec940bbeaf980184ef516d8fc69fd3b6"
+    },
+    {
+      "path": "mcp/scripts/smoke-free.mjs",
+      "classification": "reviewed",
+      "review_depth": "entry behavior, remote destination, limits and mutation boundary review; script not executed",
+      "execution": "not_executed",
+      "production_reachability": "operator_or_CI_only",
+      "findings": [],
+      "bytes": 4325,
+      "lines": 58,
+      "sha256": "303eecce8484233549bbe9186c81b03d0d9ed01813504ffe6a04434fb93505bd"
+    },
+    {
+      "path": "mcp/scripts/smoke.mjs",
+      "classification": "static",
+      "review_depth": "targeted source/import and security-pattern inspection; not exhaustive line review",
+      "execution": "not_executed",
+      "production_reachability": "operator_or_CI_only",
+      "findings": [],
+      "bytes": 9958,
+      "lines": 103,
+      "sha256": "57c69a190a071aee95a95d0f6bd6d8879e65750aa6923a850afb571faf2d010b"
+    },
+    {
+      "path": "mcp/scripts/soak-test.mjs",
+      "classification": "reviewed",
+      "review_depth": "entry behavior, remote destination, limits and mutation boundary review; script not executed",
+      "execution": "not_executed",
+      "production_reachability": "operator_or_CI_only",
+      "findings": [],
+      "bytes": 9115,
+      "lines": 155,
+      "sha256": "e1323b719635310c5d3bb508df5d281d7b6559e47add47479ba6512468f29d55"
+    },
+    {
+      "path": "mcp/scripts/tool-schema-contract.mjs",
+      "classification": "reviewed",
+      "review_depth": "entry behavior, remote destination, limits and mutation boundary review; script not executed",
+      "execution": "not_executed",
+      "production_reachability": "operator_or_CI_only",
+      "findings": [],
+      "bytes": 4258,
+      "lines": 65,
+      "sha256": "41d313b3ee495c13c0c1347305edb98f7ad41b46beb63d7c39a71cf1f50a67e1"
+    },
+    {
+      "path": "mcp/scripts/verify-deploy-scope.mjs",
+      "classification": "reviewed",
+      "review_depth": "entry behavior, remote destination, limits and mutation boundary review; script not executed",
+      "execution": "not_executed",
+      "production_reachability": "operator_or_CI_only",
+      "findings": [],
+      "bytes": 1075,
+      "lines": 13,
+      "sha256": "cfd36c5f89faba3b291f02af1260ea4e0206f6437e165fa55380548497a5db7a"
+    },
+    {
+      "path": "mcp/scripts/verify-free-parity.mjs",
+      "classification": "reviewed",
+      "review_depth": "entry behavior, remote destination, limits and mutation boundary review; script not executed",
+      "execution": "not_executed",
+      "production_reachability": "operator_or_CI_only",
+      "findings": [],
+      "bytes": 1663,
+      "lines": 25,
+      "sha256": "31594ec08f042118434b3a5c901757e4bb52066f2942eed2c359bf851df795ed"
+    },
+    {
+      "path": "mcp/scripts/verify-release.mjs",
+      "classification": "static",
+      "review_depth": "targeted source/import and security-pattern inspection; not exhaustive line review",
+      "execution": "not_executed",
+      "production_reachability": "operator_or_CI_only",
+      "findings": [],
+      "bytes": 4490,
+      "lines": 48,
+      "sha256": "67de9ed4eb418111c30e7ff6b86280254715ca18296d8bf7ff194ad36b3342c5"
+    },
+    {
+      "path": "mcp/src/cache-budget.ts",
+      "classification": "reviewed",
+      "review_depth": "focused functional/security reading of this module",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [],
+      "bytes": 4129,
+      "lines": 123,
+      "sha256": "8864a422f4e6990365d2cfd7ca0ec68ec56a3ca12fa08d669b6f5e0eee7233b9"
+    },
+    {
+      "path": "mcp/src/calculators/deposit.ts",
+      "classification": "reviewed",
+      "review_depth": "focused functional/security reading of this module",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [],
+      "bytes": 5630,
+      "lines": 48,
+      "sha256": "31a5bf5c3710b7f26fc9139bf87ce9d832e626693c888b204fd0bf82c5f39a80"
+    },
+    {
+      "path": "mcp/src/calculators/early-termination.ts",
+      "classification": "reviewed",
+      "review_depth": "focused functional/security reading of this module",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [],
+      "bytes": 5019,
+      "lines": 44,
+      "sha256": "5fade8e2d9649c355f43f690c192dd6181607cf1b056ec817cedd02f4cf88b23"
+    },
+    {
+      "path": "mcp/src/calculators/saving.ts",
+      "classification": "reviewed",
+      "review_depth": "focused functional/security reading of this module",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [],
+      "bytes": 1722,
+      "lines": 17,
+      "sha256": "563fbf54f92f0d8450cd031ed734b94a44045a4ac9da087ecb9635eeb3abd4aa"
+    },
+    {
+      "path": "mcp/src/calculators/tax.ts",
+      "classification": "reviewed",
+      "review_depth": "focused functional/security reading of this module",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [],
+      "bytes": 1043,
+      "lines": 16,
+      "sha256": "a1bff546623f27fa8d843f2ec5c2c0ed8549c36ca84e489b720a117c42394316"
+    },
+    {
+      "path": "mcp/src/capability-status.ts",
+      "classification": "reviewed",
+      "review_depth": "focused functional/security reading of this module",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [],
+      "bytes": 787,
+      "lines": 14,
+      "sha256": "6db2b21bef4918702845a71179870f86a583bd0212b7632b33c09c9d5a522d58"
+    },
+    {
+      "path": "mcp/src/decision/assertion-profiles.ts",
+      "classification": "static",
+      "review_depth": "targeted source/import and security-pattern inspection; not exhaustive line review",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [],
+      "bytes": 5740,
+      "lines": 83,
+      "sha256": "d96ac8d0ae904719acbbf77f43ec028975566c76898e4ae03cba927dcda3d0d6"
+    },
+    {
+      "path": "mcp/src/decision/candidate-adapter.ts",
+      "classification": "reviewed",
+      "review_depth": "focused functional/security reading of this module",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [],
+      "bytes": 4312,
+      "lines": 79,
+      "sha256": "0c63b81978806ae261b7f9f58913bf0b1f7cac6bbd40915ec79a04b5b5c55a03"
+    },
+    {
+      "path": "mcp/src/decision/evidence-gate.ts",
+      "classification": "reviewed",
+      "review_depth": "focused functional/security reading of this module",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [],
+      "bytes": 12201,
+      "lines": 172,
+      "sha256": "643783cbd06bbf0310fcef609a6991389a9992dfb096baa1dd7805e0dc1cc749"
+    },
+    {
+      "path": "mcp/src/export-shards.ts",
+      "classification": "reviewed",
+      "review_depth": "focused functional/security reading of this module",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [],
+      "bytes": 1858,
+      "lines": 30,
+      "sha256": "b995881b8582aec991f3be87b7fa2ddd9229a21d8fb2ffa55a2ade879e09ace2"
+    },
+    {
+      "path": "mcp/src/free-catalog.json",
+      "classification": "generated",
+      "review_depth": "catalog bounds and URL credential-component inspection; no record-by-record fact verification",
+      "execution": "not_executed",
+      "production_reachability": "active_free_entry_or_bundle",
+      "findings": [],
+      "bytes": 223781,
+      "lines": 2,
+      "sha256": "ebf13832b50eb49c1f06a38b98021f3e0f042f282104ee2afb12cf771e5aab03"
+    },
+    {
+      "path": "mcp/src/free-catalog.ts",
+      "classification": "reviewed",
+      "review_depth": "focused functional/security reading of this module",
+      "execution": "not_executed",
+      "production_reachability": "active_free_entry_or_bundle",
+      "findings": [],
+      "bytes": 6719,
+      "lines": 61,
+      "sha256": "a84b191640c2331cfa5e809d8a18a800dd950ce6409274f77f970dd68dd1836b"
+    },
+    {
+      "path": "mcp/src/free.ts",
+      "classification": "reviewed",
+      "review_depth": "focused functional/security reading of this module",
+      "execution": "not_executed",
+      "production_reachability": "active_free_entry_or_bundle",
+      "findings": [],
+      "bytes": 4759,
+      "lines": 57,
+      "sha256": "c391c6bf7bdc7092f7a3018a31de57b4c02193b112d5242efb5fec5e9c99b9d6"
+    },
+    {
+      "path": "mcp/src/generation-cache.ts",
+      "classification": "reviewed",
+      "review_depth": "focused functional/security reading of this module",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [],
+      "bytes": 623,
+      "lines": 21,
+      "sha256": "a15c75af4d59416e44c973c4b99bf43198437d671058f3177d6c204a82d17a8c"
+    },
+    {
+      "path": "mcp/src/health.ts",
+      "classification": "reviewed",
+      "review_depth": "focused functional/security reading of this module",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [],
+      "bytes": 6154,
+      "lines": 35,
+      "sha256": "006590c9276c28e872f308c60bbbf3aeb71307012a0b7f31a9dfeebc1e4dc73d"
+    },
+    {
+      "path": "mcp/src/index.ts",
+      "classification": "static",
+      "review_depth": "selected diagnostics, transport, SSRF, manifest/cache, input/privacy and finance-metric functions; large remaining search/hydration body pattern-scanned",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [
+        "MCP-02",
+        "MCP-04"
+      ],
+      "bytes": 201059,
+      "lines": 3524,
+      "sha256": "8fca4a12b57440da690fb2126e8c947d6584b552b964a1e1c385fedfb0a7a365"
+    },
+    {
+      "path": "mcp/src/product-status.ts",
+      "classification": "reviewed",
+      "review_depth": "focused functional/security reading of this module",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [],
+      "bytes": 814,
+      "lines": 14,
+      "sha256": "344e4e6d98b3018f05e49fe31bdaf57736fc5e1dffa99e2ab9029fc6153dfb78"
+    },
+    {
+      "path": "mcp/src/recommendation/abstention.ts",
+      "classification": "reviewed",
+      "review_depth": "focused functional/security reading of this module",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [],
+      "bytes": 897,
+      "lines": 13,
+      "sha256": "baaa73cba7155045d5d009593571d37ee11328a6890e1f36e5b01674c91a8bff"
+    },
+    {
+      "path": "mcp/src/recommendation/attainable-rate.ts",
+      "classification": "reviewed",
+      "review_depth": "focused functional/security reading of this module",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [],
+      "bytes": 3007,
+      "lines": 38,
+      "sha256": "d1f72f999deaf5c23d609ad716c83aead93ef56ec14f6664079c306d65298d1b"
+    },
+    {
+      "path": "mcp/src/recommendation/context.ts",
+      "classification": "reviewed",
+      "review_depth": "focused functional/security reading of this module",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [
+        "MCP-01"
+      ],
+      "bytes": 7847,
+      "lines": 95,
+      "sha256": "6a76e175b1d38944436b02faae15eb8b91ca7bab3d75032cd69a4f6ce728de38"
+    },
+    {
+      "path": "mcp/src/recommendation/explanation.ts",
+      "classification": "reviewed",
+      "review_depth": "focused functional/security reading of this module",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [],
+      "bytes": 4871,
+      "lines": 65,
+      "sha256": "6528233bfd0b8e8e2f29fea565abb3a4986c6bb4708ad316f572ec5f27010f45"
+    },
+    {
+      "path": "mcp/src/recommendation/facts.ts",
+      "classification": "reviewed",
+      "review_depth": "focused functional/security reading of this module",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [],
+      "bytes": 1590,
+      "lines": 33,
+      "sha256": "30412757c2a65fae49870d0881539e2d483ed2e0d975c6153f39bb897cc6d8ce"
+    },
+    {
+      "path": "mcp/src/recommendation/need-gate.ts",
+      "classification": "reviewed",
+      "review_depth": "focused functional/security reading of this module",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [],
+      "bytes": 2150,
+      "lines": 19,
+      "sha256": "a2e2b55204c45af367cd1ea458393e745e2485d1db7a836de29b920ac77c8759"
+    },
+    {
+      "path": "mcp/src/recommendation/outcome.ts",
+      "classification": "reviewed",
+      "review_depth": "focused functional/security reading of this module",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [],
+      "bytes": 9988,
+      "lines": 97,
+      "sha256": "ca6e5a0e8fc0529f3c7f5611e75b483aaf60ea943fa74c50abccaa69f453f712"
+    },
+    {
+      "path": "mcp/src/recommendation/policy.ts",
+      "classification": "reviewed",
+      "review_depth": "focused functional/security reading of this module",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [],
+      "bytes": 8644,
+      "lines": 127,
+      "sha256": "4af801bcbfc09890ef70951c70db882e1e0f5c94c5023c3a34b8efb934a0b3c3"
+    },
+    {
+      "path": "mcp/src/recommendation/privacy.ts",
+      "classification": "reviewed",
+      "review_depth": "focused functional/security reading of this module",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [],
+      "bytes": 1701,
+      "lines": 17,
+      "sha256": "a40814416cbc0494baa6d54161c38566b42f6d121d56e72ba634f4daa512cd90"
+    },
+    {
+      "path": "mcp/src/recommendation/ranking-v2.ts",
+      "classification": "reviewed",
+      "review_depth": "focused functional/security reading of this module",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [],
+      "bytes": 1625,
+      "lines": 27,
+      "sha256": "923e90393d28aad3a5292ba104e6e462c1eee62e3409724d7cc7ca50c43feff2"
+    },
+    {
+      "path": "mcp/src/recommendation/ranking.ts",
+      "classification": "reviewed",
+      "review_depth": "focused functional/security reading of this module",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [],
+      "bytes": 3656,
+      "lines": 61,
+      "sha256": "0c48d7645027e534fcb3ea69e358e60c63278d9d565c028999e2459bbe01c7a7"
+    },
+    {
+      "path": "mcp/src/recommendation/rule-engine.ts",
+      "classification": "reviewed",
+      "review_depth": "focused functional/security reading of this module",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [],
+      "bytes": 6328,
+      "lines": 71,
+      "sha256": "c8c30445b8ff14e6353f1160b69741fa2c96af2f4c3b0aac5fd5323811ab1603"
+    },
+    {
+      "path": "mcp/src/release-gate.ts",
+      "classification": "reviewed",
+      "review_depth": "focused functional/security reading of this module",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [],
+      "bytes": 11219,
+      "lines": 160,
+      "sha256": "eada4b97120d6bbf034a680712f1a009fecb44a719c98bb77bdc9cf906fc2b2c"
+    },
+    {
+      "path": "mcp/src/source-status.ts",
+      "classification": "reviewed",
+      "review_depth": "focused functional/security reading of this module",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [],
+      "bytes": 6582,
+      "lines": 152,
+      "sha256": "187af9534fab9ca1807b536c7a40eaa6167316823958bc1cacdcd8319c875d03"
+    },
+    {
+      "path": "mcp/src/tools/compare.ts",
+      "classification": "reviewed",
+      "review_depth": "focused functional/security reading of this module",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [],
+      "bytes": 9012,
+      "lines": 128,
+      "sha256": "5775c6dc132f2961459c4c2b1d6f42837a248e3e0a81639088037432632c0cca"
+    },
+    {
+      "path": "mcp/src/tools/discover.ts",
+      "classification": "reviewed",
+      "review_depth": "focused functional/security reading of this module",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [],
+      "bytes": 2205,
+      "lines": 34,
+      "sha256": "946f4f091ba462d68cc2945ab8896ca2ad343389462b1a26d90d5cb84be2c078"
+    },
+    {
+      "path": "mcp/src/tools/exports.ts",
+      "classification": "static",
+      "review_depth": "targeted source/import and security-pattern inspection; not exhaustive line review",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [],
+      "bytes": 2726,
+      "lines": 61,
+      "sha256": "56211616a477cf4fb43067e263914c84b51251065e1ea453d605fdaabe11d9e9"
+    },
+    {
+      "path": "mcp/src/tools/fetch.ts",
+      "classification": "static",
+      "review_depth": "targeted source/import and security-pattern inspection; not exhaustive line review",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [],
+      "bytes": 16416,
+      "lines": 288,
+      "sha256": "3c6d2205f08dd6d06980faaeae93db8addd6af829c59aed5578b7037b58f4149"
+    },
+    {
+      "path": "mcp/src/tools/personal-finance.ts",
+      "classification": "static",
+      "review_depth": "targeted source/import and security-pattern inspection; not exhaustive line review",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [
+        "MCP-04"
+      ],
+      "bytes": 20024,
+      "lines": 140,
+      "sha256": "f1265fb52a5da682ad6b2c4a6ef0ccd62930323c0058270d056b79898aea0af2"
+    },
+    {
+      "path": "mcp/src/tools/pilot-evaluation.ts",
+      "classification": "reviewed",
+      "review_depth": "focused functional/security reading of this module",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [
+        "MCP-01"
+      ],
+      "bytes": 3520,
+      "lines": 88,
+      "sha256": "6e291f8a6e3c72c4515cdbc59c07a1b6d61fda812c7f21f8af3d6b83b59662c6"
+    },
+    {
+      "path": "mcp/src/tools/recommend-handler.ts",
+      "classification": "static",
+      "review_depth": "targeted source/import and security-pattern inspection; not exhaustive line review",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [],
+      "bytes": 19944,
+      "lines": 247,
+      "sha256": "964ef959d4f00a43a7c18d76f084d646149e078cd3c57e748af8c189d496bb45"
+    },
+    {
+      "path": "mcp/src/tools/recommend-owner-pilot.ts",
+      "classification": "reviewed",
+      "review_depth": "focused functional/security reading of this module",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [
+        "MCP-01",
+        "MCP-03"
+      ],
+      "bytes": 11088,
+      "lines": 141,
+      "sha256": "fb10dd39b09bc413cf8018a3c8c4989d2cadcb200b64c053f9c623b18c895129"
+    },
+    {
+      "path": "mcp/src/tools/recommend-shadow.ts",
+      "classification": "reviewed",
+      "review_depth": "focused functional/security reading of this module",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [
+        "MCP-01"
+      ],
+      "bytes": 7284,
+      "lines": 123,
+      "sha256": "24c78f50eaf3d9dc007473351c43a407628574fae3d9ffe329630387002afd8e"
+    },
+    {
+      "path": "mcp/src/tools/recommend.ts",
+      "classification": "reviewed",
+      "review_depth": "focused functional/security reading of this module",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [],
+      "bytes": 3102,
+      "lines": 73,
+      "sha256": "ff0c6ba96ab68262fd9a487d596c45831af57fb7acc0a6e19ebb6a655eca2e67"
+    },
+    {
+      "path": "mcp/src/tools/search.ts",
+      "classification": "static",
+      "review_depth": "targeted source/import and security-pattern inspection; not exhaustive line review",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [],
+      "bytes": 13368,
+      "lines": 247,
+      "sha256": "de0f86e6925204a1bbd387dd74f32e2ed265d4fcd43ca0494d3460ff6cd91aa9"
+    },
+    {
+      "path": "mcp/src/types/decision-candidate.ts",
+      "classification": "static",
+      "review_depth": "targeted source/import and security-pattern inspection; not exhaustive line review",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [],
+      "bytes": 584,
+      "lines": 21,
+      "sha256": "5f3e2fe32617088564808830e9f768b3f601bdc584613f9396cc54440d14a848"
+    },
+    {
+      "path": "mcp/src/types/tool-context.ts",
+      "classification": "static",
+      "review_depth": "targeted source/import and security-pattern inspection; not exhaustive line review",
+      "execution": "not_executed",
+      "production_reachability": "inactive_full_edition",
+      "findings": [],
+      "bytes": 8780,
+      "lines": 141,
+      "sha256": "d5ba390e936efc3ba5489f3c596e3a775a59b5a36c21e52cb422480b7a162f7c"
+    },
+    {
+      "path": "mcp/tests/cache-budget.test.mjs",
+      "classification": "test-only",
+      "review_depth": "side-effect/import inspection and existing regression execution",
+      "execution": "passed",
+      "production_reachability": "test_only",
+      "findings": [],
+      "bytes": 2234,
+      "lines": 44,
+      "sha256": "1b337b706c69301a7f210bbf41f0d9a4ed26b6f370f1a64d8621a6f50cb1cf5b"
+    },
+    {
+      "path": "mcp/tests/calculators.test.mjs",
+      "classification": "test-only",
+      "review_depth": "side-effect/import inspection and existing regression execution",
+      "execution": "passed",
+      "production_reachability": "test_only",
+      "findings": [],
+      "bytes": 10353,
+      "lines": 123,
+      "sha256": "356a5ba2915d54c19efaf3f322959a2ff265d21e68915fbe61ff4149c0a5bba7"
+    },
+    {
+      "path": "mcp/tests/canary-validate.test.mjs",
+      "classification": "static",
+      "review_depth": "side-effect/import inspection; excluded execution",
+      "execution": "not_executed_side_effect_boundary",
+      "production_reachability": "test_only",
+      "findings": [],
+      "bytes": 2271,
+      "lines": 30,
+      "sha256": "8716b835357429029de84405670eb1cd11050e5fb9b7d79ee772c79221fb00e8"
+    },
+    {
+      "path": "mcp/tests/context-privacy.test.mjs",
+      "classification": "test-only",
+      "review_depth": "side-effect/import inspection and existing regression execution",
+      "execution": "passed",
+      "production_reachability": "test_only",
+      "findings": [],
+      "bytes": 1035,
+      "lines": 15,
+      "sha256": "47e2c87128c71227e139c046bfbd328d486ce660978e8200fde398b78789ec92"
+    },
+    {
+      "path": "mcp/tests/decision-gate.test.mjs",
+      "classification": "test-only",
+      "review_depth": "side-effect/import inspection and existing regression execution",
+      "execution": "passed",
+      "production_reachability": "test_only",
+      "findings": [],
+      "bytes": 5339,
+      "lines": 42,
+      "sha256": "147defb3145c8a318a8eb3ce7c4224eabd0d2d1c8fcc568575d3a026f95d7f58"
+    },
+    {
+      "path": "mcp/tests/deploy-free.test.mjs",
+      "classification": "test-only",
+      "review_depth": "side-effect/import inspection and existing regression execution",
+      "execution": "passed",
+      "production_reachability": "test_only",
+      "findings": [],
+      "bytes": 4257,
+      "lines": 68,
+      "sha256": "df02adf7540acccc960d817786f986709bb9cbf037bf1574368c25264a20a209"
+    },
+    {
+      "path": "mcp/tests/deploy-scope.test.mjs",
+      "classification": "static",
+      "review_depth": "side-effect/import inspection; excluded execution",
+      "execution": "not_executed_side_effect_boundary",
+      "production_reachability": "test_only",
+      "findings": [],
+      "bytes": 2248,
+      "lines": 40,
+      "sha256": "bd8ab880169d075f7c37b4c1a64664c2fcdee73743c5ed941d3193a08a4274bd"
+    },
+    {
+      "path": "mcp/tests/export-shards.test.mjs",
+      "classification": "test-only",
+      "review_depth": "side-effect/import inspection and existing regression execution",
+      "execution": "passed",
+      "production_reachability": "test_only",
+      "findings": [],
+      "bytes": 1212,
+      "lines": 28,
+      "sha256": "7bd6adda5c52f8dc50610b10a5dbbc3003a42dca789cdb4d50aaccdc7ec51cd1"
+    },
+    {
+      "path": "mcp/tests/fact-source-trust.test.mjs",
+      "classification": "test-only",
+      "review_depth": "side-effect/import inspection and existing regression execution",
+      "execution": "passed",
+      "production_reachability": "test_only",
+      "findings": [],
+      "bytes": 1284,
+      "lines": 15,
+      "sha256": "10db777566351f2235ddf51a4cf1515390f5c4492fae35631a2c66d03cdaad9d"
+    },
+    {
+      "path": "mcp/tests/fetch-contract.test.mjs",
+      "classification": "test-only",
+      "review_depth": "side-effect/import inspection and existing regression execution",
+      "execution": "passed",
+      "production_reachability": "test_only",
+      "findings": [],
+      "bytes": 5607,
+      "lines": 90,
+      "sha256": "3817e30df7dc4b6b7a76b14a3e856677c4e0b29fb223201edf6a0da9e1b4cb3f"
+    },
+    {
+      "path": "mcp/tests/financial-quality.test.mjs",
+      "classification": "test-only",
+      "review_depth": "side-effect/import inspection and existing regression execution",
+      "execution": "passed",
+      "production_reachability": "test_only",
+      "findings": [],
+      "bytes": 2292,
+      "lines": 36,
+      "sha256": "272d76893637262d19e95a61539d2f669472e14fd2b7a29a7244fd49ed649374"
+    },
+    {
+      "path": "mcp/tests/free-catalog.test.mjs",
+      "classification": "test-only",
+      "review_depth": "side-effect/import inspection and existing regression execution",
+      "execution": "passed",
+      "production_reachability": "test_only",
+      "findings": [],
+      "bytes": 5006,
+      "lines": 81,
+      "sha256": "069807a8cc12c3f29e0276c2c9a7877bbcebc63566b423976eb75f6a1af8c170"
+    },
+    {
+      "path": "mcp/tests/free-search.test.mjs",
+      "classification": "test-only",
+      "review_depth": "side-effect/import inspection and existing regression execution",
+      "execution": "passed",
+      "production_reachability": "test_only",
+      "findings": [],
+      "bytes": 2409,
+      "lines": 45,
+      "sha256": "87f9eafcfa839e9f4e5215e17ae8d79862aaf1749d964d70bde91f89bd878587"
+    },
+    {
+      "path": "mcp/tests/generation-cache.test.mjs",
+      "classification": "test-only",
+      "review_depth": "side-effect/import inspection and existing regression execution",
+      "execution": "passed",
+      "production_reachability": "test_only",
+      "findings": [],
+      "bytes": 1689,
+      "lines": 49,
+      "sha256": "f5e7e2037c9974ab0c86f2bd29a203f9422eb45ee90db00a244d0685587acc78"
+    },
+    {
+      "path": "mcp/tests/health.test.mjs",
+      "classification": "test-only",
+      "review_depth": "side-effect/import inspection and existing regression execution",
+      "execution": "passed",
+      "production_reachability": "test_only",
+      "findings": [],
+      "bytes": 4410,
+      "lines": 61,
+      "sha256": "b269e48aafe7ce3ce611919dd8a126130952492665bb4b6cc7ca1865dffd916d"
+    },
+    {
+      "path": "mcp/tests/item-routing.test.mjs",
+      "classification": "test-only",
+      "review_depth": "side-effect/import inspection and existing regression execution",
+      "execution": "passed",
+      "production_reachability": "test_only",
+      "findings": [],
+      "bytes": 627,
+      "lines": 11,
+      "sha256": "49f92316026d769685932c464361b135589d072e51603c1de7bf58ccae4997dc"
+    },
+    {
+      "path": "mcp/tests/live-regression-fixture.test.mjs",
+      "classification": "test-only",
+      "review_depth": "side-effect/import inspection and existing regression execution",
+      "execution": "passed",
+      "production_reachability": "test_only",
+      "findings": [],
+      "bytes": 3477,
+      "lines": 52,
+      "sha256": "e58a01ba519f09b01d41a56406aa1a252d51f279df98acc9f92947d51d06cdd9"
+    },
+    {
+      "path": "mcp/tests/live-regression-transport.test.mjs",
+      "classification": "test-only",
+      "review_depth": "side-effect/import inspection and existing regression execution",
+      "execution": "passed",
+      "production_reachability": "test_only",
+      "findings": [],
+      "bytes": 1453,
+      "lines": 29,
+      "sha256": "2972e4e11a896030bbbab9d3fb8a71d677e587d766de0490e5ef8beb4f396963"
+    },
+    {
+      "path": "mcp/tests/need-gate.test.mjs",
+      "classification": "test-only",
+      "review_depth": "side-effect/import inspection and existing regression execution",
+      "execution": "passed",
+      "production_reachability": "test_only",
+      "findings": [],
+      "bytes": 1037,
+      "lines": 20,
+      "sha256": "bc433b551bfde87de3d24a07feffbd2f9f45e6005cef1224d5bbaf663ce25751"
+    },
+    {
+      "path": "mcp/tests/owner-pilot.test.mjs",
+      "classification": "test-only",
+      "review_depth": "side-effect/import inspection and existing regression execution",
+      "execution": "passed",
+      "production_reachability": "test_only",
+      "findings": [],
+      "bytes": 1617,
+      "lines": 22,
+      "sha256": "0d32778e88aeef1adf4cc5b12d6380af7dbcf084381c9e2f5c116cc644f7f378"
+    },
+    {
+      "path": "mcp/tests/recommend-handler.test.mjs",
+      "classification": "test-only",
+      "review_depth": "side-effect/import inspection and existing regression execution",
+      "execution": "passed",
+      "production_reachability": "test_only",
+      "findings": [],
+      "bytes": 3972,
+      "lines": 76,
+      "sha256": "2e2b6621bbbf21026fc56f0db42a90b7593a2908396f6cf80f1f35b8fae528e5"
+    },
+    {
+      "path": "mcp/tests/recommendation.test.mjs",
+      "classification": "test-only",
+      "review_depth": "side-effect/import inspection and existing regression execution",
+      "execution": "passed",
+      "production_reachability": "test_only",
+      "findings": [],
+      "bytes": 1794,
+      "lines": 28,
+      "sha256": "bca8d1abaeb73ad4df3f5b0d9e6f904f490af7c414f4454eb243a43ffe6df0f7"
+    },
+    {
+      "path": "mcp/tests/release-gate.test.mjs",
+      "classification": "test-only",
+      "review_depth": "side-effect/import inspection and existing regression execution",
+      "execution": "passed",
+      "production_reachability": "test_only",
+      "findings": [],
+      "bytes": 5948,
+      "lines": 97,
+      "sha256": "df62bdbfb1c68c59f3f01d1e026d35c95e335e5aa0473a99d1bffa84ab06b0b1"
+    },
+    {
+      "path": "mcp/tests/rule-engine.test.mjs",
+      "classification": "test-only",
+      "review_depth": "side-effect/import inspection and existing regression execution",
+      "execution": "passed",
+      "production_reachability": "test_only",
+      "findings": [],
+      "bytes": 1151,
+      "lines": 16,
+      "sha256": "84bcf40b727746063f588c7902fa0eabfd7aca229bf8118d83d79e077fbb5c16"
+    },
+    {
+      "path": "mcp/tests/search-compact.test.mjs",
+      "classification": "test-only",
+      "review_depth": "side-effect/import inspection and existing regression execution",
+      "execution": "passed",
+      "production_reachability": "test_only",
+      "findings": [],
+      "bytes": 24528,
+      "lines": 405,
+      "sha256": "6a64ae638cf15db365c0bf5b63a671b33d13403566437ff62c7a64844c566ed9"
+    },
+    {
+      "path": "mcp/tests/soak-test.test.mjs",
+      "classification": "static",
+      "review_depth": "side-effect/import inspection; excluded execution",
+      "execution": "not_executed_side_effect_boundary",
+      "production_reachability": "test_only",
+      "findings": [],
+      "bytes": 1970,
+      "lines": 27,
+      "sha256": "429b54d58a75a90fc5ce577a42d5f31dcc7d9d28a7c43bc7ae439c58c3480df5"
+    },
+    {
+      "path": "mcp/tests/source-status.test.mjs",
+      "classification": "test-only",
+      "review_depth": "side-effect/import inspection and existing regression execution",
+      "execution": "passed",
+      "production_reachability": "test_only",
+      "findings": [],
+      "bytes": 5064,
+      "lines": 141,
+      "sha256": "acf374eb7bb8f4b5bc38ee0c037e1d0a665f6e5ca5e1a7579dc6a41fe717f8c7"
+    },
+    {
+      "path": "mcp/tests/tool-schema-contract.test.mjs",
+      "classification": "static",
+      "review_depth": "side-effect/import inspection; excluded execution",
+      "execution": "not_executed_side_effect_boundary",
+      "production_reachability": "test_only",
+      "findings": [],
+      "bytes": 705,
+      "lines": 14,
+      "sha256": "acd8a91450a3c13106d3ec33a94b5240a2e21a5cc272a77dfe8d975901805e8a"
+    },
+    {
+      "path": "mcp/tests/verify-release.test.mjs",
+      "classification": "static",
+      "review_depth": "side-effect/import inspection; excluded execution",
+      "execution": "not_executed_side_effect_boundary",
+      "production_reachability": "test_only",
+      "findings": [],
+      "bytes": 3052,
+      "lines": 73,
+      "sha256": "5e167fe3713608956666341f0cfb5034f7d57f7649e0f05f4c967b410a5f1778"
+    },
+    {
+      "path": "mcp/tsconfig.json",
+      "classification": "reviewed",
+      "review_depth": "full local configuration inspection",
+      "execution": "not_executed",
+      "production_reachability": "configuration_or_generated_type",
+      "findings": [],
+      "bytes": 391,
+      "lines": 16,
+      "sha256": "6d463f39046dbcfe514984ac0a619d1f54586453faba284e65dae1c2495114b4"
+    },
+    {
+      "path": "mcp/worker-configuration.d.ts",
+      "classification": "generated",
+      "review_depth": "generated type declarations and environment boundary; no hand audit of runtime library declarations",
+      "execution": "not_executed",
+      "production_reachability": "configuration_or_generated_type",
+      "findings": [],
+      "bytes": 373,
+      "lines": 13,
+      "sha256": "1d2ef972fcd9d01203c391fb61ecfa2df72a819908e87bddac7df67d5dc8cc97"
+    },
+    {
+      "path": "mcp/wrangler.free.jsonc",
+      "classification": "reviewed",
+      "review_depth": "full local configuration inspection",
+      "execution": "not_executed",
+      "production_reachability": "configuration_or_generated_type",
+      "findings": [],
+      "bytes": 355,
+      "lines": 11,
+      "sha256": "64c0cada222418540454d3c3d47e2dab45c5a484ca354d99166587cd7502d8c4"
+    },
+    {
+      "path": "mcp/wrangler.toml",
+      "classification": "reviewed",
+      "review_depth": "full local configuration inspection",
+      "execution": "not_executed",
+      "production_reachability": "configuration_or_generated_type",
+      "findings": [],
+      "bytes": 307,
+      "lines": 12,
+      "sha256": "4ca0f6dde407215f74b8b71134b440fb77c33713b768c5e57c803f660ad52b37"
+    }
+  ]
+}

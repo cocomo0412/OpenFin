@@ -41,6 +41,24 @@ const ONTOLOGY_DATA = {"version":"KR-TAX-OBSIDIAN-ONTOLOGY-2026.05.05.1","basis_
       .replaceAll("'", "&#039;");
   }
 
+  function safeSourceUrl(value) {
+    const text = String(value ?? "").trim();
+    if (!/^https?:\/\//i.test(text) || /[\u0000-\u0020\u007f]/.test(text)) return "";
+    try {
+      const url = new URL(text);
+      return ["http:", "https:"].includes(url.protocol) && url.hostname && !url.username && !url.password ? text : "";
+    } catch {
+      return "";
+    }
+  }
+
+  function sourceLink(value, label = value) {
+    const url = safeSourceUrl(value);
+    return url
+      ? `<a class="relation-link" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)}</a>`
+      : `<span class="relation-link">${escapeHtml(label)}</span>`;
+  }
+
   function itemText(item) {
     return [
       item.id,
@@ -154,10 +172,7 @@ const ONTOLOGY_DATA = {"version":"KR-TAX-OBSIDIAN-ONTOLOGY-2026.05.05.1","basis_
       .map((id) => byId.get(id))
       .filter(Boolean)
       .map((source) => {
-        if (source.url) {
-          return `<a class="relation-link" href="${escapeHtml(source.url)}" target="_blank" rel="noreferrer">${escapeHtml(source.title)}</a>`;
-        }
-        return `<span class="relation-link">${escapeHtml(source.title)}</span>`;
+        return sourceLink(source.url, source.title);
       })
       .join("");
     if (!links) return "";
@@ -367,12 +382,12 @@ const ONTOLOGY_DATA = {"version":"KR-TAX-OBSIDIAN-ONTOLOGY-2026.05.05.1","basis_
     ];
     const visibleRows = rows.filter(([, value]) => value !== "" && value !== null && value !== undefined);
     const sourceUrls = (item.source_urls || [])
-      .map((url) => `<a class="relation-link" href="${escapeHtml(url)}" target="_blank" rel="noreferrer">${escapeHtml(url)}</a>`)
+      .map((url) => sourceLink(url))
       .join("");
-    const statusCheckUrl = item.status_check_url ? `<a class="relation-link" href="${escapeHtml(item.status_check_url)}" target="_blank" rel="noreferrer">${escapeHtml(item.status_check_url)}</a>` : "";
+    const statusCheckUrl = item.status_check_url ? sourceLink(item.status_check_url) : "";
     const basisDates = (item.source_basis_dates || []).map((date) => escapeHtml(date)).join(", ");
     const legalBasis = (item.legal_basis || [])
-      .map((basis) => basis && basis.url ? `<a class="relation-link" href="${escapeHtml(basis.url)}" target="_blank" rel="noreferrer">${escapeHtml(basis.title || basis.url)}</a>` : escapeHtml((basis && (basis.title || basis.name)) || ""))
+      .map((basis) => basis && basis.url ? sourceLink(basis.url, basis.title || basis.url) : escapeHtml((basis && (basis.title || basis.name)) || ""))
       .filter(Boolean)
       .join("");
     return `
@@ -601,7 +616,7 @@ const ONTOLOGY_DATA = {"version":"KR-TAX-OBSIDIAN-ONTOLOGY-2026.05.05.1","basis_
           <span>${escapeHtml(source.publisher || "공식 출처")} · ${escapeHtml(source.basis_date || ONTOLOGY_DATA.basis_date)}</span>
           <strong>${escapeHtml(source.title)}</strong>
           <p>${escapeHtml(source.description)}</p>
-          ${source.url ? `<a href="${escapeHtml(source.url)}" target="_blank" rel="noreferrer">원문 열기</a>` : ""}
+          ${safeSourceUrl(source.url) ? sourceLink(source.url, "원문 열기") : ""}
         </article>
       `)
       .join("");

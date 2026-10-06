@@ -320,11 +320,12 @@ test("shard diagnostics are opt-in and include bounded request metadata", () => 
   assert.match(workerSource, /request\.headers\.get\(DIAGNOSTICS_HEADER\) === "1"/);
   assert.match(workerSource, /cache_hits/);
   assert.match(workerSource, /raw_text_units/);
-  assert.match(workerSource, /const diagnostics = requestDiagnostics\(request\)/);
+  assert.match(workerSource, /const diagnostics = requestDiagnostics\(request, env\)/);
+  assert.match(workerSource, /env\.OPENFIN_DIAGNOSTICS_ENABLED !== "true"/);
   const start = workerSource.indexOf("function diagnosticsSummary");
   const end = workerSource.indexOf("function attachDiagnostics", start);
   assert.ok(start >= 0 && end > start);
-  assert.match(workerSource.slice(start, end), /query: diagnostics\.query/);
+  assert.doesNotMatch(workerSource.slice(start, end), /query: diagnostics\.query/);
   assert.match(workerSource.slice(start, end), /query_class: diagnostics\.query_class/);
   assert.doesNotMatch(workerSource.slice(start, end), /result_ids|source_ids/);
   for (const failureClass of ["CPU_LIMIT", "MEMORY_LIMIT", "UPSTREAM_5XX", "UPSTREAM_TIMEOUT", "REQUEST_TIMEOUT", "TRANSPORT_ABORT", "UNKNOWN_EDGE_FAILURE"]) assert.match(workerSource, new RegExp(`\\"${failureClass}\\"`));

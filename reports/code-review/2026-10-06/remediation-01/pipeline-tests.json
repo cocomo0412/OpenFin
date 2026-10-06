@@ -1,0 +1,19 @@
+{
+  "node": {
+    "exit_code": 0,
+    "tests": 32,
+    "pass": 32,
+    "fail": 0,
+    "skipped": 0
+  },
+  "test_public_apis.py": {
+    "exit_code": 0,
+    "tests": 15,
+    "ok": true
+  },
+  "test_kdic_publication.py": {
+    "exit_code": 0,
+    "tests": 2,
+    "ok": true
+  }
+}

@@ -76,7 +76,7 @@ export function registerRecommendShadowTool(ctx: ToolContext): void {
         domain,
         mode: "shadow",
         asOf: normalizedContext.as_of,
-        context: normalizedContext,
+        context: { ...normalizedContext, decision_context: requestContext?.decision_context },
         deploymentCommit: env.DEPLOYMENT_COMMIT,
       });
       const reasonCodes = [

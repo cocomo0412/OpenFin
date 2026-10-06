@@ -3,12 +3,13 @@ import type { ToolContext } from "../types/tool-context.ts";
 import { evaluatePilotCandidates } from "./pilot-evaluation.ts";
 import { PILOT_CONTEXT_SCHEMA } from "./recommend-shadow.ts";
 import { normalizeRecommendationContext } from "../recommendation/context.ts";
+import type { OwnerProofReplayStore } from "../types/runtime-bindings.ts";
+import { ownerProofReplayStore } from "../owner-proof-replay.ts";
 
 const DATE = z.string().regex(/^\d{4}-\d{2}-\d{2}$/);
 const OWNER_AUDIENCE = "openfin-owner-pilot";
 const OWNER_PERMISSION = "recommendation:owner_pilot";
 const MAX_TOKEN_LIFETIME_SECONDS = 15 * 60;
-const usedJti = new Map<string, number>();
 
 function base64UrlBytes(value: string): Uint8Array {
   const normalized = value.replace(/-/g, "+").replace(/_/g, "/").padEnd(Math.ceil(value.length / 4) * 4, "=");
@@ -36,18 +37,12 @@ function stableJson(value: Record<string, unknown>): string {
   return JSON.stringify(Object.fromEntries(Object.keys(value).sort().map((key) => [key, value[key]])));
 }
 
-function pruneReplay(now: number): void {
-  for (const [jti, expiresAt] of usedJti) if (expiresAt <= now) usedJti.delete(jti);
-  // ponytail: bounded per-isolate replay cache; use a durable account-scoped cache when owner pilot is enabled at scale.
-  while (usedJti.size > 4096) usedJti.delete(usedJti.keys().next().value as string);
-}
-
 export function ownerSessionTokenPayload({ domain, asOf, sessionId, generationId, candidateSetChecksum, issuedAt, expiresAt, jti }: { domain: string; asOf: string; sessionId: string; generationId: string; candidateSetChecksum: string; issuedAt: number; expiresAt: number; jti: string }): Record<string, unknown> {
   return { sub: sessionId, aud: OWNER_AUDIENCE, iat: issuedAt, exp: expiresAt, jti, domain, as_of: asOf, generation_id: generationId, candidate_set_checksum: candidateSetChecksum, permission: OWNER_PERMISSION };
 }
 
-export async function verifyOwnerSessionProof({ secret, domain, asOf, sessionId, proof, generationId, candidateSetChecksum, now = Math.floor(Date.now() / 1000) }: { secret?: string; domain: string; asOf: string; sessionId?: string; proof?: string; generationId?: string; candidateSetChecksum?: string; now?: number }): Promise<boolean> {
-  if (!secret || !sessionId || !proof || !generationId || !candidateSetChecksum) return false;
+export async function verifyOwnerSessionProof({ secret, domain, asOf, sessionId, proof, generationId, candidateSetChecksum, replayStore, now = Math.floor(Date.now() / 1000) }: { secret?: string; domain: string; asOf: string; sessionId?: string; proof?: string; generationId?: string; candidateSetChecksum?: string; replayStore?: OwnerProofReplayStore; now?: number }): Promise<boolean> {
+  if (!secret || !sessionId || !proof || !generationId || !candidateSetChecksum || !replayStore) return false;
   try {
     const segments = proof.split(".");
     if (segments.length !== 3) return false;
@@ -59,14 +54,15 @@ export async function verifyOwnerSessionProof({ secret, domain, asOf, sessionId,
     const issuedAt = typeof claims.iat === "number" ? claims.iat : NaN;
     const expiresAt = typeof claims.exp === "number" ? claims.exp : NaN;
     const jti = typeof claims.jti === "string" ? claims.jti : "";
-    if (!Number.isInteger(issuedAt) || !Number.isInteger(expiresAt) || !jti || issuedAt > now || expiresAt <= now || expiresAt <= issuedAt || expiresAt - issuedAt > MAX_TOKEN_LIFETIME_SECONDS) return false;
+    if (!Number.isInteger(issuedAt) || !Number.isInteger(expiresAt) || !jti || jti.length > 256 || issuedAt > now || expiresAt <= now || expiresAt <= issuedAt || expiresAt - issuedAt > MAX_TOKEN_LIFETIME_SECONDS) return false;
     const key = await crypto.subtle.importKey("raw", new TextEncoder().encode(secret), { name: "HMAC", hash: "SHA-256" }, false, ["verify"]);
     const valid = await crypto.subtle.verify("HMAC", key, base64UrlBytes(encodedSignature), new TextEncoder().encode(`${encodedHeader}.${encodedPayload}`));
     if (!valid) return false;
-    pruneReplay(now);
-    if (usedJti.has(jti)) return false;
-    usedJti.set(jti, expiresAt);
-    return true;
+    // The shared backend must atomically consume a key across all instances.
+    // No local-memory fallback: loss of shared storage must deny access.
+    const digest = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(`${OWNER_AUDIENCE}:${jti}`));
+    const replayKey = Array.from(new Uint8Array(digest), byte => byte.toString(16).padStart(2, "0")).join("");
+    return await replayStore.consume({ key: replayKey, expiresAt }) === true;
   } catch {
     return false;
   }
@@ -108,12 +104,14 @@ export function registerRecommendOwnerPilotTool(ctx: ToolContext): void {
     const artifactContract = manifest.artifact_contract && typeof manifest.artifact_contract === "object" && !Array.isArray(manifest.artifact_contract) ? manifest.artifact_contract as Record<string, unknown> : {};
     const approval = manifest.owner_pilot_approval_receipt ?? null;
     const approvalSignatureValid = await verifyRecommendationApprovalSignature({ secret: env.OWNER_PILOT_REVIEWER_SIGNATURE_SECRET, receipt: approval });
-    const auth = await verifyOwnerSessionProof({ secret: env.OWNER_PILOT_SESSION_SECRET, domain, asOf: normalizedContext.as_of, sessionId: owner_session_id, proof: owner_session_proof, generationId: typeof manifest.generation_id === "string" ? manifest.generation_id : undefined, candidateSetChecksum: typeof artifactContract.candidate_set_checksum === "string" ? artifactContract.candidate_set_checksum : undefined });
+    const auth = env.OWNER_PILOT_ENABLED === "true" && approvalSignatureValid && releaseGate.status === "ready"
+      && await verifyOwnerSessionProof({ secret: env.OWNER_PILOT_SESSION_SECRET, domain, asOf: normalizedContext.as_of, sessionId: owner_session_id, proof: owner_session_proof, generationId: typeof manifest.generation_id === "string" ? manifest.generation_id : undefined, candidateSetChecksum: typeof artifactContract.candidate_set_checksum === "string" ? artifactContract.candidate_set_checksum : undefined, replayStore: ownerProofReplayStore(env.OWNER_PILOT_REPLAY_STORE) });
     const reasons = [
       ...(!owner_session_id || !owner_session_proof ? ["OWNER_AUTH_REQUIRED"] : []),
       ...(owner_session_id && owner_session_proof && !auth ? ["OWNER_SESSION_PROOF_INVALID"] : []),
       ...(!approvalSignatureValid ? ["OWNER_APPROVAL_SIGNATURE_INVALID"] : []),
       ...(env.OWNER_PILOT_ENABLED !== "true" ? ["OWNER_PILOT_DISABLED"] : []),
+      ...(!env.OWNER_PILOT_REPLAY_STORE ? ["OWNER_REPLAY_STORE_UNAVAILABLE"] : []),
     ];
     if (reasons.length || releaseGate.status !== "ready") return mcpResult({ mode: "owner_pilot", status: "blocked", reason_codes: [...new Set([...reasons, ...releaseGate.reasons])], data_as_of: normalizedContext.as_of, result_count: 0, candidates: [], candidate_data_exposed: false, actual_evaluation: false, release_gate: releaseGate, decision_owner: "user", limitations: ["owner pilot requires a server-verified signed session, owner permission, approval receipt, and current-generation evidence"] });
     try {
@@ -125,7 +123,7 @@ export function registerRecommendOwnerPilotTool(ctx: ToolContext): void {
         domain,
         mode: "owner_pilot",
         asOf: normalizedContext.as_of,
-        context: normalizedContext,
+        context: { ...normalizedContext, decision_context: requestContext?.decision_context },
         deploymentCommit: env.DEPLOYMENT_COMMIT,
       });
       const candidates = evaluation.candidates.slice(0, limit ?? 5).map((candidate) => {

@@ -1,0 +1,1297 @@
+{
+  "baseline_commit": "1e6d7f025e0decede75c82495a9ab9854ba536da",
+  "production_commit": "785add92fd83f18302cf26689ea453aed6eb3920",
+  "tracked_files": 8915,
+  "code_extensions": [
+    ".cjs",
+    ".css",
+    ".html",
+    ".js",
+    ".jsonc",
+    ".jsx",
+    ".mjs",
+    ".ps1",
+    ".py",
+    ".sh",
+    ".toml",
+    ".ts",
+    ".tsx",
+    ".yaml",
+    ".yml"
+  ],
+  "code_files": [
+    {
+      "path": ".github/workflows/deploy-mcp.yml",
+      "owner": "web-ci",
+      "bytes": 3794,
+      "sha256": "45392786232f829ed1df511aa97f0b849af2b4a498f4d2445ea18784282942ce"
+    },
+    {
+      "path": ".github/workflows/deploy-pages.yml",
+      "owner": "web-ci",
+      "bytes": 580,
+      "sha256": "05d013407fd51a332db2be3474b036f58f6d304f25f6873ad21b49a3a190dad3"
+    },
+    {
+      "path": ".github/workflows/diagnose-worker.yml",
+      "owner": "web-ci",
+      "bytes": 7772,
+      "sha256": "bead5ba1701031d21413d01aa53af56d16d68b56afed30927ecc3570d253f8d5"
+    },
+    {
+      "path": ".github/workflows/live-regression.yml",
+      "owner": "web-ci",
+      "bytes": 4744,
+      "sha256": "08023b803d03507064a353294b3e9936017dc645be5564624f3c6042dfd7789f"
+    },
+    {
+      "path": ".github/workflows/release-openfin.yml",
+      "owner": "web-ci",
+      "bytes": 54169,
+      "sha256": "944cd92646f1ee7e2e1260d945da66acc6013d15031e4d7846e7df3d87dcf438"
+    },
+    {
+      "path": ".github/workflows/search-quality.yml",
+      "owner": "web-ci",
+      "bytes": 1556,
+      "sha256": "619caee39fd27b170d9eaea1df0b7b891c2dc93c0aaa55ed0b5ad2ab1806657b"
+    },
+    {
+      "path": ".github/workflows/staging-openfin.yml",
+      "owner": "web-ci",
+      "bytes": 4038,
+      "sha256": "640c18d81f91c554237d5b966aced2f058a233ec04e4085b4881e633f481792b"
+    },
+    {
+      "path": ".github/workflows/track-sources.yml",
+      "owner": "web-ci",
+      "bytes": 5144,
+      "sha256": "8ca19d19843ea61ede8b799c47b6148c801147c5665c9b6214b92acc2f0d1406"
+    },
+    {
+      "path": "docs/analytics-settings.html",
+      "owner": "web-ci",
+      "bytes": 4430,
+      "sha256": "040561a3f0a97dd8e142f03190639c932a35ead81dab1b54350d6f1baee765e5"
+    },
+    {
+      "path": "docs/analytics-settings.js",
+      "owner": "web-ci",
+      "bytes": 1481,
+      "sha256": "db3678ad78b838f503de9f7b2ab031088c3a50dce6d536f5a09594cb21c19d65"
+    },
+    {
+      "path": "docs/analytics-test.html",
+      "owner": "web-ci",
+      "bytes": 4303,
+      "sha256": "cb733811f4866fbbc57287f64759b6a2fc1e9c05297f09d37b9cbdbbc23a0712"
+    },
+    {
+      "path": "docs/analytics-test.js",
+      "owner": "web-ci",
+      "bytes": 1864,
+      "sha256": "85db8c9146a51f0e1b3c388b1ba6f3c0d6ac903f7329a147dd152fc924f2f3c9"
+    },
+    {
+      "path": "docs/analytics.js",
+      "owner": "web-ci",
+      "bytes": 1287,
+      "sha256": "f9a330941c788c238785f37818bfae119054f8fc62dce0987efbb60d67365b42"
+    },
+    {
+      "path": "docs/api-data.css",
+      "owner": "web-ci",
+      "bytes": 3047,
+      "sha256": "4aee6cf3593defa607e2cde9ee2e57a55ead78715e55c66e12ad58623c1fd32f"
+    },
+    {
+      "path": "docs/api-data.html",
+      "owner": "web-ci",
+      "bytes": 3092,
+      "sha256": "76f1518ed4fc5ce687462aab8a79bb785b33f93cdeb54a5ac6d46d6baa42ac23"
+    },
+    {
+      "path": "docs/api-data.js",
+      "owner": "web-ci",
+      "bytes": 12634,
+      "sha256": "c157df7d8fba050edde6563034e7d7d572909951a845cee7496071dac1fd546b"
+    },
+    {
+      "path": "docs/app.js",
+      "owner": "web-ci",
+      "bytes": 67086,
+      "sha256": "4a3b3601077f7a43bcff310e8867d87a592aa2274b5a6929261337531d54e163"
+    },
+    {
+      "path": "docs/collection-status.js",
+      "owner": "web-ci",
+      "bytes": 5585,
+      "sha256": "4c73bbff04fbfb1a3ca67e0fcb8a123c3b447818d5fae987609e5730b61ad206"
+    },
+    {
+      "path": "docs/explorer.css",
+      "owner": "web-ci",
+      "bytes": 8861,
+      "sha256": "7b1984d5ec34ebffee284c0c4e1a74facb32297a1ae3f76cd1e422bc8acd6876"
+    },
+    {
+      "path": "docs/explorer.html",
+      "owner": "web-ci",
+      "bytes": 4775,
+      "sha256": "4ab39b29c899dc67a24ad5894cc912b6e513240903b81b8cc697c7a7904b2b28"
+    },
+    {
+      "path": "docs/galaxy3d.js",
+      "owner": "web-ci",
+      "bytes": 27518,
+      "sha256": "eba90b39204f5627e32774fc0ac8a6d0aebbc53e06431eb3b6852961ce191735"
+    },
+    {
+      "path": "docs/home.css",
+      "owner": "web-ci",
+      "bytes": 6426,
+      "sha256": "09347d9f714562f3af533a6fe5922a347de07f6907bc3df3410a4fd6f6fa147c"
+    },
+    {
+      "path": "docs/index.html",
+      "owner": "web-ci",
+      "bytes": 21972,
+      "sha256": "74cbfe593bb80c24af701ec737be5fe987a610fa88b5bd6612e73e9d4a57df4c"
+    },
+    {
+      "path": "docs/opentax/app.js",
+      "owner": "web-ci",
+      "bytes": 872244,
+      "sha256": "caa3a98063b49cb16037dc2744c2964a076e3c437fa3e45aef240d1381937424"
+    },
+    {
+      "path": "docs/opentax/index.html",
+      "owner": "web-ci",
+      "bytes": 19626,
+      "sha256": "fc712a92d1444b5e243ac493c69c54a4ceaf7048a41739d9cb7ae204261349e8"
+    },
+    {
+      "path": "docs/opentax/privacy.html",
+      "owner": "web-ci",
+      "bytes": 4886,
+      "sha256": "eb106dbe0809702d7e3ba3ef1f452a7b0981143280cf0faa4385a602b34e222c"
+    },
+    {
+      "path": "docs/opentax/styles.css",
+      "owner": "web-ci",
+      "bytes": 22458,
+      "sha256": "ea6d2d6e803320a5c20f1b3c6e13612a08b4021ae5c0fb01fe842d9aed45abe8"
+    },
+    {
+      "path": "docs/opentax/support.html",
+      "owner": "web-ci",
+      "bytes": 2885,
+      "sha256": "86cf5e7c08d7391b3161f6627762b38f8204a3cb6ae2de7523827c9384273b70"
+    },
+    {
+      "path": "docs/opentax/terms.html",
+      "owner": "web-ci",
+      "bytes": 3216,
+      "sha256": "f463b7ea96c5df477ba6b565d8330683bd58b5d28565e16acbe33e094d7307a3"
+    },
+    {
+      "path": "docs/styles.css",
+      "owner": "web-ci",
+      "bytes": 45172,
+      "sha256": "044cbb42172c0da27cd40775f2be05ff3974dcdf27bbcafe1f994dd64c43b052"
+    },
+    {
+      "path": "docs/vendor/OrbitControls.js",
+      "owner": "vendor",
+      "bytes": 42467,
+      "sha256": "32f65512ad637a6698af1c290ecd59b33dbe7a996e5520483854222f2783df31"
+    },
+    {
+      "path": "docs/vendor/three.core.min.js",
+      "owner": "vendor",
+      "bytes": 385392,
+      "sha256": "46bfe481f27b838cadea6f536e37c6ad95f6a4daf9f7c8696b32c2828d3722ef"
+    },
+    {
+      "path": "docs/vendor/three.module.min.js",
+      "owner": "vendor",
+      "bytes": 365558,
+      "sha256": "1f065b8bf5eec3a5f73a2c0708990194c4b4658f1b54a2d0b3d0885c3a4b4284"
+    },
+    {
+      "path": "mcp/free-env.d.ts",
+      "owner": "mcp",
+      "bytes": 606910,
+      "sha256": "c322ad2101a3d1c4b61eb1e2a9a5abfb30dadb723a898fb7b1f0a8dfac638da9"
+    },
+    {
+      "path": "mcp/scripts/build-free-catalog.mjs",
+      "owner": "mcp",
+      "bytes": 1598,
+      "sha256": "cfe5e44aecc6ec2011f4b19a6823e5d9c5cc0ec67fd79fdc02ff8f6d50ecbd10"
+    },
+    {
+      "path": "mcp/scripts/canary-validate.mjs",
+      "owner": "mcp",
+      "bytes": 3878,
+      "sha256": "ba47a8bfece6eb4723df79ec15762562a0a37de89246fd60f597953b600d3d58"
+    },
+    {
+      "path": "mcp/scripts/deploy-free.mjs",
+      "owner": "mcp",
+      "bytes": 3148,
+      "sha256": "48902a250facb9c0f44ffc31068f105bcb659eaf178c0f2502fe1a19d26f9f93"
+    },
+    {
+      "path": "mcp/scripts/financial-quality-live.mjs",
+      "owner": "mcp",
+      "bytes": 19174,
+      "sha256": "d673d1cb477f8ccfcb0dbd8ff9089861a8ac438dbbbb9e9c97ce207843c86177"
+    },
+    {
+      "path": "mcp/scripts/financial-quality.mjs",
+      "owner": "mcp",
+      "bytes": 4019,
+      "sha256": "a514cb134468202823546d759c3c2b465a6b8c084391d0aee547b9eb6b501816"
+    },
+    {
+      "path": "mcp/scripts/live-regression-transport.mjs",
+      "owner": "mcp",
+      "bytes": 1407,
+      "sha256": "7e3e1107ea129f6d294053ef268db8b330cbcc78f50f3e6d579185bb3c896e6e"
+    },
+    {
+      "path": "mcp/scripts/live-regression.mjs",
+      "owner": "mcp",
+      "bytes": 32113,
+      "sha256": "144d92d79556c30a9e3412119bab4c4da898e155426a4f77530ef99ad6689800"
+    },
+    {
+      "path": "mcp/scripts/mutation-check.mjs",
+      "owner": "mcp",
+      "bytes": 6937,
+      "sha256": "2303f3ae91a809af63675f6951c0e583ec940bbeaf980184ef516d8fc69fd3b6"
+    },
+    {
+      "path": "mcp/scripts/smoke-free.mjs",
+      "owner": "mcp",
+      "bytes": 4325,
+      "sha256": "303eecce8484233549bbe9186c81b03d0d9ed01813504ffe6a04434fb93505bd"
+    },
+    {
+      "path": "mcp/scripts/smoke.mjs",
+      "owner": "mcp",
+      "bytes": 9958,
+      "sha256": "57c69a190a071aee95a95d0f6bd6d8879e65750aa6923a850afb571faf2d010b"
+    },
+    {
+      "path": "mcp/scripts/soak-test.mjs",
+      "owner": "mcp",
+      "bytes": 9115,
+      "sha256": "e1323b719635310c5d3bb508df5d281d7b6559e47add47479ba6512468f29d55"
+    },
+    {
+      "path": "mcp/scripts/tool-schema-contract.mjs",
+      "owner": "mcp",
+      "bytes": 4258,
+      "sha256": "41d313b3ee495c13c0c1347305edb98f7ad41b46beb63d7c39a71cf1f50a67e1"
+    },
+    {
+      "path": "mcp/scripts/verify-deploy-scope.mjs",
+      "owner": "mcp",
+      "bytes": 1075,
+      "sha256": "cfd36c5f89faba3b291f02af1260ea4e0206f6437e165fa55380548497a5db7a"
+    },
+    {
+      "path": "mcp/scripts/verify-free-parity.mjs",
+      "owner": "mcp",
+      "bytes": 1663,
+      "sha256": "31594ec08f042118434b3a5c901757e4bb52066f2942eed2c359bf851df795ed"
+    },
+    {
+      "path": "mcp/scripts/verify-release.mjs",
+      "owner": "mcp",
+      "bytes": 4490,
+      "sha256": "67de9ed4eb418111c30e7ff6b86280254715ca18296d8bf7ff194ad36b3342c5"
+    },
+    {
+      "path": "mcp/src/cache-budget.ts",
+      "owner": "mcp",
+      "bytes": 4129,
+      "sha256": "8864a422f4e6990365d2cfd7ca0ec68ec56a3ca12fa08d669b6f5e0eee7233b9"
+    },
+    {
+      "path": "mcp/src/calculators/deposit.ts",
+      "owner": "mcp",
+      "bytes": 5630,
+      "sha256": "31a5bf5c3710b7f26fc9139bf87ce9d832e626693c888b204fd0bf82c5f39a80"
+    },
+    {
+      "path": "mcp/src/calculators/early-termination.ts",
+      "owner": "mcp",
+      "bytes": 5019,
+      "sha256": "5fade8e2d9649c355f43f690c192dd6181607cf1b056ec817cedd02f4cf88b23"
+    },
+    {
+      "path": "mcp/src/calculators/saving.ts",
+      "owner": "mcp",
+      "bytes": 1722,
+      "sha256": "563fbf54f92f0d8450cd031ed734b94a44045a4ac9da087ecb9635eeb3abd4aa"
+    },
+    {
+      "path": "mcp/src/calculators/tax.ts",
+      "owner": "mcp",
+      "bytes": 1043,
+      "sha256": "a1bff546623f27fa8d843f2ec5c2c0ed8549c36ca84e489b720a117c42394316"
+    },
+    {
+      "path": "mcp/src/capability-status.ts",
+      "owner": "mcp",
+      "bytes": 787,
+      "sha256": "6db2b21bef4918702845a71179870f86a583bd0212b7632b33c09c9d5a522d58"
+    },
+    {
+      "path": "mcp/src/decision/assertion-profiles.ts",
+      "owner": "mcp",
+      "bytes": 5740,
+      "sha256": "d96ac8d0ae904719acbbf77f43ec028975566c76898e4ae03cba927dcda3d0d6"
+    },
+    {
+      "path": "mcp/src/decision/candidate-adapter.ts",
+      "owner": "mcp",
+      "bytes": 4312,
+      "sha256": "0c63b81978806ae261b7f9f58913bf0b1f7cac6bbd40915ec79a04b5b5c55a03"
+    },
+    {
+      "path": "mcp/src/decision/evidence-gate.ts",
+      "owner": "mcp",
+      "bytes": 12201,
+      "sha256": "643783cbd06bbf0310fcef609a6991389a9992dfb096baa1dd7805e0dc1cc749"
+    },
+    {
+      "path": "mcp/src/export-shards.ts",
+      "owner": "mcp",
+      "bytes": 1858,
+      "sha256": "b995881b8582aec991f3be87b7fa2ddd9229a21d8fb2ffa55a2ade879e09ace2"
+    },
+    {
+      "path": "mcp/src/free-catalog.ts",
+      "owner": "mcp",
+      "bytes": 6719,
+      "sha256": "a84b191640c2331cfa5e809d8a18a800dd950ce6409274f77f970dd68dd1836b"
+    },
+    {
+      "path": "mcp/src/free.ts",
+      "owner": "mcp",
+      "bytes": 4759,
+      "sha256": "c391c6bf7bdc7092f7a3018a31de57b4c02193b112d5242efb5fec5e9c99b9d6"
+    },
+    {
+      "path": "mcp/src/generation-cache.ts",
+      "owner": "mcp",
+      "bytes": 623,
+      "sha256": "a15c75af4d59416e44c973c4b99bf43198437d671058f3177d6c204a82d17a8c"
+    },
+    {
+      "path": "mcp/src/health.ts",
+      "owner": "mcp",
+      "bytes": 6154,
+      "sha256": "006590c9276c28e872f308c60bbbf3aeb71307012a0b7f31a9dfeebc1e4dc73d"
+    },
+    {
+      "path": "mcp/src/index.ts",
+      "owner": "mcp",
+      "bytes": 201059,
+      "sha256": "8fca4a12b57440da690fb2126e8c947d6584b552b964a1e1c385fedfb0a7a365"
+    },
+    {
+      "path": "mcp/src/product-status.ts",
+      "owner": "mcp",
+      "bytes": 814,
+      "sha256": "344e4e6d98b3018f05e49fe31bdaf57736fc5e1dffa99e2ab9029fc6153dfb78"
+    },
+    {
+      "path": "mcp/src/recommendation/abstention.ts",
+      "owner": "mcp",
+      "bytes": 897,
+      "sha256": "baaa73cba7155045d5d009593571d37ee11328a6890e1f36e5b01674c91a8bff"
+    },
+    {
+      "path": "mcp/src/recommendation/attainable-rate.ts",
+      "owner": "mcp",
+      "bytes": 3007,
+      "sha256": "d1f72f999deaf5c23d609ad716c83aead93ef56ec14f6664079c306d65298d1b"
+    },
+    {
+      "path": "mcp/src/recommendation/context.ts",
+      "owner": "mcp",
+      "bytes": 7847,
+      "sha256": "6a76e175b1d38944436b02faae15eb8b91ca7bab3d75032cd69a4f6ce728de38"
+    },
+    {
+      "path": "mcp/src/recommendation/explanation.ts",
+      "owner": "mcp",
+      "bytes": 4871,
+      "sha256": "6528233bfd0b8e8e2f29fea565abb3a4986c6bb4708ad316f572ec5f27010f45"
+    },
+    {
+      "path": "mcp/src/recommendation/facts.ts",
+      "owner": "mcp",
+      "bytes": 1590,
+      "sha256": "30412757c2a65fae49870d0881539e2d483ed2e0d975c6153f39bb897cc6d8ce"
+    },
+    {
+      "path": "mcp/src/recommendation/need-gate.ts",
+      "owner": "mcp",
+      "bytes": 2150,
+      "sha256": "a2e2b55204c45af367cd1ea458393e745e2485d1db7a836de29b920ac77c8759"
+    },
+    {
+      "path": "mcp/src/recommendation/outcome.ts",
+      "owner": "mcp",
+      "bytes": 9988,
+      "sha256": "ca6e5a0e8fc0529f3c7f5611e75b483aaf60ea943fa74c50abccaa69f453f712"
+    },
+    {
+      "path": "mcp/src/recommendation/policy.ts",
+      "owner": "mcp",
+      "bytes": 8644,
+      "sha256": "4af801bcbfc09890ef70951c70db882e1e0f5c94c5023c3a34b8efb934a0b3c3"
+    },
+    {
+      "path": "mcp/src/recommendation/privacy.ts",
+      "owner": "mcp",
+      "bytes": 1701,
+      "sha256": "a40814416cbc0494baa6d54161c38566b42f6d121d56e72ba634f4daa512cd90"
+    },
+    {
+      "path": "mcp/src/recommendation/ranking-v2.ts",
+      "owner": "mcp",
+      "bytes": 1625,
+      "sha256": "923e90393d28aad3a5292ba104e6e462c1eee62e3409724d7cc7ca50c43feff2"
+    },
+    {
+      "path": "mcp/src/recommendation/ranking.ts",
+      "owner": "mcp",
+      "bytes": 3656,
+      "sha256": "0c48d7645027e534fcb3ea69e358e60c63278d9d565c028999e2459bbe01c7a7"
+    },
+    {
+      "path": "mcp/src/recommendation/rule-engine.ts",
+      "owner": "mcp",
+      "bytes": 6328,
+      "sha256": "c8c30445b8ff14e6353f1160b69741fa2c96af2f4c3b0aac5fd5323811ab1603"
+    },
+    {
+      "path": "mcp/src/release-gate.ts",
+      "owner": "mcp",
+      "bytes": 11219,
+      "sha256": "eada4b97120d6bbf034a680712f1a009fecb44a719c98bb77bdc9cf906fc2b2c"
+    },
+    {
+      "path": "mcp/src/source-status.ts",
+      "owner": "mcp",
+      "bytes": 6582,
+      "sha256": "187af9534fab9ca1807b536c7a40eaa6167316823958bc1cacdcd8319c875d03"
+    },
+    {
+      "path": "mcp/src/tools/compare.ts",
+      "owner": "mcp",
+      "bytes": 9012,
+      "sha256": "5775c6dc132f2961459c4c2b1d6f42837a248e3e0a81639088037432632c0cca"
+    },
+    {
+      "path": "mcp/src/tools/discover.ts",
+      "owner": "mcp",
+      "bytes": 2205,
+      "sha256": "946f4f091ba462d68cc2945ab8896ca2ad343389462b1a26d90d5cb84be2c078"
+    },
+    {
+      "path": "mcp/src/tools/exports.ts",
+      "owner": "mcp",
+      "bytes": 2726,
+      "sha256": "56211616a477cf4fb43067e263914c84b51251065e1ea453d605fdaabe11d9e9"
+    },
+    {
+      "path": "mcp/src/tools/fetch.ts",
+      "owner": "mcp",
+      "bytes": 16416,
+      "sha256": "3c6d2205f08dd6d06980faaeae93db8addd6af829c59aed5578b7037b58f4149"
+    },
+    {
+      "path": "mcp/src/tools/personal-finance.ts",
+      "owner": "mcp",
+      "bytes": 20024,
+      "sha256": "f1265fb52a5da682ad6b2c4a6ef0ccd62930323c0058270d056b79898aea0af2"
+    },
+    {
+      "path": "mcp/src/tools/pilot-evaluation.ts",
+      "owner": "mcp",
+      "bytes": 3520,
+      "sha256": "6e291f8a6e3c72c4515cdbc59c07a1b6d61fda812c7f21f8af3d6b83b59662c6"
+    },
+    {
+      "path": "mcp/src/tools/recommend-handler.ts",
+      "owner": "mcp",
+      "bytes": 19944,
+      "sha256": "964ef959d4f00a43a7c18d76f084d646149e078cd3c57e748af8c189d496bb45"
+    },
+    {
+      "path": "mcp/src/tools/recommend-owner-pilot.ts",
+      "owner": "mcp",
+      "bytes": 11088,
+      "sha256": "fb10dd39b09bc413cf8018a3c8c4989d2cadcb200b64c053f9c623b18c895129"
+    },
+    {
+      "path": "mcp/src/tools/recommend-shadow.ts",
+      "owner": "mcp",
+      "bytes": 7284,
+      "sha256": "24c78f50eaf3d9dc007473351c43a407628574fae3d9ffe329630387002afd8e"
+    },
+    {
+      "path": "mcp/src/tools/recommend.ts",
+      "owner": "mcp",
+      "bytes": 3102,
+      "sha256": "ff0c6ba96ab68262fd9a487d596c45831af57fb7acc0a6e19ebb6a655eca2e67"
+    },
+    {
+      "path": "mcp/src/tools/search.ts",
+      "owner": "mcp",
+      "bytes": 13368,
+      "sha256": "de0f86e6925204a1bbd387dd74f32e2ed265d4fcd43ca0494d3460ff6cd91aa9"
+    },
+    {
+      "path": "mcp/src/types/decision-candidate.ts",
+      "owner": "mcp",
+      "bytes": 584,
+      "sha256": "5f3e2fe32617088564808830e9f768b3f601bdc584613f9396cc54440d14a848"
+    },
+    {
+      "path": "mcp/src/types/tool-context.ts",
+      "owner": "mcp",
+      "bytes": 8780,
+      "sha256": "d5ba390e936efc3ba5489f3c596e3a775a59b5a36c21e52cb422480b7a162f7c"
+    },
+    {
+      "path": "mcp/tests/cache-budget.test.mjs",
+      "owner": "mcp",
+      "bytes": 2234,
+      "sha256": "1b337b706c69301a7f210bbf41f0d9a4ed26b6f370f1a64d8621a6f50cb1cf5b"
+    },
+    {
+      "path": "mcp/tests/calculators.test.mjs",
+      "owner": "mcp",
+      "bytes": 10353,
+      "sha256": "356a5ba2915d54c19efaf3f322959a2ff265d21e68915fbe61ff4149c0a5bba7"
+    },
+    {
+      "path": "mcp/tests/canary-validate.test.mjs",
+      "owner": "mcp",
+      "bytes": 2271,
+      "sha256": "8716b835357429029de84405670eb1cd11050e5fb9b7d79ee772c79221fb00e8"
+    },
+    {
+      "path": "mcp/tests/context-privacy.test.mjs",
+      "owner": "mcp",
+      "bytes": 1035,
+      "sha256": "47e2c87128c71227e139c046bfbd328d486ce660978e8200fde398b78789ec92"
+    },
+    {
+      "path": "mcp/tests/decision-gate.test.mjs",
+      "owner": "mcp",
+      "bytes": 5339,
+      "sha256": "147defb3145c8a318a8eb3ce7c4224eabd0d2d1c8fcc568575d3a026f95d7f58"
+    },
+    {
+      "path": "mcp/tests/deploy-free.test.mjs",
+      "owner": "mcp",
+      "bytes": 4257,
+      "sha256": "df02adf7540acccc960d817786f986709bb9cbf037bf1574368c25264a20a209"
+    },
+    {
+      "path": "mcp/tests/deploy-scope.test.mjs",
+      "owner": "mcp",
+      "bytes": 2248,
+      "sha256": "bd8ab880169d075f7c37b4c1a64664c2fcdee73743c5ed941d3193a08a4274bd"
+    },
+    {
+      "path": "mcp/tests/export-shards.test.mjs",
+      "owner": "mcp",
+      "bytes": 1212,
+      "sha256": "7bd6adda5c52f8dc50610b10a5dbbc3003a42dca789cdb4d50aaccdc7ec51cd1"
+    },
+    {
+      "path": "mcp/tests/fact-source-trust.test.mjs",
+      "owner": "mcp",
+      "bytes": 1284,
+      "sha256": "10db777566351f2235ddf51a4cf1515390f5c4492fae35631a2c66d03cdaad9d"
+    },
+    {
+      "path": "mcp/tests/fetch-contract.test.mjs",
+      "owner": "mcp",
+      "bytes": 5607,
+      "sha256": "3817e30df7dc4b6b7a76b14a3e856677c4e0b29fb223201edf6a0da9e1b4cb3f"
+    },
+    {
+      "path": "mcp/tests/financial-quality.test.mjs",
+      "owner": "mcp",
+      "bytes": 2292,
+      "sha256": "272d76893637262d19e95a61539d2f669472e14fd2b7a29a7244fd49ed649374"
+    },
+    {
+      "path": "mcp/tests/free-catalog.test.mjs",
+      "owner": "mcp",
+      "bytes": 5006,
+      "sha256": "069807a8cc12c3f29e0276c2c9a7877bbcebc63566b423976eb75f6a1af8c170"
+    },
+    {
+      "path": "mcp/tests/free-search.test.mjs",
+      "owner": "mcp",
+      "bytes": 2409,
+      "sha256": "87f9eafcfa839e9f4e5215e17ae8d79862aaf1749d964d70bde91f89bd878587"
+    },
+    {
+      "path": "mcp/tests/generation-cache.test.mjs",
+      "owner": "mcp",
+      "bytes": 1689,
+      "sha256": "f5e7e2037c9974ab0c86f2bd29a203f9422eb45ee90db00a244d0685587acc78"
+    },
+    {
+      "path": "mcp/tests/health.test.mjs",
+      "owner": "mcp",
+      "bytes": 4410,
+      "sha256": "b269e48aafe7ce3ce611919dd8a126130952492665bb4b6cc7ca1865dffd916d"
+    },
+    {
+      "path": "mcp/tests/item-routing.test.mjs",
+      "owner": "mcp",
+      "bytes": 627,
+      "sha256": "49f92316026d769685932c464361b135589d072e51603c1de7bf58ccae4997dc"
+    },
+    {
+      "path": "mcp/tests/live-regression-fixture.test.mjs",
+      "owner": "mcp",
+      "bytes": 3477,
+      "sha256": "e58a01ba519f09b01d41a56406aa1a252d51f279df98acc9f92947d51d06cdd9"
+    },
+    {
+      "path": "mcp/tests/live-regression-transport.test.mjs",
+      "owner": "mcp",
+      "bytes": 1453,
+      "sha256": "2972e4e11a896030bbbab9d3fb8a71d677e587d766de0490e5ef8beb4f396963"
+    },
+    {
+      "path": "mcp/tests/need-gate.test.mjs",
+      "owner": "mcp",
+      "bytes": 1037,
+      "sha256": "bc433b551bfde87de3d24a07feffbd2f9f45e6005cef1224d5bbaf663ce25751"
+    },
+    {
+      "path": "mcp/tests/owner-pilot.test.mjs",
+      "owner": "mcp",
+      "bytes": 1617,
+      "sha256": "0d32778e88aeef1adf4cc5b12d6380af7dbcf084381c9e2f5c116cc644f7f378"
+    },
+    {
+      "path": "mcp/tests/recommend-handler.test.mjs",
+      "owner": "mcp",
+      "bytes": 3972,
+      "sha256": "2e2b6621bbbf21026fc56f0db42a90b7593a2908396f6cf80f1f35b8fae528e5"
+    },
+    {
+      "path": "mcp/tests/recommendation.test.mjs",
+      "owner": "mcp",
+      "bytes": 1794,
+      "sha256": "bca8d1abaeb73ad4df3f5b0d9e6f904f490af7c414f4454eb243a43ffe6df0f7"
+    },
+    {
+      "path": "mcp/tests/release-gate.test.mjs",
+      "owner": "mcp",
+      "bytes": 5948,
+      "sha256": "df62bdbfb1c68c59f3f01d1e026d35c95e335e5aa0473a99d1bffa84ab06b0b1"
+    },
+    {
+      "path": "mcp/tests/rule-engine.test.mjs",
+      "owner": "mcp",
+      "bytes": 1151,
+      "sha256": "84bcf40b727746063f588c7902fa0eabfd7aca229bf8118d83d79e077fbb5c16"
+    },
+    {
+      "path": "mcp/tests/search-compact.test.mjs",
+      "owner": "mcp",
+      "bytes": 24528,
+      "sha256": "6a64ae638cf15db365c0bf5b63a671b33d13403566437ff62c7a64844c566ed9"
+    },
+    {
+      "path": "mcp/tests/soak-test.test.mjs",
+      "owner": "mcp",
+      "bytes": 1970,
+      "sha256": "429b54d58a75a90fc5ce577a42d5f31dcc7d9d28a7c43bc7ae439c58c3480df5"
+    },
+    {
+      "path": "mcp/tests/source-status.test.mjs",
+      "owner": "mcp",
+      "bytes": 5064,
+      "sha256": "acf374eb7bb8f4b5bc38ee0c037e1d0a665f6e5ca5e1a7579dc6a41fe717f8c7"
+    },
+    {
+      "path": "mcp/tests/tool-schema-contract.test.mjs",
+      "owner": "mcp",
+      "bytes": 705,
+      "sha256": "acd8a91450a3c13106d3ec33a94b5240a2e21a5cc272a77dfe8d975901805e8a"
+    },
+    {
+      "path": "mcp/tests/verify-release.test.mjs",
+      "owner": "mcp",
+      "bytes": 3052,
+      "sha256": "5e167fe3713608956666341f0cfb5034f7d57f7649e0f05f4c967b410a5f1778"
+    },
+    {
+      "path": "mcp/worker-configuration.d.ts",
+      "owner": "mcp",
+      "bytes": 373,
+      "sha256": "1d2ef972fcd9d01203c391fb61ecfa2df72a819908e87bddac7df67d5dc8cc97"
+    },
+    {
+      "path": "mcp/wrangler.free.jsonc",
+      "owner": "mcp",
+      "bytes": 355,
+      "sha256": "64c0cada222418540454d3c3d47e2dab45c5a484ca354d99166587cd7502d8c4"
+    },
+    {
+      "path": "mcp/wrangler.toml",
+      "owner": "mcp",
+      "bytes": 307,
+      "sha256": "4ca0f6dde407215f74b8b71134b440fb77c33713b768c5e57c803f660ad52b37"
+    },
+    {
+      "path": "reports/improvements/2026-10-06/evidence/qa-reproduce.mjs",
+      "owner": "historical-evidence",
+      "bytes": 8283,
+      "sha256": "5cb8fe7be18c67d639ae75c803a96f7df53ae3b1b60f9b2dabb819ebbfb783b4"
+    },
+    {
+      "path": "scripts/knowledge/api-pagination.mjs",
+      "owner": "pipeline",
+      "bytes": 837,
+      "sha256": "68c66fd91fc9ace78b28fb4ad7448ced98d0364189c383678eb5cf4f247b9489"
+    },
+    {
+      "path": "scripts/knowledge/assertion-profiles.mjs",
+      "owner": "pipeline",
+      "bytes": 4340,
+      "sha256": "8859167390eb121aba067bd9d9eb4fc3f49d2fe4b31f42581361bdb433ef4ed5"
+    },
+    {
+      "path": "scripts/knowledge/audit-policy-coverage.py",
+      "owner": "pipeline",
+      "bytes": 3646,
+      "sha256": "1d331d50ff2ef260ea03f3e4a6c4b64d36210802188f31a72b8ff73b6446bba4"
+    },
+    {
+      "path": "scripts/knowledge/audit-tax-disclosures.py",
+      "owner": "pipeline",
+      "bytes": 3359,
+      "sha256": "85b5ddb60c288ee51c0fed0bd1b453d430a9131a66334210378159b549963e08"
+    },
+    {
+      "path": "scripts/knowledge/bootstrap.mjs",
+      "owner": "pipeline",
+      "bytes": 15802,
+      "sha256": "9495ddbc97cc4ef5d4a62172146a9a231228e0a11d5462a3af69613266357745"
+    },
+    {
+      "path": "scripts/knowledge/build-collection-inventory.py",
+      "owner": "pipeline",
+      "bytes": 5095,
+      "sha256": "d6c92a561f8da92f5a32e8053cd45b02f9a90ba4215f5279ae508630ceb97172"
+    },
+    {
+      "path": "scripts/knowledge/build-decision-snapshots.mjs",
+      "owner": "pipeline",
+      "bytes": 29804,
+      "sha256": "02572b1047c1f7dfb08936055d50a7585d8101ea24db236ea8b4ba0e5cd99c50"
+    },
+    {
+      "path": "scripts/knowledge/build.mjs",
+      "owner": "pipeline",
+      "bytes": 85758,
+      "sha256": "4a7ea9ea862320be423da466c1790072fbc3a7ec1fc82eb9871e49001344e520"
+    },
+    {
+      "path": "scripts/knowledge/capture-production-snapshot.mjs",
+      "owner": "pipeline",
+      "bytes": 6045,
+      "sha256": "aabe4b90353385da46cd4f8d1061189cc31635dae25252e265a1701f1085ab2d"
+    },
+    {
+      "path": "scripts/knowledge/collect-disclosures.py",
+      "owner": "pipeline",
+      "bytes": 26607,
+      "sha256": "3ed34372a37f0cd8aec897c9947b67e62e13e29d9e5127fc5e8564d65a0696b2"
+    },
+    {
+      "path": "scripts/knowledge/collect-finlife-additional.mjs",
+      "owner": "pipeline",
+      "bytes": 4722,
+      "sha256": "be1068be620cea80cc51777fb69e189812295bc880237c08f21e853665eba116"
+    },
+    {
+      "path": "scripts/knowledge/collect-finlife-candidates.mjs",
+      "owner": "pipeline",
+      "bytes": 10550,
+      "sha256": "f97600c47cdd44f20b12db6c88ecf8689d6617ec1fe0a861282382bde1614e30"
+    },
+    {
+      "path": "scripts/knowledge/collect-gov24.mjs",
+      "owner": "pipeline",
+      "bytes": 1434,
+      "sha256": "4e647b6f07d3dabecd11505f62b6e448bd07b6d9f651c31ed0ae73b1cee6bd7d"
+    },
+    {
+      "path": "scripts/knowledge/collect-policy-batch.py",
+      "owner": "pipeline",
+      "bytes": 1236,
+      "sha256": "b5a11a431d923c819ec31527593fb2d5ddb27cc3ff35cbfe11a774a5cdeb1476"
+    },
+    {
+      "path": "scripts/knowledge/collect-policy-documents.py",
+      "owner": "pipeline",
+      "bytes": 13731,
+      "sha256": "36225fa2564c99ea7ce8564b9b61eedfbaad4a86e33596cdd940ca7ff97812e2"
+    },
+    {
+      "path": "scripts/knowledge/collect-public-apis.py",
+      "owner": "pipeline",
+      "bytes": 12726,
+      "sha256": "cb336bcc361af1b5b4430160206fbf2d3e9dfbaab25901ad19857d64c688666b"
+    },
+    {
+      "path": "scripts/knowledge/collect-tax-calendar.py",
+      "owner": "pipeline",
+      "bytes": 2097,
+      "sha256": "ad8299e48a556e3da43c9f41ba117efc0d5c6671126ae434e4f9cf7e4f3c87cb"
+    },
+    {
+      "path": "scripts/knowledge/collect-tax-extra-sources.py",
+      "owner": "pipeline",
+      "bytes": 2730,
+      "sha256": "997b7f7888fdf0b7d5e11eeebb438dd403c8d46fe628a9cbfca7091f44be53ef"
+    },
+    {
+      "path": "scripts/knowledge/common.mjs",
+      "owner": "pipeline",
+      "bytes": 15136,
+      "sha256": "b083def5b1c6f7cbe066fa4f2e6a7dc424695a7d6752903b354e3ef6e0566b05"
+    },
+    {
+      "path": "scripts/knowledge/compile-financial-rules.mjs",
+      "owner": "pipeline",
+      "bytes": 9026,
+      "sha256": "efe4da64a1ca124b2802ebff4ccc729b4d8dc33fc17d8a5785538ba52b7d80c9"
+    },
+    {
+      "path": "scripts/knowledge/corporate-tax-reviews.mjs",
+      "owner": "pipeline",
+      "bytes": 28081,
+      "sha256": "2209fdc449e1da65b7337f21695aa73b4cf58545ce5a21a2b6cf1b519243b048"
+    },
+    {
+      "path": "scripts/knowledge/deadline-reviews.mjs",
+      "owner": "pipeline",
+      "bytes": 14147,
+      "sha256": "2171eb7fc1bc56150fbb8836180ea9419df6f547efbcb3ac46d6c605c974cc7b"
+    },
+    {
+      "path": "scripts/knowledge/derive-quality.mjs",
+      "owner": "pipeline",
+      "bytes": 31111,
+      "sha256": "cc15745e9f96c58da2a107da31ddcca7387b98b13d8be4e855fd477673ab6d90"
+    },
+    {
+      "path": "scripts/knowledge/disclosure-normalizers.mjs",
+      "owner": "pipeline",
+      "bytes": 1556,
+      "sha256": "a2cf8a031faadf431193f49470767bd912b0069c31c0d18c4ad07ca1c0b67e7a"
+    },
+    {
+      "path": "scripts/knowledge/disclosure-receipts.mjs",
+      "owner": "pipeline",
+      "bytes": 633,
+      "sha256": "456be05e666617d76e3f87c96aec7463637d819126c094f9acfbb9e95b212f61"
+    },
+    {
+      "path": "scripts/knowledge/filing-tax-reviews.mjs",
+      "owner": "pipeline",
+      "bytes": 3629,
+      "sha256": "91d07d5df4bebc4edddb4b6631b8e1a82972e785474203f8421b2063d3ca62ca"
+    },
+    {
+      "path": "scripts/knowledge/integrate-current-data.mjs",
+      "owner": "pipeline",
+      "bytes": 26444,
+      "sha256": "fc367de06f8238803175f7315d3a5aec59b0e5cb4068b8830f90df5315ef1279"
+    },
+    {
+      "path": "scripts/knowledge/integrate-disclosures.mjs",
+      "owner": "pipeline",
+      "bytes": 50599,
+      "sha256": "2975508cd8e83b4f923bccc5660d23aa6a3234fe0c0096bd14517e76d383c6da"
+    },
+    {
+      "path": "scripts/knowledge/link-api-snapshots.mjs",
+      "owner": "pipeline",
+      "bytes": 3286,
+      "sha256": "24f7afa1456b3ff7e5d9688b567e48514152ef4ec004e67a580488bb3634e283"
+    },
+    {
+      "path": "scripts/knowledge/local-tax-reviews.mjs",
+      "owner": "pipeline",
+      "bytes": 7620,
+      "sha256": "26554676851b5e643b0af3fb3da1d545831b94dd2fd2ee4c5b56094ceb67907a"
+    },
+    {
+      "path": "scripts/knowledge/migrate-assertion-validity.mjs",
+      "owner": "pipeline",
+      "bytes": 1957,
+      "sha256": "8cfb7c1619e5a134c8d1c7f224f0745248f28e7059da1a168ac37433c8e0a9fb"
+    },
+    {
+      "path": "scripts/knowledge/personal-tax-reviews.mjs",
+      "owner": "pipeline",
+      "bytes": 14912,
+      "sha256": "dc8981acc41d665529726e00037707b523a0080a029cc5b78d0e213e3e07f4e3"
+    },
+    {
+      "path": "scripts/knowledge/policy-matching.mjs",
+      "owner": "pipeline",
+      "bytes": 2321,
+      "sha256": "acc34ebe0618596d9fb12b8ecc27b0fd614a71f8457368bd6b4801b911c6058f"
+    },
+    {
+      "path": "scripts/knowledge/policy-matching.test.mjs",
+      "owner": "pipeline",
+      "bytes": 888,
+      "sha256": "88d916abe7c82a7b11b03e36b9d6389329449e4e752b5959694a1af4a74bbfed"
+    },
+    {
+      "path": "scripts/knowledge/policy-targets-additional.py",
+      "owner": "pipeline",
+      "bytes": 8185,
+      "sha256": "451c169a12909023d6c7a8467ae0630eb4838e7b604191d7c8a03aed90d3ea83"
+    },
+    {
+      "path": "scripts/knowledge/prepare-vertical-slice.mjs",
+      "owner": "pipeline",
+      "bytes": 1107,
+      "sha256": "680b07797dd93aa83d599e85279ab3e3e172757354a7152e8e8ac62be9474a52"
+    },
+    {
+      "path": "scripts/knowledge/promote-candidates.mjs",
+      "owner": "pipeline",
+      "bytes": 9295,
+      "sha256": "495622f7e6b90b48f7e4c51b2b52dd518ba9e7c083ae2a0a0653a3495fe1d436"
+    },
+    {
+      "path": "scripts/knowledge/publish-kdic-companies.py",
+      "owner": "pipeline",
+      "bytes": 2122,
+      "sha256": "7b4dcd8b2cfac6441389b550b031ad1010d7eb30a55ebe982a56d702da74dadb"
+    },
+    {
+      "path": "scripts/knowledge/publish-promoted-live-evidence.mjs",
+      "owner": "pipeline",
+      "bytes": 4472,
+      "sha256": "a98cbab8552709e6a6101f7dedc8dcec0cd916e30633c834fbaed48371f078da"
+    },
+    {
+      "path": "scripts/knowledge/refresh-all.mjs",
+      "owner": "pipeline",
+      "bytes": 7089,
+      "sha256": "6c1b646b725d465e5bb8933a37161fb7f808accea88e4b08e047498d439c492c"
+    },
+    {
+      "path": "scripts/knowledge/refresh-ledger.mjs",
+      "owner": "pipeline",
+      "bytes": 7015,
+      "sha256": "216cd61770cde1693ca93647f62f00bc8315d3c1b103bfa08463f3cc2ca5adc1"
+    },
+    {
+      "path": "scripts/knowledge/refresh-public-apis.py",
+      "owner": "pipeline",
+      "bytes": 4602,
+      "sha256": "001b716351f3fd6ff784ba24dca3365b23962b7678acd8f291295781deae7ce2"
+    },
+    {
+      "path": "scripts/knowledge/remaining-tax-reviews.mjs",
+      "owner": "pipeline",
+      "bytes": 17199,
+      "sha256": "f42d8713f2b6797b1300e2a24b657eb5a9d07fa627bb64b6fe4983d6d26f2c86"
+    },
+    {
+      "path": "scripts/knowledge/review-decision-offers.mjs",
+      "owner": "pipeline",
+      "bytes": 5574,
+      "sha256": "f7ecf7fa80b186902ccdda16a0af08976887b5e59ff867e641fc6d71fef69f80"
+    },
+    {
+      "path": "scripts/knowledge/runtime-monitoring.mjs",
+      "owner": "pipeline",
+      "bytes": 2296,
+      "sha256": "6be8d56cdd116f71106e1c58897809e45ea3b461a95098117b9d251160bd245c"
+    },
+    {
+      "path": "scripts/knowledge/schema-validate.mjs",
+      "owner": "pipeline",
+      "bytes": 15911,
+      "sha256": "2cab41157b6ba04de9e2b78c16c305ab2eed11103f62bd31ee6f403a682abe13"
+    },
+    {
+      "path": "scripts/knowledge/source-impact-report.mjs",
+      "owner": "pipeline",
+      "bytes": 3241,
+      "sha256": "ef35005ac5fd0c39930e52b03a6c0f1e5feb3713d153e52a6c4437055772cf3c"
+    },
+    {
+      "path": "scripts/knowledge/source-review-selection.mjs",
+      "owner": "pipeline",
+      "bytes": 1472,
+      "sha256": "234a4281fd62c65b1efab573a143de1a4fcb34ef449ef38a7ed541ee0719e607"
+    },
+    {
+      "path": "scripts/knowledge/source-tracking-summary.mjs",
+      "owner": "pipeline",
+      "bytes": 1569,
+      "sha256": "292a84e614ffcfc5a05e0bbf2b05c293dc021349234245f3003fe27602474eae"
+    },
+    {
+      "path": "scripts/knowledge/track-sources.mjs",
+      "owner": "pipeline",
+      "bytes": 13774,
+      "sha256": "7905ba12bd4f4aba5757708898331f9f3637a2e13cdca889b2cb2a6c997ff254"
+    },
+    {
+      "path": "scripts/knowledge/validate-decision-receipts.mjs",
+      "owner": "pipeline",
+      "bytes": 2833,
+      "sha256": "1cf50e94840eea6e7a7e11ba8aa6b3d9f4689cd078fc6248758b3f235c734e8f"
+    },
+    {
+      "path": "scripts/knowledge/validate-rule-facts.mjs",
+      "owner": "pipeline",
+      "bytes": 2374,
+      "sha256": "b9231f4b030241163597fd994e661769aa73f38a46b3140a2100f8b6f30fd859"
+    },
+    {
+      "path": "scripts/knowledge/validate.mjs",
+      "owner": "pipeline",
+      "bytes": 32719,
+      "sha256": "f7e79189971cd7d0154cef9248368d00ec98a8d172d785f293f5f22bfcb9c91a"
+    },
+    {
+      "path": "scripts/knowledge/verify-disclosures.mjs",
+      "owner": "pipeline",
+      "bytes": 3969,
+      "sha256": "6651413638869d883686e80e28e2f0fb4b1c21775fa0bd5866cc9c160c73db1a"
+    },
+    {
+      "path": "scripts/knowledge/verify-public-parity.mjs",
+      "owner": "pipeline",
+      "bytes": 9467,
+      "sha256": "dce71be38f3c111c62f72de8e0e93bf06ae5e4f50e6c3175ab7fd50d04ba5a9c"
+    },
+    {
+      "path": "scripts/knowledge/verify-quality-consistency.mjs",
+      "owner": "pipeline",
+      "bytes": 4184,
+      "sha256": "fea0ef637eb159b16caf19476ff63e880a315943fc1d47a0729f0d1d7ee8980b"
+    },
+    {
+      "path": "scripts/knowledge/verify-recommendation-approval.mjs",
+      "owner": "pipeline",
+      "bytes": 3552,
+      "sha256": "d348960c471feb22f6a765350bd4312fefee714b4e2c2fbcac24e29904f5746f"
+    },
+    {
+      "path": "scripts/knowledge/vertical-slice-report.mjs",
+      "owner": "pipeline",
+      "bytes": 6444,
+      "sha256": "ed49d6c433db3ee1cb3cfa05fe0de9bc874f6ce1695f8045bbb9a2c9a474702c"
+    },
+    {
+      "path": "tests/knowledge/api-data-ui.test.mjs",
+      "owner": "pipeline",
+      "bytes": 9860,
+      "sha256": "71860717b6f0c12d5d862b0185408be5b224ef231bcbdacebf71caebe967eea5"
+    },
+    {
+      "path": "tests/knowledge/api-integration.test.mjs",
+      "owner": "pipeline",
+      "bytes": 2369,
+      "sha256": "0955f95d462f65dc39daa211e903ee5e4f06b0ff81c4df17b021a63be7f17e82"
+    },
+    {
+      "path": "tests/knowledge/api-pagination.test.mjs",
+      "owner": "pipeline",
+      "bytes": 1144,
+      "sha256": "a066468331eddad8d6c017a0e95efb321848dfb8f3c3d1780afe7390be14eb2c"
+    },
+    {
+      "path": "tests/knowledge/busanbank-listing-candidate-collection.test.mjs",
+      "owner": "pipeline",
+      "bytes": 2267,
+      "sha256": "2f10f78ecd7c9714420c73866d2c26979ce36b4d87edc88754b9af56519edfb1"
+    },
+    {
+      "path": "tests/knowledge/compile-financial-rules.test.mjs",
+      "owner": "pipeline",
+      "bytes": 1587,
+      "sha256": "56d83db8a0e163d54e895605e72ebf9eea75710d57c831b8434ce1b2a3f2b0da"
+    },
+    {
+      "path": "tests/knowledge/current-catalog.test.mjs",
+      "owner": "pipeline",
+      "bytes": 3694,
+      "sha256": "cdbdbf3383f1c5b10bc6d684294253c249a9c9ecc61a119844c4cd2c7fef7290"
+    },
+    {
+      "path": "tests/knowledge/deadline-reviews.test.mjs",
+      "owner": "pipeline",
+      "bytes": 1382,
+      "sha256": "bd58029fda23571913e7b0346000fd36ab5c08a2a3922831296d1b159315223b"
+    },
+    {
+      "path": "tests/knowledge/decision-snapshots.test.mjs",
+      "owner": "pipeline",
+      "bytes": 3190,
+      "sha256": "99f29ceb9859b79a089d92dcfb9c0371f289eeb84c4c5020e4cbc39ec522aeec"
+    },
+    {
+      "path": "tests/knowledge/derive-quality.test.mjs",
+      "owner": "pipeline",
+      "bytes": 8872,
+      "sha256": "78b42da927777c6246988aca9ad7a96e7506ae15e213c2224dd7d28534f7415e"
+    },
+    {
+      "path": "tests/knowledge/disclosure-normalizers.test.mjs",
+      "owner": "pipeline",
+      "bytes": 1405,
+      "sha256": "fb1b9a6ac95483efe686be0a813a6bfb6ad7819820be1db09e4971787bc30f12"
+    },
+    {
+      "path": "tests/knowledge/disclosure-receipts.test.mjs",
+      "owner": "pipeline",
+      "bytes": 860,
+      "sha256": "bd2f907b1143aa296554bd8441272c862db1c2baf3767a10e6017d401b5513bd"
+    },
+    {
+      "path": "tests/knowledge/legacy-quality-projection.test.mjs",
+      "owner": "pipeline",
+      "bytes": 1256,
+      "sha256": "6baca17d9aa82631f728a41da034a3e72570375c7ed14e88d1428b1e68a9b1d0"
+    },
+    {
+      "path": "tests/knowledge/pipeline.test.mjs",
+      "owner": "pipeline",
+      "bytes": 20148,
+      "sha256": "2b26b750bbf6571786956ff2fb0475caae403129d3ef886190a82ace3ecc0fa3"
+    },
+    {
+      "path": "tests/knowledge/product-status-contract.test.mjs",
+      "owner": "pipeline",
+      "bytes": 844,
+      "sha256": "8a5d700766bc8593cc92f049f0e377921d8bf596bc7055b09a7365438938dd82"
+    },
+    {
+      "path": "tests/knowledge/refresh-ledger.test.mjs",
+      "owner": "pipeline",
+      "bytes": 1678,
+      "sha256": "ff26a53ce8395c725c9a537270c416360ca3bf4374a44b7274efb981a39017fd"
+    },
+    {
+      "path": "tests/knowledge/refresh-pipeline.test.mjs",
+      "owner": "pipeline",
+      "bytes": 2046,
+      "sha256": "14946278e3ed4fc0ef09b21d67a0d0f66ceace545c9353e55b48a4a923e88c0e"
+    },
+    {
+      "path": "tests/knowledge/release-pointer.test.mjs",
+      "owner": "pipeline",
+      "bytes": 8738,
+      "sha256": "1c1f7aa1b47b3828d5a860ba3d44336c36dc2d9a1d08d0c52bad025c999f53d7"
+    },
+    {
+      "path": "tests/knowledge/release-workflow.test.mjs",
+      "owner": "pipeline",
+      "bytes": 7594,
+      "sha256": "8e039f9095d826b112e65096d11b52f2e77ffd6983a58c85942ed7baf45353bd"
+    },
+    {
+      "path": "tests/knowledge/runtime-monitoring.test.mjs",
+      "owner": "pipeline",
+      "bytes": 1365,
+      "sha256": "1486fa5572ca6688b0d99e7680747ffa936ba71436611bf0d9c384fd7917fed3"
+    },
+    {
+      "path": "tests/knowledge/schema-contract.test.mjs",
+      "owner": "pipeline",
+      "bytes": 8159,
+      "sha256": "4902e9360816e614bed4153bc97b7aa0fbff5c7fa213aabbb0b4f06d85a7b220"
+    },
+    {
+      "path": "tests/knowledge/source-impact.test.mjs",
+      "owner": "pipeline",
+      "bytes": 1716,
+      "sha256": "85422cfb0531f96264ded5498afb1158935f851949910abcc733bfbe070eb5b7"
+    },
+    {
+      "path": "tests/knowledge/source-review-selection.test.mjs",
+      "owner": "pipeline",
+      "bytes": 1425,
+      "sha256": "53cc26729da464d3a5d333a6b55f3fd2a63b29115660afe9d09658e2920ea109"
+    },
+    {
+      "path": "tests/knowledge/test_disclosure_collectors.py",
+      "owner": "pipeline",
+      "bytes": 2711,
+      "sha256": "ff19309e71c1cfd32165919892f45fc2e3d52b0ebc7a1c54ccf027cde2f3a563"
+    },
+    {
+      "path": "tests/knowledge/ui-search-contract.test.mjs",
+      "owner": "pipeline",
+      "bytes": 7276,
+      "sha256": "d53ff46a2b048f1995b168369b91631234c5c03cb07cbaace8a0d5c671bd82f8"
+    },
+    {
+      "path": "tests/knowledge/ui-search-input.test.mjs",
+      "owner": "pipeline",
+      "bytes": 22867,
+      "sha256": "a7fca4ffd9c03be32050128850dd8ce34a66409ae8730a35947db593f703312d"
+    },
+    {
+      "path": "tests/knowledge/ui-source-evidence.test.mjs",
+      "owner": "pipeline",
+      "bytes": 2188,
+      "sha256": "53ac436edc8165da4169f273e974958f85db99663c7806eb78e2a077056dc116"
+    },
+    {
+      "path": "tests/knowledge/vertical-slice.test.mjs",
+      "owner": "pipeline",
+      "bytes": 1379,
+      "sha256": "e373c51b4f1803c390ebcaaf27cc29b343f6eb241df67f9721c85383f8d5d1dd"
+    },
+    {
+      "path": "tests/test_kdic_publication.py",
+      "owner": "pipeline",
+      "bytes": 1218,
+      "sha256": "51c40d5b7c394a105418d82c060be9c6a2fc15632184c23637e19a31ca796514"
+    },
+    {
+      "path": "tests/test_public_apis.py",
+      "owner": "pipeline",
+      "bytes": 5920,
+      "sha256": "748d2c889ee1890f261f8a5c50e5ae471dd2edf9f4cbf356423cf49f2430b12a"
+    }
+  ],
+  "data_json_files": 7329
+}

@@ -1,0 +1,1232 @@
+{
+  "review_date": "2026-10-06",
+  "base_commit": "1e6d7f025e0decede75c82495a9ab9854ba536da",
+  "file_count": 89,
+  "counts": {
+    "safe_tests_executed": 9,
+    "targeted_static_review": 48,
+    "static_surface_scan": 32
+  },
+  "scope": [
+    "scripts/knowledge/**",
+    "tests/knowledge/**",
+    "tests/*.py"
+  ],
+  "limitations": [
+    "All files inventoried and surface-scanned; not exhaustive semantic proof.",
+    "No external collection, environment-file/secret reading, source/data edit or deployment.",
+    "Only pipeline-review.md and pipeline-coverage.json written by this subagent."
+  ],
+  "safe_tests": {
+    "node_passed": 17,
+    "python_passed": 12,
+    "total_passed": 29,
+    "files": [
+      "api-pagination.test.mjs",
+      "compile-financial-rules.test.mjs",
+      "disclosure-normalizers.test.mjs",
+      "disclosure-receipts.test.mjs",
+      "refresh-pipeline.test.mjs",
+      "runtime-monitoring.test.mjs",
+      "source-review-selection.test.mjs",
+      "test_kdic_publication.py",
+      "test_public_apis.py"
+    ]
+  },
+  "synthetic_results": {
+    "F01": {
+      "overcount": {
+        "total": 1,
+        "accepted_rows": 2
+      },
+      "changing_total": {
+        "first": 4,
+        "second": 2,
+        "accepted_rows": 2
+      },
+      "overlap": {
+        "accepted_rows": 4,
+        "unique": 3,
+        "downstream": "existing count check blocks"
+      }
+    },
+    "F02": {
+      "input": "two identical TIME=20261001 DATA_VALUE=2.5; list_total_count=2",
+      "complete": true,
+      "collected_count": 2,
+      "unique_candidate_ids": 1,
+      "inventory_validate_passed": true
+    },
+    "F03": {
+      "timeout_ms": 5,
+      "race_elapsed_ms": 50,
+      "body": "pending",
+      "signal_aborted": false,
+      "external_network_calls": 0
+    }
+  },
+  "files": [
+    {
+      "path": "scripts/knowledge/api-pagination.mjs",
+      "sha256": "68c66fd91fc9ace78b28fb4ad7448ced98d0364189c383678eb5cf4f247b9489",
+      "line_count": 16,
+      "review_status": "targeted_static_review",
+      "execution_path": "default_refresh_or_transitive_helper",
+      "notes": "F01: current total rather than first total; >= permits overcount.",
+      "finding_ids": [
+        "F01"
+      ],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/assertion-profiles.mjs",
+      "sha256": "8859167390eb121aba067bd9d9eb4fc3f49d2fe4b31f42581361bdb433ef4ed5",
+      "line_count": 76,
+      "review_status": "targeted_static_review",
+      "execution_path": "default_refresh_or_transitive_helper",
+      "notes": "Pure contract category/profile resolution; unknown modes fail.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/audit-policy-coverage.py",
+      "sha256": "1d331d50ff2ef260ea03f3e4a6c4b64d36210802188f31a72b8ff73b6446bba4",
+      "line_count": 60,
+      "review_status": "targeted_static_review",
+      "execution_path": "legacy_manual_not_default",
+      "notes": "Local legacy text audit writes caches and queue; not semantic approval.",
+      "finding_ids": [],
+      "io_lines": [
+        34,
+        57
+      ],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/audit-tax-disclosures.py",
+      "sha256": "85b5ddb60c288ee51c0fed0bd1b453d430a9131a66334210378159b549963e08",
+      "line_count": 54,
+      "review_status": "targeted_static_review",
+      "execution_path": "legacy_manual_not_default",
+      "notes": "Local legacy audit has import-time writes; queue not semantic approval. Not executed.",
+      "finding_ids": [],
+      "io_lines": [
+        19,
+        53
+      ],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/bootstrap.mjs",
+      "sha256": "9495ddbc97cc4ef5d4a62172146a9a231228e0a11d5462a3af69613266357745",
+      "line_count": 218,
+      "review_status": "targeted_static_review",
+      "execution_path": "manual_or_library",
+      "notes": "Manual staging build plus backup/rename recovery; selected provenance and destructive paths reviewed, not executed.",
+      "finding_ids": [],
+      "io_lines": [
+        9,
+        172,
+        180,
+        196,
+        205,
+        211,
+        212,
+        214,
+        215
+      ],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/build-collection-inventory.py",
+      "sha256": "d6c92a561f8da92f5a32e8053cd45b02f9a90ba4215f5279ae508630ceb97172",
+      "line_count": 84,
+      "review_status": "targeted_static_review",
+      "execution_path": "default_refresh_or_transitive_helper",
+      "notes": "F02 no generic/ECOS uniqueness; F04 per-file publication before whole-set validation.",
+      "finding_ids": [
+        "F02",
+        "F04"
+      ],
+      "io_lines": [
+        52,
+        79
+      ],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/build-decision-snapshots.mjs",
+      "sha256": "02572b1047c1f7dfb08936055d50a7585d8101ea24db236ea8b4ba0e5cd99c50",
+      "line_count": 368,
+      "review_status": "static_surface_scan",
+      "execution_path": "default_refresh_or_transitive_helper",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/build.mjs",
+      "sha256": "4a7ea9ea862320be423da466c1790072fbc3a7ec1fc82eb9871e49001344e520",
+      "line_count": 1108,
+      "review_status": "targeted_static_review",
+      "execution_path": "default_refresh_or_transitive_helper",
+      "notes": "F04 old ontology/exact shards removed before replacement succeeds. Selective generation/hash/projection review, not exhaustive 1108-line semantic proof.",
+      "finding_ids": [
+        "F04"
+      ],
+      "io_lines": [
+        79,
+        84
+      ],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/capture-production-snapshot.mjs",
+      "sha256": "aabe4b90353385da46cd4f8d1061189cc31635dae25252e265a1701f1085ab2d",
+      "line_count": 93,
+      "review_status": "targeted_static_review",
+      "execution_path": "manual_or_library",
+      "notes": "Fixed public/GitHub source, safe relative paths, commit/hash checks; response buffered before byte-cap enforcement. Not executed.",
+      "finding_ids": [],
+      "io_lines": [
+        31,
+        86,
+        92
+      ],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/collect-disclosures.py",
+      "sha256": "3ed34372a37f0cd8aec897c9947b67e62e13e29d9e5127fc5e8564d65a0696b2",
+      "line_count": 398,
+      "review_status": "targeted_static_review",
+      "execution_path": "legacy_manual_not_default",
+      "notes": "Legacy web collector; cache/receipt writes and import-time OUT.mkdir. Not active default, not imported.",
+      "finding_ids": [],
+      "io_lines": [
+        40,
+        46,
+        122,
+        161,
+        193,
+        207,
+        300,
+        340,
+        357,
+        385
+      ],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/collect-finlife-additional.mjs",
+      "sha256": "be1068be620cea80cc51777fb69e189812295bc880237c08f21e853665eba116",
+      "line_count": 74,
+      "review_status": "targeted_static_review",
+      "execution_path": "default_refresh_or_transitive_helper",
+      "notes": "Schema/stable-total/identity checks, bounded retry; prior successful group and its date retained on failure.",
+      "finding_ids": [],
+      "io_lines": [
+        41
+      ],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/collect-finlife-candidates.mjs",
+      "sha256": "f97600c47cdd44f20b12db6c88ecf8689d6617ec1fe0a861282382bde1614e30",
+      "line_count": 200,
+      "review_status": "targeted_static_review",
+      "execution_path": "default_refresh_or_transitive_helper",
+      "notes": "F01 provider expected count discarded; downstream overlap is blocked by dedup/count mismatch. Fixed hosts and timeouts; default catalog-only avoids KDIC enrichment.",
+      "finding_ids": [
+        "F01"
+      ],
+      "io_lines": [
+        36,
+        49
+      ],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/collect-gov24.mjs",
+      "sha256": "4e647b6f07d3dabecd11505f62b6e448bd07b6d9f651c31ed0ae73b1cee6bd7d",
+      "line_count": 19,
+      "review_status": "targeted_static_review",
+      "execution_path": "default_refresh_or_transitive_helper",
+      "notes": "Stable totals, unique IDs, exact count and timeout before write. Response-size cap hardening remains.",
+      "finding_ids": [],
+      "io_lines": [
+        8
+      ],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/collect-policy-batch.py",
+      "sha256": "b5a11a431d923c819ec31527593fb2d5ddb27cc3ff35cbfe11a774a5cdeb1476",
+      "line_count": 23,
+      "review_status": "targeted_static_review",
+      "execution_path": "legacy_manual_not_default",
+      "notes": "Legacy cached receipt reuse without max age and incremental writes; excluded default.",
+      "finding_ids": [],
+      "io_lines": [
+        21
+      ],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/collect-policy-documents.py",
+      "sha256": "36225fa2564c99ea7ce8564b9b61eedfbaad4a86e33596cdd940ca7ff97812e2",
+      "line_count": 209,
+      "review_status": "targeted_static_review",
+      "execution_path": "legacy_manual_not_default",
+      "notes": "Legacy HTML/PDF fetch/parser, operator targets trusted. No active fallback edge, not executed.",
+      "finding_ids": [],
+      "io_lines": [
+        42,
+        59,
+        81,
+        131,
+        137,
+        150,
+        160,
+        206,
+        209
+      ],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/collect-public-apis.py",
+      "sha256": "cb336bcc361af1b5b4430160206fbf2d3e9dfbaab25901ad19857d64c688666b",
+      "line_count": 250,
+      "review_status": "targeted_static_review",
+      "execution_path": "default_refresh_or_transitive_helper",
+      "notes": "F02 ECOS lacks stable-total/identity guards. data.go branch has stronger checks, request-size limit and safe error codes.",
+      "finding_ids": [
+        "F02"
+      ],
+      "io_lines": [
+        14,
+        21,
+        79,
+        217,
+        237
+      ],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/collect-tax-calendar.py",
+      "sha256": "ad8299e48a556e3da43c9f41ba117efc0d5c6671126ae434e4f9cf7e4f3c87cb",
+      "line_count": 41,
+      "review_status": "targeted_static_review",
+      "execution_path": "legacy_manual_not_default",
+      "notes": "Legacy HTML collection excluded default.",
+      "finding_ids": [],
+      "io_lines": [
+        10,
+        17,
+        40
+      ],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/collect-tax-extra-sources.py",
+      "sha256": "997b7f7888fdf0b7d5e11eeebb438dd403c8d46fe628a9cbfca7091f44be53ef",
+      "line_count": 45,
+      "review_status": "targeted_static_review",
+      "execution_path": "legacy_manual_not_default",
+      "notes": "Legacy disclosure wrapper excluded default.",
+      "finding_ids": [],
+      "io_lines": [
+        44
+      ],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/common.mjs",
+      "sha256": "b083def5b1c6f7cbe066fa4f2e6a7dc424695a7d6752903b354e3ef6e0566b05",
+      "line_count": 242,
+      "review_status": "targeted_static_review",
+      "execution_path": "default_refresh_or_transitive_helper",
+      "notes": "F04 direct writeFileSync retry helper; no temp+rename. Hash and projection helpers selectively read.",
+      "finding_ids": [
+        "F04"
+      ],
+      "io_lines": [
+        33
+      ],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/compile-financial-rules.mjs",
+      "sha256": "efe4da64a1ca124b2802ebff4ccc729b4d8dc33fc17d8a5785538ba52b7d80c9",
+      "line_count": 168,
+      "review_status": "static_surface_scan",
+      "execution_path": "default_refresh_or_transitive_helper",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/corporate-tax-reviews.mjs",
+      "sha256": "2209fdc449e1da65b7337f21695aa73b4cf58545ce5a21a2b6cf1b519243b048",
+      "line_count": 154,
+      "review_status": "static_surface_scan",
+      "execution_path": "manual_or_library",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/deadline-reviews.mjs",
+      "sha256": "2171eb7fc1bc56150fbb8836180ea9419df6f547efbcb3ac46d6c605c974cc7b",
+      "line_count": 118,
+      "review_status": "static_surface_scan",
+      "execution_path": "manual_or_library",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/derive-quality.mjs",
+      "sha256": "cc15745e9f96c58da2a107da31ddcca7387b98b13d8be4e855fd477673ab6d90",
+      "line_count": 391,
+      "review_status": "static_surface_scan",
+      "execution_path": "default_refresh_or_transitive_helper",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/disclosure-normalizers.mjs",
+      "sha256": "a2cf8a031faadf431193f49470767bd912b0069c31c0d18c4ad07ca1c0b67e7a",
+      "line_count": 23,
+      "review_status": "static_surface_scan",
+      "execution_path": "manual_or_library",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/disclosure-receipts.mjs",
+      "sha256": "456be05e666617d76e3f87c96aec7463637d819126c094f9acfbb9e95b212f61",
+      "line_count": 12,
+      "review_status": "static_surface_scan",
+      "execution_path": "manual_or_library",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/filing-tax-reviews.mjs",
+      "sha256": "91d07d5df4bebc4edddb4b6631b8e1a82972e785474203f8421b2063d3ca62ca",
+      "line_count": 26,
+      "review_status": "static_surface_scan",
+      "execution_path": "manual_or_library",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/integrate-current-data.mjs",
+      "sha256": "fc367de06f8238803175f7315d3a5aec59b0e5cb4068b8830f90df5315ef1279",
+      "line_count": 246,
+      "review_status": "targeted_static_review",
+      "execution_path": "default_refresh_or_transitive_helper",
+      "notes": "F01 overlap blocked by count guard; F02 duplicate raw observation silently skipped; F04 sequential in-place canonical writes.",
+      "finding_ids": [
+        "F02",
+        "F04"
+      ],
+      "io_lines": [
+        206,
+        207,
+        209,
+        215,
+        217
+      ],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/integrate-disclosures.mjs",
+      "sha256": "2975508cd8e83b4f923bccc5660d23aa6a3234fe0c0096bd14517e76d383c6da",
+      "line_count": 411,
+      "review_status": "targeted_static_review",
+      "execution_path": "legacy_manual_not_default",
+      "notes": "Legacy/manual disclosure integration and tax constants, selected date/receipt/status paths reviewed.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/link-api-snapshots.mjs",
+      "sha256": "24f7afa1456b3ff7e5d9688b567e48514152ef4ec004e67a580488bb3634e283",
+      "line_count": 43,
+      "review_status": "targeted_static_review",
+      "execution_path": "default_refresh_or_transitive_helper",
+      "notes": "Exact source/provider/product identity, checksum, count and uniqueness checks; sequential publication.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/local-tax-reviews.mjs",
+      "sha256": "26554676851b5e643b0af3fb3da1d545831b94dd2fd2ee4c5b56094ceb67907a",
+      "line_count": 54,
+      "review_status": "static_surface_scan",
+      "execution_path": "manual_or_library",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/migrate-assertion-validity.mjs",
+      "sha256": "8cfb7c1619e5a134c8d1c7f224f0745248f28e7059da1a168ac37433c8e0a9fb",
+      "line_count": 40,
+      "review_status": "targeted_static_review",
+      "execution_path": "manual_or_library",
+      "notes": "Manual in-place date/checksum rewrite; not executed.",
+      "finding_ids": [],
+      "io_lines": [
+        34
+      ],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/personal-tax-reviews.mjs",
+      "sha256": "dc8981acc41d665529726e00037707b523a0080a029cc5b78d0e213e3e07f4e3",
+      "line_count": 82,
+      "review_status": "static_surface_scan",
+      "execution_path": "manual_or_library",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/policy-matching.mjs",
+      "sha256": "acc34ebe0618596d9fb12b8ecc27b0fd614a71f8457368bd6b4801b911c6058f",
+      "line_count": 32,
+      "review_status": "static_surface_scan",
+      "execution_path": "manual_or_library",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/policy-matching.test.mjs",
+      "sha256": "88d916abe7c82a7b11b03e36b9d6389329449e4e752b5959694a1af4a74bbfed",
+      "line_count": 12,
+      "review_status": "static_surface_scan",
+      "execution_path": "test_only",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/policy-targets-additional.py",
+      "sha256": "451c169a12909023d6c7a8467ae0630eb4838e7b604191d7c8a03aed90d3ea83",
+      "line_count": 136,
+      "review_status": "targeted_static_review",
+      "execution_path": "legacy_manual_not_default",
+      "notes": "Legacy internal provider API/rest routes are not equivalent to documented official APIs.",
+      "finding_ids": [],
+      "io_lines": [
+        10,
+        13,
+        22,
+        43,
+        45,
+        63,
+        70,
+        94,
+        101,
+        121,
+        125
+      ],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/prepare-vertical-slice.mjs",
+      "sha256": "680b07797dd93aa83d599e85279ab3e3e172757354a7152e8e8ac62be9474a52",
+      "line_count": 19,
+      "review_status": "targeted_static_review",
+      "execution_path": "manual_or_library",
+      "notes": "Spawns builder and writes selection; not read-only, not executed.",
+      "finding_ids": [],
+      "io_lines": [
+        1,
+        7
+      ],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/promote-candidates.mjs",
+      "sha256": "495622f7e6b90b48f7e4c51b2b52dd518ba9e7c083ae2a0a0653a3495fe1d436",
+      "line_count": 134,
+      "review_status": "static_surface_scan",
+      "execution_path": "default_refresh_or_transitive_helper",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/public-api-catalog.json",
+      "sha256": "309253e7d84c3001953b7e463f6d4f15fe862134746a78eb3aae15edc9259484",
+      "line_count": 494,
+      "review_status": "targeted_static_review",
+      "execution_path": "default_refresh_or_transitive_helper",
+      "notes": "Endpoint/documentation/credential-env metadata reviewed. Official status not remotely revalidated.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/public-api-refresh-plan.json",
+      "sha256": "723c132df7c54a1df06152e232f9b83f478500c882c95d50f41ee39f69284304",
+      "line_count": 208,
+      "review_status": "targeted_static_review",
+      "execution_path": "default_refresh_or_transitive_helper",
+      "notes": "Source-operation inventory includes ECOS 45-day window; excludes legacy web collectors.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/publish-kdic-companies.py",
+      "sha256": "7b4dcd8b2cfac6441389b550b031ad1010d7eb30a55ebe982a56d702da74dadb",
+      "line_count": 41,
+      "review_status": "targeted_static_review",
+      "execution_path": "manual_or_library",
+      "notes": "Count/name/unique sequence validation; date preserved. Synthetic validator tests passed.",
+      "finding_ids": [],
+      "io_lines": [
+        40
+      ],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/publish-promoted-live-evidence.mjs",
+      "sha256": "a98cbab8552709e6a6101f7dedc8dcec0cd916e30633c834fbaed48371f078da",
+      "line_count": 78,
+      "review_status": "targeted_static_review",
+      "execution_path": "manual_or_library",
+      "notes": "Manual generation/hash/120-case gate; sequential writes, not executed.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/refresh-all.mjs",
+      "sha256": "6c1b646b725d465e5bb8933a37161fb7f808accea88e4b08e047498d439c492c",
+      "line_count": 102,
+      "review_status": "targeted_static_review",
+      "execution_path": "default_refresh_or_transitive_helper",
+      "notes": "No web collector in default chain. Lock/same-KST-day input guards; permitted failed requests retain old snapshot. Exact-string credential masking; no stage deadline.",
+      "finding_ids": [],
+      "io_lines": [
+        4,
+        61,
+        70,
+        83,
+        86
+      ],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/refresh-ledger.mjs",
+      "sha256": "216cd61770cde1693ca93647f62f00bc8315d3c1b103bfa08463f3cc2ca5adc1",
+      "line_count": 99,
+      "review_status": "targeted_static_review",
+      "execution_path": "default_refresh_or_transitive_helper",
+      "notes": "Separates failed requests from retained item counts; writes reports.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/refresh-public-apis.py",
+      "sha256": "001b716351f3fd6ff784ba24dca3365b23962b7678acd8f291295781deae7ce2",
+      "line_count": 79,
+      "review_status": "targeted_static_review",
+      "execution_path": "default_refresh_or_transitive_helper",
+      "notes": "Validates before temp.replace; keeps old file/date and records error class. Module body loads environment: NOT imported/executed. 100-row latest-period probe ordering remains unverified.",
+      "finding_ids": [],
+      "io_lines": [
+        14,
+        47,
+        78
+      ],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/remaining-tax-reviews.mjs",
+      "sha256": "f42d8713f2b6797b1300e2a24b657eb5a9d07fa627bb64b6fe4983d6d26f2c86",
+      "line_count": 78,
+      "review_status": "static_surface_scan",
+      "execution_path": "manual_or_library",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/review-decision-offers.mjs",
+      "sha256": "f7ecf7fa80b186902ccdda16a0af08976887b5e59ff867e641fc6d71fef69f80",
+      "line_count": 105,
+      "review_status": "static_surface_scan",
+      "execution_path": "default_refresh_or_transitive_helper",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/runtime-monitoring.mjs",
+      "sha256": "6be8d56cdd116f71106e1c58897809e45ea3b461a95098117b9d251160bd245c",
+      "line_count": 31,
+      "review_status": "static_surface_scan",
+      "execution_path": "manual_or_library",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/schema-validate.mjs",
+      "sha256": "2cab41157b6ba04de9e2b78c16c305ab2eed11103f62bd31ee6f403a682abe13",
+      "line_count": 194,
+      "review_status": "targeted_static_review",
+      "execution_path": "default_refresh_or_transitive_helper",
+      "notes": "Schema/count/identity/receipt checks reviewed selectively.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/source-impact-report.mjs",
+      "sha256": "ef35005ac5fd0c39930e52b03a6c0f1e5feb3713d153e52a6c4437055772cf3c",
+      "line_count": 67,
+      "review_status": "static_surface_scan",
+      "execution_path": "manual_or_library",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [
+        66
+      ],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/source-review-selection.mjs",
+      "sha256": "234a4281fd62c65b1efab573a143de1a4fcb34ef449ef38a7ed541ee0719e607",
+      "line_count": 29,
+      "review_status": "targeted_static_review",
+      "execution_path": "default_refresh_or_transitive_helper",
+      "notes": "Receipt selection preserves revocation/pending state; pure tests passed.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/source-tracking-summary.mjs",
+      "sha256": "292a84e614ffcfc5a05e0bbf2b05c293dc021349234245f3003fe27602474eae",
+      "line_count": 36,
+      "review_status": "static_surface_scan",
+      "execution_path": "manual_or_library",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [
+        35
+      ],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/track-sources.mjs",
+      "sha256": "7905ba12bd4f4aba5757708898331f9f3637a2e13cdca889b2cb2a6c997ff254",
+      "line_count": 275,
+      "review_status": "targeted_static_review",
+      "execution_path": "manual_or_library",
+      "notes": "F03 timeout ends at headers; manual source status checks, trusted registry URLs and redirects, dry-run still fetches.",
+      "finding_ids": [
+        "F03"
+      ],
+      "io_lines": [
+        83,
+        267,
+        271,
+        272
+      ],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/validate-decision-receipts.mjs",
+      "sha256": "1cf50e94840eea6e7a7e11ba8aa6b3d9f4689cd078fc6248758b3f235c734e8f",
+      "line_count": 47,
+      "review_status": "targeted_static_review",
+      "execution_path": "default_refresh_or_transitive_helper",
+      "notes": "Validator also writes back receipts, including failure runs; not executed.",
+      "finding_ids": [],
+      "io_lines": [
+        43
+      ],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/validate-rule-facts.mjs",
+      "sha256": "b9231f4b030241163597fd994e661769aa73f38a46b3140a2100f8b6f30fd859",
+      "line_count": 42,
+      "review_status": "targeted_static_review",
+      "execution_path": "default_refresh_or_transitive_helper",
+      "notes": "Read-only registry/context substring representability checks; not proof of all runtime branches.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/validate.mjs",
+      "sha256": "f7e79189971cd7d0154cef9248368d00ec98a8d172d785f293f5f22bfcb9c91a",
+      "line_count": 377,
+      "review_status": "targeted_static_review",
+      "execution_path": "default_refresh_or_transitive_helper",
+      "notes": "Shape/provenance/record hash/shards and schema subprocess reviewed selectively; not executed.",
+      "finding_ids": [],
+      "io_lines": [
+        3,
+        367
+      ],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/verify-disclosures.mjs",
+      "sha256": "6651413638869d883686e80e28e2f0fb4b1c21775fa0bd5866cc9c160c73db1a",
+      "line_count": 68,
+      "review_status": "targeted_static_review",
+      "execution_path": "legacy_manual_not_default",
+      "notes": "Local path containment, receipt/date/identity/record hash and reference-only assertions; not legal review.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/verify-public-parity.mjs",
+      "sha256": "dce71be38f3c111c62f72de8e0e93bf06ae5e4f50e6c3175ab7fd50d04ba5a9c",
+      "line_count": 80,
+      "review_status": "targeted_static_review",
+      "execution_path": "manual_or_library",
+      "notes": "Manual operator-configured URLs; absent fetch deadline and manifest URL trust are hardening issues, no confirmed public SSRF route.",
+      "finding_ids": [],
+      "io_lines": [
+        20
+      ],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/verify-quality-consistency.mjs",
+      "sha256": "fea0ef637eb159b16caf19476ff63e880a315943fc1d47a0729f0d1d7ee8980b",
+      "line_count": 60,
+      "review_status": "static_surface_scan",
+      "execution_path": "manual_or_library",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/verify-recommendation-approval.mjs",
+      "sha256": "d348960c471feb22f6a765350bd4312fefee714b4e2c2fbcac24e29904f5746f",
+      "line_count": 41,
+      "review_status": "targeted_static_review",
+      "execution_path": "manual_or_library",
+      "notes": "Schema requires HMAC-SHA256; checksum/generation/expiry/signature checks. No alternate-algorithm bypass confirmed. No secret read.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "scripts/knowledge/vertical-slice-report.mjs",
+      "sha256": "ed49d6c433db3ee1cb3cfa05fe0de9bc874f6ce1695f8045bbb9a2c9a474702c",
+      "line_count": 90,
+      "review_status": "targeted_static_review",
+      "execution_path": "manual_or_library",
+      "notes": "Spawns builder and writes evidence; not executed.",
+      "finding_ids": [],
+      "io_lines": [
+        3,
+        8,
+        89
+      ],
+      "execution": "not_executed"
+    },
+    {
+      "path": "tests/knowledge/api-data-ui.test.mjs",
+      "sha256": "71860717b6f0c12d5d862b0185408be5b224ef231bcbdacebf71caebe967eea5",
+      "line_count": 158,
+      "review_status": "static_surface_scan",
+      "execution_path": "test_only",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "tests/knowledge/api-integration.test.mjs",
+      "sha256": "0955f95d462f65dc39daa211e903ee5e4f06b0ff81c4df17b021a63be7f17e82",
+      "line_count": 43,
+      "review_status": "static_surface_scan",
+      "execution_path": "test_only",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "tests/knowledge/api-pagination.test.mjs",
+      "sha256": "a066468331eddad8d6c017a0e95efb321848dfb8f3c3d1780afe7390be14eb2c",
+      "line_count": 20,
+      "review_status": "safe_tests_executed",
+      "execution_path": "test_only",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "passed"
+    },
+    {
+      "path": "tests/knowledge/busanbank-listing-candidate-collection.test.mjs",
+      "sha256": "2f10f78ecd7c9714420c73866d2c26979ce36b4d87edc88754b9af56519edfb1",
+      "line_count": 37,
+      "review_status": "static_surface_scan",
+      "execution_path": "test_only",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "tests/knowledge/compile-financial-rules.test.mjs",
+      "sha256": "56d83db8a0e163d54e895605e72ebf9eea75710d57c831b8434ce1b2a3f2b0da",
+      "line_count": 27,
+      "review_status": "safe_tests_executed",
+      "execution_path": "test_only",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "passed"
+    },
+    {
+      "path": "tests/knowledge/current-catalog.test.mjs",
+      "sha256": "cdbdbf3383f1c5b10bc6d684294253c249a9c9ecc61a119844c4cd2c7fef7290",
+      "line_count": 62,
+      "review_status": "static_surface_scan",
+      "execution_path": "test_only",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "tests/knowledge/deadline-reviews.test.mjs",
+      "sha256": "bd58029fda23571913e7b0346000fd36ab5c08a2a3922831296d1b159315223b",
+      "line_count": 24,
+      "review_status": "static_surface_scan",
+      "execution_path": "test_only",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "tests/knowledge/decision-snapshots.test.mjs",
+      "sha256": "99f29ceb9859b79a089d92dcfb9c0371f289eeb84c4c5020e4cbc39ec522aeec",
+      "line_count": 51,
+      "review_status": "targeted_static_review",
+      "execution_path": "test_only",
+      "notes": "Not run: real builders at lines 12,40,45.",
+      "finding_ids": [],
+      "io_lines": [
+        6,
+        12,
+        40,
+        45
+      ],
+      "execution": "not_executed"
+    },
+    {
+      "path": "tests/knowledge/derive-quality.test.mjs",
+      "sha256": "78b42da927777c6246988aca9ad7a96e7506ae15e213c2224dd7d28534f7415e",
+      "line_count": 91,
+      "review_status": "static_surface_scan",
+      "execution_path": "test_only",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "tests/knowledge/disclosure-normalizers.test.mjs",
+      "sha256": "fb1b9a6ac95483efe686be0a813a6bfb6ad7819820be1db09e4971787bc30f12",
+      "line_count": 20,
+      "review_status": "safe_tests_executed",
+      "execution_path": "test_only",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "passed"
+    },
+    {
+      "path": "tests/knowledge/disclosure-receipts.test.mjs",
+      "sha256": "bd2f907b1143aa296554bd8441272c862db1c2baf3767a10e6017d401b5513bd",
+      "line_count": 14,
+      "review_status": "safe_tests_executed",
+      "execution_path": "test_only",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "passed"
+    },
+    {
+      "path": "tests/knowledge/legacy-quality-projection.test.mjs",
+      "sha256": "6baca17d9aa82631f728a41da034a3e72570375c7ed14e88d1428b1e68a9b1d0",
+      "line_count": 20,
+      "review_status": "static_surface_scan",
+      "execution_path": "test_only",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "tests/knowledge/pipeline.test.mjs",
+      "sha256": "2b26b750bbf6571786956ff2fb0475caae403129d3ef886190a82ace3ecc0fa3",
+      "line_count": 290,
+      "review_status": "targeted_static_review",
+      "execution_path": "test_only",
+      "notes": "Not run: contains actual repository deterministic build as well as temp/local HTTP tests.",
+      "finding_ids": [],
+      "io_lines": [
+        9,
+        16,
+        19,
+        48,
+        56,
+        58,
+        85,
+        93,
+        111,
+        117,
+        118,
+        127,
+        133,
+        191
+      ],
+      "execution": "not_executed"
+    },
+    {
+      "path": "tests/knowledge/product-status-contract.test.mjs",
+      "sha256": "8a5d700766bc8593cc92f049f0e377921d8bf596bc7055b09a7365438938dd82",
+      "line_count": 14,
+      "review_status": "static_surface_scan",
+      "execution_path": "test_only",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "tests/knowledge/refresh-ledger.test.mjs",
+      "sha256": "ff26a53ce8395c725c9a537270c416360ca3bf4374a44b7274efb981a39017fd",
+      "line_count": 24,
+      "review_status": "targeted_static_review",
+      "execution_path": "test_only",
+      "notes": "Not run: report helper writes actual report paths.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "tests/knowledge/refresh-pipeline.test.mjs",
+      "sha256": "14946278e3ed4fc0ef09b21d67a0d0f66ceace545c9353e55b48a4a923e88c0e",
+      "line_count": 33,
+      "review_status": "safe_tests_executed",
+      "execution_path": "test_only",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "passed"
+    },
+    {
+      "path": "tests/knowledge/release-pointer.test.mjs",
+      "sha256": "1c1f7aa1b47b3828d5a860ba3d44336c36dc2d9a1d08d0c52bad025c999f53d7",
+      "line_count": 139,
+      "review_status": "targeted_static_review",
+      "execution_path": "test_only",
+      "notes": "Temp-fixture mutation tests inspected, not run.",
+      "finding_ids": [],
+      "io_lines": [
+        3,
+        36,
+        37,
+        38,
+        42,
+        49,
+        63,
+        64,
+        71,
+        72,
+        73
+      ],
+      "execution": "not_executed"
+    },
+    {
+      "path": "tests/knowledge/release-workflow.test.mjs",
+      "sha256": "8e039f9095d826b112e65096d11b52f2e77ffd6983a58c85942ed7baf45353bd",
+      "line_count": 115,
+      "review_status": "static_surface_scan",
+      "execution_path": "test_only",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "tests/knowledge/runtime-monitoring.test.mjs",
+      "sha256": "1486fa5572ca6688b0d99e7680747ffa936ba71436611bf0d9c384fd7917fed3",
+      "line_count": 18,
+      "review_status": "safe_tests_executed",
+      "execution_path": "test_only",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "passed"
+    },
+    {
+      "path": "tests/knowledge/schema-contract.test.mjs",
+      "sha256": "4902e9360816e614bed4153bc97b7aa0fbff5c7fa213aabbb0b4f06d85a7b220",
+      "line_count": 74,
+      "review_status": "static_surface_scan",
+      "execution_path": "test_only",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "tests/knowledge/source-impact.test.mjs",
+      "sha256": "85422cfb0531f96264ded5498afb1158935f851949910abcc733bfbe070eb5b7",
+      "line_count": 33,
+      "review_status": "targeted_static_review",
+      "execution_path": "test_only",
+      "notes": "Temp-file/subprocess test inspected, not run.",
+      "finding_ids": [],
+      "io_lines": [
+        7,
+        16,
+        21,
+        31
+      ],
+      "execution": "not_executed"
+    },
+    {
+      "path": "tests/knowledge/source-review-selection.test.mjs",
+      "sha256": "53cc26729da464d3a5d333a6b55f3fd2a63b29115660afe9d09658e2920ea109",
+      "line_count": 26,
+      "review_status": "safe_tests_executed",
+      "execution_path": "test_only",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "passed"
+    },
+    {
+      "path": "tests/knowledge/test_disclosure_collectors.py",
+      "sha256": "ff19309e71c1cfd32165919892f45fc2e3d52b0ebc7a1c54ccf027cde2f3a563",
+      "line_count": 53,
+      "review_status": "targeted_static_review",
+      "execution_path": "test_only",
+      "notes": "Not run: import creates actual OUT directory before patches.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "tests/knowledge/ui-search-contract.test.mjs",
+      "sha256": "d53ff46a2b048f1995b168369b91631234c5c03cb07cbaace8a0d5c671bd82f8",
+      "line_count": 137,
+      "review_status": "static_surface_scan",
+      "execution_path": "test_only",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "tests/knowledge/ui-search-input.test.mjs",
+      "sha256": "a7fca4ffd9c03be32050128850dd8ce34a66409ae8730a35947db593f703312d",
+      "line_count": 482,
+      "review_status": "static_surface_scan",
+      "execution_path": "test_only",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "tests/knowledge/ui-source-evidence.test.mjs",
+      "sha256": "53ac436edc8165da4169f273e974958f85db99663c7806eb78e2a077056dc116",
+      "line_count": 67,
+      "review_status": "static_surface_scan",
+      "execution_path": "test_only",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "not_executed"
+    },
+    {
+      "path": "tests/knowledge/vertical-slice.test.mjs",
+      "sha256": "e373c51b4f1803c390ebcaaf27cc29b343f6eb241df67f9721c85383f8d5d1dd",
+      "line_count": 24,
+      "review_status": "targeted_static_review",
+      "execution_path": "test_only",
+      "notes": "Not run: report invokes actual builder.",
+      "finding_ids": [],
+      "io_lines": [
+        6,
+        12
+      ],
+      "execution": "not_executed"
+    },
+    {
+      "path": "tests/test_kdic_publication.py",
+      "sha256": "51c40d5b7c394a105418d82c060be9c6a2fc15632184c23637e19a31ca796514",
+      "line_count": 25,
+      "review_status": "safe_tests_executed",
+      "execution_path": "test_only",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "passed"
+    },
+    {
+      "path": "tests/test_public_apis.py",
+      "sha256": "748d2c889ee1890f261f8a5c50e5ae471dd2edf9f4cbf356423cf49f2430b12a",
+      "line_count": 99,
+      "review_status": "safe_tests_executed",
+      "execution_path": "test_only",
+      "notes": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established.",
+      "finding_ids": [],
+      "io_lines": [],
+      "execution": "passed"
+    }
+  ]
+}

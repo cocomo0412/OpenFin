@@ -16,6 +16,8 @@ test("owner pilot accepts only a server-verifiable session proof", async () => {
   const payload = base64Url(new TextEncoder().encode(JSON.stringify(ownerSessionTokenPayload({ domain, asOf, sessionId, generationId, candidateSetChecksum, issuedAt, expiresAt: issuedAt + 60, jti: "jti.test" }))));
   const key = await crypto.subtle.importKey("raw", new TextEncoder().encode(secret), { name: "HMAC", hash: "SHA-256" }, false, ["sign"]);
   const proof = `${header}.${payload}.${base64Url(await crypto.subtle.sign("HMAC", key, new TextEncoder().encode(`${header}.${payload}`)))}`;
-  assert.equal(await verifyOwnerSessionProof({ secret, domain, asOf, sessionId, proof, generationId, candidateSetChecksum, now: issuedAt + 1 }), true);
-  assert.equal(await verifyOwnerSessionProof({ secret, domain, asOf, sessionId, proof, generationId, candidateSetChecksum, now: issuedAt + 1 }), false);
+  const consumed = new Set();
+  const replayStore = { async consume({ key }) { if (consumed.has(key)) return false; consumed.add(key); return true; } };
+  assert.equal(await verifyOwnerSessionProof({ secret, domain, asOf, sessionId, proof, generationId, candidateSetChecksum, replayStore, now: issuedAt + 1 }), true);
+  assert.equal(await verifyOwnerSessionProof({ secret, domain, asOf, sessionId, proof, generationId, candidateSetChecksum, replayStore, now: issuedAt + 1 }), false);
 });

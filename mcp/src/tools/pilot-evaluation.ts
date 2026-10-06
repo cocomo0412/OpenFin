@@ -3,7 +3,7 @@ import type { FinanceRecord, FinanceItem, ToolContext } from "../types/tool-cont
 export type PilotMode = "shadow" | "owner_pilot";
 export type PilotContextInput = {
   facts?: FinanceRecord;
-  constraints?: FinanceRecord;
+  hard_constraints?: FinanceRecord;
   preferences?: FinanceRecord;
   decision_context?: FinanceRecord;
 };
@@ -30,7 +30,7 @@ export function evaluatePilotCandidates({
   deploymentCommit?: string;
 }) {
   const facts = record(context.facts);
-  const constraints = record(context.constraints);
+  const constraints = record(context.hard_constraints);
   const decisionContext = { ...record(context.decision_context), ...facts, as_of: asOf };
   const preferences = { ...facts, ...record(context.preferences), as_of: asOf };
   const recommendation = ctx.buildRecommendationCandidates(items as unknown as FinanceRecord[], {

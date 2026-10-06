@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { DOCS, ROOT, sha256, json } from './common.mjs';
+import { fetchSourceResponse } from './source-http.mjs';
 
 const args = process.argv.slice(2);
 if (args.includes('--help') || args.includes('-h')) {
@@ -76,48 +77,16 @@ const sourceRequest = source => {
 };
 
 async function fetchWithTimeout(url, options) {
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), timeoutMs);
   networkRequests += 1;
-  try {
-    return await fetch(url, {
-      ...options,
-      headers: {
-        'user-agent': 'OpenFinSourceTracker/2026.07 (+https://cocomo0412.github.io/OpenFin/)',
-        accept: 'text/html,application/json,application/pdf;q=0.9,*/*;q=0.8',
-        ...(options.headers || {}),
-      },
-      signal: controller.signal,
-      redirect: 'follow',
-    });
-  } finally {
-    clearTimeout(timer);
-  }
-}
-
-async function readBody(response) {
-  if (!response.body) return { body: '', truncated: false, bytes: 0 };
-  const reader = response.body.getReader();
-  const decoder = new TextDecoder();
-  let body = '';
-  let bytes = 0;
-  let truncated = false;
-  while (true) {
-    const { done, value } = await reader.read();
-    if (done) break;
-    if (bytes + value.byteLength > maxBodyBytes) {
-      const remaining = Math.max(0, maxBodyBytes - bytes);
-      if (remaining) body += decoder.decode(value.subarray(0, remaining), { stream: true });
-      bytes += remaining;
-      truncated = true;
-      await reader.cancel();
-      break;
-    }
-    bytes += value.byteLength;
-    body += decoder.decode(value, { stream: true });
-  }
-  body += decoder.decode();
-  return { body, truncated, bytes };
+  return fetchSourceResponse(url, {
+    ...options,
+    headers: {
+      'user-agent': 'OpenFinSourceTracker/2026.07 (+https://cocomo0412.github.io/OpenFin/)',
+      accept: 'text/html,application/json,application/pdf;q=0.9,*/*;q=0.8',
+      ...(options.headers || {}),
+    },
+    redirect: 'follow',
+  }, { timeoutMs, maxBodyBytes });
 }
 
 function failedStatus(source, old, status, verificationStatus, details = {}) {
@@ -164,7 +133,7 @@ async function checkSource(source) {
     if (get.status === 410) return failedStatus(source, old, 'retired', 'http-410', { method: 'GET', http_status: 410 });
     if (!get.ok) return failedStatus(source, old, 'unreachable', `http-${get.status}`, { method: 'GET', http_status: get.status });
 
-    const { body, truncated, bytes } = await readBody(get);
+    const { body, truncated, bytes } = get.bodyResult;
     if (source.access?.method === 'api') {
       let code = body.match(/<(?:resultCode|returnReasonCode)>([^<]+)</)?.[1];
       try {

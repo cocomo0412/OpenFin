@@ -150,7 +150,7 @@ for (const [domain, config] of Object.entries(configs)) {
         items: (result.baseList || []).map(base => normalize(domain, config, base,
           options.get(`${base.fin_co_no}:${base.fin_prdt_cd}`) || [], group)),
       };
-    });
+    }, { identity: item => item.source_record_id });
     availableCount += records.length;
     candidates.push(...records);
   }

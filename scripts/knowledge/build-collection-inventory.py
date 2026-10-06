@@ -11,10 +11,19 @@ def validate(data):
     rows = data['candidates']
     if not data['complete'] or not rows or len(rows) != data['total_count'] or len(rows) != data['collected_count']:
         raise ValueError('Incomplete or inconsistent snapshot')
+    identities = set()
     for row in rows:
         digest = hashlib.sha256(json.dumps(row['fields'], ensure_ascii=False, sort_keys=True).encode()).hexdigest()
         if row['checksum'] != 'sha256:' + digest or row['source_id'] != data['source_id']:
             raise ValueError('Snapshot integrity mismatch')
+        if data['source_id'] == 'source.bok.ecos':
+            fields = row['fields']
+            if not all(isinstance(fields.get(k), str) and fields[k].strip() for k in ('STAT_CODE', 'ITEM_CODE1', 'TIME')):
+                raise ValueError('ECOS missing observation identity')
+            identity = tuple(str(fields.get(k) or '') for k in ('STAT_CODE', 'ITEM_CODE1', 'ITEM_CODE2', 'ITEM_CODE3', 'ITEM_CODE4', 'TIME'))
+            if identity in identities:
+                raise ValueError('ECOS duplicate observation identity')
+            identities.add(identity)
         for field in ('basDt', 'basYm', 'bizYear'):
             if field in data.get('request_filters', {}) and str(row['fields'].get(field)) != data['request_filters'][field]:
                 raise ValueError('Basis filter mismatch')
@@ -37,9 +46,13 @@ def main():
     output_dir = ROOT / 'docs/opentax/api-snapshots'
     output_dir.mkdir(exist_ok=True)
     entries = []
+    validated = []
     for path in sorted((ROOT / '.api-candidates').glob('source.*-*.json')):
         data = json.loads(path.read_text(encoding='utf-8'))
         rows = validate(data)
+        validated.append((path, data, rows))
+    # Reject every invalid snapshot before changing any public file.
+    for path, data, rows in validated:
         dates = sorted({str(r['fields'][field]) for r in rows for field in ('basDt', 'basYm', 'TIME') if r['fields'].get(field)})
         # Publish a separate reference layer. Do not mark legacy product nodes or
         # comparison/recommendation assertions as verified by transport checks.
@@ -49,7 +62,9 @@ def main():
             'verification': 'collection_integrity_only', 'recommendation_eligible': False,
             'count': len(rows), 'items': [row['fields'] for row in rows],
         }
-        (output_dir / path.name).write_text(json.dumps(payload, ensure_ascii=False, separators=(',', ':')) + '\n', encoding='utf-8')
+        temporary = output_dir / (path.name + '.tmp')
+        temporary.write_text(json.dumps(payload, ensure_ascii=False, separators=(',', ':')) + '\n', encoding='utf-8')
+        temporary.replace(output_dir / path.name)
         entries.append({
             'source_id': data['source_id'], 'title': titles[data['source_id']],
             'operation': data.get('operation', 'StatisticSearch').split('/')[-1],
@@ -76,7 +91,9 @@ def main():
             'status':'collection_failed_existing_snapshot_retained',
             'reason':'수집 검증에 실패하여 마지막 성공 자료를 유지했습니다.'}
             for r in attempts['results'] if r['status']=='failed']
-    (ROOT / 'docs/opentax/collection-inventory.json').write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    temporary = ROOT / 'docs/opentax/collection-inventory.json.tmp'
+    temporary.write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    temporary.replace(ROOT / 'docs/opentax/collection-inventory.json')
     print(json.dumps({'datasets': len(entries), 'sources': len({e['source_id'] for e in entries}), 'rows': sum(e['count'] for e in entries)}))
 
 

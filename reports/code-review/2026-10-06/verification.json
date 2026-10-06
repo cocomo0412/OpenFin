@@ -1,0 +1,44 @@
+{
+  "date_kst": "2026-10-06",
+  "baseline": "1e6d7f025e0decede75c82495a9ab9854ba536da",
+  "production_baseline": "785add92fd83f18302cf26689ea453aed6eb3920",
+  "baseline_delta_files": [
+    "reports/improvements/2026-10-06/deployment-01/.gitattributes",
+    "reports/improvements/2026-10-06/deployment-01/README.md",
+    "reports/improvements/2026-10-06/deployment-01/api-live.jpg",
+    "reports/improvements/2026-10-06/deployment-01/deployment.json",
+    "reports/improvements/2026-10-06/deployment-01/live-checks.json",
+    "reports/improvements/2026-10-06/deployment-01/manifest.json",
+    "reports/improvements/2026-10-06/review.md",
+    "reports/improvements/README.md"
+  ],
+  "code_files_hashed": 212,
+  "changed_code_files": [],
+  "uncovered_code_files": [],
+  "changed_tracked_files": [
+    "AGENTS.md",
+    "handbook/CHANGELOG.md",
+    "handbook/development.md",
+    "handbook/operations.md"
+  ],
+  "unexpected_tracked_changes": [],
+  "tests": {
+    "mcp_passed": 119,
+    "pipeline_passed": 29,
+    "web_passed": 39,
+    "web_failed": 2,
+    "total": 189,
+    "passed": 187,
+    "failed": 2
+  },
+  "service_fix": false,
+  "push": false,
+  "website_deploy": false,
+  "mcp_deploy": false,
+  "additional_credential_url_scan": {
+    "method": "ripgrep filenames only, visible and hidden non-ignored repository files; auth/crtfc_key/apiKey/api_key/serviceKey/authKey with alphanumeric URL values at least 16 characters",
+    "matches": 0,
+    "exit_code": 1,
+    "meaning": "no pattern matches, not proof of no unknown secrets"
+  }
+}

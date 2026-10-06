@@ -1,0 +1,20 @@
+test_duplicate_and_changed_value_at_same_identity_are_rejected (test_public_apis.EcosIntegrityTests.test_duplicate_and_changed_value_at_same_identity_are_rejected) ... ok
+test_publication_gate_rejects_duplicate_observations_independently (test_public_apis.EcosIntegrityTests.test_publication_gate_rejects_duplicate_observations_independently) ... ok
+test_total_changes_overcount_and_empty_early_page_rejected (test_public_apis.EcosIntegrityTests.test_total_changes_overcount_and_empty_early_page_rejected) ... ok
+test_unique_pages_are_complete_and_probe_is_partial (test_public_apis.EcosIntegrityTests.test_unique_pages_are_complete_and_probe_is_partial) ... ok
+test_wrong_series_period_and_missing_identity_rejected (test_public_apis.EcosIntegrityTests.test_wrong_series_period_and_missing_identity_rejected) ... ok
+test_bank_tables_paginate_independently (test_public_apis.PublicApiTests.test_bank_tables_paginate_independently) ... ok
+test_business_error_on_http_success (test_public_apis.PublicApiTests.test_business_error_on_http_success) ... ok
+test_catalog_has_all_data_go_sources (test_public_apis.PublicApiTests.test_catalog_has_all_data_go_sources) ... ok
+test_json_single_record (test_public_apis.PublicApiTests.test_json_single_record) ... ok
+test_kdic_missing_sequence_is_rejected (test_public_apis.PublicApiTests.test_kdic_missing_sequence_is_rejected) ... ok
+test_kdic_operation_wrapped_json (test_public_apis.PublicApiTests.test_kdic_operation_wrapped_json) ... ok
+test_overlapping_identity_with_changed_content_is_rejected (test_public_apis.PublicApiTests.test_overlapping_identity_with_changed_content_is_rejected) ... ok
+test_overlapping_provider_pages_use_unique_ids (test_public_apis.PublicApiTests.test_overlapping_provider_pages_use_unique_ids) ... ok
+test_pagination_and_secret_not_in_candidates (test_public_apis.PublicApiTests.test_pagination_and_secret_not_in_candidates) ... ok
+test_repeated_page_is_rejected (test_public_apis.PublicApiTests.test_repeated_page_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.009s
+
+OK

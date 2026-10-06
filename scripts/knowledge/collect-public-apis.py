@@ -179,26 +179,51 @@ def collect(source, env, params, operation=0, all_pages=False, loader=request):
     raise ValueError('Page limit exceeded; collection incomplete')
 
 
-def collect_ecos(env, params, all_pages=False):
+def ecos_identity(row):
+    if not isinstance(row, dict) or not all(isinstance(row.get(k), str) and row[k].strip() for k in ('STAT_CODE', 'ITEM_CODE1', 'TIME')):
+        raise ValueError('ECOS missing observation identity')
+    return tuple(str(row.get(k) or '') for k in ('STAT_CODE', 'ITEM_CODE1', 'ITEM_CODE2', 'ITEM_CODE3', 'ITEM_CODE4', 'TIME'))
+
+
+def collect_ecos(env, params, all_pages=False, loader=None):
     key = env.get('ECOS_API_KEY')
     if not key:
         raise ValueError('Missing credential: ECOS_API_KEY')
     required = ['stat_code', 'cycle', 'start', 'end', 'item_code']
     if any(not params.get(p) for p in required):
         raise ValueError('ECOS requires: ' + ', '.join(required))
-    rows = []
+    rows, identities = [], set()
+    expected_total = None
+    loader = loader or request
     for start in range(1, 1000001, 100):
         parts = ['StatisticSearch', key, 'json', 'kr', str(start), str(start + 99)] + [params[p] for p in required]
-        payload = json.loads(request('https://ecos.bok.or.kr/api/' + '/'.join(quote(v, safe='') for v in parts)))
+        payload = json.loads(loader('https://ecos.bok.or.kr/api/' + '/'.join(quote(v, safe='') for v in parts)))
         data = payload.get('StatisticSearch')
         if not data:
             raise ValueError('ECOS error: ' + str(payload.get('RESULT', {}).get('CODE', 'invalid response')))
         batch = data.get('row', [])
-        rows.extend(batch)
         total = int(data['list_total_count'])
-        if len(rows) >= total or not all_pages:
+        if total < 0 or not isinstance(batch, list):
+            raise ValueError('ECOS invalid pagination metadata')
+        if expected_total is None:
+            expected_total = total
+        if total != expected_total:
+            raise ValueError('ECOS total changed during pagination')
+        for row in batch:
+            identity = ecos_identity(row)
+            if identity in identities:
+                raise ValueError('ECOS duplicate observation identity')
+            if str(row['STAT_CODE']) != params['stat_code'] or str(row['ITEM_CODE1']) != params['item_code']:
+                raise ValueError('ECOS observation outside requested series')
+            if not params['start'] <= str(row['TIME']) <= params['end']:
+                raise ValueError('ECOS observation outside requested period')
+            identities.add(identity)
+        rows.extend(batch)
+        if len(rows) > expected_total:
+            raise ValueError('ECOS exceeded declared total')
+        if len(rows) == expected_total or not all_pages:
             source = {'id': 'source.bok.ecos', 'documentation': 'https://ecos.bok.or.kr/api/'}
-            return {'source_id': source['id'], 'complete': len(rows) >= total, 'total_count': total,
+            return {'source_id': source['id'], 'complete': len(rows) == expected_total, 'total_count': expected_total,
                     'collected_count': len(rows), 'candidates': [candidate(source, row) for row in rows]}
         if not batch:
             raise ValueError('ECOS incomplete response')

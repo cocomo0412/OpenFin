@@ -1,6 +1,7 @@
 import importlib.util
 from pathlib import Path
 import unittest
+import json
 from urllib.parse import parse_qs, urlsplit
 
 spec = importlib.util.spec_from_file_location('public_apis', Path(__file__).resolve().parents[1] / 'scripts/knowledge/collect-public-apis.py')
@@ -93,6 +94,61 @@ class PublicApiTests(unittest.TestCase):
         body = b'{"getProductList202607":{"header":{"resultCode":"00"},"item":[{"num":"2"}],"totalCount":1}}'
         with self.assertRaisesRegex(ValueError, 'missing KDIC'):
             api.collect(source, {'DATA_GO_KR_SERVICE_KEY': 'test'}, {}, all_pages=True, loader=lambda url: body)
+
+
+class EcosIntegrityTests(unittest.TestCase):
+    params = {'stat_code': '722Y001', 'cycle': 'D', 'start': '20261001', 'end': '20261031', 'item_code': '0101000'}
+
+    @staticmethod
+    def row(day='20261001', value='2.5'):
+        return {'STAT_CODE': '722Y001', 'ITEM_CODE1': '0101000', 'TIME': day, 'DATA_VALUE': value}
+
+    def collect(self, pages, all_pages=True):
+        responses = iter(pages)
+        return api.collect_ecos({'ECOS_API_KEY': 'synthetic'}, self.params, all_pages,
+            loader=lambda url: json.dumps({'StatisticSearch': next(responses)}).encode())
+
+    def test_unique_pages_are_complete_and_probe_is_partial(self):
+        pages = [{'list_total_count': 2, 'row': [self.row()]}, {'list_total_count': 2, 'row': [self.row('20261002')]}]
+        result = self.collect(pages)
+        self.assertTrue(result['complete'])
+        self.assertEqual(result['collected_count'], 2)
+        self.assertFalse(self.collect(pages, False)['complete'])
+
+    def test_duplicate_and_changed_value_at_same_identity_are_rejected(self):
+        for value in ['2.5', '3.0']:
+            with self.assertRaisesRegex(ValueError, 'duplicate'):
+                self.collect([{'list_total_count': 2, 'row': [self.row(), self.row(value=value)]}])
+
+    def test_total_changes_overcount_and_empty_early_page_rejected(self):
+        for total in [1, 3]:
+            with self.assertRaisesRegex(ValueError, 'total changed'):
+                self.collect([{'list_total_count': 2, 'row': [self.row()]}, {'list_total_count': total, 'row': [self.row('20261002')]}])
+        with self.assertRaisesRegex(ValueError, 'exceeded'):
+            self.collect([{'list_total_count': 1, 'row': [self.row(), self.row('20261002')]}])
+        with self.assertRaisesRegex(ValueError, 'incomplete'):
+            self.collect([{'list_total_count': 2, 'row': []}])
+
+    def test_wrong_series_period_and_missing_identity_rejected(self):
+        for row in [{**self.row(), 'STAT_CODE': 'wrong'}, self.row('20260930'), {'TIME': '20261001'}]:
+            with self.assertRaises(ValueError):
+                self.collect([{'list_total_count': 1, 'row': [row]}])
+
+    def test_publication_gate_rejects_duplicate_observations_independently(self):
+        spec = importlib.util.spec_from_file_location('inventory', Path(api.__file__).with_name('build-collection-inventory.py'))
+        inventory = importlib.util.module_from_spec(spec); spec.loader.exec_module(inventory)
+        source = {'id': 'source.bok.ecos', 'documentation': 'https://ecos.bok.or.kr/api/'}
+        snapshot = {'source_id': source['id'], 'complete': True, 'total_count': 2, 'collected_count': 2,
+                    'candidates': [api.candidate(source, self.row()), api.candidate(source, self.row(value='3.0'))]}
+        with self.assertRaisesRegex(ValueError, 'duplicate'):
+            inventory.validate(snapshot)
+        for value in [None, '', '  ']:
+            row = {**self.row(), 'STAT_CODE': value}
+            invalid = {**snapshot, 'total_count': 1, 'collected_count': 1, 'candidates': [api.candidate(source, row)]}
+            with self.assertRaisesRegex(ValueError, 'missing observation identity'):
+                inventory.validate(invalid)
+            with self.assertRaisesRegex(ValueError, 'missing observation identity'):
+                self.collect([{'list_total_count': 1, 'row': [row]}])
 
 
 if __name__ == '__main__':

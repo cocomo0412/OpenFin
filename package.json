@@ -9,7 +9,7 @@
     "knowledge:refresh": "node scripts/knowledge/refresh-all.mjs",
     "knowledge:retry-failed": "node scripts/knowledge/refresh-all.mjs --retry-failed",
     "knowledge:bootstrap": "node scripts/knowledge/bootstrap.mjs",
-    "knowledge:build": "node scripts/knowledge/build-decision-snapshots.mjs && node scripts/knowledge/review-decision-offers.mjs && node scripts/knowledge/validate-decision-receipts.mjs && node scripts/knowledge/promote-candidates.mjs && node scripts/knowledge/build.mjs",
+    "knowledge:build": "node scripts/knowledge/build-validated.mjs",
     "knowledge:validate": "node scripts/knowledge/validate.mjs && node scripts/knowledge/validate-rule-facts.mjs",
     "knowledge:validate-facts": "node scripts/knowledge/validate-rule-facts.mjs",
     "knowledge:schema-validate": "node scripts/knowledge/schema-validate.mjs",

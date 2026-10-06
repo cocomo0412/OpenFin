@@ -1,0 +1,643 @@
+{
+  "review_date_kst": "2026-10-06",
+  "recorded_at_utc": "2026-10-06T08:22:51.158Z",
+  "baseline_head": "1e6d7f025e0decede75c82495a9ab9854ba536da",
+  "production_baseline_received": "785add92",
+  "production_source_diff_in_assigned_paths": [],
+  "scope_counts": {
+    "web_ci": 30,
+    "root_dependency_config": 2,
+    "total_assigned": 32,
+    "vendor_structure_only": 3,
+    "generated_data_inventory_only": 7223
+  },
+  "source_writes": false,
+  "package_install_or_fix": false,
+  "production_requests_or_deployments": false,
+  "credential_files_read": false,
+  "network_scope": [
+    "npm audit public advisory metadata",
+    "GitHub advisory documentation"
+  ],
+  "results": {
+    "npm_audit": {
+      "vulnerable_packages": 1,
+      "high_packages": 1,
+      "package": "fast-uri",
+      "locked_version": "3.1.6",
+      "dependency_scope": "root dev transitive via ajv",
+      "advisories": [
+        "GHSA-qw65-cvwx-89v3",
+        "GHSA-58mr-gqgx-xq4g",
+        "GHSA-hrr3-gc8f-f4qj"
+      ],
+      "fix_floor_in_major3": "3.1.8",
+      "maintainer_advisory_pages_verified": true,
+      "maintainer_advisory_pages": [
+        "https://github.com/fastify/fast-uri/security/advisories/GHSA-qw65-cvwx-89v3",
+        "https://github.com/fastify/fast-uri/security/advisories/GHSA-58mr-gqgx-xq4g",
+        "https://github.com/fastify/fast-uri/security/advisories/GHSA-hrr3-gc8f-f4qj"
+      ]
+    },
+    "web_tests": {
+      "total": 41,
+      "passed": 39,
+      "failed": 2,
+      "failure_files": [
+        "tests/knowledge/ui-source-evidence.test.mjs"
+      ],
+      "failure_classification": "legacy-English-rendering-assertions"
+    },
+    "legacy_fixture": {
+      "unsafe_scheme_href_preserved": true,
+      "browser_script_execution_tested": false,
+      "current_embedded_strings_checked": 14539,
+      "current_dangerous_scheme_strings": 0
+    },
+    "analytics_fixture": {
+      "production_external_script_count": 1,
+      "optout_external_script_count": 0,
+      "storage_error_external_script_count": 0,
+      "other_host_external_script_count": 0
+    },
+    "dormant_ci_fixture": {
+      "local_marker_executed": true,
+      "actual_workflow_executed": false,
+      "job_currently_disabled": true
+    },
+    "syntax": {
+      "javascript_files": 8,
+      "failed": 0
+    },
+    "css_security_scan": [
+      {
+        "path": "docs/api-data.css",
+        "executable_css_property": false,
+        "remote_resource": false
+      },
+      {
+        "path": "docs/explorer.css",
+        "executable_css_property": false,
+        "remote_resource": false
+      },
+      {
+        "path": "docs/home.css",
+        "executable_css_property": false,
+        "remote_resource": false
+      },
+      {
+        "path": "docs/opentax/styles.css",
+        "executable_css_property": false,
+        "remote_resource": false
+      },
+      {
+        "path": "docs/styles.css",
+        "executable_css_property": false,
+        "remote_resource": false
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": ".github/workflows/deploy-mcp.yml",
+      "bytes": 3794,
+      "sha256": "45392786232f829ed1df511aa97f0b849af2b4a498f4d2445ea18784282942ce",
+      "review_status": "reviewed-with-stated-limitations",
+      "phases": [
+        "complete-workflow-static-review",
+        "trigger-job-reachability-permission-secret-and-interpolation-review",
+        "action-version-and-artifact-trust-review"
+      ],
+      "findings": [],
+      "limitations": [
+        "실제 workflow/배포를 실행하지 않음",
+        "원격 repository settings/secret scope/branch protection 미확인"
+      ]
+    },
+    {
+      "path": ".github/workflows/deploy-pages.yml",
+      "bytes": 580,
+      "sha256": "05d013407fd51a332db2be3474b036f58f6d304f25f6873ad21b49a3a190dad3",
+      "review_status": "reviewed-with-stated-limitations",
+      "phases": [
+        "complete-workflow-static-review",
+        "trigger-job-reachability-permission-secret-and-interpolation-review",
+        "action-version-and-artifact-trust-review"
+      ],
+      "findings": [],
+      "limitations": [
+        "실제 workflow/배포를 실행하지 않음",
+        "원격 repository settings/secret scope/branch protection 미확인"
+      ]
+    },
+    {
+      "path": ".github/workflows/diagnose-worker.yml",
+      "bytes": 7772,
+      "sha256": "bead5ba1701031d21413d01aa53af56d16d68b56afed30927ecc3570d253f8d5",
+      "review_status": "reviewed-with-stated-limitations",
+      "phases": [
+        "complete-workflow-static-review",
+        "trigger-job-reachability-permission-secret-and-interpolation-review",
+        "action-version-and-artifact-trust-review"
+      ],
+      "findings": [],
+      "limitations": [
+        "실제 workflow/배포를 실행하지 않음",
+        "원격 repository settings/secret scope/branch protection 미확인"
+      ]
+    },
+    {
+      "path": ".github/workflows/live-regression.yml",
+      "bytes": 4744,
+      "sha256": "08023b803d03507064a353294b3e9936017dc645be5564624f3c6042dfd7789f",
+      "review_status": "reviewed-with-stated-limitations",
+      "phases": [
+        "complete-workflow-static-review",
+        "trigger-job-reachability-permission-secret-and-interpolation-review",
+        "action-version-and-artifact-trust-review"
+      ],
+      "findings": [],
+      "limitations": [
+        "실제 workflow/배포를 실행하지 않음",
+        "원격 repository settings/secret scope/branch protection 미확인"
+      ]
+    },
+    {
+      "path": ".github/workflows/release-openfin.yml",
+      "bytes": 54169,
+      "sha256": "944cd92646f1ee7e2e1260d945da66acc6013d15031e4d7846e7df3d87dcf438",
+      "review_status": "reviewed-with-stated-limitations",
+      "phases": [
+        "complete-workflow-static-review",
+        "trigger-job-reachability-permission-secret-and-interpolation-review",
+        "action-version-and-artifact-trust-review"
+      ],
+      "findings": [],
+      "limitations": [
+        "실제 workflow/배포를 실행하지 않음",
+        "원격 repository settings/secret scope/branch protection 미확인"
+      ]
+    },
+    {
+      "path": ".github/workflows/search-quality.yml",
+      "bytes": 1556,
+      "sha256": "619caee39fd27b170d9eaea1df0b7b891c2dc93c0aaa55ed0b5ad2ab1806657b",
+      "review_status": "reviewed-with-stated-limitations",
+      "phases": [
+        "complete-workflow-static-review",
+        "trigger-job-reachability-permission-secret-and-interpolation-review",
+        "action-version-and-artifact-trust-review"
+      ],
+      "findings": [],
+      "limitations": [
+        "실제 workflow/배포를 실행하지 않음",
+        "원격 repository settings/secret scope/branch protection 미확인"
+      ]
+    },
+    {
+      "path": ".github/workflows/staging-openfin.yml",
+      "bytes": 4038,
+      "sha256": "640c18d81f91c554237d5b966aced2f058a233ec04e4085b4881e633f481792b",
+      "review_status": "reviewed-with-stated-limitations",
+      "phases": [
+        "complete-workflow-static-review",
+        "trigger-job-reachability-permission-secret-and-interpolation-review",
+        "action-version-and-artifact-trust-review",
+        "safe-local-bash-interpolation-marker"
+      ],
+      "findings": [
+        "WEB-CI-03"
+      ],
+      "limitations": [
+        "실제 workflow/배포를 실행하지 않음",
+        "원격 repository settings/secret scope/branch protection 미확인"
+      ]
+    },
+    {
+      "path": ".github/workflows/track-sources.yml",
+      "bytes": 5144,
+      "sha256": "8ca19d19843ea61ede8b799c47b6148c801147c5665c9b6214b92acc2f0d1406",
+      "review_status": "reviewed-with-stated-limitations",
+      "phases": [
+        "complete-workflow-static-review",
+        "trigger-job-reachability-permission-secret-and-interpolation-review",
+        "action-version-and-artifact-trust-review"
+      ],
+      "findings": [],
+      "limitations": [
+        "실제 workflow/배포를 실행하지 않음",
+        "원격 repository settings/secret scope/branch protection 미확인"
+      ]
+    },
+    {
+      "path": "docs/analytics-settings.html",
+      "bytes": 4430,
+      "sha256": "040561a3f0a97dd8e142f03190639c932a35ead81dab1b54350d6f1baee765e5",
+      "review_status": "reviewed-with-stated-limitations",
+      "phases": [
+        "full-file-markup-and-external-resource-scan",
+        "script-navigation-form-and-policy-review"
+      ],
+      "findings": [],
+      "limitations": [
+        "실제 운영 보안 헤더와 외부 링크 도착페이지 미확인"
+      ]
+    },
+    {
+      "path": "docs/analytics-settings.js",
+      "bytes": 1481,
+      "sha256": "db3678ad78b838f503de9f7b2ab031088c3a50dce6d536f5a09594cb21c19d65",
+      "review_status": "reviewed-with-stated-limitations",
+      "phases": [
+        "local-storage-write-error-and-storage-event-review",
+        "textContent-status-review"
+      ],
+      "findings": [],
+      "limitations": [
+        "실제 브라우저 exploit/네트워크 동작은 시험하지 않음"
+      ]
+    },
+    {
+      "path": "docs/analytics-test.html",
+      "bytes": 4303,
+      "sha256": "cb733811f4866fbbc57287f64759b6a2fc1e9c05297f09d37b9cbdbbc23a0712",
+      "review_status": "reviewed-with-stated-limitations",
+      "phases": [
+        "full-file-markup-and-external-resource-scan",
+        "script-navigation-form-and-policy-review"
+      ],
+      "findings": [],
+      "limitations": [
+        "실제 운영 보안 헤더와 외부 링크 도착페이지 미확인"
+      ]
+    },
+    {
+      "path": "docs/analytics-test.js",
+      "bytes": 1864,
+      "sha256": "85db8c9146a51f0e1b3c388b1ba6f3c0d6ac903f7329a147dd152fc924f2f3c9",
+      "review_status": "reviewed-with-stated-limitations",
+      "phases": [
+        "mutation-observer-status-review",
+        "textContent-path-review"
+      ],
+      "findings": [],
+      "limitations": [
+        "실제 브라우저 exploit/네트워크 동작은 시험하지 않음"
+      ]
+    },
+    {
+      "path": "docs/analytics.js",
+      "bytes": 1287,
+      "sha256": "f9a330941c788c238785f37818bfae119054f8fc62dce0987efbb60d67365b42",
+      "review_status": "reviewed-with-stated-limitations",
+      "phases": [
+        "actual-js-vm-production-optout-storagefail-otherhost",
+        "third-party-loader-origin-path-and-storage-flow"
+      ],
+      "findings": [],
+      "limitations": [
+        "실제 브라우저 exploit/네트워크 동작은 시험하지 않음"
+      ]
+    },
+    {
+      "path": "docs/api-data.css",
+      "bytes": 3047,
+      "sha256": "4aee6cf3593defa607e2cde9ee2e57a55ead78715e55c66e12ad58623c1fd32f",
+      "review_status": "reviewed-with-stated-limitations",
+      "phases": [
+        "full-file-security-pattern-scan",
+        "external-resource-url-review"
+      ],
+      "findings": [],
+      "limitations": [
+        "시각·접근성 전수검토가 아닌 CSS 보안 구조 검토"
+      ]
+    },
+    {
+      "path": "docs/api-data.html",
+      "bytes": 3092,
+      "sha256": "76f1518ed4fc5ce687462aab8a79bb785b33f93cdeb54a5ac6d46d6baa42ac23",
+      "review_status": "reviewed-with-stated-limitations",
+      "phases": [
+        "full-file-markup-and-external-resource-scan",
+        "script-navigation-form-and-policy-review"
+      ],
+      "findings": [],
+      "limitations": [
+        "실제 운영 보안 헤더와 외부 링크 도착페이지 미확인"
+      ]
+    },
+    {
+      "path": "docs/api-data.js",
+      "bytes": 12634,
+      "sha256": "c157df7d8fba050edde6563034e7d7d572909951a845cee7496071dac1fd546b",
+      "review_status": "reviewed-with-stated-limitations",
+      "phases": [
+        "actual-js-vm-regressions",
+        "textContent-only-record-rendering",
+        "inventory-trust-and-selection-generation-review"
+      ],
+      "findings": [],
+      "limitations": [
+        "실제 브라우저 exploit/네트워크 동작은 시험하지 않음"
+      ]
+    },
+    {
+      "path": "docs/app.js",
+      "bytes": 67086,
+      "sha256": "4a3b3601077f7a43bcff310e8867d87a592aa2274b5a6929261337531d54e163",
+      "review_status": "reviewed-with-stated-limitations",
+      "phases": [
+        "actual-js-vm-regressions",
+        "html-text-and-attribute-escaping",
+        "http-https-source-url-guard",
+        "query-hash-data-flow"
+      ],
+      "findings": [
+        "WEB-CI-04"
+      ],
+      "limitations": [
+        "실제 브라우저 exploit/네트워크 동작은 시험하지 않음"
+      ]
+    },
+    {
+      "path": "docs/collection-status.js",
+      "bytes": 5585,
+      "sha256": "4c73bbff04fbfb1a3ca67e0fcb8a123c3b447818d5fae987609e5730b61ad206",
+      "review_status": "reviewed-with-stated-limitations",
+      "phases": [
+        "static-fetch-to-textContent-flow",
+        "fixed-local-snapshot-paths"
+      ],
+      "findings": [],
+      "limitations": [
+        "실제 브라우저 exploit/네트워크 동작은 시험하지 않음"
+      ]
+    },
+    {
+      "path": "docs/explorer.css",
+      "bytes": 8861,
+      "sha256": "7b1984d5ec34ebffee284c0c4e1a74facb32297a1ae3f76cd1e422bc8acd6876",
+      "review_status": "reviewed-with-stated-limitations",
+      "phases": [
+        "full-file-security-pattern-scan",
+        "external-resource-url-review"
+      ],
+      "findings": [],
+      "limitations": [
+        "시각·접근성 전수검토가 아닌 CSS 보안 구조 검토"
+      ]
+    },
+    {
+      "path": "docs/explorer.html",
+      "bytes": 4775,
+      "sha256": "4ab39b29c899dc67a24ad5894cc912b6e513240903b81b8cc697c7a7904b2b28",
+      "review_status": "reviewed-with-stated-limitations",
+      "phases": [
+        "full-file-markup-and-external-resource-scan",
+        "script-navigation-form-and-policy-review"
+      ],
+      "findings": [],
+      "limitations": [
+        "실제 운영 보안 헤더와 외부 링크 도착페이지 미확인"
+      ]
+    },
+    {
+      "path": "docs/galaxy3d.js",
+      "bytes": 27518,
+      "sha256": "eba90b39204f5627e32774fc0ac8a6d0aebbc53e06431eb3b6852961ce191735",
+      "review_status": "reviewed-with-stated-limitations",
+      "phases": [
+        "module-import-and-fetch-review",
+        "tooltip-legend-sink-trace-to-fixed-domain-metadata",
+        "navigation-encoding-review"
+      ],
+      "findings": [],
+      "limitations": [
+        "실제 브라우저 exploit/네트워크 동작은 시험하지 않음"
+      ]
+    },
+    {
+      "path": "docs/home.css",
+      "bytes": 6426,
+      "sha256": "09347d9f714562f3af533a6fe5922a347de07f6907bc3df3410a4fd6f6fa147c",
+      "review_status": "reviewed-with-stated-limitations",
+      "phases": [
+        "full-file-security-pattern-scan",
+        "external-resource-url-review"
+      ],
+      "findings": [],
+      "limitations": [
+        "시각·접근성 전수검토가 아닌 CSS 보안 구조 검토"
+      ]
+    },
+    {
+      "path": "docs/index.html",
+      "bytes": 21972,
+      "sha256": "74cbfe593bb80c24af701ec737be5fe987a610fa88b5bd6612e73e9d4a57df4c",
+      "review_status": "reviewed-with-stated-limitations",
+      "phases": [
+        "full-file-markup-and-external-resource-scan",
+        "script-navigation-form-and-policy-review"
+      ],
+      "findings": [],
+      "limitations": [
+        "실제 운영 보안 헤더와 외부 링크 도착페이지 미확인"
+      ]
+    },
+    {
+      "path": "docs/opentax/app.js",
+      "bytes": 872244,
+      "sha256": "caa3a98063b49cb16037dc2744c2964a076e3c437fa3e45aef240d1381937424",
+      "review_status": "reviewed-with-stated-limitations",
+      "phases": [
+        "renderer-body-static-review",
+        "synthetic-in-memory-ontology-unsafe-scheme-link-reproduction",
+        "embedded-data-dangerous-scheme-scan"
+      ],
+      "findings": [
+        "WEB-CI-02"
+      ],
+      "limitations": [
+        "실제 브라우저 exploit/네트워크 동작은 시험하지 않음",
+        "첫 줄 내장자료의 의미 전수검토 제외; 위험 scheme 문자열 검사만 수행"
+      ]
+    },
+    {
+      "path": "docs/opentax/index.html",
+      "bytes": 19626,
+      "sha256": "fc712a92d1444b5e243ac493c69c54a4ceaf7048a41739d9cb7ae204261349e8",
+      "review_status": "reviewed-with-stated-limitations",
+      "phases": [
+        "full-file-markup-and-external-resource-scan",
+        "script-navigation-form-and-policy-review"
+      ],
+      "findings": [],
+      "limitations": [
+        "실제 운영 보안 헤더와 외부 링크 도착페이지 미확인"
+      ]
+    },
+    {
+      "path": "docs/opentax/privacy.html",
+      "bytes": 4886,
+      "sha256": "eb106dbe0809702d7e3ba3ef1f452a7b0981143280cf0faa4385a602b34e222c",
+      "review_status": "reviewed-with-stated-limitations",
+      "phases": [
+        "full-file-markup-and-external-resource-scan",
+        "script-navigation-form-and-policy-review"
+      ],
+      "findings": [],
+      "limitations": [
+        "실제 운영 보안 헤더와 외부 링크 도착페이지 미확인"
+      ]
+    },
+    {
+      "path": "docs/opentax/styles.css",
+      "bytes": 22458,
+      "sha256": "ea6d2d6e803320a5c20f1b3c6e13612a08b4021ae5c0fb01fe842d9aed45abe8",
+      "review_status": "reviewed-with-stated-limitations",
+      "phases": [
+        "full-file-security-pattern-scan",
+        "external-resource-url-review"
+      ],
+      "findings": [],
+      "limitations": [
+        "시각·접근성 전수검토가 아닌 CSS 보안 구조 검토"
+      ]
+    },
+    {
+      "path": "docs/opentax/support.html",
+      "bytes": 2885,
+      "sha256": "86cf5e7c08d7391b3161f6627762b38f8204a3cb6ae2de7523827c9384273b70",
+      "review_status": "reviewed-with-stated-limitations",
+      "phases": [
+        "full-file-markup-and-external-resource-scan",
+        "script-navigation-form-and-policy-review"
+      ],
+      "findings": [],
+      "limitations": [
+        "실제 운영 보안 헤더와 외부 링크 도착페이지 미확인"
+      ]
+    },
+    {
+      "path": "docs/opentax/terms.html",
+      "bytes": 3216,
+      "sha256": "f463b7ea96c5df477ba6b565d8330683bd58b5d28565e16acbe33e094d7307a3",
+      "review_status": "reviewed-with-stated-limitations",
+      "phases": [
+        "full-file-markup-and-external-resource-scan",
+        "script-navigation-form-and-policy-review"
+      ],
+      "findings": [],
+      "limitations": [
+        "실제 운영 보안 헤더와 외부 링크 도착페이지 미확인"
+      ]
+    },
+    {
+      "path": "docs/styles.css",
+      "bytes": 45172,
+      "sha256": "044cbb42172c0da27cd40775f2be05ff3974dcdf27bbcafe1f994dd64c43b052",
+      "review_status": "reviewed-with-stated-limitations",
+      "phases": [
+        "full-file-security-pattern-scan",
+        "external-resource-url-review"
+      ],
+      "findings": [],
+      "limitations": [
+        "시각·접근성 전수검토가 아닌 CSS 보안 구조 검토"
+      ]
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 3097,
+      "sha256": "cd8f50bd0bfa391a13e3b3be0a6539cb28a8d745723287a231f790a28069a18e",
+      "review_status": "reviewed-with-stated-limitations",
+      "phases": [
+        "dependency-and-lifecycle-config-review",
+        "lock-registry-integrity-version-review",
+        "npm-audit-lock-only-metadata"
+      ],
+      "findings": [
+        "WEB-CI-01"
+      ],
+      "limitations": [
+        "의존성 내부 전수검토 및 서비스 exploit 경로 검증 아님"
+      ]
+    },
+    {
+      "path": "package.json",
+      "bytes": 2952,
+      "sha256": "519c5f0313289be0c40c6665b901b36c9a253ae8765b8a109219429e5321ce54",
+      "review_status": "reviewed-with-stated-limitations",
+      "phases": [
+        "dependency-and-lifecycle-config-review",
+        "lock-registry-integrity-version-review",
+        "npm-audit-lock-only-metadata"
+      ],
+      "findings": [
+        "WEB-CI-01"
+      ],
+      "limitations": [
+        "의존성 내부 전수검토 및 서비스 exploit 경로 검증 아님"
+      ]
+    }
+  ],
+  "vendor": [
+    {
+      "path": "docs/vendor/OrbitControls.js",
+      "sha256": "32f65512ad637a6698af1c290ecd59b33dbe7a996e5520483854222f2783df31",
+      "bytes": 42467,
+      "review_status": "structure-only",
+      "phases": [
+        "local-import-link-and-file-inventory"
+      ],
+      "limitations": [
+        "minified vendor 내부와 CVE 전수검토 제외",
+        "npm root audit 범위에 포함되지 않음"
+      ]
+    },
+    {
+      "path": "docs/vendor/three.core.min.js",
+      "sha256": "46bfe481f27b838cadea6f536e37c6ad95f6a4daf9f7c8696b32c2828d3722ef",
+      "bytes": 385392,
+      "review_status": "structure-only",
+      "phases": [
+        "local-import-link-and-file-inventory"
+      ],
+      "limitations": [
+        "minified vendor 내부와 CVE 전수검토 제외",
+        "npm root audit 범위에 포함되지 않음"
+      ]
+    },
+    {
+      "path": "docs/vendor/three.module.min.js",
+      "sha256": "1f065b8bf5eec3a5f73a2c0708990194c4b4658f1b54a2d0b3d0885c3a4b4284",
+      "bytes": 365558,
+      "review_status": "structure-only",
+      "phases": [
+        "local-import-link-and-file-inventory"
+      ],
+      "limitations": [
+        "minified vendor 내부와 CVE 전수검토 제외",
+        "npm root audit 범위에 포함되지 않음"
+      ]
+    }
+  ],
+  "generated_group": {
+    "prefix": "docs/opentax/",
+    "review_status": "inventory-only-excluding-six-listed-web-files",
+    "file_count": 7223,
+    "extension_counts": {
+      "md": 1,
+      "json": 7216,
+      "png": 4,
+      "mp4": 1,
+      "jsonl": 1
+    },
+    "limitations": [
+      "자료 내용 전체 미검토",
+      "기관 API 신규 요청 없음",
+      "수집·생성 파이프라인은 별도 담당 검토"
+    ]
+  }
+}

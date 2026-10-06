@@ -1,7 +1,7 @@
 // Reproducible catalog refresh. Collection integrity is not suitability approval.
 import fs from 'node:fs';
 import path from 'node:path';
-import {ROOT, KNOWLEDGE, DOCS, json, writeJson, sha256, stable} from './common.mjs';
+import {ROOT, KNOWLEDGE, DOCS, json, writeJson, writeText, sha256, stable} from './common.mjs';
 
 const files=[], byId=new Map();
 function walk(dir) { for(const e of fs.readdirSync(dir,{withFileTypes:true})) {
@@ -203,16 +203,16 @@ for(const f of files) {
   if(f.file===generatedPath) continue;
   if(/new-products(?:-[0-9a-f]+)?\.jsonl$/.test(f.file)) continue;
   if(!f.rows.some(r=>changed.has(r.id))) continue;
-  if(f.tail!==undefined) fs.writeFileSync(f.file,`---\n${JSON.stringify(f.rows[0],null,2)}\n---\n${f.tail}`);
-  else fs.writeFileSync(f.file,f.rows.map(r=>JSON.stringify(r)).join('\n')+'\n');
+  if(f.tail!==undefined) writeText(f.file,`---\n${JSON.stringify(f.rows[0],null,2)}\n---\n${f.tail}`);
+  else writeText(f.file,f.rows.map(r=>JSON.stringify(r)).join('\n')+'\n');
 }
-fs.writeFileSync(generatedPath,observationRows.map(r=>JSON.stringify(r)).join('\n')+'\n');
+writeText(generatedPath,observationRows.map(r=>JSON.stringify(r)).join('\n')+'\n');
 const newPath=path.join(KNOWLEDGE,'40-financial-reference/api-observations/new-products.jsonl');
 const previous=files.filter(f=>/new-products(?:-[0-9a-f]+)?\.jsonl$/.test(f.file)).flatMap(f=>f.rows);
 const newMap=new Map([...previous,...additions].map(r=>[r.id,byId.get(r.id)||r]));
 for(const bucket of '0123456789abcdef') {
   const rows=[...newMap.values()].filter(r=>sha256(r.id)[7]===bucket);
-  fs.writeFileSync(newPath.replace('.jsonl',`-${bucket}.jsonl`),rows.map(r=>JSON.stringify(r)).join('\n')+'\n');
+  writeText(newPath.replace('.jsonl',`-${bucket}.jsonl`),rows.map(r=>JSON.stringify(r)).join('\n')+'\n');
 }
 if(fs.existsSync(newPath))fs.rmSync(newPath);
 report.canonical_refreshed=refreshed.size;report.observation_records=observationRows.length;

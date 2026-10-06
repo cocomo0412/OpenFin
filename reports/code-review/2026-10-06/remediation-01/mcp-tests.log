@@ -1,0 +1,850 @@
+TAP version 13
+# Subtest: byte and decoded-row ceilings evict the least-recently-used entry
+ok 1 - byte and decoded-row ceilings evict the least-recently-used entry
+  ---
+  duration_ms: 4.2986
+  type: 'test'
+  ...
+# Subtest: oversized entries are rejected without changing the ledger
+ok 2 - oversized entries are rejected without changing the ledger
+  ---
+  duration_ms: 0.4022
+  type: 'test'
+  ...
+# Subtest: in-flight reservations enforce their independent byte ceiling
+ok 3 - in-flight reservations enforce their independent byte ceiling
+  ---
+  duration_ms: 0.4376
+  type: 'test'
+  ...
+# Subtest: runtime cache partitions stay within the declared total and expose numeric snapshots
+ok 4 - runtime cache partitions stay within the declared total and expose numeric snapshots
+  ---
+  duration_ms: 3.1561
+  type: 'test'
+  ...
+# Subtest: deposit and saving calculations use their distinct cash-flow models
+ok 5 - deposit and saving calculations use their distinct cash-flow models
+  ---
+  duration_ms: 5.3309
+  type: 'test'
+  ...
+# Subtest: tax and early termination use only supplied verified-rate inputs
+ok 6 - tax and early termination use only supplied verified-rate inputs
+  ---
+  duration_ms: 1.8779
+  type: 'test'
+  ...
+# Subtest: calculators fail closed on invalid cash-flow dimensions
+ok 7 - calculators fail closed on invalid cash-flow dimensions
+  ---
+  duration_ms: 0.2864
+  type: 'test'
+  ...
+# Subtest: deposit terms, compounding, tax exemption, and won rounding are explicit
+ok 8 - deposit terms, compounding, tax exemption, and won rounding are explicit
+  ---
+  duration_ms: 0.5795
+  type: 'test'
+  ...
+# Subtest: deposit golden cases honor monthly, daily, and annual compounding
+ok 9 - deposit golden cases honor monthly, daily, and annual compounding
+  ---
+  duration_ms: 0.4117
+  type: 'test'
+  ...
+# Subtest: deposit payouts are separate cashflows and never reinvest
+ok 10 - deposit payouts are separate cashflows and never reinvest
+  ---
+  duration_ms: 0.5472
+  type: 'test'
+  ...
+# Subtest: periodic payouts compound only within each payout period
+ok 11 - periodic payouts compound only within each payout period
+  ---
+  duration_ms: 0.4826
+  type: 'test'
+  ...
+# Subtest: saving early termination applies each installment tenure and bracket rate
+ok 12 - saving early termination applies each installment tenure and bracket rate
+  ---
+  duration_ms: 0.7392
+  type: 'test'
+  ...
+# Subtest: saving early termination uses validated paid dates and leap-year day count
+ok 13 - saving early termination uses validated paid dates and leap-year day count
+  ---
+  duration_ms: 62.9333
+  type: 'test'
+  ...
+# Subtest: saving schedules distinguish month-start, month-end, free payments, and missed installments
+ok 14 - saving schedules distinguish month-start, month-end, free payments, and missed installments
+  ---
+  duration_ms: 0.813
+  type: 'test'
+  ...
+# Subtest: outcome forwards payment timing, tax, rounding, and saving early termination
+ok 15 - outcome forwards payment timing, tax, rounding, and saving early termination
+  ---
+  duration_ms: 0.9567
+  type: 'test'
+  ...
+# Subtest: calculator monotonicity holds for verified non-negative inputs
+ok 16 - calculator monotonicity holds for verified non-negative inputs
+  ---
+  duration_ms: 0.3947
+  type: 'test'
+  ...
+# Subtest: Korean interest methods do not silently downgrade compound interest
+ok 17 - Korean interest methods do not silently downgrade compound interest
+  ---
+  duration_ms: 0.3644
+  type: 'test'
+  ...
+# Subtest: canary validator accepts a bound candidate
+ok 18 - canary validator accepts a bound candidate
+  ---
+  duration_ms: 51.5465
+  type: 'test'
+  ...
+# Subtest: canary validator rejects generation
+ok 19 - canary validator rejects generation
+  ---
+  duration_ms: 45.9492
+  type: 'test'
+  ...
+# Subtest: canary validator rejects isError
+ok 20 - canary validator rejects isError
+  ---
+  duration_ms: 19.2444
+  type: 'test'
+  ...
+# Subtest: canary validator rejects stalled
+ok 21 - canary validator rejects stalled
+  ---
+  duration_ms: 19.034
+  type: 'test'
+  ...
+# Subtest: canary validator rejects stalled-body
+ok 22 - canary validator rejects stalled-body
+  ---
+  duration_ms: 18.131
+  type: 'test'
+  ...
+# Subtest: canary validator rejects http500
+ok 23 - canary validator rejects http500
+  ---
+  duration_ms: 15.9718
+  type: 'test'
+  ...
+# Subtest: context rejects unknown fields and audit metadata omits raw values
+ok 24 - context rejects unknown fields and audit metadata omits raw values
+  ---
+  duration_ms: 17.358
+  type: 'test'
+  ...
+# Subtest: evidence promotion fails closed on stale, conflicting, or unregistered evidence
+ok 25 - evidence promotion fails closed on stale, conflicting, or unregistered evidence
+  ---
+  duration_ms: 11.6939
+  type: 'test'
+  ...
+# Subtest: assertion profiles separate market comparison and include offer-level bonus evidence
+ok 26 - assertion profiles separate market comparison and include offer-level bonus evidence
+  ---
+  duration_ms: 0.7419
+  type: 'test'
+  ...
+# Subtest: uploads only the named Worker and preserves production routing
+ok 27 - uploads only the named Worker and preserves production routing
+  ---
+  duration_ms: 114.2256
+  type: 'test'
+  ...
+# Subtest: refuses to upload when the production route is disabled
+ok 28 - refuses to upload when the production route is disabled
+  ---
+  duration_ms: 12.8954
+  type: 'test'
+  ...
+# Subtest: rejects missing entry module name before any API request
+ok 29 - rejects missing entry module name before any API request
+  ---
+  duration_ms: 4.8259
+  type: 'test'
+  ...
+# Subtest: rejects entry module absent from bundle before any API request
+ok 30 - rejects entry module absent from bundle before any API request
+  ---
+  duration_ms: 3.7899
+  type: 'test'
+  ...
+# Subtest: rejects incompatible date before any API request
+ok 31 - rejects incompatible date before any API request
+  ---
+  duration_ms: 7.4217
+  type: 'test'
+  ...
+# Subtest: rejects additional bindings before any API request
+ok 32 - rejects additional bindings before any API request
+  ---
+  duration_ms: 2.9963
+  type: 'test'
+  ...
+# Subtest: rejects changed production route after upload without another PUT
+ok 33 - rejects changed production route after upload without another PUT
+  ---
+  duration_ms: 4.1545
+  type: 'test'
+  ...
+# Subtest: rejects changed preview route after upload without another PUT
+ok 34 - rejects changed preview route after upload without another PUT
+  ---
+  duration_ms: 6.2185
+  type: 'test'
+  ...
+# Subtest: fails on API errors without leaking response bodies
+ok 35 - fails on API errors without leaking response bodies
+  ---
+  duration_ms: 3.1199
+  type: 'test'
+  ...
+# Subtest: deployment permits later website changes but blocks changed MCP inputs
+ok 36 - deployment permits later website changes but blocks changed MCP inputs
+  ---
+  duration_ms: 7024.4296
+  type: 'test'
+  ...
+# Subtest: full export shards recombine in order and keep the first duplicate
+ok 37 - full export shards recombine in order and keep the first duplicate
+  ---
+  duration_ms: 2.8719
+  type: 'test'
+  ...
+# Subtest: full export shards preserve checksum arrays and reject malformed items
+ok 38 - full export shards preserve checksum arrays and reject malformed items
+  ---
+  duration_ms: 1.1527
+  type: 'test'
+  ...
+# Subtest: critical facts require a trusted registered source class
+ok 39 - critical facts require a trusted registered source class
+  ---
+  duration_ms: 5.597
+  type: 'test'
+  ...
+# Subtest: fetch defaults to summary and sources while expansions require opt-in
+ok 40 - fetch defaults to summary and sources while expansions require opt-in
+  ---
+  duration_ms: 3.7826
+  type: 'test'
+  ...
+# Subtest: product summaries stay on the bounded hot shard
+ok 41 - product summaries stay on the bounded hot shard
+  ---
+  duration_ms: 0.2952
+  type: 'test'
+  ...
+# Subtest: exact fetch ids route deterministically to one of 512 shards
+ok 42 - exact fetch ids route deterministically to one of 512 shards
+  ---
+  duration_ms: 11.4858
+  type: 'test'
+  ...
+# Subtest: exact fetch selects only the requested identity and its canonical peers
+ok 43 - exact fetch selects only the requested identity and its canonical peers
+  ---
+  duration_ms: 2.5079
+  type: 'test'
+  ...
+# Subtest: support provenance stays explicit without loading the full provenance shard
+ok 44 - support provenance stays explicit without loading the full provenance shard
+  ---
+  duration_ms: 1.2875
+  type: 'test'
+  ...
+# Subtest: support provenance resolves each source id from the canonical registry
+ok 45 - support provenance resolves each source id from the canonical registry
+  ---
+  duration_ms: 0.8606
+  type: 'test'
+  ...
+# Subtest: attainable rate never assumes an unmet maximum-rate condition
+ok 46 - attainable rate never assumes an unmet maximum-rate condition
+  ---
+  duration_ms: 3.5717
+  type: 'test'
+  ...
+# Subtest: ranking uses after-tax economic outcome before soft preferences
+ok 47 - ranking uses after-tax economic outcome before soft preferences
+  ---
+  duration_ms: 5.0143
+  type: 'test'
+  ...
+# Subtest: missing financial context abstains without exposing raw values
+ok 48 - missing financial context abstains without exposing raw values
+  ---
+  duration_ms: 0.4682
+  type: 'test'
+  ...
+# Subtest: saving outcome uses monthly cash flow and explicit tax
+ok 49 - saving outcome uses monthly cash flow and explicit tax
+  ---
+  duration_ms: 0.7165
+  type: 'test'
+  ...
+# Subtest: free instructions distinguish official web documents from API evidence
+ok 50 - free instructions distinguish official web documents from API evidence
+  ---
+  duration_ms: 1.9551
+  type: 'test'
+  ...
+# Subtest: free instructions forbid claiming follow-up verification without checking
+ok 51 - free instructions forbid claiming follow-up verification without checking
+  ---
+  duration_ms: 0.5367
+  type: 'test'
+  ...
+# Subtest: free instructions separate OpenFin evidence from current official verification
+ok 52 - free instructions separate OpenFin evidence from current official verification
+  ---
+  duration_ms: 0.6256
+  type: 'test'
+  ...
+# Subtest: free MCP exposes bounded tax data without recommendations
+ok 53 - free MCP exposes bounded tax data without recommendations
+  ---
+  duration_ms: 40.7784
+  type: 'test'
+  ...
+# Subtest: all tool payloads explain date scope without concealing evidence or claiming verification
+ok 54 - all tool payloads explain date scope without concealing evidence or claiming verification
+  ---
+  duration_ms: 1.3811
+  type: 'test'
+  ...
+# Subtest: lookup keeps item evidence without applying the whole catalog date to every result
+ok 55 - lookup keeps item evidence without applying the whole catalog date to every result
+  ---
+  duration_ms: 5.5867
+  type: 'test'
+  ...
+# Subtest: every search word is required, including words after the eighth
+ok 56 - every search word is required, including words after the eighth
+  ---
+  duration_ms: 27.7956
+  type: 'test'
+  ...
+# Subtest: titles can be searched without spaces and exact titles rank first
+ok 57 - titles can be searched without spaces and exact titles rank first
+  ---
+  duration_ms: 2.5455
+  type: 'test'
+  ...
+# Subtest: compact title matches still require all additional conditions
+ok 58 - compact title matches still require all additional conditions
+  ---
+  duration_ms: 0.9477
+  type: 'test'
+  ...
+# Subtest: spacing tolerance does not join description words or title-description boundaries
+ok 59 - spacing tolerance does not join description words or title-description boundaries
+  ---
+  duration_ms: 0.8625
+  type: 'test'
+  ...
+# Subtest: normalization, query length and result limits remain bounded
+ok 60 - normalization, query length and result limits remain bounded
+  ---
+  duration_ms: 11.1376
+  type: 'test'
+  ...
+# Subtest: manifest generations isolate concurrent artifact requests
+ok 61 - manifest generations isolate concurrent artifact requests
+  ---
+  duration_ms: 2.1642
+  type: 'test'
+  ...
+# Subtest: manifest refreshes are single-flight and cannot resolve out of order
+ok 62 - manifest refreshes are single-flight and cannot resolve out of order
+  ---
+  duration_ms: 0.6463
+  type: 'test'
+  ...
+# Subtest: blocked recommendation does not make healthy core unready
+ok 63 - blocked recommendation does not make healthy core unready
+  ---
+  duration_ms: 2.8593
+  type: 'test'
+  ...
+# Subtest: health exposes source freshness separately from core availability
+ok 64 - health exposes source freshness separately from core availability
+  ---
+  duration_ms: 0.3546
+  type: 'test'
+  ...
+# Subtest: health preserves release metadata for deployment validation
+ok 65 - health preserves release metadata for deployment validation
+  ---
+  duration_ms: 0.3355
+  type: 'test'
+  ...
+# Subtest: service availability never becomes a capability status
+ok 66 - service availability never becomes a capability status
+  ---
+  duration_ms: 0.6767
+  type: 'test'
+  ...
+# Subtest: readiness blocks development or incomplete runtime metadata
+ok 67 - readiness blocks development or incomplete runtime metadata
+  ---
+  duration_ms: 1.8932
+  type: 'test'
+  ...
+# Subtest: sharded readiness metadata returns before downloading the compatibility root
+ok 68 - sharded readiness metadata returns before downloading the compatibility root
+  ---
+  duration_ms: 0.3474
+  type: 'test'
+  ...
+# Subtest: current product ids route to one ontology export
+ok 69 - current product ids route to one ontology export
+  ---
+  duration_ms: 2.1165
+  type: 'test'
+  ...
+# Subtest: live fixture has 120 distinct semantic cases across required categories
+ok 70 - live fixture has 120 distinct semantic cases across required categories
+  ---
+  duration_ms: 7.1119
+  type: 'test'
+  ...
+# Subtest: P0-3 broad searches use result contracts instead of one hard-coded product
+ok 71 - P0-3 broad searches use result contracts instead of one hard-coded product
+  ---
+  duration_ms: 0.4549
+  type: 'test'
+  ...
+# Subtest: semantic searches declare exact top-k and evidence expectations
+ok 72 - semantic searches declare exact top-k and evidence expectations
+  ---
+  duration_ms: 2.1814
+  type: 'test'
+  ...
+# Subtest: transport body reader preserves large successful JSON within its ceiling
+ok 73 - transport body reader preserves large successful JSON within its ceiling
+  ---
+  duration_ms: 57.4854
+  type: 'test'
+  ...
+# Subtest: transport body reader bounds oversized edge bodies
+ok 74 - transport body reader bounds oversized edge bodies
+  ---
+  duration_ms: 2.8651
+  type: 'test'
+  ...
+# Subtest: transport body reader reports a stalled response before the deadline
+ok 75 - transport body reader reports a stalled response before the deadline
+  ---
+  duration_ms: 29.7206
+  type: 'test'
+  ...
+# Subtest: a successful retry does not erase transport or body failure
+ok 76 - a successful retry does not erase transport or body failure
+  ---
+  duration_ms: 0.7026
+  type: 'test'
+  ...
+# Subtest: cashflow deficit abstains deposit recommendation
+ok 77 - cashflow deficit abstains deposit recommendation
+  ---
+  duration_ms: 6.3888
+  type: 'test'
+  ...
+# Subtest: missing as-of is insufficient information
+ok 78 - missing as-of is insufficient information
+  ---
+  duration_ms: 0.3663
+  type: 'test'
+  ...
+# Subtest: deposit recommendation requires a stated goal and period
+ok 79 - deposit recommendation requires a stated goal and period
+  ---
+  duration_ms: 0.2927
+  type: 'test'
+  ...
+# Subtest: owner pilot accepts only a server-verifiable session proof
+ok 80 - owner pilot accepts only a server-verifiable session proof
+  ---
+  duration_ms: 13.6627
+  type: 'test'
+  ...
+# Subtest: provider preference changes rank without changing eligibility
+ok 81 - provider preference changes rank without changing eligibility
+  ---
+  duration_ms: 15.8984
+  type: 'test'
+  ...
+# Subtest: term preference changes rank and array join channels intersect
+ok 82 - term preference changes rank and array join channels intersect
+  ---
+  duration_ms: 1.1642
+  type: 'test'
+  ...
+# Subtest: hard constraints exclude candidates and unknown conditions stay explicit
+ok 83 - hard constraints exclude candidates and unknown conditions stay explicit
+  ---
+  duration_ms: 1.3629
+  type: 'test'
+  ...
+# Subtest: ranking score equals score component sum
+ok 84 - ranking score equals score component sum
+  ---
+  duration_ms: 0.7071
+  type: 'test'
+  ...
+# Subtest: cashflow, liquidity, and principal context affect deterministic ranking
+ok 85 - cashflow, liquidity, and principal context affect deterministic ranking
+  ---
+  duration_ms: 1.3848
+  type: 'test'
+  ...
+# Subtest: eligibility separates matched, failed, and unknown constraints
+ok 86 - eligibility separates matched, failed, and unknown constraints
+  ---
+  duration_ms: 5.7275
+  type: 'test'
+  ...
+# Subtest: ranking is deterministic with stable tie breaking
+ok 87 - ranking is deterministic with stable tie breaking
+  ---
+  duration_ms: 29.2072
+  type: 'test'
+  ...
+# Subtest: array join channels use intersection for a hard constraint
+ok 88 - array join channels use intersection for a hard constraint
+  ---
+  duration_ms: 0.5846
+  type: 'test'
+  ...
+# Subtest: release gate is data-driven and requires a verified manifest checksum
+ok 89 - release gate is data-driven and requires a verified manifest checksum
+  ---
+  duration_ms: 3.223
+  type: 'test'
+  ...
+# Subtest: release gate blocks stale live regression and non-ready domains
+ok 90 - release gate blocks stale live regression and non-ready domains
+  ---
+  duration_ms: 0.5308
+  type: 'test'
+  ...
+# Subtest: release gate blocks expired and cross-generation live evidence
+ok 91 - release gate blocks expired and cross-generation live evidence
+  ---
+  duration_ms: 0.5141
+  type: 'test'
+  ...
+# Subtest: release gate always uses the latest live attempt
+ok 92 - release gate always uses the latest live attempt
+  ---
+  duration_ms: 0.4332
+  type: 'test'
+  ...
+# Subtest: declared live evidence failure cannot fall back to legacy current evidence
+ok 93 - declared live evidence failure cannot fall back to legacy current evidence
+  ---
+  duration_ms: 0.3565
+  type: 'test'
+  ...
+# Subtest: shadow and owner-pilot gates have separate candidate and approval contracts
+ok 94 - shadow and owner-pilot gates have separate candidate and approval contracts
+  ---
+  duration_ms: 0.8172
+  type: 'test'
+  ...
+# Subtest: structured predicates distinguish matched, failed, and unknown
+ok 95 - structured predicates distinguish matched, failed, and unknown
+  ---
+  duration_ms: 2.1529
+  type: 'test'
+  ...
+# Subtest: bonus rules apply only when the user fact is present
+ok 96 - bonus rules apply only when the user fact is present
+  ---
+  duration_ms: 2.3665
+  type: 'test'
+  ...
+# Subtest: search results use the compact evidence projection
+ok 97 - search results use the compact evidence projection
+  ---
+  duration_ms: 3.089
+  type: 'test'
+  ...
+# Subtest: actual compact search responses validate against the canonical schema
+ok 98 - actual compact search responses validate against the canonical schema
+  ---
+  duration_ms: 7.0643
+  type: 'test'
+  ...
+# Subtest: registered compact projection keeps an empty source id list
+ok 99 - registered compact projection keeps an empty source id list
+  ---
+  duration_ms: 0.4851
+  type: 'test'
+  ...
+# Subtest: broad search diversity targets three providers when available
+ok 100 - broad search diversity targets three providers when available
+  ---
+  duration_ms: 0.93
+  type: 'test'
+  ...
+# Subtest: named and discovery candidates retain decision evidence while adding source health
+ok 101 - named and discovery candidates retain decision evidence while adding source health
+  ---
+  duration_ms: 0.4513
+  type: 'test'
+  ...
+# Subtest: search enrichment preserves the last duplicate item
+ok 102 - search enrichment preserves the last duplicate item
+  ---
+  duration_ms: 0.2863
+  type: 'test'
+  ...
+# Subtest: bank discovery resolves each hot-shard source set once
+ok 103 - bank discovery resolves each hot-shard source set once
+  ---
+  duration_ms: 8.4278
+  type: 'test'
+  ...
+# Subtest: freshness-filtered search resolves each shared source set once
+ok 104 - freshness-filtered search resolves each shared source set once
+  ---
+  duration_ms: 0.411
+  type: 'test'
+  ...
+# Subtest: the runtime keeps each parsed search-shard tier bounded
+ok 105 - the runtime keeps each parsed search-shard tier bounded
+  ---
+  duration_ms: 0.8622
+  type: 'test'
+  ...
+# Subtest: search shard loads cannot accumulate unbounded in-flight work
+ok 106 - search shard loads cannot accumulate unbounded in-flight work
+  ---
+  duration_ms: 0.8684
+  type: 'test'
+  ...
+# Subtest: partial shard loads preserve existing cache until admission
+ok 107 - partial shard loads preserve existing cache until admission
+  ---
+  duration_ms: 0.6491
+  type: 'test'
+  ...
+# Subtest: hot shard parsing and scoring avoid repeated row allocations
+ok 108 - hot shard parsing and scoring avoid repeated row allocations
+  ---
+  duration_ms: 0.5462
+  type: 'test'
+  ...
+# Subtest: query-bound hot shard hydration avoids materializing unrelated rows
+ok 109 - query-bound hot shard hydration avoids materializing unrelated rows
+  ---
+  duration_ms: 118.331
+  type: 'test'
+  ...
+# Subtest: support hot rows decode optional fields lazily and preserve fetch projection
+ok 110 - support hot rows decode optional fields lazily and preserve fetch projection
+  ---
+  duration_ms: 0.6416
+  type: 'test'
+  ...
+# Subtest: completed JSON MCP requests release their transport state
+ok 111 - completed JSON MCP requests release their transport state
+  ---
+  duration_ms: 0.3388
+  type: 'test'
+  ...
+# Subtest: shard diagnostics are opt-in and include bounded request metadata
+ok 112 - shard diagnostics are opt-in and include bounded request metadata
+  ---
+  duration_ms: 0.6131
+  type: 'test'
+  ...
+# Subtest: exact title lookup is isolated and falls back when there is no exact match
+ok 113 - exact title lookup is isolated and falls back when there is no exact match
+  ---
+  duration_ms: 1.1845
+  type: 'test'
+  ...
+# Subtest: exact fetch reuses only the matching hot row before targeted decoding
+ok 114 - exact fetch reuses only the matching hot row before targeted decoding
+  ---
+  duration_ms: 0.6275
+  type: 'test'
+  ...
+# Subtest: repeated searches reuse deduplication and avoid full-shard temporary indexes
+ok 115 - repeated searches reuse deduplication and avoid full-shard temporary indexes
+  ---
+  duration_ms: 0.2984
+  type: 'test'
+  ...
+# Subtest: search tokenizes the query once before scoring items
+ok 116 - search tokenizes the query once before scoring items
+  ---
+  duration_ms: 0.2725
+  type: 'test'
+  ...
+# Subtest: support search keeps only a bounded ranked candidate buffer
+ok 117 - support search keeps only a bounded ranked candidate buffer
+  ---
+  duration_ms: 0.1427
+  type: 'test'
+  ...
+# Subtest: SEC-11: independent consumers consume a signed proof exactly once through the shared backend
+ok 118 - SEC-11: independent consumers consume a signed proof exactly once through the shared backend
+  ---
+  duration_ms: 73.2073
+  type: 'test'
+  ...
+# Subtest: SEC-11: missing or failing storage never authenticates and invalid signatures never consume
+ok 119 - SEC-11: missing or failing storage never authenticates and invalid signatures never consume
+  ---
+  duration_ms: 2.5773
+  type: 'test'
+  ...
+# Subtest: SEC-11: backend retention lasts until expiry and a delayed alarm preserves a newer claim
+ok 120 - SEC-11: backend retention lasts until expiry and a delayed alarm preserves a newer claim
+  ---
+  duration_ms: 0.6886
+  type: 'test'
+  ...
+# Subtest: SEC-09: shadow handler preserves provider, term, risk and liquidity conditions
+ok 121 - SEC-09: shadow handler preserves provider, term, risk and liquidity conditions
+  ---
+  duration_ms: 23.8398
+  type: 'test'
+  ...
+# Subtest: SEC-09/11: authenticated owner handler filters conditions and denies a missing replay binding
+ok 122 - SEC-09/11: authenticated owner handler filters conditions and denies a missing replay binding
+  ---
+  duration_ms: 8.9716
+  type: 'test'
+  ...
+# Subtest: SEC-12: unknown values remain null through normalization while explicit zeros remain known
+ok 123 - SEC-12: unknown values remain null through normalization while explicit zeros remain known
+  ---
+  duration_ms: 2.0749
+  type: 'test'
+  ...
+# Subtest: SEC-12: unreported funding, coverage and expenses cannot become zero automatically
+ok 124 - SEC-12: unreported funding, coverage and expenses cannot become zero automatically
+  ---
+  duration_ms: 0.3806
+  type: 'test'
+  ...
+# Subtest: SEC-10: server opt-in is required and arbitrary request header content never enters diagnostics
+ok 125 - SEC-10: server opt-in is required and arbitrary request header content never enters diagnostics
+  ---
+  duration_ms: 11.0582
+  type: 'test'
+  ...
+# Subtest: soak classifies ok
+ok 126 - soak classifies ok
+  ---
+  duration_ms: 842.0677
+  type: 'test'
+  ...
+# Subtest: soak classifies http500
+ok 127 - soak classifies http500
+  ---
+  duration_ms: 607.4498
+  type: 'test'
+  ...
+# Subtest: soak classifies generation
+ok 128 - soak classifies generation
+  ---
+  duration_ms: 560.8126
+  type: 'test'
+  ...
+# Subtest: soak classifies isError
+ok 129 - soak classifies isError
+  ---
+  duration_ms: 515.4149
+  type: 'test'
+  ...
+# Subtest: source ids combine item, compact-index, and provenance ids without duplicates
+ok 130 - source ids combine item, compact-index, and provenance ids without duplicates
+  ---
+  duration_ms: 5.3935
+  type: 'test'
+  ...
+# Subtest: source_id records resolve and aggregate the worst source freshness
+ok 131 - source_id records resolve and aggregate the worst source freshness
+  ---
+  duration_ms: 2.5413
+  type: 'test'
+  ...
+# Subtest: missing source-status artifact fails closed even when static freshness is current
+ok 132 - missing source-status artifact fails closed even when static freshness is current
+  ---
+  duration_ms: 0.3414
+  type: 'test'
+  ...
+# Subtest: partial source-status artifacts fail closed
+ok 133 - partial source-status artifacts fail closed
+  ---
+  duration_ms: 0.3321
+  type: 'test'
+  ...
+# Subtest: status records without a recognized freshness value fail closed
+ok 134 - status records without a recognized freshness value fail closed
+  ---
+  duration_ms: 0.5014
+  type: 'test'
+  ...
+# Subtest: runtime freshness uses the registry SLA and effective successful check time
+ok 135 - runtime freshness uses the registry SLA and effective successful check time
+  ---
+  duration_ms: 0.3966
+  type: 'test'
+  ...
+# Subtest: SLA boundary is current at SLA minus one second and stale at plus one second
+ok 136 - SLA boundary is current at SLA minus one second and stale at plus one second
+  ---
+  duration_ms: 3.7297
+  type: 'test'
+  ...
+# Subtest: future source checks fail closed
+ok 137 - future source checks fail closed
+  ---
+  duration_ms: 0.4099
+  type: 'test'
+  ...
+# Subtest: missing runtime freshness inputs fail closed
+ok 138 - missing runtime freshness inputs fail closed
+  ---
+  duration_ms: 0.4866
+  type: 'test'
+  ...
+# Subtest: canonical compare/recommend MCP schemas satisfy the compatibility contract
+ok 139 - canonical compare/recommend MCP schemas satisfy the compatibility contract
+  ---
+  duration_ms: 456.7981
+  type: 'test'
+  ...
+# Subtest: release verification resolves live evidence beside the candidate manifest
+ok 140 - release verification resolves live evidence beside the candidate manifest
+  ---
+  duration_ms: 451.3663
+  type: 'test'
+  ...
+1..140
+# tests 140
+# suites 0
+# pass 140
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 7396.1939

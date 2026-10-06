@@ -1,0 +1,205 @@
+{
+  "date_kst": "2026-10-06",
+  "changed_tracked_paths": [
+    ".github/workflows/release-openfin.yml",
+    ".github/workflows/search-quality.yml",
+    ".github/workflows/staging-openfin.yml",
+    "AGENTS.md",
+    "docs/opentax/app.js",
+    "handbook/CHANGELOG.md",
+    "handbook/development.md",
+    "handbook/operations.md",
+    "mcp/package-lock.json",
+    "mcp/src/index.ts",
+    "mcp/src/tools/pilot-evaluation.ts",
+    "mcp/src/tools/recommend-owner-pilot.ts",
+    "mcp/src/tools/recommend-shadow.ts",
+    "mcp/tests/owner-pilot.test.mjs",
+    "mcp/tests/search-compact.test.mjs",
+    "package-lock.json",
+    "package.json",
+    "scripts/knowledge/api-pagination.mjs",
+    "scripts/knowledge/build-collection-inventory.py",
+    "scripts/knowledge/build.mjs",
+    "scripts/knowledge/collect-finlife-candidates.mjs",
+    "scripts/knowledge/collect-public-apis.py",
+    "scripts/knowledge/common.mjs",
+    "scripts/knowledge/integrate-current-data.mjs",
+    "scripts/knowledge/refresh-all.mjs",
+    "scripts/knowledge/track-sources.mjs",
+    "scripts/knowledge/validate-decision-receipts.mjs",
+    "tests/knowledge/api-pagination.test.mjs",
+    "tests/knowledge/ui-source-evidence.test.mjs",
+    "tests/test_public_apis.py"
+  ],
+  "new_source_paths": [
+    "mcp/src/owner-proof-replay-object.ts",
+    "mcp/src/owner-proof-replay.ts",
+    "mcp/src/types/runtime-bindings.ts",
+    "mcp/tests/security-remediation.test.mjs",
+    "scripts/knowledge/build-validated.mjs",
+    "scripts/knowledge/refresh-transaction.mjs",
+    "scripts/knowledge/source-http.mjs",
+    "tests/knowledge/legacy-source-url.test.mjs",
+    "tests/knowledge/refresh-transaction.test.mjs",
+    "tests/knowledge/source-http.test.mjs",
+    "tests/knowledge/workflow-input-security.test.mjs"
+  ],
+  "changed_financial_data_paths": [],
+  "original_audit_artifacts_modified": [],
+  "legacy_embedded_data_unchanged": true,
+  "missing_local_links": [],
+  "diff_check_exit": 0,
+  "source_hashes": [
+    {
+      "path": ".github/workflows/release-openfin.yml",
+      "sha256": "f62191f15ee54d89b2eba7f52b954d747b75b4493ba398e310e8864ce80398fa"
+    },
+    {
+      "path": ".github/workflows/search-quality.yml",
+      "sha256": "92e68f5d1f7c523acb6096b23d4fa71f73ef97d4859363ea9fefaf56e6b823b3"
+    },
+    {
+      "path": ".github/workflows/staging-openfin.yml",
+      "sha256": "699aa3bfd237852b8ca19bdf417e126150f4118ccf27c96189a3bc08f4fb65ba"
+    },
+    {
+      "path": "docs/opentax/app.js",
+      "sha256": "0481097636e9aab6d03f4fcf032b68e579e66c1d76113551f6ba8ef0e0769b4a"
+    },
+    {
+      "path": "mcp/package-lock.json",
+      "sha256": "839e7b1cc05c98ce8c2d5d47ab66fe5a02dd722135f4e07944b580cbb9991661"
+    },
+    {
+      "path": "mcp/src/index.ts",
+      "sha256": "1b3d1eb01688c7ac468b9922155e36811acc0401da9998774cb6e71f845e201d"
+    },
+    {
+      "path": "mcp/src/tools/pilot-evaluation.ts",
+      "sha256": "ec63c9b138cfaa979c155853c5b453d636654780fbcdb189dc9ce246d0893ba3"
+    },
+    {
+      "path": "mcp/src/tools/recommend-owner-pilot.ts",
+      "sha256": "7697243f765894311d0b9bfae2fbe972dfe7a2c8a0ad6e33a3ea20507d3bbe2d"
+    },
+    {
+      "path": "mcp/src/tools/recommend-shadow.ts",
+      "sha256": "84f90d7d78e9c8d1f85c9905e5c0884c17f0c5bafdfc266e63d3862451ccc2ab"
+    },
+    {
+      "path": "mcp/tests/owner-pilot.test.mjs",
+      "sha256": "d14d239d969ca916c4ee7c6bb8456698eeb40e2aa6f91b1291852fe80eaf1315"
+    },
+    {
+      "path": "mcp/tests/search-compact.test.mjs",
+      "sha256": "fc3b99dcd2261ede3bac8241004c38b25a40e0b80911b0a94948f5bc75a870cb"
+    },
+    {
+      "path": "scripts/knowledge/api-pagination.mjs",
+      "sha256": "eda9b320eab6abf629f1a900a9c0d717478bd31669a14499033e044454da3415"
+    },
+    {
+      "path": "scripts/knowledge/build-collection-inventory.py",
+      "sha256": "689f63c9d3bb03979c25c7486a65b8af1f30ccaa8ecbad95dc44671f3a909846"
+    },
+    {
+      "path": "scripts/knowledge/build.mjs",
+      "sha256": "6c88a85ff2939d32b8c94954bcecf6b84e0ef36c34934f2c0ed4c4f62a63a429"
+    },
+    {
+      "path": "scripts/knowledge/collect-finlife-candidates.mjs",
+      "sha256": "06f1d7daf8061dc8fc662557382c98035eaeff21273aae406c71ef11a458779e"
+    },
+    {
+      "path": "scripts/knowledge/collect-public-apis.py",
+      "sha256": "310c7a8c61151a7bd367ad20c73955e6b69d224d1a8bb50469bf92ae4a0e8155"
+    },
+    {
+      "path": "scripts/knowledge/common.mjs",
+      "sha256": "c8d7d5a22445e2b6bb6e29eceac78b3429eb63dd522d02420117eed3200587e3"
+    },
+    {
+      "path": "scripts/knowledge/integrate-current-data.mjs",
+      "sha256": "ff31a758f635146a9cf2084a5de0d81165b6157d2e355ce7d092a36bb76c3c99"
+    },
+    {
+      "path": "scripts/knowledge/refresh-all.mjs",
+      "sha256": "e72881d5e79c9e67e0549676f7f9488b1dca24d973c07af113abae86a73a614b"
+    },
+    {
+      "path": "scripts/knowledge/track-sources.mjs",
+      "sha256": "d16d2679308ab1c09518a5ad3210e0f7a0396b1ae0653260a5262f78bdc8a291"
+    },
+    {
+      "path": "scripts/knowledge/validate-decision-receipts.mjs",
+      "sha256": "69f888d7886984c97fae01ceb47f4934aadf40c3dcc2e5c83f9b1bb2c54c8e9f"
+    },
+    {
+      "path": "tests/knowledge/api-pagination.test.mjs",
+      "sha256": "b06283276825df2dae2bc1f9f4a6d903343dd98cdd729f274a59ea20ff19872b"
+    },
+    {
+      "path": "tests/knowledge/ui-source-evidence.test.mjs",
+      "sha256": "4a67f71c08a3c611517db5ea4771ec584e7a02a4e2c57619081fd9182886f334"
+    },
+    {
+      "path": "tests/test_public_apis.py",
+      "sha256": "9d7f52f21f081c4c5ee03a44a53fe5a82b78c85500d3fe60574c28f94e787231"
+    },
+    {
+      "path": "mcp/src/owner-proof-replay-object.ts",
+      "sha256": "87c0a23de89da90763617ec417fc591f6a08af04eb59edd97fe281162a05313c"
+    },
+    {
+      "path": "mcp/src/owner-proof-replay.ts",
+      "sha256": "a2d43f9e1a85e5578d241cf1ec63f9395863d78176233b678248bd513cdf9104"
+    },
+    {
+      "path": "mcp/src/types/runtime-bindings.ts",
+      "sha256": "bb9bd20f9f69df224bad61ec206c4bc13613f5ea86376782ea23c7c07938b37c"
+    },
+    {
+      "path": "mcp/tests/security-remediation.test.mjs",
+      "sha256": "6ab7bd4584a4d264831266dfb65b6dccab63a7ee4a8268a4d94c7163af9d3e03"
+    },
+    {
+      "path": "scripts/knowledge/build-validated.mjs",
+      "sha256": "db1e0642eb0e13879c067d52d5caa722b2f4d6e174e8f4455ed2c5cbbef409c3"
+    },
+    {
+      "path": "scripts/knowledge/refresh-transaction.mjs",
+      "sha256": "7ef2d2c272e4b6abf0fe20da6aa0300cc2b845344eb4cda0d0f84051c11b96e2"
+    },
+    {
+      "path": "scripts/knowledge/source-http.mjs",
+      "sha256": "c8e73b63fdcaa83ab692350b39ec0df75c7f2ef3c1fec562649fc7d8c1bf3e95"
+    },
+    {
+      "path": "tests/knowledge/legacy-source-url.test.mjs",
+      "sha256": "dd49f951c6f9088e7fbfaefccdd5e7672fa4eda3903038f01ae3c6608dfaf41b"
+    },
+    {
+      "path": "tests/knowledge/refresh-transaction.test.mjs",
+      "sha256": "d6fed72ad8224e67ca4a399b24487cb650913c19cd27b4fbc393cc2ea056689f"
+    },
+    {
+      "path": "tests/knowledge/source-http.test.mjs",
+      "sha256": "37c9d832be25ccd97fe15280653633c52c4a0d9533394ffd5c556f5ea3ad09de"
+    },
+    {
+      "path": "tests/knowledge/workflow-input-security.test.mjs",
+      "sha256": "7df6be5e7691a8b35dfc474fa682fee98af9eb507defacbfe912912c4db92038"
+    }
+  ],
+  "deployment": {
+    "website": false,
+    "mcp": false
+  },
+  "remote_push": false,
+  "staged_diff_check": {
+    "exit_code": 0,
+    "command": "git -c core.whitespace=cr-at-eol diff --cached --check -- . :(exclude)reports/**/*.log",
+    "note": "Original evidence CRLF bytes and raw captured log trailing spaces are preserved; source and documents checked"
+  }
+}

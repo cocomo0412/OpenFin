@@ -1,0 +1,7 @@
+{
+  "local_only": true,
+  "url": "http://127.0.0.1:8789/mcp",
+  "ready": true,
+  "exit_code": 0,
+  "signal": null
+}

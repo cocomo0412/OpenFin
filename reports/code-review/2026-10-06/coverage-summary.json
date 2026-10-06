@@ -1,0 +1,2459 @@
+{
+  "date": "2026-10-06",
+  "baseline": "1e6d7f025e0decede75c82495a9ab9854ba536da",
+  "baseline_code_count": 212,
+  "code_paths_with_review_records": 212,
+  "uncovered_code_paths": [],
+  "unique_code_config_records": 270,
+  "code_files": [
+    {
+      "path": ".github/workflows/deploy-mcp.yml",
+      "owner": "web-ci",
+      "reviews": [
+        {
+          "report": "web-ci",
+          "status": "reviewed-with-stated-limitations",
+          "depth": [
+            "complete-workflow-static-review",
+            "trigger-job-reachability-permission-secret-and-interpolation-review",
+            "action-version-and-artifact-trust-review"
+          ]
+        }
+      ]
+    },
+    {
+      "path": ".github/workflows/deploy-pages.yml",
+      "owner": "web-ci",
+      "reviews": [
+        {
+          "report": "web-ci",
+          "status": "reviewed-with-stated-limitations",
+          "depth": [
+            "complete-workflow-static-review",
+            "trigger-job-reachability-permission-secret-and-interpolation-review",
+            "action-version-and-artifact-trust-review"
+          ]
+        }
+      ]
+    },
+    {
+      "path": ".github/workflows/diagnose-worker.yml",
+      "owner": "web-ci",
+      "reviews": [
+        {
+          "report": "web-ci",
+          "status": "reviewed-with-stated-limitations",
+          "depth": [
+            "complete-workflow-static-review",
+            "trigger-job-reachability-permission-secret-and-interpolation-review",
+            "action-version-and-artifact-trust-review"
+          ]
+        }
+      ]
+    },
+    {
+      "path": ".github/workflows/live-regression.yml",
+      "owner": "web-ci",
+      "reviews": [
+        {
+          "report": "web-ci",
+          "status": "reviewed-with-stated-limitations",
+          "depth": [
+            "complete-workflow-static-review",
+            "trigger-job-reachability-permission-secret-and-interpolation-review",
+            "action-version-and-artifact-trust-review"
+          ]
+        }
+      ]
+    },
+    {
+      "path": ".github/workflows/release-openfin.yml",
+      "owner": "web-ci",
+      "reviews": [
+        {
+          "report": "web-ci",
+          "status": "reviewed-with-stated-limitations",
+          "depth": [
+            "complete-workflow-static-review",
+            "trigger-job-reachability-permission-secret-and-interpolation-review",
+            "action-version-and-artifact-trust-review"
+          ]
+        }
+      ]
+    },
+    {
+      "path": ".github/workflows/search-quality.yml",
+      "owner": "web-ci",
+      "reviews": [
+        {
+          "report": "web-ci",
+          "status": "reviewed-with-stated-limitations",
+          "depth": [
+            "complete-workflow-static-review",
+            "trigger-job-reachability-permission-secret-and-interpolation-review",
+            "action-version-and-artifact-trust-review"
+          ]
+        }
+      ]
+    },
+    {
+      "path": ".github/workflows/staging-openfin.yml",
+      "owner": "web-ci",
+      "reviews": [
+        {
+          "report": "web-ci",
+          "status": "reviewed-with-stated-limitations",
+          "depth": [
+            "complete-workflow-static-review",
+            "trigger-job-reachability-permission-secret-and-interpolation-review",
+            "action-version-and-artifact-trust-review",
+            "safe-local-bash-interpolation-marker"
+          ]
+        }
+      ]
+    },
+    {
+      "path": ".github/workflows/track-sources.yml",
+      "owner": "web-ci",
+      "reviews": [
+        {
+          "report": "web-ci",
+          "status": "reviewed-with-stated-limitations",
+          "depth": [
+            "complete-workflow-static-review",
+            "trigger-job-reachability-permission-secret-and-interpolation-review",
+            "action-version-and-artifact-trust-review"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/analytics-settings.html",
+      "owner": "web-ci",
+      "reviews": [
+        {
+          "report": "web-ci",
+          "status": "reviewed-with-stated-limitations",
+          "depth": [
+            "full-file-markup-and-external-resource-scan",
+            "script-navigation-form-and-policy-review"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/analytics-settings.js",
+      "owner": "web-ci",
+      "reviews": [
+        {
+          "report": "web-ci",
+          "status": "reviewed-with-stated-limitations",
+          "depth": [
+            "local-storage-write-error-and-storage-event-review",
+            "textContent-status-review"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/analytics-test.html",
+      "owner": "web-ci",
+      "reviews": [
+        {
+          "report": "web-ci",
+          "status": "reviewed-with-stated-limitations",
+          "depth": [
+            "full-file-markup-and-external-resource-scan",
+            "script-navigation-form-and-policy-review"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/analytics-test.js",
+      "owner": "web-ci",
+      "reviews": [
+        {
+          "report": "web-ci",
+          "status": "reviewed-with-stated-limitations",
+          "depth": [
+            "mutation-observer-status-review",
+            "textContent-path-review"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/analytics.js",
+      "owner": "web-ci",
+      "reviews": [
+        {
+          "report": "web-ci",
+          "status": "reviewed-with-stated-limitations",
+          "depth": [
+            "actual-js-vm-production-optout-storagefail-otherhost",
+            "third-party-loader-origin-path-and-storage-flow"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/api-data.css",
+      "owner": "web-ci",
+      "reviews": [
+        {
+          "report": "web-ci",
+          "status": "reviewed-with-stated-limitations",
+          "depth": [
+            "full-file-security-pattern-scan",
+            "external-resource-url-review"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/api-data.html",
+      "owner": "web-ci",
+      "reviews": [
+        {
+          "report": "web-ci",
+          "status": "reviewed-with-stated-limitations",
+          "depth": [
+            "full-file-markup-and-external-resource-scan",
+            "script-navigation-form-and-policy-review"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/api-data.js",
+      "owner": "web-ci",
+      "reviews": [
+        {
+          "report": "web-ci",
+          "status": "reviewed-with-stated-limitations",
+          "depth": [
+            "actual-js-vm-regressions",
+            "textContent-only-record-rendering",
+            "inventory-trust-and-selection-generation-review"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/app.js",
+      "owner": "web-ci",
+      "reviews": [
+        {
+          "report": "web-ci",
+          "status": "reviewed-with-stated-limitations",
+          "depth": [
+            "actual-js-vm-regressions",
+            "html-text-and-attribute-escaping",
+            "http-https-source-url-guard",
+            "query-hash-data-flow"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/collection-status.js",
+      "owner": "web-ci",
+      "reviews": [
+        {
+          "report": "web-ci",
+          "status": "reviewed-with-stated-limitations",
+          "depth": [
+            "static-fetch-to-textContent-flow",
+            "fixed-local-snapshot-paths"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/explorer.css",
+      "owner": "web-ci",
+      "reviews": [
+        {
+          "report": "web-ci",
+          "status": "reviewed-with-stated-limitations",
+          "depth": [
+            "full-file-security-pattern-scan",
+            "external-resource-url-review"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/explorer.html",
+      "owner": "web-ci",
+      "reviews": [
+        {
+          "report": "web-ci",
+          "status": "reviewed-with-stated-limitations",
+          "depth": [
+            "full-file-markup-and-external-resource-scan",
+            "script-navigation-form-and-policy-review"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/galaxy3d.js",
+      "owner": "web-ci",
+      "reviews": [
+        {
+          "report": "web-ci",
+          "status": "reviewed-with-stated-limitations",
+          "depth": [
+            "module-import-and-fetch-review",
+            "tooltip-legend-sink-trace-to-fixed-domain-metadata",
+            "navigation-encoding-review"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/home.css",
+      "owner": "web-ci",
+      "reviews": [
+        {
+          "report": "web-ci",
+          "status": "reviewed-with-stated-limitations",
+          "depth": [
+            "full-file-security-pattern-scan",
+            "external-resource-url-review"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/index.html",
+      "owner": "web-ci",
+      "reviews": [
+        {
+          "report": "web-ci",
+          "status": "reviewed-with-stated-limitations",
+          "depth": [
+            "full-file-markup-and-external-resource-scan",
+            "script-navigation-form-and-policy-review"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/opentax/app.js",
+      "owner": "web-ci",
+      "reviews": [
+        {
+          "report": "web-ci",
+          "status": "reviewed-with-stated-limitations",
+          "depth": [
+            "renderer-body-static-review",
+            "synthetic-in-memory-ontology-unsafe-scheme-link-reproduction",
+            "embedded-data-dangerous-scheme-scan"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/opentax/index.html",
+      "owner": "web-ci",
+      "reviews": [
+        {
+          "report": "web-ci",
+          "status": "reviewed-with-stated-limitations",
+          "depth": [
+            "full-file-markup-and-external-resource-scan",
+            "script-navigation-form-and-policy-review"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/opentax/privacy.html",
+      "owner": "web-ci",
+      "reviews": [
+        {
+          "report": "web-ci",
+          "status": "reviewed-with-stated-limitations",
+          "depth": [
+            "full-file-markup-and-external-resource-scan",
+            "script-navigation-form-and-policy-review"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/opentax/styles.css",
+      "owner": "web-ci",
+      "reviews": [
+        {
+          "report": "web-ci",
+          "status": "reviewed-with-stated-limitations",
+          "depth": [
+            "full-file-security-pattern-scan",
+            "external-resource-url-review"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/opentax/support.html",
+      "owner": "web-ci",
+      "reviews": [
+        {
+          "report": "web-ci",
+          "status": "reviewed-with-stated-limitations",
+          "depth": [
+            "full-file-markup-and-external-resource-scan",
+            "script-navigation-form-and-policy-review"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/opentax/terms.html",
+      "owner": "web-ci",
+      "reviews": [
+        {
+          "report": "web-ci",
+          "status": "reviewed-with-stated-limitations",
+          "depth": [
+            "full-file-markup-and-external-resource-scan",
+            "script-navigation-form-and-policy-review"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/styles.css",
+      "owner": "web-ci",
+      "reviews": [
+        {
+          "report": "web-ci",
+          "status": "reviewed-with-stated-limitations",
+          "depth": [
+            "full-file-security-pattern-scan",
+            "external-resource-url-review"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/vendor/OrbitControls.js",
+      "owner": "vendor",
+      "reviews": [
+        {
+          "report": "vendor",
+          "status": "structure-only",
+          "depth": [
+            "local-import-link-and-file-inventory"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/vendor/three.core.min.js",
+      "owner": "vendor",
+      "reviews": [
+        {
+          "report": "vendor",
+          "status": "structure-only",
+          "depth": [
+            "local-import-link-and-file-inventory"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "docs/vendor/three.module.min.js",
+      "owner": "vendor",
+      "reviews": [
+        {
+          "report": "vendor",
+          "status": "structure-only",
+          "depth": [
+            "local-import-link-and-file-inventory"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "mcp/free-env.d.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "generated",
+          "depth": "generated type declarations and environment boundary; no hand audit of runtime library declarations"
+        }
+      ]
+    },
+    {
+      "path": "mcp/scripts/build-free-catalog.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "entry behavior, remote destination, limits and mutation boundary review; script not executed"
+        }
+      ]
+    },
+    {
+      "path": "mcp/scripts/canary-validate.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "entry behavior, remote destination, limits and mutation boundary review; script not executed"
+        }
+      ]
+    },
+    {
+      "path": "mcp/scripts/deploy-free.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "entry behavior, remote destination, limits and mutation boundary review; script not executed"
+        }
+      ]
+    },
+    {
+      "path": "mcp/scripts/financial-quality-live.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "static",
+          "depth": "targeted source/import and security-pattern inspection; not exhaustive line review"
+        }
+      ]
+    },
+    {
+      "path": "mcp/scripts/financial-quality.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "static",
+          "depth": "targeted source/import and security-pattern inspection; not exhaustive line review"
+        }
+      ]
+    },
+    {
+      "path": "mcp/scripts/live-regression-transport.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "entry behavior, remote destination, limits and mutation boundary review; script not executed"
+        }
+      ]
+    },
+    {
+      "path": "mcp/scripts/live-regression.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "static",
+          "depth": "targeted source/import and security-pattern inspection; not exhaustive line review"
+        }
+      ]
+    },
+    {
+      "path": "mcp/scripts/mutation-check.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "static",
+          "depth": "targeted source/import and security-pattern inspection; not exhaustive line review"
+        }
+      ]
+    },
+    {
+      "path": "mcp/scripts/smoke-free.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "entry behavior, remote destination, limits and mutation boundary review; script not executed"
+        }
+      ]
+    },
+    {
+      "path": "mcp/scripts/smoke.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "static",
+          "depth": "targeted source/import and security-pattern inspection; not exhaustive line review"
+        }
+      ]
+    },
+    {
+      "path": "mcp/scripts/soak-test.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "entry behavior, remote destination, limits and mutation boundary review; script not executed"
+        }
+      ]
+    },
+    {
+      "path": "mcp/scripts/tool-schema-contract.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "entry behavior, remote destination, limits and mutation boundary review; script not executed"
+        }
+      ]
+    },
+    {
+      "path": "mcp/scripts/verify-deploy-scope.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "entry behavior, remote destination, limits and mutation boundary review; script not executed"
+        }
+      ]
+    },
+    {
+      "path": "mcp/scripts/verify-free-parity.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "entry behavior, remote destination, limits and mutation boundary review; script not executed"
+        }
+      ]
+    },
+    {
+      "path": "mcp/scripts/verify-release.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "static",
+          "depth": "targeted source/import and security-pattern inspection; not exhaustive line review"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/cache-budget.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "focused functional/security reading of this module"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/calculators/deposit.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "focused functional/security reading of this module"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/calculators/early-termination.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "focused functional/security reading of this module"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/calculators/saving.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "focused functional/security reading of this module"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/calculators/tax.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "focused functional/security reading of this module"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/capability-status.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "focused functional/security reading of this module"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/decision/assertion-profiles.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "static",
+          "depth": "targeted source/import and security-pattern inspection; not exhaustive line review"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/decision/candidate-adapter.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "focused functional/security reading of this module"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/decision/evidence-gate.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "focused functional/security reading of this module"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/export-shards.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "focused functional/security reading of this module"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/free-catalog.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "focused functional/security reading of this module"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/free.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "focused functional/security reading of this module"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/generation-cache.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "focused functional/security reading of this module"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/health.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "focused functional/security reading of this module"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/index.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "static",
+          "depth": "selected diagnostics, transport, SSRF, manifest/cache, input/privacy and finance-metric functions; large remaining search/hydration body pattern-scanned"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/product-status.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "focused functional/security reading of this module"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/recommendation/abstention.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "focused functional/security reading of this module"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/recommendation/attainable-rate.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "focused functional/security reading of this module"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/recommendation/context.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "focused functional/security reading of this module"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/recommendation/explanation.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "focused functional/security reading of this module"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/recommendation/facts.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "focused functional/security reading of this module"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/recommendation/need-gate.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "focused functional/security reading of this module"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/recommendation/outcome.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "focused functional/security reading of this module"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/recommendation/policy.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "focused functional/security reading of this module"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/recommendation/privacy.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "focused functional/security reading of this module"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/recommendation/ranking-v2.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "focused functional/security reading of this module"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/recommendation/ranking.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "focused functional/security reading of this module"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/recommendation/rule-engine.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "focused functional/security reading of this module"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/release-gate.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "focused functional/security reading of this module"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/source-status.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "focused functional/security reading of this module"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/tools/compare.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "focused functional/security reading of this module"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/tools/discover.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "focused functional/security reading of this module"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/tools/exports.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "static",
+          "depth": "targeted source/import and security-pattern inspection; not exhaustive line review"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/tools/fetch.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "static",
+          "depth": "targeted source/import and security-pattern inspection; not exhaustive line review"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/tools/personal-finance.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "static",
+          "depth": "targeted source/import and security-pattern inspection; not exhaustive line review"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/tools/pilot-evaluation.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "focused functional/security reading of this module"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/tools/recommend-handler.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "static",
+          "depth": "targeted source/import and security-pattern inspection; not exhaustive line review"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/tools/recommend-owner-pilot.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "focused functional/security reading of this module"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/tools/recommend-shadow.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "focused functional/security reading of this module"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/tools/recommend.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "focused functional/security reading of this module"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/tools/search.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "static",
+          "depth": "targeted source/import and security-pattern inspection; not exhaustive line review"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/types/decision-candidate.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "static",
+          "depth": "targeted source/import and security-pattern inspection; not exhaustive line review"
+        }
+      ]
+    },
+    {
+      "path": "mcp/src/types/tool-context.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "static",
+          "depth": "targeted source/import and security-pattern inspection; not exhaustive line review"
+        }
+      ]
+    },
+    {
+      "path": "mcp/tests/cache-budget.test.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "test-only",
+          "depth": "side-effect/import inspection and existing regression execution"
+        }
+      ]
+    },
+    {
+      "path": "mcp/tests/calculators.test.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "test-only",
+          "depth": "side-effect/import inspection and existing regression execution"
+        }
+      ]
+    },
+    {
+      "path": "mcp/tests/canary-validate.test.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "static",
+          "depth": "side-effect/import inspection; excluded execution"
+        }
+      ]
+    },
+    {
+      "path": "mcp/tests/context-privacy.test.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "test-only",
+          "depth": "side-effect/import inspection and existing regression execution"
+        }
+      ]
+    },
+    {
+      "path": "mcp/tests/decision-gate.test.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "test-only",
+          "depth": "side-effect/import inspection and existing regression execution"
+        }
+      ]
+    },
+    {
+      "path": "mcp/tests/deploy-free.test.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "test-only",
+          "depth": "side-effect/import inspection and existing regression execution"
+        }
+      ]
+    },
+    {
+      "path": "mcp/tests/deploy-scope.test.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "static",
+          "depth": "side-effect/import inspection; excluded execution"
+        }
+      ]
+    },
+    {
+      "path": "mcp/tests/export-shards.test.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "test-only",
+          "depth": "side-effect/import inspection and existing regression execution"
+        }
+      ]
+    },
+    {
+      "path": "mcp/tests/fact-source-trust.test.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "test-only",
+          "depth": "side-effect/import inspection and existing regression execution"
+        }
+      ]
+    },
+    {
+      "path": "mcp/tests/fetch-contract.test.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "test-only",
+          "depth": "side-effect/import inspection and existing regression execution"
+        }
+      ]
+    },
+    {
+      "path": "mcp/tests/financial-quality.test.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "test-only",
+          "depth": "side-effect/import inspection and existing regression execution"
+        }
+      ]
+    },
+    {
+      "path": "mcp/tests/free-catalog.test.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "test-only",
+          "depth": "side-effect/import inspection and existing regression execution"
+        }
+      ]
+    },
+    {
+      "path": "mcp/tests/free-search.test.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "test-only",
+          "depth": "side-effect/import inspection and existing regression execution"
+        }
+      ]
+    },
+    {
+      "path": "mcp/tests/generation-cache.test.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "test-only",
+          "depth": "side-effect/import inspection and existing regression execution"
+        }
+      ]
+    },
+    {
+      "path": "mcp/tests/health.test.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "test-only",
+          "depth": "side-effect/import inspection and existing regression execution"
+        }
+      ]
+    },
+    {
+      "path": "mcp/tests/item-routing.test.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "test-only",
+          "depth": "side-effect/import inspection and existing regression execution"
+        }
+      ]
+    },
+    {
+      "path": "mcp/tests/live-regression-fixture.test.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "test-only",
+          "depth": "side-effect/import inspection and existing regression execution"
+        }
+      ]
+    },
+    {
+      "path": "mcp/tests/live-regression-transport.test.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "test-only",
+          "depth": "side-effect/import inspection and existing regression execution"
+        }
+      ]
+    },
+    {
+      "path": "mcp/tests/need-gate.test.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "test-only",
+          "depth": "side-effect/import inspection and existing regression execution"
+        }
+      ]
+    },
+    {
+      "path": "mcp/tests/owner-pilot.test.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "test-only",
+          "depth": "side-effect/import inspection and existing regression execution"
+        }
+      ]
+    },
+    {
+      "path": "mcp/tests/recommend-handler.test.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "test-only",
+          "depth": "side-effect/import inspection and existing regression execution"
+        }
+      ]
+    },
+    {
+      "path": "mcp/tests/recommendation.test.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "test-only",
+          "depth": "side-effect/import inspection and existing regression execution"
+        }
+      ]
+    },
+    {
+      "path": "mcp/tests/release-gate.test.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "test-only",
+          "depth": "side-effect/import inspection and existing regression execution"
+        }
+      ]
+    },
+    {
+      "path": "mcp/tests/rule-engine.test.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "test-only",
+          "depth": "side-effect/import inspection and existing regression execution"
+        }
+      ]
+    },
+    {
+      "path": "mcp/tests/search-compact.test.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "test-only",
+          "depth": "side-effect/import inspection and existing regression execution"
+        }
+      ]
+    },
+    {
+      "path": "mcp/tests/soak-test.test.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "static",
+          "depth": "side-effect/import inspection; excluded execution"
+        }
+      ]
+    },
+    {
+      "path": "mcp/tests/source-status.test.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "test-only",
+          "depth": "side-effect/import inspection and existing regression execution"
+        }
+      ]
+    },
+    {
+      "path": "mcp/tests/tool-schema-contract.test.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "static",
+          "depth": "side-effect/import inspection; excluded execution"
+        }
+      ]
+    },
+    {
+      "path": "mcp/tests/verify-release.test.mjs",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "static",
+          "depth": "side-effect/import inspection; excluded execution"
+        }
+      ]
+    },
+    {
+      "path": "mcp/worker-configuration.d.ts",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "generated",
+          "depth": "generated type declarations and environment boundary; no hand audit of runtime library declarations"
+        }
+      ]
+    },
+    {
+      "path": "mcp/wrangler.free.jsonc",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "full local configuration inspection"
+        }
+      ]
+    },
+    {
+      "path": "mcp/wrangler.toml",
+      "owner": "mcp",
+      "reviews": [
+        {
+          "report": "mcp",
+          "status": "reviewed",
+          "depth": "full local configuration inspection"
+        }
+      ]
+    },
+    {
+      "path": "reports/improvements/2026-10-06/evidence/qa-reproduce.mjs",
+      "owner": "historical-evidence",
+      "reviews": [
+        {
+          "report": "repository",
+          "status": "read-only-historical-evidence-reviewed",
+          "depth": "Historical fixture not re-executed"
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/api-pagination.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "F01: current total rather than first total; >= permits overcount."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/assertion-profiles.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "Pure contract category/profile resolution; unknown modes fail."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/audit-policy-coverage.py",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "Local legacy text audit writes caches and queue; not semantic approval."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/audit-tax-disclosures.py",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "Local legacy audit has import-time writes; queue not semantic approval. Not executed."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/bootstrap.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "Manual staging build plus backup/rename recovery; selected provenance and destructive paths reviewed, not executed."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/build-collection-inventory.py",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "F02 no generic/ECOS uniqueness; F04 per-file publication before whole-set validation."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/build-decision-snapshots.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "static_surface_scan",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/build.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "F04 old ontology/exact shards removed before replacement succeeds. Selective generation/hash/projection review, not exhaustive 1108-line semantic proof."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/capture-production-snapshot.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "Fixed public/GitHub source, safe relative paths, commit/hash checks; response buffered before byte-cap enforcement. Not executed."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/collect-disclosures.py",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "Legacy web collector; cache/receipt writes and import-time OUT.mkdir. Not active default, not imported."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/collect-finlife-additional.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "Schema/stable-total/identity checks, bounded retry; prior successful group and its date retained on failure."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/collect-finlife-candidates.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "F01 provider expected count discarded; downstream overlap is blocked by dedup/count mismatch. Fixed hosts and timeouts; default catalog-only avoids KDIC enrichment."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/collect-gov24.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "Stable totals, unique IDs, exact count and timeout before write. Response-size cap hardening remains."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/collect-policy-batch.py",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "Legacy cached receipt reuse without max age and incremental writes; excluded default."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/collect-policy-documents.py",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "Legacy HTML/PDF fetch/parser, operator targets trusted. No active fallback edge, not executed."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/collect-public-apis.py",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "F02 ECOS lacks stable-total/identity guards. data.go branch has stronger checks, request-size limit and safe error codes."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/collect-tax-calendar.py",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "Legacy HTML collection excluded default."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/collect-tax-extra-sources.py",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "Legacy disclosure wrapper excluded default."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/common.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "F04 direct writeFileSync retry helper; no temp+rename. Hash and projection helpers selectively read."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/compile-financial-rules.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "static_surface_scan",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/corporate-tax-reviews.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "static_surface_scan",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/deadline-reviews.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "static_surface_scan",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/derive-quality.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "static_surface_scan",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/disclosure-normalizers.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "static_surface_scan",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/disclosure-receipts.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "static_surface_scan",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/filing-tax-reviews.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "static_surface_scan",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/integrate-current-data.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "F01 overlap blocked by count guard; F02 duplicate raw observation silently skipped; F04 sequential in-place canonical writes."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/integrate-disclosures.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "Legacy/manual disclosure integration and tax constants, selected date/receipt/status paths reviewed."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/link-api-snapshots.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "Exact source/provider/product identity, checksum, count and uniqueness checks; sequential publication."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/local-tax-reviews.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "static_surface_scan",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/migrate-assertion-validity.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "Manual in-place date/checksum rewrite; not executed."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/personal-tax-reviews.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "static_surface_scan",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/policy-matching.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "static_surface_scan",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/policy-matching.test.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "static_surface_scan",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/policy-targets-additional.py",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "Legacy internal provider API/rest routes are not equivalent to documented official APIs."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/prepare-vertical-slice.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "Spawns builder and writes selection; not read-only, not executed."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/promote-candidates.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "static_surface_scan",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/publish-kdic-companies.py",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "Count/name/unique sequence validation; date preserved. Synthetic validator tests passed."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/publish-promoted-live-evidence.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "Manual generation/hash/120-case gate; sequential writes, not executed."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/refresh-all.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "No web collector in default chain. Lock/same-KST-day input guards; permitted failed requests retain old snapshot. Exact-string credential masking; no stage deadline."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/refresh-ledger.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "Separates failed requests from retained item counts; writes reports."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/refresh-public-apis.py",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "Validates before temp.replace; keeps old file/date and records error class. Module body loads environment: NOT imported/executed. 100-row latest-period probe ordering remains unverified."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/remaining-tax-reviews.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "static_surface_scan",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/review-decision-offers.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "static_surface_scan",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/runtime-monitoring.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "static_surface_scan",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/schema-validate.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "Schema/count/identity/receipt checks reviewed selectively."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/source-impact-report.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "static_surface_scan",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/source-review-selection.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "Receipt selection preserves revocation/pending state; pure tests passed."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/source-tracking-summary.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "static_surface_scan",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/track-sources.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "F03 timeout ends at headers; manual source status checks, trusted registry URLs and redirects, dry-run still fetches."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/validate-decision-receipts.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "Validator also writes back receipts, including failure runs; not executed."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/validate-rule-facts.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "Read-only registry/context substring representability checks; not proof of all runtime branches."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/validate.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "Shape/provenance/record hash/shards and schema subprocess reviewed selectively; not executed."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/verify-disclosures.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "Local path containment, receipt/date/identity/record hash and reference-only assertions; not legal review."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/verify-public-parity.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "Manual operator-configured URLs; absent fetch deadline and manifest URL trust are hardening issues, no confirmed public SSRF route."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/verify-quality-consistency.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "static_surface_scan",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/verify-recommendation-approval.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "Schema requires HMAC-SHA256; checksum/generation/expiry/signature checks. No alternate-algorithm bypass confirmed. No secret read."
+        }
+      ]
+    },
+    {
+      "path": "scripts/knowledge/vertical-slice-report.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "Spawns builder and writes evidence; not executed."
+        }
+      ]
+    },
+    {
+      "path": "tests/knowledge/api-data-ui.test.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "static_surface_scan",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    },
+    {
+      "path": "tests/knowledge/api-integration.test.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "static_surface_scan",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    },
+    {
+      "path": "tests/knowledge/api-pagination.test.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "safe_tests_executed",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    },
+    {
+      "path": "tests/knowledge/busanbank-listing-candidate-collection.test.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "static_surface_scan",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    },
+    {
+      "path": "tests/knowledge/compile-financial-rules.test.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "safe_tests_executed",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    },
+    {
+      "path": "tests/knowledge/current-catalog.test.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "static_surface_scan",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    },
+    {
+      "path": "tests/knowledge/deadline-reviews.test.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "static_surface_scan",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    },
+    {
+      "path": "tests/knowledge/decision-snapshots.test.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "Not run: real builders at lines 12,40,45."
+        }
+      ]
+    },
+    {
+      "path": "tests/knowledge/derive-quality.test.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "static_surface_scan",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    },
+    {
+      "path": "tests/knowledge/disclosure-normalizers.test.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "safe_tests_executed",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    },
+    {
+      "path": "tests/knowledge/disclosure-receipts.test.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "safe_tests_executed",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    },
+    {
+      "path": "tests/knowledge/legacy-quality-projection.test.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "static_surface_scan",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    },
+    {
+      "path": "tests/knowledge/pipeline.test.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "Not run: contains actual repository deterministic build as well as temp/local HTTP tests."
+        }
+      ]
+    },
+    {
+      "path": "tests/knowledge/product-status-contract.test.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "static_surface_scan",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    },
+    {
+      "path": "tests/knowledge/refresh-ledger.test.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "Not run: report helper writes actual report paths."
+        }
+      ]
+    },
+    {
+      "path": "tests/knowledge/refresh-pipeline.test.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "safe_tests_executed",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    },
+    {
+      "path": "tests/knowledge/release-pointer.test.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "Temp-fixture mutation tests inspected, not run."
+        }
+      ]
+    },
+    {
+      "path": "tests/knowledge/release-workflow.test.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "static_surface_scan",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    },
+    {
+      "path": "tests/knowledge/runtime-monitoring.test.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "safe_tests_executed",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    },
+    {
+      "path": "tests/knowledge/schema-contract.test.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "static_surface_scan",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    },
+    {
+      "path": "tests/knowledge/source-impact.test.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "Temp-file/subprocess test inspected, not run."
+        }
+      ]
+    },
+    {
+      "path": "tests/knowledge/source-review-selection.test.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "safe_tests_executed",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    },
+    {
+      "path": "tests/knowledge/test_disclosure_collectors.py",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "Not run: import creates actual OUT directory before patches."
+        }
+      ]
+    },
+    {
+      "path": "tests/knowledge/ui-search-contract.test.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "static_surface_scan",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    },
+    {
+      "path": "tests/knowledge/ui-search-input.test.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "static_surface_scan",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    },
+    {
+      "path": "tests/knowledge/ui-source-evidence.test.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "static_surface_scan",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    },
+    {
+      "path": "tests/knowledge/vertical-slice.test.mjs",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "targeted_static_review",
+          "depth": "Not run: report invokes actual builder."
+        }
+      ]
+    },
+    {
+      "path": "tests/test_kdic_publication.py",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "safe_tests_executed",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    },
+    {
+      "path": "tests/test_public_apis.py",
+      "owner": "pipeline",
+      "reviews": [
+        {
+          "report": "pipeline",
+          "status": "safe_tests_executed",
+          "depth": "Definitions/imports and I/O/execution surface scanned; not executed; detailed semantic correctness not established."
+        }
+      ]
+    }
+  ],
+  "detail_reports": [
+    "mcp-coverage.json",
+    "web-ci-coverage.json",
+    "pipeline-coverage.json",
+    "repository-coverage.json"
+  ],
+  "limits": "File inventory and stated static-review depth, not proof that all lines or vendor internals were fully audited"
+}

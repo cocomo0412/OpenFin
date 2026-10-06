@@ -2,6 +2,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { writeText, ROOT, DOCS, KNOWLEDGE, PUBLIC_BASE, RELATION_KEYS, json, writeJson, stable, sha256, publicProjection, restoreCompatibilityDates, validUrl, isoDate, candidateSetChecksum, qualitySuiteChecksum } from './common.mjs';
 import { deriveQuality, readCanonicalRecords, readReleasePolicy } from './derive-quality.mjs';
+import { transactionalEntry } from './refresh-transaction.mjs';
+await transactionalEntry(import.meta.url, { validate: ['scripts/knowledge/validate.mjs', 'scripts/knowledge/validate-rule-facts.mjs'] });
 
 const loadCanonical = () => {
   const records = [];
@@ -76,12 +78,11 @@ const artifactEntry = (id, domain, file, payload, itemCount, extra = {}) => ({id
 const writeCompact = (file, payload) => { fs.mkdirSync(path.dirname(file), {recursive:true}); writeText(file, JSON.stringify(payload) + '\n'); };
 const ONTOLOGY_SHARD_MAX_BYTES = 25 * 1024 * 1024;
 const ontologyShardFiles = new Set(fs.readdirSync(DOCS).filter(file => /^korea-.*-ontology-2026-shard-\d+\.json$/.test(file)));
-for (const file of ontologyShardFiles) fs.rmSync(path.join(DOCS, file));
-// Exact-fetch shard partitioning is generation-owned. Remove every prior
-// generated bucket before writing the current 512-bucket manifest so a rename
-// or partition-count change cannot leave unreferenced payloads in Pages.
+// Retire old shards only after every new artifact has been written.
+// Exact-fetch partitioning is generation-owned. Retire old buckets only after
+// the replacement manifest exists; a failed build remains recoverable.
 const exactFetchShardFiles = new Set(fs.readdirSync(DOCS).filter(file => /^finance-exact-fetch-index-2026-exact-[0-9a-f]+\.json$/.test(file)));
-for (const file of exactFetchShardFiles) fs.rmSync(path.join(DOCS, file));
+// The transaction restores the previous generation if validation later fails.
 const writeOntologyShards = (file, output) => {
   const entries = [
     ...output.items.map(item => ({ kind: 'items', item })),
@@ -1106,3 +1107,6 @@ if (fs.existsSync(path.join(DOCS, 'collection-inventory.json'))) {
   buildRefreshLedger();
 }
 console.log(JSON.stringify({exports:legacyFiles.length, rows:Object.values(generatedExports).reduce((n,x)=>n+x.items.length+(x.reference_items?.length||0),0), unique:catalog.length, reference_items:referenceItemCount, search_items:allSearchItems.length, sources:sourceRegistry.length, provenance_covered:covered, relationships:relations.length},null,2));
+
+const currentShardNames = new Set([...(manifest.exports || []).flatMap(output => (output.shards || []).map(entry => path.basename(entry.path))), ...exactFetchShardOutputs.map(entry => path.basename(entry.path))]);
+for (const file of [...ontologyShardFiles, ...exactFetchShardFiles]) if (!currentShardNames.has(file)) fs.rmSync(path.join(DOCS, file), { force: true });

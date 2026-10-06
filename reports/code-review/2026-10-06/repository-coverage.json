@@ -1,0 +1,363 @@
+{
+  "date": "2026-10-06",
+  "files": [
+    {
+      "path": ".env.example",
+      "bytes": 225,
+      "sha256": "36cedb0b91e3a73b1bb00a5b7a6b3e9718a85c40b3b2f22a1b9fc4d2ef60bdf5",
+      "classification": "private-environment-boundary-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 205,
+      "sha256": "2b334c5e5191c4961c877135839dca3b3af3f0bc465903e3d2e67931953aa6e6",
+      "classification": "private-environment-boundary-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "contracts/capability-policy.json",
+      "bytes": 1616,
+      "sha256": "e26e1bce709d614ba41143551107f19afffbe81a2d025fe6a44ce260a4c5b389",
+      "classification": "policy-boundary-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "contracts/capability-status.json",
+      "bytes": 309,
+      "sha256": "cbab5a7b29cd333191d9c66b12e85ce47da23369b05d996a03e08d9eccb07376",
+      "classification": "policy-boundary-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "contracts/data-baseline.json",
+      "bytes": 1227,
+      "sha256": "078757317f06c4d64f85126dcb2806a64679c44a3b3443949db0c01c8cd899d0",
+      "classification": "policy-boundary-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "contracts/decision-evidence-policy.json",
+      "bytes": 2544,
+      "sha256": "50cc9f7856db7c41d73980f8819c37bc70ef70d222de86354e6735696b516d14",
+      "classification": "policy-boundary-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "contracts/personal-finance-policy.json",
+      "bytes": 563,
+      "sha256": "649f95c5d89cd71f3450604c1db72d16d4e8f5a0b64db79f3f9155b1b9ef8ce2",
+      "classification": "policy-boundary-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "contracts/product-status.json",
+      "bytes": 300,
+      "sha256": "2d8e148b603f7998e8f699edd74d7235daad6e4c332538a3d3b5dc1bf9d921f8",
+      "classification": "policy-boundary-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "contracts/recommendation-facts.json",
+      "bytes": 4057,
+      "sha256": "5ca6a99b70c9768ef342978fc3bac3ff46cc485aaf166945c9654d42e3ba9f2c",
+      "classification": "policy-boundary-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "contracts/recommendation-state.json",
+      "bytes": 690,
+      "sha256": "81df4495471cebf3df82ee8d36e86e044871d31c6211a4f472c115a58c7b42e4",
+      "classification": "policy-boundary-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "contracts/release-policy.json",
+      "bytes": 5138,
+      "sha256": "19ddbfce7910ceb3c598af64d6076e50b7f44c2583d9848e5536fc10f5abdca5",
+      "classification": "policy-boundary-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "schemas/assertion.schema.json",
+      "bytes": 2102,
+      "sha256": "fe24af901a4f61b52f684aab50dd279f3d6da869c63f3fa361ee9c84446f1541",
+      "classification": "schema-structure-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "schemas/candidate-promotion-receipt.schema.json",
+      "bytes": 4248,
+      "sha256": "741b960c6b229713bbbf85ad463ce5353eabe6fca205a5859ab195d52d6b6549",
+      "classification": "schema-structure-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "schemas/capability-status.schema.json",
+      "bytes": 814,
+      "sha256": "1356a9e079e03cf445871863257b6a1a0753955ef3091a415242b81220d4ce8f",
+      "classification": "schema-structure-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "schemas/decision-trace.schema.json",
+      "bytes": 1228,
+      "sha256": "3e0cab7e0ae46d05139286cf3844ba7aed160b39ba16e51dae2d2633df1919c5",
+      "classification": "schema-structure-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "schemas/entity.schema.json",
+      "bytes": 4778,
+      "sha256": "6c8be479bb0e2a7edf5232e6fb9e32e87760b79360db0f7d19a71a946e2891ef",
+      "classification": "schema-structure-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "schemas/finance-ontology-manifest.schema.json",
+      "bytes": 10295,
+      "sha256": "ee4027fa207cc2a91105e03a54e13a052202fab21b24592c75b1b146804865ed",
+      "classification": "schema-structure-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "schemas/financial-quality-approval-receipt.schema.json",
+      "bytes": 1919,
+      "sha256": "6de1451526d280e120a1f2ecba2b8a304776337763abbbdba5d0e79b0b684e0b",
+      "classification": "schema-structure-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "schemas/live-regression.schema.json",
+      "bytes": 1714,
+      "sha256": "e3f4ae6773108ed00e066c1b2b03faaa9a7a88a8752d5c4594f1b804f925f5f4",
+      "classification": "schema-structure-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "schemas/manifest.schema.json",
+      "bytes": 2249,
+      "sha256": "c669e1c701c9ee348373ff526ad777665fc7f53e4daf10f6744357a9fb20bdf6",
+      "classification": "schema-structure-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "schemas/mcp-tools/compare-v2.schema.json",
+      "bytes": 1786,
+      "sha256": "2e5b5aca6d4693baf67766ff3c4c20b948a64598f0ac96ecb419b12dde47d2e9",
+      "classification": "schema-structure-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "schemas/mcp-tools/recommend-v2.schema.json",
+      "bytes": 7083,
+      "sha256": "7899e9e4ed45d1f0f5753f59339e777ceb9b039c32f5d0c802152b92b0a0ed4d",
+      "classification": "schema-structure-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "schemas/mcp-tools/schema-hashes.json",
+      "bytes": 185,
+      "sha256": "6f01d5b57e24c49eeebd2aa3e994e26d350526439cd6831d1ecdd96e757a0e29",
+      "classification": "schema-structure-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "schemas/mcp-tools/search-result.schema.json",
+      "bytes": 1049,
+      "sha256": "fc0c7963baa8501025b51f75021212a2c40fcb6a39f7a7489b542a996b58ab57",
+      "classification": "schema-structure-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "schemas/provenance.schema.json",
+      "bytes": 1421,
+      "sha256": "66eecf04dea5f44387b1d4b989bc5f9b20571bd029e35f4942d3796992f8c776",
+      "classification": "schema-structure-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "schemas/recommendation-approval-receipt.schema.json",
+      "bytes": 1869,
+      "sha256": "bd37fd52e7814107ca8b1fadce0d0d40459b2be35f38c158b8debdaf102f5366",
+      "classification": "schema-structure-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "schemas/recommendation-context.schema.json",
+      "bytes": 3263,
+      "sha256": "1dd3b92b0c61004bc5f890ebeb2f1b00bf5ddda5cd50225143df75f73699dfcd",
+      "classification": "schema-structure-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "schemas/recommendation-request.schema.json",
+      "bytes": 1532,
+      "sha256": "62d3c3615e10a82f6c3faa2ebf8607137109b69f6ed63dbe88ef1022d9b4f7f5",
+      "classification": "schema-structure-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "schemas/relation.schema.json",
+      "bytes": 584,
+      "sha256": "cbb48b7515e305bf7d336afea073a9529ae36a95e8cbd954730b367b173de278",
+      "classification": "schema-structure-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "schemas/schema-validation-receipt.schema.json",
+      "bytes": 779,
+      "sha256": "cc0e6b4000aafe87d1326fc8a4feeb76827f9ff2a6e032909d491a854fe56357",
+      "classification": "schema-structure-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "schemas/source-review-receipt.schema.json",
+      "bytes": 2046,
+      "sha256": "8b318148d5d511b9e3420f505058a3f5c8762fed912947ea4424b0f46d149599",
+      "classification": "schema-structure-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "schemas/source.schema.json",
+      "bytes": 2923,
+      "sha256": "7d9ce49f4abadadb5859ab3632c1d52fc4cd431c79a97e083493e381e0cf500f",
+      "classification": "schema-structure-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "schemas/types/bank-product.schema.json",
+      "bytes": 3132,
+      "sha256": "19169867abbc0f789ea355301ea2c5a0dd9671eec93920908ef0a84062670f1b",
+      "classification": "schema-structure-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "schemas/types/bonus-rate-rule.schema.json",
+      "bytes": 1986,
+      "sha256": "6ffe7c6e5c3a759176d6cb1accc7f0a0e5a417a92c49091dc92c6b66f9456e9e",
+      "classification": "schema-structure-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "schemas/types/card-product.schema.json",
+      "bytes": 1541,
+      "sha256": "38af43328ac44aef6961ff118e3b6cda51a88bb51c54826ab1a61b2f0bdd52a9",
+      "classification": "schema-structure-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "schemas/types/card.schema.json",
+      "bytes": 233,
+      "sha256": "20c7cd53701c14ea98d8c1ce08a200e7814743d9bbc6838df46004e2428d474f",
+      "classification": "schema-structure-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "schemas/types/deposit-offer.schema.json",
+      "bytes": 455,
+      "sha256": "1b69079fc018dcab530c483378620ae707aeded54613f300ac734ac64f9d023d",
+      "classification": "schema-structure-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "schemas/types/deposit.schema.json",
+      "bytes": 467,
+      "sha256": "31967ab0ef0a15ccdd07dc0c6832df543854bf853b7e52b97cc91d6b3a3e04c5",
+      "classification": "schema-structure-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "schemas/types/early-termination-rule.schema.json",
+      "bytes": 3102,
+      "sha256": "52841ed23e62154541a8da9c3aa2985bb5edde98b341eaa06557fe9c9c4f60f8",
+      "classification": "schema-structure-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "schemas/types/eligibility-rule.schema.json",
+      "bytes": 2039,
+      "sha256": "91394cacca25edb7c39175bb334e768937340bd036a25e1814040acaa3f89161",
+      "classification": "schema-structure-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "schemas/types/financial-offer.schema.json",
+      "bytes": 2556,
+      "sha256": "de637bcb6114f4b09342ecb39e24335dcbd16d9077149a8831ee1e8af5fb04d3",
+      "classification": "schema-structure-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "schemas/types/insurance-product.schema.json",
+      "bytes": 1690,
+      "sha256": "1c058f479f9eb7a296669916ba49979b9fb68764e5aee2c5c52faf5c413c6e15",
+      "classification": "schema-structure-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "schemas/types/insurance.schema.json",
+      "bytes": 248,
+      "sha256": "1f91c8d6dfa41ea32396e66875197dc3ef202e38d405c5df24c7b768e816b743",
+      "classification": "schema-structure-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "schemas/types/loan.schema.json",
+      "bytes": 1921,
+      "sha256": "e3f9a1a31083ec16186139c40274d72e52a0f85459a6785ab5dd102d98fb35bc",
+      "classification": "schema-structure-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "schemas/types/offer-option.schema.json",
+      "bytes": 3162,
+      "sha256": "5b0067317a4629f161bfdcdc11d859ef14781e9ed54de210ab9e9c25137175da",
+      "classification": "schema-structure-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "schemas/types/product-offer.schema.json",
+      "bytes": 753,
+      "sha256": "d039fa0160cadfc6c1514aae8a7bdad9ad56bb672404e10f3181466f167493f2",
+      "classification": "schema-structure-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "schemas/types/saving-offer.schema.json",
+      "bytes": 478,
+      "sha256": "065c4aaa5783df7175619e9e399060ef0707cfcd193113bcba62bc2226243683",
+      "classification": "schema-structure-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "schemas/types/saving.schema.json",
+      "bytes": 489,
+      "sha256": "f59788715782d43540b3eb6fcacd4055e1568c2546e06ce68bc94ba0b6f7690b",
+      "classification": "schema-structure-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "schemas/types/support-program.schema.json",
+      "bytes": 775,
+      "sha256": "6e583e518afa6f3f169b7c5e4f6c473ce60d95f2989a5dc35742afc5746c1f55",
+      "classification": "schema-structure-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "schemas/types/type-registry.json",
+      "bytes": 1384,
+      "sha256": "d4448fb783ae662ebb1df48643bef134fbc540dd5a80493d0201df4c919ca960",
+      "classification": "schema-structure-reviewed",
+      "limitations": "Static structure and key boundary checks, not full semantic proof"
+    },
+    {
+      "path": "reports/improvements/2026-10-06/evidence/qa-reproduce.mjs",
+      "owner": "historical-evidence",
+      "bytes": 8283,
+      "sha256": "5cb8fe7be18c67d639ae75c803a96f7df53ae3b1b60f9b2dabb819ebbfb783b4",
+      "classification": "read-only-historical-evidence-reviewed",
+      "limitations": "Historical fixture not re-executed"
+    }
+  ]
+}

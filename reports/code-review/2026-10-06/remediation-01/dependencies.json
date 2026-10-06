@@ -1,0 +1,177 @@
+{
+  "date": "2026-10-06",
+  "method": "npm audit fix --package-lock-only --ignore-scripts; npm ci --ignore-scripts; lock audit",
+  "force": false,
+  "entries": [
+    {
+      "directory": ".",
+      "audit_exit": 0,
+      "metadata": {
+        "vulnerabilities": {
+          "info": 0,
+          "low": 0,
+          "moderate": 0,
+          "high": 0,
+          "critical": 0,
+          "total": 0
+        },
+        "dependencies": {
+          "prod": 1,
+          "dev": 6,
+          "optional": 0,
+          "peer": 0,
+          "peerOptional": 0,
+          "total": 6
+        }
+      },
+      "changes": [
+        {
+          "path": "node_modules/fast-uri",
+          "from": "3.1.6",
+          "to": "3.1.8",
+          "installed_version": "3.1.8",
+          "optional_platform": null
+        }
+      ]
+    },
+    {
+      "directory": "mcp",
+      "audit_exit": 0,
+      "metadata": {
+        "vulnerabilities": {
+          "info": 0,
+          "low": 0,
+          "moderate": 0,
+          "high": 0,
+          "critical": 0,
+          "total": 0
+        },
+        "dependencies": {
+          "prod": 150,
+          "dev": 89,
+          "optional": 80,
+          "peer": 52,
+          "peerOptional": 0,
+          "total": 291
+        }
+      },
+      "changes": [
+        {
+          "path": "node_modules/@cloudflare/unenv-preset",
+          "from": "2.16.1",
+          "to": "2.16.2",
+          "installed_version": "2.16.2",
+          "optional_platform": null
+        },
+        {
+          "path": "node_modules/@cloudflare/workerd-darwin-64",
+          "from": "1.20260911.1",
+          "to": "1.20261001.1",
+          "installed_version": null,
+          "optional_platform": [
+            "darwin"
+          ]
+        },
+        {
+          "path": "node_modules/@cloudflare/workerd-darwin-arm64",
+          "from": "1.20260911.1",
+          "to": "1.20261001.1",
+          "installed_version": null,
+          "optional_platform": [
+            "darwin"
+          ]
+        },
+        {
+          "path": "node_modules/@cloudflare/workerd-linux-64",
+          "from": "1.20260911.1",
+          "to": "1.20261001.1",
+          "installed_version": null,
+          "optional_platform": [
+            "linux"
+          ]
+        },
+        {
+          "path": "node_modules/@cloudflare/workerd-linux-arm64",
+          "from": "1.20260911.1",
+          "to": "1.20261001.1",
+          "installed_version": null,
+          "optional_platform": [
+            "linux"
+          ]
+        },
+        {
+          "path": "node_modules/@cloudflare/workerd-windows-64",
+          "from": "1.20260911.1",
+          "to": "1.20261001.1",
+          "installed_version": "1.20261001.1",
+          "optional_platform": [
+            "win32"
+          ]
+        },
+        {
+          "path": "node_modules/@cloudflare/workers-types",
+          "from": "5.20260911.1",
+          "to": "5.20261006.1",
+          "installed_version": "5.20261006.1",
+          "optional_platform": null
+        },
+        {
+          "path": "node_modules/fast-uri",
+          "from": "3.1.6",
+          "to": "3.1.8",
+          "installed_version": "3.1.8",
+          "optional_platform": null
+        },
+        {
+          "path": "node_modules/hono",
+          "from": "4.13.5",
+          "to": "4.13.13",
+          "installed_version": "4.13.13",
+          "optional_platform": null
+        },
+        {
+          "path": "node_modules/ip-address",
+          "from": "10.7.0",
+          "to": "10.7.3",
+          "installed_version": "10.7.3",
+          "optional_platform": null
+        },
+        {
+          "path": "node_modules/miniflare",
+          "from": "5.20260911.0-alpha",
+          "to": "5.20261001.0-alpha",
+          "installed_version": "5.20261001.0-alpha",
+          "optional_platform": null
+        },
+        {
+          "path": "node_modules/proxy-addr",
+          "from": "2.0.7",
+          "to": "2.0.8",
+          "installed_version": "2.0.8",
+          "optional_platform": null
+        },
+        {
+          "path": "node_modules/undici",
+          "from": "7.29.0",
+          "to": "7.29.1",
+          "installed_version": "7.29.1",
+          "optional_platform": null
+        },
+        {
+          "path": "node_modules/workerd",
+          "from": "1.20260911.1",
+          "to": "1.20261001.1",
+          "installed_version": "1.20261001.1",
+          "optional_platform": null
+        },
+        {
+          "path": "node_modules/wrangler",
+          "from": "4.131.1",
+          "to": "4.147.0",
+          "installed_version": "4.147.0",
+          "optional_platform": null
+        }
+      ]
+    }
+  ]
+}

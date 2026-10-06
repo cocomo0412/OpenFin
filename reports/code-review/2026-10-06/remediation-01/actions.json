@@ -1,0 +1,95 @@
+{
+  "date_kst": "2026-10-06",
+  "baseline": "1e6d7f025e0decede75c82495a9ab9854ba536da",
+  "items": [
+    {
+      "id": "SEC-01",
+      "status": "implemented_and_locally_verified",
+      "summary": "Dependencies patched and audit clean",
+      "independent_review": "independent-mcp.md",
+      "production_deployed": false
+    },
+    {
+      "id": "SEC-02",
+      "status": "implemented_and_locally_verified",
+      "summary": "Stable totals and unique Finlife identities",
+      "independent_review": "independent-pipeline.md",
+      "production_deployed": false
+    },
+    {
+      "id": "SEC-03",
+      "status": "implemented_and_locally_verified",
+      "summary": "ECOS identity, range and completeness gates",
+      "independent_review": "independent-pipeline.md",
+      "production_deployed": false
+    },
+    {
+      "id": "SEC-04",
+      "status": "implemented_and_locally_verified",
+      "summary": "Protected build/refresh rollback and interruption guards",
+      "independent_review": "independent-pipeline.md",
+      "production_deployed": false
+    },
+    {
+      "id": "SEC-05",
+      "status": "implemented_and_locally_verified",
+      "summary": "HTTP(S) only legacy source links",
+      "independent_review": "independent-web-ci.md",
+      "production_deployed": false
+    },
+    {
+      "id": "SEC-06",
+      "status": "implemented_and_locally_verified",
+      "summary": "Header and body share deadline",
+      "independent_review": "independent-pipeline.md",
+      "production_deployed": false
+    },
+    {
+      "id": "SEC-07",
+      "status": "implemented_and_locally_verified",
+      "summary": "Current source UI semantic assertions",
+      "independent_review": "independent-web-ci.md",
+      "production_deployed": false
+    },
+    {
+      "id": "SEC-08",
+      "status": "implemented_and_locally_verified",
+      "summary": "Environment boundary and input formats",
+      "independent_review": "independent-web-ci.md",
+      "production_deployed": false
+    },
+    {
+      "id": "SEC-09",
+      "status": "implemented_and_locally_verified",
+      "summary": "Pilot constraints and decision context preserved",
+      "independent_review": "independent-mcp.md",
+      "production_deployed": false
+    },
+    {
+      "id": "SEC-10",
+      "status": "implemented_and_locally_verified",
+      "summary": "No arbitrary diagnostic plaintext; server opt-in",
+      "independent_review": "independent-mcp.md",
+      "production_deployed": false
+    },
+    {
+      "id": "SEC-11",
+      "status": "implemented_and_locally_verified",
+      "summary": "Shared atomic replay backend with fail-closed absence",
+      "independent_review": "independent-mcp.md",
+      "production_deployed": false
+    },
+    {
+      "id": "SEC-12",
+      "status": "implemented_and_locally_verified",
+      "summary": "Unknown metrics stay null and explicit zeros preserved",
+      "independent_review": "independent-mcp.md",
+      "production_deployed": false
+    }
+  ],
+  "deployment": {
+    "website": "required_pending",
+    "mcp": "required_pending"
+  },
+  "manual_version": "1.4.0"
+}

@@ -50,6 +50,32 @@ jobs:
           node-version: 22
           cache: npm
           cache-dependency-path: mcp/package-lock.json
+      - name: Validate staging input formats before network checks
+        run: |
+          node <<'NODE'
+          const rules = {
+            EXPECTED_DEPLOYMENT_COMMIT: /^[a-f0-9]{40}$/i,
+            EXPECTED_GENERATION_ID: /^[a-f0-9]{64}$/i,
+            EXPECTED_CANDIDATE_SET_CHECKSUM: /^[a-f0-9]{64}$/i,
+            EXPECTED_POLICY_VERSION: /^[A-Za-z0-9][A-Za-z0-9._:+-]{0,127}$/,
+            EXPECTED_RANKING_VERSION: /^[A-Za-z0-9][A-Za-z0-9._:+-]{0,127}$/,
+            EXPECTED_CALCULATOR_VERSION: /^[A-Za-z0-9][A-Za-z0-9._:+-]{0,127}$/,
+          };
+          for (const [name, rule] of Object.entries(rules)) {
+            const value = process.env[name] || '';
+            if (value !== value.trim() || !rule.test(value)) {
+              console.error(`Invalid staging input format: ${name}`);
+              process.exitCode = 1;
+            }
+          }
+          NODE
+        env:
+          EXPECTED_DEPLOYMENT_COMMIT: ${{ inputs.expected_commit }}
+          EXPECTED_GENERATION_ID: ${{ inputs.expected_generation }}
+          EXPECTED_CANDIDATE_SET_CHECKSUM: ${{ inputs.expected_candidate_set_checksum }}
+          EXPECTED_POLICY_VERSION: ${{ inputs.expected_policy_version }}
+          EXPECTED_RANKING_VERSION: ${{ inputs.expected_ranking_version }}
+          EXPECTED_CALCULATOR_VERSION: ${{ inputs.expected_calculator_version }}
       - run: npm ci
       - name: Require every positive fixture to pass
         run: npm --silent run financial-quality-live > ../financial-quality-staging-report.json
@@ -70,12 +96,20 @@ jobs:
           test "$(jq -r '.live_status' financial-quality-staging-report.json)" = current
           test "$(jq '.live_blocked_cases | length' financial-quality-staging-report.json)" = 0
           test "$(jq '.live_positive_cases | length' financial-quality-staging-report.json)" = "$(jq -r '.positive_fixture_count' financial-quality-staging-report.json)"
-          test "$(jq -r '.runtime_contract.deployment_commit' financial-quality-staging-report.json)" = "${{ inputs.expected_commit }}"
-          test "$(jq -r '.runtime_contract.generation_id' financial-quality-staging-report.json)" = "${{ inputs.expected_generation }}"
-          test "$(jq -r '.runtime_contract.candidate_set_checksum' financial-quality-staging-report.json)" = "${{ inputs.expected_candidate_set_checksum }}"
-          test "$(jq -r '.runtime_contract.policy_version' financial-quality-staging-report.json)" = "${{ inputs.expected_policy_version }}"
-          test "$(jq -r '.runtime_contract.ranking_version' financial-quality-staging-report.json)" = "${{ inputs.expected_ranking_version }}"
-          test "$(jq -r '.runtime_contract.calculator_version' financial-quality-staging-report.json)" = "${{ inputs.expected_calculator_version }}"
+          test "$(jq -r '.runtime_contract.deployment_commit' financial-quality-staging-report.json)" = "${EXPECTED_DEPLOYMENT_COMMIT}"
+          test "$(jq -r '.runtime_contract.generation_id' financial-quality-staging-report.json)" = "${EXPECTED_GENERATION_ID}"
+          test "$(jq -r '.runtime_contract.candidate_set_checksum' financial-quality-staging-report.json)" = "${EXPECTED_CANDIDATE_SET_CHECKSUM}"
+          test "$(jq -r '.runtime_contract.policy_version' financial-quality-staging-report.json)" = "${EXPECTED_POLICY_VERSION}"
+          test "$(jq -r '.runtime_contract.ranking_version' financial-quality-staging-report.json)" = "${EXPECTED_RANKING_VERSION}"
+          test "$(jq -r '.runtime_contract.calculator_version' financial-quality-staging-report.json)" = "${EXPECTED_CALCULATOR_VERSION}"
+        env:
+          EXPECTED_DEPLOYMENT_COMMIT: ${{ inputs.expected_commit }}
+          EXPECTED_GENERATION_ID: ${{ inputs.expected_generation }}
+          EXPECTED_CANDIDATE_SET_CHECKSUM: ${{ inputs.expected_candidate_set_checksum }}
+          EXPECTED_POLICY_VERSION: ${{ inputs.expected_policy_version }}
+          EXPECTED_RANKING_VERSION: ${{ inputs.expected_ranking_version }}
+          EXPECTED_CALCULATOR_VERSION: ${{ inputs.expected_calculator_version }}
+
       - uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5
         if: always()
         with:

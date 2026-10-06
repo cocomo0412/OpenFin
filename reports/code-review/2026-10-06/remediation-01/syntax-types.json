@@ -1,0 +1,80 @@
+{
+  "checks": [
+    {
+      "path": "docs/opentax/app.js",
+      "exit_code": 0
+    },
+    {
+      "path": "scripts/knowledge/api-pagination.mjs",
+      "exit_code": 0
+    },
+    {
+      "path": "scripts/knowledge/build.mjs",
+      "exit_code": 0
+    },
+    {
+      "path": "scripts/knowledge/collect-finlife-candidates.mjs",
+      "exit_code": 0
+    },
+    {
+      "path": "scripts/knowledge/common.mjs",
+      "exit_code": 0
+    },
+    {
+      "path": "scripts/knowledge/integrate-current-data.mjs",
+      "exit_code": 0
+    },
+    {
+      "path": "scripts/knowledge/refresh-all.mjs",
+      "exit_code": 0
+    },
+    {
+      "path": "scripts/knowledge/track-sources.mjs",
+      "exit_code": 0
+    },
+    {
+      "path": "scripts/knowledge/validate-decision-receipts.mjs",
+      "exit_code": 0
+    },
+    {
+      "path": "tests/knowledge/api-pagination.test.mjs",
+      "exit_code": 0
+    },
+    {
+      "path": "tests/knowledge/ui-source-evidence.test.mjs",
+      "exit_code": 0
+    },
+    {
+      "path": "scripts/knowledge/build-validated.mjs",
+      "exit_code": 0
+    },
+    {
+      "path": "scripts/knowledge/refresh-transaction.mjs",
+      "exit_code": 0
+    },
+    {
+      "path": "scripts/knowledge/source-http.mjs",
+      "exit_code": 0
+    },
+    {
+      "path": "tests/knowledge/legacy-source-url.test.mjs",
+      "exit_code": 0
+    },
+    {
+      "path": "tests/knowledge/refresh-transaction.test.mjs",
+      "exit_code": 0
+    },
+    {
+      "path": "tests/knowledge/source-http.test.mjs",
+      "exit_code": 0
+    },
+    {
+      "path": "tests/knowledge/workflow-input-security.test.mjs",
+      "exit_code": 0
+    }
+  ],
+  "typecheck": {
+    "exit_code": 0,
+    "output": ""
+  }
+}
