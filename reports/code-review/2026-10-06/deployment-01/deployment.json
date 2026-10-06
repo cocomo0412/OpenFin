@@ -1,0 +1,320 @@
+{
+  "verified_at": "2026-10-06T09:55:20.541Z",
+  "commit": "3e225a1bad283d7898681cec88a47bcbe1e6f4c1",
+  "remote_main": "3e225a1bad283d7898681cec88a47bcbe1e6f4c1",
+  "website": {
+    "deployed": true,
+    "reason": "SEC-05 legacy source-link output protection",
+    "live_files": [
+      {
+        "path": "docs/index.html",
+        "url": "https://cocomo0412.github.io/OpenFin/index.html",
+        "status": 200,
+        "sha256": "e94fc122230d281d07ec14b4c17f0b6ac97a07aba2ef096a683be0699fcad194",
+        "matches_committed_blob": true
+      },
+      {
+        "path": "docs/opentax/app.js",
+        "url": "https://cocomo0412.github.io/OpenFin/opentax/app.js",
+        "status": 200,
+        "sha256": "0e5e6b845fee4db623db0a283a7fed529e765485ccc31301344482ab0b23087a",
+        "matches_committed_blob": true
+      }
+    ]
+  },
+  "mcp": {
+    "deployed": true,
+    "edition": "free",
+    "endpoint": "https://openfin.cocomo0412.workers.dev/mcp",
+    "reason": "SEC-01 production bundle dependencies updated",
+    "health": {
+      "status": "ready",
+      "edition": "free-tax-pilot",
+      "domain": "tax",
+      "item_count": 399,
+      "basis_date": "2026-05-04",
+      "source_version": "KR-TAX-OBSIDIAN-ONTOLOGY-2026.05.05.1",
+      "source_sha256": "51a05580a8cc6e841c9ec8904729a518be114757e2adf8316700b22e738cc1a9",
+      "freshness": "not_revalidated",
+      "comparison_enabled": false,
+      "recommendation_enabled": false,
+      "full_website": "https://cocomo0412.github.io/OpenFin/",
+      "limitations": "세금·공제 스냅샷 검색·조회 전용. 금융상품 비교·추천 및 실시간 갱신은 제공하지 않습니다. 적용 전 공식 출처를 확인하세요.",
+      "answer_guidance": {
+        "evidence": "OpenFin에 정리된 공식기관 자료와 항목별 원문 출처를 답변의 근거로 사용합니다. 공식 API 수집 근거가 없는 항목을 API 조회 결과라고 표현하지 않습니다.",
+        "date_scope": "basis_date는 보관 카탈로그의 기준일이며, 모든 제도의 현재 적용일이나 유효기간이 아닙니다. source_basis_dates는 항목별 원자료 날짜입니다. not_revalidated는 이 도구가 현재 적용 조건을 재검증했다는 증거를 제공하지 않는다는 의미이며, 자료 전체가 부정확하거나 만료되었다는 판정이 아닙니다.",
+        "presentation": "질문에 대한 설명과 출처를 먼저 제공합니다. 사용자가 자료 기준일·검증 여부를 묻지 않았다면 카탈로그 전체 날짜와 자체 미재검증 상태를 정형적인 머리말·꼬리말로 덧붙이지 않습니다. 대신 답변에 필요한 특정 조건의 미확인 여부나 출처 간 차이만 구체적으로 밝힙니다.",
+        "official_follow_up": "현재 금액·한도·기한·자격은 필요한 공식 원문을 추가 확인합니다. 실제로 확인했을 때만 ‘OpenFin에 정리된 공식 자료를 바탕으로 안내드리며, 현재 적용 조건은 해당 기관의 최신 안내도 함께 확인했습니다’라고 설명할 수 있습니다. 확인하지 않았다면 확인했다고 말하지 않으며, 현재 조건을 단정하지 않습니다."
+      },
+      "mcp_endpoint": "/mcp",
+      "authentication": "none"
+    },
+    "smoke": {
+      "status": "passed",
+      "endpoint": "https://openfin.cocomo0412.workers.dev/mcp",
+      "tools": [
+        "search",
+        "fetch",
+        "exports"
+      ],
+      "records": 399,
+      "search": 3
+    },
+    "source_sha256": "51a05580a8cc6e841c9ec8904729a518be114757e2adf8316700b22e738cc1a9",
+    "source_checksum_basis": "Exact Git blob bytes used by Linux deployment; Windows CRLF working copy not used"
+  },
+  "runs": [
+    {
+      "name": "pages build and deployment",
+      "id": 37446057421,
+      "url": "https://github.com/cocomo0412/OpenFin/actions/runs/37446057421",
+      "head_sha": "3e225a1bad283d7898681cec88a47bcbe1e6f4c1",
+      "conclusion": "success",
+      "jobs": [
+        {
+          "name": "build",
+          "conclusion": "success",
+          "steps": [
+            {
+              "name": "Set up job",
+              "conclusion": "success"
+            },
+            {
+              "name": "Pull ghcr.io/actions/jekyll-build-pages:v1.0.13",
+              "conclusion": "success"
+            },
+            {
+              "name": "Checkout",
+              "conclusion": "success"
+            },
+            {
+              "name": "Build with Jekyll",
+              "conclusion": "success"
+            },
+            {
+              "name": "Upload artifact",
+              "conclusion": "success"
+            },
+            {
+              "name": "Post Checkout",
+              "conclusion": "success"
+            },
+            {
+              "name": "Complete job",
+              "conclusion": "success"
+            }
+          ]
+        },
+        {
+          "name": "report-build-status",
+          "conclusion": "success",
+          "steps": [
+            {
+              "name": "Set up job",
+              "conclusion": "success"
+            },
+            {
+              "name": "Report Build Status",
+              "conclusion": "success"
+            },
+            {
+              "name": "Complete job",
+              "conclusion": "success"
+            }
+          ]
+        },
+        {
+          "name": "deploy",
+          "conclusion": "success",
+          "steps": [
+            {
+              "name": "Set up job",
+              "conclusion": "success"
+            },
+            {
+              "name": "Deploy to GitHub Pages",
+              "conclusion": "success"
+            },
+            {
+              "name": "Complete job",
+              "conclusion": "success"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OpenFin MCP pipeline",
+      "id": 37446058959,
+      "url": "https://github.com/cocomo0412/OpenFin/actions/runs/37446058959",
+      "head_sha": "3e225a1bad283d7898681cec88a47bcbe1e6f4c1",
+      "conclusion": "success",
+      "jobs": [
+        {
+          "name": "validate",
+          "conclusion": "success",
+          "steps": [
+            {
+              "name": "Set up job",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run npm ci",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run npm run build:free",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run npm run typecheck",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run node --experimental-strip-types --test tests/free-catalog.test.mjs",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run node --test tests/deploy-free.test.mjs",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run node --test tests/deploy-scope.test.mjs",
+              "conclusion": "success"
+            },
+            {
+              "name": "Validate production bundle without deploying",
+              "conclusion": "success"
+            },
+            {
+              "name": "Post Run actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444",
+              "conclusion": "success"
+            },
+            {
+              "name": "Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+              "conclusion": "success"
+            },
+            {
+              "name": "Complete job",
+              "conclusion": "success"
+            }
+          ]
+        },
+        {
+          "name": "deploy",
+          "conclusion": "success",
+          "steps": [
+            {
+              "name": "Set up job",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run npm ci",
+              "conclusion": "success"
+            },
+            {
+              "name": "Require the production deployment credential",
+              "conclusion": "success"
+            },
+            {
+              "name": "Refuse deployment if main has newer MCP inputs",
+              "conclusion": "success"
+            },
+            {
+              "name": "Build the production upload bundle",
+              "conclusion": "success"
+            },
+            {
+              "name": "Deploy to the existing Worker without changing routes",
+              "conclusion": "success"
+            },
+            {
+              "name": "Check the deployed MCP with the official SDK",
+              "conclusion": "success"
+            },
+            {
+              "name": "Post Run actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444",
+              "conclusion": "success"
+            },
+            {
+              "name": "Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+              "conclusion": "success"
+            },
+            {
+              "name": "Complete job",
+              "conclusion": "success"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OpenFin search quality",
+      "id": 37446059092,
+      "url": "https://github.com/cocomo0412/OpenFin/actions/runs/37446059092",
+      "head_sha": "3e225a1bad283d7898681cec88a47bcbe1e6f4c1",
+      "conclusion": "success",
+      "jobs": [
+        {
+          "name": "search-regressions",
+          "conclusion": "success",
+          "steps": [
+            {
+              "name": "Set up job",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444",
+              "conclusion": "success"
+            },
+            {
+              "name": "Check explorer syntax",
+              "conclusion": "success"
+            },
+            {
+              "name": "Check search behavior and input recovery",
+              "conclusion": "success"
+            },
+            {
+              "name": "Post Run actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444",
+              "conclusion": "success"
+            },
+            {
+              "name": "Post Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09",
+              "conclusion": "success"
+            },
+            {
+              "name": "Complete job",
+              "conclusion": "success"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "boundaries": [
+    "Financial data and collection dates unchanged",
+    "Full edition and disabled release/staging jobs remain inactive",
+    "SEC-11 full-edition binding/migration and live validation required before future activation"
+  ]
+}

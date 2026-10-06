@@ -1,0 +1,21 @@
+{
+  "created_at": "2026-10-06T09:56:06.610Z",
+  "files": [
+    {
+      "file": "README.md",
+      "sha256": "a8efbaba7371b7daacbb0642327860acfb631a625b936dddebcfa64da1996c34"
+    },
+    {
+      "file": "deployment.json",
+      "sha256": "38ce3aec7474b3a71a687a708f6b026c944e0953b2d86938044ba5091f8b51bf"
+    },
+    {
+      "file": "live-mcp-smoke.log",
+      "sha256": "6a377304aa7862c0aa38eadd0eb9f2cdca2eeda530336be8f75406fbeb083304"
+    },
+    {
+      "file": "verify.mjs",
+      "sha256": "66b5f8f3bf44adaadcd3a3ec65269915049139452cb8dd775dd467e0a2f8083c"
+    }
+  ]
+}
