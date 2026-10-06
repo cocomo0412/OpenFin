@@ -2,6 +2,8 @@
 
 ## 개발과 운영 매뉴얼
 
+자료 구축과 갱신은 공식 API 요청을 원칙으로 합니다. API 오류나 미제공 자료를 웹 수집으로 자동 대체하지 않습니다.
+
 - [개발 매뉴얼](handbook/development.md): 환경 준비, 데이터 계약, 검사, 리뷰와 배포
 - [운영 매뉴얼](handbook/operations.md): 화·금 오전 9시 한국시간 정기 갱신 기준, 실패 처리, 서비스 반영과 복구
 
@@ -40,12 +42,11 @@ npm run knowledge:build
 npm run knowledge:schema-validate
 npm run knowledge:validate
 npm run knowledge:derive-quality:check
-npm run knowledge:track-sources -- --dry-run --report-dir .reports/source-tracking
 npm test
 cd mcp && npm run test:mutation
 ```
 
-`knowledge:track-sources`는 기본적으로 읽기 전용입니다. 로컬 상태·영수증을 저장하려면 `npm run knowledge:track-sources:write`를 명시적으로 사용합니다. 사람이 검토하기 전에는 원본 지식이나 추천 설정을 자동 변경하지 않습니다.
+`knowledge:track-sources`는 API와 웹 출처를 함께 점검하는 기존 도구로 보존하지만 기본 정기 절차에서는 제외합니다. 검증된 공식 API 대상에 한정하거나 사용자가 별도로 명시한 예외 범위에서만 사용합니다. 기본 모드도 외부 요청을 수행하며, 쓰기 모드는 상태·확인 이력을 변경합니다. 상세 범위는 [운영 매뉴얼](handbook/operations.md)을 따릅니다.
 
 인증형 공식 API는 로컬 `.env`와 GitHub Actions secret의 `FINLIFE_API_KEY`, `DATA_GO_KR_SERVICE_KEY`를 사용합니다. 키가 없으면 해당 출처는 `secret-required`로 남고, 키 값은 URL·상태·영수증에 저장되지 않습니다.
 
