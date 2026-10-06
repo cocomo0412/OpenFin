@@ -87,7 +87,9 @@ const state = {
   provenanceShards: new Map(),
   provenanceShardInflight: new Map(),
   provenanceSelectionToken: 0,
-  currentDomain: "tax",
+  currentDomain: "all",
+  visibleLimit: MAX_RESULTS,
+  resultKey: "",
   items: [],
   loadedDomains: new Map(),
   itemIndex: new Map(),
@@ -131,7 +133,7 @@ async function init() {
     } else if (paramDomain && findExport(paramDomain)) {
       await loadDomain(paramDomain);
     } else if (hasExplorer) {
-      setResultSummary("도메인을 선택하거나 검색어를 입력하세요.");
+      setResultSummary("분야를 선택하거나 검색어를 입력하세요.");
       if (normalize(document.querySelector("[data-search]")?.value || "")) await renderSearchInput();
     }
   } catch (error) {
@@ -207,7 +209,8 @@ function bindStaticControls() {
     window.clearTimeout(state.searchTimer);
     state.searchTimer = window.setTimeout(renderSearchInput, SEARCH_DEBOUNCE_MS);
   });
-  document.querySelector("[data-type-filter]")?.addEventListener("change", renderResults);
+  document.querySelector("[data-type-filter]")?.addEventListener("change", () => renderResults());
+  document.querySelector("[data-load-more]")?.addEventListener("click", showMoreResults);
 
   document.querySelectorAll("[data-domain]").forEach((node) => {
     node.addEventListener("click", async (event) => {
@@ -343,7 +346,7 @@ function collectionMetaForEntry(entry, manifest) {
 function renderLoadingTabs() {
   const tabs = document.querySelector("[data-domain-tabs]");
   if (tabs) {
-    tabs.innerHTML = `<button type="button" class="active">manifest 로딩 중</button>`;
+    tabs.innerHTML = `<button type="button" class="active">분야를 불러오는 중</button>`;
   }
 }
 
@@ -432,7 +435,7 @@ async function loadSearchIndex() {
 async function loadAllDomains() {
   state.currentDomain = "all";
   markActiveDomainTab();
-  setResultSummary("전역 compact 검색 인덱스를 로딩 중입니다.");
+  setResultSummary("전체 분야의 검색 자료를 로딩 중입니다.");
   if (state.isLoadingAll) return;
   state.isLoadingAll = true;
 
@@ -499,7 +502,7 @@ async function renderSearchInput() {
   }
   if (!state.searchIndexLoaded && state.loadedDomains.size === 0) {
     if (!normalize(document.querySelector("[data-search]")?.value || "")) {
-      setResultSummary("도메인을 선택하거나 검색어를 입력하세요.");
+      setResultSummary("분야를 선택하거나 검색어를 입력하세요.");
       return;
     }
     try {
@@ -515,7 +518,7 @@ async function renderSearchInput() {
   renderResults();
 }
 
-function renderResults() {
+function renderResults({ append = false } = {}) {
   const container = document.querySelector("[data-results]");
   if (!container) return;
 
@@ -526,7 +529,18 @@ function renderResults() {
     .map((item, index) => ({ item, index, score: scoreItem(item, query) }))
     .filter(({ item, score }) => (!query || score > 0) && (!type || item.type === type) && isSearchVisible(item, query))
     .sort((a, b) => (query ? b.score - a.score : a.index - b.index) || a.item.title.localeCompare(b.item.title, "ko-KR"));
-  const visible = filtered.slice(0, MAX_RESULTS);
+  const resultKey = JSON.stringify([state.currentDomain, query, type]);
+  if (!append || resultKey !== state.resultKey) state.visibleLimit = MAX_RESULTS;
+  state.resultKey = resultKey;
+  if (state.selectedId && !filtered.some(({ item }) => item.id === state.selectedId)) clearSelectedItem();
+  const visible = filtered.slice(0, state.visibleLimit);
+  const previousCount = container.querySelectorAll("[data-select-id]").length;
+  const previousScroll = container.scrollTop;
+  const more = document.querySelector("[data-load-more]");
+  if (more) {
+    more.hidden = filtered.length <= visible.length;
+    more.textContent = `더 보기 (${formatNumber(visible.length)} / ${formatNumber(filtered.length)})`;
+  }
 
   setResultSummary(resultSummary(filtered.length, sourceItems.length, visible.length));
   container.innerHTML = visible.map(({ item }) => resultItemHtml(item)).join("") || `<p class="empty-state">검색 결과가 없습니다.</p>`;
@@ -536,13 +550,30 @@ function renderResults() {
   });
 
   markActiveResult();
+  if (append) {
+    container.scrollTop = previousScroll;
+    container.querySelectorAll("[data-select-id]")[previousCount]?.focus();
+  }
+}
+
+function showMoreResults() {
+  state.visibleLimit += MAX_RESULTS;
+  renderResults({ append: true });
+}
+
+function clearSelectedItem() {
+  state.selectedId = "";
+  ++state.provenanceSelectionToken;
+  const panel = document.querySelector("[data-detail-panel]");
+  if (panel) panel.innerHTML = '<p class="empty-state">검색 결과를 선택하면 설명과 자료 기준일, 출처를 확인할 수 있습니다.</p>';
+  if (window.location.hash) history.replaceState(null, "", window.location.pathname + window.location.search);
 }
 
 function resultSummary(filteredCount, sourceCount, visibleCount) {
-  const scope = state.currentDomain === "all" ? "전체 로드된 도메인" : domainMeta(state.currentDomain).label;
-  if (!sourceCount) return `${scope}: 아직 로드된 항목이 없습니다.`;
+  const scope = state.currentDomain === "all" ? "전체 분야" : domainMeta(state.currentDomain).label;
+  if (!sourceCount) return `${scope}: 검색어를 입력하거나 분야를 선택하세요.`;
   if (filteredCount > visibleCount) {
-    return `${scope}: ${formatNumber(filteredCount)}개 중 상위 ${formatNumber(visibleCount)}개 표시`;
+    return `${scope}: ${formatNumber(filteredCount)}개 중 ${formatNumber(visibleCount)}개 표시`;
   }
   return `${scope}: ${formatNumber(filteredCount)}개 표시`;
 }
@@ -553,14 +584,13 @@ function resultItemHtml(item) {
   const freshness = freshnessStatusForItem(item);
   const freshnessWarning = ["stale", "degraded", "unreachable", "changed", "conflict", "retired"].includes(freshness);
   return `
-    <button type="button" class="result-item" data-select-id="${escapeAttribute(item.id)}">
+    <button type="button" class="result-item" data-domain="${escapeAttribute(item.__domain || "")}" data-select-id="${escapeAttribute(item.id)}">
       <strong>${escapeHtml(item.title || item.id)}</strong>
       <div class="item-meta">
-        <span>${escapeHtml(meta.label)}</span>
-        <span>${escapeHtml(item.type || "unknown")}</span>
-        ${status ? `<span class="status-chip ${escapeAttribute(statusClass(status))}">${escapeHtml(status)}</span>` : ""}
-        <span class="status-chip freshness-${escapeAttribute(freshness)}">freshness: ${escapeHtml(freshness)}</span>
-        ${freshnessWarning ? `<span class="freshness-warning" role="status">⚠ 최신성 ${escapeHtml(freshness)}</span>` : ""}
+        <span class="domain-chip">${escapeHtml(meta.label)}</span>
+        <span>${escapeHtml(typeLabel(item.type))}</span>
+        ${status ? `<span class="status-chip ${escapeAttribute(statusClass(status))}">${escapeHtml(statusLabel(status))}</span>` : ""}
+        <span class="status-chip freshness-${escapeAttribute(freshness)}${freshnessWarning ? ' freshness-warning' : ''}">${escapeHtml(freshnessLabel(freshness))}</span>
         ${item.provider ? `<span>${escapeHtml(item.provider)}</span>` : ""}
         ${item.source_listing_status === 'listed' && item.recommendation_scope === 'listing_only' ? '<span>공식 목록 수록 · 신청·가입 가능 여부 미확인</span>' : ''}
       </div>
@@ -632,6 +662,11 @@ function selectItem(id, options = {}) {
 
   if (options.updateHash !== false) {
     history.replaceState(null, "", `#${encodeURIComponent(id)}`);
+    const panel = document.querySelector("[data-detail-panel]");
+    if (panel && window.matchMedia?.("(max-width: 1060px)").matches) {
+      panel.focus({ preventScroll: true });
+      panel.scrollIntoView({ block: "start" });
+    }
   }
 }
 
@@ -742,54 +777,56 @@ function renderDetail(item) {
 
   const meta = domainMeta(item.__domain);
   const kv = pickFields(item, [
-    ["id", "ID"],
-    ["type", "Type"],
-    ["provider", "Provider"],
-    ["financial_sector", "Sector"],
-    ["product_kind", "Product kind"],
-    ["product_code", "Product code"],
-    ["status", "Status"],
-    ["status_reason", "Status reason"],
-    ["status_confidence", "Status confidence"],
-    ["product_status", "Product status"],
-    ["sales_status", "Sales status"],
-    ["recommendation_status", "Recommendation"],
-    ["effective_from", "Effective from"],
-    ["effective_to", "Effective to"],
-    ["application_open_from", "Application from"],
-    ["application_open_to", "Application to"],
-    ["disclosure_month", "Disclosure"],
-    ["basis_year", "Basis year"],
-    ["reviewed_at", "Reviewed"],
-    ["rate_reviewed_at", "Rate reviewed"],
-    ["sales_status_reviewed_at", "Sales status reviewed"],
-    ["eligibility_reviewed_at", "Eligibility reviewed"],
-    ["benefit_reviewed_at", "Benefit reviewed"],
-    ["coverage_reviewed_at", "Coverage reviewed"],
-    ["last_verified_at", "Last verified"],
-    ["source_modified_at", "Source modified"],
-    ["jurisdiction", "Jurisdiction"],
-    ["law_reference", "Law"],
-    ["source_api", "Source API"],
+    ["provider", "제공기관"],
+    ["financial_sector", "금융권역"],
+    ["product_kind", "상품 종류"],
+    ["status", "자료 상태"],
+    ["status_reason", "상태 설명"],
+    ["product_status", "상품 상태"],
+    ["sales_status", "판매 상태"],
+    ["recommendation_status", "이용 범위"],
+    ["effective_from", "적용 시작일"],
+    ["effective_to", "적용 종료일"],
+    ["application_open_from", "신청 시작일"],
+    ["application_open_to", "신청 마감일"],
+    ["disclosure_month", "공시월"],
+    ["basis_year", "자료 기준연도"],
+    ["reviewed_at", "자료 검토일"],
+    ["rate_reviewed_at", "금리 검토일"],
+    ["sales_status_reviewed_at", "판매 상태 검토일"],
+    ["eligibility_reviewed_at", "가입 조건 검토일"],
+    ["benefit_reviewed_at", "혜택 검토일"],
+    ["coverage_reviewed_at", "보장 검토일"],
+    ["last_verified_at", "마지막 확인일"],
+    ["source_modified_at", "원자료 수정일"],
+    ["jurisdiction", "적용 지역"],
+    ["law_reference", "관련 법령"],
   ]);
 
   panel.innerHTML = `
-    <span class="domain-chip">${escapeHtml(meta.label)}</span>
+    <button type="button" class="detail-back" data-back-results>← 검색 결과로 돌아가기</button>
+    <span class="domain-chip" data-domain="${escapeAttribute(item.__domain || '')}">${escapeHtml(meta.label)}</span>
     <h3>${escapeHtml(item.title || item.id)}</h3>
     <p class="detail-description">${escapeHtml(item.description || "설명이 없습니다.")}</p>
+    <p class="detail-freshness">${escapeHtml(freshnessLabel(freshnessStatusForItem(item)))}</p>
+    ${kv.length ? renderKvGrid(kv.map(([label, value]) => [label, /상태|이용 범위/.test(label) ? statusLabel(value) : value])) : ""}
+    ${renderSources(item)}
     ${renderCurrentApi(item)}
     ${item.refresh_generation ? `<section class="detail-section"><h4>공식 자료 반영 · ${escapeHtml(item.refresh_generation.slice(0,10))}</h4><p>공식 API·공시 자료를 본문과 검색 데이터에 반영했습니다. 제공기관의 관측·공시 기준일과 개인별 적합성 검증은 별도입니다.</p>${item.raw ? `<details><summary>반영된 원문 필드 보기</summary>${renderKvGrid(Object.entries(item.raw).map(([k,v])=>[k,typeof v==='object'?JSON.stringify(v):String(v??'미제공')]))}</details>`:''}</section>` : ''}
     ${renderEvidenceAvailability(item)}
     ${renderPopulationNotice(item)}
-    ${kv.length ? renderKvGrid(kv) : ""}
     ${renderStructuredFacts("상품 혜택·보장", item.benefits)}
     ${renderStructuredFacts("조건·유의사항", item.conditions)}
     ${renderCriteria(item.criteria)}
     ${renderOptions(item.options)}
-    ${renderPills("Tags", item.tags)}
     ${renderNeighbors(item)}
-    ${renderSources(item)}
   `;
+  panel.querySelector("[data-back-results]")?.addEventListener("click", () => {
+    const selected = [...document.querySelectorAll("[data-select-id]")].find(button => button.dataset.selectId === state.selectedId);
+    const target = selected || document.querySelector("[data-search]");
+    target?.focus({ preventScroll: true });
+    target?.scrollIntoView({ block: "center" });
+  });
 }
 
 function renderApiCollectionLink(domain) {
@@ -869,7 +906,7 @@ function renderCriteria(criteria) {
   const more = criteria.length > 6 ? `<p class="empty-state">외 ${formatNumber(criteria.length - 6)}개 기준은 원본 JSON에서 확인할 수 있습니다.</p>` : "";
   return `
     <section class="detail-section">
-      <h4>Criteria</h4>
+      <h4>적용 기준</h4>
       <div class="criteria-list">${rows.join("")}${more}</div>
     </section>
   `;
@@ -885,7 +922,7 @@ function renderOptions(options) {
       .join(" · ");
     return `
       <article>
-        <strong>Option ${index + 1}</strong>
+        <strong>조건 ${index + 1}</strong>
         <p>${escapeHtml(compact)}</p>
       </article>
     `;
@@ -893,7 +930,7 @@ function renderOptions(options) {
   const more = options.length > 3 ? `<p class="empty-state">외 ${formatNumber(options.length - 3)}개 옵션은 원본 JSON에서 확인할 수 있습니다.</p>` : "";
   return `
     <section class="detail-section">
-      <h4>Product Options</h4>
+      <h4>상품 세부 조건</h4>
       <div class="criteria-list">${rows.join("")}${more}</div>
     </section>
   `;
@@ -926,7 +963,7 @@ function renderPills(title, values) {
     <section class="detail-section">
       <h4>${escapeHtml(title)}</h4>
       <ul class="pill-list">
-        ${values.slice(0, 28).map((value) => `<li>${escapeHtml(value)}</li>`).join("")}
+        ${values.slice(0, 28).map((value) => `<li>${escapeHtml(state.itemIndex.get(value)?.title || state.sourceRegistry.get(value)?.title || value)}</li>`).join("")}
       </ul>
     </section>
   `;
@@ -934,27 +971,27 @@ function renderPills(title, values) {
 
 function renderNeighbors(item) {
   const groups = [
-    ["Parents", item.parents],
-    ["Children", item.children],
-    ["Requires (요건·서류)", item.requires],
-    ["Conflicts with (중복 제한)", item.conflicts_with],
-    ["Available in (신청 창구)", item.available_in],
-    ["Related", item.related],
-    ["Terms", item.terms],
-    ["Deadlines", item.deadlines],
-    ["Sources", item.sources],
+    ["상위 분류", item.parents],
+    ["하위 분류", item.children],
+    ["요건·서류", item.requires],
+    ["중복 제한", item.conflicts_with],
+    ["신청 창구", item.available_in],
+    ["관련 정보", item.related],
+    ["용어", item.terms],
+    ["기한", item.deadlines],
+    ["출처 자료", item.sources],
   ].filter(([, values]) => Array.isArray(values) && values.length);
 
   if (!groups.length) return "";
 
   return `
     <section class="detail-section">
-      <h4>Graph Neighbors</h4>
+      <h4>관련 정보</h4>
       ${groups
         .map(([title, values]) => `
           <p class="empty-state">${escapeHtml(title)}</p>
           <ul class="pill-list">
-            ${values.slice(0, 18).map((value) => `<li>${escapeHtml(value)}</li>`).join("")}
+            ${values.slice(0, 18).map((value) => `<li>${escapeHtml(state.itemIndex.get(value)?.title || state.sourceRegistry.get(value)?.title || value)}</li>`).join("")}
           </ul>
         `)
         .join("")}
@@ -995,17 +1032,14 @@ function renderSources(item) {
       ? `${entry.locator.kind ? `${entry.locator.kind}: ` : ""}${entry.locator.value || ""}`
       : "";
     const details = [
-      publisher && `publisher: ${publisher}`,
-      freshness && `freshness: ${freshness}`,
-      verifiedAt && `last verified: ${verifiedAt}`,
-      locator && `locator: ${locator}`,
-      entry.checksum && `checksum: ${entry.checksum}`,
-      entry.source_record_id && `record: ${entry.source_record_id}`,
+      publisher && `제공기관: ${publisher}`,
+      freshness && freshnessLabel(freshness),
+      verifiedAt && `출처 확인 기록: ${verifiedAt}`,
     ].filter(Boolean);
     return `
       <article class="source-card">
-        <strong>${escapeHtml(sourceId)}</strong>
-        ${sourceUrl ? `<a href="${escapeAttribute(sourceUrl)}" target="_blank" rel="noopener noreferrer">원본 링크 열기</a>` : ""}
+        <strong>${escapeHtml(publisher || sourceMeta?.title || "출처 자료")}</strong>
+        ${sourceUrl ? `<a href="${escapeAttribute(sourceUrl)}" target="_blank" rel="noopener noreferrer">출처 원문 보기</a>` : ""}
         ${details.length ? `<small>${details.map((detail) => escapeHtml(detail)).join(" · ")}</small>` : ""}
       </article>
     `;
@@ -1015,13 +1049,13 @@ function renderSources(item) {
 
   return `
     <section class="detail-section">
-      <h4>Sources</h4>
+      <h4>출처 확인</h4>
       ${provenanceCards ? `<div class="source-cards">${provenanceCards}</div>` : ""}
-      ${legacyIds.length ? `<ul class="pill-list source-ids">${legacyIds.slice(0, 24).map((id) => `<li>${escapeHtml(id)}</li>`).join("")}</ul>` : ""}
+      ${legacyIds.length ? `<ul class="pill-list source-ids">${legacyIds.slice(0, 24).map((id) => `<li>${escapeHtml(sourceMetadataFor(id)?.title || sourceMetadataFor(id)?.publisher || "출처 정보 미확인")}</li>`).join("")}</ul>` : ""}
       ${sourceBasisDates.length ? `<ul class="pill-list">${sourceBasisDates.slice(0, 12).map((value) => `<li>${escapeHtml(value)}</li>`).join("")}</ul>` : ""}
       ${sourceUrls.length ? `
         <div class="source-list">
-          ${[...new Set(sourceUrls)].slice(0, 8).map((url) => `<a href="${escapeAttribute(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(url)}</a>`).join("")}
+          ${[...new Set(sourceUrls)].slice(0, 8).map((url) => `<a href="${escapeAttribute(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(sourceLinkLabel(url))}</a>`).join("")}
         </div>
       ` : ""}
     </section>
@@ -1051,8 +1085,8 @@ function updateTypeFilter() {
     if (item.type) counts.set(item.type, (counts.get(item.type) || 0) + 1);
   }
   const options = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "ko-KR"));
-  select.innerHTML = `<option value="">모든 타입</option>${options
-    .map(([type, count]) => `<option value="${escapeAttribute(type)}">${escapeHtml(type)} (${formatNumber(count)})</option>`)
+  select.innerHTML = `<option value="">모든 자료 유형</option>${options
+    .map(([type, count]) => `<option value="${escapeAttribute(type)}">${escapeHtml(typeLabel(type))} (${formatNumber(count)})</option>`)
     .join("")}`;
   if (options.some(([type]) => type === previous)) {
     select.value = previous;
@@ -1233,13 +1267,18 @@ function structuredSearchText(value, limit) {
 
 function markActiveDomainTab() {
   document.querySelectorAll("[data-tab-domain]").forEach((button) => {
-    button.classList.toggle("active", button.dataset.tabDomain === state.currentDomain);
+    const selected = button.dataset.tabDomain === state.currentDomain;
+    button.classList.toggle("active", selected);
+    button.setAttribute("aria-pressed", String(selected));
   });
 }
 
 function markActiveResult() {
   document.querySelectorAll("[data-select-id]").forEach((button) => {
-    button.classList.toggle("active", button.dataset.selectId === state.selectedId);
+    const selected = button.dataset.selectId === state.selectedId;
+    button.classList.toggle("active", selected);
+    button.setAttribute("aria-pressed", String(selected));
+    button.setAttribute("aria-controls", "search-detail");
   });
 }
 
@@ -1320,4 +1359,25 @@ function escapeHtml(value) {
 
 function escapeAttribute(value) {
   return escapeHtml(value).replace(/`/g, "&#96;");
+}
+
+
+function typeLabel(type) {
+  return ({'financial-product':'금융상품','api-observation':'공식 수집 기록','support-program':'지원사업','bank-product':'은행 상품','insurance-product':'보험 상품','card-product':'카드 상품','financial-provider':'금융기관','source':'출처 자료','term':'용어','category':'분류','tax':'세금','corporate-tax-support':'기업 세제지원','deadline':'기한','scenario':'상황별 안내','deduction':'소득공제','tax-credit':'세액공제','eligibility-rule':'대상 조건','required-document':'필요 서류','filing':'신고','application-channel':'신청 창구','concept':'개념','domain':'분야','life-expense':'생활 지출','conflict-rule':'중복 제한','risk-signal':'주의사항','account-product':'계좌 상품','tax-reduction':'세금 감면','benchmark-rate':'기준금리','life-event':'생활 변화','life-income':'소득'})[type] || '기타 자료';
+}
+
+function freshnessLabel(value) {
+  return ({stale:'최신 여부 재확인 필요',degraded:'일부 출처 확인 불가',unreachable:'출처 연결 불가',changed:'출처 변경 확인 필요',conflict:'출처 간 내용 확인 필요',retired:'종료된 출처',current:'출처 점검 완료',ready:'출처 점검 완료',unknown:'확인 기록 없음',not_revalidated:'최신 조건 미검증'})[value] || '출처 상태 확인 필요';
+}
+
+function statusLabel(value) {
+  return ({active:'유효로 기록됨',closed:'종료로 기록됨',ended:'종료로 기록됨',sunset:'종료 예정',unknown:'상태 미확인',suspended:'중단으로 기록됨',reference_only:'참고 자료',listing_only:'목록 확인용',blocked:'이용 제한',planned:'수집 예정',open:'접수 중으로 기록됨',available:'이용 가능으로 기록됨',not_revalidated:'최신 조건 미검증'})[value] || value;
+}
+
+function sourceLinkLabel(url) {
+  let host;
+  try { host = new URL(url).hostname; } catch { return "출처 원문 보기 ↗"; }
+  const names = {'nts.go.kr':'국세청','fss.or.kr':'금융감독원','data.go.kr':'공공데이터포털','gov.kr':'정부24','bok.or.kr':'한국은행','hf.go.kr':'한국주택금융공사','kdic.or.kr':'예금보험공사'};
+  const match = Object.keys(names).find(domain => host === domain || host.endsWith('.' + domain));
+  return `${match ? names[match] : host} 원문 보기 ↗`;
 }

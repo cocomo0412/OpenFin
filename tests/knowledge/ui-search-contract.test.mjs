@@ -62,7 +62,7 @@ test('global explorer loads compact search first and hydrates only the selected 
 test('query-only explorer startup does not retain the tax fallback', () => {
   const source = fs.readFileSync(`${root}/docs/app.js`, 'utf8').replace(/\r\n/g, '\n');
   assert.match(source, /paramQuery && !paramDomain/);
-  assert.match(source, /도메인을 선택하거나 검색어를 입력하세요/);
+  assert.match(source, /분야를 선택하거나 검색어를 입력하세요/);
   assert.doesNotMatch(source, /else if \(hasExplorer\) \{\s*await loadDomain\("tax"\)/);
 });
 
@@ -72,8 +72,12 @@ test('compact result cards show source freshness and fail-closed warning', () =>
     state.sourceStatus = new Map([['source.test', { source_freshness_status: 'degraded', freshness_status: 'stale' }]]);
     globalThis.cardHtml = resultItemHtml({ id: 'item.deposit', title: '예금', type: 'bank-product', __domain: 'deposit-products', source_ids: ['source.test'] });
   `, context);
-  assert.match(context.cardHtml, /freshness: degraded/);
-  assert.match(context.cardHtml, /최신성 degraded/);
+  assert.match(context.cardHtml, /freshness-degraded/);
+  assert.equal((context.cardHtml.match(/일부 출처 확인 불가/g) || []).length, 1);
+  assert.doesNotMatch(context.cardHtml, /freshness:|최신성 degraded/);
+  const staleHtml = vm.runInContext(`resultItemHtml({ id: 'item.stale', title: '자료', freshness_status: 'stale' })`, context);
+  assert.match(staleHtml, /freshness-stale/);
+  assert.equal((staleHtml.match(/최신 여부 재확인 필요/g) || []).length, 1);
 });
 
 test('source freshness recomputes the SLA from the last successful check', () => {

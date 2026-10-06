@@ -3,11 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>OpenFin Explorer | 정보 검색</title>
-  <meta name="description" content="세금·지원금·카드·은행·보험 금융 온톨로지를 직접 검색하고 기준·출처·상품 메타데이터를 조회하는 OpenFin 탐색기">
-  <meta name="theme-color" content="#05080d">
+  <title>정보 검색 | OpenFin</title>
+  <meta name="description" content="세금, 지원금, 금융상품 정보를 검색하고 자료의 기준일과 공식 출처를 확인하세요.">
+  <meta name="theme-color" content="#f6f2e9">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 3.5 27 9.8v12.4l-11 6.3-11-6.3V9.8Z' fill='%2305080d' stroke='%2373f0c1' stroke-width='2'/%3E%3Cpath d='M9.5 17.5 16 21l6.5-3.5M9.5 13.5 16 17l6.5-3.5' fill='none' stroke='%2373f0c1' stroke-width='2'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="./styles.css?v=2026.09.23.5">
+  <link rel="stylesheet" href="./styles.css?v=2026.10.03.1">
+  <link rel="stylesheet" href="./explorer.css?v=2026.10.06.2">
 </head>
 <body class="explorer-page">
   <header class="site-header">
@@ -21,49 +22,49 @@
       <span>OpenFin</span>
     </a>
     <nav class="top-nav" aria-label="주요 섹션">
-      <a href="./index.html#top">Universe</a>
-      <a href="./index.html#exports">Exports</a>
+      <a href="./index.html#top">홈</a>
+      <a href="./index.html#exports">자료 현황</a>
       <a href="./index.html#mcp">MCP</a>
+      <a href="./explorer.html" aria-current="page">정보 검색</a>
     </nav>
-    <div class="header-actions">
-      <a href="./index.html">← 유니버스</a>
-    </div>
   </header>
 
   <main class="explorer-main">
-    <section class="explorer-head section">
-      <p class="eyebrow">Explorer</p>
-      <h1>정보 검색</h1>
-      <p><a href="./api-data.html">최신 공식 API 수집 자료 검색 →</a> · 아래 온톨로지의 원자료 기준일과 별도로 확인할 수 있습니다.</p>
+    <section class="explorer-head section" aria-labelledby="explorer-title">
+      <h1 id="explorer-title">정보 검색</h1>
       <p class="explorer-sub">
-        통합 금융 온톨로지를 브라우저에서 직접 검색합니다.
-        도메인을 선택하면 해당 JSON을 로드하고, 항목을 누르면 기준·출처·상품 메타데이터·연결 노드를 확인할 수 있습니다.
+        필요한 세금·지원금·금융상품 정보를 찾고, 기준일과 출처를 함께 확인하세요.
       </p>
-      <dl class="explorer-meta">
-        <div><dt>version</dt><dd data-version>로딩 중</dd></div>
-        <div><dt>API 수집 기준일</dt><dd data-basis-date>로딩 중</dd></div>
-        <div><dt>total items</dt><dd data-total-items-plain>로딩 중</dd></div>
-      </dl>
+      <div class="explorer-context">
+        <span>전체 자료 <strong data-total-items-plain>확인 중</strong>건</span>
+        <a href="./api-data.html">공식 API 수집 자료 별도로 보기 <span aria-hidden="true">→</span></a>
+      </div>
+      <div hidden><span data-version></span><span data-basis-date></span></div>
     </section>
 
-    <section class="section explorer-shell">
+    <section class="section explorer-shell" aria-label="자료 검색">
       <div class="explorer-toolbar">
         <label class="search-field">
-          <span class="visually-hidden">검색어</span>
-          <input type="search" data-search placeholder="검색어를 입력하세요. 예: 청년, 전월실적, 신용대출, 보험료">
+          <span>어떤 정보를 찾으세요?</span>
+          <input type="search" data-search placeholder="예: 월세, 청년, 신용대출" aria-describedby="search-hint">
         </label>
-        <select data-type-filter aria-label="타입 필터">
-          <option value="">모든 타입</option>
-        </select>
+        <label class="type-field">
+          <span>자료 유형</span>
+          <select data-type-filter aria-label="자료 유형">
+            <option value="">모든 자료 유형</option>
+          </select>
+        </label>
       </div>
-      <div class="domain-tabs" data-domain-tabs></div>
+      <p class="search-hint" id="search-hint">검색어를 입력하면 결과가 바뀝니다. 분야를 선택해 범위를 좁힐 수 있습니다.</p>
+      <div class="domain-tabs" data-domain-tabs role="group" aria-label="검색 분야"></div>
       <div class="explorer-grid">
-        <aside class="result-list" aria-label="검색 결과">
-          <div class="result-summary" data-result-summary>도메인을 선택해 데이터를 로드하세요.</div>
+        <aside class="result-list" id="search-results" aria-label="검색 결과" tabindex="-1">
+          <div class="result-summary" data-result-summary role="status" aria-live="polite" aria-atomic="true">검색할 자료를 준비하고 있습니다.</div>
           <div data-results></div>
+          <button class="load-more" type="button" data-load-more hidden>결과 더 보기</button>
         </aside>
-        <article class="detail-panel" data-detail-panel>
-          <p class="empty-state">왼쪽 결과를 선택하면 기준, 출처, 상품 메타데이터, 연결 노드를 확인할 수 있습니다.</p>
+        <article class="detail-panel" data-detail-panel id="search-detail" tabindex="-1" aria-label="선택한 자료 상세">
+          <p class="empty-state">검색 결과에서 자료를 선택하면 내용과 기준일, 공식 출처를 확인할 수 있습니다.</p>
         </article>
       </div>
     </section>
@@ -71,13 +72,13 @@
 
   <footer class="site-footer">
     <span>© 2026 cocomo0412</span>
-    <a href="./index.html">OpenFin Universe</a>
+    <a href="./index.html">OpenFin 홈</a>
     <a href="https://github.com/cocomo0412/OpenFin" rel="noreferrer" target="_blank">GitHub</a>
     <a href="https://openfin.cocomo0412.workers.dev/health" target="_blank" rel="noreferrer">무료 MCP 운영 중</a>
     <a href="./opentax/privacy.html#web-analytics">방문 통계 안내</a>
   </footer>
 
-  <script src="./app.js?v=2026.10.06.1"></script>
+  <script src="./app.js?v=2026.10.06.2"></script>
   <script src="./analytics.js?v=2026.10.02.2" defer></script>
 </body>
 </html>

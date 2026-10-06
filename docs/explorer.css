@@ -1,0 +1,93 @@
+/* Search page refinements use the homepage's cream, green and category palette. */
+.explorer-page { --explorer-accent: #496c60; }
+.explorer-page [hidden] { display: none !important; }
+.explorer-page .site-header { border-bottom-color: #dedbd2; }
+.explorer-page .top-nav a { border-radius: 8px; }
+.explorer-page .top-nav a:hover,
+.explorer-page .top-nav a[aria-current="page"] { background: #e8ede5; border-color: transparent; color: #294d3d; }
+.explorer-page a:focus-visible,
+.explorer-page button:focus-visible,
+.explorer-page input:focus-visible,
+.explorer-page select:focus-visible,
+.explorer-page summary:focus-visible { outline: 2px solid var(--explorer-accent); outline-offset: 3px; }
+.explorer-page .explorer-head { padding: 32px 0 0; }
+.explorer-page .explorer-head h1 { margin: 0; font-size: clamp(28px, 3vw, 38px); line-height: 1.2; font-weight: 600; }
+.explorer-page .explorer-sub { margin-top: 10px; max-width: none; font-size: 15px; line-height: 1.6; }
+.explorer-context { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 24px; margin-top: 14px; font-size: 13px; color: var(--muted); }
+.explorer-context strong { font-variant-numeric: tabular-nums; }
+.explorer-context a { color: #36584a; text-decoration: underline; text-underline-offset: 4px; }
+.explorer-page .explorer-shell { margin-top: 28px; padding-top: 0; }
+.explorer-page .explorer-toolbar { grid-template-columns: minmax(0, 1fr) 200px; align-items: end; margin-bottom: 8px; }
+.search-field, .type-field { display: grid; min-width: 0; gap: 8px; }
+.search-field > span, .type-field > span { font-size: 14px; font-weight: 600; color: #354e45; }
+.explorer-page .search-field input,
+.explorer-page .explorer-toolbar select { min-height: 52px; font-size: 16px; border-radius: 10px; border-color: #bacbbf; background: #fdfbf6; }
+.explorer-page .search-field input { padding-inline: 18px; }
+.explorer-page .search-field input::placeholder { color: #697166; opacity: 1; }
+.explorer-page .search-field input:focus,
+.explorer-page .explorer-toolbar select:focus { border-color: var(--explorer-accent); }
+.search-hint { margin: 0 0 18px; color: var(--muted); font-size: 13px; line-height: 1.5; }
+.explorer-page .domain-tabs { gap: 8px; margin-bottom: 20px; }
+.explorer-page .domain-tabs button { min-height: 40px; border: 1px solid transparent; border-radius: 8px; background: var(--domain-color, #e7ede6); color: #303a34; font-size: 14px; }
+.explorer-page .domain-tabs button:hover { border-color: #718d7b; }
+.explorer-page .domain-tabs button.active { border-color: var(--explorer-accent); box-shadow: inset 0 0 0 1px var(--explorer-accent); color: #203c31; font-weight: 700; }
+.explorer-page [data-domain="tax"], .explorer-page [data-tab-domain="tax"] { --domain-color: #f9d4e6; }
+.explorer-page [data-domain="local-government-supports"], .explorer-page [data-tab-domain="local-government-supports"] { --domain-color: #d0eee5; }
+.explorer-page [data-domain="card-products"], .explorer-page [data-tab-domain="card-products"] { --domain-color: #e6d9fa; }
+.explorer-page [data-domain="deposit-products"], .explorer-page [data-tab-domain="deposit-products"] { --domain-color: #d1e9f9; }
+.explorer-page [data-domain="saving-products"], .explorer-page [data-tab-domain="saving-products"] { --domain-color: #dfe0fa; }
+.explorer-page [data-domain="loan-products"], .explorer-page [data-tab-domain="loan-products"] { --domain-color: #f7e8bc; }
+.explorer-page [data-domain="insurance-products"], .explorer-page [data-tab-domain="insurance-products"] { --domain-color: #f8ddcd; }
+.explorer-page [data-domain="pension-products"], .explorer-page [data-tab-domain="pension-products"] { --domain-color: #e0edcf; }
+.explorer-page [data-domain="tax-advantaged-accounts"], .explorer-page [data-tab-domain="tax-advantaged-accounts"] { --domain-color: #f3d9f0; }
+.explorer-page [data-domain="finance-reference"], .explorer-page [data-tab-domain="finance-reference"] { --domain-color: #d4edf0; }
+.explorer-page .explorer-grid { grid-template-columns: minmax(300px, .9fr) minmax(0, 1.1fr); gap: 18px; }
+.explorer-page .result-list, .explorer-page .detail-panel { min-width: 0; min-height: 410px; border-radius: 12px; background: #fdfbf6; box-shadow: 0 2px 4px rgba(49, 56, 45, .025); scroll-margin-top: 90px; }
+.explorer-page .result-summary { min-height: 48px; padding: 12px 18px; flex-wrap: wrap; gap: 8px; line-height: 1.5; background: #f0f3ec; color: #354e45; font-size: 14px; }
+.explorer-page [data-results] { max-height: min(72vh, 760px); overscroll-behavior-y: contain; }
+.explorer-page .result-item { padding: 18px; gap: 10px; }
+.explorer-page .result-item:hover { background: #f2f5ed; transform: none; }
+.explorer-page .result-item.active { background: #eaf1e7; box-shadow: inset 3px 0 0 var(--explorer-accent); }
+.explorer-page .result-item:focus-visible { outline-offset: -4px; }
+.explorer-page .result-item strong { font-size: 16px; line-height: 1.5; overflow-wrap: anywhere; }
+.explorer-page .item-meta span { border-radius: 6px; font-size: 12px; min-height: 25px; line-height: 1.5; padding: 3px 7px; }
+.explorer-page .item-meta .domain-chip,
+.explorer-page .detail-panel > .domain-chip { display: inline-flex; padding: 5px 9px; border: 0; border-radius: 7px; background: var(--domain-color, #e7ede6); color: #303a34; font-size: 12px; }
+.explorer-page .detail-panel > .domain-chip { margin-bottom: 14px; }
+.explorer-page .result-item p { font-size: 14px; }
+.explorer-page .freshness-warning { color: #765c2e; background: #faf1d9; border-color: #e9d9b0; }
+.load-more, .detail-back { cursor: pointer; border: 1px solid #b9cbbd; border-radius: 8px; background: #eef2eb; color: #36584a; min-height: 42px; padding: 10px 16px; font-size: 14px; font-weight: 600; }
+.load-more { display: block; width: calc(100% - 32px); margin: 16px; }
+.load-more:hover, .detail-back:hover { background: #e1eadd; }
+.detail-back { display: none; }
+.explorer-page .detail-panel { padding: 26px; overflow-wrap: anywhere; }
+.explorer-page .detail-panel:focus-visible, .explorer-page .result-list:focus-visible { outline: 2px solid var(--explorer-accent); outline-offset: 3px; }
+.explorer-page .detail-panel h3 { font-size: clamp(22px, 2.1vw, 28px); line-height: 1.4; }
+.explorer-page .detail-description { margin-block: 16px; font-size: 15px; }
+.explorer-page .detail-section { margin-top: 22px; padding-top: 20px; }
+.explorer-page .detail-section h4 { text-transform: none; font-size: 15px; }
+.explorer-page .kv-grid div { border-radius: 8px; background: #fbf9f3; }
+.explorer-page .kv-grid dt { text-transform: none; font-size: 13px; }
+.explorer-page .kv-grid dd { font-size: 14px; line-height: 1.6; }
+.explorer-page .source-list a { padding: 7px 12px; border-radius: 8px; color: #36584a; background: #eef2eb; text-decoration: underline; text-underline-offset: 3px; }
+.explorer-page .empty-state { padding: 10px 0; }
+.explorer-page .site-footer { flex-wrap: wrap; gap: 12px 22px; line-height: 1.6; }
+@media (max-width: 1060px) {
+  .explorer-page .explorer-grid { grid-template-columns: minmax(0, 1fr); }
+  .explorer-page .result-list, .explorer-page .detail-panel { min-height: 0; }
+  .explorer-page [data-results] { max-height: 440px; max-height: min(55svh, 480px); }
+  .detail-back { display: block; margin-bottom: 20px; }
+}
+@media (max-width: 560px) {
+  .explorer-page .explorer-head { padding-top: 24px; }
+  .explorer-page .top-nav { gap: 2px; }
+  .explorer-page .top-nav a { justify-content: center; padding-inline: 9px; }
+  .explorer-page .explorer-toolbar { grid-template-columns: minmax(0, 1fr); }
+  .type-field { grid-template-columns: auto minmax(0, 1fr); align-items: center; gap: 14px; }
+  .explorer-page .type-field select { min-height: 44px; }
+  .explorer-page .domain-tabs { gap: 7px; }
+  .explorer-page .domain-tabs button { padding-inline: 10px; font-size: 13px; }
+  .explorer-page .detail-panel { padding: 20px; }
+  .explorer-page .kv-grid { grid-template-columns: minmax(0, 1fr); }
+  .explorer-page .result-list, .explorer-page .detail-panel { scroll-margin-top: 16px; }
+}

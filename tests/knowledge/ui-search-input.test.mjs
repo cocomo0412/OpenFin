@@ -11,17 +11,22 @@ function explorer() {
   const handlers = {};
   const summary = { textContent: '' };
   const results = { innerHTML: '', querySelectorAll: () => [] };
+  const detail = { innerHTML: '', querySelector: () => null, querySelectorAll: () => [], focus() {}, scrollIntoView() {}, setAttribute() {} };
   const input = { value: '', addEventListener: (name, handler) => { handlers[name] = handler; } };
-  const nodes = { '[data-search]': input, '[data-results]': results, '[data-result-summary]': summary };
+  const typeFilter = { value: '', innerHTML: '', addEventListener: (name, handler) => { handlers[`type:${name}`] = handler; } };
+  const moreButton = { hidden: true, textContent: '', addEventListener: (name, handler) => { handlers[`more:${name}`] = handler; } };
+  const location = { pathname: '/explorer.html', search: '', hash: '' };
+  const history = { replaceState(_state, _title, url) { location.hash = new URL(url, 'https://example.test/explorer.html').hash; } };
+  const nodes = { '[data-search]': input, '[data-results]': results, '[data-result-summary]': summary, '[data-detail-panel]': detail, '[data-type-filter]': typeFilter, '[data-load-more]': moreButton };
   const calls = [];
   const context = vm.createContext({
-    console: { ...console, warn() {} }, Intl, URL, URLSearchParams, Map, Set,
+    console: { ...console, warn() {} }, Intl, URL, URLSearchParams, Map, Set, history,
     document: {
       addEventListener() {}, querySelector: (selector) => nodes[selector] || null,
       querySelectorAll: (selector) => nodes[selector] ? [nodes[selector]] : [],
     },
     window: {
-      location: { search: '', hash: '' },
+      location, history,
       setTimeout: (callback) => { timer = callback; return 1; },
       clearTimeout: () => { timer = null; },
     },
@@ -41,14 +46,17 @@ function explorer() {
     bindStaticControls();
   `, context);
   return {
-    context, calls, summary, results,
+    context, calls, summary, results, detail, location, moreButton,
     type(value) { input.value = value; handlers.input(); },
+    filter(value) { typeFilter.value = value; return handlers['type:change'](); },
+    more() { return handlers['more:click'](); },
     flush() { const pending = timer; timer = null; return pending?.(); },
   };
 }
 
 test('typing a first query loads the compact index and displays matches', async () => {
   const page = explorer();
+  assert.equal(vm.runInContext('state.currentDomain', page.context), 'all');
   page.type('월세');
   await page.flush();
   assert.deepEqual(page.calls, ['./opentax/search.json']);
@@ -62,7 +70,7 @@ test('blank first input does not fetch and preserves the start guidance', async 
   page.type('   ');
   await page.flush();
   assert.equal(page.calls.length, 0);
-  assert.match(page.summary.textContent, /도메인을 선택하거나 검색어/);
+  assert.match(page.summary.textContent, /분야를 선택하거나 검색어/);
 });
 
 test('rapid queries during initial loading share one fetch and use the latest input', async () => {
@@ -99,6 +107,7 @@ test('failed first load shows recovery guidance and the next input retries', asy
 test('queries keep an explicitly loaded domain and do not fetch the global index', async () => {
   const page = explorer();
   vm.runInContext(`
+    state.currentDomain = 'tax';
     state.loadedDomains.set('tax', [{ id: 'item.rent', title: '월세 공제', type: 'deduction', __domain: 'tax' }]);
   `, page.context);
   page.type('월세');
@@ -197,4 +206,101 @@ test('a selected domain accepts new queries while the initial global index is pe
   await loading.pending;
   assert.equal(vm.runInContext('state.currentDomain', page.context), 'tax');
   assert.doesNotMatch(page.results.innerHTML, /월세 공제|다른 도메인/);
+});
+
+const visibleResultCount = (page) => (page.results.innerHTML.match(/data-select-id=/g) || []).length;
+
+test('show more reaches all 124 results and query, type and domain changes reset the page', async () => {
+  const page = explorer();
+  vm.runInContext(`
+    const rows = Array.from({ length: 124 }, (_, index) => ({
+      id: 'item.' + index, title: '공제 자료 ' + index, type: 'deduction', __domain: 'tax'
+    }));
+    mergeItems(rows);
+    state.loadedDomains.set('tax', rows);
+    state.searchIndexLoaded = true;
+    state.currentDomain = 'all';
+  `, page.context);
+  page.type('공제');
+  await page.flush();
+  assert.equal(visibleResultCount(page), 120);
+  assert.equal(page.moreButton.hidden, false);
+  page.more();
+  assert.equal(visibleResultCount(page), 124);
+  assert.equal(page.moreButton.hidden, true);
+  page.more();
+  assert.equal(visibleResultCount(page), 124, 'repeated expansion must not duplicate records');
+
+  page.type('자료');
+  await page.flush();
+  assert.equal(visibleResultCount(page), 120, 'a new query resets paging even when it matches the same records');
+  assert.equal(page.moreButton.hidden, false);
+  page.more();
+  assert.equal(visibleResultCount(page), 124);
+  page.filter('deduction');
+  assert.equal(visibleResultCount(page), 120, 'type changes reset paging');
+  page.more();
+  assert.equal(visibleResultCount(page), 124);
+  await vm.runInContext('loadDomain("tax")', page.context);
+  assert.equal(visibleResultCount(page), 120, 'domain changes reset paging');
+});
+
+test('zero matches clears the previous detail, selection and hash before late detail arrives', async () => {
+  const page = explorer();
+  let finish;
+  page.context.testFetch = () => new Promise((resolve) => { finish = resolve; });
+  vm.runInContext(`
+    state.manifest.exports[0].path = 'tax.json';
+    mergeItems([{ id: 'item.rent', title: '월세 공제', description: '이전 선택 설명', type: 'deduction', __domain: 'tax', __compact: true }]);
+    state.searchIndexLoaded = true;
+    state.currentDomain = 'all';
+    const originalHydrate = hydrateSelectedItem;
+    hydrateSelectedItem = (...args) => (globalThis.pendingHydration = originalHydrate(...args));
+    renderResults();
+    selectItem('item.rent');
+  `, page.context);
+  assert.match(page.detail.innerHTML, /이전 선택 설명/);
+  assert.equal(page.location.hash, '#item.rent');
+  const selectionToken = vm.runInContext('state.provenanceSelectionToken', page.context);
+
+  page.type('존재하지않는검색조건');
+  await page.flush();
+  assert.equal(visibleResultCount(page), 0);
+  assert.equal(vm.runInContext('state.selectedId', page.context), '');
+  assert.ok(vm.runInContext('state.provenanceSelectionToken', page.context) > selectionToken);
+  assert.equal(page.location.hash, '');
+  assert.doesNotMatch(page.detail.innerHTML, /이전 선택 설명/);
+  const clearedDetail = page.detail.innerHTML;
+
+  finish({ items: [{ id: 'item.rent', title: '월세 공제', description: '뒤늦게 도착한 상세', type: 'deduction' }] });
+  await page.context.pendingHydration;
+  assert.equal(page.detail.innerHTML, clearedDetail, 'late detail must not restore a cleared selection');
+  assert.equal(vm.runInContext('state.selectedId', page.context), '');
+  assert.equal(page.location.hash, '');
+});
+
+test('a late provenance response cannot replace the empty detail after the selected result disappears', async () => {
+  const page = explorer();
+  let finish;
+  page.context.testFetch = () => new Promise((resolve) => { finish = resolve; });
+  vm.runInContext(`
+    const row = { id: 'item.rent', title: '월세 공제', type: 'deduction', __domain: 'tax', provenance_shard: { path: 'proof.json' } };
+    mergeItems([row]);
+    state.loadedDomains.set('tax', [row]);
+    state.searchIndexLoaded = true;
+    state.currentDomain = 'all';
+    const originalProvenance = hydrateSelectedProvenance;
+    hydrateSelectedProvenance = (...args) => (globalThis.pendingProvenance = originalProvenance(...args));
+    renderResults();
+    selectItem('item.rent');
+  `, page.context);
+  page.type('존재하지않는검색조건');
+  await page.flush();
+  const clearedDetail = page.detail.innerHTML;
+  assert.equal(vm.runInContext('state.selectedId', page.context), '');
+  finish({ items: [{ id: 'item.rent', provenance: [{ source_id: 'source.rent', original_url: 'https://example.test/evidence', checksum: 'evidence' }] }] });
+  await page.context.pendingProvenance;
+  assert.equal(page.detail.innerHTML, clearedDetail);
+  assert.equal(vm.runInContext('state.itemIndex.get("item.rent").provenance', page.context), undefined,
+    'an invalidated provenance request must not mutate the previous selection');
 });
