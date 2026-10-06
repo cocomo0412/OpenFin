@@ -269,7 +269,6 @@ function renderExportCards() {
   grid.innerHTML = (state.manifest.exports || [])
     .map((entry) => {
       const meta = domainMeta(entry.domain);
-      const filename = fileNameFromEntry(entry);
       const collectionMeta = collectionMetaForEntry(entry, state.manifest);
       return `
         <article class="export-card ${meta.className}" data-domain="${escapeAttribute(entry.domain)}">
@@ -277,10 +276,10 @@ function renderExportCards() {
           <h3>${escapeHtml(meta.short)}</h3>
           <div class="export-count">
             <strong>${formatNumber(entry.item_count || 0)}</strong>
-            <span>items</span>
+            <span>개 자료</span>
           </div>
           <p>${escapeHtml(entry.description || meta.summary)}</p>
-          <p class="export-metadata">${formatNumber(entry.product_count || 0)} product nodes · ${escapeHtml(filename)}</p>
+          <p class="export-metadata">상품 자료 ${formatNumber(entry.product_count || 0)}개</p>
           <p class="export-metadata export-file-date">파일 갱신일 ${escapeHtml(dateOnly(state.manifest.built_at) || '미기록')}</p>
           ${entry.catalog_refresh
             ? `<p class="export-metadata">최근 자료 수집 ${escapeHtml(dateOnly(entry.catalog_refresh.latest))}<br>공식 자료 반영 ${formatNumber(entry.catalog_refresh.count)}개 · 일부 과거 자료 포함</p>`

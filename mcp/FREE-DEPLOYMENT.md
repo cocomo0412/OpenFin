@@ -37,12 +37,12 @@
 
 ## 푸시부터 운영 검증까지
 
-`main`에 푸시하면 GitHub Actions에서 검증·빌드하고 Wrangler가 생성한 multipart 번들을 Cloudflare 공식 Worker 업로드 API로 배포합니다. Cloudflare Workers Builds의 초기화 단계를 사용하지 않습니다. 홈페이지는 GitHub Pages의 `main /docs` 배포이며 MCP Worker와 별도입니다.
+`mcp/**`, `docs/opentax/korea-tax-ontology-2026.json`, `.github/workflows/deploy-mcp.yml` 변경을 `main`에 푸시하면 GitHub Actions에서 검증·빌드하고 Wrangler가 생성한 multipart 번들을 Cloudflare 공식 Worker 업로드 API로 배포합니다. Cloudflare Workers Builds의 초기화 단계를 사용하지 않습니다. 홈페이지는 GitHub Pages의 `main /docs` 배포이며 MCP Worker와 별도입니다.
 
 GitHub Actions의 **OpenFin MCP pipeline** (`.github/workflows/deploy-mcp.yml`)이 배포를 담당합니다.
 
 1. Node 24와 lockfile로 의존성을 설치하고 카탈로그 생성·타입 검사·무료 MCP 테스트·Wrangler dry-run을 실행합니다. 관련 PR에서는 검증만 실행합니다.
-2. 검증을 통과한 main 커밋만 배포합니다. 배포 직전에 현재 main HEAD인지 확인하여 이미 교체된 커밋의 재배포를 막습니다. 배포 토큰은 이 단계에만 전달합니다.
+2. 검증을 통과한 main 커밋만 배포합니다. 배포 직전에 최신 main과 MCP 입력 범위를 비교합니다. 이후 홈페이지·매뉴얼만 바뀐 경우에는 검증된 번들을 배포할 수 있고, MCP 입력이 바뀌었다면 오래된 번들 배포를 막습니다. 배포 토큰은 이 단계에만 전달합니다.
 3. 업로드 성공 후 운영 URL에 공식 MCP SDK로 연결합니다. 버전·도구 목록·검색·조회·응답 안내·원자료 체크섬·입력 제한을 검사하며 전파 지연에는 최대 5회 재시도합니다.
 
 GitHub 자체 토큰은 소스 읽기 권한만 사용합니다. Cloudflare 토큰은 `openfin`에 한정한 `Individual Workers Editor` 권한으로 발급하고 GitHub Actions secret에 저장합니다. 저장소 파일·문서·로그에 토큰을 기록하지 않습니다. Cloudflare 기존 Git 빌드 연결은 해제하여 중복 배포를 방지합니다.
@@ -56,7 +56,7 @@ GitHub 자체 토큰은 소스 읽기 권한만 사용합니다. Cloudflare 토�
 - 인증 실패 시 secret의 유효기간과 계정·Worker 편집 권한을 확인합니다. 토큰을 소스에 붙여 넣지 않습니다.
 - 소스 오류라면 수정 후 main에 푸시합니다. 검증 성공 후 직접 배포합니다.
 - 일시적인 업로드 오류는 GitHub Actions의 실패한 작업을 다시 실행합니다. `workflow_dispatch`도 main의 검증·직접 배포·운영 검사를 실행합니다.
-- 이미 최신 커밋이 올라왔다면 과거 실행을 재시도하지 말고 최신 실행을 사용합니다.
+- MCP 입력이 바뀐 최신 커밋이 올라왔다면 과거 실행을 재시도하지 말고 최신 MCP 실행을 사용합니다.
 
 공식 문서: https://developers.cloudflare.com/workers/ci-cd/external-cicd/github-actions/
 Worker 업로드 API: https://developers.cloudflare.com/api/resources/workers/subresources/scripts/methods/update/

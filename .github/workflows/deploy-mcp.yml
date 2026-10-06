@@ -3,6 +3,8 @@ name: OpenFin MCP pipeline
 on:
   push:
     branches: [main]
+    # Website presentation and handbook edits do not change the Worker bundle.
+    paths: ['mcp/**', 'docs/opentax/korea-tax-ontology-2026.json', '.github/workflows/deploy-mcp.yml']
   pull_request:
     branches: [main]
     paths: ['mcp/**', 'docs/opentax/korea-tax-ontology-2026.json', '.github/workflows/deploy-mcp.yml']
@@ -35,6 +37,7 @@ jobs:
       - run: npm run typecheck
       - run: node --experimental-strip-types --test tests/free-catalog.test.mjs
       - run: node --test tests/deploy-free.test.mjs
+      - run: node --test tests/deploy-scope.test.mjs
       - name: Validate production bundle without deploying
         run: npx wrangler deploy --config wrangler.free.jsonc --dry-run
 
@@ -63,15 +66,11 @@ jobs:
             echo '::error::Add the scoped CLOUDFLARE_API_TOKEN repository secret before deploying.'
             exit 1
           fi
-      - name: Refuse deployment of a superseded main commit
-        env:
-          GH_TOKEN: ${{ github.token }}
+      - name: Refuse deployment if main has newer MCP inputs
         run: |
-          latest="$(gh api "repos/$GITHUB_REPOSITORY/commits/main" --jq .sha)"
-          if [ "$latest" != "$GITHUB_SHA" ]; then
-            echo '::error::This commit is no longer main HEAD. Deploy the latest pipeline run.'
-            exit 1
-          fi
+          git fetch --no-tags --depth=1 origin refs/heads/main
+          latest="$(git rev-parse FETCH_HEAD)"
+          node scripts/verify-deploy-scope.mjs "$GITHUB_SHA" "$latest"
       - name: Build the production upload bundle
         run: npx wrangler deploy --config wrangler.free.jsonc --dry-run --outfile "$RUNNER_TEMP/openfin-upload.bundle"
       - name: Deploy to the existing Worker without changing routes
