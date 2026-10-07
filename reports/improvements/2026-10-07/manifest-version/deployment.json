@@ -1,0 +1,25 @@
+{
+  "checked_at": "2026-10-07T06:18:09.812Z",
+  "commit": "3a6fbf52802553650fcb02c4e5a4c7cc39479a9a",
+  "website": {
+    "status": "verified",
+    "run_id": 37580309535,
+    "run_url": "https://github.com/cocomo0412/OpenFin/actions/runs/37580309535",
+    "workflow_status": "completed",
+    "workflow_conclusion": "success",
+    "http_status": 200,
+    "version": "KR-FINANCE-ONTOLOGY-MANIFEST-2026.10.07.1",
+    "manifest_checksum": "a478f5a681639931a04ce5e4d3f575eaacc628b0f11617b1bca5513c99842cc8",
+    "bytes_match": true,
+    "sha256": "ebcb28f8ed2a80403e31c0d98bf7bb2253b275e3085c65b63a308e7cc95899c9",
+    "basis_date": "2026-10-07"
+  },
+  "mcp": {
+    "deployed": false,
+    "reason": "No MCP code, configuration, dependency, or tax bundle input changes"
+  },
+  "collector": {
+    "timeout_changed": false,
+    "data_refreshed": false
+  }
+}
