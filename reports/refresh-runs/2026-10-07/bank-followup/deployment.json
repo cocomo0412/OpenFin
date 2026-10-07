@@ -1,0 +1,80 @@
+{
+  "verified_at": "2026-10-07T08:12:43.510Z",
+  "commit": "3e090c850b3fa0275991ee1540e0670d017e6711",
+  "website": {
+    "deployed": true,
+    "checked_files": [
+      {
+        "path": "docs/app.js",
+        "url": "https://cocomo0412.github.io/OpenFin/app.js",
+        "sha256": "4f3c5f0381b1cda00d7a8f4c1fcf20cee6b008853477089492d206ba64f2d012",
+        "matches_commit": true
+      },
+      {
+        "path": "docs/explorer.css",
+        "url": "https://cocomo0412.github.io/OpenFin/explorer.css",
+        "sha256": "7f195f3beb93043249d91a72051c645d03a5a2bb22c8d887ec2004bc12081601",
+        "matches_commit": true
+      },
+      {
+        "path": "docs/opentax/finance-ontology-manifest.json",
+        "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-ontology-manifest.json",
+        "sha256": "ec7799b10f07ef494f5258e44e768c0e697fd3518803ae659c3d108a8592b183",
+        "matches_commit": true
+      },
+      {
+        "path": "docs/opentax/collection-inventory.json",
+        "url": "https://cocomo0412.github.io/OpenFin/opentax/collection-inventory.json",
+        "sha256": "bd2f91c57c7a85e5442841706731951037e4c890fdedf3bbeacff1f1b300ded2",
+        "matches_commit": true
+      },
+      {
+        "path": "docs/opentax/api-snapshots/source.fss.finlife.api-deposit.json",
+        "url": "https://cocomo0412.github.io/OpenFin/opentax/api-snapshots/source.fss.finlife.api-deposit.json",
+        "sha256": "f94d0d888decad7b7c5945f472362ecf8766f22805c0d0e83d11b0ebd41c8581",
+        "matches_commit": true
+      },
+      {
+        "path": "docs/opentax/api-snapshots/source.fss.finlife.api-saving.json",
+        "url": "https://cocomo0412.github.io/OpenFin/opentax/api-snapshots/source.fss.finlife.api-saving.json",
+        "sha256": "5f01b2c996ff824ecf6d4479625fea9d9d762e7586664bcf4a6951a603d92909",
+        "matches_commit": true
+      }
+    ],
+    "bank": [
+      {
+        "operation": "deposit",
+        "count": 432,
+        "collected_at": "2026-10-07T08:02:47.885Z"
+      },
+      {
+        "operation": "saving",
+        "count": 335,
+        "collected_at": "2026-10-07T08:02:47.885Z"
+      }
+    ],
+    "pension_pending": 5
+  },
+  "pages": {
+    "id": 37591950700,
+    "url": "https://github.com/cocomo0412/OpenFin/actions/runs/37591950700",
+    "conclusion": "success"
+  },
+  "mcp": {
+    "redeployed": false,
+    "required": false,
+    "reason": "No changed code, configuration, dependencies, or tax bundle inputs"
+  },
+  "workflows": [
+    {
+      "name": "OpenFin search quality",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "pages build and deployment",
+      "status": "completed",
+      "conclusion": "success"
+    }
+  ]
+}
