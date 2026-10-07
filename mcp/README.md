@@ -37,6 +37,6 @@ npm run dev
 
 현재 운영 경로는 GitHub Actions `OpenFin MCP pipeline`과 `scripts/deploy-free.mjs`입니다. `wrangler.toml`과 `wrangler.free.jsonc`는 무료판을 가리키며 Paid CPU 설정은 사용하지 않습니다. 전체판 Immutable Release 등의 workflow는 비활성화되어 있습니다. 상세 검증·배포·복구 절차는 [FREE-DEPLOYMENT.md](FREE-DEPLOYMENT.md)를 따릅니다.
 
-홈페이지 표시와 문서만 변경하면 Worker 번들을 다시 배포할 필요는 없습니다. 단, 현재 pipeline의 `mcp/**` 경로 필터에는 이 README도 포함되므로 원격 반영 시 자동 배포 실행 범위를 별도로 확인해야 합니다. MCP 코드·설정·의존성·번들 원자료가 바뀌면 MCP 검증과 배포를 포함합니다.
+홈페이지 표시와 Markdown 문서만 변경하면 Worker 번들을 다시 배포하지 않습니다. pipeline은 Markdown을 실행 경로에서 제외하며, workflow만 변경한 경우 검증은 실행하되 Worker 업로드는 건너뜁니다. MCP 코드·설정·의존성·번들 원자료가 바뀌면 검증과 배포를 포함합니다. 명시적인 수동 workflow 실행은 재배포 요청으로 처리합니다.
 
 이전 전체판의 manifest 로딩·Paid·비교 및 추천 설계는 [과거 설계 기록](../reports/archive/mcp-full-edition-readme.md)에 보존했습니다. 현행 무료판 운영 절차로 사용하지 않습니다.

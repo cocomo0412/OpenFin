@@ -3,11 +3,11 @@ name: OpenFin MCP pipeline
 on:
   push:
     branches: [main]
-    # Website presentation and handbook edits do not change the Worker bundle.
-    paths: ['mcp/**', 'docs/opentax/korea-tax-ontology-2026.json', '.github/workflows/deploy-mcp.yml']
+    # Markdown changes do not change the Worker bundle.
+    paths: ['mcp/**', '!mcp/**/*.md', 'docs/opentax/korea-tax-ontology-2026.json', '.github/workflows/deploy-mcp.yml']
   pull_request:
     branches: [main]
-    paths: ['mcp/**', 'docs/opentax/korea-tax-ontology-2026.json', '.github/workflows/deploy-mcp.yml']
+    paths: ['mcp/**', '!mcp/**/*.md', 'docs/opentax/korea-tax-ontology-2026.json', '.github/workflows/deploy-mcp.yml']
   workflow_dispatch:
 
 permissions:
@@ -19,6 +19,41 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  scope:
+    runs-on: ubuntu-latest
+    outputs:
+      deploy: ${{ steps.scope.outputs.deploy }}
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          fetch-depth: 0
+      - name: Determine whether Worker inputs changed
+        id: scope
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          BEFORE_SHA: ${{ github.event.before }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ "$EVENT_NAME" == 'workflow_dispatch' ]]; then
+            echo 'deploy=true' >> "$GITHUB_OUTPUT"
+          elif [[ "$EVENT_NAME" == 'push' ]]; then
+            # The first push has no previous tree; deploy conservatively.
+            if [[ "$BEFORE_SHA" =~ ^0+$ ]]; then
+              echo 'deploy=true' >> "$GITHUB_OUTPUT"
+            else
+              git rev-parse --verify "${BEFORE_SHA}^{commit}" >/dev/null
+              changed=$(git diff --name-only "$BEFORE_SHA" "$GITHUB_SHA" -- mcp ':(exclude,glob)mcp/**/*.md' docs/opentax/korea-tax-ontology-2026.json)
+              if [[ -n "$changed" ]]; then
+                echo 'deploy=true' >> "$GITHUB_OUTPUT"
+              else
+                echo 'deploy=false' >> "$GITHUB_OUTPUT"
+              fi
+            fi
+          else
+            echo 'deploy=false' >> "$GITHUB_OUTPUT"
+          fi
+
   validate:
     runs-on: ubuntu-latest
     timeout-minutes: 15
@@ -43,8 +78,8 @@ jobs:
 
   deploy:
     # Cloudflare native Git builds must be disconnected before enabling this job.
-    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
-    needs: validate
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && needs.scope.outputs.deploy == 'true'
+    needs: [validate, scope]
     runs-on: ubuntu-latest
     timeout-minutes: 15
     defaults:
