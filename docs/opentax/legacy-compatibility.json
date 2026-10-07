@@ -1,6 +1,6 @@
 {
   "version": "openfin-legacy-compatibility-v1",
-  "generated_at": "2026-10-01T07:48:09.740707+00:00",
+  "generated_at": "2026-10-07T05:49:17.211Z",
   "replacement_path": "finance-ontology-manifest.json",
   "release_status": "ready",
   "core_search_status": "ready",
@@ -15,15 +15,15 @@
     "deprecated": true,
     "replacement_path": "domain_readiness",
     "export_audit": {
-      "built_at": "2026-10-01T07:48:09.740707+00:00",
+      "built_at": "2026-10-07T05:49:17.211Z",
       "domain_export_count": 10,
-      "search_index_item_count": 80944,
+      "search_index_item_count": 75743,
       "canonical_product_count": 53293,
       "duplicate_canonical_product_count": 0,
       "canonical_merge_count": 49,
       "checksum_covered_export_count": 18,
       "broken_relation_count": 0,
-      "relationship_count": 220592,
+      "relationship_count": 210190,
       "collection_failure_sources": 148
     },
     "live_regression": {
@@ -5211,7 +5211,7 @@
       "migration_notice": "Historical upstream evidence; identity redacted. Not evidence for current deployment.",
       "evidence_path": "evidence/live-regression/current.json",
       "evidence_checksum": "e1c3d057e9c005525e6d411f7e8892d91e67e7feb3ffda9ba3e08cb22d2916ba",
-      "expected_generation_id": "e9553982a3ee15adb7baafa2a49b37b06f9d7e81dc01b11e6311a368d89201f2",
+      "expected_generation_id": "202f1d02cfb3b5ab52fb96d2c0c30c2aa315bd5e92e276e39799f642fd333307",
       "expected_fixture_checksum": "sha256:1030ce9505034216880ef47384cea521cc76000089d4b32942ba53a68c2c7989",
       "validation_status": "failed"
     },

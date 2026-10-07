@@ -1,0 +1,14 @@
+✔ free instructions distinguish official web documents from API evidence (1.4756ms)
+✔ free instructions forbid claiming follow-up verification without checking (0.3328ms)
+✔ free instructions separate OpenFin evidence from current official verification (0.3441ms)
+✔ free MCP exposes bounded tax data without recommendations (15.2461ms)
+✔ all tool payloads explain date scope without concealing evidence or claiming verification (0.9445ms)
+✔ lookup keeps item evidence without applying the whole catalog date to every result (3.6846ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 247.3532

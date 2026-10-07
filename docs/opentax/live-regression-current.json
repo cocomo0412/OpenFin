@@ -5183,7 +5183,7 @@
   "migration_notice": "Historical upstream evidence; identity redacted. Not evidence for current deployment.",
   "evidence_path": "opentax/live-regression-current.json",
   "evidence_checksum": "e1c3d057e9c005525e6d411f7e8892d91e67e7feb3ffda9ba3e08cb22d2916ba",
-  "expected_generation_id": "e9553982a3ee15adb7baafa2a49b37b06f9d7e81dc01b11e6311a368d89201f2",
+  "expected_generation_id": "202f1d02cfb3b5ab52fb96d2c0c30c2aa315bd5e92e276e39799f642fd333307",
   "expected_fixture_checksum": "sha256:1030ce9505034216880ef47384cea521cc76000089d4b32942ba53a68c2c7989",
   "validation_status": "failed",
   "source_evidence_path": "evidence/live-regression/current.json"

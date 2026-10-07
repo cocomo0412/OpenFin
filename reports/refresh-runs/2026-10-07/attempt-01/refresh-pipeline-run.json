@@ -1,0 +1,20 @@
+{
+  "started_at": "2026-10-07T05:36:48.166Z",
+  "basis_date": "2026-10-07",
+  "mode": "refresh",
+  "stages": [
+    {
+      "id": "public-api",
+      "status": "failed",
+      "exit_code": 1,
+      "duration_ms": 75815
+    },
+    {
+      "id": "bank",
+      "status": "failed",
+      "exit_code": 1,
+      "duration_ms": 18527
+    }
+  ],
+  "status": "failed"
+}

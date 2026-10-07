@@ -1,0 +1,726 @@
+{
+  "basis_date": "2026-10-07",
+  "next_target_date": "2026-10-14",
+  "cadence": "approximately_every_7_days",
+  "automation_enabled": false,
+  "verified_at": "2026-10-07T05:56:26.437Z",
+  "status": "partial_refresh_locally_verified",
+  "previous_basis_date": "2026-10-01",
+  "previous_total_items": 80944,
+  "total_items": 75743,
+  "item_counts": {
+    "refreshed": 67392,
+    "historical_absent": 293,
+    "structural_reference": 306,
+    "previous_success": 7342,
+    "cause_unclassified": 410
+  },
+  "retained_items": 8351,
+  "collection": {
+    "public_api_jobs": 27,
+    "public_api_rows": 57493,
+    "additional_finlife_successful_datasets": 10,
+    "additional_finlife_rows": 281,
+    "gov24_rows": 10951,
+    "retained_bank_rows": 767,
+    "retained_bank_collected_at": "2026-10-01T07:44:18.122Z"
+  },
+  "pending": [
+    {
+      "endpoint": "annuitySavingProductsSearch",
+      "group": "020000",
+      "checked_at": "2026-10-07T05:49:11.027Z",
+      "error": "Unexpected schema: response is not retirement savings",
+      "reason": "제공기관 연금저축 API 응답의 상품 구조 또는 총건수와 실제 행수가 일치하지 않아 반영하지 않았습니다.",
+      "documentation_url": "https://finlife.fss.or.kr/finlife/api/anntySvingsApi/list.do?menuNo=700054",
+      "source_id": "source.fss.finlife.api",
+      "status": "provider_response_rejected"
+    },
+    {
+      "endpoint": "annuitySavingProductsSearch",
+      "group": "030200",
+      "checked_at": "2026-10-07T05:49:11.185Z",
+      "error": "Unexpected schema: response is not retirement savings",
+      "reason": "제공기관 연금저축 API 응답의 상품 구조 또는 총건수와 실제 행수가 일치하지 않아 반영하지 않았습니다.",
+      "documentation_url": "https://finlife.fss.or.kr/finlife/api/anntySvingsApi/list.do?menuNo=700054",
+      "source_id": "source.fss.finlife.api",
+      "status": "provider_response_rejected"
+    },
+    {
+      "endpoint": "annuitySavingProductsSearch",
+      "group": "030300",
+      "checked_at": "2026-10-07T05:49:11.344Z",
+      "error": "Unexpected schema: response is not retirement savings",
+      "reason": "제공기관 연금저축 API 응답의 상품 구조 또는 총건수와 실제 행수가 일치하지 않아 반영하지 않았습니다.",
+      "documentation_url": "https://finlife.fss.or.kr/finlife/api/anntySvingsApi/list.do?menuNo=700054",
+      "source_id": "source.fss.finlife.api",
+      "status": "provider_response_rejected"
+    },
+    {
+      "endpoint": "annuitySavingProductsSearch",
+      "group": "050000",
+      "checked_at": "2026-10-07T05:49:11.503Z",
+      "error": "Unexpected schema: response is not retirement savings",
+      "reason": "제공기관 연금저축 API 응답의 상품 구조 또는 총건수와 실제 행수가 일치하지 않아 반영하지 않았습니다.",
+      "documentation_url": "https://finlife.fss.or.kr/finlife/api/anntySvingsApi/list.do?menuNo=700054",
+      "source_id": "source.fss.finlife.api",
+      "status": "provider_response_rejected"
+    },
+    {
+      "endpoint": "annuitySavingProductsSearch",
+      "group": "060000",
+      "checked_at": "2026-10-07T05:49:11.670Z",
+      "error": "Incomplete pagination",
+      "reason": "제공기관 연금저축 API 응답의 상품 구조 또는 총건수와 실제 행수가 일치하지 않아 반영하지 않았습니다.",
+      "documentation_url": "https://finlife.fss.or.kr/finlife/api/anntySvingsApi/list.do?menuNo=700054",
+      "source_id": "source.fss.finlife.api",
+      "status": "provider_response_rejected"
+    },
+    {
+      "source_id": "source.fss.finlife.api",
+      "retained_collection_stage": "bank",
+      "scope": "예금·적금 목록 수집 단계 전체; 개별 API 요청별 실패 판정은 아님",
+      "status": "collection_failed_existing_snapshot_retained",
+      "checked_at": "2026-10-07T05:41:57.082Z",
+      "checked_at_basis": "prior-run-start-plus-stage-durations (approximate)",
+      "retained_collected_at": "2026-10-01T07:44:18.122Z",
+      "retained_snapshot_sha256": "6d10de9c8973a838308b8200a1e89646e212b2a6075712030977d6133f4df04f",
+      "reason": "전체 목록 수집 단계가 완료되지 않아 이전 정상 자료와 원래 수집일을 유지했습니다. 개별 요청의 성공·실패를 확대 해석하지 않습니다."
+    }
+  ],
+  "datasets": [
+    {
+      "source_id": "source.bok.ecos",
+      "title": "한국은행 기준금리",
+      "operation": "StatisticSearch",
+      "previous_count": 46,
+      "count": 43,
+      "count_delta": -3,
+      "previous_filters": {
+        "stat_code": "722Y001",
+        "cycle": "D",
+        "item_code": "0101000",
+        "start": "20260817",
+        "end": "20261001"
+      },
+      "filters": {
+        "stat_code": "722Y001",
+        "cycle": "D",
+        "item_code": "0101000",
+        "start": "20260823",
+        "end": "20261007"
+      },
+      "previous_collected_at": "2026-10-01T07:48:09.740707+00:00",
+      "collected_at": "2026-10-07T05:40:31.895104+00:00",
+      "route": "provider_direct_api"
+    },
+    {
+      "source_id": "source.data.go.kr.kinfa-loan-handling-agencies",
+      "title": "서민금융진흥원 서민대출상품 취급기관 정보 서비스",
+      "operation": "getLoanProductHandlingAgencyInfo",
+      "previous_count": 657,
+      "count": 657,
+      "count_delta": 0,
+      "previous_filters": {},
+      "filters": {},
+      "previous_collected_at": "2026-10-01T07:44:20.540106+00:00",
+      "collected_at": "2026-10-07T05:40:32.984778+00:00",
+      "route": "public_data_portal_api"
+    },
+    {
+      "source_id": "source.data.go.kr.kinfa-loan-products",
+      "title": "서민금융진흥원 대출상품한눈에 정보 서비스",
+      "operation": "getLoanProductSearchingInfo",
+      "previous_count": 318,
+      "count": 318,
+      "count_delta": 0,
+      "previous_filters": {},
+      "filters": {},
+      "previous_collected_at": "2026-10-01T07:44:20.004129+00:00",
+      "collected_at": "2026-10-07T05:40:33.280097+00:00",
+      "route": "public_data_portal_api"
+    },
+    {
+      "source_id": "source.data.go.kr.kinfa-support-centers",
+      "title": "서민금융진흥원 서민금융통합지원센터 현황",
+      "operation": "getCenterMisoBranchInfo",
+      "previous_count": 216,
+      "count": 216,
+      "count_delta": 0,
+      "previous_filters": {},
+      "filters": {},
+      "previous_collected_at": "2026-10-01T07:44:19.267432+00:00",
+      "collected_at": "2026-10-07T05:40:32.757388+00:00",
+      "route": "public_data_portal_api"
+    },
+    {
+      "source_id": "source.fsc.domestic-bank-statistics",
+      "title": "금융위원회 금융통계국내은행정보",
+      "operation": "getDomeBankGeneInfo",
+      "previous_count": 818,
+      "count": 979,
+      "count_delta": 161,
+      "previous_filters": {
+        "basYm": "202603"
+      },
+      "filters": {
+        "basYm": "202606"
+      },
+      "previous_collected_at": "2026-10-01T07:44:21.224528+00:00",
+      "collected_at": "2026-10-07T05:40:34.209319+00:00",
+      "route": "public_data_portal_api"
+    },
+    {
+      "source_id": "source.fsc.financial-company-basic",
+      "title": "금융위원회 금융회사기본정보",
+      "operation": "getFnCoOutl",
+      "previous_count": 1104,
+      "count": 1104,
+      "count_delta": 0,
+      "previous_filters": {
+        "basDt": "20260922"
+      },
+      "filters": {
+        "basDt": "20260922"
+      },
+      "previous_collected_at": "2026-10-01T07:45:11.663880+00:00",
+      "collected_at": "2026-10-07T05:41:02.121151+00:00",
+      "route": "public_data_portal_api"
+    },
+    {
+      "source_id": "source.fsc.financial-company-credit",
+      "title": "금융위원회 금융회사재무신용정보",
+      "operation": "getFnCoBs_V2",
+      "previous_count": 774,
+      "count": 774,
+      "count_delta": 0,
+      "previous_filters": {
+        "bizYear": "2025"
+      },
+      "filters": {
+        "bizYear": "2025"
+      },
+      "previous_collected_at": "2026-10-01T07:44:22.584087+00:00",
+      "collected_at": "2026-10-07T05:40:34.669668+00:00",
+      "route": "public_data_portal_api"
+    },
+    {
+      "source_id": "source.fsc.financial-company-credit",
+      "title": "금융위원회 금융회사재무신용정보",
+      "operation": "getFnCoSummFinaStat_V2",
+      "previous_count": 87,
+      "count": 87,
+      "count_delta": 0,
+      "previous_filters": {
+        "bizYear": "2025"
+      },
+      "filters": {
+        "bizYear": "2025"
+      },
+      "previous_collected_at": "2026-10-01T07:44:21.618005+00:00",
+      "collected_at": "2026-10-07T05:40:34.557054+00:00",
+      "route": "public_data_portal_api"
+    },
+    {
+      "source_id": "source.fsc.financial-company-credit",
+      "title": "금융위원회 금융회사재무신용정보",
+      "operation": "getFnCoIs_V2",
+      "previous_count": 435,
+      "count": 435,
+      "count_delta": 0,
+      "previous_filters": {
+        "bizYear": "2025"
+      },
+      "filters": {
+        "bizYear": "2025"
+      },
+      "previous_collected_at": "2026-10-01T07:44:22.642588+00:00",
+      "collected_at": "2026-10-07T05:40:35.511907+00:00",
+      "route": "public_data_portal_api"
+    },
+    {
+      "source_id": "source.fsc.financial-investment-statistics",
+      "title": "금융위원회 금융투자협회종합통계정보",
+      "operation": "getTrustScaleInfo",
+      "previous_count": 330,
+      "count": 330,
+      "count_delta": 0,
+      "previous_filters": {
+        "basYm": "202607"
+      },
+      "filters": {
+        "basYm": "202607"
+      },
+      "previous_collected_at": "2026-10-01T07:44:23.478260+00:00",
+      "collected_at": "2026-10-07T05:40:35.222744+00:00",
+      "route": "public_data_portal_api"
+    },
+    {
+      "source_id": "source.fsc.financial-investment-statistics",
+      "title": "금융위원회 금융투자협회종합통계정보",
+      "operation": "getFundTotalNetEssetInfo",
+      "previous_count": 25,
+      "count": 25,
+      "count_delta": 0,
+      "previous_filters": {
+        "basDt": "20260929"
+      },
+      "filters": {
+        "basDt": "20261002"
+      },
+      "previous_collected_at": "2026-10-01T07:44:22.897423+00:00",
+      "collected_at": "2026-10-07T05:40:35.417352+00:00",
+      "route": "public_data_portal_api"
+    },
+    {
+      "source_id": "source.fsc.financial-investment-statistics",
+      "title": "금융위원회 금융투자협회종합통계정보",
+      "operation": "getCMAStatus",
+      "previous_count": 12,
+      "count": 12,
+      "count_delta": 0,
+      "previous_filters": {
+        "basDt": "20260929"
+      },
+      "filters": {
+        "basDt": "20261002"
+      },
+      "previous_collected_at": "2026-10-01T07:44:23.119176+00:00",
+      "collected_at": "2026-10-07T05:40:35.592097+00:00",
+      "route": "public_data_portal_api"
+    },
+    {
+      "source_id": "source.fsc.financial-investment-statistics",
+      "title": "금융위원회 금융투자협회종합통계정보",
+      "operation": "getGrantingOfCreditBalanceInfo",
+      "previous_count": 1,
+      "count": 1,
+      "count_delta": 0,
+      "previous_filters": {
+        "basDt": "20260929"
+      },
+      "filters": {
+        "basDt": "20261002"
+      },
+      "previous_collected_at": "2026-10-01T07:44:23.337289+00:00",
+      "collected_at": "2026-10-07T05:40:35.748564+00:00",
+      "route": "public_data_portal_api"
+    },
+    {
+      "source_id": "source.fsc.financial-investment-statistics",
+      "title": "금융위원회 금융투자협회종합통계정보",
+      "operation": "getSecuritiesMarketTotalCapitalInfo",
+      "previous_count": 1,
+      "count": 1,
+      "count_delta": 0,
+      "previous_filters": {
+        "basDt": "20260929"
+      },
+      "filters": {
+        "basDt": "20261002"
+      },
+      "previous_collected_at": "2026-10-01T07:44:23.582428+00:00",
+      "collected_at": "2026-10-07T05:40:35.774598+00:00",
+      "route": "public_data_portal_api"
+    },
+    {
+      "source_id": "source.fsc.financial-investment-statistics",
+      "title": "금융위원회 금융투자협회종합통계정보",
+      "operation": "getDLSAndDLBInfo",
+      "previous_count": 21,
+      "count": 21,
+      "count_delta": 0,
+      "previous_filters": {
+        "basDt": "202608"
+      },
+      "filters": {
+        "basDt": "202608"
+      },
+      "previous_collected_at": "2026-10-01T07:44:23.685853+00:00",
+      "collected_at": "2026-10-07T05:40:35.969339+00:00",
+      "route": "public_data_portal_api"
+    },
+    {
+      "source_id": "source.fsc.financial-investment-statistics",
+      "title": "금융위원회 금융투자협회종합통계정보",
+      "operation": "getELSAndELBInfo",
+      "previous_count": 21,
+      "count": 21,
+      "count_delta": 0,
+      "previous_filters": {
+        "basDt": "202608"
+      },
+      "filters": {
+        "basDt": "202608"
+      },
+      "previous_collected_at": "2026-10-01T07:44:23.821808+00:00",
+      "collected_at": "2026-10-07T05:40:36.000486+00:00",
+      "route": "public_data_portal_api"
+    },
+    {
+      "source_id": "source.fsc.financial-investment-statistics",
+      "title": "금융위원회 금융투자협회종합통계정보",
+      "operation": "getDerivationProductTradingInfo",
+      "previous_count": 1841,
+      "count": 1841,
+      "count_delta": 0,
+      "previous_filters": {
+        "basDt": "202608"
+      },
+      "filters": {
+        "basDt": "202608"
+      },
+      "previous_collected_at": "2026-10-01T07:44:26.871955+00:00",
+      "collected_at": "2026-10-07T05:40:38.738043+00:00",
+      "route": "public_data_portal_api"
+    },
+    {
+      "source_id": "source.fsc.fund-products-basic",
+      "title": "금융위원회 펀드상품기본정보",
+      "operation": "getStandardCodeInfo",
+      "previous_count": 369,
+      "count": 206,
+      "count_delta": -163,
+      "previous_filters": {
+        "basDt": "20261001"
+      },
+      "filters": {
+        "basDt": "20261007"
+      },
+      "previous_collected_at": "2026-10-01T07:44:25.190865+00:00",
+      "collected_at": "2026-10-07T05:40:36.592026+00:00",
+      "route": "public_data_portal_api"
+    },
+    {
+      "source_id": "source.fsc.inclusive-finance-performance",
+      "title": "금융위원회 서민금융지원실적정보",
+      "operation": "getMicroCreditInfo",
+      "previous_count": 201,
+      "count": 201,
+      "count_delta": 0,
+      "previous_filters": {},
+      "filters": {},
+      "previous_collected_at": "2026-10-01T07:44:25.570061+00:00",
+      "collected_at": "2026-10-07T05:40:36.889429+00:00",
+      "route": "public_data_portal_api"
+    },
+    {
+      "source_id": "source.fsc.inclusive-finance-performance",
+      "title": "금융위원회 서민금융지원실적정보",
+      "operation": "getSunshineLoanInfo",
+      "previous_count": 201,
+      "count": 201,
+      "count_delta": 0,
+      "previous_filters": {},
+      "filters": {},
+      "previous_collected_at": "2026-10-01T07:44:25.880479+00:00",
+      "collected_at": "2026-10-07T05:40:37.221712+00:00",
+      "route": "public_data_portal_api"
+    },
+    {
+      "source_id": "source.fsc.inclusive-finance-products",
+      "title": "금융위원회 서민금융상품기본정보",
+      "operation": "getOrdinaryFinanceInfo",
+      "previous_count": 329,
+      "count": 329,
+      "count_delta": 0,
+      "previous_filters": {
+        "basYm": "202609"
+      },
+      "filters": {
+        "basYm": "202609"
+      },
+      "previous_collected_at": "2026-10-01T07:44:27.214714+00:00",
+      "collected_at": "2026-10-07T05:40:38.440893+00:00",
+      "route": "public_data_portal_api"
+    },
+    {
+      "source_id": "source.fsc.medical-reimbursement-insurance",
+      "title": "금융위원회 실손보험정보",
+      "operation": "getInsuranceInfo",
+      "previous_count": 7456,
+      "count": 2224,
+      "count_delta": -5232,
+      "previous_filters": {
+        "basDt": "20260901"
+      },
+      "filters": {
+        "basDt": "20260921"
+      },
+      "previous_collected_at": "2026-10-01T07:44:39.485300+00:00",
+      "collected_at": "2026-10-07T05:40:41.974737+00:00",
+      "route": "public_data_portal_api"
+    },
+    {
+      "source_id": "source.fsc.retirement-pension-basic",
+      "title": "금융위원회 퇴직연금기본정보",
+      "operation": "getFundInfo",
+      "previous_count": 118,
+      "count": 150,
+      "count_delta": 32,
+      "previous_filters": {
+        "basDt": "20260930"
+      },
+      "filters": {
+        "basDt": "20260930"
+      },
+      "previous_collected_at": "2026-10-01T07:44:28.283868+00:00",
+      "collected_at": "2026-10-07T05:40:39.971810+00:00",
+      "route": "public_data_portal_api"
+    },
+    {
+      "source_id": "source.fsc.variable-insurance-info",
+      "title": "금융위원회 변액보험기본정보",
+      "operation": "getFundInfo",
+      "previous_count": 1806,
+      "count": 1806,
+      "count_delta": 0,
+      "previous_filters": {
+        "basDt": "20260930"
+      },
+      "filters": {
+        "basDt": "20260930"
+      },
+      "previous_collected_at": "2026-10-01T07:44:50.427559+00:00",
+      "collected_at": "2026-10-07T05:40:53.992106+00:00",
+      "route": "public_data_portal_api"
+    },
+    {
+      "source_id": "source.hf.bogeumjari-openapi",
+      "title": "한국주택금융공사 u-보금자리론대출정보",
+      "operation": "uloan-info",
+      "previous_count": 1,
+      "count": 1,
+      "count_delta": 0,
+      "previous_filters": {},
+      "filters": {},
+      "previous_collected_at": "2026-10-01T07:44:39.828358+00:00",
+      "collected_at": "2026-10-07T05:40:42.247556+00:00",
+      "route": "public_data_portal_api"
+    },
+    {
+      "source_id": "source.kdic.insured-products",
+      "title": "예금보험공사 예금자보호 금융상품",
+      "operation": "getProductList202607",
+      "previous_count": 45226,
+      "count": 45226,
+      "count_delta": 0,
+      "previous_filters": {},
+      "filters": {},
+      "previous_collected_at": "2026-10-01T07:45:37.767167+00:00",
+      "collected_at": "2026-10-07T05:41:37.427526+00:00",
+      "route": "public_data_portal_api"
+    },
+    {
+      "source_id": "source.kdic.insured-products",
+      "title": "예금보험공사 예금자보호 금융상품",
+      "operation": "getCompanyList202607",
+      "previous_count": 284,
+      "count": 284,
+      "count_delta": 0,
+      "previous_filters": {},
+      "filters": {},
+      "previous_collected_at": "2026-10-01T07:44:51.645007+00:00",
+      "collected_at": "2026-10-07T05:40:55.103535+00:00",
+      "route": "public_data_portal_api"
+    },
+    {
+      "source_id": "source.fss.finlife.api",
+      "title": "금융감독원 정기예금 공시",
+      "operation": "deposit",
+      "previous_count": 432,
+      "count": 432,
+      "count_delta": 0,
+      "previous_filters": null,
+      "filters": null,
+      "previous_collected_at": "2026-10-01T07:44:18.122Z",
+      "collected_at": "2026-10-01T07:44:18.122Z",
+      "route": "provider_direct_api"
+    },
+    {
+      "source_id": "source.fss.finlife.api",
+      "title": "금융감독원 적금 공시",
+      "operation": "saving",
+      "previous_count": 335,
+      "count": 335,
+      "count_delta": 0,
+      "previous_filters": null,
+      "filters": null,
+      "previous_collected_at": "2026-10-01T07:44:18.122Z",
+      "collected_at": "2026-10-01T07:44:18.122Z",
+      "route": "provider_direct_api"
+    },
+    {
+      "source_id": "source.fss.finlife.api",
+      "title": "금융감독원 전세자금대출 (020000)",
+      "operation": "rentHouseLoanProductsSearch-020000",
+      "previous_count": 41,
+      "count": 41,
+      "count_delta": 0,
+      "previous_filters": null,
+      "filters": null,
+      "previous_collected_at": "2026-10-01T07:44:37.627Z",
+      "collected_at": "2026-10-07T05:49:09.283Z",
+      "route": "provider_direct_api"
+    },
+    {
+      "source_id": "source.fss.finlife.api",
+      "title": "금융감독원 전세자금대출 (030300)",
+      "operation": "rentHouseLoanProductsSearch-030300",
+      "previous_count": 8,
+      "count": 8,
+      "count_delta": 0,
+      "previous_filters": null,
+      "filters": null,
+      "previous_collected_at": "2026-10-01T07:44:37.627Z",
+      "collected_at": "2026-10-07T05:49:09.523Z",
+      "route": "provider_direct_api"
+    },
+    {
+      "source_id": "source.fss.finlife.api",
+      "title": "금융감독원 전세자금대출 (050000)",
+      "operation": "rentHouseLoanProductsSearch-050000",
+      "previous_count": 9,
+      "count": 9,
+      "count_delta": 0,
+      "previous_filters": null,
+      "filters": null,
+      "previous_collected_at": "2026-10-01T07:44:37.627Z",
+      "collected_at": "2026-10-07T05:49:09.719Z",
+      "route": "provider_direct_api"
+    },
+    {
+      "source_id": "source.fss.finlife.api",
+      "title": "금융감독원 주택담보대출 (020000)",
+      "operation": "mortgageLoanProductsSearch-020000",
+      "previous_count": 34,
+      "count": 34,
+      "count_delta": 0,
+      "previous_filters": null,
+      "filters": null,
+      "previous_collected_at": "2026-10-01T07:44:37.627Z",
+      "collected_at": "2026-10-07T05:49:09.932Z",
+      "route": "provider_direct_api"
+    },
+    {
+      "source_id": "source.fss.finlife.api",
+      "title": "금융감독원 주택담보대출 (030300)",
+      "operation": "mortgageLoanProductsSearch-030300",
+      "previous_count": 57,
+      "count": 57,
+      "count_delta": 0,
+      "previous_filters": null,
+      "filters": null,
+      "previous_collected_at": "2026-10-01T07:44:37.627Z",
+      "collected_at": "2026-10-07T05:49:10.148Z",
+      "route": "provider_direct_api"
+    },
+    {
+      "source_id": "source.fss.finlife.api",
+      "title": "금융감독원 주택담보대출 (050000)",
+      "operation": "mortgageLoanProductsSearch-050000",
+      "previous_count": 20,
+      "count": 20,
+      "count_delta": 0,
+      "previous_filters": null,
+      "filters": null,
+      "previous_collected_at": "2026-10-01T07:44:37.627Z",
+      "collected_at": "2026-10-07T05:49:10.316Z",
+      "route": "provider_direct_api"
+    },
+    {
+      "source_id": "source.fss.finlife.api",
+      "title": "금융감독원 신용대출 (020000)",
+      "operation": "creditLoanProductsSearch-020000",
+      "previous_count": 44,
+      "count": 44,
+      "count_delta": 0,
+      "previous_filters": null,
+      "filters": null,
+      "previous_collected_at": "2026-10-01T07:44:37.627Z",
+      "collected_at": "2026-10-07T05:49:10.450Z",
+      "route": "provider_direct_api"
+    },
+    {
+      "source_id": "source.fss.finlife.api",
+      "title": "금융감독원 신용대출 (030200)",
+      "operation": "creditLoanProductsSearch-030200",
+      "previous_count": 29,
+      "count": 29,
+      "count_delta": 0,
+      "previous_filters": null,
+      "filters": null,
+      "previous_collected_at": "2026-10-01T07:44:37.627Z",
+      "collected_at": "2026-10-07T05:49:10.588Z",
+      "route": "provider_direct_api"
+    },
+    {
+      "source_id": "source.fss.finlife.api",
+      "title": "금융감독원 신용대출 (030300)",
+      "operation": "creditLoanProductsSearch-030300",
+      "previous_count": 33,
+      "count": 33,
+      "count_delta": 0,
+      "previous_filters": null,
+      "filters": null,
+      "previous_collected_at": "2026-10-01T07:44:37.627Z",
+      "collected_at": "2026-10-07T05:49:10.741Z",
+      "route": "provider_direct_api"
+    },
+    {
+      "source_id": "source.fss.finlife.api",
+      "title": "금융감독원 신용대출 (050000)",
+      "operation": "creditLoanProductsSearch-050000",
+      "previous_count": 6,
+      "count": 6,
+      "count_delta": 0,
+      "previous_filters": null,
+      "filters": null,
+      "previous_collected_at": "2026-10-01T07:44:37.627Z",
+      "collected_at": "2026-10-07T05:49:10.862Z",
+      "route": "provider_direct_api"
+    },
+    {
+      "source_id": "source.gov24.benefit-plus.local-supports",
+      "title": "행정안전부 공공서비스 혜택 정보",
+      "operation": "serviceList",
+      "previous_count": 10947,
+      "count": 10951,
+      "count_delta": 4,
+      "previous_filters": null,
+      "filters": null,
+      "previous_collected_at": "2026-10-01T07:44:23.531Z",
+      "collected_at": "2026-10-07T05:49:17.211Z",
+      "route": "public_data_portal_api"
+    }
+  ],
+  "verification": {
+    "pipeline": "completed",
+    "node_integration_retention_tests": 13,
+    "python_public_api_tests": 15,
+    "free_catalog_tests": 6,
+    "search_quality_tests": 57,
+    "pre_resume_transaction_tests": 21,
+    "independent_review": "passed as partial refresh; details in independent-review.md",
+    "secret_scan": "secret-scan.json"
+  },
+  "deployment": {
+    "website": {
+      "required": true,
+      "status": "pending",
+      "reason": "Public API snapshots, search exports and source dates changed"
+    },
+    "mcp": {
+      "required": false,
+      "status": "not_redeployed",
+      "reason": "No change from origin/main to MCP code/config/dependencies, tax source or free catalog"
+    }
+  },
+  "notes": [
+    "Raw API row counts and deduplicated public ontology item counts are different units",
+    "Count reduction reflects provider reporting-period/query ranges, not proven product discontinuation",
+    "Bank failure is one collection-stage failure, not evidence that every endpoint failed",
+    "Four pension responses fail schema validation; one has incomplete pagination",
+    "Failed request and retained-data dates are preserved; no HTML/PDF fallback"
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "started_at": "2026-10-07T05:36:05.633Z",
+  "basis_date": "2026-10-07",
+  "commit": "9be5fd5a02f6c10ecdc13bc2d24ace16bbe021ca",
+  "previous_basis_date": "2026-10-01",
+  "previous_counts": {
+    "refreshed": 73358,
+    "historical_absent": 295,
+    "structural_reference": 306,
+    "previous_success": 6575,
+    "cause_unclassified": 410
+  },
+  "snapshot_origin": "OpenFin-upload/.api-candidates (unchanged)",
+  "copied_snapshots": [
+    {
+      "name": "source.bok.ecos-0.json",
+      "bytes": 39656,
+      "sha256": "453f89050fcc806275a06ce8bac95c5f406818d904c5fe94a31aa5087584ecda"
+    },
+    {
+      "name": "source.data.go.kr.kinfa-loan-handling-agencies-0.json",
+      "bytes": 618257,
+      "sha256": "09cfcf4516a3854b76e811b508b2411807d453d579caec71bf20dd963ead23be"
+    },
+    {
+      "name": "source.data.go.kr.kinfa-loan-products-0.json",
+      "bytes": 1011581,
+      "sha256": "19fee73dd1eb19dc37a6d60e7bd00d4a2f1e0ff9b7dbd1780545aeaecc3c6cbc"
+    },
+    {
+      "name": "source.data.go.kr.kinfa-support-centers-0.json",
+      "bytes": 155204,
+      "sha256": "eeceb6e70ca0f810b9663333dcbe932ecf72f84cbe78d29745297f315b4c89a9"
+    },
+    {
+      "name": "source.fsc.domestic-bank-statistics-0.json",
+      "bytes": 603117,
+      "sha256": "5b8b9ce16b0939311d09e936dc2c015e7c3a7baa50f882a211d54bb70d183684"
+    },
+    {
+      "name": "source.fsc.financial-company-basic-0.json",
+      "bytes": 1878891,
+      "sha256": "125cb2202d3ad903274dc77518413e2a356163ed883aadc5b7e2314c6fc45f5c"
+    },
+    {
+      "name": "source.fsc.financial-company-credit-0.json",
+      "bytes": 711188,
+      "sha256": "df7f2a8cc42c9bd098b5f448aae6eb6bb8328d03768cac517e9f299c6b6363e9"
+    },
+    {
+      "name": "source.fsc.financial-company-credit-1.json",
+      "bytes": 89170,
+      "sha256": "e65f12617b860ce491351a1b241875c01f656ec1feac959f3ee5b32a0b10800d"
+    },
+    {
+      "name": "source.fsc.financial-company-credit-2.json",
+      "bytes": 402721,
+      "sha256": "f9e3dbf46ef1e906972b712269f69f2eae26783b65c012b58c96f6669a82839a"
+    },
+    {
+      "name": "source.fsc.financial-investment-statistics-0.json",
+      "bytes": 212613,
+      "sha256": "56f36718337dcbdc110c83059713ee48a61aa379275c730c7eb32a6e518871ed"
+    },
+    {
+      "name": "source.fsc.financial-investment-statistics-1.json",
+      "bytes": 14957,
+      "sha256": "b50fc12c618077430970fa7e190ce59945ff8dbf4f453f1375917b63c046b25f"
+    },
+    {
+      "name": "source.fsc.financial-investment-statistics-2.json",
+      "bytes": 8029,
+      "sha256": "35466d7ad8204c064d665336d7772e4d98fd1d4e358847c2498623d719f063cf"
+    },
+    {
+      "name": "source.fsc.financial-investment-statistics-3.json",
+      "bytes": 1215,
+      "sha256": "6f5215f702aac5af70ed6d3b3fefb0959aef2f119031d0828f85250dfbefd6bc"
+    },
+    {
+      "name": "source.fsc.financial-investment-statistics-4.json",
+      "bytes": 1177,
+      "sha256": "b9954e5157353180cfa1f235fd9806a4c74902fab5376ef58b46c401df1e021b"
+    },
+    {
+      "name": "source.fsc.financial-investment-statistics-5.json",
+      "bytes": 13858,
+      "sha256": "55c97cf0ee55a3ae9241f0e21301503c52a57d96934f021608427c5fc5b607e4"
+    },
+    {
+      "name": "source.fsc.financial-investment-statistics-6.json",
+      "bytes": 13902,
+      "sha256": "4b66b6769e56115cdaa48537e03d32be677ac162c060ce2bcbd00171e01d2f69"
+    },
+    {
+      "name": "source.fsc.financial-investment-statistics-7.json",
+      "bytes": 1604155,
+      "sha256": "824eac2021c3dc02a5c53e615b1c32627ac600edfcaecd6af283c18f2450b7ea"
+    },
+    {
+      "name": "source.fsc.fund-products-basic-0.json",
+      "bytes": 280103,
+      "sha256": "f0ba5d6ade56ce8adb1bb2998e18c10974723271bcdc9634ed45c9871e45f0ee"
+    },
+    {
+      "name": "source.fsc.inclusive-finance-performance-0.json",
+      "bytes": 114958,
+      "sha256": "a0fd0df10b0f6e8bf14f53277b88dc3604a62371ef28ba7afbdb3f0dff747e58"
+    },
+    {
+      "name": "source.fsc.inclusive-finance-performance-1.json",
+      "bytes": 130210,
+      "sha256": "5529162560b11a3bff9a9d556d1f2472dbd54f280e14bda6951a5b5bcd237bb2"
+    },
+    {
+      "name": "source.fsc.inclusive-finance-products-0.json",
+      "bytes": 913362,
+      "sha256": "959b626d3a963dc6eb9cd0247f140a5dc3db00291cc905b10181945675be3256"
+    },
+    {
+      "name": "source.fsc.medical-reimbursement-insurance-0.json",
+      "bytes": 6145597,
+      "sha256": "c434255736050e130989de115065c70ab03a45b2da79c659722a7aec1011888c"
+    },
+    {
+      "name": "source.fsc.retirement-pension-basic-0.json",
+      "bytes": 84875,
+      "sha256": "ae4e67ac3f6b832837bce0f4675c2ed5a9107a1c4cd54733b958233e14edd3c4"
+    },
+    {
+      "name": "source.fsc.variable-insurance-info-0.json",
+      "bytes": 1211839,
+      "sha256": "9aa3ae6c1e0195604e7fbdcc15c831543ad447437ff2a4e49c8e3d1402568a26"
+    },
+    {
+      "name": "source.hf.bogeumjari-openapi-0.json",
+      "bytes": 917,
+      "sha256": "4c7c35f2babb5595944a2f84d81e75524955d2cc660cf9cbf8edb629c57552ff"
+    },
+    {
+      "name": "source.kdic.insured-products-0.json",
+      "bytes": 30974308,
+      "sha256": "2a3bfe828f9183e158a1586d40a88b27e77331093a1d9ee93bbd599c239f5dcf"
+    },
+    {
+      "name": "source.kdic.insured-products-1.json",
+      "bytes": 145979,
+      "sha256": "fd9be437bf364d807546d230ac048dc0dab3738c62ecb47998681e9771b35154"
+    },
+    {
+      "name": "finlife-catalog.json",
+      "bytes": 2513656,
+      "sha256": "6d10de9c8973a838308b8200a1e89646e212b2a6075712030977d6133f4df04f"
+    },
+    {
+      "name": "finlife-additional.json",
+      "bytes": 614001,
+      "sha256": "94fc9f12fd76d5a312eebff9d83f8a896b4aae0b38a649c18f4671ae3ad67aab"
+    },
+    {
+      "name": "gov24-current.json",
+      "bytes": 18046831,
+      "sha256": "8944735109b6d56cdb93031308543353ea91ee282511c58a11e4617ccc086246"
+    },
+    {
+      "name": "api-refresh-run.json",
+      "bytes": 7154,
+      "sha256": "284dc77a7ffb39d0f29cbea7e28e50f338df660a6a7d8f128a13aa61d99e6c45"
+    }
+  ],
+  "credentials": "Required variable presence verified without recording values",
+  "collection_policy": "Official provider APIs and data.go.kr/odcloud APIs only; no web fallback",
+  "automation_enabled": false
+}

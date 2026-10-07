@@ -1,0 +1,7 @@
+{
+  "verified_at": "2026-10-07T05:45:37.560Z",
+  "snapshots_verified": 31,
+  "byte_identical_to_preflight": true,
+  "transaction_cleared": true,
+  "filesystem_note": "Transient Windows EPERM during restore rename; recovery completed and original bytes verified"
+}

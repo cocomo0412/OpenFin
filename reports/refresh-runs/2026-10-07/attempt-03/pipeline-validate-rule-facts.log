@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "all_rule_facts_registered": true,
+  "all_rule_facts_input_representable": true,
+  "executable_fact_count": 5,
+  "executable_facts": [
+    "user.age_years",
+    "user.customer_type",
+    "user.eligibility_review_status",
+    "user.gender",
+    "withdrawal.before_maturity"
+  ],
+  "failures": []
+}

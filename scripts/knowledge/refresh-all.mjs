@@ -4,6 +4,7 @@ import path from 'node:path';
 import { transactionalEntry, runTrackedStage } from './refresh-transaction.mjs';
 import { fileURLToPath } from 'node:url';
 import { ROOT, json, writeJson } from './common.mjs';
+import { retentionStages, inspectRetainedInput, verifyRetention, adoptFailureEvidence, publishRetentions } from './refresh-retention.mjs';
 
 export function stages(retry=false) {
   const node=(name,args=[])=>({runtime:'node',file:`scripts/knowledge/${name}.mjs`,args});
@@ -21,17 +22,19 @@ export function stages(retry=false) {
     {id:'link',...node('link-api-snapshots')},
     {id:'integrate',...node('integrate-current-data')},
     ...['build-decision-snapshots','review-decision-offers','validate-decision-receipts','promote-candidates','build','validate','validate-rule-facts'].map(id=>({id,...node(id)})),
-    {id:'tests',runtime:'node',args:['--test','tests/knowledge/api-integration.test.mjs','tests/knowledge/refresh-ledger.test.mjs','tests/knowledge/refresh-pipeline.test.mjs']},
+    {id:'tests',runtime:'node',args:['--test','tests/knowledge/api-integration.test.mjs','tests/knowledge/refresh-ledger.test.mjs','tests/knowledge/refresh-pipeline.test.mjs','tests/knowledge/refresh-retention.test.mjs']},
     {id:'python-tests',runtime:'python',args:['-m','unittest','discover','-s','tests','-p','test_public_apis.py']},
     {id:'free-catalog',runtime:'node',file:'mcp/scripts/build-free-catalog.mjs',args:[]},
     {id:'free-tests',runtime:'node',args:['--test','mcp/tests/free-catalog.test.mjs']},
   ];
 }
 
-export function assertCurrentInputs(root,basisDate,read=json) {
+export function assertCurrentInputs(root,basisDate,read=json,records=[]) {
   const kst=value=>new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Seoul'}).format(new Date(value));
   for(const name of ['finlife-catalog','gov24-current']) {
-    if(kst(read(path.join(root,'.api-candidates',`${name}.json`)).collected_at)!==basisDate)
+    const stage=name==='finlife-catalog'?'bank':'gov24',record=records.find(r=>r.id===stage&&r.retained_input);
+    if(record) verifyRetention(root,stage,basisDate,record);
+    else if(kst(read(path.join(root,'.api-candidates',`${name}.json`)).collected_at)!==basisDate)
       throw new Error(`Collect ${name} again before preparing today's release`);
   }
   const plan=read(path.join(root,'scripts/knowledge/public-api-refresh-plan.json'));
@@ -54,9 +57,12 @@ export function assertCurrentInputs(root,basisDate,read=json) {
 async function main() {
   const args=process.argv.slice(2),retry=args.includes('--retry-failed'),dry=args.includes('--dry-run');
   const from=args.includes('--from')?args[args.indexOf('--from')+1]:null;
+  const evidence=args.includes('--resume-evidence')?args[args.indexOf('--resume-evidence')+1]:null;
+  const baseline=args.includes('--resume-baseline')?args[args.indexOf('--resume-baseline')+1]:null;
   const all=stages(retry),offset=from?all.findIndex(s=>s.id===from):0;
   if(offset<0)throw new Error('Unknown --from stage');
-  if(args.some((a,i)=>!['--retry-failed','--dry-run','--from'].includes(a)&&args[i-1]!=='--from'))throw new Error('Unknown argument');
+  if(args.some((a,i)=>!['--retry-failed','--dry-run','--from','--resume-evidence','--resume-baseline'].includes(a)&&!['--from','--resume-evidence','--resume-baseline'].includes(args[i-1])))throw new Error('Unknown argument');
+  if(Boolean(evidence)!==Boolean(baseline) || (evidence&&(!from||retry)))throw new Error('Resume evidence requires --from and --resume-baseline');
   if(dry){console.log(JSON.stringify(all.slice(offset),null,2));return;}
   if(fs.existsSync(path.join(ROOT,'.env')))process.loadEnvFile(path.join(ROOT,'.env'));
   const working=path.join(ROOT,'.api-candidates');fs.mkdirSync(working,{recursive:true});
@@ -74,10 +80,19 @@ async function main() {
   const reportFile=path.join(working,'refresh-pipeline-run.json');
   const secrets=Object.entries(process.env).filter(([k,v])=>/KEY|TOKEN|SECRET|PASSWORD/.test(k)&&v?.length>7).map(([,v])=>v);
   try {
-    if(from && offset>=all.findIndex(s=>s.id==='prepare') && !retry)assertCurrentInputs(ROOT,basisDate);
+    if(evidence) {
+      report.stages.push(...adoptFailureEvidence(ROOT,basisDate,path.resolve(evidence),path.resolve(baseline)));
+      if(report.stages.some(r=>all.findIndex(s=>s.id===r.id)>=offset))throw new Error('Resume must start after retained failed stage');
+    } else if(from&&!retry&&fs.existsSync(reportFile)) {
+      report.stages.push(...json(reportFile).stages.filter(r=>r.retained_input&&all.findIndex(s=>s.id===r.id)<offset));
+      for(const record of report.stages)verifyRetention(ROOT,record.id,basisDate,record);
+    }
+    if(from && offset>=all.findIndex(s=>s.id==='prepare') && !retry)assertCurrentInputs(ROOT,basisDate,json,report.stages);
     for(const stage of all.slice(offset)) {
-      if(stage.id==='prepare')assertCurrentInputs(ROOT,basisDate);
+      if(stage.id==='prepare')assertCurrentInputs(ROOT,basisDate,json,report.stages);
       console.log(`START ${stage.id}`);
+      let previousInput=null;
+      if(retentionStages[stage.id])try{previousInput=inspectRetainedInput(ROOT,stage.id);}catch{}
       const began=Date.now();
       const command=stage.runtime==='node'?process.execPath:(process.env.OPENFIN_PYTHON||'python');
       const result=await runTrackedStage(command,[...(stage.file?[stage.file]:[]),...stage.args],{cwd:ROOT,env:{...process.env,PYTHONIOENCODING:'utf-8'},encoding:'utf8',maxBuffer:16*1024*1024});
@@ -85,9 +100,15 @@ async function main() {
       for(const secret of secrets)output=output.split(secret).join('[REDACTED]');
       fs.writeFileSync(path.join(working,`pipeline-${stage.id}.log`),output);
       const status=result.status===0?'passed':'failed';
-      report.stages.push({id:stage.id,status,exit_code:result.status,duration_ms:Date.now()-began});
+      const record={id:stage.id,status,exit_code:result.status,duration_ms:Date.now()-began,checked_at:new Date().toISOString()};
+      report.stages.push(record);
       writeJson(reportFile,report);console.log(`${status.toUpperCase()} ${stage.id}`);
-      if(status==='failed'&&!stage.allowFailure)throw new Error(`Stage ${stage.id} failed; inspect .api-candidates/pipeline-${stage.id}.log`);
+      if(status==='failed'&&retentionStages[stage.id]&&previousInput) {
+        record.retained_input=previousInput;
+        verifyRetention(ROOT,stage.id,basisDate,record);
+        writeJson(reportFile,report);
+      } else if(status==='failed'&&!stage.allowFailure)throw new Error(`Stage ${stage.id} failed; inspect .api-candidates/pipeline-${stage.id}.log`);
+      if(stage.id==='integrate'&&status==='passed')publishRetentions(ROOT,basisDate,report.stages);
     }
     report.finished_at=new Date().toISOString();
     report.status='completed';writeJson(reportFile,report);

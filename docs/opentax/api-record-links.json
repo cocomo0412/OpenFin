@@ -1,7 +1,7 @@
 {
   "collected_at": "2026-10-01T07:44:18.122Z",
   "match_rule": "exact source_record_id + provider_code + product_code",
-  "count": 766,
+  "count": 767,
   "records": {
     "finance.deposit.deposit.0010001.wr0001b": {
       "source_id": "source.fss.finlife.api",
@@ -30091,6 +30091,59 @@
             "term_months": 36,
             "base_rate_percent": 3.15,
             "maximum_rate_percent": 3.15,
+            "interest_method": "단리",
+            "saving_method": null
+          }
+        ]
+      },
+      "verification_status": "listing_only",
+      "comparison_approved": false
+    },
+    "finance.deposit.deposit.0014674.6f354a83d8524097": {
+      "source_id": "source.fss.finlife.api",
+      "source_record_id": "depositProductsSearch:020000:0014674:01013000100000000026",
+      "collected_at": "2026-10-01T07:44:18.122Z",
+      "domain": "deposit",
+      "extracted": {
+        "provider_code": "0014674",
+        "provider": "주식회사 케이뱅크",
+        "product_code": "01013000100000000026",
+        "product_name": "내맘대로 이자받는 정기예금",
+        "disclosure_month": "202609",
+        "disclosure_start_date": "20261001",
+        "disclosure_end_date": null,
+        "join_member": "만 17세 이상 실명의 개인 및 개인사업자",
+        "join_way": "스마트폰",
+        "maximum_limit_text": null,
+        "maturity_interest_text": "만기 후 \n- 1개월 이내 : 만기시점 기본금리 X 50%\n- 1개월 초과~6개월 이내 : 만기시점 기본금리 X 30%\n- 6개월 초과 : 연 0.20%",
+        "preferential_conditions_text": "우대조건 없음",
+        "additional_terms_text": "가입금액 : 1백만원 이상\n가입기간 : 1개월~12개월",
+        "options": [
+          {
+            "term_months": 1,
+            "base_rate_percent": 3,
+            "maximum_rate_percent": 3,
+            "interest_method": "단리",
+            "saving_method": null
+          },
+          {
+            "term_months": 3,
+            "base_rate_percent": 3.3,
+            "maximum_rate_percent": 3.3,
+            "interest_method": "단리",
+            "saving_method": null
+          },
+          {
+            "term_months": 6,
+            "base_rate_percent": 3.4,
+            "maximum_rate_percent": 3.4,
+            "interest_method": "단리",
+            "saving_method": null
+          },
+          {
+            "term_months": 12,
+            "base_rate_percent": 3.71,
+            "maximum_rate_percent": 3.71,
             "interest_method": "단리",
             "saving_method": null
           }

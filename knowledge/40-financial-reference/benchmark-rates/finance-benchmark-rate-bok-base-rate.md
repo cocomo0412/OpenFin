@@ -3,7 +3,7 @@
   "id": "finance.benchmark-rate.bok-base-rate",
   "title": "한국은행 기준금리",
   "type": "benchmark-rate",
-  "description": "한국은행 기준금리 3연% (관측일 20261001)",
+  "description": "한국은행 기준금리 3연% (관측일 20261004)",
   "parents": [
     "category.finance.benchmark-rates"
   ],
@@ -29,7 +29,7 @@
   "status": "reference_only",
   "rate_percent": 3,
   "unit": "연%",
-  "observation_date": "20261001",
+  "observation_date": "20261004",
   "raw": {
     "STAT_CODE": "722Y001",
     "STAT_NAME": "1.3.1. 한국은행 기준금리 및 여수신금리",
@@ -43,7 +43,7 @@
     "ITEM_NAME4": null,
     "UNIT_NAME": "연%",
     "WGT": null,
-    "TIME": "20261001",
+    "TIME": "20261004",
     "DATA_VALUE": "3"
   },
   "criteria": [
@@ -54,11 +54,11 @@
       "rate_percent": 3
     }
   ],
-  "collected_at": "2026-10-01T07:48:09.740707+00:00",
-  "source_collected_at": "2026-10-01T07:48:09.740707+00:00",
-  "last_source_checked_at": "2026-10-01T07:48:09.740707+00:00",
-  "last_reviewed_at": "2026-10-01T07:48:09.740707+00:00",
-  "reviewed_at": "2026-10-01T07:48:09.740707+00:00",
+  "collected_at": "2026-10-07T05:40:31.895104+00:00",
+  "source_collected_at": "2026-10-07T05:40:31.895104+00:00",
+  "last_source_checked_at": "2026-10-07T05:40:31.895104+00:00",
+  "last_reviewed_at": "2026-10-07T05:40:31.895104+00:00",
+  "reviewed_at": "2026-10-07T05:40:31.895104+00:00",
   "review_scope": "API 응답과 상품 식별자·필드 매핑 검증",
   "sources": [
     "source.bok.ecos"
@@ -67,7 +67,7 @@
     "https://ecos.bok.or.kr/api/"
   ],
   "source_basis_dates": [
-    "20261001"
+    "20261004"
   ],
   "verification_status": "listing_only",
   "recommendation_status": "reference_only",
@@ -78,17 +78,17 @@
   "source_freshness_status": "current",
   "comparison_engine_gate_passed": false,
   "domain_gate_passed": false,
-  "source_checksum": "sha256:bb2f8a34dd66391775f5e84725475ff5ea7bb2528afd6d67239c8d67f16978cc",
-  "refresh_generation": "2026-10-01T07:48:09.740707+00:00",
+  "source_checksum": "sha256:14641e7c72a8846a6562d08dd045b58c7b68603bad41916fad4a66d66cdac8cf",
+  "refresh_generation": "2026-10-07T05:40:31.895104+00:00",
   "provenance": [
     {
       "source_id": "source.bok.ecos",
       "original_url": "https://ecos.bok.or.kr/api/",
-      "source_record_id": "722Y001:0101000:20261001",
-      "collected_at": "2026-10-01T07:48:09.740707+00:00",
-      "reviewed_at": "2026-10-01T07:48:09.740707+00:00",
+      "source_record_id": "722Y001:0101000:20261004",
+      "collected_at": "2026-10-07T05:40:31.895104+00:00",
+      "reviewed_at": "2026-10-07T05:40:31.895104+00:00",
       "verification_status": "listing_only",
-      "checksum": "sha256:bb2f8a34dd66391775f5e84725475ff5ea7bb2528afd6d67239c8d67f16978cc",
+      "checksum": "sha256:14641e7c72a8846a6562d08dd045b58c7b68603bad41916fad4a66d66cdac8cf",
       "checksum_scope": "API-record",
       "supported_fields": [
         "id",
@@ -136,7 +136,7 @@
       ],
       "locator": {
         "kind": "record-id",
-        "value": "722Y001:0101000:20261001"
+        "value": "722Y001:0101000:20261004"
       }
     }
   ],
@@ -144,7 +144,7 @@
     "id": "finance.benchmark-rate.bok-base-rate",
     "title": "한국은행 기준금리",
     "type": "benchmark-rate",
-    "description": "한국은행 기준금리 3연% (관측일 20261001)",
+    "description": "한국은행 기준금리 3연% (관측일 20261004)",
     "status": "reference_only",
     "product_status": "unknown",
     "sales_status": "unknown",
@@ -158,17 +158,17 @@
       "https://ecos.bok.or.kr/api/"
     ],
     "source_basis_dates": [
-      "20261001"
+      "20261004"
     ],
-    "last_source_checked_at": "2026-10-01T07:48:09.740707+00:00",
-    "last_reviewed_at": "2026-10-01T07:48:09.740707+00:00",
+    "last_source_checked_at": "2026-10-07T05:40:31.895104+00:00",
+    "last_reviewed_at": "2026-10-07T05:40:31.895104+00:00",
     "export_id": "finance-reference-ontology",
-    "search_text": "finance.benchmark-rate.bok-base-rate 한국은행 기준금리 한국은행 기준금리 3연% (관측일 20261001)",
+    "search_text": "finance.benchmark-rate.bok-base-rate 한국은행 기준금리 한국은행 기준금리 3연% (관측일 20261004)",
     "source_ids": [
       "source.bok.ecos"
     ]
   },
-  "record_checksum": "sha256:e0e75996ea9ad5ab4e08232c621bbbe4807352e511f501032e49e01445cdcbcc"
+  "record_checksum": "sha256:ab4459532d7aa8a0c32e62fef6b2d96c0d51df60c9ead9719a4f8a43f337fa08"
 }
 ---
 

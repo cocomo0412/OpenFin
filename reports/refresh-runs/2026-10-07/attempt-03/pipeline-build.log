@@ -1,0 +1,10 @@
+{
+  "exports": 10,
+  "rows": 75857,
+  "unique": 75743,
+  "reference_items": 114,
+  "search_items": 75743,
+  "sources": 168,
+  "provenance_covered": 75573,
+  "relationships": 210190
+}

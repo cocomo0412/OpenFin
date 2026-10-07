@@ -1,0 +1,40 @@
+{
+  "version": "openfin-decision-snapshots-v2",
+  "generated_at": "2026-09-13T14:56:54.354Z",
+  "domains": {
+    "deposit": {
+      "structural_candidate_count": 5,
+      "strict_offer_count": 5,
+      "target": 20,
+      "shortfall": 15,
+      "ids": [
+        "offer.deposit.0010019.TD11300027000.20260913",
+        "offer.deposit.0010019.TD11300035000.20260913",
+        "offer.deposit.0010019.TD11300036000.20260913",
+        "offer.deposit.0010024.21001115.20260913",
+        "offer.deposit.0010024.21001280.20260913"
+      ]
+    },
+    "saving": {
+      "structural_candidate_count": 5,
+      "strict_offer_count": 5,
+      "target": 20,
+      "shortfall": 15,
+      "ids": [
+        "offer.saving.0010019.TD11330029000.20260913",
+        "offer.saving.0010019.TD11330031000.20260913",
+        "offer.saving.0010024.21000111.20260913",
+        "offer.saving.0010024.21001199.20260913",
+        "offer.saving.0010024.21001292.20260913"
+      ]
+    }
+  },
+  "failures": {
+    "deposit": [],
+    "saving": []
+  },
+  "recommendation_enabled": false,
+  "blocker": "INSUFFICIENT_SOURCE_BACKED_OFFERS",
+  "candidate_collection_checksum": "4b3ba431cd9f24143a5e9b274ecfa8f27cfedcedd531e965d314835750c751b7",
+  "reviewed_selection_checksum": "ad6be007effe8b8ef586230449c32c599831a88de96240ba3e83dc2a4eae9180"
+}

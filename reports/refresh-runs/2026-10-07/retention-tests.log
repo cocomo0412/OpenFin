@@ -1,0 +1,30 @@
+✔ published API snapshots have complete counts and retain source dates (724.5714ms)
+✔ API review metadata preserves failure reporting and provider periods (25.1599ms)
+✔ current product links match provider and product identities without enabling recommendation (16276.0302ms)
+✔ preparation uses Korea date and rejects success timestamps from older snapshots (23.3743ms)
+✔ retry timestamp does not make older successful loan data current (0.8104ms)
+✔ failed-only mode does not recollect successful providers or publish data (1.228ms)
+✔ retained bank and Gov24 require current failure and exact original byte hash/date (44.3755ms)
+✔ partial, duplicate, wrong source and checksum-invalid old collections fail closed (25.3714ms)
+✔ legacy failure adoption binds same-day pre-run baseline and failed stage to exact old data (25.0054ms)
+✔ public pending records collection-stage scope and retained date, without inventing per-request failures (18.6145ms)
+✔ validated success keeps new generation, removes journal and prevents concurrent writers (69.5688ms)
+✔ stage failure restores bytes/dates, deleted files and excludes new snapshots; logs survive (85.829ms)
+Refresh committed; backup cleanup will be retried on the next run.
+✔ next invocation recovers after an actually killed fixture process (182.4309ms)
+✔ atomic write failure leaves previous destination intact and removes temporary files (8.7725ms)
+✔ commit cleanup failure does not roll back validated output (42.7282ms)
+✔ paths outside workspace fail closed before mutation (13.926ms)
+✔ malformed journal cannot discard recovery backups (85.7231ms)
+✔ recovery claim prevents competing stale-lock cleanup without changing the lock (14.3661ms)
+✔ unregistered launch interruption retains backup and blocks automatic rollback (104.7334ms)
+✔ rollback waits for orphan stage completion before restoring prior generation (252.7103ms)
+✔ standalone entry rolls back failed validation and commits only a validated generation (855.169ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 21
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 17287.4475
