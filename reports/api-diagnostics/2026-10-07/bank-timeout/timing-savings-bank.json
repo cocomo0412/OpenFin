@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-10-07T06:08:07.217Z",
+  "scope": "Bounded first-page diagnostic requests only; no data publication or collection-date changes",
+  "results": [
+    {
+      "endpoint": "savingProductsSearch.json",
+      "group": "030300",
+      "page": 1,
+      "timeout_ms": 45000,
+      "started_at": "2026-10-07T06:07:50.517Z",
+      "phase": "complete",
+      "headers_ms": 16657,
+      "http_status": 200,
+      "bytes": 157652,
+      "sha256": "e178e52b5842ba15ca23d1a1da737f905025b417efaa5165e8ac30a7e9cd7b82",
+      "provider_code": "000",
+      "total": 276,
+      "rows": 100,
+      "options": 426,
+      "duration_ms": 16697
+    }
+  ]
+}

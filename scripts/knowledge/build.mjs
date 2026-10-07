@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { writeText, ROOT, DOCS, KNOWLEDGE, PUBLIC_BASE, RELATION_KEYS, json, writeJson, stable, sha256, publicProjection, restoreCompatibilityDates, validUrl, isoDate, candidateSetChecksum, qualitySuiteChecksum } from './common.mjs';
+import { manifestVersionForCollection } from './manifest-version.mjs';
 import { deriveQuality, readCanonicalRecords, readReleasePolicy } from './derive-quality.mjs';
 import { transactionalEntry } from './refresh-transaction.mjs';
 await transactionalEntry(import.meta.url, { validate: ['scripts/knowledge/validate.mjs', 'scripts/knowledge/validate-rule-facts.mjs'] });
@@ -610,6 +611,7 @@ const referenceItemCount = Object.values(generatedExports).reduce((sum, value)=>
 const migrationArtifact = {version:'OPENFIN-MIGRATION-2026.07.28.1', generated_at:now, baseline:{export_count:Object.keys(baselineContract.exports).length,row_count:baselineContract.floors.public_rows,unique_id_count:baselineContract.floors.records,source_row_count:baselineContract.migration_baseline.source_rows,unique_source_count:baselineContract.floors.sources,invalid_source_url_count:baselineContract.migration_baseline.invalid_source_url_count,contract_version:baselineContract.version},result:{export_count:legacyFiles.length,row_count:Object.values(generatedExports).reduce((sum,value)=>sum+value.items.length+(value.reference_items?.length||0),0),unique_id_count:catalog.length,unique_source_count:sourceRegistry.length,reference_item_count:referenceItemCount,invalid_source_url_count:invalidUrls.length},approved_changes:['invalid_source_url_values_removed','source_rows_canonicalized','cross_export_duplicates_moved_to_reference_items','structured_provenance_added','operational_urls_moved_to_openfin'],source_basis_conflict_resolutions:[{id:'source.kinfa.hessal-loan-youth',selected_basis_date:'2026-07-03'},{id:'source.kinfa.illegal-private-finance-prevention-loan',selected_basis_date:'2026-07-03'}],invariants:{full_live_regression_required:'120/120'}};
 writeJson(path.join(DOCS,'openfin-migration-manifest-2026.json'), migrationArtifact);
 const manifest = json(path.join(DOCS,'finance-ontology-manifest.json'));
+manifest.version=manifestVersionForCollection(currentCollection, manifest);
 manifest.built_at=now; manifest.operational_base_url=PUBLIC_BASE; manifest.artifacts={...(manifest.artifacts||{})};
 if (currentCollection) {
   // Dataset assembly/review dates describe the API pipeline, not a legal review

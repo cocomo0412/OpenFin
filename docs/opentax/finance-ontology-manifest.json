@@ -1,5 +1,5 @@
 {
-  "version": "KR-FINANCE-ONTOLOGY-MANIFEST-2026.07.18.1",
+  "version": "KR-FINANCE-ONTOLOGY-MANIFEST-2026.10.07.1",
   "basis_date": "2026-10-07",
   "source_review_date": "2026-10-07",
   "built_at": "2026-10-07T05:49:17.211Z",
@@ -7460,5 +7460,5 @@
   },
   "basis_date_scope": "API snapshot collection date; individual provider periods are preserved",
   "source_review_scope": "API collection counts, identity and schema mapping; provider reporting dates preserved",
-  "manifest_checksum": "4b56d911a331b419ea6922abc1f4c9bfd360f00f8343baf910515bffcea99a2c"
+  "manifest_checksum": "a478f5a681639931a04ce5e4d3f575eaacc628b0f11617b1bca5513c99842cc8"
 }

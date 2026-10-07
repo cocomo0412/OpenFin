@@ -1,0 +1,17 @@
+✔ published API snapshots have complete counts and retain source dates (225.6233ms)
+✔ API review metadata preserves failure reporting and provider periods (51.4879ms)
+✔ current product links match provider and product identities without enabling recommendation (3748.4991ms)
+✔ a collection snapshot advances the manifest version over the previous API basis (2.5657ms)
+✔ partial refresh uses the snapshot day while preserving inherited record dates (0.8836ms)
+✔ rebuild and review timestamps cannot advance the collected version (0.9317ms)
+✔ same-day rebuild is stable and a real next snapshot advances the date (0.2785ms)
+✔ missing collection evidence retains the previous version, never a build date (0.6496ms)
+✔ collection dates require an exact valid calendar date without timestamp conversion (0.2503ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4222.4052
