@@ -1,6 +1,7 @@
 # MCP 신뢰 검토 높음 3건 조치
 
 조치일: 2026-10-07 (한국시간). 기준 커밋: `130d7edc`.
+최신 상태: 사용자 ‘반영’ 요청으로 홈페이지·저장소 반영 완료. 배포 커밋 `921569aba301e8ed1cfd0483a6550ea9210ca36a`. 아래 로컬/미배포 기록은 최초 조치 당시 상태이며, 최종 결과는 문서 하단을 따른다.
 사용자 요청: “수정사항 높음 3개도 조치”. 구현: PM·화면 담당, 독립 QA: `manifest_padding_qa`.
 
 | 항목 | 조치 | 상태 |
@@ -25,3 +26,23 @@
 - 저장소 문서: 루트/MCP README와 과거 문서·조치 증적 반영 필요.
 - MCP: 실행 코드·설정·의존성·카탈로그 입력 변경 없음. 기능상 Worker 재배포는 필요하지 않다. 다만 현재 workflow의 `mcp/**` 필터에는 README도 포함되어 **그대로 main에 push하면 불필요한 자동 MCP 배포가 실행된다**. 다음 원격 반영에서 이 필터와 배포 실행 범위를 먼저 처리해야 한다. 이번 수정에서는 배포 설정을 변경하지 않았다.
 - 이번 회차 원격 push·홈페이지 배포·MCP 배포는 수행하지 않았다. TRUST-04~07은 후속 제안으로 남긴다.
+
+## 사용자 승인 후 운영 반영
+
+- 요청: “반영”. 앞선 카드 간격 변경과 TRUST-01~03, README·과거 문서 보관을 함께 main에 반영했다.
+- 배포 설정 보완: Markdown 문서 수정은 MCP 실행 필터에서 제외한다. workflow만 수정되면 검증을 실행하되 Worker 입력 diff가 없으면 업로드하지 않는다. 수동 실행은 명시적 재배포로 취급한다. MCP 코드·설정·의존성·원자료 변경은 배포 대상으로 유지한다. Git 비교 실패 시 배포를 중단한다.
+- 실제 workflow Bash 실행 테스트와 관련 UI 회귀 검사 총 33건 통과. 독립 QA가 scope 테스트를 별도 실행하고 통과 판정했다.
+- [Pages 배포](https://github.com/cocomo0412/OpenFin/actions/runs/37612499402): build·deploy 성공.
+- [MCP pipeline](https://github.com/cocomo0412/OpenFin/actions/runs/37612501140): validate·scope 성공, deploy **skipped**. MCP 실행 코드·카탈로그 및 운영 Worker는 재배포하지 않았다.
+- 공개 파일을 작업 디렉터리의 CRLF 사본이 아닌 배포 커밋의 Git blob과 비교하여 4개 모두 일치 확인했다.
+
+| 공개 파일 | SHA-256 |
+| --- | --- |
+| index.html | 6156d61475bd0fdd6d6d40b7b9a6d3a551edb1b0f4c3ac7de9e97fc3c05111db |
+| explorer.html | 723dbc9913aefaff34a15b321c5b774cef74abf90d024426e1bb4fe9690b1707 |
+| styles.css | 33c4a864837c09ab527ae84afe9ed048be45862b51d9c473db8fdd88850240b1 |
+| mcp-catalog-status.js | 8e603b1ae5a434a6bc011c4931c616759a4c9c23c38249f493d1cedb91e8782f |
+
+- 공개 브라우저 재확인: `MCP 제공 항목: 399개 · MCP 자료 기준일: 2026-05-04` 정상 표시.
+- 실제 화면 폭 680px: 요약 카드 첫 4개 높이 83px, 날짜 카드 118px, 상하 여백 16px, 숫자 글꼴 31px로 일치. 가로 넘침 없음. 임시 화면 크기 설정은 복원했다.
+- 이 후속 배포 증적은 로컬 커밋으로 보존하며 배포 대상 기능 파일과 구분한다.
