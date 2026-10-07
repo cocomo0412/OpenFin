@@ -386,7 +386,7 @@ button {
   display: grid;
   gap: 6px;
   min-height: 132px;
-  align-content: center;
+  align-content: start;
   padding: 24px;
   border-right: 1px solid var(--line);
 }
@@ -396,7 +396,9 @@ button {
 }
 
 .metrics strong {
-  font-size: calc(2.4rem - 1px);
+  font-size: 31px;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
   line-height: 1;
 }
 
@@ -1695,13 +1697,7 @@ body::before { background: none; }
 
 #overview .hero-copy > h1 { font-weight: 700; }
 
-/* Fit the date to its metric cell and refine selected section titles. */
-.metrics > div:last-child { container-type: inline-size; min-width: 0; }
-.metrics [data-basis-date-short] {
-  font-size: calc(min(30px, 16cqi) + 1px);
-  white-space: nowrap;
-  font-variant-numeric: tabular-nums;
-}
+/* Refine selected section titles. */
 #why-title, #exports-title, #mcp-title { font-size: calc(3rem - 4px); }
 @media (max-width: 820px) {
   #why-title, #exports-title, #mcp-title { font-size: calc(2.35rem - 4px); }
@@ -1763,13 +1759,6 @@ body::before { background: none; }
   }
 }
 
-/* Match the two adjacent metrics to the date's responsive type size. */
-.metrics > div:nth-last-child(-n+3) { container-type: inline-size; min-width: 0; }
-.metrics > div:nth-last-child(-n+3) > strong {
-  font-size: calc(min(30px, 16cqi) + 1px);
-  white-space: nowrap;
-  font-variant-numeric: tabular-nums;
-}
 
 .export-card .export-open { font-size: 14px; gap: 7px; }
 .export-open-icon { width: 15px; height: 15px; flex: 0 0 15px; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; }

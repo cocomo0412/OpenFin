@@ -625,19 +625,13 @@ function resultSummary(filteredCount, sourceCount, visibleCount) {
 
 function resultItemHtml(item) {
   const meta = domainMeta(item.__domain);
-  const status = item.status || item.product_status || item.abolition_status || "";
-  const freshness = freshnessStatusForItem(item);
-  const freshnessWarning = ["stale", "degraded", "unreachable", "changed", "conflict", "retired"].includes(freshness);
   return `
     <button type="button" class="result-item" data-domain="${escapeAttribute(item.__domain || "")}" data-select-id="${escapeAttribute(item.id)}">
       <strong>${escapeHtml(item.title || item.id)}</strong>
       <div class="item-meta">
         <span class="domain-chip">${escapeHtml(meta.label)}</span>
         <span>${escapeHtml(typeLabel(item.type))}</span>
-        ${status ? `<span class="status-chip ${escapeAttribute(statusClass(status))}">${escapeHtml(statusLabel(status))}</span>` : ""}
-        <span class="status-chip freshness-${escapeAttribute(freshness)}${freshnessWarning ? ' freshness-warning' : ''}">${escapeHtml(freshnessLabel(freshness))}</span>
         ${item.provider ? `<span>${escapeHtml(item.provider)}</span>` : ""}
-        ${item.source_listing_status === 'listed' && item.recommendation_scope === 'listing_only' ? '<span>공식 목록 수록 · 신청·가입 가능 여부 미확인</span>' : ''}
       </div>
       <p>${escapeHtml(item.description || "설명이 없습니다.")}</p>
     </button>
@@ -837,11 +831,6 @@ function renderDetail(item) {
     ["provider", "제공기관"],
     ["financial_sector", "금융권역"],
     ["product_kind", "상품 종류"],
-    ["status", "자료 상태"],
-    ["status_reason", "상태 설명"],
-    ["product_status", "상품 상태"],
-    ["sales_status", "판매 상태"],
-    ["recommendation_status", "이용 범위"],
     ["effective_from", "적용 시작일"],
     ["effective_to", "적용 종료일"],
     ["application_open_from", "신청 시작일"],
@@ -865,8 +854,7 @@ function renderDetail(item) {
     <span class="domain-chip" data-domain="${escapeAttribute(item.__domain || '')}">${escapeHtml(meta.label)}</span>
     <h3>${escapeHtml(item.title || item.id)}</h3>
     <p class="detail-description">${escapeHtml(item.description || "설명이 없습니다.")}</p>
-    <p class="detail-freshness">${escapeHtml(freshnessLabel(freshnessStatusForItem(item)))}</p>
-    ${kv.length ? renderKvGrid(kv.map(([label, value]) => [label, /상태|이용 범위/.test(label) ? statusLabel(value) : value])) : ""}
+    ${kv.length ? renderKvGrid(kv) : ""}
     ${renderSources(item)}
     ${renderCurrentApi(item)}
     ${item.refresh_generation ? `<section class="detail-section"><h4>공식 자료 반영 · ${escapeHtml(item.refresh_generation.slice(0,10))}</h4><p>공식 API·공시 자료를 본문과 검색 데이터에 반영했습니다. 제공기관의 관측·공시 기준일과 개인별 적합성 검증은 별도입니다.</p>${item.raw ? `<details><summary>반영된 원문 필드 보기</summary>${renderKvGrid(Object.entries(item.raw).map(([k,v])=>[k,typeof v==='object'?JSON.stringify(v):String(v??'미제공')]))}</details>`:''}</section>` : ''}
@@ -1083,14 +1071,12 @@ function renderSources(item) {
     const sourceMetaUrl = sourceMeta?.urls?.canonical || sourceMeta?.canonical_url || sourceMeta?.source_urls?.[0];
     const sourceUrl = [entry.original_url, sourceMetaUrl].find(isValidSourceUrl) || "";
     const publisher = sourceMeta?.publisher || entry.publisher || entry.source_publisher || entry.source_title || "";
-    const freshness = freshnessStatusForSource(sourceStatus);
     const verifiedAt = sourceStatus?.last_successful_checked_at || sourceStatus?.checked_at || entry.last_verified_at || entry.reviewed_at || entry.collected_at || "";
     const locator = entry.locator && (entry.locator.value || entry.locator.kind)
       ? `${entry.locator.kind ? `${entry.locator.kind}: ` : ""}${entry.locator.value || ""}`
       : "";
     const details = [
       publisher && `제공기관: ${publisher}`,
-      freshness && freshnessLabel(freshness),
       verifiedAt && `출처 확인 기록: ${verifiedAt}`,
     ].filter(Boolean);
     return `

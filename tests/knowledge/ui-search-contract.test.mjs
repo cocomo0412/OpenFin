@@ -60,18 +60,15 @@ test('global explorer loads compact search first and hydrates only the selected 
   assert.equal(context.__state.itemIndex.get('item.deposit').description, '상세 export');
 });
 
-test('compact result cards show source freshness and fail-closed warning', () => {
+test('result cards omit management badges and listing disclaimers', () => {
   const context = appContext();
-  vm.runInContext(`
-    state.sourceStatus = new Map([['source.test', { source_freshness_status: 'degraded', freshness_status: 'stale' }]]);
-    globalThis.cardHtml = resultItemHtml({ id: 'item.deposit', title: '예금', type: 'bank-product', __domain: 'deposit-products', source_ids: ['source.test'] });
-  `, context);
-  assert.match(context.cardHtml, /freshness-degraded/);
-  assert.equal((context.cardHtml.match(/일부 출처 확인 불가/g) || []).length, 1);
-  assert.doesNotMatch(context.cardHtml, /freshness:|최신성 degraded/);
-  const staleHtml = vm.runInContext(`resultItemHtml({ id: 'item.stale', title: '자료', freshness_status: 'stale' })`, context);
-  assert.match(staleHtml, /freshness-stale/);
-  assert.equal((staleHtml.match(/최신 여부 재확인 필요/g) || []).length, 1);
+  const item = { id: 'item.deposit', title: '예금', provider: '은행', type: 'bank-product',
+    __domain: 'deposit-products', status: 'active', freshness_status: 'stale',
+    source_listing_status: 'listed', recommendation_scope: 'listing_only' };
+  const html = vm.runInContext('resultItemHtml(' + JSON.stringify(item) + ')', context);
+  assert.match(html, /예금/);
+  assert.match(html, /은행/);
+  assert.doesNotMatch(html, /status-chip|freshness-|최신 여부|공식 목록 수록|가입 가능 여부|유효로 기록됨/);
 });
 
 test('source freshness recomputes the SLA from the last successful check', () => {
@@ -98,7 +95,7 @@ test('freshness follows every supported source reference including the source re
     const item = { id: 'item.test', title: '자료', freshness_status: 'current', ...reference };
     assert.equal(vm.runInContext(`freshnessStatusForItem(${JSON.stringify(item)})`, context), 'stale', JSON.stringify(reference));
     const html = vm.runInContext(`resultItemHtml(${JSON.stringify(item)})`, context);
-    assert.match(html, /최신 여부 재확인 필요/);
+    assert.doesNotMatch(html, /최신 여부 재확인 필요/);
     assert.doesNotMatch(html, /출처 점검 완료/);
   }
 });

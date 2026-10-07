@@ -13,7 +13,7 @@ const collectionDate = value => {
 
 // This labels the assembled collection day, not the age of every included row.
 // Partial refreshes retain older records and their dates. The daily suffix stays
-// at 1; manifest_checksum distinguishes content changes, including same-day ones.
+// at 01; manifest_checksum distinguishes content changes, including same-day ones.
 // Build/review timestamps must never manufacture a newer collection version.
 export function manifestVersionForCollection(collection, manifest = {}) {
   const basis = collection?.snapshot_basis_date ?? manifest.api_collection?.basis_date;
@@ -23,5 +23,5 @@ export function manifestVersionForCollection(collection, manifest = {}) {
     }
     return manifest.version;
   }
-  return `${PREFIX}${collectionDate(basis).replaceAll('-', '.')}.1`;
+  return `${PREFIX}${collectionDate(basis).replaceAll('-', '.')}.01`;
 }
