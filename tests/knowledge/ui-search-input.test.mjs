@@ -10,9 +10,11 @@ function explorer(search = '') {
   let timer;
   const handlers = {};
   const summary = { textContent: '' };
-  const results = { innerHTML: '', querySelectorAll: () => [] };
+  const clearButton = { addEventListener: (name, handler) => { handlers[`clear:${name}`] = handler; } };
+  const results = { innerHTML: '', querySelectorAll: (selector) =>
+    selector === '[data-clear-search]' && results.innerHTML.includes('data-clear-search') ? [clearButton] : [] };
   const detail = { innerHTML: '', querySelector: () => null, querySelectorAll: () => [], focus() {}, scrollIntoView() {}, setAttribute() {} };
-  const input = { value: '', addEventListener: (name, handler) => { handlers[name] = handler; } };
+  const input = { value: '', focused: false, focus() { this.focused = true; }, addEventListener: (name, handler) => { handlers[name] = handler; } };
   const typeFilter = { value: '', innerHTML: '', addEventListener: (name, handler) => { handlers[`type:${name}`] = handler; } };
   const moreButton = { hidden: true, textContent: '', addEventListener: (name, handler) => { handlers[`more:${name}`] = handler; } };
   const location = { pathname: '/explorer.html', search, hash: '' };
@@ -56,6 +58,7 @@ function explorer(search = '') {
     type(value) { input.value = value; handlers.input(); },
     filter(value) { typeFilter.value = value; return handlers['type:change'](); },
     more() { return handlers['more:click'](); },
+    clearQuery() { assert.match(results.innerHTML, /data-clear-search/); return handlers['clear:click'](); },
     popstate() { return handlers['window:popstate'](); },
     flush() { const pending = timer; timer = null; return pending?.(); },
   };
@@ -408,6 +411,55 @@ test('a changed query replaces an old URL query and query-only startup searches 
   assert.ok(!restored.calls.includes('./opentax/tax.json'));
   assert.match(restored.results.innerHTML, /의료비 공제/);
   assert.doesNotMatch(restored.results.innerHTML, /월세 공제/);
+});
+
+test('clearing an unmatched query restores results while keeping domain, type and unrelated URL fields', async () => {
+  const page = explorer('?domain=tax&q=' + encodeURIComponent('월세') + '&type=deduction&campaign=fixture');
+  page.location.hash = '#item.rent';
+  prepareStartup(page);
+  await vm.runInContext('init()', page.context);
+  page.type('존재하지않는검색조건');
+  await page.flush();
+  assert.match(page.results.innerHTML, /현재 검색어로 찾은 결과가 없습니다/);
+  assert.equal(visibleResultCount(page), 0);
+  assert.equal(page.location.hash, '');
+  assert.equal(vm.runInContext('state.selectedId', page.context), '');
+  const fetchCount = page.calls.length;
+  // A queued input event must not run after the explicit clear action.
+  page.type('다른검색조건');
+  page.clearQuery();
+  assert.equal(page.flush(), undefined);
+  assert.equal(page.input.value, '');
+  assert.equal(page.input.focused, true);
+  assert.equal(page.typeFilter.value, 'deduction');
+  assert.equal(vm.runInContext('state.currentDomain', page.context), 'tax');
+  assert.equal(visibleResultCount(page), 2);
+  assert.doesNotMatch(page.results.innerHTML, /data-clear-search/);
+  assert.equal(page.calls.length, fetchCount, 'clearing a query reuses already loaded data');
+  const params = new URLSearchParams(page.location.search);
+  assert.equal(params.has('q'), false);
+  assert.equal(params.get('domain'), 'tax');
+  assert.equal(params.get('type'), 'deduction');
+  assert.equal(params.get('campaign'), 'fixture');
+  assert.equal(page.location.hash, '');
+  assert.equal(vm.runInContext('state.selectedId', page.context), '');
+  assert.match(page.detail.innerHTML, /검색 결과를 선택하면/);
+});
+
+test('zero results without a query do not offer a query clear button', async () => {
+  const page = explorer();
+  page.type('월세');
+  await page.flush();
+  page.filter('unmatched-type');
+  assert.match(page.results.innerHTML, /data-clear-search/);
+  page.clearQuery();
+  assert.equal(page.typeFilter.value, 'unmatched-type');
+  assert.equal(visibleResultCount(page), 0);
+  assert.match(page.results.innerHTML, /검색 결과가 없습니다/);
+  assert.doesNotMatch(page.results.innerHTML, /현재 검색어|data-clear-search/);
+  page.type('   ');
+  await page.flush();
+  assert.doesNotMatch(page.results.innerHTML, /data-clear-search/);
 });
 
 test('popstate restores another URL and invalid types fall back to the available choices', async () => {

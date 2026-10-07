@@ -1,6 +1,6 @@
 {
   "version": "OPENFIN-PROVENANCE-INDEX-2026.07.28.1",
-  "generated_at": "2026-10-07T05:49:17.211Z",
+  "generated_at": "2026-10-07T08:02:47.885Z",
   "item_count": 75743,
   "covered_item_count": 75573,
   "shards": [
@@ -11,8 +11,8 @@
       "url": "https://cocomo0412.github.io/OpenFin/opentax/openfin-provenance-index-2026-account-products.json",
       "web_url": "https://cocomo0412.github.io/OpenFin/opentax/openfin-provenance-index-2026-account-products.json",
       "item_count": 4,
-      "generated_at": "2026-10-07T05:49:17.211Z",
-      "export_checksum": "f71ad87c6211e7f24930d5278e77adbd831b17ce5afff83aeb19ff568a8ee9cb",
+      "generated_at": "2026-10-07T08:02:47.885Z",
+      "export_checksum": "4ef11aed8323134e3d2aba9184c5e3dc840130f8ccc1befe34baceb536393833",
       "shard_id": "account-products"
     },
     {
@@ -22,8 +22,8 @@
       "url": "https://cocomo0412.github.io/OpenFin/opentax/openfin-provenance-index-2026-bank-products.json",
       "web_url": "https://cocomo0412.github.io/OpenFin/opentax/openfin-provenance-index-2026-bank-products.json",
       "item_count": 1391,
-      "generated_at": "2026-10-07T05:49:17.211Z",
-      "export_checksum": "8c6a5ad8500aab586020cc34df7e3a555bc75a79127c5b3a25bb31a788d29c7b",
+      "generated_at": "2026-10-07T08:02:47.885Z",
+      "export_checksum": "d2fafd143a201e492db77858ea1deb3e75515c9de5bbc6d0646c259383fdd79f",
       "shard_id": "bank-products"
     },
     {
@@ -33,8 +33,8 @@
       "url": "https://cocomo0412.github.io/OpenFin/opentax/openfin-provenance-index-2026-card-products.json",
       "web_url": "https://cocomo0412.github.io/OpenFin/opentax/openfin-provenance-index-2026-card-products.json",
       "item_count": 1007,
-      "generated_at": "2026-10-07T05:49:17.211Z",
-      "export_checksum": "e23b239243b0c966dec9102ab32258c9d1b8d6115d6b6debe103b89ecf9b444f",
+      "generated_at": "2026-10-07T08:02:47.885Z",
+      "export_checksum": "1741fda61983f1d39b4b04fcc3eb89f305a6bc80b50eb88882659c91fc1745fc",
       "shard_id": "card-products"
     },
     {
@@ -44,8 +44,8 @@
       "url": "https://cocomo0412.github.io/OpenFin/opentax/openfin-provenance-index-2026-deposit-protection.json",
       "web_url": "https://cocomo0412.github.io/OpenFin/opentax/openfin-provenance-index-2026-deposit-protection.json",
       "item_count": 45374,
-      "generated_at": "2026-10-07T05:49:17.211Z",
-      "export_checksum": "6e949f2e24d48a840078a46ac041e8055e2558985aac7fa00123339e2300dde6",
+      "generated_at": "2026-10-07T08:02:47.885Z",
+      "export_checksum": "b58d934e24135da4883468ebc783d2f0805df5728b7cba2440b255d7ca0a31d7",
       "shard_id": "deposit-protection"
     },
     {
@@ -55,8 +55,8 @@
       "url": "https://cocomo0412.github.io/OpenFin/opentax/openfin-provenance-index-2026-insurance-products.json",
       "web_url": "https://cocomo0412.github.io/OpenFin/opentax/openfin-provenance-index-2026-insurance-products.json",
       "item_count": 1155,
-      "generated_at": "2026-10-07T05:49:17.211Z",
-      "export_checksum": "f49ce3ea91b5c76e90f408159725bddfafa5b1db3baf613fb592f177cc55186f",
+      "generated_at": "2026-10-07T08:02:47.885Z",
+      "export_checksum": "f3b1cd1366ec8a80e32a5c9ee1b9db500a159ad0b3e323bd2cbcc723dedcf1d6",
       "shard_id": "insurance-products"
     },
     {
@@ -66,8 +66,8 @@
       "url": "https://cocomo0412.github.io/OpenFin/opentax/openfin-provenance-index-2026-pension-products.json",
       "web_url": "https://cocomo0412.github.io/OpenFin/opentax/openfin-provenance-index-2026-pension-products.json",
       "item_count": 4362,
-      "generated_at": "2026-10-07T05:49:17.211Z",
-      "export_checksum": "60dd9869e6d31d22b4d7ba2359aa238532680a1cd0587462d555992d0e9e830b",
+      "generated_at": "2026-10-07T08:02:47.885Z",
+      "export_checksum": "c38f46344bd7a66df55debb238a72239d2e601f77388fc4d0893746c5c961b25",
       "shard_id": "pension-products"
     },
     {
@@ -77,8 +77,8 @@
       "url": "https://cocomo0412.github.io/OpenFin/opentax/openfin-provenance-index-2026-reference.json",
       "web_url": "https://cocomo0412.github.io/OpenFin/opentax/openfin-provenance-index-2026-reference.json",
       "item_count": 12836,
-      "generated_at": "2026-10-07T05:49:17.211Z",
-      "export_checksum": "ddae567f34b5bbe7831c0677b10abde88be259069984ba67e3e74d9e0042de3c",
+      "generated_at": "2026-10-07T08:02:47.885Z",
+      "export_checksum": "0b046ec17d630c99f2cbdcb9b97535bde9f8d0658270de4419d51b513500a1cf",
       "shard_id": "reference"
     },
     {
@@ -88,8 +88,8 @@
       "url": "https://cocomo0412.github.io/OpenFin/opentax/openfin-provenance-index-2026-support.json",
       "web_url": "https://cocomo0412.github.io/OpenFin/opentax/openfin-provenance-index-2026-support.json",
       "item_count": 9444,
-      "generated_at": "2026-10-07T05:49:17.211Z",
-      "export_checksum": "6383507dd217dd2edcb932c60629f423d5448fb7aae58507a110d3cad8ae28fa",
+      "generated_at": "2026-10-07T08:02:47.885Z",
+      "export_checksum": "be16630f2954f8bebbb071001785653936e3d0b6f3c129f54552aa9b6f09eb27",
       "shard_id": "support"
     }
   ]

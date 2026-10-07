@@ -1,6 +1,6 @@
 {
   "version": "OPENFIN-SOURCE-STATUS-2026.07.28.1",
-  "generated_at": "2026-10-07T05:49:17.211Z",
+  "generated_at": "2026-10-07T08:02:47.885Z",
   "source_count": 168,
   "statuses": [
     {
@@ -2608,7 +2608,7 @@
       "id": "source.law.comprehensive-real-estate-act.full",
       "lifecycle_status": "active",
       "status": "stale",
-      "checked_at": "2026-10-07T05:49:17.211Z",
+      "checked_at": "2026-10-07T08:02:47.885Z",
       "last_successful_checked_at": null,
       "freshness_status": "stale",
       "refresh": {
@@ -2631,7 +2631,7 @@
       "id": "source.law.comprehensive-real-estate-decree.ratio",
       "lifecycle_status": "active",
       "status": "stale",
-      "checked_at": "2026-10-07T05:49:17.211Z",
+      "checked_at": "2026-10-07T08:02:47.885Z",
       "last_successful_checked_at": null,
       "freshness_status": "stale",
       "refresh": {
@@ -2686,7 +2686,7 @@
       "id": "source.law.customs-act.full",
       "lifecycle_status": "active",
       "status": "stale",
-      "checked_at": "2026-10-07T05:49:17.211Z",
+      "checked_at": "2026-10-07T08:02:47.885Z",
       "last_successful_checked_at": null,
       "freshness_status": "stale",
       "refresh": {
@@ -2773,7 +2773,7 @@
       "id": "source.law.education-tax-act.full",
       "lifecycle_status": "active",
       "status": "stale",
-      "checked_at": "2026-10-07T05:49:17.211Z",
+      "checked_at": "2026-10-07T08:02:47.885Z",
       "last_successful_checked_at": null,
       "freshness_status": "stale",
       "refresh": {
@@ -2796,7 +2796,7 @@
       "id": "source.law.income-decree.capital-gains",
       "lifecycle_status": "active",
       "status": "stale",
-      "checked_at": "2026-10-07T05:49:17.211Z",
+      "checked_at": "2026-10-07T08:02:47.885Z",
       "last_successful_checked_at": null,
       "freshness_status": "stale",
       "refresh": {
@@ -2851,7 +2851,7 @@
       "id": "source.law.individual-consumption-decree.flexible",
       "lifecycle_status": "active",
       "status": "stale",
-      "checked_at": "2026-10-07T05:49:17.211Z",
+      "checked_at": "2026-10-07T08:02:47.885Z",
       "last_successful_checked_at": null,
       "freshness_status": "stale",
       "refresh": {
@@ -2938,7 +2938,7 @@
       "id": "source.law.liquor-decree.rates",
       "lifecycle_status": "active",
       "status": "stale",
-      "checked_at": "2026-10-07T05:49:17.211Z",
+      "checked_at": "2026-10-07T08:02:47.885Z",
       "last_successful_checked_at": null,
       "freshness_status": "stale",
       "refresh": {
@@ -3025,7 +3025,7 @@
       "id": "source.law.securities-transaction-decree.rates",
       "lifecycle_status": "active",
       "status": "stale",
-      "checked_at": "2026-10-07T05:49:17.211Z",
+      "checked_at": "2026-10-07T08:02:47.885Z",
       "last_successful_checked_at": null,
       "freshness_status": "stale",
       "refresh": {
@@ -3144,7 +3144,7 @@
       "id": "source.law.tax-reduction-1997.housing",
       "lifecycle_status": "active",
       "status": "stale",
-      "checked_at": "2026-10-07T05:49:17.211Z",
+      "checked_at": "2026-10-07T08:02:47.885Z",
       "last_successful_checked_at": null,
       "freshness_status": "stale",
       "refresh": {
@@ -3167,7 +3167,7 @@
       "id": "source.law.tax-special-treatment-2012.pension",
       "lifecycle_status": "active",
       "status": "stale",
-      "checked_at": "2026-10-07T05:49:17.211Z",
+      "checked_at": "2026-10-07T08:02:47.885Z",
       "last_successful_checked_at": null,
       "freshness_status": "stale",
       "refresh": {
@@ -3190,7 +3190,7 @@
       "id": "source.law.tax-special-treatment-decree.e-filing",
       "lifecycle_status": "active",
       "status": "stale",
-      "checked_at": "2026-10-07T05:49:17.211Z",
+      "checked_at": "2026-10-07T08:02:47.885Z",
       "last_successful_checked_at": null,
       "freshness_status": "stale",
       "refresh": {
@@ -3253,7 +3253,7 @@
       "id": "source.law.transport-energy-decree.flexible",
       "lifecycle_status": "active",
       "status": "stale",
-      "checked_at": "2026-10-07T05:49:17.211Z",
+      "checked_at": "2026-10-07T08:02:47.885Z",
       "last_successful_checked_at": null,
       "freshness_status": "stale",
       "refresh": {
@@ -3388,7 +3388,7 @@
       "id": "source.mirae.isa-guide",
       "lifecycle_status": "active",
       "status": "stale",
-      "checked_at": "2026-10-07T05:49:17.211Z",
+      "checked_at": "2026-10-07T08:02:47.885Z",
       "last_successful_checked_at": null,
       "freshness_status": "stale",
       "refresh": {

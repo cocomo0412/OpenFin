@@ -1,0 +1,11 @@
+{
+  "output": "C:\\Users\\resti\\OneDrive\\문서\\ChatGPT\\금융온톨로지\\OpenFin-team-improvement\\.api-candidates\\finlife-catalog.json",
+  "collected_at": "2026-10-07T08:02:47.885Z",
+  "deposit": 432,
+  "saving": 335,
+  "kdic_query_count": 0,
+  "kdic_queried_item_count": 0,
+  "kdic_failure_count": 0,
+  "protection_match_count": 0,
+  "credential_persisted": false
+}

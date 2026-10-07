@@ -1,0 +1,43 @@
+{
+  "checked_at": "2026-10-07T08:02:12.979Z",
+  "snapshots": {
+    "api-refresh-run.json": "9e635482e8e75054a9d068cac936b66e7fe2dad6d0e240970b88e4729a628495",
+    "finlife-additional.json": "0f7d1af09d80e2663868e4b2e025a4e1962086fe1c9d43e7083478437173c685",
+    "finlife-catalog.json": "6d10de9c8973a838308b8200a1e89646e212b2a6075712030977d6133f4df04f",
+    "gov24-current.json": "7fccdd54f0ad43714ec051f50cae7d8138708406bd94245f3ea4acbbf1d7f2a6",
+    "source.bok.ecos-0.json": "6e9daf88fa2822b1402435fbae0a965ff8bdd2646e37937685c6a9d19763c51e",
+    "source.data.go.kr.kinfa-loan-handling-agencies-0.json": "5b812e7c78df3365480e2abd145482921009dec20ebd37489f0b48bebf2a3e70",
+    "source.data.go.kr.kinfa-loan-products-0.json": "695b11ff8498526b6303ca834c2c37e2e2613a61b4c0d56392f39ce5ea63c929",
+    "source.data.go.kr.kinfa-support-centers-0.json": "1dd712b9286f4af1dcd2133f245f2ab5f1895537bce2f7934169c88b7b193ae6",
+    "source.fsc.domestic-bank-statistics-0.json": "c4cdc4887812cddf5e37d7f7a7ce0f88ae0620a432a78bbbe19b6d3bfc09b5b6",
+    "source.fsc.financial-company-basic-0.json": "7387af3c0174929f8f45cc72ccf7c587fc7e01e6bfa75b672beedd19ec629055",
+    "source.fsc.financial-company-credit-0.json": "7f26a8a37d2098504a314d0dfb4b5a0df0d4ecaf28e3032e69730030b39991ee",
+    "source.fsc.financial-company-credit-1.json": "d5fa7cfa6390c08de713e6dce5425634f959a9c291e352e36949d7ecaa190cfb",
+    "source.fsc.financial-company-credit-2.json": "75e7435d8748a0c837946f9e75a3c3d51e831bcd9092ad32d03cf9e4eae84e40",
+    "source.fsc.financial-investment-statistics-0.json": "9d5249019ed43d67fe016acc339001ac56cf17d9a0aac9140565468fd37ec773",
+    "source.fsc.financial-investment-statistics-1.json": "70b28817ee53dd528c25b84fb6deec1a5d4006178ad006b70feb96f8c3d54f15",
+    "source.fsc.financial-investment-statistics-2.json": "30e9c10662f2ebd372c155202564510d26d020a66b721678604f0b562b3e6bd8",
+    "source.fsc.financial-investment-statistics-3.json": "a3778934cba1ac2fe492251147848ecfb6da88c3eac54305049d48c8eb88f599",
+    "source.fsc.financial-investment-statistics-4.json": "d29fb9b69f138a9209e5447147d328498a58fc16488771f81000df081ec8134e",
+    "source.fsc.financial-investment-statistics-5.json": "9b3801465ad9d6099b051afd15b37920bc303b6fd9aece7675564e1ce08f8156",
+    "source.fsc.financial-investment-statistics-6.json": "fd1db3343e77690e77c3f50689879fa822f05062e3eefbb1d0c0b86e5e17a09d",
+    "source.fsc.financial-investment-statistics-7.json": "ead2f0306e91b958644e44ffee14500d5a3b7131e68cc71358e23ae6318aa0e6",
+    "source.fsc.fund-products-basic-0.json": "49c9723f2f1990951e507f4918510973a54f5a8a30a9fb5e166292f4b37b603b",
+    "source.fsc.inclusive-finance-performance-0.json": "ab7f5f815166858d261604391ceef4b57757f78faca56783bdc24a769ecb3a8d",
+    "source.fsc.inclusive-finance-performance-1.json": "7b76341266e7206adb747d2163ff8290b3eeaa564740e79ecd6a6296af5fd439",
+    "source.fsc.inclusive-finance-products-0.json": "3e4e200686db51dec21278cb6c59d5bdaf99528d2661d11bbe079db1c2ae2fcf",
+    "source.fsc.medical-reimbursement-insurance-0.json": "087b87b2eb710309a969d2f7ef74d0eed2abcd8f7402828036e8674dcc1a956a",
+    "source.fsc.retirement-pension-basic-0.json": "fb6eec1de4a05696bcac719abc9af705aee1657df8991ce91b6ba0a5f749ac4d",
+    "source.fsc.variable-insurance-info-0.json": "dada34ef555ffe62c702bf4ebd27a8d66792477409666c17865624ea5acfdc62",
+    "source.hf.bogeumjari-openapi-0.json": "67457057dd1fa023cb244ec26544020caeba205cb7ab65a8d014f88277dc2bec",
+    "source.kdic.insured-products-0.json": "fa362512ebae64f50b5dc273682982dcf74e6673839dbe9f3089726851bca080",
+    "source.kdic.insured-products-1.json": "4f03242c93a8e8fd74dff455f286e9ba4078a4335d5ba3d62adb0f98a0e839f7"
+  },
+  "bank": {
+    "file": "finlife-catalog.json",
+    "source_id": "source.fss.finlife.api",
+    "collected_at": "2026-10-01T07:44:18.122Z",
+    "bytes": 2513656,
+    "sha256": "6d10de9c8973a838308b8200a1e89646e212b2a6075712030977d6133f4df04f"
+  }
+}

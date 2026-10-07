@@ -1,0 +1,107 @@
+{
+  "started_at": "2026-10-07T08:03:58.404Z",
+  "basis_date": "2026-10-07",
+  "mode": "refresh",
+  "stages": [
+    {
+      "id": "prepare",
+      "status": "passed",
+      "exit_code": 0,
+      "duration_ms": 1142,
+      "checked_at": "2026-10-07T08:04:01.088Z"
+    },
+    {
+      "id": "link",
+      "status": "passed",
+      "exit_code": 0,
+      "duration_ms": 5111,
+      "checked_at": "2026-10-07T08:04:06.204Z"
+    },
+    {
+      "id": "integrate",
+      "status": "passed",
+      "exit_code": 0,
+      "duration_ms": 33299,
+      "checked_at": "2026-10-07T08:04:39.509Z"
+    },
+    {
+      "id": "build-decision-snapshots",
+      "status": "passed",
+      "exit_code": 0,
+      "duration_ms": 273,
+      "checked_at": "2026-10-07T08:04:39.796Z"
+    },
+    {
+      "id": "review-decision-offers",
+      "status": "passed",
+      "exit_code": 0,
+      "duration_ms": 174,
+      "checked_at": "2026-10-07T08:04:39.974Z"
+    },
+    {
+      "id": "validate-decision-receipts",
+      "status": "passed",
+      "exit_code": 0,
+      "duration_ms": 449,
+      "checked_at": "2026-10-07T08:04:40.428Z"
+    },
+    {
+      "id": "promote-candidates",
+      "status": "passed",
+      "exit_code": 0,
+      "duration_ms": 276,
+      "checked_at": "2026-10-07T08:04:40.708Z"
+    },
+    {
+      "id": "build",
+      "status": "passed",
+      "exit_code": 0,
+      "duration_ms": 78826,
+      "checked_at": "2026-10-07T08:05:59.538Z"
+    },
+    {
+      "id": "validate",
+      "status": "passed",
+      "exit_code": 0,
+      "duration_ms": 40486,
+      "checked_at": "2026-10-07T08:06:40.029Z"
+    },
+    {
+      "id": "validate-rule-facts",
+      "status": "passed",
+      "exit_code": 0,
+      "duration_ms": 146,
+      "checked_at": "2026-10-07T08:06:40.181Z"
+    },
+    {
+      "id": "tests",
+      "status": "passed",
+      "exit_code": 0,
+      "duration_ms": 5158,
+      "checked_at": "2026-10-07T08:06:45.344Z"
+    },
+    {
+      "id": "python-tests",
+      "status": "passed",
+      "exit_code": 0,
+      "duration_ms": 472,
+      "checked_at": "2026-10-07T08:06:45.821Z"
+    },
+    {
+      "id": "free-catalog",
+      "status": "passed",
+      "exit_code": 0,
+      "duration_ms": 99,
+      "checked_at": "2026-10-07T08:06:45.924Z"
+    },
+    {
+      "id": "free-tests",
+      "status": "passed",
+      "exit_code": 0,
+      "duration_ms": 271,
+      "checked_at": "2026-10-07T08:06:46.200Z"
+    }
+  ],
+  "finished_at": "2026-10-07T08:06:46.205Z",
+  "status": "completed"
+}

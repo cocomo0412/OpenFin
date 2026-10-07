@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "collected_at": "2026-10-07T05:49:17.211Z",
+  "collected_at": "2026-10-07T08:02:47.885Z",
   "review_scope": "API identity, schema, pagination and field mapping; not suitability or legal review",
   "domains": {
     "deposit": {
@@ -28,8 +28,8 @@
       "current_total": 318
     },
     "local_supports": {
-      "updated": 9295,
-      "added": 4,
+      "updated": 9299,
+      "added": 0,
       "current_total": 9299,
       "not_in_latest": 124,
       "source_total": 10951

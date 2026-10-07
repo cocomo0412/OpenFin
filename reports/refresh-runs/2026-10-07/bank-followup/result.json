@@ -1,0 +1,112 @@
+{
+  "started_at": "2026-10-07T08:02:13.016Z",
+  "scope": "Recollect bank deposit and saving only; rebuild using other verified same-day inputs",
+  "stages": [
+    {
+      "id": "bank",
+      "status": "passed",
+      "exit_code": 0,
+      "duration_ms": 70455,
+      "checked_at": "2026-10-07T08:03:58.224Z"
+    },
+    {
+      "id": "prepare-and-validate",
+      "status": "passed",
+      "exit_code": 0,
+      "duration_ms": 167941,
+      "checked_at": "2026-10-07T08:06:46.224Z"
+    }
+  ],
+  "bank_snapshot": {
+    "file": "finlife-catalog.json",
+    "source_id": "source.fss.finlife.api",
+    "collected_at": "2026-10-07T08:02:47.885Z",
+    "bytes": 2513663,
+    "sha256": "b1abae6bc27b0166f84636d21b4d6424177568c75a62ab96b3a50470077100b4"
+  },
+  "unchanged_other_inputs": 30,
+  "bank_datasets": [
+    {
+      "source_id": "source.fss.finlife.api",
+      "title": "금융감독원 정기예금 공시",
+      "operation": "deposit",
+      "count": 432,
+      "collected_at": "2026-10-07T08:02:47.885Z",
+      "basis_start": "202609",
+      "basis_end": "202609",
+      "status": "collected_integrity_checked",
+      "canonical_applied": true,
+      "reference_published": true,
+      "path": "opentax/api-snapshots/source.fss.finlife.api-deposit.json",
+      "canonical_scope": "catalog fields"
+    },
+    {
+      "source_id": "source.fss.finlife.api",
+      "title": "금융감독원 적금 공시",
+      "operation": "saving",
+      "count": 335,
+      "collected_at": "2026-10-07T08:02:47.885Z",
+      "basis_start": "202609",
+      "basis_end": "202609",
+      "status": "collected_integrity_checked",
+      "canonical_applied": true,
+      "reference_published": true,
+      "path": "opentax/api-snapshots/source.fss.finlife.api-saving.json",
+      "canonical_scope": "catalog fields"
+    }
+  ],
+  "pending": [
+    {
+      "endpoint": "annuitySavingProductsSearch",
+      "group": "020000",
+      "checked_at": "2026-10-07T05:49:11.027Z",
+      "error": "Unexpected schema: response is not retirement savings",
+      "reason": "제공기관 연금저축 API 응답의 상품 구조 또는 총건수와 실제 행수가 일치하지 않아 반영하지 않았습니다.",
+      "documentation_url": "https://finlife.fss.or.kr/finlife/api/anntySvingsApi/list.do?menuNo=700054",
+      "source_id": "source.fss.finlife.api",
+      "status": "provider_response_rejected"
+    },
+    {
+      "endpoint": "annuitySavingProductsSearch",
+      "group": "030200",
+      "checked_at": "2026-10-07T05:49:11.185Z",
+      "error": "Unexpected schema: response is not retirement savings",
+      "reason": "제공기관 연금저축 API 응답의 상품 구조 또는 총건수와 실제 행수가 일치하지 않아 반영하지 않았습니다.",
+      "documentation_url": "https://finlife.fss.or.kr/finlife/api/anntySvingsApi/list.do?menuNo=700054",
+      "source_id": "source.fss.finlife.api",
+      "status": "provider_response_rejected"
+    },
+    {
+      "endpoint": "annuitySavingProductsSearch",
+      "group": "030300",
+      "checked_at": "2026-10-07T05:49:11.344Z",
+      "error": "Unexpected schema: response is not retirement savings",
+      "reason": "제공기관 연금저축 API 응답의 상품 구조 또는 총건수와 실제 행수가 일치하지 않아 반영하지 않았습니다.",
+      "documentation_url": "https://finlife.fss.or.kr/finlife/api/anntySvingsApi/list.do?menuNo=700054",
+      "source_id": "source.fss.finlife.api",
+      "status": "provider_response_rejected"
+    },
+    {
+      "endpoint": "annuitySavingProductsSearch",
+      "group": "050000",
+      "checked_at": "2026-10-07T05:49:11.503Z",
+      "error": "Unexpected schema: response is not retirement savings",
+      "reason": "제공기관 연금저축 API 응답의 상품 구조 또는 총건수와 실제 행수가 일치하지 않아 반영하지 않았습니다.",
+      "documentation_url": "https://finlife.fss.or.kr/finlife/api/anntySvingsApi/list.do?menuNo=700054",
+      "source_id": "source.fss.finlife.api",
+      "status": "provider_response_rejected"
+    },
+    {
+      "endpoint": "annuitySavingProductsSearch",
+      "group": "060000",
+      "checked_at": "2026-10-07T05:49:11.670Z",
+      "error": "Incomplete pagination",
+      "reason": "제공기관 연금저축 API 응답의 상품 구조 또는 총건수와 실제 행수가 일치하지 않아 반영하지 않았습니다.",
+      "documentation_url": "https://finlife.fss.or.kr/finlife/api/anntySvingsApi/list.do?menuNo=700054",
+      "source_id": "source.fss.finlife.api",
+      "status": "provider_response_rejected"
+    }
+  ],
+  "status": "validated",
+  "finished_at": "2026-10-07T08:06:53.951Z"
+}

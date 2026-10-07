@@ -571,7 +571,13 @@ function renderResults({ append = false } = {}) {
   }
 
   setResultSummary(resultSummary(filtered.length, sourceItems.length, visible.length));
-  container.innerHTML = visible.map(({ item }) => resultItemHtml(item)).join("") || `<p class="empty-state">검색 결과가 없습니다.</p>`;
+  container.innerHTML = visible.map(({ item }) => resultItemHtml(item)).join("") || (query
+    ? `<div class="empty-search"><p class="empty-state">현재 검색어로 찾은 결과가 없습니다.</p><button type="button" class="clear-search" data-clear-search>검색어 지우기</button></div>`
+    : `<p class="empty-state">검색 결과가 없습니다.</p>`);
+
+  container.querySelectorAll("[data-clear-search]").forEach((button) => {
+    button.addEventListener("click", clearSearchQuery);
+  });
 
   container.querySelectorAll("[data-select-id]").forEach((button) => {
     button.addEventListener("click", () => selectItem(button.dataset.selectId));
@@ -583,6 +589,16 @@ function renderResults({ append = false } = {}) {
     container.scrollTop = previousScroll;
     container.querySelectorAll("[data-select-id]")[previousCount]?.focus();
   }
+}
+
+function clearSearchQuery() {
+  const input = document.querySelector("[data-search]");
+  if (!input) return;
+  ++state.restoreToken;
+  window.clearTimeout(state.searchTimer);
+  input.value = "";
+  renderResults();
+  input.focus();
 }
 
 function showMoreResults() {

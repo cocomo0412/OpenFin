@@ -6,15 +6,15 @@
 
 | 구분 | 항목 수 | 다음 조치 |
 |---|---:|---|
-| 금일 반영 | 67,392 | 추가 작업 없음 |
+| 금일 반영 | 68,159 | 추가 작업 없음 |
 | 최신 전체 목록에서 미확인 | 293 | 다음 전체 수집에서 동일 식별자를 재대조합니다. 판매 종료로 단정하지 않습니다. |
 | 구조·출처·용어 정보 유지 | 306 | API 매일 갱신 대상에서 분리합니다. 정의나 출처가 변경될 때 검토합니다. |
-| 이전 성공 자료 유지 | 7,342 | 기존 성공 이력을 재사용하고 다음 수집 경로를 확인합니다. 오늘 미수집한 원인을 오류로 추정하지 않습니다. |
+| 이전 성공 자료 유지 | 6,575 | 기존 성공 이력을 재사용하고 다음 수집 경로를 확인합니다. 오늘 미수집한 원인을 오류로 추정하지 않습니다. |
 | 미갱신 원인 추가 분류 필요 | 410 | API 제공 범위·식별자 매핑·수집기 구현 여부를 확인한 뒤 원인을 확정합니다. |
 
-전체 75,743개 중 금일 미반영 8,351개입니다.
+전체 75,743개 중 금일 미반영 7,584개입니다.
 
-## 요청 단위 오류: 6건
+## 요청 단위 오류: 5건
 
 위 항목 수에 더하지 않습니다. 요청 오류 건수를 미갱신 자료 개수로 해석하거나, 해당 분야 전체에 오류를 일괄 귀속하지 않습니다.
 
@@ -23,7 +23,6 @@
 - source.fss.finlife.api / annuitySavingProductsSearch / 030300: Unexpected schema: response is not retirement savings
 - source.fss.finlife.api / annuitySavingProductsSearch / 050000: Unexpected schema: response is not retirement savings
 - source.fss.finlife.api / annuitySavingProductsSearch / 060000: Incomplete pagination
-- source.fss.finlife.api / operation / undefined: undefined
 
 ## 다음 작업 순서
 

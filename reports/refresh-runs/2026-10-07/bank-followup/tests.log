@@ -1,0 +1,21 @@
+✔ published API snapshots have complete counts and retain source dates (308.2659ms)
+✔ API review metadata preserves failure reporting and provider periods (6.3547ms)
+✔ current product links match provider and product identities without enabling recommendation (4526.8105ms)
+✔ absence overrides older success; a pension item is not automatically an API failure (2.6746ms)
+✔ ledger exhaustively partitions unique items and keeps request failures separate (2436.7137ms)
+✔ preparation uses Korea date and rejects success timestamps from older snapshots (26.9305ms)
+✔ retry timestamp does not make older successful loan data current (1.9871ms)
+✔ failed-only mode does not recollect successful providers or publish data (1.7898ms)
+✔ retained bank and Gov24 require current failure and exact original byte hash/date (70.0767ms)
+✔ partial, duplicate, wrong source and checksum-invalid old collections fail closed (65.7604ms)
+✔ legacy failure adoption binds same-day pre-run baseline and failed stage to exact old data (58.4182ms)
+✔ public pending records collection-stage scope and retained date, without inventing per-request failures (30.9328ms)
+✔ preparation admits old bank data only with current failure proof bound to that original (20.9498ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5056.2585
