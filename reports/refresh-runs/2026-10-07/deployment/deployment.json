@@ -1,0 +1,77 @@
+{
+  "verified_at": "2026-10-07T06:01:13.050Z",
+  "commit": "34450ae6ff83c2104c1febacdddd197eed4f3c2c",
+  "previous_production_commit": "3e225a1bad283d7898681cec88a47bcbe1e6f4c1",
+  "website": {
+    "deployed": true,
+    "url": "https://cocomo0412.github.io/OpenFin/",
+    "basis_date": "2026-10-07",
+    "refresh_status": "partial",
+    "checked_files": [
+      {
+        "path": "docs/opentax/finance-ontology-manifest.json",
+        "url": "https://cocomo0412.github.io/OpenFin/opentax/finance-ontology-manifest.json",
+        "status": 200,
+        "sha256": "cf031588af1f56697f95a5a2dbc2044ba42d8b01333c814fb9cbcbdd44ffdb6c",
+        "matches_commit": true
+      },
+      {
+        "path": "docs/opentax/collection-inventory.json",
+        "url": "https://cocomo0412.github.io/OpenFin/opentax/collection-inventory.json",
+        "status": 200,
+        "sha256": "2abc1b6dea6259100d6a647bb8c9e51e17eeb3266a97bc76efc67d6182d8d598",
+        "matches_commit": true
+      },
+      {
+        "path": "docs/opentax/api-snapshots/source.bok.ecos-0.json",
+        "url": "https://cocomo0412.github.io/OpenFin/opentax/api-snapshots/source.bok.ecos-0.json",
+        "status": 200,
+        "sha256": "8a99862ba73a711519c8d1239d375341efdcf8eaafb602cb52533f7bec4a3044",
+        "matches_commit": true
+      },
+      {
+        "path": "docs/opentax/api-snapshots/source.fss.finlife.api-deposit.json",
+        "url": "https://cocomo0412.github.io/OpenFin/opentax/api-snapshots/source.fss.finlife.api-deposit.json",
+        "status": 200,
+        "sha256": "5a4cd7c8a2c8fb1b6e1f4da9c6f0b1957f8631a72b313b54ed80bb136728007b",
+        "matches_commit": true
+      }
+    ]
+  },
+  "mcp": {
+    "required": false,
+    "redeployed": false,
+    "changed_bundle_inputs": [],
+    "reason": "Tax catalog, MCP code/configuration/dependencies unchanged"
+  },
+  "pages": {
+    "id": 37579036068,
+    "url": "https://github.com/cocomo0412/OpenFin/actions/runs/37579036068",
+    "conclusion": "success",
+    "head_sha": "34450ae6ff83c2104c1febacdddd197eed4f3c2c",
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success"
+      },
+      {
+        "name": "report-build-status",
+        "conclusion": "success"
+      },
+      {
+        "name": "deploy",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "workflows": [
+    {
+      "name": "pages build and deployment",
+      "id": 37579036068,
+      "conclusion": "success",
+      "url": "https://github.com/cocomo0412/OpenFin/actions/runs/37579036068"
+    }
+  ],
+  "retained_bank_collected_at": "2026-10-01T07:44:18.122Z",
+  "pension_pending_requests": 5
+}

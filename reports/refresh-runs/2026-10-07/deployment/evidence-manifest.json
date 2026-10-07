@@ -1,0 +1,17 @@
+{
+  "created_at": "2026-10-07T06:01:46.537Z",
+  "files": [
+    {
+      "file": "deployment.json",
+      "sha256": "1d1c71017aa5f63efc0bcd40d72d56a65eace2f085f7a54801380baac3b962ef"
+    },
+    {
+      "file": "README.md",
+      "sha256": "acddb8848b9aa4118a1a3232aae388f826c81e62e7229d8789b20e676b09edf9"
+    },
+    {
+      "file": "verify.mjs",
+      "sha256": "29248424d1f68a45b79a7620d71ec5db5f79cd1c6a836814260abcff3ba1783f"
+    }
+  ]
+}
