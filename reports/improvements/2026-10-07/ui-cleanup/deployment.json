@@ -1,0 +1,42 @@
+{
+  "checked_at": "2026-10-07T09:13:21.777Z",
+  "timezone": "Asia/Seoul",
+  "commit": "2c2b4554682299fd3b98839e61894af82995b79b",
+  "pages_run": "https://github.com/cocomo0412/OpenFin/actions/runs/37598808270",
+  "search_quality_run": "https://github.com/cocomo0412/OpenFin/actions/runs/37598808962",
+  "both_runs": "success",
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 21705,
+      "sha256": "94587b67a92b35227019206f18a23c811fba69264b66b31dd84558dcc93efb45",
+      "matches_commit": true
+    },
+    {
+      "path": "explorer.html",
+      "bytes": 4726,
+      "sha256": "aab3fa4ac5ca9a76c7cd8dfb54138331e721ab898a2e44d398986d97a553c581",
+      "matches_commit": true
+    },
+    {
+      "path": "app.js",
+      "bytes": 64997,
+      "sha256": "c4d4cb1d587307b01c6ed6fe88872bcee663508ad045cab80b7f9f93b2ed546a",
+      "matches_commit": true
+    },
+    {
+      "path": "styles.css",
+      "bytes": 42803,
+      "sha256": "59f5d024359eb5f0102cec86462cde8c1fbef8cf792132f8c29239d3296e3f5f",
+      "matches_commit": true
+    },
+    {
+      "path": "opentax/finance-ontology-manifest.json",
+      "bytes": 423479,
+      "sha256": "532e209ce8bb910338e03c9d32bb899c16e483141e10d00fe8970e7fd2d7938f",
+      "matches_commit": true
+    }
+  ],
+  "mcp_deployed": false,
+  "mcp_reason": "No MCP code/config/dependencies/tax bundle input changes in entire pushed range"
+}
