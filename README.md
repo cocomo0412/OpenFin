@@ -5,17 +5,17 @@
 자료 구축과 갱신은 공식 API 요청을 원칙으로 합니다. API 오류나 미제공 자료를 웹 수집으로 자동 대체하지 않습니다.
 
 - [개발 매뉴얼](handbook/development.md): 환경 준비, 데이터 계약, 검사, 리뷰와 배포
-- [운영 매뉴얼](handbook/operations.md): 화·금 오전 9시 한국시간 정기 갱신 기준, 실패 처리, 서비스 반영과 복구
+- [운영 매뉴얼](handbook/operations.md): 되도록 7일 간격의 정기 갱신 목표, 실패 처리, 서비스 반영과 복구
 
-정기 갱신 일정은 운영 기준이며 자동 실행 예약은 아직 설정하지 않았습니다. 아래의 과거 건수와 수집 기록 대신 실제 제공 범위는 현재 산출물과 MCP `exports`로 확인합니다.
+정기 갱신은 2026년 10월 7일을 기준 회차로 하며 다음 목표일은 10월 14일입니다. 실행 시각은 미정이고 자동 실행 예약은 아직 설정하지 않았습니다. 웹 자료 현황은 현재 manifest, MCP 제공 범위와 자료 기준일은 운영 서버의 `exports`로 각각 확인합니다.
 
 ## cocomo0412 운영 안내
 
-홈페이지: <https://cocomo0412.github.io/OpenFin/>. 무료 Cloudflare MCP는 세금·공제 387개에 대한 `search`, `fetch`, `exports`만 제공합니다. MCP 주소는 <https://openfin.cocomo0412.workers.dev/mcp>이며, 전체 금융상품 비교·추천 MCP는 무료판에 포함되지 않습니다. [무료판 배포 설정](mcp/FREE-DEPLOYMENT.md)을 사용하세요. 기본 `mcp/wrangler.toml`도 무료판이며, 전체판 배포 workflow는 비활성화했습니다.
+홈페이지에서는 전체 금융 분야를 탐색할 수 있습니다. 무료 Cloudflare MCP는 세금·공제 자료에 대한 `search`, `fetch`, `exports`만 제공합니다. 현재 항목 수와 카탈로그 기준일은 [운영 MCP 메타데이터](https://openfin.cocomo0412.workers.dev/health) 또는 `exports`에서 확인합니다. 이 메타데이터 응답은 MCP 연결·도구 호출 성공을 보증하는 검사는 아닙니다. [현재 MCP 안내](mcp/README.md)와 [무료판 배포 설정](mcp/FREE-DEPLOYMENT.md)을 사용하세요. 기본 `mcp/wrangler.toml`도 무료판이며, 전체판 배포 workflow는 비활성화했습니다.
 
 OpenFin은 금융 도메인 지식과 상품 데이터를 같은 출처·관계 계약으로 공개하는 읽기 전용 탐색기와 Cloudflare Remote MCP입니다.
 
-범위 결정은 개인 금융 플랫폼 전체를 하나의 추천기로 만드는 것이 아니라, `tax`, `public-support`, `financial-products`, `financial-reference`, `life-context` bounded context를 각각 출처·신선도·공개등급으로 운영하는 방식입니다. 현재 공개 기능은 조회·탐색 중심이며 예금·적금 비교는 제한 파일럿, 추천은 release gate와 현재 배포 세대 generation-bound 120/120 live regression을 통과하기 전까지 fail-closed입니다. 최상위 `release_status`는 호환용 deprecated alias이고, 외부 상태 판단은 `core_search_status`, `comparison_status`, `recommendation_status`를 사용합니다.
+웹은 분야별 API 수집 자료와 출처·날짜를 보존한 기존 자료를 제공합니다. 무료 MCP는 공식기관 웹 문서를 바탕으로 정리한 세금·공제 카탈로그를 배포 번들에 포함합니다. 웹의 API 수집일과 MCP 카탈로그 기준일은 별개이며, 웹 갱신만으로 MCP 자료가 바뀌지 않습니다. 무료 MCP는 전체 금융상품 검색·비교·추천이나 실시간 갱신을 제공하지 않습니다. 과거 전체판 설계는 [보관 문서](reports/archive/mcp-full-edition-readme.md)로 분리했습니다.
 
 - 사이트: <https://cocomo0412.github.io/OpenFin/>
 - MCP: <https://openfin.cocomo0412.workers.dev/mcp> (Streamable HTTP, 인증 없음, 공개 읽기 전용)
