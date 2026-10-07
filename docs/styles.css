@@ -1271,6 +1271,12 @@ button {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .metrics > div {
+    min-height: 0;
+    padding-block: 16px;
+    gap: 4px;
+  }
+
   .metrics div:nth-child(2n) {
     border-right: 0;
   }
