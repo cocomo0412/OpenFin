@@ -33,7 +33,8 @@ const request = async (endpoint, group, pageNo) => {
   url.searchParams.set('auth', key);
   url.searchParams.set('topFinGrpNo', group);
   url.searchParams.set('pageNo', String(pageNo));
-  const response = await fetch(url, { signal: AbortSignal.timeout(15_000) });
+  // Saving-product responses took about 16.7s in the 2026-10-07 diagnosis.
+  const response = await fetch(url, { signal: AbortSignal.timeout(30_000) });
   if (!response.ok) throw new Error(`${endpoint}: HTTP ${response.status}`);
   const result = (await response.json()).result;
   if (result?.err_cd !== '000') throw new Error(`${endpoint}: ${result?.err_cd ?? 'invalid response'}`);
