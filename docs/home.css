@@ -101,3 +101,35 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
   .export-card, .button, .export-open { transition: none; }
   .export-card:hover { transform: none; }
 }
+
+/* Prefer Korean word boundaries; allow emergency wrapping for long identifiers. */
+#top :is(h2, h3, p, li, .connector-steps span, .quality-summary-list span) {
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+#top .sentence-group { min-width: 0; }
+#top .sentence-group p + p,
+#top .ontology-note p + p,
+#top .section-heading p:not(.eyebrow) + p,
+#top .mcp-grid p + p,
+#top .collection-update details > p + p { margin-top: 4px; }
+/* Override the shared summary spacing only between homepage sentences. */
+#top .source-status-summary + .source-status-summary { margin-top: 4px !important; }
+
+/* Shared reading rhythm by text role, without changing font sizes. */
+#top {
+  --home-body-leading: 1.6;
+  --home-detail-leading: 1.45;
+}
+#top :is(.hero-lede, .ontology-note p, .section-heading p:not(.eyebrow),
+  .comparison-grid li, .export-card > p:not(.export-metadata),
+  .connector-endpoint p, .connector-steps span, .mcp-grid p,
+  .improvement-grid p, .explorer-cta-card p:not(.eyebrow), .collection-update p) {
+  line-height: var(--home-body-leading);
+}
+#top :is(.export-metadata, .export-date-history p, .improvement-grid article > span,
+  .operational-status p, .operational-source-list span, .operational-source-list small,
+  .operational-source-list .source-empty, .quality-summary-list span) {
+  line-height: var(--home-detail-leading);
+}
+#top .connector-steps li { gap: 4px; }

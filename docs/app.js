@@ -1222,7 +1222,8 @@ function renderOperationalSummary() {
       <h3>품질 요약</h3>
       <p class="source-status-summary">core/search: <strong>${escapeHtml(state.manifest.capabilities?.search || state.manifest.core_search_status || state.manifest.platform_release_status || "unknown")}</strong> · 비교: <strong>${escapeHtml(state.manifest.capabilities?.comparison || state.manifest.comparison_status || state.manifest.comparison_release_status || "unknown")}</strong> · 추천: <strong>${escapeHtml(state.manifest.capabilities?.recommendation || state.manifest.recommendation_status || state.manifest.recommendation_release_status || "blocked")}</strong></p>
       <p class="quality-summary-list">${qualityLines || "품질 요약 로딩 전입니다."}</p>
-      <p class="source-status-summary">provenance 연결률은 필드 출처 검증률과 다릅니다. 위의 ‘필드 출처 검증’ 수치는 필수 필드 assertion까지 확인된 상품만 포함합니다.</p>
+      <p class="source-status-summary">provenance 연결률은 필드 출처 검증률과 다릅니다.</p>
+      <p class="source-status-summary">위의 ‘필드 출처 검증’ 수치는 필수 필드 assertion까지 확인된 상품만 포함합니다.</p>
       <p class="source-status-summary">출처 상태: ${escapeHtml(statusLine || "확인 불가")}</p>
       <p class="source-status-summary">빌드: ${escapeHtml(state.manifest.built_at || "미기록")} · 출처 검토: ${escapeHtml(state.manifest.source_review_date || "미기록")} · live 확인: ${escapeHtml(liveEvidence.checked_at || "현재 세대 evidence 없음")}</p>
     </article>
