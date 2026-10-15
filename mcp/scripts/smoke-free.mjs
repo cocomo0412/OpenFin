@@ -9,6 +9,14 @@ const client = new Client({ name: "openfin-free-smoke", version: "1.0.0" });
 try {
   await client.connect(new StreamableHTTPClientTransport(new URL(endpoint)));
   assert.equal(client.getServerVersion()?.version, "1.0.2");
+  const serverInfo = client.getServerVersion();
+  assert.equal(serverInfo?.title, "OpenFin");
+  assert.equal(serverInfo?.websiteUrl, "https://cocomo0412.github.io/OpenFin/");
+  assert.deepEqual(serverInfo?.icons, [{
+    src: "https://cocomo0412.github.io/OpenFin/opentax/opentax-app-icon-512.png",
+    mimeType: "image/png",
+    sizes: ["512x512"],
+  }], "MCP initialize must advertise the existing PNG logo");
   const serverInstructions = client.getInstructions();
   assert.equal(typeof serverInstructions, "string", "Server must publish instructions during initialization");
   const instructions = serverInstructions.replace(/\s+/gu, " ");

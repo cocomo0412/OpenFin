@@ -36,7 +36,17 @@ export default {
     let offset = 0;
     for (const chunk of chunks) { bytes.set(chunk, offset); offset += chunk.byteLength; }
     const boundedRequest = new Request(request.url, { method: "POST", headers: request.headers, body: bytes, signal: request.signal });
-    const server = new McpServer({ name: "openfin-free", version: "1.0.2" }, { instructions: freeInstructions });
+    const server = new McpServer({
+      name: "openfin-free",
+      title: "OpenFin",
+      version: "1.0.2",
+      websiteUrl: "https://cocomo0412.github.io/OpenFin/",
+      icons: [{
+        src: "https://cocomo0412.github.io/OpenFin/opentax/opentax-app-icon-512.png",
+        mimeType: "image/png",
+        sizes: ["512x512"],
+      }],
+    }, { instructions: freeInstructions });
     server.registerTool("search", { description: "세금·공제 참고자료에서 관련 항목과 공식 출처를 검색합니다. 일반 설명은 핵심과 출처 중심으로 답하고, 현재 금액·기한·자격은 공식 근거를 확인합니다. 날짜와 검증 상태는 항목별로 해석합니다.", annotations,
       inputSchema: { query: z.string().trim().min(1).max(120), limit: z.number().int().min(1).max(10).optional() } },
       async ({ query, limit }) => result(searchFree(query, limit)));
