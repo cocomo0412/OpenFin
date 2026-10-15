@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-10-15T09:21:57.999Z",
+  "status": "passed",
+  "source_rows": 10968,
+  "selected_from_official_rows": 9316,
+  "current_canonical_rows": 9316,
+  "unique_ids": 9316,
+  "checks": [
+    "source-derived count and complete IDs",
+    "raw and title equality",
+    "eligibility text retained",
+    "no eligibility or application assertion"
+  ],
+  "reason": "Existing test has stale fixed count 9281; no test/source changes made."
+}

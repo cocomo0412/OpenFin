@@ -4,11 +4,13 @@
   "source_review_date": "2026-07-10",
   "collection_dates": [
     "2026-07-18",
-    "2026-10-07"
+    "2026-10-07",
+    "2026-10-15"
   ],
   "product_collection_dates": [
     "2026-07-18",
-    "2026-10-07"
+    "2026-10-07",
+    "2026-10-15"
   ],
   "domain": "finance-reference",
   "ontology_kind": "finance-reference-ontology",
@@ -91,14 +93,14 @@
       "stale_active_disclosure_products_must_be_zero": true
     }
   },
-  "item_count": 57927,
+  "item_count": 57868,
   "reference_item_count": 8,
   "catalog_refresh": {
-    "count": 57494,
-    "latest": "2026-10-07T05:41:37.427526+00:00",
+    "count": 57435,
+    "latest": "2026-10-15T09:02:11.172056+00:00",
     "scope": "공식 API·웹 공시의 필드·식별자 반영. 제공기관 기준일과 개별 검토 범위는 별도."
   },
-  "export_checksum": "e76af8d0a9f4d3c428c62a2798504c31e13933b4b7d9782fd778a4f5c864bae3",
+  "export_checksum": "8b92bec44b0127d4bfbf8190832bceef1ba773c5641296d4b9c205fa41bb9d45",
   "storage_format": "openfin-sharded-export-v1",
   "shards": [
     {
@@ -109,8 +111,8 @@
       "web_url": "https://cocomo0412.github.io/OpenFin/opentax/korea-finance-reference-ontology-2026-shard-001.json",
       "item_count": 3120,
       "reference_item_count": 0,
-      "export_checksum": "b840d9c2aa447be0ee01e7f464ee29d2f4370f8be53807420320e30a2ac491f8",
-      "content_checksum": "f7941aa55086051bb360cad00cfde7753fde4b7689b1c0d8ebe2a6b65c027e22"
+      "export_checksum": "2376deec9e754023b73a30afa20813c0db90cf852f84a29db31b0bbc7d07492d",
+      "content_checksum": "d5b90744c291b2d1b787d7c017dc5731dc9370f68bb6a3b89c2e8f7dfd553053"
     },
     {
       "id": "korea-finance-reference-ontology-2026.json-shard-002",
@@ -120,8 +122,8 @@
       "web_url": "https://cocomo0412.github.io/OpenFin/opentax/korea-finance-reference-ontology-2026-shard-002.json",
       "item_count": 3584,
       "reference_item_count": 0,
-      "export_checksum": "483c904c0ed9c35b93c36acbec019d641863d895c2673e30658c2cb297ece0bf",
-      "content_checksum": "218eba70860f3fc50ff1f2764b983080ed9ba5616bff8da1ef2d84f1bb312eea"
+      "export_checksum": "befca38bda5c2ca56912f14042b36b1b79fd5e8896dea5d317e8e009599d22c2",
+      "content_checksum": "96c3ba7ad2855e09484a9049e1eb8983803d4fcea5fd0d480d8800c33120f8d3"
     },
     {
       "id": "korea-finance-reference-ontology-2026.json-shard-003",
@@ -129,10 +131,10 @@
       "path": "opentax/korea-finance-reference-ontology-2026-shard-003.json",
       "url": "https://cocomo0412.github.io/OpenFin/opentax/korea-finance-reference-ontology-2026-shard-003.json",
       "web_url": "https://cocomo0412.github.io/OpenFin/opentax/korea-finance-reference-ontology-2026-shard-003.json",
-      "item_count": 3753,
+      "item_count": 3752,
       "reference_item_count": 0,
-      "export_checksum": "7124522d841f8f132da379befaa3624ee2c528a96fd49f06a59bf59aee1f50fb",
-      "content_checksum": "923158530852563fee701a45a92f4b75366a7849ecf62eb07d4d17ae5fefdffd"
+      "export_checksum": "11eea41d938046bed56c445db6c6b4cf2fc271e2ccfc18e17be5712b8373aef4",
+      "content_checksum": "c9372f55c7442c5b85c095aca86af06b56d419f803c63ffd4183ee39bde7a215"
     },
     {
       "id": "korea-finance-reference-ontology-2026.json-shard-004",
@@ -140,10 +142,10 @@
       "path": "opentax/korea-finance-reference-ontology-2026-shard-004.json",
       "url": "https://cocomo0412.github.io/OpenFin/opentax/korea-finance-reference-ontology-2026-shard-004.json",
       "web_url": "https://cocomo0412.github.io/OpenFin/opentax/korea-finance-reference-ontology-2026-shard-004.json",
-      "item_count": 4156,
+      "item_count": 4157,
       "reference_item_count": 0,
-      "export_checksum": "55a45b460ae8efed173ee230f34aabbba8b01928b54b2a57ffed06f351f28026",
-      "content_checksum": "8e84e01bf8bb5975533d9ebd9455ccfc21d78678831d8e9b0f4928a20456de58"
+      "export_checksum": "79da30837885e637a4262cca2ea38b98b8cee9f250b058cc089fcf28008c4089",
+      "content_checksum": "597694047ecf990e5ee44e698beec2b6d3db4427a9d5ab116a8033df4032e316"
     },
     {
       "id": "korea-finance-reference-ontology-2026.json-shard-005",
@@ -151,10 +153,10 @@
       "path": "opentax/korea-finance-reference-ontology-2026-shard-005.json",
       "url": "https://cocomo0412.github.io/OpenFin/opentax/korea-finance-reference-ontology-2026-shard-005.json",
       "web_url": "https://cocomo0412.github.io/OpenFin/opentax/korea-finance-reference-ontology-2026-shard-005.json",
-      "item_count": 4162,
+      "item_count": 4159,
       "reference_item_count": 0,
-      "export_checksum": "d9a70c8cb6efc57e228d9bba89124b204cf01a4d2e9939a3ba43accf75b521c4",
-      "content_checksum": "0385582529a72c12717d2101ab48aaa86965894e7d3ec5a3b72d90f932213f80"
+      "export_checksum": "af7ec2775a1d4785e6ae1d607539c9622af3a2e985c2f946a1b6210cc67a3955",
+      "content_checksum": "41d5748702a3ff29d7fbfefd80bb4f351e5c3895b61ca76101e17491cf830f27"
     },
     {
       "id": "korea-finance-reference-ontology-2026.json-shard-006",
@@ -162,10 +164,10 @@
       "path": "opentax/korea-finance-reference-ontology-2026-shard-006.json",
       "url": "https://cocomo0412.github.io/OpenFin/opentax/korea-finance-reference-ontology-2026-shard-006.json",
       "web_url": "https://cocomo0412.github.io/OpenFin/opentax/korea-finance-reference-ontology-2026-shard-006.json",
-      "item_count": 4069,
+      "item_count": 4062,
       "reference_item_count": 0,
-      "export_checksum": "f5fb8a0936d12cd2722a66ef2a01c6be9f7de9be92b9a5268ca6a8d18a622203",
-      "content_checksum": "ded2e0ac387346fcc19aaf7cb371137df6796a4c5c57d4573f93a34eec5b9ef2"
+      "export_checksum": "aed8cc21cacda5ea126edd9a24101c96b63320b96b05c944b3c7bf9286832c7b",
+      "content_checksum": "97f70dadb44bcddb5894f4f648c2781ae0119882806080b6e7048c067a463e15"
     },
     {
       "id": "korea-finance-reference-ontology-2026.json-shard-007",
@@ -175,8 +177,8 @@
       "web_url": "https://cocomo0412.github.io/OpenFin/opentax/korea-finance-reference-ontology-2026-shard-007.json",
       "item_count": 3737,
       "reference_item_count": 0,
-      "export_checksum": "89320627689dbab9c09fb5155efcefd18e00efdca8ef9836ae3421cb22680877",
-      "content_checksum": "919c9732688ffbc2d524083838cb310f1460f5a4facf29dc9a6d0c0c0e02e35d"
+      "export_checksum": "7aeae8397396ee6f36c25d6abc47f938f0443fe2a50d3db397a201a1a0109da5",
+      "content_checksum": "309c3073e341125eca0f3a1a1f80f376a7299f230c4cb661dd2ab39369df4010"
     },
     {
       "id": "korea-finance-reference-ontology-2026.json-shard-008",
@@ -186,8 +188,8 @@
       "web_url": "https://cocomo0412.github.io/OpenFin/opentax/korea-finance-reference-ontology-2026-shard-008.json",
       "item_count": 3743,
       "reference_item_count": 0,
-      "export_checksum": "5ac3cf39086d2f3b46fea18f7d6e1fc77cd16d9510556ca614715bcadda908cc",
-      "content_checksum": "7a78aba4cb49be6b6e6ee26be59b19d8b031d8868a8b0a3d3558fd6184ad70c7"
+      "export_checksum": "ac22c57347cbe25f843132c28da3681b578bc694c6938529333bdc38fbfaa65b",
+      "content_checksum": "38f844e63d6fb6d9e33cdc82912b61ebfff504001cca9d8a195b535b79b53fcb"
     },
     {
       "id": "korea-finance-reference-ontology-2026.json-shard-009",
@@ -197,8 +199,8 @@
       "web_url": "https://cocomo0412.github.io/OpenFin/opentax/korea-finance-reference-ontology-2026-shard-009.json",
       "item_count": 3739,
       "reference_item_count": 0,
-      "export_checksum": "5104990e40a7cbe18c6f0376d03db883f46f3f953cb6fe6bb91874d235b98ac3",
-      "content_checksum": "a973f9ee281b97fd83b4857169a4ff8a62cc3853b7e3fdad29295c01c3dd4a6b"
+      "export_checksum": "0b1ce2c5c5dd851abaa2032798dd159ef2d03c1aeb62d940b28f80a8abcb5eea",
+      "content_checksum": "327292c3b2e06d65bb42077a8153afb4d74f3fd735d458b192f32480f37879f0"
     },
     {
       "id": "korea-finance-reference-ontology-2026.json-shard-010",
@@ -206,10 +208,10 @@
       "path": "opentax/korea-finance-reference-ontology-2026-shard-010.json",
       "url": "https://cocomo0412.github.io/OpenFin/opentax/korea-finance-reference-ontology-2026-shard-010.json",
       "web_url": "https://cocomo0412.github.io/OpenFin/opentax/korea-finance-reference-ontology-2026-shard-010.json",
-      "item_count": 3738,
+      "item_count": 3737,
       "reference_item_count": 0,
-      "export_checksum": "172efde1ca0d38c20c069dd2a17ba014b65e5ac40dc26514c9d6c103763c1e40",
-      "content_checksum": "4b12f8283859053f08c7dda8b130cc8dcd5e91099c34edde3ba76d7a528c6122"
+      "export_checksum": "5ba1c93a2bd47c8188278f9d9387a78f9f61ab1c79d8ef47a1118617234b5e90",
+      "content_checksum": "def4a57caf4d3c76137c035d7d75bd7e82b795afb83945cee524e1f6726cf7e2"
     },
     {
       "id": "korea-finance-reference-ontology-2026.json-shard-011",
@@ -219,8 +221,8 @@
       "web_url": "https://cocomo0412.github.io/OpenFin/opentax/korea-finance-reference-ontology-2026-shard-011.json",
       "item_count": 3740,
       "reference_item_count": 0,
-      "export_checksum": "e90726af3be0a1fe4b96bcb1c72e7cbf40f78375897a4881553b12a81a865d04",
-      "content_checksum": "a4caa6b8bad46feda9642c8a8454957e93e3153fd38c3cd76dd7033adbde4cb6"
+      "export_checksum": "f7ed60e23e83ed033703fa0de7010fe4dcfaf78e626ac4fe77ca000657a67f43",
+      "content_checksum": "ccc70542e9f1be19024ad0f62f02eedc33b44be90d690248393464afd03ffab0"
     },
     {
       "id": "korea-finance-reference-ontology-2026.json-shard-012",
@@ -228,10 +230,10 @@
       "path": "opentax/korea-finance-reference-ontology-2026-shard-012.json",
       "url": "https://cocomo0412.github.io/OpenFin/opentax/korea-finance-reference-ontology-2026-shard-012.json",
       "web_url": "https://cocomo0412.github.io/OpenFin/opentax/korea-finance-reference-ontology-2026-shard-012.json",
-      "item_count": 3739,
+      "item_count": 3738,
       "reference_item_count": 0,
-      "export_checksum": "95df85f6fe933c77eeb7db56f417b23e5fd87c0192b2019ee524ea9279d1978b",
-      "content_checksum": "af4ab2dc379e5b0ebb403189cad5301f9dfcc6f9d8fbe7d5bb8e1d546bd18a18"
+      "export_checksum": "f8e95792b9c871be0108ecf7bcaa606ceb4088b8231673b047caa889ba70f7cb",
+      "content_checksum": "0976c5a7550f1d6ce9a63ace786e601a2a9844545180dbe8933ea788187f9cf9"
     },
     {
       "id": "korea-finance-reference-ontology-2026.json-shard-013",
@@ -241,8 +243,8 @@
       "web_url": "https://cocomo0412.github.io/OpenFin/opentax/korea-finance-reference-ontology-2026-shard-013.json",
       "item_count": 3742,
       "reference_item_count": 0,
-      "export_checksum": "5c80788c7a75d0c9f5755ff5a22da98d54e190586e19007455b63964f528df45",
-      "content_checksum": "82665662a9ce0ad7702b3534479e57b4e17f22cbf08e99c55c2c3c9f9dd4317c"
+      "export_checksum": "1f528c7f0ececf8a6d8a16140c01268a85a17e6d7fb5824218b78c7711d25eb2",
+      "content_checksum": "3d937fb440911951fd602073814a44fb6106e60ec97e132ca5d3bead30646a48"
     },
     {
       "id": "korea-finance-reference-ontology-2026.json-shard-014",
@@ -252,8 +254,8 @@
       "web_url": "https://cocomo0412.github.io/OpenFin/opentax/korea-finance-reference-ontology-2026-shard-014.json",
       "item_count": 3738,
       "reference_item_count": 0,
-      "export_checksum": "9c7de6a6d526c2ce027a42d02ef694779585a91e8924da3c581109f940f6f91e",
-      "content_checksum": "3b93cb5e10e8589b38860bb9a1d26c68a08a747d8f3ed413fc2853113f773c22"
+      "export_checksum": "0ae04f514cd7f12cea6e2b53e7b5bdd62f2881f939c679387c5be9d73a905579",
+      "content_checksum": "8b86f17b60016f561915b466980958c120f4b009816f692b2a0cee8c62c4f1e2"
     },
     {
       "id": "korea-finance-reference-ontology-2026.json-shard-015",
@@ -261,10 +263,10 @@
       "path": "opentax/korea-finance-reference-ontology-2026-shard-015.json",
       "url": "https://cocomo0412.github.io/OpenFin/opentax/korea-finance-reference-ontology-2026-shard-015.json",
       "web_url": "https://cocomo0412.github.io/OpenFin/opentax/korea-finance-reference-ontology-2026-shard-015.json",
-      "item_count": 3738,
+      "item_count": 3739,
       "reference_item_count": 0,
-      "export_checksum": "031edfcdbd9ca12dd95db04e1b7d85f723845ae83ea77a01cbfbdf7214cb4af1",
-      "content_checksum": "d28c86c2faa009cb9f56508d1af8e7d46248d314255933c6bcf5720b7e1e7a74"
+      "export_checksum": "22519350f4661ccd565f7305a52996df247bc4605e08188672e14b9f0547d208",
+      "content_checksum": "dc06f0d14bef9b4f3f1b081794df5e8517b4f41e9ec8b90bf4fe6fe4e39d4857"
     },
     {
       "id": "korea-finance-reference-ontology-2026.json-shard-016",
@@ -272,10 +274,10 @@
       "path": "opentax/korea-finance-reference-ontology-2026-shard-016.json",
       "url": "https://cocomo0412.github.io/OpenFin/opentax/korea-finance-reference-ontology-2026-shard-016.json",
       "web_url": "https://cocomo0412.github.io/OpenFin/opentax/korea-finance-reference-ontology-2026-shard-016.json",
-      "item_count": 1429,
+      "item_count": 1381,
       "reference_item_count": 8,
-      "export_checksum": "689bf04a40dcb1024ad4153325669668752f9157cbcce84e4cd9913bd80d2f85",
-      "content_checksum": "71f80f410c7b4fd93fa2c31256b5a4df58eca6604427d47f3262debedf0a56df"
+      "export_checksum": "b60feb05d4e882bd6b86999ed031136ac7e90531bcea512cbba7ed815f8478f2",
+      "content_checksum": "9a547c588d66f69f3f7642d0f8d8239bc2c3f47a637fcad5c0e7f4905adddd7b"
     }
   ],
   "items": []

@@ -1,0 +1,135 @@
+{
+  "started_at": "2026-10-15T09:00:57.861Z",
+  "basis_date": "2026-10-15",
+  "mode": "refresh",
+  "stages": [
+    {
+      "id": "public-api",
+      "status": "failed",
+      "exit_code": 1,
+      "duration_ms": 73894,
+      "checked_at": "2026-10-15T09:02:11.778Z"
+    },
+    {
+      "id": "bank",
+      "status": "passed",
+      "exit_code": 0,
+      "duration_ms": 68430,
+      "checked_at": "2026-10-15T09:03:20.280Z"
+    },
+    {
+      "id": "additional",
+      "status": "passed",
+      "exit_code": 0,
+      "duration_ms": 21888,
+      "checked_at": "2026-10-15T09:03:42.173Z"
+    },
+    {
+      "id": "gov24",
+      "status": "passed",
+      "exit_code": 0,
+      "duration_ms": 4113,
+      "checked_at": "2026-10-15T09:03:46.601Z"
+    },
+    {
+      "id": "prepare",
+      "status": "passed",
+      "exit_code": 0,
+      "duration_ms": 1291,
+      "checked_at": "2026-10-15T09:03:48.579Z"
+    },
+    {
+      "id": "link",
+      "status": "passed",
+      "exit_code": 0,
+      "duration_ms": 5087,
+      "checked_at": "2026-10-15T09:03:53.671Z"
+    },
+    {
+      "id": "integrate",
+      "status": "passed",
+      "exit_code": 0,
+      "duration_ms": 42147,
+      "checked_at": "2026-10-15T09:04:35.823Z"
+    },
+    {
+      "id": "build-decision-snapshots",
+      "status": "passed",
+      "exit_code": 0,
+      "duration_ms": 497,
+      "checked_at": "2026-10-15T09:04:36.335Z"
+    },
+    {
+      "id": "review-decision-offers",
+      "status": "passed",
+      "exit_code": 0,
+      "duration_ms": 265,
+      "checked_at": "2026-10-15T09:04:36.605Z"
+    },
+    {
+      "id": "validate-decision-receipts",
+      "status": "passed",
+      "exit_code": 0,
+      "duration_ms": 2244,
+      "checked_at": "2026-10-15T09:04:38.854Z"
+    },
+    {
+      "id": "promote-candidates",
+      "status": "passed",
+      "exit_code": 0,
+      "duration_ms": 300,
+      "checked_at": "2026-10-15T09:04:39.159Z"
+    },
+    {
+      "id": "build",
+      "status": "passed",
+      "exit_code": 0,
+      "duration_ms": 79612,
+      "checked_at": "2026-10-15T09:05:58.776Z"
+    },
+    {
+      "id": "validate",
+      "status": "passed",
+      "exit_code": 0,
+      "duration_ms": 49700,
+      "checked_at": "2026-10-15T09:06:48.480Z"
+    },
+    {
+      "id": "validate-rule-facts",
+      "status": "passed",
+      "exit_code": 0,
+      "duration_ms": 187,
+      "checked_at": "2026-10-15T09:06:48.675Z"
+    },
+    {
+      "id": "tests",
+      "status": "passed",
+      "exit_code": 0,
+      "duration_ms": 6570,
+      "checked_at": "2026-10-15T09:06:55.250Z"
+    },
+    {
+      "id": "python-tests",
+      "status": "passed",
+      "exit_code": 0,
+      "duration_ms": 581,
+      "checked_at": "2026-10-15T09:06:55.836Z"
+    },
+    {
+      "id": "free-catalog",
+      "status": "passed",
+      "exit_code": 0,
+      "duration_ms": 120,
+      "checked_at": "2026-10-15T09:06:55.962Z"
+    },
+    {
+      "id": "free-tests",
+      "status": "passed",
+      "exit_code": 0,
+      "duration_ms": 322,
+      "checked_at": "2026-10-15T09:06:56.289Z"
+    }
+  ],
+  "finished_at": "2026-10-15T09:06:56.296Z",
+  "status": "completed"
+}

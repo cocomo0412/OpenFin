@@ -1,0 +1,260 @@
+{
+  "checked_at": "2026-10-15T09:02:11.744497+00:00",
+  "results": [
+    {
+      "source_id": "source.bok.ecos",
+      "operation_index": 0,
+      "checked_at": "2026-10-15T09:00:59.108781+00:00",
+      "status": "complete",
+      "count": 39,
+      "filters": {
+        "stat_code": "722Y001",
+        "cycle": "D",
+        "item_code": "0101000",
+        "start": "20260831",
+        "end": "20261015"
+      }
+    },
+    {
+      "source_id": "source.data.go.kr.kinfa-loan-handling-agencies",
+      "operation_index": 0,
+      "checked_at": "2026-10-15T09:00:59.104152+00:00",
+      "status": "complete",
+      "count": 657,
+      "filters": {}
+    },
+    {
+      "source_id": "source.data.go.kr.kinfa-loan-products",
+      "operation_index": 0,
+      "checked_at": "2026-10-15T09:00:59.114229+00:00",
+      "status": "complete",
+      "count": 318,
+      "filters": {}
+    },
+    {
+      "source_id": "source.data.go.kr.kinfa-support-centers",
+      "operation_index": 0,
+      "checked_at": "2026-10-15T09:00:59.642848+00:00",
+      "status": "complete",
+      "count": 216,
+      "filters": {}
+    },
+    {
+      "source_id": "source.fsc.domestic-bank-statistics",
+      "operation_index": 0,
+      "checked_at": "2026-10-15T09:00:59.939469+00:00",
+      "status": "complete",
+      "count": 979,
+      "filters": {
+        "basYm": "202606"
+      }
+    },
+    {
+      "source_id": "source.fsc.financial-company-basic",
+      "operation_index": 0,
+      "checked_at": "2026-10-15T09:01:00.126777+00:00",
+      "status": "complete",
+      "count": 1104,
+      "filters": {
+        "basDt": "20260922"
+      }
+    },
+    {
+      "source_id": "source.fsc.financial-company-credit",
+      "operation_index": 0,
+      "checked_at": "2026-10-15T09:01:00.928652+00:00",
+      "status": "complete",
+      "count": 774,
+      "filters": {
+        "bizYear": "2025"
+      }
+    },
+    {
+      "source_id": "source.fsc.financial-company-credit",
+      "operation_index": 1,
+      "checked_at": "2026-10-15T09:01:02.064930+00:00",
+      "status": "complete",
+      "count": 87,
+      "filters": {
+        "bizYear": "2025"
+      }
+    },
+    {
+      "source_id": "source.fsc.financial-company-credit",
+      "operation_index": 2,
+      "checked_at": "2026-10-15T09:01:02.372947+00:00",
+      "status": "complete",
+      "count": 435,
+      "filters": {
+        "bizYear": "2025"
+      }
+    },
+    {
+      "source_id": "source.fsc.financial-investment-statistics",
+      "operation_index": 0,
+      "checked_at": "2026-10-15T09:01:02.741766+00:00",
+      "status": "complete",
+      "count": 330,
+      "filters": {
+        "basYm": "202607"
+      }
+    },
+    {
+      "source_id": "source.fsc.financial-investment-statistics",
+      "operation_index": 1,
+      "checked_at": "2026-10-15T09:01:03.763444+00:00",
+      "status": "complete",
+      "count": 25,
+      "filters": {
+        "basDt": "20261013"
+      }
+    },
+    {
+      "source_id": "source.fsc.financial-investment-statistics",
+      "operation_index": 2,
+      "checked_at": "2026-10-15T09:01:04.016417+00:00",
+      "status": "complete",
+      "count": 12,
+      "filters": {
+        "basDt": "20261013"
+      }
+    },
+    {
+      "source_id": "source.fsc.financial-investment-statistics",
+      "operation_index": 3,
+      "checked_at": "2026-10-15T09:01:04.032139+00:00",
+      "status": "complete",
+      "count": 1,
+      "filters": {
+        "basDt": "20261013"
+      }
+    },
+    {
+      "source_id": "source.fsc.financial-investment-statistics",
+      "operation_index": 4,
+      "checked_at": "2026-10-15T09:01:04.185665+00:00",
+      "status": "complete",
+      "count": 1,
+      "filters": {
+        "basDt": "20261013"
+      }
+    },
+    {
+      "source_id": "source.fsc.financial-investment-statistics",
+      "operation_index": 5,
+      "checked_at": "2026-10-15T09:01:04.231127+00:00",
+      "status": "complete",
+      "count": 21,
+      "filters": {
+        "basDt": "202608"
+      }
+    },
+    {
+      "source_id": "source.fsc.financial-investment-statistics",
+      "operation_index": 6,
+      "checked_at": "2026-10-15T09:01:04.409582+00:00",
+      "status": "complete",
+      "count": 21,
+      "filters": {
+        "basDt": "202608"
+      }
+    },
+    {
+      "source_id": "source.fsc.financial-investment-statistics",
+      "operation_index": 7,
+      "checked_at": "2026-10-15T09:01:04.425953+00:00",
+      "status": "complete",
+      "count": 1841,
+      "filters": {
+        "basDt": "202608"
+      }
+    },
+    {
+      "source_id": "source.fsc.fund-products-basic",
+      "operation_index": 0,
+      "checked_at": "2026-10-15T09:01:04.652466+00:00",
+      "status": "complete",
+      "count": 151,
+      "filters": {
+        "basDt": "20261015"
+      }
+    },
+    {
+      "source_id": "source.fsc.inclusive-finance-performance",
+      "operation_index": 0,
+      "checked_at": "2026-10-15T09:01:05.856449+00:00",
+      "status": "complete",
+      "count": 201,
+      "filters": {}
+    },
+    {
+      "source_id": "source.fsc.inclusive-finance-performance",
+      "operation_index": 1,
+      "checked_at": "2026-10-15T09:01:06.163635+00:00",
+      "status": "complete",
+      "count": 201,
+      "filters": {}
+    },
+    {
+      "source_id": "source.fsc.inclusive-finance-products",
+      "operation_index": 0,
+      "checked_at": "2026-10-15T09:01:06.455199+00:00",
+      "status": "complete",
+      "count": 329,
+      "filters": {
+        "basYm": "202609"
+      }
+    },
+    {
+      "source_id": "source.fsc.medical-reimbursement-insurance",
+      "operation_index": 0,
+      "checked_at": "2026-10-15T09:01:07.603820+00:00",
+      "status": "complete",
+      "count": 2224,
+      "filters": {
+        "basDt": "20260921"
+      }
+    },
+    {
+      "source_id": "source.fsc.retirement-pension-basic",
+      "operation_index": 0,
+      "checked_at": "2026-10-15T09:01:07.606805+00:00",
+      "status": "complete",
+      "count": 150,
+      "filters": {
+        "basDt": "20260930"
+      }
+    },
+    {
+      "source_id": "source.fsc.variable-insurance-info",
+      "operation_index": 0,
+      "checked_at": "2026-10-15T09:01:10.734151+00:00",
+      "status": "failed",
+      "error_type": "TimeoutError"
+    },
+    {
+      "source_id": "source.hf.bogeumjari-openapi",
+      "operation_index": 0,
+      "checked_at": "2026-10-15T09:01:12.609034+00:00",
+      "status": "complete",
+      "count": 1,
+      "filters": {}
+    },
+    {
+      "source_id": "source.kdic.insured-products",
+      "operation_index": 0,
+      "checked_at": "2026-10-15T09:01:13.230168+00:00",
+      "status": "complete",
+      "count": 45226,
+      "filters": {}
+    },
+    {
+      "source_id": "source.kdic.insured-products",
+      "operation_index": 1,
+      "checked_at": "2026-10-15T09:01:30.802365+00:00",
+      "status": "complete",
+      "count": 284,
+      "filters": {}
+    }
+  ]
+}

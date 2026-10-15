@@ -1,8 +1,8 @@
 {
   "version": "openfin-vertical-slice-v1",
-  "generated_at": "2026-09-24T08:47:09.085392+00:00",
-  "source_registry_checksum": "b23c71ee88e860f25d650e246a94a199bb35ac53eb120e50bec36ebde9823a5c",
-  "canonical_content_checksum": "2efc6b585579b2fbd5a27af3a5368104cd92a4b4e9fab9f46b276116db426b95",
+  "generated_at": "2026-10-15T09:03:46.140Z",
+  "source_registry_checksum": "c0cc8cd70d0f82bf8fb9b456bfd962c7be9524a7e20172da719a71d8726aead3",
+  "canonical_content_checksum": "fc8a89ad7e0a50d47f5f217822063dc371f35f26750f8490ff4dc4c0716394ed",
   "policy_version": "openfin-release-policy-v1",
   "domains": {
     "deposit": {
@@ -15,7 +15,7 @@
         "early_termination_rules",
         "sales_verification_status"
       ],
-      "structural_candidate_count": 437,
+      "structural_candidate_count": 441,
       "value_complete_candidate_count": 0,
       "field_assertion_candidate_count": 0,
       "official_field_assertion_candidate_count": 0,
@@ -24,11 +24,11 @@
       "target_shortfall": 20,
       "status": "blocked",
       "missing_value_counts": {
-        "deposit_protection_status": 432,
-        "join_channels": 437,
-        "eligibility_rules": 437,
-        "bonus_rate_rules": 437,
-        "early_termination_rules": 437,
+        "deposit_protection_status": 436,
+        "join_channels": 441,
+        "eligibility_rules": 441,
+        "bonus_rate_rules": 441,
+        "early_termination_rules": 441,
         "sales_verification_status": 0
       },
       "missing_assertion_counts": {

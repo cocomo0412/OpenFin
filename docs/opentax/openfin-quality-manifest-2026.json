@@ -2,7 +2,7 @@
   "version": "OPENFIN-QUALITY-MANIFEST-2026.07.18.1",
   "basis_date": "2026-07-10",
   "source_review_date": "2026-07-10",
-  "built_at": "2026-10-07T08:02:47.885Z",
+  "built_at": "2026-10-15T09:03:46.140Z",
   "ontology_kind": "openfin-quality-manifest",
   "search_regression_report": {
     "path": "ontology/exports/openfin-search-regression-report-2026.json",
@@ -158,15 +158,15 @@
     }
   ],
   "export_audit": {
-    "built_at": "2026-10-07T08:02:47.885Z",
+    "built_at": "2026-10-15T09:03:46.140Z",
     "domain_export_count": 10,
-    "search_index_item_count": 75743,
-    "canonical_product_count": 53293,
+    "search_index_item_count": 75699,
+    "canonical_product_count": 53296,
     "duplicate_canonical_product_count": 0,
     "canonical_merge_count": 49,
     "checksum_covered_export_count": 18,
     "broken_relation_count": 0,
-    "relationship_count": 210190,
+    "relationship_count": 210102,
     "collection_failure_sources": 148
   },
   "operating_policy": {
@@ -202,7 +202,7 @@
   "runtime_quality_metrics": {
     "catalog_status_counts": {
       "active": 255,
-      "reference_only": 75027
+      "reference_only": 74983
     },
     "runtime_discovery_eligible_count": 0,
     "exact_discovery_candidate_count": 0,
@@ -5422,7 +5422,7 @@
     "migration_notice": "Historical upstream evidence; identity redacted. Not evidence for current deployment.",
     "evidence_path": "opentax/live-regression-current.json",
     "evidence_checksum": "e1c3d057e9c005525e6d411f7e8892d91e67e7feb3ffda9ba3e08cb22d2916ba",
-    "expected_generation_id": "7d7b496716d0ed7c8b0a83240171cf08b51d24ae06e77ad5d09b1028198c71d4",
+    "expected_generation_id": "238a92a84d9af5c5e3959d7371a887fb49da4b6d919d4ed0bc63f3e2eb996fef",
     "expected_fixture_checksum": "sha256:1030ce9505034216880ef47384cea521cc76000089d4b32942ba53a68c2c7989",
     "validation_status": "failed",
     "source_evidence_path": "evidence/live-regression/current.json"
@@ -5444,7 +5444,7 @@
         "deployment_commit": "b6c028524f79abd236d6e8d54f026d9119ede80d",
         "runtime_version": "openfin-mcp-dev",
         "manifest_version": "KR-FINANCE-ONTOLOGY-MANIFEST-2026.07.18.1",
-        "live_expected_generation_id": "7d7b496716d0ed7c8b0a83240171cf08b51d24ae06e77ad5d09b1028198c71d4",
+        "live_expected_generation_id": "238a92a84d9af5c5e3959d7371a887fb49da4b6d919d4ed0bc63f3e2eb996fef",
         "live_evidence": {
           "path": "evidence/live-regression/current.json",
           "checksum": "e1c3d057e9c005525e6d411f7e8892d91e67e7feb3ffda9ba3e08cb22d2916ba",
@@ -5477,7 +5477,7 @@
         "deployment_commit": "b6c028524f79abd236d6e8d54f026d9119ede80d",
         "runtime_version": "openfin-mcp-dev",
         "manifest_version": "KR-FINANCE-ONTOLOGY-MANIFEST-2026.07.18.1",
-        "live_expected_generation_id": "7d7b496716d0ed7c8b0a83240171cf08b51d24ae06e77ad5d09b1028198c71d4",
+        "live_expected_generation_id": "238a92a84d9af5c5e3959d7371a887fb49da4b6d919d4ed0bc63f3e2eb996fef",
         "live_evidence": {
           "path": "evidence/live-regression/current.json",
           "checksum": "e1c3d057e9c005525e6d411f7e8892d91e67e7feb3ffda9ba3e08cb22d2916ba",
@@ -5504,7 +5504,7 @@
         "deployment_commit": "b6c028524f79abd236d6e8d54f026d9119ede80d",
         "runtime_version": "openfin-mcp-dev",
         "manifest_version": "KR-FINANCE-ONTOLOGY-MANIFEST-2026.07.18.1",
-        "live_expected_generation_id": "7d7b496716d0ed7c8b0a83240171cf08b51d24ae06e77ad5d09b1028198c71d4",
+        "live_expected_generation_id": "238a92a84d9af5c5e3959d7371a887fb49da4b6d919d4ed0bc63f3e2eb996fef",
         "live_evidence": {
           "path": "evidence/live-regression/current.json",
           "checksum": "e1c3d057e9c005525e6d411f7e8892d91e67e7feb3ffda9ba3e08cb22d2916ba",
@@ -5529,7 +5529,7 @@
         "deployment_commit": "b6c028524f79abd236d6e8d54f026d9119ede80d",
         "runtime_version": "openfin-mcp-dev",
         "manifest_version": "KR-FINANCE-ONTOLOGY-MANIFEST-2026.07.18.1",
-        "live_expected_generation_id": "7d7b496716d0ed7c8b0a83240171cf08b51d24ae06e77ad5d09b1028198c71d4",
+        "live_expected_generation_id": "238a92a84d9af5c5e3959d7371a887fb49da4b6d919d4ed0bc63f3e2eb996fef",
         "live_evidence": {
           "path": "evidence/live-regression/current.json",
           "checksum": "e1c3d057e9c005525e6d411f7e8892d91e67e7feb3ffda9ba3e08cb22d2916ba",
@@ -5557,7 +5557,7 @@
         "deployment_commit": "b6c028524f79abd236d6e8d54f026d9119ede80d",
         "runtime_version": "openfin-mcp-dev",
         "manifest_version": "KR-FINANCE-ONTOLOGY-MANIFEST-2026.07.18.1",
-        "live_expected_generation_id": "7d7b496716d0ed7c8b0a83240171cf08b51d24ae06e77ad5d09b1028198c71d4",
+        "live_expected_generation_id": "238a92a84d9af5c5e3959d7371a887fb49da4b6d919d4ed0bc63f3e2eb996fef",
         "live_evidence": {
           "path": "evidence/live-regression/current.json",
           "checksum": "e1c3d057e9c005525e6d411f7e8892d91e67e7feb3ffda9ba3e08cb22d2916ba",
@@ -5582,7 +5582,7 @@
         "deployment_commit": "b6c028524f79abd236d6e8d54f026d9119ede80d",
         "runtime_version": "openfin-mcp-dev",
         "manifest_version": "KR-FINANCE-ONTOLOGY-MANIFEST-2026.07.18.1",
-        "live_expected_generation_id": "7d7b496716d0ed7c8b0a83240171cf08b51d24ae06e77ad5d09b1028198c71d4",
+        "live_expected_generation_id": "238a92a84d9af5c5e3959d7371a887fb49da4b6d919d4ed0bc63f3e2eb996fef",
         "live_evidence": {
           "path": "evidence/live-regression/current.json",
           "checksum": "e1c3d057e9c005525e6d411f7e8892d91e67e7feb3ffda9ba3e08cb22d2916ba",
@@ -5608,7 +5608,7 @@
         "deployment_commit": "b6c028524f79abd236d6e8d54f026d9119ede80d",
         "runtime_version": "openfin-mcp-dev",
         "manifest_version": "KR-FINANCE-ONTOLOGY-MANIFEST-2026.07.18.1",
-        "live_expected_generation_id": "7d7b496716d0ed7c8b0a83240171cf08b51d24ae06e77ad5d09b1028198c71d4",
+        "live_expected_generation_id": "238a92a84d9af5c5e3959d7371a887fb49da4b6d919d4ed0bc63f3e2eb996fef",
         "live_evidence": {
           "path": "evidence/live-regression/current.json",
           "checksum": "e1c3d057e9c005525e6d411f7e8892d91e67e7feb3ffda9ba3e08cb22d2916ba",
@@ -5619,22 +5619,22 @@
     }
   ],
   "export_checksum": "a539451ea55234261b435971ebabc4114ac9fff05bba54fa0ef6c4004e659bdf",
-  "generated_at": "2026-10-07T08:02:47.885Z",
+  "generated_at": "2026-10-15T09:03:46.140Z",
   "canonical": {
-    "item_count": 75743,
+    "item_count": 75699,
     "decision_snapshot_count": 10,
     "source_count": 168,
-    "product_count": 53293,
-    "canonical_product_count": 53293,
+    "product_count": 53296,
+    "canonical_product_count": 53296,
     "export_count": 10,
-    "search_item_count": 75743,
-    "relationship_count": 210190,
-    "content_checksum": "0d9c1556246fa095ddf3d3bc3408a314402d86baed0b8fa747adc07b5b6adeac"
+    "search_item_count": 75699,
+    "relationship_count": 210102,
+    "content_checksum": "b7d47bb782f80d193cce700ada55244c9fc064c108e16016978881a8dc300d02"
   },
   "domain_readiness": {
     "deposit": {
       "item_count": 5,
-      "catalog_item_count": 438,
+      "catalog_item_count": 441,
       "strict_offer_count": 5,
       "strict_option_count": 14,
       "structural_option_count": 14,
@@ -5873,9 +5873,9 @@
       "schema_defined": true,
       "structural_value_completeness": 0,
       "required_field_total": 6776,
-      "value_complete_field_count": 13,
+      "value_complete_field_count": 12,
       "field_verified_count": 0,
-      "value_field_coverage": 0.0019185360094451003,
+      "value_field_coverage": 0.0017709563164108619,
       "reviewed_assertion_coverage": 0,
       "complete_field_count": 0,
       "verified_candidate_count": 0,
@@ -5891,7 +5891,7 @@
         "spread_rate_percent": 616,
         "interest_rate_type": 616,
         "credit_limit_krw": 616,
-        "repayment_method": 603,
+        "repayment_method": 604,
         "term_months": 616,
         "early_repayment_fee_policy": 616,
         "collateral_or_guarantee": 616,
@@ -5906,7 +5906,7 @@
           "lineage": "source_receipt"
         },
         "normalized": {
-          "item_count": 17,
+          "item_count": 15,
           "status": "available",
           "lineage": "decision_snapshot"
         },
@@ -6048,27 +6048,27 @@
     }
   },
   "quality_policy_version": "openfin-release-policy-v1",
-  "quality_hash": "f4397d3b79b1c9a5d3a93f50e8109ebf0433170223624302f559db821caef76e",
+  "quality_hash": "3e76f83bebfdecdc5c493847a6320302cc9019c093c3809b6181eaa3f90842a0",
   "platform_release_status": "ready",
   "comparison_release_status": "limited",
   "recommendation_release_status": "blocked",
   "core_search_status": "ready",
   "comparison_status": "limited",
   "recommendation_status": "blocked",
-  "generation_id": "7d7b496716d0ed7c8b0a83240171cf08b51d24ae06e77ad5d09b1028198c71d4",
+  "generation_id": "238a92a84d9af5c5e3959d7371a887fb49da4b6d919d4ed0bc63f3e2eb996fef",
   "artifact_contract": {
     "version": "openfin-artifact-contract-v1",
     "readiness_schema_version": "openfin-readiness-v2",
-    "generation_id": "7d7b496716d0ed7c8b0a83240171cf08b51d24ae06e77ad5d09b1028198c71d4",
+    "generation_id": "238a92a84d9af5c5e3959d7371a887fb49da4b6d919d4ed0bc63f3e2eb996fef",
     "deployment_commit": "875f06b7fb19e6603dbecee7cf45b53b1ac13e6d",
-    "canonical_content_checksum": "0d9c1556246fa095ddf3d3bc3408a314402d86baed0b8fa747adc07b5b6adeac",
-    "search_index_checksum": "ef2502915875423d947efe34fe627df4e3f8594e3eb7336a5e0baa7e11c86559",
-    "source_status_checksum": "311c9a3a4911e862853edfe5d01ff1a50334b1765445e65a324e03e316a88df9",
+    "canonical_content_checksum": "b7d47bb782f80d193cce700ada55244c9fc064c108e16016978881a8dc300d02",
+    "search_index_checksum": "e463f31fb250944b795017377f25acefc0f5bc6ce3afa92b68af3063ed2bfccd",
+    "source_status_checksum": "1b52e3dff0ec24dbae081fb003b8e24bf2fa5d91753216137e01d4cc7c3e61d8",
     "release_policy_checksum": "095166ae1de036d809bcd40faea1eb64a5923de290d96ca4bede21b7f17ae269",
     "capability_policy_checksum": "dfb4b5d4bac533d2a34b9c5ff0117dd0c67b49ebd2ba8e4fba2bc3a21cb6e35f",
     "capability_status_checksum": "d0dbabb559477fb8c943ef76e48afb94665d9223594e2d41aed65c4ebeaecb79",
     "fixture_checksum": "sha256:1030ce9505034216880ef47384cea521cc76000089d4b32942ba53a68c2c7989",
-    "candidate_set_checksum": "sha256:0ecf663766ea06bd2d68295a9b0ac35f47e46d184bb6d6533bea1c3318008cb6",
+    "candidate_set_checksum": "sha256:95d1f1063198aa530340cfe903a93bb246e3b1868f2faa01a1938cf50ee3d0ca",
     "candidate_content_checksum_policy": "immutable_candidate_set_checksum",
     "quality_suite_transitive_checksum": "sha256:64b626ea6c32bd2a9cd6e950df5c26245c907c8eabbb72540c423c4e401ecef5"
   },
@@ -6160,7 +6160,7 @@
         "product_count": 5,
         "quality_summary": {
           "item_count": 5,
-          "catalog_item_count": 438,
+          "catalog_item_count": 441,
           "strict_offer_count": 5,
           "strict_option_count": 14,
           "structural_option_count": 14,
@@ -6417,9 +6417,9 @@
           "schema_defined": true,
           "structural_value_completeness": 0,
           "required_field_total": 6776,
-          "value_complete_field_count": 13,
+          "value_complete_field_count": 12,
           "field_verified_count": 0,
-          "value_field_coverage": 0.0019185360094451003,
+          "value_field_coverage": 0.0017709563164108619,
           "reviewed_assertion_coverage": 0,
           "complete_field_count": 0,
           "verified_candidate_count": 0,
@@ -6435,7 +6435,7 @@
             "spread_rate_percent": 616,
             "interest_rate_type": 616,
             "credit_limit_krw": 616,
-            "repayment_method": 603,
+            "repayment_method": 604,
             "term_months": 616,
             "early_repayment_fee_policy": 616,
             "collateral_or_guarantee": 616,
@@ -6450,7 +6450,7 @@
               "lineage": "source_receipt"
             },
             "normalized": {
-              "item_count": 17,
+              "item_count": 15,
               "status": "available",
               "lineage": "decision_snapshot"
             },

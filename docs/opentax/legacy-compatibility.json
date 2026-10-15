@@ -1,6 +1,6 @@
 {
   "version": "openfin-legacy-compatibility-v1",
-  "generated_at": "2026-10-07T08:02:47.885Z",
+  "generated_at": "2026-10-15T09:03:46.140Z",
   "replacement_path": "finance-ontology-manifest.json",
   "release_status": "ready",
   "core_search_status": "ready",
@@ -15,15 +15,15 @@
     "deprecated": true,
     "replacement_path": "domain_readiness",
     "export_audit": {
-      "built_at": "2026-10-07T08:02:47.885Z",
+      "built_at": "2026-10-15T09:03:46.140Z",
       "domain_export_count": 10,
-      "search_index_item_count": 75743,
-      "canonical_product_count": 53293,
+      "search_index_item_count": 75699,
+      "canonical_product_count": 53296,
       "duplicate_canonical_product_count": 0,
       "canonical_merge_count": 49,
       "checksum_covered_export_count": 18,
       "broken_relation_count": 0,
-      "relationship_count": 210190,
+      "relationship_count": 210102,
       "collection_failure_sources": 148
     },
     "live_regression": {
@@ -5211,7 +5211,7 @@
       "migration_notice": "Historical upstream evidence; identity redacted. Not evidence for current deployment.",
       "evidence_path": "evidence/live-regression/current.json",
       "evidence_checksum": "e1c3d057e9c005525e6d411f7e8892d91e67e7feb3ffda9ba3e08cb22d2916ba",
-      "expected_generation_id": "7d7b496716d0ed7c8b0a83240171cf08b51d24ae06e77ad5d09b1028198c71d4",
+      "expected_generation_id": "238a92a84d9af5c5e3959d7371a887fb49da4b6d919d4ed0bc63f3e2eb996fef",
       "expected_fixture_checksum": "sha256:1030ce9505034216880ef47384cea521cc76000089d4b32942ba53a68c2c7989",
       "validation_status": "failed"
     },
@@ -5227,7 +5227,7 @@
         "comparison_data": "limited_public_ready",
         "readiness": {
           "item_count": 5,
-          "catalog_item_count": 438,
+          "catalog_item_count": 441,
           "strict_offer_count": 5,
           "strict_option_count": 14,
           "structural_option_count": 14,
@@ -5499,9 +5499,9 @@
           "schema_defined": true,
           "structural_value_completeness": 0,
           "required_field_total": 6776,
-          "value_complete_field_count": 13,
+          "value_complete_field_count": 12,
           "field_verified_count": 0,
-          "value_field_coverage": 0.0019185360094451003,
+          "value_field_coverage": 0.0017709563164108619,
           "reviewed_assertion_coverage": 0,
           "complete_field_count": 0,
           "verified_candidate_count": 0,
@@ -5517,7 +5517,7 @@
             "spread_rate_percent": 616,
             "interest_rate_type": 616,
             "credit_limit_krw": 616,
-            "repayment_method": 603,
+            "repayment_method": 604,
             "term_months": 616,
             "early_repayment_fee_policy": 616,
             "collateral_or_guarantee": 616,
@@ -5532,7 +5532,7 @@
               "lineage": "source_receipt"
             },
             "normalized": {
-              "item_count": 17,
+              "item_count": 15,
               "status": "available",
               "lineage": "decision_snapshot"
             },

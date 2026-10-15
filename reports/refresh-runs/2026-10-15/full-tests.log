@@ -1,0 +1,743 @@
+✔ unpublished deep link does not fetch or display the first published dataset (33.7383ms)
+✔ unknown source or operation preserves an explicit missing target state (5.4148ms)
+✔ missing deep link recovers by explicitly selecting a public dataset (3.2331ms)
+✔ matching operation-only link selects the requested public dataset (2.1426ms)
+✔ ECOS card exposes date, value and exact unit outside the collapsed original fields (1.5197ms)
+✔ summary preserves zero, currency and unknown units without inventing a rate or monetary unit (1.8456ms)
+✔ deposit card exposes provider, disclosure month, terms and rate range (3.2945ms)
+✔ insurance premium summary keeps age, applicant category and coverage context visible (2.4893ms)
+✔ dataset count mismatch leaves no rows and gives recovery guidance (1.5386ms)
+✔ public page has no JSON download affordance and shares the search navigation (18.11ms)
+✔ recovery updates the deep link, query edits sync, and clearing selection removes target parameters (3.5249ms)
+✔ display and search decode entities once while original fields stay unchanged and markup stays text (2.4407ms)
+✔ published API snapshots have complete counts and retain source dates (365.991ms)
+✔ API review metadata preserves failure reporting and provider periods (28.8489ms)
+✔ current product links match provider and product identities without enabling recommendation (6646.4712ms)
+✔ ROOT resolves the actual repository including non-ASCII paths (1.833ms)
+✔ collects past page one and preserves more than twenty records (1.0305ms)
+✔ rejects repeated pages and premature termination (0.9811ms)
+✔ rejects changed totals, overcounts and overlapping record identities (0.4989ms)
+✔ Busan Bank official-document candidates remain unapproved (24.4965ms)
+✔ eligibility compiler preserves multiple bounds, regions, and customer types (4.8969ms)
+✔ eligibility compiler marks unsupported text unresolved (0.5909ms)
+✔ all current bank API values replace canonical and public rates without approval promotion (325.9098ms)
+✔ KDIC complete catalog uses stable business identity and remains listing-only (163.3184ms)
+✔ historical missing records retain their collection dates and never claim closure (21.0005ms)
+✖ Gov24 local benefits preserve official eligibility text without asserting eligibility (256.8964ms)
+✔ large export shards hydrate with complete checksum and safe file sizes (4468.0607ms)
+✔ 2026 filing dates include weekend extensions in both concrete dates and text (1.7364ms)
+✔ acquisition and corporate filing preserve statutory exceptions (0.2884ms)
+file:///C:/Users/resti/OneDrive/%EB%AC%B8%EC%84%9C/ChatGPT/%EA%B8%88%EC%9C%B5%EC%98%A8%ED%86%A8%EB%A1%9C%EC%A7%80/OpenFin-team-improvement/scripts/knowledge/refresh-transaction.mjs:79
+        if (!Number.isSafeInteger(owner.pid) || alive(owner.pid)) throw new Error('Another refresh transaction is running');
+                                                                        ^
+
+Error: Another refresh transaction is running
+    at Object.begin (file:///C:/Users/resti/OneDrive/%EB%AC%B8%EC%84%9C/ChatGPT/%EA%B8%88%EC%9C%B5%EC%98%A8%ED%86%A8%EB%A1%9C%EC%A7%80/OpenFin-team-improvement/scripts/knowledge/refresh-transaction.mjs:79:73)
+    at transactionalEntry (file:///C:/Users/resti/OneDrive/%EB%AC%B8%EC%84%9C/ChatGPT/%EA%B8%88%EC%9C%B5%EC%98%A8%ED%86%A8%EB%A1%9C%EC%A7%80/OpenFin-team-improvement/scripts/knowledge/refresh-transaction.mjs:185:29)
+    at file:///C:/Users/resti/OneDrive/%EB%AC%B8%EC%84%9C/ChatGPT/%EA%B8%88%EC%9C%B5%EC%98%A8%ED%86%A8%EB%A1%9C%EC%A7%80/OpenFin-team-improvement/scripts/knowledge/build.mjs:7:7
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async node:internal/modules/esm/loader:643:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
+
+Node.js v24.19.0
+✖ strict decision snapshots preserve source options and meet the reviewed five plus five target (2207.6935ms)
+✔ live evidence must be current, complete, and attributable to a deployment (1.1802ms)
+✔ live quality gates on the latest attempt while retaining the last successful evidence (0.2274ms)
+✔ field values alone never become field-verified candidates (16.3483ms)
+✔ legacy products cannot establish a decision gate without strict OfferSnapshots (13.0445ms)
+✔ generation binding and explicit evaluation time are deterministic (25.431ms)
+✔ a verified deposit subset opens comparison without claiming public recommendation (23.1983ms)
+✔ comparison and recommendation thresholds remain separate (7.9434ms)
+✔ comparison option counts do not masquerade as offer counts (22.8419ms)
+✔ decision-critical domains use their policy field contract (10.7666ms)
+✔ pension rates align with physical columns, not multi-row heading order (1.6379ms)
+✔ rate changes preserve product identity and same-name rows retain all observations (1.0742ms)
+✔ unexpected schema and wrong identity stop integration (0.5663ms)
+✔ public receipts remove anonymous sessions but retain product identity and checksums (2.2678ms)
+✔ legacy financial export counts are projections of canonical domain readiness (64.3196ms)
+✔ all legacy source link sinks reject executable, ambiguous and credential URLs (44.2076ms)
+✔ all legacy source link sinks preserve HTTP(S) and escape URL/title markup (7.8039ms)
+✔ a collection snapshot advances the manifest version over the previous API basis (3.5445ms)
+✔ partial refresh uses the snapshot day while preserving inherited record dates (1.9751ms)
+✔ rebuild and review timestamps cannot advance the collected version (1.093ms)
+✔ same-day rebuild is stable and a real next snapshot advances the date (0.2513ms)
+✔ missing collection evidence retains the previous version, never a build date (0.5267ms)
+✔ collection dates require an exact valid calendar date without timestamp conversion (0.3249ms)
+✔ uses deployed MCP metadata independently of website dates and counts (28.665ms)
+✔ network, HTTP, JSON and incompatible metadata failures never substitute website values (6.3663ms)
+✔ pages without MCP metadata display make no request (1.2534ms)
+✔ actual workflow only uploads changed Worker inputs or an explicit manual run (5989.6119ms)
+✔ canonical knowledge validation passes (67769.6898ms)
+✔ source tracker detects change, conflict, and outage without mutating dry-run status (580.0016ms)
+✔ source tracker injects configured API credentials without persisting them (173.44ms)
+✔ manifest keeps OpenFin URLs and fail-closed quality (140.4478ms)
+✔ source registry uses authoritative organization publishers (1.9727ms)
+✔ canonical dates are ISO while compatibility exports preserve legacy labels (98.6672ms)
+✖ deterministic build leaves public artifacts byte-identical (200140.7761ms)
+✔ exact fetch shards keep cold item lookup bounded (6212.0875ms)
+✔ generated exact-fetch files contain no orphaned partition (8.2964ms)
+✔ runtime search shards exclude large provenance bookkeeping (618.2463ms)
+✔ product status contract and strict bank schema agree on verified active (1.7128ms)
+✔ absence overrides older success; a pension item is not automatically an API failure (6.3501ms)
+✔ ledger exhaustively partitions unique items and keeps request failures separate (2561.4238ms)
+✔ preparation uses Korea date and rejects success timestamps from older snapshots (21.435ms)
+✔ retry timestamp does not make older successful loan data current (0.8166ms)
+✔ failed-only mode does not recollect successful providers or publish data (1.0946ms)
+✔ retained bank and Gov24 require current failure and exact original byte hash/date (63.3889ms)
+✔ partial, duplicate, wrong source and checksum-invalid old collections fail closed (63.7326ms)
+✔ legacy failure adoption binds same-day pre-run baseline and failed stage to exact old data (71.4251ms)
+✔ public pending records collection-stage scope and retained date, without inventing per-request failures (31.9363ms)
+✔ preparation admits old bank data only with current failure proof bound to that original (12.8252ms)
+✔ validated success keeps new generation, removes journal and prevents concurrent writers (60.1347ms)
+✔ stage failure restores bytes/dates, deleted files and excludes new snapshots; logs survive (81.1328ms)
+Refresh committed; backup cleanup will be retried on the next run.
+✔ next invocation recovers after an actually killed fixture process (268.4669ms)
+✔ atomic write failure leaves previous destination intact and removes temporary files (21.9131ms)
+✔ commit cleanup failure does not roll back validated output (94.1115ms)
+✔ paths outside workspace fail closed before mutation (26.0331ms)
+✔ malformed journal cannot discard recovery backups (108.1751ms)
+✔ recovery claim prevents competing stale-lock cleanup without changing the lock (17.5123ms)
+✔ unregistered launch interruption retains backup and blocks automatic rollback (90.5702ms)
+✔ rollback waits for orphan stage completion before restoring prior generation (244.2367ms)
+✔ standalone entry rolls back failed validation and commits only a validated generation (826.0228ms)
+✔ promoted live evidence updates the release pointer without replacing artifact evidence (293.6473ms)
+✔ current release pointer separates candidate from production generations (4.4756ms)
+✔ agent-facing manifest uses capability fields instead of legacy quality fields (3.0554ms)
+✔ financial detail exports expose field-specific review dates (905.5951ms)
+✔ full edition workflows cannot deploy on a free-only installation (5.2571ms)
+✔ soak and canary checks fail closed on bad traffic and runtime bindings (1.2129ms)
+✔ manual live monitoring is read-only and publishes evidence as an artifact (0.5395ms)
+✖ live diagnostics encode non-ASCII queries before placing them in HTTP headers (5.0033ms)
+✔ live diagnostics are opt-in for normal traffic and enabled on retries (0.8294ms)
+✔ rollback contracts cover partial promotion, cancellation, and public Pages failure (0.2463ms)
+✖ all workflows are manual and source tracking is report-only unless explicitly opted into a review PR (1.2091ms)
+✖ legacy production deployment workflows are fail-closed (1.0957ms)
+✔ monitor failures remain separate from immutable release evidence (1.8874ms)
+✔ a recovered transport failure remains degraded (0.1935ms)
+✔ decision-critical bank products require strict fields and assertions (225.1332ms)
+✔ decision-critical card, loan, and insurance schemas reject incomplete decision contracts (187.1087ms)
+✔ strict offers require rule predicate, effect, and validity assertions (96.6259ms)
+✔ deadline covers stalled response headers and body (56.715ms)
+✔ drip-fed body cannot reset the overall deadline; byte limit remains bounded (37.3491ms)
+✔ complete response preserves headers and content without marking truncation (1.0707ms)
+✔ source impact is fail-closed for stale, unreachable, and collection failure sources (826.3385ms)
+✔ source review selection keeps verified evidence over a generated pending duplicate (1.121ms)
+✔ source review selection fails closed for a newer rejection or revocation (0.2419ms)
+✔ source review selection does not carry verification across a changed assertion key (0.1885ms)
+✔ global explorer loads compact search first and hydrates only the selected domain (27.4188ms)
+✔ result cards omit management badges and listing disclaimers (2.2817ms)
+✔ source freshness recomputes the SLA from the last successful check (1.8214ms)
+✔ freshness follows every supported source reference including the source record itself (2.255ms)
+✔ known source warnings and unknown references cannot be hidden by a current source (2.2332ms)
+✔ display entity decoding is one pass and cannot inject result markup or attributes (2.0073ms)
+✔ typing a first query loads the compact index and displays matches (22.5304ms)
+✔ blank first input does not fetch and preserves the start guidance (2.5195ms)
+✔ rapid queries during initial loading share one fetch and use the latest input (2.0956ms)
+✔ failed first load shows recovery guidance and the next input retries (2.0258ms)
+✔ queries keep an explicitly loaded domain and do not fetch the global index (1.6568ms)
+✔ init resumes a query typed before the manifest arrived (2.2396ms)
+✔ a domain selected during first search stays selected after the global index arrives (2.064ms)
+✔ a late failed first search does not replace the selected domain summary (1.9105ms)
+✔ selecting all again during first search honors the latest choice without another fetch (2.4794ms)
+✔ a selected domain accepts new queries while the initial global index is pending (2.1627ms)
+✔ show more reaches all 124 results and query, type and domain changes reset the page (16.8196ms)
+✔ zero matches clears the previous detail, selection and hash before late detail arrives (3.2844ms)
+✔ a late provenance response cannot replace the empty detail after the selected result disappears (2.1587ms)
+✔ hydrating a compact result never changes the domain and cannot undo a later choice (2.2323ms)
+✔ an older domain response cannot replace the latest domain results (1.7748ms)
+✔ query, domain and type survive URL sharing and startup including a selected hash (2.4543ms)
+✔ a changed query replaces an old URL query and query-only startup searches all domains (3.5279ms)
+✔ clearing an unmatched query restores results while keeping domain, type and unrelated URL fields (2.3657ms)
+✔ zero results without a query do not offer a query clear button (1.9878ms)
+✔ popstate restores another URL and invalid types fall back to the available choices (3.1084ms)
+✔ legacy scope all URLs still restore their query and type (1.7405ms)
+✔ restoring a shared URL does not select a hash excluded by its search filters (1.7379ms)
+✔ entity-encoded product labels match decoded searches and remain safe in results and details (1.9788ms)
+✔ explorer renders canonical publisher and check date without freshness labels (19.0609ms)
+✔ explorer does not invent check dates when a source has no status record (2.2917ms)
+✔ vertical slice audit keeps deposit and saving verification fail-closed (12333.4609ms)
+✔ disabled full-edition workflows never interpolate Actions values into shell source (1.6349ms)
+✔ actual staging format validator rejects malformed values before network checks (2359.4737ms)
+✔ actual staging comparison treats shell metacharacters as literal input (7032.9427ms)
+ℹ tests 147
+ℹ suites 0
+ℹ pass 141
+ℹ fail 6
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 336610.2667
+
+✖ failing tests:
+
+test at tests\knowledge\current-catalog.test.mjs:42:1
+✖ Gov24 local benefits preserve official eligibility text without asserting eligibility (256.8964ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+  9316 !== 9281
+
+      at TestContext.<anonymous> (file:///C:/Users/resti/OneDrive/%EB%AC%B8%EC%84%9C/ChatGPT/%EA%B8%88%EC%9C%B5%EC%98%A8%ED%86%A8%EB%A1%9C%EC%A7%80/OpenFin-team-improvement/tests/knowledge/current-catalog.test.mjs:46:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 9316,
+    expected: 9281,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\knowledge\decision-snapshots.test.mjs:11:1
+✖ strict decision snapshots preserve source options and meet the reviewed five plus five target (2207.6935ms)
+  Error: Command failed: C:\Users\resti\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe scripts/knowledge/build.mjs
+  file:///C:/Users/resti/OneDrive/%EB%AC%B8%EC%84%9C/ChatGPT/%EA%B8%88%EC%9C%B5%EC%98%A8%ED%86%A8%EB%A1%9C%EC%A7%80/OpenFin-team-improvement/scripts/knowledge/refresh-transaction.mjs:79
+          if (!Number.isSafeInteger(owner.pid) || alive(owner.pid)) throw new Error('Another refresh transaction is running');
+                                                                          ^
+
+  Error: Another refresh transaction is running
+      at Object.begin (file:///C:/Users/resti/OneDrive/%EB%AC%B8%EC%84%9C/ChatGPT/%EA%B8%88%EC%9C%B5%EC%98%A8%ED%86%A8%EB%A1%9C%EC%A7%80/OpenFin-team-improvement/scripts/knowledge/refresh-transaction.mjs:79:73)
+      at transactionalEntry (file:///C:/Users/resti/OneDrive/%EB%AC%B8%EC%84%9C/ChatGPT/%EA%B8%88%EC%9C%B5%EC%98%A8%ED%86%A8%EB%A1%9C%EC%A7%80/OpenFin-team-improvement/scripts/knowledge/refresh-transaction.mjs:185:29)
+      at file:///C:/Users/resti/OneDrive/%EB%AC%B8%EC%84%9C/ChatGPT/%EA%B8%88%EC%9C%B5%EC%98%A8%ED%86%A8%EB%A1%9C%EC%A7%80/OpenFin-team-improvement/scripts/knowledge/build.mjs:7:7
+      at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+      at async node:internal/modules/esm/loader:643:26
+      at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
+
+  Node.js v24.19.0
+
+      at genericNodeError (node:internal/errors:985:15)
+      at wrappedFn (node:internal/errors:539:14)
+      at checkExecSyncError (node:child_process:942:11)
+      at execFileSync (node:child_process:978:15)
+      at TestContext.<anonymous> (file:///C:/Users/resti/OneDrive/%EB%AC%B8%EC%84%9C/ChatGPT/%EA%B8%88%EC%9C%B5%EC%98%A8%ED%86%A8%EB%A1%9C%EC%A7%80/OpenFin-team-improvement/tests/knowledge/decision-snapshots.test.mjs:40:141)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.start (node:internal/test_runner/test:1242:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    status: 1,
+    signal: null,
+    output: [ null, '', "file:///C:/Users/resti/OneDrive/%EB%AC%B8%EC%84%9C/ChatGPT/%EA%B8%88%EC%9C%B5%EC%98%A8%ED%86%A8%EB%A1%9C%EC%A7%80/OpenFin-team-improvement/scripts/knowledge/refresh-transaction.mjs:79\r\n        if (!Number.isSafeInteger(owner.pid) || alive(owner.pid)) throw new Error('Another refresh transaction is running');\r\n                                                                        ^\r\n\r\nError: Another refresh transaction is running\r\n    at Object.begin (file:///C:/Users/resti/OneDrive/%EB%AC%B8%EC%84%9C/ChatGPT/%EA%B8%88%EC%9C%B5%EC%98%A8%ED%86%A8%EB%A1%9C%EC%A7%80/OpenFin-team-improvement/scripts/knowledge/refresh-transaction.mjs:79:73)\r\n    at transactionalEntry (file:///C:/Users/resti/OneDrive/%EB%AC%B8%EC%84%9C/ChatGPT/%EA%B8%88%EC%9C%B5%EC%98%A8%ED%86%A8%EB%A1%9C%EC%A7%80/OpenFin-team-improvement/scripts/knowledge/refresh-transaction.mjs:185:29)\r\n    at file:///C:/Users/resti/OneDrive/%EB%AC%B8%EC%84%9C/ChatGPT/%EA%B8%88%EC%9C%B5%EC%98%A8%ED%86%A8%EB%A1%9C%EC%A7%80/OpenFin-team-improvement/scripts/knowledge/build.mjs:7:7\r\n    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)\r\n    at async node:internal/modules/esm/loader:643:26\r\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)\r\n\r\nNode.js v24.19.0\r\n" ],
+    pid: 23452,
+    stdout: '',
+    stderr: "file:///C:/Users/resti/OneDrive/%EB%AC%B8%EC%84%9C/ChatGPT/%EA%B8%88%EC%9C%B5%EC%98%A8%ED%86%A8%EB%A1%9C%EC%A7%80/OpenFin-team-improvement/scripts/knowledge/refresh-transaction.mjs:79\r\n        if (!Number.isSafeInteger(owner.pid) || alive(owner.pid)) throw new Error('Another refresh transaction is running');\r\n                                                                        ^\r\n\r\nError: Another refresh transaction is running\r\n    at Object.begin (file:///C:/Users/resti/OneDrive/%EB%AC%B8%EC%84%9C/ChatGPT/%EA%B8%88%EC%9C%B5%EC%98%A8%ED%86%A8%EB%A1%9C%EC%A7%80/OpenFin-team-improvement/scripts/knowledge/refresh-transaction.mjs:79:73)\r\n    at transactionalEntry (file:///C:/Users/resti/OneDrive/%EB%AC%B8%EC%84%9C/ChatGPT/%EA%B8%88%EC%9C%B5%EC%98%A8%ED%86%A8%EB%A1%9C%EC%A7%80/OpenFin-team-improvement/scripts/knowledge/refresh-transaction.mjs:185:29)\r\n    at file:///C:/Users/resti/OneDrive/%EB%AC%B8%EC%84%9C/ChatGPT/%EA%B8%88%EC%9C%B5%EC%98%A8%ED%86%A8%EB%A1%9C%EC%A7%80/OpenFin-team-improvement/scripts/knowledge/build.mjs:7:7\r\n    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)\r\n    at async node:internal/modules/esm/loader:643:26\r\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)\r\n\r\nNode.js v24.19.0\r\n"
+  }
+
+test at tests\knowledge\pipeline.test.mjs:187:1
+✖ deterministic build leaves public artifacts byte-identical (200140.7761ms)
+  AssertionError [ERR_ASSERTION]: finance-ontology-manifest.json changed after deterministic rebuild
+  + actual - expected
+
+  + 'a68696b674e72c23d60a8312fe42b0a6b626850e1731107a143a250163a47147'
+  - 'e8b4e0fec85cb1da0ae0016b1274073023e44eee0b5309447eb800f742369d3d'
+
+      at TestContext.<anonymous> (file:///C:/Users/resti/OneDrive/%EB%AC%B8%EC%84%9C/ChatGPT/%EA%B8%88%EC%9C%B5%EC%98%A8%ED%86%A8%EB%A1%9C%EC%A7%80/OpenFin-team-improvement/tests/knowledge/pipeline.test.mjs:192:36)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'a68696b674e72c23d60a8312fe42b0a6b626850e1731107a143a250163a47147',
+    expected: 'e8b4e0fec85cb1da0ae0016b1274073023e44eee0b5309447eb800f742369d3d',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\knowledge\release-workflow.test.mjs:54:1
+✖ live diagnostics encode non-ASCII queries before placing them in HTTP headers (5.0033ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /decodeURIComponent\(value\)/. Input:
+
+  'import { createMcpHandler } from "agents/mcp";\n' +
+    'export { OwnerProofReplayObject } from "./owner-proof-replay-object.ts";\n' +
+    'import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";\n' +
+    'import { z } from "zod";\n' +
+    'import { generationCacheKey, isCurrentGeneration, SingleFlight } from "./generation-cache";\n' +
+    'import { CacheBudget } from "./cache-budget.ts";\n' +
+    'import { resolveSourceStatus, sourceIdsForItem } from "./source-status";\n' +
+    'import { evaluateReleaseGate } from "./release-gate";\n' +
+    'import { evaluateEligibility, productDomain, recommendationFields } from "./recommendation/policy";\n' +
+    'import { explainCandidate } from "./recommendation/explanation";\n' +
+    'import { rankCandidate } from "./recommendation/ranking";\n' +
+    'import { buildRecommendationCandidates } from "./tools/recommend";\n' +
+    'import { PERSONAL_FINANCE_SNAPSHOT_SCHEMA, registerPersonalFinanceTools } from "./tools/personal-finance";\n' +
+    'import { diversifyBroadResults, registerSearchTool } from "./tools/search";\n' +
+    'import { registerDiscoverTool } from "./tools/discover";\n' +
+    'import { registerRecommendTool } from "./tools/recommend-handler";\n' +
+    'import { registerCompareTool } from "./tools/compare";\n' +
+    'import { registerRecommendShadowTool } from "./tools/recommend-shadow";\n' +
+    'import { registerRecommendOwnerPilotTool } from "./tools/recommend-owner-pilot";\n' +
+    'import personalFinancePolicy from "../../contracts/personal-finance-policy.json" with { type: "json" };\n' +
+    'import { decodeTargetedExactRows, exactFetchShardId, exportIdForItemId, needsSummaryDetailHydration, registerFetchTool } from "./tools/fetch";\n' +
+    'import { registerExportsTool } from "./tools/exports";\n' +
+    'import { livenessPayload, readinessPayload } from "./health";\n' +
+    'import { asCapabilityStatus, asServiceAvailability } from "./capability-status.ts";\n' +
+    'import { isVerifiedActive } from "./product-status";\n' +
+    'import { calculateFinancialOutcome } from "./recommendation/outcome";\n' +
+    'import { resolveAttainableRate } from "./recommendation/attainable-rate";\n' +
+    'import { adaptDecisionOfferOptions, comparisonCandidateAdapter, recommendationCandidateAdapter } from "./decision/candidate-adapter.ts";\n' +
+    'import { mergeOntologyExportItems, recombineOntologyExportPayloads } from "./export-shards.ts";\n' +
+    '\n' +
+    'type FinanceItem = {\n' +
+    '  id: string;\n' +
+    '  title: string;\n' +
+    '  type: string;\n' +
+    '  description?: string;\n' +
+    '  basis_year?: number;\n' +
+    '  basis_date?: string;\n' +
+    '  publisher?: string;\n' +
+    '  url?: string;\n' +
+    '  law_reference?: string;\n' +
+    '  criteria?: unknown[];\n' +
+    '  options?: unknown[];\n' +
+    '  observed_at?: string;\n' +
+    '  product_id?: string;\n' +
+    '  provider_id?: string;\n' +
+    '  field_assertions?: Record<string, unknown>[];\n' +
+    '  benefits?: unknown[];\n' +
+    '  parents?: string[];\n' +
+    '  children?: string[];\n' +
+    '  related?: string[];\n' +
+    '  terms?: string[];\n' +
+    '  deadlines?: string[];\n' +
+    '  sources?: string[];\n' +
+    '  tags?: string[];\n' +
+    '  provider?: string;\n' +
+    '  provider_code?: string;\n' +
+    '  financial_sector?: string;\n' +
+    '  product_code?: string;\n' +
+    '  product_kind?: string;\n' +
+    '  search_type?: string;\n' +
+    '  product_status?: string;\n' +
+    '  sales_status?: string;\n' +
+    '  source_listing_status?: string;\n' +
+    '  sales_verification_status?: string;\n' +
+    '  sales_verified_at?: string;\n' +
+    '  condition_verification_status?: string;\n' +
+    '  source_freshness_status?: string;\n' +
+    '  status?: string;\n' +
+    '  status_reason?: string;\n' +
+    '  recommendation_status?: string;\n' +
+    '  recommendation_scope?: string;\n' +
+    '  capabilities?: { comparison?: string; recommendation?: string };\n' +
+    '  comparison_approved?: boolean;\n' +
+    '  recommendation_approved?: boolean;\n' +
+    '  candidate_id?: string;\n' +
+    '  option_id?: string;\n' +
+    '  offer_id?: string;\n' +
+    '  evidence_gate?: Record<string, unknown>;\n' +
+    '  catalog_recommendation_status?: string;\n' +
+    '  catalog_recommendation_scope?: string;\n' +
+    '  canonical_product_id?: string;\n' +
+    '  resolved_canonical_product_id?: string;\n' +
+    '  external_product_ids?: { namespace: string; value: string }[];\n' +
+    '  provider_external_ids?: { namespace: string; value: string }[];\n' +
+    '  provider_roles?: string[];\n' +
+    '  source_records?: Record<string, unknown>[];\n' +
+    '  preferred_source?: string;\n' +
+    '  merged_fields?: Record<string, unknown>;\n' +
+    '  field_provenance?: Record<string, string[]>;\n' +
+    '  field_conflicts?: Record<string, unknown>;\n' +
+    '  recommendation_model_version?: string;\n' +
+    '  recommendation_exclusion_reasons?: string[];\n' +
+    '  recommendation_basis_fields?: string[];\n' +
+    '  comparison_basis_fields?: string[];\n' +
+    '  verification_status?: string;\n' +
+    '  quality_flags?: string[];\n' +
+    '  verification_evidence?: Record<string, unknown>;\n' +
+    '  missing_required_fields?: string[];\n' +
+    '  missing_in_source_fields?: string[];\n' +
+    '  unmapped_existing_fields?: string[];\n' +
+    '  unverified_fields?: string[];\n' +
+    '  discovery_evidence_fields?: string[];\n' +
+    '  completeness_ratio?: number;\n' +
+    '  source_completeness_ratio?: number;\n' +
+    '  normalized_completeness_ratio?: number;\n' +
+    '  verified_completeness_ratio?: number;\n' +
+    '  required_field_count?: number;\n' +
+    '  completed_field_count?: number;\n' +
+    '  domain_gate_passed?: boolean;\n' +
+    '  comparison_engine_gate_passed?: boolean;\n' +
+    '  comparison_field_verification_status?: string;\n' +
+    '  comparison_field_verification?: Record<string, unknown>;\n' +
+    '  comparison_options?: unknown[];\n' +
+    '  application_status?: string;\n' +
+    '  is_currently_applicable?: boolean;\n' +
+    '  application_open_from?: string;\n' +
+    '  application_open_to?: string;\n' +
+    '  application_window?: Record<string, unknown>;\n' +
+    '  jurisdiction?: string;\n' +
+    '  jurisdiction_code?: string;\n' +
+    '  jurisdiction_aliases?: string[];\n' +
+    '  parent_jurisdiction_code?: string;\n' +
+    '  administrative_history?: unknown[];\n' +
+    '  target_group?: string[];\n' +
+    '  support_category?: string[];\n' +
+    '  last_status_checked_at?: string;\n' +
+    '  freshness_status?: string;\n' +
+    '  collection_status?: string;\n' +
+    '  last_verified_at?: string;\n' +
+    '  last_source_checked_at?: string;\n' +
+    '  last_reviewed_at?: string;\n' +
+    '  public_recommendation_exclusion_reasons?: string[];\n' +
+    '  comparison_exclusion_reasons?: string[];\n' +
+    '  discovery_limitations?: string[];\n' +
+    '  export_id?: string;\n' +
+    '  search_text?: string;\n' +
+    '  search_aliases?: string[];\n' +
+    '  legacy_ids?: string[];\n' +
+    '  aliases?: string[];\n' +
+    '  source_urls?: string[];\n' +
+    '  source_ids?: string[];\n' +
+    '  source_basis_dates?: string[];\n' +
+    '  source_checksum?: string;\n' +
+    '  state?: string;\n' +
+    '  collected_at?: string | null;\n' +
+    '  normalized_at?: string | null;\n' +
+    '  verified_at?: string | null;\n' +
+    '  published_at?: string | null;\n' +
+    '  source_assertions?: Record<string, unknown>[];\n' +
+    '  source_assertion_ids?: string[];\n' +
+    '  provenance?: Record<string, unknown>[];\n' +
+    '  provenance_shard?: string;\n' +
+    '  shard_id?: string;\n' +
+    '  promotion_receipt?: Record<string, unknown>;\n' +
+    '  risk_level?: string;\n' +
+    '  structured_summary?: Record<string, unknown>;\n' +
+    '  search_facets?: Record<string, unknown>;\n' +
+    '  support_state?: number;\n' +
+    '  support_region?: string;\n' +
+    '};\n' +
+    '\n' +
+    'type ManifestEntry = {\n' +
+    '  id: string;\n' +
+    '  domain: string;\n' +
+    '  path: string;\n' +
+    '  url?: string;\n' +
+    '  web_url?: string;\n' +
+    '  item_count?: number;\n' +
+    '  row_count?: number;\n' +
+    '  product_count?: number;\n' +
+    '  description?: string;\n' +
+    '  shards?: SearchIndexShard[];\n' +
+    '  coverage?: Record<string, unknown>;\n' +
+    '  summary?: Record<string, unknown>;\n' +
+    '  export_checksum?: string;\n' +
+    '  content_checksum?: string;\n' +
+    '  generated_at?: string;\n' +
+    '};\n' +
+    '\n' +
+    'type SearchIndexShard = {\n' +
+    '  id: string;\n' +
+    '  shard_id: string;\n' +
+    '  path: string;\n' +
+    '  url?: string;\n' +
+    '  web_url?: string;\n' +
+    '  item_count?: number;\n' +
+    '  export_checksum?: string;\n' +
+    '  content_checksum?: string;\n' +
+    '};\n' +
+    '\n' +
+    'type FinanceManifest = {\n' +
+    '  version: string;\n' +
+    '  basis_date: string;\n' +
+    '  name: string;\n' +
+    '  description?: string;\n' +
+    '  service_availability?: string;\n' +
+    '  release_status?: string;\n' +
+    '  core_search_status?: string;\n' +
+    '  platform_release_status?: string;\n' +
+    '  comparison_release_status?: string;\n' +
+    '  comparison_status?: string;\n' +
+    '  recommendation_release_status?: string;\n' +
+    '  recommendation_status?: string;\n' +
+    '  capabilities?: { search?: string; discovery?: string; comparison?: string; shadow?: string; owner_pilot?: string; recommendation?: string };\n' +
+    '  generation_id?: string;\n' +
+    '  deployment_commit?: string;\n' +
+    '  source_head_commit?: string;\n' +
+    '  release_candidate_commit?: string;\n' +
+    '  production_commit?: string;\n' +
+    '  production_deployed_at?: string | null;\n' +
+    '  source_freshness_status?: string;\n' +
+    '  artifact_contract?: Record<string, unknown>;\n' +
+    '  recommendation_enabled?: boolean;\n' +
+    '  owner_pilot_approval_receipt?: Record<string, unknown> | null;\n' +
+    '  blocking_reasons?: string[];\n' +
+    '  live_regression_evidence?: ManifestEntry;\n' +
+    '  _live_regression?: Record<string, unknown>;\n' +
+    '  openfin_120_live_regression?: Record<string, unknown>;\n' +
+    '  runtime_quality_metrics?: Record<string, unknown>;\n' +
+    '  search_index?: ManifestEntry;\n' +
+    '  detail_search_index?: ManifestEntry;\n' +
+    '  hot_search_index?: ManifestEntry;\n' +
+    '  exact_fetch_index?: ManifestEntry;\n' +
+    '  quality_exports?: ManifestEntry[];\n' +
+    '  source_registry?: ManifestEntry;\n' +
+    '  source_status?: ManifestEntry;\n' +
+    '  provenance_index?: ManifestEntry;\n' +
+    '  provenance_coverage?: ManifestEntry;\n' +
+    '  relationship_index?: ManifestEntry;\n' +
+    '  decision_offers?: SearchIndexShard;\n' +
+    '  domain_readiness?: Record<string, Record<string, unknown>>;\n' +
+    '  degraded_domains?: string[];\n' +
+    '  exports: ManifestEntry[];\n' +
+    '  manifest_checksum?: string;\n' +
+    '  _manifest_checksum_verified?: boolean;\n' +
+    '};\n' +
+    '\n' +
+    'type FinanceGraph = {\n' +
+    '  version: string;\n' +
+    '  basis_date: string;\n' +
+    '  manifest: FinanceManifest;\n' +
+    '  exports: ManifestEntry[];\n' +
+    '  items: FinanceItem[];\n' +
+    '};\n' +
+    '\n' +
+    'type CachedGraph = {\n' +
+    '  data: FinanceGraph;\n' +
+    '  loadedAt: number;\n' +
+    '  generation: string;\n' +
+    '};\n' +
+    '\n' +
+    'type SearchIndexFile = {\n' +
+    '  readonly version: string;\n' +
+    '  readonly basis_date: string;\n' +
+    '  readonly item_count?: number;\n' +
+    '  readonly export_checksum?: string;\n' +
+    '  readonly content_checksum?: string;\n' +
+    '  readonly items?: readonly FinanceItem[];\n' +
+    '  readonly shards?: readonly SearchIndexShard[];\n' +
+    '};\n' +
+    '\n' +
+    'type CachedSearchIndexMetadata = {\n' +
+    '  readonly data: SearchIndexFile;\n' +
+    '  readonly loadedAt: number;\n' +
+    '  readonly generation: string;\n' +
+    '};\n' +
+    '\n' +
+    'type CachedSearchItems = {\n' +
+    '  readonly items: readonly FinanceItem[];\n' +
+    '  readonly payload?: unknown;\n' +
+    '  readonly loadedAt: number;\n' +
+    '  readonly generation: string;\n' +
+    '  readonly bytes?: number;\n' +
+    '  readonly decodedRows?: number;\n' +
+    '};\n' +
+    '\n' +
+    'type LoadedSearchShard = {\n' +
+    '  readonly payload: unknown;\n' +
+    '  readonly source: string;\n' +
+    '  readonly rawBytes: number;\n' +
+    '  readonly rawTextUnits: number;\n' +
+    '  readonly fetchMs: number;\n' +
+    '  readonly checksumMs: number;\n' +
+    '  readonly parseMs: number;\n' +
+    '};\n' +
+    '\n' +
+    'type FinanceArtifacts = {\n' +
+    '  source_registry?: unknown;\n' +
+    '  source_status?: unknown;\n' +
+    '  provenance_index?: unknown;\n' +
+    '  provenance_coverage?: unknown;\n' +
+    '  relationship_index?: unknown;\n' +
+    '};\n' +
+    '\n' +
+    'type '... 187014 more characters
+
+      at TestContext.<anonymous> (file:///C:/Users/resti/OneDrive/%EB%AC%B8%EC%84%9C/ChatGPT/%EA%B8%88%EC%9C%B5%EC%98%A8%ED%86%A8%EB%A1%9C%EC%A7%80/OpenFin-team-improvement/tests/knowledge/release-workflow.test.mjs:59:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'import { createMcpHandler } from "agents/mcp";\nexport { OwnerProofReplayObject } from "./owner-proof-replay-object.ts";\nimport { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";\nimport { z } from "zod";\nimport { generationCacheKey, isCurrentGeneration, SingleFlight } from "./generation-cache";\nimport { CacheBudget } from "./cache-budget.ts";\nimport { resolveSourceStatus, sourceIdsForItem } from "./source-status";\nimport { evaluateReleaseGate } from "./release-gate";\nimport { evaluateEligibility, productDomain, recommendationFields } from "./recommendation/policy";\nimport { explainCandidate } from "./recommendation/explanation";\nimport { rankCandidate } from "./recommendation/ranking";\nimport { buildRecommendationCandidates } from "./tools/recommend";\nimport { PERSONAL_FINANCE_SNAPSHOT_SCHEMA, registerPersonalFinanceTools } from "./tools/personal-finance";\nimport { diversifyBroadResults, registerSearchTool } from "./tools/search";\nimport { registerDiscoverTool } from "./tools/discover";\nimport { registerRecommendTool } from "./tools/recommend-handler";\nimport { registerCompareTool } from "./tools/compare";\nimport { registerRecommendShadowTool } from "./tools/recommend-shadow";\nimport { registerRecommendOwnerPilotTool } from "./tools/recommend-owner-pilot";\nimport personalFinancePolicy from "../../contracts/personal-finance-policy.json" with { type: "json" };\nimport { decodeTargetedExactRows, exactFetchShardId, exportIdForItemId, needsSummaryDetailHydration, registerFetchTool } from "./tools/fetch";\nimport { registerExportsTool } from "./tools/exports";\nimport { livenessPayload, readinessPayload } from "./health";\nimport { asCapabilityStatus, asServiceAvailability } from "./capability-status.ts";\nimport { isVerifiedActive } from "./product-status";\nimport { calculateFinancialOutcome } from "./recommendation/outcome";\nimport { resolveAttainableRate } from "./recommendation/attainable-rate";\nimport { adaptDecisionOfferOptions, comparisonCandidateAdapter, recommendationCandidateAdapter } from "./decision/candidate-adapter.ts";\nimport { mergeOntologyExportItems, recombineOntologyExportPayloads } from "./export-shards.ts";\n\ntype FinanceItem = {\n  id: string;\n  title: string;\n  type: string;\n  description?: string;\n  basis_year?: number;\n  basis_date?: string;\n  publisher?: string;\n  url?: string;\n  law_reference?: string;\n  criteria?: unknown[];\n  options?: unknown[];\n  observed_at?: string;\n  product_id?: string;\n  provider_id?: string;\n  field_assertions?: Record<string, unknown>[];\n  benefits?: unknown[];\n  parents?: string[];\n  children?: string[];\n  related?: string[];\n  terms?: string[];\n  deadlines?: string[];\n  sources?: string[];\n  tags?: string[];\n  provider?: string;\n  provider_code?: string;\n  financial_sector?: string;\n  product_code?: string;\n  product_kind?: string;\n  search_type?: string;\n  product_status?: string;\n  sales_status?: string;\n  source_listing_status?: string;\n  sales_verification_status?: string;\n  sales_verified_at?: string;\n  condition_verification_status?: string;\n  source_freshness_status?: string;\n  status?: string;\n  status_reason?: string;\n  recommendation_status?: string;\n  recommendation_scope?: string;\n  capabilities?: { comparison?: string; recommendation?: string };\n  comparison_approved?: boolean;\n  recommendation_approved?: boolean;\n  candidate_id?: string;\n  option_id?: string;\n  offer_id?: string;\n  evidence_gate?: Record<string, unknown>;\n  catalog_recommendation_status?: string;\n  catalog_recommendation_scope?: string;\n  canonical_product_id?: string;\n  resolved_canonical_product_id?: string;\n  external_product_ids?: { namespace: string; value: string }[];\n  provider_external_ids?: { namespace: string; value: string }[];\n  provider_roles?: string[];\n  source_records?: Record<string, unknown>[];\n  preferred_source?: string;\n  merged_fields?: Record<string, unknown>;\n  field_provenance?: Record<string, string[]>;\n  field_conflicts?: Record<string, unknown>;\n  recommendation_model_version?: string;\n  recommendation_exclusion_reasons?: string[];\n  recommendation_basis_fields?: string[];\n  comparison_basis_fields?: string[];\n  verification_status?: string;\n  quality_flags?: string[];\n  verification_evidence?: Record<string, unknown>;\n  missing_required_fields?: string[];\n  missing_in_source_fields?: string[];\n  unmapped_existing_fields?: string[];\n  unverified_fields?: string[];\n  discovery_evidence_fields?: string[];\n  completeness_ratio?: number;\n  source_completeness_ratio?: number;\n  normalized_completeness_ratio?: number;\n  verified_completeness_ratio?: number;\n  required_field_count?: number;\n  completed_field_count?: number;\n  domain_gate_passed?: boolean;\n  comparison_engine_gate_passed?: boolean;\n  comparison_field_verification_status?: string;\n  comparison_field_verification?: Record<string, unknown>;\n  comparison_options?: unknown[];\n  application_status?: string;\n  is_currently_applicable?: boolean;\n  application_open_from?: string;\n  application_open_to?: string;\n  application_window?: Record<string, unknown>;\n  jurisdiction?: string;\n  jurisdiction_code?: string;\n  jurisdiction_aliases?: string[];\n  parent_jurisdiction_code?: string;\n  administrative_history?: unknown[];\n  target_group?: string[];\n  support_category?: string[];\n  last_status_checked_at?: string;\n  freshness_status?: string;\n  collection_status?: string;\n  last_verified_at?: string;\n  last_source_checked_at?: string;\n  last_reviewed_at?: string;\n  public_recommendation_exclusion_reasons?: string[];\n  comparison_exclusion_reasons?: string[];\n  discovery_limitations?: string[];\n  export_id?: string;\n  search_text?: string;\n  search_aliases?: string[];\n  legacy_ids?: string[];\n  aliases?: string[];\n  source_urls?: string[];\n  source_ids?: string[];\n  source_basis_dates?: string[];\n  source_checksum?: string;\n  state?: string;\n  collected_at?: string | null;\n  normalized_at?: string | null;\n  verified_at?: string | null;\n  published_at?: string | null;\n  source_assertions?: Record<string, unknown>[];\n  source_assertion_ids?: string[];\n  provenance?: Record<string, unknown>[];\n  provenance_shard?: string;\n  shard_id?: string;\n  promotion_receipt?: Record<string, unknown>;\n  risk_level?: string;\n  structured_summary?: Record<string, unknown>;\n  search_facets?: Record<string, unknown>;\n  support_state?: number;\n  support_region?: string;\n};\n\ntype ManifestEntry = {\n  id: string;\n  domain: string;\n  path: string;\n  url?: string;\n  web_url?: string;\n  item_count?: number;\n  row_count?: number;\n  product_count?: number;\n  description?: string;\n  shards?: SearchIndexShard[];\n  coverage?: Record<string, unknown>;\n  summary?: Record<string, unknown>;\n  export_checksum?: string;\n  content_checksum?: string;\n  generated_at?: string;\n};\n\ntype SearchIndexShard = {\n  id: string;\n  shard_id: string;\n  path: string;\n  url?: string;\n  web_url?: string;\n  item_count?: number;\n  export_checksum?: string;\n  content_checksum?: string;\n};\n\ntype FinanceManifest = {\n  version: string;\n  basis_date: string;\n  name: string;\n  description?: string;\n  service_availability?: string;\n  release_status?: string;\n  core_search_status?: string;\n  platform_release_status?: string;\n  comparison_release_status?: string;\n  comparison_status?: string;\n  recommendation_release_status?: string;\n  recommendation_status?: string;\n  capabilities?: { search?: string; discovery?: string; comparison?: string; shadow?: string; owner_pilot?: string; recommendation?: string };\n  generation_id?: string;\n  deployment_commit?: string;\n  source_head_commit?: string;\n  release_candidate_commit?: string;\n  production_commit?: string;\n  production_deployed_at?: string | null;\n  source_freshness_status?: string;\n  artifact_contract?: Record<string, unknown>;\n  recommendation_enabled?: boolean;\n  owner_pilot_approval_receipt?: Record<string, unknown> | null;\n  blocking_reasons?: string[];\n  live_regression_evidence?: ManifestEntry;\n  _live_regression?: Record<string, unknown>;\n  openfin_120_live_regression?: Record<string, unknown>;\n  runtime_quality_metrics?: Record<string, unknown>;\n  search_index?: ManifestEntry;\n  detail_search_index?: ManifestEntry;\n  hot_search_index?: ManifestEntry;\n  exact_fetch_index?: ManifestEntry;\n  quality_exports?: ManifestEntry[];\n  source_registry?: ManifestEntry;\n  source_status?: ManifestEntry;\n  provenance_index?: ManifestEntry;\n  provenance_coverage?: ManifestEntry;\n  relationship_index?: ManifestEntry;\n  decision_offers?: SearchIndexShard;\n  domain_readiness?: Record<string, Record<string, unknown>>;\n  degraded_domains?: string[];\n  exports: ManifestEntry[];\n  manifest_checksum?: string;\n  _manifest_checksum_verified?: boolean;\n};\n\ntype FinanceGraph = {\n  version: string;\n  basis_date: string;\n  manifest: FinanceManifest;\n  exports: ManifestEntry[];\n  items: FinanceItem[];\n};\n\ntype CachedGraph = {\n  data: FinanceGraph;\n  loadedAt: number;\n  generation: string;\n};\n\ntype SearchIndexFile = {\n  readonly version: string;\n  readonly basis_date: string;\n  readonly item_count?: number;\n  readonly export_checksum?: string;\n  readonly content_checksum?: string;\n  readonly items?: readonly FinanceItem[];\n  readonly shards?: readonly SearchIndexShard[];\n};\n\ntype CachedSearchIndexMetadata = {\n  readonly data: SearchIndexFile;\n  readonly loadedAt: number;\n  readonly generation: string;\n};\n\ntype CachedSearchItems = {\n  readonly items: readonly FinanceItem[];\n  readonly payload?: unknown;\n  readonly loadedAt: number;\n  readonly generation: string;\n  readonly bytes?: number;\n  readonly decodedRows?: number;\n};\n\ntype LoadedSearchShard = {\n  readonly payload: unknown;\n  readonly source: string;\n  readonly rawBytes: number;\n  readonly rawTextUnits: number;\n  readonly fetchMs: number;\n  readonly checksumMs: number;\n  readonly parseMs: number;\n};\n\ntype FinanceArtifacts = {\n  source_registry?: unknown;\n  source_status?: unknown;\n  provenance_index?: unknown;\n  provenance_coverage?: unknown;\n  relationship_index?: unknown;\n};\n\ntype '... 187014 more characters,
+    expected: /decodeURIComponent\(value\)/,
+    operator: 'match',
+    diff: 'simple'
+  }
+
+test at tests\knowledge\release-workflow.test.mjs:86:1
+✖ all workflows are manual and source tracking is report-only unless explicitly opted into a review PR (1.2091ms)
+  AssertionError [ERR_ASSERTION]: The input was expected to not match the regular expression /^  (?!workflow_dispatch:)[a-z_]+:/m. Input:
+
+  '\n' +
+    '  push:\n' +
+    '    branches: [main]\n' +
+    '    # Markdown changes do not change the Worker bundle.\n' +
+    "    paths: ['mcp/**', '!mcp/**/*.md', 'docs/opentax/korea-tax-ontology-2026.json', '.github/workflows/deploy-mcp.yml']\n" +
+    '  pull_request:\n' +
+    '    branches: [main]\n' +
+    "    paths: ['mcp/**', '!mcp/**/*.md', 'docs/opentax/korea-tax-ontology-2026.json', '.github/workflows/deploy-mcp.yml']\n" +
+    '  workflow_dispatch:\n'
+
+      at TestContext.<anonymous> (file:///C:/Users/resti/OneDrive/%EB%AC%B8%EC%84%9C/ChatGPT/%EA%B8%88%EC%9C%B5%EC%98%A8%ED%86%A8%EB%A1%9C%EC%A7%80/OpenFin-team-improvement/tests/knowledge/release-workflow.test.mjs:91:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: "\n  push:\n    branches: [main]\n    # Markdown changes do not change the Worker bundle.\n    paths: ['mcp/**', '!mcp/**/*.md', 'docs/opentax/korea-tax-ontology-2026.json', '.github/workflows/deploy-mcp.yml']\n  pull_request:\n    branches: [main]\n    paths: ['mcp/**', '!mcp/**/*.md', 'docs/opentax/korea-tax-ontology-2026.json', '.github/workflows/deploy-mcp.yml']\n  workflow_dispatch:\n",
+    expected: /^  (?!workflow_dispatch:)[a-z_]+:/m,
+    operator: 'doesNotMatch',
+    diff: 'simple'
+  }
+
+test at tests\knowledge\release-workflow.test.mjs:108:1
+✖ legacy production deployment workflows are fail-closed (1.0957ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /Legacy direct .* deployment is disabled/. Input:
+
+  'name: OpenFin MCP pipeline\n' +
+    '\n' +
+    'on:\n' +
+    '  push:\n' +
+    '    branches: [main]\n' +
+    '    # Markdown changes do not change the Worker bundle.\n' +
+    "    paths: ['mcp/**', '!mcp/**/*.md', 'docs/opentax/korea-tax-ontology-2026.json', '.github/workflows/deploy-mcp.yml']\n" +
+    '  pull_request:\n' +
+    '    branches: [main]\n' +
+    "    paths: ['mcp/**', '!mcp/**/*.md', 'docs/opentax/korea-tax-ontology-2026.json', '.github/workflows/deploy-mcp.yml']\n" +
+    '  workflow_dispatch:\n' +
+    '\n' +
+    'permissions:\n' +
+    '  contents: read\n' +
+    '\n' +
+    'concurrency:\n' +
+    '  group: openfin-mcp-pipeline-${{ github.ref }}\n' +
+    '  # Never interrupt a production upload already in progress.\n' +
+    '  cancel-in-progress: false\n' +
+    '\n' +
+    'jobs:\n' +
+    '  scope:\n' +
+    '    runs-on: ubuntu-latest\n' +
+    '    outputs:\n' +
+    '      deploy: ${{ steps.scope.outputs.deploy }}\n' +
+    '    steps:\n' +
+    '      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5\n' +
+    '        with:\n' +
+    '          fetch-depth: 0\n' +
+    '      - name: Determine whether Worker inputs changed\n' +
+    '        id: scope\n' +
+    '        env:\n' +
+    '          EVENT_NAME: ${{ github.event_name }}\n' +
+    '          BEFORE_SHA: ${{ github.event.before }}\n' +
+    '        shell: bash\n' +
+    '        run: |\n' +
+    '          set -euo pipefail\n' +
+    `          if [[ "$EVENT_NAME" == 'workflow_dispatch' ]]; then\n` +
+    `            echo 'deploy=true' >> "$GITHUB_OUTPUT"\n` +
+    `          elif [[ "$EVENT_NAME" == 'push' ]]; then\n` +
+    '            # The first push has no previous tree; deploy conservatively.\n' +
+    '            if [[ "$BEFORE_SHA" =~ ^0+$ ]]; then\n' +
+    `              echo 'deploy=true' >> "$GITHUB_OUTPUT"\n` +
+    '            else\n' +
+    '              git rev-parse --verify "${BEFORE_SHA}^{commit}" >/dev/null\n' +
+    `              changed=$(git diff --name-only "$BEFORE_SHA" "$GITHUB_SHA" -- mcp ':(exclude,glob)mcp/**/*.md' docs/opentax/korea-tax-ontology-2026.json)\n` +
+    '              if [[ -n "$changed" ]]; then\n' +
+    `                echo 'deploy=true' >> "$GITHUB_OUTPUT"\n` +
+    '              else\n' +
+    `                echo 'deploy=false' >> "$GITHUB_OUTPUT"\n` +
+    '              fi\n' +
+    '            fi\n' +
+    '          else\n' +
+    `            echo 'deploy=false' >> "$GITHUB_OUTPUT"\n` +
+    '          fi\n' +
+    '\n' +
+    '  validate:\n' +
+    '    runs-on: ubuntu-latest\n' +
+    '    timeout-minutes: 15\n' +
+    '    defaults:\n' +
+    '      run:\n' +
+    '        working-directory: mcp\n' +
+    '    steps:\n' +
+    '      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5\n' +
+    '      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5\n' +
+    '        with:\n' +
+    "          node-version: '24'\n" +
+    '          cache: npm\n' +
+    '          cache-dependency-path: mcp/package-lock.json\n' +
+    '      - run: npm ci\n' +
+    '      - run: npm run build:free\n' +
+    '      - run: npm run typecheck\n' +
+    '      - run: node --experimental-strip-types --test tests/free-catalog.test.mjs\n' +
+    '      - run: node --test tests/deploy-free.test.mjs\n' +
+    '      - run: node --test tests/deploy-scope.test.mjs\n' +
+    '      - name: Validate production bundle without deploying\n' +
+    '        run: npx wrangler deploy --config wrangler.free.jsonc --dry-run\n' +
+    '\n' +
+    '  deploy:\n' +
+    '    # Cloudflare native Git builds must be disconnected before enabling this job.\n' +
+    "    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && needs.scope.outputs.deploy == 'true'\n" +
+    '    needs: [validate, scope]\n' +
+    '    runs-on: ubuntu-latest\n' +
+    '    timeout-minutes: 15\n' +
+    '    defaults:\n' +
+    '      run:\n' +
+    '        working-directory: mcp\n' +
+    '    steps:\n' +
+    '      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5\n' +
+    '      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5\n' +
+    '        with:\n' +
+    "          node-version: '24'\n" +
+    '          cache: npm\n' +
+    '          cache-dependency-path: mcp/package-lock.json\n' +
+    '      - run: npm ci\n' +
+    '      - name: Require the production deployment credential\n' +
+    '        env:\n' +
+    '          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}\n' +
+    '        run: |\n' +
+    '          if [ -z "$CLOUDFLARE_API_TOKEN" ]; then\n' +
+    "            echo '::error::Add the scoped CLOUDFLARE_API_TOKEN repository secret before deploying.'\n" +
+    '            exit 1\n' +
+    '          fi\n' +
+    '      - name: Refuse deployment if main has newer MCP inputs\n' +
+    '        run: |\n' +
+    '          git fetch --no-tags --depth=1 origin refs/heads/main\n' +
+    '          latest="$(git rev-parse FETCH_HEAD)"\n' +
+    '          node scripts/verify-deploy-scope.mjs "$GITHUB_SHA" "$latest"\n' +
+    '      - name: Build the production upload bundle\n' +
+    '        run: npx wrangler deploy --config wrangler.free.jsonc --dry-run --outfile "$RUNNER_TEMP/openfin-upload.bundle"\n' +
+    '      - name: Deploy to the existing Worker without changing routes\n' +
+    '        env:\n' +
+    '          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}\n' +
+    '          CLOUDFLARE_ACCOUNT_ID: ac086a8cc9083647e67db51e8310f34b\n' +
+    '        run: node scripts/deploy-free.mjs "$RUNNER_TEMP/openfin-upload.bundle"\n' +
+    '      - name: Check the deployed MCP with the official SDK\n' +
+    '        env:\n' +
+    '          MCP_URL: https://openfin.cocomo0412.workers.dev/mcp\n' +
+    '        run: |\n' +
+    '          for attempt in 1 2 3 4 5; do\n' +
+    '            if node scripts/smoke-free.mjs; then\n' +
+    `              echo '### Live MCP verification passed' >> "$GITHUB_STEP_SUMMARY"\n` +
+    `              echo 'Initialization, tools, search, fetch, source checksum and input guards passed.' >> "$GITHUB_STEP_SUMMARY"\n` +
+    '              exit 0\n' +
+    '            fi\n' +
+    '            if [ "$attempt" -lt 5 ]; then sleep 15; fi\n' +
+    '          done\n' +
+    `          echo '### Live MCP verification failed' >> "$GITHUB_STEP_SUMMARY"\n` +
+    '          exit 1\n'
+
+      at TestContext.<anonymous> (file:///C:/Users/resti/OneDrive/%EB%AC%B8%EC%84%9C/ChatGPT/%EA%B8%88%EC%9C%B5%EC%98%A8%ED%86%A8%EB%A1%9C%EC%A7%80/OpenFin-team-improvement/tests/knowledge/release-workflow.test.mjs:111:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'name: OpenFin MCP pipeline\n\non:\n  push:\n    branches: [main]\n    # Markdown changes do not change the Worker bundle.\n    paths: [\'mcp/**\', \'!mcp/**/*.md\', \'docs/opentax/korea-tax-ontology-2026.json\', \'.github/workflows/deploy-mcp.yml\']\n  pull_request:\n    branches: [main]\n    paths: [\'mcp/**\', \'!mcp/**/*.md\', \'docs/opentax/korea-tax-ontology-2026.json\', \'.github/workflows/deploy-mcp.yml\']\n  workflow_dispatch:\n\npermissions:\n  contents: read\n\nconcurrency:\n  group: openfin-mcp-pipeline-${{ github.ref }}\n  # Never interrupt a production upload already in progress.\n  cancel-in-progress: false\n\njobs:\n  scope:\n    runs-on: ubuntu-latest\n    outputs:\n      deploy: ${{ steps.scope.outputs.deploy }}\n    steps:\n      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5\n        with:\n          fetch-depth: 0\n      - name: Determine whether Worker inputs changed\n        id: scope\n        env:\n          EVENT_NAME: ${{ github.event_name }}\n          BEFORE_SHA: ${{ github.event.before }}\n        shell: bash\n        run: |\n          set -euo pipefail\n          if [[ "$EVENT_NAME" == \'workflow_dispatch\' ]]; then\n            echo \'deploy=true\' >> "$GITHUB_OUTPUT"\n          elif [[ "$EVENT_NAME" == \'push\' ]]; then\n            # The first push has no previous tree; deploy conservatively.\n            if [[ "$BEFORE_SHA" =~ ^0+$ ]]; then\n              echo \'deploy=true\' >> "$GITHUB_OUTPUT"\n            else\n              git rev-parse --verify "${BEFORE_SHA}^{commit}" >/dev/null\n              changed=$(git diff --name-only "$BEFORE_SHA" "$GITHUB_SHA" -- mcp \':(exclude,glob)mcp/**/*.md\' docs/opentax/korea-tax-ontology-2026.json)\n              if [[ -n "$changed" ]]; then\n                echo \'deploy=true\' >> "$GITHUB_OUTPUT"\n              else\n                echo \'deploy=false\' >> "$GITHUB_OUTPUT"\n              fi\n            fi\n          else\n            echo \'deploy=false\' >> "$GITHUB_OUTPUT"\n          fi\n\n  validate:\n    runs-on: ubuntu-latest\n    timeout-minutes: 15\n    defaults:\n      run:\n        working-directory: mcp\n    steps:\n      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5\n      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5\n        with:\n          node-version: \'24\'\n          cache: npm\n          cache-dependency-path: mcp/package-lock.json\n      - run: npm ci\n      - run: npm run build:free\n      - run: npm run typecheck\n      - run: node --experimental-strip-types --test tests/free-catalog.test.mjs\n      - run: node --test tests/deploy-free.test.mjs\n      - run: node --test tests/deploy-scope.test.mjs\n      - name: Validate production bundle without deploying\n        run: npx wrangler deploy --config wrangler.free.jsonc --dry-run\n\n  deploy:\n    # Cloudflare native Git builds must be disconnected before enabling this job.\n    if: github.ref == \'refs/heads/main\' && github.event_name != \'pull_request\' && needs.scope.outputs.deploy == \'true\'\n    needs: [validate, scope]\n    runs-on: ubuntu-latest\n    timeout-minutes: 15\n    defaults:\n      run:\n        working-directory: mcp\n    steps:\n      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5\n      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5\n        with:\n          node-version: \'24\'\n          cache: npm\n          cache-dependency-path: mcp/package-lock.json\n      - run: npm ci\n      - name: Require the production deployment credential\n        env:\n          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}\n        run: |\n          if [ -z "$CLOUDFLARE_API_TOKEN" ]; then\n            echo \'::error::Add the scoped CLOUDFLARE_API_TOKEN repository secret before deploying.\'\n            exit 1\n          fi\n      - name: Refuse deployment if main has newer MCP inputs\n        run: |\n          git fetch --no-tags --depth=1 origin refs/heads/main\n          latest="$(git rev-parse FETCH_HEAD)"\n          node scripts/verify-deploy-scope.mjs "$GITHUB_SHA" "$latest"\n      - name: Build the production upload bundle\n        run: npx wrangler deploy --config wrangler.free.jsonc --dry-run --outfile "$RUNNER_TEMP/openfin-upload.bundle"\n      - name: Deploy to the existing Worker without changing routes\n        env:\n          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}\n          CLOUDFLARE_ACCOUNT_ID: ac086a8cc9083647e67db51e8310f34b\n        run: node scripts/deploy-free.mjs "$RUNNER_TEMP/openfin-upload.bundle"\n      - name: Check the deployed MCP with the official SDK\n        env:\n          MCP_URL: https://openfin.cocomo0412.workers.dev/mcp\n        run: |\n          for attempt in 1 2 3 4 5; do\n            if node scripts/smoke-free.mjs; then\n              echo \'### Live MCP verification passed\' >> "$GITHUB_STEP_SUMMARY"\n              echo \'Initialization, tools, search, fetch, source checksum and input guards passed.\' >> "$GITHUB_STEP_SUMMARY"\n              exit 0\n            fi\n            if [ "$attempt" -lt 5 ]; then sleep 15; fi\n          done\n          echo \'### Live MCP verification failed\' >> "$GITHUB_STEP_SUMMARY"\n          exit 1\n',
+    expected: /Legacy direct .* deployment is disabled/,
+    operator: 'match',
+    diff: 'simple'
+  }
